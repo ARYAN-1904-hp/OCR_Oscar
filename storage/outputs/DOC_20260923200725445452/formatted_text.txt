@@ -1,0 +1,265 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x1042 | blocks=13 | tables=4 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x5
+HEADER | Curamind | Claims Management | David Kim | PROC002 | Logout
+ROW 1 | - | Ox | - | - | Back to Dashboard
+  CELL[1,1] = Ox
+  CELL[1,4] = Back to Dashboard
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 15x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Professional Claim X | - | - | -
+  CELL[1,0] = Professional Claim X
+ROW 2 | - | - | Save changes | -
+  CELL[2,2] = Save changes
+ROW 3 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+  CELL[3,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+ROW 4 | Processor: David Kim | Last edit:11/17/202509:12 Processor ID:PROC002 Decision SLA:2 days | - | -
+  CELL[4,0] = Processor: David Kim
+  CELL[4,1] = Last edit:11/17/202509:12 Processor ID:PROC002 Decision SLA:2 days
+ROW 5 | Diagnosis Codes (IcD-10) | - | - | -
+  CELL[5,0] = Diagnosis Codes (IcD-10)
+ROW 6 | Primary J06.9 | ACUTE UPPER RESPIRATORY INFECTION, | - | -
+  CELL[6,0] = Primary J06.9
+  CELL[6,1] = ACUTE UPPER RESPIRATORY INFECTION,
+ROW 7 | Diagnosis | UNSPECIFIED | - | -
+  CELL[7,0] = Diagnosis
+  CELL[7,1] = UNSPECIFIED
+ROW 8 | Type | Diagnosis Code ICD-10-CM Indicator: POA | YES,present on admission | -
+  CELL[8,0] = Type
+  CELL[8,1] = Diagnosis Code ICD-10-CM Indicator: POA
+  CELL[8,2] = YES,present on admission
+ROW 9 | Procedure/ Service Coding | - | - | -
+  CELL[9,0] = Procedure/ Service Coding
+ROW 10 | Medical Necessity Review | - | - | -
+  CELL[10,0] = Medical Necessity Review
+ROW 11 | Reviewed David Kim Review Date:11/15/2025 Status | APPROVED | - | -
+  CELL[11,0] = Reviewed David Kim Review Date:11/15/2025 Status
+  CELL[11,1] = APPROVED
+ROW 12 | By | (PROC002) | - | -
+  CELL[12,0] = By
+  CELL[12,1] = (PROC002)
+ROW 13 | Review Notes: | - | - | -
+  CELL[13,0] = Review Notes:
+ROW 14 | Eligibility verified. Approved. | - | - | -
+  CELL[14,0] = Eligibility verified. Approved.
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 3x5
+HEADER | Seq | Code | Description | Type | Date
+ROW 1 | 0 | J06.9 | ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED | PRIMARY | 11/07/2025
+  CELL[1,0] = 0
+  CELL[1,1] = J06.9
+  CELL[1,2] = ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED
+  CELL[1,3] = PRIMARY
+  CELL[1,4] = 11/07/2025
+ROW 2 | 1 | M54.50 | LOWBACK PAIN,UNSPECIFIED | ADMITTING | 11/07/2025
+  CELL[2,0] = 1
+  CELL[2,1] = M54.50
+  CELL[2,2] = LOWBACK PAIN,UNSPECIFIED
+  CELL[2,3] = ADMITTING
+  CELL[2,4] = 11/07/2025
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 2x6
+HEADER | Seq | CPT/HCPCS | Modifier | Description Office/outpatient visit.established patient,moderate complexity | Diag Pointer A | Date of Service 11/07/2025
+ROW 1 | 1 | P-99214 | 59 | - | - | -
+  CELL[1,0] = 1
+  CELL[1,1] = P-99214
+  CELL[1,2] = 59
+[/TABLE 3]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[26,7,1404,40] | order=0
+  Curamind Claims Management David Kim PROC002 Logout
+BLOCK 1 | type=header | bbox=[34,63,1445,108] | order=1
+  Professional Claim X Ox Back to Dashboard
+BLOCK 2 | type=header | bbox=[1318,92,1419,108] | order=2
+  Save changes
+BLOCK 3 | type=table | bbox=[47,125,688,148] | order=3
+  Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+BLOCK 4 | type=table_row | bbox=[40,173,775,192] | order=4
+  Processor: David Kim Last edit:11/17/202509:12 Processor ID:PROC002 Decision SLA:2 days
+BLOCK 5 | type=table_row | bbox=[40,237,279,258] | order=5
+  Diagnosis Codes (IcD-10)
+BLOCK 6 | type=table | bbox=[38,275,1335,451] | order=6
+  Primary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED
+  Type: Diagnosis Code ICD-10-CM Indicator: POA YES,present on admission
+  Seq Code Description Type Date
+  0 J06.9 ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED PRIMARY 11/07/2025
+  1 M54.50 LOWBACK PAIN,UNSPECIFIED ADMITTING 11/07/2025
+BLOCK 7 | type=table_row | bbox=[41,584,297,606] | order=7
+  Procedure/ Service Coding
+BLOCK 8 | type=table | bbox=[49,626,1369,672] | order=8
+  Seq 1 P-99214 CPT/HCPCS 59 Modifier Description Office/outpatient visit.established patient,moderate complexity Diag Pointer A Date of Service 11/07/2025
+BLOCK 9 | type=table_row | bbox=[43,786,282,801] | order=9
+  Medical Necessity Review
+BLOCK 10 | type=table | bbox=[40,818,761,842] | order=10
+  Reviewed David Kim Review Date: 11/15/2025 Status: APPROVED
+BLOCK 11 | type=table_row | bbox=[40,837,211,886] | order=11
+  By: (PROC002)
+  Review Notes:
+BLOCK 12 | type=table_row | bbox=[53,901,236,920] | order=12
+  Eligibility verified. Approved.
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[34,65,1419,920] | shape=15x4 | conf=0.920
+  shape: 15x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Professional Claim X | - | - | -
+    CELL[1,0] = Professional Claim X
+  ROW 2 | - | - | Save changes | -
+    CELL[2,2] = Save changes
+  ROW 3 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+    CELL[3,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  ROW 4 | Processor: David Kim | Last edit:11/17/202509:12 Processor ID:PROC002 Decision SLA:2 days | - | -
+    CELL[4,0] = Processor: David Kim
+    CELL[4,1] = Last edit:11/17/202509:12 Processor ID:PROC002 Decision SLA:2 days
+  ROW 5 | Diagnosis Codes (IcD-10) | - | - | -
+    CELL[5,0] = Diagnosis Codes (IcD-10)
+  ROW 6 | Primary J06.9 | ACUTE UPPER RESPIRATORY INFECTION, | - | -
+    CELL[6,0] = Primary J06.9
+    CELL[6,1] = ACUTE UPPER RESPIRATORY INFECTION,
+  ROW 7 | Diagnosis | UNSPECIFIED | - | -
+    CELL[7,0] = Diagnosis
+    CELL[7,1] = UNSPECIFIED
+  ROW 8 | Type | Diagnosis Code ICD-10-CM Indicator: POA | YES,present on admission | -
+    CELL[8,0] = Type
+    CELL[8,1] = Diagnosis Code ICD-10-CM Indicator: POA
+    CELL[8,2] = YES,present on admission
+  ROW 9 | Procedure/ Service Coding | - | - | -
+    CELL[9,0] = Procedure/ Service Coding
+  ROW 10 | Medical Necessity Review | - | - | -
+    CELL[10,0] = Medical Necessity Review
+  ROW 11 | Reviewed David Kim Review Date:11/15/2025 Status | APPROVED | - | -
+    CELL[11,0] = Reviewed David Kim Review Date:11/15/2025 Status
+    CELL[11,1] = APPROVED
+  ROW 12 | By | (PROC002) | - | -
+    CELL[12,0] = By
+    CELL[12,1] = (PROC002)
+  ROW 13 | Review Notes: | - | - | -
+    CELL[13,0] = Review Notes:
+  ROW 14 | Eligibility verified. Approved. | - | - | -
+    CELL[14,0] = Eligibility verified. Approved.
+TABLE 1 | source=wide_grid | bbox=[26,7,1445,83] | shape=2x5 | conf=0.850
+  shape: 2x5
+  HEADER | Curamind | Claims Management | David Kim | PROC002 | Logout
+  ROW 1 | - | Ox | - | - | Back to Dashboard
+    CELL[1,1] = Ox
+    CELL[1,4] = Back to Dashboard
+TABLE 2 | source=wide_grid | bbox=[50,375,1335,451] | shape=3x5 | conf=0.850
+  shape: 3x5
+  HEADER | Seq | Code | Description | Type | Date
+  ROW 1 | 0 | J06.9 | ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED | PRIMARY | 11/07/2025
+    CELL[1,0] = 0
+    CELL[1,1] = J06.9
+    CELL[1,2] = ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED
+    CELL[1,3] = PRIMARY
+    CELL[1,4] = 11/07/2025
+  ROW 2 | 1 | M54.50 | LOWBACK PAIN,UNSPECIFIED | ADMITTING | 11/07/2025
+    CELL[2,0] = 1
+    CELL[2,1] = M54.50
+    CELL[2,2] = LOWBACK PAIN,UNSPECIFIED
+    CELL[2,3] = ADMITTING
+    CELL[2,4] = 11/07/2025
+TABLE 3 | source=wide_grid | bbox=[49,626,1369,672] | shape=2x6 | conf=0.850
+  shape: 2x6
+  HEADER | Seq | CPT/HCPCS | Modifier | Description Office/outpatient visit.established patient,moderate complexity | Diag Pointer A | Date of Service 11/07/2025
+  ROW 1 | 1 | P-99214 | 59 | - | - | -
+    CELL[1,0] = 1
+    CELL[1,1] = P-99214
+    CELL[1,2] = 59
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[26,7,1404,40] | conf=0.982 | text=Curamind Claims Management David Kim PROC002 Logout
+  WORD | bbox=[26,17,125,34] | text=Curamind
+  WORD | bbox=[142,17,295,35] | text=Claims Management
+  WORD | bbox=[1153,7,1194,40] | text=David Kim
+  WORD | bbox=[1239,16,1307,31] | text=PROC002
+  WORD | bbox=[1351,16,1404,33] | text=Logout
+LINE 1 | bbox=[34,63,1445,108] | conf=0.784 | text=Professional Claim X Ox Back to Dashboard
+  WORD | bbox=[34,65,164,108] | text=Professional Claim X
+  WORD | bbox=[176,64,214,83] | text=Ox
+  WORD | bbox=[1301,63,1445,78] | text=Back to Dashboard
+LINE 2 | bbox=[1318,92,1419,108] | conf=0.990 | text=Save changes
+LINE 3 | bbox=[47,125,688,148] | conf=0.952 | text=Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  WORD | bbox=[47,128,117,144] | text=Claim Pg1
+  WORD | bbox=[161,125,228,148] | text=Prov pg2
+  WORD | bbox=[275,128,362,144] | text=Member Pg3
+  WORD | bbox=[414,128,523,144] | text=Diagnosis Pg4
+  WORD | bbox=[562,128,688,143] | text=Miscellaneous Pg5
+LINE 4 | bbox=[40,173,775,192] | conf=0.943 | text=Processor: David Kim Last edit:11/17/202509:12 Processor ID:PROC002 Decision SLA:2 days
+  WORD | bbox=[40,177,188,192] | text=Processor: David Kim
+  WORD | bbox=[238,177,431,192] | text=Last edit:11/17/202509:12
+  WORD | bbox=[430,174,606,190] | text=Processor ID:PROC002
+  WORD | bbox=[632,173,775,192] | text=Decision SLA:2 days
+LINE 5 | bbox=[40,237,279,258] | conf=0.975 | text=Diagnosis Codes (IcD-10)
+LINE 6 | bbox=[38,275,718,311] | conf=0.987 | text=Primary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED
+  WORD | bbox=[38,275,93,297] | text=Primary
+  WORD | bbox=[40,294,108,311] | text=Diagnosis:
+  WORD | bbox=[157,286,199,304] | text=J06.9
+  WORD | bbox=[446,278,718,293] | text=ACUTE UPPER RESPIRATORY INFECTION,
+  WORD | bbox=[446,295,538,311] | text=UNSPECIFIED
+LINE 7 | bbox=[38,323,960,360] | conf=0.983 | text=Type: Diagnosis Code ICD-10-CM Indicator: POA YES,present on admission
+  WORD | bbox=[38,339,77,360] | text=Type:
+  WORD | bbox=[40,324,138,340] | text=Diagnosis Code
+  WORD | bbox=[170,331,250,348] | text=ICD-10-CM
+  WORD | bbox=[470,338,536,357] | text=Indicator:
+  WORD | bbox=[471,323,503,340] | text=POA
+  WORD | bbox=[858,323,960,355] | text=YES,present on admission
+LINE 8 | bbox=[50,375,1297,399] | conf=0.997 | text=Seq Code Description Type Date
+  WORD | bbox=[50,377,83,399] | text=Seq
+  WORD | bbox=[113,379,151,397] | text=Code
+  WORD | bbox=[248,380,330,397] | text=Description
+  WORD | bbox=[1070,379,1107,397] | text=Type
+  WORD | bbox=[1257,375,1297,396] | text=Date
+LINE 9 | bbox=[50,400,1334,422] | conf=0.970 | text=0 J06.9 ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED PRIMARY 11/07/2025
+  WORD | bbox=[50,404,66,422] | text=0
+  WORD | bbox=[110,405,149,422] | text=J06.9
+  WORD | bbox=[247,404,587,421] | text=ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED
+  WORD | bbox=[1068,400,1130,422] | text=PRIMARY
+  WORD | bbox=[1257,400,1334,420] | text=11/07/2025
+LINE 10 | bbox=[50,433,1335,451] | conf=0.988 | text=1 M54.50 LOWBACK PAIN,UNSPECIFIED ADMITTING 11/07/2025
+  WORD | bbox=[50,434,63,451] | text=1
+  WORD | bbox=[111,434,163,450] | text=M54.50
+  WORD | bbox=[250,436,439,448] | text=LOWBACK PAIN,UNSPECIFIED
+  WORD | bbox=[1071,433,1145,449] | text=ADMITTING
+  WORD | bbox=[1259,433,1335,449] | text=11/07/2025
+LINE 11 | bbox=[41,584,297,606] | conf=0.983 | text=Procedure/ Service Coding
+LINE 12 | bbox=[49,626,1369,672] | conf=0.985 | text=Seq 1 P-99214 CPT/HCPCS 59 Modifier Description Office/outpatient visit.established patient,moderate complexity Diag Pointer A Date of Service 11/07/2025
+  WORD | bbox=[49,626,84,649] | text=Seq
+  WORD | bbox=[50,654,64,671] | text=1
+  WORD | bbox=[107,654,163,670] | text=P-99214
+  WORD | bbox=[108,629,190,645] | text=CPT/HCPCS
+  WORD | bbox=[252,652,274,672] | text=59
+  WORD | bbox=[253,629,315,645] | text=Modifier
+  WORD | bbox=[362,629,771,671] | text=Description Office/outpatient visit.established patient,moderate complexity
+  WORD | bbox=[1100,628,1194,670] | text=Diag Pointer A
+  WORD | bbox=[1259,626,1369,669] | text=Date of Service 11/07/2025
+LINE 13 | bbox=[43,786,282,801] | conf=0.964 | text=Medical Necessity Review
+LINE 14 | bbox=[40,818,761,842] | conf=0.984 | text=Reviewed David Kim Review Date: 11/15/2025 Status: APPROVED
+  WORD | bbox=[40,821,104,837] | text=Reviewed
+  WORD | bbox=[132,818,208,841] | text=David Kim
+  WORD | bbox=[342,827,521,842] | text=Review Date:11/15/2025
+  WORD | bbox=[613,826,661,842] | text=Status:
+  WORD | bbox=[686,826,761,841] | text=APPROVED
+LINE 15 | bbox=[40,837,211,856] | conf=0.955 | text=By: (PROC002)
+  WORD | bbox=[40,837,64,856] | text=By:
+  WORD | bbox=[135,838,211,855] | text=(PROC002)
+LINE 16 | bbox=[40,869,133,886] | conf=0.974 | text=Review Notes:
+LINE 17 | bbox=[53,901,236,920] | conf=0.985 | text=Eligibility verified. Approved.
+[/BOXES]

@@ -1,0 +1,268 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=22 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 27x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | - | -
+  CELL[1,0] = VERINT
+ROW 2 | Knowledge Management | - | - | -
+  CELL[2,0] = Knowledge Management
+ROW 3 | Search Cloud | - | - | -
+  CELL[3,0] = Search Cloud
+ROW 4 | Search knowledge | Q | < Search | -
+  CELL[4,0] = Search knowledge
+  CELL[4,1] = Q
+  CELL[4,2] = < Search
+ROW 5 | Reset All | - | - | -
+  CELL[5,0] = Reset All
+ROW 6 | Q | - | - | -
+  CELL[6,0] = Q
+ROW 7 | No Search Cloud | - | - | -
+  CELL[7,0] = No Search Cloud
+ROW 8 | My Bookmarks 17 F | - | - | -
+  CELL[8,0] = My Bookmarks 17 F
+ROW 9 | Browse | - | - | -
+  CELL[9,0] = Browse
+ROW 10 | Filter | Q | - | -
+  CELL[10,0] = Filter
+  CELL[10,1] = Q
+ROW 11 | Reset | - | - | -
+  CELL[11,0] = Reset
+ROW 12 | Benefits & Coverage Billing | Appian Labels Workflow | - | -
+  CELL[12,0] = Benefits & Coverage Billing
+  CELL[12,1] = Appian Labels Workflow
+ROW 13 | Appian Labels Workflow Applying Labels to Appian Tickets. | - | - | -
+  CELL[13,0] = Appian Labels Workflow Applying Labels to Appian Tickets.
+ROW 14 | Claims Investigation Claims Management | Summary Oscar is establishing a new labeling governance. | - | -
+  CELL[14,0] = Claims Investigation Claims Management
+  CELL[14,1] = Summary Oscar is establishing a new labeling governance.
+ROW 15 | > Claims Processing Claims Regulatory Ops | working Appian tickets. Moving process to standardize and monitor labels utilized when. | - | -
+  CELL[15,0] = > Claims Processing Claims Regulatory Ops
+  CELL[15,1] = working Appian tickets. Moving process to standardize and monitor labels utilized when.
+ROW 16 | Performance Management Pharmacy & Medication Man.. | that are attached to the claim and to re-triage the documents, if | - | -
+  CELL[16,0] = Performance Management Pharmacy & Medication Man..
+  CELL[16,1] = that are attached to the claim and to re-triage the documents, if
+ROW 17 | needed. Systems | - | - | -
+  CELL[17,0] = needed. Systems
+ROW 18 | Systems & Tools Third-Party Processes | Date Invalid Admit Date with Valid Service Dates Invalid Billing. | - | -
+  CELL[18,0] = Systems & Tools Third-Party Processes
+  CELL[18,1] = Date Invalid Admit Date with Valid Service Dates Invalid Billing.
+ROW 19 | TIN Invalid Service | - | - | -
+  CELL[19,0] = TIN Invalid Service
+ROW 20 | Utilization Review Utilization Management Guid.. | - | - | -
+  CELL[20,0] = Utilization Review Utilization Management Guid..
+ROW 21 | Duplicate Disputes | - | - | -
+  CELL[21,0] = Duplicate Disputes
+ROW 22 | Broker Support Virtual Telemedicine | * Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the | - | -
+  CELL[22,0] = Broker Support Virtual Telemedicine
+  CELL[22,1] = * Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+ROW 23 | 1. Inquires About Plan Selecti.. Pre-Care | tool we use to review and work claims holds and disputes. What. are panels in Cortex? A panel is a list of claims that have. | - | -
+  CELL[23,0] = 1. Inquires About Plan Selecti.. Pre-Care
+  CELL[23,1] = tool we use to review and work claims holds and disputes. What. are panels in Cortex? A panel is a list of claims that have.
+ROW 24 | something | - | - | -
+  CELL[24,0] = something
+ROW 25 | 5. After-Care 4. Care | - | - | -
+  CELL[25,0] = 5. After-Care 4. Care
+ROW 26 | 4. Care 4. Care | 17 Bookmarkse | - | -
+  CELL[26,0] = 4. Care 4. Care
+  CELL[26,1] = 17 Bookmarkse
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[59,13,150,34] | order=0
+  VERINT
+BLOCK 1 | type=header | bbox=[30,38,177,55] | order=1
+  Knowledge Management
+BLOCK 2 | type=header | bbox=[15,76,110,93] | order=2
+  Search Cloud
+BLOCK 3 | type=sidebar | bbox=[31,113,88,130] | order=3
+  Reset All
+BLOCK 4 | type=heading | bbox=[312,70,824,130] | order=4
+  Search knowledge Q < Search
+BLOCK 5 | type=paragraph | bbox=[584,123,608,145] | order=5
+  Q
+BLOCK 6 | type=sidebar | bbox=[34,140,130,157] | order=6
+  No Search Cloud
+BLOCK 7 | type=table | bbox=[13,171,790,207] | order=7
+  Browse My Bookmarks 17 F:
+BLOCK 8 | type=heading | bbox=[501,208,775,227] | order=8
+  Filter Q
+BLOCK 9 | type=sidebar | bbox=[30,224,69,242] | order=9
+  Reset
+BLOCK 10 | type=heading | bbox=[72,248,521,287] | order=10
+  Benefits & Coverage Billing Appian Labels Workflow
+BLOCK 11 | type=heading | bbox=[75,285,736,322] | order=11
+  Claims Investigation Claims Management Summary Oscar is establishing a new labeling governance. Appian Labels Workflow Applying Labels to Appian Tickets.
+BLOCK 12 | type=paragraph | bbox=[38,321,719,359] | order=12
+  > Claims Processing Claims Regulatory Ops working Appian tickets. Moving process to standardize and monitor labels utilized when.
+BLOCK 13 | type=table | bbox=[72,360,795,438] | order=13
+  Eligibility Health & Wellness Claims Tasks: Claim Attachment Review (CAR) .
+  Member Services Peer Reviews Triggers and Background Info: The purpose of the Claim. Attachment Review (CAR) workflow is to review the documents.
+BLOCK 14 | type=table | bbox=[72,435,771,472] | order=14
+  Performance Management Pharmacy & Medication Man. needed. Systems that are attached to the claim and to re-triage the documents, if
+BLOCK 15 | type=table | bbox=[72,475,795,558] | order=15
+  Policies & Plans Preauthorization Procedures Cortex - Clean Claim Holds .
+  Provider Networks Regulatory Compliance Cortex - Clean Claim Holds Cortex - Clean Claim Holds Overview General Work-flow Empty Admit Date Invalid Admit.
+BLOCK 16 | type=sidebar | bbox=[74,550,759,591] | order=16
+  Systems & Tools Third-Party Processes Date Invalid Admit Date with Valid Service Dates Invalid Billing. TIN Invalid Service
+BLOCK 17 | type=sidebar | bbox=[72,586,256,623] | order=17
+  Utilization Review Utilization Management Guid.
+BLOCK 18 | type=heading | bbox=[361,619,488,635] | order=18
+  Duplicate Disputes
+BLOCK 19 | type=paragraph | bbox=[72,625,776,698] | order=19
+  Broker Support Virtual Telemedicine * Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+  1. Inquires About Plan Selecti. Pre-Care tool we use to review and work claims holds and disputes. What. are panels in Cortex? A panel is a list of claims that have.
+BLOCK 20 | type=sidebar | bbox=[72,691,436,736] | order=20
+  5. After-Care 4. Care something
+BLOCK 21 | type=footer | bbox=[70,734,803,773] | order=21
+  4. Care 4. Care 17 Bookmarkse
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[13,13,824,773] | shape=27x4 | conf=0.920
+  shape: 27x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | - | -
+    CELL[1,0] = VERINT
+  ROW 2 | Knowledge Management | - | - | -
+    CELL[2,0] = Knowledge Management
+  ROW 3 | Search Cloud | - | - | -
+    CELL[3,0] = Search Cloud
+  ROW 4 | Search knowledge | Q | < Search | -
+    CELL[4,0] = Search knowledge
+    CELL[4,1] = Q
+    CELL[4,2] = < Search
+  ROW 5 | Reset All | - | - | -
+    CELL[5,0] = Reset All
+  ROW 6 | Q | - | - | -
+    CELL[6,0] = Q
+  ROW 7 | No Search Cloud | - | - | -
+    CELL[7,0] = No Search Cloud
+  ROW 8 | My Bookmarks 17 F | - | - | -
+    CELL[8,0] = My Bookmarks 17 F
+  ROW 9 | Browse | - | - | -
+    CELL[9,0] = Browse
+  ROW 10 | Filter | Q | - | -
+    CELL[10,0] = Filter
+    CELL[10,1] = Q
+  ROW 11 | Reset | - | - | -
+    CELL[11,0] = Reset
+  ROW 12 | Benefits & Coverage Billing | Appian Labels Workflow | - | -
+    CELL[12,0] = Benefits & Coverage Billing
+    CELL[12,1] = Appian Labels Workflow
+  ROW 13 | Appian Labels Workflow Applying Labels to Appian Tickets. | - | - | -
+    CELL[13,0] = Appian Labels Workflow Applying Labels to Appian Tickets.
+  ROW 14 | Claims Investigation Claims Management | Summary Oscar is establishing a new labeling governance. | - | -
+    CELL[14,0] = Claims Investigation Claims Management
+    CELL[14,1] = Summary Oscar is establishing a new labeling governance.
+  ROW 15 | > Claims Processing Claims Regulatory Ops | working Appian tickets. Moving process to standardize and monitor labels utilized when. | - | -
+    CELL[15,0] = > Claims Processing Claims Regulatory Ops
+    CELL[15,1] = working Appian tickets. Moving process to standardize and monitor labels utilized when.
+  ROW 16 | Performance Management Pharmacy & Medication Man.. | that are attached to the claim and to re-triage the documents, if | - | -
+    CELL[16,0] = Performance Management Pharmacy & Medication Man..
+    CELL[16,1] = that are attached to the claim and to re-triage the documents, if
+  ROW 17 | needed. Systems | - | - | -
+    CELL[17,0] = needed. Systems
+  ROW 18 | Systems & Tools Third-Party Processes | Date Invalid Admit Date with Valid Service Dates Invalid Billing. | - | -
+    CELL[18,0] = Systems & Tools Third-Party Processes
+    CELL[18,1] = Date Invalid Admit Date with Valid Service Dates Invalid Billing.
+  ROW 19 | TIN Invalid Service | - | - | -
+    CELL[19,0] = TIN Invalid Service
+  ROW 20 | Utilization Review Utilization Management Guid.. | - | - | -
+    CELL[20,0] = Utilization Review Utilization Management Guid..
+  ROW 21 | Duplicate Disputes | - | - | -
+    CELL[21,0] = Duplicate Disputes
+  ROW 22 | Broker Support Virtual Telemedicine | * Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the | - | -
+    CELL[22,0] = Broker Support Virtual Telemedicine
+    CELL[22,1] = * Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+  ROW 23 | 1. Inquires About Plan Selecti.. Pre-Care | tool we use to review and work claims holds and disputes. What. are panels in Cortex? A panel is a list of claims that have. | - | -
+    CELL[23,0] = 1. Inquires About Plan Selecti.. Pre-Care
+    CELL[23,1] = tool we use to review and work claims holds and disputes. What. are panels in Cortex? A panel is a list of claims that have.
+  ROW 24 | something | - | - | -
+    CELL[24,0] = something
+  ROW 25 | 5. After-Care 4. Care | - | - | -
+    CELL[25,0] = 5. After-Care 4. Care
+  ROW 26 | 4. Care 4. Care | 17 Bookmarkse | - | -
+    CELL[26,0] = 4. Care 4. Care
+    CELL[26,1] = 17 Bookmarkse
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,13,150,34] | conf=0.998 | text=VERINT
+LINE 1 | bbox=[30,38,177,55] | conf=0.988 | text=Knowledge Management
+LINE 2 | bbox=[15,76,110,93] | conf=0.975 | text=Search Cloud
+LINE 3 | bbox=[31,113,88,130] | conf=0.988 | text=Reset All
+LINE 4 | bbox=[312,70,824,130] | conf=0.938 | text=Search knowledge Q < Search
+  WORD | bbox=[312,89,426,106] | text=Search knowledge
+  WORD | bbox=[776,88,794,106] | text=Q
+  WORD | bbox=[810,70,824,130] | text=< Search
+LINE 5 | bbox=[584,123,608,145] | conf=0.948 | text=Q
+LINE 6 | bbox=[34,140,130,157] | conf=0.992 | text=No Search Cloud
+LINE 7 | bbox=[13,171,790,207] | conf=0.889 | text=Browse My Bookmarks 17 F:
+  WORD | bbox=[13,184,70,207] | text=Browse
+  WORD | bbox=[312,172,494,192] | text=My Bookmarks 17
+  WORD | bbox=[729,171,790,193] | text=F:
+LINE 8 | bbox=[501,208,775,227] | conf=0.922 | text=Filter Q
+  WORD | bbox=[501,209,538,227] | text=Filter
+  WORD | bbox=[756,208,775,225] | text=Q
+LINE 9 | bbox=[30,224,69,242] | conf=0.999 | text=Reset
+LINE 10 | bbox=[72,248,521,287] | conf=0.973 | text=Benefits & Coverage Billing Appian Labels Workflow
+  WORD | bbox=[72,248,199,287] | text=Benefits & Coverage Billing
+  WORD | bbox=[360,260,521,279] | text=Appian Labels Workflow
+LINE 11 | bbox=[75,285,736,322] | conf=0.976 | text=Claims Investigation Claims Management Summary Oscar is establishing a new labeling governance. Appian Labels Workflow Applying Labels to Appian Tickets.
+  WORD | bbox=[75,288,200,322] | text=Claims Investigation Claims Management
+  WORD | bbox=[360,303,735,320] | text=Summary Oscar is establishing a new labeling governance.
+  WORD | bbox=[361,285,736,302] | text=Appian Labels Workflow Applying Labels to Appian Tickets.
+LINE 12 | bbox=[38,321,719,359] | conf=0.937 | text=> Claims Processing Claims Regulatory Ops working Appian tickets. Moving process to standardize and monitor labels utilized when.
+  WORD | bbox=[38,330,44,336] | text=>
+  WORD | bbox=[74,323,211,359] | text=Claims Processing Claims Regulatory Ops
+  WORD | bbox=[360,332,564,354] | text=working Appian tickets. Moving
+  WORD | bbox=[362,321,719,334] | text=process to standardize and monitor labels utilized when.
+LINE 13 | bbox=[72,360,795,402] | conf=0.843 | text=Eligibility Health & Wellness Claims Tasks: Claim Attachment Review (CAR) .
+  WORD | bbox=[72,360,185,397] | text=Eligibility Health & Wellness
+  WORD | bbox=[362,381,666,397] | text=Claims Tasks: Claim Attachment Review (CAR)
+  WORD | bbox=[785,384,795,402] | text=..
+LINE 14 | bbox=[72,398,768,438] | conf=0.975 | text=Member Services Peer Reviews Triggers and Background Info: The purpose of the Claim. Attachment Review (CAR) workflow is to review the documents.
+  WORD | bbox=[72,398,183,436] | text=Member Services Peer Reviews
+  WORD | bbox=[361,405,721,421] | text=Triggers and Background Info: The purpose of the Claim.
+  WORD | bbox=[361,421,768,438] | text=Attachment Review (CAR) workflow is to review the documents.
+LINE 15 | bbox=[72,435,771,472] | conf=0.978 | text=Performance Management Pharmacy & Medication Man. needed. Systems that are attached to the claim and to re-triage the documents, if
+  WORD | bbox=[72,435,256,472] | text=Performance Management Pharmacy & Medication Man..
+  WORD | bbox=[360,454,480,471] | text=needed. Systems
+  WORD | bbox=[361,440,771,453] | text=that are attached to the claim and to re-triage the documents, if
+LINE 16 | bbox=[75,475,795,522] | conf=0.845 | text=Policies & Plans Preauthorization Procedures Cortex - Clean Claim Holds .
+  WORD | bbox=[75,475,246,509] | text=Policies & Plans Preauthorization Procedures
+  WORD | bbox=[362,499,541,516] | text=Cortex - Clean Claim Holds
+  WORD | bbox=[785,504,795,522] | text=..
+LINE 17 | bbox=[72,510,751,558] | conf=0.980 | text=Provider Networks Regulatory Compliance Cortex - Clean Claim Holds Cortex - Clean Claim Holds Overview General Work-flow Empty Admit Date Invalid Admit.
+  WORD | bbox=[72,510,215,547] | text=Provider Networks Regulatory Compliance
+  WORD | bbox=[361,524,716,541] | text=Cortex - Clean Claim Holds Cortex - Clean Claim Holds
+  WORD | bbox=[361,541,751,558] | text=Overview General Work-flow Empty Admit Date Invalid Admit.
+LINE 18 | bbox=[74,550,759,591] | conf=0.979 | text=Systems & Tools Third-Party Processes Date Invalid Admit Date with Valid Service Dates Invalid Billing. TIN Invalid Service
+  WORD | bbox=[74,550,211,584] | text=Systems & Tools Third-Party Processes
+  WORD | bbox=[360,558,759,574] | text=Date Invalid Admit Date with Valid Service Dates Invalid Billing.
+  WORD | bbox=[360,573,484,591] | text=TIN Invalid Service
+LINE 19 | bbox=[72,586,256,623] | conf=0.977 | text=Utilization Review Utilization Management Guid.
+LINE 20 | bbox=[361,619,488,635] | conf=0.975 | text=Duplicate Disputes
+LINE 21 | bbox=[74,625,771,661] | conf=0.911 | text=Broker Support Virtual Telemedicine * Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+  WORD | bbox=[74,625,199,659] | text=Broker Support Virtual Telemedicine
+  WORD | bbox=[338,639,349,649] | text=*
+  WORD | bbox=[359,642,771,661] | text=Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+LINE 22 | bbox=[72,661,776,698] | conf=0.975 | text=1. Inquires About Plan Selecti. Pre-Care tool we use to review and work claims holds and disputes. What. are panels in Cortex? A panel is a list of claims that have.
+  WORD | bbox=[72,662,258,698] | text=1. Inquires About Plan Selecti.. Pre-Care
+  WORD | bbox=[361,661,776,677] | text=tool we use to review and work claims holds and disputes. What.
+  WORD | bbox=[362,679,722,691] | text=are panels in Cortex? A panel is a list of claims that have.
+LINE 23 | bbox=[72,691,436,736] | conf=0.994 | text=5. After-Care 4. Care something
+  WORD | bbox=[72,697,155,736] | text=5. After-Care 4. Care
+  WORD | bbox=[362,691,436,712] | text=something
+LINE 24 | bbox=[70,734,803,773] | conf=0.958 | text=4. Care 4. Care 17 Bookmarkse
+  WORD | bbox=[70,734,123,773] | text=4. Care 4. Care
+  WORD | bbox=[715,745,803,765] | text=17 Bookmarkse
+[/BOXES]

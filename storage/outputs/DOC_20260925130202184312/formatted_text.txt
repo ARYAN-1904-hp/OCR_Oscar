@@ -1,0 +1,202 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x832 | blocks=11 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims LM appian | -
+  CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+  CELL[1,2] = Claims LM appian
+ROW 2 | HOLD-5892162 Production Hold | - | - | -
+  CELL[2,0] = HOLD-5892162 Production Hold
+ROW 3 | Member Info | - | - | -
+  CELL[3,0] = Member Info
+ROW 4 | ICHRA | Labels | - | -
+  CELL[4,0] = ICHRA
+  CELL[4,1] = Labels
+ROW 5 | LOB | Individual | Additional Info | -
+  CELL[5,0] = LOB
+  CELL[5,1] = Individual
+  CELL[5,2] = Additional Info
+ROW 6 | The claim is for a newborn and requires manual review | - | - | -
+  CELL[6,0] = The claim is for a newborn and requires manual review
+ROW 7 | - | - | Issue | Other
+  CELL[7,2] = Issue
+  CELL[7,3] = Other
+ROW 8 | Tenant | Oscar | - | -
+  CELL[8,0] = Tenant
+  CELL[8,1] = Oscar
+ROW 9 | - | - | Code | NEWBORN
+  CELL[9,2] = Code
+  CELL[9,3] = NEWBORN
+ROW 10 | Claim Info | - | System | Ocelot
+  CELL[10,0] = Claim Info
+  CELL[10,2] = System
+  CELL[10,3] = Ocelot
+ROW 11 | 2026-072621:58:48 Zoscorcpps.hioscor.com | SWITCH Home - Claims | - | -
+  CELL[11,0] = 2026-072621:58:48 Zoscorcpps.hioscor.com
+  CELL[11,1] = SWITCH Home - Claims
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[25,21,1488,106] | order=0
+  Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims LM appian
+  HOLD-5892162 Production Hold
+BLOCK 1 | type=table | bbox=[42,161,1440,332] | order=1
+  NEWBORN hold on claim 7ATXE61J Ticket Info Re-triage PAUSE ESCALATE WITHDRAW RESOLVE
+  P3 In Progress (ln Review) Due 07/29/2026 Assignee Latavia Mutcherson
+  >Skill: NEWBORN SLA All Holds SLA(minus High$) (7 working days) Submitter Internal
+  Created On 7/20/2026 9: 09 AM EDT Created By svc.automat
+BLOCK 2 | type=table | bbox=[46,331,165,350] | order=2
+  Member Info
+BLOCK 3 | type=table | bbox=[44,359,1247,539] | order=3
+  MemberiD R21627LL Updated On 7/23/2026 5: 55 PM EDT Updated By Latavia Mutcherson
+  OSCID OSC7715805201 Closed On Closed By
+  State FL Reported On Reporter
+  Plan Type Source Automat(appian hold_ticket _creation) Watchers AWATCH
+BLOCK 4 | type=heading | bbox=[44,563,461,588] | order=4
+  ICHRA Labels
+BLOCK 5 | type=table | bbox=[46,620,1070,642] | order=5
+  LOB Individual Additional Info
+BLOCK 6 | type=paragraph | bbox=[427,642,789,657] | order=6
+  The claim is for a newborn and requires manual review
+BLOCK 7 | type=table | bbox=[47,656,1154,689] | order=7
+  Tenant Oscar Issue Other
+BLOCK 8 | type=heading | bbox=[947,708,1187,727] | order=8
+  Code NEWBORN
+BLOCK 9 | type=footer | bbox=[47,757,1160,787] | order=9
+  Claim Info System Ocelot
+BLOCK 10 | type=footer | bbox=[12,802,626,823] | order=10
+  2026-072621:58:48 Zoscorcpps.hioscor.com SWITCH Home - Claims
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[12,21,1488,823] | shape=12x4 | conf=0.920
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims LM appian | -
+    CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+    CELL[1,2] = Claims LM appian
+  ROW 2 | HOLD-5892162 Production Hold | - | - | -
+    CELL[2,0] = HOLD-5892162 Production Hold
+  ROW 3 | Member Info | - | - | -
+    CELL[3,0] = Member Info
+  ROW 4 | ICHRA | Labels | - | -
+    CELL[4,0] = ICHRA
+    CELL[4,1] = Labels
+  ROW 5 | LOB | Individual | Additional Info | -
+    CELL[5,0] = LOB
+    CELL[5,1] = Individual
+    CELL[5,2] = Additional Info
+  ROW 6 | The claim is for a newborn and requires manual review | - | - | -
+    CELL[6,0] = The claim is for a newborn and requires manual review
+  ROW 7 | - | - | Issue | Other
+    CELL[7,2] = Issue
+    CELL[7,3] = Other
+  ROW 8 | Tenant | Oscar | - | -
+    CELL[8,0] = Tenant
+    CELL[8,1] = Oscar
+  ROW 9 | - | - | Code | NEWBORN
+    CELL[9,2] = Code
+    CELL[9,3] = NEWBORN
+  ROW 10 | Claim Info | - | System | Ocelot
+    CELL[10,0] = Claim Info
+    CELL[10,2] = System
+    CELL[10,3] = Ocelot
+  ROW 11 | 2026-072621:58:48 Zoscorcpps.hioscor.com | SWITCH Home - Claims | - | -
+    CELL[11,0] = 2026-072621:58:48 Zoscorcpps.hioscor.com
+    CELL[11,1] = SWITCH Home - Claims
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,21,1488,45] | conf=0.989 | text=Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims LM appian
+  WORD | bbox=[59,21,122,43] | text=Claims
+  WORD | bbox=[161,24,209,40] | text=HOME
+  WORD | bbox=[233,24,316,39] | text=INVENTORY
+  WORD | bbox=[343,24,454,39] | text=CREATE TICKET
+  WORD | bbox=[479,24,566,39] | text=UNARCHIVE
+  WORD | bbox=[1301,22,1426,45] | text=Claims LM
+  WORD | bbox=[1438,24,1488,44] | text=appian
+LINE 1 | bbox=[25,86,396,106] | conf=0.972 | text=HOLD-5892162 Production Hold
+LINE 2 | bbox=[47,161,1440,184] | conf=0.978 | text=NEWBORN hold on claim 7ATXE61J Ticket Info Re-triage PAUSE ESCALATE WITHDRAW RESOLVE
+  WORD | bbox=[47,161,346,176] | text=NEWBORN hold on claim 7ATXE61J
+  WORD | bbox=[402,162,680,182] | text=Ticket Info Re-triage
+  WORD | bbox=[963,164,1012,184] | text=PAUSE
+  WORD | bbox=[1095,165,1164,182] | text=ESCALATE
+  WORD | bbox=[1230,167,1308,182] | text=WITHDRAW
+  WORD | bbox=[1377,165,1440,181] | text=RESOLVE
+LINE 3 | bbox=[42,196,1247,229] | conf=0.979 | text=P3 In Progress (ln Review) Due 07/29/2026 Assignee Latavia Mutcherson
+  WORD | bbox=[42,197,62,212] | text=P3
+  WORD | bbox=[84,196,241,215] | text=In Progress (ln Review)
+  WORD | bbox=[408,208,444,229] | text=Due
+  WORD | bbox=[577,209,656,226] | text=07/29/2026
+  WORD | bbox=[946,209,1012,229] | text=Assignee
+  WORD | bbox=[1111,210,1247,226] | text=Latavia Mutcherson
+LINE 4 | bbox=[47,256,1165,280] | conf=0.968 | text=>Skill: NEWBORN SLA All Holds SLA(minus High$) (7 working days) Submitter Internal
+  WORD | bbox=[47,256,195,272] | text=>Skill: NEWBORN
+  WORD | bbox=[410,259,444,280] | text=SLA
+  WORD | bbox=[577,261,873,277] | text=All Holds SLA(minus High$) (7 working days)
+  WORD | bbox=[947,261,1020,278] | text=Submitter
+  WORD | bbox=[1110,260,1165,277] | text=Internal
+LINE 5 | bbox=[412,308,1200,332] | conf=0.962 | text=Created On 7/20/2026 9: 09 AM EDT Created By svc.automat
+  WORD | bbox=[412,312,492,329] | text=Created On
+  WORD | bbox=[573,308,736,329] | text=7/20/2026 9:09 AM EDT
+  WORD | bbox=[944,308,1026,332] | text=Created By
+  WORD | bbox=[1113,313,1200,329] | text=svc.automat
+LINE 6 | bbox=[46,331,165,350] | conf=0.987 | text=Member Info
+LINE 7 | bbox=[47,359,1247,384] | conf=0.965 | text=MemberiD R21627LL Updated On 7/23/2026 5: 55 PM EDT Updated By Latavia Mutcherson
+  WORD | bbox=[47,368,123,384] | text=MemberiD
+  WORD | bbox=[211,365,274,382] | text=R21627LL
+  WORD | bbox=[411,364,497,379] | text=Updated On
+  WORD | bbox=[574,359,734,379] | text=7/23/2026 5:55 PM EDT
+  WORD | bbox=[944,360,1030,383] | text=Updated By
+  WORD | bbox=[1111,363,1247,378] | text=Latavia Mutcherson
+LINE 8 | bbox=[46,410,1018,436] | conf=0.979 | text=OSCID OSC7715805201 Closed On Closed By
+  WORD | bbox=[46,416,100,436] | text=OSCID
+  WORD | bbox=[211,417,318,433] | text=OSC7715805201
+  WORD | bbox=[412,414,484,430] | text=Closed On
+  WORD | bbox=[944,410,1018,434] | text=Closed By
+LINE 9 | bbox=[46,466,1011,486] | conf=0.990 | text=State FL Reported On Reporter
+  WORD | bbox=[46,468,88,486] | text=State
+  WORD | bbox=[209,466,231,486] | text=FL
+  WORD | bbox=[412,466,502,482] | text=Reported On
+  WORD | bbox=[947,466,1011,482] | text=Reporter
+LINE 10 | bbox=[44,511,1206,539] | conf=0.961 | text=Plan Type Source Automat(appian hold_ticket _creation) Watchers AWATCH
+  WORD | bbox=[44,516,115,539] | text=Plan Type
+  WORD | bbox=[409,514,463,534] | text=Source
+  WORD | bbox=[577,515,840,531] | text=Automat(appian hold_ticket _creation)
+  WORD | bbox=[944,511,1017,534] | text=Watchers
+  WORD | bbox=[1136,522,1206,538] | text=AWATCH
+LINE 11 | bbox=[44,563,461,588] | conf=0.996 | text=ICHRA Labels
+  WORD | bbox=[44,567,96,588] | text=ICHRA
+  WORD | bbox=[410,563,461,584] | text=Labels
+LINE 12 | bbox=[46,620,1070,642] | conf=0.990 | text=LOB Individual Additional Info
+  WORD | bbox=[46,620,80,638] | text=LOB
+  WORD | bbox=[210,620,278,637] | text=Individual
+  WORD | bbox=[947,623,1070,642] | text=Additional Info
+LINE 13 | bbox=[427,642,789,657] | conf=0.951 | text=The claim is for a newborn and requires manual review
+LINE 14 | bbox=[47,656,1154,689] | conf=0.988 | text=Tenant Oscar Issue Other
+  WORD | bbox=[47,672,97,689] | text=Tenant
+  WORD | bbox=[208,669,254,689] | text=Oscar
+  WORD | bbox=[943,657,986,678] | text=Issue
+  WORD | bbox=[1109,656,1154,676] | text=Other
+LINE 15 | bbox=[947,708,1187,727] | conf=0.998 | text=Code NEWBORN
+  WORD | bbox=[947,709,986,727] | text=Code
+  WORD | bbox=[1111,708,1187,724] | text=NEWBORN
+LINE 16 | bbox=[47,757,1160,787] | conf=0.993 | text=Claim Info System Ocelot
+  WORD | bbox=[47,767,144,787] | text=Claim Info
+  WORD | bbox=[943,757,1002,780] | text=System
+  WORD | bbox=[1109,758,1160,778] | text=Ocelot
+LINE 17 | bbox=[12,802,626,823] | conf=0.925 | text=2026-072621:58:48 Zoscorcpps.hioscor.com SWITCH Home - Claims
+  WORD | bbox=[12,802,190,820] | text=2026-072621:58:48
+  WORD | bbox=[194,802,390,823] | text=Zoscorcpps.hioscor.com
+  WORD | bbox=[422,805,476,820] | text=SWITCH
+  WORD | bbox=[507,805,580,820] | text=Home
+  WORD | bbox=[577,806,626,820] | text=Claims
+[/BOXES]

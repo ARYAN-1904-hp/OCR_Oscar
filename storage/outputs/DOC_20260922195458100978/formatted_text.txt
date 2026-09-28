@@ -1,0 +1,175 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x1042 | blocks=11 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 6x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Curamind | Claims Management | Sarah Johnson PROCO01 Logout | -
+  CELL[1,0] = Curamind
+  CELL[1,1] = Claims Management
+  CELL[1,2] = Sarah Johnson PROCO01 Logout
+ROW 2 | - | - | Back to Dashboard | -
+  CELL[2,2] = Back to Dashboard
+ROW 3 | Professional Claim + | - | - | -
+  CELL[3,0] = Professional Claim +
+ROW 4 | - | - | Save changes | -
+  CELL[4,2] = Save changes
+ROW 5 | Outcome | 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY | - | -
+  CELL[5,0] = Outcome
+  CELL[5,1] = 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[26,7,1404,41] | order=0
+  Curamind Claims Management Sarah Johnson PROCO01 Logout
+BLOCK 1 | type=header | bbox=[1302,62,1445,77] | order=1
+  Back to Dashboard
+BLOCK 2 | type=header | bbox=[35,67,1419,110] | order=2
+  Professional Claim + Save changes
+BLOCK 3 | type=table | bbox=[44,124,689,148] | order=3
+  Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+BLOCK 4 | type=label_value | bbox=[40,174,773,192] | order=4
+  Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PRocoo1 Decision SLA: 3 days
+BLOCK 5 | type=table | bbox=[32,218,1356,448] | order=5
+  Professional Claim: 25115366316743 Member ID: H6881954663 Company ID: CAOMNI P3 CA OMNI
+  Status: 2 PENDING REVIEW Date Received: 11/18/2025 Service Date From: 11/06/2025
+  Auth/Referral #1(23): 2510815055049206241 #2(23): Auth/Referral Auth/Referral #3(23):
+  Auth/Ref Status: 1 APPROVED Auth/Ref Status: Auth/Ref Status:
+  Claim Type: Professional Priority: 1 MEDIUM
+BLOCK 6 | type=heading | bbox=[33,469,446,535] | order=6
+  ID: General Information Member H6881954663 FLORES, BRIAN
+BLOCK 7 | type=table | bbox=[32,545,770,668] | order=7
+  Provider ID: 1098216607 MARTINEZ MD, ANNA LUCIA
+  Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED
+  Birth Date: 01/22/1977 Gender 3) F. Marital Status: U
+BLOCK 8 | type=heading | bbox=[35,683,424,701] | order=8
+  EOB Indicator MPPR Indicator
+BLOCK 9 | type=table | bbox=[34,717,1035,752] | order=9
+  Place of Service(24b): 21 INPATIENT HOSPITAL Facility: 75 SERVICE LOCATION
+BLOCK 10 | type=label_value | bbox=[38,760,780,797] | order=10
+  Outcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[26,7,1445,797] | shape=6x4 | conf=0.920
+  shape: 6x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Curamind | Claims Management | Sarah Johnson PROCO01 Logout | -
+    CELL[1,0] = Curamind
+    CELL[1,1] = Claims Management
+    CELL[1,2] = Sarah Johnson PROCO01 Logout
+  ROW 2 | - | - | Back to Dashboard | -
+    CELL[2,2] = Back to Dashboard
+  ROW 3 | Professional Claim + | - | - | -
+    CELL[3,0] = Professional Claim +
+  ROW 4 | - | - | Save changes | -
+    CELL[4,2] = Save changes
+  ROW 5 | Outcome | 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY | - | -
+    CELL[5,0] = Outcome
+    CELL[5,1] = 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[26,7,1404,41] | conf=0.986 | text=Curamind Claims Management Sarah Johnson PROCO01 Logout
+  WORD | bbox=[26,17,125,34] | text=Curamind
+  WORD | bbox=[143,20,295,35] | text=Claims Management
+  WORD | bbox=[1152,7,1206,41] | text=Sarah Johnson
+  WORD | bbox=[1239,16,1304,31] | text=PROCO01
+  WORD | bbox=[1351,16,1404,33] | text=Logout
+LINE 1 | bbox=[1302,62,1445,77] | conf=0.979 | text=Back to Dashboard
+LINE 2 | bbox=[35,67,1419,110] | conf=0.980 | text=Professional Claim + Save changes
+  WORD | bbox=[35,67,163,110] | text=Professional Claim +
+  WORD | bbox=[1318,92,1419,107] | text=Save changes
+LINE 3 | bbox=[44,124,689,148] | conf=0.975 | text=Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  WORD | bbox=[44,124,126,147] | text=Claim Pg1
+  WORD | bbox=[161,125,228,148] | text=Provpg2
+  WORD | bbox=[274,128,362,144] | text=Member Pg3
+  WORD | bbox=[412,128,510,144] | text=Diagnosis Pg4
+  WORD | bbox=[561,126,689,144] | text=Miscellaneous Pg5
+LINE 4 | bbox=[40,174,773,192] | conf=0.923 | text=Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PRocoo1 Decision SLA: 3 days
+  WORD | bbox=[40,177,219,192] | text=Processor: Sarah Johnson
+  WORD | bbox=[237,177,431,192] | text=Last edit: 11/17/2025 08:05
+  WORD | bbox=[430,174,606,190] | text=ProcessorID:PRocoo1
+  WORD | bbox=[632,174,773,190] | text=Decision SLA: 3 days
+LINE 5 | bbox=[34,218,1356,256] | conf=0.981 | text=Professional Claim: 25115366316743 Member ID: H6881954663 Company ID: CAOMNI P3 CA OMNI
+  WORD | bbox=[34,223,113,256] | text=Professional Claim:
+  WORD | bbox=[135,229,278,244] | text=25115366316743
+  WORD | bbox=[307,222,364,255] | text=Member ID:
+  WORD | bbox=[380,229,479,245] | text=H6881954663
+  WORD | bbox=[954,218,1019,254] | text=Company ID:
+  WORD | bbox=[1041,226,1102,245] | text=CAOMNI
+  WORD | bbox=[1315,219,1356,251] | text=P3 CA OMNI
+LINE 6 | bbox=[32,266,1109,303] | conf=0.989 | text=Status: 2 PENDING REVIEW Date Received: 11/18/2025 Service Date From: 11/06/2025
+  WORD | bbox=[32,275,84,298] | text=Status:
+  WORD | bbox=[95,280,109,295] | text=2
+  WORD | bbox=[361,278,479,293] | text=PENDING REVIEW
+  WORD | bbox=[516,267,584,301] | text=Date Received:
+  WORD | bbox=[607,277,693,297] | text=11/18/2025
+  WORD | bbox=[911,266,996,303] | text=Service Date From:
+  WORD | bbox=[1024,274,1109,297] | text=11/06/2025
+LINE 7 | bbox=[35,315,990,352] | conf=0.955 | text=Auth/Referral #1(23): 2510815055049206241 #2(23): Auth/Referral Auth/Referral #3(23):
+  WORD | bbox=[35,316,121,351] | text=Auth/Referral #1(23):
+  WORD | bbox=[162,328,328,343] | text=2510815055049206241
+  WORD | bbox=[464,329,521,352] | text=#2(23):
+  WORD | bbox=[468,317,552,334] | text=Auth/Referral
+  WORD | bbox=[905,315,990,348] | text=Auth/Referral #3(23):
+LINE 8 | bbox=[35,362,1025,399] | conf=0.975 | text=Auth/Ref Status: 1 APPROVED Auth/Ref Status: Auth/Ref Status:
+  WORD | bbox=[35,366,93,399] | text=Auth/Ref Status:
+  WORD | bbox=[120,379,130,392] | text=1
+  WORD | bbox=[393,374,469,391] | text=APPROVED
+  WORD | bbox=[518,365,575,398] | text=Auth/Ref Status:
+  WORD | bbox=[965,362,1025,397] | text=Auth/Ref Status:
+LINE 9 | bbox=[34,411,786,448] | conf=0.982 | text=Claim Type: Professional Priority: 1 MEDIUM
+  WORD | bbox=[34,411,75,448] | text=Claim Type:
+  WORD | bbox=[102,421,190,441] | text=Professional
+  WORD | bbox=[412,417,468,441] | text=Priority:
+  WORD | bbox=[485,426,495,438] | text=1
+  WORD | bbox=[725,420,786,436] | text=MEDIUM
+LINE 10 | bbox=[33,469,446,535] | conf=0.979 | text=ID: General Information Member H6881954663 FLORES, BRIAN
+  WORD | bbox=[33,518,59,535] | text=ID:
+  WORD | bbox=[34,469,227,519] | text=General Information Member
+  WORD | bbox=[136,508,236,524] | text=H6881954663
+  WORD | bbox=[383,497,446,535] | text=FLORES, BRIAN
+LINE 11 | bbox=[32,545,743,580] | conf=0.968 | text=Provider ID: 1098216607 MARTINEZ MD, ANNA LUCIA
+  WORD | bbox=[32,545,91,580] | text=Provider ID:
+  WORD | bbox=[391,552,480,569] | text=1098216607
+  WORD | bbox=[642,545,743,578] | text=MARTINEZ MD, ANNA LUCIA
+LINE 12 | bbox=[34,590,508,627] | conf=0.990 | text=Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED
+  WORD | bbox=[34,592,105,627] | text=Primary Diagnosis:
+  WORD | bbox=[158,596,209,620] | text=D64.9
+  WORD | bbox=[414,590,508,622] | text=ANEMIA, UNSPECIFIED
+LINE 13 | bbox=[35,634,770,668] | conf=0.906 | text=Birth Date: 01/22/1977 Gender 3) F. Marital Status: U
+  WORD | bbox=[35,634,74,668] | text=Birth Date:
+  WORD | bbox=[115,643,197,659] | text=01/22/1977
+  WORD | bbox=[393,642,469,657] | text=Gender 3)
+  WORD | bbox=[490,644,498,656] | text=F.
+  WORD | bbox=[654,640,757,657] | text=Marital Status:
+  WORD | bbox=[751,643,770,656] | text=U
+LINE 14 | bbox=[35,683,424,701] | conf=0.951 | text=EOB Indicator MPPR Indicator
+  WORD | bbox=[35,685,141,701] | text=EOB Indicator
+  WORD | bbox=[309,683,424,701] | text=MPPR Indicator
+LINE 15 | bbox=[34,717,1035,752] | conf=0.989 | text=Place of Service(24b): 21 INPATIENT HOSPITAL Facility: 75 SERVICE LOCATION
+  WORD | bbox=[34,717,124,752] | text=Place of Service(24b):
+  WORD | bbox=[158,727,184,745] | text=21
+  WORD | bbox=[436,720,504,752] | text=INPATIENT HOSPITAL
+  WORD | bbox=[643,725,696,744] | text=Facility:
+  WORD | bbox=[712,726,736,744] | text=75
+  WORD | bbox=[968,718,1035,750] | text=SERVICE LOCATION
+LINE 16 | bbox=[38,760,780,797] | conf=0.984 | text=Outcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY
+  WORD | bbox=[38,771,102,787] | text=Outcome:
+  WORD | bbox=[110,769,138,790] | text=02
+  WORD | bbox=[360,764,621,779] | text=TRANSFERRED TO SHORT-TERM HOSPITAL
+  WORD | bbox=[642,760,685,781] | text=Payer
+  WORD | bbox=[642,776,684,797] | text=Resp:
+  WORD | bbox=[711,766,780,789] | text=PRIMARY
+[/BOXES]
+
+[FIELDS]
+NPI: 1098216607
+[/FIELDS]

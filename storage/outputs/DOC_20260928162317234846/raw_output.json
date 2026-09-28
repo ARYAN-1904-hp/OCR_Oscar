@@ -1,0 +1,1752 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "scan_enhance",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "VERINT\nQ Newborn\nQ\nyr1 Raf-pet\nQ LREIULS\nNewborn Blocker Workflow Diagrams\nNewborn Blocker Workfiows (lncludes Newborn and Child Workflows)\nNewborn Clsim Wosflow agrams\ng\nNewborn Claim Workflow\nChild Claim Workfiow agrams\nC LA\nA Child Claim Workflow\nNewborn Notes Temptates\nNewborn Coverage by State\nCis Cg As r lemized Bils: Claim Sprtting for Elig bility and Authorization\nA Clare",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "VERINT\nQ Newborn\nQ\nyr1 Raf-pet\nQ LREIULS\nNewborn Blocker Workflow Diagrams\nNewborn Blocker Workfiows (lncludes Newborn and Child Workflows)\nNewborn Clsim Wosflow agrams\ng\nNewborn Claim Workflow\nChild Claim Workfiow agrams\nC LA\nA Child Claim Workflow\nNewborn Notes Temptates\nNewborn Coverage by State\nCis Cg As r lemized Bils: Claim Sprtting for Elig bility and Authorization\nA Clare",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "paragraph",
+              "reading_order": 1,
+              "bbox": [
+                34,
+                81,
+                1584,
+                320
+              ],
+              "text": "Q Newborn\nQ\nyr1 Raf-pet\nQ LREIULS\nNewborn Blocker Workflow Diagrams\nNewborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Q Newborn",
+                  "conf": 0.9069310128688812,
+                  "bbox": [
+                    496,
+                    81,
+                    692,
+                    106
+                  ],
+                  "words": [
+                    {
+                      "text": "Q",
+                      "conf": 0.8277761936187744,
+                      "bbox": [
+                        496,
+                        88,
+                        512,
+                        106
+                      ]
+                    },
+                    {
+                      "text": "Newborn",
+                      "conf": 0.986085832118988,
+                      "bbox": [
+                        604,
+                        81,
+                        692,
+                        103
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Q",
+                  "conf": 0.6369771361351013,
+                  "bbox": [
+                    165,
+                    126,
+                    371,
+                    148
+                  ],
+                  "words": [
+                    {
+                      "text": "Q",
+                      "conf": 0.6369771361351013,
+                      "bbox": [
+                        165,
+                        126,
+                        371,
+                        148
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "yr1 Raf-pet",
+                  "conf": 0.6914671659469604,
+                  "bbox": [
+                    34,
+                    172,
+                    1584,
+                    194
+                  ],
+                  "words": [
+                    {
+                      "text": "yr1",
+                      "conf": 0.8322069048881531,
+                      "bbox": [
+                        34,
+                        172,
+                        212,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "Raf-pet",
+                      "conf": 0.5507274270057678,
+                      "bbox": [
+                        1538,
+                        179,
+                        1584,
+                        194
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 3,
+                  "text": "Q LREIULS",
+                  "conf": 0.5848997235298157,
+                  "bbox": [
+                    478,
+                    209,
+                    886,
+                    227
+                  ],
+                  "words": [
+                    {
+                      "text": "Q",
+                      "conf": 0.5207998156547546,
+                      "bbox": [
+                        478,
+                        209,
+                        494,
+                        227
+                      ]
+                    },
+                    {
+                      "text": "LREIULS",
+                      "conf": 0.6489996314048767,
+                      "bbox": [
+                        786,
+                        211,
+                        886,
+                        220
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 4,
+                  "text": "Newborn Blocker Workflow Diagrams",
+                  "conf": 0.9069525003433228,
+                  "bbox": [
+                    584,
+                    253,
+                    931,
+                    276
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Blocker Workflow Diagrams",
+                      "conf": 0.9069525003433228,
+                      "bbox": [
+                        584,
+                        253,
+                        931,
+                        276
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 5,
+                  "text": "Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+                  "conf": 0.8811200857162476,
+                  "bbox": [
+                    581,
+                    297,
+                    1233,
+                    320
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+                      "conf": 0.8811200857162476,
+                      "bbox": [
+                        581,
+                        297,
+                        1233,
+                        320
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 2,
+              "bbox": [
+                581,
+                336,
+                914,
+                362
+              ],
+              "text": "Newborn Clsim Wosflow agrams",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn Clsim Wosflow agrams",
+                  "conf": 0.8501457571983337,
+                  "bbox": [
+                    581,
+                    336,
+                    914,
+                    362
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Clsim Wosflow agrams",
+                      "conf": 0.8501457571983337,
+                      "bbox": [
+                        581,
+                        336,
+                        914,
+                        362
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 3,
+              "bbox": [
+                81,
+                363,
+                821,
+                402
+              ],
+              "text": "g\nNewborn Claim Workflow",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "g",
+                  "conf": 0.5518024563789368,
+                  "bbox": [
+                    81,
+                    363,
+                    433,
+                    381
+                  ],
+                  "words": [
+                    {
+                      "text": " g ",
+                      "conf": 0.5518024563789368,
+                      "bbox": [
+                        81,
+                        363,
+                        433,
+                        381
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Newborn Claim Workflow",
+                  "conf": 0.8584213256835938,
+                  "bbox": [
+                    581,
+                    378,
+                    821,
+                    402
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Claim Workflow",
+                      "conf": 0.8584213256835938,
+                      "bbox": [
+                        581,
+                        378,
+                        821,
+                        402
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 4,
+              "bbox": [
+                581,
+                417,
+                879,
+                443
+              ],
+              "text": "Child Claim Workfiow agrams",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Child Claim Workfiow agrams",
+                  "conf": 0.8645380735397339,
+                  "bbox": [
+                    581,
+                    417,
+                    879,
+                    443
+                  ],
+                  "words": [
+                    {
+                      "text": "Child Claim Workfiow agrams",
+                      "conf": 0.8645380735397339,
+                      "bbox": [
+                        581,
+                        417,
+                        879,
+                        443
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 5,
+              "bbox": [
+                82,
+                440,
+                786,
+                483
+              ],
+              "text": "C LA\nA Child Claim Workflow",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "C LA",
+                  "conf": 0.6323410272598267,
+                  "bbox": [
+                    82,
+                    440,
+                    436,
+                    457
+                  ],
+                  "words": [
+                    {
+                      "text": "C LA ",
+                      "conf": 0.6323410272598267,
+                      "bbox": [
+                        82,
+                        440,
+                        436,
+                        457
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "A Child Claim Workflow",
+                  "conf": 0.7885668873786926,
+                  "bbox": [
+                    84,
+                    458,
+                    786,
+                    483
+                  ],
+                  "words": [
+                    {
+                      "text": "A",
+                      "conf": 0.6514244079589844,
+                      "bbox": [
+                        84,
+                        460,
+                        218,
+                        472
+                      ]
+                    },
+                    {
+                      "text": "Child Claim Workflow",
+                      "conf": 0.9257093667984009,
+                      "bbox": [
+                        581,
+                        458,
+                        786,
+                        483
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 6,
+              "bbox": [
+                582,
+                499,
+                829,
+                525
+              ],
+              "text": "Newborn Notes Temptates",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn Notes Temptates",
+                  "conf": 0.9572768807411194,
+                  "bbox": [
+                    582,
+                    499,
+                    829,
+                    525
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Notes Temptates",
+                      "conf": 0.9572768807411194,
+                      "bbox": [
+                        582,
+                        499,
+                        829,
+                        525
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 7,
+              "bbox": [
+                581,
+                538,
+                845,
+                567
+              ],
+              "text": "Newborn Coverage by State",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn Coverage by State",
+                  "conf": 0.9519384503364563,
+                  "bbox": [
+                    581,
+                    538,
+                    845,
+                    567
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Coverage by State",
+                      "conf": 0.9519384503364563,
+                      "bbox": [
+                        581,
+                        538,
+                        845,
+                        567
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 8,
+              "bbox": [
+                84,
+                578,
+                1151,
+                605
+              ],
+              "text": "Cis Cg As r lemized Bils:Claim Sprtting for Elig bility and Authorization",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Cis Cg As r lemized Bils:Claim Sprtting for Elig bility and Authorization",
+                  "conf": 0.6961562633514404,
+                  "bbox": [
+                    84,
+                    578,
+                    1151,
+                    605
+                  ],
+                  "words": [
+                    {
+                      "text": "Cis Cg As r",
+                      "conf": 0.5647537708282471,
+                      "bbox": [
+                        84,
+                        578,
+                        360,
+                        595
+                      ]
+                    },
+                    {
+                      "text": "lemized Bils:Claim Sprtting for Elig bility and Authorization",
+                      "conf": 0.8275587558746338,
+                      "bbox": [
+                        581,
+                        580,
+                        1151,
+                        605
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Q Newborn\nQ\nyr1 Raf-pet\nQ LREIULS\nNewborn Blocker Workflow Diagrams\nNewborn Blocker Workfiows (lncludes Newborn and Child Workflows)\nNewborn Clsim Wosflow agrams\ng\nNewborn Claim Workflow\nChild Claim Workfiow agrams\nC LA\nA Child Claim Workflow\nNewborn Notes Temptates\nNewborn Coverage by State\nCis Cg As r lemized Bils:Claim Sprtting for Elig bility and Authorization"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            61,
+            17,
+            150,
+            34
+          ],
+          "text": "VERINT",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "VERINT",
+              "conf": 0.9959072470664978,
+              "bbox": [
+                61,
+                17,
+                150,
+                34
+              ],
+              "words": [
+                {
+                  "text": "VERINT",
+                  "conf": 0.9959072470664978,
+                  "bbox": [
+                    61,
+                    17,
+                    150,
+                    34
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 1,
+          "bbox": [
+            34,
+            81,
+            1584,
+            320
+          ],
+          "text": "Q Newborn\nQ\nyr1 Raf-pet\nQ LREIULS\nNewborn Blocker Workflow Diagrams\nNewborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Q Newborn",
+              "conf": 0.9069310128688812,
+              "bbox": [
+                496,
+                81,
+                692,
+                106
+              ],
+              "words": [
+                {
+                  "text": "Q",
+                  "conf": 0.8277761936187744,
+                  "bbox": [
+                    496,
+                    88,
+                    512,
+                    106
+                  ]
+                },
+                {
+                  "text": "Newborn",
+                  "conf": 0.986085832118988,
+                  "bbox": [
+                    604,
+                    81,
+                    692,
+                    103
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Q",
+              "conf": 0.6369771361351013,
+              "bbox": [
+                165,
+                126,
+                371,
+                148
+              ],
+              "words": [
+                {
+                  "text": "Q",
+                  "conf": 0.6369771361351013,
+                  "bbox": [
+                    165,
+                    126,
+                    371,
+                    148
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "yr1 Raf-pet",
+              "conf": 0.6914671659469604,
+              "bbox": [
+                34,
+                172,
+                1584,
+                194
+              ],
+              "words": [
+                {
+                  "text": "yr1",
+                  "conf": 0.8322069048881531,
+                  "bbox": [
+                    34,
+                    172,
+                    212,
+                    192
+                  ]
+                },
+                {
+                  "text": "Raf-pet",
+                  "conf": 0.5507274270057678,
+                  "bbox": [
+                    1538,
+                    179,
+                    1584,
+                    194
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Q LREIULS",
+              "conf": 0.5848997235298157,
+              "bbox": [
+                478,
+                209,
+                886,
+                227
+              ],
+              "words": [
+                {
+                  "text": "Q",
+                  "conf": 0.5207998156547546,
+                  "bbox": [
+                    478,
+                    209,
+                    494,
+                    227
+                  ]
+                },
+                {
+                  "text": "LREIULS",
+                  "conf": 0.6489996314048767,
+                  "bbox": [
+                    786,
+                    211,
+                    886,
+                    220
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Newborn Blocker Workflow Diagrams",
+              "conf": 0.9069525003433228,
+              "bbox": [
+                584,
+                253,
+                931,
+                276
+              ],
+              "words": [
+                {
+                  "text": "Newborn Blocker Workflow Diagrams",
+                  "conf": 0.9069525003433228,
+                  "bbox": [
+                    584,
+                    253,
+                    931,
+                    276
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+              "conf": 0.8811200857162476,
+              "bbox": [
+                581,
+                297,
+                1233,
+                320
+              ],
+              "words": [
+                {
+                  "text": "Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+                  "conf": 0.8811200857162476,
+                  "bbox": [
+                    581,
+                    297,
+                    1233,
+                    320
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 2,
+          "bbox": [
+            581,
+            336,
+            914,
+            362
+          ],
+          "text": "Newborn Clsim Wosflow agrams",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn Clsim Wosflow agrams",
+              "conf": 0.8501457571983337,
+              "bbox": [
+                581,
+                336,
+                914,
+                362
+              ],
+              "words": [
+                {
+                  "text": "Newborn Clsim Wosflow agrams",
+                  "conf": 0.8501457571983337,
+                  "bbox": [
+                    581,
+                    336,
+                    914,
+                    362
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 3,
+          "bbox": [
+            81,
+            363,
+            821,
+            402
+          ],
+          "text": "g\nNewborn Claim Workflow",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "g",
+              "conf": 0.5518024563789368,
+              "bbox": [
+                81,
+                363,
+                433,
+                381
+              ],
+              "words": [
+                {
+                  "text": " g ",
+                  "conf": 0.5518024563789368,
+                  "bbox": [
+                    81,
+                    363,
+                    433,
+                    381
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Newborn Claim Workflow",
+              "conf": 0.8584213256835938,
+              "bbox": [
+                581,
+                378,
+                821,
+                402
+              ],
+              "words": [
+                {
+                  "text": "Newborn Claim Workflow",
+                  "conf": 0.8584213256835938,
+                  "bbox": [
+                    581,
+                    378,
+                    821,
+                    402
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 4,
+          "bbox": [
+            581,
+            417,
+            879,
+            443
+          ],
+          "text": "Child Claim Workfiow agrams",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Child Claim Workfiow agrams",
+              "conf": 0.8645380735397339,
+              "bbox": [
+                581,
+                417,
+                879,
+                443
+              ],
+              "words": [
+                {
+                  "text": "Child Claim Workfiow agrams",
+                  "conf": 0.8645380735397339,
+                  "bbox": [
+                    581,
+                    417,
+                    879,
+                    443
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 5,
+          "bbox": [
+            82,
+            440,
+            786,
+            483
+          ],
+          "text": "C LA\nA Child Claim Workflow",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "C LA",
+              "conf": 0.6323410272598267,
+              "bbox": [
+                82,
+                440,
+                436,
+                457
+              ],
+              "words": [
+                {
+                  "text": "C LA ",
+                  "conf": 0.6323410272598267,
+                  "bbox": [
+                    82,
+                    440,
+                    436,
+                    457
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "A Child Claim Workflow",
+              "conf": 0.7885668873786926,
+              "bbox": [
+                84,
+                458,
+                786,
+                483
+              ],
+              "words": [
+                {
+                  "text": "A",
+                  "conf": 0.6514244079589844,
+                  "bbox": [
+                    84,
+                    460,
+                    218,
+                    472
+                  ]
+                },
+                {
+                  "text": "Child Claim Workflow",
+                  "conf": 0.9257093667984009,
+                  "bbox": [
+                    581,
+                    458,
+                    786,
+                    483
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 6,
+          "bbox": [
+            582,
+            499,
+            829,
+            525
+          ],
+          "text": "Newborn Notes Temptates",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn Notes Temptates",
+              "conf": 0.9572768807411194,
+              "bbox": [
+                582,
+                499,
+                829,
+                525
+              ],
+              "words": [
+                {
+                  "text": "Newborn Notes Temptates",
+                  "conf": 0.9572768807411194,
+                  "bbox": [
+                    582,
+                    499,
+                    829,
+                    525
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 7,
+          "bbox": [
+            581,
+            538,
+            845,
+            567
+          ],
+          "text": "Newborn Coverage by State",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn Coverage by State",
+              "conf": 0.9519384503364563,
+              "bbox": [
+                581,
+                538,
+                845,
+                567
+              ],
+              "words": [
+                {
+                  "text": "Newborn Coverage by State",
+                  "conf": 0.9519384503364563,
+                  "bbox": [
+                    581,
+                    538,
+                    845,
+                    567
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 8,
+          "bbox": [
+            84,
+            578,
+            1151,
+            605
+          ],
+          "text": "Cis Cg As r lemized Bils:Claim Sprtting for Elig bility and Authorization",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Cis Cg As r lemized Bils:Claim Sprtting for Elig bility and Authorization",
+              "conf": 0.6961562633514404,
+              "bbox": [
+                84,
+                578,
+                1151,
+                605
+              ],
+              "words": [
+                {
+                  "text": "Cis Cg As r",
+                  "conf": 0.5647537708282471,
+                  "bbox": [
+                    84,
+                    578,
+                    360,
+                    595
+                  ]
+                },
+                {
+                  "text": "lemized Bils:Claim Sprtting for Elig bility and Authorization",
+                  "conf": 0.8275587558746338,
+                  "bbox": [
+                    581,
+                    580,
+                    1151,
+                    605
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 9,
+          "bbox": [
+            199,
+            698,
+            609,
+            721
+          ],
+          "text": "A Clare",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "A Clare",
+              "conf": 0.6869855523109436,
+              "bbox": [
+                199,
+                698,
+                609,
+                721
+              ],
+              "words": [
+                {
+                  "text": "A",
+                  "conf": 0.5865514874458313,
+                  "bbox": [
+                    199,
+                    698,
+                    454,
+                    710
+                  ]
+                },
+                {
+                  "text": "Clare",
+                  "conf": 0.7874196171760559,
+                  "bbox": [
+                    572,
+                    707,
+                    609,
+                    721
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            34,
+            17,
+            1584,
+            721
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>VERINT</td><td></td><td></td><td></td></tr><tr><td>Q</td><td>Newborn</td><td></td><td></td></tr><tr><td>Q</td><td></td><td></td><td></td></tr><tr><td>yr1</td><td></td><td>Raf-pet</td><td></td></tr><tr><td>Q</td><td>LREIULS</td><td></td><td></td></tr><tr><td>Newborn Blocker Workflow Diagrams</td><td></td><td></td><td></td></tr><tr><td>Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)</td><td></td><td></td><td></td></tr><tr><td>Newborn Clsim Wosflow agrams</td><td></td><td></td><td></td></tr><tr><td>g</td><td></td><td></td><td></td></tr><tr><td>Newborn Claim Workflow</td><td></td><td></td><td></td></tr><tr><td>Child Claim Workfiow agrams</td><td></td><td></td><td></td></tr><tr><td>C LA</td><td></td><td></td><td></td></tr><tr><td>A</td><td>Child Claim Workflow</td><td></td><td></td></tr><tr><td>Newborn Notes Temptates</td><td></td><td></td><td></td></tr><tr><td>Newborn Coverage by State</td><td></td><td></td><td></td></tr><tr><td>Cis Cg As r</td><td>lemized Bils:Claim Sprtting for Elig bility and Authorization</td><td></td><td></td></tr><tr><td>A</td><td>Clare</td><td></td><td></td></tr></table>",
+          "text": "VERINT: \nQ: Newborn\nQ: \nyr1: \nRaf-pet: \nQ: LREIULS\nNewborn Blocker Workflow Diagrams: \nNewborn Blocker Workfiows (lncludes Newborn and Child Workflows): \nNewborn Clsim Wosflow agrams: \ng: \nNewborn Claim Workflow: \nChild Claim Workfiow agrams: \nC LA: \nA: Child Claim Workflow\nNewborn Notes Temptates: \nNewborn Coverage by State: \nCis Cg As r: lemized Bils:Claim Sprtting for Elig bility and Authorization\nA: Clare",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "VERINT",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Q",
+              "Newborn",
+              "",
+              ""
+            ],
+            [
+              "Q",
+              "",
+              "",
+              ""
+            ],
+            [
+              "yr1",
+              "",
+              "Raf-pet",
+              ""
+            ],
+            [
+              "Q",
+              "LREIULS",
+              "",
+              ""
+            ],
+            [
+              "Newborn Blocker Workflow Diagrams",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn Clsim Wosflow agrams",
+              "",
+              "",
+              ""
+            ],
+            [
+              "g",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn Claim Workflow",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Child Claim Workfiow agrams",
+              "",
+              "",
+              ""
+            ],
+            [
+              "C LA",
+              "",
+              "",
+              ""
+            ],
+            [
+              "A",
+              "Child Claim Workflow",
+              "",
+              ""
+            ],
+            [
+              "Newborn Notes Temptates",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn Coverage by State",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Cis Cg As r",
+              "lemized Bils:Claim Sprtting for Elig bility and Authorization",
+              "",
+              ""
+            ],
+            [
+              "A",
+              "Clare",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "VERINT",
+              ""
+            ],
+            [
+              "Q Newborn",
+              ""
+            ],
+            [
+              "Q",
+              ""
+            ],
+            [
+              "yr1",
+              "Raf-pet"
+            ],
+            [
+              "Q LREIULS",
+              ""
+            ],
+            [
+              "Newborn Blocker Workflow Diagrams",
+              ""
+            ],
+            [
+              "Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+              ""
+            ],
+            [
+              "Newborn Clsim Wosflow agrams",
+              ""
+            ],
+            [
+              "g",
+              ""
+            ],
+            [
+              "Newborn Claim Workflow",
+              ""
+            ],
+            [
+              "Child Claim Workfiow agrams",
+              ""
+            ],
+            [
+              "C LA",
+              ""
+            ],
+            [
+              "A Child Claim Workflow",
+              ""
+            ],
+            [
+              "Newborn Notes Temptates",
+              ""
+            ],
+            [
+              "Newborn Coverage by State",
+              ""
+            ],
+            [
+              "Cis Cg As r lemized Bils:Claim Sprtting for Elig bility and Authorization",
+              ""
+            ],
+            [
+              "A Clare",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "VERINT",
+          "conf": 0.9959072470664978,
+          "bbox": [
+            61,
+            17,
+            150,
+            34
+          ],
+          "words": [
+            {
+              "text": "VERINT",
+              "conf": 0.9959072470664978,
+              "bbox": [
+                61,
+                17,
+                150,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Q Newborn",
+          "conf": 0.9069310128688812,
+          "bbox": [
+            496,
+            81,
+            692,
+            106
+          ],
+          "words": [
+            {
+              "text": "Q",
+              "conf": 0.8277761936187744,
+              "bbox": [
+                496,
+                88,
+                512,
+                106
+              ]
+            },
+            {
+              "text": "Newborn",
+              "conf": 0.986085832118988,
+              "bbox": [
+                604,
+                81,
+                692,
+                103
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Q",
+          "conf": 0.6369771361351013,
+          "bbox": [
+            165,
+            126,
+            371,
+            148
+          ],
+          "words": [
+            {
+              "text": "Q",
+              "conf": 0.6369771361351013,
+              "bbox": [
+                165,
+                126,
+                371,
+                148
+              ]
+            }
+          ]
+        },
+        {
+          "text": "yr1 Raf-pet",
+          "conf": 0.6914671659469604,
+          "bbox": [
+            34,
+            172,
+            1584,
+            194
+          ],
+          "words": [
+            {
+              "text": "yr1",
+              "conf": 0.8322069048881531,
+              "bbox": [
+                34,
+                172,
+                212,
+                192
+              ]
+            },
+            {
+              "text": "Raf-pet",
+              "conf": 0.5507274270057678,
+              "bbox": [
+                1538,
+                179,
+                1584,
+                194
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Q LREIULS",
+          "conf": 0.5848997235298157,
+          "bbox": [
+            478,
+            209,
+            886,
+            227
+          ],
+          "words": [
+            {
+              "text": "Q",
+              "conf": 0.5207998156547546,
+              "bbox": [
+                478,
+                209,
+                494,
+                227
+              ]
+            },
+            {
+              "text": "LREIULS",
+              "conf": 0.6489996314048767,
+              "bbox": [
+                786,
+                211,
+                886,
+                220
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Blocker Workflow Diagrams",
+          "conf": 0.9069525003433228,
+          "bbox": [
+            584,
+            253,
+            931,
+            276
+          ],
+          "words": [
+            {
+              "text": "Newborn Blocker Workflow Diagrams",
+              "conf": 0.9069525003433228,
+              "bbox": [
+                584,
+                253,
+                931,
+                276
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+          "conf": 0.8811200857162476,
+          "bbox": [
+            581,
+            297,
+            1233,
+            320
+          ],
+          "words": [
+            {
+              "text": "Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)",
+              "conf": 0.8811200857162476,
+              "bbox": [
+                581,
+                297,
+                1233,
+                320
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Clsim Wosflow agrams",
+          "conf": 0.8501457571983337,
+          "bbox": [
+            581,
+            336,
+            914,
+            362
+          ],
+          "words": [
+            {
+              "text": "Newborn Clsim Wosflow agrams",
+              "conf": 0.8501457571983337,
+              "bbox": [
+                581,
+                336,
+                914,
+                362
+              ]
+            }
+          ]
+        },
+        {
+          "text": "g",
+          "conf": 0.5518024563789368,
+          "bbox": [
+            81,
+            363,
+            433,
+            381
+          ],
+          "words": [
+            {
+              "text": " g ",
+              "conf": 0.5518024563789368,
+              "bbox": [
+                81,
+                363,
+                433,
+                381
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Claim Workflow",
+          "conf": 0.8584213256835938,
+          "bbox": [
+            581,
+            378,
+            821,
+            402
+          ],
+          "words": [
+            {
+              "text": "Newborn Claim Workflow",
+              "conf": 0.8584213256835938,
+              "bbox": [
+                581,
+                378,
+                821,
+                402
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Child Claim Workfiow agrams",
+          "conf": 0.8645380735397339,
+          "bbox": [
+            581,
+            417,
+            879,
+            443
+          ],
+          "words": [
+            {
+              "text": "Child Claim Workfiow agrams",
+              "conf": 0.8645380735397339,
+              "bbox": [
+                581,
+                417,
+                879,
+                443
+              ]
+            }
+          ]
+        },
+        {
+          "text": "C LA",
+          "conf": 0.6323410272598267,
+          "bbox": [
+            82,
+            440,
+            436,
+            457
+          ],
+          "words": [
+            {
+              "text": "C LA ",
+              "conf": 0.6323410272598267,
+              "bbox": [
+                82,
+                440,
+                436,
+                457
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Child Claim Workflow",
+          "conf": 0.7885668873786926,
+          "bbox": [
+            84,
+            458,
+            786,
+            483
+          ],
+          "words": [
+            {
+              "text": "A",
+              "conf": 0.6514244079589844,
+              "bbox": [
+                84,
+                460,
+                218,
+                472
+              ]
+            },
+            {
+              "text": "Child Claim Workflow",
+              "conf": 0.9257093667984009,
+              "bbox": [
+                581,
+                458,
+                786,
+                483
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Notes Temptates",
+          "conf": 0.9572768807411194,
+          "bbox": [
+            582,
+            499,
+            829,
+            525
+          ],
+          "words": [
+            {
+              "text": "Newborn Notes Temptates",
+              "conf": 0.9572768807411194,
+              "bbox": [
+                582,
+                499,
+                829,
+                525
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Coverage by State",
+          "conf": 0.9519384503364563,
+          "bbox": [
+            581,
+            538,
+            845,
+            567
+          ],
+          "words": [
+            {
+              "text": "Newborn Coverage by State",
+              "conf": 0.9519384503364563,
+              "bbox": [
+                581,
+                538,
+                845,
+                567
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Cis Cg As r lemized Bils:Claim Sprtting for Elig bility and Authorization",
+          "conf": 0.6961562633514404,
+          "bbox": [
+            84,
+            578,
+            1151,
+            605
+          ],
+          "words": [
+            {
+              "text": "Cis Cg As r",
+              "conf": 0.5647537708282471,
+              "bbox": [
+                84,
+                578,
+                360,
+                595
+              ]
+            },
+            {
+              "text": "lemized Bils:Claim Sprtting for Elig bility and Authorization",
+              "conf": 0.8275587558746338,
+              "bbox": [
+                581,
+                580,
+                1151,
+                605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Clare",
+          "conf": 0.6869855523109436,
+          "bbox": [
+            199,
+            698,
+            609,
+            721
+          ],
+          "words": [
+            {
+              "text": "A",
+              "conf": 0.5865514874458313,
+              "bbox": [
+                199,
+                698,
+                454,
+                710
+              ]
+            },
+            {
+              "text": "Clare",
+              "conf": 0.7874196171760559,
+              "bbox": [
+                572,
+                707,
+                609,
+                721
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=17 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 22x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | MR | -
+  CELL[1,0] = VERINT
+  CELL[1,2] = MR
+ROW 2 | Knowledge Management | - | - | -
+  CELL[2,0] = Knowledge Management
+ROW 3 | Always add additional details as needed to give a clear explanation supporting the changes made | - | - | -
+  CELL[3,0] = Always add additional details as needed to give a clear explanation supporting the changes made
+ROW 4 | Not an Oscar MM | - | - | -
+  CELL[4,0] = Not an Oscar MM
+ROW 5 | Not an Oscar MM | - | - | -
+  CELL[5,0] = Not an Oscar MM
+ROW 6 | Workflow: | - | - | -
+  CELL[6,0] = Workflow:
+ROW 7 | Newborn | - | - | -
+  CELL[7,0] = Newborn
+ROW 8 | Changes Made: | - | - | -
+  CELL[8,0] = Changes Made:
+ROW 9 | Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim. | - | - | -
+  CELL[9,0] = Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.
+ROW 10 | Reason for changes: | - | - | -
+  CELL[10,0] = Reason for changes:
+ROW 11 | No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s) | - | - | -
+  CELL[11,0] = No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)
+ROW 12 | BABY | - | - | -
+  CELL[12,0] = BABY
+ROW 13 | Baby | - | - | -
+  CELL[13,0] = Baby
+ROW 14 | Workflow: | - | - | -
+  CELL[14,0] = Workflow:
+ROW 15 | Newborn | - | - | -
+  CELL[15,0] = Newborn
+ROW 16 | Changes Made: | - | - | -
+  CELL[16,0] = Changes Made:
+ROW 17 | Suppress Newborn Blocker | To allow Claim to process as Submitted on Baby's Active Policy. | - | -
+  CELL[17,0] = Suppress Newborn Blocker
+  CELL[17,1] = To allow Claim to process as Submitted on Baby's Active Policy.
+ROW 18 | Reason for changes: | - | - | -
+  CELL[18,0] = Reason for changes:
+ROW 19 | Baby has an Active Policy Effectuated on or before the Start DOs of the claim. | - | - | -
+  CELL[19,0] = Baby has an Active Policy Effectuated on or before the Start DOs of the claim.
+ROW 20 | Baby's claim will be covered by the baby's own Active Policy | - | - | -
+  CELL[20,0] = Baby's claim will be covered by the baby's own Active Policy
+ROW 21 | Workflow: | - | - | -
+  CELL[21,0] = Workflow:
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x3
+HEADER | Filters Search | 8 Newborn 7/10/26 - KM1014156 | 9 x
+ROW 1 | - | 4 ratings* | :
+  CELL[1,1] = 4 ratings*
+  CELL[1,2] = :
+ROW 2 | - | Skip To: Private Information Tags | Refresh
+  CELL[2,1] = Skip To: Private Information Tags
+  CELL[2,2] = Refresh
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[59,19,1569,39] | order=0
+  VERINT MR
+BLOCK 1 | type=header | bbox=[29,41,176,57] | order=1
+  Knowledge Management
+BLOCK 2 | type=paragraph | bbox=[2,83,1591,132] | order=2
+  Filters Search 8 Newborn 7/10/26 - KM1014156 9 x
+BLOCK 3 | type=label_value | bbox=[41,127,1586,197] | order=3
+  4 ratings* :
+  Skip To: Private Information Tags Refresh
+BLOCK 4 | type=paragraph | bbox=[71,215,896,308] | order=4
+  Always add additional details as needed to give a clear explanation supporting the changes made
+  Not an Oscar MM
+  Not an Oscar MM
+BLOCK 5 | type=label_value | bbox=[73,318,160,343] | order=5
+  Workflow:
+BLOCK 6 | type=paragraph | bbox=[74,342,145,360] | order=6
+  Newborn
+BLOCK 7 | type=label_value | bbox=[75,368,203,388] | order=7
+  Changes Made:
+BLOCK 8 | type=paragraph | bbox=[74,386,544,426] | order=8
+  Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.
+BLOCK 9 | type=label_value | bbox=[76,438,245,458] | order=9
+  Reason for changes:
+BLOCK 10 | type=paragraph | bbox=[72,454,846,498] | order=10
+  No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)
+  BABY
+BLOCK 11 | type=heading | bbox=[73,516,127,544] | order=11
+  Baby
+BLOCK 12 | type=label_value | bbox=[75,547,162,572] | order=12
+  Workflow:
+BLOCK 13 | type=paragraph | bbox=[75,572,146,589] | order=13
+  Newborn
+BLOCK 14 | type=label_value | bbox=[75,598,758,668] | order=14
+  Changes Made:
+  Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.
+  Reason for changes:
+BLOCK 15 | type=paragraph | bbox=[75,663,654,705] | order=15
+  Baby has an Active Policy Effectuated on or before the Start DOs of the claim.
+  Baby's claim will be covered by the baby's own Active Policy
+BLOCK 16 | type=footer | bbox=[79,747,161,765] | order=16
+  Workflow:
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[29,19,1569,765] | shape=22x4 | conf=0.920
+  shape: 22x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | MR | -
+    CELL[1,0] = VERINT
+    CELL[1,2] = MR
+  ROW 2 | Knowledge Management | - | - | -
+    CELL[2,0] = Knowledge Management
+  ROW 3 | Always add additional details as needed to give a clear explanation supporting the changes made | - | - | -
+    CELL[3,0] = Always add additional details as needed to give a clear explanation supporting the changes made
+  ROW 4 | Not an Oscar MM | - | - | -
+    CELL[4,0] = Not an Oscar MM
+  ROW 5 | Not an Oscar MM | - | - | -
+    CELL[5,0] = Not an Oscar MM
+  ROW 6 | Workflow: | - | - | -
+    CELL[6,0] = Workflow:
+  ROW 7 | Newborn | - | - | -
+    CELL[7,0] = Newborn
+  ROW 8 | Changes Made: | - | - | -
+    CELL[8,0] = Changes Made:
+  ROW 9 | Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim. | - | - | -
+    CELL[9,0] = Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.
+  ROW 10 | Reason for changes: | - | - | -
+    CELL[10,0] = Reason for changes:
+  ROW 11 | No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s) | - | - | -
+    CELL[11,0] = No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)
+  ROW 12 | BABY | - | - | -
+    CELL[12,0] = BABY
+  ROW 13 | Baby | - | - | -
+    CELL[13,0] = Baby
+  ROW 14 | Workflow: | - | - | -
+    CELL[14,0] = Workflow:
+  ROW 15 | Newborn | - | - | -
+    CELL[15,0] = Newborn
+  ROW 16 | Changes Made: | - | - | -
+    CELL[16,0] = Changes Made:
+  ROW 17 | Suppress Newborn Blocker | To allow Claim to process as Submitted on Baby's Active Policy. | - | -
+    CELL[17,0] = Suppress Newborn Blocker
+    CELL[17,1] = To allow Claim to process as Submitted on Baby's Active Policy.
+  ROW 18 | Reason for changes: | - | - | -
+    CELL[18,0] = Reason for changes:
+  ROW 19 | Baby has an Active Policy Effectuated on or before the Start DOs of the claim. | - | - | -
+    CELL[19,0] = Baby has an Active Policy Effectuated on or before the Start DOs of the claim.
+  ROW 20 | Baby's claim will be covered by the baby's own Active Policy | - | - | -
+    CELL[20,0] = Baby's claim will be covered by the baby's own Active Policy
+  ROW 21 | Workflow: | - | - | -
+    CELL[21,0] = Workflow:
+TABLE 1 | source=wide_grid | bbox=[2,83,1591,197] | shape=3x3 | conf=0.850
+  shape: 3x3
+  HEADER | Filters Search | 8 Newborn 7/10/26 - KM1014156 | 9 x
+  ROW 1 | - | 4 ratings* | :
+    CELL[1,1] = 4 ratings*
+    CELL[1,2] = :
+  ROW 2 | - | Skip To: Private Information Tags | Refresh
+    CELL[2,1] = Skip To: Private Information Tags
+    CELL[2,2] = Refresh
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,19,1569,39] | conf=0.998 | text=VERINT MR
+  WORD | bbox=[59,19,148,37] | text=VERINT
+  WORD | bbox=[1536,22,1569,39] | text=MR
+LINE 1 | bbox=[29,41,176,57] | conf=0.983 | text=Knowledge Management
+LINE 2 | bbox=[2,83,1591,132] | conf=0.852 | text=Filters Search 8 Newborn 7/10/26 - KM1014156 9 x
+  WORD | bbox=[2,92,15,130] | text=Filters
+  WORD | bbox=[16,90,30,132] | text=Search
+  WORD | bbox=[50,90,74,113] | text=8
+  WORD | bbox=[90,83,222,122] | text=Newborn 7/10/26 - KM1014156
+  WORD | bbox=[1544,83,1591,111] | text=9 x
+LINE 3 | bbox=[41,127,1586,155] | conf=0.714 | text=4 ratings* :
+  WORD | bbox=[41,136,206,155] | text=4 ratings*
+  WORD | bbox=[1530,127,1586,154] | text=:
+LINE 4 | bbox=[44,173,1585,197] | conf=0.975 | text=Skip To: Private Information Tags Refresh
+  WORD | bbox=[44,181,256,197] | text=Skip To: Private Information Tags
+  WORD | bbox=[1534,173,1585,191] | text=Refresh
+LINE 5 | bbox=[71,215,796,238] | conf=0.981 | text=Always add additional details as needed to give a clear explanation supporting the changes made
+LINE 6 | bbox=[735,248,896,269] | conf=0.963 | text=Not an Oscar MM
+LINE 7 | bbox=[76,292,234,308] | conf=0.951 | text=Not an Oscar MM
+LINE 8 | bbox=[73,318,160,343] | conf=0.999 | text=Workflow:
+LINE 9 | bbox=[74,342,145,360] | conf=0.999 | text=Newborn
+LINE 10 | bbox=[75,368,203,388] | conf=0.980 | text=Changes Made:
+LINE 11 | bbox=[74,386,544,426] | conf=0.964 | text=Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.
+LINE 12 | bbox=[76,438,245,458] | conf=0.988 | text=Reason for changes:
+LINE 13 | bbox=[72,454,719,477] | conf=0.981 | text=No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)
+LINE 14 | bbox=[789,475,846,498] | conf=0.998 | text=BABY
+LINE 15 | bbox=[73,516,127,544] | conf=0.999 | text=Baby
+LINE 16 | bbox=[75,547,162,572] | conf=0.999 | text=Workflow:
+LINE 17 | bbox=[75,572,146,589] | conf=0.999 | text=Newborn
+LINE 18 | bbox=[78,598,204,619] | conf=0.972 | text=Changes Made:
+LINE 19 | bbox=[75,615,758,639] | conf=0.989 | text=Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.
+LINE 20 | bbox=[76,648,246,668] | conf=0.977 | text=Reason for changes:
+LINE 21 | bbox=[75,663,654,687] | conf=0.966 | text=Baby has an Active Policy Effectuated on or before the Start DOs of the claim.
+LINE 22 | bbox=[76,686,524,705] | conf=0.945 | text=Baby's claim will be covered by the baby's own Active Policy
+LINE 23 | bbox=[79,747,161,765] | conf=0.986 | text=Workflow:
+[/BOXES]

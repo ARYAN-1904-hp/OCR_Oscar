@@ -1,0 +1,2086 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims- appian\nHOLD-5892354 Production Hold\nNEWBORN hold on claim PPBBYRWE  In Progress (In Review) Ticket Info    Re-triage. PAUSE ESCALATE WITHDRAW RESOLVE\nP3 Due 07/29/2026 Assignee\n>Skill:NEWBORN SLA All Holds SLA (minus High$) (7 working days) Submitter Internal\nCreated On 7/20/2026 9:16 AM EDT Created By svc.automat\nMember Info Member ID Updated On 7/23/2026 6:28PMEDT Updated By\nOSCID Closed On Closed By\nState FL Reported On Reporter\nPlan Type Source Automat (appian_hold_ticket_creation) Watchers 0 WATCH\nICHRA Labels\nLOB Individual The claim is for a newborn and requires manual review Additional Info Issue Other\nTenant Oscar\nCode NEWBORN\nSystem Ocelot\nClaim Info OcelotID PPBBYRWE",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 871,
+      "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims- appian\nHOLD-5892354 Production Hold\nNEWBORN hold on claim PPBBYRWE  In Progress (In Review) Ticket Info    Re-triage. PAUSE ESCALATE WITHDRAW RESOLVE\nP3 Due 07/29/2026 Assignee\n>Skill:NEWBORN SLA All Holds SLA (minus High$) (7 working days) Submitter Internal\nCreated On 7/20/2026 9:16 AM EDT Created By svc.automat\nMember Info Member ID Updated On 7/23/2026 6:28PMEDT Updated By\nOSCID Closed On Closed By\nState FL Reported On Reporter\nPlan Type Source Automat (appian_hold_ticket_creation) Watchers 0 WATCH\nICHRA Labels\nLOB Individual The claim is for a newborn and requires manual review Additional Info Issue Other\nTenant Oscar\nCode NEWBORN\nSystem Ocelot\nClaim Info OcelotID PPBBYRWE",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                52,
+                599,
+                493,
+                624
+              ],
+              "text": "ICHRA Labels",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "ICHRA Labels",
+                  "conf": 0.9980968832969666,
+                  "bbox": [
+                    52,
+                    599,
+                    493,
+                    624
+                  ],
+                  "words": [
+                    {
+                      "text": "ICHRA",
+                      "conf": 0.9972933530807495,
+                      "bbox": [
+                        52,
+                        606,
+                        105,
+                        624
+                      ]
+                    },
+                    {
+                      "text": "Labels",
+                      "conf": 0.9989004135131836,
+                      "bbox": [
+                        440,
+                        599,
+                        493,
+                        618
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 5,
+              "bbox": [
+                52,
+                707,
+                276,
+                737
+              ],
+              "text": "Tenant Oscar",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Tenant Oscar",
+                  "conf": 0.9991507232189178,
+                  "bbox": [
+                    52,
+                    707,
+                    276,
+                    737
+                  ],
+                  "words": [
+                    {
+                      "text": "Tenant",
+                      "conf": 0.9986016750335693,
+                      "bbox": [
+                        52,
+                        714,
+                        108,
+                        733
+                      ]
+                    },
+                    {
+                      "text": "Oscar",
+                      "conf": 0.9996997714042664,
+                      "bbox": [
+                        223,
+                        707,
+                        276,
+                        737
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                1010,
+                747,
+                1268,
+                772
+              ],
+              "text": "Code NEWBORN",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Code NEWBORN",
+                  "conf": 0.9722711443901062,
+                  "bbox": [
+                    1010,
+                    747,
+                    1268,
+                    772
+                  ],
+                  "words": [
+                    {
+                      "text": "Code",
+                      "conf": 0.9998196959495544,
+                      "bbox": [
+                        1010,
+                        749,
+                        1055,
+                        772
+                      ]
+                    },
+                    {
+                      "text": " NEWBORN",
+                      "conf": 0.944722592830658,
+                      "bbox": [
+                        1183,
+                        747,
+                        1268,
+                        769
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "ICHRA Labels\nTenant Oscar\nCode NEWBORN"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            53,
+            19,
+            1587,
+            48
+          ],
+          "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims- appian",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims- appian",
+              "conf": 0.9951251830373492,
+              "bbox": [
+                53,
+                19,
+                1587,
+                48
+              ],
+              "words": [
+                {
+                  "text": "Claims",
+                  "conf": 0.9991974830627441,
+                  "bbox": [
+                    53,
+                    20,
+                    132,
+                    48
+                  ]
+                },
+                {
+                  "text": "HOME",
+                  "conf": 0.9989248514175415,
+                  "bbox": [
+                    172,
+                    22,
+                    225,
+                    41
+                  ]
+                },
+                {
+                  "text": "INVENTORY",
+                  "conf": 0.9979411363601685,
+                  "bbox": [
+                    247,
+                    22,
+                    340,
+                    39
+                  ]
+                },
+                {
+                  "text": "CREATE TICKET",
+                  "conf": 0.9824654459953308,
+                  "bbox": [
+                    367,
+                    22,
+                    485,
+                    39
+                  ]
+                },
+                {
+                  "text": "UNARCHIVE",
+                  "conf": 0.9986258745193481,
+                  "bbox": [
+                    510,
+                    22,
+                    603,
+                    39
+                  ]
+                },
+                {
+                  "text": "Claims-",
+                  "conf": 0.9917852282524109,
+                  "bbox": [
+                    1387,
+                    19,
+                    1470,
+                    41
+                  ]
+                },
+                {
+                  "text": "appian",
+                  "conf": 0.9969362616539001,
+                  "bbox": [
+                    1535,
+                    20,
+                    1587,
+                    39
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            27,
+            90,
+            428,
+            112
+          ],
+          "text": "HOLD-5892354 Production Hold",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "HOLD-5892354 Production Hold",
+              "conf": 0.9595412015914917,
+              "bbox": [
+                27,
+                90,
+                428,
+                112
+              ],
+              "words": [
+                {
+                  "text": "HOLD-5892354 Production Hold",
+                  "conf": 0.9595412015914917,
+                  "bbox": [
+                    27,
+                    90,
+                    428,
+                    112
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            42,
+            167,
+            1537,
+            575
+          ],
+          "text": "NEWBORN hold on claim PPBBYRWE  In Progress (In Review) Ticket Info    Re-triage. PAUSE ESCALATE WITHDRAW RESOLVE\nP3 Due 07/29/2026 Assignee\n>Skill:NEWBORN SLA All Holds SLA (minus High$) (7 working days) Submitter Internal\nCreated On 7/20/2026 9:16 AM EDT Created By svc.automat\nMember Info Member ID Updated On 7/23/2026 6:28PMEDT Updated By\nOSCID Closed On Closed By\nState FL Reported On Reporter\nPlan Type Source Automat (appian_hold_ticket_creation) Watchers 0 WATCH",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "NEWBORN hold on claim PPBBYRWE  In Progress (In Review) Ticket Info    Re-triage. PAUSE ESCALATE WITHDRAW RESOLVE",
+              "conf": 0.9864469865957896,
+              "bbox": [
+                48,
+                167,
+                1537,
+                228
+              ],
+              "words": [
+                {
+                  "text": "NEWBORN hold on claim PPBBYRWE  In Progress (In Review)",
+                  "conf": 0.9740316271781921,
+                  "bbox": [
+                    48,
+                    167,
+                    390,
+                    228
+                  ]
+                },
+                {
+                  "text": "Ticket Info    Re-triage.",
+                  "conf": 0.9576590061187744,
+                  "bbox": [
+                    427,
+                    167,
+                    727,
+                    194
+                  ]
+                },
+                {
+                  "text": "PAUSE",
+                  "conf": 0.9971604347229004,
+                  "bbox": [
+                    1028,
+                    170,
+                    1080,
+                    189
+                  ]
+                },
+                {
+                  "text": "ESCALATE",
+                  "conf": 0.9945447444915771,
+                  "bbox": [
+                    1165,
+                    168,
+                    1245,
+                    191
+                  ]
+                },
+                {
+                  "text": "WITHDRAW",
+                  "conf": 0.9962701797485352,
+                  "bbox": [
+                    1310,
+                    168,
+                    1398,
+                    191
+                  ]
+                },
+                {
+                  "text": "RESOLVE",
+                  "conf": 0.9990159273147583,
+                  "bbox": [
+                    1472,
+                    168,
+                    1537,
+                    187
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "P3 Due 07/29/2026 Assignee",
+              "conf": 0.9960205852985382,
+              "bbox": [
+                42,
+                208,
+                1082,
+                243
+              ],
+              "words": [
+                {
+                  "text": "P3",
+                  "conf": 0.9881581664085388,
+                  "bbox": [
+                    42,
+                    208,
+                    77,
+                    226
+                  ]
+                },
+                {
+                  "text": "Due",
+                  "conf": 0.9987818598747253,
+                  "bbox": [
+                    437,
+                    218,
+                    475,
+                    243
+                  ]
+                },
+                {
+                  "text": "07/29/2026",
+                  "conf": 0.9972914457321167,
+                  "bbox": [
+                    615,
+                    219,
+                    700,
+                    236
+                  ]
+                },
+                {
+                  "text": "Assignee",
+                  "conf": 0.999850869178772,
+                  "bbox": [
+                    1008,
+                    218,
+                    1082,
+                    240
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": ">Skill:NEWBORN SLA All Holds SLA (minus High$) (7 working days) Submitter Internal",
+              "conf": 0.9767472624778748,
+              "bbox": [
+                53,
+                272,
+                1245,
+                298
+              ],
+              "words": [
+                {
+                  "text": ">Skill:NEWBORN",
+                  "conf": 0.9555653929710388,
+                  "bbox": [
+                    53,
+                    272,
+                    210,
+                    289
+                  ]
+                },
+                {
+                  "text": "SLA",
+                  "conf": 0.9968487620353699,
+                  "bbox": [
+                    437,
+                    272,
+                    475,
+                    298
+                  ]
+                },
+                {
+                  "text": "All Holds SLA (minus High$) (7 working days)",
+                  "conf": 0.9352990984916687,
+                  "bbox": [
+                    615,
+                    274,
+                    933,
+                    291
+                  ]
+                },
+                {
+                  "text": "Submitter",
+                  "conf": 0.9977445602416992,
+                  "bbox": [
+                    1010,
+                    274,
+                    1090,
+                    291
+                  ]
+                },
+                {
+                  "text": "Internal",
+                  "conf": 0.9982784986495972,
+                  "bbox": [
+                    1183,
+                    272,
+                    1245,
+                    291
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Created On 7/20/2026 9:16 AM EDT Created By svc.automat",
+              "conf": 0.9897115081548691,
+              "bbox": [
+                440,
+                325,
+                1283,
+                350
+              ],
+              "words": [
+                {
+                  "text": "Created On",
+                  "conf": 0.9960635900497437,
+                  "bbox": [
+                    440,
+                    328,
+                    528,
+                    350
+                  ]
+                },
+                {
+                  "text": "7/20/2026 9:16 AM EDT",
+                  "conf": 0.9824340343475342,
+                  "bbox": [
+                    613,
+                    325,
+                    785,
+                    347
+                  ]
+                },
+                {
+                  "text": "Created By",
+                  "conf": 0.999598503112793,
+                  "bbox": [
+                    1010,
+                    327,
+                    1097,
+                    349
+                  ]
+                },
+                {
+                  "text": "svc.automat",
+                  "conf": 0.9807499051094055,
+                  "bbox": [
+                    1185,
+                    325,
+                    1283,
+                    345
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Member Info Member ID Updated On 7/23/2026 6:28PMEDT Updated By",
+              "conf": 0.980508029460907,
+              "bbox": [
+                48,
+                354,
+                1100,
+                412
+              ],
+              "words": [
+                {
+                  "text": "Member Info Member ID",
+                  "conf": 0.9734698534011841,
+                  "bbox": [
+                    48,
+                    354,
+                    178,
+                    412
+                  ]
+                },
+                {
+                  "text": "Updated On",
+                  "conf": 0.9984240531921387,
+                  "bbox": [
+                    438,
+                    381,
+                    535,
+                    403
+                  ]
+                },
+                {
+                  "text": "7/23/2026 6:28PMEDT",
+                  "conf": 0.9507339000701904,
+                  "bbox": [
+                    613,
+                    379,
+                    785,
+                    400
+                  ]
+                },
+                {
+                  "text": "Updated By",
+                  "conf": 0.9994043111801147,
+                  "bbox": [
+                    1010,
+                    381,
+                    1100,
+                    403
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "OSCID Closed On Closed By",
+              "conf": 0.9955317179361979,
+              "bbox": [
+                50,
+                434,
+                1087,
+                464
+              ],
+              "words": [
+                {
+                  "text": "OSCID",
+                  "conf": 0.9924920201301575,
+                  "bbox": [
+                    50,
+                    441,
+                    108,
+                    464
+                  ]
+                },
+                {
+                  "text": "Closed On",
+                  "conf": 0.9943161010742188,
+                  "bbox": [
+                    440,
+                    436,
+                    522,
+                    458
+                  ]
+                },
+                {
+                  "text": "Closed By",
+                  "conf": 0.9997870326042175,
+                  "bbox": [
+                    1010,
+                    434,
+                    1087,
+                    458
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 6,
+              "text": "State FL Reported On Reporter",
+              "conf": 0.9944654256105423,
+              "bbox": [
+                48,
+                486,
+                1082,
+                519
+              ],
+              "words": [
+                {
+                  "text": "State",
+                  "conf": 0.9998089075088501,
+                  "bbox": [
+                    48,
+                    495,
+                    98,
+                    519
+                  ]
+                },
+                {
+                  "text": "FL",
+                  "conf": 0.9992271661758423,
+                  "bbox": [
+                    223,
+                    495,
+                    248,
+                    517
+                  ]
+                },
+                {
+                  "text": "Reported On",
+                  "conf": 0.9799407720565796,
+                  "bbox": [
+                    442,
+                    493,
+                    537,
+                    510
+                  ]
+                },
+                {
+                  "text": "Reporter",
+                  "conf": 0.9988848567008972,
+                  "bbox": [
+                    1008,
+                    486,
+                    1082,
+                    512
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 7,
+              "text": "Plan Type Source Automat (appian_hold_ticket_creation) Watchers 0 WATCH",
+              "conf": 0.9427086412906647,
+              "bbox": [
+                48,
+                541,
+                1290,
+                575
+              ],
+              "words": [
+                {
+                  "text": " Plan Type",
+                  "conf": 0.9824109077453613,
+                  "bbox": [
+                    48,
+                    547,
+                    125,
+                    575
+                  ]
+                },
+                {
+                  "text": "Source",
+                  "conf": 0.9989132881164551,
+                  "bbox": [
+                    442,
+                    546,
+                    497,
+                    565
+                  ]
+                },
+                {
+                  "text": "Automat (appian_hold_ticket_creation)",
+                  "conf": 0.984400749206543,
+                  "bbox": [
+                    615,
+                    543,
+                    900,
+                    565
+                  ]
+                },
+                {
+                  "text": "Watchers",
+                  "conf": 0.9984351396560669,
+                  "bbox": [
+                    1010,
+                    541,
+                    1087,
+                    563
+                  ]
+                },
+                {
+                  "text": "0",
+                  "conf": 0.7082602381706238,
+                  "bbox": [
+                    1180,
+                    551,
+                    1195,
+                    565
+                  ]
+                },
+                {
+                  "text": "WATCH",
+                  "conf": 0.983831524848938,
+                  "bbox": [
+                    1207,
+                    548,
+                    1290,
+                    570
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            52,
+            599,
+            493,
+            624
+          ],
+          "text": "ICHRA Labels",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "ICHRA Labels",
+              "conf": 0.9980968832969666,
+              "bbox": [
+                52,
+                599,
+                493,
+                624
+              ],
+              "words": [
+                {
+                  "text": "ICHRA",
+                  "conf": 0.9972933530807495,
+                  "bbox": [
+                    52,
+                    606,
+                    105,
+                    624
+                  ]
+                },
+                {
+                  "text": "Labels",
+                  "conf": 0.9989004135131836,
+                  "bbox": [
+                    440,
+                    599,
+                    493,
+                    618
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            48,
+            655,
+            1233,
+            716
+          ],
+          "text": "LOB Individual The claim is for a newborn and requires manual review Additional Info Issue Other",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "LOB Individual The claim is for a newborn and requires manual review Additional Info Issue Other",
+              "conf": 0.9935066223144531,
+              "bbox": [
+                48,
+                655,
+                1233,
+                716
+              ],
+              "words": [
+                {
+                  "text": "LOB",
+                  "conf": 0.9892333149909973,
+                  "bbox": [
+                    48,
+                    657,
+                    90,
+                    682
+                  ]
+                },
+                {
+                  "text": "Individual",
+                  "conf": 0.9991949200630188,
+                  "bbox": [
+                    225,
+                    655,
+                    302,
+                    679
+                  ]
+                },
+                {
+                  "text": "The claim is for a newborn and requires manual review",
+                  "conf": 0.982878565788269,
+                  "bbox": [
+                    457,
+                    680,
+                    843,
+                    697
+                  ]
+                },
+                {
+                  "text": "Additional Info Issue",
+                  "conf": 0.996544361114502,
+                  "bbox": [
+                    1010,
+                    658,
+                    1145,
+                    716
+                  ]
+                },
+                {
+                  "text": "Other",
+                  "conf": 0.9996819496154785,
+                  "bbox": [
+                    1183,
+                    692,
+                    1233,
+                    716
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            52,
+            707,
+            276,
+            737
+          ],
+          "text": "Tenant Oscar",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Tenant Oscar",
+              "conf": 0.9991507232189178,
+              "bbox": [
+                52,
+                707,
+                276,
+                737
+              ],
+              "words": [
+                {
+                  "text": "Tenant",
+                  "conf": 0.9986016750335693,
+                  "bbox": [
+                    52,
+                    714,
+                    108,
+                    733
+                  ]
+                },
+                {
+                  "text": "Oscar",
+                  "conf": 0.9996997714042664,
+                  "bbox": [
+                    223,
+                    707,
+                    276,
+                    737
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            1010,
+            747,
+            1268,
+            772
+          ],
+          "text": "Code NEWBORN",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Code NEWBORN",
+              "conf": 0.9722711443901062,
+              "bbox": [
+                1010,
+                747,
+                1268,
+                772
+              ],
+              "words": [
+                {
+                  "text": "Code",
+                  "conf": 0.9998196959495544,
+                  "bbox": [
+                    1010,
+                    749,
+                    1055,
+                    772
+                  ]
+                },
+                {
+                  "text": " NEWBORN",
+                  "conf": 0.944722592830658,
+                  "bbox": [
+                    1183,
+                    747,
+                    1268,
+                    769
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 7,
+          "bbox": [
+            1010,
+            801,
+            1240,
+            827
+          ],
+          "text": "System Ocelot",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "System Ocelot",
+              "conf": 0.9996870160102844,
+              "bbox": [
+                1010,
+                801,
+                1240,
+                827
+              ],
+              "words": [
+                {
+                  "text": "System",
+                  "conf": 0.9996233582496643,
+                  "bbox": [
+                    1010,
+                    803,
+                    1073,
+                    827
+                  ]
+                },
+                {
+                  "text": "Ocelot",
+                  "conf": 0.9997506737709045,
+                  "bbox": [
+                    1185,
+                    801,
+                    1240,
+                    825
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 8,
+          "bbox": [
+            52,
+            817,
+            315,
+            870
+          ],
+          "text": "Claim Info OcelotID PPBBYRWE",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claim Info OcelotID PPBBYRWE",
+              "conf": 0.9731020629405975,
+              "bbox": [
+                52,
+                817,
+                315,
+                870
+              ],
+              "words": [
+                {
+                  "text": "Claim Info OcelotID",
+                  "conf": 0.9493410587310791,
+                  "bbox": [
+                    52,
+                    817,
+                    158,
+                    870
+                  ]
+                },
+                {
+                  "text": "PPBBYRWE",
+                  "conf": 0.996863067150116,
+                  "bbox": [
+                    227,
+                    849,
+                    315,
+                    870
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            27,
+            19,
+            1587,
+            870
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Claims HOME INVENTORY CREATE TICKET UNARCHIVE</td><td></td><td>Claims-</td><td>appian</td></tr><tr><td>HOLD-5892354 Production Hold</td><td></td><td></td><td></td></tr><tr><td>Ticket Info Re-triage.</td><td></td><td>PAUSE ESCALATE WITHDRAW RESOLVE</td><td></td></tr><tr><td>NEWBORN hold on claim PPBBYRWE In Progress (In Review)</td><td></td><td></td><td></td></tr><tr><td>LOB</td><td>Individual</td><td></td><td></td></tr><tr><td>The claim is for a newborn and requires manual review</td><td></td><td>Additional Info Issue</td><td></td></tr><tr><td></td><td></td><td>Other</td><td></td></tr><tr><td>Tenant</td><td>Oscar</td><td></td><td></td></tr><tr><td></td><td></td><td>Code</td><td>NEWBORN</td></tr><tr><td></td><td></td><td>System</td><td>Ocelot</td></tr><tr><td>Claim Info OcelotID</td><td></td><td></td><td></td></tr><tr><td>PPBBYRWE</td><td></td><td></td><td></td></tr></table>",
+          "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE: \nClaims-: appian\nHOLD-5892354 Production Hold: \nTicket Info Re-triage.: \nPAUSE ESCALATE WITHDRAW RESOLVE: \nNEWBORN hold on claim PPBBYRWE In Progress (In Review): \nLOB: Individual\nThe claim is for a newborn and requires manual review: \nAdditional Info Issue: \nOther: \nTenant: Oscar\nCode: NEWBORN\nSystem: Ocelot\nClaim Info OcelotID: \nPPBBYRWE: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "Claims HOME INVENTORY CREATE TICKET UNARCHIVE",
+              "",
+              "Claims-",
+              "appian"
+            ],
+            [
+              "HOLD-5892354 Production Hold",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Ticket Info Re-triage.",
+              "",
+              "PAUSE ESCALATE WITHDRAW RESOLVE",
+              ""
+            ],
+            [
+              "NEWBORN hold on claim PPBBYRWE In Progress (In Review)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "LOB",
+              "Individual",
+              "",
+              ""
+            ],
+            [
+              "The claim is for a newborn and requires manual review",
+              "",
+              "Additional Info Issue",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Other",
+              ""
+            ],
+            [
+              "Tenant",
+              "Oscar",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Code",
+              "NEWBORN"
+            ],
+            [
+              "",
+              "",
+              "System",
+              "Ocelot"
+            ],
+            [
+              "Claim Info OcelotID",
+              "",
+              "",
+              ""
+            ],
+            [
+              "PPBBYRWE",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "Claims HOME INVENTORY CREATE TICKET UNARCHIVE",
+              "Claims- appian"
+            ],
+            [
+              "HOLD-5892354 Production Hold",
+              ""
+            ],
+            [
+              "Ticket Info    Re-triage.",
+              "PAUSE ESCALATE WITHDRAW RESOLVE"
+            ],
+            [
+              "NEWBORN hold on claim PPBBYRWE  In Progress (In Review)",
+              ""
+            ],
+            [
+              "LOB Individual",
+              ""
+            ],
+            [
+              "The claim is for a newborn and requires manual review",
+              "Additional Info Issue"
+            ],
+            [
+              "",
+              "Other"
+            ],
+            [
+              "Tenant Oscar",
+              ""
+            ],
+            [
+              "",
+              "Code NEWBORN"
+            ],
+            [
+              "",
+              "System Ocelot"
+            ],
+            [
+              "Claim Info OcelotID",
+              ""
+            ],
+            [
+              "PPBBYRWE",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            42,
+            208,
+            1290,
+            624
+          ],
+          "html": "<table><tr><th>P3</th><th>Due</th><th>07/29/2026</th><th>Assignee</th></tr><tr><td>&gt;Skill:NEWBORN</td><td>SLA</td><td>All Holds SLA (minus High$) (7 working days)</td><td>Submitter Internal</td></tr><tr><td></td><td>Created On</td><td>7/20/2026 9:16 AM EDT</td><td>Created By svc.automat</td></tr><tr><td>Member Info Member ID</td><td>Updated On</td><td>7/23/2026 6:28PMEDT</td><td>Updated By</td></tr><tr><td>OSCID</td><td>Closed On</td><td></td><td>Closed By</td></tr><tr><td>State FL</td><td>Reported On</td><td></td><td>Reporter</td></tr><tr><td>Plan Type</td><td>Source</td><td>Automat (appian_hold_ticket_creation)</td><td>Watchers 0 WATCH</td></tr><tr><td>ICHRA</td><td>Labels</td><td></td><td></td></tr></table>",
+          "text": ">Skill:NEWBORN | SLA | All Holds SLA (minus High$) (7 working days) | Submitter Internal\n | Created On | 7/20/2026 9:16 AM EDT | Created By svc.automat\nMember Info Member ID | Updated On | 7/23/2026 6:28PMEDT | Updated By\nOSCID | Closed On |  | Closed By\nState FL | Reported On |  | Reporter\nPlan Type | Source | Automat (appian_hold_ticket_creation) | Watchers 0 WATCH\nICHRA | Labels |  | ",
+          "headers": [
+            "P3",
+            "Due",
+            "07/29/2026",
+            "Assignee"
+          ],
+          "rows": [
+            [
+              ">Skill:NEWBORN",
+              "SLA",
+              "All Holds SLA (minus High$) (7 working days)",
+              "Submitter Internal"
+            ],
+            [
+              "",
+              "Created On",
+              "7/20/2026 9:16 AM EDT",
+              "Created By svc.automat"
+            ],
+            [
+              "Member Info Member ID",
+              "Updated On",
+              "7/23/2026 6:28PMEDT",
+              "Updated By"
+            ],
+            [
+              "OSCID",
+              "Closed On",
+              "",
+              "Closed By"
+            ],
+            [
+              "State FL",
+              "Reported On",
+              "",
+              "Reporter"
+            ],
+            [
+              "Plan Type",
+              "Source",
+              "Automat (appian_hold_ticket_creation)",
+              "Watchers 0 WATCH"
+            ],
+            [
+              "ICHRA",
+              "Labels",
+              "",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims- appian",
+          "conf": 0.9951251830373492,
+          "bbox": [
+            53,
+            19,
+            1587,
+            48
+          ],
+          "words": [
+            {
+              "text": "Claims",
+              "conf": 0.9991974830627441,
+              "bbox": [
+                53,
+                20,
+                132,
+                48
+              ]
+            },
+            {
+              "text": "HOME",
+              "conf": 0.9989248514175415,
+              "bbox": [
+                172,
+                22,
+                225,
+                41
+              ]
+            },
+            {
+              "text": "INVENTORY",
+              "conf": 0.9979411363601685,
+              "bbox": [
+                247,
+                22,
+                340,
+                39
+              ]
+            },
+            {
+              "text": "CREATE TICKET",
+              "conf": 0.9824654459953308,
+              "bbox": [
+                367,
+                22,
+                485,
+                39
+              ]
+            },
+            {
+              "text": "UNARCHIVE",
+              "conf": 0.9986258745193481,
+              "bbox": [
+                510,
+                22,
+                603,
+                39
+              ]
+            },
+            {
+              "text": "Claims-",
+              "conf": 0.9917852282524109,
+              "bbox": [
+                1387,
+                19,
+                1470,
+                41
+              ]
+            },
+            {
+              "text": "appian",
+              "conf": 0.9969362616539001,
+              "bbox": [
+                1535,
+                20,
+                1587,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "HOLD-5892354 Production Hold",
+          "conf": 0.9595412015914917,
+          "bbox": [
+            27,
+            90,
+            428,
+            112
+          ],
+          "words": [
+            {
+              "text": "HOLD-5892354 Production Hold",
+              "conf": 0.9595412015914917,
+              "bbox": [
+                27,
+                90,
+                428,
+                112
+              ]
+            }
+          ]
+        },
+        {
+          "text": "NEWBORN hold on claim PPBBYRWE  In Progress (In Review) Ticket Info    Re-triage. PAUSE ESCALATE WITHDRAW RESOLVE",
+          "conf": 0.9864469865957896,
+          "bbox": [
+            48,
+            167,
+            1537,
+            228
+          ],
+          "words": [
+            {
+              "text": "NEWBORN hold on claim PPBBYRWE  In Progress (In Review)",
+              "conf": 0.9740316271781921,
+              "bbox": [
+                48,
+                167,
+                390,
+                228
+              ]
+            },
+            {
+              "text": "Ticket Info    Re-triage.",
+              "conf": 0.9576590061187744,
+              "bbox": [
+                427,
+                167,
+                727,
+                194
+              ]
+            },
+            {
+              "text": "PAUSE",
+              "conf": 0.9971604347229004,
+              "bbox": [
+                1028,
+                170,
+                1080,
+                189
+              ]
+            },
+            {
+              "text": "ESCALATE",
+              "conf": 0.9945447444915771,
+              "bbox": [
+                1165,
+                168,
+                1245,
+                191
+              ]
+            },
+            {
+              "text": "WITHDRAW",
+              "conf": 0.9962701797485352,
+              "bbox": [
+                1310,
+                168,
+                1398,
+                191
+              ]
+            },
+            {
+              "text": "RESOLVE",
+              "conf": 0.9990159273147583,
+              "bbox": [
+                1472,
+                168,
+                1537,
+                187
+              ]
+            }
+          ]
+        },
+        {
+          "text": "P3 Due 07/29/2026 Assignee",
+          "conf": 0.9960205852985382,
+          "bbox": [
+            42,
+            208,
+            1082,
+            243
+          ],
+          "words": [
+            {
+              "text": "P3",
+              "conf": 0.9881581664085388,
+              "bbox": [
+                42,
+                208,
+                77,
+                226
+              ]
+            },
+            {
+              "text": "Due",
+              "conf": 0.9987818598747253,
+              "bbox": [
+                437,
+                218,
+                475,
+                243
+              ]
+            },
+            {
+              "text": "07/29/2026",
+              "conf": 0.9972914457321167,
+              "bbox": [
+                615,
+                219,
+                700,
+                236
+              ]
+            },
+            {
+              "text": "Assignee",
+              "conf": 0.999850869178772,
+              "bbox": [
+                1008,
+                218,
+                1082,
+                240
+              ]
+            }
+          ]
+        },
+        {
+          "text": ">Skill:NEWBORN SLA All Holds SLA (minus High$) (7 working days) Submitter Internal",
+          "conf": 0.9767472624778748,
+          "bbox": [
+            53,
+            272,
+            1245,
+            298
+          ],
+          "words": [
+            {
+              "text": ">Skill:NEWBORN",
+              "conf": 0.9555653929710388,
+              "bbox": [
+                53,
+                272,
+                210,
+                289
+              ]
+            },
+            {
+              "text": "SLA",
+              "conf": 0.9968487620353699,
+              "bbox": [
+                437,
+                272,
+                475,
+                298
+              ]
+            },
+            {
+              "text": "All Holds SLA (minus High$) (7 working days)",
+              "conf": 0.9352990984916687,
+              "bbox": [
+                615,
+                274,
+                933,
+                291
+              ]
+            },
+            {
+              "text": "Submitter",
+              "conf": 0.9977445602416992,
+              "bbox": [
+                1010,
+                274,
+                1090,
+                291
+              ]
+            },
+            {
+              "text": "Internal",
+              "conf": 0.9982784986495972,
+              "bbox": [
+                1183,
+                272,
+                1245,
+                291
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Created On 7/20/2026 9:16 AM EDT Created By svc.automat",
+          "conf": 0.9897115081548691,
+          "bbox": [
+            440,
+            325,
+            1283,
+            350
+          ],
+          "words": [
+            {
+              "text": "Created On",
+              "conf": 0.9960635900497437,
+              "bbox": [
+                440,
+                328,
+                528,
+                350
+              ]
+            },
+            {
+              "text": "7/20/2026 9:16 AM EDT",
+              "conf": 0.9824340343475342,
+              "bbox": [
+                613,
+                325,
+                785,
+                347
+              ]
+            },
+            {
+              "text": "Created By",
+              "conf": 0.999598503112793,
+              "bbox": [
+                1010,
+                327,
+                1097,
+                349
+              ]
+            },
+            {
+              "text": "svc.automat",
+              "conf": 0.9807499051094055,
+              "bbox": [
+                1185,
+                325,
+                1283,
+                345
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member Info Member ID Updated On 7/23/2026 6:28PMEDT Updated By",
+          "conf": 0.980508029460907,
+          "bbox": [
+            48,
+            354,
+            1100,
+            412
+          ],
+          "words": [
+            {
+              "text": "Member Info Member ID",
+              "conf": 0.9734698534011841,
+              "bbox": [
+                48,
+                354,
+                178,
+                412
+              ]
+            },
+            {
+              "text": "Updated On",
+              "conf": 0.9984240531921387,
+              "bbox": [
+                438,
+                381,
+                535,
+                403
+              ]
+            },
+            {
+              "text": "7/23/2026 6:28PMEDT",
+              "conf": 0.9507339000701904,
+              "bbox": [
+                613,
+                379,
+                785,
+                400
+              ]
+            },
+            {
+              "text": "Updated By",
+              "conf": 0.9994043111801147,
+              "bbox": [
+                1010,
+                381,
+                1100,
+                403
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OSCID Closed On Closed By",
+          "conf": 0.9955317179361979,
+          "bbox": [
+            50,
+            434,
+            1087,
+            464
+          ],
+          "words": [
+            {
+              "text": "OSCID",
+              "conf": 0.9924920201301575,
+              "bbox": [
+                50,
+                441,
+                108,
+                464
+              ]
+            },
+            {
+              "text": "Closed On",
+              "conf": 0.9943161010742188,
+              "bbox": [
+                440,
+                436,
+                522,
+                458
+              ]
+            },
+            {
+              "text": "Closed By",
+              "conf": 0.9997870326042175,
+              "bbox": [
+                1010,
+                434,
+                1087,
+                458
+              ]
+            }
+          ]
+        },
+        {
+          "text": "State FL Reported On Reporter",
+          "conf": 0.9944654256105423,
+          "bbox": [
+            48,
+            486,
+            1082,
+            519
+          ],
+          "words": [
+            {
+              "text": "State",
+              "conf": 0.9998089075088501,
+              "bbox": [
+                48,
+                495,
+                98,
+                519
+              ]
+            },
+            {
+              "text": "FL",
+              "conf": 0.9992271661758423,
+              "bbox": [
+                223,
+                495,
+                248,
+                517
+              ]
+            },
+            {
+              "text": "Reported On",
+              "conf": 0.9799407720565796,
+              "bbox": [
+                442,
+                493,
+                537,
+                510
+              ]
+            },
+            {
+              "text": "Reporter",
+              "conf": 0.9988848567008972,
+              "bbox": [
+                1008,
+                486,
+                1082,
+                512
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Plan Type Source Automat (appian_hold_ticket_creation) Watchers 0 WATCH",
+          "conf": 0.9427086412906647,
+          "bbox": [
+            48,
+            541,
+            1290,
+            575
+          ],
+          "words": [
+            {
+              "text": " Plan Type",
+              "conf": 0.9824109077453613,
+              "bbox": [
+                48,
+                547,
+                125,
+                575
+              ]
+            },
+            {
+              "text": "Source",
+              "conf": 0.9989132881164551,
+              "bbox": [
+                442,
+                546,
+                497,
+                565
+              ]
+            },
+            {
+              "text": "Automat (appian_hold_ticket_creation)",
+              "conf": 0.984400749206543,
+              "bbox": [
+                615,
+                543,
+                900,
+                565
+              ]
+            },
+            {
+              "text": "Watchers",
+              "conf": 0.9984351396560669,
+              "bbox": [
+                1010,
+                541,
+                1087,
+                563
+              ]
+            },
+            {
+              "text": "0",
+              "conf": 0.7082602381706238,
+              "bbox": [
+                1180,
+                551,
+                1195,
+                565
+              ]
+            },
+            {
+              "text": "WATCH",
+              "conf": 0.983831524848938,
+              "bbox": [
+                1207,
+                548,
+                1290,
+                570
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ICHRA Labels",
+          "conf": 0.9980968832969666,
+          "bbox": [
+            52,
+            599,
+            493,
+            624
+          ],
+          "words": [
+            {
+              "text": "ICHRA",
+              "conf": 0.9972933530807495,
+              "bbox": [
+                52,
+                606,
+                105,
+                624
+              ]
+            },
+            {
+              "text": "Labels",
+              "conf": 0.9989004135131836,
+              "bbox": [
+                440,
+                599,
+                493,
+                618
+              ]
+            }
+          ]
+        },
+        {
+          "text": "LOB Individual The claim is for a newborn and requires manual review Additional Info Issue Other",
+          "conf": 0.9935066223144531,
+          "bbox": [
+            48,
+            655,
+            1233,
+            716
+          ],
+          "words": [
+            {
+              "text": "LOB",
+              "conf": 0.9892333149909973,
+              "bbox": [
+                48,
+                657,
+                90,
+                682
+              ]
+            },
+            {
+              "text": "Individual",
+              "conf": 0.9991949200630188,
+              "bbox": [
+                225,
+                655,
+                302,
+                679
+              ]
+            },
+            {
+              "text": "The claim is for a newborn and requires manual review",
+              "conf": 0.982878565788269,
+              "bbox": [
+                457,
+                680,
+                843,
+                697
+              ]
+            },
+            {
+              "text": "Additional Info Issue",
+              "conf": 0.996544361114502,
+              "bbox": [
+                1010,
+                658,
+                1145,
+                716
+              ]
+            },
+            {
+              "text": "Other",
+              "conf": 0.9996819496154785,
+              "bbox": [
+                1183,
+                692,
+                1233,
+                716
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tenant Oscar",
+          "conf": 0.9991507232189178,
+          "bbox": [
+            52,
+            707,
+            276,
+            737
+          ],
+          "words": [
+            {
+              "text": "Tenant",
+              "conf": 0.9986016750335693,
+              "bbox": [
+                52,
+                714,
+                108,
+                733
+              ]
+            },
+            {
+              "text": "Oscar",
+              "conf": 0.9996997714042664,
+              "bbox": [
+                223,
+                707,
+                276,
+                737
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Code NEWBORN",
+          "conf": 0.9722711443901062,
+          "bbox": [
+            1010,
+            747,
+            1268,
+            772
+          ],
+          "words": [
+            {
+              "text": "Code",
+              "conf": 0.9998196959495544,
+              "bbox": [
+                1010,
+                749,
+                1055,
+                772
+              ]
+            },
+            {
+              "text": " NEWBORN",
+              "conf": 0.944722592830658,
+              "bbox": [
+                1183,
+                747,
+                1268,
+                769
+              ]
+            }
+          ]
+        },
+        {
+          "text": "System Ocelot",
+          "conf": 0.9996870160102844,
+          "bbox": [
+            1010,
+            801,
+            1240,
+            827
+          ],
+          "words": [
+            {
+              "text": "System",
+              "conf": 0.9996233582496643,
+              "bbox": [
+                1010,
+                803,
+                1073,
+                827
+              ]
+            },
+            {
+              "text": "Ocelot",
+              "conf": 0.9997506737709045,
+              "bbox": [
+                1185,
+                801,
+                1240,
+                825
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim Info OcelotID PPBBYRWE",
+          "conf": 0.9731020629405975,
+          "bbox": [
+            52,
+            817,
+            315,
+            870
+          ],
+          "words": [
+            {
+              "text": "Claim Info OcelotID",
+              "conf": 0.9493410587310791,
+              "bbox": [
+                52,
+                817,
+                158,
+                870
+              ]
+            },
+            {
+              "text": "PPBBYRWE",
+              "conf": 0.996863067150116,
+              "bbox": [
+                227,
+                849,
+                315,
+                870
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

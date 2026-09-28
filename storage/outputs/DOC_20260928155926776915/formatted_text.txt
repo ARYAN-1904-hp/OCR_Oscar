@@ -1,0 +1,242 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=11 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 19x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Looker Studio is now called Data Studio. For more, see our blog. | - | Dismiss | -
+  CELL[1,0] = Looker Studio is now called Data Studio. For more, see our blog.
+  CELL[1,2] = Dismiss
+ROW 2 | Member Match Cortex | - | 5 Reset | Share
+  CELL[2,0] = Member Match Cortex
+  CELL[2,2] = 5 Reset
+  CELL[2,3] = Share
+ROW 3 | 1: Search by Member ID, Name | - | - | -
+  CELL[3,0] = 1: Search by Member ID, Name
+ROW 4 | 2:Search by DOB, Address | Member Match Cortex | - | -
+  CELL[4,0] = 2:Search by DOB, Address
+  CELL[4,1] = Member Match Cortex
+ROW 5 | 1 Begin with searching by Member ID. If no results returned, then try searching by First and Last Name. If no results still found, then search by | - | - | -
+  CELL[5,0] = 1 Begin with searching by Member ID. If no results returned, then try searching by First and Last Name. If no results still found, then search by
+ROW 6 | DOB/Address on next panel (full procedures) | - | - | -
+  CELL[6,0] = DOB/Address on next panel (full procedures)
+ROW 7 | Member ID | - | - | -
+  CELL[7,0] = Member ID
+ROW 8 | OSC74885861 | - | - | -
+  CELL[8,0] = OSC74885861
+ROW 9 | Research by Member ID | - | - | -
+  CELL[9,0] = Research by Member ID
+ROW 10 | a97 | - | - | -
+  CELL[10,0] = a97
+ROW 11 | b039cc2f388a412 R222M846 | OSC74885861-01 Nayeli | Valle 3502 W Vista Ave Phoenix AZ 10/24/1993 FEMALE | -
+  CELL[11,0] = b039cc2f388a412 R222M846
+  CELL[11,1] = OSC74885861-01 Nayeli
+  CELL[11,2] = Valle 3502 W Vista Ave Phoenix AZ 10/24/1993 FEMALE
+ROW 12 | 45 | - | - | -
+  CELL[12,0] = 45
+ROW 13 | - | - | 1 - 4 / 4 V | -
+  CELL[13,2] = 1 - 4 / 4 V
+ROW 14 | First Name | Last Name | - | -
+  CELL[14,0] = First Name
+  CELL[14,1] = Last Name
+ROW 15 | Enter a value | Enter a value | - | -
+  CELL[15,0] = Enter a value
+  CELL[15,1] = Enter a value
+ROW 16 | Research by Name | - | - | -
+  CELL[16,0] = Research by Name
+ROW 17 | Member R# OSC Number First Name - Last Name | - | City / State DOB Sex | -
+  CELL[17,0] = Member R# OSC Number First Name - Last Name
+  CELL[17,2] = City / State DOB Sex
+ROW 18 | - | - | City / State DOB Sex | Address No data
+  CELL[18,2] = City / State DOB Sex
+  CELL[18,3] = Address No data
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x10
+HEADER | Person ID | Member R# | OSC Number | First Name | Last Name | Address | City Phoenix | State AZ | DOB | Sex
+ROW 1 | 9b212354aa7c46f 495b54648b9b1d | R222M848 | OSC74885861-02 | Octavio | Corral | 3502 W Vista Ave | - | - | 06/28/1993 | MALE
+  CELL[1,0] = 9b212354aa7c46f 495b54648b9b1d
+  CELL[1,1] = R222M848
+  CELL[1,2] = OSC74885861-02
+  CELL[1,3] = Octavio
+  CELL[1,4] = Corral
+  CELL[1,5] = 3502 W Vista Ave
+  CELL[1,8] = 06/28/1993
+  CELL[1,9] = MALE
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[35,10,1577,70] | order=0
+  Looker Studio is now called Data Studio. For more, see our blog. Dismiss
+  Member Match Cortex 5 Reset Share
+BLOCK 1 | type=paragraph | bbox=[16,120,1361,229] | order=1
+  1: Search by Member ID, Name
+  2:Search by DOB, Address Member Match Cortex
+  1 Begin with searching by Member ID. If no results returned, then try searching by First and Last Name. If no results still found, then search by
+  DOB/Address on next panel (full procedures)
+BLOCK 2 | type=heading | bbox=[439,265,507,283] | order=2
+  Member ID
+BLOCK 3 | type=paragraph | bbox=[421,289,584,376] | order=3
+  OSC74885861
+  Research by Member ID
+BLOCK 4 | type=table | bbox=[422,384,1321,433] | order=4
+  Person ID 9b212354aa7c46f 495b54648b9b1d Member R# R222M848 OSC74885861-02 OSC Number First Name - Octavio Corral Last Name 3502 W Vista Ave Address City Phoenix State AZ 06/28/1993 DOB MALE Sex
+BLOCK 5 | type=paragraph | bbox=[428,432,443,442] | order=5
+  a97
+BLOCK 6 | type=table | bbox=[424,452,1330,470] | order=6
+  b039cc2f388a412 R222M846 OSC74885861-01 Nayeli Valle 3502 W Vista Ave Phoenix AZ 10/24/1993 FEMALE
+BLOCK 7 | type=paragraph | bbox=[425,476,1341,530] | order=7
+  45
+  1 - 4 / 4 V
+BLOCK 8 | type=heading | bbox=[436,554,769,574] | order=8
+  First Name Last Name
+BLOCK 9 | type=paragraph | bbox=[424,580,781,663] | order=9
+  Enter a value Enter a value
+  Research by Name
+BLOCK 10 | type=table | bbox=[425,669,1302,713] | order=10
+  Member R# OSC Number First Name - Last Name Address No data City State DOB Sex
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[16,10,1577,713] | shape=19x4 | conf=0.920
+  shape: 19x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Looker Studio is now called Data Studio. For more, see our blog. | - | Dismiss | -
+    CELL[1,0] = Looker Studio is now called Data Studio. For more, see our blog.
+    CELL[1,2] = Dismiss
+  ROW 2 | Member Match Cortex | - | 5 Reset | Share
+    CELL[2,0] = Member Match Cortex
+    CELL[2,2] = 5 Reset
+    CELL[2,3] = Share
+  ROW 3 | 1: Search by Member ID, Name | - | - | -
+    CELL[3,0] = 1: Search by Member ID, Name
+  ROW 4 | 2:Search by DOB, Address | Member Match Cortex | - | -
+    CELL[4,0] = 2:Search by DOB, Address
+    CELL[4,1] = Member Match Cortex
+  ROW 5 | 1 Begin with searching by Member ID. If no results returned, then try searching by First and Last Name. If no results still found, then search by | - | - | -
+    CELL[5,0] = 1 Begin with searching by Member ID. If no results returned, then try searching by First and Last Name. If no results still found, then search by
+  ROW 6 | DOB/Address on next panel (full procedures) | - | - | -
+    CELL[6,0] = DOB/Address on next panel (full procedures)
+  ROW 7 | Member ID | - | - | -
+    CELL[7,0] = Member ID
+  ROW 8 | OSC74885861 | - | - | -
+    CELL[8,0] = OSC74885861
+  ROW 9 | Research by Member ID | - | - | -
+    CELL[9,0] = Research by Member ID
+  ROW 10 | a97 | - | - | -
+    CELL[10,0] = a97
+  ROW 11 | b039cc2f388a412 R222M846 | OSC74885861-01 Nayeli | Valle 3502 W Vista Ave Phoenix AZ 10/24/1993 FEMALE | -
+    CELL[11,0] = b039cc2f388a412 R222M846
+    CELL[11,1] = OSC74885861-01 Nayeli
+    CELL[11,2] = Valle 3502 W Vista Ave Phoenix AZ 10/24/1993 FEMALE
+  ROW 12 | 45 | - | - | -
+    CELL[12,0] = 45
+  ROW 13 | - | - | 1 - 4 / 4 V | -
+    CELL[13,2] = 1 - 4 / 4 V
+  ROW 14 | First Name | Last Name | - | -
+    CELL[14,0] = First Name
+    CELL[14,1] = Last Name
+  ROW 15 | Enter a value | Enter a value | - | -
+    CELL[15,0] = Enter a value
+    CELL[15,1] = Enter a value
+  ROW 16 | Research by Name | - | - | -
+    CELL[16,0] = Research by Name
+  ROW 17 | Member R# OSC Number First Name - Last Name | - | City / State DOB Sex | -
+    CELL[17,0] = Member R# OSC Number First Name - Last Name
+    CELL[17,2] = City / State DOB Sex
+  ROW 18 | - | - | City / State DOB Sex | Address No data
+    CELL[18,2] = City / State DOB Sex
+    CELL[18,3] = Address No data
+TABLE 1 | source=wide_grid | bbox=[422,384,1321,433] | shape=2x10 | conf=0.850
+  shape: 2x10
+  HEADER | Person ID | Member R# | OSC Number | First Name | Last Name | Address | City Phoenix | State AZ | DOB | Sex
+  ROW 1 | 9b212354aa7c46f 495b54648b9b1d | R222M848 | OSC74885861-02 | Octavio | Corral | 3502 W Vista Ave | - | - | 06/28/1993 | MALE
+    CELL[1,0] = 9b212354aa7c46f 495b54648b9b1d
+    CELL[1,1] = R222M848
+    CELL[1,2] = OSC74885861-02
+    CELL[1,3] = Octavio
+    CELL[1,4] = Corral
+    CELL[1,5] = 3502 W Vista Ave
+    CELL[1,8] = 06/28/1993
+    CELL[1,9] = MALE
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[47,10,1577,31] | conf=0.995 | text=Looker Studio is now called Data Studio. For more, see our blog. Dismiss
+  WORD | bbox=[47,11,394,29] | text=Looker Studio is now called Data Studio. For more, see our blog.
+  WORD | bbox=[1526,10,1577,31] | text=Dismiss
+LINE 1 | bbox=[35,53,1442,70] | conf=0.977 | text=Member Match Cortex 5 Reset Share
+  WORD | bbox=[35,53,200,70] | text=Member Match Cortex
+  WORD | bbox=[1286,53,1344,70] | text=5 Reset
+  WORD | bbox=[1382,53,1442,70] | text=Share
+LINE 2 | bbox=[16,120,189,138] | conf=0.950 | text=1: Search by Member ID, Name
+LINE 3 | bbox=[16,149,679,177] | conf=0.969 | text=2:Search by DOB, Address Member Match Cortex
+  WORD | bbox=[16,159,165,177] | text=2:Search by DOB, Address
+  WORD | bbox=[428,149,679,171] | text=Member Match Cortex
+LINE 4 | bbox=[436,191,1361,208] | conf=0.921 | text=1 Begin with searching by Member ID. If no results returned, then try searching by First and Last Name. If no results still found, then search by
+  WORD | bbox=[436,195,451,204] | text=1
+  WORD | bbox=[451,191,1361,208] | text=Begin with searching by Member ID. If no results returned, then try searching by First and Last Name. If no results still found, then search by
+LINE 5 | bbox=[447,210,748,229] | conf=0.958 | text=DOB/Address on next panel (full procedures)
+LINE 6 | bbox=[439,265,507,283] | conf=0.984 | text=Member ID
+LINE 7 | bbox=[440,289,528,306] | conf=0.998 | text=OSC74885861
+LINE 8 | bbox=[421,359,584,376] | conf=0.945 | text=Research by Member ID
+LINE 9 | bbox=[422,384,1321,433] | conf=0.988 | text=Person ID 9b212354aa7c46f 495b54648b9b1d Member R# R222M848 OSC74885861-02 OSC Number First Name - Octavio Corral Last Name 3502 W Vista Ave Address City Phoenix State AZ 06/28/1993 DOB MALE Sex
+  WORD | bbox=[422,387,481,404] | text=Person ID
+  WORD | bbox=[426,410,510,433] | text=9b212354aa7c46f 495b54648b9b1d
+  WORD | bbox=[522,387,585,404] | text=Member R#
+  WORD | bbox=[522,410,574,423] | text=R222M848
+  WORD | bbox=[618,407,700,424] | text=OSC74885861-02
+  WORD | bbox=[619,387,689,404] | text=OSC Number
+  WORD | bbox=[712,387,788,404] | text=First Name
+  WORD | bbox=[712,407,752,425] | text=Octavio
+  WORD | bbox=[808,407,842,425] | text=Corral
+  WORD | bbox=[809,387,869,404] | text=Last Name
+  WORD | bbox=[904,406,988,423] | text=3502 W Vista Ave
+  WORD | bbox=[906,388,951,402] | text=Address
+  WORD | bbox=[998,388,1043,427] | text=City Phoenix
+  WORD | bbox=[1094,384,1129,425] | text=State AZ
+  WORD | bbox=[1191,405,1252,425] | text=06/28/1993
+  WORD | bbox=[1192,387,1220,402] | text=DOB
+  WORD | bbox=[1288,407,1321,425] | text=MALE
+  WORD | bbox=[1289,388,1312,404] | text=Sex
+LINE 10 | bbox=[428,432,443,442] | conf=0.998 | text=a97
+LINE 11 | bbox=[424,452,1330,470] | conf=0.995 | text=b039cc2f388a412 R222M846 OSC74885861-01 Nayeli Valle 3502 W Vista Ave Phoenix AZ 10/24/1993 FEMALE
+  WORD | bbox=[424,453,509,466] | text=b039cc2f388a412
+  WORD | bbox=[521,454,572,467] | text=R222M846
+  WORD | bbox=[618,452,699,468] | text=OSC74885861-01
+  WORD | bbox=[712,454,744,468] | text=Nayeli
+  WORD | bbox=[809,453,835,468] | text=Valle
+  WORD | bbox=[905,452,986,470] | text=3502 W Vista Ave
+  WORD | bbox=[1000,452,1040,469] | text=Phoenix
+  WORD | bbox=[1098,453,1115,470] | text=AZ
+  WORD | bbox=[1194,452,1251,468] | text=10/24/1993
+  WORD | bbox=[1289,453,1330,467] | text=FEMALE
+LINE 12 | bbox=[425,476,439,485] | conf=0.999 | text=45
+LINE 13 | bbox=[1279,516,1341,530] | conf=0.760 | text=1 - 4 / 4 V
+  WORD | bbox=[1279,516,1316,530] | text=1 - 4 / 4
+  WORD | bbox=[1334,519,1341,530] | text=V
+LINE 14 | bbox=[436,554,769,574] | conf=0.992 | text=First Name Last Name
+  WORD | bbox=[436,554,508,574] | text=First Name
+  WORD | bbox=[697,554,769,574] | text=Last Name
+LINE 15 | bbox=[439,580,781,597] | conf=0.975 | text=Enter a value Enter a value
+  WORD | bbox=[439,580,520,597] | text=Enter a value
+  WORD | bbox=[700,580,781,597] | text=Enter a value
+LINE 16 | bbox=[424,647,551,663] | conf=0.973 | text=Research by Name
+LINE 17 | bbox=[425,669,1302,713] | conf=0.987 | text=Member R# OSC Number First Name - Last Name Address No data City State DOB Sex
+  WORD | bbox=[425,672,490,690] | text=Member R#
+  WORD | bbox=[532,669,604,690] | text=OSC Number
+  WORD | bbox=[640,673,714,690] | text=First Name
+  WORD | bbox=[746,672,806,690] | text=Last Name
+  WORD | bbox=[854,672,922,713] | text=Address No data
+  WORD | bbox=[960,673,982,689] | text=City
+  WORD | bbox=[1066,672,1099,690] | text=State
+  WORD | bbox=[1174,673,1200,689] | text=DOB
+  WORD | bbox=[1280,673,1302,689] | text=Sex
+[/BOXES]

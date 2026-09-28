@@ -1,0 +1,2704 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "VERINT\nKnowledge Management\nD Search knowledge. Q Search\nQ\nMy Bookmarks (17) F:\nFilter Q\nstate specific rules, processing flow and claim splitting\nprocedures around appropriate claims coverage for newborns.\nFollowing the birth\nClaims Tasks: Locating Authorization and Determining\nAuthorization Status\nSummary The purpose of this article is to assist processors in\nlocating authorization and determining authorization status for a\nclaim. This is often necessary in workflows such as:\nauthorization\nClaims Disputes: Authorization Exceptions\nScope (Authorization Exceptions) Below are known authorization\nprocessing issues, or exceptions to the rules, as of the date of\nthis document. Please be aware when working authorization\ndisputes.\nStandard Reviews for All Pre-Payment and Post-Payment\nTickets\nPurpose/Summary The purpose of this procedure is to ensure\nconsistent processing across Claims Operations in both pre-\npayment andpost-payment workflows. Oscar Health Claims\nOperations procedures\nDocument Triaginge :\n17 Bookmarks",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "VERINT\nKnowledge Management\nD Search knowledge. Q Search\nQ\nMy Bookmarks (17) F:\nFilter Q\nstate specific rules, processing flow and claim splitting\nprocedures around appropriate claims coverage for newborns.\nFollowing the birth\nClaims Tasks: Locating Authorization and Determining\nAuthorization Status\nSummary The purpose of this article is to assist processors in\nlocating authorization and determining authorization status for a\nclaim. This is often necessary in workflows such as:\nauthorization\nClaims Disputes: Authorization Exceptions\nScope (Authorization Exceptions) Below are known authorization\nprocessing issues, or exceptions to the rules, as of the date of\nthis document. Please be aware when working authorization\ndisputes.\nStandard Reviews for All Pre-Payment and Post-Payment\nTickets\nPurpose/Summary The purpose of this procedure is to ensure\nconsistent processing across Claims Operations in both pre-\npayment andpost-payment workflows. Oscar Health Claims\nOperations procedures\nDocument Triaginge :\n17 Bookmarks",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "heading",
+              "reading_order": 2,
+              "bbox": [
+                5,
+                84,
+                545,
+                134
+              ],
+              "text": "D Search knowledge. Q Search",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "D Search knowledge. Q Search",
+                  "conf": 0.8533798009157181,
+                  "bbox": [
+                    5,
+                    84,
+                    545,
+                    134
+                  ],
+                  "words": [
+                    {
+                      "text": "D",
+                      "conf": 0.5124983787536621,
+                      "bbox": [
+                        5,
+                        103,
+                        12,
+                        113
+                      ]
+                    },
+                    {
+                      "text": "Search knowledge.",
+                      "conf": 0.947435736656189,
+                      "bbox": [
+                        32,
+                        89,
+                        146,
+                        106
+                      ]
+                    },
+                    {
+                      "text": "Q",
+                      "conf": 0.9650287628173828,
+                      "bbox": [
+                        495,
+                        88,
+                        512,
+                        106
+                      ]
+                    },
+                    {
+                      "text": "Search",
+                      "conf": 0.9885563254356384,
+                      "bbox": [
+                        528,
+                        84,
+                        545,
+                        134
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 3,
+              "bbox": [
+                302,
+                123,
+                326,
+                145
+              ],
+              "text": "Q",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Q",
+                  "conf": 0.9226372838020325,
+                  "bbox": [
+                    302,
+                    123,
+                    326,
+                    145
+                  ],
+                  "words": [
+                    {
+                      "text": "Q",
+                      "conf": 0.9226372838020325,
+                      "bbox": [
+                        302,
+                        123,
+                        326,
+                        145
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 4,
+              "bbox": [
+                31,
+                171,
+                509,
+                193
+              ],
+              "text": "My Bookmarks (17) F:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "My Bookmarks (17) F:",
+                  "conf": 0.9308101534843445,
+                  "bbox": [
+                    31,
+                    171,
+                    509,
+                    193
+                  ],
+                  "words": [
+                    {
+                      "text": "My Bookmarks (17)",
+                      "conf": 0.9936442971229553,
+                      "bbox": [
+                        31,
+                        172,
+                        212,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "F:",
+                      "conf": 0.8679760098457336,
+                      "bbox": [
+                        447,
+                        171,
+                        509,
+                        193
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 5,
+              "bbox": [
+                221,
+                208,
+                494,
+                225
+              ],
+              "text": "Filter Q",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Filter Q",
+                  "conf": 0.9256344437599182,
+                  "bbox": [
+                    221,
+                    208,
+                    494,
+                    225
+                  ],
+                  "words": [
+                    {
+                      "text": "Filter",
+                      "conf": 0.9871134757995605,
+                      "bbox": [
+                        221,
+                        210,
+                        255,
+                        224
+                      ]
+                    },
+                    {
+                      "text": "Q",
+                      "conf": 0.8641554117202759,
+                      "bbox": [
+                        476,
+                        208,
+                        494,
+                        225
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 6,
+              "bbox": [
+                79,
+                246,
+                479,
+                295
+              ],
+              "text": "state specific rules, processing flow and claim splitting\nprocedures around appropriate claims coverage for newborns.\nFollowing the birth",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "state specific rules, processing flow and claim splitting",
+                  "conf": 0.9939045906066895,
+                  "bbox": [
+                    79,
+                    246,
+                    431,
+                    262
+                  ],
+                  "words": [
+                    {
+                      "text": "state specific rules, processing flow and claim splitting",
+                      "conf": 0.9939045906066895,
+                      "bbox": [
+                        79,
+                        246,
+                        431,
+                        262
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "procedures around appropriate claims coverage for newborns.",
+                  "conf": 0.988426923751831,
+                  "bbox": [
+                    81,
+                    265,
+                    479,
+                    278
+                  ],
+                  "words": [
+                    {
+                      "text": "procedures around appropriate claims coverage for newborns.",
+                      "conf": 0.988426923751831,
+                      "bbox": [
+                        81,
+                        265,
+                        479,
+                        278
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Following the birth",
+                  "conf": 0.9983378052711487,
+                  "bbox": [
+                    79,
+                    279,
+                    203,
+                    295
+                  ],
+                  "words": [
+                    {
+                      "text": "Following the birth",
+                      "conf": 0.9983378052711487,
+                      "bbox": [
+                        79,
+                        279,
+                        203,
+                        295
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 7,
+              "bbox": [
+                80,
+                323,
+                435,
+                340
+              ],
+              "text": "Claims Tasks:Locating Authorization and Determining",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Claims Tasks:Locating Authorization and Determining",
+                  "conf": 0.9840251207351685,
+                  "bbox": [
+                    80,
+                    323,
+                    435,
+                    340
+                  ],
+                  "words": [
+                    {
+                      "text": "Claims Tasks:Locating Authorization and Determining",
+                      "conf": 0.9840251207351685,
+                      "bbox": [
+                        80,
+                        323,
+                        435,
+                        340
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 8,
+              "bbox": [
+                79,
+                339,
+                218,
+                356
+              ],
+              "text": "Authorization Status",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Authorization Status",
+                  "conf": 0.9935876727104187,
+                  "bbox": [
+                    79,
+                    339,
+                    218,
+                    356
+                  ],
+                  "words": [
+                    {
+                      "text": "Authorization Status",
+                      "conf": 0.9935876727104187,
+                      "bbox": [
+                        79,
+                        339,
+                        218,
+                        356
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 9,
+              "bbox": [
+                79,
+                362,
+                494,
+                398
+              ],
+              "text": "Summary The purpose of this article is to assist processors in\nlocating authorization and determining authorization status for a",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Summary The purpose of this article is to assist processors in",
+                  "conf": 0.9846776723861694,
+                  "bbox": [
+                    79,
+                    362,
+                    478,
+                    383
+                  ],
+                  "words": [
+                    {
+                      "text": "Summary The purpose of this article is to assist processors in",
+                      "conf": 0.9846776723861694,
+                      "bbox": [
+                        79,
+                        362,
+                        478,
+                        383
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "locating authorization and determining authorization status for a",
+                  "conf": 0.9900798797607422,
+                  "bbox": [
+                    79,
+                    381,
+                    494,
+                    398
+                  ],
+                  "words": [
+                    {
+                      "text": "locating authorization and determining authorization status for a",
+                      "conf": 0.9900798797607422,
+                      "bbox": [
+                        79,
+                        381,
+                        494,
+                        398
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 10,
+              "bbox": [
+                80,
+                396,
+                411,
+                412
+              ],
+              "text": "claim. This is often necessary in workflows such as:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "claim. This is often necessary in workflows such as:",
+                  "conf": 0.9761025309562683,
+                  "bbox": [
+                    80,
+                    396,
+                    411,
+                    412
+                  ],
+                  "words": [
+                    {
+                      "text": "claim. This is often necessary in workflows such as:",
+                      "conf": 0.9761025309562683,
+                      "bbox": [
+                        80,
+                        396,
+                        411,
+                        412
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 11,
+              "bbox": [
+                80,
+                416,
+                165,
+                429
+              ],
+              "text": "authorization",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "authorization",
+                  "conf": 0.9967060089111328,
+                  "bbox": [
+                    80,
+                    416,
+                    165,
+                    429
+                  ],
+                  "words": [
+                    {
+                      "text": "authorization",
+                      "conf": 0.9967060089111328,
+                      "bbox": [
+                        80,
+                        416,
+                        165,
+                        429
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 12,
+              "bbox": [
+                81,
+                460,
+                360,
+                476
+              ],
+              "text": "Claims Disputes:Authorization Exceptions",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Claims Disputes:Authorization Exceptions",
+                  "conf": 0.9896184206008911,
+                  "bbox": [
+                    81,
+                    460,
+                    360,
+                    476
+                  ],
+                  "words": [
+                    {
+                      "text": "Claims Disputes:Authorization Exceptions",
+                      "conf": 0.9896184206008911,
+                      "bbox": [
+                        81,
+                        460,
+                        360,
+                        476
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 13,
+              "bbox": [
+                77,
+                484,
+                495,
+                685
+              ],
+              "text": "Scope (Authorization Exceptions) Below are known authorization\nprocessing issues, or exceptions to the rules, as of the date of\nthis document.Please be aware when working authorization\ndisputes.\nStandard Reviews for All Pre-Payment and Post-Payment\nTickets\nPurpose/Summary The purpose of this procedure is to ensure\nconsistent processing across Claims Operations in both pre-\npayment andpost-payment workflows.Oscar Health Claims\nOperations procedures",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Scope (Authorization Exceptions) Below are known authorization",
+                  "conf": 0.9917176961898804,
+                  "bbox": [
+                    80,
+                    484,
+                    495,
+                    500
+                  ],
+                  "words": [
+                    {
+                      "text": "Scope (Authorization Exceptions) Below are known authorization",
+                      "conf": 0.9917176961898804,
+                      "bbox": [
+                        80,
+                        484,
+                        495,
+                        500
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "processing issues, or exceptions to the rules, as of the date of",
+                  "conf": 0.9800130128860474,
+                  "bbox": [
+                    80,
+                    500,
+                    480,
+                    517
+                  ],
+                  "words": [
+                    {
+                      "text": "processing issues, or exceptions to the rules, as of the date of",
+                      "conf": 0.9800130128860474,
+                      "bbox": [
+                        80,
+                        500,
+                        480,
+                        517
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "this document.Please be aware when working authorization",
+                  "conf": 0.9731961488723755,
+                  "bbox": [
+                    77,
+                    516,
+                    468,
+                    535
+                  ],
+                  "words": [
+                    {
+                      "text": "this document.Please be aware when working authorization",
+                      "conf": 0.9731961488723755,
+                      "bbox": [
+                        77,
+                        516,
+                        468,
+                        535
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 3,
+                  "text": "disputes.",
+                  "conf": 0.983138382434845,
+                  "bbox": [
+                    80,
+                    532,
+                    139,
+                    551
+                  ],
+                  "words": [
+                    {
+                      "text": "disputes.",
+                      "conf": 0.983138382434845,
+                      "bbox": [
+                        80,
+                        532,
+                        139,
+                        551
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 4,
+                  "text": "Standard Reviews for All Pre-Payment and Post-Payment",
+                  "conf": 0.9821812510490417,
+                  "bbox": [
+                    80,
+                    579,
+                    455,
+                    596
+                  ],
+                  "words": [
+                    {
+                      "text": "Standard Reviews for All Pre-Payment and Post-Payment",
+                      "conf": 0.9821812510490417,
+                      "bbox": [
+                        80,
+                        579,
+                        455,
+                        596
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 5,
+                  "text": "Tickets",
+                  "conf": 0.9968457221984863,
+                  "bbox": [
+                    81,
+                    597,
+                    130,
+                    611
+                  ],
+                  "words": [
+                    {
+                      "text": "Tickets",
+                      "conf": 0.9968457221984863,
+                      "bbox": [
+                        81,
+                        597,
+                        130,
+                        611
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 6,
+                  "text": "Purpose/Summary The purpose of this procedure is to ensure",
+                  "conf": 0.9745634198188782,
+                  "bbox": [
+                    90,
+                    620,
+                    488,
+                    637
+                  ],
+                  "words": [
+                    {
+                      "text": "Purpose/Summary The purpose of this procedure is to ensure",
+                      "conf": 0.9745634198188782,
+                      "bbox": [
+                        90,
+                        620,
+                        488,
+                        637
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 7,
+                  "text": "consistent processing across Claims Operations in both pre-",
+                  "conf": 0.9898765683174133,
+                  "bbox": [
+                    79,
+                    635,
+                    468,
+                    653
+                  ],
+                  "words": [
+                    {
+                      "text": "consistent processing across Claims Operations in both pre-",
+                      "conf": 0.9898765683174133,
+                      "bbox": [
+                        79,
+                        635,
+                        468,
+                        653
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 8,
+                  "text": "payment andpost-payment workflows.Oscar Health Claims",
+                  "conf": 0.9711600542068481,
+                  "bbox": [
+                    81,
+                    656,
+                    465,
+                    668
+                  ],
+                  "words": [
+                    {
+                      "text": "payment andpost-payment workflows.Oscar Health Claims",
+                      "conf": 0.9711600542068481,
+                      "bbox": [
+                        81,
+                        656,
+                        465,
+                        668
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 9,
+                  "text": "Operations procedures",
+                  "conf": 0.9971181154251099,
+                  "bbox": [
+                    79,
+                    668,
+                    229,
+                    685
+                  ],
+                  "words": [
+                    {
+                      "text": "Operations procedures",
+                      "conf": 0.9971181154251099,
+                      "bbox": [
+                        79,
+                        668,
+                        229,
+                        685
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "D Search knowledge. Q Search\nQ\nMy Bookmarks (17) F:\nFilter Q\nstate specific rules, processing flow and claim splitting\nprocedures around appropriate claims coverage for newborns.\nFollowing the birth\nClaims Tasks:Locating Authorization and Determining\nAuthorization Status\nSummary The purpose of this article is to assist processors in\nlocating authorization and determining authorization status for a\nclaim. This is often necessary in workflows such as:\nauthorization\nClaims Disputes:Authorization Exceptions\nScope (Authorization Exceptions) Below are known authorization\nprocessing issues, or exceptions to the rules, as of the date of\nthis document.Please be aware when working authorization\ndisputes.\nStandard Reviews for All Pre-Payment and Post-Payment\nTickets\nPurpose/Summary The purpose of this procedure is to ensure\nconsistent processing across Claims Operations in both pre-\npayment andpost-payment workflows.Oscar Health Claims\nOperations procedures"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            59,
+            13,
+            150,
+            34
+          ],
+          "text": "VERINT",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "VERINT",
+              "conf": 0.9977616667747498,
+              "bbox": [
+                59,
+                13,
+                150,
+                34
+              ],
+              "words": [
+                {
+                  "text": "VERINT",
+                  "conf": 0.9977616667747498,
+                  "bbox": [
+                    59,
+                    13,
+                    150,
+                    34
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            31,
+            37,
+            177,
+            53
+          ],
+          "text": "Knowledge Management",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Knowledge Management",
+              "conf": 0.9920099377632141,
+              "bbox": [
+                31,
+                37,
+                177,
+                53
+              ],
+              "words": [
+                {
+                  "text": "Knowledge Management",
+                  "conf": 0.9920099377632141,
+                  "bbox": [
+                    31,
+                    37,
+                    177,
+                    53
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 2,
+          "bbox": [
+            5,
+            84,
+            545,
+            134
+          ],
+          "text": "D Search knowledge. Q Search",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "D Search knowledge. Q Search",
+              "conf": 0.8533798009157181,
+              "bbox": [
+                5,
+                84,
+                545,
+                134
+              ],
+              "words": [
+                {
+                  "text": "D",
+                  "conf": 0.5124983787536621,
+                  "bbox": [
+                    5,
+                    103,
+                    12,
+                    113
+                  ]
+                },
+                {
+                  "text": "Search knowledge.",
+                  "conf": 0.947435736656189,
+                  "bbox": [
+                    32,
+                    89,
+                    146,
+                    106
+                  ]
+                },
+                {
+                  "text": "Q",
+                  "conf": 0.9650287628173828,
+                  "bbox": [
+                    495,
+                    88,
+                    512,
+                    106
+                  ]
+                },
+                {
+                  "text": "Search",
+                  "conf": 0.9885563254356384,
+                  "bbox": [
+                    528,
+                    84,
+                    545,
+                    134
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 3,
+          "bbox": [
+            302,
+            123,
+            326,
+            145
+          ],
+          "text": "Q",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Q",
+              "conf": 0.9226372838020325,
+              "bbox": [
+                302,
+                123,
+                326,
+                145
+              ],
+              "words": [
+                {
+                  "text": "Q",
+                  "conf": 0.9226372838020325,
+                  "bbox": [
+                    302,
+                    123,
+                    326,
+                    145
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 4,
+          "bbox": [
+            31,
+            171,
+            509,
+            193
+          ],
+          "text": "My Bookmarks (17) F:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "My Bookmarks (17) F:",
+              "conf": 0.9308101534843445,
+              "bbox": [
+                31,
+                171,
+                509,
+                193
+              ],
+              "words": [
+                {
+                  "text": "My Bookmarks (17)",
+                  "conf": 0.9936442971229553,
+                  "bbox": [
+                    31,
+                    172,
+                    212,
+                    192
+                  ]
+                },
+                {
+                  "text": "F:",
+                  "conf": 0.8679760098457336,
+                  "bbox": [
+                    447,
+                    171,
+                    509,
+                    193
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 5,
+          "bbox": [
+            221,
+            208,
+            494,
+            225
+          ],
+          "text": "Filter Q",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Filter Q",
+              "conf": 0.9256344437599182,
+              "bbox": [
+                221,
+                208,
+                494,
+                225
+              ],
+              "words": [
+                {
+                  "text": "Filter",
+                  "conf": 0.9871134757995605,
+                  "bbox": [
+                    221,
+                    210,
+                    255,
+                    224
+                  ]
+                },
+                {
+                  "text": "Q",
+                  "conf": 0.8641554117202759,
+                  "bbox": [
+                    476,
+                    208,
+                    494,
+                    225
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 6,
+          "bbox": [
+            79,
+            246,
+            479,
+            295
+          ],
+          "text": "state specific rules, processing flow and claim splitting\nprocedures around appropriate claims coverage for newborns.\nFollowing the birth",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "state specific rules, processing flow and claim splitting",
+              "conf": 0.9939045906066895,
+              "bbox": [
+                79,
+                246,
+                431,
+                262
+              ],
+              "words": [
+                {
+                  "text": "state specific rules, processing flow and claim splitting",
+                  "conf": 0.9939045906066895,
+                  "bbox": [
+                    79,
+                    246,
+                    431,
+                    262
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "procedures around appropriate claims coverage for newborns.",
+              "conf": 0.988426923751831,
+              "bbox": [
+                81,
+                265,
+                479,
+                278
+              ],
+              "words": [
+                {
+                  "text": "procedures around appropriate claims coverage for newborns.",
+                  "conf": 0.988426923751831,
+                  "bbox": [
+                    81,
+                    265,
+                    479,
+                    278
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Following the birth",
+              "conf": 0.9983378052711487,
+              "bbox": [
+                79,
+                279,
+                203,
+                295
+              ],
+              "words": [
+                {
+                  "text": "Following the birth",
+                  "conf": 0.9983378052711487,
+                  "bbox": [
+                    79,
+                    279,
+                    203,
+                    295
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 7,
+          "bbox": [
+            80,
+            323,
+            435,
+            340
+          ],
+          "text": "Claims Tasks:Locating Authorization and Determining",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claims Tasks:Locating Authorization and Determining",
+              "conf": 0.9840251207351685,
+              "bbox": [
+                80,
+                323,
+                435,
+                340
+              ],
+              "words": [
+                {
+                  "text": "Claims Tasks:Locating Authorization and Determining",
+                  "conf": 0.9840251207351685,
+                  "bbox": [
+                    80,
+                    323,
+                    435,
+                    340
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 8,
+          "bbox": [
+            79,
+            339,
+            218,
+            356
+          ],
+          "text": "Authorization Status",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Authorization Status",
+              "conf": 0.9935876727104187,
+              "bbox": [
+                79,
+                339,
+                218,
+                356
+              ],
+              "words": [
+                {
+                  "text": "Authorization Status",
+                  "conf": 0.9935876727104187,
+                  "bbox": [
+                    79,
+                    339,
+                    218,
+                    356
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 9,
+          "bbox": [
+            79,
+            362,
+            494,
+            398
+          ],
+          "text": "Summary The purpose of this article is to assist processors in\nlocating authorization and determining authorization status for a",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Summary The purpose of this article is to assist processors in",
+              "conf": 0.9846776723861694,
+              "bbox": [
+                79,
+                362,
+                478,
+                383
+              ],
+              "words": [
+                {
+                  "text": "Summary The purpose of this article is to assist processors in",
+                  "conf": 0.9846776723861694,
+                  "bbox": [
+                    79,
+                    362,
+                    478,
+                    383
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "locating authorization and determining authorization status for a",
+              "conf": 0.9900798797607422,
+              "bbox": [
+                79,
+                381,
+                494,
+                398
+              ],
+              "words": [
+                {
+                  "text": "locating authorization and determining authorization status for a",
+                  "conf": 0.9900798797607422,
+                  "bbox": [
+                    79,
+                    381,
+                    494,
+                    398
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 10,
+          "bbox": [
+            80,
+            396,
+            411,
+            412
+          ],
+          "text": "claim. This is often necessary in workflows such as:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "claim. This is often necessary in workflows such as:",
+              "conf": 0.9761025309562683,
+              "bbox": [
+                80,
+                396,
+                411,
+                412
+              ],
+              "words": [
+                {
+                  "text": "claim. This is often necessary in workflows such as:",
+                  "conf": 0.9761025309562683,
+                  "bbox": [
+                    80,
+                    396,
+                    411,
+                    412
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 11,
+          "bbox": [
+            80,
+            416,
+            165,
+            429
+          ],
+          "text": "authorization",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "authorization",
+              "conf": 0.9967060089111328,
+              "bbox": [
+                80,
+                416,
+                165,
+                429
+              ],
+              "words": [
+                {
+                  "text": "authorization",
+                  "conf": 0.9967060089111328,
+                  "bbox": [
+                    80,
+                    416,
+                    165,
+                    429
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 12,
+          "bbox": [
+            81,
+            460,
+            360,
+            476
+          ],
+          "text": "Claims Disputes:Authorization Exceptions",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claims Disputes:Authorization Exceptions",
+              "conf": 0.9896184206008911,
+              "bbox": [
+                81,
+                460,
+                360,
+                476
+              ],
+              "words": [
+                {
+                  "text": "Claims Disputes:Authorization Exceptions",
+                  "conf": 0.9896184206008911,
+                  "bbox": [
+                    81,
+                    460,
+                    360,
+                    476
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 13,
+          "bbox": [
+            77,
+            484,
+            495,
+            685
+          ],
+          "text": "Scope (Authorization Exceptions) Below are known authorization\nprocessing issues, or exceptions to the rules, as of the date of\nthis document.Please be aware when working authorization\ndisputes.\nStandard Reviews for All Pre-Payment and Post-Payment\nTickets\nPurpose/Summary The purpose of this procedure is to ensure\nconsistent processing across Claims Operations in both pre-\npayment andpost-payment workflows.Oscar Health Claims\nOperations procedures",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Scope (Authorization Exceptions) Below are known authorization",
+              "conf": 0.9917176961898804,
+              "bbox": [
+                80,
+                484,
+                495,
+                500
+              ],
+              "words": [
+                {
+                  "text": "Scope (Authorization Exceptions) Below are known authorization",
+                  "conf": 0.9917176961898804,
+                  "bbox": [
+                    80,
+                    484,
+                    495,
+                    500
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "processing issues, or exceptions to the rules, as of the date of",
+              "conf": 0.9800130128860474,
+              "bbox": [
+                80,
+                500,
+                480,
+                517
+              ],
+              "words": [
+                {
+                  "text": "processing issues, or exceptions to the rules, as of the date of",
+                  "conf": 0.9800130128860474,
+                  "bbox": [
+                    80,
+                    500,
+                    480,
+                    517
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "this document.Please be aware when working authorization",
+              "conf": 0.9731961488723755,
+              "bbox": [
+                77,
+                516,
+                468,
+                535
+              ],
+              "words": [
+                {
+                  "text": "this document.Please be aware when working authorization",
+                  "conf": 0.9731961488723755,
+                  "bbox": [
+                    77,
+                    516,
+                    468,
+                    535
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "disputes.",
+              "conf": 0.983138382434845,
+              "bbox": [
+                80,
+                532,
+                139,
+                551
+              ],
+              "words": [
+                {
+                  "text": "disputes.",
+                  "conf": 0.983138382434845,
+                  "bbox": [
+                    80,
+                    532,
+                    139,
+                    551
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Standard Reviews for All Pre-Payment and Post-Payment",
+              "conf": 0.9821812510490417,
+              "bbox": [
+                80,
+                579,
+                455,
+                596
+              ],
+              "words": [
+                {
+                  "text": "Standard Reviews for All Pre-Payment and Post-Payment",
+                  "conf": 0.9821812510490417,
+                  "bbox": [
+                    80,
+                    579,
+                    455,
+                    596
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "Tickets",
+              "conf": 0.9968457221984863,
+              "bbox": [
+                81,
+                597,
+                130,
+                611
+              ],
+              "words": [
+                {
+                  "text": "Tickets",
+                  "conf": 0.9968457221984863,
+                  "bbox": [
+                    81,
+                    597,
+                    130,
+                    611
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 6,
+              "text": "Purpose/Summary The purpose of this procedure is to ensure",
+              "conf": 0.9745634198188782,
+              "bbox": [
+                90,
+                620,
+                488,
+                637
+              ],
+              "words": [
+                {
+                  "text": "Purpose/Summary The purpose of this procedure is to ensure",
+                  "conf": 0.9745634198188782,
+                  "bbox": [
+                    90,
+                    620,
+                    488,
+                    637
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 7,
+              "text": "consistent processing across Claims Operations in both pre-",
+              "conf": 0.9898765683174133,
+              "bbox": [
+                79,
+                635,
+                468,
+                653
+              ],
+              "words": [
+                {
+                  "text": "consistent processing across Claims Operations in both pre-",
+                  "conf": 0.9898765683174133,
+                  "bbox": [
+                    79,
+                    635,
+                    468,
+                    653
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 8,
+              "text": "payment andpost-payment workflows.Oscar Health Claims",
+              "conf": 0.9711600542068481,
+              "bbox": [
+                81,
+                656,
+                465,
+                668
+              ],
+              "words": [
+                {
+                  "text": "payment andpost-payment workflows.Oscar Health Claims",
+                  "conf": 0.9711600542068481,
+                  "bbox": [
+                    81,
+                    656,
+                    465,
+                    668
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 9,
+              "text": "Operations procedures",
+              "conf": 0.9971181154251099,
+              "bbox": [
+                79,
+                668,
+                229,
+                685
+              ],
+              "words": [
+                {
+                  "text": "Operations procedures",
+                  "conf": 0.9971181154251099,
+                  "bbox": [
+                    79,
+                    668,
+                    229,
+                    685
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 14,
+          "bbox": [
+            77,
+            713,
+            519,
+            738
+          ],
+          "text": "Document Triaginge :",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Document Triaginge :",
+              "conf": 0.9543808102607727,
+              "bbox": [
+                77,
+                713,
+                519,
+                738
+              ],
+              "words": [
+                {
+                  "text": "Document Triaginge",
+                  "conf": 0.9471705555915833,
+                  "bbox": [
+                    77,
+                    713,
+                    206,
+                    732
+                  ]
+                },
+                {
+                  "text": ":",
+                  "conf": 0.9615910649299622,
+                  "bbox": [
+                    502,
+                    717,
+                    519,
+                    738
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 15,
+          "bbox": [
+            434,
+            745,
+            521,
+            765
+          ],
+          "text": "17 Bookmarks",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "17 Bookmarks",
+              "conf": 0.9735459685325623,
+              "bbox": [
+                434,
+                745,
+                521,
+                765
+              ],
+              "words": [
+                {
+                  "text": "17 Bookmarks",
+                  "conf": 0.9735459685325623,
+                  "bbox": [
+                    434,
+                    745,
+                    521,
+                    765
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            5,
+            13,
+            545,
+            765
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>VERINT</td><td></td><td></td><td></td></tr><tr><td>Knowledge Management</td><td></td><td></td><td></td></tr><tr><td>Search knowledge.</td><td>Q</td><td></td><td></td></tr><tr><td>D</td><td>Search</td><td></td><td></td></tr><tr><td>Q</td><td></td><td></td><td></td></tr><tr><td>My Bookmarks (17) F</td><td></td><td></td><td></td></tr><tr><td>Filter</td><td>Q</td><td></td><td></td></tr><tr><td>state</td><td>specific rules, processing flow and claim splitting</td><td></td><td></td></tr><tr><td>procedures around appropriate claims coverage for newborns.</td><td></td><td></td><td></td></tr><tr><td>Following the birth</td><td></td><td></td><td></td></tr><tr><td>Claims Tasks</td><td>Locating Authorization and Determining</td><td></td><td></td></tr><tr><td>Authorization Status</td><td></td><td></td><td></td></tr><tr><td>Summary The purpose of this article is to assist processors in</td><td></td><td></td><td></td></tr><tr><td>locating authorization and determining authorization status for a</td><td></td><td></td><td></td></tr><tr><td>claim. This is often necessary in workflows such as:</td><td></td><td></td><td></td></tr><tr><td>authorization</td><td></td><td></td><td></td></tr><tr><td>Claims Disputes</td><td>Authorization Exceptions</td><td></td><td></td></tr><tr><td>Scope (Authorization Exceptions) Below are known authorization</td><td></td><td></td><td></td></tr><tr><td>processing issues, or exceptions to the rules, as of the date of</td><td></td><td></td><td></td></tr><tr><td>this document.Please be aware when working authorization</td><td></td><td></td><td></td></tr><tr><td>disputes.</td><td></td><td></td><td></td></tr><tr><td>Standard Reviews for All Pre-Payment and Post-Payment</td><td></td><td></td><td></td></tr><tr><td>Tickets</td><td></td><td></td><td></td></tr><tr><td>Purpose/Summary The purpose of this procedure is to ensure</td><td></td><td></td><td></td></tr><tr><td>consistent processing across Claims Operations in both pre-</td><td></td><td></td><td></td></tr><tr><td>payment andpost-payment workflows.Oscar Health Claims</td><td></td><td></td><td></td></tr><tr><td>Operations procedures</td><td></td><td></td><td></td></tr><tr><td>Document Triaginge</td><td></td><td></td><td></td></tr><tr><td>17 Bookmarks</td><td></td><td></td><td></td></tr></table>",
+          "text": "VERINT: \nKnowledge Management: \nSearch knowledge.: Q\nD: Search\nQ: \nMy Bookmarks (17) F: \nFilter: Q\nstate: specific rules, processing flow and claim splitting\nprocedures around appropriate claims coverage for newborns.: \nFollowing the birth: \nClaims Tasks: Locating Authorization and Determining\nAuthorization Status: \nSummary The purpose of this article is to assist processors in: \nlocating authorization and determining authorization status for a: \nclaim. This is often necessary in workflows such as:: \nauthorization: \nClaims Disputes: Authorization Exceptions\nScope (Authorization Exceptions) Below are known authorization: \nprocessing issues, or exceptions to the rules, as of the date of: \nthis document.Please be aware when working authorization: \ndisputes.: \nStandard Reviews for All Pre-Payment and Post-Payment: \nTickets: \nPurpose/Summary The purpose of this procedure is to ensure: \nconsistent processing across Claims Operations in both pre-: \npayment andpost-payment workflows.Oscar Health Claims: \nOperations procedures: \nDocument Triaginge: \n17 Bookmarks: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "VERINT",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Knowledge Management",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Search knowledge.",
+              "Q",
+              "",
+              ""
+            ],
+            [
+              "D",
+              "Search",
+              "",
+              ""
+            ],
+            [
+              "Q",
+              "",
+              "",
+              ""
+            ],
+            [
+              "My Bookmarks (17) F",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Filter",
+              "Q",
+              "",
+              ""
+            ],
+            [
+              "state",
+              "specific rules, processing flow and claim splitting",
+              "",
+              ""
+            ],
+            [
+              "procedures around appropriate claims coverage for newborns.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Following the birth",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Claims Tasks",
+              "Locating Authorization and Determining",
+              "",
+              ""
+            ],
+            [
+              "Authorization Status",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Summary The purpose of this article is to assist processors in",
+              "",
+              "",
+              ""
+            ],
+            [
+              "locating authorization and determining authorization status for a",
+              "",
+              "",
+              ""
+            ],
+            [
+              "claim. This is often necessary in workflows such as:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "authorization",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Claims Disputes",
+              "Authorization Exceptions",
+              "",
+              ""
+            ],
+            [
+              "Scope (Authorization Exceptions) Below are known authorization",
+              "",
+              "",
+              ""
+            ],
+            [
+              "processing issues, or exceptions to the rules, as of the date of",
+              "",
+              "",
+              ""
+            ],
+            [
+              "this document.Please be aware when working authorization",
+              "",
+              "",
+              ""
+            ],
+            [
+              "disputes.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Standard Reviews for All Pre-Payment and Post-Payment",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Tickets",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Purpose/Summary The purpose of this procedure is to ensure",
+              "",
+              "",
+              ""
+            ],
+            [
+              "consistent processing across Claims Operations in both pre-",
+              "",
+              "",
+              ""
+            ],
+            [
+              "payment andpost-payment workflows.Oscar Health Claims",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Operations procedures",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Document Triaginge",
+              "",
+              "",
+              ""
+            ],
+            [
+              "17 Bookmarks",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "VERINT",
+              ""
+            ],
+            [
+              "Knowledge Management",
+              ""
+            ],
+            [
+              "Search knowledge. Q",
+              ""
+            ],
+            [
+              "D Search",
+              ""
+            ],
+            [
+              "Q",
+              ""
+            ],
+            [
+              "My Bookmarks (17) F:",
+              ""
+            ],
+            [
+              "Filter Q",
+              ""
+            ],
+            [
+              "state specific rules, processing flow and claim splitting",
+              ""
+            ],
+            [
+              "procedures around appropriate claims coverage for newborns.",
+              ""
+            ],
+            [
+              "Following the birth",
+              ""
+            ],
+            [
+              "Claims Tasks:Locating Authorization and Determining",
+              ""
+            ],
+            [
+              "Authorization Status",
+              ""
+            ],
+            [
+              "Summary The purpose of this article is to assist processors in",
+              ""
+            ],
+            [
+              "locating authorization and determining authorization status for a",
+              ""
+            ],
+            [
+              "claim. This is often necessary in workflows such as:",
+              ""
+            ],
+            [
+              "authorization",
+              ""
+            ],
+            [
+              "Claims Disputes:Authorization Exceptions",
+              ""
+            ],
+            [
+              "Scope (Authorization Exceptions) Below are known authorization",
+              ""
+            ],
+            [
+              "processing issues, or exceptions to the rules, as of the date of",
+              ""
+            ],
+            [
+              "this document.Please be aware when working authorization",
+              ""
+            ],
+            [
+              "disputes.",
+              ""
+            ],
+            [
+              "Standard Reviews for All Pre-Payment and Post-Payment",
+              ""
+            ],
+            [
+              "Tickets",
+              ""
+            ],
+            [
+              "Purpose/Summary The purpose of this procedure is to ensure",
+              ""
+            ],
+            [
+              "consistent processing across Claims Operations in both pre-",
+              ""
+            ],
+            [
+              "payment andpost-payment workflows.Oscar Health Claims",
+              ""
+            ],
+            [
+              "Operations procedures",
+              ""
+            ],
+            [
+              "Document Triaginge :",
+              ""
+            ],
+            [
+              "17 Bookmarks",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "VERINT",
+          "conf": 0.9977616667747498,
+          "bbox": [
+            59,
+            13,
+            150,
+            34
+          ],
+          "words": [
+            {
+              "text": "VERINT",
+              "conf": 0.9977616667747498,
+              "bbox": [
+                59,
+                13,
+                150,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Knowledge Management",
+          "conf": 0.9920099377632141,
+          "bbox": [
+            31,
+            37,
+            177,
+            53
+          ],
+          "words": [
+            {
+              "text": "Knowledge Management",
+              "conf": 0.9920099377632141,
+              "bbox": [
+                31,
+                37,
+                177,
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "text": "D Search knowledge. Q Search",
+          "conf": 0.8533798009157181,
+          "bbox": [
+            5,
+            84,
+            545,
+            134
+          ],
+          "words": [
+            {
+              "text": "D",
+              "conf": 0.5124983787536621,
+              "bbox": [
+                5,
+                103,
+                12,
+                113
+              ]
+            },
+            {
+              "text": "Search knowledge.",
+              "conf": 0.947435736656189,
+              "bbox": [
+                32,
+                89,
+                146,
+                106
+              ]
+            },
+            {
+              "text": "Q",
+              "conf": 0.9650287628173828,
+              "bbox": [
+                495,
+                88,
+                512,
+                106
+              ]
+            },
+            {
+              "text": "Search",
+              "conf": 0.9885563254356384,
+              "bbox": [
+                528,
+                84,
+                545,
+                134
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Q",
+          "conf": 0.9226372838020325,
+          "bbox": [
+            302,
+            123,
+            326,
+            145
+          ],
+          "words": [
+            {
+              "text": "Q",
+              "conf": 0.9226372838020325,
+              "bbox": [
+                302,
+                123,
+                326,
+                145
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My Bookmarks (17) F:",
+          "conf": 0.9308101534843445,
+          "bbox": [
+            31,
+            171,
+            509,
+            193
+          ],
+          "words": [
+            {
+              "text": "My Bookmarks (17)",
+              "conf": 0.9936442971229553,
+              "bbox": [
+                31,
+                172,
+                212,
+                192
+              ]
+            },
+            {
+              "text": "F:",
+              "conf": 0.8679760098457336,
+              "bbox": [
+                447,
+                171,
+                509,
+                193
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Filter Q",
+          "conf": 0.9256344437599182,
+          "bbox": [
+            221,
+            208,
+            494,
+            225
+          ],
+          "words": [
+            {
+              "text": "Filter",
+              "conf": 0.9871134757995605,
+              "bbox": [
+                221,
+                210,
+                255,
+                224
+              ]
+            },
+            {
+              "text": "Q",
+              "conf": 0.8641554117202759,
+              "bbox": [
+                476,
+                208,
+                494,
+                225
+              ]
+            }
+          ]
+        },
+        {
+          "text": "state specific rules, processing flow and claim splitting",
+          "conf": 0.9939045906066895,
+          "bbox": [
+            79,
+            246,
+            431,
+            262
+          ],
+          "words": [
+            {
+              "text": "state specific rules, processing flow and claim splitting",
+              "conf": 0.9939045906066895,
+              "bbox": [
+                79,
+                246,
+                431,
+                262
+              ]
+            }
+          ]
+        },
+        {
+          "text": "procedures around appropriate claims coverage for newborns.",
+          "conf": 0.988426923751831,
+          "bbox": [
+            81,
+            265,
+            479,
+            278
+          ],
+          "words": [
+            {
+              "text": "procedures around appropriate claims coverage for newborns.",
+              "conf": 0.988426923751831,
+              "bbox": [
+                81,
+                265,
+                479,
+                278
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Following the birth",
+          "conf": 0.9983378052711487,
+          "bbox": [
+            79,
+            279,
+            203,
+            295
+          ],
+          "words": [
+            {
+              "text": "Following the birth",
+              "conf": 0.9983378052711487,
+              "bbox": [
+                79,
+                279,
+                203,
+                295
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claims Tasks:Locating Authorization and Determining",
+          "conf": 0.9840251207351685,
+          "bbox": [
+            80,
+            323,
+            435,
+            340
+          ],
+          "words": [
+            {
+              "text": "Claims Tasks:Locating Authorization and Determining",
+              "conf": 0.9840251207351685,
+              "bbox": [
+                80,
+                323,
+                435,
+                340
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Authorization Status",
+          "conf": 0.9935876727104187,
+          "bbox": [
+            79,
+            339,
+            218,
+            356
+          ],
+          "words": [
+            {
+              "text": "Authorization Status",
+              "conf": 0.9935876727104187,
+              "bbox": [
+                79,
+                339,
+                218,
+                356
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Summary The purpose of this article is to assist processors in",
+          "conf": 0.9846776723861694,
+          "bbox": [
+            79,
+            362,
+            478,
+            383
+          ],
+          "words": [
+            {
+              "text": "Summary The purpose of this article is to assist processors in",
+              "conf": 0.9846776723861694,
+              "bbox": [
+                79,
+                362,
+                478,
+                383
+              ]
+            }
+          ]
+        },
+        {
+          "text": "locating authorization and determining authorization status for a",
+          "conf": 0.9900798797607422,
+          "bbox": [
+            79,
+            381,
+            494,
+            398
+          ],
+          "words": [
+            {
+              "text": "locating authorization and determining authorization status for a",
+              "conf": 0.9900798797607422,
+              "bbox": [
+                79,
+                381,
+                494,
+                398
+              ]
+            }
+          ]
+        },
+        {
+          "text": "claim. This is often necessary in workflows such as:",
+          "conf": 0.9761025309562683,
+          "bbox": [
+            80,
+            396,
+            411,
+            412
+          ],
+          "words": [
+            {
+              "text": "claim. This is often necessary in workflows such as:",
+              "conf": 0.9761025309562683,
+              "bbox": [
+                80,
+                396,
+                411,
+                412
+              ]
+            }
+          ]
+        },
+        {
+          "text": "authorization",
+          "conf": 0.9967060089111328,
+          "bbox": [
+            80,
+            416,
+            165,
+            429
+          ],
+          "words": [
+            {
+              "text": "authorization",
+              "conf": 0.9967060089111328,
+              "bbox": [
+                80,
+                416,
+                165,
+                429
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claims Disputes:Authorization Exceptions",
+          "conf": 0.9896184206008911,
+          "bbox": [
+            81,
+            460,
+            360,
+            476
+          ],
+          "words": [
+            {
+              "text": "Claims Disputes:Authorization Exceptions",
+              "conf": 0.9896184206008911,
+              "bbox": [
+                81,
+                460,
+                360,
+                476
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Scope (Authorization Exceptions) Below are known authorization",
+          "conf": 0.9917176961898804,
+          "bbox": [
+            80,
+            484,
+            495,
+            500
+          ],
+          "words": [
+            {
+              "text": "Scope (Authorization Exceptions) Below are known authorization",
+              "conf": 0.9917176961898804,
+              "bbox": [
+                80,
+                484,
+                495,
+                500
+              ]
+            }
+          ]
+        },
+        {
+          "text": "processing issues, or exceptions to the rules, as of the date of",
+          "conf": 0.9800130128860474,
+          "bbox": [
+            80,
+            500,
+            480,
+            517
+          ],
+          "words": [
+            {
+              "text": "processing issues, or exceptions to the rules, as of the date of",
+              "conf": 0.9800130128860474,
+              "bbox": [
+                80,
+                500,
+                480,
+                517
+              ]
+            }
+          ]
+        },
+        {
+          "text": "this document.Please be aware when working authorization",
+          "conf": 0.9731961488723755,
+          "bbox": [
+            77,
+            516,
+            468,
+            535
+          ],
+          "words": [
+            {
+              "text": "this document.Please be aware when working authorization",
+              "conf": 0.9731961488723755,
+              "bbox": [
+                77,
+                516,
+                468,
+                535
+              ]
+            }
+          ]
+        },
+        {
+          "text": "disputes.",
+          "conf": 0.983138382434845,
+          "bbox": [
+            80,
+            532,
+            139,
+            551
+          ],
+          "words": [
+            {
+              "text": "disputes.",
+              "conf": 0.983138382434845,
+              "bbox": [
+                80,
+                532,
+                139,
+                551
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Standard Reviews for All Pre-Payment and Post-Payment",
+          "conf": 0.9821812510490417,
+          "bbox": [
+            80,
+            579,
+            455,
+            596
+          ],
+          "words": [
+            {
+              "text": "Standard Reviews for All Pre-Payment and Post-Payment",
+              "conf": 0.9821812510490417,
+              "bbox": [
+                80,
+                579,
+                455,
+                596
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tickets",
+          "conf": 0.9968457221984863,
+          "bbox": [
+            81,
+            597,
+            130,
+            611
+          ],
+          "words": [
+            {
+              "text": "Tickets",
+              "conf": 0.9968457221984863,
+              "bbox": [
+                81,
+                597,
+                130,
+                611
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Purpose/Summary The purpose of this procedure is to ensure",
+          "conf": 0.9745634198188782,
+          "bbox": [
+            90,
+            620,
+            488,
+            637
+          ],
+          "words": [
+            {
+              "text": "Purpose/Summary The purpose of this procedure is to ensure",
+              "conf": 0.9745634198188782,
+              "bbox": [
+                90,
+                620,
+                488,
+                637
+              ]
+            }
+          ]
+        },
+        {
+          "text": "consistent processing across Claims Operations in both pre-",
+          "conf": 0.9898765683174133,
+          "bbox": [
+            79,
+            635,
+            468,
+            653
+          ],
+          "words": [
+            {
+              "text": "consistent processing across Claims Operations in both pre-",
+              "conf": 0.9898765683174133,
+              "bbox": [
+                79,
+                635,
+                468,
+                653
+              ]
+            }
+          ]
+        },
+        {
+          "text": "payment andpost-payment workflows.Oscar Health Claims",
+          "conf": 0.9711600542068481,
+          "bbox": [
+            81,
+            656,
+            465,
+            668
+          ],
+          "words": [
+            {
+              "text": "payment andpost-payment workflows.Oscar Health Claims",
+              "conf": 0.9711600542068481,
+              "bbox": [
+                81,
+                656,
+                465,
+                668
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Operations procedures",
+          "conf": 0.9971181154251099,
+          "bbox": [
+            79,
+            668,
+            229,
+            685
+          ],
+          "words": [
+            {
+              "text": "Operations procedures",
+              "conf": 0.9971181154251099,
+              "bbox": [
+                79,
+                668,
+                229,
+                685
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Document Triaginge :",
+          "conf": 0.9543808102607727,
+          "bbox": [
+            77,
+            713,
+            519,
+            738
+          ],
+          "words": [
+            {
+              "text": "Document Triaginge",
+              "conf": 0.9471705555915833,
+              "bbox": [
+                77,
+                713,
+                206,
+                732
+              ]
+            },
+            {
+              "text": ":",
+              "conf": 0.9615910649299622,
+              "bbox": [
+                502,
+                717,
+                519,
+                738
+              ]
+            }
+          ]
+        },
+        {
+          "text": "17 Bookmarks",
+          "conf": 0.9735459685325623,
+          "bbox": [
+            434,
+            745,
+            521,
+            765
+          ],
+          "words": [
+            {
+              "text": "17 Bookmarks",
+              "conf": 0.9735459685325623,
+              "bbox": [
+                434,
+                745,
+                521,
+                765
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=20 | tables=6 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 4x8
+HEADER | Cortex-Claim#3X6ZH7Z9 | Latest version (5 of 5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 15 hours ago | Readjudicate | Actions | -
+  CELL[1,0] = About thls claim Payment Patlent
+  CELL[1,1] = Providers Medical Claim lines
+  CELL[1,4] = 15 hours ago
+  CELL[1,5] = Readjudicate
+  CELL[1,6] = Actions
+ROW 2 | 3X6ZH7Z9 | Submissioninformation | - | - | - | - | - | -
+  CELL[2,0] = 3X6ZH7Z9
+  CELL[2,1] = Submissioninformation
+ROW 3 | Member: Yisroel Dubov | Submission type Electronic | Vendor source AVAILITY | - | - | - | - | -
+  CELL[3,0] = Member: Yisroel Dubov
+  CELL[3,1] = Submission type Electronic
+  CELL[3,2] = Vendor source AVAILITY
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 13x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | o Notes | - | - | -
+  CELL[1,0] = o Notes
+ROW 2 | Blockers (1) | - | - | -
+  CELL[2,0] = Blockers (1)
+ROW 3 | NEWBORN | Payment | - | -
+  CELL[3,0] = NEWBORN
+  CELL[3,1] = Payment
+ROW 4 | Manage | - | - | -
+  CELL[4,0] = Manage
+ROW 5 | Charge group | - | Prompt process due date | -
+  CELL[5,0] = Charge group
+  CELL[5,2] = Prompt process due date
+ROW 6 | - | - | 1534 Van Buren St Apt 301B Hollywood, FL 33020 | -
+  CELL[6,2] = 1534 Van Buren St Apt 301B Hollywood, FL 33020
+ROW 7 | >Memberresponsibility $0.00 OSCID | OSC7874790901 | - | -
+  CELL[7,0] = >Memberresponsibility $0.00 OSCID
+  CELL[7,1] = OSC7874790901
+ROW 8 | 3X6ZH7Z9 | Blocked | EOB | No EOB information is available
+  CELL[8,0] = 3X6ZH7Z9
+  CELL[8,1] = Blocked
+  CELL[8,2] = EOB
+  CELL[8,3] = No EOB information is available
+ROW 9 | 7/19/2026 Date ofbirth 02/06/1999 (26) | - | - | -
+  CELL[9,0] = 7/19/2026 Date ofbirth 02/06/1999 (26)
+ROW 10 | Sex | Male | Rosco claim history | View
+  CELL[10,0] = Sex
+  CELL[10,1] = Male
+  CELL[10,2] = Rosco claim history
+  CELL[10,3] = View
+ROW 11 | Potential parent claims | - | - | -
+  CELL[11,0] = Potential parent claims
+ROW 12 | Eligibility | - | - | -
+  CELL[12,0] = Eligibility
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 3x5
+HEADER | See all member's clalms | EDI file | Download | Documents | View
+ROW 1 | - | Tenant | oscar | - | -
+  CELL[1,1] = Tenant
+  CELL[1,2] = oscar
+ROW 2 | Claim state: Blocked | Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | - | -
+  CELL[2,0] = Claim state: Blocked
+  CELL[2,1] = Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 6x4
+HEADER | Denials (0) | Payment authority | NEXTGEN | Interest accrued
+ROW 1 | No denials on this claim. Manage | Pay to member | No | Excluded from interest Yes
+  CELL[1,0] = No denials on this claim. Manage
+  CELL[1,1] = Pay to member
+  CELL[1,2] = No
+  CELL[1,3] = Excluded from interest Yes
+ROW 2 | Billed $9,459.00 (100%) | - | - | -
+  CELL[2,0] = Billed $9,459.00 (100%)
+ROW 3 | Allowed $729.17 (8%) | Patient | - | -
+  CELL[3,0] = Allowed $729.17 (8%)
+  CELL[3,1] = Patient
+ROW 4 | Pay provider $729.17 | Matched Member | Submitted Info | -
+  CELL[4,0] = Pay provider $729.17
+  CELL[4,1] = Matched Member
+  CELL[4,2] = Submitted Info
+ROW 5 | Pay member $0.00 | Member | Yisroel Dubov | Change Address
+  CELL[5,0] = Pay member $0.00
+  CELL[5,1] = Member
+  CELL[5,2] = Yisroel Dubov
+  CELL[5,3] = Change Address
+[/TABLE 3]
+
+[TABLE 4 | source=wide_grid]
+shape: 2x4
+HEADER | Person ID | 7e7615851f8f49dca93fd787eddc00bb | Authorizations | loading..
+ROW 1 | Claim lineage SSN | 135-06-4790 | Referrals | View a
+  CELL[1,0] = Claim lineage SSN
+  CELL[1,1] = 135-06-4790
+  CELL[1,2] = Referrals
+  CELL[1,3] = View a
+[/TABLE 4]
+
+[TABLE 5 | source=wide_grid]
+shape: 3x5
+HEADER | Eligibility ID | 3608ed8a1d954e8f91ee211e6fa385d0 | Change | Policy holder ID | OSC7874790901
+ROW 1 | Potential duplicate claims Effective dates | 09/01/2025 to 12/31/2025 | - | Policy ID | 9c4cc186-f97a-4523-9653-8b095895e095
+  CELL[1,0] = Potential duplicate claims Effective dates
+  CELL[1,1] = 09/01/2025 to 12/31/2025
+  CELL[1,3] = Policy ID
+  CELL[1,4] = 9c4cc186-f97a-4523-9653-8b095895e095
+ROW 2 | No system identified duplicates. Other payers | AMERIGROUP FLORIDA | - | Market | Individual - FL
+  CELL[2,0] = No system identified duplicates. Other payers
+  CELL[2,1] = AMERIGROUP FLORIDA
+  CELL[2,3] = Market
+  CELL[2,4] = Individual - FL
+[/TABLE 5]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[50,14,1555,35] | order=0
+  Cortex-Claim#3X6ZH7Z9 Latest version (5 of 5) Dashboard Batch History Testing Settlements Search Create
+BLOCK 1 | type=header | bbox=[31,64,1521,80] | order=1
+  About thls claim Payment Patlent Providers Medical Claim lines 15 hours ago Readjudicate Actions
+BLOCK 2 | type=table_row | bbox=[32,112,455,137] | order=2
+  3X6ZH7Z9 Submissioninformation
+BLOCK 3 | type=table | bbox=[32,145,1211,167] | order=3
+  Member: Yisroel Dubov Submission type Electronic Vendor source AVAILITY
+BLOCK 4 | type=table_row | bbox=[32,162,96,178] | order=4
+  o Notes
+BLOCK 5 | type=table | bbox=[34,174,1189,195] | order=5
+  See all member's clalms EDI file Download Documents View
+BLOCK 6 | type=table_row | bbox=[299,201,552,219] | order=6
+  Tenant oscar
+BLOCK 7 | type=table | bbox=[31,232,556,252] | order=7
+  Claim state: Blocked Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+BLOCK 8 | type=table_row | bbox=[31,267,99,284] | order=8
+  Blockers (1)
+BLOCK 9 | type=table_row | bbox=[30,288,389,324] | order=9
+  Manage NEWBORN Payment
+BLOCK 10 | type=table_row | bbox=[299,315,1081,336] | order=10
+  Charge group Prompt process due date
+BLOCK 11 | type=table | bbox=[31,336,1180,391] | order=11
+  Denials (0) Payment authority NEXTGEN Interest accrued
+  No denials on this claim. Manage Pay to member No Excluded from interest Yes
+BLOCK 12 | type=table | bbox=[30,418,222,435] | order=12
+  Billed $9,459.00 (100%)
+BLOCK 13 | type=table | bbox=[19,437,1309,536] | order=13
+  Allowed $729.17 (8%) Patient
+  Pay provider $729.17 Matched Member Submitted Info
+  >Memberresponsibility Pay member $0.00 $0.00 Member Yisroel Dubov Change Address 1534 Van Buren St Apt 301B Hollywood, FL 33020
+BLOCK 14 | type=table | bbox=[299,524,610,542] | order=14
+  OSCID OSC7874790901
+BLOCK 15 | type=table | bbox=[28,542,1306,647] | order=15
+  Person ID 7e7615851f8f49dca93fd787eddc00bb Authorizations loading.
+  3X6ZH7Z9 Claim lineage Blocked SSN 135-06-4790 Referrals View a
+  7/19/2026 Date ofbirth 02/06/1999 (26) EOB No EOB information is available
+  Sex Male Rosco claim history View
+BLOCK 16 | type=table | bbox=[32,653,164,666] | order=16
+  Potential parent claims
+BLOCK 17 | type=table_row | bbox=[298,663,363,685] | order=17
+  Eligibility
+BLOCK 18 | type=table | bbox=[299,696,1249,713] | order=18
+  Eligibility ID 3608ed8a1d954e8f91ee211e6fa385d0 Change Policy holder ID OSC7874790901
+BLOCK 19 | type=footer | bbox=[31,715,1402,765] | order=19
+  Potential duplicate claims Effective dates 09/01/2025 to 12/31/2025 Policy ID 9c4cc186-f97a-4523-9653-8b095895e095
+  No system identified duplicates. Other payers AMERIGROUP FLORIDA Market Individual - FL
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[19,162,1309,685] | shape=13x4 | conf=0.920
+  shape: 13x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | o Notes | - | - | -
+    CELL[1,0] = o Notes
+  ROW 2 | Blockers (1) | - | - | -
+    CELL[2,0] = Blockers (1)
+  ROW 3 | NEWBORN | Payment | - | -
+    CELL[3,0] = NEWBORN
+    CELL[3,1] = Payment
+  ROW 4 | Manage | - | - | -
+    CELL[4,0] = Manage
+  ROW 5 | Charge group | - | Prompt process due date | -
+    CELL[5,0] = Charge group
+    CELL[5,2] = Prompt process due date
+  ROW 6 | - | - | 1534 Van Buren St Apt 301B Hollywood, FL 33020 | -
+    CELL[6,2] = 1534 Van Buren St Apt 301B Hollywood, FL 33020
+  ROW 7 | >Memberresponsibility $0.00 OSCID | OSC7874790901 | - | -
+    CELL[7,0] = >Memberresponsibility $0.00 OSCID
+    CELL[7,1] = OSC7874790901
+  ROW 8 | 3X6ZH7Z9 | Blocked | EOB | No EOB information is available
+    CELL[8,0] = 3X6ZH7Z9
+    CELL[8,1] = Blocked
+    CELL[8,2] = EOB
+    CELL[8,3] = No EOB information is available
+  ROW 9 | 7/19/2026 Date ofbirth 02/06/1999 (26) | - | - | -
+    CELL[9,0] = 7/19/2026 Date ofbirth 02/06/1999 (26)
+  ROW 10 | Sex | Male | Rosco claim history | View
+    CELL[10,0] = Sex
+    CELL[10,1] = Male
+    CELL[10,2] = Rosco claim history
+    CELL[10,3] = View
+  ROW 11 | Potential parent claims | - | - | -
+    CELL[11,0] = Potential parent claims
+  ROW 12 | Eligibility | - | - | -
+    CELL[12,0] = Eligibility
+TABLE 1 | source=wide_grid | bbox=[31,14,1555,167] | shape=4x8 | conf=0.850
+  shape: 4x8
+  HEADER | Cortex-Claim#3X6ZH7Z9 | Latest version (5 of 5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 15 hours ago | Readjudicate | Actions | -
+    CELL[1,0] = About thls claim Payment Patlent
+    CELL[1,1] = Providers Medical Claim lines
+    CELL[1,4] = 15 hours ago
+    CELL[1,5] = Readjudicate
+    CELL[1,6] = Actions
+  ROW 2 | 3X6ZH7Z9 | Submissioninformation | - | - | - | - | - | -
+    CELL[2,0] = 3X6ZH7Z9
+    CELL[2,1] = Submissioninformation
+  ROW 3 | Member: Yisroel Dubov | Submission type Electronic | Vendor source AVAILITY | - | - | - | - | -
+    CELL[3,0] = Member: Yisroel Dubov
+    CELL[3,1] = Submission type Electronic
+    CELL[3,2] = Vendor source AVAILITY
+TABLE 2 | source=wide_grid | bbox=[31,174,1189,252] | shape=3x5 | conf=0.850
+  shape: 3x5
+  HEADER | See all member's clalms | EDI file | Download | Documents | View
+  ROW 1 | - | Tenant | oscar | - | -
+    CELL[1,1] = Tenant
+    CELL[1,2] = oscar
+  ROW 2 | Claim state: Blocked | Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | - | -
+    CELL[2,0] = Claim state: Blocked
+    CELL[2,1] = Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+TABLE 3 | source=wide_grid | bbox=[30,336,1180,518] | shape=6x4 | conf=0.850
+  shape: 6x4
+  HEADER | Denials (0) | Payment authority | NEXTGEN | Interest accrued
+  ROW 1 | No denials on this claim. Manage | Pay to member | No | Excluded from interest Yes
+    CELL[1,0] = No denials on this claim. Manage
+    CELL[1,1] = Pay to member
+    CELL[1,2] = No
+    CELL[1,3] = Excluded from interest Yes
+  ROW 2 | Billed $9,459.00 (100%) | - | - | -
+    CELL[2,0] = Billed $9,459.00 (100%)
+  ROW 3 | Allowed $729.17 (8%) | Patient | - | -
+    CELL[3,0] = Allowed $729.17 (8%)
+    CELL[3,1] = Patient
+  ROW 4 | Pay provider $729.17 | Matched Member | Submitted Info | -
+    CELL[4,0] = Pay provider $729.17
+    CELL[4,1] = Matched Member
+    CELL[4,2] = Submitted Info
+  ROW 5 | Pay member $0.00 | Member | Yisroel Dubov | Change Address
+    CELL[5,0] = Pay member $0.00
+    CELL[5,1] = Member
+    CELL[5,2] = Yisroel Dubov
+    CELL[5,3] = Change Address
+TABLE 4 | source=wide_grid | bbox=[30,542,1210,593] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | Person ID | 7e7615851f8f49dca93fd787eddc00bb | Authorizations | loading..
+  ROW 1 | Claim lineage SSN | 135-06-4790 | Referrals | View a
+    CELL[1,0] = Claim lineage SSN
+    CELL[1,1] = 135-06-4790
+    CELL[1,2] = Referrals
+    CELL[1,3] = View a
+TABLE 5 | source=wide_grid | bbox=[31,696,1402,765] | shape=3x5 | conf=0.850
+  shape: 3x5
+  HEADER | Eligibility ID | 3608ed8a1d954e8f91ee211e6fa385d0 | Change | Policy holder ID | OSC7874790901
+  ROW 1 | Potential duplicate claims Effective dates | 09/01/2025 to 12/31/2025 | - | Policy ID | 9c4cc186-f97a-4523-9653-8b095895e095
+    CELL[1,0] = Potential duplicate claims Effective dates
+    CELL[1,1] = 09/01/2025 to 12/31/2025
+    CELL[1,3] = Policy ID
+    CELL[1,4] = 9c4cc186-f97a-4523-9653-8b095895e095
+  ROW 2 | No system identified duplicates. Other payers | AMERIGROUP FLORIDA | - | Market | Individual - FL
+    CELL[2,0] = No system identified duplicates. Other payers
+    CELL[2,1] = AMERIGROUP FLORIDA
+    CELL[2,3] = Market
+    CELL[2,4] = Individual - FL
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[50,14,1555,35] | conf=0.990 | text=Cortex-Claim#3X6ZH7Z9 Latest version (5 of 5) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[50,17,259,33] | text=Cortex-Claim#3X6ZH7Z9
+  WORD | bbox=[278,17,402,33] | text=Latest version (5 of 5)
+  WORD | bbox=[1106,16,1170,32] | text=Dashboard
+  WORD | bbox=[1191,14,1272,35] | text=Batch History
+  WORD | bbox=[1291,14,1338,35] | text=Testing
+  WORD | bbox=[1359,19,1430,32] | text=Settlements
+  WORD | bbox=[1452,18,1494,32] | text=Search
+  WORD | bbox=[1515,18,1555,32] | text=Create
+LINE 1 | bbox=[31,64,1521,80] | conf=0.992 | text=About thls claim Payment Patlent Providers Medical Claim lines 15 hours ago Readjudicate Actions
+  WORD | bbox=[31,64,126,80] | text=About thls claim
+  WORD | bbox=[149,65,201,80] | text=Payment
+  WORD | bbox=[221,65,266,79] | text=Patlent
+  WORD | bbox=[288,64,345,80] | text=Providers
+  WORD | bbox=[365,65,412,79] | text=Medical
+  WORD | bbox=[432,64,498,80] | text=Claim lines
+  WORD | bbox=[1252,65,1315,80] | text=15 hours ago
+  WORD | bbox=[1339,64,1419,80] | text=Readjudicate
+  WORD | bbox=[1469,65,1521,80] | text=Actions
+LINE 2 | bbox=[32,112,455,137] | conf=0.990 | text=3X6ZH7Z9 Submissioninformation
+  WORD | bbox=[32,120,134,137] | text=3X6ZH7Z9
+  WORD | bbox=[297,112,455,130] | text=Submissioninformation
+LINE 3 | bbox=[32,145,1211,167] | conf=0.990 | text=Member: Yisroel Dubov Submission type Electronic Vendor source AVAILITY
+  WORD | bbox=[32,145,161,158] | text=Member: Yisroel Dubov
+  WORD | bbox=[298,150,395,167] | text=Submission type
+  WORD | bbox=[516,146,578,167] | text=Electronic
+  WORD | bbox=[939,151,1020,164] | text=Vendor source
+  WORD | bbox=[1155,149,1211,165] | text=AVAILITY
+LINE 4 | bbox=[32,162,96,178] | conf=0.963 | text=o Notes
+LINE 5 | bbox=[34,174,1189,195] | conf=0.981 | text=See all member's clalms EDI file Download Documents View
+  WORD | bbox=[34,182,168,195] | text=See all member's clalms
+  WORD | bbox=[300,177,341,191] | text=EDI file
+  WORD | bbox=[519,177,576,190] | text=Download
+  WORD | bbox=[937,176,1006,192] | text=Documents
+  WORD | bbox=[1155,174,1189,192] | text=View
+LINE 6 | bbox=[299,201,552,219] | conf=0.998 | text=Tenant oscar
+  WORD | bbox=[299,202,341,216] | text=Tenant
+  WORD | bbox=[515,201,552,219] | text=oscar
+LINE 7 | bbox=[31,232,556,252] | conf=0.981 | text=Claim state: Blocked Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+  WORD | bbox=[31,236,102,252] | text=Claim state:
+  WORD | bbox=[169,237,219,251] | text=Blocked
+  WORD | bbox=[300,232,556,244] | text=Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+LINE 8 | bbox=[31,267,99,284] | conf=0.955 | text=Blockers (1)
+LINE 9 | bbox=[30,288,389,324] | conf=0.994 | text=Manage NEWBORN Payment
+  WORD | bbox=[30,303,82,324] | text=Manage
+  WORD | bbox=[32,288,115,300] | text=NEWBORN
+  WORD | bbox=[300,290,389,312] | text=Payment
+LINE 10 | bbox=[299,315,1081,336] | conf=0.991 | text=Charge group Prompt process due date
+  WORD | bbox=[299,315,379,336] | text=Charge group
+  WORD | bbox=[939,317,1081,334] | text=Prompt process due date
+LINE 11 | bbox=[31,336,1035,360] | conf=0.984 | text=Denials (0) Payment authority NEXTGEN Interest accrued
+  WORD | bbox=[31,336,94,353] | text=Denials (0)
+  WORD | bbox=[299,344,406,360] | text=Payment authority
+  WORD | bbox=[518,342,576,359] | text=NEXTGEN
+  WORD | bbox=[938,344,1035,360] | text=Interest accrued
+LINE 12 | bbox=[31,356,1180,391] | conf=0.989 | text=No denials on this claim. Manage Pay to member No Excluded from interest Yes
+  WORD | bbox=[31,356,166,391] | text=No denials on this claim. Manage
+  WORD | bbox=[299,369,385,386] | text=Pay to member
+  WORD | bbox=[516,369,536,384] | text=No
+  WORD | bbox=[939,370,1069,387] | text=Excluded from interest
+  WORD | bbox=[1155,372,1180,387] | text=Yes
+LINE 13 | bbox=[30,418,222,435] | conf=0.990 | text=Billed $9,459.00 (100%)
+  WORD | bbox=[30,418,68,435] | text=Billed
+  WORD | bbox=[134,419,222,435] | text=$9,459.00 (100%)
+LINE 14 | bbox=[31,437,374,458] | conf=0.967 | text=Allowed $729.17 (8%) Patient
+  WORD | bbox=[31,444,79,458] | text=Allowed
+  WORD | bbox=[158,442,222,458] | text=$729.17 (8%)
+  WORD | bbox=[300,437,374,454] | text=Patient
+LINE 15 | bbox=[30,467,514,485] | conf=0.986 | text=Pay provider $729.17 Matched Member Submitted Info
+  WORD | bbox=[30,467,102,484] | text=Pay provider
+  WORD | bbox=[181,470,222,484] | text=$729.17
+  WORD | bbox=[300,471,401,484] | text=Matched Member
+  WORD | bbox=[425,468,514,485] | text=Submitted Info
+LINE 16 | bbox=[19,493,1309,536] | conf=0.988 | text=>Memberresponsibility Pay member $0.00 $0.00 Member Yisroel Dubov Change Address 1534 Van Buren St Apt 301B Hollywood, FL 33020
+  WORD | bbox=[19,519,160,536] | text=>Memberresponsibility
+  WORD | bbox=[31,494,104,510] | text=Pay member
+  WORD | bbox=[186,493,224,510] | text=$0.00
+  WORD | bbox=[188,519,222,533] | text=$0.00
+  WORD | bbox=[296,496,349,517] | text=Member
+  WORD | bbox=[518,499,596,516] | text=Yisroel Dubov
+  WORD | bbox=[867,497,917,518] | text=Change
+  WORD | bbox=[936,496,989,517] | text=Address
+  WORD | bbox=[1155,498,1309,535] | text=1534 Van Buren St Apt 301B Hollywood, FL 33020
+LINE 17 | bbox=[299,524,610,542] | conf=0.996 | text=OSCID OSC7874790901
+  WORD | bbox=[299,524,342,542] | text=OSCID
+  WORD | bbox=[520,527,610,540] | text=OSC7874790901
+LINE 18 | bbox=[298,542,1210,568] | conf=0.983 | text=Person ID 7e7615851f8f49dca93fd787eddc00bb Authorizations loading.
+  WORD | bbox=[298,551,356,568] | text=Person ID
+  WORD | bbox=[519,552,735,565] | text=7e7615851f8f49dca93fd787eddc00bb
+  WORD | bbox=[936,544,1024,560] | text=Authorizations
+  WORD | bbox=[1153,542,1210,562] | text=loading..
+LINE 19 | bbox=[28,564,1198,603] | conf=0.981 | text=3X6ZH7Z9 Claim lineage Blocked SSN 135-06-4790 Referrals View a
+  WORD | bbox=[28,587,105,603] | text=3X6ZH7Z9
+  WORD | bbox=[30,564,110,582] | text=Claim lineage
+  WORD | bbox=[169,589,219,603] | text=Blocked
+  WORD | bbox=[299,578,326,593] | text=SSN
+  WORD | bbox=[515,577,591,593] | text=135-06-4790
+  WORD | bbox=[938,569,992,586] | text=Referrals
+  WORD | bbox=[1156,569,1198,587] | text=View a
+LINE 20 | bbox=[41,595,1306,623] | conf=0.986 | text=7/19/2026 Date ofbirth 02/06/1999 (26) EOB No EOB information is available
+  WORD | bbox=[41,607,94,623] | text=7/19/2026
+  WORD | bbox=[299,605,371,617] | text=Date ofbirth
+  WORD | bbox=[518,605,608,617] | text=02/06/1999 (26)
+  WORD | bbox=[936,595,968,612] | text=EOB
+  WORD | bbox=[1156,597,1306,610] | text=No EOB information is available
+LINE 21 | bbox=[298,621,1196,647] | conf=0.978 | text=Sex Male Rosco claim history View
+  WORD | bbox=[298,630,324,645] | text=Sex
+  WORD | bbox=[516,629,549,647] | text=Male
+  WORD | bbox=[937,621,1050,638] | text=Rosco claim history
+  WORD | bbox=[1158,623,1196,637] | text=View
+LINE 22 | bbox=[32,653,164,666] | conf=0.990 | text=Potential parent claims
+LINE 23 | bbox=[298,663,363,685] | conf=0.975 | text=Eligibility
+LINE 24 | bbox=[299,696,1249,713] | conf=0.982 | text=Eligibility ID 3608ed8a1d954e8f91ee211e6fa385d0 Change Policy holder ID OSC7874790901
+  WORD | bbox=[299,696,370,713] | text=Eligibility ID
+  WORD | bbox=[519,698,735,710] | text=3608ed8a1d954e8f91ee211e6fa385d0
+  WORD | bbox=[870,698,915,712] | text=Change
+  WORD | bbox=[939,698,1026,710] | text=Policy holder ID
+  WORD | bbox=[1159,698,1249,710] | text=OSC7874790901
+LINE 25 | bbox=[32,715,1402,738] | conf=0.972 | text=Potential duplicate claims Effective dates 09/01/2025 to 12/31/2025 Policy ID 9c4cc186-f97a-4523-9653-8b095895e095
+  WORD | bbox=[32,715,177,728] | text=Potential duplicate claims
+  WORD | bbox=[299,722,386,738] | text=Effective dates
+  WORD | bbox=[519,722,661,735] | text=09/01/2025 to 12/31/2025
+  WORD | bbox=[939,723,989,737] | text=Policy ID
+  WORD | bbox=[1159,723,1402,736] | text=9c4cc186-f97a-4523-9653-8b095895e095
+LINE 26 | bbox=[31,740,1238,765] | conf=0.983 | text=No system identified duplicates. Other payers AMERIGROUP FLORIDA Market Individual - FL
+  WORD | bbox=[31,740,210,756] | text=No system identified duplicates.
+  WORD | bbox=[299,749,375,765] | text=Other payers
+  WORD | bbox=[519,747,654,764] | text=AMERIGROUP FLORIDA
+  WORD | bbox=[938,747,984,765] | text=Market
+  WORD | bbox=[1156,750,1238,763] | text=Individual - FL
+[/BOXES]

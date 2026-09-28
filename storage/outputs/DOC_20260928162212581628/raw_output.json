@@ -1,0 +1,526 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "scan_enhance",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "VERINT\nQ\nyr1\ng\nC LA\nC Cg As\nTehsts",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "VERINT\nQ\nyr1\ng\nC LA\nC Cg As\nTehsts",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "paragraph",
+              "reading_order": 1,
+              "bbox": [
+                34,
+                88,
+                512,
+                593
+              ],
+              "text": "Q\nyr1\ng\nC LA\nC Cg As",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Q",
+                  "conf": 0.9043563604354858,
+                  "bbox": [
+                    498,
+                    88,
+                    512,
+                    104
+                  ],
+                  "words": [
+                    {
+                      "text": "Q",
+                      "conf": 0.9043563604354858,
+                      "bbox": [
+                        498,
+                        88,
+                        512,
+                        104
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "yr1",
+                  "conf": 0.807621955871582,
+                  "bbox": [
+                    34,
+                    172,
+                    212,
+                    192
+                  ],
+                  "words": [
+                    {
+                      "text": "yr1",
+                      "conf": 0.807621955871582,
+                      "bbox": [
+                        34,
+                        172,
+                        212,
+                        192
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "g",
+                  "conf": 0.5491431355476379,
+                  "bbox": [
+                    81,
+                    363,
+                    433,
+                    381
+                  ],
+                  "words": [
+                    {
+                      "text": " g ",
+                      "conf": 0.5491431355476379,
+                      "bbox": [
+                        81,
+                        363,
+                        433,
+                        381
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 3,
+                  "text": "C LA",
+                  "conf": 0.6335663199424744,
+                  "bbox": [
+                    82,
+                    440,
+                    436,
+                    457
+                  ],
+                  "words": [
+                    {
+                      "text": "C LA ",
+                      "conf": 0.6335663199424744,
+                      "bbox": [
+                        82,
+                        440,
+                        436,
+                        457
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 4,
+                  "text": "C Cg As",
+                  "conf": 0.6012205481529236,
+                  "bbox": [
+                    84,
+                    577,
+                    360,
+                    593
+                  ],
+                  "words": [
+                    {
+                      "text": "C Cg As",
+                      "conf": 0.6012205481529236,
+                      "bbox": [
+                        84,
+                        577,
+                        360,
+                        593
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Q\nyr1\ng\nC LA\nC Cg As"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            60,
+            14,
+            151,
+            36
+          ],
+          "text": "VERINT",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "VERINT",
+              "conf": 0.9974058270454407,
+              "bbox": [
+                60,
+                14,
+                151,
+                36
+              ],
+              "words": [
+                {
+                  "text": "VERINT",
+                  "conf": 0.9974058270454407,
+                  "bbox": [
+                    60,
+                    14,
+                    151,
+                    36
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 1,
+          "bbox": [
+            34,
+            88,
+            512,
+            593
+          ],
+          "text": "Q\nyr1\ng\nC LA\nC Cg As",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Q",
+              "conf": 0.9043563604354858,
+              "bbox": [
+                498,
+                88,
+                512,
+                104
+              ],
+              "words": [
+                {
+                  "text": "Q",
+                  "conf": 0.9043563604354858,
+                  "bbox": [
+                    498,
+                    88,
+                    512,
+                    104
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "yr1",
+              "conf": 0.807621955871582,
+              "bbox": [
+                34,
+                172,
+                212,
+                192
+              ],
+              "words": [
+                {
+                  "text": "yr1",
+                  "conf": 0.807621955871582,
+                  "bbox": [
+                    34,
+                    172,
+                    212,
+                    192
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "g",
+              "conf": 0.5491431355476379,
+              "bbox": [
+                81,
+                363,
+                433,
+                381
+              ],
+              "words": [
+                {
+                  "text": " g ",
+                  "conf": 0.5491431355476379,
+                  "bbox": [
+                    81,
+                    363,
+                    433,
+                    381
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "C LA",
+              "conf": 0.6335663199424744,
+              "bbox": [
+                82,
+                440,
+                436,
+                457
+              ],
+              "words": [
+                {
+                  "text": "C LA ",
+                  "conf": 0.6335663199424744,
+                  "bbox": [
+                    82,
+                    440,
+                    436,
+                    457
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "C Cg As",
+              "conf": 0.6012205481529236,
+              "bbox": [
+                84,
+                577,
+                360,
+                593
+              ],
+              "words": [
+                {
+                  "text": "C Cg As",
+                  "conf": 0.6012205481529236,
+                  "bbox": [
+                    84,
+                    577,
+                    360,
+                    593
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 2,
+          "bbox": [
+            82,
+            711,
+            130,
+            728
+          ],
+          "text": "Tehsts",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Tehsts",
+              "conf": 0.6543934345245361,
+              "bbox": [
+                82,
+                711,
+                130,
+                728
+              ],
+              "words": [
+                {
+                  "text": "Tehsts",
+                  "conf": 0.6543934345245361,
+                  "bbox": [
+                    82,
+                    711,
+                    130,
+                    728
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "VERINT",
+          "conf": 0.9974058270454407,
+          "bbox": [
+            60,
+            14,
+            151,
+            36
+          ],
+          "words": [
+            {
+              "text": "VERINT",
+              "conf": 0.9974058270454407,
+              "bbox": [
+                60,
+                14,
+                151,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Q",
+          "conf": 0.9043563604354858,
+          "bbox": [
+            498,
+            88,
+            512,
+            104
+          ],
+          "words": [
+            {
+              "text": "Q",
+              "conf": 0.9043563604354858,
+              "bbox": [
+                498,
+                88,
+                512,
+                104
+              ]
+            }
+          ]
+        },
+        {
+          "text": "yr1",
+          "conf": 0.807621955871582,
+          "bbox": [
+            34,
+            172,
+            212,
+            192
+          ],
+          "words": [
+            {
+              "text": "yr1",
+              "conf": 0.807621955871582,
+              "bbox": [
+                34,
+                172,
+                212,
+                192
+              ]
+            }
+          ]
+        },
+        {
+          "text": "g",
+          "conf": 0.5491431355476379,
+          "bbox": [
+            81,
+            363,
+            433,
+            381
+          ],
+          "words": [
+            {
+              "text": " g ",
+              "conf": 0.5491431355476379,
+              "bbox": [
+                81,
+                363,
+                433,
+                381
+              ]
+            }
+          ]
+        },
+        {
+          "text": "C LA",
+          "conf": 0.6335663199424744,
+          "bbox": [
+            82,
+            440,
+            436,
+            457
+          ],
+          "words": [
+            {
+              "text": "C LA ",
+              "conf": 0.6335663199424744,
+              "bbox": [
+                82,
+                440,
+                436,
+                457
+              ]
+            }
+          ]
+        },
+        {
+          "text": "C Cg As",
+          "conf": 0.6012205481529236,
+          "bbox": [
+            84,
+            577,
+            360,
+            593
+          ],
+          "words": [
+            {
+              "text": "C Cg As",
+              "conf": 0.6012205481529236,
+              "bbox": [
+                84,
+                577,
+                360,
+                593
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tehsts",
+          "conf": 0.6543934345245361,
+          "bbox": [
+            82,
+            711,
+            130,
+            728
+          ],
+          "words": [
+            {
+              "text": "Tehsts",
+              "conf": 0.6543934345245361,
+              "bbox": [
+                82,
+                711,
+                130,
+                728
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

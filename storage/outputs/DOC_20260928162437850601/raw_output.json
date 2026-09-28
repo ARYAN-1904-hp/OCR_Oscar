@@ -1,0 +1,1834 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "VERINT Knowledge Management MR\nFilters Search Newborn 7/10/26 - KM1014156 9 x\n4 ratings* :\nSkip To: Private Information | Tags Refresh\nNewborn Blocker Workflow Diagrams\nNewborn Blocker Workflows (Includes Newborn and Child Workflows)\nNewborn Claim Workflow Diagrams\nNewborn Claim Workflow\nChild Claim Workflow Diagrams\nChild Claim Workflow.\nNewborn Notes Templates\nNewborn Coverage by State\nItemized Bills: Claim Splitting for Eligibility and Authorization\nTags\nAudience: Claims Production\nClient: Topic: IFP/IVL Oscar Claims Processing\nWork Type: Workflows]",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "VERINT Knowledge Management MR\nFilters Search Newborn 7/10/26 - KM1014156 9 x\n4 ratings* :\nSkip To: Private Information | Tags Refresh\nNewborn Blocker Workflow Diagrams\nNewborn Blocker Workflows (Includes Newborn and Child Workflows)\nNewborn Claim Workflow Diagrams\nNewborn Claim Workflow\nChild Claim Workflow Diagrams\nChild Claim Workflow.\nNewborn Notes Templates\nNewborn Coverage by State\nItemized Bills: Claim Splitting for Eligibility and Authorization\nTags\nAudience: Claims Production\nClient: Topic: IFP/IVL Oscar Claims Processing\nWork Type: Workflows]",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "label_value",
+              "reading_order": 2,
+              "bbox": [
+                41,
+                127,
+                1586,
+                199
+              ],
+              "text": "4 ratings* :\nSkip To: Private Information | Tags Refresh",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "4 ratings* :",
+                  "conf": 0.714437872171402,
+                  "bbox": [
+                    41,
+                    127,
+                    1586,
+                    155
+                  ],
+                  "words": [
+                    {
+                      "text": "4 ratings*",
+                      "conf": 0.9116247296333313,
+                      "bbox": [
+                        41,
+                        136,
+                        206,
+                        155
+                      ]
+                    },
+                    {
+                      "text": ":",
+                      "conf": 0.5172510147094727,
+                      "bbox": [
+                        1530,
+                        127,
+                        1586,
+                        154
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Skip To: Private Information | Tags Refresh",
+                  "conf": 0.9934775531291962,
+                  "bbox": [
+                    42,
+                    172,
+                    1585,
+                    199
+                  ],
+                  "words": [
+                    {
+                      "text": "Skip To: Private Information | Tags",
+                      "conf": 0.9957237243652344,
+                      "bbox": [
+                        42,
+                        178,
+                        256,
+                        199
+                      ]
+                    },
+                    {
+                      "text": "Refresh",
+                      "conf": 0.991231381893158,
+                      "bbox": [
+                        1532,
+                        172,
+                        1585,
+                        193
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 3,
+              "bbox": [
+                72,
+                256,
+                420,
+                276
+              ],
+              "text": "Newborn Blocker Workflow Diagrams",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn Blocker Workflow Diagrams",
+                  "conf": 0.974445104598999,
+                  "bbox": [
+                    72,
+                    256,
+                    420,
+                    276
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Blocker Workflow Diagrams",
+                      "conf": 0.974445104598999,
+                      "bbox": [
+                        72,
+                        256,
+                        420,
+                        276
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 4,
+              "bbox": [
+                71,
+                298,
+                721,
+                322
+              ],
+              "text": "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+                  "conf": 0.9956976771354675,
+                  "bbox": [
+                    71,
+                    298,
+                    721,
+                    322
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+                      "conf": 0.9956976771354675,
+                      "bbox": [
+                        71,
+                        298,
+                        721,
+                        322
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 5,
+              "bbox": [
+                71,
+                339,
+                403,
+                363
+              ],
+              "text": "Newborn Claim Workflow Diagrams",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn Claim Workflow Diagrams",
+                  "conf": 0.9792063236236572,
+                  "bbox": [
+                    71,
+                    339,
+                    403,
+                    363
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Claim Workflow Diagrams",
+                      "conf": 0.9792063236236572,
+                      "bbox": [
+                        71,
+                        339,
+                        403,
+                        363
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 6,
+              "bbox": [
+                70,
+                377,
+                311,
+                405
+              ],
+              "text": "Newborn Claim Workflow",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn Claim Workflow",
+                  "conf": 0.9731280207633972,
+                  "bbox": [
+                    70,
+                    377,
+                    311,
+                    405
+                  ],
+                  "words": [
+                    {
+                      "text": " Newborn Claim Workflow",
+                      "conf": 0.9731280207633972,
+                      "bbox": [
+                        70,
+                        377,
+                        311,
+                        405
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 7,
+              "bbox": [
+                71,
+                417,
+                370,
+                447
+              ],
+              "text": "Child Claim Workflow Diagrams",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Child Claim Workflow Diagrams",
+                  "conf": 0.9983835816383362,
+                  "bbox": [
+                    71,
+                    417,
+                    370,
+                    447
+                  ],
+                  "words": [
+                    {
+                      "text": "Child Claim Workflow Diagrams",
+                      "conf": 0.9983835816383362,
+                      "bbox": [
+                        71,
+                        417,
+                        370,
+                        447
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 8,
+              "bbox": [
+                71,
+                458,
+                276,
+                488
+              ],
+              "text": "Child Claim Workflow.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Child Claim Workflow.",
+                  "conf": 0.9682793617248535,
+                  "bbox": [
+                    71,
+                    458,
+                    276,
+                    488
+                  ],
+                  "words": [
+                    {
+                      "text": "Child Claim Workflow.",
+                      "conf": 0.9682793617248535,
+                      "bbox": [
+                        71,
+                        458,
+                        276,
+                        488
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 9,
+              "bbox": [
+                71,
+                501,
+                319,
+                526
+              ],
+              "text": "Newborn Notes Templates",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn Notes Templates",
+                  "conf": 0.9786737561225891,
+                  "bbox": [
+                    71,
+                    501,
+                    319,
+                    526
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn Notes Templates",
+                      "conf": 0.9786737561225891,
+                      "bbox": [
+                        71,
+                        501,
+                        319,
+                        526
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 10,
+              "bbox": [
+                61,
+                540,
+                335,
+                568
+              ],
+              "text": "Newborn Coverage by State",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn Coverage by State",
+                  "conf": 0.9820244908332825,
+                  "bbox": [
+                    61,
+                    540,
+                    335,
+                    568
+                  ],
+                  "words": [
+                    {
+                      "text": " Newborn Coverage by State",
+                      "conf": 0.9820244908332825,
+                      "bbox": [
+                        61,
+                        540,
+                        335,
+                        568
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 11,
+              "bbox": [
+                62,
+                580,
+                641,
+                607
+              ],
+              "text": "Itemized Bills: Claim Splitting for Eligibility and Authorization",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Itemized Bills: Claim Splitting for Eligibility and Authorization",
+                  "conf": 0.9753758907318115,
+                  "bbox": [
+                    62,
+                    580,
+                    641,
+                    607
+                  ],
+                  "words": [
+                    {
+                      "text": " Itemized Bills: Claim Splitting for Eligibility and Authorization",
+                      "conf": 0.9753758907318115,
+                      "bbox": [
+                        62,
+                        580,
+                        641,
+                        607
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 12,
+              "bbox": [
+                56,
+                656,
+                110,
+                679
+              ],
+              "text": "Tags",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Tags",
+                  "conf": 0.9438304901123047,
+                  "bbox": [
+                    56,
+                    656,
+                    110,
+                    679
+                  ],
+                  "words": [
+                    {
+                      "text": "Tags ",
+                      "conf": 0.9438304901123047,
+                      "bbox": [
+                        56,
+                        656,
+                        110,
+                        679
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "4 ratings* :\nSkip To: Private Information | Tags Refresh\nNewborn Blocker Workflow Diagrams\nNewborn Blocker Workflows (Includes Newborn and Child Workflows)\nNewborn Claim Workflow Diagrams\nNewborn Claim Workflow\nChild Claim Workflow Diagrams\nChild Claim Workflow.\nNewborn Notes Templates\nNewborn Coverage by State\nItemized Bills: Claim Splitting for Eligibility and Authorization\nTags"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            29,
+            19,
+            1569,
+            56
+          ],
+          "text": "VERINT Knowledge Management MR",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "VERINT Knowledge Management MR",
+              "conf": 0.9933420568704605,
+              "bbox": [
+                29,
+                19,
+                1569,
+                56
+              ],
+              "words": [
+                {
+                  "text": "VERINT Knowledge Management",
+                  "conf": 0.989012211561203,
+                  "bbox": [
+                    29,
+                    19,
+                    175,
+                    56
+                  ]
+                },
+                {
+                  "text": "MR",
+                  "conf": 0.997671902179718,
+                  "bbox": [
+                    1536,
+                    22,
+                    1569,
+                    39
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 1,
+          "bbox": [
+            2,
+            83,
+            1591,
+            135
+          ],
+          "text": "Filters Search Newborn 7/10/26 - KM1014156 9 x",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Filters Search Newborn 7/10/26 - KM1014156 9 x",
+              "conf": 0.9159060567617416,
+              "bbox": [
+                2,
+                83,
+                1591,
+                135
+              ],
+              "words": [
+                {
+                  "text": "Filters",
+                  "conf": 0.9910209774971008,
+                  "bbox": [
+                    2,
+                    92,
+                    15,
+                    130
+                  ]
+                },
+                {
+                  "text": " Search",
+                  "conf": 0.9412435293197632,
+                  "bbox": [
+                    9,
+                    88,
+                    32,
+                    135
+                  ]
+                },
+                {
+                  "text": "Newborn 7/10/26 - KM1014156",
+                  "conf": 0.9659608006477356,
+                  "bbox": [
+                    90,
+                    83,
+                    224,
+                    122
+                  ]
+                },
+                {
+                  "text": "9 x",
+                  "conf": 0.7653989195823669,
+                  "bbox": [
+                    1544,
+                    83,
+                    1591,
+                    111
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 2,
+          "bbox": [
+            41,
+            127,
+            1586,
+            199
+          ],
+          "text": "4 ratings* :\nSkip To: Private Information | Tags Refresh",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "4 ratings* :",
+              "conf": 0.714437872171402,
+              "bbox": [
+                41,
+                127,
+                1586,
+                155
+              ],
+              "words": [
+                {
+                  "text": "4 ratings*",
+                  "conf": 0.9116247296333313,
+                  "bbox": [
+                    41,
+                    136,
+                    206,
+                    155
+                  ]
+                },
+                {
+                  "text": ":",
+                  "conf": 0.5172510147094727,
+                  "bbox": [
+                    1530,
+                    127,
+                    1586,
+                    154
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Skip To: Private Information | Tags Refresh",
+              "conf": 0.9934775531291962,
+              "bbox": [
+                42,
+                172,
+                1585,
+                199
+              ],
+              "words": [
+                {
+                  "text": "Skip To: Private Information | Tags",
+                  "conf": 0.9957237243652344,
+                  "bbox": [
+                    42,
+                    178,
+                    256,
+                    199
+                  ]
+                },
+                {
+                  "text": "Refresh",
+                  "conf": 0.991231381893158,
+                  "bbox": [
+                    1532,
+                    172,
+                    1585,
+                    193
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 3,
+          "bbox": [
+            72,
+            256,
+            420,
+            276
+          ],
+          "text": "Newborn Blocker Workflow Diagrams",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn Blocker Workflow Diagrams",
+              "conf": 0.974445104598999,
+              "bbox": [
+                72,
+                256,
+                420,
+                276
+              ],
+              "words": [
+                {
+                  "text": "Newborn Blocker Workflow Diagrams",
+                  "conf": 0.974445104598999,
+                  "bbox": [
+                    72,
+                    256,
+                    420,
+                    276
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 4,
+          "bbox": [
+            71,
+            298,
+            721,
+            322
+          ],
+          "text": "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+              "conf": 0.9956976771354675,
+              "bbox": [
+                71,
+                298,
+                721,
+                322
+              ],
+              "words": [
+                {
+                  "text": "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+                  "conf": 0.9956976771354675,
+                  "bbox": [
+                    71,
+                    298,
+                    721,
+                    322
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 5,
+          "bbox": [
+            71,
+            339,
+            403,
+            363
+          ],
+          "text": "Newborn Claim Workflow Diagrams",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn Claim Workflow Diagrams",
+              "conf": 0.9792063236236572,
+              "bbox": [
+                71,
+                339,
+                403,
+                363
+              ],
+              "words": [
+                {
+                  "text": "Newborn Claim Workflow Diagrams",
+                  "conf": 0.9792063236236572,
+                  "bbox": [
+                    71,
+                    339,
+                    403,
+                    363
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 6,
+          "bbox": [
+            70,
+            377,
+            311,
+            405
+          ],
+          "text": "Newborn Claim Workflow",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn Claim Workflow",
+              "conf": 0.9731280207633972,
+              "bbox": [
+                70,
+                377,
+                311,
+                405
+              ],
+              "words": [
+                {
+                  "text": " Newborn Claim Workflow",
+                  "conf": 0.9731280207633972,
+                  "bbox": [
+                    70,
+                    377,
+                    311,
+                    405
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 7,
+          "bbox": [
+            71,
+            417,
+            370,
+            447
+          ],
+          "text": "Child Claim Workflow Diagrams",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Child Claim Workflow Diagrams",
+              "conf": 0.9983835816383362,
+              "bbox": [
+                71,
+                417,
+                370,
+                447
+              ],
+              "words": [
+                {
+                  "text": "Child Claim Workflow Diagrams",
+                  "conf": 0.9983835816383362,
+                  "bbox": [
+                    71,
+                    417,
+                    370,
+                    447
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 8,
+          "bbox": [
+            71,
+            458,
+            276,
+            488
+          ],
+          "text": "Child Claim Workflow.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Child Claim Workflow.",
+              "conf": 0.9682793617248535,
+              "bbox": [
+                71,
+                458,
+                276,
+                488
+              ],
+              "words": [
+                {
+                  "text": "Child Claim Workflow.",
+                  "conf": 0.9682793617248535,
+                  "bbox": [
+                    71,
+                    458,
+                    276,
+                    488
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 9,
+          "bbox": [
+            71,
+            501,
+            319,
+            526
+          ],
+          "text": "Newborn Notes Templates",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn Notes Templates",
+              "conf": 0.9786737561225891,
+              "bbox": [
+                71,
+                501,
+                319,
+                526
+              ],
+              "words": [
+                {
+                  "text": "Newborn Notes Templates",
+                  "conf": 0.9786737561225891,
+                  "bbox": [
+                    71,
+                    501,
+                    319,
+                    526
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 10,
+          "bbox": [
+            61,
+            540,
+            335,
+            568
+          ],
+          "text": "Newborn Coverage by State",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn Coverage by State",
+              "conf": 0.9820244908332825,
+              "bbox": [
+                61,
+                540,
+                335,
+                568
+              ],
+              "words": [
+                {
+                  "text": " Newborn Coverage by State",
+                  "conf": 0.9820244908332825,
+                  "bbox": [
+                    61,
+                    540,
+                    335,
+                    568
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 11,
+          "bbox": [
+            62,
+            580,
+            641,
+            607
+          ],
+          "text": "Itemized Bills: Claim Splitting for Eligibility and Authorization",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Itemized Bills: Claim Splitting for Eligibility and Authorization",
+              "conf": 0.9753758907318115,
+              "bbox": [
+                62,
+                580,
+                641,
+                607
+              ],
+              "words": [
+                {
+                  "text": " Itemized Bills: Claim Splitting for Eligibility and Authorization",
+                  "conf": 0.9753758907318115,
+                  "bbox": [
+                    62,
+                    580,
+                    641,
+                    607
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 12,
+          "bbox": [
+            56,
+            656,
+            110,
+            679
+          ],
+          "text": "Tags",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Tags",
+              "conf": 0.9438304901123047,
+              "bbox": [
+                56,
+                656,
+                110,
+                679
+              ],
+              "words": [
+                {
+                  "text": "Tags ",
+                  "conf": 0.9438304901123047,
+                  "bbox": [
+                    56,
+                    656,
+                    110,
+                    679
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 13,
+          "bbox": [
+            58,
+            682,
+            254,
+            770
+          ],
+          "text": "Audience: Claims Production\nClient: Topic: IFP/IVL Oscar Claims Processing\nWork Type: Workflows]",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Audience: Claims Production",
+              "conf": 0.9867822825908661,
+              "bbox": [
+                60,
+                682,
+                254,
+                701
+              ],
+              "words": [
+                {
+                  "text": "Audience:",
+                  "conf": 0.9925343990325928,
+                  "bbox": [
+                    60,
+                    685,
+                    124,
+                    701
+                  ]
+                },
+                {
+                  "text": "Claims Production",
+                  "conf": 0.9810301661491394,
+                  "bbox": [
+                    140,
+                    682,
+                    254,
+                    700
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Client: Topic: IFP/IVL Oscar Claims Processing",
+              "conf": 0.9673718710740408,
+              "bbox": [
+                58,
+                704,
+                233,
+                749
+              ],
+              "words": [
+                {
+                  "text": "Client:",
+                  "conf": 0.9855051040649414,
+                  "bbox": [
+                    58,
+                    704,
+                    105,
+                    726
+                  ]
+                },
+                {
+                  "text": "Topic:",
+                  "conf": 0.988369882106781,
+                  "bbox": [
+                    58,
+                    726,
+                    103,
+                    749
+                  ]
+                },
+                {
+                  "text": "IFP/IVL Oscar Claims Processing",
+                  "conf": 0.9282406270503998,
+                  "bbox": [
+                    115,
+                    707,
+                    233,
+                    749
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Work Type: Workflows]",
+              "conf": 0.9460093080997467,
+              "bbox": [
+                60,
+                749,
+                219,
+                770
+              ],
+              "words": [
+                {
+                  "text": "Work Type:",
+                  "conf": 0.9543195962905884,
+                  "bbox": [
+                    60,
+                    751,
+                    134,
+                    769
+                  ]
+                },
+                {
+                  "text": "Workflows]",
+                  "conf": 0.937699019908905,
+                  "bbox": [
+                    146,
+                    749,
+                    219,
+                    770
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            29,
+            19,
+            1569,
+            770
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>VERINT Knowledge Management</td><td></td><td>MR</td><td></td></tr><tr><td>Newborn Blocker Workflow Diagrams</td><td></td><td></td><td></td></tr><tr><td>Newborn Blocker Workflows (Includes Newborn and Child Workflows)</td><td></td><td></td><td></td></tr><tr><td>Newborn Claim Workflow Diagrams</td><td></td><td></td><td></td></tr><tr><td>Newborn Claim Workflow</td><td></td><td></td><td></td></tr><tr><td>Child Claim Workflow Diagrams</td><td></td><td></td><td></td></tr><tr><td>Child Claim Workflow.</td><td></td><td></td><td></td></tr><tr><td>Newborn Notes Templates</td><td></td><td></td><td></td></tr><tr><td>Newborn Coverage by State</td><td></td><td></td><td></td></tr><tr><td>Itemized Bills</td><td>Claim Splitting for Eligibility and Authorization</td><td></td><td></td></tr><tr><td>Tags</td><td></td><td></td><td></td></tr><tr><td>Audience</td><td>Claims Production</td><td></td><td></td></tr><tr><td>Client</td><td>IFP/IVL Oscar Claims Processing</td><td></td><td></td></tr><tr><td>Topic:</td><td></td><td></td><td></td></tr><tr><td>Work Type</td><td>Workflows]</td><td></td><td></td></tr></table>",
+          "text": "VERINT Knowledge Management: \nMR: \nNewborn Blocker Workflow Diagrams: \nNewborn Blocker Workflows (Includes Newborn and Child Workflows): \nNewborn Claim Workflow Diagrams: \nNewborn Claim Workflow: \nChild Claim Workflow Diagrams: \nChild Claim Workflow.: \nNewborn Notes Templates: \nNewborn Coverage by State: \nItemized Bills: Claim Splitting for Eligibility and Authorization\nTags: \nAudience: Claims Production\nClient: IFP/IVL Oscar Claims Processing\nTopic:: \nWork Type: Workflows]",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "VERINT Knowledge Management",
+              "",
+              "MR",
+              ""
+            ],
+            [
+              "Newborn Blocker Workflow Diagrams",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn Claim Workflow Diagrams",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn Claim Workflow",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Child Claim Workflow Diagrams",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Child Claim Workflow.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn Notes Templates",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn Coverage by State",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Itemized Bills",
+              "Claim Splitting for Eligibility and Authorization",
+              "",
+              ""
+            ],
+            [
+              "Tags",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Audience",
+              "Claims Production",
+              "",
+              ""
+            ],
+            [
+              "Client",
+              "IFP/IVL Oscar Claims Processing",
+              "",
+              ""
+            ],
+            [
+              "Topic:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Work Type",
+              "Workflows]",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "VERINT Knowledge Management",
+              "MR"
+            ],
+            [
+              "Newborn Blocker Workflow Diagrams",
+              ""
+            ],
+            [
+              "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+              ""
+            ],
+            [
+              "Newborn Claim Workflow Diagrams",
+              ""
+            ],
+            [
+              "Newborn Claim Workflow",
+              ""
+            ],
+            [
+              "Child Claim Workflow Diagrams",
+              ""
+            ],
+            [
+              "Child Claim Workflow.",
+              ""
+            ],
+            [
+              "Newborn Notes Templates",
+              ""
+            ],
+            [
+              "Newborn Coverage by State",
+              ""
+            ],
+            [
+              "Itemized Bills: Claim Splitting for Eligibility and Authorization",
+              ""
+            ],
+            [
+              "Tags",
+              ""
+            ],
+            [
+              "Audience: Claims Production",
+              ""
+            ],
+            [
+              "Client: IFP/IVL Oscar Claims Processing",
+              ""
+            ],
+            [
+              "Topic:",
+              ""
+            ],
+            [
+              "Work Type: Workflows]",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            2,
+            83,
+            1591,
+            199
+          ],
+          "html": "<table><tr><th>Filters Search</th><th>Newborn 7/10/26 - KM1014156</th><th>9 x</th></tr><tr><td></td><td>4 ratings*</td><td>:</td></tr><tr><td></td><td>Skip To: Private Information | Tags</td><td>Refresh</td></tr></table>",
+          "text": " | 4 ratings* | :\n | Skip To: Private Information | Tags | Refresh",
+          "headers": [
+            "Filters Search",
+            "Newborn 7/10/26 - KM1014156",
+            "9 x"
+          ],
+          "rows": [
+            [
+              "",
+              "4 ratings*",
+              ":"
+            ],
+            [
+              "",
+              "Skip To: Private Information | Tags",
+              "Refresh"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "VERINT Knowledge Management MR",
+          "conf": 0.9933420568704605,
+          "bbox": [
+            29,
+            19,
+            1569,
+            56
+          ],
+          "words": [
+            {
+              "text": "VERINT Knowledge Management",
+              "conf": 0.989012211561203,
+              "bbox": [
+                29,
+                19,
+                175,
+                56
+              ]
+            },
+            {
+              "text": "MR",
+              "conf": 0.997671902179718,
+              "bbox": [
+                1536,
+                22,
+                1569,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Filters Search Newborn 7/10/26 - KM1014156 9 x",
+          "conf": 0.9159060567617416,
+          "bbox": [
+            2,
+            83,
+            1591,
+            135
+          ],
+          "words": [
+            {
+              "text": "Filters",
+              "conf": 0.9910209774971008,
+              "bbox": [
+                2,
+                92,
+                15,
+                130
+              ]
+            },
+            {
+              "text": " Search",
+              "conf": 0.9412435293197632,
+              "bbox": [
+                9,
+                88,
+                32,
+                135
+              ]
+            },
+            {
+              "text": "Newborn 7/10/26 - KM1014156",
+              "conf": 0.9659608006477356,
+              "bbox": [
+                90,
+                83,
+                224,
+                122
+              ]
+            },
+            {
+              "text": "9 x",
+              "conf": 0.7653989195823669,
+              "bbox": [
+                1544,
+                83,
+                1591,
+                111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "4 ratings* :",
+          "conf": 0.714437872171402,
+          "bbox": [
+            41,
+            127,
+            1586,
+            155
+          ],
+          "words": [
+            {
+              "text": "4 ratings*",
+              "conf": 0.9116247296333313,
+              "bbox": [
+                41,
+                136,
+                206,
+                155
+              ]
+            },
+            {
+              "text": ":",
+              "conf": 0.5172510147094727,
+              "bbox": [
+                1530,
+                127,
+                1586,
+                154
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Skip To: Private Information | Tags Refresh",
+          "conf": 0.9934775531291962,
+          "bbox": [
+            42,
+            172,
+            1585,
+            199
+          ],
+          "words": [
+            {
+              "text": "Skip To: Private Information | Tags",
+              "conf": 0.9957237243652344,
+              "bbox": [
+                42,
+                178,
+                256,
+                199
+              ]
+            },
+            {
+              "text": "Refresh",
+              "conf": 0.991231381893158,
+              "bbox": [
+                1532,
+                172,
+                1585,
+                193
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Blocker Workflow Diagrams",
+          "conf": 0.974445104598999,
+          "bbox": [
+            72,
+            256,
+            420,
+            276
+          ],
+          "words": [
+            {
+              "text": "Newborn Blocker Workflow Diagrams",
+              "conf": 0.974445104598999,
+              "bbox": [
+                72,
+                256,
+                420,
+                276
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+          "conf": 0.9956976771354675,
+          "bbox": [
+            71,
+            298,
+            721,
+            322
+          ],
+          "words": [
+            {
+              "text": "Newborn Blocker Workflows (Includes Newborn and Child Workflows)",
+              "conf": 0.9956976771354675,
+              "bbox": [
+                71,
+                298,
+                721,
+                322
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Claim Workflow Diagrams",
+          "conf": 0.9792063236236572,
+          "bbox": [
+            71,
+            339,
+            403,
+            363
+          ],
+          "words": [
+            {
+              "text": "Newborn Claim Workflow Diagrams",
+              "conf": 0.9792063236236572,
+              "bbox": [
+                71,
+                339,
+                403,
+                363
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Claim Workflow",
+          "conf": 0.9731280207633972,
+          "bbox": [
+            70,
+            377,
+            311,
+            405
+          ],
+          "words": [
+            {
+              "text": " Newborn Claim Workflow",
+              "conf": 0.9731280207633972,
+              "bbox": [
+                70,
+                377,
+                311,
+                405
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Child Claim Workflow Diagrams",
+          "conf": 0.9983835816383362,
+          "bbox": [
+            71,
+            417,
+            370,
+            447
+          ],
+          "words": [
+            {
+              "text": "Child Claim Workflow Diagrams",
+              "conf": 0.9983835816383362,
+              "bbox": [
+                71,
+                417,
+                370,
+                447
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Child Claim Workflow.",
+          "conf": 0.9682793617248535,
+          "bbox": [
+            71,
+            458,
+            276,
+            488
+          ],
+          "words": [
+            {
+              "text": "Child Claim Workflow.",
+              "conf": 0.9682793617248535,
+              "bbox": [
+                71,
+                458,
+                276,
+                488
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Notes Templates",
+          "conf": 0.9786737561225891,
+          "bbox": [
+            71,
+            501,
+            319,
+            526
+          ],
+          "words": [
+            {
+              "text": "Newborn Notes Templates",
+              "conf": 0.9786737561225891,
+              "bbox": [
+                71,
+                501,
+                319,
+                526
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn Coverage by State",
+          "conf": 0.9820244908332825,
+          "bbox": [
+            61,
+            540,
+            335,
+            568
+          ],
+          "words": [
+            {
+              "text": " Newborn Coverage by State",
+              "conf": 0.9820244908332825,
+              "bbox": [
+                61,
+                540,
+                335,
+                568
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Itemized Bills: Claim Splitting for Eligibility and Authorization",
+          "conf": 0.9753758907318115,
+          "bbox": [
+            62,
+            580,
+            641,
+            607
+          ],
+          "words": [
+            {
+              "text": " Itemized Bills: Claim Splitting for Eligibility and Authorization",
+              "conf": 0.9753758907318115,
+              "bbox": [
+                62,
+                580,
+                641,
+                607
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tags",
+          "conf": 0.9438304901123047,
+          "bbox": [
+            56,
+            656,
+            110,
+            679
+          ],
+          "words": [
+            {
+              "text": "Tags ",
+              "conf": 0.9438304901123047,
+              "bbox": [
+                56,
+                656,
+                110,
+                679
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Audience: Claims Production",
+          "conf": 0.9867822825908661,
+          "bbox": [
+            60,
+            682,
+            254,
+            701
+          ],
+          "words": [
+            {
+              "text": "Audience:",
+              "conf": 0.9925343990325928,
+              "bbox": [
+                60,
+                685,
+                124,
+                701
+              ]
+            },
+            {
+              "text": "Claims Production",
+              "conf": 0.9810301661491394,
+              "bbox": [
+                140,
+                682,
+                254,
+                700
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Client: Topic: IFP/IVL Oscar Claims Processing",
+          "conf": 0.9673718710740408,
+          "bbox": [
+            58,
+            704,
+            233,
+            749
+          ],
+          "words": [
+            {
+              "text": "Client:",
+              "conf": 0.9855051040649414,
+              "bbox": [
+                58,
+                704,
+                105,
+                726
+              ]
+            },
+            {
+              "text": "Topic:",
+              "conf": 0.988369882106781,
+              "bbox": [
+                58,
+                726,
+                103,
+                749
+              ]
+            },
+            {
+              "text": "IFP/IVL Oscar Claims Processing",
+              "conf": 0.9282406270503998,
+              "bbox": [
+                115,
+                707,
+                233,
+                749
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Work Type: Workflows]",
+          "conf": 0.9460093080997467,
+          "bbox": [
+            60,
+            749,
+            219,
+            770
+          ],
+          "words": [
+            {
+              "text": "Work Type:",
+              "conf": 0.9543195962905884,
+              "bbox": [
+                60,
+                751,
+                134,
+                769
+              ]
+            },
+            {
+              "text": "Workflows]",
+              "conf": 0.937699019908905,
+              "bbox": [
+                146,
+                749,
+                219,
+                770
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

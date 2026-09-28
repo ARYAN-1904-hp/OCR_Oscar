@@ -1,0 +1,2718 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Search Rosco MR Melissa -\nGenesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations\nDe Hoyo # Medical claim  Assessment of emotional or behavioral problems Pald\nActive No facility referenced  Catherine Cepeda\nService On Jun 23,2026 Accumulation on Jun 25,2026\nOSC75847221-02-R220XDSX Spouse ON exc\nHeads up note P4B2C3RB $0.00\nMedical claim  X-ray of chest, 1 view Processing\nMemorial Hospital West Jennlfer Runco Therrien\nService on Jun 16, 2026 Did not apply to accumulators\nMember actions\nFLBroward 4TZRRGQQ $0.00\nSP02-FLTeam Medical claimX-rayof chest,1 view Processing\nMemorial Hospital West Jennifer Runco Therrien\nOscar plan: Silver Simple PCP Saver CSR 150 Service on Jun 2, 2026  Did not apply to accumulators\nFL HMO Standard\nView ID card\nVMaria Alejandra Dempaire ESMJ7YTF $0.00\nEffective 05/27/2026 Medical claim  Enzyme activity measurement, nonradioactive substrate Pald\n8 Family Service on May 31, 2026-Accumulation on Jun 22, 2026 Bureau of Public Health Laboratories  No provider referenced\nJimmy Joe Hoyo Salas Holder\nGael Enrique Hoyo Hernandez Child\n5 No bills MP14AYCH $0.00\nMedical claim  X-ray of chest, 1 view Processing\nGiveaway Go-getter View detalls Memorial Hospital West - Jared Green",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Search Rosco MR Melissa -\nGenesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations\nDe Hoyo # Medical claim  Assessment of emotional or behavioral problems Pald\nActive No facility referenced  Catherine Cepeda\nService On Jun 23,2026 Accumulation on Jun 25,2026\nOSC75847221-02-R220XDSX Spouse ON exc\nHeads up note P4B2C3RB $0.00\nMedical claim  X-ray of chest, 1 view Processing\nMemorial Hospital West Jennlfer Runco Therrien\nService on Jun 16, 2026 Did not apply to accumulators\nMember actions\nFLBroward 4TZRRGQQ $0.00\nSP02-FLTeam Medical claimX-rayof chest,1 view Processing\nMemorial Hospital West Jennifer Runco Therrien\nOscar plan: Silver Simple PCP Saver CSR 150 Service on Jun 2, 2026  Did not apply to accumulators\nFL HMO Standard\nView ID card\nVMaria Alejandra Dempaire ESMJ7YTF $0.00\nEffective 05/27/2026 Medical claim  Enzyme activity measurement, nonradioactive substrate Pald\n8 Family Service on May 31, 2026-Accumulation on Jun 22, 2026 Bureau of Public Health Laboratories  No provider referenced\nJimmy Joe Hoyo Salas Holder\nGael Enrique Hoyo Hernandez Child\n5 No bills MP14AYCH $0.00\nMedical claim  X-ray of chest, 1 view Processing\nGiveaway Go-getter View detalls Memorial Hospital West - Jared Green",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                20,
+                135,
+                628,
+                169
+              ],
+              "text": "Active No facility referenced  Catherine Cepeda\nService 0n Jun 23,2026Accumulation onJun 25,2026",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Active No facility referenced  Catherine Cepeda",
+                  "conf": 0.9926495552062988,
+                  "bbox": [
+                    20,
+                    135,
+                    562,
+                    160
+                  ],
+                  "words": [
+                    {
+                      "text": "Active",
+                      "conf": 0.994232177734375,
+                      "bbox": [
+                        20,
+                        138,
+                        64,
+                        160
+                      ]
+                    },
+                    {
+                      "text": "No facility referenced  Catherine Cepeda",
+                      "conf": 0.9910669326782227,
+                      "bbox": [
+                        304,
+                        135,
+                        562,
+                        148
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Service 0n Jun 23,2026Accumulation onJun 25,2026",
+                  "conf": 0.9493827819824219,
+                  "bbox": [
+                    304,
+                    157,
+                    628,
+                    169
+                  ],
+                  "words": [
+                    {
+                      "text": "Service 0n Jun 23,2026Accumulation onJun 25,2026",
+                      "conf": 0.9493827819824219,
+                      "bbox": [
+                        304,
+                        157,
+                        628,
+                        169
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                305,
+                259,
+                1253,
+                280
+              ],
+              "text": "Medical claim  X-ray of chest, 1 view Processing",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Medical claim  X-ray of chest, 1 view Processing",
+                  "conf": 0.9665578007698059,
+                  "bbox": [
+                    305,
+                    259,
+                    1253,
+                    280
+                  ],
+                  "words": [
+                    {
+                      "text": "Medical claim  X-ray of chest, 1 view",
+                      "conf": 0.9772564768791199,
+                      "bbox": [
+                        305,
+                        265,
+                        532,
+                        278
+                      ]
+                    },
+                    {
+                      "text": " Processing",
+                      "conf": 0.9558591246604919,
+                      "bbox": [
+                        1181,
+                        259,
+                        1253,
+                        280
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 7,
+              "bbox": [
+                305,
+                286,
+                608,
+                299
+              ],
+              "text": "Memorial Hospital West Jennlfer Runco Therrien",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Memorial Hospital West Jennlfer Runco Therrien",
+                  "conf": 0.9578866362571716,
+                  "bbox": [
+                    305,
+                    286,
+                    608,
+                    299
+                  ],
+                  "words": [
+                    {
+                      "text": "Memorial Hospital West Jennlfer Runco Therrien",
+                      "conf": 0.9578866362571716,
+                      "bbox": [
+                        305,
+                        286,
+                        608,
+                        299
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 8,
+              "bbox": [
+                301,
+                306,
+                629,
+                323
+              ],
+              "text": "Service on Jun 16, 2026Did not apply to accumulators",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Service on Jun 16, 2026Did not apply to accumulators",
+                  "conf": 0.9673157334327698,
+                  "bbox": [
+                    301,
+                    306,
+                    629,
+                    323
+                  ],
+                  "words": [
+                    {
+                      "text": "Service on Jun 16, 2026Did not apply to accumulators",
+                      "conf": 0.9673157334327698,
+                      "bbox": [
+                        301,
+                        306,
+                        629,
+                        323
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 11,
+              "bbox": [
+                305,
+                437,
+                608,
+                449
+              ],
+              "text": "Memorial Hospital West Jennifer Runco Therrien",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Memorial Hospital West Jennifer Runco Therrien",
+                  "conf": 0.976021945476532,
+                  "bbox": [
+                    305,
+                    437,
+                    608,
+                    449
+                  ],
+                  "words": [
+                    {
+                      "text": "Memorial Hospital West Jennifer Runco Therrien",
+                      "conf": 0.976021945476532,
+                      "bbox": [
+                        305,
+                        437,
+                        608,
+                        449
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 12,
+              "bbox": [
+                17,
+                445,
+                624,
+                482
+              ],
+              "text": "Oscar plan: Silver Simple PCP Saver CSR 150 Service on Jun 2, 2026  Did not apply to accumulators",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Oscar plan: Silver Simple PCP Saver CSR 150 Service on Jun 2, 2026  Did not apply to accumulators",
+                  "conf": 0.9746862252553304,
+                  "bbox": [
+                    17,
+                    445,
+                    624,
+                    482
+                  ],
+                  "words": [
+                    {
+                      "text": "Oscar plan:",
+                      "conf": 0.9560557007789612,
+                      "bbox": [
+                        17,
+                        445,
+                        106,
+                        466
+                      ]
+                    },
+                    {
+                      "text": "Silver Simple PCP Saver CSR 150",
+                      "conf": 0.9826012253761292,
+                      "bbox": [
+                        41,
+                        470,
+                        219,
+                        482
+                      ]
+                    },
+                    {
+                      "text": "Service on Jun 2, 2026  Did not apply to accumulators",
+                      "conf": 0.9854017496109009,
+                      "bbox": [
+                        302,
+                        458,
+                        624,
+                        475
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Active No facility referenced  Catherine Cepeda\nService 0n Jun 23,2026Accumulation onJun 25,2026\nMedical claim  X-ray of chest, 1 view Processing\nMemorial Hospital West Jennlfer Runco Therrien\nService on Jun 16, 2026Did not apply to accumulators\nMemorial Hospital West Jennifer Runco Therrien\nOscar plan: Silver Simple PCP Saver CSR 150 Service on Jun 2, 2026  Did not apply to accumulators"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "text": "rosco Search Rosco MR Melissa -",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Search Rosco MR Melissa -",
+              "conf": 0.9158708304166794,
+              "bbox": [
+                14,
+                17,
+                1580,
+                34
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9885711669921875,
+                  "bbox": [
+                    14,
+                    17,
+                    72,
+                    34
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.9936699867248535,
+                  "bbox": [
+                    138,
+                    18,
+                    230,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9658693075180054,
+                  "bbox": [
+                    1465,
+                    18,
+                    1550,
+                    34
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7153728604316711,
+                  "bbox": [
+                    1565,
+                    23,
+                    1580,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            19,
+            73,
+            795,
+            102
+          ],
+          "text": "Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+              "conf": 0.9904133006930351,
+              "bbox": [
+                19,
+                73,
+                795,
+                102
+              ],
+              "words": [
+                {
+                  "text": "Genesis Hernandez",
+                  "conf": 0.9871213436126709,
+                  "bbox": [
+                    19,
+                    81,
+                    206,
+                    102
+                  ]
+                },
+                {
+                  "text": "Member info",
+                  "conf": 0.9979149103164673,
+                  "bbox": [
+                    276,
+                    73,
+                    351,
+                    89
+                  ]
+                },
+                {
+                  "text": "Issues",
+                  "conf": 0.9983465075492859,
+                  "bbox": [
+                    366,
+                    74,
+                    405,
+                    88
+                  ]
+                },
+                {
+                  "text": "Policy detalls",
+                  "conf": 0.969422459602356,
+                  "bbox": [
+                    421,
+                    73,
+                    500,
+                    89
+                  ]
+                },
+                {
+                  "text": "Benefits",
+                  "conf": 0.99494469165802,
+                  "bbox": [
+                    515,
+                    74,
+                    568,
+                    89
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9910710453987122,
+                  "bbox": [
+                    584,
+                    74,
+                    625,
+                    88
+                  ]
+                },
+                {
+                  "text": "Rewards",
+                  "conf": 0.9994160532951355,
+                  "bbox": [
+                    641,
+                    74,
+                    694,
+                    89
+                  ]
+                },
+                {
+                  "text": "Authorizations",
+                  "conf": 0.9850693941116333,
+                  "bbox": [
+                    710,
+                    75,
+                    795,
+                    88
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            17,
+            105,
+            1252,
+            130
+          ],
+          "text": "De Hoyo # Medical claim  Assessment of emotional or behavioral problems Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "De Hoyo # Medical claim  Assessment of emotional or behavioral problems Pald",
+              "conf": 0.9565450549125671,
+              "bbox": [
+                17,
+                105,
+                1252,
+                130
+              ],
+              "words": [
+                {
+                  "text": "De Hoyo",
+                  "conf": 0.9705767631530762,
+                  "bbox": [
+                    17,
+                    105,
+                    100,
+                    130
+                  ]
+                },
+                {
+                  "text": "# Medical claim  Assessment of emotional or behavioral problems",
+                  "conf": 0.9779436588287354,
+                  "bbox": [
+                    305,
+                    113,
+                    685,
+                    126
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9211147427558899,
+                  "bbox": [
+                    1220,
+                    109,
+                    1252,
+                    127
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            20,
+            135,
+            628,
+            169
+          ],
+          "text": "Active No facility referenced  Catherine Cepeda\nService 0n Jun 23,2026Accumulation onJun 25,2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Active No facility referenced  Catherine Cepeda",
+              "conf": 0.9926495552062988,
+              "bbox": [
+                20,
+                135,
+                562,
+                160
+              ],
+              "words": [
+                {
+                  "text": "Active",
+                  "conf": 0.994232177734375,
+                  "bbox": [
+                    20,
+                    138,
+                    64,
+                    160
+                  ]
+                },
+                {
+                  "text": "No facility referenced  Catherine Cepeda",
+                  "conf": 0.9910669326782227,
+                  "bbox": [
+                    304,
+                    135,
+                    562,
+                    148
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Service 0n Jun 23,2026Accumulation onJun 25,2026",
+              "conf": 0.9493827819824219,
+              "bbox": [
+                304,
+                157,
+                628,
+                169
+              ],
+              "words": [
+                {
+                  "text": "Service 0n Jun 23,2026Accumulation onJun 25,2026",
+                  "conf": 0.9493827819824219,
+                  "bbox": [
+                    304,
+                    157,
+                    628,
+                    169
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            18,
+            167,
+            184,
+            201
+          ],
+          "text": "OSC75847221-02-R220XDSX SpouseON exc",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "OSC75847221-02-R220XDSX SpouseON exc",
+              "conf": 0.9582370221614838,
+              "bbox": [
+                18,
+                167,
+                184,
+                201
+              ],
+              "words": [
+                {
+                  "text": "OSC75847221-02-R220XDSX SpouseON exc",
+                  "conf": 0.9582370221614838,
+                  "bbox": [
+                    18,
+                    167,
+                    184,
+                    201
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            30,
+            234,
+            1255,
+            255
+          ],
+          "text": "Heads up note P4B2C3RB $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Heads up note P4B2C3RB $0.00",
+              "conf": 0.9975536465644836,
+              "bbox": [
+                30,
+                234,
+                1255,
+                255
+              ],
+              "words": [
+                {
+                  "text": "Heads up note",
+                  "conf": 0.9991626739501953,
+                  "bbox": [
+                    30,
+                    235,
+                    115,
+                    255
+                  ]
+                },
+                {
+                  "text": "P4B2C3RB",
+                  "conf": 0.9940677881240845,
+                  "bbox": [
+                    304,
+                    234,
+                    375,
+                    251
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9994304776191711,
+                  "bbox": [
+                    1214,
+                    236,
+                    1255,
+                    255
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            305,
+            259,
+            1253,
+            280
+          ],
+          "text": "Medical claim  X-ray of chest, 1 view Processing",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Medical claim  X-ray of chest, 1 view Processing",
+              "conf": 0.9665578007698059,
+              "bbox": [
+                305,
+                259,
+                1253,
+                280
+              ],
+              "words": [
+                {
+                  "text": "Medical claim  X-ray of chest, 1 view",
+                  "conf": 0.9772564768791199,
+                  "bbox": [
+                    305,
+                    265,
+                    532,
+                    278
+                  ]
+                },
+                {
+                  "text": " Processing",
+                  "conf": 0.9558591246604919,
+                  "bbox": [
+                    1181,
+                    259,
+                    1253,
+                    280
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 7,
+          "bbox": [
+            305,
+            286,
+            608,
+            299
+          ],
+          "text": "Memorial Hospital West Jennlfer Runco Therrien",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Memorial Hospital West Jennlfer Runco Therrien",
+              "conf": 0.9578866362571716,
+              "bbox": [
+                305,
+                286,
+                608,
+                299
+              ],
+              "words": [
+                {
+                  "text": "Memorial Hospital West Jennlfer Runco Therrien",
+                  "conf": 0.9578866362571716,
+                  "bbox": [
+                    305,
+                    286,
+                    608,
+                    299
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 8,
+          "bbox": [
+            301,
+            306,
+            629,
+            323
+          ],
+          "text": "Service on Jun 16, 2026Did not apply to accumulators",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Service on Jun 16, 2026Did not apply to accumulators",
+              "conf": 0.9673157334327698,
+              "bbox": [
+                301,
+                306,
+                629,
+                323
+              ],
+              "words": [
+                {
+                  "text": "Service on Jun 16, 2026Did not apply to accumulators",
+                  "conf": 0.9673157334327698,
+                  "bbox": [
+                    301,
+                    306,
+                    629,
+                    323
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 9,
+          "bbox": [
+            70,
+            331,
+            163,
+            346
+          ],
+          "text": "Member actions",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member actions",
+              "conf": 0.9554978013038635,
+              "bbox": [
+                70,
+                331,
+                163,
+                346
+              ],
+              "words": [
+                {
+                  "text": "Member actions",
+                  "conf": 0.9554978013038635,
+                  "bbox": [
+                    70,
+                    331,
+                    163,
+                    346
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            16,
+            378,
+            1255,
+            432
+          ],
+          "text": "FLBroward 4TZRRGQQ $0.00\nSP02-FLTeam Medical claimX-rayof chest,1 view Processing",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FLBroward 4TZRRGQQ $0.00",
+              "conf": 0.9946618477503458,
+              "bbox": [
+                18,
+                378,
+                1255,
+                406
+              ],
+              "words": [
+                {
+                  "text": "FLBroward",
+                  "conf": 0.9917784929275513,
+                  "bbox": [
+                    18,
+                    378,
+                    112,
+                    400
+                  ]
+                },
+                {
+                  "text": "4TZRRGQQ",
+                  "conf": 0.992856502532959,
+                  "bbox": [
+                    302,
+                    383,
+                    380,
+                    404
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9993505477905273,
+                  "bbox": [
+                    1214,
+                    388,
+                    1255,
+                    406
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "SP02-FLTeam Medical claimX-rayof chest,1 view Processing",
+              "conf": 0.951680600643158,
+              "bbox": [
+                16,
+                411,
+                1252,
+                432
+              ],
+              "words": [
+                {
+                  "text": "SP02-FLTeam",
+                  "conf": 0.9199745059013367,
+                  "bbox": [
+                    16,
+                    412,
+                    126,
+                    432
+                  ]
+                },
+                {
+                  "text": "Medical claimX-rayof chest,1 view",
+                  "conf": 0.9385157823562622,
+                  "bbox": [
+                    302,
+                    414,
+                    533,
+                    432
+                  ]
+                },
+                {
+                  "text": "Processing",
+                  "conf": 0.996551513671875,
+                  "bbox": [
+                    1181,
+                    411,
+                    1252,
+                    432
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 11,
+          "bbox": [
+            305,
+            437,
+            608,
+            449
+          ],
+          "text": "Memorial Hospital West Jennifer Runco Therrien",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Memorial Hospital West Jennifer Runco Therrien",
+              "conf": 0.976021945476532,
+              "bbox": [
+                305,
+                437,
+                608,
+                449
+              ],
+              "words": [
+                {
+                  "text": "Memorial Hospital West Jennifer Runco Therrien",
+                  "conf": 0.976021945476532,
+                  "bbox": [
+                    305,
+                    437,
+                    608,
+                    449
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 12,
+          "bbox": [
+            17,
+            445,
+            624,
+            482
+          ],
+          "text": "Oscar plan: Silver Simple PCP Saver CSR 150 Service on Jun 2, 2026  Did not apply to accumulators",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscar plan: Silver Simple PCP Saver CSR 150 Service on Jun 2, 2026  Did not apply to accumulators",
+              "conf": 0.9746862252553304,
+              "bbox": [
+                17,
+                445,
+                624,
+                482
+              ],
+              "words": [
+                {
+                  "text": "Oscar plan:",
+                  "conf": 0.9560557007789612,
+                  "bbox": [
+                    17,
+                    445,
+                    106,
+                    466
+                  ]
+                },
+                {
+                  "text": "Silver Simple PCP Saver CSR 150",
+                  "conf": 0.9826012253761292,
+                  "bbox": [
+                    41,
+                    470,
+                    219,
+                    482
+                  ]
+                },
+                {
+                  "text": "Service on Jun 2, 2026  Did not apply to accumulators",
+                  "conf": 0.9854017496109009,
+                  "bbox": [
+                    302,
+                    458,
+                    624,
+                    475
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 13,
+          "bbox": [
+            37,
+            486,
+            143,
+            504
+          ],
+          "text": "FL HMO Standard",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FL HMO Standard",
+              "conf": 0.9735678434371948,
+              "bbox": [
+                37,
+                486,
+                143,
+                504
+              ],
+              "words": [
+                {
+                  "text": "FL HMO Standard",
+                  "conf": 0.9735678434371948,
+                  "bbox": [
+                    37,
+                    486,
+                    143,
+                    504
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 14,
+          "bbox": [
+            40,
+            508,
+            114,
+            521
+          ],
+          "text": "View ID card",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "View ID card",
+              "conf": 0.9334751963615417,
+              "bbox": [
+                40,
+                508,
+                114,
+                521
+              ],
+              "words": [
+                {
+                  "text": "View ID card",
+                  "conf": 0.9334751963615417,
+                  "bbox": [
+                    40,
+                    508,
+                    114,
+                    521
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 15,
+          "bbox": [
+            16,
+            533,
+            1254,
+            584
+          ],
+          "text": "VMaria Alejandra Dempaire ESMJ7YTF $0.00\nEffective 05/27/2026 Medical claim  Enzyme activity measurement, nonradioactive substrate Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "VMaria Alejandra Dempaire ESMJ7YTF $0.00",
+              "conf": 0.9814961552619934,
+              "bbox": [
+                16,
+                533,
+                1254,
+                558
+              ],
+              "words": [
+                {
+                  "text": "VMaria Alejandra Dempaire",
+                  "conf": 0.9471261501312256,
+                  "bbox": [
+                    16,
+                    533,
+                    186,
+                    554
+                  ]
+                },
+                {
+                  "text": "ESMJ7YTF",
+                  "conf": 0.997991144657135,
+                  "bbox": [
+                    304,
+                    537,
+                    374,
+                    554
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9993711709976196,
+                  "bbox": [
+                    1214,
+                    540,
+                    1254,
+                    558
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Effective 05/27/2026 Medical claim  Enzyme activity measurement, nonradioactive substrate Pald",
+              "conf": 0.959983229637146,
+              "bbox": [
+                17,
+                564,
+                1252,
+                584
+              ],
+              "words": [
+                {
+                  "text": "Effective 05/27/2026",
+                  "conf": 0.979866623878479,
+                  "bbox": [
+                    17,
+                    564,
+                    159,
+                    584
+                  ]
+                },
+                {
+                  "text": " Medical claim  Enzyme activity measurement, nonradioactive substrate",
+                  "conf": 0.9939934611320496,
+                  "bbox": [
+                    304,
+                    566,
+                    730,
+                    583
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9060896039009094,
+                  "bbox": [
+                    1221,
+                    564,
+                    1252,
+                    582
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 16,
+          "bbox": [
+            18,
+            588,
+            672,
+            626
+          ],
+          "text": "8Family Service on May 31, 2026-Accumulation on Jun 22, 2026 Bureau of Public Health Laboratories  No provider referenced",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "8Family Service on May 31, 2026-Accumulation on Jun 22, 2026 Bureau of Public Health Laboratories  No provider referenced",
+              "conf": 0.9586643973986307,
+              "bbox": [
+                18,
+                588,
+                672,
+                626
+              ],
+              "words": [
+                {
+                  "text": "8Family",
+                  "conf": 0.9540523290634155,
+                  "bbox": [
+                    18,
+                    597,
+                    80,
+                    618
+                  ]
+                },
+                {
+                  "text": "Service on May 31, 2026-Accumulation on Jun 22, 2026",
+                  "conf": 0.9384137392044067,
+                  "bbox": [
+                    302,
+                    610,
+                    629,
+                    626
+                  ]
+                },
+                {
+                  "text": "Bureau of Public Health Laboratories  No provider referenced",
+                  "conf": 0.9835271239280701,
+                  "bbox": [
+                    304,
+                    588,
+                    672,
+                    605
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 17,
+          "bbox": [
+            42,
+            623,
+            211,
+            635
+          ],
+          "text": "Jimmy Joe Hoyo SalasHolder",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Jimmy Joe Hoyo SalasHolder",
+              "conf": 0.9706336259841919,
+              "bbox": [
+                42,
+                623,
+                211,
+                635
+              ],
+              "words": [
+                {
+                  "text": "Jimmy Joe Hoyo SalasHolder",
+                  "conf": 0.9706336259841919,
+                  "bbox": [
+                    42,
+                    623,
+                    211,
+                    635
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 18,
+          "bbox": [
+            39,
+            639,
+            211,
+            673
+          ],
+          "text": "Gael Enrique Hoyo Hernandez Child",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Gael Enrique Hoyo Hernandez Child",
+              "conf": 0.9940401315689087,
+              "bbox": [
+                39,
+                639,
+                211,
+                673
+              ],
+              "words": [
+                {
+                  "text": "Gael Enrique Hoyo Hernandez Child",
+                  "conf": 0.9940401315689087,
+                  "bbox": [
+                    39,
+                    639,
+                    211,
+                    673
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 19,
+          "bbox": [
+            19,
+            686,
+            1255,
+            710
+          ],
+          "text": "5 No bills MP14AYCH $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "5 No bills MP14AYCH $0.00",
+              "conf": 0.9110110849142075,
+              "bbox": [
+                19,
+                686,
+                1255,
+                710
+              ],
+              "words": [
+                {
+                  "text": "5",
+                  "conf": 0.6623156666755676,
+                  "bbox": [
+                    19,
+                    691,
+                    34,
+                    707
+                  ]
+                },
+                {
+                  "text": "No bills",
+                  "conf": 0.9860352277755737,
+                  "bbox": [
+                    30,
+                    691,
+                    85,
+                    708
+                  ]
+                },
+                {
+                  "text": "MP14AYCH",
+                  "conf": 0.9961589574813843,
+                  "bbox": [
+                    302,
+                    686,
+                    376,
+                    707
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9995344877243042,
+                  "bbox": [
+                    1215,
+                    691,
+                    1255,
+                    710
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 20,
+          "bbox": [
+            304,
+            714,
+            1252,
+            735
+          ],
+          "text": "Medical claim  X-ray of chest, 1 view Processing",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Medical claim  X-ray of chest, 1 view Processing",
+              "conf": 0.9630661904811859,
+              "bbox": [
+                304,
+                714,
+                1252,
+                735
+              ],
+              "words": [
+                {
+                  "text": "Medical claim  X-ray of chest, 1 view",
+                  "conf": 0.9728824496269226,
+                  "bbox": [
+                    304,
+                    718,
+                    532,
+                    735
+                  ]
+                },
+                {
+                  "text": " Processing",
+                  "conf": 0.9532499313354492,
+                  "bbox": [
+                    1182,
+                    714,
+                    1252,
+                    735
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 21,
+          "bbox": [
+            19,
+            724,
+            544,
+            756
+          ],
+          "text": "Giveaway Go-getter View detalls Memorial Hospital West - Jared Green",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Giveaway Go-getter View detalls Memorial Hospital West - Jared Green",
+              "conf": 0.9562821090221405,
+              "bbox": [
+                19,
+                724,
+                544,
+                756
+              ],
+              "words": [
+                {
+                  "text": "Giveaway Go-getter View detalls",
+                  "conf": 0.9481939077377319,
+                  "bbox": [
+                    19,
+                    724,
+                    152,
+                    756
+                  ]
+                },
+                {
+                  "text": "Memorial Hospital West - Jared Green",
+                  "conf": 0.9643703103065491,
+                  "bbox": [
+                    304,
+                    740,
+                    544,
+                    756
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            14,
+            17,
+            1580,
+            673
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>Search Rosco</td><td>MR Melissa</td><td>-</td></tr><tr><td>Genesis Hernandez</td><td>Member info Issues Policy detalls Benefits Claims Rewards Authorizations</td><td></td><td></td></tr><tr><td>Service 0n Jun 23,2026Accumulation onJun 25,2026</td><td></td><td></td><td></td></tr><tr><td>OSC75847221-02-R220XDSX SpouseON exc</td><td></td><td></td><td></td></tr><tr><td>Memorial Hospital West Jennlfer Runco Therrien</td><td></td><td></td><td></td></tr><tr><td>Service on Jun 16, 2026Did not apply to accumulators</td><td></td><td></td><td></td></tr><tr><td>Member actions</td><td></td><td></td><td></td></tr><tr><td>Memorial Hospital West Jennifer Runco Therrien</td><td></td><td></td><td></td></tr><tr><td>Oscar plan:</td><td></td><td></td><td></td></tr><tr><td>Silver Simple PCP Saver CSR 150</td><td>Service on Jun 2, 2026  Did not apply to accumulators</td><td></td><td></td></tr><tr><td>FL HMO Standard</td><td></td><td></td><td></td></tr><tr><td>View ID card</td><td></td><td></td><td></td></tr><tr><td>Bureau of Public Health Laboratories No provider referenced</td><td></td><td></td><td></td></tr><tr><td>8Family</td><td></td><td></td><td></td></tr><tr><td>Service on May 31, 2026-Accumulation on Jun 22, 2026</td><td></td><td></td><td></td></tr><tr><td>Jimmy Joe Hoyo SalasHolder</td><td></td><td></td><td></td></tr><tr><td>Gael Enrique Hoyo Hernandez Child</td><td></td><td></td><td></td></tr></table>",
+          "text": "rosco: Search Rosco\nMR Melissa: -\nGenesis Hernandez: Member info Issues Policy detalls Benefits Claims Rewards Authorizations\nService 0n Jun 23,2026Accumulation onJun 25,2026: \nOSC75847221-02-R220XDSX SpouseON exc: \nMemorial Hospital West Jennlfer Runco Therrien: \nService on Jun 16, 2026Did not apply to accumulators: \nMember actions: \nMemorial Hospital West Jennifer Runco Therrien: \nOscar plan:: \nSilver Simple PCP Saver CSR 150: Service on Jun 2, 2026  Did not apply to accumulators\nFL HMO Standard: \nView ID card: \nBureau of Public Health Laboratories No provider referenced: \n8Family: \nService on May 31, 2026-Accumulation on Jun 22, 2026: \nJimmy Joe Hoyo SalasHolder: \nGael Enrique Hoyo Hernandez Child: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "Search Rosco",
+              "MR Melissa",
+              "-"
+            ],
+            [
+              "Genesis Hernandez",
+              "Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+              "",
+              ""
+            ],
+            [
+              "Service 0n Jun 23,2026Accumulation onJun 25,2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "OSC75847221-02-R220XDSX SpouseON exc",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Memorial Hospital West Jennlfer Runco Therrien",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Service on Jun 16, 2026Did not apply to accumulators",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Member actions",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Memorial Hospital West Jennifer Runco Therrien",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Oscar plan:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150",
+              "Service on Jun 2, 2026  Did not apply to accumulators",
+              "",
+              ""
+            ],
+            [
+              "FL HMO Standard",
+              "",
+              "",
+              ""
+            ],
+            [
+              "View ID card",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Bureau of Public Health Laboratories No provider referenced",
+              "",
+              "",
+              ""
+            ],
+            [
+              "8Family",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Service on May 31, 2026-Accumulation on Jun 22, 2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Jimmy Joe Hoyo SalasHolder",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Gael Enrique Hoyo Hernandez Child",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco Search Rosco",
+              "MR Melissa -"
+            ],
+            [
+              "Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+              ""
+            ],
+            [
+              "Service 0n Jun 23,2026Accumulation onJun 25,2026",
+              ""
+            ],
+            [
+              "OSC75847221-02-R220XDSX SpouseON exc",
+              ""
+            ],
+            [
+              "Memorial Hospital West Jennlfer Runco Therrien",
+              ""
+            ],
+            [
+              "Service on Jun 16, 2026Did not apply to accumulators",
+              ""
+            ],
+            [
+              "Member actions",
+              ""
+            ],
+            [
+              "Memorial Hospital West Jennifer Runco Therrien",
+              ""
+            ],
+            [
+              "Oscar plan:",
+              ""
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150 Service on Jun 2, 2026  Did not apply to accumulators",
+              ""
+            ],
+            [
+              "FL HMO Standard",
+              ""
+            ],
+            [
+              "View ID card",
+              ""
+            ],
+            [
+              "Bureau of Public Health Laboratories  No provider referenced",
+              ""
+            ],
+            [
+              "8Family",
+              ""
+            ],
+            [
+              "Service on May 31, 2026-Accumulation on Jun 22, 2026",
+              ""
+            ],
+            [
+              "Jimmy Joe Hoyo SalasHolder",
+              ""
+            ],
+            [
+              "Gael Enrique Hoyo Hernandez Child",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            17,
+            105,
+            1252,
+            160
+          ],
+          "html": "<table><tr><th>De Hoyo</th><th># Medical claim  Assessment of emotional or behavioral problems</th><th>Pald</th></tr><tr><td>Active</td><td>No facility referenced  Catherine Cepeda</td><td></td></tr></table>",
+          "text": "Active | No facility referenced  Catherine Cepeda | ",
+          "headers": [
+            "De Hoyo",
+            "# Medical claim  Assessment of emotional or behavioral problems",
+            "Pald"
+          ],
+          "rows": [
+            [
+              "Active",
+              "No facility referenced  Catherine Cepeda",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            30,
+            234,
+            1255,
+            280
+          ],
+          "html": "<table><tr><th>Heads up note</th><th>P4B2C3RB</th><th>$0.00</th></tr><tr><td></td><td>Medical claim  X-ray of chest, 1 view</td><td>Processing</td></tr></table>",
+          "text": " | Medical claim  X-ray of chest, 1 view | Processing",
+          "headers": [
+            "Heads up note",
+            "P4B2C3RB",
+            "$0.00"
+          ],
+          "rows": [
+            [
+              "",
+              "Medical claim  X-ray of chest, 1 view",
+              "Processing"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            16,
+            378,
+            1255,
+            432
+          ],
+          "html": "<table><tr><th>FLBroward</th><th>4TZRRGQQ</th><th>$0.00</th></tr><tr><td>SP02-FLTeam</td><td>Medical claimX-rayof chest,1 view</td><td>Processing</td></tr></table>",
+          "text": "SP02-FLTeam | Medical claimX-rayof chest,1 view | Processing",
+          "headers": [
+            "FLBroward",
+            "4TZRRGQQ",
+            "$0.00"
+          ],
+          "rows": [
+            [
+              "SP02-FLTeam",
+              "Medical claimX-rayof chest,1 view",
+              "Processing"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            16,
+            533,
+            1254,
+            584
+          ],
+          "html": "<table><tr><th>VMaria Alejandra Dempaire</th><th>ESMJ7YTF</th><th>$0.00</th></tr><tr><td>Effective 05/27/2026</td><td>Medical claim  Enzyme activity measurement, nonradioactive substrate</td><td>Pald</td></tr></table>",
+          "text": "Effective 05/27/2026 | Medical claim  Enzyme activity measurement, nonradioactive substrate | Pald",
+          "headers": [
+            "VMaria Alejandra Dempaire",
+            "ESMJ7YTF",
+            "$0.00"
+          ],
+          "rows": [
+            [
+              "Effective 05/27/2026",
+              "Medical claim  Enzyme activity measurement, nonradioactive substrate",
+              "Pald"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            19,
+            686,
+            1255,
+            756
+          ],
+          "html": "<table><tr><th>5 No bills</th><th>MP14AYCH</th><th>$0.00</th></tr><tr><td></td><td>Medical claim  X-ray of chest, 1 view</td><td>Processing</td></tr><tr><td>Giveaway Go-getter View detalls</td><td>Memorial Hospital West - Jared Green</td><td></td></tr></table>",
+          "text": " | Medical claim  X-ray of chest, 1 view | Processing\nGiveaway Go-getter View detalls | Memorial Hospital West - Jared Green | ",
+          "headers": [
+            "5 No bills",
+            "MP14AYCH",
+            "$0.00"
+          ],
+          "rows": [
+            [
+              "",
+              "Medical claim  X-ray of chest, 1 view",
+              "Processing"
+            ],
+            [
+              "Giveaway Go-getter View detalls",
+              "Memorial Hospital West - Jared Green",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Search Rosco MR Melissa -",
+          "conf": 0.9158708304166794,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9885711669921875,
+              "bbox": [
+                14,
+                17,
+                72,
+                34
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.9936699867248535,
+              "bbox": [
+                138,
+                18,
+                230,
+                34
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9658693075180054,
+              "bbox": [
+                1465,
+                18,
+                1550,
+                34
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7153728604316711,
+              "bbox": [
+                1565,
+                23,
+                1580,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+          "conf": 0.9904133006930351,
+          "bbox": [
+            19,
+            73,
+            795,
+            102
+          ],
+          "words": [
+            {
+              "text": "Genesis Hernandez",
+              "conf": 0.9871213436126709,
+              "bbox": [
+                19,
+                81,
+                206,
+                102
+              ]
+            },
+            {
+              "text": "Member info",
+              "conf": 0.9979149103164673,
+              "bbox": [
+                276,
+                73,
+                351,
+                89
+              ]
+            },
+            {
+              "text": "Issues",
+              "conf": 0.9983465075492859,
+              "bbox": [
+                366,
+                74,
+                405,
+                88
+              ]
+            },
+            {
+              "text": "Policy detalls",
+              "conf": 0.969422459602356,
+              "bbox": [
+                421,
+                73,
+                500,
+                89
+              ]
+            },
+            {
+              "text": "Benefits",
+              "conf": 0.99494469165802,
+              "bbox": [
+                515,
+                74,
+                568,
+                89
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9910710453987122,
+              "bbox": [
+                584,
+                74,
+                625,
+                88
+              ]
+            },
+            {
+              "text": "Rewards",
+              "conf": 0.9994160532951355,
+              "bbox": [
+                641,
+                74,
+                694,
+                89
+              ]
+            },
+            {
+              "text": "Authorizations",
+              "conf": 0.9850693941116333,
+              "bbox": [
+                710,
+                75,
+                795,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "text": "De Hoyo # Medical claim  Assessment of emotional or behavioral problems Pald",
+          "conf": 0.9565450549125671,
+          "bbox": [
+            17,
+            105,
+            1252,
+            130
+          ],
+          "words": [
+            {
+              "text": "De Hoyo",
+              "conf": 0.9705767631530762,
+              "bbox": [
+                17,
+                105,
+                100,
+                130
+              ]
+            },
+            {
+              "text": "# Medical claim  Assessment of emotional or behavioral problems",
+              "conf": 0.9779436588287354,
+              "bbox": [
+                305,
+                113,
+                685,
+                126
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9211147427558899,
+              "bbox": [
+                1220,
+                109,
+                1252,
+                127
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Active No facility referenced  Catherine Cepeda",
+          "conf": 0.9926495552062988,
+          "bbox": [
+            20,
+            135,
+            562,
+            160
+          ],
+          "words": [
+            {
+              "text": "Active",
+              "conf": 0.994232177734375,
+              "bbox": [
+                20,
+                138,
+                64,
+                160
+              ]
+            },
+            {
+              "text": "No facility referenced  Catherine Cepeda",
+              "conf": 0.9910669326782227,
+              "bbox": [
+                304,
+                135,
+                562,
+                148
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service 0n Jun 23,2026Accumulation onJun 25,2026",
+          "conf": 0.9493827819824219,
+          "bbox": [
+            304,
+            157,
+            628,
+            169
+          ],
+          "words": [
+            {
+              "text": "Service 0n Jun 23,2026Accumulation onJun 25,2026",
+              "conf": 0.9493827819824219,
+              "bbox": [
+                304,
+                157,
+                628,
+                169
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OSC75847221-02-R220XDSX SpouseON exc",
+          "conf": 0.9582370221614838,
+          "bbox": [
+            18,
+            167,
+            184,
+            201
+          ],
+          "words": [
+            {
+              "text": "OSC75847221-02-R220XDSX SpouseON exc",
+              "conf": 0.9582370221614838,
+              "bbox": [
+                18,
+                167,
+                184,
+                201
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Heads up note P4B2C3RB $0.00",
+          "conf": 0.9975536465644836,
+          "bbox": [
+            30,
+            234,
+            1255,
+            255
+          ],
+          "words": [
+            {
+              "text": "Heads up note",
+              "conf": 0.9991626739501953,
+              "bbox": [
+                30,
+                235,
+                115,
+                255
+              ]
+            },
+            {
+              "text": "P4B2C3RB",
+              "conf": 0.9940677881240845,
+              "bbox": [
+                304,
+                234,
+                375,
+                251
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9994304776191711,
+              "bbox": [
+                1214,
+                236,
+                1255,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medical claim  X-ray of chest, 1 view Processing",
+          "conf": 0.9665578007698059,
+          "bbox": [
+            305,
+            259,
+            1253,
+            280
+          ],
+          "words": [
+            {
+              "text": "Medical claim  X-ray of chest, 1 view",
+              "conf": 0.9772564768791199,
+              "bbox": [
+                305,
+                265,
+                532,
+                278
+              ]
+            },
+            {
+              "text": " Processing",
+              "conf": 0.9558591246604919,
+              "bbox": [
+                1181,
+                259,
+                1253,
+                280
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Memorial Hospital West Jennlfer Runco Therrien",
+          "conf": 0.9578866362571716,
+          "bbox": [
+            305,
+            286,
+            608,
+            299
+          ],
+          "words": [
+            {
+              "text": "Memorial Hospital West Jennlfer Runco Therrien",
+              "conf": 0.9578866362571716,
+              "bbox": [
+                305,
+                286,
+                608,
+                299
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service on Jun 16, 2026Did not apply to accumulators",
+          "conf": 0.9673157334327698,
+          "bbox": [
+            301,
+            306,
+            629,
+            323
+          ],
+          "words": [
+            {
+              "text": "Service on Jun 16, 2026Did not apply to accumulators",
+              "conf": 0.9673157334327698,
+              "bbox": [
+                301,
+                306,
+                629,
+                323
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member actions",
+          "conf": 0.9554978013038635,
+          "bbox": [
+            70,
+            331,
+            163,
+            346
+          ],
+          "words": [
+            {
+              "text": "Member actions",
+              "conf": 0.9554978013038635,
+              "bbox": [
+                70,
+                331,
+                163,
+                346
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLBroward 4TZRRGQQ $0.00",
+          "conf": 0.9946618477503458,
+          "bbox": [
+            18,
+            378,
+            1255,
+            406
+          ],
+          "words": [
+            {
+              "text": "FLBroward",
+              "conf": 0.9917784929275513,
+              "bbox": [
+                18,
+                378,
+                112,
+                400
+              ]
+            },
+            {
+              "text": "4TZRRGQQ",
+              "conf": 0.992856502532959,
+              "bbox": [
+                302,
+                383,
+                380,
+                404
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9993505477905273,
+              "bbox": [
+                1214,
+                388,
+                1255,
+                406
+              ]
+            }
+          ]
+        },
+        {
+          "text": "SP02-FLTeam Medical claimX-rayof chest,1 view Processing",
+          "conf": 0.951680600643158,
+          "bbox": [
+            16,
+            411,
+            1252,
+            432
+          ],
+          "words": [
+            {
+              "text": "SP02-FLTeam",
+              "conf": 0.9199745059013367,
+              "bbox": [
+                16,
+                412,
+                126,
+                432
+              ]
+            },
+            {
+              "text": "Medical claimX-rayof chest,1 view",
+              "conf": 0.9385157823562622,
+              "bbox": [
+                302,
+                414,
+                533,
+                432
+              ]
+            },
+            {
+              "text": "Processing",
+              "conf": 0.996551513671875,
+              "bbox": [
+                1181,
+                411,
+                1252,
+                432
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Memorial Hospital West Jennifer Runco Therrien",
+          "conf": 0.976021945476532,
+          "bbox": [
+            305,
+            437,
+            608,
+            449
+          ],
+          "words": [
+            {
+              "text": "Memorial Hospital West Jennifer Runco Therrien",
+              "conf": 0.976021945476532,
+              "bbox": [
+                305,
+                437,
+                608,
+                449
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar plan: Silver Simple PCP Saver CSR 150 Service on Jun 2, 2026  Did not apply to accumulators",
+          "conf": 0.9746862252553304,
+          "bbox": [
+            17,
+            445,
+            624,
+            482
+          ],
+          "words": [
+            {
+              "text": "Oscar plan:",
+              "conf": 0.9560557007789612,
+              "bbox": [
+                17,
+                445,
+                106,
+                466
+              ]
+            },
+            {
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.9826012253761292,
+              "bbox": [
+                41,
+                470,
+                219,
+                482
+              ]
+            },
+            {
+              "text": "Service on Jun 2, 2026  Did not apply to accumulators",
+              "conf": 0.9854017496109009,
+              "bbox": [
+                302,
+                458,
+                624,
+                475
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FL HMO Standard",
+          "conf": 0.9735678434371948,
+          "bbox": [
+            37,
+            486,
+            143,
+            504
+          ],
+          "words": [
+            {
+              "text": "FL HMO Standard",
+              "conf": 0.9735678434371948,
+              "bbox": [
+                37,
+                486,
+                143,
+                504
+              ]
+            }
+          ]
+        },
+        {
+          "text": "View ID card",
+          "conf": 0.9334751963615417,
+          "bbox": [
+            40,
+            508,
+            114,
+            521
+          ],
+          "words": [
+            {
+              "text": "View ID card",
+              "conf": 0.9334751963615417,
+              "bbox": [
+                40,
+                508,
+                114,
+                521
+              ]
+            }
+          ]
+        },
+        {
+          "text": "VMaria Alejandra Dempaire ESMJ7YTF $0.00",
+          "conf": 0.9814961552619934,
+          "bbox": [
+            16,
+            533,
+            1254,
+            558
+          ],
+          "words": [
+            {
+              "text": "VMaria Alejandra Dempaire",
+              "conf": 0.9471261501312256,
+              "bbox": [
+                16,
+                533,
+                186,
+                554
+              ]
+            },
+            {
+              "text": "ESMJ7YTF",
+              "conf": 0.997991144657135,
+              "bbox": [
+                304,
+                537,
+                374,
+                554
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9993711709976196,
+              "bbox": [
+                1214,
+                540,
+                1254,
+                558
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Effective 05/27/2026 Medical claim  Enzyme activity measurement, nonradioactive substrate Pald",
+          "conf": 0.959983229637146,
+          "bbox": [
+            17,
+            564,
+            1252,
+            584
+          ],
+          "words": [
+            {
+              "text": "Effective 05/27/2026",
+              "conf": 0.979866623878479,
+              "bbox": [
+                17,
+                564,
+                159,
+                584
+              ]
+            },
+            {
+              "text": " Medical claim  Enzyme activity measurement, nonradioactive substrate",
+              "conf": 0.9939934611320496,
+              "bbox": [
+                304,
+                566,
+                730,
+                583
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9060896039009094,
+              "bbox": [
+                1221,
+                564,
+                1252,
+                582
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8Family Service on May 31, 2026-Accumulation on Jun 22, 2026 Bureau of Public Health Laboratories  No provider referenced",
+          "conf": 0.9586643973986307,
+          "bbox": [
+            18,
+            588,
+            672,
+            626
+          ],
+          "words": [
+            {
+              "text": "8Family",
+              "conf": 0.9540523290634155,
+              "bbox": [
+                18,
+                597,
+                80,
+                618
+              ]
+            },
+            {
+              "text": "Service on May 31, 2026-Accumulation on Jun 22, 2026",
+              "conf": 0.9384137392044067,
+              "bbox": [
+                302,
+                610,
+                629,
+                626
+              ]
+            },
+            {
+              "text": "Bureau of Public Health Laboratories  No provider referenced",
+              "conf": 0.9835271239280701,
+              "bbox": [
+                304,
+                588,
+                672,
+                605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jimmy Joe Hoyo SalasHolder",
+          "conf": 0.9706336259841919,
+          "bbox": [
+            42,
+            623,
+            211,
+            635
+          ],
+          "words": [
+            {
+              "text": "Jimmy Joe Hoyo SalasHolder",
+              "conf": 0.9706336259841919,
+              "bbox": [
+                42,
+                623,
+                211,
+                635
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gael Enrique Hoyo Hernandez Child",
+          "conf": 0.9940401315689087,
+          "bbox": [
+            39,
+            639,
+            211,
+            673
+          ],
+          "words": [
+            {
+              "text": "Gael Enrique Hoyo Hernandez Child",
+              "conf": 0.9940401315689087,
+              "bbox": [
+                39,
+                639,
+                211,
+                673
+              ]
+            }
+          ]
+        },
+        {
+          "text": "5 No bills MP14AYCH $0.00",
+          "conf": 0.9110110849142075,
+          "bbox": [
+            19,
+            686,
+            1255,
+            710
+          ],
+          "words": [
+            {
+              "text": "5",
+              "conf": 0.6623156666755676,
+              "bbox": [
+                19,
+                691,
+                34,
+                707
+              ]
+            },
+            {
+              "text": "No bills",
+              "conf": 0.9860352277755737,
+              "bbox": [
+                30,
+                691,
+                85,
+                708
+              ]
+            },
+            {
+              "text": "MP14AYCH",
+              "conf": 0.9961589574813843,
+              "bbox": [
+                302,
+                686,
+                376,
+                707
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9995344877243042,
+              "bbox": [
+                1215,
+                691,
+                1255,
+                710
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medical claim  X-ray of chest, 1 view Processing",
+          "conf": 0.9630661904811859,
+          "bbox": [
+            304,
+            714,
+            1252,
+            735
+          ],
+          "words": [
+            {
+              "text": "Medical claim  X-ray of chest, 1 view",
+              "conf": 0.9728824496269226,
+              "bbox": [
+                304,
+                718,
+                532,
+                735
+              ]
+            },
+            {
+              "text": " Processing",
+              "conf": 0.9532499313354492,
+              "bbox": [
+                1182,
+                714,
+                1252,
+                735
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Giveaway Go-getter View detalls Memorial Hospital West - Jared Green",
+          "conf": 0.9562821090221405,
+          "bbox": [
+            19,
+            724,
+            544,
+            756
+          ],
+          "words": [
+            {
+              "text": "Giveaway Go-getter View detalls",
+              "conf": 0.9481939077377319,
+              "bbox": [
+                19,
+                724,
+                152,
+                756
+              ]
+            },
+            {
+              "text": "Memorial Hospital West - Jared Green",
+              "conf": 0.9643703103065491,
+              "bbox": [
+                304,
+                740,
+                544,
+                756
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

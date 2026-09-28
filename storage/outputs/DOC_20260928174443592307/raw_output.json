@@ -1,0 +1,2459 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco a Search Rosco MR Melissa -\nYisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nActive 9X1W28AK $0.00\nOSC78747909-01 - R213XB6D : Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Oscar Medical Group  Nathan Lycan Pald\nHolder - ON exc\nHeads up note\nFLO3FLTeam\nEffective 01/01/2026\nOscarplan: Silver Simple PCP Saver CSR 150 NJHSBVP9 $0.00\nFL HMO Standard Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more Pald\nView ID card Oscar Medical Group  Lorilea Williams\nJeffin Alex Service on Feb 13, 2026 - Accumulation on Feb 15, 2026\nService on Mar 31, 2026  Accumulation on Apr 2, 2026\nDB74BR1S $30.00\nMedical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more. Pald\nMember actions OMemorial Urgent Care Center  Shoji Aji\nService on Mar 12, 2026 Accumulation on Mar 17, 2026\nFLBroward Applies to OOPMCumulative OOPM$30.00\n8 Individual 5YNC6CCH $0.00\n$Current Balance due + Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year). Pald\nNo facility referenced Rebecca Ohayon\nOscar Unlocks Not activated Service on Sep17, 2025 Accumulation on Mar 12, 2026\nMember tags\nnextgen_bllling_rosco_tag AAMSZV4Y $0.00",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco a Search Rosco MR Melissa -\nYisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nActive 9X1W28AK $0.00\nOSC78747909-01 - R213XB6D : Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Oscar Medical Group  Nathan Lycan Pald\nHolder - ON exc\nHeads up note\nFLO3FLTeam\nEffective 01/01/2026\nOscarplan: Silver Simple PCP Saver CSR 150 NJHSBVP9 $0.00\nFL HMO Standard Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more Pald\nView ID card Oscar Medical Group  Lorilea Williams\nJeffin Alex Service on Feb 13, 2026 - Accumulation on Feb 15, 2026\nService on Mar 31, 2026  Accumulation on Apr 2, 2026\nDB74BR1S $30.00\nMedical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more. Pald\nMember actions OMemorial Urgent Care Center  Shoji Aji\nService on Mar 12, 2026 Accumulation on Mar 17, 2026\nFLBroward Applies to OOPMCumulative OOPM$30.00\n8 Individual 5YNC6CCH $0.00\n$Current Balance due + Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year). Pald\nNo facility referenced Rebecca Ohayon\nOscar Unlocks Not activated Service on Sep17, 2025 Accumulation on Mar 12, 2026\nMember tags\nnextgen_bllling_rosco_tag AAMSZV4Y $0.00",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 5,
+              "bbox": [
+                19,
+                173,
+                1254,
+                369
+              ],
+              "text": "Service on Mar 31, 2026  Accumulation on Apr 2, 2026\nDB74BR1S $30.00\nMedical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more. Pald\nMember actions OMemorial Urgent Care Center  Shoji Aji\nService on Mar 12, 2026Accumulation on Mar 17, 2026\nFLBroward Applies to OOPMCumulative OOPM$30.00",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Service on Mar 31, 2026  Accumulation on Apr 2, 2026",
+                  "conf": 0.9772475361824036,
+                  "bbox": [
+                    302,
+                    173,
+                    620,
+                    190
+                  ],
+                  "words": [
+                    {
+                      "text": "Service on Mar 31, 2026  Accumulation on Apr 2, 2026",
+                      "conf": 0.9772475361824036,
+                      "bbox": [
+                        302,
+                        173,
+                        620,
+                        190
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "DB74BR1S $30.00",
+                  "conf": 0.9973630905151367,
+                  "bbox": [
+                    304,
+                    252,
+                    1254,
+                    272
+                  ],
+                  "words": [
+                    {
+                      "text": "DB74BR1S",
+                      "conf": 0.995427131652832,
+                      "bbox": [
+                        304,
+                        252,
+                        371,
+                        269
+                      ]
+                    },
+                    {
+                      "text": "$30.00",
+                      "conf": 0.9992990493774414,
+                      "bbox": [
+                        1206,
+                        255,
+                        1254,
+                        272
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Medical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more. Pald",
+                  "conf": 0.9856776893138885,
+                  "bbox": [
+                    304,
+                    276,
+                    1253,
+                    298
+                  ],
+                  "words": [
+                    {
+                      "text": " Medical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more.",
+                      "conf": 0.9912842512130737,
+                      "bbox": [
+                        304,
+                        281,
+                        1066,
+                        298
+                      ]
+                    },
+                    {
+                      "text": "Pald",
+                      "conf": 0.9800711274147034,
+                      "bbox": [
+                        1219,
+                        276,
+                        1253,
+                        298
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 3,
+                  "text": "Member actions OMemorial Urgent Care Center  Shoji Aji",
+                  "conf": 0.9490410387516022,
+                  "bbox": [
+                    71,
+                    303,
+                    551,
+                    320
+                  ],
+                  "words": [
+                    {
+                      "text": "Member actions",
+                      "conf": 0.9397252798080444,
+                      "bbox": [
+                        71,
+                        307,
+                        162,
+                        320
+                      ]
+                    },
+                    {
+                      "text": "OMemorial Urgent Care Center  Shoji Aji",
+                      "conf": 0.9583567976951599,
+                      "bbox": [
+                        304,
+                        303,
+                        551,
+                        320
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 4,
+                  "text": "Service on Mar 12, 2026Accumulation on Mar 17, 2026",
+                  "conf": 0.969183087348938,
+                  "bbox": [
+                    302,
+                    325,
+                    625,
+                    341
+                  ],
+                  "words": [
+                    {
+                      "text": "Service on Mar 12, 2026Accumulation on Mar 17, 2026",
+                      "conf": 0.969183087348938,
+                      "bbox": [
+                        302,
+                        325,
+                        625,
+                        341
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 5,
+                  "text": "FLBroward Applies to OOPMCumulative OOPM$30.00",
+                  "conf": 0.9600761830806732,
+                  "bbox": [
+                    19,
+                    345,
+                    575,
+                    369
+                  ],
+                  "words": [
+                    {
+                      "text": "FLBroward",
+                      "conf": 0.9903030395507812,
+                      "bbox": [
+                        19,
+                        353,
+                        111,
+                        369
+                      ]
+                    },
+                    {
+                      "text": "Applies to OOPMCumulative OOPM$30.00",
+                      "conf": 0.9298493266105652,
+                      "bbox": [
+                        301,
+                        345,
+                        575,
+                        367
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Service on Mar 31, 2026  Accumulation on Apr 2, 2026\nDB74BR1S $30.00\nMedical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more. Pald\nMember actions OMemorial Urgent Care Center  Shoji Aji\nService on Mar 12, 2026Accumulation on Mar 17, 2026\nFLBroward Applies to OOPMCumulative OOPM$30.00"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            14,
+            1580,
+            102
+          ],
+          "text": "rosco a Search Rosco MR Melissa -\nYisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco a Search Rosco MR Melissa -",
+              "conf": 0.8440042734146118,
+              "bbox": [
+                14,
+                14,
+                1580,
+                36
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9885711669921875,
+                  "bbox": [
+                    14,
+                    17,
+                    72,
+                    34
+                  ]
+                },
+                {
+                  "text": "a",
+                  "conf": 0.54844731092453,
+                  "bbox": [
+                    109,
+                    14,
+                    135,
+                    36
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.9963869452476501,
+                  "bbox": [
+                    138,
+                    18,
+                    230,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9712430834770203,
+                  "bbox": [
+                    1465,
+                    18,
+                    1550,
+                    34
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7153728604316711,
+                  "bbox": [
+                    1565,
+                    23,
+                    1580,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations",
+              "conf": 0.9848250018225776,
+              "bbox": [
+                19,
+                71,
+                919,
+                102
+              ],
+              "words": [
+                {
+                  "text": "Yisroel Dubov",
+                  "conf": 0.9754762053489685,
+                  "bbox": [
+                    19,
+                    81,
+                    152,
+                    102
+                  ]
+                },
+                {
+                  "text": "Member info",
+                  "conf": 0.9979149103164673,
+                  "bbox": [
+                    276,
+                    73,
+                    351,
+                    89
+                  ]
+                },
+                {
+                  "text": "Issues",
+                  "conf": 0.9983465075492859,
+                  "bbox": [
+                    366,
+                    74,
+                    405,
+                    88
+                  ]
+                },
+                {
+                  "text": "Policy detalls",
+                  "conf": 0.9349687695503235,
+                  "bbox": [
+                    420,
+                    71,
+                    500,
+                    89
+                  ]
+                },
+                {
+                  "text": "Benefits",
+                  "conf": 0.99494469165802,
+                  "bbox": [
+                    515,
+                    74,
+                    568,
+                    89
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9910710453987122,
+                  "bbox": [
+                    584,
+                    74,
+                    625,
+                    88
+                  ]
+                },
+                {
+                  "text": "Billing & payments",
+                  "conf": 0.97200608253479,
+                  "bbox": [
+                    642,
+                    75,
+                    748,
+                    88
+                  ]
+                },
+                {
+                  "text": "Rewards",
+                  "conf": 0.9993256330490112,
+                  "bbox": [
+                    762,
+                    73,
+                    818,
+                    89
+                  ]
+                },
+                {
+                  "text": "Authorizations",
+                  "conf": 0.9993711709976196,
+                  "bbox": [
+                    834,
+                    75,
+                    919,
+                    88
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 1,
+          "bbox": [
+            19,
+            103,
+            1255,
+            168
+          ],
+          "text": "Active 9X1W28AK $0.00\nOSC78747909-01 - R213XB6D : Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Oscar Medical Group  Nathan Lycan Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Active 9X1W28AK $0.00",
+              "conf": 0.9946675697962443,
+              "bbox": [
+                22,
+                103,
+                1255,
+                132
+              ],
+              "words": [
+                {
+                  "text": "Active",
+                  "conf": 0.9863805174827576,
+                  "bbox": [
+                    22,
+                    115,
+                    64,
+                    132
+                  ]
+                },
+                {
+                  "text": "9X1W28AK",
+                  "conf": 0.9982494115829468,
+                  "bbox": [
+                    305,
+                    103,
+                    374,
+                    116
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9993727803230286,
+                  "bbox": [
+                    1214,
+                    103,
+                    1255,
+                    121
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "OSC78747909-01 - R213XB6D : Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Oscar Medical Group  Nathan Lycan Pald",
+              "conf": 0.9748417437076569,
+              "bbox": [
+                19,
+                125,
+                1253,
+                168
+              ],
+              "words": [
+                {
+                  "text": "OSC78747909-01 - R213XB6D :",
+                  "conf": 0.9684312343597412,
+                  "bbox": [
+                    19,
+                    140,
+                    182,
+                    157
+                  ]
+                },
+                {
+                  "text": " Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+                  "conf": 0.9862794280052185,
+                  "bbox": [
+                    302,
+                    129,
+                    1061,
+                    146
+                  ]
+                },
+                {
+                  "text": "Oscar Medical Group  Nathan Lycan",
+                  "conf": 0.9667043089866638,
+                  "bbox": [
+                    321,
+                    151,
+                    536,
+                    168
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9779520034790039,
+                  "bbox": [
+                    1219,
+                    125,
+                    1253,
+                    148
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            16,
+            159,
+            158,
+            556
+          ],
+          "text": "Holder - ON exc\nHeads up note\nFLO3FLTeam\nEffective 01/01/2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Holder - ON exc",
+              "conf": 0.9442716836929321,
+              "bbox": [
+                18,
+                159,
+                108,
+                176
+              ],
+              "words": [
+                {
+                  "text": "Holder - ON exc",
+                  "conf": 0.9442716836929321,
+                  "bbox": [
+                    18,
+                    159,
+                    108,
+                    176
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Heads up note",
+              "conf": 0.985341489315033,
+              "bbox": [
+                29,
+                209,
+                115,
+                229
+              ],
+              "words": [
+                {
+                  "text": "Heads up note",
+                  "conf": 0.985341489315033,
+                  "bbox": [
+                    29,
+                    209,
+                    115,
+                    229
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "FLO3FLTeam",
+              "conf": 0.9730313420295715,
+              "bbox": [
+                16,
+                384,
+                125,
+                406
+              ],
+              "words": [
+                {
+                  "text": "FLO3FLTeam",
+                  "conf": 0.9730313420295715,
+                  "bbox": [
+                    16,
+                    384,
+                    125,
+                    406
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Effective 01/01/2026",
+              "conf": 0.9783838391304016,
+              "bbox": [
+                18,
+                540,
+                158,
+                556
+              ],
+              "words": [
+                {
+                  "text": "Effective 01/01/2026",
+                  "conf": 0.9783838391304016,
+                  "bbox": [
+                    18,
+                    540,
+                    158,
+                    556
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            17,
+            419,
+            1254,
+            477
+          ],
+          "text": "Oscarplan: Silver Simple PCP Saver CSR 150 NJHSBVP9 $0.00\nFL HMO Standard Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscarplan: Silver Simple PCP Saver CSR 150 NJHSBVP9 $0.00",
+              "conf": 0.9818984419107437,
+              "bbox": [
+                17,
+                419,
+                1254,
+                456
+              ],
+              "words": [
+                {
+                  "text": "Oscarplan:",
+                  "conf": 0.9751992225646973,
+                  "bbox": [
+                    17,
+                    419,
+                    106,
+                    439
+                  ]
+                },
+                {
+                  "text": "Silver Simple PCP Saver CSR 150",
+                  "conf": 0.9628579616546631,
+                  "bbox": [
+                    41,
+                    443,
+                    219,
+                    456
+                  ]
+                },
+                {
+                  "text": "NJHSBVP9",
+                  "conf": 0.9903255701065063,
+                  "bbox": [
+                    305,
+                    433,
+                    376,
+                    446
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9992110133171082,
+                  "bbox": [
+                    1214,
+                    433,
+                    1254,
+                    452
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "FL HMO Standard Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more Pald",
+              "conf": 0.9897666374842325,
+              "bbox": [
+                39,
+                458,
+                1252,
+                477
+              ],
+              "words": [
+                {
+                  "text": "FL HMO Standard",
+                  "conf": 0.9989864826202393,
+                  "bbox": [
+                    39,
+                    461,
+                    142,
+                    477
+                  ]
+                },
+                {
+                  "text": "Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more",
+                  "conf": 0.9775670766830444,
+                  "bbox": [
+                    302,
+                    458,
+                    1134,
+                    476
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9927463531494141,
+                  "bbox": [
+                    1221,
+                    458,
+                    1252,
+                    476
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            18,
+            480,
+            625,
+            526
+          ],
+          "text": "View ID card Oscar Medical Group  Lorilea Williams\nJeffin Alex Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "View ID card Oscar Medical Group  Lorilea Williams",
+              "conf": 0.956740528345108,
+              "bbox": [
+                40,
+                480,
+                549,
+                498
+              ],
+              "words": [
+                {
+                  "text": "View ID card",
+                  "conf": 0.9315194487571716,
+                  "bbox": [
+                    40,
+                    480,
+                    114,
+                    496
+                  ]
+                },
+                {
+                  "text": "Oscar Medical Group  Lorilea Williams",
+                  "conf": 0.9819616079330444,
+                  "bbox": [
+                    321,
+                    481,
+                    549,
+                    498
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Jeffin Alex Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+              "conf": 0.9599097967147827,
+              "bbox": [
+                18,
+                505,
+                625,
+                526
+              ],
+              "words": [
+                {
+                  "text": "Jeffin Alex",
+                  "conf": 0.9443033337593079,
+                  "bbox": [
+                    18,
+                    508,
+                    102,
+                    526
+                  ]
+                },
+                {
+                  "text": "Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+                  "conf": 0.9755162596702576,
+                  "bbox": [
+                    304,
+                    505,
+                    625,
+                    518
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            19,
+            173,
+            1254,
+            369
+          ],
+          "text": "Service on Mar 31, 2026  Accumulation on Apr 2, 2026\nDB74BR1S $30.00\nMedical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more. Pald\nMember actions OMemorial Urgent Care Center  Shoji Aji\nService on Mar 12, 2026Accumulation on Mar 17, 2026\nFLBroward Applies to OOPMCumulative OOPM$30.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Service on Mar 31, 2026  Accumulation on Apr 2, 2026",
+              "conf": 0.9772475361824036,
+              "bbox": [
+                302,
+                173,
+                620,
+                190
+              ],
+              "words": [
+                {
+                  "text": "Service on Mar 31, 2026  Accumulation on Apr 2, 2026",
+                  "conf": 0.9772475361824036,
+                  "bbox": [
+                    302,
+                    173,
+                    620,
+                    190
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "DB74BR1S $30.00",
+              "conf": 0.9973630905151367,
+              "bbox": [
+                304,
+                252,
+                1254,
+                272
+              ],
+              "words": [
+                {
+                  "text": "DB74BR1S",
+                  "conf": 0.995427131652832,
+                  "bbox": [
+                    304,
+                    252,
+                    371,
+                    269
+                  ]
+                },
+                {
+                  "text": "$30.00",
+                  "conf": 0.9992990493774414,
+                  "bbox": [
+                    1206,
+                    255,
+                    1254,
+                    272
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Medical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more. Pald",
+              "conf": 0.9856776893138885,
+              "bbox": [
+                304,
+                276,
+                1253,
+                298
+              ],
+              "words": [
+                {
+                  "text": " Medical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more.",
+                  "conf": 0.9912842512130737,
+                  "bbox": [
+                    304,
+                    281,
+                    1066,
+                    298
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9800711274147034,
+                  "bbox": [
+                    1219,
+                    276,
+                    1253,
+                    298
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Member actions OMemorial Urgent Care Center  Shoji Aji",
+              "conf": 0.9490410387516022,
+              "bbox": [
+                71,
+                303,
+                551,
+                320
+              ],
+              "words": [
+                {
+                  "text": "Member actions",
+                  "conf": 0.9397252798080444,
+                  "bbox": [
+                    71,
+                    307,
+                    162,
+                    320
+                  ]
+                },
+                {
+                  "text": "OMemorial Urgent Care Center  Shoji Aji",
+                  "conf": 0.9583567976951599,
+                  "bbox": [
+                    304,
+                    303,
+                    551,
+                    320
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Service on Mar 12, 2026Accumulation on Mar 17, 2026",
+              "conf": 0.969183087348938,
+              "bbox": [
+                302,
+                325,
+                625,
+                341
+              ],
+              "words": [
+                {
+                  "text": "Service on Mar 12, 2026Accumulation on Mar 17, 2026",
+                  "conf": 0.969183087348938,
+                  "bbox": [
+                    302,
+                    325,
+                    625,
+                    341
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "FLBroward Applies to OOPMCumulative OOPM$30.00",
+              "conf": 0.9600761830806732,
+              "bbox": [
+                19,
+                345,
+                575,
+                369
+              ],
+              "words": [
+                {
+                  "text": "FLBroward",
+                  "conf": 0.9903030395507812,
+                  "bbox": [
+                    19,
+                    353,
+                    111,
+                    369
+                  ]
+                },
+                {
+                  "text": "Applies to OOPMCumulative OOPM$30.00",
+                  "conf": 0.9298493266105652,
+                  "bbox": [
+                    301,
+                    345,
+                    575,
+                    367
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 6,
+          "bbox": [
+            17,
+            570,
+            1254,
+            628
+          ],
+          "text": "8Individual 5YNC6CCH $0.00\n$CurrentBalance due + Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year). Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "8Individual 5YNC6CCH $0.00",
+              "conf": 0.9854749242464701,
+              "bbox": [
+                17,
+                570,
+                1254,
+                602
+              ],
+              "words": [
+                {
+                  "text": "8Individual",
+                  "conf": 0.960349440574646,
+                  "bbox": [
+                    17,
+                    570,
+                    98,
+                    591
+                  ]
+                },
+                {
+                  "text": "5YNC6CCH",
+                  "conf": 0.996532142162323,
+                  "bbox": [
+                    302,
+                    583,
+                    380,
+                    600
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9995431900024414,
+                  "bbox": [
+                    1214,
+                    584,
+                    1254,
+                    602
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "$CurrentBalance due + Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year). Pald",
+              "conf": 0.9455162286758423,
+              "bbox": [
+                19,
+                605,
+                1252,
+                628
+              ],
+              "words": [
+                {
+                  "text": "$CurrentBalance due",
+                  "conf": 0.9720756411552429,
+                  "bbox": [
+                    19,
+                    605,
+                    161,
+                    624
+                  ]
+                },
+                {
+                  "text": "+ Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year).",
+                  "conf": 0.9842173457145691,
+                  "bbox": [
+                    305,
+                    614,
+                    805,
+                    626
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.8802556991577148,
+                  "bbox": [
+                    1221,
+                    610,
+                    1252,
+                    628
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            19,
+            635,
+            624,
+            674
+          ],
+          "text": "No facility referenced Rebecca Ohayon\nOscar Unlocks Not activated Service on Sep17, 2025 Accumulation on Mar 12, 2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "No facility referenced Rebecca Ohayon",
+              "conf": 0.9708627462387085,
+              "bbox": [
+                305,
+                635,
+                554,
+                648
+              ],
+              "words": [
+                {
+                  "text": "No facility referenced Rebecca Ohayon",
+                  "conf": 0.9708627462387085,
+                  "bbox": [
+                    305,
+                    635,
+                    554,
+                    648
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Oscar Unlocks Not activated Service on Sep17, 2025 Accumulation on Mar 12, 2026",
+              "conf": 0.9754452109336853,
+              "bbox": [
+                19,
+                639,
+                624,
+                674
+              ],
+              "words": [
+                {
+                  "text": "Oscar Unlocks Not activated",
+                  "conf": 0.9865909218788147,
+                  "bbox": [
+                    19,
+                    639,
+                    122,
+                    674
+                  ]
+                },
+                {
+                  "text": "Service on Sep17, 2025 Accumulation on Mar 12, 2026",
+                  "conf": 0.9642994999885559,
+                  "bbox": [
+                    304,
+                    657,
+                    624,
+                    670
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 8,
+          "bbox": [
+            16,
+            706,
+            96,
+            727
+          ],
+          "text": "Member tags",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member tags",
+              "conf": 0.9601938128471375,
+              "bbox": [
+                16,
+                706,
+                96,
+                727
+              ],
+              "words": [
+                {
+                  "text": "Member tags",
+                  "conf": 0.9601938128471375,
+                  "bbox": [
+                    16,
+                    706,
+                    96,
+                    727
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 9,
+          "bbox": [
+            22,
+            735,
+            1254,
+            761
+          ],
+          "text": "nextgen_bllling_rosco_tag AAMSZV4Y $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "nextgen_bllling_rosco_tag AAMSZV4Y $0.00",
+              "conf": 0.9784964323043823,
+              "bbox": [
+                22,
+                735,
+                1254,
+                761
+              ],
+              "words": [
+                {
+                  "text": "nextgen_bllling_rosco_tag",
+                  "conf": 0.9400991797447205,
+                  "bbox": [
+                    22,
+                    745,
+                    175,
+                    761
+                  ]
+                },
+                {
+                  "text": "AAMSZV4Y",
+                  "conf": 0.9958814382553101,
+                  "bbox": [
+                    304,
+                    735,
+                    379,
+                    751
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9995086789131165,
+                  "bbox": [
+                    1214,
+                    736,
+                    1254,
+                    755
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            14,
+            14,
+            1580,
+            761
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>a Search Rosco</td><td>MR Melissa</td><td>-</td></tr><tr><td>Member info Issues Policy detalls Benefits Claims Billing &amp; payments Rewards</td><td></td><td>Authorizations</td><td></td></tr><tr><td>Yisroel Dubov</td><td></td><td></td><td></td></tr><tr><td>9X1W28AK</td><td></td><td>$0.00</td><td></td></tr><tr><td>Active</td><td></td><td></td><td></td></tr><tr><td>Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more</td><td></td><td>Pald</td><td></td></tr><tr><td>OSC78747909-01 - R213XB6D :</td><td></td><td></td><td></td></tr><tr><td>Holder - ON exc</td><td>Oscar Medical Group  Nathan Lycan</td><td></td><td></td></tr><tr><td>Service on Mar 31, 2026 Accumulation on Apr 2, 2026</td><td></td><td></td><td></td></tr><tr><td>Heads up note</td><td></td><td></td><td></td></tr><tr><td>DB74BR1S</td><td></td><td>$30.00</td><td></td></tr><tr><td>Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more.</td><td></td><td>Pald</td><td></td></tr><tr><td>Member actions</td><td>OMemorial Urgent Care Center  Shoji Aji</td><td></td><td></td></tr><tr><td>Service on Mar 12, 2026Accumulation on Mar 17, 2026</td><td></td><td></td><td></td></tr><tr><td>FLBroward</td><td>Applies to OOPMCumulative OOPM$30.00</td><td></td><td></td></tr><tr><td>FLO3FLTeam</td><td></td><td></td><td></td></tr><tr><td>Oscarplan</td><td>NJHSBVP9</td><td>$0.00</td><td></td></tr><tr><td>Silver Simple PCP Saver CSR 150</td><td></td><td></td><td></td></tr><tr><td>FL HMO Standard</td><td>Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more</td><td>Pald</td><td></td></tr><tr><td>View ID card</td><td>Oscar Medical Group  Lorilea Williams</td><td></td><td></td></tr><tr><td>Jeffin Alex</td><td>Service on Feb 13, 2026 - Accumulation on Feb 15, 2026</td><td></td><td></td></tr><tr><td>Effective 01/01/2026</td><td></td><td></td><td></td></tr><tr><td>8Individual</td><td></td><td></td><td></td></tr><tr><td>5YNC6CCH</td><td></td><td>$0.00</td><td></td></tr><tr><td>$CurrentBalance due</td><td>+ Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year).</td><td>Pald</td><td></td></tr><tr><td>No facility referenced Rebecca Ohayon</td><td></td><td></td><td></td></tr><tr><td>Oscar Unlocks Not activated</td><td>Service on Sep17, 2025 Accumulation on Mar 12, 2026</td><td></td><td></td></tr><tr><td>Member tags</td><td></td><td></td><td></td></tr><tr><td>nextgen_bllling_rosco_tag</td><td>AAMSZV4Y</td><td>$0.00</td><td></td></tr></table>",
+          "text": "rosco: a Search Rosco\nMR Melissa: -\nMember info Issues Policy detalls Benefits Claims Billing & payments Rewards: \nAuthorizations: \nYisroel Dubov: \n9X1W28AK: \n$0.00: \nActive: \nMedical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more: \nPald: \nOSC78747909-01 - R213XB6D :: \nHolder - ON exc: Oscar Medical Group  Nathan Lycan\nService on Mar 31, 2026 Accumulation on Apr 2, 2026: \nHeads up note: \nDB74BR1S: \n$30.00: \nMedical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more.: \nPald: \nMember actions: OMemorial Urgent Care Center  Shoji Aji\nService on Mar 12, 2026Accumulation on Mar 17, 2026: \nFLBroward: Applies to OOPMCumulative OOPM$30.00\nFLO3FLTeam: \nOscarplan: NJHSBVP9\n$0.00: \nSilver Simple PCP Saver CSR 150: \nFL HMO Standard: Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more\nPald: \nView ID card: Oscar Medical Group  Lorilea Williams\nJeffin Alex: Service on Feb 13, 2026 - Accumulation on Feb 15, 2026\nEffective 01/01/2026: \n8Individual: \n5YNC6CCH: \n$0.00: \n$CurrentBalance due: + Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year).\nPald: \nNo facility referenced Rebecca Ohayon: \nOscar Unlocks Not activated: Service on Sep17, 2025 Accumulation on Mar 12, 2026\nMember tags: \nnextgen_bllling_rosco_tag: AAMSZV4Y\n$0.00: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "a Search Rosco",
+              "MR Melissa",
+              "-"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing & payments Rewards",
+              "",
+              "Authorizations",
+              ""
+            ],
+            [
+              "Yisroel Dubov",
+              "",
+              "",
+              ""
+            ],
+            [
+              "9X1W28AK",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "Active",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "",
+              "Pald",
+              ""
+            ],
+            [
+              "OSC78747909-01 - R213XB6D :",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Holder - ON exc",
+              "Oscar Medical Group  Nathan Lycan",
+              "",
+              ""
+            ],
+            [
+              "Service on Mar 31, 2026 Accumulation on Apr 2, 2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Heads up note",
+              "",
+              "",
+              ""
+            ],
+            [
+              "DB74BR1S",
+              "",
+              "$30.00",
+              ""
+            ],
+            [
+              "Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more.",
+              "",
+              "Pald",
+              ""
+            ],
+            [
+              "Member actions",
+              "OMemorial Urgent Care Center  Shoji Aji",
+              "",
+              ""
+            ],
+            [
+              "Service on Mar 12, 2026Accumulation on Mar 17, 2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "FLBroward",
+              "Applies to OOPMCumulative OOPM$30.00",
+              "",
+              ""
+            ],
+            [
+              "FLO3FLTeam",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Oscarplan",
+              "NJHSBVP9",
+              "$0.00",
+              ""
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150",
+              "",
+              "",
+              ""
+            ],
+            [
+              "FL HMO Standard",
+              "Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more",
+              "Pald",
+              ""
+            ],
+            [
+              "View ID card",
+              "Oscar Medical Group  Lorilea Williams",
+              "",
+              ""
+            ],
+            [
+              "Jeffin Alex",
+              "Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+              "",
+              ""
+            ],
+            [
+              "Effective 01/01/2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "8Individual",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5YNC6CCH",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "$CurrentBalance due",
+              "+ Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year).",
+              "Pald",
+              ""
+            ],
+            [
+              "No facility referenced Rebecca Ohayon",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Oscar Unlocks Not activated",
+              "Service on Sep17, 2025 Accumulation on Mar 12, 2026",
+              "",
+              ""
+            ],
+            [
+              "Member tags",
+              "",
+              "",
+              ""
+            ],
+            [
+              "nextgen_bllling_rosco_tag",
+              "AAMSZV4Y",
+              "$0.00",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco a Search Rosco",
+              "MR Melissa -"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing & payments Rewards",
+              "Authorizations"
+            ],
+            [
+              "Yisroel Dubov",
+              ""
+            ],
+            [
+              "9X1W28AK",
+              "$0.00"
+            ],
+            [
+              "Active",
+              ""
+            ],
+            [
+              "Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "Pald"
+            ],
+            [
+              "OSC78747909-01 - R213XB6D :",
+              ""
+            ],
+            [
+              "Holder - ON exc Oscar Medical Group  Nathan Lycan",
+              ""
+            ],
+            [
+              "Service on Mar 31, 2026  Accumulation on Apr 2, 2026",
+              ""
+            ],
+            [
+              "Heads up note",
+              ""
+            ],
+            [
+              "DB74BR1S",
+              "$30.00"
+            ],
+            [
+              "Medical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more.",
+              "Pald"
+            ],
+            [
+              "Member actions OMemorial Urgent Care Center  Shoji Aji",
+              ""
+            ],
+            [
+              "Service on Mar 12, 2026Accumulation on Mar 17, 2026",
+              ""
+            ],
+            [
+              "FLBroward Applies to OOPMCumulative OOPM$30.00",
+              ""
+            ],
+            [
+              "FLO3FLTeam",
+              ""
+            ],
+            [
+              "Oscarplan: NJHSBVP9",
+              "$0.00"
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150",
+              ""
+            ],
+            [
+              "FL HMO Standard Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more",
+              "Pald"
+            ],
+            [
+              "View ID card Oscar Medical Group  Lorilea Williams",
+              ""
+            ],
+            [
+              "Jeffin Alex Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+              ""
+            ],
+            [
+              "Effective 01/01/2026",
+              ""
+            ],
+            [
+              "8Individual",
+              ""
+            ],
+            [
+              "5YNC6CCH",
+              "$0.00"
+            ],
+            [
+              "$CurrentBalance due + Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year).",
+              "Pald"
+            ],
+            [
+              "No facility referenced Rebecca Ohayon",
+              ""
+            ],
+            [
+              "Oscar Unlocks Not activated Service on Sep17, 2025 Accumulation on Mar 12, 2026",
+              ""
+            ],
+            [
+              "Member tags",
+              ""
+            ],
+            [
+              "nextgen_bllling_rosco_tag AAMSZV4Y",
+              "$0.00"
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco a Search Rosco MR Melissa -",
+          "conf": 0.8440042734146118,
+          "bbox": [
+            14,
+            14,
+            1580,
+            36
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9885711669921875,
+              "bbox": [
+                14,
+                17,
+                72,
+                34
+              ]
+            },
+            {
+              "text": "a",
+              "conf": 0.54844731092453,
+              "bbox": [
+                109,
+                14,
+                135,
+                36
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.9963869452476501,
+              "bbox": [
+                138,
+                18,
+                230,
+                34
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9712430834770203,
+              "bbox": [
+                1465,
+                18,
+                1550,
+                34
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7153728604316711,
+              "bbox": [
+                1565,
+                23,
+                1580,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations",
+          "conf": 0.9848250018225776,
+          "bbox": [
+            19,
+            71,
+            919,
+            102
+          ],
+          "words": [
+            {
+              "text": "Yisroel Dubov",
+              "conf": 0.9754762053489685,
+              "bbox": [
+                19,
+                81,
+                152,
+                102
+              ]
+            },
+            {
+              "text": "Member info",
+              "conf": 0.9979149103164673,
+              "bbox": [
+                276,
+                73,
+                351,
+                89
+              ]
+            },
+            {
+              "text": "Issues",
+              "conf": 0.9983465075492859,
+              "bbox": [
+                366,
+                74,
+                405,
+                88
+              ]
+            },
+            {
+              "text": "Policy detalls",
+              "conf": 0.9349687695503235,
+              "bbox": [
+                420,
+                71,
+                500,
+                89
+              ]
+            },
+            {
+              "text": "Benefits",
+              "conf": 0.99494469165802,
+              "bbox": [
+                515,
+                74,
+                568,
+                89
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9910710453987122,
+              "bbox": [
+                584,
+                74,
+                625,
+                88
+              ]
+            },
+            {
+              "text": "Billing & payments",
+              "conf": 0.97200608253479,
+              "bbox": [
+                642,
+                75,
+                748,
+                88
+              ]
+            },
+            {
+              "text": "Rewards",
+              "conf": 0.9993256330490112,
+              "bbox": [
+                762,
+                73,
+                818,
+                89
+              ]
+            },
+            {
+              "text": "Authorizations",
+              "conf": 0.9993711709976196,
+              "bbox": [
+                834,
+                75,
+                919,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Active 9X1W28AK $0.00",
+          "conf": 0.9946675697962443,
+          "bbox": [
+            22,
+            103,
+            1255,
+            132
+          ],
+          "words": [
+            {
+              "text": "Active",
+              "conf": 0.9863805174827576,
+              "bbox": [
+                22,
+                115,
+                64,
+                132
+              ]
+            },
+            {
+              "text": "9X1W28AK",
+              "conf": 0.9982494115829468,
+              "bbox": [
+                305,
+                103,
+                374,
+                116
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9993727803230286,
+              "bbox": [
+                1214,
+                103,
+                1255,
+                121
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OSC78747909-01 - R213XB6D : Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Oscar Medical Group  Nathan Lycan Pald",
+          "conf": 0.9748417437076569,
+          "bbox": [
+            19,
+            125,
+            1253,
+            168
+          ],
+          "words": [
+            {
+              "text": "OSC78747909-01 - R213XB6D :",
+              "conf": 0.9684312343597412,
+              "bbox": [
+                19,
+                140,
+                182,
+                157
+              ]
+            },
+            {
+              "text": " Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "conf": 0.9862794280052185,
+              "bbox": [
+                302,
+                129,
+                1061,
+                146
+              ]
+            },
+            {
+              "text": "Oscar Medical Group  Nathan Lycan",
+              "conf": 0.9667043089866638,
+              "bbox": [
+                321,
+                151,
+                536,
+                168
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9779520034790039,
+              "bbox": [
+                1219,
+                125,
+                1253,
+                148
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Holder - ON exc",
+          "conf": 0.9442716836929321,
+          "bbox": [
+            18,
+            159,
+            108,
+            176
+          ],
+          "words": [
+            {
+              "text": "Holder - ON exc",
+              "conf": 0.9442716836929321,
+              "bbox": [
+                18,
+                159,
+                108,
+                176
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Heads up note",
+          "conf": 0.985341489315033,
+          "bbox": [
+            29,
+            209,
+            115,
+            229
+          ],
+          "words": [
+            {
+              "text": "Heads up note",
+              "conf": 0.985341489315033,
+              "bbox": [
+                29,
+                209,
+                115,
+                229
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLO3FLTeam",
+          "conf": 0.9730313420295715,
+          "bbox": [
+            16,
+            384,
+            125,
+            406
+          ],
+          "words": [
+            {
+              "text": "FLO3FLTeam",
+              "conf": 0.9730313420295715,
+              "bbox": [
+                16,
+                384,
+                125,
+                406
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Effective 01/01/2026",
+          "conf": 0.9783838391304016,
+          "bbox": [
+            18,
+            540,
+            158,
+            556
+          ],
+          "words": [
+            {
+              "text": "Effective 01/01/2026",
+              "conf": 0.9783838391304016,
+              "bbox": [
+                18,
+                540,
+                158,
+                556
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscarplan: Silver Simple PCP Saver CSR 150 NJHSBVP9 $0.00",
+          "conf": 0.9818984419107437,
+          "bbox": [
+            17,
+            419,
+            1254,
+            456
+          ],
+          "words": [
+            {
+              "text": "Oscarplan:",
+              "conf": 0.9751992225646973,
+              "bbox": [
+                17,
+                419,
+                106,
+                439
+              ]
+            },
+            {
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.9628579616546631,
+              "bbox": [
+                41,
+                443,
+                219,
+                456
+              ]
+            },
+            {
+              "text": "NJHSBVP9",
+              "conf": 0.9903255701065063,
+              "bbox": [
+                305,
+                433,
+                376,
+                446
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9992110133171082,
+              "bbox": [
+                1214,
+                433,
+                1254,
+                452
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FL HMO Standard Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more Pald",
+          "conf": 0.9897666374842325,
+          "bbox": [
+            39,
+            458,
+            1252,
+            477
+          ],
+          "words": [
+            {
+              "text": "FL HMO Standard",
+              "conf": 0.9989864826202393,
+              "bbox": [
+                39,
+                461,
+                142,
+                477
+              ]
+            },
+            {
+              "text": "Medical claim - Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more",
+              "conf": 0.9775670766830444,
+              "bbox": [
+                302,
+                458,
+                1134,
+                476
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9927463531494141,
+              "bbox": [
+                1221,
+                458,
+                1252,
+                476
+              ]
+            }
+          ]
+        },
+        {
+          "text": "View ID card Oscar Medical Group  Lorilea Williams",
+          "conf": 0.956740528345108,
+          "bbox": [
+            40,
+            480,
+            549,
+            498
+          ],
+          "words": [
+            {
+              "text": "View ID card",
+              "conf": 0.9315194487571716,
+              "bbox": [
+                40,
+                480,
+                114,
+                496
+              ]
+            },
+            {
+              "text": "Oscar Medical Group  Lorilea Williams",
+              "conf": 0.9819616079330444,
+              "bbox": [
+                321,
+                481,
+                549,
+                498
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jeffin Alex Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+          "conf": 0.9599097967147827,
+          "bbox": [
+            18,
+            505,
+            625,
+            526
+          ],
+          "words": [
+            {
+              "text": "Jeffin Alex",
+              "conf": 0.9443033337593079,
+              "bbox": [
+                18,
+                508,
+                102,
+                526
+              ]
+            },
+            {
+              "text": "Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+              "conf": 0.9755162596702576,
+              "bbox": [
+                304,
+                505,
+                625,
+                518
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service on Mar 31, 2026  Accumulation on Apr 2, 2026",
+          "conf": 0.9772475361824036,
+          "bbox": [
+            302,
+            173,
+            620,
+            190
+          ],
+          "words": [
+            {
+              "text": "Service on Mar 31, 2026  Accumulation on Apr 2, 2026",
+              "conf": 0.9772475361824036,
+              "bbox": [
+                302,
+                173,
+                620,
+                190
+              ]
+            }
+          ]
+        },
+        {
+          "text": "DB74BR1S $30.00",
+          "conf": 0.9973630905151367,
+          "bbox": [
+            304,
+            252,
+            1254,
+            272
+          ],
+          "words": [
+            {
+              "text": "DB74BR1S",
+              "conf": 0.995427131652832,
+              "bbox": [
+                304,
+                252,
+                371,
+                269
+              ]
+            },
+            {
+              "text": "$30.00",
+              "conf": 0.9992990493774414,
+              "bbox": [
+                1206,
+                255,
+                1254,
+                272
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more. Pald",
+          "conf": 0.9856776893138885,
+          "bbox": [
+            304,
+            276,
+            1253,
+            298
+          ],
+          "words": [
+            {
+              "text": " Medical claim  New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more.",
+              "conf": 0.9912842512130737,
+              "bbox": [
+                304,
+                281,
+                1066,
+                298
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9800711274147034,
+              "bbox": [
+                1219,
+                276,
+                1253,
+                298
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member actions OMemorial Urgent Care Center  Shoji Aji",
+          "conf": 0.9490410387516022,
+          "bbox": [
+            71,
+            303,
+            551,
+            320
+          ],
+          "words": [
+            {
+              "text": "Member actions",
+              "conf": 0.9397252798080444,
+              "bbox": [
+                71,
+                307,
+                162,
+                320
+              ]
+            },
+            {
+              "text": "OMemorial Urgent Care Center  Shoji Aji",
+              "conf": 0.9583567976951599,
+              "bbox": [
+                304,
+                303,
+                551,
+                320
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service on Mar 12, 2026Accumulation on Mar 17, 2026",
+          "conf": 0.969183087348938,
+          "bbox": [
+            302,
+            325,
+            625,
+            341
+          ],
+          "words": [
+            {
+              "text": "Service on Mar 12, 2026Accumulation on Mar 17, 2026",
+              "conf": 0.969183087348938,
+              "bbox": [
+                302,
+                325,
+                625,
+                341
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLBroward Applies to OOPMCumulative OOPM$30.00",
+          "conf": 0.9600761830806732,
+          "bbox": [
+            19,
+            345,
+            575,
+            369
+          ],
+          "words": [
+            {
+              "text": "FLBroward",
+              "conf": 0.9903030395507812,
+              "bbox": [
+                19,
+                353,
+                111,
+                369
+              ]
+            },
+            {
+              "text": "Applies to OOPMCumulative OOPM$30.00",
+              "conf": 0.9298493266105652,
+              "bbox": [
+                301,
+                345,
+                575,
+                367
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8Individual 5YNC6CCH $0.00",
+          "conf": 0.9854749242464701,
+          "bbox": [
+            17,
+            570,
+            1254,
+            602
+          ],
+          "words": [
+            {
+              "text": "8Individual",
+              "conf": 0.960349440574646,
+              "bbox": [
+                17,
+                570,
+                98,
+                591
+              ]
+            },
+            {
+              "text": "5YNC6CCH",
+              "conf": 0.996532142162323,
+              "bbox": [
+                302,
+                583,
+                380,
+                600
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9995431900024414,
+              "bbox": [
+                1214,
+                584,
+                1254,
+                602
+              ]
+            }
+          ]
+        },
+        {
+          "text": "$CurrentBalance due + Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year). Pald",
+          "conf": 0.9455162286758423,
+          "bbox": [
+            19,
+            605,
+            1252,
+            628
+          ],
+          "words": [
+            {
+              "text": "$CurrentBalance due",
+              "conf": 0.9720756411552429,
+              "bbox": [
+                19,
+                605,
+                161,
+                624
+              ]
+            },
+            {
+              "text": "+ Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year).",
+              "conf": 0.9842173457145691,
+              "bbox": [
+                305,
+                614,
+                805,
+                626
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.8802556991577148,
+              "bbox": [
+                1221,
+                610,
+                1252,
+                628
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No facility referenced Rebecca Ohayon",
+          "conf": 0.9708627462387085,
+          "bbox": [
+            305,
+            635,
+            554,
+            648
+          ],
+          "words": [
+            {
+              "text": "No facility referenced Rebecca Ohayon",
+              "conf": 0.9708627462387085,
+              "bbox": [
+                305,
+                635,
+                554,
+                648
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar Unlocks Not activated Service on Sep17, 2025 Accumulation on Mar 12, 2026",
+          "conf": 0.9754452109336853,
+          "bbox": [
+            19,
+            639,
+            624,
+            674
+          ],
+          "words": [
+            {
+              "text": "Oscar Unlocks Not activated",
+              "conf": 0.9865909218788147,
+              "bbox": [
+                19,
+                639,
+                122,
+                674
+              ]
+            },
+            {
+              "text": "Service on Sep17, 2025 Accumulation on Mar 12, 2026",
+              "conf": 0.9642994999885559,
+              "bbox": [
+                304,
+                657,
+                624,
+                670
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member tags",
+          "conf": 0.9601938128471375,
+          "bbox": [
+            16,
+            706,
+            96,
+            727
+          ],
+          "words": [
+            {
+              "text": "Member tags",
+              "conf": 0.9601938128471375,
+              "bbox": [
+                16,
+                706,
+                96,
+                727
+              ]
+            }
+          ]
+        },
+        {
+          "text": "nextgen_bllling_rosco_tag AAMSZV4Y $0.00",
+          "conf": 0.9784964323043823,
+          "bbox": [
+            22,
+            735,
+            1254,
+            761
+          ],
+          "words": [
+            {
+              "text": "nextgen_bllling_rosco_tag",
+              "conf": 0.9400991797447205,
+              "bbox": [
+                22,
+                745,
+                175,
+                761
+              ]
+            },
+            {
+              "text": "AAMSZV4Y",
+              "conf": 0.9958814382553101,
+              "bbox": [
+                304,
+                735,
+                379,
+                751
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9995086789131165,
+              "bbox": [
+                1214,
+                736,
+                1254,
+                755
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

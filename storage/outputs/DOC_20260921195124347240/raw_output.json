@@ -1,0 +1,1357 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "leiber rgo\nProcessor: Emily Chen Lastedit: 11/18/202508:05 Processor ID: PROC006 Decision SLA:3 days\nDiagnosis Codes (ICD-10)\nPrimary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE\nDiagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission\nSeq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/20/2025\n1 2 D64.9 R07.9 ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED SECONDARY ADMITTING 10/20/2025 10/20/2025\nProcedure / Service Coding\nSeq 1 CPT/HCPCS P-36415 Modifier Description Collection of venous blood by venipuncture Diag Pointer A Date of Service 10/20/2025\n2 P-85025 P-99214 59 26 Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity A A 10/20/2025 10/20/2025",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 615,
+      "text": "leiber rgo\nProcessor: Emily Chen Lastedit: 11/18/202508:05 Processor ID: PROC006 Decision SLA:3 days\nDiagnosis Codes (ICD-10)\nPrimary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE\nDiagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission\nSeq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/20/2025\n1 2 D64.9 R07.9 ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED SECONDARY ADMITTING 10/20/2025 10/20/2025\nProcedure / Service Coding\nSeq 1 CPT/HCPCS P-36415 Modifier Description Collection of venous blood by venipuncture Diag Pointer A Date of Service 10/20/2025\n2 P-85025 P-99214 59 26 Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity A A 10/20/2025 10/20/2025",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 2,
+              "bbox": [
+                42,
+                104,
+                278,
+                120
+              ],
+              "text": "Diagnosis Codes (ICD-10)",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Diagnosis Codes (ICD-10)",
+                  "conf": 0.9201280474662781,
+                  "bbox": [
+                    42,
+                    104,
+                    278,
+                    120
+                  ],
+                  "words": [
+                    {
+                      "text": "Diagnosis Codes (ICD-10)",
+                      "conf": 0.9201280474662781,
+                      "bbox": [
+                        42,
+                        104,
+                        278,
+                        120
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                39,
+                447,
+                297,
+                471
+              ],
+              "text": "Procedure / Service Coding",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Procedure / Service Coding",
+                  "conf": 0.9869383573532104,
+                  "bbox": [
+                    39,
+                    447,
+                    297,
+                    471
+                  ],
+                  "words": [
+                    {
+                      "text": "Procedure / Service Coding",
+                      "conf": 0.9869383573532104,
+                      "bbox": [
+                        39,
+                        447,
+                        297,
+                        471
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Diagnosis Codes (ICD-10)\nProcedure / Service Coding"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            284,
+            0,
+            361,
+            10
+          ],
+          "text": "leiber rgo",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "leiber rgo",
+              "conf": 0.646530032157898,
+              "bbox": [
+                284,
+                0,
+                361,
+                10
+              ],
+              "words": [
+                {
+                  "text": "leiber rgo",
+                  "conf": 0.646530032157898,
+                  "bbox": [
+                    284,
+                    0,
+                    361,
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            41,
+            37,
+            775,
+            58
+          ],
+          "text": "Processor: Emily Chen Lastedit: 11/18/202508:05 Processor ID: PROC006 Decision SLA:3 days",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: Emily Chen Lastedit: 11/18/202508:05 Processor ID: PROC006 Decision SLA:3 days",
+              "conf": 0.9508049607276916,
+              "bbox": [
+                41,
+                37,
+                775,
+                58
+              ],
+              "words": [
+                {
+                  "text": "Processor: Emily Chen",
+                  "conf": 0.9600655436515808,
+                  "bbox": [
+                    41,
+                    40,
+                    194,
+                    56
+                  ]
+                },
+                {
+                  "text": "Lastedit: 11/18/202508:05",
+                  "conf": 0.9521102905273438,
+                  "bbox": [
+                    239,
+                    42,
+                    430,
+                    53
+                  ]
+                },
+                {
+                  "text": "Processor ID:",
+                  "conf": 0.9244266748428345,
+                  "bbox": [
+                    445,
+                    40,
+                    541,
+                    56
+                  ]
+                },
+                {
+                  "text": "PROC006",
+                  "conf": 0.952605664730072,
+                  "bbox": [
+                    533,
+                    37,
+                    608,
+                    58
+                  ]
+                },
+                {
+                  "text": "Decision SLA:3 days",
+                  "conf": 0.9648166298866272,
+                  "bbox": [
+                    633,
+                    40,
+                    775,
+                    56
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            42,
+            104,
+            278,
+            120
+          ],
+          "text": "Diagnosis Codes (ICD-10)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Diagnosis Codes (ICD-10)",
+              "conf": 0.9201280474662781,
+              "bbox": [
+                42,
+                104,
+                278,
+                120
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis Codes (ICD-10)",
+                  "conf": 0.9201280474662781,
+                  "bbox": [
+                    42,
+                    104,
+                    278,
+                    120
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            37,
+            141,
+            1336,
+            346
+          ],
+          "text": "Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE\nDiagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission\nSeq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/20/2025\n1 2 D64.9 R07.9 ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED SECONDARY ADMITTING 10/20/2025 10/20/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+              "conf": 0.9601979156335195,
+              "bbox": [
+                37,
+                141,
+                717,
+                179
+              ],
+              "words": [
+                {
+                  "text": "Primary Diagnosis:",
+                  "conf": 0.9902481138706207,
+                  "bbox": [
+                    37,
+                    141,
+                    107,
+                    176
+                  ]
+                },
+                {
+                  "text": "M17.11",
+                  "conf": 0.9194849133491516,
+                  "bbox": [
+                    158,
+                    149,
+                    217,
+                    167
+                  ]
+                },
+                {
+                  "text": "UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+                  "conf": 0.9708607196807861,
+                  "bbox": [
+                    444,
+                    141,
+                    717,
+                    179
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Diagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission",
+              "conf": 0.962365198135376,
+              "bbox": [
+                39,
+                186,
+                959,
+                221
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis Code Type:",
+                  "conf": 0.9857625663280487,
+                  "bbox": [
+                    39,
+                    186,
+                    141,
+                    221
+                  ]
+                },
+                {
+                  "text": "ICD-10-CM",
+                  "conf": 0.9440329074859619,
+                  "bbox": [
+                    167,
+                    195,
+                    248,
+                    211
+                  ]
+                },
+                {
+                  "text": "POA Indicator:",
+                  "conf": 0.993500828742981,
+                  "bbox": [
+                    472,
+                    186,
+                    536,
+                    219
+                  ]
+                },
+                {
+                  "text": "Y",
+                  "conf": 0.9075915217399597,
+                  "bbox": [
+                    567,
+                    194,
+                    589,
+                    213
+                  ]
+                },
+                {
+                  "text": "YES,present on admission",
+                  "conf": 0.9809381663799286,
+                  "bbox": [
+                    856,
+                    187,
+                    959,
+                    219
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Seq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/20/2025",
+              "conf": 0.9861976087093354,
+              "bbox": [
+                48,
+                242,
+                1336,
+                288
+              ],
+              "words": [
+                {
+                  "text": "Seq 0",
+                  "conf": 0.9576503038406372,
+                  "bbox": [
+                    48,
+                    243,
+                    83,
+                    288
+                  ]
+                },
+                {
+                  "text": "Code M17.11",
+                  "conf": 0.997021347284317,
+                  "bbox": [
+                    111,
+                    243,
+                    162,
+                    287
+                  ]
+                },
+                {
+                  "text": "Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE",
+                  "conf": 0.9810126423835754,
+                  "bbox": [
+                    247,
+                    242,
+                    583,
+                    285
+                  ]
+                },
+                {
+                  "text": "Type PRIMARY",
+                  "conf": 0.9967202842235565,
+                  "bbox": [
+                    1069,
+                    242,
+                    1128,
+                    285
+                  ]
+                },
+                {
+                  "text": "Date 10/20/2025",
+                  "conf": 0.9985834658145905,
+                  "bbox": [
+                    1256,
+                    242,
+                    1336,
+                    288
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "1 2 D64.9 R07.9 ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED SECONDARY ADMITTING 10/20/2025 10/20/2025",
+              "conf": 0.9795431554317474,
+              "bbox": [
+                48,
+                296,
+                1336,
+                346
+              ],
+              "words": [
+                {
+                  "text": "1 2",
+                  "conf": 0.9956057667732239,
+                  "bbox": [
+                    48,
+                    296,
+                    67,
+                    344
+                  ]
+                },
+                {
+                  "text": "D64.9 R07.9",
+                  "conf": 0.9583236575126648,
+                  "bbox": [
+                    109,
+                    296,
+                    155,
+                    346
+                  ]
+                },
+                {
+                  "text": "ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED",
+                  "conf": 0.9480359554290771,
+                  "bbox": [
+                    247,
+                    296,
+                    416,
+                    343
+                  ]
+                },
+                {
+                  "text": "SECONDARY ADMITTING",
+                  "conf": 0.9965479075908661,
+                  "bbox": [
+                    1070,
+                    298,
+                    1152,
+                    346
+                  ]
+                },
+                {
+                  "text": "10/20/2025 10/20/2025",
+                  "conf": 0.9992024898529053,
+                  "bbox": [
+                    1258,
+                    298,
+                    1336,
+                    346
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            39,
+            447,
+            297,
+            471
+          ],
+          "text": "Procedure / Service Coding",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Procedure / Service Coding",
+              "conf": 0.9869383573532104,
+              "bbox": [
+                39,
+                447,
+                297,
+                471
+              ],
+              "words": [
+                {
+                  "text": "Procedure / Service Coding",
+                  "conf": 0.9869383573532104,
+                  "bbox": [
+                    39,
+                    447,
+                    297,
+                    471
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            48,
+            488,
+            1372,
+            538
+          ],
+          "text": "Seq 1 CPT/HCPCS P-36415 Modifier Description Collection of venous blood by venipuncture Diag Pointer A Date of Service 10/20/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Seq 1 CPT/HCPCS P-36415 Modifier Description Collection of venous blood by venipuncture Diag Pointer A Date of Service 10/20/2025",
+              "conf": 0.9917022287845612,
+              "bbox": [
+                48,
+                488,
+                1372,
+                538
+              ],
+              "words": [
+                {
+                  "text": "Seq 1",
+                  "conf": 0.9967530369758606,
+                  "bbox": [
+                    48,
+                    492,
+                    83,
+                    538
+                  ]
+                },
+                {
+                  "text": "CPT/HCPCS P-36415",
+                  "conf": 0.9921554028987885,
+                  "bbox": [
+                    103,
+                    488,
+                    189,
+                    535
+                  ]
+                },
+                {
+                  "text": "Modifier",
+                  "conf": 0.9969420433044434,
+                  "bbox": [
+                    255,
+                    492,
+                    316,
+                    509
+                  ]
+                },
+                {
+                  "text": "Description Collection of venous blood by venipuncture",
+                  "conf": 0.9877918064594269,
+                  "bbox": [
+                    361,
+                    490,
+                    638,
+                    537
+                  ]
+                },
+                {
+                  "text": "Diag Pointer A",
+                  "conf": 0.9914749264717102,
+                  "bbox": [
+                    1098,
+                    490,
+                    1195,
+                    537
+                  ]
+                },
+                {
+                  "text": "Date of Service 10/20/2025",
+                  "conf": 0.9850961565971375,
+                  "bbox": [
+                    1256,
+                    490,
+                    1372,
+                    537
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 6,
+          "bbox": [
+            50,
+            543,
+            1336,
+            596
+          ],
+          "text": "2 P-85025 P-99214 59 26 Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity A A 10/20/2025 10/20/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "2 P-85025 P-99214 59 26 Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity A A 10/20/2025 10/20/2025",
+              "conf": 0.992327868938446,
+              "bbox": [
+                50,
+                543,
+                1336,
+                596
+              ],
+              "words": [
+                {
+                  "text": "2",
+                  "conf": 0.9985032081604004,
+                  "bbox": [
+                    50,
+                    546,
+                    64,
+                    565
+                  ]
+                },
+                {
+                  "text": "P-85025 P-99214",
+                  "conf": 0.9896790087223053,
+                  "bbox": [
+                    105,
+                    543,
+                    164,
+                    593
+                  ]
+                },
+                {
+                  "text": "59 26",
+                  "conf": 0.9978500008583069,
+                  "bbox": [
+                    253,
+                    545,
+                    277,
+                    594
+                  ]
+                },
+                {
+                  "text": "Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity",
+                  "conf": 0.9698092639446259,
+                  "bbox": [
+                    364,
+                    548,
+                    769,
+                    593
+                  ]
+                },
+                {
+                  "text": "A A",
+                  "conf": 0.9988909065723419,
+                  "bbox": [
+                    1098,
+                    545,
+                    1119,
+                    596
+                  ]
+                },
+                {
+                  "text": "10/20/2025 10/20/2025",
+                  "conf": 0.9992348253726959,
+                  "bbox": [
+                    1256,
+                    545,
+                    1336,
+                    596
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            37,
+            0,
+            959,
+            471
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>leiber rgo</td><td></td><td></td><td></td></tr><tr><td>Processor: Emily Chen Lastedit: 11/18/202508:05 Processor ID</td><td>PROC006 Decision SLA:3 days</td><td></td><td></td></tr><tr><td>Diagnosis Codes (ICD-10)</td><td></td><td></td><td></td></tr><tr><td>Primary Diagnosis</td><td>M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE</td><td></td><td></td></tr><tr><td>Diagnosis Code Type</td><td>ICD-10-CM POA Indicator: Y</td><td>YES,present on admission</td><td></td></tr><tr><td>Procedure / Service Coding</td><td></td><td></td><td></td></tr></table>",
+          "text": "leiber rgo: \nProcessor: Emily Chen Lastedit: 11/18/202508:05 Processor ID: PROC006 Decision SLA:3 days\nDiagnosis Codes (ICD-10): \nPrimary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE\nDiagnosis Code Type: ICD-10-CM POA Indicator: Y\nYES,present on admission: \nProcedure / Service Coding: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "leiber rgo",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Processor: Emily Chen Lastedit: 11/18/202508:05 Processor ID",
+              "PROC006 Decision SLA:3 days",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis Codes (ICD-10)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Primary Diagnosis",
+              "M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis Code Type",
+              "ICD-10-CM POA Indicator: Y",
+              "YES,present on admission",
+              ""
+            ],
+            [
+              "Procedure / Service Coding",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "leiber rgo",
+              ""
+            ],
+            [
+              "Processor: Emily Chen Lastedit: 11/18/202508:05 Processor ID: PROC006 Decision SLA:3 days",
+              ""
+            ],
+            [
+              "Diagnosis Codes (ICD-10)",
+              ""
+            ],
+            [
+              "Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+              ""
+            ],
+            [
+              "Diagnosis Code Type: ICD-10-CM POA Indicator: Y",
+              "YES,present on admission"
+            ],
+            [
+              "Procedure / Service Coding",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            48,
+            242,
+            1336,
+            346
+          ],
+          "html": "<table><tr><th>Seq 0 Code M17.11</th><th>Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE</th><th>Type PRIMARY</th><th>Date 10/20/2025</th></tr><tr><td>1 2 D64.9 R07.9</td><td>ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED</td><td>SECONDARY ADMITTING</td><td>10/20/2025 10/20/2025</td></tr></table>",
+          "text": "1 2 D64.9 R07.9 | ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED | SECONDARY ADMITTING | 10/20/2025 10/20/2025",
+          "headers": [
+            "Seq 0 Code M17.11",
+            "Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE",
+            "Type PRIMARY",
+            "Date 10/20/2025"
+          ],
+          "rows": [
+            [
+              "1 2 D64.9 R07.9",
+              "ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED",
+              "SECONDARY ADMITTING",
+              "10/20/2025 10/20/2025"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            48,
+            488,
+            1372,
+            596
+          ],
+          "html": "<table><tr><th>Seq 1 CPT/HCPCS P-36415</th><th>Modifier</th><th>Description Collection of venous blood by venipuncture</th><th>Diag Pointer A</th><th>Date of Service 10/20/2025</th></tr><tr><td>2 P-85025 P-99214</td><td>59 26</td><td>Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity</td><td>A A</td><td>10/20/2025 10/20/2025</td></tr></table>",
+          "text": "2 P-85025 P-99214 | 59 26 | Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity | A A | 10/20/2025 10/20/2025",
+          "headers": [
+            "Seq 1 CPT/HCPCS P-36415",
+            "Modifier",
+            "Description Collection of venous blood by venipuncture",
+            "Diag Pointer A",
+            "Date of Service 10/20/2025"
+          ],
+          "rows": [
+            [
+              "2 P-85025 P-99214",
+              "59 26",
+              "Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity",
+              "A A",
+              "10/20/2025 10/20/2025"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "leiber rgo",
+          "conf": 0.646530032157898,
+          "bbox": [
+            284,
+            0,
+            361,
+            10
+          ],
+          "words": [
+            {
+              "text": "leiber rgo",
+              "conf": 0.646530032157898,
+              "bbox": [
+                284,
+                0,
+                361,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: Emily Chen Lastedit: 11/18/202508:05 Processor ID: PROC006 Decision SLA:3 days",
+          "conf": 0.9508049607276916,
+          "bbox": [
+            41,
+            37,
+            775,
+            58
+          ],
+          "words": [
+            {
+              "text": "Processor: Emily Chen",
+              "conf": 0.9600655436515808,
+              "bbox": [
+                41,
+                40,
+                194,
+                56
+              ]
+            },
+            {
+              "text": "Lastedit: 11/18/202508:05",
+              "conf": 0.9521102905273438,
+              "bbox": [
+                239,
+                42,
+                430,
+                53
+              ]
+            },
+            {
+              "text": "Processor ID:",
+              "conf": 0.9244266748428345,
+              "bbox": [
+                445,
+                40,
+                541,
+                56
+              ]
+            },
+            {
+              "text": "PROC006",
+              "conf": 0.952605664730072,
+              "bbox": [
+                533,
+                37,
+                608,
+                58
+              ]
+            },
+            {
+              "text": "Decision SLA:3 days",
+              "conf": 0.9648166298866272,
+              "bbox": [
+                633,
+                40,
+                775,
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis Codes (ICD-10)",
+          "conf": 0.9201280474662781,
+          "bbox": [
+            42,
+            104,
+            278,
+            120
+          ],
+          "words": [
+            {
+              "text": "Diagnosis Codes (ICD-10)",
+              "conf": 0.9201280474662781,
+              "bbox": [
+                42,
+                104,
+                278,
+                120
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+          "conf": 0.9601979156335195,
+          "bbox": [
+            37,
+            141,
+            717,
+            179
+          ],
+          "words": [
+            {
+              "text": "Primary Diagnosis:",
+              "conf": 0.9902481138706207,
+              "bbox": [
+                37,
+                141,
+                107,
+                176
+              ]
+            },
+            {
+              "text": "M17.11",
+              "conf": 0.9194849133491516,
+              "bbox": [
+                158,
+                149,
+                217,
+                167
+              ]
+            },
+            {
+              "text": "UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+              "conf": 0.9708607196807861,
+              "bbox": [
+                444,
+                141,
+                717,
+                179
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission",
+          "conf": 0.962365198135376,
+          "bbox": [
+            39,
+            186,
+            959,
+            221
+          ],
+          "words": [
+            {
+              "text": "Diagnosis Code Type:",
+              "conf": 0.9857625663280487,
+              "bbox": [
+                39,
+                186,
+                141,
+                221
+              ]
+            },
+            {
+              "text": "ICD-10-CM",
+              "conf": 0.9440329074859619,
+              "bbox": [
+                167,
+                195,
+                248,
+                211
+              ]
+            },
+            {
+              "text": "POA Indicator:",
+              "conf": 0.993500828742981,
+              "bbox": [
+                472,
+                186,
+                536,
+                219
+              ]
+            },
+            {
+              "text": "Y",
+              "conf": 0.9075915217399597,
+              "bbox": [
+                567,
+                194,
+                589,
+                213
+              ]
+            },
+            {
+              "text": "YES,present on admission",
+              "conf": 0.9809381663799286,
+              "bbox": [
+                856,
+                187,
+                959,
+                219
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/20/2025",
+          "conf": 0.9861976087093354,
+          "bbox": [
+            48,
+            242,
+            1336,
+            288
+          ],
+          "words": [
+            {
+              "text": "Seq 0",
+              "conf": 0.9576503038406372,
+              "bbox": [
+                48,
+                243,
+                83,
+                288
+              ]
+            },
+            {
+              "text": "Code M17.11",
+              "conf": 0.997021347284317,
+              "bbox": [
+                111,
+                243,
+                162,
+                287
+              ]
+            },
+            {
+              "text": "Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE",
+              "conf": 0.9810126423835754,
+              "bbox": [
+                247,
+                242,
+                583,
+                285
+              ]
+            },
+            {
+              "text": "Type PRIMARY",
+              "conf": 0.9967202842235565,
+              "bbox": [
+                1069,
+                242,
+                1128,
+                285
+              ]
+            },
+            {
+              "text": "Date 10/20/2025",
+              "conf": 0.9985834658145905,
+              "bbox": [
+                1256,
+                242,
+                1336,
+                288
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1 2 D64.9 R07.9 ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED SECONDARY ADMITTING 10/20/2025 10/20/2025",
+          "conf": 0.9795431554317474,
+          "bbox": [
+            48,
+            296,
+            1336,
+            346
+          ],
+          "words": [
+            {
+              "text": "1 2",
+              "conf": 0.9956057667732239,
+              "bbox": [
+                48,
+                296,
+                67,
+                344
+              ]
+            },
+            {
+              "text": "D64.9 R07.9",
+              "conf": 0.9583236575126648,
+              "bbox": [
+                109,
+                296,
+                155,
+                346
+              ]
+            },
+            {
+              "text": "ANEMIA,UNSPECIFIED CHEST PAIN, UNSPECIFIED",
+              "conf": 0.9480359554290771,
+              "bbox": [
+                247,
+                296,
+                416,
+                343
+              ]
+            },
+            {
+              "text": "SECONDARY ADMITTING",
+              "conf": 0.9965479075908661,
+              "bbox": [
+                1070,
+                298,
+                1152,
+                346
+              ]
+            },
+            {
+              "text": "10/20/2025 10/20/2025",
+              "conf": 0.9992024898529053,
+              "bbox": [
+                1258,
+                298,
+                1336,
+                346
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Procedure / Service Coding",
+          "conf": 0.9869383573532104,
+          "bbox": [
+            39,
+            447,
+            297,
+            471
+          ],
+          "words": [
+            {
+              "text": "Procedure / Service Coding",
+              "conf": 0.9869383573532104,
+              "bbox": [
+                39,
+                447,
+                297,
+                471
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seq 1 CPT/HCPCS P-36415 Modifier Description Collection of venous blood by venipuncture Diag Pointer A Date of Service 10/20/2025",
+          "conf": 0.9917022287845612,
+          "bbox": [
+            48,
+            488,
+            1372,
+            538
+          ],
+          "words": [
+            {
+              "text": "Seq 1",
+              "conf": 0.9967530369758606,
+              "bbox": [
+                48,
+                492,
+                83,
+                538
+              ]
+            },
+            {
+              "text": "CPT/HCPCS P-36415",
+              "conf": 0.9921554028987885,
+              "bbox": [
+                103,
+                488,
+                189,
+                535
+              ]
+            },
+            {
+              "text": "Modifier",
+              "conf": 0.9969420433044434,
+              "bbox": [
+                255,
+                492,
+                316,
+                509
+              ]
+            },
+            {
+              "text": "Description Collection of venous blood by venipuncture",
+              "conf": 0.9877918064594269,
+              "bbox": [
+                361,
+                490,
+                638,
+                537
+              ]
+            },
+            {
+              "text": "Diag Pointer A",
+              "conf": 0.9914749264717102,
+              "bbox": [
+                1098,
+                490,
+                1195,
+                537
+              ]
+            },
+            {
+              "text": "Date of Service 10/20/2025",
+              "conf": 0.9850961565971375,
+              "bbox": [
+                1256,
+                490,
+                1372,
+                537
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2 P-85025 P-99214 59 26 Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity A A 10/20/2025 10/20/2025",
+          "conf": 0.992327868938446,
+          "bbox": [
+            50,
+            543,
+            1336,
+            596
+          ],
+          "words": [
+            {
+              "text": "2",
+              "conf": 0.9985032081604004,
+              "bbox": [
+                50,
+                546,
+                64,
+                565
+              ]
+            },
+            {
+              "text": "P-85025 P-99214",
+              "conf": 0.9896790087223053,
+              "bbox": [
+                105,
+                543,
+                164,
+                593
+              ]
+            },
+            {
+              "text": "59 26",
+              "conf": 0.9978500008583069,
+              "bbox": [
+                253,
+                545,
+                277,
+                594
+              ]
+            },
+            {
+              "text": "Complete blood count with automated differential Office/outpatient visit, established patient, moderate complexity",
+              "conf": 0.9698092639446259,
+              "bbox": [
+                364,
+                548,
+                769,
+                593
+              ]
+            },
+            {
+              "text": "A A",
+              "conf": 0.9988909065723419,
+              "bbox": [
+                1098,
+                545,
+                1119,
+                596
+              ]
+            },
+            {
+              "text": "10/20/2025 10/20/2025",
+              "conf": 0.9992348253726959,
+              "bbox": [
+                1256,
+                545,
+                1336,
+                596
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

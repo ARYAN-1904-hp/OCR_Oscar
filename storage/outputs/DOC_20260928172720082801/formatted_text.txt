@@ -1,0 +1,417 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=20 | tables=4 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x8
+HEADER | Cortex-Claim#3X6ZH7Z9 | Latest version (5 of 5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 15 hours ago | Readjudicate | Actions | -
+  CELL[1,0] = About thls claim Payment Patlent
+  CELL[1,1] = Providers Medical Claim lines
+  CELL[1,4] = 15 hours ago
+  CELL[1,5] = Readjudicate
+  CELL[1,6] = Actions
+ROW 2 | 3X6ZH7Z9 | Submission information | - | - | - | - | - | -
+  CELL[2,0] = 3X6ZH7Z9
+  CELL[2,1] = Submission information
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 8x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Member | Yisroel Dubov | - | -
+  CELL[1,0] = Member
+  CELL[1,1] = Yisroel Dubov
+ROW 2 | Blockers (1) | - | - | -
+  CELL[2,0] = Blockers (1)
+ROW 3 | NEWBORN | - | - | -
+  CELL[3,0] = NEWBORN
+ROW 4 | Manage | Payment | - | -
+  CELL[4,0] = Manage
+  CELL[4,1] = Payment
+ROW 5 | Charge group | - | Prompt process due date | -
+  CELL[5,0] = Charge group
+  CELL[5,2] = Prompt process due date
+ROW 6 | Denials (0) | - | - | -
+  CELL[6,0] = Denials (0)
+ROW 7 | Payment authority | NEXTGEN | Interestaccrued | -
+  CELL[7,0] = Payment authority
+  CELL[7,1] = NEXTGEN
+  CELL[7,2] = Interestaccrued
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 4x5
+HEADER | o Notes | Submission type | Electronic | Vendor source | AVAILITY
+ROW 1 | See all member's clalms | EDI file | Download | Documents | View
+  CELL[1,0] = See all member's clalms
+  CELL[1,1] = EDI file
+  CELL[1,2] = Download
+  CELL[1,3] = Documents
+  CELL[1,4] = View
+ROW 2 | - | Tenant | oscar | - | -
+  CELL[2,1] = Tenant
+  CELL[2,2] = oscar
+ROW 3 | Claim state: Blocked | Valet fle ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | - | -
+  CELL[3,0] = Claim state: Blocked
+  CELL[3,1] = Valet fle ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 16x5
+HEADER | No denials on this claim. Manage | Pay to member | No | Excluded from interest | Yes
+ROW 1 | Billed $9,459.00 (100%) | - | - | - | -
+  CELL[1,0] = Billed $9,459.00 (100%)
+ROW 2 | Allowed $729.17 (8%) | Patient | - | - | -
+  CELL[2,0] = Allowed $729.17 (8%)
+  CELL[2,1] = Patient
+ROW 3 | Pay provider $729.17 | Matched Member | Submitted Info | - | -
+  CELL[3,0] = Pay provider $729.17
+  CELL[3,1] = Matched Member
+  CELL[3,2] = Submitted Info
+ROW 4 | Pay member $0.00 | - | - | - | -
+  CELL[4,0] = Pay member $0.00
+ROW 5 | - | First name | CHAYA | SSN | -
+  CELL[5,1] = First name
+  CELL[5,2] = CHAYA
+  CELL[5,3] = SSN
+ROW 6 | >Memberresponsibility $0.00 | - | - | - | -
+  CELL[6,0] = >Memberresponsibility $0.00
+ROW 7 | - | Middle name | - | Date of birth | 09/15/2025 (0 days)
+  CELL[7,1] = Middle name
+  CELL[7,3] = Date of birth
+  CELL[7,4] = 09/15/2025 (0 days)
+ROW 8 | Claim lineage | Last name | DUBOV | Sex | Female
+  CELL[8,0] = Claim lineage
+  CELL[8,1] = Last name
+  CELL[8,2] = DUBOV
+  CELL[8,3] = Sex
+  CELL[8,4] = Female
+ROW 9 | 3X6ZH7Z9 Blocked | Suffx | - | Address | 1534 VAN BUREN ST
+  CELL[9,0] = 3X6ZH7Z9 Blocked
+  CELL[9,1] = Suffx
+  CELL[9,3] = Address
+  CELL[9,4] = 1534 VAN BUREN ST
+ROW 10 | 7/19/2026 | OSCID | OSC78747909 | - | HOLLYWOOD, FL 330205266
+  CELL[10,0] = 7/19/2026
+  CELL[10,1] = OSCID
+  CELL[10,2] = OSC78747909
+  CELL[10,4] = HOLLYWOOD, FL 330205266
+ROW 11 | Potential parent claims | Policy holder | - | Group | -
+  CELL[11,0] = Potential parent claims
+  CELL[11,1] = Policy holder
+  CELL[11,3] = Group
+ROW 12 | - | First name | YISROEL | Name | -
+  CELL[12,1] = First name
+  CELL[12,2] = YISROEL
+  CELL[12,3] = Name
+ROW 13 | - | Middle name | - | Number | -
+  CELL[13,1] = Middle name
+  CELL[13,3] = Number
+ROW 14 | Potential duplicate claims | Last name | DUBOV | Responsibility sequence | Primary
+  CELL[14,0] = Potential duplicate claims
+  CELL[14,1] = Last name
+  CELL[14,2] = DUBOV
+  CELL[14,3] = Responsibility sequence
+  CELL[14,4] = Primary
+ROW 15 | No system identified duplicates | Suffx | - | - | -
+  CELL[15,0] = No system identified duplicates
+  CELL[15,1] = Suffx
+[/TABLE 3]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[50,14,1555,35] | order=0
+  Cortex-Claim#3X6ZH7Z9 Latest version (5 of 5) Dashboard Batch History Testing Settlements Search Create
+BLOCK 1 | type=header | bbox=[31,64,1521,80] | order=1
+  About thls claim Payment Patlent Providers Medical Claim lines 15 hours ago Readjudicate Actions
+BLOCK 2 | type=table_row | bbox=[32,118,454,137] | order=2
+  3X6ZH7Z9 Submission information
+BLOCK 3 | type=table_row | bbox=[32,145,161,158] | order=3
+  Member: Yisroel Dubov
+BLOCK 4 | type=table | bbox=[32,155,1210,199] | order=4
+  o Notes Submission type Electronic Vendor source AVAILITY
+  See all member's clalms EDI file Download Documents View
+BLOCK 5 | type=table | bbox=[298,206,550,224] | order=5
+  Tenant oscar
+BLOCK 6 | type=table | bbox=[31,236,558,252] | order=6
+  Claim state: Blocked Valet fle ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+BLOCK 7 | type=table_row | bbox=[31,267,115,300] | order=7
+  Blockers (1)
+  NEWBORN
+BLOCK 8 | type=table_row | bbox=[30,294,389,324] | order=8
+  Manage Payment
+BLOCK 9 | type=table_row | bbox=[31,323,1080,353] | order=9
+  Charge group Prompt process due date
+  Denials (0)
+BLOCK 10 | type=table | bbox=[31,349,1180,392] | order=10
+  Payment authority NEXTGEN Interestaccrued
+  No denials on this claim. Manage Pay to member No Excluded from interest Yes
+BLOCK 11 | type=table | bbox=[30,418,222,435] | order=11
+  Billed $9,459.00 (100%)
+BLOCK 12 | type=table | bbox=[30,442,514,491] | order=12
+  Allowed $729.17 (8%) Patient
+  Pay provider $729.17 Matched Member Submitted Info
+BLOCK 13 | type=table | bbox=[31,493,224,510] | order=13
+  Pay member $0.00
+BLOCK 14 | type=table | bbox=[298,504,968,522] | order=14
+  First name CHAYA SSN
+BLOCK 15 | type=table | bbox=[19,519,222,536] | order=15
+  >Memberresponsibility $0.00
+BLOCK 16 | type=table | bbox=[28,531,1318,688] | order=16
+  Middle name Date of birth 09/15/2025 (0 days)
+  Claim lineage Last name DUBOV Sex Female
+  3X6ZH7Z9 Blocked Suffx Address 1534 VAN BUREN ST
+  7/19/2026 OSCID OSC78747909 HOLLYWOOD, FL 330205266
+  Potential parent claims Policy holder Group
+  First name YISROEL Name
+BLOCK 17 | type=table | bbox=[299,695,986,712] | order=17
+  Middle name Number
+BLOCK 18 | type=footer | bbox=[32,715,1203,740] | order=18
+  Potential duplicate claims Last name DUBOV Responsibility sequence Primary
+BLOCK 19 | type=footer | bbox=[31,740,336,764] | order=19
+  No system identified duplicates Suffx
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[30,145,1080,365] | shape=8x4 | conf=0.920
+  shape: 8x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Member | Yisroel Dubov | - | -
+    CELL[1,0] = Member
+    CELL[1,1] = Yisroel Dubov
+  ROW 2 | Blockers (1) | - | - | -
+    CELL[2,0] = Blockers (1)
+  ROW 3 | NEWBORN | - | - | -
+    CELL[3,0] = NEWBORN
+  ROW 4 | Manage | Payment | - | -
+    CELL[4,0] = Manage
+    CELL[4,1] = Payment
+  ROW 5 | Charge group | - | Prompt process due date | -
+    CELL[5,0] = Charge group
+    CELL[5,2] = Prompt process due date
+  ROW 6 | Denials (0) | - | - | -
+    CELL[6,0] = Denials (0)
+  ROW 7 | Payment authority | NEXTGEN | Interestaccrued | -
+    CELL[7,0] = Payment authority
+    CELL[7,1] = NEXTGEN
+    CELL[7,2] = Interestaccrued
+TABLE 1 | source=wide_grid | bbox=[31,14,1555,137] | shape=3x8 | conf=0.850
+  shape: 3x8
+  HEADER | Cortex-Claim#3X6ZH7Z9 | Latest version (5 of 5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 15 hours ago | Readjudicate | Actions | -
+    CELL[1,0] = About thls claim Payment Patlent
+    CELL[1,1] = Providers Medical Claim lines
+    CELL[1,4] = 15 hours ago
+    CELL[1,5] = Readjudicate
+    CELL[1,6] = Actions
+  ROW 2 | 3X6ZH7Z9 | Submission information | - | - | - | - | - | -
+    CELL[2,0] = 3X6ZH7Z9
+    CELL[2,1] = Submission information
+TABLE 2 | source=wide_grid | bbox=[31,155,1210,252] | shape=4x5 | conf=0.850
+  shape: 4x5
+  HEADER | o Notes | Submission type | Electronic | Vendor source | AVAILITY
+  ROW 1 | See all member's clalms | EDI file | Download | Documents | View
+    CELL[1,0] = See all member's clalms
+    CELL[1,1] = EDI file
+    CELL[1,2] = Download
+    CELL[1,3] = Documents
+    CELL[1,4] = View
+  ROW 2 | - | Tenant | oscar | - | -
+    CELL[2,1] = Tenant
+    CELL[2,2] = oscar
+  ROW 3 | Claim state: Blocked | Valet fle ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | - | -
+    CELL[3,0] = Claim state: Blocked
+    CELL[3,1] = Valet fle ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+TABLE 3 | source=wide_grid | bbox=[19,356,1318,764] | shape=16x5 | conf=0.850
+  shape: 16x5
+  HEADER | No denials on this claim. Manage | Pay to member | No | Excluded from interest | Yes
+  ROW 1 | Billed $9,459.00 (100%) | - | - | - | -
+    CELL[1,0] = Billed $9,459.00 (100%)
+  ROW 2 | Allowed $729.17 (8%) | Patient | - | - | -
+    CELL[2,0] = Allowed $729.17 (8%)
+    CELL[2,1] = Patient
+  ROW 3 | Pay provider $729.17 | Matched Member | Submitted Info | - | -
+    CELL[3,0] = Pay provider $729.17
+    CELL[3,1] = Matched Member
+    CELL[3,2] = Submitted Info
+  ROW 4 | Pay member $0.00 | - | - | - | -
+    CELL[4,0] = Pay member $0.00
+  ROW 5 | - | First name | CHAYA | SSN | -
+    CELL[5,1] = First name
+    CELL[5,2] = CHAYA
+    CELL[5,3] = SSN
+  ROW 6 | >Memberresponsibility $0.00 | - | - | - | -
+    CELL[6,0] = >Memberresponsibility $0.00
+  ROW 7 | - | Middle name | - | Date of birth | 09/15/2025 (0 days)
+    CELL[7,1] = Middle name
+    CELL[7,3] = Date of birth
+    CELL[7,4] = 09/15/2025 (0 days)
+  ROW 8 | Claim lineage | Last name | DUBOV | Sex | Female
+    CELL[8,0] = Claim lineage
+    CELL[8,1] = Last name
+    CELL[8,2] = DUBOV
+    CELL[8,3] = Sex
+    CELL[8,4] = Female
+  ROW 9 | 3X6ZH7Z9 Blocked | Suffx | - | Address | 1534 VAN BUREN ST
+    CELL[9,0] = 3X6ZH7Z9 Blocked
+    CELL[9,1] = Suffx
+    CELL[9,3] = Address
+    CELL[9,4] = 1534 VAN BUREN ST
+  ROW 10 | 7/19/2026 | OSCID | OSC78747909 | - | HOLLYWOOD, FL 330205266
+    CELL[10,0] = 7/19/2026
+    CELL[10,1] = OSCID
+    CELL[10,2] = OSC78747909
+    CELL[10,4] = HOLLYWOOD, FL 330205266
+  ROW 11 | Potential parent claims | Policy holder | - | Group | -
+    CELL[11,0] = Potential parent claims
+    CELL[11,1] = Policy holder
+    CELL[11,3] = Group
+  ROW 12 | - | First name | YISROEL | Name | -
+    CELL[12,1] = First name
+    CELL[12,2] = YISROEL
+    CELL[12,3] = Name
+  ROW 13 | - | Middle name | - | Number | -
+    CELL[13,1] = Middle name
+    CELL[13,3] = Number
+  ROW 14 | Potential duplicate claims | Last name | DUBOV | Responsibility sequence | Primary
+    CELL[14,0] = Potential duplicate claims
+    CELL[14,1] = Last name
+    CELL[14,2] = DUBOV
+    CELL[14,3] = Responsibility sequence
+    CELL[14,4] = Primary
+  ROW 15 | No system identified duplicates | Suffx | - | - | -
+    CELL[15,0] = No system identified duplicates
+    CELL[15,1] = Suffx
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[50,14,1555,35] | conf=0.988 | text=Cortex-Claim#3X6ZH7Z9 Latest version (5 of 5) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[50,17,259,33] | text=Cortex-Claim#3X6ZH7Z9
+  WORD | bbox=[278,17,402,33] | text=Latest version (5 of 5)
+  WORD | bbox=[1106,16,1170,32] | text=Dashboard
+  WORD | bbox=[1191,15,1271,35] | text=Batch History
+  WORD | bbox=[1291,14,1338,35] | text=Testing
+  WORD | bbox=[1359,19,1430,32] | text=Settlements
+  WORD | bbox=[1452,18,1494,32] | text=Search
+  WORD | bbox=[1515,18,1555,32] | text=Create
+LINE 1 | bbox=[31,64,1521,80] | conf=0.992 | text=About thls claim Payment Patlent Providers Medical Claim lines 15 hours ago Readjudicate Actions
+  WORD | bbox=[31,64,126,80] | text=About thls claim
+  WORD | bbox=[149,65,201,80] | text=Payment
+  WORD | bbox=[221,65,266,79] | text=Patlent
+  WORD | bbox=[288,64,345,80] | text=Providers
+  WORD | bbox=[365,65,412,79] | text=Medical
+  WORD | bbox=[432,64,498,80] | text=Claim lines
+  WORD | bbox=[1252,65,1315,80] | text=15 hours ago
+  WORD | bbox=[1339,64,1419,80] | text=Readjudicate
+  WORD | bbox=[1469,65,1521,80] | text=Actions
+LINE 2 | bbox=[32,118,454,137] | conf=0.980 | text=3X6ZH7Z9 Submission information
+  WORD | bbox=[32,120,134,137] | text=3X6ZH7Z9
+  WORD | bbox=[300,118,454,135] | text=Submission information
+LINE 3 | bbox=[32,145,161,158] | conf=0.985 | text=Member: Yisroel Dubov
+LINE 4 | bbox=[32,155,1210,178] | conf=0.988 | text=o Notes Submission type Electronic Vendor source AVAILITY
+  WORD | bbox=[32,162,96,178] | text=o Notes
+  WORD | bbox=[299,155,395,172] | text=Submission type
+  WORD | bbox=[518,155,578,172] | text=Electronic
+  WORD | bbox=[938,155,1021,172] | text=Vendor source
+  WORD | bbox=[1155,155,1210,172] | text=AVAILITY
+LINE 5 | bbox=[34,181,1189,199] | conf=0.992 | text=See all member's clalms EDI file Download Documents View
+  WORD | bbox=[34,181,166,194] | text=See all member's clalms
+  WORD | bbox=[298,181,342,199] | text=EDI file
+  WORD | bbox=[518,181,578,197] | text=Download
+  WORD | bbox=[937,182,1006,199] | text=Documents
+  WORD | bbox=[1155,181,1189,199] | text=View
+LINE 6 | bbox=[298,206,550,224] | conf=0.997 | text=Tenant oscar
+  WORD | bbox=[298,206,342,224] | text=Tenant
+  WORD | bbox=[516,209,550,223] | text=oscar
+LINE 7 | bbox=[31,236,558,252] | conf=0.989 | text=Claim state: Blocked Valet fle ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+  WORD | bbox=[31,236,101,252] | text=Claim state:
+  WORD | bbox=[169,237,219,251] | text=Blocked
+  WORD | bbox=[300,238,558,251] | text=Valet fle ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+LINE 8 | bbox=[31,267,99,284] | conf=0.955 | text=Blockers (1)
+LINE 9 | bbox=[32,288,115,300] | conf=0.989 | text=NEWBORN
+LINE 10 | bbox=[30,294,389,324] | conf=0.999 | text=Manage Payment
+  WORD | bbox=[30,303,82,324] | text=Manage
+  WORD | bbox=[299,294,389,318] | text=Payment
+LINE 11 | bbox=[299,323,1080,340] | conf=0.983 | text=Charge group Prompt process due date
+  WORD | bbox=[299,323,379,340] | text=Charge group
+  WORD | bbox=[940,325,1080,337] | text=Prompt process due date
+LINE 12 | bbox=[31,336,94,353] | conf=0.960 | text=Denials (0)
+LINE 13 | bbox=[299,349,1034,365] | conf=0.997 | text=Payment authority NEXTGEN Interestaccrued
+  WORD | bbox=[299,349,406,365] | text=Payment authority
+  WORD | bbox=[518,349,576,365] | text=NEXTGEN
+  WORD | bbox=[939,351,1034,364] | text=Interestaccrued
+LINE 14 | bbox=[31,356,1180,392] | conf=0.987 | text=No denials on this claim. Manage Pay to member No Excluded from interest Yes
+  WORD | bbox=[31,356,166,391] | text=No denials on this claim. Manage
+  WORD | bbox=[299,374,385,391] | text=Pay to member
+  WORD | bbox=[516,376,538,391] | text=No
+  WORD | bbox=[940,377,1068,390] | text=Excluded from interest
+  WORD | bbox=[1155,377,1180,392] | text=Yes
+LINE 15 | bbox=[30,418,222,435] | conf=0.990 | text=Billed $9,459.00 (100%)
+  WORD | bbox=[30,418,68,435] | text=Billed
+  WORD | bbox=[134,419,222,435] | text=$9,459.00 (100%)
+LINE 16 | bbox=[31,442,374,460] | conf=0.967 | text=Allowed $729.17 (8%) Patient
+  WORD | bbox=[31,444,79,458] | text=Allowed
+  WORD | bbox=[158,442,222,458] | text=$729.17 (8%)
+  WORD | bbox=[300,442,374,460] | text=Patient
+LINE 17 | bbox=[30,467,514,491] | conf=0.976 | text=Pay provider $729.17 Matched Member Submitted Info
+  WORD | bbox=[30,467,102,484] | text=Pay provider
+  WORD | bbox=[181,470,222,484] | text=$729.17
+  WORD | bbox=[299,475,404,491] | text=Matched Member
+  WORD | bbox=[425,475,514,491] | text=Submitted Info
+LINE 18 | bbox=[31,493,224,510] | conf=0.991 | text=Pay member $0.00
+  WORD | bbox=[31,494,104,510] | text=Pay member
+  WORD | bbox=[186,493,224,510] | text=$0.00
+LINE 19 | bbox=[298,504,968,522] | conf=0.995 | text=First name CHAYA SSN
+  WORD | bbox=[298,505,362,522] | text=First name
+  WORD | bbox=[519,507,560,521] | text=CHAYA
+  WORD | bbox=[936,504,968,522] | text=SSN
+LINE 20 | bbox=[19,519,222,536] | conf=0.991 | text=>Memberresponsibility $0.00
+  WORD | bbox=[19,519,160,536] | text=>Memberresponsibility
+  WORD | bbox=[188,519,222,533] | text=$0.00
+LINE 21 | bbox=[298,531,1268,547] | conf=0.969 | text=Middle name Date of birth 09/15/2025 (0 days)
+  WORD | bbox=[298,531,375,547] | text=Middle name
+  WORD | bbox=[938,531,1012,547] | text=Date of birth
+  WORD | bbox=[1156,531,1268,547] | text=09/15/2025 (0 days)
+LINE 22 | bbox=[30,558,1200,582] | conf=0.986 | text=Claim lineage Last name DUBOV Sex Female
+  WORD | bbox=[30,564,110,582] | text=Claim lineage
+  WORD | bbox=[299,559,360,572] | text=Last name
+  WORD | bbox=[519,558,562,572] | text=DUBOV
+  WORD | bbox=[938,558,962,573] | text=Sex
+  WORD | bbox=[1156,558,1200,572] | text=Female
+LINE 23 | bbox=[28,582,1270,603] | conf=0.987 | text=3X6ZH7Z9 Blocked Suffx Address 1534 VAN BUREN ST
+  WORD | bbox=[28,587,105,603] | text=3X6ZH7Z9
+  WORD | bbox=[169,589,219,603] | text=Blocked
+  WORD | bbox=[298,582,336,600] | text=Suffx
+  WORD | bbox=[939,584,988,598] | text=Address
+  WORD | bbox=[1156,584,1270,597] | text=1534 VAN BUREN ST
+LINE 24 | bbox=[41,601,1318,625] | conf=0.996 | text=7/19/2026 OSCID OSC78747909 HOLLYWOOD, FL 330205266
+  WORD | bbox=[41,607,94,623] | text=7/19/2026
+  WORD | bbox=[300,610,341,624] | text=OSCID
+  WORD | bbox=[519,609,598,625] | text=OSC78747909
+  WORD | bbox=[1155,601,1318,617] | text=HOLLYWOOD, FL 330205266
+LINE 25 | bbox=[32,644,982,666] | conf=0.991 | text=Potential parent claims Policy holder Group
+  WORD | bbox=[32,653,164,666] | text=Potential parent claims
+  WORD | bbox=[299,647,384,663] | text=Policy holder
+  WORD | bbox=[937,644,982,665] | text=Group
+LINE 26 | bbox=[298,667,975,688] | conf=0.999 | text=First name YISROEL Name
+  WORD | bbox=[298,670,362,686] | text=First name
+  WORD | bbox=[515,667,570,688] | text=YISROEL
+  WORD | bbox=[938,671,975,685] | text=Name
+LINE 27 | bbox=[299,695,986,712] | conf=0.992 | text=Middle name Number
+  WORD | bbox=[299,695,375,712] | text=Middle name
+  WORD | bbox=[939,696,986,710] | text=Number
+LINE 28 | bbox=[32,715,1203,740] | conf=0.996 | text=Potential duplicate claims Last name DUBOV Responsibility sequence Primary
+  WORD | bbox=[32,715,177,728] | text=Potential duplicate claims
+  WORD | bbox=[298,722,361,738] | text=Last name
+  WORD | bbox=[518,721,562,738] | text=DUBOV
+  WORD | bbox=[940,723,1075,736] | text=Responsibility sequence
+  WORD | bbox=[1153,719,1203,740] | text=Primary
+LINE 29 | bbox=[31,740,336,764] | conf=0.990 | text=No system identified duplicates Suffx
+  WORD | bbox=[31,740,210,756] | text=No system identified duplicates
+  WORD | bbox=[298,746,336,764] | text=Suffx
+[/BOXES]

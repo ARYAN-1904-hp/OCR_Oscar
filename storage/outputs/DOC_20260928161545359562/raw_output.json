@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "VERINT.\nSorry, your session has\ntimed out and has been shut\ndown for your security.\nOK\nCopyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "VERINT.\nSorry, your session has\ntimed out and has been shut\ndown for your security.\nOK\nCopyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "heading",
+              "reading_order": 0,
+              "bbox": [
+                691,
+                168,
+                903,
+                214
+              ],
+              "text": "VERINT.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "VERINT.",
+                  "conf": 0.9580805897712708,
+                  "bbox": [
+                    691,
+                    168,
+                    903,
+                    214
+                  ],
+                  "words": [
+                    {
+                      "text": "VERINT.",
+                      "conf": 0.9580805897712708,
+                      "bbox": [
+                        691,
+                        168,
+                        903,
+                        214
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 1,
+              "bbox": [
+                639,
+                452,
+                968,
+                586
+              ],
+              "text": "Sorry, your session has\ntimed out and has been shut\ndown for your security.\nOK",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Sorry, your session has",
+                  "conf": 0.9999442100524902,
+                  "bbox": [
+                    667,
+                    452,
+                    935,
+                    487
+                  ],
+                  "words": [
+                    {
+                      "text": "Sorry, your session has",
+                      "conf": 0.9999442100524902,
+                      "bbox": [
+                        667,
+                        452,
+                        935,
+                        487
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "timed out and has been shut",
+                  "conf": 0.9965041279792786,
+                  "bbox": [
+                    639,
+                    480,
+                    968,
+                    513
+                  ],
+                  "words": [
+                    {
+                      "text": "timed out and has been shut",
+                      "conf": 0.9965041279792786,
+                      "bbox": [
+                        639,
+                        480,
+                        968,
+                        513
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "down for your security.",
+                  "conf": 0.9797713160514832,
+                  "bbox": [
+                    674,
+                    512,
+                    930,
+                    541
+                  ],
+                  "words": [
+                    {
+                      "text": "down for your security.",
+                      "conf": 0.9797713160514832,
+                      "bbox": [
+                        674,
+                        512,
+                        930,
+                        541
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 3,
+                  "text": "OK",
+                  "conf": 0.9831651449203491,
+                  "bbox": [
+                    792,
+                    565,
+                    818,
+                    586
+                  ],
+                  "words": [
+                    {
+                      "text": "OK",
+                      "conf": 0.9831651449203491,
+                      "bbox": [
+                        792,
+                        565,
+                        818,
+                        586
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "VERINT.\nSorry, your session has\ntimed out and has been shut\ndown for your security.\nOK"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "heading",
+          "reading_order": 0,
+          "bbox": [
+            691,
+            168,
+            903,
+            214
+          ],
+          "text": "VERINT.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "VERINT.",
+              "conf": 0.9580805897712708,
+              "bbox": [
+                691,
+                168,
+                903,
+                214
+              ],
+              "words": [
+                {
+                  "text": "VERINT.",
+                  "conf": 0.9580805897712708,
+                  "bbox": [
+                    691,
+                    168,
+                    903,
+                    214
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 1,
+          "bbox": [
+            639,
+            452,
+            968,
+            586
+          ],
+          "text": "Sorry, your session has\ntimed out and has been shut\ndown for your security.\nOK",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Sorry, your session has",
+              "conf": 0.9999442100524902,
+              "bbox": [
+                667,
+                452,
+                935,
+                487
+              ],
+              "words": [
+                {
+                  "text": "Sorry, your session has",
+                  "conf": 0.9999442100524902,
+                  "bbox": [
+                    667,
+                    452,
+                    935,
+                    487
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "timed out and has been shut",
+              "conf": 0.9965041279792786,
+              "bbox": [
+                639,
+                480,
+                968,
+                513
+              ],
+              "words": [
+                {
+                  "text": "timed out and has been shut",
+                  "conf": 0.9965041279792786,
+                  "bbox": [
+                    639,
+                    480,
+                    968,
+                    513
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "down for your security.",
+              "conf": 0.9797713160514832,
+              "bbox": [
+                674,
+                512,
+                930,
+                541
+              ],
+              "words": [
+                {
+                  "text": "down for your security.",
+                  "conf": 0.9797713160514832,
+                  "bbox": [
+                    674,
+                    512,
+                    930,
+                    541
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "OK",
+              "conf": 0.9831651449203491,
+              "bbox": [
+                792,
+                565,
+                818,
+                586
+              ],
+              "words": [
+                {
+                  "text": "OK",
+                  "conf": 0.9831651449203491,
+                  "bbox": [
+                    792,
+                    565,
+                    818,
+                    586
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 2,
+          "bbox": [
+            55,
+            585,
+            323,
+            638
+          ],
+          "text": "Copyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Copyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide",
+              "conf": 0.9663830995559692,
+              "bbox": [
+                55,
+                585,
+                323,
+                638
+              ],
+              "words": [
+                {
+                  "text": "Copyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide",
+                  "conf": 0.9663830995559692,
+                  "bbox": [
+                    55,
+                    585,
+                    323,
+                    638
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "VERINT.",
+          "conf": 0.9580805897712708,
+          "bbox": [
+            691,
+            168,
+            903,
+            214
+          ],
+          "words": [
+            {
+              "text": "VERINT.",
+              "conf": 0.9580805897712708,
+              "bbox": [
+                691,
+                168,
+                903,
+                214
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sorry, your session has",
+          "conf": 0.9999442100524902,
+          "bbox": [
+            667,
+            452,
+            935,
+            487
+          ],
+          "words": [
+            {
+              "text": "Sorry, your session has",
+              "conf": 0.9999442100524902,
+              "bbox": [
+                667,
+                452,
+                935,
+                487
+              ]
+            }
+          ]
+        },
+        {
+          "text": "timed out and has been shut",
+          "conf": 0.9965041279792786,
+          "bbox": [
+            639,
+            480,
+            968,
+            513
+          ],
+          "words": [
+            {
+              "text": "timed out and has been shut",
+              "conf": 0.9965041279792786,
+              "bbox": [
+                639,
+                480,
+                968,
+                513
+              ]
+            }
+          ]
+        },
+        {
+          "text": "down for your security.",
+          "conf": 0.9797713160514832,
+          "bbox": [
+            674,
+            512,
+            930,
+            541
+          ],
+          "words": [
+            {
+              "text": "down for your security.",
+              "conf": 0.9797713160514832,
+              "bbox": [
+                674,
+                512,
+                930,
+                541
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OK",
+          "conf": 0.9831651449203491,
+          "bbox": [
+            792,
+            565,
+            818,
+            586
+          ],
+          "words": [
+            {
+              "text": "OK",
+              "conf": 0.9831651449203491,
+              "bbox": [
+                792,
+                565,
+                818,
+                586
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Copyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide",
+          "conf": 0.9663830995559692,
+          "bbox": [
+            55,
+            585,
+            323,
+            638
+          ],
+          "words": [
+            {
+              "text": "Copyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide",
+              "conf": 0.9663830995559692,
+              "bbox": [
+                55,
+                585,
+                323,
+                638
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=16 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 29x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | - | -
+  CELL[1,0] = VERINT
+ROW 2 | Knowledge Management | - | - | -
+  CELL[2,0] = Knowledge Management
+ROW 3 | Search knowledge | Q | - | -
+  CELL[3,0] = Search knowledge
+  CELL[3,1] = Q
+ROW 4 | D | Search | - | -
+  CELL[4,0] = D
+  CELL[4,1] = Search
+ROW 5 | Q | - | - | -
+  CELL[5,0] = Q
+ROW 6 | My Bookmarks (17) F | - | - | -
+  CELL[6,0] = My Bookmarks (17) F
+ROW 7 | Filter | Q | - | -
+  CELL[7,0] = Filter
+  CELL[7,1] = Q
+ROW 8 | Appian Labels Workflow | - | - | -
+  CELL[8,0] = Appian Labels Workflow
+ROW 9 | Appian Labels Workflow Applying Labels to Appian Tickets | - | - | -
+  CELL[9,0] = Appian Labels Workflow Applying Labels to Appian Tickets
+ROW 10 | Summary Oscar is establishing a new labeling governance | - | - | -
+  CELL[10,0] = Summary Oscar is establishing a new labeling governance
+ROW 11 | process to standardize and monitor labels utilized when | - | - | -
+  CELL[11,0] = process to standardize and monitor labels utilized when
+ROW 12 | working Appian tickets. Moving | - | - | -
+  CELL[12,0] = working Appian tickets. Moving
+ROW 13 | Claims Tasks: Claim Attachment Review (CAR) | .. | - | -
+  CELL[13,0] = Claims Tasks: Claim Attachment Review (CAR)
+  CELL[13,1] = ..
+ROW 14 | Triggers and Background Info | The purpose of the Claim | - | -
+  CELL[14,0] = Triggers and Background Info
+  CELL[14,1] = The purpose of the Claim
+ROW 15 | Attachment Review (CAR) workflow is to review the documents | - | - | -
+  CELL[15,0] = Attachment Review (CAR) workflow is to review the documents
+ROW 16 | that are attached to the claim and to re-triage the documents, if | - | - | -
+  CELL[16,0] = that are attached to the claim and to re-triage the documents, if
+ROW 17 | needed. Systems | - | - | -
+  CELL[17,0] = needed. Systems
+ROW 18 | Cortex - Clean Claim Holds | - | - | -
+  CELL[18,0] = Cortex - Clean Claim Holds
+ROW 19 | Cortex - Clean Claim Holds Cortex - Clean Claim Holds | - | - | -
+  CELL[19,0] = Cortex - Clean Claim Holds Cortex - Clean Claim Holds
+ROW 20 | Overview General Work-flow Empty Admit Date Invalid Admit | - | - | -
+  CELL[20,0] = Overview General Work-flow Empty Admit Date Invalid Admit
+ROW 21 | Date Invalid Admit Date with Valid Service Dates Invalid Billing | - | - | -
+  CELL[21,0] = Date Invalid Admit Date with Valid Service Dates Invalid Billing
+ROW 22 | TIN Invalid Service | - | - | -
+  CELL[22,0] = TIN Invalid Service
+ROW 23 | Duplicate Disputes | - | - | -
+  CELL[23,0] = Duplicate Disputes
+ROW 24 | Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the | - | - | -
+  CELL[24,0] = Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+ROW 25 | tool we use to review and work claims holds and disputes. What | - | - | -
+  CELL[25,0] = tool we use to review and work claims holds and disputes. What
+ROW 26 | are panels in Cortex? A panel is a list of claims that have | - | - | -
+  CELL[26,0] = are panels in Cortex? A panel is a list of claims that have
+ROW 27 | something | - | - | -
+  CELL[27,0] = something
+ROW 28 | 17 Bookmarks | - | - | -
+  CELL[28,0] = 17 Bookmarks
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[59,13,150,34] | order=0
+  VERINT
+BLOCK 1 | type=header | bbox=[31,38,179,55] | order=1
+  Knowledge Management
+BLOCK 2 | type=heading | bbox=[5,84,545,134] | order=2
+  D Search knowledge Q Search
+BLOCK 3 | type=heading | bbox=[302,123,326,146] | order=3
+  Q
+BLOCK 4 | type=label_value | bbox=[31,171,509,193] | order=4
+  My Bookmarks (17) F:
+BLOCK 5 | type=paragraph | bbox=[218,206,494,228] | order=5
+  Filter Q
+BLOCK 6 | type=heading | bbox=[79,258,240,278] | order=6
+  Appian Labels Workflow
+BLOCK 7 | type=paragraph | bbox=[78,284,456,349] | order=7
+  Appian Labels Workflow Applying Labels to Appian Tickets
+  Summary Oscar is establishing a new labeling governance
+  process to standardize and monitor labels utilized when
+  working Appian tickets. Moving
+BLOCK 8 | type=label_value | bbox=[79,381,514,421] | order=8
+  Claims Tasks: Claim Attachment Review (CAR) .
+  Triggers and Background Info: The purpose of the Claim
+BLOCK 9 | type=paragraph | bbox=[77,420,491,470] | order=9
+  Attachment Review (CAR) workflow is to review the documents
+  that are attached to the claim and to re-triage the documents, if
+  needed. Systems
+BLOCK 10 | type=heading | bbox=[81,498,259,514] | order=10
+  Cortex - Clean Claim Holds
+BLOCK 11 | type=paragraph | bbox=[79,523,476,573] | order=11
+  Cortex - Clean Claim Holds Cortex - Clean Claim Holds
+  Overview General Work-flow Empty Admit Date Invalid Admit
+  Date Invalid Admit Date with Valid Service Dates Invalid Billing
+BLOCK 12 | type=heading | bbox=[79,570,201,590] | order=12
+  TIN Invalid Service
+BLOCK 13 | type=heading | bbox=[80,617,205,634] | order=13
+  Duplicate Disputes
+BLOCK 14 | type=paragraph | bbox=[79,642,495,709] | order=14
+  Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+  tool we use to review and work claims holds and disputes. What
+  are panels in Cortex? A panel is a list of claims that have
+  something
+BLOCK 15 | type=footer | bbox=[435,747,520,764] | order=15
+  17 Bookmarks
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[5,13,545,764] | shape=29x4 | conf=0.920
+  shape: 29x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | - | -
+    CELL[1,0] = VERINT
+  ROW 2 | Knowledge Management | - | - | -
+    CELL[2,0] = Knowledge Management
+  ROW 3 | Search knowledge | Q | - | -
+    CELL[3,0] = Search knowledge
+    CELL[3,1] = Q
+  ROW 4 | D | Search | - | -
+    CELL[4,0] = D
+    CELL[4,1] = Search
+  ROW 5 | Q | - | - | -
+    CELL[5,0] = Q
+  ROW 6 | My Bookmarks (17) F | - | - | -
+    CELL[6,0] = My Bookmarks (17) F
+  ROW 7 | Filter | Q | - | -
+    CELL[7,0] = Filter
+    CELL[7,1] = Q
+  ROW 8 | Appian Labels Workflow | - | - | -
+    CELL[8,0] = Appian Labels Workflow
+  ROW 9 | Appian Labels Workflow Applying Labels to Appian Tickets | - | - | -
+    CELL[9,0] = Appian Labels Workflow Applying Labels to Appian Tickets
+  ROW 10 | Summary Oscar is establishing a new labeling governance | - | - | -
+    CELL[10,0] = Summary Oscar is establishing a new labeling governance
+  ROW 11 | process to standardize and monitor labels utilized when | - | - | -
+    CELL[11,0] = process to standardize and monitor labels utilized when
+  ROW 12 | working Appian tickets. Moving | - | - | -
+    CELL[12,0] = working Appian tickets. Moving
+  ROW 13 | Claims Tasks: Claim Attachment Review (CAR) | .. | - | -
+    CELL[13,0] = Claims Tasks: Claim Attachment Review (CAR)
+    CELL[13,1] = ..
+  ROW 14 | Triggers and Background Info | The purpose of the Claim | - | -
+    CELL[14,0] = Triggers and Background Info
+    CELL[14,1] = The purpose of the Claim
+  ROW 15 | Attachment Review (CAR) workflow is to review the documents | - | - | -
+    CELL[15,0] = Attachment Review (CAR) workflow is to review the documents
+  ROW 16 | that are attached to the claim and to re-triage the documents, if | - | - | -
+    CELL[16,0] = that are attached to the claim and to re-triage the documents, if
+  ROW 17 | needed. Systems | - | - | -
+    CELL[17,0] = needed. Systems
+  ROW 18 | Cortex - Clean Claim Holds | - | - | -
+    CELL[18,0] = Cortex - Clean Claim Holds
+  ROW 19 | Cortex - Clean Claim Holds Cortex - Clean Claim Holds | - | - | -
+    CELL[19,0] = Cortex - Clean Claim Holds Cortex - Clean Claim Holds
+  ROW 20 | Overview General Work-flow Empty Admit Date Invalid Admit | - | - | -
+    CELL[20,0] = Overview General Work-flow Empty Admit Date Invalid Admit
+  ROW 21 | Date Invalid Admit Date with Valid Service Dates Invalid Billing | - | - | -
+    CELL[21,0] = Date Invalid Admit Date with Valid Service Dates Invalid Billing
+  ROW 22 | TIN Invalid Service | - | - | -
+    CELL[22,0] = TIN Invalid Service
+  ROW 23 | Duplicate Disputes | - | - | -
+    CELL[23,0] = Duplicate Disputes
+  ROW 24 | Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the | - | - | -
+    CELL[24,0] = Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+  ROW 25 | tool we use to review and work claims holds and disputes. What | - | - | -
+    CELL[25,0] = tool we use to review and work claims holds and disputes. What
+  ROW 26 | are panels in Cortex? A panel is a list of claims that have | - | - | -
+    CELL[26,0] = are panels in Cortex? A panel is a list of claims that have
+  ROW 27 | something | - | - | -
+    CELL[27,0] = something
+  ROW 28 | 17 Bookmarks | - | - | -
+    CELL[28,0] = 17 Bookmarks
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,13,150,34] | conf=0.998 | text=VERINT
+LINE 1 | bbox=[31,38,179,55] | conf=0.987 | text=Knowledge Management
+LINE 2 | bbox=[5,84,545,134] | conf=0.865 | text=D Search knowledge Q Search
+  WORD | bbox=[5,103,12,113] | text=D
+  WORD | bbox=[31,89,146,106] | text=Search knowledge
+  WORD | bbox=[495,88,512,106] | text=Q
+  WORD | bbox=[528,84,545,134] | text=Search
+LINE 3 | bbox=[302,123,326,146] | conf=0.946 | text=Q
+LINE 4 | bbox=[31,171,509,193] | conf=0.927 | text=My Bookmarks (17) F:
+  WORD | bbox=[31,172,212,192] | text=My Bookmarks (17)
+  WORD | bbox=[447,171,509,193] | text=F:
+LINE 5 | bbox=[218,206,494,228] | conf=0.886 | text=Filter Q
+  WORD | bbox=[218,206,256,228] | text=Filter
+  WORD | bbox=[475,208,494,225] | text=Q
+LINE 6 | bbox=[79,258,240,278] | conf=0.984 | text=Appian Labels Workflow
+LINE 7 | bbox=[80,284,456,300] | conf=0.975 | text=Appian Labels Workflow Applying Labels to Appian Tickets
+LINE 8 | bbox=[81,303,452,316] | conf=0.972 | text=Summary Oscar is establishing a new labeling governance
+LINE 9 | bbox=[80,317,439,334] | conf=0.982 | text=process to standardize and monitor labels utilized when
+LINE 10 | bbox=[78,332,281,349] | conf=0.967 | text=working Appian tickets. Moving
+LINE 11 | bbox=[82,381,514,401] | conf=0.778 | text=Claims Tasks: Claim Attachment Review (CAR) .
+  WORD | bbox=[82,381,384,393] | text=Claims Tasks: Claim Attachment Review (CAR)
+  WORD | bbox=[504,383,514,401] | text=..
+LINE 12 | bbox=[79,400,441,421] | conf=0.985 | text=Triggers and Background Info: The purpose of the Claim
+LINE 13 | bbox=[80,420,486,437] | conf=0.987 | text=Attachment Review (CAR) workflow is to review the documents
+LINE 14 | bbox=[79,437,491,453] | conf=0.993 | text=that are attached to the claim and to re-triage the documents, if
+LINE 15 | bbox=[77,451,198,470] | conf=0.992 | text=needed. Systems
+LINE 16 | bbox=[81,498,259,514] | conf=0.972 | text=Cortex - Clean Claim Holds
+LINE 17 | bbox=[80,523,434,540] | conf=0.983 | text=Cortex - Clean Claim Holds Cortex - Clean Claim Holds
+LINE 18 | bbox=[81,541,469,554] | conf=0.968 | text=Overview General Work-flow Empty Admit Date Invalid Admit
+LINE 19 | bbox=[79,554,476,573] | conf=0.970 | text=Date Invalid Admit Date with Valid Service Dates Invalid Billing
+LINE 20 | bbox=[79,570,201,590] | conf=0.990 | text=TIN Invalid Service
+LINE 21 | bbox=[80,617,205,634] | conf=0.978 | text=Duplicate Disputes
+LINE 22 | bbox=[79,642,490,658] | conf=0.983 | text=Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+LINE 23 | bbox=[80,659,495,676] | conf=0.974 | text=tool we use to review and work claims holds and disputes. What
+LINE 24 | bbox=[81,677,441,690] | conf=0.961 | text=are panels in Cortex? A panel is a list of claims that have
+LINE 25 | bbox=[81,688,154,709] | conf=0.996 | text=something
+LINE 26 | bbox=[435,747,520,764] | conf=0.977 | text=17 Bookmarks
+[/BOXES]

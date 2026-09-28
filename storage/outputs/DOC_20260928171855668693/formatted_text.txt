@@ -1,0 +1,53 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=1 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=wide_grid]
+shape: 2x8
+HEADER | Cortex - Claim # | Latest version (O of 0) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About this claim Payment | Patient Providers Medical Claim lines | - | - | - | - | Actions | -
+  CELL[1,0] = About this claim Payment
+  CELL[1,1] = Patient Providers Medical Claim lines
+  CELL[1,6] = Actions
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[31,12,1569,80] | order=0
+  Cortex - Claim # Latest version (O of 0) Dashboard Batch History Testing Settlements Search Create
+  About this claim Payment Patient Providers Medical Claim lines Actions
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=wide_grid | bbox=[31,12,1569,80] | shape=2x8 | conf=0.850
+  shape: 2x8
+  HEADER | Cortex - Claim # | Latest version (O of 0) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About this claim Payment | Patient Providers Medical Claim lines | - | - | - | - | Actions | -
+    CELL[1,0] = About this claim Payment
+    CELL[1,1] = Patient Providers Medical Claim lines
+    CELL[1,6] = Actions
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[65,12,1569,35] | conf=0.974 | text=Cortex - Claim # Latest version (O of 0) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[65,17,189,33] | text=Cortex - Claim #
+  WORD | bbox=[204,15,329,32] | text=Latest version (O of 0)
+  WORD | bbox=[1119,17,1184,33] | text=Dashboard
+  WORD | bbox=[1202,12,1285,35] | text=Batch History
+  WORD | bbox=[1303,14,1352,35] | text=Testing
+  WORD | bbox=[1370,16,1443,32] | text=Settlements
+  WORD | bbox=[1465,18,1506,32] | text=Search
+  WORD | bbox=[1528,18,1569,32] | text=Create
+LINE 1 | bbox=[31,62,1539,80] | conf=0.980 | text=About this claim Payment Patient Providers Medical Claim lines Actions
+  WORD | bbox=[31,62,125,80] | text=About this claim
+  WORD | bbox=[149,66,198,79] | text=Payment
+  WORD | bbox=[222,65,265,79] | text=Patient
+  WORD | bbox=[288,64,344,80] | text=Providers
+  WORD | bbox=[366,65,412,79] | text=Medical
+  WORD | bbox=[435,64,499,80] | text=Claim lines
+  WORD | bbox=[1481,64,1539,80] | text=Actions
+[/BOXES]

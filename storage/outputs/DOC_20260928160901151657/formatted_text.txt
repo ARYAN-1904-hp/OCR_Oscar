@@ -1,0 +1,280 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=12 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 29x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy detalls Benefits Claims Rewards Authorizations | - | - | -
+  CELL[2,0] = Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+ROW 3 | Genesis Hernandez | - | - | -
+  CELL[3,0] = Genesis Hernandez
+ROW 4 | De Hoyo Individual deductible Individual out-of-pocket-maximum | - | - | -
+  CELL[4,0] = De Hoyo Individual deductible Individual out-of-pocket-maximum
+ROW 5 | Active | $850.00 spent out of$0.00 $3,100.00 spent out of$1,750.00 | - | -
+  CELL[5,0] = Active
+  CELL[5,1] = $850.00 spent out of$0.00 $3,100.00 spent out of$1,750.00
+ROW 6 | OSC75847221-02R220XDSX Spouse ON exc Deductible met Met on 5/21/26 | - | - | -
+  CELL[6,0] = OSC75847221-02R220XDSX Spouse ON exc Deductible met Met on 5/21/26
+ROW 7 | Heads up note | - | - | -
+  CELL[7,0] = Heads up note
+ROW 8 | View famlly accumulators | - | - | -
+  CELL[8,0] = View famlly accumulators
+ROW 9 | Claims | - | Export CSV | -
+  CELL[9,0] = Claims
+  CELL[9,2] = Export CSV
+ROW 10 | Member actions | - | - | -
+  CELL[10,0] = Member actions
+ROW 11 | Order by date of service Medical claims - Service dates 01/01/2025 - 07/23/2026 (2) | - | Member responsibility Status Provider/Facillty | -
+  CELL[11,0] = Order by date of service Medical claims - Service dates 01/01/2025 - 07/23/2026 (2)
+  CELL[11,2] = Member responsibility Status Provider/Facillty
+ROW 12 | FLBroward | - | - | -
+  CELL[12,0] = FLBroward
+ROW 13 | SP02-FL Team | - | - | -
+  CELL[13,0] = SP02-FL Team
+ROW 14 | BS200JX0 | - | $0.00 | -
+  CELL[14,0] = BS200JX0
+  CELL[14,2] = $0.00
+ROW 15 | Oscar plan: | - | - | -
+  CELL[15,0] = Oscar plan:
+ROW 16 | Silver Simple PCP Saver CSR150 | Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types | Paid | -
+  CELL[16,0] = Silver Simple PCP Saver CSR150
+  CELL[16,1] = Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types
+  CELL[16,2] = Paid
+ROW 17 | FL HMO Standard | No facility referenced -Lorenzo Galindo | - | -
+  CELL[17,0] = FL HMO Standard
+  CELL[17,1] = No facility referenced -Lorenzo Galindo
+ROW 18 | View ID card | Service on Jun 29, 2026 Accumulation on Jul 7, 2026 | - | -
+  CELL[18,0] = View ID card
+  CELL[18,1] = Service on Jun 29, 2026 Accumulation on Jul 7, 2026
+ROW 19 | VMaria Alejandra Dempaire | - | - | -
+  CELL[19,0] = VMaria Alejandra Dempaire
+ROW 20 | Effective 05/27/2026 | - | - | -
+  CELL[20,0] = Effective 05/27/2026
+ROW 21 | 6RQK87X8 | - | $0.00 | -
+  CELL[21,0] = 6RQK87X8
+  CELL[21,2] = $0.00
+ROW 22 | 8 Family | - | - | -
+  CELL[22,0] = 8 Family
+ROW 23 | Jimmy Joe Hoyo Salas Holder | Medical claim Established patient periodic preventive medicine examination (18-39 years) | Pald | -
+  CELL[23,0] = Jimmy Joe Hoyo Salas Holder
+  CELL[23,1] = Medical claim Established patient periodic preventive medicine examination (18-39 years)
+  CELL[23,2] = Pald
+ROW 24 | No facility referenced Catherine Cepeda | - | - | -
+  CELL[24,0] = No facility referenced Catherine Cepeda
+ROW 25 | Gael Enrique Hoyo Hernandez Child | - | - | -
+  CELL[25,0] = Gael Enrique Hoyo Hernandez Child
+ROW 26 | Service on Jun 29, 2026 Accumulation on Jul1, 2026 | - | - | -
+  CELL[26,0] = Service on Jun 29, 2026 Accumulation on Jul1, 2026
+ROW 27 | 5 No bills | - | - | -
+  CELL[27,0] = 5 No bills
+ROW 28 | Giveaway Go-getter View details | JNANT6BC | $0.00 | -
+  CELL[28,0] = Giveaway Go-getter View details
+  CELL[28,1] = JNANT6BC
+  CELL[28,2] = $0.00
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,14,1580,102] | order=0
+  rosco Q Search Rosco MR Melissa
+  Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+BLOCK 1 | type=table | bbox=[17,98,772,201] | order=1
+  De Hoyo Individual deductible Individual out-of-pocket-maximum
+  Active $850.00 spent out of$0.00 $3,100.00 spent out of$1,750.00
+  OSC75847221-02R220XDSX Spouse ON exc Deductible met Met on 5/21/26
+BLOCK 2 | type=table_row | bbox=[16,237,164,432] | order=2
+  Heads up note
+  Member actions
+  FLBroward
+  SP02-FL Team
+BLOCK 3 | type=table_row | bbox=[277,248,426,266] | order=3
+  View famlly accumulators
+BLOCK 4 | type=table_row | bbox=[277,309,1262,330] | order=4
+  Claims Export CSV
+BLOCK 5 | type=table_row | bbox=[291,361,1228,378] | order=5
+  Order by date of service Medical claims - Service dates 01/01/2025 - 07/23/2026 (2) Member responsibility Status Provider/Facillty
+BLOCK 6 | type=table | bbox=[17,435,1254,482] | order=6
+  Oscar plan: BS200JX0 $0.00
+  Silver Simple PCP Saver CSR150 Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types Paid
+BLOCK 7 | type=table | bbox=[37,486,615,522] | order=7
+  FL HMO Standard No facility referenced -Lorenzo Galindo
+  View ID card Service on Jun 29, 2026 Accumulation on Jul 7, 2026
+BLOCK 8 | type=table_row | bbox=[16,533,186,554] | order=8
+  VMaria Alejandra Dempaire
+BLOCK 9 | type=table_row | bbox=[17,564,159,708] | order=9
+  Effective 05/27/2026
+  5 No bills
+BLOCK 10 | type=table | bbox=[18,587,1254,676] | order=10
+  8 Family 6RQK87X8 $0.00
+  Jimmy Joe Hoyo Salas Holder Medical claim Established patient periodic preventive medicine examination (18-39 years) Pald
+  Gael Enrique Hoyo Hernandez Child Service on Jun 29, 2026 Accumulation on Jul1, 2026 No facility referenced Catherine Cepeda
+BLOCK 11 | type=footer | bbox=[19,724,1255,759] | order=11
+  Giveaway Go-getter View details JNANT6BC $0.00
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,14,1580,759] | shape=29x4 | conf=0.920
+  shape: 29x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy detalls Benefits Claims Rewards Authorizations | - | - | -
+    CELL[2,0] = Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+  ROW 3 | Genesis Hernandez | - | - | -
+    CELL[3,0] = Genesis Hernandez
+  ROW 4 | De Hoyo Individual deductible Individual out-of-pocket-maximum | - | - | -
+    CELL[4,0] = De Hoyo Individual deductible Individual out-of-pocket-maximum
+  ROW 5 | Active | $850.00 spent out of$0.00 $3,100.00 spent out of$1,750.00 | - | -
+    CELL[5,0] = Active
+    CELL[5,1] = $850.00 spent out of$0.00 $3,100.00 spent out of$1,750.00
+  ROW 6 | OSC75847221-02R220XDSX Spouse ON exc Deductible met Met on 5/21/26 | - | - | -
+    CELL[6,0] = OSC75847221-02R220XDSX Spouse ON exc Deductible met Met on 5/21/26
+  ROW 7 | Heads up note | - | - | -
+    CELL[7,0] = Heads up note
+  ROW 8 | View famlly accumulators | - | - | -
+    CELL[8,0] = View famlly accumulators
+  ROW 9 | Claims | - | Export CSV | -
+    CELL[9,0] = Claims
+    CELL[9,2] = Export CSV
+  ROW 10 | Member actions | - | - | -
+    CELL[10,0] = Member actions
+  ROW 11 | Order by date of service Medical claims - Service dates 01/01/2025 - 07/23/2026 (2) | - | Member responsibility Status Provider/Facillty | -
+    CELL[11,0] = Order by date of service Medical claims - Service dates 01/01/2025 - 07/23/2026 (2)
+    CELL[11,2] = Member responsibility Status Provider/Facillty
+  ROW 12 | FLBroward | - | - | -
+    CELL[12,0] = FLBroward
+  ROW 13 | SP02-FL Team | - | - | -
+    CELL[13,0] = SP02-FL Team
+  ROW 14 | BS200JX0 | - | $0.00 | -
+    CELL[14,0] = BS200JX0
+    CELL[14,2] = $0.00
+  ROW 15 | Oscar plan: | - | - | -
+    CELL[15,0] = Oscar plan:
+  ROW 16 | Silver Simple PCP Saver CSR150 | Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types | Paid | -
+    CELL[16,0] = Silver Simple PCP Saver CSR150
+    CELL[16,1] = Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types
+    CELL[16,2] = Paid
+  ROW 17 | FL HMO Standard | No facility referenced -Lorenzo Galindo | - | -
+    CELL[17,0] = FL HMO Standard
+    CELL[17,1] = No facility referenced -Lorenzo Galindo
+  ROW 18 | View ID card | Service on Jun 29, 2026 Accumulation on Jul 7, 2026 | - | -
+    CELL[18,0] = View ID card
+    CELL[18,1] = Service on Jun 29, 2026 Accumulation on Jul 7, 2026
+  ROW 19 | VMaria Alejandra Dempaire | - | - | -
+    CELL[19,0] = VMaria Alejandra Dempaire
+  ROW 20 | Effective 05/27/2026 | - | - | -
+    CELL[20,0] = Effective 05/27/2026
+  ROW 21 | 6RQK87X8 | - | $0.00 | -
+    CELL[21,0] = 6RQK87X8
+    CELL[21,2] = $0.00
+  ROW 22 | 8 Family | - | - | -
+    CELL[22,0] = 8 Family
+  ROW 23 | Jimmy Joe Hoyo Salas Holder | Medical claim Established patient periodic preventive medicine examination (18-39 years) | Pald | -
+    CELL[23,0] = Jimmy Joe Hoyo Salas Holder
+    CELL[23,1] = Medical claim Established patient periodic preventive medicine examination (18-39 years)
+    CELL[23,2] = Pald
+  ROW 24 | No facility referenced Catherine Cepeda | - | - | -
+    CELL[24,0] = No facility referenced Catherine Cepeda
+  ROW 25 | Gael Enrique Hoyo Hernandez Child | - | - | -
+    CELL[25,0] = Gael Enrique Hoyo Hernandez Child
+  ROW 26 | Service on Jun 29, 2026 Accumulation on Jul1, 2026 | - | - | -
+    CELL[26,0] = Service on Jun 29, 2026 Accumulation on Jul1, 2026
+  ROW 27 | 5 No bills | - | - | -
+    CELL[27,0] = 5 No bills
+  ROW 28 | Giveaway Go-getter View details | JNANT6BC | $0.00 | -
+    CELL[28,0] = Giveaway Go-getter View details
+    CELL[28,1] = JNANT6BC
+    CELL[28,2] = $0.00
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,14,1580,35] | conf=0.878 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[109,14,139,35] | text=Q
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,71,796,102] | conf=0.988 | text=Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+  WORD | bbox=[19,81,206,102] | text=Genesis Hernandez
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,405,88] | text=Issues
+  WORD | bbox=[420,71,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[640,73,695,89] | text=Rewards
+  WORD | bbox=[709,73,796,89] | text=Authorizations
+LINE 2 | bbox=[17,98,740,130] | conf=0.985 | text=De Hoyo Individual deductible Individual out-of-pocket-maximum
+  WORD | bbox=[17,105,100,130] | text=De Hoyo
+  WORD | bbox=[279,102,398,115] | text=Individual deductible
+  WORD | bbox=[536,98,740,117] | text=Individual out-of-pocket-maximum
+LINE 3 | bbox=[20,135,772,160] | conf=0.986 | text=Active $850.00 spent out of$0.00 $3,100.00 spent out of$1,750.00
+  WORD | bbox=[20,138,64,160] | text=Active
+  WORD | bbox=[277,135,363,156] | text=$850.00 spent
+  WORD | bbox=[445,137,516,154] | text=out of$0.00
+  WORD | bbox=[538,137,630,154] | text=$3,100.00 spent
+  WORD | bbox=[685,140,772,153] | text=out of$1,750.00
+LINE 4 | bbox=[18,167,699,201] | conf=0.957 | text=OSC75847221-02R220XDSX Spouse ON exc Deductible met Met on 5/21/26
+  WORD | bbox=[18,167,184,201] | text=OSC75847221-02R220XDSX Spouse ON exc
+  WORD | bbox=[352,178,441,191] | text=Deductible met
+  WORD | bbox=[612,177,699,190] | text=Met on 5/21/26
+LINE 5 | bbox=[31,237,115,253] | conf=0.966 | text=Heads up note
+LINE 6 | bbox=[69,330,164,349] | conf=0.993 | text=Member actions
+LINE 7 | bbox=[18,378,113,400] | conf=0.992 | text=FLBroward
+LINE 8 | bbox=[16,412,126,432] | conf=0.891 | text=SP02-FL Team
+LINE 9 | bbox=[277,248,426,266] | conf=0.958 | text=View famlly accumulators
+LINE 10 | bbox=[277,309,1262,330] | conf=0.999 | text=Claims Export CSV
+  WORD | bbox=[277,309,327,330] | text=Claims
+  WORD | bbox=[1202,313,1262,330] | text=Export CSV
+LINE 11 | bbox=[291,361,1228,378] | conf=0.961 | text=Order by date of service Medical claims - Service dates 01/01/2025 - 07/23/2026 (2) Member responsibility Status Provider/Facillty
+  WORD | bbox=[291,364,432,377] | text=Order by date of service
+  WORD | bbox=[466,364,559,377] | text=Medical claims
+  WORD | bbox=[591,364,839,377] | text=Service dates 01/01/2025 - 07/23/2026 (2)
+  WORD | bbox=[875,363,1011,376] | text=Member responsibility
+  WORD | bbox=[1040,361,1093,378] | text=Status
+  WORD | bbox=[1124,364,1228,377] | text=Provider/Facillty
+LINE 12 | bbox=[17,435,1254,466] | conf=0.974 | text=Oscar plan: BS200JX0 $0.00
+  WORD | bbox=[17,445,106,466] | text=Oscar plan:
+  WORD | bbox=[304,435,372,452] | text=BS200JX0
+  WORD | bbox=[1214,437,1254,456] | text=$0.00
+LINE 13 | bbox=[41,462,1252,482] | conf=0.973 | text=Silver Simple PCP Saver CSR150 Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types Paid
+  WORD | bbox=[41,470,219,482] | text=Silver Simple PCP Saver CSR150
+  WORD | bbox=[304,463,849,480] | text=Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types
+  WORD | bbox=[1221,462,1252,480] | text=Paid
+LINE 14 | bbox=[37,486,550,504] | conf=0.973 | text=FL HMO Standard No facility referenced -Lorenzo Galindo
+  WORD | bbox=[37,486,143,504] | text=FL HMO Standard
+  WORD | bbox=[305,488,550,500] | text=No facility referenced -Lorenzo Galindo
+LINE 15 | bbox=[40,508,615,522] | conf=0.972 | text=View ID card Service on Jun 29, 2026 Accumulation on Jul 7, 2026
+  WORD | bbox=[40,508,114,521] | text=View ID card
+  WORD | bbox=[304,509,615,522] | text=Service on Jun 29, 2026 Accumulation on Jul 7, 2026
+LINE 16 | bbox=[16,533,186,554] | conf=0.951 | text=VMaria Alejandra Dempaire
+LINE 17 | bbox=[17,564,159,584] | conf=0.982 | text=Effective 05/27/2026
+LINE 18 | bbox=[19,691,85,708] | conf=0.824 | text=5 No bills
+  WORD | bbox=[19,691,34,707] | text=5
+  WORD | bbox=[30,691,85,708] | text=No bills
+LINE 19 | bbox=[18,587,1254,618] | conf=0.983 | text=8 Family 6RQK87X8 $0.00
+  WORD | bbox=[18,597,80,618] | text=8 Family
+  WORD | bbox=[304,587,375,603] | text=6RQK87X8
+  WORD | bbox=[1214,588,1254,607] | text=$0.00
+LINE 20 | bbox=[42,614,1252,635] | conf=0.969 | text=Jimmy Joe Hoyo Salas Holder Medical claim Established patient periodic preventive medicine examination (18-39 years) Pald
+  WORD | bbox=[42,623,210,635] | text=Jimmy Joe Hoyo Salas Holder
+  WORD | bbox=[304,615,831,631] | text=Medical claim Established patient periodic preventive medicine examination (18-39 years)
+  WORD | bbox=[1221,614,1252,631] | text=Pald
+LINE 21 | bbox=[39,639,615,676] | conf=0.984 | text=Gael Enrique Hoyo Hernandez Child Service on Jun 29, 2026 Accumulation on Jul1, 2026 No facility referenced Catherine Cepeda
+  WORD | bbox=[39,639,211,673] | text=Gael Enrique Hoyo Hernandez Child
+  WORD | bbox=[302,659,615,676] | text=Service on Jun 29, 2026 Accumulation on Jul1, 2026
+  WORD | bbox=[304,639,562,652] | text=No facility referenced Catherine Cepeda
+LINE 22 | bbox=[19,724,1255,759] | conf=0.981 | text=Giveaway Go-getter View details JNANT6BC $0.00
+  WORD | bbox=[19,724,152,756] | text=Giveaway Go-getter View details
+  WORD | bbox=[305,738,379,755] | text=JNANT6BC
+  WORD | bbox=[1214,741,1255,759] | text=$0.00
+[/BOXES]

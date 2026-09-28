@@ -1,0 +1,221 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=20 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 24x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | MR | -
+  CELL[1,0] = VERINT
+  CELL[1,2] = MR
+ROW 2 | Knowledge Management | - | - | -
+  CELL[2,0] = Knowledge Management
+ROW 3 | Newborn | - | - | -
+  CELL[3,0] = Newborn
+ROW 4 | Changes Made: | - | - | -
+  CELL[4,0] = Changes Made:
+ROW 5 | Applied Baby's Active Policy to the claim. | - | - | -
+  CELL[5,0] = Applied Baby's Active Policy to the claim.
+ROW 6 | Reason for changes: | - | - | -
+  CELL[6,0] = Reason for changes:
+ROW 7 | Baby has an Active Policy Effectuated on or before the Start DOS of the claim. | - | - | -
+  CELL[7,0] = Baby has an Active Policy Effectuated on or before the Start DOS of the claim.
+ROW 8 | Baby's claim will be covered by the baby's own Active Policy. | - | - | -
+  CELL[8,0] = Baby's claim will be covered by the baby's own Active Policy.
+ROW 9 | Mother | - | - | -
+  CELL[9,0] = Mother
+ROW 10 | Mother | - | - | -
+  CELL[10,0] = Mother
+ROW 11 | Workflow: | - | - | -
+  CELL[11,0] = Workflow:
+ROW 12 | Newborn | - | - | -
+  CELL[12,0] = Newborn
+ROW 13 | Changes Made: | - | - | -
+  CELL[13,0] = Changes Made:
+ROW 14 | Applied Mother's Active Policy that covers the Start DOS of the claim. | - | - | -
+  CELL[14,0] = Applied Mother's Active Policy that covers the Start DOS of the claim.
+ROW 15 | Reason for changes: | - | - | -
+  CELL[15,0] = Reason for changes:
+ROW 16 | Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim. | - | - | -
+  CELL[16,0] = Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.
+ROW 17 | Mother's Active Policy is Effectuated for the Start DOS of the claim | - | - | -
+  CELL[17,0] = Mother's Active Policy is Effectuated for the Start DOS of the claim
+ROW 18 | Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules). | - | - | -
+  CELL[18,0] = Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules).
+ROW 19 | Workflow: | - | - | -
+  CELL[19,0] = Workflow:
+ROW 20 | Newborn | - | - | -
+  CELL[20,0] = Newborn
+ROW 21 | Changes Made: | - | - | -
+  CELL[21,0] = Changes Made:
+ROW 22 | Applied Parent's Active Policy that covers the Start DOS of the claim. | - | - | -
+  CELL[22,0] = Applied Parent's Active Policy that covers the Start DOS of the claim.
+ROW 23 | Reason for changes: | - | - | -
+  CELL[23,0] = Reason for changes:
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x3
+HEADER | Filters Search | Newborn 7/10/26 - KM1014156 | 9 x
+ROW 1 | - | 4 ratings | :
+  CELL[1,1] = 4 ratings
+  CELL[1,2] = :
+ROW 2 | - | Skip To: Private Information | Tags | Refresh
+  CELL[2,1] = Skip To: Private Information | Tags
+  CELL[2,2] = Refresh
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[59,18,1566,38] | order=0
+  VERINT MR
+BLOCK 1 | type=header | bbox=[29,41,176,57] | order=1
+  Knowledge Management
+BLOCK 2 | type=table | bbox=[0,82,1591,132] | order=2
+  Filters Search Newborn 7/10/26 - KM1014156 9 x
+BLOCK 3 | type=label_value | bbox=[41,127,1586,199] | order=3
+  4 ratings :
+  Skip To: Private Information | Tags Refresh
+BLOCK 4 | type=paragraph | bbox=[74,218,144,236] | order=4
+  Newborn
+BLOCK 5 | type=label_value | bbox=[76,246,203,266] | order=5
+  Changes Made:
+BLOCK 6 | type=paragraph | bbox=[74,263,378,285] | order=6
+  Applied Baby's Active Policy to the claim.
+BLOCK 7 | type=label_value | bbox=[76,297,244,313] | order=7
+  Reason for changes:
+BLOCK 8 | type=paragraph | bbox=[72,311,852,418] | order=8
+  Baby has an Active Policy Effectuated on or before the Start DOS of the claim.
+  Baby's claim will be covered by the baby's own Active Policy.
+  Mother
+  Mother
+BLOCK 9 | type=label_value | bbox=[75,425,160,446] | order=9
+  Workflow:
+BLOCK 10 | type=paragraph | bbox=[75,447,146,465] | order=10
+  Newborn
+BLOCK 11 | type=label_value | bbox=[78,477,204,494] | order=11
+  Changes Made:
+BLOCK 12 | type=paragraph | bbox=[74,491,593,516] | order=12
+  Applied Mother's Active Policy that covers the Start DOS of the claim.
+BLOCK 13 | type=label_value | bbox=[76,524,244,544] | order=13
+  Reason for changes:
+BLOCK 14 | type=paragraph | bbox=[75,540,1159,601] | order=14
+  Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.
+  Mother's Active Policy is Effectuated for the Start DOS of the claim
+  Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules).
+BLOCK 15 | type=label_value | bbox=[78,642,160,659] | order=15
+  Workflow:
+BLOCK 16 | type=paragraph | bbox=[73,657,148,681] | order=16
+  Newborn
+BLOCK 17 | type=footer | bbox=[78,690,205,710] | order=17
+  Changes Made:
+BLOCK 18 | type=footer | bbox=[75,706,586,729] | order=18
+  Applied Parent's Active Policy that covers the Start DOS of the claim.
+BLOCK 19 | type=footer | bbox=[78,738,246,759] | order=19
+  Reason for changes:
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[29,18,1566,759] | shape=24x4 | conf=0.920
+  shape: 24x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | MR | -
+    CELL[1,0] = VERINT
+    CELL[1,2] = MR
+  ROW 2 | Knowledge Management | - | - | -
+    CELL[2,0] = Knowledge Management
+  ROW 3 | Newborn | - | - | -
+    CELL[3,0] = Newborn
+  ROW 4 | Changes Made: | - | - | -
+    CELL[4,0] = Changes Made:
+  ROW 5 | Applied Baby's Active Policy to the claim. | - | - | -
+    CELL[5,0] = Applied Baby's Active Policy to the claim.
+  ROW 6 | Reason for changes: | - | - | -
+    CELL[6,0] = Reason for changes:
+  ROW 7 | Baby has an Active Policy Effectuated on or before the Start DOS of the claim. | - | - | -
+    CELL[7,0] = Baby has an Active Policy Effectuated on or before the Start DOS of the claim.
+  ROW 8 | Baby's claim will be covered by the baby's own Active Policy. | - | - | -
+    CELL[8,0] = Baby's claim will be covered by the baby's own Active Policy.
+  ROW 9 | Mother | - | - | -
+    CELL[9,0] = Mother
+  ROW 10 | Mother | - | - | -
+    CELL[10,0] = Mother
+  ROW 11 | Workflow: | - | - | -
+    CELL[11,0] = Workflow:
+  ROW 12 | Newborn | - | - | -
+    CELL[12,0] = Newborn
+  ROW 13 | Changes Made: | - | - | -
+    CELL[13,0] = Changes Made:
+  ROW 14 | Applied Mother's Active Policy that covers the Start DOS of the claim. | - | - | -
+    CELL[14,0] = Applied Mother's Active Policy that covers the Start DOS of the claim.
+  ROW 15 | Reason for changes: | - | - | -
+    CELL[15,0] = Reason for changes:
+  ROW 16 | Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim. | - | - | -
+    CELL[16,0] = Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.
+  ROW 17 | Mother's Active Policy is Effectuated for the Start DOS of the claim | - | - | -
+    CELL[17,0] = Mother's Active Policy is Effectuated for the Start DOS of the claim
+  ROW 18 | Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules). | - | - | -
+    CELL[18,0] = Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules).
+  ROW 19 | Workflow: | - | - | -
+    CELL[19,0] = Workflow:
+  ROW 20 | Newborn | - | - | -
+    CELL[20,0] = Newborn
+  ROW 21 | Changes Made: | - | - | -
+    CELL[21,0] = Changes Made:
+  ROW 22 | Applied Parent's Active Policy that covers the Start DOS of the claim. | - | - | -
+    CELL[22,0] = Applied Parent's Active Policy that covers the Start DOS of the claim.
+  ROW 23 | Reason for changes: | - | - | -
+    CELL[23,0] = Reason for changes:
+TABLE 1 | source=wide_grid | bbox=[0,82,1591,199] | shape=3x3 | conf=0.850
+  shape: 3x3
+  HEADER | Filters Search | Newborn 7/10/26 - KM1014156 | 9 x
+  ROW 1 | - | 4 ratings | :
+    CELL[1,1] = 4 ratings
+    CELL[1,2] = :
+  ROW 2 | - | Skip To: Private Information | Tags | Refresh
+    CELL[2,1] = Skip To: Private Information | Tags
+    CELL[2,2] = Refresh
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,18,1566,38] | conf=0.995 | text=VERINT MR
+  WORD | bbox=[59,18,148,36] | text=VERINT
+  WORD | bbox=[1539,24,1566,38] | text=MR
+LINE 1 | bbox=[29,41,176,57] | conf=0.988 | text=Knowledge Management
+LINE 2 | bbox=[0,82,1591,132] | conf=0.880 | text=Filters Search Newborn 7/10/26 - KM1014156 9 x
+  WORD | bbox=[0,91,13,129] | text=Filters
+  WORD | bbox=[16,90,30,132] | text=Search
+  WORD | bbox=[91,87,224,122] | text=Newborn 7/10/26 - KM1014156
+  WORD | bbox=[1543,82,1591,111] | text=9 x
+LINE 3 | bbox=[41,127,1586,155] | conf=0.878 | text=4 ratings :
+  WORD | bbox=[41,136,206,155] | text=4 ratings
+  WORD | bbox=[1532,127,1586,154] | text=:
+LINE 4 | bbox=[42,176,1584,199] | conf=0.996 | text=Skip To: Private Information | Tags Refresh
+  WORD | bbox=[42,178,256,199] | text=Skip To: Private Information | Tags
+  WORD | bbox=[1535,176,1584,190] | text=Refresh
+LINE 5 | bbox=[74,218,144,236] | conf=0.999 | text=Newborn
+LINE 6 | bbox=[76,246,203,266] | conf=0.986 | text=Changes Made:
+LINE 7 | bbox=[74,263,378,285] | conf=0.975 | text=Applied Baby's Active Policy to the claim.
+LINE 8 | bbox=[76,297,244,313] | conf=0.965 | text=Reason for changes:
+LINE 9 | bbox=[74,311,653,334] | conf=0.980 | text=Baby has an Active Policy Effectuated on or before the Start DOS of the claim.
+LINE 10 | bbox=[75,332,524,353] | conf=0.993 | text=Baby's claim will be covered by the baby's own Active Policy.
+LINE 11 | bbox=[781,357,852,382] | conf=0.999 | text=Mother
+LINE 12 | bbox=[72,393,144,418] | conf=0.998 | text=Mother
+LINE 13 | bbox=[75,425,160,446] | conf=0.984 | text=Workflow:
+LINE 14 | bbox=[75,447,146,465] | conf=0.998 | text=Newborn
+LINE 15 | bbox=[78,477,204,494] | conf=0.981 | text=Changes Made:
+LINE 16 | bbox=[74,491,593,516] | conf=0.981 | text=Applied Mother's Active Policy that covers the Start DOS of the claim.
+LINE 17 | bbox=[76,524,244,544] | conf=0.977 | text=Reason for changes:
+LINE 18 | bbox=[75,540,708,564] | conf=0.964 | text=Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.
+LINE 19 | bbox=[76,561,574,581] | conf=0.959 | text=Mother's Active Policy is Effectuated for the Start DOS of the claim
+LINE 20 | bbox=[75,577,1159,601] | conf=0.965 | text=Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules).
+LINE 21 | bbox=[78,642,160,659] | conf=0.980 | text=Workflow:
+LINE 22 | bbox=[73,657,148,681] | conf=0.998 | text=Newborn
+LINE 23 | bbox=[78,690,205,710] | conf=0.986 | text=Changes Made:
+LINE 24 | bbox=[75,706,586,729] | conf=0.967 | text=Applied Parent's Active Policy that covers the Start DOS of the claim.
+LINE 25 | bbox=[78,738,246,759] | conf=0.972 | text=Reason for changes:
+[/BOXES]

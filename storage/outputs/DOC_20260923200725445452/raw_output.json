@@ -1,0 +1,2502 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Curamind Claims Management David Kim PROC002 Logout\nProfessional Claim X Ox Back to Dashboard\nSave changes\nClaim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: David Kim Last edit:11/17/202509:12 Processor ID:PROC002 Decision SLA:2 days\nDiagnosis Codes (IcD-10)\nPrimary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED\nType: Diagnosis Code ICD-10-CM Indicator: POA YES,present on admission\nSeq Code Description Type Date\n0 J06.9 ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED PRIMARY 11/07/2025\n1 M54.50 LOWBACK PAIN,UNSPECIFIED ADMITTING 11/07/2025\nProcedure/ Service Coding\nSeq 1 P-99214 CPT/HCPCS 59 Modifier Description Office/outpatient visit.established patient,moderate complexity Diag Pointer A Date of Service 11/07/2025\nMedical Necessity Review\nReviewed David Kim Review Date:11/15/2025 Status: APPROVED\nBy: (PROC002)\nReview Notes:\nEligibility verified. Approved.",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 1042,
+      "text": "Curamind Claims Management David Kim PROC002 Logout\nProfessional Claim X Ox Back to Dashboard\nSave changes\nClaim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: David Kim Last edit:11/17/202509:12 Processor ID:PROC002 Decision SLA:2 days\nDiagnosis Codes (IcD-10)\nPrimary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED\nType: Diagnosis Code ICD-10-CM Indicator: POA YES,present on admission\nSeq Code Description Type Date\n0 J06.9 ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED PRIMARY 11/07/2025\n1 M54.50 LOWBACK PAIN,UNSPECIFIED ADMITTING 11/07/2025\nProcedure/ Service Coding\nSeq 1 P-99214 CPT/HCPCS 59 Modifier Description Office/outpatient visit.established patient,moderate complexity Diag Pointer A Date of Service 11/07/2025\nMedical Necessity Review\nReviewed David Kim Review Date:11/15/2025 Status: APPROVED\nBy: (PROC002)\nReview Notes:\nEligibility verified. Approved.",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                40,
+                173,
+                775,
+                192
+              ],
+              "text": "Processor: David Kim Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Processor: David Kim Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days",
+                  "conf": 0.9429638385772705,
+                  "bbox": [
+                    40,
+                    173,
+                    775,
+                    192
+                  ],
+                  "words": [
+                    {
+                      "text": "Processor: David Kim",
+                      "conf": 0.9531093835830688,
+                      "bbox": [
+                        40,
+                        177,
+                        188,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "Last edit:11/17/202509:12",
+                      "conf": 0.9720993041992188,
+                      "bbox": [
+                        238,
+                        177,
+                        431,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "Processor ID:PROc002",
+                      "conf": 0.8892838358879089,
+                      "bbox": [
+                        430,
+                        174,
+                        606,
+                        190
+                      ]
+                    },
+                    {
+                      "text": "Decision SLA:2 days",
+                      "conf": 0.9573628306388855,
+                      "bbox": [
+                        632,
+                        173,
+                        775,
+                        192
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 5,
+              "bbox": [
+                40,
+                237,
+                279,
+                258
+              ],
+              "text": "Diagnosis Codes (IcD-10)",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Diagnosis Codes (IcD-10)",
+                  "conf": 0.9754872918128967,
+                  "bbox": [
+                    40,
+                    237,
+                    279,
+                    258
+                  ],
+                  "words": [
+                    {
+                      "text": "Diagnosis Codes (IcD-10)",
+                      "conf": 0.9754872918128967,
+                      "bbox": [
+                        40,
+                        237,
+                        279,
+                        258
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 7,
+              "bbox": [
+                41,
+                584,
+                297,
+                606
+              ],
+              "text": "Procedure/ Service Coding",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Procedure/ Service Coding",
+                  "conf": 0.9827246069908142,
+                  "bbox": [
+                    41,
+                    584,
+                    297,
+                    606
+                  ],
+                  "words": [
+                    {
+                      "text": "Procedure/ Service Coding",
+                      "conf": 0.9827246069908142,
+                      "bbox": [
+                        41,
+                        584,
+                        297,
+                        606
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 9,
+              "bbox": [
+                43,
+                786,
+                282,
+                801
+              ],
+              "text": "Medical Necessity Review",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Medical Necessity Review",
+                  "conf": 0.9639051556587219,
+                  "bbox": [
+                    43,
+                    786,
+                    282,
+                    801
+                  ],
+                  "words": [
+                    {
+                      "text": "Medical Necessity Review",
+                      "conf": 0.9639051556587219,
+                      "bbox": [
+                        43,
+                        786,
+                        282,
+                        801
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 11,
+              "bbox": [
+                40,
+                837,
+                211,
+                886
+              ],
+              "text": "By: (PROCO02)\nReview Notes:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "By: (PROCO02)",
+                  "conf": 0.9553037285804749,
+                  "bbox": [
+                    40,
+                    837,
+                    211,
+                    856
+                  ],
+                  "words": [
+                    {
+                      "text": "By:",
+                      "conf": 0.9765680432319641,
+                      "bbox": [
+                        40,
+                        837,
+                        64,
+                        856
+                      ]
+                    },
+                    {
+                      "text": "(PROCO02)",
+                      "conf": 0.9340394139289856,
+                      "bbox": [
+                        135,
+                        838,
+                        211,
+                        855
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Review Notes:",
+                  "conf": 0.9739423394203186,
+                  "bbox": [
+                    40,
+                    869,
+                    133,
+                    886
+                  ],
+                  "words": [
+                    {
+                      "text": "Review Notes:",
+                      "conf": 0.9739423394203186,
+                      "bbox": [
+                        40,
+                        869,
+                        133,
+                        886
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 12,
+              "bbox": [
+                53,
+                901,
+                236,
+                920
+              ],
+              "text": "Eligibility verified.Approved.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Eligibility verified.Approved.",
+                  "conf": 0.9852346181869507,
+                  "bbox": [
+                    53,
+                    901,
+                    236,
+                    920
+                  ],
+                  "words": [
+                    {
+                      "text": "Eligibility verified.Approved.",
+                      "conf": 0.9852346181869507,
+                      "bbox": [
+                        53,
+                        901,
+                        236,
+                        920
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Processor: David Kim Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days\nDiagnosis Codes (IcD-10)\nProcedure/ Service Coding\nMedical Necessity Review\nBy: (PROCO02)\nReview Notes:\nEligibility verified.Approved."
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            26,
+            7,
+            1404,
+            40
+          ],
+          "text": "Curamind Claims Management David Kim PROC002 Logout",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Curamind Claims Management David Kim PROC002 Logout",
+              "conf": 0.9819048106670379,
+              "bbox": [
+                26,
+                7,
+                1404,
+                40
+              ],
+              "words": [
+                {
+                  "text": "Curamind",
+                  "conf": 0.9833414554595947,
+                  "bbox": [
+                    26,
+                    17,
+                    125,
+                    34
+                  ]
+                },
+                {
+                  "text": "Claims Management",
+                  "conf": 0.9947361946105957,
+                  "bbox": [
+                    142,
+                    17,
+                    295,
+                    35
+                  ]
+                },
+                {
+                  "text": "David Kim",
+                  "conf": 0.9976294934749603,
+                  "bbox": [
+                    1153,
+                    7,
+                    1194,
+                    40
+                  ]
+                },
+                {
+                  "text": "PROC002",
+                  "conf": 0.9340588450431824,
+                  "bbox": [
+                    1239,
+                    16,
+                    1307,
+                    31
+                  ]
+                },
+                {
+                  "text": "Logout",
+                  "conf": 0.9997580647468567,
+                  "bbox": [
+                    1351,
+                    16,
+                    1404,
+                    33
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            34,
+            63,
+            1445,
+            108
+          ],
+          "text": "Professional Claim X 0x Back to Dashboard",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Professional Claim X 0x Back to Dashboard",
+              "conf": 0.7839101950327555,
+              "bbox": [
+                34,
+                63,
+                1445,
+                108
+              ],
+              "words": [
+                {
+                  "text": "Professional Claim X",
+                  "conf": 0.8547360897064209,
+                  "bbox": [
+                    34,
+                    65,
+                    164,
+                    108
+                  ]
+                },
+                {
+                  "text": "0x",
+                  "conf": 0.5153291821479797,
+                  "bbox": [
+                    176,
+                    64,
+                    214,
+                    83
+                  ]
+                },
+                {
+                  "text": "Back to Dashboard",
+                  "conf": 0.981665313243866,
+                  "bbox": [
+                    1301,
+                    63,
+                    1445,
+                    78
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 2,
+          "bbox": [
+            1318,
+            92,
+            1419,
+            108
+          ],
+          "text": "Save changes",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Save changes",
+              "conf": 0.9900319576263428,
+              "bbox": [
+                1318,
+                92,
+                1419,
+                108
+              ],
+              "words": [
+                {
+                  "text": "Save changes",
+                  "conf": 0.9900319576263428,
+                  "bbox": [
+                    1318,
+                    92,
+                    1419,
+                    108
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            47,
+            125,
+            688,
+            148
+          ],
+          "text": "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "conf": 0.9521924734115601,
+              "bbox": [
+                47,
+                125,
+                688,
+                148
+              ],
+              "words": [
+                {
+                  "text": "Claim Pg1",
+                  "conf": 0.9496319890022278,
+                  "bbox": [
+                    47,
+                    128,
+                    117,
+                    144
+                  ]
+                },
+                {
+                  "text": "Prov pg2",
+                  "conf": 0.9339790940284729,
+                  "bbox": [
+                    161,
+                    125,
+                    228,
+                    148
+                  ]
+                },
+                {
+                  "text": "Member Pg3",
+                  "conf": 0.9637344479560852,
+                  "bbox": [
+                    275,
+                    128,
+                    362,
+                    144
+                  ]
+                },
+                {
+                  "text": "Diagnosis Pg4",
+                  "conf": 0.9620099663734436,
+                  "bbox": [
+                    414,
+                    128,
+                    523,
+                    144
+                  ]
+                },
+                {
+                  "text": "Miscellaneous Pg5",
+                  "conf": 0.9516068696975708,
+                  "bbox": [
+                    562,
+                    128,
+                    688,
+                    143
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            40,
+            173,
+            775,
+            192
+          ],
+          "text": "Processor: David Kim Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: David Kim Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days",
+              "conf": 0.9429638385772705,
+              "bbox": [
+                40,
+                173,
+                775,
+                192
+              ],
+              "words": [
+                {
+                  "text": "Processor: David Kim",
+                  "conf": 0.9531093835830688,
+                  "bbox": [
+                    40,
+                    177,
+                    188,
+                    192
+                  ]
+                },
+                {
+                  "text": "Last edit:11/17/202509:12",
+                  "conf": 0.9720993041992188,
+                  "bbox": [
+                    238,
+                    177,
+                    431,
+                    192
+                  ]
+                },
+                {
+                  "text": "Processor ID:PROc002",
+                  "conf": 0.8892838358879089,
+                  "bbox": [
+                    430,
+                    174,
+                    606,
+                    190
+                  ]
+                },
+                {
+                  "text": "Decision SLA:2 days",
+                  "conf": 0.9573628306388855,
+                  "bbox": [
+                    632,
+                    173,
+                    775,
+                    192
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            40,
+            237,
+            279,
+            258
+          ],
+          "text": "Diagnosis Codes (IcD-10)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Diagnosis Codes (IcD-10)",
+              "conf": 0.9754872918128967,
+              "bbox": [
+                40,
+                237,
+                279,
+                258
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis Codes (IcD-10)",
+                  "conf": 0.9754872918128967,
+                  "bbox": [
+                    40,
+                    237,
+                    279,
+                    258
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 6,
+          "bbox": [
+            38,
+            275,
+            1335,
+            451
+          ],
+          "text": "Primary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED\nType: Diagnosis Code ICD-10-CM Indicator: POA YES,present on admission\nSeq Code Description Type Date\n0 J06.9 ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED PRIMARY 11/07/2025\n1 M54.50 LOWBACK PAIN,UNSPECIFIED ADMITTING 11/07/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Primary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED",
+              "conf": 0.9869220495223999,
+              "bbox": [
+                38,
+                275,
+                718,
+                311
+              ],
+              "words": [
+                {
+                  "text": "Primary",
+                  "conf": 0.9950718879699707,
+                  "bbox": [
+                    38,
+                    275,
+                    93,
+                    297
+                  ]
+                },
+                {
+                  "text": "Diagnosis:",
+                  "conf": 0.9950114488601685,
+                  "bbox": [
+                    40,
+                    294,
+                    108,
+                    311
+                  ]
+                },
+                {
+                  "text": "J06.9",
+                  "conf": 0.9845900535583496,
+                  "bbox": [
+                    157,
+                    286,
+                    199,
+                    304
+                  ]
+                },
+                {
+                  "text": "ACUTE UPPER RESPIRATORY INFECTION,",
+                  "conf": 0.9636482000350952,
+                  "bbox": [
+                    446,
+                    278,
+                    718,
+                    293
+                  ]
+                },
+                {
+                  "text": "UNSPECIFIED",
+                  "conf": 0.9962886571884155,
+                  "bbox": [
+                    446,
+                    295,
+                    538,
+                    311
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Type: Diagnosis Code ICD-10-CM Indicator: POA YES,present on admission",
+              "conf": 0.9830557306607565,
+              "bbox": [
+                38,
+                323,
+                960,
+                360
+              ],
+              "words": [
+                {
+                  "text": "Type:",
+                  "conf": 0.984900951385498,
+                  "bbox": [
+                    38,
+                    339,
+                    77,
+                    360
+                  ]
+                },
+                {
+                  "text": "Diagnosis Code",
+                  "conf": 0.9917322397232056,
+                  "bbox": [
+                    40,
+                    324,
+                    138,
+                    340
+                  ]
+                },
+                {
+                  "text": "ICD-10-CM",
+                  "conf": 0.9636512398719788,
+                  "bbox": [
+                    170,
+                    331,
+                    250,
+                    348
+                  ]
+                },
+                {
+                  "text": "Indicator:",
+                  "conf": 0.9884664416313171,
+                  "bbox": [
+                    470,
+                    338,
+                    536,
+                    357
+                  ]
+                },
+                {
+                  "text": "POA",
+                  "conf": 0.9970788359642029,
+                  "bbox": [
+                    471,
+                    323,
+                    503,
+                    340
+                  ]
+                },
+                {
+                  "text": "YES,present on admission",
+                  "conf": 0.9725046753883362,
+                  "bbox": [
+                    858,
+                    323,
+                    960,
+                    355
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Seq Code Description Type Date",
+              "conf": 0.9973925590515137,
+              "bbox": [
+                50,
+                375,
+                1297,
+                399
+              ],
+              "words": [
+                {
+                  "text": "Seq",
+                  "conf": 0.9963304400444031,
+                  "bbox": [
+                    50,
+                    377,
+                    83,
+                    399
+                  ]
+                },
+                {
+                  "text": "Code",
+                  "conf": 0.9986976385116577,
+                  "bbox": [
+                    113,
+                    379,
+                    151,
+                    397
+                  ]
+                },
+                {
+                  "text": "Description",
+                  "conf": 0.9972921013832092,
+                  "bbox": [
+                    248,
+                    380,
+                    330,
+                    397
+                  ]
+                },
+                {
+                  "text": "Type",
+                  "conf": 0.9977993965148926,
+                  "bbox": [
+                    1070,
+                    379,
+                    1107,
+                    397
+                  ]
+                },
+                {
+                  "text": "Date",
+                  "conf": 0.9968432188034058,
+                  "bbox": [
+                    1257,
+                    375,
+                    1297,
+                    396
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "0 J06.9 ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED PRIMARY 11/07/2025",
+              "conf": 0.9697678685188293,
+              "bbox": [
+                50,
+                400,
+                1334,
+                422
+              ],
+              "words": [
+                {
+                  "text": "0",
+                  "conf": 0.908762514591217,
+                  "bbox": [
+                    50,
+                    404,
+                    66,
+                    422
+                  ]
+                },
+                {
+                  "text": "J06.9",
+                  "conf": 0.9859984517097473,
+                  "bbox": [
+                    110,
+                    405,
+                    149,
+                    422
+                  ]
+                },
+                {
+                  "text": "ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED",
+                  "conf": 0.9601201415061951,
+                  "bbox": [
+                    247,
+                    404,
+                    587,
+                    421
+                  ]
+                },
+                {
+                  "text": "PRIMARY",
+                  "conf": 0.995940089225769,
+                  "bbox": [
+                    1068,
+                    400,
+                    1130,
+                    422
+                  ]
+                },
+                {
+                  "text": "11/07/2025",
+                  "conf": 0.9980181455612183,
+                  "bbox": [
+                    1257,
+                    400,
+                    1334,
+                    420
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "1 M54.50 LOWBACK PAIN,UNSPECIFIED ADMITTING 11/07/2025",
+              "conf": 0.9877675771713257,
+              "bbox": [
+                50,
+                433,
+                1335,
+                451
+              ],
+              "words": [
+                {
+                  "text": "1",
+                  "conf": 0.9974014759063721,
+                  "bbox": [
+                    50,
+                    434,
+                    63,
+                    451
+                  ]
+                },
+                {
+                  "text": "M54.50",
+                  "conf": 0.9930004477500916,
+                  "bbox": [
+                    111,
+                    434,
+                    163,
+                    450
+                  ]
+                },
+                {
+                  "text": "LOWBACK PAIN,UNSPECIFIED",
+                  "conf": 0.9517586827278137,
+                  "bbox": [
+                    250,
+                    436,
+                    439,
+                    448
+                  ]
+                },
+                {
+                  "text": "ADMITTING",
+                  "conf": 0.9971894025802612,
+                  "bbox": [
+                    1071,
+                    433,
+                    1145,
+                    449
+                  ]
+                },
+                {
+                  "text": "11/07/2025",
+                  "conf": 0.9994878768920898,
+                  "bbox": [
+                    1259,
+                    433,
+                    1335,
+                    449
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 7,
+          "bbox": [
+            41,
+            584,
+            297,
+            606
+          ],
+          "text": "Procedure/ Service Coding",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Procedure/ Service Coding",
+              "conf": 0.9827246069908142,
+              "bbox": [
+                41,
+                584,
+                297,
+                606
+              ],
+              "words": [
+                {
+                  "text": "Procedure/ Service Coding",
+                  "conf": 0.9827246069908142,
+                  "bbox": [
+                    41,
+                    584,
+                    297,
+                    606
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 8,
+          "bbox": [
+            49,
+            626,
+            1369,
+            672
+          ],
+          "text": "Seq 1 P-99214 CPT/HCPCS 59 Modifier Description Office/outpatient visit.established patient,moderate complexity Diag Pointer A Date of Service 11/07/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Seq 1 P-99214 CPT/HCPCS 59 Modifier Description Office/outpatient visit.established patient,moderate complexity Diag Pointer A Date of Service 11/07/2025",
+              "conf": 0.9846705165174272,
+              "bbox": [
+                49,
+                626,
+                1369,
+                672
+              ],
+              "words": [
+                {
+                  "text": "Seq",
+                  "conf": 0.9932515621185303,
+                  "bbox": [
+                    49,
+                    626,
+                    84,
+                    649
+                  ]
+                },
+                {
+                  "text": "1",
+                  "conf": 0.9966309666633606,
+                  "bbox": [
+                    50,
+                    654,
+                    64,
+                    671
+                  ]
+                },
+                {
+                  "text": "P-99214",
+                  "conf": 0.9873573184013367,
+                  "bbox": [
+                    107,
+                    654,
+                    163,
+                    670
+                  ]
+                },
+                {
+                  "text": "CPT/HCPCS",
+                  "conf": 0.9957259297370911,
+                  "bbox": [
+                    108,
+                    629,
+                    190,
+                    645
+                  ]
+                },
+                {
+                  "text": "59",
+                  "conf": 0.9985199570655823,
+                  "bbox": [
+                    252,
+                    652,
+                    274,
+                    672
+                  ]
+                },
+                {
+                  "text": "Modifier",
+                  "conf": 0.9481252431869507,
+                  "bbox": [
+                    253,
+                    629,
+                    315,
+                    645
+                  ]
+                },
+                {
+                  "text": "Description Office/outpatient visit.established patient,moderate complexity",
+                  "conf": 0.9821006655693054,
+                  "bbox": [
+                    362,
+                    629,
+                    771,
+                    671
+                  ]
+                },
+                {
+                  "text": "Diag Pointer A",
+                  "conf": 0.9814136326313019,
+                  "bbox": [
+                    1100,
+                    628,
+                    1194,
+                    670
+                  ]
+                },
+                {
+                  "text": "Date of Service 11/07/2025",
+                  "conf": 0.9789093732833862,
+                  "bbox": [
+                    1259,
+                    626,
+                    1369,
+                    669
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 9,
+          "bbox": [
+            43,
+            786,
+            282,
+            801
+          ],
+          "text": "Medical Necessity Review",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Medical Necessity Review",
+              "conf": 0.9639051556587219,
+              "bbox": [
+                43,
+                786,
+                282,
+                801
+              ],
+              "words": [
+                {
+                  "text": "Medical Necessity Review",
+                  "conf": 0.9639051556587219,
+                  "bbox": [
+                    43,
+                    786,
+                    282,
+                    801
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            40,
+            818,
+            761,
+            842
+          ],
+          "text": "Reviewed David Kim Review Date:11/15/2025 Status: APPROVED",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Reviewed David Kim Review Date:11/15/2025 Status: APPROVED",
+              "conf": 0.9835723519325257,
+              "bbox": [
+                40,
+                818,
+                761,
+                842
+              ],
+              "words": [
+                {
+                  "text": "Reviewed",
+                  "conf": 0.9968302845954895,
+                  "bbox": [
+                    40,
+                    821,
+                    104,
+                    837
+                  ]
+                },
+                {
+                  "text": "David Kim",
+                  "conf": 0.972344696521759,
+                  "bbox": [
+                    132,
+                    818,
+                    208,
+                    841
+                  ]
+                },
+                {
+                  "text": "Review Date:11/15/2025",
+                  "conf": 0.9656343460083008,
+                  "bbox": [
+                    342,
+                    827,
+                    521,
+                    842
+                  ]
+                },
+                {
+                  "text": "Status:",
+                  "conf": 0.9865863919258118,
+                  "bbox": [
+                    613,
+                    826,
+                    661,
+                    842
+                  ]
+                },
+                {
+                  "text": "APPROVED",
+                  "conf": 0.9964660406112671,
+                  "bbox": [
+                    686,
+                    826,
+                    761,
+                    841
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 11,
+          "bbox": [
+            40,
+            837,
+            211,
+            886
+          ],
+          "text": "By: (PROCO02)\nReview Notes:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "By: (PROCO02)",
+              "conf": 0.9553037285804749,
+              "bbox": [
+                40,
+                837,
+                211,
+                856
+              ],
+              "words": [
+                {
+                  "text": "By:",
+                  "conf": 0.9765680432319641,
+                  "bbox": [
+                    40,
+                    837,
+                    64,
+                    856
+                  ]
+                },
+                {
+                  "text": "(PROCO02)",
+                  "conf": 0.9340394139289856,
+                  "bbox": [
+                    135,
+                    838,
+                    211,
+                    855
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Review Notes:",
+              "conf": 0.9739423394203186,
+              "bbox": [
+                40,
+                869,
+                133,
+                886
+              ],
+              "words": [
+                {
+                  "text": "Review Notes:",
+                  "conf": 0.9739423394203186,
+                  "bbox": [
+                    40,
+                    869,
+                    133,
+                    886
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 12,
+          "bbox": [
+            53,
+            901,
+            236,
+            920
+          ],
+          "text": "Eligibility verified.Approved.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Eligibility verified.Approved.",
+              "conf": 0.9852346181869507,
+              "bbox": [
+                53,
+                901,
+                236,
+                920
+              ],
+              "words": [
+                {
+                  "text": "Eligibility verified.Approved.",
+                  "conf": 0.9852346181869507,
+                  "bbox": [
+                    53,
+                    901,
+                    236,
+                    920
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            34,
+            65,
+            1419,
+            920
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Professional Claim X</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Save changes</td><td></td></tr><tr><td>Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5</td><td></td><td></td><td></td></tr><tr><td>Processor: David Kim</td><td>Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days</td><td></td><td></td></tr><tr><td>Diagnosis Codes (IcD-10)</td><td></td><td></td><td></td></tr><tr><td>Primary J06.9</td><td>ACUTE UPPER RESPIRATORY INFECTION,</td><td></td><td></td></tr><tr><td>Diagnosis</td><td>UNSPECIFIED</td><td></td><td></td></tr><tr><td>Type</td><td>Diagnosis Code ICD-10-CM Indicator: POA</td><td>YES,present on admission</td><td></td></tr><tr><td>Procedure/ Service Coding</td><td></td><td></td><td></td></tr><tr><td>Medical Necessity Review</td><td></td><td></td><td></td></tr><tr><td>Reviewed David Kim Review Date:11/15/2025 Status</td><td>APPROVED</td><td></td><td></td></tr><tr><td>By</td><td>(PROCO02)</td><td></td><td></td></tr><tr><td>Review Notes:</td><td></td><td></td><td></td></tr><tr><td>Eligibility verified.Approved.</td><td></td><td></td><td></td></tr></table>",
+          "text": "Professional Claim X: \nSave changes: \nClaim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5: \nProcessor: David Kim: Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days\nDiagnosis Codes (IcD-10): \nPrimary J06.9: ACUTE UPPER RESPIRATORY INFECTION,\nDiagnosis: UNSPECIFIED\nType: Diagnosis Code ICD-10-CM Indicator: POA\nYES,present on admission: \nProcedure/ Service Coding: \nMedical Necessity Review: \nReviewed David Kim Review Date:11/15/2025 Status: APPROVED\nBy: (PROCO02)\nReview Notes:: \nEligibility verified.Approved.: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "Professional Claim X",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Save changes",
+              ""
+            ],
+            [
+              "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Processor: David Kim",
+              "Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis Codes (IcD-10)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Primary J06.9",
+              "ACUTE UPPER RESPIRATORY INFECTION,",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis",
+              "UNSPECIFIED",
+              "",
+              ""
+            ],
+            [
+              "Type",
+              "Diagnosis Code ICD-10-CM Indicator: POA",
+              "YES,present on admission",
+              ""
+            ],
+            [
+              "Procedure/ Service Coding",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Medical Necessity Review",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Reviewed David Kim Review Date:11/15/2025 Status",
+              "APPROVED",
+              "",
+              ""
+            ],
+            [
+              "By",
+              "(PROCO02)",
+              "",
+              ""
+            ],
+            [
+              "Review Notes:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Eligibility verified.Approved.",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "Professional Claim X",
+              ""
+            ],
+            [
+              "",
+              "Save changes"
+            ],
+            [
+              "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              ""
+            ],
+            [
+              "Processor: David Kim Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days",
+              ""
+            ],
+            [
+              "Diagnosis Codes (IcD-10)",
+              ""
+            ],
+            [
+              "Primary J06.9 ACUTE UPPER RESPIRATORY INFECTION,",
+              ""
+            ],
+            [
+              "Diagnosis: UNSPECIFIED",
+              ""
+            ],
+            [
+              "Type: Diagnosis Code ICD-10-CM Indicator: POA",
+              "YES,present on admission"
+            ],
+            [
+              "Procedure/ Service Coding",
+              ""
+            ],
+            [
+              "Medical Necessity Review",
+              ""
+            ],
+            [
+              "Reviewed David Kim Review Date:11/15/2025 Status: APPROVED",
+              ""
+            ],
+            [
+              "By: (PROCO02)",
+              ""
+            ],
+            [
+              "Review Notes:",
+              ""
+            ],
+            [
+              "Eligibility verified.Approved.",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            26,
+            7,
+            1445,
+            83
+          ],
+          "html": "<table><tr><th>Curamind</th><th>Claims Management</th><th>David Kim</th><th>PROC002</th><th>Logout</th></tr><tr><td></td><td>0x</td><td></td><td></td><td>Back to Dashboard</td></tr></table>",
+          "text": " | 0x |  |  | Back to Dashboard",
+          "headers": [
+            "Curamind",
+            "Claims Management",
+            "David Kim",
+            "PROC002",
+            "Logout"
+          ],
+          "rows": [
+            [
+              "",
+              "0x",
+              "",
+              "",
+              "Back to Dashboard"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            50,
+            375,
+            1335,
+            451
+          ],
+          "html": "<table><tr><th>Seq</th><th>Code</th><th>Description</th><th>Type</th><th>Date</th></tr><tr><td>0</td><td>J06.9</td><td>ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED</td><td>PRIMARY</td><td>11/07/2025</td></tr><tr><td>1</td><td>M54.50</td><td>LOWBACK PAIN,UNSPECIFIED</td><td>ADMITTING</td><td>11/07/2025</td></tr></table>",
+          "text": "0 | J06.9 | ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED | PRIMARY | 11/07/2025\n1 | M54.50 | LOWBACK PAIN,UNSPECIFIED | ADMITTING | 11/07/2025",
+          "headers": [
+            "Seq",
+            "Code",
+            "Description",
+            "Type",
+            "Date"
+          ],
+          "rows": [
+            [
+              "0",
+              "J06.9",
+              "ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED",
+              "PRIMARY",
+              "11/07/2025"
+            ],
+            [
+              "1",
+              "M54.50",
+              "LOWBACK PAIN,UNSPECIFIED",
+              "ADMITTING",
+              "11/07/2025"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            49,
+            626,
+            1369,
+            672
+          ],
+          "html": "<table><tr><th>Seq</th><th>CPT/HCPCS</th><th>Modifier</th><th>Description Office/outpatient visit.established patient,moderate complexity</th><th>Diag Pointer A</th><th>Date of Service 11/07/2025</th></tr><tr><td>1</td><td>P-99214</td><td>59</td><td></td><td></td><td></td></tr></table>",
+          "text": "1 | P-99214 | 59 |  |  | ",
+          "headers": [
+            "Seq",
+            "CPT/HCPCS",
+            "Modifier",
+            "Description Office/outpatient visit.established patient,moderate complexity",
+            "Diag Pointer A",
+            "Date of Service 11/07/2025"
+          ],
+          "rows": [
+            [
+              "1",
+              "P-99214",
+              "59",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Curamind Claims Management David Kim PROC002 Logout",
+          "conf": 0.9819048106670379,
+          "bbox": [
+            26,
+            7,
+            1404,
+            40
+          ],
+          "words": [
+            {
+              "text": "Curamind",
+              "conf": 0.9833414554595947,
+              "bbox": [
+                26,
+                17,
+                125,
+                34
+              ]
+            },
+            {
+              "text": "Claims Management",
+              "conf": 0.9947361946105957,
+              "bbox": [
+                142,
+                17,
+                295,
+                35
+              ]
+            },
+            {
+              "text": "David Kim",
+              "conf": 0.9976294934749603,
+              "bbox": [
+                1153,
+                7,
+                1194,
+                40
+              ]
+            },
+            {
+              "text": "PROC002",
+              "conf": 0.9340588450431824,
+              "bbox": [
+                1239,
+                16,
+                1307,
+                31
+              ]
+            },
+            {
+              "text": "Logout",
+              "conf": 0.9997580647468567,
+              "bbox": [
+                1351,
+                16,
+                1404,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Professional Claim X 0x Back to Dashboard",
+          "conf": 0.7839101950327555,
+          "bbox": [
+            34,
+            63,
+            1445,
+            108
+          ],
+          "words": [
+            {
+              "text": "Professional Claim X",
+              "conf": 0.8547360897064209,
+              "bbox": [
+                34,
+                65,
+                164,
+                108
+              ]
+            },
+            {
+              "text": "0x",
+              "conf": 0.5153291821479797,
+              "bbox": [
+                176,
+                64,
+                214,
+                83
+              ]
+            },
+            {
+              "text": "Back to Dashboard",
+              "conf": 0.981665313243866,
+              "bbox": [
+                1301,
+                63,
+                1445,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Save changes",
+          "conf": 0.9900319576263428,
+          "bbox": [
+            1318,
+            92,
+            1419,
+            108
+          ],
+          "words": [
+            {
+              "text": "Save changes",
+              "conf": 0.9900319576263428,
+              "bbox": [
+                1318,
+                92,
+                1419,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "conf": 0.9521924734115601,
+          "bbox": [
+            47,
+            125,
+            688,
+            148
+          ],
+          "words": [
+            {
+              "text": "Claim Pg1",
+              "conf": 0.9496319890022278,
+              "bbox": [
+                47,
+                128,
+                117,
+                144
+              ]
+            },
+            {
+              "text": "Prov pg2",
+              "conf": 0.9339790940284729,
+              "bbox": [
+                161,
+                125,
+                228,
+                148
+              ]
+            },
+            {
+              "text": "Member Pg3",
+              "conf": 0.9637344479560852,
+              "bbox": [
+                275,
+                128,
+                362,
+                144
+              ]
+            },
+            {
+              "text": "Diagnosis Pg4",
+              "conf": 0.9620099663734436,
+              "bbox": [
+                414,
+                128,
+                523,
+                144
+              ]
+            },
+            {
+              "text": "Miscellaneous Pg5",
+              "conf": 0.9516068696975708,
+              "bbox": [
+                562,
+                128,
+                688,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: David Kim Last edit:11/17/202509:12 Processor ID:PROc002 Decision SLA:2 days",
+          "conf": 0.9429638385772705,
+          "bbox": [
+            40,
+            173,
+            775,
+            192
+          ],
+          "words": [
+            {
+              "text": "Processor: David Kim",
+              "conf": 0.9531093835830688,
+              "bbox": [
+                40,
+                177,
+                188,
+                192
+              ]
+            },
+            {
+              "text": "Last edit:11/17/202509:12",
+              "conf": 0.9720993041992188,
+              "bbox": [
+                238,
+                177,
+                431,
+                192
+              ]
+            },
+            {
+              "text": "Processor ID:PROc002",
+              "conf": 0.8892838358879089,
+              "bbox": [
+                430,
+                174,
+                606,
+                190
+              ]
+            },
+            {
+              "text": "Decision SLA:2 days",
+              "conf": 0.9573628306388855,
+              "bbox": [
+                632,
+                173,
+                775,
+                192
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis Codes (IcD-10)",
+          "conf": 0.9754872918128967,
+          "bbox": [
+            40,
+            237,
+            279,
+            258
+          ],
+          "words": [
+            {
+              "text": "Diagnosis Codes (IcD-10)",
+              "conf": 0.9754872918128967,
+              "bbox": [
+                40,
+                237,
+                279,
+                258
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Primary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED",
+          "conf": 0.9869220495223999,
+          "bbox": [
+            38,
+            275,
+            718,
+            311
+          ],
+          "words": [
+            {
+              "text": "Primary",
+              "conf": 0.9950718879699707,
+              "bbox": [
+                38,
+                275,
+                93,
+                297
+              ]
+            },
+            {
+              "text": "Diagnosis:",
+              "conf": 0.9950114488601685,
+              "bbox": [
+                40,
+                294,
+                108,
+                311
+              ]
+            },
+            {
+              "text": "J06.9",
+              "conf": 0.9845900535583496,
+              "bbox": [
+                157,
+                286,
+                199,
+                304
+              ]
+            },
+            {
+              "text": "ACUTE UPPER RESPIRATORY INFECTION,",
+              "conf": 0.9636482000350952,
+              "bbox": [
+                446,
+                278,
+                718,
+                293
+              ]
+            },
+            {
+              "text": "UNSPECIFIED",
+              "conf": 0.9962886571884155,
+              "bbox": [
+                446,
+                295,
+                538,
+                311
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Type: Diagnosis Code ICD-10-CM Indicator: POA YES,present on admission",
+          "conf": 0.9830557306607565,
+          "bbox": [
+            38,
+            323,
+            960,
+            360
+          ],
+          "words": [
+            {
+              "text": "Type:",
+              "conf": 0.984900951385498,
+              "bbox": [
+                38,
+                339,
+                77,
+                360
+              ]
+            },
+            {
+              "text": "Diagnosis Code",
+              "conf": 0.9917322397232056,
+              "bbox": [
+                40,
+                324,
+                138,
+                340
+              ]
+            },
+            {
+              "text": "ICD-10-CM",
+              "conf": 0.9636512398719788,
+              "bbox": [
+                170,
+                331,
+                250,
+                348
+              ]
+            },
+            {
+              "text": "Indicator:",
+              "conf": 0.9884664416313171,
+              "bbox": [
+                470,
+                338,
+                536,
+                357
+              ]
+            },
+            {
+              "text": "POA",
+              "conf": 0.9970788359642029,
+              "bbox": [
+                471,
+                323,
+                503,
+                340
+              ]
+            },
+            {
+              "text": "YES,present on admission",
+              "conf": 0.9725046753883362,
+              "bbox": [
+                858,
+                323,
+                960,
+                355
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seq Code Description Type Date",
+          "conf": 0.9973925590515137,
+          "bbox": [
+            50,
+            375,
+            1297,
+            399
+          ],
+          "words": [
+            {
+              "text": "Seq",
+              "conf": 0.9963304400444031,
+              "bbox": [
+                50,
+                377,
+                83,
+                399
+              ]
+            },
+            {
+              "text": "Code",
+              "conf": 0.9986976385116577,
+              "bbox": [
+                113,
+                379,
+                151,
+                397
+              ]
+            },
+            {
+              "text": "Description",
+              "conf": 0.9972921013832092,
+              "bbox": [
+                248,
+                380,
+                330,
+                397
+              ]
+            },
+            {
+              "text": "Type",
+              "conf": 0.9977993965148926,
+              "bbox": [
+                1070,
+                379,
+                1107,
+                397
+              ]
+            },
+            {
+              "text": "Date",
+              "conf": 0.9968432188034058,
+              "bbox": [
+                1257,
+                375,
+                1297,
+                396
+              ]
+            }
+          ]
+        },
+        {
+          "text": "0 J06.9 ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED PRIMARY 11/07/2025",
+          "conf": 0.9697678685188293,
+          "bbox": [
+            50,
+            400,
+            1334,
+            422
+          ],
+          "words": [
+            {
+              "text": "0",
+              "conf": 0.908762514591217,
+              "bbox": [
+                50,
+                404,
+                66,
+                422
+              ]
+            },
+            {
+              "text": "J06.9",
+              "conf": 0.9859984517097473,
+              "bbox": [
+                110,
+                405,
+                149,
+                422
+              ]
+            },
+            {
+              "text": "ACUTE UPPER RESPIRAT ORY INFECTION,UNSPECIFIED",
+              "conf": 0.9601201415061951,
+              "bbox": [
+                247,
+                404,
+                587,
+                421
+              ]
+            },
+            {
+              "text": "PRIMARY",
+              "conf": 0.995940089225769,
+              "bbox": [
+                1068,
+                400,
+                1130,
+                422
+              ]
+            },
+            {
+              "text": "11/07/2025",
+              "conf": 0.9980181455612183,
+              "bbox": [
+                1257,
+                400,
+                1334,
+                420
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1 M54.50 LOWBACK PAIN,UNSPECIFIED ADMITTING 11/07/2025",
+          "conf": 0.9877675771713257,
+          "bbox": [
+            50,
+            433,
+            1335,
+            451
+          ],
+          "words": [
+            {
+              "text": "1",
+              "conf": 0.9974014759063721,
+              "bbox": [
+                50,
+                434,
+                63,
+                451
+              ]
+            },
+            {
+              "text": "M54.50",
+              "conf": 0.9930004477500916,
+              "bbox": [
+                111,
+                434,
+                163,
+                450
+              ]
+            },
+            {
+              "text": "LOWBACK PAIN,UNSPECIFIED",
+              "conf": 0.9517586827278137,
+              "bbox": [
+                250,
+                436,
+                439,
+                448
+              ]
+            },
+            {
+              "text": "ADMITTING",
+              "conf": 0.9971894025802612,
+              "bbox": [
+                1071,
+                433,
+                1145,
+                449
+              ]
+            },
+            {
+              "text": "11/07/2025",
+              "conf": 0.9994878768920898,
+              "bbox": [
+                1259,
+                433,
+                1335,
+                449
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Procedure/ Service Coding",
+          "conf": 0.9827246069908142,
+          "bbox": [
+            41,
+            584,
+            297,
+            606
+          ],
+          "words": [
+            {
+              "text": "Procedure/ Service Coding",
+              "conf": 0.9827246069908142,
+              "bbox": [
+                41,
+                584,
+                297,
+                606
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seq 1 P-99214 CPT/HCPCS 59 Modifier Description Office/outpatient visit.established patient,moderate complexity Diag Pointer A Date of Service 11/07/2025",
+          "conf": 0.9846705165174272,
+          "bbox": [
+            49,
+            626,
+            1369,
+            672
+          ],
+          "words": [
+            {
+              "text": "Seq",
+              "conf": 0.9932515621185303,
+              "bbox": [
+                49,
+                626,
+                84,
+                649
+              ]
+            },
+            {
+              "text": "1",
+              "conf": 0.9966309666633606,
+              "bbox": [
+                50,
+                654,
+                64,
+                671
+              ]
+            },
+            {
+              "text": "P-99214",
+              "conf": 0.9873573184013367,
+              "bbox": [
+                107,
+                654,
+                163,
+                670
+              ]
+            },
+            {
+              "text": "CPT/HCPCS",
+              "conf": 0.9957259297370911,
+              "bbox": [
+                108,
+                629,
+                190,
+                645
+              ]
+            },
+            {
+              "text": "59",
+              "conf": 0.9985199570655823,
+              "bbox": [
+                252,
+                652,
+                274,
+                672
+              ]
+            },
+            {
+              "text": "Modifier",
+              "conf": 0.9481252431869507,
+              "bbox": [
+                253,
+                629,
+                315,
+                645
+              ]
+            },
+            {
+              "text": "Description Office/outpatient visit.established patient,moderate complexity",
+              "conf": 0.9821006655693054,
+              "bbox": [
+                362,
+                629,
+                771,
+                671
+              ]
+            },
+            {
+              "text": "Diag Pointer A",
+              "conf": 0.9814136326313019,
+              "bbox": [
+                1100,
+                628,
+                1194,
+                670
+              ]
+            },
+            {
+              "text": "Date of Service 11/07/2025",
+              "conf": 0.9789093732833862,
+              "bbox": [
+                1259,
+                626,
+                1369,
+                669
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medical Necessity Review",
+          "conf": 0.9639051556587219,
+          "bbox": [
+            43,
+            786,
+            282,
+            801
+          ],
+          "words": [
+            {
+              "text": "Medical Necessity Review",
+              "conf": 0.9639051556587219,
+              "bbox": [
+                43,
+                786,
+                282,
+                801
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reviewed David Kim Review Date:11/15/2025 Status: APPROVED",
+          "conf": 0.9835723519325257,
+          "bbox": [
+            40,
+            818,
+            761,
+            842
+          ],
+          "words": [
+            {
+              "text": "Reviewed",
+              "conf": 0.9968302845954895,
+              "bbox": [
+                40,
+                821,
+                104,
+                837
+              ]
+            },
+            {
+              "text": "David Kim",
+              "conf": 0.972344696521759,
+              "bbox": [
+                132,
+                818,
+                208,
+                841
+              ]
+            },
+            {
+              "text": "Review Date:11/15/2025",
+              "conf": 0.9656343460083008,
+              "bbox": [
+                342,
+                827,
+                521,
+                842
+              ]
+            },
+            {
+              "text": "Status:",
+              "conf": 0.9865863919258118,
+              "bbox": [
+                613,
+                826,
+                661,
+                842
+              ]
+            },
+            {
+              "text": "APPROVED",
+              "conf": 0.9964660406112671,
+              "bbox": [
+                686,
+                826,
+                761,
+                841
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By: (PROCO02)",
+          "conf": 0.9553037285804749,
+          "bbox": [
+            40,
+            837,
+            211,
+            856
+          ],
+          "words": [
+            {
+              "text": "By:",
+              "conf": 0.9765680432319641,
+              "bbox": [
+                40,
+                837,
+                64,
+                856
+              ]
+            },
+            {
+              "text": "(PROCO02)",
+              "conf": 0.9340394139289856,
+              "bbox": [
+                135,
+                838,
+                211,
+                855
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Review Notes:",
+          "conf": 0.9739423394203186,
+          "bbox": [
+            40,
+            869,
+            133,
+            886
+          ],
+          "words": [
+            {
+              "text": "Review Notes:",
+              "conf": 0.9739423394203186,
+              "bbox": [
+                40,
+                869,
+                133,
+                886
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Eligibility verified.Approved.",
+          "conf": 0.9852346181869507,
+          "bbox": [
+            53,
+            901,
+            236,
+            920
+          ],
+          "words": [
+            {
+              "text": "Eligibility verified.Approved.",
+              "conf": 0.9852346181869507,
+              "bbox": [
+                53,
+                901,
+                236,
+                920
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

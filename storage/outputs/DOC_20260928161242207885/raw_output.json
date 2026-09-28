@@ -1,0 +1,2522 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Search Rosco MR Melissa -\nGenesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations\nDe Hoyo\nActive\nSP02-FL Team\nSilver Simple PCP Saver CSR 150\nOSC75847221-02R220XDSX Spouse ON exc P1PVN50T $0.00\nMedical claim  No description available Processed\nFLBroward Memorial Hospital West  No provider referenced\nService On May 27,2026-Accumulation on Jul21,2026\nMedical claim -SUBSEQUENT PRENATAL CARE VISIT Denied\nNo facility referenced  No provider referenced\nHeads up note Service on May 27, 2026 - Accumulation on May 28, 2026\nMember actlons JX8BQXV0 $0.00\nOscar plan: View additional claims in lineage Expand\nView ID card JSMJW9SJ $0.00\nMaria Alejandra Dempaire Medical claim Anesthesia for cesarean delivery Pald\nFL HMO Standard\nEffective 05/27/2026 Memorial Hospital West  Crystal a 001 Tojuola Crna\n8 Family Service on May 27, 2026 - Accumulation on Jun 10, 2026\nJimmy Joe Hoyo Salas Holder\nGael Enrique Hoyo Hernandez Child EXP8MKS3 $0.00\n5 No bills Medical claim  No description available Pald\nMemorial Hospital West  No provider referenced\nGiveaway Go-getter View details Service on May 27, 2026- Accumulation on Jun 19, 2026",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Search Rosco MR Melissa -\nGenesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations\nDe Hoyo\nActive\nSP02-FL Team\nSilver Simple PCP Saver CSR 150\nOSC75847221-02R220XDSX Spouse ON exc P1PVN50T $0.00\nMedical claim  No description available Processed\nFLBroward Memorial Hospital West  No provider referenced\nService On May 27,2026-Accumulation on Jul21,2026\nMedical claim -SUBSEQUENT PRENATAL CARE VISIT Denied\nNo facility referenced  No provider referenced\nHeads up note Service on May 27, 2026 - Accumulation on May 28, 2026\nMember actlons JX8BQXV0 $0.00\nOscar plan: View additional claims in lineage Expand\nView ID card JSMJW9SJ $0.00\nMaria Alejandra Dempaire Medical claim Anesthesia for cesarean delivery Pald\nFL HMO Standard\nEffective 05/27/2026 Memorial Hospital West  Crystal a 001 Tojuola Crna\n8 Family Service on May 27, 2026 - Accumulation on Jun 10, 2026\nJimmy Joe Hoyo Salas Holder\nGael Enrique Hoyo Hernandez Child EXP8MKS3 $0.00\n5 No bills Medical claim  No description available Pald\nMemorial Hospital West  No provider referenced\nGiveaway Go-getter View details Service on May 27, 2026- Accumulation on Jun 19, 2026",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                30,
+                199,
+                1252,
+                258
+              ],
+              "text": "Medical claim -SUBSEQUENT PRENATAL CARE VISIT Denied\nNo facility referenced  No provider referenced\nHeads up note Service on May 27, 2026 - Accumulation on May 28, 2026",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Medical claim -SUBSEQUENT PRENATAL CARE VISIT Denied",
+                  "conf": 0.9754288494586945,
+                  "bbox": [
+                    304,
+                    199,
+                    1252,
+                    216
+                  ],
+                  "words": [
+                    {
+                      "text": "Medical claim -SUBSEQUENT PRENATAL CARE VISIT",
+                      "conf": 0.9632437825202942,
+                      "bbox": [
+                        304,
+                        199,
+                        625,
+                        215
+                      ]
+                    },
+                    {
+                      "text": "Denied",
+                      "conf": 0.9876139163970947,
+                      "bbox": [
+                        1205,
+                        199,
+                        1252,
+                        216
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "No facility referenced  No provider referenced",
+                  "conf": 0.9763205051422119,
+                  "bbox": [
+                    305,
+                    223,
+                    588,
+                    236
+                  ],
+                  "words": [
+                    {
+                      "text": "No facility referenced  No provider referenced",
+                      "conf": 0.9763205051422119,
+                      "bbox": [
+                        305,
+                        223,
+                        588,
+                        236
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Heads up note Service on May 27, 2026 - Accumulation on May 28, 2026",
+                  "conf": 0.9878851175308228,
+                  "bbox": [
+                    30,
+                    235,
+                    630,
+                    258
+                  ],
+                  "words": [
+                    {
+                      "text": "Heads up note",
+                      "conf": 0.9991626739501953,
+                      "bbox": [
+                        30,
+                        235,
+                        115,
+                        255
+                      ]
+                    },
+                    {
+                      "text": "Service on May 27, 2026 - Accumulation on May 28, 2026",
+                      "conf": 0.9766075611114502,
+                      "bbox": [
+                        304,
+                        246,
+                        630,
+                        258
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 5,
+              "bbox": [
+                18,
+                350,
+                1250,
+                409
+              ],
+              "text": "Medical claim  No description available Processed\nFLBroward Memorial Hospital West  No provider referenced\nService 0n May 27,2026-Accumulation onJul21,2026",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Medical claim  No description available Processed",
+                  "conf": 0.9821102619171143,
+                  "bbox": [
+                    302,
+                    350,
+                    1250,
+                    369
+                  ],
+                  "words": [
+                    {
+                      "text": " Medical claim  No description available",
+                      "conf": 0.9828933477401733,
+                      "bbox": [
+                        302,
+                        353,
+                        552,
+                        369
+                      ]
+                    },
+                    {
+                      "text": "Processed ",
+                      "conf": 0.9813271760940552,
+                      "bbox": [
+                        1169,
+                        350,
+                        1250,
+                        368
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "FLBroward Memorial Hospital West  No provider referenced",
+                  "conf": 0.9691941738128662,
+                  "bbox": [
+                    18,
+                    374,
+                    601,
+                    400
+                  ],
+                  "words": [
+                    {
+                      "text": "FLBroward",
+                      "conf": 0.9870946407318115,
+                      "bbox": [
+                        18,
+                        378,
+                        112,
+                        400
+                      ]
+                    },
+                    {
+                      "text": "Memorial Hospital West  No provider referenced",
+                      "conf": 0.9512937068939209,
+                      "bbox": [
+                        305,
+                        374,
+                        601,
+                        387
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Service 0n May 27,2026-Accumulation onJul21,2026",
+                  "conf": 0.9205474853515625,
+                  "bbox": [
+                    304,
+                    396,
+                    621,
+                    409
+                  ],
+                  "words": [
+                    {
+                      "text": "Service 0n May 27,2026-Accumulation onJul21,2026",
+                      "conf": 0.9205474853515625,
+                      "bbox": [
+                        304,
+                        396,
+                        621,
+                        409
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Medical claim -SUBSEQUENT PRENATAL CARE VISIT Denied\nNo facility referenced  No provider referenced\nHeads up note Service on May 27, 2026 - Accumulation on May 28, 2026\nMedical claim  No description available Processed\nFLBroward Memorial Hospital West  No provider referenced\nService 0n May 27,2026-Accumulation onJul21,2026"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "text": "rosco Search Rosco MR Melissa -",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Search Rosco MR Melissa -",
+              "conf": 0.9163494557142258,
+              "bbox": [
+                14,
+                17,
+                1580,
+                34
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9885711669921875,
+                  "bbox": [
+                    14,
+                    17,
+                    72,
+                    34
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.9929389953613281,
+                  "bbox": [
+                    138,
+                    18,
+                    230,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9685148000717163,
+                  "bbox": [
+                    1465,
+                    18,
+                    1550,
+                    34
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7153728604316711,
+                  "bbox": [
+                    1565,
+                    23,
+                    1580,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            19,
+            73,
+            795,
+            102
+          ],
+          "text": "Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+              "conf": 0.9905438274145126,
+              "bbox": [
+                19,
+                73,
+                795,
+                102
+              ],
+              "words": [
+                {
+                  "text": "Genesis Hernandez",
+                  "conf": 0.9880603551864624,
+                  "bbox": [
+                    19,
+                    81,
+                    206,
+                    102
+                  ]
+                },
+                {
+                  "text": "Member info",
+                  "conf": 0.9921325445175171,
+                  "bbox": [
+                    275,
+                    73,
+                    351,
+                    89
+                  ]
+                },
+                {
+                  "text": "Issues",
+                  "conf": 0.9983465075492859,
+                  "bbox": [
+                    366,
+                    74,
+                    405,
+                    88
+                  ]
+                },
+                {
+                  "text": "Policy detalls",
+                  "conf": 0.969422459602356,
+                  "bbox": [
+                    421,
+                    73,
+                    500,
+                    89
+                  ]
+                },
+                {
+                  "text": "Benefits",
+                  "conf": 0.99494469165802,
+                  "bbox": [
+                    515,
+                    74,
+                    568,
+                    89
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9910710453987122,
+                  "bbox": [
+                    584,
+                    74,
+                    625,
+                    88
+                  ]
+                },
+                {
+                  "text": "Rewards",
+                  "conf": 0.9994160532951355,
+                  "bbox": [
+                    641,
+                    74,
+                    694,
+                    89
+                  ]
+                },
+                {
+                  "text": "Authorizations",
+                  "conf": 0.9909569621086121,
+                  "bbox": [
+                    710,
+                    75,
+                    795,
+                    88
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            17,
+            105,
+            100,
+            130
+          ],
+          "text": "De Hoyo",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "De Hoyo",
+              "conf": 0.9705767631530762,
+              "bbox": [
+                17,
+                105,
+                100,
+                130
+              ],
+              "words": [
+                {
+                  "text": "De Hoyo",
+                  "conf": 0.9705767631530762,
+                  "bbox": [
+                    17,
+                    105,
+                    100,
+                    130
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            16,
+            141,
+            219,
+            482
+          ],
+          "text": "Active\nSP02-FL Team\nSilver Simple PCP Saver CSR 150",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Active",
+              "conf": 0.9996569752693176,
+              "bbox": [
+                21,
+                141,
+                64,
+                159
+              ],
+              "words": [
+                {
+                  "text": "Active",
+                  "conf": 0.9996569752693176,
+                  "bbox": [
+                    21,
+                    141,
+                    64,
+                    159
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "SP02-FL Team",
+              "conf": 0.8810775876045227,
+              "bbox": [
+                16,
+                412,
+                126,
+                432
+              ],
+              "words": [
+                {
+                  "text": "SP02-FL Team",
+                  "conf": 0.8810775876045227,
+                  "bbox": [
+                    16,
+                    412,
+                    126,
+                    432
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.980295717716217,
+              "bbox": [
+                41,
+                470,
+                219,
+                482
+              ],
+              "words": [
+                {
+                  "text": "Silver Simple PCP Saver CSR 150",
+                  "conf": 0.980295717716217,
+                  "bbox": [
+                    41,
+                    470,
+                    219,
+                    482
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            18,
+            167,
+            1254,
+            201
+          ],
+          "text": "OSC75847221-02R220XDSX SpouseON exc P1PVN50T $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "OSC75847221-02R220XDSX SpouseON exc P1PVN50T $0.00",
+              "conf": 0.9904916683832804,
+              "bbox": [
+                18,
+                167,
+                1254,
+                201
+              ],
+              "words": [
+                {
+                  "text": "OSC75847221-02R220XDSX SpouseON exc",
+                  "conf": 0.9775095582008362,
+                  "bbox": [
+                    18,
+                    167,
+                    184,
+                    201
+                  ]
+                },
+                {
+                  "text": "P1PVN50T",
+                  "conf": 0.9947951436042786,
+                  "bbox": [
+                    302,
+                    169,
+                    373,
+                    190
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9991703033447266,
+                  "bbox": [
+                    1214,
+                    173,
+                    1254,
+                    192
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            18,
+            350,
+            1250,
+            409
+          ],
+          "text": "Medical claim  No description available Processed\nFLBroward Memorial Hospital West  No provider referenced\nService 0n May 27,2026-Accumulation onJul21,2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Medical claim  No description available Processed",
+              "conf": 0.9821102619171143,
+              "bbox": [
+                302,
+                350,
+                1250,
+                369
+              ],
+              "words": [
+                {
+                  "text": " Medical claim  No description available",
+                  "conf": 0.9828933477401733,
+                  "bbox": [
+                    302,
+                    353,
+                    552,
+                    369
+                  ]
+                },
+                {
+                  "text": "Processed ",
+                  "conf": 0.9813271760940552,
+                  "bbox": [
+                    1169,
+                    350,
+                    1250,
+                    368
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "FLBroward Memorial Hospital West  No provider referenced",
+              "conf": 0.9691941738128662,
+              "bbox": [
+                18,
+                374,
+                601,
+                400
+              ],
+              "words": [
+                {
+                  "text": "FLBroward",
+                  "conf": 0.9870946407318115,
+                  "bbox": [
+                    18,
+                    378,
+                    112,
+                    400
+                  ]
+                },
+                {
+                  "text": "Memorial Hospital West  No provider referenced",
+                  "conf": 0.9512937068939209,
+                  "bbox": [
+                    305,
+                    374,
+                    601,
+                    387
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Service 0n May 27,2026-Accumulation onJul21,2026",
+              "conf": 0.9205474853515625,
+              "bbox": [
+                304,
+                396,
+                621,
+                409
+              ],
+              "words": [
+                {
+                  "text": "Service 0n May 27,2026-Accumulation onJul21,2026",
+                  "conf": 0.9205474853515625,
+                  "bbox": [
+                    304,
+                    396,
+                    621,
+                    409
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            30,
+            199,
+            1252,
+            258
+          ],
+          "text": "Medical claim -SUBSEQUENT PRENATAL CARE VISIT Denied\nNo facility referenced  No provider referenced\nHeads up note Service on May 27, 2026 - Accumulation on May 28, 2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Medical claim -SUBSEQUENT PRENATAL CARE VISIT Denied",
+              "conf": 0.9754288494586945,
+              "bbox": [
+                304,
+                199,
+                1252,
+                216
+              ],
+              "words": [
+                {
+                  "text": "Medical claim -SUBSEQUENT PRENATAL CARE VISIT",
+                  "conf": 0.9632437825202942,
+                  "bbox": [
+                    304,
+                    199,
+                    625,
+                    215
+                  ]
+                },
+                {
+                  "text": "Denied",
+                  "conf": 0.9876139163970947,
+                  "bbox": [
+                    1205,
+                    199,
+                    1252,
+                    216
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "No facility referenced  No provider referenced",
+              "conf": 0.9763205051422119,
+              "bbox": [
+                305,
+                223,
+                588,
+                236
+              ],
+              "words": [
+                {
+                  "text": "No facility referenced  No provider referenced",
+                  "conf": 0.9763205051422119,
+                  "bbox": [
+                    305,
+                    223,
+                    588,
+                    236
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Heads up note Service on May 27, 2026 - Accumulation on May 28, 2026",
+              "conf": 0.9878851175308228,
+              "bbox": [
+                30,
+                235,
+                630,
+                258
+              ],
+              "words": [
+                {
+                  "text": "Heads up note",
+                  "conf": 0.9991626739501953,
+                  "bbox": [
+                    30,
+                    235,
+                    115,
+                    255
+                  ]
+                },
+                {
+                  "text": "Service on May 27, 2026 - Accumulation on May 28, 2026",
+                  "conf": 0.9766075611114502,
+                  "bbox": [
+                    304,
+                    246,
+                    630,
+                    258
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            70,
+            322,
+            1255,
+            348
+          ],
+          "text": "Member actlons JX8BQXV0 $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member actlons JX8BQXV0 $0.00",
+              "conf": 0.9637289444605509,
+              "bbox": [
+                70,
+                322,
+                1255,
+                348
+              ],
+              "words": [
+                {
+                  "text": "Member actlons",
+                  "conf": 0.959392249584198,
+                  "bbox": [
+                    70,
+                    330,
+                    163,
+                    348
+                  ]
+                },
+                {
+                  "text": "JX8BQXV0",
+                  "conf": 0.9323515295982361,
+                  "bbox": [
+                    305,
+                    322,
+                    376,
+                    339
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9994430541992188,
+                  "bbox": [
+                    1214,
+                    325,
+                    1255,
+                    344
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 8,
+          "bbox": [
+            16,
+            445,
+            1272,
+            562
+          ],
+          "text": "Oscar plan: View additional claims in lineage Expand\nView ID card JSMJW9SJ $0.00\nMaria Alejandra Dempaire Medical claim Anesthesia for cesarean delivery Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscar plan: View additional claims in lineage Expand",
+              "conf": 0.9339556892712911,
+              "bbox": [
+                17,
+                445,
+                1272,
+                466
+              ],
+              "words": [
+                {
+                  "text": "Oscar plan:",
+                  "conf": 0.9560557007789612,
+                  "bbox": [
+                    17,
+                    445,
+                    106,
+                    466
+                  ]
+                },
+                {
+                  "text": "View additional claims in lineage",
+                  "conf": 0.9811629056930542,
+                  "bbox": [
+                    296,
+                    447,
+                    480,
+                    466
+                  ]
+                },
+                {
+                  "text": "Expand ",
+                  "conf": 0.8646484613418579,
+                  "bbox": [
+                    1218,
+                    449,
+                    1272,
+                    466
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "View ID card JSMJW9SJ $0.00",
+              "conf": 0.9815191030502319,
+              "bbox": [
+                40,
+                508,
+                1254,
+                536
+              ],
+              "words": [
+                {
+                  "text": "View ID card",
+                  "conf": 0.9591643810272217,
+                  "bbox": [
+                    40,
+                    508,
+                    114,
+                    521
+                  ]
+                },
+                {
+                  "text": "JSMJW9SJ",
+                  "conf": 0.986046552658081,
+                  "bbox": [
+                    304,
+                    517,
+                    379,
+                    533
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9993463754653931,
+                  "bbox": [
+                    1215,
+                    517,
+                    1254,
+                    536
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Maria Alejandra Dempaire Medical claim Anesthesia for cesarean delivery Pald",
+              "conf": 0.9620261192321777,
+              "bbox": [
+                16,
+                533,
+                1253,
+                562
+              ],
+              "words": [
+                {
+                  "text": " Maria Alejandra Dempaire",
+                  "conf": 0.9468928575515747,
+                  "bbox": [
+                    16,
+                    533,
+                    186,
+                    554
+                  ]
+                },
+                {
+                  "text": " Medical claim Anesthesia for cesarean delivery",
+                  "conf": 0.9530155062675476,
+                  "bbox": [
+                    302,
+                    544,
+                    596,
+                    561
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9861699938774109,
+                  "bbox": [
+                    1219,
+                    539,
+                    1253,
+                    562
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 9,
+          "bbox": [
+            37,
+            486,
+            143,
+            504
+          ],
+          "text": "FL HMO Standard",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FL HMO Standard",
+              "conf": 0.9732056260108948,
+              "bbox": [
+                37,
+                486,
+                143,
+                504
+              ],
+              "words": [
+                {
+                  "text": "FL HMO Standard",
+                  "conf": 0.9732056260108948,
+                  "bbox": [
+                    37,
+                    486,
+                    143,
+                    504
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            17,
+            564,
+            628,
+            618
+          ],
+          "text": "Effective 05/27/2026 Memorial Hospital West  Crystal a 001 Tojuola Crna\n8Family Service on May 27, 2026 - Accumulation on Jun 10, 2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Effective 05/27/2026 Memorial Hospital West  Crystal a 001 Tojuola Crna",
+              "conf": 0.988427460193634,
+              "bbox": [
+                17,
+                564,
+                619,
+                584
+              ],
+              "words": [
+                {
+                  "text": "Effective 05/27/2026",
+                  "conf": 0.9839993715286255,
+                  "bbox": [
+                    17,
+                    564,
+                    159,
+                    584
+                  ]
+                },
+                {
+                  "text": "Memorial Hospital West  Crystal a 001 Tojuola Crna",
+                  "conf": 0.9928555488586426,
+                  "bbox": [
+                    304,
+                    566,
+                    619,
+                    583
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "8Family Service on May 27, 2026 - Accumulation on Jun 10, 2026",
+              "conf": 0.95477694272995,
+              "bbox": [
+                18,
+                588,
+                628,
+                618
+              ],
+              "words": [
+                {
+                  "text": "8Family",
+                  "conf": 0.9540523290634155,
+                  "bbox": [
+                    18,
+                    597,
+                    80,
+                    618
+                  ]
+                },
+                {
+                  "text": "Service on May 27, 2026 - Accumulation on Jun 10, 2026",
+                  "conf": 0.9555015563964844,
+                  "bbox": [
+                    302,
+                    588,
+                    628,
+                    605
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 11,
+          "bbox": [
+            42,
+            623,
+            210,
+            635
+          ],
+          "text": "Jimmy Joe Hoyo SalasHolder",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Jimmy Joe Hoyo SalasHolder",
+              "conf": 0.9700742363929749,
+              "bbox": [
+                42,
+                623,
+                210,
+                635
+              ],
+              "words": [
+                {
+                  "text": "Jimmy Joe Hoyo SalasHolder",
+                  "conf": 0.9700742363929749,
+                  "bbox": [
+                    42,
+                    623,
+                    210,
+                    635
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 12,
+          "bbox": [
+            39,
+            639,
+            1255,
+            687
+          ],
+          "text": "Gael Enrique Hoyo Hernandez Child EXP8MKS3 $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Gael Enrique Hoyo Hernandez Child EXP8MKS3 $0.00",
+              "conf": 0.9942213495572408,
+              "bbox": [
+                39,
+                639,
+                1255,
+                687
+              ],
+              "words": [
+                {
+                  "text": "Gael Enrique Hoyo Hernandez Child",
+                  "conf": 0.9902737140655518,
+                  "bbox": [
+                    39,
+                    639,
+                    211,
+                    673
+                  ]
+                },
+                {
+                  "text": "EXP8MKS3",
+                  "conf": 0.9929332733154297,
+                  "bbox": [
+                    304,
+                    667,
+                    378,
+                    684
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.999457061290741,
+                  "bbox": [
+                    1214,
+                    670,
+                    1255,
+                    687
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 13,
+          "bbox": [
+            19,
+            691,
+            1253,
+            713
+          ],
+          "text": "5 No bills Medical claim  No description available Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "5 No bills Medical claim  No description available Pald",
+              "conf": 0.9014472514390945,
+              "bbox": [
+                19,
+                691,
+                1253,
+                713
+              ],
+              "words": [
+                {
+                  "text": "5",
+                  "conf": 0.6623156666755676,
+                  "bbox": [
+                    19,
+                    691,
+                    34,
+                    707
+                  ]
+                },
+                {
+                  "text": "No bills",
+                  "conf": 0.9860352277755737,
+                  "bbox": [
+                    30,
+                    691,
+                    85,
+                    708
+                  ]
+                },
+                {
+                  "text": "Medical claim  No description available",
+                  "conf": 0.9967326521873474,
+                  "bbox": [
+                    304,
+                    695,
+                    551,
+                    712
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9607054591178894,
+                  "bbox": [
+                    1219,
+                    691,
+                    1253,
+                    713
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 14,
+          "bbox": [
+            19,
+            717,
+            628,
+            756
+          ],
+          "text": "Memorial Hospital West  No provider referenced\nGiveaway Go-getter View details Service on May 27, 2026- Accumulation on Jun 19, 2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Memorial Hospital West  No provider referenced",
+              "conf": 0.9888065457344055,
+              "bbox": [
+                320,
+                717,
+                601,
+                735
+              ],
+              "words": [
+                {
+                  "text": "Memorial Hospital West  No provider referenced",
+                  "conf": 0.9888065457344055,
+                  "bbox": [
+                    320,
+                    717,
+                    601,
+                    735
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Giveaway Go-getter View details Service on May 27, 2026- Accumulation on Jun 19, 2026",
+              "conf": 0.9431203007698059,
+              "bbox": [
+                19,
+                724,
+                628,
+                756
+              ],
+              "words": [
+                {
+                  "text": "Giveaway Go-getter View details",
+                  "conf": 0.9466128349304199,
+                  "bbox": [
+                    19,
+                    724,
+                    152,
+                    756
+                  ]
+                },
+                {
+                  "text": "Service on May 27, 2026- Accumulation on Jun 19, 2026",
+                  "conf": 0.9396277666091919,
+                  "bbox": [
+                    302,
+                    740,
+                    628,
+                    756
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            14,
+            17,
+            1580,
+            756
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>Search Rosco</td><td>MR Melissa</td><td>-</td></tr><tr><td>Genesis Hernandez</td><td>Member info Issues Policy detalls Benefits Claims Rewards Authorizations</td><td></td><td></td></tr><tr><td>De Hoyo</td><td></td><td></td><td></td></tr><tr><td>Active</td><td></td><td></td><td></td></tr><tr><td>No facility referenced No provider referenced</td><td></td><td></td><td></td></tr><tr><td>Heads up note</td><td>Service on May 27, 2026 - Accumulation on May 28, 2026</td><td></td><td></td></tr><tr><td>Service 0n May 27,2026-Accumulation onJul21,2026</td><td></td><td></td><td></td></tr><tr><td>SP02-FL Team</td><td></td><td></td><td></td></tr><tr><td>Oscar plan</td><td>View additional claims in lineage</td><td>Expand</td><td></td></tr><tr><td>Silver Simple PCP Saver CSR 150</td><td></td><td></td><td></td></tr><tr><td>FL HMO Standard</td><td></td><td></td><td></td></tr><tr><td>View ID card</td><td></td><td></td><td></td></tr><tr><td>JSMJW9SJ</td><td></td><td>$0.00</td><td></td></tr><tr><td>Service on May 27, 2026 - Accumulation on Jun 10, 2026</td><td></td><td></td><td></td></tr><tr><td>8Family</td><td></td><td></td><td></td></tr><tr><td>Jimmy Joe Hoyo SalasHolder</td><td></td><td></td><td></td></tr><tr><td>Gael Enrique Hoyo Hernandez Child</td><td></td><td></td><td></td></tr><tr><td>EXP8MKS3</td><td></td><td>$0.00</td><td></td></tr><tr><td>5 No bills</td><td>Medical claim  No description available</td><td>Pald</td><td></td></tr><tr><td>Memorial Hospital West No provider referenced</td><td></td><td></td><td></td></tr><tr><td>Giveaway Go-getter View details</td><td>Service on May 27, 2026- Accumulation on Jun 19, 2026</td><td></td><td></td></tr></table>",
+          "text": "rosco: Search Rosco\nMR Melissa: -\nGenesis Hernandez: Member info Issues Policy detalls Benefits Claims Rewards Authorizations\nDe Hoyo: \nActive: \nNo facility referenced No provider referenced: \nHeads up note: Service on May 27, 2026 - Accumulation on May 28, 2026\nService 0n May 27,2026-Accumulation onJul21,2026: \nSP02-FL Team: \nOscar plan: View additional claims in lineage\nExpand: \nSilver Simple PCP Saver CSR 150: \nFL HMO Standard: \nView ID card: \nJSMJW9SJ: \n$0.00: \nService on May 27, 2026 - Accumulation on Jun 10, 2026: \n8Family: \nJimmy Joe Hoyo SalasHolder: \nGael Enrique Hoyo Hernandez Child: \nEXP8MKS3: \n$0.00: \n5 No bills: Medical claim  No description available\nPald: \nMemorial Hospital West No provider referenced: \nGiveaway Go-getter View details: Service on May 27, 2026- Accumulation on Jun 19, 2026",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "Search Rosco",
+              "MR Melissa",
+              "-"
+            ],
+            [
+              "Genesis Hernandez",
+              "Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+              "",
+              ""
+            ],
+            [
+              "De Hoyo",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Active",
+              "",
+              "",
+              ""
+            ],
+            [
+              "No facility referenced No provider referenced",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Heads up note",
+              "Service on May 27, 2026 - Accumulation on May 28, 2026",
+              "",
+              ""
+            ],
+            [
+              "Service 0n May 27,2026-Accumulation onJul21,2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "SP02-FL Team",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Oscar plan",
+              "View additional claims in lineage",
+              "Expand",
+              ""
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150",
+              "",
+              "",
+              ""
+            ],
+            [
+              "FL HMO Standard",
+              "",
+              "",
+              ""
+            ],
+            [
+              "View ID card",
+              "",
+              "",
+              ""
+            ],
+            [
+              "JSMJW9SJ",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "Service on May 27, 2026 - Accumulation on Jun 10, 2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "8Family",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Jimmy Joe Hoyo SalasHolder",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Gael Enrique Hoyo Hernandez Child",
+              "",
+              "",
+              ""
+            ],
+            [
+              "EXP8MKS3",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "5 No bills",
+              "Medical claim  No description available",
+              "Pald",
+              ""
+            ],
+            [
+              "Memorial Hospital West No provider referenced",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Giveaway Go-getter View details",
+              "Service on May 27, 2026- Accumulation on Jun 19, 2026",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco Search Rosco",
+              "MR Melissa -"
+            ],
+            [
+              "Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+              ""
+            ],
+            [
+              "De Hoyo",
+              ""
+            ],
+            [
+              "Active",
+              ""
+            ],
+            [
+              "No facility referenced  No provider referenced",
+              ""
+            ],
+            [
+              "Heads up note Service on May 27, 2026 - Accumulation on May 28, 2026",
+              ""
+            ],
+            [
+              "Service 0n May 27,2026-Accumulation onJul21,2026",
+              ""
+            ],
+            [
+              "SP02-FL Team",
+              ""
+            ],
+            [
+              "Oscar plan: View additional claims in lineage",
+              "Expand"
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150",
+              ""
+            ],
+            [
+              "FL HMO Standard",
+              ""
+            ],
+            [
+              "View ID card",
+              ""
+            ],
+            [
+              "JSMJW9SJ",
+              "$0.00"
+            ],
+            [
+              "Service on May 27, 2026 - Accumulation on Jun 10, 2026",
+              ""
+            ],
+            [
+              "8Family",
+              ""
+            ],
+            [
+              "Jimmy Joe Hoyo SalasHolder",
+              ""
+            ],
+            [
+              "Gael Enrique Hoyo Hernandez Child",
+              ""
+            ],
+            [
+              "EXP8MKS3",
+              "$0.00"
+            ],
+            [
+              "5 No bills Medical claim  No description available",
+              "Pald"
+            ],
+            [
+              "Memorial Hospital West  No provider referenced",
+              ""
+            ],
+            [
+              "Giveaway Go-getter View details Service on May 27, 2026- Accumulation on Jun 19, 2026",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            18,
+            167,
+            1254,
+            216
+          ],
+          "html": "<table><tr><th>OSC75847221-02R220XDSX SpouseON exc</th><th>P1PVN50T</th><th>$0.00</th></tr><tr><td></td><td>Medical claim -SUBSEQUENT PRENATAL CARE VISIT</td><td>Denied</td></tr></table>",
+          "text": " | Medical claim -SUBSEQUENT PRENATAL CARE VISIT | Denied",
+          "headers": [
+            "OSC75847221-02R220XDSX SpouseON exc",
+            "P1PVN50T",
+            "$0.00"
+          ],
+          "rows": [
+            [
+              "",
+              "Medical claim -SUBSEQUENT PRENATAL CARE VISIT",
+              "Denied"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            18,
+            322,
+            1255,
+            400
+          ],
+          "html": "<table><tr><th>Member actlons</th><th>JX8BQXV0</th><th>$0.00</th></tr><tr><td></td><td>Medical claim  No description available</td><td>Processed</td></tr><tr><td>FLBroward</td><td>Memorial Hospital West  No provider referenced</td><td></td></tr></table>",
+          "text": " | Medical claim  No description available | Processed\nFLBroward | Memorial Hospital West  No provider referenced | ",
+          "headers": [
+            "Member actlons",
+            "JX8BQXV0",
+            "$0.00"
+          ],
+          "rows": [
+            [
+              "",
+              "Medical claim  No description available",
+              "Processed"
+            ],
+            [
+              "FLBroward",
+              "Memorial Hospital West  No provider referenced",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            16,
+            533,
+            1253,
+            584
+          ],
+          "html": "<table><tr><th>Maria Alejandra Dempaire</th><th>Medical claim Anesthesia for cesarean delivery</th><th>Pald</th></tr><tr><td>Effective 05/27/2026</td><td>Memorial Hospital West  Crystal a 001 Tojuola Crna</td><td></td></tr></table>",
+          "text": "Effective 05/27/2026 | Memorial Hospital West  Crystal a 001 Tojuola Crna | ",
+          "headers": [
+            "Maria Alejandra Dempaire",
+            "Medical claim Anesthesia for cesarean delivery",
+            "Pald"
+          ],
+          "rows": [
+            [
+              "Effective 05/27/2026",
+              "Memorial Hospital West  Crystal a 001 Tojuola Crna",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Search Rosco MR Melissa -",
+          "conf": 0.9163494557142258,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9885711669921875,
+              "bbox": [
+                14,
+                17,
+                72,
+                34
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.9929389953613281,
+              "bbox": [
+                138,
+                18,
+                230,
+                34
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9685148000717163,
+              "bbox": [
+                1465,
+                18,
+                1550,
+                34
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7153728604316711,
+              "bbox": [
+                1565,
+                23,
+                1580,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations",
+          "conf": 0.9905438274145126,
+          "bbox": [
+            19,
+            73,
+            795,
+            102
+          ],
+          "words": [
+            {
+              "text": "Genesis Hernandez",
+              "conf": 0.9880603551864624,
+              "bbox": [
+                19,
+                81,
+                206,
+                102
+              ]
+            },
+            {
+              "text": "Member info",
+              "conf": 0.9921325445175171,
+              "bbox": [
+                275,
+                73,
+                351,
+                89
+              ]
+            },
+            {
+              "text": "Issues",
+              "conf": 0.9983465075492859,
+              "bbox": [
+                366,
+                74,
+                405,
+                88
+              ]
+            },
+            {
+              "text": "Policy detalls",
+              "conf": 0.969422459602356,
+              "bbox": [
+                421,
+                73,
+                500,
+                89
+              ]
+            },
+            {
+              "text": "Benefits",
+              "conf": 0.99494469165802,
+              "bbox": [
+                515,
+                74,
+                568,
+                89
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9910710453987122,
+              "bbox": [
+                584,
+                74,
+                625,
+                88
+              ]
+            },
+            {
+              "text": "Rewards",
+              "conf": 0.9994160532951355,
+              "bbox": [
+                641,
+                74,
+                694,
+                89
+              ]
+            },
+            {
+              "text": "Authorizations",
+              "conf": 0.9909569621086121,
+              "bbox": [
+                710,
+                75,
+                795,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "text": "De Hoyo",
+          "conf": 0.9705767631530762,
+          "bbox": [
+            17,
+            105,
+            100,
+            130
+          ],
+          "words": [
+            {
+              "text": "De Hoyo",
+              "conf": 0.9705767631530762,
+              "bbox": [
+                17,
+                105,
+                100,
+                130
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Active",
+          "conf": 0.9996569752693176,
+          "bbox": [
+            21,
+            141,
+            64,
+            159
+          ],
+          "words": [
+            {
+              "text": "Active",
+              "conf": 0.9996569752693176,
+              "bbox": [
+                21,
+                141,
+                64,
+                159
+              ]
+            }
+          ]
+        },
+        {
+          "text": "SP02-FL Team",
+          "conf": 0.8810775876045227,
+          "bbox": [
+            16,
+            412,
+            126,
+            432
+          ],
+          "words": [
+            {
+              "text": "SP02-FL Team",
+              "conf": 0.8810775876045227,
+              "bbox": [
+                16,
+                412,
+                126,
+                432
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Silver Simple PCP Saver CSR 150",
+          "conf": 0.980295717716217,
+          "bbox": [
+            41,
+            470,
+            219,
+            482
+          ],
+          "words": [
+            {
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.980295717716217,
+              "bbox": [
+                41,
+                470,
+                219,
+                482
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OSC75847221-02R220XDSX SpouseON exc P1PVN50T $0.00",
+          "conf": 0.9904916683832804,
+          "bbox": [
+            18,
+            167,
+            1254,
+            201
+          ],
+          "words": [
+            {
+              "text": "OSC75847221-02R220XDSX SpouseON exc",
+              "conf": 0.9775095582008362,
+              "bbox": [
+                18,
+                167,
+                184,
+                201
+              ]
+            },
+            {
+              "text": "P1PVN50T",
+              "conf": 0.9947951436042786,
+              "bbox": [
+                302,
+                169,
+                373,
+                190
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9991703033447266,
+              "bbox": [
+                1214,
+                173,
+                1254,
+                192
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medical claim  No description available Processed",
+          "conf": 0.9821102619171143,
+          "bbox": [
+            302,
+            350,
+            1250,
+            369
+          ],
+          "words": [
+            {
+              "text": " Medical claim  No description available",
+              "conf": 0.9828933477401733,
+              "bbox": [
+                302,
+                353,
+                552,
+                369
+              ]
+            },
+            {
+              "text": "Processed ",
+              "conf": 0.9813271760940552,
+              "bbox": [
+                1169,
+                350,
+                1250,
+                368
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLBroward Memorial Hospital West  No provider referenced",
+          "conf": 0.9691941738128662,
+          "bbox": [
+            18,
+            374,
+            601,
+            400
+          ],
+          "words": [
+            {
+              "text": "FLBroward",
+              "conf": 0.9870946407318115,
+              "bbox": [
+                18,
+                378,
+                112,
+                400
+              ]
+            },
+            {
+              "text": "Memorial Hospital West  No provider referenced",
+              "conf": 0.9512937068939209,
+              "bbox": [
+                305,
+                374,
+                601,
+                387
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service 0n May 27,2026-Accumulation onJul21,2026",
+          "conf": 0.9205474853515625,
+          "bbox": [
+            304,
+            396,
+            621,
+            409
+          ],
+          "words": [
+            {
+              "text": "Service 0n May 27,2026-Accumulation onJul21,2026",
+              "conf": 0.9205474853515625,
+              "bbox": [
+                304,
+                396,
+                621,
+                409
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medical claim -SUBSEQUENT PRENATAL CARE VISIT Denied",
+          "conf": 0.9754288494586945,
+          "bbox": [
+            304,
+            199,
+            1252,
+            216
+          ],
+          "words": [
+            {
+              "text": "Medical claim -SUBSEQUENT PRENATAL CARE VISIT",
+              "conf": 0.9632437825202942,
+              "bbox": [
+                304,
+                199,
+                625,
+                215
+              ]
+            },
+            {
+              "text": "Denied",
+              "conf": 0.9876139163970947,
+              "bbox": [
+                1205,
+                199,
+                1252,
+                216
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No facility referenced  No provider referenced",
+          "conf": 0.9763205051422119,
+          "bbox": [
+            305,
+            223,
+            588,
+            236
+          ],
+          "words": [
+            {
+              "text": "No facility referenced  No provider referenced",
+              "conf": 0.9763205051422119,
+              "bbox": [
+                305,
+                223,
+                588,
+                236
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Heads up note Service on May 27, 2026 - Accumulation on May 28, 2026",
+          "conf": 0.9878851175308228,
+          "bbox": [
+            30,
+            235,
+            630,
+            258
+          ],
+          "words": [
+            {
+              "text": "Heads up note",
+              "conf": 0.9991626739501953,
+              "bbox": [
+                30,
+                235,
+                115,
+                255
+              ]
+            },
+            {
+              "text": "Service on May 27, 2026 - Accumulation on May 28, 2026",
+              "conf": 0.9766075611114502,
+              "bbox": [
+                304,
+                246,
+                630,
+                258
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member actlons JX8BQXV0 $0.00",
+          "conf": 0.9637289444605509,
+          "bbox": [
+            70,
+            322,
+            1255,
+            348
+          ],
+          "words": [
+            {
+              "text": "Member actlons",
+              "conf": 0.959392249584198,
+              "bbox": [
+                70,
+                330,
+                163,
+                348
+              ]
+            },
+            {
+              "text": "JX8BQXV0",
+              "conf": 0.9323515295982361,
+              "bbox": [
+                305,
+                322,
+                376,
+                339
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9994430541992188,
+              "bbox": [
+                1214,
+                325,
+                1255,
+                344
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar plan: View additional claims in lineage Expand",
+          "conf": 0.9339556892712911,
+          "bbox": [
+            17,
+            445,
+            1272,
+            466
+          ],
+          "words": [
+            {
+              "text": "Oscar plan:",
+              "conf": 0.9560557007789612,
+              "bbox": [
+                17,
+                445,
+                106,
+                466
+              ]
+            },
+            {
+              "text": "View additional claims in lineage",
+              "conf": 0.9811629056930542,
+              "bbox": [
+                296,
+                447,
+                480,
+                466
+              ]
+            },
+            {
+              "text": "Expand ",
+              "conf": 0.8646484613418579,
+              "bbox": [
+                1218,
+                449,
+                1272,
+                466
+              ]
+            }
+          ]
+        },
+        {
+          "text": "View ID card JSMJW9SJ $0.00",
+          "conf": 0.9815191030502319,
+          "bbox": [
+            40,
+            508,
+            1254,
+            536
+          ],
+          "words": [
+            {
+              "text": "View ID card",
+              "conf": 0.9591643810272217,
+              "bbox": [
+                40,
+                508,
+                114,
+                521
+              ]
+            },
+            {
+              "text": "JSMJW9SJ",
+              "conf": 0.986046552658081,
+              "bbox": [
+                304,
+                517,
+                379,
+                533
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9993463754653931,
+              "bbox": [
+                1215,
+                517,
+                1254,
+                536
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Maria Alejandra Dempaire Medical claim Anesthesia for cesarean delivery Pald",
+          "conf": 0.9620261192321777,
+          "bbox": [
+            16,
+            533,
+            1253,
+            562
+          ],
+          "words": [
+            {
+              "text": " Maria Alejandra Dempaire",
+              "conf": 0.9468928575515747,
+              "bbox": [
+                16,
+                533,
+                186,
+                554
+              ]
+            },
+            {
+              "text": " Medical claim Anesthesia for cesarean delivery",
+              "conf": 0.9530155062675476,
+              "bbox": [
+                302,
+                544,
+                596,
+                561
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9861699938774109,
+              "bbox": [
+                1219,
+                539,
+                1253,
+                562
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FL HMO Standard",
+          "conf": 0.9732056260108948,
+          "bbox": [
+            37,
+            486,
+            143,
+            504
+          ],
+          "words": [
+            {
+              "text": "FL HMO Standard",
+              "conf": 0.9732056260108948,
+              "bbox": [
+                37,
+                486,
+                143,
+                504
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Effective 05/27/2026 Memorial Hospital West  Crystal a 001 Tojuola Crna",
+          "conf": 0.988427460193634,
+          "bbox": [
+            17,
+            564,
+            619,
+            584
+          ],
+          "words": [
+            {
+              "text": "Effective 05/27/2026",
+              "conf": 0.9839993715286255,
+              "bbox": [
+                17,
+                564,
+                159,
+                584
+              ]
+            },
+            {
+              "text": "Memorial Hospital West  Crystal a 001 Tojuola Crna",
+              "conf": 0.9928555488586426,
+              "bbox": [
+                304,
+                566,
+                619,
+                583
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8Family Service on May 27, 2026 - Accumulation on Jun 10, 2026",
+          "conf": 0.95477694272995,
+          "bbox": [
+            18,
+            588,
+            628,
+            618
+          ],
+          "words": [
+            {
+              "text": "8Family",
+              "conf": 0.9540523290634155,
+              "bbox": [
+                18,
+                597,
+                80,
+                618
+              ]
+            },
+            {
+              "text": "Service on May 27, 2026 - Accumulation on Jun 10, 2026",
+              "conf": 0.9555015563964844,
+              "bbox": [
+                302,
+                588,
+                628,
+                605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jimmy Joe Hoyo SalasHolder",
+          "conf": 0.9700742363929749,
+          "bbox": [
+            42,
+            623,
+            210,
+            635
+          ],
+          "words": [
+            {
+              "text": "Jimmy Joe Hoyo SalasHolder",
+              "conf": 0.9700742363929749,
+              "bbox": [
+                42,
+                623,
+                210,
+                635
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gael Enrique Hoyo Hernandez Child EXP8MKS3 $0.00",
+          "conf": 0.9942213495572408,
+          "bbox": [
+            39,
+            639,
+            1255,
+            687
+          ],
+          "words": [
+            {
+              "text": "Gael Enrique Hoyo Hernandez Child",
+              "conf": 0.9902737140655518,
+              "bbox": [
+                39,
+                639,
+                211,
+                673
+              ]
+            },
+            {
+              "text": "EXP8MKS3",
+              "conf": 0.9929332733154297,
+              "bbox": [
+                304,
+                667,
+                378,
+                684
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.999457061290741,
+              "bbox": [
+                1214,
+                670,
+                1255,
+                687
+              ]
+            }
+          ]
+        },
+        {
+          "text": "5 No bills Medical claim  No description available Pald",
+          "conf": 0.9014472514390945,
+          "bbox": [
+            19,
+            691,
+            1253,
+            713
+          ],
+          "words": [
+            {
+              "text": "5",
+              "conf": 0.6623156666755676,
+              "bbox": [
+                19,
+                691,
+                34,
+                707
+              ]
+            },
+            {
+              "text": "No bills",
+              "conf": 0.9860352277755737,
+              "bbox": [
+                30,
+                691,
+                85,
+                708
+              ]
+            },
+            {
+              "text": "Medical claim  No description available",
+              "conf": 0.9967326521873474,
+              "bbox": [
+                304,
+                695,
+                551,
+                712
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9607054591178894,
+              "bbox": [
+                1219,
+                691,
+                1253,
+                713
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Memorial Hospital West  No provider referenced",
+          "conf": 0.9888065457344055,
+          "bbox": [
+            320,
+            717,
+            601,
+            735
+          ],
+          "words": [
+            {
+              "text": "Memorial Hospital West  No provider referenced",
+              "conf": 0.9888065457344055,
+              "bbox": [
+                320,
+                717,
+                601,
+                735
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Giveaway Go-getter View details Service on May 27, 2026- Accumulation on Jun 19, 2026",
+          "conf": 0.9431203007698059,
+          "bbox": [
+            19,
+            724,
+            628,
+            756
+          ],
+          "words": [
+            {
+              "text": "Giveaway Go-getter View details",
+              "conf": 0.9466128349304199,
+              "bbox": [
+                19,
+                724,
+                152,
+                756
+              ]
+            },
+            {
+              "text": "Service on May 27, 2026- Accumulation on Jun 19, 2026",
+              "conf": 0.9396277666091919,
+              "bbox": [
+                302,
+                740,
+                628,
+                756
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

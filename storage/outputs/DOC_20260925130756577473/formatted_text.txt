@@ -1,0 +1,206 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x788 | blocks=12 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims HR appian | -
+  CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+  CELL[1,2] = Claims HR appian
+ROW 2 | HOLD-5882590 Production Hold | - | - | -
+  CELL[2,0] = HOLD-5882590 Production Hold
+ROW 3 | P1 | In Progress (In Review) | - | -
+  CELL[3,0] = P1
+  CELL[3,1] = In Progress (In Review)
+ROW 4 | SLA | All Holds SLA (minus High$) (7 working days) | Submitter | Internal
+  CELL[4,0] = SLA
+  CELL[4,1] = All Holds SLA (minus High$) (7 working days)
+  CELL[4,2] = Submitter
+  CELL[4,3] = Internal
+ROW 5 | Skill | claim_attachment_review | - | -
+  CELL[5,0] = Skill
+  CELL[5,1] = claim_attachment_review
+ROW 6 | Plan Type | - | - | -
+  CELL[6,0] = Plan Type
+ROW 7 | - | - | Additional Info | -
+  CELL[7,2] = Additional Info
+ROW 8 | - | - | Interest Accrued | -
+  CELL[8,2] = Interest Accrued
+ROW 9 | Claim Info | - | 8/21/2026 | -
+  CELL[9,0] = Claim Info
+  CELL[9,2] = 8/21/2026
+ROW 10 | - | - | Prompt Process Due Date | -
+  CELL[10,2] = Prompt Process Due Date
+ROW 11 | Ocelot ID | J8MBSC8G | - | -
+  CELL[11,0] = Ocelot ID
+  CELL[11,1] = J8MBSC8G
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[46,12,1474,42] | order=0
+  Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims HR appian
+BLOCK 1 | type=header | bbox=[18,73,341,94] | order=1
+  HOLD-5882590 Production Hold
+BLOCK 2 | type=table | bbox=[29,133,1437,195] | order=2
+  claim_attachment_review hold on claim J8MBSC8G Ticket Info Re-triage PAUSE ESCALATE WITHDRAW RESOLVE
+  Due 07/27/2026 Assignee Hilary Redd
+BLOCK 3 | type=table | bbox=[34,190,204,205] | order=3
+  P1 In Progress (In Review)
+BLOCK 4 | type=table | bbox=[401,216,1124,238] | order=4
+  SLA All Holds SLA (minus High$) (7 working days) Submitter Internal
+BLOCK 5 | type=label_value | bbox=[40,238,271,258] | order=5
+  Skill: claim_attachment_review
+BLOCK 6 | type=table | bbox=[39,259,1182,497] | order=6
+  No resource links available Created On 7/17/2026 9: 20 AM EDT Created By svc.automat
+  Queue claim_attachment review Updated On 7/24/2026 4: 38 PM EDT Updated By Hilary Redd
+  Member Info Closed On Closed By
+  Member ID R2217V4G Reported On Reporter
+  OSCID OSC7566103801 Source Automat (appian_hold_ticket_creation) Watchers AWATCH
+  Stato FL Labels
+BLOCK 7 | type=heading | bbox=[42,515,1044,542] | order=7
+  Plan Type Additional Info
+BLOCK 8 | type=table | bbox=[41,542,1228,660] | order=8
+  ICHRA - Claim attachment needs to be reviewed (Nucleus Code %ATCLM) Issue Other
+  LOB Individual Code claim_attachment_review
+  Tonant Oscar System Ocelot
+BLOCK 9 | type=heading | bbox=[941,685,1041,700] | order=9
+  Interest Accrued
+BLOCK 10 | type=footer | bbox=[45,726,1143,764] | order=10
+  Claim Info Prompt Process Due Date 8/21/2026
+BLOCK 11 | type=footer | bbox=[45,753,251,772] | order=11
+  Ocelot ID J8MBSC8G
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[18,12,1474,772] | shape=12x4 | conf=0.920
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims HR appian | -
+    CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+    CELL[1,2] = Claims HR appian
+  ROW 2 | HOLD-5882590 Production Hold | - | - | -
+    CELL[2,0] = HOLD-5882590 Production Hold
+  ROW 3 | P1 | In Progress (In Review) | - | -
+    CELL[3,0] = P1
+    CELL[3,1] = In Progress (In Review)
+  ROW 4 | SLA | All Holds SLA (minus High$) (7 working days) | Submitter | Internal
+    CELL[4,0] = SLA
+    CELL[4,1] = All Holds SLA (minus High$) (7 working days)
+    CELL[4,2] = Submitter
+    CELL[4,3] = Internal
+  ROW 5 | Skill | claim_attachment_review | - | -
+    CELL[5,0] = Skill
+    CELL[5,1] = claim_attachment_review
+  ROW 6 | Plan Type | - | - | -
+    CELL[6,0] = Plan Type
+  ROW 7 | - | - | Additional Info | -
+    CELL[7,2] = Additional Info
+  ROW 8 | - | - | Interest Accrued | -
+    CELL[8,2] = Interest Accrued
+  ROW 9 | Claim Info | - | 8/21/2026 | -
+    CELL[9,0] = Claim Info
+    CELL[9,2] = 8/21/2026
+  ROW 10 | - | - | Prompt Process Due Date | -
+    CELL[10,2] = Prompt Process Due Date
+  ROW 11 | Ocelot ID | J8MBSC8G | - | -
+    CELL[11,0] = Ocelot ID
+    CELL[11,1] = J8MBSC8G
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[46,12,1474,42] | conf=0.991 | text=Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims HR appian
+  WORD | bbox=[46,22,102,42] | text=Claims
+  WORD | bbox=[135,21,177,38] | text=HOME
+  WORD | bbox=[196,21,271,36] | text=INVENTORY
+  WORD | bbox=[291,20,384,35] | text=CREATE TICKET
+  WORD | bbox=[405,19,480,34] | text=UNARCHIVE
+  WORD | bbox=[1315,12,1426,28] | text=Claims HR
+  WORD | bbox=[1429,12,1474,28] | text=appian
+LINE 1 | bbox=[18,73,341,94] | conf=0.947 | text=HOLD-5882590 Production Hold
+LINE 2 | bbox=[29,133,1437,175] | conf=0.981 | text=claim_attachment_review hold on claim J8MBSC8G Ticket Info Re-triage PAUSE ESCALATE WITHDRAW RESOLVE
+  WORD | bbox=[29,137,328,175] | text=claim_attachment_review hold on claim J8MBSC8G
+  WORD | bbox=[393,136,630,156] | text=Ticket Info Re-triage
+  WORD | bbox=[1030,136,1071,149] | text=PAUSE
+  WORD | bbox=[1139,134,1200,149] | text=ESCALATE
+  WORD | bbox=[1254,133,1323,148] | text=WITHDRAW
+  WORD | bbox=[1379,133,1437,148] | text=RESOLVE
+LINE 3 | bbox=[401,171,1145,195] | conf=0.987 | text=Due 07/27/2026 Assignee Hilary Redd
+  WORD | bbox=[401,177,430,195] | text=Due
+  WORD | bbox=[541,175,609,190] | text=07/27/2026
+  WORD | bbox=[935,174,993,190] | text=Assignee
+  WORD | bbox=[1073,171,1145,186] | text=Hilary Redd
+LINE 4 | bbox=[34,190,204,205] | conf=0.952 | text=P1 In Progress (In Review)
+  WORD | bbox=[34,191,54,205] | text=P1
+  WORD | bbox=[69,190,204,205] | text=In Progress (In Review)
+LINE 5 | bbox=[401,216,1124,238] | conf=0.984 | text=SLA All Holds SLA (minus High$) (7 working days) Submitter Internal
+  WORD | bbox=[401,220,430,238] | text=SLA
+  WORD | bbox=[543,219,796,235] | text=All Holds SLA (minus High$) (7 working days)
+  WORD | bbox=[936,217,1000,232] | text=Submitter
+  WORD | bbox=[1075,216,1124,230] | text=Internal
+LINE 6 | bbox=[40,238,271,258] | conf=0.976 | text=Skill: claim_attachment_review
+LINE 7 | bbox=[39,259,1153,290] | conf=0.965 | text=No resource links available Created On 7/17/2026 9: 20 AM EDT Created By svc.automat
+  WORD | bbox=[39,274,193,290] | text=No resource links available
+  WORD | bbox=[403,265,473,280] | text=Created On
+  WORD | bbox=[541,263,675,278] | text=7/17/2026 9:20 AM EDT
+  WORD | bbox=[938,260,1004,277] | text=Created By
+  WORD | bbox=[1078,259,1153,274] | text=svc.automat
+LINE 8 | bbox=[40,298,1145,324] | conf=0.965 | text=Queue claim_attachment review Updated On 7/24/2026 4: 38 PM EDT Updated By Hilary Redd
+  WORD | bbox=[40,301,82,318] | text=Queue
+  WORD | bbox=[178,298,329,314] | text=claim_attachment review
+  WORD | bbox=[403,307,477,324] | text=Updated On
+  WORD | bbox=[543,306,679,321] | text=7/24/2026 4:38 PM EDT
+  WORD | bbox=[936,304,1008,320] | text=Updated By
+  WORD | bbox=[1076,301,1145,317] | text=Hilary Redd
+LINE 9 | bbox=[41,345,998,371] | conf=0.950 | text=Member Info Closed On Closed By
+  WORD | bbox=[41,355,143,371] | text=Member Info
+  WORD | bbox=[403,351,468,367] | text=Closed On
+  WORD | bbox=[936,345,998,364] | text=Closed By
+LINE 10 | bbox=[40,380,994,410] | conf=0.959 | text=Member ID R2217V4G Reported On Reporter
+  WORD | bbox=[40,383,107,400] | text=Member ID
+  WORD | bbox=[179,380,240,400] | text=R2217V4G
+  WORD | bbox=[403,394,482,410] | text=Reported On
+  WORD | bbox=[938,390,994,407] | text=Reporter
+LINE 11 | bbox=[41,426,1182,455] | conf=0.971 | text=OSCID OSC7566103801 Source Automat (appian_hold_ticket_creation) Watchers AWATCH
+  WORD | bbox=[41,427,86,443] | text=OSCID
+  WORD | bbox=[180,426,274,441] | text=OSC7566103801
+  WORD | bbox=[403,439,449,455] | text=Source
+  WORD | bbox=[544,434,770,452] | text=Automat (appian_hold_ticket_creation)
+  WORD | bbox=[936,433,998,448] | text=Watchers
+  WORD | bbox=[1121,436,1182,453] | text=AWATCH
+LINE 12 | bbox=[41,467,446,497] | conf=0.967 | text=Stato FL Labels
+  WORD | bbox=[41,471,80,488] | text=Stato
+  WORD | bbox=[179,467,200,487] | text=FL
+  WORD | bbox=[403,481,446,497] | text=Labels
+LINE 13 | bbox=[42,515,1044,542] | conf=0.959 | text=Plan Type Additional Info
+  WORD | bbox=[42,515,100,531] | text=Plan Type
+  WORD | bbox=[939,525,1044,542] | text=Additional Info
+LINE 14 | bbox=[41,542,1116,573] | conf=0.926 | text=ICHRA - Claim attachment needs to be reviewed (Nucleus Code %ATCLM) Issue Other
+  WORD | bbox=[41,557,86,573] | text=ICHRA
+  WORD | bbox=[416,542,789,561] | text=Claim attachment needs to be reviewed (Nucleus Code %ATCLM)
+  WORD | bbox=[938,556,974,572] | text=Issue
+  WORD | bbox=[1075,550,1116,570] | text=Other
+LINE 15 | bbox=[41,597,1228,617] | conf=0.996 | text=LOB Individual Code claim_attachment_review
+  WORD | bbox=[41,599,71,617] | text=LOB
+  WORD | bbox=[182,598,241,614] | text=Individual
+  WORD | bbox=[939,598,975,614] | text=Code
+  WORD | bbox=[1079,597,1228,612] | text=claim_attachment_review
+LINE 16 | bbox=[42,639,1121,660] | conf=0.977 | text=Tonant Oscar System Ocelot
+  WORD | bbox=[42,644,88,660] | text=Tonant
+  WORD | bbox=[182,641,220,658] | text=Oscar
+  WORD | bbox=[939,640,989,660] | text=System
+  WORD | bbox=[1078,639,1121,655] | text=Ocelot
+LINE 17 | bbox=[941,685,1041,700] | conf=0.968 | text=Interest Accrued
+LINE 18 | bbox=[45,726,1143,764] | conf=0.970 | text=Claim Info Prompt Process Due Date 8/21/2026
+  WORD | bbox=[45,726,128,742] | text=Claim Info
+  WORD | bbox=[938,728,1063,764] | text=Prompt Process Due Date
+  WORD | bbox=[1079,726,1143,741] | text=8/21/2026
+LINE 19 | bbox=[45,753,251,772] | conf=0.960 | text=Ocelot ID J8MBSC8G
+  WORD | bbox=[45,755,102,772] | text=Ocelot ID
+  WORD | bbox=[182,753,251,768] | text=J8MBSC8G
+[/BOXES]

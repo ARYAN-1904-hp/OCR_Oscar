@@ -1,0 +1,428 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=14 | tables=6 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x8
+HEADER | Cortex-Claim#7S7PQ98D | Latest version (7 of 7) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 3 hours ago | Readjudicate | Actions | 4
+  CELL[1,0] = About thls claim Payment Patlent
+  CELL[1,1] = Providers Medical Claim lines
+  CELL[1,4] = 3 hours ago
+  CELL[1,5] = Readjudicate
+  CELL[1,6] = Actions
+  CELL[1,7] = 4
+ROW 2 | 7S7PQ98D | About this claim | - | - | - | - | - | -
+  CELL[2,0] = 7S7PQ98D
+  CELL[2,1] = About this claim
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 14x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Member | Genesis Adriana Herna. | - | -
+  CELL[1,0] = Member
+  CELL[1,1] = Genesis Adriana Herna.
+ROW 2 | NEWBORN | - | - | -
+  CELL[2,0] = NEWBORN
+ROW 3 | Is transplant? | - | Skip ER downcoding | Skip emergency department visit level downcoding for this claim
+  CELL[3,0] = Is transplant?
+  CELL[3,2] = Skip ER downcoding
+  CELL[3,3] = Skip emergency department visit level downcoding for this claim
+ROW 4 | No denials on this claim. Manage | - | - | -
+  CELL[4,0] = No denials on this claim. Manage
+ROW 5 | International Providers | No | - | -
+  CELL[5,0] = International Providers
+  CELL[5,1] = No
+ROW 6 | Is Medicaid reclamation? | No | - | -
+  CELL[6,0] = Is Medicaid reclamation?
+  CELL[6,1] = No
+ROW 7 | Billed | $944.00 (100%) | - | -
+  CELL[7,0] = Billed
+  CELL[7,1] = $944.00 (100%)
+ROW 8 | Allowed | $101.00 (11%) | - | -
+  CELL[8,0] = Allowed
+  CELL[8,1] = $101.00 (11%)
+ROW 9 | Submission information | - | - | -
+  CELL[9,0] = Submission information
+ROW 10 | Pay provider | $101.00 | - | -
+  CELL[10,0] = Pay provider
+  CELL[10,1] = $101.00
+ROW 11 | 7/18/2026 | - | - | -
+  CELL[11,0] = 7/18/2026
+ROW 12 | Payment | - | - | -
+  CELL[12,0] = Payment
+ROW 13 | No system identified duplicates | - | - | -
+  CELL[13,0] = No system identified duplicates
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 6x5
+HEADER | 1 Note See all member's clalms | Service start date | 05/29/2026 | Received date | 07/18/2026
+ROW 1 | - | Service end date | 05/31/2026 | Claim type | HCFA Professional
+  CELL[1,1] = Service end date
+  CELL[1,2] = 05/31/2026
+  CELL[1,3] = Claim type
+  CELL[1,4] = HCFA Professional
+ROW 2 | - | Provider's claim # | MBBAC29514982C | Billing type | 1
+  CELL[2,1] = Provider's claim #
+  CELL[2,2] = MBBAC29514982C
+  CELL[2,3] = Billing type
+  CELL[2,4] = 1
+ROW 3 | Claim state: Blocked | - | - | - | -
+  CELL[3,0] = Claim state: Blocked
+ROW 4 | - | Stay type | Inpatient | Place of service | 21
+  CELL[4,1] = Stay type
+  CELL[4,2] = Inpatient
+  CELL[4,3] = Place of service
+  CELL[4,4] = 21
+ROW 5 | Blockers (1) | Diagnosis related group | = | Transmission ID | 76409737799
+  CELL[5,0] = Blockers (1)
+  CELL[5,1] = Diagnosis related group
+  CELL[5,2] = =
+  CELL[5,3] = Transmission ID
+  CELL[5,4] = 76409737799
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 2x3
+HEADER | Manage | Payer control number | Nucleus ID
+ROW 1 | Denials (0) | Authorization required? Yes (OSCAR) | Goal PROCESS_CLAIM
+  CELL[1,0] = Denials (0)
+  CELL[1,1] = Authorization required? Yes (OSCAR)
+  CELL[1,2] = Goal PROCESS_CLAIM
+[/TABLE 3]
+
+[TABLE 4 | source=wide_grid]
+shape: 5x6
+HEADER | Pay member | $0.00 | Submission type | Electronic | Vendor source | AVAILITY
+ROW 1 | >Memberresponsibility | $0.00 | EDIfle | Download | Documents | View
+  CELL[1,0] = >Memberresponsibility
+  CELL[1,1] = $0.00
+  CELL[1,2] = EDIfle
+  CELL[1,3] = Download
+  CELL[1,4] = Documents
+  CELL[1,5] = View
+ROW 2 | - | - | Tenant | oscar | - | -
+  CELL[2,2] = Tenant
+  CELL[2,3] = oscar
+ROW 3 | Claim lineage | - | Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac | - | - | -
+  CELL[3,0] = Claim lineage
+  CELL[3,2] = Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+ROW 4 | 7S7PQ98D | Blocked | - | - | - | -
+  CELL[4,0] = 7S7PQ98D
+  CELL[4,1] = Blocked
+[/TABLE 4]
+
+[TABLE 5 | source=wide_grid]
+shape: 3x4
+HEADER | Potential parent claims | Charge group | Prompt process due date | 08/05/2026
+ROW 1 | - | Payment authority NEXTGEN | Interest accrued | $0.00
+  CELL[1,1] = Payment authority NEXTGEN
+  CELL[1,2] = Interest accrued
+  CELL[1,3] = $0.00
+ROW 2 | Potential duplicate claims | Payto member No | Excluded from interest | No
+  CELL[2,0] = Potential duplicate claims
+  CELL[2,1] = Payto member No
+  CELL[2,2] = Excluded from interest
+  CELL[2,3] = No
+[/TABLE 5]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[50,14,1555,35] | order=0
+  Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create
+BLOCK 1 | type=header | bbox=[31,63,1530,80] | order=1
+  About thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions 4
+BLOCK 2 | type=table_row | bbox=[34,118,457,139] | order=2
+  7S7PQ98D About this claim
+BLOCK 3 | type=table_row | bbox=[32,145,218,158] | order=3
+  Member: Genesis Adriana Herna.
+BLOCK 4 | type=table | bbox=[31,162,1536,391] | order=4
+  1 Note See all member's clalms Service start date 05/29/2026 Received date 07/18/2026
+  Service end date 05/31/2026 Claim type HCFA Professional
+  Claim state: Blocked Provider's claim # MBBAC29514982C Billing type 1
+  Stay type Inpatient Place of service 21
+  Blockers (1) NEWBORN Diagnosis related group = Transmission ID 76409737799
+  Manage Payer control number Nucleus ID
+  Denials (0) Authorization required? Yes (OSCAR) Goal PROCESS_CLAIM
+  No denials on this claim. Manage Is transplant? - Skip ER downcoding Skip emergency department visit level downcoding for this claim
+BLOCK 5 | type=table_row | bbox=[299,379,538,396] | order=5
+  International Providers No
+BLOCK 6 | type=table_row | bbox=[30,406,538,485] | order=6
+  Is Medicaid reclamation? No
+  Billed $944.00 (100%)
+  Allowed $101.00 (11%)
+  Submission information
+  Pay provider $101.00
+BLOCK 7 | type=table | bbox=[19,493,1210,536] | order=7
+  Pay member $0.00 Submission type Electronic Vendor source AVAILITY
+  >Memberresponsibility $0.00 EDIfle Download Documents View
+BLOCK 8 | type=table | bbox=[299,546,551,560] | order=8
+  Tenant oscar
+BLOCK 9 | type=table_row | bbox=[30,564,560,588] | order=9
+  Claim lineage Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+BLOCK 10 | type=table_row | bbox=[28,587,388,653] | order=10
+  7S7PQ98D Blocked
+  7/18/2026
+  Payment
+BLOCK 11 | type=table | bbox=[32,653,1236,708] | order=11
+  Potential parent claims Charge group Prompt process due date 08/05/2026
+  Payment authority NEXTGEN Interest accrued $0.00
+BLOCK 12 | type=footer | bbox=[32,713,1176,733] | order=12
+  Potential duplicate claims Payto member No Excluded from interest No
+BLOCK 13 | type=footer | bbox=[31,740,210,756] | order=13
+  No system identified duplicates
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[30,145,1536,756] | shape=14x4 | conf=0.920
+  shape: 14x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Member | Genesis Adriana Herna. | - | -
+    CELL[1,0] = Member
+    CELL[1,1] = Genesis Adriana Herna.
+  ROW 2 | NEWBORN | - | - | -
+    CELL[2,0] = NEWBORN
+  ROW 3 | Is transplant? | - | Skip ER downcoding | Skip emergency department visit level downcoding for this claim
+    CELL[3,0] = Is transplant?
+    CELL[3,2] = Skip ER downcoding
+    CELL[3,3] = Skip emergency department visit level downcoding for this claim
+  ROW 4 | No denials on this claim. Manage | - | - | -
+    CELL[4,0] = No denials on this claim. Manage
+  ROW 5 | International Providers | No | - | -
+    CELL[5,0] = International Providers
+    CELL[5,1] = No
+  ROW 6 | Is Medicaid reclamation? | No | - | -
+    CELL[6,0] = Is Medicaid reclamation?
+    CELL[6,1] = No
+  ROW 7 | Billed | $944.00 (100%) | - | -
+    CELL[7,0] = Billed
+    CELL[7,1] = $944.00 (100%)
+  ROW 8 | Allowed | $101.00 (11%) | - | -
+    CELL[8,0] = Allowed
+    CELL[8,1] = $101.00 (11%)
+  ROW 9 | Submission information | - | - | -
+    CELL[9,0] = Submission information
+  ROW 10 | Pay provider | $101.00 | - | -
+    CELL[10,0] = Pay provider
+    CELL[10,1] = $101.00
+  ROW 11 | 7/18/2026 | - | - | -
+    CELL[11,0] = 7/18/2026
+  ROW 12 | Payment | - | - | -
+    CELL[12,0] = Payment
+  ROW 13 | No system identified duplicates | - | - | -
+    CELL[13,0] = No system identified duplicates
+TABLE 1 | source=wide_grid | bbox=[31,14,1555,139] | shape=3x8 | conf=0.850
+  shape: 3x8
+  HEADER | Cortex-Claim#7S7PQ98D | Latest version (7 of 7) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 3 hours ago | Readjudicate | Actions | 4
+    CELL[1,0] = About thls claim Payment Patlent
+    CELL[1,1] = Providers Medical Claim lines
+    CELL[1,4] = 3 hours ago
+    CELL[1,5] = Readjudicate
+    CELL[1,6] = Actions
+    CELL[1,7] = 4
+  ROW 2 | 7S7PQ98D | About this claim | - | - | - | - | - | -
+    CELL[2,0] = 7S7PQ98D
+    CELL[2,1] = About this claim
+TABLE 2 | source=wide_grid | bbox=[31,162,1275,293] | shape=6x5 | conf=0.850
+  shape: 6x5
+  HEADER | 1 Note See all member's clalms | Service start date | 05/29/2026 | Received date | 07/18/2026
+  ROW 1 | - | Service end date | 05/31/2026 | Claim type | HCFA Professional
+    CELL[1,1] = Service end date
+    CELL[1,2] = 05/31/2026
+    CELL[1,3] = Claim type
+    CELL[1,4] = HCFA Professional
+  ROW 2 | - | Provider's claim # | MBBAC29514982C | Billing type | 1
+    CELL[2,1] = Provider's claim #
+    CELL[2,2] = MBBAC29514982C
+    CELL[2,3] = Billing type
+    CELL[2,4] = 1
+  ROW 3 | Claim state: Blocked | - | - | - | -
+    CELL[3,0] = Claim state: Blocked
+  ROW 4 | - | Stay type | Inpatient | Place of service | 21
+    CELL[4,1] = Stay type
+    CELL[4,2] = Inpatient
+    CELL[4,3] = Place of service
+    CELL[4,4] = 21
+  ROW 5 | Blockers (1) | Diagnosis related group | = | Transmission ID | 76409737799
+    CELL[5,0] = Blockers (1)
+    CELL[5,1] = Diagnosis related group
+    CELL[5,2] = =
+    CELL[5,3] = Transmission ID
+    CELL[5,4] = 76409737799
+TABLE 3 | source=wide_grid | bbox=[31,302,1255,353] | shape=2x3 | conf=0.850
+  shape: 2x3
+  HEADER | Manage | Payer control number | Nucleus ID
+  ROW 1 | Denials (0) | Authorization required? Yes (OSCAR) | Goal PROCESS_CLAIM
+    CELL[1,0] = Denials (0)
+    CELL[1,1] = Authorization required? Yes (OSCAR)
+    CELL[1,2] = Goal PROCESS_CLAIM
+TABLE 4 | source=wide_grid | bbox=[19,493,1210,603] | shape=5x6 | conf=0.850
+  shape: 5x6
+  HEADER | Pay member | $0.00 | Submission type | Electronic | Vendor source | AVAILITY
+  ROW 1 | >Memberresponsibility | $0.00 | EDIfle | Download | Documents | View
+    CELL[1,0] = >Memberresponsibility
+    CELL[1,1] = $0.00
+    CELL[1,2] = EDIfle
+    CELL[1,3] = Download
+    CELL[1,4] = Documents
+    CELL[1,5] = View
+  ROW 2 | - | - | Tenant | oscar | - | -
+    CELL[2,2] = Tenant
+    CELL[2,3] = oscar
+  ROW 3 | Claim lineage | - | Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac | - | - | -
+    CELL[3,0] = Claim lineage
+    CELL[3,2] = Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+  ROW 4 | 7S7PQ98D | Blocked | - | - | - | -
+    CELL[4,0] = 7S7PQ98D
+    CELL[4,1] = Blocked
+TABLE 5 | source=wide_grid | bbox=[32,653,1236,733] | shape=3x4 | conf=0.850
+  shape: 3x4
+  HEADER | Potential parent claims | Charge group | Prompt process due date | 08/05/2026
+  ROW 1 | - | Payment authority NEXTGEN | Interest accrued | $0.00
+    CELL[1,1] = Payment authority NEXTGEN
+    CELL[1,2] = Interest accrued
+    CELL[1,3] = $0.00
+  ROW 2 | Potential duplicate claims | Payto member No | Excluded from interest | No
+    CELL[2,0] = Potential duplicate claims
+    CELL[2,1] = Payto member No
+    CELL[2,2] = Excluded from interest
+    CELL[2,3] = No
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[50,14,1555,35] | conf=0.992 | text=Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[50,17,260,33] | text=Cortex-Claim#7S7PQ98D
+  WORD | bbox=[278,17,401,33] | text=Latest version (7 of 7)
+  WORD | bbox=[1106,14,1170,33] | text=Dashboard
+  WORD | bbox=[1191,14,1272,35] | text=Batch History
+  WORD | bbox=[1291,14,1338,35] | text=Testing
+  WORD | bbox=[1357,15,1430,33] | text=Settlements
+  WORD | bbox=[1452,18,1494,32] | text=Search
+  WORD | bbox=[1515,18,1555,32] | text=Create
+LINE 1 | bbox=[31,63,1530,80] | conf=0.969 | text=About thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions 4
+  WORD | bbox=[31,64,126,80] | text=About thls claim
+  WORD | bbox=[149,65,201,80] | text=Payment
+  WORD | bbox=[221,65,266,79] | text=Patlent
+  WORD | bbox=[288,64,345,80] | text=Providers
+  WORD | bbox=[365,65,412,79] | text=Medical
+  WORD | bbox=[432,64,498,80] | text=Claim lines
+  WORD | bbox=[1256,63,1316,80] | text=3 hours ago
+  WORD | bbox=[1339,64,1419,80] | text=Readjudicate
+  WORD | bbox=[1469,65,1519,79] | text=Actions
+  WORD | bbox=[1520,67,1530,76] | text=4
+LINE 2 | bbox=[34,118,457,139] | conf=0.982 | text=7S7PQ98D About this claim
+  WORD | bbox=[34,120,135,137] | text=7S7PQ98D
+  WORD | bbox=[300,118,457,139] | text=About this claim
+LINE 3 | bbox=[32,145,218,158] | conf=0.989 | text=Member: Genesis Adriana Herna.
+LINE 4 | bbox=[32,162,1223,195] | conf=0.975 | text=1 Note See all member's clalms Service start date 05/29/2026 Received date 07/18/2026
+  WORD | bbox=[32,162,88,178] | text=1 Note
+  WORD | bbox=[34,182,168,195] | text=See all member's clalms
+  WORD | bbox=[300,174,400,187] | text=Service start date
+  WORD | bbox=[518,171,586,187] | text=05/29/2026
+  WORD | bbox=[938,173,1020,190] | text=Received date
+  WORD | bbox=[1155,169,1223,190] | text=07/18/2026
+LINE 5 | bbox=[297,196,1275,217] | conf=0.978 | text=Service end date 05/31/2026 Claim type HCFA Professional
+  WORD | bbox=[297,197,395,215] | text=Service end date
+  WORD | bbox=[518,199,585,215] | text=05/31/2026
+  WORD | bbox=[936,196,1002,217] | text=Claim type
+  WORD | bbox=[1155,199,1275,215] | text=HCFA Professional
+LINE 6 | bbox=[31,223,1192,252] | conf=0.952 | text=Claim state: Blocked Provider's claim # MBBAC29514982C Billing type 1
+  WORD | bbox=[31,236,102,252] | text=Claim state:
+  WORD | bbox=[169,237,219,251] | text=Blocked
+  WORD | bbox=[300,227,400,239] | text=Provider's claim #
+  WORD | bbox=[518,224,622,241] | text=MBBAC29514982C
+  WORD | bbox=[936,223,1005,243] | text=Billing type
+  WORD | bbox=[1154,223,1192,242] | text=1
+LINE 7 | bbox=[298,250,1189,267] | conf=0.977 | text=Stay type Inpatient Place of service 21
+  WORD | bbox=[298,251,356,267] | text=Stay type
+  WORD | bbox=[518,251,572,267] | text=Inpatient
+  WORD | bbox=[938,251,1028,267] | text=Place of service
+  WORD | bbox=[1154,250,1189,267] | text=21
+LINE 8 | bbox=[31,267,1231,300] | conf=0.916 | text=Blockers (1) NEWBORN Diagnosis related group = Transmission ID 76409737799
+  WORD | bbox=[31,267,99,284] | text=Blockers (1)
+  WORD | bbox=[32,288,115,300] | text=NEWBORN
+  WORD | bbox=[300,279,434,292] | text=Diagnosis related group
+  WORD | bbox=[518,278,530,290] | text==
+  WORD | bbox=[938,276,1030,293] | text=Transmission ID
+  WORD | bbox=[1156,276,1231,293] | text=76409737799
+LINE 9 | bbox=[32,302,1000,321] | conf=0.990 | text=Manage Payer control number Nucleus ID
+  WORD | bbox=[32,307,80,321] | text=Manage
+  WORD | bbox=[300,304,420,317] | text=Payer control number
+  WORD | bbox=[936,302,1000,318] | text=Nucleus ID
+LINE 10 | bbox=[31,327,1255,353] | conf=0.977 | text=Denials (0) Authorization required? Yes (OSCAR) Goal PROCESS_CLAIM
+  WORD | bbox=[31,336,94,353] | text=Denials (0)
+  WORD | bbox=[300,330,434,342] | text=Authorization required?
+  WORD | bbox=[516,327,590,344] | text=Yes (OSCAR)
+  WORD | bbox=[938,327,969,345] | text=Goal
+  WORD | bbox=[1158,330,1255,342] | text=PROCESS_CLAIM
+LINE 11 | bbox=[31,354,1536,391] | conf=0.891 | text=No denials on this claim. Manage Is transplant? - Skip ER downcoding Skip emergency department visit level downcoding for this claim
+  WORD | bbox=[31,356,166,391] | text=No denials on this claim. Manage
+  WORD | bbox=[299,354,380,370] | text=Is transplant?
+  WORD | bbox=[939,354,1055,370] | text=Skip ER downcoding
+  WORD | bbox=[1156,354,1536,370] | text=Skip emergency department visit level downcoding for this claim
+LINE 12 | bbox=[299,379,538,396] | conf=0.974 | text=International Providers No
+  WORD | bbox=[299,379,425,396] | text=International Providers
+  WORD | bbox=[516,379,538,396] | text=No
+LINE 13 | bbox=[300,406,538,421] | conf=0.995 | text=Is Medicaid reclamation? No
+  WORD | bbox=[300,407,440,420] | text=Is Medicaid reclamation?
+  WORD | bbox=[516,406,538,421] | text=No
+LINE 14 | bbox=[30,418,224,435] | conf=0.992 | text=Billed $944.00 (100%)
+  WORD | bbox=[30,418,68,435] | text=Billed
+  WORD | bbox=[142,419,224,435] | text=$944.00 (100%)
+LINE 15 | bbox=[31,443,224,460] | conf=0.987 | text=Allowed $101.00 (11%)
+  WORD | bbox=[31,444,79,458] | text=Allowed
+  WORD | bbox=[155,443,224,460] | text=$101.00 (11%)
+LINE 16 | bbox=[301,458,452,471] | conf=0.976 | text=Submission information
+LINE 17 | bbox=[30,468,222,485] | conf=0.994 | text=Pay provider $101.00
+  WORD | bbox=[30,468,104,485] | text=Pay provider
+  WORD | bbox=[179,470,222,484] | text=$101.00
+LINE 18 | bbox=[31,493,1210,510] | conf=0.995 | text=Pay member $0.00 Submission type Electronic Vendor source AVAILITY
+  WORD | bbox=[31,494,104,510] | text=Pay member
+  WORD | bbox=[186,493,224,510] | text=$0.00
+  WORD | bbox=[299,493,395,509] | text=Submission type
+  WORD | bbox=[518,493,578,509] | text=Electronic
+  WORD | bbox=[938,493,1021,509] | text=Vendor source
+  WORD | bbox=[1155,493,1210,509] | text=AVAILITY
+LINE 19 | bbox=[19,518,1189,536] | conf=0.988 | text=>Memberresponsibility $0.00 EDIfle Download Documents View
+  WORD | bbox=[19,519,160,536] | text=>Memberresponsibility
+  WORD | bbox=[188,519,222,533] | text=$0.00
+  WORD | bbox=[299,519,341,533] | text=EDIfle
+  WORD | bbox=[519,521,576,533] | text=Download
+  WORD | bbox=[939,521,1005,533] | text=Documents
+  WORD | bbox=[1156,518,1189,536] | text=View
+LINE 20 | bbox=[299,546,551,560] | conf=0.996 | text=Tenant oscar
+  WORD | bbox=[299,546,341,560] | text=Tenant
+  WORD | bbox=[516,546,551,560] | text=oscar
+LINE 21 | bbox=[30,564,560,588] | conf=0.979 | text=Claim lineage Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+  WORD | bbox=[30,564,110,582] | text=Claim lineage
+  WORD | bbox=[300,575,560,588] | text=Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+LINE 22 | bbox=[28,587,219,603] | conf=0.993 | text=7S7PQ98D Blocked
+  WORD | bbox=[28,587,105,603] | text=7S7PQ98D
+  WORD | bbox=[169,589,219,603] | text=Blocked
+LINE 23 | bbox=[42,607,92,621] | conf=0.984 | text=7/18/2026
+LINE 24 | bbox=[301,635,388,653] | conf=0.999 | text=Payment
+LINE 25 | bbox=[32,653,1236,677] | conf=0.988 | text=Potential parent claims Charge group Prompt process due date 08/05/2026
+  WORD | bbox=[32,653,162,666] | text=Potential parent claims
+  WORD | bbox=[300,661,379,677] | text=Charge group
+  WORD | bbox=[940,662,1080,675] | text=Prompt process due date
+  WORD | bbox=[1158,663,1236,676] | text=08/05/2026
+LINE 26 | bbox=[299,686,1192,708] | conf=0.996 | text=Payment authority NEXTGEN Interest accrued $0.00
+  WORD | bbox=[299,686,406,703] | text=Payment authority
+  WORD | bbox=[516,686,578,703] | text=NEXTGEN
+  WORD | bbox=[936,690,1034,707] | text=Interest accrued
+  WORD | bbox=[1155,690,1192,708] | text=$0.00
+LINE 27 | bbox=[32,713,1176,733] | conf=0.982 | text=Potential duplicate claims Payto member No Excluded from interest No
+  WORD | bbox=[32,715,177,728] | text=Potential duplicate claims
+  WORD | bbox=[300,714,384,727] | text=Payto member
+  WORD | bbox=[516,713,536,728] | text=No
+  WORD | bbox=[940,719,1066,732] | text=Excluded from interest
+  WORD | bbox=[1154,718,1176,733] | text=No
+LINE 28 | bbox=[31,740,210,756] | conf=0.991 | text=No system identified duplicates
+[/BOXES]

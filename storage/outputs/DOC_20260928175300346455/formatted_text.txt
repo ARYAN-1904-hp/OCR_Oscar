@@ -1,0 +1,303 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=14 | tables=4 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 19x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | a Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = a Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Yisroel Dubov | - | - | -
+  CELL[3,0] = Yisroel Dubov
+ROW 4 | NJnODVrY | - | $0.00 | -
+  CELL[4,0] = NJnODVrY
+  CELL[4,2] = $0.00
+ROW 5 | Active | Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more | Paid | -
+  CELL[5,0] = Active
+  CELL[5,1] = Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more
+  CELL[5,2] = Paid
+ROW 6 | OSC78747909-01 - R213XB6D | Oscar Medical Group- Lorilea Willams | - | -
+  CELL[6,0] = OSC78747909-01 - R213XB6D
+  CELL[6,1] = Oscar Medical Group- Lorilea Willams
+ROW 7 | Holder - ON exc | Service on Feb 13,2026 - Accumulation on Feb 15,2026 | - | -
+  CELL[7,0] = Holder - ON exc
+  CELL[7,1] = Service on Feb 13,2026 - Accumulation on Feb 15,2026
+ROW 8 | Heads up note | - | - | -
+  CELL[8,0] = Heads up note
+ROW 9 | 5YNC6CCH | - | $0.00 | -
+  CELL[9,0] = 5YNC6CCH
+  CELL[9,2] = $0.00
+ROW 10 | Medical claim- Initial new patient preventive medicine evaluation (younger than 1 year) | - | Pald | -
+  CELL[10,0] = Medical claim- Initial new patient preventive medicine evaluation (younger than 1 year)
+  CELL[10,2] = Pald
+ROW 11 | Member actions | No facility referenced - Rebecca Ohayon | - | -
+  CELL[11,0] = Member actions
+  CELL[11,1] = No facility referenced - Rebecca Ohayon
+ROW 12 | Service on Sep 17, 2025 Accumulation on Mar 12, 2026 | - | - | -
+  CELL[12,0] = Service on Sep 17, 2025 Accumulation on Mar 12, 2026
+ROW 13 | FLBroward | - | - | -
+  CELL[13,0] = FLBroward
+ROW 14 | View ID card | - | - | -
+  CELL[14,0] = View ID card
+ROW 15 | Jeffin Alex | - | - | -
+  CELL[15,0] = Jeffin Alex
+ROW 16 | Service on Sep 16, 2025 Accumulation on Jan 17, 2026 | - | - | -
+  CELL[16,0] = Service on Sep 16, 2025 Accumulation on Jan 17, 2026
+ROW 17 | Oscar Unlocks Not activated | - | - | -
+  CELL[17,0] = Oscar Unlocks Not activated
+ROW 18 | nextgen_bllling_rosco_tag | Rureau nf Puhlic Health I ahnratnries Nn nrnvider referenced | - | -
+  CELL[18,0] = nextgen_bllling_rosco_tag
+  CELL[18,1] = Rureau nf Puhlic Health I ahnratnries Nn nrnvider referenced
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 4x3
+HEADER | FLO3FLTeam | AAMSZV4Y | $0.00
+ROW 1 | Oscarplan: | Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn | Pald
+  CELL[1,0] = Oscarplan:
+  CELL[1,1] = Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn
+  CELL[1,2] = Pald
+ROW 2 | Silver Simple PCP Saver CSR 150 | ONo facility referenced Evelyn Tamayo | -
+  CELL[2,0] = Silver Simple PCP Saver CSR 150
+  CELL[2,1] = ONo facility referenced Evelyn Tamayo
+ROW 3 | FL HMO Standard | Service on Sep 16, 2025 Accumulation on Apr 28, 2026 | -
+  CELL[3,0] = FL HMO Standard
+  CELL[3,1] = Service on Sep 16, 2025 Accumulation on Apr 28, 2026
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 3x3
+HEADER | Effective 01/01/2026 | A28Z91TK | $0.00
+ROW 1 | 8 Individual | Medical claim Screening evaluation of brain response to sound with automated analysis | Paid
+  CELL[1,0] = 8 Individual
+  CELL[1,1] = Medical claim Screening evaluation of brain response to sound with automated analysis
+  CELL[1,2] = Paid
+ROW 2 | $Current Balance due | No facility referenced- No provider referenced | -
+  CELL[2,0] = $Current Balance due
+  CELL[2,1] = No facility referenced- No provider referenced
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 2x3
+HEADER | Member tags | 4PYQV4FN | $124.23
+ROW 1 | - | Medical claim Chemical analysis for genetic disorder | Denied
+  CELL[1,1] = Medical claim Chemical analysis for genetic disorder
+  CELL[1,2] = Denied
+[/TABLE 3]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,14,1580,102] | order=0
+  rosco a Search Rosco MR Melissa
+  Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 1 | type=table_row | bbox=[304,98,1255,116] | order=1
+  NJnODVrY $0.00
+BLOCK 2 | type=table | bbox=[22,115,1252,139] | order=2
+  Active Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more Paid
+BLOCK 3 | type=table_row | bbox=[19,140,548,162] | order=3
+  OSC78747909-01 - R213XB6D: Oscar Medical Group- Lorilea Willams
+BLOCK 4 | type=table_row | bbox=[18,159,1254,335] | order=4
+  Holder - ON exc Service on Feb 13,2026 - Accumulation on Feb 15,2026
+  5YNC6CCH $0.00
+  Medical claim- Initial new patient preventive medicine evaluation (younger than 1 year) Pald
+  Member actions No facility referenced - Rebecca Ohayon
+  Service on Sep 17, 2025 Accumulation on Mar 12, 2026
+BLOCK 5 | type=table_row | bbox=[19,211,115,369] | order=5
+  Heads up note
+  FLBroward
+BLOCK 6 | type=table | bbox=[16,384,1254,445] | order=6
+  FLO3FLTeam AAMSZV4Y $0.00
+  Oscarplan: Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn Pald
+BLOCK 7 | type=table | bbox=[39,443,626,496] | order=7
+  Silver Simple PCP Saver CSR 150 ONo facility referenced Evelyn Tamayo
+  FL HMO Standard View ID card Service on Sep 16, 2025 Accumulation on Apr 28, 2026
+BLOCK 8 | type=table_row | bbox=[18,508,102,526] | order=8
+  Jeffin Alex
+BLOCK 9 | type=table | bbox=[17,540,1255,595] | order=9
+  Effective 01/01/2026 A28Z91TK $0.00
+  8 Individual Medical claim Screening evaluation of brain response to sound with automated analysis Paid
+BLOCK 10 | type=table | bbox=[19,598,622,638] | order=10
+  $Current Balance due No facility referenced- No provider referenced
+  Service on Sep 16, 2025 Accumulation on Jan 17, 2026
+BLOCK 11 | type=table_row | bbox=[19,639,122,674] | order=11
+  Oscar Unlocks Not activated
+BLOCK 12 | type=footer | bbox=[16,697,1254,727] | order=12
+  Member tags 4PYQV4FN $124.23
+BLOCK 13 | type=footer | bbox=[22,729,1251,765] | order=13
+  Medical claim Chemical analysis for genetic disorder Denied
+  nextgen_bllling_rosco_tag Rureau nf Puhlic Health I ahnratnries Nn nrnvider referenced
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,14,1580,765] | shape=19x4 | conf=0.920
+  shape: 19x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | a Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = a Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Yisroel Dubov | - | - | -
+    CELL[3,0] = Yisroel Dubov
+  ROW 4 | NJnODVrY | - | $0.00 | -
+    CELL[4,0] = NJnODVrY
+    CELL[4,2] = $0.00
+  ROW 5 | Active | Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more | Paid | -
+    CELL[5,0] = Active
+    CELL[5,1] = Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more
+    CELL[5,2] = Paid
+  ROW 6 | OSC78747909-01 - R213XB6D | Oscar Medical Group- Lorilea Willams | - | -
+    CELL[6,0] = OSC78747909-01 - R213XB6D
+    CELL[6,1] = Oscar Medical Group- Lorilea Willams
+  ROW 7 | Holder - ON exc | Service on Feb 13,2026 - Accumulation on Feb 15,2026 | - | -
+    CELL[7,0] = Holder - ON exc
+    CELL[7,1] = Service on Feb 13,2026 - Accumulation on Feb 15,2026
+  ROW 8 | Heads up note | - | - | -
+    CELL[8,0] = Heads up note
+  ROW 9 | 5YNC6CCH | - | $0.00 | -
+    CELL[9,0] = 5YNC6CCH
+    CELL[9,2] = $0.00
+  ROW 10 | Medical claim- Initial new patient preventive medicine evaluation (younger than 1 year) | - | Pald | -
+    CELL[10,0] = Medical claim- Initial new patient preventive medicine evaluation (younger than 1 year)
+    CELL[10,2] = Pald
+  ROW 11 | Member actions | No facility referenced - Rebecca Ohayon | - | -
+    CELL[11,0] = Member actions
+    CELL[11,1] = No facility referenced - Rebecca Ohayon
+  ROW 12 | Service on Sep 17, 2025 Accumulation on Mar 12, 2026 | - | - | -
+    CELL[12,0] = Service on Sep 17, 2025 Accumulation on Mar 12, 2026
+  ROW 13 | FLBroward | - | - | -
+    CELL[13,0] = FLBroward
+  ROW 14 | View ID card | - | - | -
+    CELL[14,0] = View ID card
+  ROW 15 | Jeffin Alex | - | - | -
+    CELL[15,0] = Jeffin Alex
+  ROW 16 | Service on Sep 16, 2025 Accumulation on Jan 17, 2026 | - | - | -
+    CELL[16,0] = Service on Sep 16, 2025 Accumulation on Jan 17, 2026
+  ROW 17 | Oscar Unlocks Not activated | - | - | -
+    CELL[17,0] = Oscar Unlocks Not activated
+  ROW 18 | nextgen_bllling_rosco_tag | Rureau nf Puhlic Health I ahnratnries Nn nrnvider referenced | - | -
+    CELL[18,0] = nextgen_bllling_rosco_tag
+    CELL[18,1] = Rureau nf Puhlic Health I ahnratnries Nn nrnvider referenced
+TABLE 1 | source=wide_grid | bbox=[16,384,1254,486] | shape=4x3 | conf=0.850
+  shape: 4x3
+  HEADER | FLO3FLTeam | AAMSZV4Y | $0.00
+  ROW 1 | Oscarplan: | Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn | Pald
+    CELL[1,0] = Oscarplan:
+    CELL[1,1] = Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn
+    CELL[1,2] = Pald
+  ROW 2 | Silver Simple PCP Saver CSR 150 | ONo facility referenced Evelyn Tamayo | -
+    CELL[2,0] = Silver Simple PCP Saver CSR 150
+    CELL[2,1] = ONo facility referenced Evelyn Tamayo
+  ROW 3 | FL HMO Standard | Service on Sep 16, 2025 Accumulation on Apr 28, 2026 | -
+    CELL[3,0] = FL HMO Standard
+    CELL[3,1] = Service on Sep 16, 2025 Accumulation on Apr 28, 2026
+TABLE 2 | source=wide_grid | bbox=[17,540,1255,624] | shape=3x3 | conf=0.850
+  shape: 3x3
+  HEADER | Effective 01/01/2026 | A28Z91TK | $0.00
+  ROW 1 | 8 Individual | Medical claim Screening evaluation of brain response to sound with automated analysis | Paid
+    CELL[1,0] = 8 Individual
+    CELL[1,1] = Medical claim Screening evaluation of brain response to sound with automated analysis
+    CELL[1,2] = Paid
+  ROW 2 | $Current Balance due | No facility referenced- No provider referenced | -
+    CELL[2,0] = $Current Balance due
+    CELL[2,1] = No facility referenced- No provider referenced
+TABLE 3 | source=wide_grid | bbox=[16,697,1254,746] | shape=2x3 | conf=0.850
+  shape: 2x3
+  HEADER | Member tags | 4PYQV4FN | $124.23
+  ROW 1 | - | Medical claim Chemical analysis for genetic disorder | Denied
+    CELL[1,1] = Medical claim Chemical analysis for genetic disorder
+    CELL[1,2] = Denied
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,14,1580,36] | conf=0.844 | text=rosco a Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[109,14,135,36] | text=a
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,71,919,102] | conf=0.985 | text=Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,152,102] | text=Yisroel Dubov
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,405,88] | text=Issues
+  WORD | bbox=[420,71,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[642,75,748,88] | text=Billing & payments
+  WORD | bbox=[764,75,816,88] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[304,98,1255,116] | conf=0.720 | text=NJnODVrY $0.00
+  WORD | bbox=[304,98,378,111] | text=NJnODVrY
+  WORD | bbox=[1212,98,1255,116] | text=$0.00
+LINE 3 | bbox=[22,115,1252,139] | conf=0.988 | text=Active Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more Paid
+  WORD | bbox=[22,115,64,132] | text=Active
+  WORD | bbox=[305,125,1132,137] | text=Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more
+  WORD | bbox=[1221,121,1252,139] | text=Paid
+LINE 4 | bbox=[19,140,548,162] | conf=0.922 | text=OSC78747909-01 - R213XB6D: Oscar Medical Group- Lorilea Willams
+  WORD | bbox=[19,140,182,157] | text=OSC78747909-01 - R213XB6D :
+  WORD | bbox=[320,144,548,162] | text=Oscar Medical Group- Lorilea Willams
+LINE 5 | bbox=[18,159,624,181] | conf=0.938 | text=Holder - ON exc Service on Feb 13,2026 - Accumulation on Feb 15,2026
+  WORD | bbox=[18,159,108,176] | text=Holder - ON exc
+  WORD | bbox=[304,168,624,181] | text=Service on Feb 13,2026 - Accumulation on Feb 15,2026
+LINE 6 | bbox=[304,246,1254,266] | conf=0.998 | text=5YNC6CCH $0.00
+  WORD | bbox=[304,246,380,262] | text=5YNC6CCH
+  WORD | bbox=[1215,247,1254,266] | text=$0.00
+LINE 7 | bbox=[304,271,1253,293] | conf=0.978 | text=Medical claim- Initial new patient preventive medicine evaluation (younger than 1 year) Pald
+  WORD | bbox=[304,275,805,290] | text=Medical claim- Initial new patient preventive medicine evaluation (younger than 1 year)
+  WORD | bbox=[1219,271,1253,293] | text=Pald
+LINE 8 | bbox=[71,297,555,320] | conf=0.939 | text=Member actions No facility referenced - Rebecca Ohayon
+  WORD | bbox=[71,307,162,320] | text=Member actions
+  WORD | bbox=[304,297,555,313] | text=No facility referenced - Rebecca Ohayon
+LINE 9 | bbox=[302,318,625,335] | conf=0.984 | text=Service on Sep 17, 2025 Accumulation on Mar 12, 2026
+LINE 10 | bbox=[30,211,115,228] | conf=0.997 | text=Heads up note
+LINE 11 | bbox=[19,353,111,369] | conf=0.990 | text=FLBroward
+LINE 12 | bbox=[16,384,1254,418] | conf=0.989 | text=FLO3FLTeam AAMSZV4Y $0.00
+  WORD | bbox=[16,384,125,406] | text=FLO3FLTeam
+  WORD | bbox=[304,397,379,414] | text=AAMSZV4Y
+  WORD | bbox=[1214,400,1254,418] | text=$0.00
+LINE 13 | bbox=[17,419,1253,445] | conf=0.947 | text=Oscarplan: Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn Pald
+  WORD | bbox=[17,419,106,439] | text=Oscarplan:
+  WORD | bbox=[304,426,881,443] | text=Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn
+  WORD | bbox=[1219,422,1253,445] | text=Pald
+LINE 14 | bbox=[41,443,544,465] | conf=0.964 | text=Silver Simple PCP Saver CSR 150 ONo facility referenced Evelyn Tamayo
+  WORD | bbox=[41,443,219,456] | text=Silver Simple PCP Saver CSR 150
+  WORD | bbox=[304,448,544,465] | text=ONo facility referenced Evelyn Tamayo
+LINE 15 | bbox=[39,461,626,496] | conf=0.962 | text=FL HMO Standard View ID card Service on Sep 16, 2025 Accumulation on Apr 28, 2026
+  WORD | bbox=[39,461,142,477] | text=FL HMO Standard
+  WORD | bbox=[40,480,114,496] | text=View ID card
+  WORD | bbox=[302,470,626,486] | text=Service on Sep 16, 2025 Accumulation on Apr 28, 2026
+LINE 16 | bbox=[18,508,102,526] | conf=0.944 | text=Jeffin Alex
+LINE 17 | bbox=[18,540,1255,570] | conf=0.991 | text=Effective 01/01/2026 A28Z91TK $0.00
+  WORD | bbox=[18,540,158,556] | text=Effective 01/01/2026
+  WORD | bbox=[304,549,370,565] | text=A28Z91TK
+  WORD | bbox=[1214,551,1255,570] | text=$0.00
+LINE 18 | bbox=[17,570,1252,595] | conf=0.973 | text=8 Individual Medical claim Screening evaluation of brain response to sound with automated analysis Paid
+  WORD | bbox=[17,570,98,591] | text=8 Individual
+  WORD | bbox=[302,577,820,595] | text=Medical claim Screening evaluation of brain response to sound with automated analysis
+  WORD | bbox=[1221,577,1252,595] | text=Paid
+LINE 19 | bbox=[19,598,590,624] | conf=0.965 | text=$Current Balance due No facility referenced- No provider referenced
+  WORD | bbox=[19,605,161,624] | text=$Current Balance due
+  WORD | bbox=[302,598,590,616] | text=No facility referenced- No provider referenced
+LINE 20 | bbox=[302,621,622,638] | conf=0.973 | text=Service on Sep 16, 2025 Accumulation on Jan 17, 2026
+LINE 21 | bbox=[19,639,122,674] | conf=0.987 | text=Oscar Unlocks Not activated
+LINE 22 | bbox=[16,697,1254,727] | conf=0.984 | text=Member tags 4PYQV4FN $124.23
+  WORD | bbox=[16,706,96,727] | text=Member tags
+  WORD | bbox=[302,697,376,718] | text=4PYQV4FN
+  WORD | bbox=[1202,703,1254,721] | text=$124.23
+LINE 23 | bbox=[304,729,1251,746] | conf=0.973 | text=Medical claim Chemical analysis for genetic disorder Denied
+  WORD | bbox=[304,729,628,746] | text=Medical claim Chemical analysis for genetic disorder
+  WORD | bbox=[1206,729,1251,743] | text=Denied
+LINE 24 | bbox=[22,745,671,765] | conf=0.942 | text=nextgen_bllling_rosco_tag Rureau nf Puhlic Health I ahnratnries Nn nrnvider referenced
+  WORD | bbox=[22,745,175,761] | text=nextgen_bllling_rosco_tag
+  WORD | bbox=[304,752,671,765] | text=Rureau nf Puhlic Health I ahnratnries Nn nrnvider referenced
+[/BOXES]

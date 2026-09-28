@@ -1,0 +1,232 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=4 | tables=2 | checkboxes=0
+
+[TEXT]
+rosco Q OSC75847221-02 MR Melissa
+
+[TABLE 0 | source=wide_grid]
+shape: 5x6
+HEADER | MEMBERS | OSCAR ID | R NUMBER | SSN | DOB | STATE
+ROW 1 | Genesis Hernandez De Hoyo | OSC75847221-02 | R220XDSX | 9424 | 06/26/1996 | FL
+  CELL[1,0] = Genesis Hernandez De Hoyo
+  CELL[1,1] = OSC75847221-02
+  CELL[1,2] = R220XDSX
+  CELL[1,3] = 9424
+  CELL[1,4] = 06/26/1996
+  CELL[1,5] = FL
+ROW 2 | Gael Hoyo Hernandez | OSC75847221-03 | R220XDSZ | 5807 | 06/02/2019 | FL
+  CELL[2,0] = Gael Hoyo Hernandez
+  CELL[2,1] = OSC75847221-03
+  CELL[2,2] = R220XDSZ
+  CELL[2,3] = 5807
+  CELL[2,4] = 06/02/2019
+  CELL[2,5] = FL
+ROW 3 | Jimmy Hoyo Salas | OSC75847221-01 | R220XDSV | 8895 | 03/12/1987 | FL
+  CELL[3,0] = Jimmy Hoyo Salas
+  CELL[3,1] = OSC75847221-01
+  CELL[3,2] = R220XDSV
+  CELL[3,3] = 8895
+  CELL[3,4] = 03/12/1987
+  CELL[3,5] = FL
+ROW 4 | Carlos Ramirez | OSC75851537-02 | R220X5YS | - | 03/15/1978 | TX
+  CELL[4,0] = Carlos Ramirez
+  CELL[4,1] = OSC75851537-02
+  CELL[4,2] = R220X5YS
+  CELL[4,4] = 03/15/1978
+  CELL[4,5] = TX
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 5x5
+HEADER | Y9 PROVIDERS | NPI | TIN | CLIENT | SPECIALTY
+ROW 1 | Oscar Arrate Fernandez | 1356161624 | 610666209 | Cigna | Family Nurse Practitioner
+  CELL[1,0] = Oscar Arrate Fernandez
+  CELL[1,1] = 1356161624
+  CELL[1,2] = 610666209
+  CELL[1,3] = Cigna
+  CELL[1,4] = Family Nurse Practitioner
+ROW 2 | Itzel A Garcia Oscos | 1255194007 | 832865075 | Cigna | Dentist
+  CELL[2,0] = Itzel A Garcia Oscos
+  CELL[2,1] = 1255194007
+  CELL[2,2] = 832865075
+  CELL[2,3] = Cigna
+  CELL[2,4] = Dentist
+ROW 3 | Oscar E Perez | 1336209147 | 201124098 | Cigna | Psychiatrist, Family Medicine Specialist
+  CELL[3,0] = Oscar E Perez
+  CELL[3,1] = 1336209147
+  CELL[3,2] = 201124098
+  CELL[3,3] = Cigna
+  CELL[3,4] = Psychiatrist, Family Medicine Specialist
+ROW 4 | Oscar J Hines | 1497779581 | 953812774 | Cigna | General Surgeon
+  CELL[4,0] = Oscar J Hines
+  CELL[4,1] = 1497779581
+  CELL[4,2] = 953812774
+  CELL[4,3] = Cigna
+  CELL[4,4] = General Surgeon
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,13,1580,38] | order=0
+  rosco Q OSC75847221-02 MR Melissa
+BLOCK 1 | type=header | bbox=[133,77,1009,97] | order=1
+  MEMBERS OSCAR ID R NUMBER SSN DOB STATE
+BLOCK 2 | type=table | bbox=[116,111,1058,388] | order=2
+  Genesis Hernandez De Hoyo OSC75847221-02 R220XDSX 9424 06/26/1996 FL
+  Gael Hoyo Hernandez OSC75847221-03 R220XDSZ -5807 06/02/2019 FL
+  Jimmy Hoyo Salas OSC75847221-01 R220XDSV -8895 03/12/1987 FL
+  Carlos Ramirez OSC75851537-02 R220X5YS 03/15/1978 TX
+  Y9 PROVIDERS NPI TIN CLIENT SPECIALTY
+  Oscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner
+  Itzel A Garcia Oscos 1255194007 832865075 Cigna Dentist
+  Oscar E Perez 1336209147 201124098 Cigna Psychiatrist, Family Medicine Specialist
+  Oscar J Hines 1497779581 953812774 Cigna General Surgeon
+BLOCK 3 | type=table_row | bbox=[136,219,260,414] | order=3
+  See all members
+  See all 1, 159 providers
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=wide_grid | bbox=[133,77,1009,209] | shape=5x6 | conf=0.850
+  shape: 5x6
+  HEADER | MEMBERS | OSCAR ID | R NUMBER | SSN | DOB | STATE
+  ROW 1 | Genesis Hernandez De Hoyo | OSC75847221-02 | R220XDSX | 9424 | 06/26/1996 | FL
+    CELL[1,0] = Genesis Hernandez De Hoyo
+    CELL[1,1] = OSC75847221-02
+    CELL[1,2] = R220XDSX
+    CELL[1,3] = 9424
+    CELL[1,4] = 06/26/1996
+    CELL[1,5] = FL
+  ROW 2 | Gael Hoyo Hernandez | OSC75847221-03 | R220XDSZ | 5807 | 06/02/2019 | FL
+    CELL[2,0] = Gael Hoyo Hernandez
+    CELL[2,1] = OSC75847221-03
+    CELL[2,2] = R220XDSZ
+    CELL[2,3] = 5807
+    CELL[2,4] = 06/02/2019
+    CELL[2,5] = FL
+  ROW 3 | Jimmy Hoyo Salas | OSC75847221-01 | R220XDSV | 8895 | 03/12/1987 | FL
+    CELL[3,0] = Jimmy Hoyo Salas
+    CELL[3,1] = OSC75847221-01
+    CELL[3,2] = R220XDSV
+    CELL[3,3] = 8895
+    CELL[3,4] = 03/12/1987
+    CELL[3,5] = FL
+  ROW 4 | Carlos Ramirez | OSC75851537-02 | R220X5YS | - | 03/15/1978 | TX
+    CELL[4,0] = Carlos Ramirez
+    CELL[4,1] = OSC75851537-02
+    CELL[4,2] = R220X5YS
+    CELL[4,4] = 03/15/1978
+    CELL[4,5] = TX
+TABLE 1 | source=wide_grid | bbox=[116,254,1058,388] | shape=5x5 | conf=0.850
+  shape: 5x5
+  HEADER | Y9 PROVIDERS | NPI | TIN | CLIENT | SPECIALTY
+  ROW 1 | Oscar Arrate Fernandez | 1356161624 | 610666209 | Cigna | Family Nurse Practitioner
+    CELL[1,0] = Oscar Arrate Fernandez
+    CELL[1,1] = 1356161624
+    CELL[1,2] = 610666209
+    CELL[1,3] = Cigna
+    CELL[1,4] = Family Nurse Practitioner
+  ROW 2 | Itzel A Garcia Oscos | 1255194007 | 832865075 | Cigna | Dentist
+    CELL[2,0] = Itzel A Garcia Oscos
+    CELL[2,1] = 1255194007
+    CELL[2,2] = 832865075
+    CELL[2,3] = Cigna
+    CELL[2,4] = Dentist
+  ROW 3 | Oscar E Perez | 1336209147 | 201124098 | Cigna | Psychiatrist, Family Medicine Specialist
+    CELL[3,0] = Oscar E Perez
+    CELL[3,1] = 1336209147
+    CELL[3,2] = 201124098
+    CELL[3,3] = Cigna
+    CELL[3,4] = Psychiatrist, Family Medicine Specialist
+  ROW 4 | Oscar J Hines | 1497779581 | 953812774 | Cigna | General Surgeon
+    CELL[4,0] = Oscar J Hines
+    CELL[4,1] = 1497779581
+    CELL[4,2] = 953812774
+    CELL[4,3] = Cigna
+    CELL[4,4] = General Surgeon
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,13,1580,38] | conf=0.904 | text=rosco Q OSC75847221-02 MR Melissa
+  WORD | bbox=[14,17,74,34] | text=rosco
+  WORD | bbox=[109,13,147,38] | text=Q
+  WORD | bbox=[137,15,249,34] | text=OSC75847221-02
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[133,77,1009,97] | conf=0.969 | text=MEMBERS OSCAR ID R NUMBER SSN DOB STATE
+  WORD | bbox=[133,77,195,97] | text=MEMBERS
+  WORD | bbox=[534,81,585,94] | text=OSCAR ID
+  WORD | bbox=[645,79,705,95] | text=R NUMBER
+  WORD | bbox=[759,80,785,95] | text=SSN
+  WORD | bbox=[865,79,896,97] | text=DOB
+  WORD | bbox=[973,77,1009,97] | text=STATE
+LINE 2 | bbox=[137,111,990,130] | conf=0.997 | text=Genesis Hernandez De Hoyo OSC75847221-02 R220XDSX 9424 06/26/1996 FL
+  WORD | bbox=[137,111,298,130] | text=Genesis Hernandez De Hoyo
+  WORD | bbox=[535,115,618,127] | text=OSC75847221-02
+  WORD | bbox=[645,112,701,129] | text=R220XDSX
+  WORD | bbox=[761,113,790,127] | text=9424
+  WORD | bbox=[868,112,927,129] | text=06/26/1996
+  WORD | bbox=[974,113,990,129] | text=FL
+LINE 3 | bbox=[138,136,991,157] | conf=0.985 | text=Gael Hoyo Hernandez OSC75847221-03 R220XDSZ -5807 06/02/2019 FL
+  WORD | bbox=[138,139,261,155] | text=Gael Hoyo Hernandez
+  WORD | bbox=[532,139,618,155] | text=OSC75847221-03
+  WORD | bbox=[645,136,703,157] | text=R220XDSZ
+  WORD | bbox=[760,139,792,157] | text=5807
+  WORD | bbox=[866,139,927,155] | text=06/02/2019
+  WORD | bbox=[974,139,991,155] | text=FL
+LINE 4 | bbox=[139,165,991,183] | conf=0.976 | text=Jimmy Hoyo Salas OSC75847221-01 R220XDSV -8895 03/12/1987 FL
+  WORD | bbox=[139,165,241,182] | text=Jimmy Hoyo Salas
+  WORD | bbox=[532,165,616,182] | text=OSC75847221-01
+  WORD | bbox=[646,165,701,182] | text=R220XDSV
+  WORD | bbox=[760,165,792,183] | text=8895
+  WORD | bbox=[866,165,925,182] | text=03/12/1987
+  WORD | bbox=[974,165,991,183] | text=FL
+LINE 5 | bbox=[137,191,991,209] | conf=0.996 | text=Carlos Ramirez OSC75851537-02 R220X5YS 03/15/1978 TX
+  WORD | bbox=[137,191,225,209] | text=Carlos Ramirez
+  WORD | bbox=[532,192,616,209] | text=OSC75851537-02
+  WORD | bbox=[648,194,700,209] | text=R220X5YS
+  WORD | bbox=[868,192,925,209] | text=03/15/1978
+  WORD | bbox=[974,192,991,209] | text=TX
+LINE 6 | bbox=[116,254,925,276] | conf=0.938 | text=Y9 PROVIDERS NPI TIN CLIENT SPECIALTY
+  WORD | bbox=[116,260,130,271] | text=Y9
+  WORD | bbox=[136,258,201,275] | text=PROVIDERS
+  WORD | bbox=[531,258,555,274] | text=NPI
+  WORD | bbox=[644,257,669,276] | text=TIN
+  WORD | bbox=[757,254,802,275] | text=CLIENT
+  WORD | bbox=[866,258,925,275] | text=SPECIALTY
+LINE 7 | bbox=[137,289,990,309] | conf=0.994 | text=Oscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner
+  WORD | bbox=[137,289,273,308] | text=Oscar Arrate Fernandez
+  WORD | bbox=[534,293,588,306] | text=1356161624
+  WORD | bbox=[646,293,700,306] | text=610666209
+  WORD | bbox=[759,292,792,309] | text=Cigna
+  WORD | bbox=[869,293,990,306] | text=Family Nurse Practitioner
+LINE 8 | bbox=[138,314,908,337] | conf=0.999 | text=Itzel A Garcia Oscos 1255194007 832865075 Cigna Dentist
+  WORD | bbox=[138,317,250,334] | text=Itzel A Garcia Oscos
+  WORD | bbox=[532,317,591,334] | text=1255194007
+  WORD | bbox=[645,317,702,334] | text=832865075
+  WORD | bbox=[757,315,793,337] | text=Cigna
+  WORD | bbox=[865,314,908,335] | text=Dentist
+LINE 9 | bbox=[136,341,1058,363] | conf=0.988 | text=Oscar E Perez 1336209147 201124098 Cigna Psychiatrist, Family Medicine Specialist
+  WORD | bbox=[136,341,218,362] | text=Oscar E Perez
+  WORD | bbox=[532,344,591,360] | text=1336209147
+  WORD | bbox=[645,344,701,360] | text=201124098
+  WORD | bbox=[759,345,792,363] | text=Cigna
+  WORD | bbox=[869,346,1058,359] | text=Psychiatrist, Family Medicine Specialist
+LINE 10 | bbox=[138,369,950,388] | conf=0.972 | text=Oscar J Hines 1497779581 953812774 Cigna General Surgeon
+  WORD | bbox=[138,369,218,386] | text=Oscar J Hines
+  WORD | bbox=[532,370,589,387] | text=1497779581
+  WORD | bbox=[646,372,699,387] | text=953812774
+  WORD | bbox=[759,370,792,388] | text=Cigna
+  WORD | bbox=[867,370,950,388] | text=General Surgeon
+LINE 11 | bbox=[138,219,232,236] | conf=0.995 | text=See all members
+LINE 12 | bbox=[136,396,260,414] | conf=0.963 | text=See all 1, 159 providers
+[/BOXES]
+
+[FIELDS]
+NPI: 1356161624
+NPI: 1255194007
+NPI: 1336209147
+NPI: 1497779581
+[/FIELDS]

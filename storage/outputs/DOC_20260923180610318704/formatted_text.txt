@@ -1,0 +1,303 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x1042 | blocks=12 | tables=4 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 4x5
+HEADER | Curamind | Claims Management | Sarah Johnson | PROC001 | Logout
+ROW 1 | Professional Claim | - | - | - | Back to Dashboard
+  CELL[1,0] = Professional Claim
+  CELL[1,4] = Back to Dashboard
+ROW 2 | X | - | - | - | Save changes
+  CELL[2,0] = X
+  CELL[2,4] = Save changes
+ROW 3 | Claim Pg1 | Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+  CELL[3,0] = Claim Pg1
+  CELL[3,1] = Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 | Decision SLA: 3 days. | - | -
+  CELL[1,0] = Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001
+  CELL[1,1] = Decision SLA: 3 days.
+ROW 2 | Diagnosis Codes (ICD-10) | - | - | -
+  CELL[2,0] = Diagnosis Codes (ICD-10)
+ROW 3 | Primary D64.9 | ANEMIA, | - | -
+  CELL[3,0] = Primary D64.9
+  CELL[3,1] = ANEMIA,
+ROW 4 | Diagnosis | UNSPECIFIED | - | -
+  CELL[4,0] = Diagnosis
+  CELL[4,1] = UNSPECIFIED
+ROW 5 | 2 M54.50 LOW BACK PAIN, UNSPECIFIED | - | ADMITTING | 11/06/2025
+  CELL[5,0] = 2 M54.50 LOW BACK PAIN, UNSPECIFIED
+  CELL[5,2] = ADMITTING
+  CELL[5,3] = 11/06/2025
+ROW 6 | Procedure/Service Coding | - | - | -
+  CELL[6,0] = Procedure/Service Coding
+ROW 7 | Medical Necessity Review | - | - | -
+  CELL[7,0] = Medical Necessity Review
+ROW 8 | Reviewed Sarah Johnson Review Date:11/19/2025 Status | APPROVED | - | -
+  CELL[8,0] = Reviewed Sarah Johnson Review Date:11/19/2025 Status
+  CELL[8,1] = APPROVED
+ROW 9 | By | (PROC001) | - | -
+  CELL[9,0] = By
+  CELL[9,1] = (PROC001)
+ROW 10 | Review Notes: | - | - | -
+  CELL[10,0] = Review Notes:
+ROW 11 | Documentation complete. Approved per policy CM-104. | - | - | -
+  CELL[11,0] = Documentation complete. Approved per policy CM-104.
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 5x4
+HEADER | Diagnosis Code | ICD-10-CM | POA | YES, present on admission
+ROW 1 | Type: | - | Indicator: | -
+  CELL[1,0] = Type:
+  CELL[1,2] = Indicator:
+ROW 2 | Seq Code | Description | - | Type Date
+  CELL[2,0] = Seq Code
+  CELL[2,1] = Description
+  CELL[2,3] = Type Date
+ROW 3 | 0 D64.9 | ANEMIA,UNSPECIFIED | - | PRIMARY 11/06/2025
+  CELL[3,0] = 0 D64.9
+  CELL[3,1] = ANEMIA,UNSPECIFIED
+  CELL[3,3] = PRIMARY 11/06/2025
+ROW 4 | 1 K21.9 | - | GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS | SECONDARY 11/06/2025
+  CELL[4,0] = 1 K21.9
+  CELL[4,2] = GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS
+  CELL[4,3] = SECONDARY 11/06/2025
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 3x6
+HEADER | Seq | CPT/HCPCS | Modifier | Description | Diag Pointer | Date of Service
+ROW 1 | 1 | P-77014 | - | Computed tomography guidance for placement of radiation therapy fields | A | 11/06/2025
+  CELL[1,0] = 1
+  CELL[1,1] = P-77014
+  CELL[1,3] = Computed tomography guidance for placement of radiation therapy fields
+  CELL[1,4] = A
+  CELL[1,5] = 11/06/2025
+ROW 2 | 2 | P-80053 | - | Comprehensive metabolic panel | A | 11/06/2025
+  CELL[2,0] = 2
+  CELL[2,1] = P-80053
+  CELL[2,3] = Comprehensive metabolic panel
+  CELL[2,4] = A
+  CELL[2,5] = 11/06/2025
+[/TABLE 3]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[26,7,1403,41] | order=0
+  Curamind Claims Management Sarah Johnson PROC001 Logout
+BLOCK 1 | type=header | bbox=[35,62,1445,108] | order=1
+  Professional Claim -Back to Dashboard
+  X Save changes
+BLOCK 2 | type=table | bbox=[44,125,688,148] | order=2
+  Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+BLOCK 3 | type=table_row | bbox=[40,173,775,193] | order=3
+  Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 Decision SLA: 3 days.
+BLOCK 4 | type=table_row | bbox=[41,240,279,258] | order=4
+  Diagnosis Codes (ICD-10)
+BLOCK 5 | type=table | bbox=[37,275,1334,481] | order=5
+  Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED
+  Diagnosis Code Type: ICD-10-CM POA Indicator: YES, present on admission
+  Seq Code Description Type Date
+  0 D64.9 ANEMIA,UNSPECIFIED PRIMARY 11/06/2025
+  1 K21.9 GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS SECONDARY 11/06/2025
+  2 M54.50 LOW BACK PAIN, UNSPECIFIED ADMITTING 11/06/2025
+BLOCK 6 | type=table_row | bbox=[41,585,297,606] | order=6
+  Procedure/Service Coding
+BLOCK 7 | type=table | bbox=[48,624,1370,701] | order=7
+  Seq CPT/HCPCS Modifier Description Diag Pointer Date of Service
+  1 P-77014 Computed tomography guidance for placement of radiation therapy fields A 11/06/2025
+  2 P-80053 Comprehensive metabolic panel A 11/06/2025
+BLOCK 8 | type=table_row | bbox=[43,785,282,800] | order=8
+  Medical Necessity Review
+BLOCK 9 | type=table | bbox=[40,821,762,856] | order=9
+  By: Reviewed Sarah Johnson (PROC001) Review Date:11/19/2025 Status: APPROVED
+BLOCK 10 | type=table_row | bbox=[40,869,133,886] | order=10
+  Review Notes:
+BLOCK 11 | type=table_row | bbox=[54,904,403,919] | order=11
+  Documentation complete. Approved per policy CM-104.
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[37,173,1334,919] | shape=12x4 | conf=0.920
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 | Decision SLA: 3 days. | - | -
+    CELL[1,0] = Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001
+    CELL[1,1] = Decision SLA: 3 days.
+  ROW 2 | Diagnosis Codes (ICD-10) | - | - | -
+    CELL[2,0] = Diagnosis Codes (ICD-10)
+  ROW 3 | Primary D64.9 | ANEMIA, | - | -
+    CELL[3,0] = Primary D64.9
+    CELL[3,1] = ANEMIA,
+  ROW 4 | Diagnosis | UNSPECIFIED | - | -
+    CELL[4,0] = Diagnosis
+    CELL[4,1] = UNSPECIFIED
+  ROW 5 | 2 M54.50 LOW BACK PAIN, UNSPECIFIED | - | ADMITTING | 11/06/2025
+    CELL[5,0] = 2 M54.50 LOW BACK PAIN, UNSPECIFIED
+    CELL[5,2] = ADMITTING
+    CELL[5,3] = 11/06/2025
+  ROW 6 | Procedure/Service Coding | - | - | -
+    CELL[6,0] = Procedure/Service Coding
+  ROW 7 | Medical Necessity Review | - | - | -
+    CELL[7,0] = Medical Necessity Review
+  ROW 8 | Reviewed Sarah Johnson Review Date:11/19/2025 Status | APPROVED | - | -
+    CELL[8,0] = Reviewed Sarah Johnson Review Date:11/19/2025 Status
+    CELL[8,1] = APPROVED
+  ROW 9 | By | (PROC001) | - | -
+    CELL[9,0] = By
+    CELL[9,1] = (PROC001)
+  ROW 10 | Review Notes: | - | - | -
+    CELL[10,0] = Review Notes:
+  ROW 11 | Documentation complete. Approved per policy CM-104. | - | - | -
+    CELL[11,0] = Documentation complete. Approved per policy CM-104.
+TABLE 1 | source=wide_grid | bbox=[26,7,1445,148] | shape=4x5 | conf=0.850
+  shape: 4x5
+  HEADER | Curamind | Claims Management | Sarah Johnson | PROC001 | Logout
+  ROW 1 | Professional Claim | - | - | - | Back to Dashboard
+    CELL[1,0] = Professional Claim
+    CELL[1,4] = Back to Dashboard
+  ROW 2 | X | - | - | - | Save changes
+    CELL[2,0] = X
+    CELL[2,4] = Save changes
+  ROW 3 | Claim Pg1 | Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+    CELL[3,0] = Claim Pg1
+    CELL[3,1] = Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+TABLE 2 | source=wide_grid | bbox=[40,323,1334,452] | shape=5x4 | conf=0.850
+  shape: 5x4
+  HEADER | Diagnosis Code | ICD-10-CM | POA | YES, present on admission
+  ROW 1 | Type: | - | Indicator: | -
+    CELL[1,0] = Type:
+    CELL[1,2] = Indicator:
+  ROW 2 | Seq Code | Description | - | Type Date
+    CELL[2,0] = Seq Code
+    CELL[2,1] = Description
+    CELL[2,3] = Type Date
+  ROW 3 | 0 D64.9 | ANEMIA,UNSPECIFIED | - | PRIMARY 11/06/2025
+    CELL[3,0] = 0 D64.9
+    CELL[3,1] = ANEMIA,UNSPECIFIED
+    CELL[3,3] = PRIMARY 11/06/2025
+  ROW 4 | 1 K21.9 | - | GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS | SECONDARY 11/06/2025
+    CELL[4,0] = 1 K21.9
+    CELL[4,2] = GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS
+    CELL[4,3] = SECONDARY 11/06/2025
+TABLE 3 | source=wide_grid | bbox=[48,624,1370,701] | shape=3x6 | conf=0.850
+  shape: 3x6
+  HEADER | Seq | CPT/HCPCS | Modifier | Description | Diag Pointer | Date of Service
+  ROW 1 | 1 | P-77014 | - | Computed tomography guidance for placement of radiation therapy fields | A | 11/06/2025
+    CELL[1,0] = 1
+    CELL[1,1] = P-77014
+    CELL[1,3] = Computed tomography guidance for placement of radiation therapy fields
+    CELL[1,4] = A
+    CELL[1,5] = 11/06/2025
+  ROW 2 | 2 | P-80053 | - | Comprehensive metabolic panel | A | 11/06/2025
+    CELL[2,0] = 2
+    CELL[2,1] = P-80053
+    CELL[2,3] = Comprehensive metabolic panel
+    CELL[2,4] = A
+    CELL[2,5] = 11/06/2025
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[26,7,1403,41] | conf=0.984 | text=Curamind Claims Management Sarah Johnson PROC001 Logout
+  WORD | bbox=[26,17,125,34] | text=Curamind
+  WORD | bbox=[142,19,295,36] | text=Claims Management
+  WORD | bbox=[1152,7,1206,41] | text=Sarah Johnson
+  WORD | bbox=[1239,16,1304,31] | text=PROC001
+  WORD | bbox=[1351,16,1403,33] | text=Logout
+LINE 1 | bbox=[35,62,1445,83] | conf=0.964 | text=Professional Claim -Back to Dashboard
+  WORD | bbox=[35,67,163,83] | text=Professional Claim
+  WORD | bbox=[1302,62,1445,77] | text=Back to Dashboard
+LINE 2 | bbox=[129,92,1419,108] | conf=0.836 | text=X Save changes
+  WORD | bbox=[129,97,138,108] | text=X
+  WORD | bbox=[1318,92,1419,107] | text=Save changes
+LINE 3 | bbox=[44,125,688,148] | conf=0.971 | text=Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  WORD | bbox=[44,125,117,148] | text=Claim Pg1
+  WORD | bbox=[161,125,228,148] | text=Provpg2
+  WORD | bbox=[274,128,362,144] | text=Member Pg3
+  WORD | bbox=[412,128,523,144] | text=Diagnosis Pg4
+  WORD | bbox=[562,128,688,143] | text=Miscellaneous Pg5
+LINE 4 | bbox=[40,173,775,193] | conf=0.932 | text=Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 Decision SLA: 3 days.
+  WORD | bbox=[40,177,219,192] | text=Processor: Sarah Johnson
+  WORD | bbox=[237,176,430,191] | text=Last edit: 11/17/2025 08:05
+  WORD | bbox=[437,176,607,191] | text=ProcessorID:PROC001
+  WORD | bbox=[632,173,775,193] | text=Decision SLA: 3 days.
+LINE 5 | bbox=[41,240,279,258] | conf=0.966 | text=Diagnosis Codes (ICD-10)
+LINE 6 | bbox=[37,275,538,312] | conf=0.994 | text=Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED
+  WORD | bbox=[37,275,92,297] | text=Primary
+  WORD | bbox=[39,295,108,312] | text=Diagnosis:
+  WORD | bbox=[159,285,207,305] | text=D64.9
+  WORD | bbox=[445,279,505,295] | text=ANEMIA,
+  WORD | bbox=[445,295,538,311] | text=UNSPECIFIED
+LINE 7 | bbox=[40,323,960,358] | conf=0.980 | text=Diagnosis Code Type: ICD-10-CM POA Indicator: YES, present on admission
+  WORD | bbox=[40,326,138,341] | text=Diagnosis Code
+  WORD | bbox=[40,342,77,358] | text=Type:
+  WORD | bbox=[170,333,248,349] | text=ICD-10-CM
+  WORD | bbox=[471,323,502,340] | text=POA
+  WORD | bbox=[471,340,534,356] | text=Indicator:
+  WORD | bbox=[858,323,960,355] | text=YES, present on admission
+LINE 8 | bbox=[49,375,1296,401] | conf=0.998 | text=Seq Code Description Type Date
+  WORD | bbox=[49,379,84,401] | text=Seq
+  WORD | bbox=[113,380,151,398] | text=Code
+  WORD | bbox=[248,380,330,397] | text=Description
+  WORD | bbox=[1067,375,1108,399] | text=Type
+  WORD | bbox=[1259,378,1296,394] | text=Date
+LINE 9 | bbox=[50,399,1334,423] | conf=0.975 | text=0 D64.9 ANEMIA,UNSPECIFIED PRIMARY 11/06/2025
+  WORD | bbox=[50,406,64,423] | text=0
+  WORD | bbox=[111,406,154,422] | text=D64.9
+  WORD | bbox=[248,405,390,420] | text=ANEMIA,UNSPECIFIED
+  WORD | bbox=[1068,399,1130,421] | text=PRIMARY
+  WORD | bbox=[1259,402,1334,419] | text=11/06/2025
+LINE 10 | bbox=[50,431,1334,452] | conf=0.990 | text=1 K21.9 GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS SECONDARY 11/06/2025
+  WORD | bbox=[50,434,64,452] | text=1
+  WORD | bbox=[111,434,152,451] | text=K21.9
+  WORD | bbox=[250,435,652,450] | text=GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS
+  WORD | bbox=[1071,433,1151,449] | text=SECONDARY
+  WORD | bbox=[1259,431,1334,448] | text=11/06/2025
+LINE 11 | bbox=[50,462,1334,481] | conf=0.985 | text=2 M54.50 LOW BACK PAIN, UNSPECIFIED ADMITTING 11/06/2025
+  WORD | bbox=[50,463,64,481] | text=2
+  WORD | bbox=[111,464,163,480] | text=M54.50
+  WORD | bbox=[248,464,441,479] | text=LOW BACK PAIN, UNSPECIFIED
+  WORD | bbox=[1071,462,1144,478] | text=ADMITTING
+  WORD | bbox=[1257,462,1334,477] | text=11/06/2025
+LINE 12 | bbox=[41,585,297,606] | conf=0.992 | text=Procedure/Service Coding
+LINE 13 | bbox=[50,624,1370,648] | conf=0.990 | text=Seq CPT/HCPCS Modifier Description Diag Pointer Date of Service
+  WORD | bbox=[50,628,85,648] | text=Seq
+  WORD | bbox=[108,629,190,645] | text=CPT/HCPCS
+  WORD | bbox=[253,628,315,644] | text=Modifier
+  WORD | bbox=[364,629,446,645] | text=Description
+  WORD | bbox=[1101,624,1196,647] | text=Diag Pointer
+  WORD | bbox=[1260,627,1370,643] | text=Date of Service
+LINE 14 | bbox=[48,651,1335,674] | conf=0.987 | text=1 P-77014 Computed tomography guidance for placement of radiation therapy fields A 11/06/2025
+  WORD | bbox=[48,651,68,673] | text=1
+  WORD | bbox=[104,651,164,674] | text=P-77014
+  WORD | bbox=[362,651,830,673] | text=Computed tomography guidance for placement of radiation therapy fields
+  WORD | bbox=[1100,651,1116,670] | text=A
+  WORD | bbox=[1259,651,1335,668] | text=11/06/2025
+LINE 15 | bbox=[52,680,1334,701] | conf=0.994 | text=2 P-80053 Comprehensive metabolic panel A 11/06/2025
+  WORD | bbox=[52,683,66,701] | text=2
+  WORD | bbox=[108,684,163,700] | text=P-80053
+  WORD | bbox=[364,684,568,699] | text=Comprehensive metabolic panel
+  WORD | bbox=[1100,681,1117,698] | text=A
+  WORD | bbox=[1259,680,1334,695] | text=11/06/2025
+LINE 16 | bbox=[43,785,282,800] | conf=0.957 | text=Medical Necessity Review
+LINE 17 | bbox=[40,821,762,856] | conf=0.971 | text=By: Reviewed Sarah Johnson (PROC001) Review Date:11/19/2025 Status: APPROVED
+  WORD | bbox=[40,837,64,856] | text=By:
+  WORD | bbox=[41,821,104,837] | text=Reviewed
+  WORD | bbox=[136,822,234,838] | text=Sarah Johnson
+  WORD | bbox=[136,840,212,855] | text=(PROC001)
+  WORD | bbox=[342,826,524,844] | text=Review Date:11/19/2025
+  WORD | bbox=[614,826,662,842] | text=Status:
+  WORD | bbox=[686,826,762,842] | text=APPROVED
+LINE 18 | bbox=[40,869,133,886] | conf=0.959 | text=Review Notes:
+LINE 19 | bbox=[54,904,403,919] | conf=0.975 | text=Documentation complete. Approved per policy CM-104.
+[/BOXES]

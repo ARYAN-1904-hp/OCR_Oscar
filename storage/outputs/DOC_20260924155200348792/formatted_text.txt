@@ -1,0 +1,369 @@
+# OCR meta | engine=digital_pdf | layout=DigitalPdfLayout | visual=False
+
+=== PAGE 1 ===
+size: 612x792 | blocks=32 | tables=2 | checkboxes=1
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 30x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | CHW Supplemental Provider Review Form | - | - | -
+  CELL[1,0] = CHW Supplemental Provider Review Form
+ROW 2 | Section 1 — General Information (link to existing ECM file) | - | - | -
+  CELL[2,0] = Section 1 — General Information (link to existing ECM file)
+ROW 3 | For use by NLE when ECM provider is applying to add CHW services. | - | - | -
+  CELL[3,0] = For use by NLE when ECM provider is applying to add CHW services.
+ROW 4 | Organization Name | Blue Horizon Community Health Services, Inc. | - | -
+  CELL[4,0] = Organization Name
+  CELL[4,1] = Blue Horizon Community Health Services, Inc.
+ROW 5 | NLE Contract # (of known) | NLE-CA-20458 | - | -
+  CELL[5,0] = NLE Contract # (of known)
+  CELL[5,1] = NLE-CA-20458
+ROW 6 | Date of Original ECM Application 10/03/2025 | - | - | -
+  CELL[6,0] = Date of Original ECM Application 10/03/2025
+ROW 7 | Reviewer | Internal Review Team | - | -
+  CELL[7,0] = Reviewer
+  CELL[7,1] = Internal Review Team
+ROW 8 | Applicants must complete Sections 2 – 6 and provide supporting | - | - | -
+  CELL[8,0] = Applicants must complete Sections 2 – 6 and provide supporting
+ROW 9 | documentation | - | - | -
+  CELL[9,0] = documentation
+ROW 10 | Section 2 — CHW Service Overview | - | - | -
+  CELL[10,0] = Section 2 — CHW Service Overview
+ROW 11 | 1. CHW Services Requested | - | - | -
+  CELL[11,0] = 1. CHW Services Requested
+ROW 12 | ☐ Health education / coaching | - | - | -
+  CELL[12,0] = ☐ Health education / coaching
+ROW 13 | ☐ Outreach and engagement | - | - | -
+  CELL[13,0] = ☐ Outreach and engagement
+ROW 14 | ☐ Navigation and resource linkage | - | - | -
+  CELL[14,0] = ☐ Navigation and resource linkage
+ROW 15 | ☐ Care coordination support | - | - | -
+  CELL[15,0] = ☐ Care coordination support
+ROW 16 | ☐ Home / field visits | - | - | -
+  CELL[16,0] = ☐ Home / field visits
+ROW 17 | ☐ Other | - | - | -
+  CELL[17,0] = ☐ Other
+ROW 18 | 2. Counties Served | - | - | -
+  CELL[18,0] = 2. Counties Served
+ROW 19 | 3. Anticipated start date for CHW services | - | - | -
+  CELL[19,0] = 3. Anticipated start date for CHW services
+ROW 20 | 4. Expected number of CHWs | - | - | -
+  CELL[20,0] = 4. Expected number of CHWs
+ROW 21 | 5. Supervising Provider(s) | - | - | -
+  CELL[21,0] = 5. Supervising Provider(s)
+ROW 22 | Priya Singh | - | CHW Supervisor MC-472981-S1 | -
+  CELL[22,0] = Priya Singh
+  CELL[22,2] = CHW Supervisor MC-472981-S1
+ROW 23 | - | - | under RN | -
+  CELL[23,2] = under RN
+ROW 24 | - | - | oversight | -
+  CELL[24,2] = oversight
+ROW 25 | Aisha Patel | - | Program | MC-472981-PD
+  CELL[25,0] = Aisha Patel
+  CELL[25,2] = Program
+  CELL[25,3] = MC-472981-PD
+ROW 26 | - | - | Director | -
+  CELL[26,2] = Director
+ROW 27 | Daniel Kim | - | Operations | MC-472981-OM
+  CELL[27,0] = Daniel Kim
+  CELL[27,2] = Operations
+  CELL[27,3] = MC-472981-OM
+ROW 28 | - | - | Manager | -
+  CELL[28,2] = Manager
+ROW 29 | Note | DHCS requires CHWs to work under a Medi-Cal-enrolled supervising provider | . | -
+  CELL[29,0] = Note
+  CELL[29,1] = DHCS requires CHWs to work under a Medi-Cal-enrolled supervising provider
+  CELL[29,2] = .
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x3
+HEADER | Name | License Type | Medi-Cal Provider #
+ROW 1 | Elena Lopez | LCSW | MC-472981-L1
+  CELL[1,0] = Elena Lopez
+  CELL[1,1] = LCSW
+  CELL[1,2] = MC-472981-L1
+ROW 2 | Omar Jackson | RN | MC-472981-RN
+  CELL[2,0] = Omar Jackson
+  CELL[2,1] = RN
+  CELL[2,2] = MC-472981-RN
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=paragraph | bbox=[153,112,460,131] | order=0
+  CHW Supplemental Provider Review Form
+BLOCK 1 | type=heading | bbox=[72,142,490,161] | order=1
+  Section 1 — General Information (link to existing ECM file)
+BLOCK 2 | type=paragraph | bbox=[72,174,439,198] | order=2
+  For use by NLE when ECM provider is applying to add CHW services.
+BLOCK 3 | type=table | bbox=[72,199,540,259] | order=3
+  Organization Name | Blue Horizon Community Health Services, Inc.
+  NLE Contract # (of known) | NLE-CA-20458
+  Date of Original ECM Application | 10/03/2025
+  Reviewer | Internal Review Team
+BLOCK 4 | type=table_row | bbox=[78,200,504,212] | order=4
+  Organization Name
+  Blue Horizon Community Health Services, Inc.
+BLOCK 5 | type=table_row | bbox=[78,215,328,227] | order=5
+  NLE Contract # (of known)
+  NLE-CA-20458
+BLOCK 6 | type=table_row | bbox=[78,230,372,257] | order=6
+  Date of Original ECM Application 10/03/2025
+  Reviewer
+  Internal Review Team
+BLOCK 7 | type=paragraph | bbox=[102,284,510,301] | order=7
+  Applicants must complete Sections 2 – 6 and provide supporting
+BLOCK 8 | type=paragraph | bbox=[257,303,360,320] | order=8
+  documentation
+BLOCK 9 | type=heading | bbox=[72,331,330,350] | order=9
+  Section 2 — CHW Service Overview
+BLOCK 10 | type=heading | bbox=[72,361,233,377] | order=10
+  1. CHW Services Requested:
+BLOCK 11 | type=paragraph | bbox=[90,386,247,403] | order=11
+  ☐ Health education / coaching
+BLOCK 12 | type=paragraph | bbox=[90,404,239,421] | order=12
+  ☐ Outreach and engagement
+BLOCK 13 | type=paragraph | bbox=[90,422,273,439] | order=13
+  ☐ Navigation and resource linkage
+BLOCK 14 | type=paragraph | bbox=[90,440,238,456] | order=14
+  ☐ Care coordination support
+BLOCK 15 | type=paragraph | bbox=[90,458,206,474] | order=15
+  ☐ Home / field visits
+BLOCK 16 | type=heading | bbox=[90,476,305,492] | order=16
+  ☐ Other:
+BLOCK 17 | type=heading | bbox=[72,501,424,517] | order=17
+  2. Counties Served:
+BLOCK 18 | type=heading | bbox=[72,525,433,541] | order=18
+  3. Anticipated start date for CHW services:
+BLOCK 19 | type=heading | bbox=[72,549,292,565] | order=19
+  4. Expected number of CHWs:
+BLOCK 20 | type=heading | bbox=[72,573,227,589] | order=20
+  5. Supervising Provider(s):
+BLOCK 21 | type=table | bbox=[90,591,540,738] | order=21
+  Name | License Type | Medi-Cal Provider #
+  Elena Lopez | LCSW | MC-472981-L1
+  Omar Jackson | RN | MC-472981-RN
+  Priya Singh | CHW Supervisor
+  under RN
+  oversight | MC-472981-S1
+  Aisha Patel | Program
+  Director | MC-472981-PD
+  Daniel Kim | Operations
+  Manager | MC-472981-OM
+BLOCK 22 | type=table_row | bbox=[197,591,537,605] | order=22
+  Name
+  License Type
+  Medi-Cal Provider #
+BLOCK 23 | type=table_row | bbox=[90,609,472,620] | order=23
+  Elena Lopez
+  LCSW
+  MC-472981-L1
+BLOCK 24 | type=table_row | bbox=[90,624,472,635] | order=24
+  Omar Jackson
+  RN
+  MC-472981-RN
+BLOCK 25 | type=table_row | bbox=[90,639,403,678] | order=25
+  Priya Singh
+  CHW Supervisor
+  under RN
+  oversight
+BLOCK 26 | type=table_row | bbox=[401,639,472,650] | order=26
+  MC-472981-S1
+BLOCK 27 | type=table_row | bbox=[90,682,369,707] | order=27
+  Aisha Patel
+  Program
+  Director
+BLOCK 28 | type=table_row | bbox=[401,682,472,693] | order=28
+  MC-472981-PD
+BLOCK 29 | type=table_row | bbox=[90,711,380,736] | order=29
+  Daniel Kim
+  Operations
+  Manager
+BLOCK 30 | type=table_row | bbox=[401,711,472,722] | order=30
+  MC-472981-OM
+BLOCK 31 | type=footer | bbox=[90,738,506,753] | order=31
+  Note: DHCS requires CHWs to work under a Medi-Cal-enrolled supervising provider.
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[72,112,510,753] | shape=30x4 | conf=0.920
+  shape: 30x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | CHW Supplemental Provider Review Form | - | - | -
+    CELL[1,0] = CHW Supplemental Provider Review Form
+  ROW 2 | Section 1 — General Information (link to existing ECM file) | - | - | -
+    CELL[2,0] = Section 1 — General Information (link to existing ECM file)
+  ROW 3 | For use by NLE when ECM provider is applying to add CHW services. | - | - | -
+    CELL[3,0] = For use by NLE when ECM provider is applying to add CHW services.
+  ROW 4 | Organization Name | Blue Horizon Community Health Services, Inc. | - | -
+    CELL[4,0] = Organization Name
+    CELL[4,1] = Blue Horizon Community Health Services, Inc.
+  ROW 5 | NLE Contract # (of known) | NLE-CA-20458 | - | -
+    CELL[5,0] = NLE Contract # (of known)
+    CELL[5,1] = NLE-CA-20458
+  ROW 6 | Date of Original ECM Application 10/03/2025 | - | - | -
+    CELL[6,0] = Date of Original ECM Application 10/03/2025
+  ROW 7 | Reviewer | Internal Review Team | - | -
+    CELL[7,0] = Reviewer
+    CELL[7,1] = Internal Review Team
+  ROW 8 | Applicants must complete Sections 2 – 6 and provide supporting | - | - | -
+    CELL[8,0] = Applicants must complete Sections 2 – 6 and provide supporting
+  ROW 9 | documentation | - | - | -
+    CELL[9,0] = documentation
+  ROW 10 | Section 2 — CHW Service Overview | - | - | -
+    CELL[10,0] = Section 2 — CHW Service Overview
+  ROW 11 | 1. CHW Services Requested | - | - | -
+    CELL[11,0] = 1. CHW Services Requested
+  ROW 12 | ☐ Health education / coaching | - | - | -
+    CELL[12,0] = ☐ Health education / coaching
+  ROW 13 | ☐ Outreach and engagement | - | - | -
+    CELL[13,0] = ☐ Outreach and engagement
+  ROW 14 | ☐ Navigation and resource linkage | - | - | -
+    CELL[14,0] = ☐ Navigation and resource linkage
+  ROW 15 | ☐ Care coordination support | - | - | -
+    CELL[15,0] = ☐ Care coordination support
+  ROW 16 | ☐ Home / field visits | - | - | -
+    CELL[16,0] = ☐ Home / field visits
+  ROW 17 | ☐ Other | - | - | -
+    CELL[17,0] = ☐ Other
+  ROW 18 | 2. Counties Served | - | - | -
+    CELL[18,0] = 2. Counties Served
+  ROW 19 | 3. Anticipated start date for CHW services | - | - | -
+    CELL[19,0] = 3. Anticipated start date for CHW services
+  ROW 20 | 4. Expected number of CHWs | - | - | -
+    CELL[20,0] = 4. Expected number of CHWs
+  ROW 21 | 5. Supervising Provider(s) | - | - | -
+    CELL[21,0] = 5. Supervising Provider(s)
+  ROW 22 | Priya Singh | - | CHW Supervisor MC-472981-S1 | -
+    CELL[22,0] = Priya Singh
+    CELL[22,2] = CHW Supervisor MC-472981-S1
+  ROW 23 | - | - | under RN | -
+    CELL[23,2] = under RN
+  ROW 24 | - | - | oversight | -
+    CELL[24,2] = oversight
+  ROW 25 | Aisha Patel | - | Program | MC-472981-PD
+    CELL[25,0] = Aisha Patel
+    CELL[25,2] = Program
+    CELL[25,3] = MC-472981-PD
+  ROW 26 | - | - | Director | -
+    CELL[26,2] = Director
+  ROW 27 | Daniel Kim | - | Operations | MC-472981-OM
+    CELL[27,0] = Daniel Kim
+    CELL[27,2] = Operations
+    CELL[27,3] = MC-472981-OM
+  ROW 28 | - | - | Manager | -
+    CELL[28,2] = Manager
+  ROW 29 | Note | DHCS requires CHWs to work under a Medi-Cal-enrolled supervising provider | . | -
+    CELL[29,0] = Note
+    CELL[29,1] = DHCS requires CHWs to work under a Medi-Cal-enrolled supervising provider
+    CELL[29,2] = .
+TABLE 1 | source=wide_grid | bbox=[90,591,534,635] | shape=3x3 | conf=0.850
+  shape: 3x3
+  HEADER | Name | License Type | Medi-Cal Provider #
+  ROW 1 | Elena Lopez | LCSW | MC-472981-L1
+    CELL[1,0] = Elena Lopez
+    CELL[1,1] = LCSW
+    CELL[1,2] = MC-472981-L1
+  ROW 2 | Omar Jackson | RN | MC-472981-RN
+    CELL[2,0] = Omar Jackson
+    CELL[2,1] = RN
+    CELL[2,2] = MC-472981-RN
+[/TABLES]
+
+[CHECKBOXES]
+CHECKBOX 0 | Checkbox: No | source=unicode
+[/CHECKBOXES]
+
+[BOXES]
+LINE 0 | bbox=[153,112,460,131] | conf=1.000 | text=CHW Supplemental Provider Review Form
+LINE 1 | bbox=[72,142,490,161] | conf=1.000 | text=Section 1 — General Information (link to existing ECM file)
+LINE 2 | bbox=[72,174,439,188] | conf=1.000 | text=For use by NLE when ECM provider is applying to add CHW services.
+LINE 3 | bbox=[78,200,176,212] | conf=1.000 | text=Organization Name
+  WORD | bbox=[78,200,148,212] | text=Organization
+  WORD | bbox=[145,200,171,212] | text=Name
+LINE 4 | bbox=[257,201,504,212] | conf=1.000 | text=Blue Horizon Community Health Services, Inc.
+LINE 5 | bbox=[78,215,214,227] | conf=1.000 | text=NLE Contract # (of known)
+LINE 6 | bbox=[257,216,328,227] | conf=1.000 | text=NLE-CA-20458
+LINE 7 | bbox=[78,230,317,242] | conf=1.000 | text=Date of Original ECM Application 10/03/2025
+  WORD | bbox=[78,230,256,242] | text=Date of Original ECM Application
+  WORD | bbox=[257,231,317,242] | text=10/03/2025
+LINE 8 | bbox=[78,245,131,257] | conf=1.000 | text=Reviewer
+LINE 9 | bbox=[257,246,372,257] | conf=1.000 | text=Internal Review Team
+LINE 10 | bbox=[102,284,510,301] | conf=1.000 | text=Applicants must complete Sections 2 – 6 and provide supporting
+LINE 11 | bbox=[257,303,360,320] | conf=1.000 | text=documentation
+LINE 12 | bbox=[72,331,330,350] | conf=1.000 | text=Section 2 — CHW Service Overview
+  WORD | bbox=[72,331,125,350] | text=Section
+  WORD | bbox=[130,331,139,350] | text=2
+  WORD | bbox=[143,331,156,350] | text=—
+  WORD | bbox=[161,331,196,350] | text=CHW
+  WORD | bbox=[201,331,253,350] | text=Service
+  WORD | bbox=[258,331,325,350] | text=Overview
+LINE 13 | bbox=[72,361,233,377] | conf=1.000 | text=1. CHW Services Requested:
+  WORD | bbox=[72,361,81,376] | text=1.
+  WORD | bbox=[90,361,116,376] | text=CHW
+  WORD | bbox=[120,361,165,376] | text=Services
+  WORD | bbox=[169,361,230,376] | text=Requested:
+LINE 14 | bbox=[90,386,247,403] | conf=1.000 | text=☐ Health education / coaching
+  WORD | bbox=[90,386,97,402] | text=☐
+  WORD | bbox=[101,389,241,401] | text=Health education / coaching
+LINE 15 | bbox=[90,404,239,421] | conf=1.000 | text=☐ Outreach and engagement
+  WORD | bbox=[90,404,97,420] | text=☐
+  WORD | bbox=[101,407,239,419] | text=Outreach and engagement
+LINE 16 | bbox=[90,422,273,439] | conf=1.000 | text=☐ Navigation and resource linkage
+  WORD | bbox=[90,422,97,438] | text=☐
+  WORD | bbox=[101,425,273,437] | text=Navigation and resource linkage
+LINE 17 | bbox=[90,440,238,456] | conf=1.000 | text=☐ Care coordination support
+  WORD | bbox=[90,440,97,456] | text=☐
+  WORD | bbox=[101,442,232,454] | text=Care coordination support
+LINE 18 | bbox=[90,458,206,474] | conf=1.000 | text=☐ Home / field visits
+  WORD | bbox=[90,458,97,474] | text=☐
+  WORD | bbox=[101,460,206,472] | text=Home / field visits
+LINE 19 | bbox=[90,476,143,492] | conf=1.000 | text=☐ Other:
+  WORD | bbox=[90,476,97,492] | text=☐
+  WORD | bbox=[101,478,143,490] | text=Other:
+LINE 20 | bbox=[72,501,193,517] | conf=1.000 | text=2. Counties Served:
+  WORD | bbox=[72,503,82,515] | text=2.
+  WORD | bbox=[90,502,137,516] | text=Counties
+  WORD | bbox=[137,502,193,516] | text=Served:
+LINE 21 | bbox=[72,525,311,541] | conf=1.000 | text=3. Anticipated start date for CHW services:
+  WORD | bbox=[72,527,82,539] | text=3.
+  WORD | bbox=[90,526,308,540] | text=Anticipated start date for CHW services:
+LINE 22 | bbox=[72,549,243,565] | conf=1.000 | text=4. Expected number of CHWs:
+  WORD | bbox=[72,551,82,563] | text=4.
+  WORD | bbox=[89,550,239,564] | text=Expected number of CHWs:
+LINE 23 | bbox=[72,573,227,589] | conf=1.000 | text=5. Supervising Provider(s):
+  WORD | bbox=[72,574,81,588] | text=5.
+  WORD | bbox=[90,574,150,588] | text=Supervising
+  WORD | bbox=[155,574,223,588] | text=Provider(s):
+LINE 24 | bbox=[197,591,235,605] | conf=1.000 | text=Name
+LINE 25 | bbox=[325,591,401,605] | conf=1.000 | text=License Type
+  WORD | bbox=[325,591,365,605] | text=License
+  WORD | bbox=[365,591,401,605] | text=Type
+LINE 26 | bbox=[426,591,537,605] | conf=1.000 | text=Medi-Cal Provider #
+LINE 27 | bbox=[90,609,156,620] | conf=1.000 | text=Elena Lopez
+LINE 28 | bbox=[320,609,347,620] | conf=1.000 | text=LCSW
+LINE 29 | bbox=[401,609,472,620] | conf=1.000 | text=MC-472981-L1
+LINE 30 | bbox=[90,624,162,635] | conf=1.000 | text=Omar Jackson
+LINE 31 | bbox=[320,624,336,635] | conf=1.000 | text=RN
+LINE 32 | bbox=[401,624,472,635] | conf=1.000 | text=MC-472981-RN
+LINE 33 | bbox=[90,639,156,650] | conf=1.000 | text=Priya Singh
+LINE 34 | bbox=[320,639,403,650] | conf=1.000 | text=CHW Supervisor
+LINE 35 | bbox=[320,653,370,664] | conf=1.000 | text=under RN
+LINE 36 | bbox=[320,667,375,678] | conf=1.000 | text=oversight
+LINE 37 | bbox=[401,639,472,650] | conf=1.000 | text=MC-472981-S1
+LINE 38 | bbox=[90,682,156,693] | conf=1.000 | text=Aisha Patel
+LINE 39 | bbox=[320,682,364,693] | conf=1.000 | text=Program
+LINE 40 | bbox=[320,696,369,707] | conf=1.000 | text=Director
+LINE 41 | bbox=[401,682,472,693] | conf=1.000 | text=MC-472981-PD
+LINE 42 | bbox=[90,711,151,722] | conf=1.000 | text=Daniel Kim
+LINE 43 | bbox=[320,711,380,722] | conf=1.000 | text=Operations
+LINE 44 | bbox=[320,725,364,736] | conf=1.000 | text=Manager
+LINE 45 | bbox=[401,711,472,722] | conf=1.000 | text=MC-472981-OM
+LINE 46 | bbox=[90,738,506,753] | conf=1.000 | text=Note: DHCS requires CHWs to work under a Medi-Cal-enrolled supervising provider.
+  WORD | bbox=[90,739,499,753] | text=Note: DHCS requires CHWs to work under a Medi-Cal-enrolled supervising provider
+  WORD | bbox=[499,738,503,753] | text=.
+[/BOXES]

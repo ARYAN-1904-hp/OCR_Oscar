@@ -1,0 +1,236 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=4 | tables=2 | checkboxes=0
+
+[TEXT]
+rosco Q OSC74885861-01 MR Melissa
+
+[TABLE 0 | source=wide_grid]
+shape: 5x6
+HEADER | 8 MEMBERS | OSCAR ID | R NUMBER | SSN | DOB | STATE
+ROW 1 | Nayeli Valle | OSC74885861-01 | R222M846 | 5523 | 10/24/1993 | AZ
+  CELL[1,0] = Nayeli Valle
+  CELL[1,1] = OSC74885861-01
+  CELL[1,2] = R222M846
+  CELL[1,3] = 5523
+  CELL[1,4] = 10/24/1993
+  CELL[1,5] = AZ
+ROW 2 | Gianna Corral | OSC74885861-04 | R222M84C | 5735 | 08/11/2018 | AZ
+  CELL[2,0] = Gianna Corral
+  CELL[2,1] = OSC74885861-04
+  CELL[2,2] = R222M84C
+  CELL[2,3] = 5735
+  CELL[2,4] = 08/11/2018
+  CELL[2,5] = AZ
+ROW 3 | Coral Corral | OSC74885861-03 | R222M84B | 7035 | 06/01/2013 | AZ
+  CELL[3,0] = Coral Corral
+  CELL[3,1] = OSC74885861-03
+  CELL[3,2] = R222M84B
+  CELL[3,3] = 7035
+  CELL[3,4] = 06/01/2013
+  CELL[3,5] = AZ
+ROW 4 | Octavio Corral | OSC74885861-02 | R222M848 | 7910 | 06/28/1993 | AZ
+  CELL[4,0] = Octavio Corral
+  CELL[4,1] = OSC74885861-02
+  CELL[4,2] = R222M848
+  CELL[4,3] = 7910
+  CELL[4,4] = 06/28/1993
+  CELL[4,5] = AZ
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 5x5
+HEADER | Y9 PROVIDERS | NPI | TIN | CLIENT | SPECIALTY
+ROW 1 | Oscar Arrate Fernandez | 1356161624 | 610666209 | Cigna | Family Nurse Practitioner
+  CELL[1,0] = Oscar Arrate Fernandez
+  CELL[1,1] = 1356161624
+  CELL[1,2] = 610666209
+  CELL[1,3] = Cigna
+  CELL[1,4] = Family Nurse Practitioner
+ROW 2 | Itzel A Garcia Oscos | 1255194007 | 832865075 | Cigna | Dentist
+  CELL[2,0] = Itzel A Garcia Oscos
+  CELL[2,1] = 1255194007
+  CELL[2,2] = 832865075
+  CELL[2,3] = Cigna
+  CELL[2,4] = Dentist
+ROW 3 | Oscar E Perez | 1336209147 | 884336483 | Cigna | Psychiatrist, Family Medicine Specialist
+  CELL[3,0] = Oscar E Perez
+  CELL[3,1] = 1336209147
+  CELL[3,2] = 884336483
+  CELL[3,3] = Cigna
+  CELL[3,4] = Psychiatrist, Family Medicine Specialist
+ROW 4 | OscarJ Hines | 1497779581 | 954377219 | Cigna | General Surgeon
+  CELL[4,0] = OscarJ Hines
+  CELL[4,1] = 1497779581
+  CELL[4,2] = 954377219
+  CELL[4,3] = Cigna
+  CELL[4,4] = General Surgeon
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,34] | order=0
+  rosco Q OSC74885861-01 MR Melissa
+BLOCK 1 | type=header | bbox=[116,76,1011,97] | order=1
+  8 MEMBERS OSCAR ID R NUMBER SSN DOB STATE
+BLOCK 2 | type=table | bbox=[116,111,1058,388] | order=2
+  Nayeli Valle OSC74885861-01 R222M846 -5523 10/24/1993 AZ
+  Gianna Corral OSC74885861-04 R222M84C -5735 08/11/2018 AZ
+  Coral Corral OSC74885861-03 R222M84B -7035 06/01/2013 AZ
+  Octavio Corral OSC74885861-02 R222M848 -7910 06/28/1993 AZ
+  Y9 PROVIDERS NPI TIN CLIENT SPECIALTY
+  Oscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner
+  Itzel A Garcia Oscos 1255194007 832865075 Cigna Dentist
+  Oscar E Perez 1336209147 884336483 Cigna Psychiatrist, Family Medicine Specialist
+  OscarJ Hines 1497779581 954377219 Cigna General Surgeon
+BLOCK 3 | type=table_row | bbox=[136,219,260,414] | order=3
+  See all members
+  See all 1, 159 providers
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=wide_grid | bbox=[116,76,1011,209] | shape=5x6 | conf=0.850
+  shape: 5x6
+  HEADER | 8 MEMBERS | OSCAR ID | R NUMBER | SSN | DOB | STATE
+  ROW 1 | Nayeli Valle | OSC74885861-01 | R222M846 | 5523 | 10/24/1993 | AZ
+    CELL[1,0] = Nayeli Valle
+    CELL[1,1] = OSC74885861-01
+    CELL[1,2] = R222M846
+    CELL[1,3] = 5523
+    CELL[1,4] = 10/24/1993
+    CELL[1,5] = AZ
+  ROW 2 | Gianna Corral | OSC74885861-04 | R222M84C | 5735 | 08/11/2018 | AZ
+    CELL[2,0] = Gianna Corral
+    CELL[2,1] = OSC74885861-04
+    CELL[2,2] = R222M84C
+    CELL[2,3] = 5735
+    CELL[2,4] = 08/11/2018
+    CELL[2,5] = AZ
+  ROW 3 | Coral Corral | OSC74885861-03 | R222M84B | 7035 | 06/01/2013 | AZ
+    CELL[3,0] = Coral Corral
+    CELL[3,1] = OSC74885861-03
+    CELL[3,2] = R222M84B
+    CELL[3,3] = 7035
+    CELL[3,4] = 06/01/2013
+    CELL[3,5] = AZ
+  ROW 4 | Octavio Corral | OSC74885861-02 | R222M848 | 7910 | 06/28/1993 | AZ
+    CELL[4,0] = Octavio Corral
+    CELL[4,1] = OSC74885861-02
+    CELL[4,2] = R222M848
+    CELL[4,3] = 7910
+    CELL[4,4] = 06/28/1993
+    CELL[4,5] = AZ
+TABLE 1 | source=wide_grid | bbox=[116,254,1058,388] | shape=5x5 | conf=0.850
+  shape: 5x5
+  HEADER | Y9 PROVIDERS | NPI | TIN | CLIENT | SPECIALTY
+  ROW 1 | Oscar Arrate Fernandez | 1356161624 | 610666209 | Cigna | Family Nurse Practitioner
+    CELL[1,0] = Oscar Arrate Fernandez
+    CELL[1,1] = 1356161624
+    CELL[1,2] = 610666209
+    CELL[1,3] = Cigna
+    CELL[1,4] = Family Nurse Practitioner
+  ROW 2 | Itzel A Garcia Oscos | 1255194007 | 832865075 | Cigna | Dentist
+    CELL[2,0] = Itzel A Garcia Oscos
+    CELL[2,1] = 1255194007
+    CELL[2,2] = 832865075
+    CELL[2,3] = Cigna
+    CELL[2,4] = Dentist
+  ROW 3 | Oscar E Perez | 1336209147 | 884336483 | Cigna | Psychiatrist, Family Medicine Specialist
+    CELL[3,0] = Oscar E Perez
+    CELL[3,1] = 1336209147
+    CELL[3,2] = 884336483
+    CELL[3,3] = Cigna
+    CELL[3,4] = Psychiatrist, Family Medicine Specialist
+  ROW 4 | OscarJ Hines | 1497779581 | 954377219 | Cigna | General Surgeon
+    CELL[4,0] = OscarJ Hines
+    CELL[4,1] = 1497779581
+    CELL[4,2] = 954377219
+    CELL[4,3] = Cigna
+    CELL[4,4] = General Surgeon
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.920 | text=rosco Q OSC74885861-01 MR Melissa
+  WORD | bbox=[14,17,74,34] | text=rosco
+  WORD | bbox=[112,17,132,33] | text=Q
+  WORD | bbox=[142,17,251,33] | text=OSC74885861-01
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[116,76,1011,97] | conf=0.969 | text=8 MEMBERS OSCAR ID R NUMBER SSN DOB STATE
+  WORD | bbox=[116,81,131,93] | text=8
+  WORD | bbox=[135,79,195,95] | text=MEMBERS
+  WORD | bbox=[534,81,585,94] | text=OSCAR ID
+  WORD | bbox=[646,81,704,94] | text=R NUMBER
+  WORD | bbox=[759,80,785,95] | text=SSN
+  WORD | bbox=[865,79,896,97] | text=DOB
+  WORD | bbox=[972,76,1011,97] | text=STATE
+LINE 2 | bbox=[138,111,992,130] | conf=0.979 | text=Nayeli Valle OSC74885861-01 R222M846 -5523 10/24/1993 AZ
+  WORD | bbox=[138,112,205,129] | text=Nayeli Valle
+  WORD | bbox=[534,111,618,127] | text=OSC74885861-01
+  WORD | bbox=[645,112,701,129] | text=R222M846
+  WORD | bbox=[760,112,791,130] | text=5523
+  WORD | bbox=[869,115,924,127] | text=10/24/1993
+  WORD | bbox=[974,113,992,129] | text=AZ
+LINE 3 | bbox=[138,136,992,157] | conf=0.978 | text=Gianna Corral OSC74885861-04 R222M84C -5735 08/11/2018 AZ
+  WORD | bbox=[138,139,218,155] | text=Gianna Corral
+  WORD | bbox=[532,139,620,155] | text=OSC74885861-04
+  WORD | bbox=[646,139,702,155] | text=R222M84C
+  WORD | bbox=[760,139,791,157] | text=5735
+  WORD | bbox=[865,136,925,157] | text=08/11/2018
+  WORD | bbox=[974,139,992,157] | text=AZ
+LINE 4 | bbox=[138,164,994,183] | conf=0.978 | text=Coral Corral OSC74885861-03 R222M84B -7035 06/01/2013 AZ
+  WORD | bbox=[138,164,208,181] | text=Coral Corral
+  WORD | bbox=[532,165,620,182] | text=OSC74885861-03
+  WORD | bbox=[646,165,702,182] | text=R222M84B
+  WORD | bbox=[759,165,791,183] | text=7035
+  WORD | bbox=[866,165,926,182] | text=06/01/2013
+  WORD | bbox=[974,165,994,182] | text=AZ
+LINE 5 | bbox=[136,191,992,209] | conf=0.983 | text=Octavio Corral OSC74885861-02 R222M848 -7910 06/28/1993 AZ
+  WORD | bbox=[136,191,221,209] | text=Octavio Corral
+  WORD | bbox=[531,191,619,209] | text=OSC74885861-02
+  WORD | bbox=[646,192,701,209] | text=R222M848
+  WORD | bbox=[761,194,789,209] | text=7910
+  WORD | bbox=[868,192,927,209] | text=06/28/1993
+  WORD | bbox=[974,192,992,209] | text=AZ
+LINE 6 | bbox=[116,254,925,276] | conf=0.938 | text=Y9 PROVIDERS NPI TIN CLIENT SPECIALTY
+  WORD | bbox=[116,260,130,271] | text=Y9
+  WORD | bbox=[136,258,201,275] | text=PROVIDERS
+  WORD | bbox=[531,258,555,274] | text=NPI
+  WORD | bbox=[644,257,669,276] | text=TIN
+  WORD | bbox=[757,254,802,275] | text=CLIENT
+  WORD | bbox=[866,258,925,275] | text=SPECIALTY
+LINE 7 | bbox=[137,289,990,309] | conf=0.994 | text=Oscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner
+  WORD | bbox=[137,289,273,308] | text=Oscar Arrate Fernandez
+  WORD | bbox=[534,293,588,306] | text=1356161624
+  WORD | bbox=[646,293,700,306] | text=610666209
+  WORD | bbox=[759,292,792,309] | text=Cigna
+  WORD | bbox=[869,293,990,306] | text=Family Nurse Practitioner
+LINE 8 | bbox=[138,314,908,337] | conf=0.999 | text=Itzel A Garcia Oscos 1255194007 832865075 Cigna Dentist
+  WORD | bbox=[138,317,250,334] | text=Itzel A Garcia Oscos
+  WORD | bbox=[532,317,591,334] | text=1255194007
+  WORD | bbox=[645,317,702,334] | text=832865075
+  WORD | bbox=[757,315,793,337] | text=Cigna
+  WORD | bbox=[865,314,908,335] | text=Dentist
+LINE 9 | bbox=[136,341,1058,363] | conf=0.988 | text=Oscar E Perez 1336209147 884336483 Cigna Psychiatrist, Family Medicine Specialist
+  WORD | bbox=[136,341,218,362] | text=Oscar E Perez
+  WORD | bbox=[532,344,591,360] | text=1336209147
+  WORD | bbox=[645,342,703,362] | text=884336483
+  WORD | bbox=[759,345,792,363] | text=Cigna
+  WORD | bbox=[869,346,1058,359] | text=Psychiatrist, Family Medicine Specialist
+LINE 10 | bbox=[138,369,950,388] | conf=0.978 | text=OscarJ Hines 1497779581 954377219 Cigna General Surgeon
+  WORD | bbox=[138,369,218,386] | text=OscarJ Hines
+  WORD | bbox=[532,370,589,387] | text=1497779581
+  WORD | bbox=[648,372,700,387] | text=954377219
+  WORD | bbox=[759,370,792,388] | text=Cigna
+  WORD | bbox=[867,370,950,388] | text=General Surgeon
+LINE 11 | bbox=[138,219,232,236] | conf=0.995 | text=See all members
+LINE 12 | bbox=[136,396,260,414] | conf=0.963 | text=See all 1, 159 providers
+[/BOXES]
+
+[FIELDS]
+NPI: 1356161624
+NPI: 1255194007
+NPI: 1336209147
+NPI: 1497779581
+[/FIELDS]

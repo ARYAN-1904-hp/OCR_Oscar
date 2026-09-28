@@ -1,0 +1,158 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x615 | blocks=6 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 11x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | nrg- leiber rg3 leousFg | - | - | -
+  CELL[1,0] = nrg- leiber rg3 leousFg
+ROW 2 | Processor: James Okafor Lastedit:11/17/202513:10 Processor ID | PROC004 Decision SLA: 3 days | - | -
+  CELL[2,0] = Processor: James Okafor Lastedit:11/17/202513:10 Processor ID
+  CELL[2,1] = PROC004 Decision SLA: 3 days
+ROW 3 | Diagnosis Codes (ICD-10) | - | - | -
+  CELL[3,0] = Diagnosis Codes (ICD-10)
+ROW 4 | Primary Diagnosis | M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE | - | -
+  CELL[4,0] = Primary Diagnosis
+  CELL[4,1] = M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE
+ROW 5 | Diagnosis Code Type | ICD-10-CM POA Indicator: Y | YES,present on admission | -
+  CELL[5,0] = Diagnosis Code Type
+  CELL[5,1] = ICD-10-CM POA Indicator: Y
+  CELL[5,2] = YES,present on admission
+ROW 6 | Seq 0 Code M17.11 | Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE | Type PRIMARY | Date 10/15/2025
+  CELL[6,0] = Seq 0 Code M17.11
+  CELL[6,1] = Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE
+  CELL[6,2] = Type PRIMARY
+  CELL[6,3] = Date 10/15/2025
+ROW 7 | 1 D64.9 | ANEMIA,UNSPECIFIED | ADMITTING | 10/15/2025
+  CELL[7,0] = 1 D64.9
+  CELL[7,1] = ANEMIA,UNSPECIFIED
+  CELL[7,2] = ADMITTING
+  CELL[7,3] = 10/15/2025
+ROW 8 | Procedure / Service Coding | - | - | -
+  CELL[8,0] = Procedure / Service Coding
+ROW 9 | Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields | - | Diag Pointer A | Date of Service 10/15/2025
+  CELL[9,0] = Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields
+  CELL[9,2] = Diag Pointer A
+  CELL[9,3] = Date of Service 10/15/2025
+ROW 10 | 2 P-36415 | Collection of venous blood by venipuncture | A | 10/15/2025
+  CELL[10,0] = 2 P-36415
+  CELL[10,1] = Collection of venous blood by venipuncture
+  CELL[10,2] = A
+  CELL[10,3] = 10/15/2025
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[66,0,686,10] | order=0
+  nrg- leiber rg3 leousFg
+BLOCK 1 | type=header | bbox=[41,37,775,58] | order=1
+  Processor: James Okafor Lastedit:11/17/202513:10 Processor ID: PROC004 Decision SLA: 3 days
+BLOCK 2 | type=table_row | bbox=[42,104,278,120] | order=2
+  Diagnosis Codes (ICD-10)
+BLOCK 3 | type=table | bbox=[37,141,1336,318] | order=3
+  Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE
+  Diagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission
+  Seq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/15/2025
+  1 D64.9 ANEMIA,UNSPECIFIED ADMITTING 10/15/2025
+BLOCK 4 | type=table_row | bbox=[39,447,297,471] | order=4
+  Procedure / Service Coding
+BLOCK 5 | type=table | bbox=[48,490,1372,565] | order=5
+  Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 10/15/2025
+  2 P-36415 Collection of venous blood by venipuncture A 10/15/2025
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[37,0,1372,565] | shape=11x4 | conf=0.920
+  shape: 11x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | nrg- leiber rg3 leousFg | - | - | -
+    CELL[1,0] = nrg- leiber rg3 leousFg
+  ROW 2 | Processor: James Okafor Lastedit:11/17/202513:10 Processor ID | PROC004 Decision SLA: 3 days | - | -
+    CELL[2,0] = Processor: James Okafor Lastedit:11/17/202513:10 Processor ID
+    CELL[2,1] = PROC004 Decision SLA: 3 days
+  ROW 3 | Diagnosis Codes (ICD-10) | - | - | -
+    CELL[3,0] = Diagnosis Codes (ICD-10)
+  ROW 4 | Primary Diagnosis | M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE | - | -
+    CELL[4,0] = Primary Diagnosis
+    CELL[4,1] = M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE
+  ROW 5 | Diagnosis Code Type | ICD-10-CM POA Indicator: Y | YES,present on admission | -
+    CELL[5,0] = Diagnosis Code Type
+    CELL[5,1] = ICD-10-CM POA Indicator: Y
+    CELL[5,2] = YES,present on admission
+  ROW 6 | Seq 0 Code M17.11 | Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE | Type PRIMARY | Date 10/15/2025
+    CELL[6,0] = Seq 0 Code M17.11
+    CELL[6,1] = Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE
+    CELL[6,2] = Type PRIMARY
+    CELL[6,3] = Date 10/15/2025
+  ROW 7 | 1 D64.9 | ANEMIA,UNSPECIFIED | ADMITTING | 10/15/2025
+    CELL[7,0] = 1 D64.9
+    CELL[7,1] = ANEMIA,UNSPECIFIED
+    CELL[7,2] = ADMITTING
+    CELL[7,3] = 10/15/2025
+  ROW 8 | Procedure / Service Coding | - | - | -
+    CELL[8,0] = Procedure / Service Coding
+  ROW 9 | Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields | - | Diag Pointer A | Date of Service 10/15/2025
+    CELL[9,0] = Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields
+    CELL[9,2] = Diag Pointer A
+    CELL[9,3] = Date of Service 10/15/2025
+  ROW 10 | 2 P-36415 | Collection of venous blood by venipuncture | A | 10/15/2025
+    CELL[10,0] = 2 P-36415
+    CELL[10,1] = Collection of venous blood by venipuncture
+    CELL[10,2] = A
+    CELL[10,3] = 10/15/2025
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[66,0,686,10] | conf=0.667 | text=nrg- leiber rg3 leousFg
+  WORD | bbox=[66,0,116,10] | text=nrg
+  WORD | bbox=[284,0,361,10] | text=leiber rg3
+  WORD | bbox=[622,0,686,10] | text=leousFg
+LINE 1 | bbox=[41,37,775,58] | conf=0.953 | text=Processor: James Okafor Lastedit:11/17/202513:10 Processor ID: PROC004 Decision SLA: 3 days
+  WORD | bbox=[41,40,211,56] | text=Processor: James Okafor
+  WORD | bbox=[239,42,430,53] | text=Lastedit:11/17/202513:10
+  WORD | bbox=[445,40,541,56] | text=Processor ID:
+  WORD | bbox=[533,37,608,58] | text=PROC004
+  WORD | bbox=[633,40,775,56] | text=Decision SLA: 3 days
+LINE 2 | bbox=[42,104,278,120] | conf=0.923 | text=Diagnosis Codes (ICD-10)
+LINE 3 | bbox=[37,141,717,179] | conf=0.959 | text=Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE
+  WORD | bbox=[37,141,107,176] | text=Primary Diagnosis:
+  WORD | bbox=[158,149,217,167] | text=M17.11
+  WORD | bbox=[444,141,717,179] | text=UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE
+LINE 4 | bbox=[39,186,959,221] | conf=0.958 | text=Diagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission
+  WORD | bbox=[39,186,141,221] | text=Diagnosis Code Type:
+  WORD | bbox=[167,195,248,211] | text=ICD-10-CM
+  WORD | bbox=[472,186,536,219] | text=POA Indicator:
+  WORD | bbox=[567,194,589,213] | text=Y
+  WORD | bbox=[856,187,959,219] | text=YES,present on admission
+LINE 5 | bbox=[48,242,1336,290] | conf=0.986 | text=Seq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/15/2025
+  WORD | bbox=[48,243,83,288] | text=Seq 0
+  WORD | bbox=[107,243,165,290] | text=Code M17.11
+  WORD | bbox=[247,242,583,285] | text=Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE
+  WORD | bbox=[1069,242,1128,285] | text=Type PRIMARY
+  WORD | bbox=[1256,242,1336,288] | text=Date 10/15/2025
+LINE 6 | bbox=[50,294,1336,318] | conf=0.989 | text=1 D64.9 ANEMIA,UNSPECIFIED ADMITTING 10/15/2025
+  WORD | bbox=[50,298,64,316] | text=1
+  WORD | bbox=[109,294,155,318] | text=D64.9
+  WORD | bbox=[248,298,391,314] | text=ANEMIA,UNSPECIFIED
+  WORD | bbox=[1070,298,1144,314] | text=ADMITTING
+  WORD | bbox=[1256,296,1336,317] | text=10/15/2025
+LINE 7 | bbox=[39,447,297,471] | conf=0.987 | text=Procedure / Service Coding
+LINE 8 | bbox=[48,490,1372,539] | conf=0.987 | text=Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 10/15/2025
+  WORD | bbox=[48,492,83,538] | text=Seq 1
+  WORD | bbox=[105,490,191,537] | text=CPT/HCPCS P-77014
+  WORD | bbox=[250,492,316,537] | text=Modifier A
+  WORD | bbox=[362,493,830,537] | text=Description Computed tomography guidance for placement of radiation therapy fields
+  WORD | bbox=[1096,490,1195,539] | text=Diag Pointer A
+  WORD | bbox=[1256,490,1372,537] | text=Date of Service 10/15/2025
+LINE 9 | bbox=[50,545,1336,565] | conf=0.992 | text=2 P-36415 Collection of venous blood by venipuncture A 10/15/2025
+  WORD | bbox=[50,546,64,564] | text=2
+  WORD | bbox=[106,546,162,564] | text=P-36415
+  WORD | bbox=[364,548,636,564] | text=Collection of venous blood by venipuncture
+  WORD | bbox=[1098,545,1117,565] | text=A
+  WORD | bbox=[1258,545,1336,565] | text=10/15/2025
+[/BOXES]

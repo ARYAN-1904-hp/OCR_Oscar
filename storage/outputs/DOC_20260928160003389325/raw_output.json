@@ -1,0 +1,1806 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Q OSC74885861-01 MR Melissa -\n8 MEMBERS OSCAR ID R NUMBER SSN DOB STATE\nNayeli Valle OSC74885861-01 R222M846 -5523 10/24/1993 AZ\nGianna Corral OSC74885861-04 R222M84C -5735 08/11/2018 AZ\nCoral Corral OSC74885861-03 R222M84B -7035 06/01/2013 AZ\nOctavio Corral OSC74885861-02 R222M848 -7910 06/28/1993 AZ\nY9 PROVIDERS NPI TIN CLIENT SPECIALTY\nOscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner\nItzel A Garcia Oscos 1255194007 832865075 Cigna Dentist\nOscar E Perez 1336209147 884336483 Cigna Psychiatrist, Family Medicine Specialist\nOscarJ Hines 1497779581 954377219 Cigna General Surgeon\nSee all members\nSee all 1, 159 providers",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Q OSC74885861-01 MR Melissa -\n8 MEMBERS OSCAR ID R NUMBER SSN DOB STATE\nNayeli Valle OSC74885861-01 R222M846 -5523 10/24/1993 AZ\nGianna Corral OSC74885861-04 R222M84C -5735 08/11/2018 AZ\nCoral Corral OSC74885861-03 R222M84B -7035 06/01/2013 AZ\nOctavio Corral OSC74885861-02 R222M848 -7910 06/28/1993 AZ\nY9 PROVIDERS NPI TIN CLIENT SPECIALTY\nOscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner\nItzel A Garcia Oscos 1255194007 832865075 Cigna Dentist\nOscar E Perez 1336209147 884336483 Cigna Psychiatrist, Family Medicine Specialist\nOscarJ Hines 1497779581 954377219 Cigna General Surgeon\nSee all members\nSee all 1, 159 providers",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [],
+          "text": ""
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "text": "rosco Q OSC74885861-01 MR Melissa -",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Q OSC74885861-01 MR Melissa -",
+              "conf": 0.9202569365501404,
+              "bbox": [
+                14,
+                17,
+                1580,
+                34
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9903534054756165,
+                  "bbox": [
+                    14,
+                    17,
+                    74,
+                    34
+                  ]
+                },
+                {
+                  "text": "Q",
+                  "conf": 0.9370187520980835,
+                  "bbox": [
+                    112,
+                    17,
+                    132,
+                    33
+                  ]
+                },
+                {
+                  "text": "OSC74885861-01",
+                  "conf": 0.9934361577033997,
+                  "bbox": [
+                    142,
+                    17,
+                    251,
+                    33
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9651035070419312,
+                  "bbox": [
+                    1465,
+                    18,
+                    1550,
+                    34
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7153728604316711,
+                  "bbox": [
+                    1565,
+                    23,
+                    1580,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            116,
+            76,
+            1011,
+            97
+          ],
+          "text": "8 MEMBERS OSCAR ID R NUMBER SSN DOB STATE",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "8 MEMBERS OSCAR ID R NUMBER SSN DOB STATE",
+              "conf": 0.9687969173703875,
+              "bbox": [
+                116,
+                76,
+                1011,
+                97
+              ],
+              "words": [
+                {
+                  "text": "8",
+                  "conf": 0.898878276348114,
+                  "bbox": [
+                    116,
+                    81,
+                    131,
+                    93
+                  ]
+                },
+                {
+                  "text": "MEMBERS",
+                  "conf": 0.9268031716346741,
+                  "bbox": [
+                    135,
+                    79,
+                    195,
+                    95
+                  ]
+                },
+                {
+                  "text": "OSCAR ID",
+                  "conf": 0.9876940250396729,
+                  "bbox": [
+                    534,
+                    81,
+                    585,
+                    94
+                  ]
+                },
+                {
+                  "text": "R NUMBER",
+                  "conf": 0.9732599854469299,
+                  "bbox": [
+                    646,
+                    81,
+                    704,
+                    94
+                  ]
+                },
+                {
+                  "text": "SSN",
+                  "conf": 0.9992366433143616,
+                  "bbox": [
+                    759,
+                    80,
+                    785,
+                    95
+                  ]
+                },
+                {
+                  "text": "DOB",
+                  "conf": 0.9961352944374084,
+                  "bbox": [
+                    865,
+                    79,
+                    896,
+                    97
+                  ]
+                },
+                {
+                  "text": "STATE",
+                  "conf": 0.9995710253715515,
+                  "bbox": [
+                    972,
+                    76,
+                    1011,
+                    97
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            116,
+            111,
+            1058,
+            388
+          ],
+          "text": "Nayeli Valle OSC74885861-01 R222M846 -5523 10/24/1993 AZ\nGianna Corral OSC74885861-04 R222M84C -5735 08/11/2018 AZ\nCoral Corral OSC74885861-03 R222M84B -7035 06/01/2013 AZ\nOctavio Corral OSC74885861-02 R222M848 -7910 06/28/1993 AZ\nY9 PROVIDERS NPI TIN CLIENT SPECIALTY\nOscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner\nItzel A Garcia Oscos 1255194007 832865075 Cigna Dentist\nOscar E Perez 1336209147 884336483 Cigna Psychiatrist, Family Medicine Specialist\nOscarJ Hines 1497779581 954377219 Cigna General Surgeon",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Nayeli Valle OSC74885861-01 R222M846 -5523 10/24/1993 AZ",
+              "conf": 0.9789718786875407,
+              "bbox": [
+                138,
+                111,
+                992,
+                130
+              ],
+              "words": [
+                {
+                  "text": "Nayeli Valle",
+                  "conf": 0.9997789859771729,
+                  "bbox": [
+                    138,
+                    112,
+                    205,
+                    129
+                  ]
+                },
+                {
+                  "text": "OSC74885861-01",
+                  "conf": 0.9694384336471558,
+                  "bbox": [
+                    534,
+                    111,
+                    618,
+                    127
+                  ]
+                },
+                {
+                  "text": "R222M846",
+                  "conf": 0.9910703897476196,
+                  "bbox": [
+                    645,
+                    112,
+                    701,
+                    129
+                  ]
+                },
+                {
+                  "text": "-5523",
+                  "conf": 0.9143970608711243,
+                  "bbox": [
+                    760,
+                    112,
+                    791,
+                    130
+                  ]
+                },
+                {
+                  "text": "10/24/1993",
+                  "conf": 0.9998881220817566,
+                  "bbox": [
+                    869,
+                    115,
+                    924,
+                    127
+                  ]
+                },
+                {
+                  "text": "AZ",
+                  "conf": 0.999258279800415,
+                  "bbox": [
+                    974,
+                    113,
+                    992,
+                    129
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Gianna Corral OSC74885861-04 R222M84C -5735 08/11/2018 AZ",
+              "conf": 0.9782366951306661,
+              "bbox": [
+                138,
+                136,
+                992,
+                157
+              ],
+              "words": [
+                {
+                  "text": "Gianna Corral",
+                  "conf": 0.9940139055252075,
+                  "bbox": [
+                    138,
+                    139,
+                    218,
+                    155
+                  ]
+                },
+                {
+                  "text": "OSC74885861-04",
+                  "conf": 0.9867663383483887,
+                  "bbox": [
+                    532,
+                    139,
+                    620,
+                    155
+                  ]
+                },
+                {
+                  "text": "R222M84C",
+                  "conf": 0.9982165694236755,
+                  "bbox": [
+                    646,
+                    139,
+                    702,
+                    155
+                  ]
+                },
+                {
+                  "text": "-5735",
+                  "conf": 0.933820366859436,
+                  "bbox": [
+                    760,
+                    139,
+                    791,
+                    157
+                  ]
+                },
+                {
+                  "text": "08/11/2018",
+                  "conf": 0.9570413827896118,
+                  "bbox": [
+                    865,
+                    136,
+                    925,
+                    157
+                  ]
+                },
+                {
+                  "text": "AZ",
+                  "conf": 0.999561607837677,
+                  "bbox": [
+                    974,
+                    139,
+                    992,
+                    157
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Coral Corral OSC74885861-03 R222M84B -7035 06/01/2013 AZ",
+              "conf": 0.9781595667203268,
+              "bbox": [
+                138,
+                164,
+                994,
+                183
+              ],
+              "words": [
+                {
+                  "text": "Coral Corral",
+                  "conf": 0.9200706481933594,
+                  "bbox": [
+                    138,
+                    164,
+                    208,
+                    181
+                  ]
+                },
+                {
+                  "text": "OSC74885861-03",
+                  "conf": 0.9920447468757629,
+                  "bbox": [
+                    532,
+                    165,
+                    620,
+                    182
+                  ]
+                },
+                {
+                  "text": "R222M84B",
+                  "conf": 0.9911767244338989,
+                  "bbox": [
+                    646,
+                    165,
+                    702,
+                    182
+                  ]
+                },
+                {
+                  "text": "-7035",
+                  "conf": 0.970129668712616,
+                  "bbox": [
+                    759,
+                    165,
+                    791,
+                    183
+                  ]
+                },
+                {
+                  "text": "06/01/2013",
+                  "conf": 0.9968056678771973,
+                  "bbox": [
+                    866,
+                    165,
+                    926,
+                    182
+                  ]
+                },
+                {
+                  "text": "AZ",
+                  "conf": 0.998729944229126,
+                  "bbox": [
+                    974,
+                    165,
+                    994,
+                    182
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Octavio Corral OSC74885861-02 R222M848 -7910 06/28/1993 AZ",
+              "conf": 0.983148048321406,
+              "bbox": [
+                136,
+                191,
+                992,
+                209
+              ],
+              "words": [
+                {
+                  "text": "Octavio Corral",
+                  "conf": 0.9623340368270874,
+                  "bbox": [
+                    136,
+                    191,
+                    221,
+                    209
+                  ]
+                },
+                {
+                  "text": "OSC74885861-02",
+                  "conf": 0.9871158599853516,
+                  "bbox": [
+                    531,
+                    191,
+                    619,
+                    209
+                  ]
+                },
+                {
+                  "text": "R222M848",
+                  "conf": 0.9979894161224365,
+                  "bbox": [
+                    646,
+                    192,
+                    701,
+                    209
+                  ]
+                },
+                {
+                  "text": "-7910",
+                  "conf": 0.9523240923881531,
+                  "bbox": [
+                    761,
+                    194,
+                    789,
+                    209
+                  ]
+                },
+                {
+                  "text": "06/28/1993",
+                  "conf": 0.9998698234558105,
+                  "bbox": [
+                    868,
+                    192,
+                    927,
+                    209
+                  ]
+                },
+                {
+                  "text": "AZ",
+                  "conf": 0.9992550611495972,
+                  "bbox": [
+                    974,
+                    192,
+                    992,
+                    209
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Y9 PROVIDERS NPI TIN CLIENT SPECIALTY",
+              "conf": 0.9379574954509735,
+              "bbox": [
+                116,
+                254,
+                925,
+                276
+              ],
+              "words": [
+                {
+                  "text": "Y9",
+                  "conf": 0.7199245095252991,
+                  "bbox": [
+                    116,
+                    260,
+                    130,
+                    271
+                  ]
+                },
+                {
+                  "text": "PROVIDERS",
+                  "conf": 0.9987185597419739,
+                  "bbox": [
+                    136,
+                    258,
+                    201,
+                    275
+                  ]
+                },
+                {
+                  "text": "NPI",
+                  "conf": 0.9110117554664612,
+                  "bbox": [
+                    531,
+                    258,
+                    555,
+                    274
+                  ]
+                },
+                {
+                  "text": "TIN",
+                  "conf": 0.9990153908729553,
+                  "bbox": [
+                    644,
+                    257,
+                    669,
+                    276
+                  ]
+                },
+                {
+                  "text": "CLIENT",
+                  "conf": 0.9995093941688538,
+                  "bbox": [
+                    757,
+                    254,
+                    802,
+                    275
+                  ]
+                },
+                {
+                  "text": "SPECIALTY",
+                  "conf": 0.9995653629302979,
+                  "bbox": [
+                    866,
+                    258,
+                    925,
+                    275
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "Oscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner",
+              "conf": 0.9936174750328064,
+              "bbox": [
+                137,
+                289,
+                990,
+                309
+              ],
+              "words": [
+                {
+                  "text": "Oscar Arrate Fernandez",
+                  "conf": 0.9780723452568054,
+                  "bbox": [
+                    137,
+                    289,
+                    273,
+                    308
+                  ]
+                },
+                {
+                  "text": "1356161624",
+                  "conf": 0.9996956586837769,
+                  "bbox": [
+                    534,
+                    293,
+                    588,
+                    306
+                  ]
+                },
+                {
+                  "text": "610666209",
+                  "conf": 0.9992561340332031,
+                  "bbox": [
+                    646,
+                    293,
+                    700,
+                    306
+                  ]
+                },
+                {
+                  "text": "Cigna",
+                  "conf": 0.9995503425598145,
+                  "bbox": [
+                    759,
+                    292,
+                    792,
+                    309
+                  ]
+                },
+                {
+                  "text": "Family Nurse Practitioner",
+                  "conf": 0.9915128946304321,
+                  "bbox": [
+                    869,
+                    293,
+                    990,
+                    306
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 6,
+              "text": "Itzel A Garcia Oscos 1255194007 832865075 Cigna Dentist",
+              "conf": 0.9991632223129272,
+              "bbox": [
+                138,
+                314,
+                908,
+                337
+              ],
+              "words": [
+                {
+                  "text": "Itzel A Garcia Oscos",
+                  "conf": 0.9969423413276672,
+                  "bbox": [
+                    138,
+                    317,
+                    250,
+                    334
+                  ]
+                },
+                {
+                  "text": "1255194007",
+                  "conf": 0.9998728036880493,
+                  "bbox": [
+                    532,
+                    317,
+                    591,
+                    334
+                  ]
+                },
+                {
+                  "text": "832865075",
+                  "conf": 0.9997273683547974,
+                  "bbox": [
+                    645,
+                    317,
+                    702,
+                    334
+                  ]
+                },
+                {
+                  "text": "Cigna",
+                  "conf": 0.9996899366378784,
+                  "bbox": [
+                    757,
+                    315,
+                    793,
+                    337
+                  ]
+                },
+                {
+                  "text": "Dentist",
+                  "conf": 0.9995836615562439,
+                  "bbox": [
+                    865,
+                    314,
+                    908,
+                    335
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 7,
+              "text": "Oscar E Perez 1336209147 884336483 Cigna Psychiatrist, Family Medicine Specialist",
+              "conf": 0.9884948492050171,
+              "bbox": [
+                136,
+                341,
+                1058,
+                363
+              ],
+              "words": [
+                {
+                  "text": "Oscar E Perez",
+                  "conf": 0.9974241256713867,
+                  "bbox": [
+                    136,
+                    341,
+                    218,
+                    362
+                  ]
+                },
+                {
+                  "text": "1336209147",
+                  "conf": 0.9501703381538391,
+                  "bbox": [
+                    532,
+                    344,
+                    591,
+                    360
+                  ]
+                },
+                {
+                  "text": "884336483",
+                  "conf": 0.9991193413734436,
+                  "bbox": [
+                    645,
+                    342,
+                    703,
+                    362
+                  ]
+                },
+                {
+                  "text": "Cigna",
+                  "conf": 0.9993759989738464,
+                  "bbox": [
+                    759,
+                    345,
+                    792,
+                    363
+                  ]
+                },
+                {
+                  "text": "Psychiatrist, Family Medicine Specialist",
+                  "conf": 0.9963844418525696,
+                  "bbox": [
+                    869,
+                    346,
+                    1058,
+                    359
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 8,
+              "text": "OscarJ Hines 1497779581 954377219 Cigna General Surgeon",
+              "conf": 0.9782167196273803,
+              "bbox": [
+                138,
+                369,
+                950,
+                388
+              ],
+              "words": [
+                {
+                  "text": "OscarJ Hines",
+                  "conf": 0.9731795191764832,
+                  "bbox": [
+                    138,
+                    369,
+                    218,
+                    386
+                  ]
+                },
+                {
+                  "text": "1497779581",
+                  "conf": 0.9483624696731567,
+                  "bbox": [
+                    532,
+                    370,
+                    589,
+                    387
+                  ]
+                },
+                {
+                  "text": "954377219",
+                  "conf": 0.9995452165603638,
+                  "bbox": [
+                    648,
+                    372,
+                    700,
+                    387
+                  ]
+                },
+                {
+                  "text": "Cigna",
+                  "conf": 0.9986093640327454,
+                  "bbox": [
+                    759,
+                    370,
+                    792,
+                    388
+                  ]
+                },
+                {
+                  "text": "General Surgeon",
+                  "conf": 0.9713870286941528,
+                  "bbox": [
+                    867,
+                    370,
+                    950,
+                    388
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            136,
+            219,
+            260,
+            414
+          ],
+          "text": "See all members\nSee all 1, 159 providers",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "See all members",
+              "conf": 0.9949682950973511,
+              "bbox": [
+                138,
+                219,
+                232,
+                236
+              ],
+              "words": [
+                {
+                  "text": "See all members",
+                  "conf": 0.9949682950973511,
+                  "bbox": [
+                    138,
+                    219,
+                    232,
+                    236
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "See all 1, 159 providers",
+              "conf": 0.9628593325614929,
+              "bbox": [
+                136,
+                396,
+                260,
+                414
+              ],
+              "words": [
+                {
+                  "text": "See all 1, 159 providers",
+                  "conf": 0.9628593325614929,
+                  "bbox": [
+                    136,
+                    396,
+                    260,
+                    414
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            116,
+            76,
+            1011,
+            209
+          ],
+          "html": "<table><tr><th>8 MEMBERS</th><th>OSCAR ID</th><th>R NUMBER</th><th>SSN</th><th>DOB</th><th>STATE</th></tr><tr><td>Nayeli Valle</td><td>OSC74885861-01</td><td>R222M846</td><td>-5523</td><td>10/24/1993</td><td>AZ</td></tr><tr><td>Gianna Corral</td><td>OSC74885861-04</td><td>R222M84C</td><td>-5735</td><td>08/11/2018</td><td>AZ</td></tr><tr><td>Coral Corral</td><td>OSC74885861-03</td><td>R222M84B</td><td>-7035</td><td>06/01/2013</td><td>AZ</td></tr><tr><td>Octavio Corral</td><td>OSC74885861-02</td><td>R222M848</td><td>-7910</td><td>06/28/1993</td><td>AZ</td></tr></table>",
+          "text": "Nayeli Valle | OSC74885861-01 | R222M846 | -5523 | 10/24/1993 | AZ\nGianna Corral | OSC74885861-04 | R222M84C | -5735 | 08/11/2018 | AZ\nCoral Corral | OSC74885861-03 | R222M84B | -7035 | 06/01/2013 | AZ\nOctavio Corral | OSC74885861-02 | R222M848 | -7910 | 06/28/1993 | AZ",
+          "headers": [
+            "8 MEMBERS",
+            "OSCAR ID",
+            "R NUMBER",
+            "SSN",
+            "DOB",
+            "STATE"
+          ],
+          "rows": [
+            [
+              "Nayeli Valle",
+              "OSC74885861-01",
+              "R222M846",
+              "-5523",
+              "10/24/1993",
+              "AZ"
+            ],
+            [
+              "Gianna Corral",
+              "OSC74885861-04",
+              "R222M84C",
+              "-5735",
+              "08/11/2018",
+              "AZ"
+            ],
+            [
+              "Coral Corral",
+              "OSC74885861-03",
+              "R222M84B",
+              "-7035",
+              "06/01/2013",
+              "AZ"
+            ],
+            [
+              "Octavio Corral",
+              "OSC74885861-02",
+              "R222M848",
+              "-7910",
+              "06/28/1993",
+              "AZ"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            116,
+            254,
+            1058,
+            388
+          ],
+          "html": "<table><tr><th>Y9 PROVIDERS</th><th>NPI</th><th>TIN</th><th>CLIENT</th><th>SPECIALTY</th></tr><tr><td>Oscar Arrate Fernandez</td><td>1356161624</td><td>610666209</td><td>Cigna</td><td>Family Nurse Practitioner</td></tr><tr><td>Itzel A Garcia Oscos</td><td>1255194007</td><td>832865075</td><td>Cigna</td><td>Dentist</td></tr><tr><td>Oscar E Perez</td><td>1336209147</td><td>884336483</td><td>Cigna</td><td>Psychiatrist, Family Medicine Specialist</td></tr><tr><td>OscarJ Hines</td><td>1497779581</td><td>954377219</td><td>Cigna</td><td>General Surgeon</td></tr></table>",
+          "text": "Oscar Arrate Fernandez | 1356161624 | 610666209 | Cigna | Family Nurse Practitioner\nItzel A Garcia Oscos | 1255194007 | 832865075 | Cigna | Dentist\nOscar E Perez | 1336209147 | 884336483 | Cigna | Psychiatrist, Family Medicine Specialist\nOscarJ Hines | 1497779581 | 954377219 | Cigna | General Surgeon",
+          "headers": [
+            "Y9 PROVIDERS",
+            "NPI",
+            "TIN",
+            "CLIENT",
+            "SPECIALTY"
+          ],
+          "rows": [
+            [
+              "Oscar Arrate Fernandez",
+              "1356161624",
+              "610666209",
+              "Cigna",
+              "Family Nurse Practitioner"
+            ],
+            [
+              "Itzel A Garcia Oscos",
+              "1255194007",
+              "832865075",
+              "Cigna",
+              "Dentist"
+            ],
+            [
+              "Oscar E Perez",
+              "1336209147",
+              "884336483",
+              "Cigna",
+              "Psychiatrist, Family Medicine Specialist"
+            ],
+            [
+              "OscarJ Hines",
+              "1497779581",
+              "954377219",
+              "Cigna",
+              "General Surgeon"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Q OSC74885861-01 MR Melissa -",
+          "conf": 0.9202569365501404,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9903534054756165,
+              "bbox": [
+                14,
+                17,
+                74,
+                34
+              ]
+            },
+            {
+              "text": "Q",
+              "conf": 0.9370187520980835,
+              "bbox": [
+                112,
+                17,
+                132,
+                33
+              ]
+            },
+            {
+              "text": "OSC74885861-01",
+              "conf": 0.9934361577033997,
+              "bbox": [
+                142,
+                17,
+                251,
+                33
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9651035070419312,
+              "bbox": [
+                1465,
+                18,
+                1550,
+                34
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7153728604316711,
+              "bbox": [
+                1565,
+                23,
+                1580,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8 MEMBERS OSCAR ID R NUMBER SSN DOB STATE",
+          "conf": 0.9687969173703875,
+          "bbox": [
+            116,
+            76,
+            1011,
+            97
+          ],
+          "words": [
+            {
+              "text": "8",
+              "conf": 0.898878276348114,
+              "bbox": [
+                116,
+                81,
+                131,
+                93
+              ]
+            },
+            {
+              "text": "MEMBERS",
+              "conf": 0.9268031716346741,
+              "bbox": [
+                135,
+                79,
+                195,
+                95
+              ]
+            },
+            {
+              "text": "OSCAR ID",
+              "conf": 0.9876940250396729,
+              "bbox": [
+                534,
+                81,
+                585,
+                94
+              ]
+            },
+            {
+              "text": "R NUMBER",
+              "conf": 0.9732599854469299,
+              "bbox": [
+                646,
+                81,
+                704,
+                94
+              ]
+            },
+            {
+              "text": "SSN",
+              "conf": 0.9992366433143616,
+              "bbox": [
+                759,
+                80,
+                785,
+                95
+              ]
+            },
+            {
+              "text": "DOB",
+              "conf": 0.9961352944374084,
+              "bbox": [
+                865,
+                79,
+                896,
+                97
+              ]
+            },
+            {
+              "text": "STATE",
+              "conf": 0.9995710253715515,
+              "bbox": [
+                972,
+                76,
+                1011,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Nayeli Valle OSC74885861-01 R222M846 -5523 10/24/1993 AZ",
+          "conf": 0.9789718786875407,
+          "bbox": [
+            138,
+            111,
+            992,
+            130
+          ],
+          "words": [
+            {
+              "text": "Nayeli Valle",
+              "conf": 0.9997789859771729,
+              "bbox": [
+                138,
+                112,
+                205,
+                129
+              ]
+            },
+            {
+              "text": "OSC74885861-01",
+              "conf": 0.9694384336471558,
+              "bbox": [
+                534,
+                111,
+                618,
+                127
+              ]
+            },
+            {
+              "text": "R222M846",
+              "conf": 0.9910703897476196,
+              "bbox": [
+                645,
+                112,
+                701,
+                129
+              ]
+            },
+            {
+              "text": "-5523",
+              "conf": 0.9143970608711243,
+              "bbox": [
+                760,
+                112,
+                791,
+                130
+              ]
+            },
+            {
+              "text": "10/24/1993",
+              "conf": 0.9998881220817566,
+              "bbox": [
+                869,
+                115,
+                924,
+                127
+              ]
+            },
+            {
+              "text": "AZ",
+              "conf": 0.999258279800415,
+              "bbox": [
+                974,
+                113,
+                992,
+                129
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gianna Corral OSC74885861-04 R222M84C -5735 08/11/2018 AZ",
+          "conf": 0.9782366951306661,
+          "bbox": [
+            138,
+            136,
+            992,
+            157
+          ],
+          "words": [
+            {
+              "text": "Gianna Corral",
+              "conf": 0.9940139055252075,
+              "bbox": [
+                138,
+                139,
+                218,
+                155
+              ]
+            },
+            {
+              "text": "OSC74885861-04",
+              "conf": 0.9867663383483887,
+              "bbox": [
+                532,
+                139,
+                620,
+                155
+              ]
+            },
+            {
+              "text": "R222M84C",
+              "conf": 0.9982165694236755,
+              "bbox": [
+                646,
+                139,
+                702,
+                155
+              ]
+            },
+            {
+              "text": "-5735",
+              "conf": 0.933820366859436,
+              "bbox": [
+                760,
+                139,
+                791,
+                157
+              ]
+            },
+            {
+              "text": "08/11/2018",
+              "conf": 0.9570413827896118,
+              "bbox": [
+                865,
+                136,
+                925,
+                157
+              ]
+            },
+            {
+              "text": "AZ",
+              "conf": 0.999561607837677,
+              "bbox": [
+                974,
+                139,
+                992,
+                157
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Coral Corral OSC74885861-03 R222M84B -7035 06/01/2013 AZ",
+          "conf": 0.9781595667203268,
+          "bbox": [
+            138,
+            164,
+            994,
+            183
+          ],
+          "words": [
+            {
+              "text": "Coral Corral",
+              "conf": 0.9200706481933594,
+              "bbox": [
+                138,
+                164,
+                208,
+                181
+              ]
+            },
+            {
+              "text": "OSC74885861-03",
+              "conf": 0.9920447468757629,
+              "bbox": [
+                532,
+                165,
+                620,
+                182
+              ]
+            },
+            {
+              "text": "R222M84B",
+              "conf": 0.9911767244338989,
+              "bbox": [
+                646,
+                165,
+                702,
+                182
+              ]
+            },
+            {
+              "text": "-7035",
+              "conf": 0.970129668712616,
+              "bbox": [
+                759,
+                165,
+                791,
+                183
+              ]
+            },
+            {
+              "text": "06/01/2013",
+              "conf": 0.9968056678771973,
+              "bbox": [
+                866,
+                165,
+                926,
+                182
+              ]
+            },
+            {
+              "text": "AZ",
+              "conf": 0.998729944229126,
+              "bbox": [
+                974,
+                165,
+                994,
+                182
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Octavio Corral OSC74885861-02 R222M848 -7910 06/28/1993 AZ",
+          "conf": 0.983148048321406,
+          "bbox": [
+            136,
+            191,
+            992,
+            209
+          ],
+          "words": [
+            {
+              "text": "Octavio Corral",
+              "conf": 0.9623340368270874,
+              "bbox": [
+                136,
+                191,
+                221,
+                209
+              ]
+            },
+            {
+              "text": "OSC74885861-02",
+              "conf": 0.9871158599853516,
+              "bbox": [
+                531,
+                191,
+                619,
+                209
+              ]
+            },
+            {
+              "text": "R222M848",
+              "conf": 0.9979894161224365,
+              "bbox": [
+                646,
+                192,
+                701,
+                209
+              ]
+            },
+            {
+              "text": "-7910",
+              "conf": 0.9523240923881531,
+              "bbox": [
+                761,
+                194,
+                789,
+                209
+              ]
+            },
+            {
+              "text": "06/28/1993",
+              "conf": 0.9998698234558105,
+              "bbox": [
+                868,
+                192,
+                927,
+                209
+              ]
+            },
+            {
+              "text": "AZ",
+              "conf": 0.9992550611495972,
+              "bbox": [
+                974,
+                192,
+                992,
+                209
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Y9 PROVIDERS NPI TIN CLIENT SPECIALTY",
+          "conf": 0.9379574954509735,
+          "bbox": [
+            116,
+            254,
+            925,
+            276
+          ],
+          "words": [
+            {
+              "text": "Y9",
+              "conf": 0.7199245095252991,
+              "bbox": [
+                116,
+                260,
+                130,
+                271
+              ]
+            },
+            {
+              "text": "PROVIDERS",
+              "conf": 0.9987185597419739,
+              "bbox": [
+                136,
+                258,
+                201,
+                275
+              ]
+            },
+            {
+              "text": "NPI",
+              "conf": 0.9110117554664612,
+              "bbox": [
+                531,
+                258,
+                555,
+                274
+              ]
+            },
+            {
+              "text": "TIN",
+              "conf": 0.9990153908729553,
+              "bbox": [
+                644,
+                257,
+                669,
+                276
+              ]
+            },
+            {
+              "text": "CLIENT",
+              "conf": 0.9995093941688538,
+              "bbox": [
+                757,
+                254,
+                802,
+                275
+              ]
+            },
+            {
+              "text": "SPECIALTY",
+              "conf": 0.9995653629302979,
+              "bbox": [
+                866,
+                258,
+                925,
+                275
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner",
+          "conf": 0.9936174750328064,
+          "bbox": [
+            137,
+            289,
+            990,
+            309
+          ],
+          "words": [
+            {
+              "text": "Oscar Arrate Fernandez",
+              "conf": 0.9780723452568054,
+              "bbox": [
+                137,
+                289,
+                273,
+                308
+              ]
+            },
+            {
+              "text": "1356161624",
+              "conf": 0.9996956586837769,
+              "bbox": [
+                534,
+                293,
+                588,
+                306
+              ]
+            },
+            {
+              "text": "610666209",
+              "conf": 0.9992561340332031,
+              "bbox": [
+                646,
+                293,
+                700,
+                306
+              ]
+            },
+            {
+              "text": "Cigna",
+              "conf": 0.9995503425598145,
+              "bbox": [
+                759,
+                292,
+                792,
+                309
+              ]
+            },
+            {
+              "text": "Family Nurse Practitioner",
+              "conf": 0.9915128946304321,
+              "bbox": [
+                869,
+                293,
+                990,
+                306
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Itzel A Garcia Oscos 1255194007 832865075 Cigna Dentist",
+          "conf": 0.9991632223129272,
+          "bbox": [
+            138,
+            314,
+            908,
+            337
+          ],
+          "words": [
+            {
+              "text": "Itzel A Garcia Oscos",
+              "conf": 0.9969423413276672,
+              "bbox": [
+                138,
+                317,
+                250,
+                334
+              ]
+            },
+            {
+              "text": "1255194007",
+              "conf": 0.9998728036880493,
+              "bbox": [
+                532,
+                317,
+                591,
+                334
+              ]
+            },
+            {
+              "text": "832865075",
+              "conf": 0.9997273683547974,
+              "bbox": [
+                645,
+                317,
+                702,
+                334
+              ]
+            },
+            {
+              "text": "Cigna",
+              "conf": 0.9996899366378784,
+              "bbox": [
+                757,
+                315,
+                793,
+                337
+              ]
+            },
+            {
+              "text": "Dentist",
+              "conf": 0.9995836615562439,
+              "bbox": [
+                865,
+                314,
+                908,
+                335
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar E Perez 1336209147 884336483 Cigna Psychiatrist, Family Medicine Specialist",
+          "conf": 0.9884948492050171,
+          "bbox": [
+            136,
+            341,
+            1058,
+            363
+          ],
+          "words": [
+            {
+              "text": "Oscar E Perez",
+              "conf": 0.9974241256713867,
+              "bbox": [
+                136,
+                341,
+                218,
+                362
+              ]
+            },
+            {
+              "text": "1336209147",
+              "conf": 0.9501703381538391,
+              "bbox": [
+                532,
+                344,
+                591,
+                360
+              ]
+            },
+            {
+              "text": "884336483",
+              "conf": 0.9991193413734436,
+              "bbox": [
+                645,
+                342,
+                703,
+                362
+              ]
+            },
+            {
+              "text": "Cigna",
+              "conf": 0.9993759989738464,
+              "bbox": [
+                759,
+                345,
+                792,
+                363
+              ]
+            },
+            {
+              "text": "Psychiatrist, Family Medicine Specialist",
+              "conf": 0.9963844418525696,
+              "bbox": [
+                869,
+                346,
+                1058,
+                359
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OscarJ Hines 1497779581 954377219 Cigna General Surgeon",
+          "conf": 0.9782167196273803,
+          "bbox": [
+            138,
+            369,
+            950,
+            388
+          ],
+          "words": [
+            {
+              "text": "OscarJ Hines",
+              "conf": 0.9731795191764832,
+              "bbox": [
+                138,
+                369,
+                218,
+                386
+              ]
+            },
+            {
+              "text": "1497779581",
+              "conf": 0.9483624696731567,
+              "bbox": [
+                532,
+                370,
+                589,
+                387
+              ]
+            },
+            {
+              "text": "954377219",
+              "conf": 0.9995452165603638,
+              "bbox": [
+                648,
+                372,
+                700,
+                387
+              ]
+            },
+            {
+              "text": "Cigna",
+              "conf": 0.9986093640327454,
+              "bbox": [
+                759,
+                370,
+                792,
+                388
+              ]
+            },
+            {
+              "text": "General Surgeon",
+              "conf": 0.9713870286941528,
+              "bbox": [
+                867,
+                370,
+                950,
+                388
+              ]
+            }
+          ]
+        },
+        {
+          "text": "See all members",
+          "conf": 0.9949682950973511,
+          "bbox": [
+            138,
+            219,
+            232,
+            236
+          ],
+          "words": [
+            {
+              "text": "See all members",
+              "conf": 0.9949682950973511,
+              "bbox": [
+                138,
+                219,
+                232,
+                236
+              ]
+            }
+          ]
+        },
+        {
+          "text": "See all 1, 159 providers",
+          "conf": 0.9628593325614929,
+          "bbox": [
+            136,
+            396,
+            260,
+            414
+          ],
+          "words": [
+            {
+              "text": "See all 1, 159 providers",
+              "conf": 0.9628593325614929,
+              "bbox": [
+                136,
+                396,
+                260,
+                414
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

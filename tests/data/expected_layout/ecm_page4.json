@@ -1,0 +1,778 @@
+{
+  "num_blocks": 62,
+  "block_type_counts": {
+    "header": 1,
+    "heading": 1,
+    "table": 2,
+    "table_row": 56,
+    "footer": 2
+  },
+  "block_type_sequence": [
+    "header",
+    "heading",
+    "table",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "table_row",
+    "footer",
+    "footer"
+  ],
+  "blocks": [
+    {
+      "block_type": "header",
+      "bbox": [
+        234,
+        9,
+        369,
+        20
+      ],
+      "reading_order": 0,
+      "text": "CREDENTIALING APPLICATION"
+    },
+    {
+      "block_type": "heading",
+      "bbox": [
+        153,
+        55,
+        461,
+        67
+      ],
+      "reading_order": 1,
+      "text": "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)"
+    },
+    {
+      "block_type": "table",
+      "bbox": [
+        32,
+        83,
+        598,
+        241
+      ],
+      "reading_order": 2,
+      "text": "Parent / Main Organization Information: |  |  |  |  | \nLegal Business Name\nBlue Horizon Community Health Services, Inc. |  |  | Legal Business Name\nBlue Horizon Care Network |  | \nStreet Address\n2450 Westlake Avenue | Suite #\nSuite 410 |  | Street Address\n2450 Westlake Avenue | Suite #\nSuite 410 | \nCity\nSacramento | State\nCA | Zip\n95815 | City\nSacramento | State\nCA | Zip\n95815\nPhone\n(555) 310-2400 | Fax\n(555) 310-2401 |  | Phone\n(555) 310-2400 | Fax\n(555) 310-2401 | \nEmail:\ninfo@bluehorizon.example.org |  |  | Email:\noperations@bluehorizon.example.org |  |"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        38,
+        85,
+        220,
+        96
+      ],
+      "reading_order": 3,
+      "text": "Parent / Main Organization Information:"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        100,
+        238,
+        124
+      ],
+      "reading_order": 4,
+      "text": "Legal Business Name\nBlue Horizon Community Health Services, Inc."
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        326,
+        100,
+        450,
+        124
+      ],
+      "reading_order": 5,
+      "text": "Legal Business Name\nBlue Horizon Care Network"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        133,
+        137,
+        158
+      ],
+      "reading_order": 6,
+      "text": "Street Address\n2450 Westlake Avenue"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        171,
+        133,
+        215,
+        158
+      ],
+      "reading_order": 7,
+      "text": "Suite #\nSuite 410"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        326,
+        133,
+        431,
+        158
+      ],
+      "reading_order": 8,
+      "text": "Street Address\n2450 Westlake Avenue"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        452,
+        133,
+        496,
+        158
+      ],
+      "reading_order": 9,
+      "text": "Suite #\nSuite 410"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        161,
+        88,
+        185
+      ],
+      "reading_order": 10,
+      "text": "City\nSacramento"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        171,
+        161,
+        197,
+        185
+      ],
+      "reading_order": 11,
+      "text": "State\nCA"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        234,
+        161,
+        264,
+        185
+      ],
+      "reading_order": 12,
+      "text": "Zip\n95815"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        326,
+        161,
+        382,
+        185
+      ],
+      "reading_order": 13,
+      "text": "City\nSacramento"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        452,
+        161,
+        478,
+        185
+      ],
+      "reading_order": 14,
+      "text": "State\nCA"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        526,
+        161,
+        556,
+        185
+      ],
+      "reading_order": 15,
+      "text": "Zip\n95815"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        189,
+        103,
+        213
+      ],
+      "reading_order": 16,
+      "text": "Phone\n(555) 310-2400"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        171,
+        189,
+        242,
+        213
+      ],
+      "reading_order": 17,
+      "text": "Fax\n(555) 310-2401"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        326,
+        189,
+        397,
+        213
+      ],
+      "reading_order": 18,
+      "text": "Phone\n(555) 310-2400"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        452,
+        189,
+        523,
+        213
+      ],
+      "reading_order": 19,
+      "text": "Fax\n(555) 310-2401"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        216,
+        174,
+        241
+      ],
+      "reading_order": 20,
+      "text": "Email:\ninfo@bluehorizon.example.org"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        326,
+        216,
+        499,
+        241
+      ],
+      "reading_order": 21,
+      "text": "Email:\noperations@bluehorizon.example.org"
+    },
+    {
+      "block_type": "table",
+      "bbox": [
+        32,
+        248,
+        598,
+        728
+      ],
+      "reading_order": 22,
+      "text": "Practice Locations |  |  |  |  |  |  |  |  |  |  | \nAddress Information\n(Please list all locations and group affiliations. If needed, use ‘Attachment A’ enclosed.) |  |  |  |  |  |  |  | 2 |  |  | \nPrimary Facility Location |  |  |  |  |  | Second Facility Location (if applicable) |  |  |  |  | \nLegal Business Name\nBlue Horizon Community Health Services |  |  |  |  |  | Legal Business Name\nBlue Horizon South Clinic |  |  |  |  | \nStreet Address\n2450 Westlake Avenue |  |  |  |  | Suite#\nSuite 410 | Street Address\n880 Harbor Boulevard |  |  |  |  | Suite#\nSuite 120\nCity\nSacramento |  | State\nCA | Zip Code\n95815 |  | County\nSacramento | City\nWest Sacramento |  | State\nCA | Zip Code\n95691 |  | County\nYolo\nPhone\n(555) 310-2400 |  | Fax\n(555) 310-2401 |  | TTY Number\n711 |  | Phone\n(555) 310-2420 |  | Fax\n(555) 310-2421 |  | TTY Number\n711 | \nNPI # (If different than above):\n1987654321 |  |  |  |  |  | NPI # (if different from above)\n1987654322 |  |  |  |  | \nFederal Tax ID (if different from above):\n84-3179265 |  |  |  |  |  | Federal Tax ID (if different from above):\n84-3179265 |  |  |  |  | \nEmail:\necm@bluehorizon.example.org |  |  |  |  |  | Email:\nsouthclinic@bluehorizon.example.org |  |  |  |  | \nTranslation Services Available ☒ Yes ☐ No |  |  |  |  |  | Translation Services Available ☒ Yes ☐ No |  |  |  |  | \nBusiness Hours\n8:00 AM - 5:00\nPM | Schedule:\nM ☒ T ☒ W ☒ TH ☒ F ☒ |  |  |  |  | Business Hours\n8:30 AM - 5:30\nPM | Schedule:\nM ☒ T ☒ W ☒ TH ☒ F ☒ |  |  |  | \nWhat is your current capacity to accept referrals for this service (number of referrals your organization can manage at any\ngiven time?):\nApproximately 85 active ECM referrals across both locations. |  |  |  |  |  |  |  |  |  |  |"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        271,
+        251,
+        362,
+        263
+      ],
+      "reading_order": 23,
+      "text": "Practice Locations"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        173,
+        267,
+        267,
+        278
+      ],
+      "reading_order": 24,
+      "text": "Address Information"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        405,
+        267,
+        529,
+        282
+      ],
+      "reading_order": 25,
+      "text": "2"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        47,
+        280,
+        392,
+        290
+      ],
+      "reading_order": 26,
+      "text": "(Please list all locations and group affiliations. If needed, use ‘Attachment A’ enclosed.)"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        113,
+        297,
+        552,
+        309
+      ],
+      "reading_order": 27,
+      "text": "Primary Facility Location\nSecond Facility Location (if applicable)"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        317,
+        217,
+        341
+      ],
+      "reading_order": 28,
+      "text": "Legal Business Name\nBlue Horizon Community Health Services"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        315,
+        317,
+        430,
+        341
+      ],
+      "reading_order": 29,
+      "text": "Legal Business Name\nBlue Horizon South Clinic"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        351,
+        137,
+        376
+      ],
+      "reading_order": 30,
+      "text": "Street Address\n2450 Westlake Avenue"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        234,
+        351,
+        278,
+        376
+      ],
+      "reading_order": 31,
+      "text": "Suite#\nSuite 410"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        315,
+        351,
+        416,
+        376
+      ],
+      "reading_order": 32,
+      "text": "Street Address\n880 Harbor Boulevard"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        526,
+        351,
+        571,
+        376
+      ],
+      "reading_order": 33,
+      "text": "Suite#\nSuite 120"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        392,
+        88,
+        417
+      ],
+      "reading_order": 34,
+      "text": "City\nSacramento"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        127,
+        392,
+        152,
+        417
+      ],
+      "reading_order": 35,
+      "text": "State\nCA"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        162,
+        392,
+        204,
+        417
+      ],
+      "reading_order": 36,
+      "text": "Zip Code\n95815"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        234,
+        392,
+        290,
+        417
+      ],
+      "reading_order": 37,
+      "text": "County\nSacramento"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        315,
+        392,
+        397,
+        417
+      ],
+      "reading_order": 38,
+      "text": "City\nWest Sacramento"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        405,
+        392,
+        431,
+        417
+      ],
+      "reading_order": 39,
+      "text": "State\nCA"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        437,
+        392,
+        478,
+        417
+      ],
+      "reading_order": 40,
+      "text": "Zip Code\n95691"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        526,
+        392,
+        561,
+        417
+      ],
+      "reading_order": 41,
+      "text": "County\nYolo"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        429,
+        102,
+        454
+      ],
+      "reading_order": 42,
+      "text": "Phone\n(555) 310-2400"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        127,
+        429,
+        197,
+        454
+      ],
+      "reading_order": 43,
+      "text": "Fax\n(555) 310-2401"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        207,
+        429,
+        265,
+        454
+      ],
+      "reading_order": 44,
+      "text": "TTY Number\n711"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        315,
+        429,
+        386,
+        454
+      ],
+      "reading_order": 45,
+      "text": "Phone\n(555) 310-2420"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        405,
+        429,
+        476,
+        454
+      ],
+      "reading_order": 46,
+      "text": "Fax\n(555) 310-2421"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        486,
+        429,
+        544,
+        454
+      ],
+      "reading_order": 47,
+      "text": "TTY Number\n711"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        465,
+        171,
+        490
+      ],
+      "reading_order": 48,
+      "text": "NPI # (If different than above):\n1987654321"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        315,
+        465,
+        452,
+        490
+      ],
+      "reading_order": 49,
+      "text": "NPI # (if different from above)\n1987654322"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        501,
+        211,
+        526
+      ],
+      "reading_order": 50,
+      "text": "Federal Tax ID (if different from above):\n84-3179265"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        315,
+        501,
+        495,
+        526
+      ],
+      "reading_order": 51,
+      "text": "Federal Tax ID (if different from above):\n84-3179265"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        542,
+        175,
+        566
+      ],
+      "reading_order": 52,
+      "text": "Email:\necm@bluehorizon.example.org"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        315,
+        542,
+        488,
+        566
+      ],
+      "reading_order": 53,
+      "text": "Email:\nsouthclinic@bluehorizon.example.org"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        36,
+        571,
+        517,
+        586
+      ],
+      "reading_order": 54,
+      "text": "Translation Services Available\n☒ Yes  ☐ No\nTranslation Services Available\n☒ Yes  ☐ No"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        601,
+        102,
+        639
+      ],
+      "reading_order": 55,
+      "text": "Business Hours\n8:00 AM - 5:00\nPM"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        108,
+        601,
+        204,
+        625
+      ],
+      "reading_order": 56,
+      "text": "Schedule:\nM ☒ T ☒ W ☒ TH ☒ F ☒"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        315,
+        601,
+        385,
+        639
+      ],
+      "reading_order": 57,
+      "text": "Business Hours\n8:30 AM - 5:30\nPM"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        396,
+        601,
+        492,
+        625
+      ],
+      "reading_order": 58,
+      "text": "Schedule:\nM ☒ T ☒ W ☒ TH ☒ F ☒"
+    },
+    {
+      "block_type": "table_row",
+      "bbox": [
+        32,
+        667,
+        578,
+        705
+      ],
+      "reading_order": 59,
+      "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any\ngiven time?):\nApproximately 85 active ECM referrals across both locations."
+    },
+    {
+      "block_type": "footer",
+      "bbox": [
+        44,
+        754,
+        136,
+        774
+      ],
+      "reading_order": 60,
+      "text": "Credentialing Application\nVersion 12-CAECM2023"
+    },
+    {
+      "block_type": "footer",
+      "bbox": [
+        468,
+        755,
+        500,
+        764
+      ],
+      "reading_order": 61,
+      "text": "6 | Page"
+    }
+  ],
+  "tables": [
+    {
+      "bbox": [
+        32,
+        83,
+        598,
+        241
+      ],
+      "text": "Parent / Main Organization Information: |  |  |  |  | \nLegal Business Name\nBlue Horizon Community Health Services, Inc. |  |  | Legal Business Name\nBlue Horizon Care Network |  | \nStreet Address\n2450 Westlake Avenue | Suite #\nSuite 410 |  | Street Address\n2450 Westlake Avenue | Suite #\nSuite 410 | \nCity\nSacramento | State\nCA | Zip\n95815 | City\nSacramento | State\nCA | Zip\n95815\nPhone\n(555) 310-2400 | Fax\n(555) 310-2401 |  | Phone\n(555) 310-2400 | Fax\n(555) 310-2401 | \nEmail:\ninfo@bluehorizon.example.org |  |  | Email:\noperations@bluehorizon.example.org |  | "
+    },
+    {
+      "bbox": [
+        32,
+        248,
+        598,
+        728
+      ],
+      "text": "Practice Locations |  |  |  |  |  |  |  |  |  |  | \nAddress Information\n(Please list all locations and group affiliations. If needed, use ‘Attachment A’ enclosed.) |  |  |  |  |  |  |  | 2 |  |  | \nPrimary Facility Location |  |  |  |  |  | Second Facility Location (if applicable) |  |  |  |  | \nLegal Business Name\nBlue Horizon Community Health Services |  |  |  |  |  | Legal Business Name\nBlue Horizon South Clinic |  |  |  |  | \nStreet Address\n2450 Westlake Avenue |  |  |  |  | Suite#\nSuite 410 | Street Address\n880 Harbor Boulevard |  |  |  |  | Suite#\nSuite 120\nCity\nSacramento |  | State\nCA | Zip Code\n95815 |  | County\nSacramento | City\nWest Sacramento |  | State\nCA | Zip Code\n95691 |  | County\nYolo\nPhone\n(555) 310-2400 |  | Fax\n(555) 310-2401 |  | TTY Number\n711 |  | Phone\n(555) 310-2420 |  | Fax\n(555) 310-2421 |  | TTY Number\n711 | \nNPI # (If different than above):\n1987654321 |  |  |  |  |  | NPI # (if different from above)\n1987654322 |  |  |  |  | \nFederal Tax ID (if different from above):\n84-3179265 |  |  |  |  |  | Federal Tax ID (if different from above):\n84-3179265 |  |  |  |  | \nEmail:\necm@bluehorizon.example.org |  |  |  |  |  | Email:\nsouthclinic@bluehorizon.example.org |  |  |  |  | \nTranslation Services Available ☒ Yes ☐ No |  |  |  |  |  | Translation Services Available ☒ Yes ☐ No |  |  |  |  | \nBusiness Hours\n8:00 AM - 5:00\nPM | Schedule:\nM ☒ T ☒ W ☒ TH ☒ F ☒ |  |  |  |  | Business Hours\n8:30 AM - 5:30\nPM | Schedule:\nM ☒ T ☒ W ☒ TH ☒ F ☒ |  |  |  | \nWhat is your current capacity to accept referrals for this service (number of referrals your organization can manage at any\ngiven time?):\nApproximately 85 active ECM referrals across both locations. |  |  |  |  |  |  |  |  |  |  | "
+    }
+  ]
+}

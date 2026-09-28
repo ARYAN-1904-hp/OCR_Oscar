@@ -1,0 +1,17 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x750 | blocks=1 | tables=0 | checkboxes=0
+
+[TEXT]
+TESTOCR123
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=paragraph | bbox=[82,257,1121,381] | order=0
+  TESTOCR123
+[/LAYOUT]
+
+[BOXES]
+LINE 0 | bbox=[82,257,1121,381] | conf=0.980 | text=TESTOCR123
+[/BOXES]

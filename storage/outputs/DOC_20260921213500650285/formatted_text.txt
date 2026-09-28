@@ -1,0 +1,156 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x615 | blocks=8 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 9x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | penberFyJ DiaynosisFyt MscellaneousFg | - | - | -
+  CELL[1,0] = penberFyJ DiaynosisFyt MscellaneousFg
+ROW 2 | Processor: David Kim | Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days | - | -
+  CELL[2,0] = Processor: David Kim
+  CELL[2,1] = Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days
+ROW 3 | Diagnosis Codes (IcD-10) | - | - | -
+  CELL[3,0] = Diagnosis Codes (IcD-10)
+ROW 4 | Primary J06.9 | ACUTE UPPER RESPIRATORY INFECTION,E | - | -
+  CELL[4,0] = Primary J06.9
+  CELL[4,1] = ACUTE UPPER RESPIRATORY INFECTION,E
+ROW 5 | Diagnosis | UNSPECIFIED POA | YES.present on admission | -
+  CELL[5,0] = Diagnosis
+  CELL[5,1] = UNSPECIFIED POA
+  CELL[5,2] = YES.present on admission
+ROW 6 | Diagnosis Code Type | ICD-10-CM Indicator: Y | - | -
+  CELL[6,0] = Diagnosis Code Type
+  CELL[6,1] = ICD-10-CM Indicator: Y
+ROW 7 | Description | - | Type PRIMARY | Date 11/07/2025
+  CELL[7,0] = Description
+  CELL[7,2] = Type PRIMARY
+  CELL[7,3] = Date 11/07/2025
+ROW 8 | Seq 1 CPT/HCPCS P-99214 59 | Office/outpatient visit.established patient, moderate complexity | - | -
+  CELL[8,0] = Seq 1 CPT/HCPCS P-99214 59
+  CELL[8,1] = Office/outpatient visit.established patient, moderate complexity
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x5
+HEADER | Seq 0 | Code J06.9 | ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED | ADMITTING | 11/07/2025
+ROW 1 | 1 | M54.50 | - | - | -
+  CELL[1,0] = 1
+  CELL[1,1] = M54.50
+ROW 2 | - | Procedure / Service Coding. Modifier | Description | Diag Pointer A | Date of Service 11/07/2025
+  CELL[2,1] = Procedure / Service Coding. Modifier
+  CELL[2,2] = Description
+  CELL[2,3] = Diag Pointer A
+  CELL[2,4] = Date of Service 11/07/2025
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[270,0,678,18] | order=0
+  penberFyJ DiaynosisFyt MscellaneousFg
+BLOCK 1 | type=header | bbox=[30,38,769,75] | order=1
+  Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days
+BLOCK 2 | type=table_row | bbox=[34,113,274,143] | order=2
+  Diagnosis Codes (IcD-10)
+BLOCK 3 | type=table | bbox=[32,141,956,216] | order=3
+  Diagnosis: Primary J06.9 ACUTE UPPER RESPIRATORY INFECTION,E UNSPECIFIED POA Y YES.present on admission
+BLOCK 4 | type=table_row | bbox=[36,203,533,243] | order=4
+  Diagnosis Code Type: ICD-10-CM Indicator:
+BLOCK 5 | type=table | bbox=[50,229,1336,328] | order=5
+  Seq 0 Code J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED Description Type PRIMARY ADMITTING Date 11/07/2025 11/07/2025
+BLOCK 6 | type=table | bbox=[52,314,162,335] | order=6
+  1 M54.50
+BLOCK 7 | type=table | bbox=[44,461,1377,553] | order=7
+  Procedure / Service Coding. Modifier Seq 1 CPT/HCPCS P-99214 59 Description Office/outpatient visit.established patient, moderate complexity Diag Pointer A Date of Service 11/07/2025
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[30,0,1334,553] | shape=9x4 | conf=0.920
+  shape: 9x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | penberFyJ DiaynosisFyt MscellaneousFg | - | - | -
+    CELL[1,0] = penberFyJ DiaynosisFyt MscellaneousFg
+  ROW 2 | Processor: David Kim | Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days | - | -
+    CELL[2,0] = Processor: David Kim
+    CELL[2,1] = Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days
+  ROW 3 | Diagnosis Codes (IcD-10) | - | - | -
+    CELL[3,0] = Diagnosis Codes (IcD-10)
+  ROW 4 | Primary J06.9 | ACUTE UPPER RESPIRATORY INFECTION,E | - | -
+    CELL[4,0] = Primary J06.9
+    CELL[4,1] = ACUTE UPPER RESPIRATORY INFECTION,E
+  ROW 5 | Diagnosis | UNSPECIFIED POA | YES.present on admission | -
+    CELL[5,0] = Diagnosis
+    CELL[5,1] = UNSPECIFIED POA
+    CELL[5,2] = YES.present on admission
+  ROW 6 | Diagnosis Code Type | ICD-10-CM Indicator: Y | - | -
+    CELL[6,0] = Diagnosis Code Type
+    CELL[6,1] = ICD-10-CM Indicator: Y
+  ROW 7 | Description | - | Type PRIMARY | Date 11/07/2025
+    CELL[7,0] = Description
+    CELL[7,2] = Type PRIMARY
+    CELL[7,3] = Date 11/07/2025
+  ROW 8 | Seq 1 CPT/HCPCS P-99214 59 | Office/outpatient visit.established patient, moderate complexity | - | -
+    CELL[8,0] = Seq 1 CPT/HCPCS P-99214 59
+    CELL[8,1] = Office/outpatient visit.established patient, moderate complexity
+TABLE 1 | source=wide_grid | bbox=[44,259,1377,525] | shape=3x5 | conf=0.850
+  shape: 3x5
+  HEADER | Seq 0 | Code J06.9 | ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED | ADMITTING | 11/07/2025
+  ROW 1 | 1 | M54.50 | - | - | -
+    CELL[1,0] = 1
+    CELL[1,1] = M54.50
+  ROW 2 | - | Procedure / Service Coding. Modifier | Description | Diag Pointer A | Date of Service 11/07/2025
+    CELL[2,1] = Procedure / Service Coding. Modifier
+    CELL[2,2] = Description
+    CELL[2,3] = Diag Pointer A
+    CELL[2,4] = Date of Service 11/07/2025
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[270,0,678,18] | conf=0.735 | text=penberFyJ DiaynosisFyt MscellaneousFg
+  WORD | bbox=[270,2,356,18] | text=penberFyJ
+  WORD | bbox=[403,0,516,16] | text=DiaynosisFyt
+  WORD | bbox=[556,0,678,11] | text=MscellaneousFg
+LINE 1 | bbox=[30,38,769,75] | conf=0.961 | text=Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days
+  WORD | bbox=[30,53,183,75] | text=Processor: David Kim
+  WORD | bbox=[229,46,425,69] | text=Last edit: 11/17/2025 09:12
+  WORD | bbox=[436,41,600,64] | text=Processor ID: PRoco02
+  WORD | bbox=[623,38,769,58] | text=Decision SLA: 2 days
+LINE 2 | bbox=[34,113,274,143] | conf=0.979 | text=Diagnosis Codes (IcD-10)
+LINE 3 | bbox=[32,141,956,216] | conf=0.985 | text=Diagnosis: Primary J06.9 ACUTE UPPER RESPIRATORY INFECTION,E UNSPECIFIED POA Y YES.present on admission
+  WORD | bbox=[32,171,105,197] | text=Diagnosis:
+  WORD | bbox=[34,160,89,178] | text=Primary
+  WORD | bbox=[150,162,198,184] | text=J06.9
+  WORD | bbox=[440,141,714,168] | text=ACUTE UPPER RESPIRATORY INFECTION,E
+  WORD | bbox=[440,163,536,211] | text=UNSPECIFIED POA
+  WORD | bbox=[566,200,583,215] | text=Y
+  WORD | bbox=[853,179,956,216] | text=YES.present on admission
+LINE 4 | bbox=[36,203,533,243] | conf=0.981 | text=Diagnosis Code Type: ICD-10-CM Indicator:
+  WORD | bbox=[36,203,138,243] | text=Diagnosis Code Type:
+  WORD | bbox=[164,208,248,229] | text=ICD-10-CM
+  WORD | bbox=[467,206,533,228] | text=Indicator:
+LINE 5 | bbox=[50,229,1336,328] | conf=0.984 | text=Seq 0 Code J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED Description Type PRIMARY ADMITTING Date 11/07/2025 11/07/2025
+  WORD | bbox=[50,263,83,306] | text=Seq 0
+  WORD | bbox=[108,259,152,306] | text=Code J06.9
+  WORD | bbox=[245,270,588,328] | text=ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED
+  WORD | bbox=[247,255,333,275] | text=Description
+  WORD | bbox=[1066,232,1130,279] | text=Type PRIMARY
+  WORD | bbox=[1068,282,1146,308] | text=ADMITTING
+  WORD | bbox=[1255,229,1334,272] | text=Date 11/07/2025
+  WORD | bbox=[1256,280,1336,301] | text=11/07/2025
+LINE 6 | bbox=[52,314,162,335] | conf=0.881 | text=1 M54.50
+  WORD | bbox=[52,317,64,335] | text=1
+  WORD | bbox=[111,314,162,332] | text=M54.50
+LINE 7 | bbox=[44,461,1377,553] | conf=0.990 | text=Procedure / Service Coding. Modifier Seq 1 CPT/HCPCS P-99214 59 Description Office/outpatient visit.established patient, moderate complexity Diag Pointer A Date of Service 11/07/2025
+  WORD | bbox=[44,461,320,522] | text=Procedure / Service Coding. Modifier
+  WORD | bbox=[56,511,91,553] | text=Seq 1
+  WORD | bbox=[109,504,197,551] | text=CPT/HCPCS P-99214
+  WORD | bbox=[258,530,281,549] | text=59
+  WORD | bbox=[367,500,453,521] | text=Description
+  WORD | bbox=[367,516,777,546] | text=Office/outpatient visit.established patient, moderate complexity
+  WORD | bbox=[1104,477,1200,525] | text=Diag Pointer A
+  WORD | bbox=[1261,471,1377,524] | text=Date of Service 11/07/2025
+[/BOXES]

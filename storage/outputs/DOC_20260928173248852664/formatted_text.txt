@@ -1,0 +1,464 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=13 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 13x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Raizel Wagner | Member info Issues Policy details Benefits Claims Rewards Authorizations | - | -
+  CELL[2,0] = Raizel Wagner
+  CELL[2,1] = Member info Issues Policy details Benefits Claims Rewards Authorizations
+ROW 3 | Cancelled | - | - | -
+  CELL[3,0] = Cancelled
+ROW 4 | Policy details | - | - | -
+  CELL[4,0] = Policy details
+ROW 5 | OSC78747909-02 - R213X90S Spouse - ON exc | Viewing information for: Silver Simple PCP Saver (09/01/202509/01/2025) | - | -
+  CELL[5,0] = OSC78747909-02 - R213X90S Spouse - ON exc
+  CELL[5,1] = Viewing information for: Silver Simple PCP Saver (09/01/202509/01/2025)
+ROW 6 | Heads up note | - | - | -
+  CELL[6,0] = Heads up note
+ROW 7 | Plan details | Coverage information | Tools | -
+  CELL[7,0] = Plan details
+  CELL[7,1] = Coverage information
+  CELL[7,2] = Tools
+ROW 8 | Premium | $7.40 from 9/1/2025 to 12/31/2025 | Search in-network drugs | View
+  CELL[8,0] = Premium
+  CELL[8,1] = $7.40 from 9/1/2025 to 12/31/2025
+  CELL[8,2] = Search in-network drugs
+  CELL[8,3] = View
+ROW 9 | Cllent Oscar | $7.40 from9/1/2025to 12/31/2025 | Check benefits | View
+  CELL[9,0] = Cllent Oscar
+  CELL[9,1] = $7.40 from9/1/2025to 12/31/2025
+  CELL[9,2] = Check benefits
+  CELL[9,3] = View
+ROW 10 | $7.40 from 9/1/2025 to 12/31/2025 | - | - | -
+  CELL[10,0] = $7.40 from 9/1/2025 to 12/31/2025
+ROW 11 | Member actlons | - | Oscar Community Resources | -
+  CELL[11,0] = Member actlons
+  CELL[11,2] = Oscar Community Resources
+ROW 12 | Plan name Silver Simple PCP Saver | APTC subsidy $398.00 from 9/1/2025to12/31/2025 $398.00 from 9/1/2025 to12/31/2025 | - | -
+  CELL[12,0] = Plan name Silver Simple PCP Saver
+  CELL[12,1] = APTC subsidy $398.00 from 9/1/2025to12/31/2025 $398.00 from 9/1/2025 to12/31/2025
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 18x7
+HEADER | FLBroward | Type Family | State FL | CSR subsidy | $398.00 from 9/1/2025 to 12/31/2025 | Oscar Care offerings | Learn more
+ROW 1 | FLO3 Not assigned | - | - | State subsidy | $0.00 from 9/1/2025 to12/31/2025 | - | -
+  CELL[1,0] = FLO3 Not assigned
+  CELL[1,3] = State subsidy
+  CELL[1,4] = $0.00 from 9/1/2025 to12/31/2025
+ROW 2 | - | - | - | - | $0.00 from 9/1/2025 to 12/31/2025 | Virtual Urgent Care | Yes
+  CELL[2,4] = $0.00 from 9/1/2025 to 12/31/2025
+  CELL[2,5] = Virtual Urgent Care
+  CELL[2,6] = Yes
+ROW 3 | Oscarplan: | - | - | - | $0.00 from 9/1/2025 to12/31/2025 | Virtual Primary Care | No
+  CELL[3,0] = Oscarplan:
+  CELL[3,4] = $0.00 from 9/1/2025 to12/31/2025
+  CELL[3,5] = Virtual Primary Care
+  CELL[3,6] = No
+ROW 4 | Silver Simple PCP Saver FL EPO Off Ex | Plan essentials | - | Individual / Family | Low income subsidy | Virtual mental health | No
+  CELL[4,0] = Silver Simple PCP Saver FL EPO Off Ex
+  CELL[4,1] = Plan essentials
+  CELL[4,3] = Individual / Family
+  CELL[4,4] = Low income subsidy
+  CELL[4,5] = Virtual mental health
+  CELL[4,6] = No
+ROW 5 | View ID card | Medical Deductible | - | $5,500.00 / $11,000.00 Appllcatlon date | 08/12/2025 | Eligible $o related care | No
+  CELL[5,0] = View ID card
+  CELL[5,1] = Medical Deductible
+  CELL[5,3] = $5,500.00 / $11,000.00 Appllcatlon date
+  CELL[5,4] = 08/12/2025
+  CELL[5,5] = Eligible $o related care
+  CELL[5,6] = No
+ROW 6 | Alberto Manzor | Out-of-pocket max | - | $8,900.00 / $17,800.00 Enrollment created | 08/12/2025 | - | -
+  CELL[6,0] = Alberto Manzor
+  CELL[6,1] = Out-of-pocket max
+  CELL[6,3] = $8,900.00 / $17,800.00 Enrollment created
+  CELL[6,4] = 08/12/2025
+ROW 7 | - | Referrals | - | Not required Effective date | 09/01/2025 | - | -
+  CELL[7,1] = Referrals
+  CELL[7,3] = Not required Effective date
+  CELL[7,4] = 09/01/2025
+ROW 8 | Effective 09/01/2025 | - | - | - | - | Network | -
+  CELL[8,0] = Effective 09/01/2025
+  CELL[8,5] = Network
+ROW 9 | - | Referral submissions | - | Not required Coverage end date | 08/31/2025 | - | -
+  CELL[9,1] = Referral submissions
+  CELL[9,3] = Not required Coverage end date
+  CELL[9,4] = 08/31/2025
+ROW 10 | 8 Family Yisroel Dubov-Holder | - | - | Term reason | Voluntary withdrawal | Rating area | FL - Broward
+  CELL[10,0] = 8 Family Yisroel Dubov-Holder
+  CELL[10,3] = Term reason
+  CELL[10,4] = Voluntary withdrawal
+  CELL[10,5] = Rating area
+  CELL[10,6] = FL - Broward
+ROW 11 | - | - | - | - | - | Provider network | FL EPO Off Ex
+  CELL[11,5] = Provider network
+  CELL[11,6] = FL EPO Off Ex
+ROW 12 | Avraham Dubov - Child | Plan documents | - | - | - | Tiering | Yes
+  CELL[12,0] = Avraham Dubov - Child
+  CELL[12,1] = Plan documents
+  CELL[12,5] = Tiering
+  CELL[12,6] = Yes
+ROW 13 | $No bills | Schedule of Benefits | - | View | Enrollment information | Provider organization type | EPO
+  CELL[13,0] = $No bills
+  CELL[13,1] = Schedule of Benefits
+  CELL[13,3] = View
+  CELL[13,4] = Enrollment information
+  CELL[13,5] = Provider organization type
+  CELL[13,6] = EPO
+ROW 14 | - | Certificate of Coverage | - | View Eligib Ility ID | 09a7920e423e40ee9e0f22c7504efc6a | OOA | No
+  CELL[14,1] = Certificate of Coverage
+  CELL[14,3] = View Eligib Ility ID
+  CELL[14,4] = 09a7920e423e40ee9e0f22c7504efc6a
+  CELL[14,5] = OOA
+  CELL[14,6] = No
+ROW 15 | Member tags | - | Summary of Benefits & Coverage | Vlew Broker | - | HSA compatible | No
+  CELL[15,0] = Member tags
+  CELL[15,2] = Summary of Benefits & Coverage
+  CELL[15,3] = Vlew Broker
+  CELL[15,5] = HSA compatible
+  CELL[15,6] = No
+ROW 16 | nextgen_billing_rosco_tag | ID Card | - | View Exchange | On exchange | Has rider | No
+  CELL[16,0] = nextgen_billing_rosco_tag
+  CELL[16,1] = ID Card
+  CELL[16,3] = View Exchange
+  CELL[16,4] = On exchange
+  CELL[16,5] = Has rider
+  CELL[16,6] = No
+ROW 17 | - | - | - | Exchanqe ID | 0015443155 | - | -
+  CELL[17,3] = Exchanqe ID
+  CELL[17,4] = 0015443155
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,15,1580,103] | order=0
+  rosco Q Search Rosco MR Melissa
+  Raizel Wagner Member info Issues Policy details Benefits Claims Rewards Authorizations
+BLOCK 1 | type=table_row | bbox=[18,140,705,176] | order=1
+  OSC78747909-02 - R213X90S Spouse - ON exc Viewing information for: Silver Simple PCP Saver (09/01/202509/01/2025)
+BLOCK 2 | type=table_row | bbox=[21,115,115,227] | order=2
+  Cancelled
+  Heads up note
+BLOCK 3 | type=table_row | bbox=[280,132,392,150] | order=3
+  Policy details
+BLOCK 4 | type=table | bbox=[276,229,1269,308] | order=4
+  Plan details Coverage information Tools
+  Premium $7.40 from 9/1/2025 to 12/31/2025 Search in-network drugs View
+  Cllent Oscar $7.40 from9/1/2025to 12/31/2025 $7.40 from 9/1/2025 to 12/31/2025 Check benefits View
+BLOCK 5 | type=table | bbox=[71,307,1130,355] | order=5
+  Member actlons Oscar Community Resources
+  Plan name Silver Simple PCP Saver APTC subsidy $398.00 from 9/1/2025to12/31/2025 $398.00 from 9/1/2025 to12/31/2025
+BLOCK 6 | type=table | bbox=[16,353,1276,406] | order=6
+  FLO3 Not assigned FLBroward Type Family State FL CSR subsidy State subsidy $398.00 from 9/1/2025 to 12/31/2025 $0.00 from 9/1/2025 to12/31/2025 Oscar Care offerings Learn more
+BLOCK 7 | type=table_row | bbox=[735,402,1269,419] | order=7
+  $0.00 from 9/1/2025 to 12/31/2025 Virtual Urgent Care Yes
+BLOCK 8 | type=table | bbox=[16,419,1270,610] | order=8
+  Oscarplan: $0.00 from 9/1/2025 to12/31/2025 Virtual Primary Care No
+  Silver Simple PCP Saver FL EPO Off Ex View ID card Plan essentials Medical Deductible $5,500.00 / $11,000.00 Individual / Family Low income subsidy Appllcatlon date 08/12/2025 Virtual mental health Eligible $o related care No No
+  Alberto Manzor Out-of-pocket max $8,900.00 / $17,800.00 Enrollment created 08/12/2025
+  Referrals Not required Effective date 09/01/2025
+  Effective 09/01/2025 Referral submissions Not required Coverage end date 08/31/2025 Network
+  8 Family Yisroel Dubov-Holder Term reason Voluntary withdrawal Rating area FL - Broward
+BLOCK 9 | type=table | bbox=[968,597,1269,614] | order=9
+  Provider network FL EPO Off Ex
+BLOCK 10 | type=table | bbox=[16,614,1270,722] | order=10
+  Avraham Dubov - Child Plan documents Tiering Yes
+  $No bills Schedule of Benefits View Enrollment information Provider organization type EPO
+  Certificate of Coverage View Eligib Ility ID 09a7920e423e40ee9e0f22c7504efc6a OOA No
+  Member tags Summary of Benefits & Coverage Vlew Broker HSA compatible No
+BLOCK 11 | type=footer | bbox=[20,718,1269,751] | order=11
+  nextgen_billing_rosco_tag ID Card View Exchange On exchange Has rider No
+BLOCK 12 | type=footer | bbox=[626,749,929,765] | order=12
+  Exchanqe ID 0015443155
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,15,1580,355] | shape=13x4 | conf=0.920
+  shape: 13x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Raizel Wagner | Member info Issues Policy details Benefits Claims Rewards Authorizations | - | -
+    CELL[2,0] = Raizel Wagner
+    CELL[2,1] = Member info Issues Policy details Benefits Claims Rewards Authorizations
+  ROW 3 | Cancelled | - | - | -
+    CELL[3,0] = Cancelled
+  ROW 4 | Policy details | - | - | -
+    CELL[4,0] = Policy details
+  ROW 5 | OSC78747909-02 - R213X90S Spouse - ON exc | Viewing information for: Silver Simple PCP Saver (09/01/202509/01/2025) | - | -
+    CELL[5,0] = OSC78747909-02 - R213X90S Spouse - ON exc
+    CELL[5,1] = Viewing information for: Silver Simple PCP Saver (09/01/202509/01/2025)
+  ROW 6 | Heads up note | - | - | -
+    CELL[6,0] = Heads up note
+  ROW 7 | Plan details | Coverage information | Tools | -
+    CELL[7,0] = Plan details
+    CELL[7,1] = Coverage information
+    CELL[7,2] = Tools
+  ROW 8 | Premium | $7.40 from 9/1/2025 to 12/31/2025 | Search in-network drugs | View
+    CELL[8,0] = Premium
+    CELL[8,1] = $7.40 from 9/1/2025 to 12/31/2025
+    CELL[8,2] = Search in-network drugs
+    CELL[8,3] = View
+  ROW 9 | Cllent Oscar | $7.40 from9/1/2025to 12/31/2025 | Check benefits | View
+    CELL[9,0] = Cllent Oscar
+    CELL[9,1] = $7.40 from9/1/2025to 12/31/2025
+    CELL[9,2] = Check benefits
+    CELL[9,3] = View
+  ROW 10 | $7.40 from 9/1/2025 to 12/31/2025 | - | - | -
+    CELL[10,0] = $7.40 from 9/1/2025 to 12/31/2025
+  ROW 11 | Member actlons | - | Oscar Community Resources | -
+    CELL[11,0] = Member actlons
+    CELL[11,2] = Oscar Community Resources
+  ROW 12 | Plan name Silver Simple PCP Saver | APTC subsidy $398.00 from 9/1/2025to12/31/2025 $398.00 from 9/1/2025 to12/31/2025 | - | -
+    CELL[12,0] = Plan name Silver Simple PCP Saver
+    CELL[12,1] = APTC subsidy $398.00 from 9/1/2025to12/31/2025 $398.00 from 9/1/2025 to12/31/2025
+TABLE 1 | source=wide_grid | bbox=[16,353,1276,765] | shape=18x7 | conf=0.850
+  shape: 18x7
+  HEADER | FLBroward | Type Family | State FL | CSR subsidy | $398.00 from 9/1/2025 to 12/31/2025 | Oscar Care offerings | Learn more
+  ROW 1 | FLO3 Not assigned | - | - | State subsidy | $0.00 from 9/1/2025 to12/31/2025 | - | -
+    CELL[1,0] = FLO3 Not assigned
+    CELL[1,3] = State subsidy
+    CELL[1,4] = $0.00 from 9/1/2025 to12/31/2025
+  ROW 2 | - | - | - | - | $0.00 from 9/1/2025 to 12/31/2025 | Virtual Urgent Care | Yes
+    CELL[2,4] = $0.00 from 9/1/2025 to 12/31/2025
+    CELL[2,5] = Virtual Urgent Care
+    CELL[2,6] = Yes
+  ROW 3 | Oscarplan: | - | - | - | $0.00 from 9/1/2025 to12/31/2025 | Virtual Primary Care | No
+    CELL[3,0] = Oscarplan:
+    CELL[3,4] = $0.00 from 9/1/2025 to12/31/2025
+    CELL[3,5] = Virtual Primary Care
+    CELL[3,6] = No
+  ROW 4 | Silver Simple PCP Saver FL EPO Off Ex | Plan essentials | - | Individual / Family | Low income subsidy | Virtual mental health | No
+    CELL[4,0] = Silver Simple PCP Saver FL EPO Off Ex
+    CELL[4,1] = Plan essentials
+    CELL[4,3] = Individual / Family
+    CELL[4,4] = Low income subsidy
+    CELL[4,5] = Virtual mental health
+    CELL[4,6] = No
+  ROW 5 | View ID card | Medical Deductible | - | $5,500.00 / $11,000.00 Appllcatlon date | 08/12/2025 | Eligible $o related care | No
+    CELL[5,0] = View ID card
+    CELL[5,1] = Medical Deductible
+    CELL[5,3] = $5,500.00 / $11,000.00 Appllcatlon date
+    CELL[5,4] = 08/12/2025
+    CELL[5,5] = Eligible $o related care
+    CELL[5,6] = No
+  ROW 6 | Alberto Manzor | Out-of-pocket max | - | $8,900.00 / $17,800.00 Enrollment created | 08/12/2025 | - | -
+    CELL[6,0] = Alberto Manzor
+    CELL[6,1] = Out-of-pocket max
+    CELL[6,3] = $8,900.00 / $17,800.00 Enrollment created
+    CELL[6,4] = 08/12/2025
+  ROW 7 | - | Referrals | - | Not required Effective date | 09/01/2025 | - | -
+    CELL[7,1] = Referrals
+    CELL[7,3] = Not required Effective date
+    CELL[7,4] = 09/01/2025
+  ROW 8 | Effective 09/01/2025 | - | - | - | - | Network | -
+    CELL[8,0] = Effective 09/01/2025
+    CELL[8,5] = Network
+  ROW 9 | - | Referral submissions | - | Not required Coverage end date | 08/31/2025 | - | -
+    CELL[9,1] = Referral submissions
+    CELL[9,3] = Not required Coverage end date
+    CELL[9,4] = 08/31/2025
+  ROW 10 | 8 Family Yisroel Dubov-Holder | - | - | Term reason | Voluntary withdrawal | Rating area | FL - Broward
+    CELL[10,0] = 8 Family Yisroel Dubov-Holder
+    CELL[10,3] = Term reason
+    CELL[10,4] = Voluntary withdrawal
+    CELL[10,5] = Rating area
+    CELL[10,6] = FL - Broward
+  ROW 11 | - | - | - | - | - | Provider network | FL EPO Off Ex
+    CELL[11,5] = Provider network
+    CELL[11,6] = FL EPO Off Ex
+  ROW 12 | Avraham Dubov - Child | Plan documents | - | - | - | Tiering | Yes
+    CELL[12,0] = Avraham Dubov - Child
+    CELL[12,1] = Plan documents
+    CELL[12,5] = Tiering
+    CELL[12,6] = Yes
+  ROW 13 | $No bills | Schedule of Benefits | - | View | Enrollment information | Provider organization type | EPO
+    CELL[13,0] = $No bills
+    CELL[13,1] = Schedule of Benefits
+    CELL[13,3] = View
+    CELL[13,4] = Enrollment information
+    CELL[13,5] = Provider organization type
+    CELL[13,6] = EPO
+  ROW 14 | - | Certificate of Coverage | - | View Eligib Ility ID | 09a7920e423e40ee9e0f22c7504efc6a | OOA | No
+    CELL[14,1] = Certificate of Coverage
+    CELL[14,3] = View Eligib Ility ID
+    CELL[14,4] = 09a7920e423e40ee9e0f22c7504efc6a
+    CELL[14,5] = OOA
+    CELL[14,6] = No
+  ROW 15 | Member tags | - | Summary of Benefits & Coverage | Vlew Broker | - | HSA compatible | No
+    CELL[15,0] = Member tags
+    CELL[15,2] = Summary of Benefits & Coverage
+    CELL[15,3] = Vlew Broker
+    CELL[15,5] = HSA compatible
+    CELL[15,6] = No
+  ROW 16 | nextgen_billing_rosco_tag | ID Card | - | View Exchange | On exchange | Has rider | No
+    CELL[16,0] = nextgen_billing_rosco_tag
+    CELL[16,1] = ID Card
+    CELL[16,3] = View Exchange
+    CELL[16,4] = On exchange
+    CELL[16,5] = Has rider
+    CELL[16,6] = No
+  ROW 17 | - | - | - | Exchanqe ID | 0015443155 | - | -
+    CELL[17,3] = Exchanqe ID
+    CELL[17,4] = 0015443155
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,15,1580,36] | conf=0.915 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[112,17,134,33] | text=Q
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1464,15,1550,36] | text=MR Melissa
+LINE 1 | bbox=[17,73,796,103] | conf=0.970 | text=Raizel Wagner Member info Issues Policy details Benefits Claims Rewards Authorizations
+  WORD | bbox=[17,80,156,103] | text=Raizel Wagner
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[422,75,499,88] | text=Policy details
+  WORD | bbox=[512,73,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[640,73,695,89] | text=Rewards
+  WORD | bbox=[709,73,796,89] | text=Authorizations
+LINE 2 | bbox=[18,140,705,176] | conf=0.962 | text=OSC78747909-02 - R213X90S Spouse - ON exc Viewing information for: Silver Simple PCP Saver (09/01/202509/01/2025)
+  WORD | bbox=[18,140,181,176] | text=OSC78747909-02 - R213X90S Spouse - ON exc
+  WORD | bbox=[276,154,705,173] | text=Viewing information for: Silver Simple PCP Saver (09/01/202509/01/2025)
+LINE 3 | bbox=[21,115,84,132] | conf=0.999 | text=Cancelled
+LINE 4 | bbox=[30,210,115,227] | conf=0.995 | text=Heads up note
+LINE 5 | bbox=[280,132,392,150] | conf=0.979 | text=Policy details
+LINE 6 | bbox=[276,229,992,248] | conf=0.979 | text=Plan details Coverage information Tools
+  WORD | bbox=[276,229,347,248] | text=Plan details
+  WORD | bbox=[619,232,742,248] | text=Coverage information
+  WORD | bbox=[958,230,992,248] | text=Tools
+LINE 7 | bbox=[625,254,1269,275] | conf=0.990 | text=Premium $7.40 from 9/1/2025 to 12/31/2025 Search in-network drugs View
+  WORD | bbox=[625,257,681,274] | text=Premium
+  WORD | bbox=[736,258,926,271] | text=$7.40 from 9/1/2025 to 12/31/2025
+  WORD | bbox=[966,256,1108,274] | text=Search in-network drugs
+  WORD | bbox=[1225,254,1269,275] | text=View
+LINE 8 | bbox=[291,267,1269,308] | conf=0.959 | text=Cllent Oscar $7.40 from9/1/2025to 12/31/2025 $7.40 from 9/1/2025 to 12/31/2025 Check benefits View
+  WORD | bbox=[291,267,334,307] | text=Cllent Oscar
+  WORD | bbox=[734,274,928,292] | text=$7.40 from9/1/2025to 12/31/2025
+  WORD | bbox=[736,295,926,308] | text=$7.40 from 9/1/2025 to 12/31/2025
+  WORD | bbox=[968,284,1055,300] | text=Check benefits
+  WORD | bbox=[1225,281,1269,302] | text=View
+LINE 9 | bbox=[71,307,1130,325] | conf=0.960 | text=Member actlons Oscar Community Resources
+  WORD | bbox=[71,307,161,320] | text=Member actlons
+  WORD | bbox=[969,312,1130,325] | text=Oscar Community Resources
+LINE 10 | bbox=[292,310,928,355] | conf=0.968 | text=Plan name Silver Simple PCP Saver APTC subsidy $398.00 from 9/1/2025to12/31/2025 $398.00 from 9/1/2025 to12/31/2025
+  WORD | bbox=[292,310,428,348] | text=Plan name Silver Simple PCP Saver
+  WORD | bbox=[629,322,705,335] | text=APTC subsidy
+  WORD | bbox=[719,322,928,355] | text=$398.00 from 9/1/2025to12/31/2025 $398.00 from 9/1/2025 to12/31/2025
+LINE 11 | bbox=[16,353,1276,406] | conf=0.985 | text=FLO3 Not assigned FLBroward Type Family State FL CSR subsidy State subsidy $398.00 from 9/1/2025 to 12/31/2025 $0.00 from 9/1/2025 to12/31/2025 Oscar Care offerings Learn more
+  WORD | bbox=[16,384,153,406] | text=FLO3 Not assigned
+  WORD | bbox=[19,353,111,369] | text=FLBroward
+  WORD | bbox=[291,358,335,394] | text=Type Family
+  WORD | bbox=[401,353,438,391] | text=State FL
+  WORD | bbox=[505,356,579,373] | text=CSR subsidy
+  WORD | bbox=[625,384,706,401] | text=State subsidy
+  WORD | bbox=[721,359,926,372] | text=$398.00 from 9/1/2025 to 12/31/2025
+  WORD | bbox=[735,386,926,398] | text=$0.00 from 9/1/2025 to12/31/2025
+  WORD | bbox=[959,373,1076,390] | text=Oscar Care offerings
+  WORD | bbox=[1209,374,1276,391] | text=Learn more
+LINE 12 | bbox=[735,402,1269,419] | conf=0.991 | text=$0.00 from 9/1/2025 to 12/31/2025 Virtual Urgent Care Yes
+  WORD | bbox=[735,404,926,416] | text=$0.00 from 9/1/2025 to 12/31/2025
+  WORD | bbox=[968,402,1079,419] | text=Virtual Urgent Care
+  WORD | bbox=[1245,404,1269,419] | text=Yes
+LINE 13 | bbox=[17,419,1270,447] | conf=0.977 | text=Oscarplan: $0.00 from 9/1/2025 to12/31/2025 Virtual Primary Care No
+  WORD | bbox=[17,419,106,439] | text=Oscarplan:
+  WORD | bbox=[732,419,928,437] | text=$0.00 from 9/1/2025 to12/31/2025
+  WORD | bbox=[968,429,1082,446] | text=Virtual Primary Care
+  WORD | bbox=[1245,428,1270,447] | text=No
+LINE 14 | bbox=[37,443,1269,498] | conf=0.982 | text=Silver Simple PCP Saver FL EPO Off Ex View ID card Plan essentials Medical Deductible $5,500.00 / $11,000.00 Individual / Family Low income subsidy Appllcatlon date 08/12/2025 Virtual mental health Eligible $o related care No No
+  WORD | bbox=[37,443,171,479] | text=Silver Simple PCP Saver FL EPO Off Ex
+  WORD | bbox=[40,480,115,496] | text=View ID card
+  WORD | bbox=[276,448,366,467] | text=Plan essentials
+  WORD | bbox=[286,474,398,486] | text=Medical Deductible
+  WORD | bbox=[461,474,586,486] | text=$5,500.00 / $11,000.00
+  WORD | bbox=[490,449,595,466] | text=Individual / Family
+  WORD | bbox=[628,449,740,462] | text=Low income subsidy
+  WORD | bbox=[628,476,720,489] | text=Appllcatlon date
+  WORD | bbox=[859,474,929,490] | text=08/12/2025
+  WORD | bbox=[966,454,1089,471] | text=Virtual mental health
+  WORD | bbox=[969,482,1096,495] | text=Eligible $o related care
+  WORD | bbox=[1246,482,1269,498] | text=No
+  WORD | bbox=[1248,456,1269,472] | text=No
+LINE 15 | bbox=[16,498,927,529] | conf=0.979 | text=Alberto Manzor Out-of-pocket max $8,900.00 / $17,800.00 Enrollment created 08/12/2025
+  WORD | bbox=[16,506,130,529] | text=Alberto Manzor
+  WORD | bbox=[285,498,398,516] | text=Out-of-pocket max
+  WORD | bbox=[461,500,585,513] | text=$8,900.00 / $17,800.00
+  WORD | bbox=[625,499,738,517] | text=Enrollment created
+  WORD | bbox=[859,500,927,517] | text=08/12/2025
+LINE 16 | bbox=[285,526,929,544] | conf=0.991 | text=Referrals Not required Effective date 09/01/2025
+  WORD | bbox=[285,526,341,542] | text=Referrals
+  WORD | bbox=[512,526,589,542] | text=Not required
+  WORD | bbox=[626,527,709,544] | text=Effective date
+  WORD | bbox=[858,527,929,544] | text=09/01/2025
+LINE 17 | bbox=[16,538,1013,570] | conf=0.988 | text=Effective 09/01/2025 Referral submissions Not required Coverage end date 08/31/2025 Network
+  WORD | bbox=[16,538,159,556] | text=Effective 09/01/2025
+  WORD | bbox=[288,554,405,566] | text=Referral submissions
+  WORD | bbox=[514,554,586,566] | text=Not required
+  WORD | bbox=[626,554,735,570] | text=Coverage end date
+  WORD | bbox=[858,554,927,570] | text=08/31/2025
+  WORD | bbox=[956,542,1013,563] | text=Network
+LINE 18 | bbox=[17,570,1269,610] | conf=0.979 | text=8 Family Yisroel Dubov-Holder Term reason Voluntary withdrawal Rating area FL - Broward
+  WORD | bbox=[17,571,168,610] | text=8 Family Yisroel Dubov-Holder
+  WORD | bbox=[626,580,699,597] | text=Term reason
+  WORD | bbox=[808,580,926,597] | text=Voluntary withdrawal
+  WORD | bbox=[968,570,1035,587] | text=Rating area
+  WORD | bbox=[1195,570,1269,587] | text=FL - Broward
+LINE 19 | bbox=[968,597,1269,614] | conf=0.999 | text=Provider network FL EPO Off Ex
+  WORD | bbox=[968,597,1066,614] | text=Provider network
+  WORD | bbox=[1188,597,1269,614] | text=FL EPO Off Ex
+LINE 20 | bbox=[40,614,1270,642] | conf=0.983 | text=Avraham Dubov - Child Plan documents Tiering Yes
+  WORD | bbox=[40,614,171,630] | text=Avraham Dubov - Child
+  WORD | bbox=[278,615,371,631] | text=Plan documents
+  WORD | bbox=[963,621,1012,642] | text=Tiering
+  WORD | bbox=[1242,623,1270,642] | text=Yes
+LINE 21 | bbox=[18,637,1269,668] | conf=0.990 | text=$No bills Schedule of Benefits View Enrollment information Provider organization type EPO
+  WORD | bbox=[18,644,87,665] | text=$No bills
+  WORD | bbox=[285,640,405,657] | text=Schedule of Benefits
+  WORD | bbox=[545,637,588,659] | text=View
+  WORD | bbox=[617,642,751,659] | text=Enrollment information
+  WORD | bbox=[966,649,1116,667] | text=Provider organization type
+  WORD | bbox=[1239,649,1269,668] | text=EPO
+LINE 22 | bbox=[285,664,1268,694] | conf=0.966 | text=Certificate of Coverage View Eligib Ility ID 09a7920e423e40ee9e0f22c7504efc6a OOA No
+  WORD | bbox=[285,666,420,684] | text=Certificate of Coverage
+  WORD | bbox=[545,664,588,685] | text=View
+  WORD | bbox=[626,668,698,685] | text=Eligib Ility ID
+  WORD | bbox=[718,671,926,684] | text=09a7920e423e40ee9e0f22c7504efc6a
+  WORD | bbox=[965,676,998,694] | text=OOA
+  WORD | bbox=[1248,677,1268,694] | text=No
+LINE 23 | bbox=[16,694,1270,722] | conf=0.966 | text=Member tags Summary of Benefits & Coverage Vlew Broker HSA compatible No
+  WORD | bbox=[16,696,95,717] | text=Member tags
+  WORD | bbox=[285,694,471,710] | text=Summary of Benefits & Coverage
+  WORD | bbox=[546,695,588,709] | text=Vlew
+  WORD | bbox=[625,694,669,712] | text=Broker
+  WORD | bbox=[968,704,1061,721] | text=HSA compatible
+  WORD | bbox=[1245,703,1270,722] | text=No
+LINE 24 | bbox=[20,718,1269,751] | conf=0.973 | text=nextgen_billing_rosco_tag ID Card View Exchange On exchange Has rider No
+  WORD | bbox=[20,732,175,751] | text=nextgen_billing_rosco_tag
+  WORD | bbox=[286,722,331,736] | text=ID Card
+  WORD | bbox=[543,718,588,739] | text=View
+  WORD | bbox=[625,719,685,740] | text=Exchange
+  WORD | bbox=[851,720,928,740] | text=On exchange
+  WORD | bbox=[965,728,1023,749] | text=Has rider
+  WORD | bbox=[1248,731,1269,747] | text=No
+LINE 25 | bbox=[626,749,929,765] | conf=0.982 | text=Exchanqe ID 0015443155
+  WORD | bbox=[626,749,700,765] | text=Exchanqe ID
+  WORD | bbox=[860,749,929,765] | text=0015443155
+[/BOXES]
+
+[FIELDS]
+NPI: 0015443155
+[/FIELDS]

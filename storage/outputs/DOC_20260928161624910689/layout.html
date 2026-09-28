@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>OCR Layout Preview</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #dfe6eb;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      color: #24343d;
+    }
+    .hint {
+      margin: 0 0 14px;
+      font-size: 12px;
+      color: #5a6d78;
+    }
+    .page-wrap {
+      margin: 0 auto 24px;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,.15);
+      line-height: 0;
+    }
+    .page {
+      position: relative;
+      margin: 0 auto;
+      background: #fff;
+    }
+    .page-img {
+      display: block;
+      width: 100%;
+      height: auto;
+      /* never stretch/squash — page box matches image pixel size */
+    }
+    .overlay {
+      position: absolute;
+      left: 0;
+      top: 0;
+      pointer-events: none;
+    }
+    .box-table, .box-block {
+      position: absolute;
+      pointer-events: none;
+    }
+    .box-table {
+      border: 2px solid rgba(20, 140, 90, 0.95);
+      background: rgba(20, 140, 90, 0.08);
+    }
+    .box-block {
+      border: 1px solid rgba(25, 105, 160, 0.75);
+      background: rgba(25, 105, 160, 0.04);
+    }
+    .box-block.type-heading,
+    .box-block.type-header {
+      border-color: rgba(110, 70, 170, 0.85);
+      background: rgba(110, 70, 170, 0.05);
+    }
+    .plain {
+      margin: 16px;
+      line-height: 1.4;
+      white-space: pre-wrap;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h1>OCR Layout Preview</h1>
+  <p class="hint">Reference image shown exactly as <code>source_preview</code> (native size, no stretch). Boxes are scaled to that image.</p>
+  <div class="page-wrap" style="width:1920px;"><section class="page" style="width:1920px;height:929px;"><img class="page-img" src="source_preview.jpg" width="1920" height="929" alt="source preview page 1" /><div class="overlay" style="width:1920px;height:929px;"><div class="box-table" title="TABLE 0 (two_column_form)" style="left:16px;top:16px;width:973px;height:912px;"></div>
+<div class="box-block type-header" title="BLOCK 0: header" style="left:71px;top:16px;width:109px;height:25px;"></div>
+<div class="box-block type-header" title="BLOCK 1: header" style="left:36px;top:46px;width:176px;height:20px;"></div>
+<div class="box-block type-header" title="BLOCK 2: header" style="left:18px;top:91px;width:114px;height:21px;"></div>
+<div class="box-block type-table" title="BLOCK 3: table" style="left:37px;top:102px;width:952px;height:54px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 4: paragraph" style="left:432px;top:148px;width:26px;height:25px;"></div>
+<div class="box-block type-heading" title="BLOCK 5: heading" style="left:41px;top:168px;width:115px;height:20px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 6: paragraph" style="left:16px;top:206px;width:607px;height:42px;"></div>
+<div class="box-block type-heading" title="BLOCK 7: heading" style="left:601px;top:250px;width:329px;height:22px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 8: paragraph" style="left:36px;top:269px;width:47px;height:21px;"></div>
+<div class="box-block type-heading" title="BLOCK 9: heading" style="left:86px;top:298px;width:682px;height:46px;"></div>
+<div class="box-block type-heading" title="BLOCK 10: heading" style="left:90px;top:346px;width:811px;height:45px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 11: paragraph" style="left:89px;top:388px;width:794px;height:44px;"></div>
+<div class="box-block type-heading" title="BLOCK 12: heading" style="left:86px;top:432px;width:406px;height:45px;"></div>
+<div class="box-block type-heading" title="BLOCK 13: heading" style="left:84px;top:478px;width:670px;height:60px;"></div>
+<div class="box-block type-heading" title="BLOCK 14: heading" style="left:86px;top:522px;width:819px;height:49px;"></div>
+<div class="box-block type-label_value" title="BLOCK 15: label_value" style="left:89px;top:570px;width:806px;height:43px;"></div>
+<div class="box-block type-heading" title="BLOCK 16: heading" style="left:86px;top:612px;width:509px;height:45px;"></div>
+<div class="box-block type-heading" title="BLOCK 17: heading" style="left:89px;top:649px;width:403px;height:52px;"></div>
+<div class="box-block type-heading" title="BLOCK 18: heading" style="left:86px;top:703px;width:658px;height:45px;"></div>
+<div class="box-block type-heading" title="BLOCK 19: heading" style="left:89px;top:750px;width:823px;height:45px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 20: paragraph" style="left:86px;top:795px;width:764px;height:43px;"></div>
+<div class="box-block type-footer" title="BLOCK 21: footer" style="left:86px;top:835px;width:399px;height:48px;"></div>
+<div class="box-block type-footer" title="BLOCK 22: footer" style="left:84px;top:881px;width:787px;height:47px;"></div></div></section></div>
+</body>
+</html>

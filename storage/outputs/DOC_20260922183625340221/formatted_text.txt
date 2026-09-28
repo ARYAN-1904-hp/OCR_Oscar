@@ -1,0 +1,236 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x1042 | blocks=13 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x4
+HEADER | Curamind Claims Management | Sarah Johnson | PROc001 | Logout
+ROW 1 | Professional Claim | - | - | Back to Dashboard Save changes
+  CELL[1,0] = Professional Claim
+  CELL[1,3] = Back to Dashboard Save changes
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 15x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+  CELL[1,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+ROW 2 | Processor | SarahJohnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 Decision SLA:3 days | - | -
+  CELL[2,0] = Processor
+  CELL[2,1] = SarahJohnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 Decision SLA:3 days
+ROW 3 | Member / Patient Information | - | - | -
+  CELL[3,0] = Member / Patient Information
+ROW 4 | Member ID | H6881954663 Full Name: FLORES,BRIAN | Gender: | -
+  CELL[4,0] = Member ID
+  CELL[4,1] = H6881954663 Full Name: FLORES,BRIAN
+  CELL[4,2] = Gender:
+ROW 5 | Date of Birth | 01/22/1977 SSN(last 4): 9967 | Language | SPANISH
+  CELL[5,0] = Date of Birth
+  CELL[5,1] = 01/22/1977 SSN(last 4): 9967
+  CELL[5,2] = Language
+  CELL[5,3] = SPANISH
+ROW 6 | Plan Type | PPO Effective Date: 01/01/2025 | Term Date | 12/31/2025
+  CELL[6,0] = Plan Type
+  CELL[6,1] = PPO Effective Date: 01/01/2025
+  CELL[6,2] = Term Date
+  CELL[6,3] = 12/31/2025
+ROW 7 | Group # | GRP-003 Subscriber: SELF | - | -
+  CELL[7,0] = Group #
+  CELL[7,1] = GRP-003 Subscriber: SELF
+ROW 8 | Contact Information | - | - | -
+  CELL[8,0] = Contact Information
+ROW 9 | Address | 6110 Birch Rd City/State/ ZIP: FRESNOCA93484 | - | -
+  CELL[9,0] = Address
+  CELL[9,1] = 6110 Birch Rd City/State/ ZIP: FRESNOCA93484
+ROW 10 | Phone | 555269-1976 Email: brian.flores@examplemail.com | - | -
+  CELL[10,0] = Phone
+  CELL[10,1] = 555269-1976 Email: brian.flores@examplemail.com
+ROW 11 | Coverage/Eligibility | - | - | -
+  CELL[11,0] = Coverage/Eligibility
+ROW 12 | Eligibility Status | ACTIVE Verified On: 11/18/2025 Verified By | PROCOO1 | -
+  CELL[12,0] = Eligibility Status
+  CELL[12,1] = ACTIVE Verified On: 11/18/2025 Verified By
+  CELL[12,2] = PROCOO1
+ROW 13 | Met | Deductible $0.00/$1.000.00 OOP Max: $2,000.00/$8,000.00 | - | -
+  CELL[13,0] = Met
+  CELL[13,1] = Deductible $0.00/$1.000.00 OOP Max: $2,000.00/$8,000.00
+ROW 14 | PCP Assignment | MARTINEZ MD, ANNA LUCIAE | - | -
+  CELL[14,0] = PCP Assignment
+  CELL[14,1] = MARTINEZ MD, ANNA LUCIAE
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[23,8,1405,40] | order=0
+  Curamind Claims Management Sarah Johnson PROc001 Logout
+BLOCK 1 | type=header | bbox=[36,60,1447,112] | order=1
+  Professional Claim Back to Dashboard Save changes
+BLOCK 2 | type=table_row | bbox=[44,124,688,149] | order=2
+  Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+BLOCK 3 | type=table_row | bbox=[39,172,775,194] | order=3
+  Processor: SarahJohnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 Decision SLA:3 days
+BLOCK 4 | type=table_row | bbox=[41,239,320,259] | order=4
+  Member / Patient Information
+BLOCK 5 | type=table | bbox=[38,281,1073,407] | order=5
+  Member ID: H6881954663 Full Name: FLORES,BRIAN Gender:
+  Date of Birth: 01/22/1977 SSN(last 4): 9967 Language: SPANISH
+  Plan Type: PPO Effective Date: 01/01/2025 Term Date: 12/31/2025
+BLOCK 6 | type=table_row | bbox=[38,417,556,450] | order=6
+  Group #: GRP-003 Subscriber: SELF
+BLOCK 7 | type=table_row | bbox=[42,512,230,527] | order=7
+  Contact Information
+BLOCK 8 | type=table | bbox=[41,545,741,583] | order=8
+  Address: 6110 Birch Rd City/State/ ZIP: FRESNOCA93484
+BLOCK 9 | type=table_row | bbox=[39,595,691,619] | order=9
+  Phone: 555269-1976 Email: brian.flores@examplemail.com
+BLOCK 10 | type=table | bbox=[41,678,238,698] | order=10
+  Coverage/Eligibility
+BLOCK 11 | type=table | bbox=[37,721,873,802] | order=11
+  Eligibility Status: ACTIVE Verified On: 11/18/2025 Verified By PROCOO1
+  Met: Deductible $0.00/$1.000.00 OOP Max: $2,000.00/$8,000.00
+BLOCK 12 | type=table_row | bbox=[41,819,370,840] | order=12
+  PCP Assignment: MARTINEZ MD, ANNA LUCIAE
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[37,124,1073,840] | shape=15x4 | conf=0.920
+  shape: 15x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+    CELL[1,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  ROW 2 | Processor | SarahJohnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 Decision SLA:3 days | - | -
+    CELL[2,0] = Processor
+    CELL[2,1] = SarahJohnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 Decision SLA:3 days
+  ROW 3 | Member / Patient Information | - | - | -
+    CELL[3,0] = Member / Patient Information
+  ROW 4 | Member ID | H6881954663 Full Name: FLORES,BRIAN | Gender: | -
+    CELL[4,0] = Member ID
+    CELL[4,1] = H6881954663 Full Name: FLORES,BRIAN
+    CELL[4,2] = Gender:
+  ROW 5 | Date of Birth | 01/22/1977 SSN(last 4): 9967 | Language | SPANISH
+    CELL[5,0] = Date of Birth
+    CELL[5,1] = 01/22/1977 SSN(last 4): 9967
+    CELL[5,2] = Language
+    CELL[5,3] = SPANISH
+  ROW 6 | Plan Type | PPO Effective Date: 01/01/2025 | Term Date | 12/31/2025
+    CELL[6,0] = Plan Type
+    CELL[6,1] = PPO Effective Date: 01/01/2025
+    CELL[6,2] = Term Date
+    CELL[6,3] = 12/31/2025
+  ROW 7 | Group # | GRP-003 Subscriber: SELF | - | -
+    CELL[7,0] = Group #
+    CELL[7,1] = GRP-003 Subscriber: SELF
+  ROW 8 | Contact Information | - | - | -
+    CELL[8,0] = Contact Information
+  ROW 9 | Address | 6110 Birch Rd City/State/ ZIP: FRESNOCA93484 | - | -
+    CELL[9,0] = Address
+    CELL[9,1] = 6110 Birch Rd City/State/ ZIP: FRESNOCA93484
+  ROW 10 | Phone | 555269-1976 Email: brian.flores@examplemail.com | - | -
+    CELL[10,0] = Phone
+    CELL[10,1] = 555269-1976 Email: brian.flores@examplemail.com
+  ROW 11 | Coverage/Eligibility | - | - | -
+    CELL[11,0] = Coverage/Eligibility
+  ROW 12 | Eligibility Status | ACTIVE Verified On: 11/18/2025 Verified By | PROCOO1 | -
+    CELL[12,0] = Eligibility Status
+    CELL[12,1] = ACTIVE Verified On: 11/18/2025 Verified By
+    CELL[12,2] = PROCOO1
+  ROW 13 | Met | Deductible $0.00/$1.000.00 OOP Max: $2,000.00/$8,000.00 | - | -
+    CELL[13,0] = Met
+    CELL[13,1] = Deductible $0.00/$1.000.00 OOP Max: $2,000.00/$8,000.00
+  ROW 14 | PCP Assignment | MARTINEZ MD, ANNA LUCIAE | - | -
+    CELL[14,0] = PCP Assignment
+    CELL[14,1] = MARTINEZ MD, ANNA LUCIAE
+TABLE 1 | source=wide_grid | bbox=[23,8,1447,112] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | Curamind Claims Management | Sarah Johnson | PROc001 | Logout
+  ROW 1 | Professional Claim | - | - | Back to Dashboard Save changes
+    CELL[1,0] = Professional Claim
+    CELL[1,3] = Back to Dashboard Save changes
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[23,8,1405,40] | conf=0.926 | text=Curamind Claims Management Sarah Johnson PROc001 Logout
+  WORD | bbox=[23,17,127,37] | text=Curamind
+  WORD | bbox=[141,17,295,37] | text=Claims Management
+  WORD | bbox=[1153,8,1206,40] | text=Sarah Johnson
+  WORD | bbox=[1236,14,1306,34] | text=PROc001
+  WORD | bbox=[1350,14,1405,36] | text=Logout
+LINE 1 | bbox=[36,60,1447,112] | conf=0.982 | text=Professional Claim Back to Dashboard Save changes
+  WORD | bbox=[36,67,164,82] | text=Professional Claim
+  WORD | bbox=[1300,60,1447,112] | text=Back to Dashboard Save changes
+LINE 2 | bbox=[44,124,688,149] | conf=0.975 | text=Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  WORD | bbox=[44,126,119,147] | text=Claim Pg1
+  WORD | bbox=[161,124,229,149] | text=Prov pg2
+  WORD | bbox=[273,126,373,146] | text=Member Pg3
+  WORD | bbox=[411,126,511,146] | text=Diagnosis Pg4
+  WORD | bbox=[561,127,688,143] | text=Miscellaneous Pg5
+LINE 3 | bbox=[39,172,775,194] | conf=0.956 | text=Processor: SarahJohnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 Decision SLA:3 days
+  WORD | bbox=[39,177,217,192] | text=Processor: SarahJohnson
+  WORD | bbox=[234,172,431,194] | text=Last edit: 11/17/2025 08:05
+  WORD | bbox=[444,175,606,191] | text=Processor ID:PROc001
+  WORD | bbox=[631,175,775,191] | text=Decision SLA:3 days
+LINE 4 | bbox=[41,239,320,259] | conf=0.982 | text=Member / Patient Information
+LINE 5 | bbox=[38,281,884,313] | conf=0.972 | text=Member ID: H6881954663 Full Name: FLORES,BRIAN Gender:
+  WORD | bbox=[38,281,94,313] | text=Member ID:
+  WORD | bbox=[125,287,233,307] | text=H6881954663
+  WORD | bbox=[428,285,502,305] | text=Full Name:
+  WORD | bbox=[522,285,634,305] | text=FLORES,BRIAN
+  WORD | bbox=[827,285,884,302] | text=Gender:
+LINE 6 | bbox=[39,326,997,360] | conf=0.978 | text=Date of Birth: 01/22/1977 SSN(last 4): 9967 Language: SPANISH
+  WORD | bbox=[39,326,91,360] | text=Date of Birth:
+  WORD | bbox=[136,332,225,352] | text=01/22/1977
+  WORD | bbox=[445,326,506,360] | text=SSN(last 4):
+  WORD | bbox=[534,330,583,352] | text=9967
+  WORD | bbox=[841,330,912,350] | text=Language:
+  WORD | bbox=[923,327,997,352] | text=SPANISH
+LINE 7 | bbox=[39,366,1073,407] | conf=0.979 | text=Plan Type: PPO Effective Date: 01/01/2025 Term Date: 12/31/2025
+  WORD | bbox=[39,372,77,406] | text=Plan Type:
+  WORD | bbox=[111,378,145,397] | text=PPO
+  WORD | bbox=[417,366,482,391] | text=Effective
+  WORD | bbox=[417,384,460,407] | text=Date:
+  WORD | bbox=[533,377,620,397] | text=01/01/2025
+  WORD | bbox=[911,367,953,403] | text=Term Date:
+  WORD | bbox=[986,375,1073,395] | text=12/31/2025
+LINE 8 | bbox=[38,417,556,450] | conf=0.983 | text=Group #: GRP-003 Subscriber: SELF
+  WORD | bbox=[38,417,83,450] | text=Group #:
+  WORD | bbox=[103,420,175,445] | text=GRP-003
+  WORD | bbox=[408,423,486,443] | text=Subscriber:
+  WORD | bbox=[511,422,556,443] | text=SELF
+LINE 9 | bbox=[42,512,230,527] | conf=0.974 | text=Contact Information
+LINE 10 | bbox=[41,545,741,583] | conf=0.975 | text=Address: 6110 Birch Rd City/State/ ZIP: FRESNOCA93484
+  WORD | bbox=[41,557,97,574] | text=Address:
+  WORD | bbox=[111,557,217,577] | text=6110 Birch Rd
+  WORD | bbox=[484,545,558,571] | text=City/State/
+  WORD | bbox=[487,566,517,583] | text=ZIP:
+  WORD | bbox=[600,555,741,575] | text=FRESNOCA93484
+LINE 11 | bbox=[39,595,691,619] | conf=0.990 | text=Phone: 555269-1976 Email: brian.flores@examplemail.com
+  WORD | bbox=[39,599,86,616] | text=Phone:
+  WORD | bbox=[105,599,220,619] | text=555269-1976
+  WORD | bbox=[416,597,459,614] | text=Email:
+  WORD | bbox=[466,595,691,619] | text=brian.flores@examplemail.com
+LINE 12 | bbox=[41,678,238,698] | conf=0.998 | text=Coverage/Eligibility
+LINE 13 | bbox=[41,721,873,755] | conf=0.955 | text=Eligibility Status: ACTIVE Verified On: 11/18/2025 Verified By PROCOO1
+  WORD | bbox=[41,727,148,743] | text=Eligibility Status:
+  WORD | bbox=[173,723,238,744] | text=ACTIVE
+  WORD | bbox=[320,721,373,755] | text=Verified On:
+  WORD | bbox=[408,727,498,747] | text=11/18/2025
+  WORD | bbox=[716,723,802,743] | text=Verified By
+  WORD | bbox=[794,724,873,744] | text=PROCOO1
+LINE 14 | bbox=[37,766,706,802] | conf=0.963 | text=Met: Deductible $0.00/$1.000.00 OOP Max: $2,000.00/$8,000.00
+  WORD | bbox=[37,779,73,802] | text=Met:
+  WORD | bbox=[39,766,114,786] | text=Deductible
+  WORD | bbox=[159,774,289,794] | text=$0.00/$1.000.00
+  WORD | bbox=[461,766,497,800] | text=OOP Max:
+  WORD | bbox=[544,772,706,792] | text=$2,000.00/$8,000.00
+LINE 15 | bbox=[41,819,370,840] | conf=0.952 | text=PCP Assignment: MARTINEZ MD, ANNA LUCIAE
+  WORD | bbox=[41,819,148,834] | text=PCP Assignment:
+  WORD | bbox=[173,820,370,840] | text=MARTINEZ MD, ANNA LUCIAE
+[/BOXES]
+
+[FIELDS]
+Email: brian.flores@examplemail.com
+[/FIELDS]

@@ -1,0 +1,180 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=14 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 16x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT Knowledge Management | - | MR | -
+  CELL[1,0] = VERINT Knowledge Management
+  CELL[1,2] = MR
+ROW 2 | Newborn Blocker Workflow Diagrams | - | - | -
+  CELL[2,0] = Newborn Blocker Workflow Diagrams
+ROW 3 | Newborn Blocker Workflows (Includes Newborn and Child Workflows) | - | - | -
+  CELL[3,0] = Newborn Blocker Workflows (Includes Newborn and Child Workflows)
+ROW 4 | Newborn Claim Workflow Diagrams | - | - | -
+  CELL[4,0] = Newborn Claim Workflow Diagrams
+ROW 5 | Newborn Claim Workflow | - | - | -
+  CELL[5,0] = Newborn Claim Workflow
+ROW 6 | Child Claim Workflow Diagrams | - | - | -
+  CELL[6,0] = Child Claim Workflow Diagrams
+ROW 7 | Child Claim Workflow. | - | - | -
+  CELL[7,0] = Child Claim Workflow.
+ROW 8 | Newborn Notes Templates | - | - | -
+  CELL[8,0] = Newborn Notes Templates
+ROW 9 | Newborn Coverage by State | - | - | -
+  CELL[9,0] = Newborn Coverage by State
+ROW 10 | Itemized Bills | Claim Splitting for Eligibility and Authorization | - | -
+  CELL[10,0] = Itemized Bills
+  CELL[10,1] = Claim Splitting for Eligibility and Authorization
+ROW 11 | Tags | - | - | -
+  CELL[11,0] = Tags
+ROW 12 | Audience | Claims Production | - | -
+  CELL[12,0] = Audience
+  CELL[12,1] = Claims Production
+ROW 13 | Client | IFP/IVL Oscar Claims Processing | - | -
+  CELL[13,0] = Client
+  CELL[13,1] = IFP/IVL Oscar Claims Processing
+ROW 14 | Topic: | - | - | -
+  CELL[14,0] = Topic:
+ROW 15 | Work Type | Workflows] | - | -
+  CELL[15,0] = Work Type
+  CELL[15,1] = Workflows]
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x3
+HEADER | Filters Search | Newborn 7/10/26 - KM1014156 | 9 x
+ROW 1 | - | 4 ratings* | :
+  CELL[1,1] = 4 ratings*
+  CELL[1,2] = :
+ROW 2 | - | Skip To: Private Information | Tags | Refresh
+  CELL[2,1] = Skip To: Private Information | Tags
+  CELL[2,2] = Refresh
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[29,19,1569,56] | order=0
+  VERINT Knowledge Management MR
+BLOCK 1 | type=table | bbox=[2,83,1591,135] | order=1
+  Filters Search Newborn 7/10/26 - KM1014156 9 x
+BLOCK 2 | type=label_value | bbox=[41,127,1586,199] | order=2
+  4 ratings* :
+  Skip To: Private Information | Tags Refresh
+BLOCK 3 | type=heading | bbox=[72,256,420,276] | order=3
+  Newborn Blocker Workflow Diagrams
+BLOCK 4 | type=paragraph | bbox=[71,298,721,322] | order=4
+  Newborn Blocker Workflows (Includes Newborn and Child Workflows)
+BLOCK 5 | type=heading | bbox=[71,339,403,363] | order=5
+  Newborn Claim Workflow Diagrams
+BLOCK 6 | type=heading | bbox=[70,377,311,405] | order=6
+  Newborn Claim Workflow
+BLOCK 7 | type=heading | bbox=[71,417,370,447] | order=7
+  Child Claim Workflow Diagrams
+BLOCK 8 | type=heading | bbox=[71,458,276,488] | order=8
+  Child Claim Workflow.
+BLOCK 9 | type=heading | bbox=[71,501,319,526] | order=9
+  Newborn Notes Templates
+BLOCK 10 | type=paragraph | bbox=[61,540,335,568] | order=10
+  Newborn Coverage by State
+BLOCK 11 | type=label_value | bbox=[62,580,641,607] | order=11
+  Itemized Bills: Claim Splitting for Eligibility and Authorization
+BLOCK 12 | type=paragraph | bbox=[56,656,110,679] | order=12
+  Tags
+BLOCK 13 | type=footer | bbox=[58,682,254,770] | order=13
+  Audience: Claims Production
+  Client: Topic: IFP/IVL Oscar Claims Processing
+  Work Type: Workflows]
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[29,19,1569,770] | shape=16x4 | conf=0.920
+  shape: 16x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT Knowledge Management | - | MR | -
+    CELL[1,0] = VERINT Knowledge Management
+    CELL[1,2] = MR
+  ROW 2 | Newborn Blocker Workflow Diagrams | - | - | -
+    CELL[2,0] = Newborn Blocker Workflow Diagrams
+  ROW 3 | Newborn Blocker Workflows (Includes Newborn and Child Workflows) | - | - | -
+    CELL[3,0] = Newborn Blocker Workflows (Includes Newborn and Child Workflows)
+  ROW 4 | Newborn Claim Workflow Diagrams | - | - | -
+    CELL[4,0] = Newborn Claim Workflow Diagrams
+  ROW 5 | Newborn Claim Workflow | - | - | -
+    CELL[5,0] = Newborn Claim Workflow
+  ROW 6 | Child Claim Workflow Diagrams | - | - | -
+    CELL[6,0] = Child Claim Workflow Diagrams
+  ROW 7 | Child Claim Workflow. | - | - | -
+    CELL[7,0] = Child Claim Workflow.
+  ROW 8 | Newborn Notes Templates | - | - | -
+    CELL[8,0] = Newborn Notes Templates
+  ROW 9 | Newborn Coverage by State | - | - | -
+    CELL[9,0] = Newborn Coverage by State
+  ROW 10 | Itemized Bills | Claim Splitting for Eligibility and Authorization | - | -
+    CELL[10,0] = Itemized Bills
+    CELL[10,1] = Claim Splitting for Eligibility and Authorization
+  ROW 11 | Tags | - | - | -
+    CELL[11,0] = Tags
+  ROW 12 | Audience | Claims Production | - | -
+    CELL[12,0] = Audience
+    CELL[12,1] = Claims Production
+  ROW 13 | Client | IFP/IVL Oscar Claims Processing | - | -
+    CELL[13,0] = Client
+    CELL[13,1] = IFP/IVL Oscar Claims Processing
+  ROW 14 | Topic: | - | - | -
+    CELL[14,0] = Topic:
+  ROW 15 | Work Type | Workflows] | - | -
+    CELL[15,0] = Work Type
+    CELL[15,1] = Workflows]
+TABLE 1 | source=wide_grid | bbox=[2,83,1591,199] | shape=3x3 | conf=0.850
+  shape: 3x3
+  HEADER | Filters Search | Newborn 7/10/26 - KM1014156 | 9 x
+  ROW 1 | - | 4 ratings* | :
+    CELL[1,1] = 4 ratings*
+    CELL[1,2] = :
+  ROW 2 | - | Skip To: Private Information | Tags | Refresh
+    CELL[2,1] = Skip To: Private Information | Tags
+    CELL[2,2] = Refresh
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[29,19,1569,56] | conf=0.993 | text=VERINT Knowledge Management MR
+  WORD | bbox=[29,19,175,56] | text=VERINT Knowledge Management
+  WORD | bbox=[1536,22,1569,39] | text=MR
+LINE 1 | bbox=[2,83,1591,135] | conf=0.916 | text=Filters Search Newborn 7/10/26 - KM1014156 9 x
+  WORD | bbox=[2,92,15,130] | text=Filters
+  WORD | bbox=[9,88,32,135] | text=Search
+  WORD | bbox=[90,83,224,122] | text=Newborn 7/10/26 - KM1014156
+  WORD | bbox=[1544,83,1591,111] | text=9 x
+LINE 2 | bbox=[41,127,1586,155] | conf=0.714 | text=4 ratings* :
+  WORD | bbox=[41,136,206,155] | text=4 ratings*
+  WORD | bbox=[1530,127,1586,154] | text=:
+LINE 3 | bbox=[42,172,1585,199] | conf=0.993 | text=Skip To: Private Information | Tags Refresh
+  WORD | bbox=[42,178,256,199] | text=Skip To: Private Information | Tags
+  WORD | bbox=[1532,172,1585,193] | text=Refresh
+LINE 4 | bbox=[72,256,420,276] | conf=0.974 | text=Newborn Blocker Workflow Diagrams
+LINE 5 | bbox=[71,298,721,322] | conf=0.996 | text=Newborn Blocker Workflows (Includes Newborn and Child Workflows)
+LINE 6 | bbox=[71,339,403,363] | conf=0.979 | text=Newborn Claim Workflow Diagrams
+LINE 7 | bbox=[70,377,311,405] | conf=0.973 | text=Newborn Claim Workflow
+LINE 8 | bbox=[71,417,370,447] | conf=0.998 | text=Child Claim Workflow Diagrams
+LINE 9 | bbox=[71,458,276,488] | conf=0.968 | text=Child Claim Workflow.
+LINE 10 | bbox=[71,501,319,526] | conf=0.979 | text=Newborn Notes Templates
+LINE 11 | bbox=[61,540,335,568] | conf=0.982 | text=Newborn Coverage by State
+LINE 12 | bbox=[62,580,641,607] | conf=0.975 | text=Itemized Bills: Claim Splitting for Eligibility and Authorization
+LINE 13 | bbox=[56,656,110,679] | conf=0.944 | text=Tags
+LINE 14 | bbox=[60,682,254,701] | conf=0.987 | text=Audience: Claims Production
+  WORD | bbox=[60,685,124,701] | text=Audience:
+  WORD | bbox=[140,682,254,700] | text=Claims Production
+LINE 15 | bbox=[58,704,233,749] | conf=0.967 | text=Client: Topic: IFP/IVL Oscar Claims Processing
+  WORD | bbox=[58,704,105,726] | text=Client:
+  WORD | bbox=[58,726,103,749] | text=Topic:
+  WORD | bbox=[115,707,233,749] | text=IFP/IVL Oscar Claims Processing
+LINE 16 | bbox=[60,749,219,770] | conf=0.946 | text=Work Type: Workflows]
+  WORD | bbox=[60,751,134,769] | text=Work Type:
+  WORD | bbox=[146,749,219,770] | text=Workflows]
+[/BOXES]

@@ -1,0 +1,161 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=10 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 18x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | - | -
+  CELL[1,0] = VERINT
+ROW 2 | Q | Newborn | - | -
+  CELL[2,0] = Q
+  CELL[2,1] = Newborn
+ROW 3 | Q | - | - | -
+  CELL[3,0] = Q
+ROW 4 | yr1 | - | Raf-pet | -
+  CELL[4,0] = yr1
+  CELL[4,2] = Raf-pet
+ROW 5 | Q | LREIULS | - | -
+  CELL[5,0] = Q
+  CELL[5,1] = LREIULS
+ROW 6 | Newborn Blocker Workflow Diagrams | - | - | -
+  CELL[6,0] = Newborn Blocker Workflow Diagrams
+ROW 7 | Newborn Blocker Workfiows (lncludes Newborn and Child Workflows) | - | - | -
+  CELL[7,0] = Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)
+ROW 8 | Newborn Clsim Wosflow agrams | - | - | -
+  CELL[8,0] = Newborn Clsim Wosflow agrams
+ROW 9 | g | - | - | -
+  CELL[9,0] = g
+ROW 10 | Newborn Claim Workflow | - | - | -
+  CELL[10,0] = Newborn Claim Workflow
+ROW 11 | Child Claim Workfiow agrams | - | - | -
+  CELL[11,0] = Child Claim Workfiow agrams
+ROW 12 | C LA | - | - | -
+  CELL[12,0] = C LA
+ROW 13 | A | Child Claim Workflow | - | -
+  CELL[13,0] = A
+  CELL[13,1] = Child Claim Workflow
+ROW 14 | Newborn Notes Temptates | - | - | -
+  CELL[14,0] = Newborn Notes Temptates
+ROW 15 | Newborn Coverage by State | - | - | -
+  CELL[15,0] = Newborn Coverage by State
+ROW 16 | Cis Cg As r | lemized Bils: Claim Sprtting for Elig bility and Authorization | - | -
+  CELL[16,0] = Cis Cg As r
+  CELL[16,1] = lemized Bils: Claim Sprtting for Elig bility and Authorization
+ROW 17 | A | Clare | - | -
+  CELL[17,0] = A
+  CELL[17,1] = Clare
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[61,17,150,34] | order=0
+  VERINT
+BLOCK 1 | type=paragraph | bbox=[34,81,1584,320] | order=1
+  Q Newborn
+  Q
+  yr1 Raf-pet
+  Q LREIULS
+  Newborn Blocker Workflow Diagrams
+  Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)
+BLOCK 2 | type=heading | bbox=[581,336,914,362] | order=2
+  Newborn Clsim Wosflow agrams
+BLOCK 3 | type=paragraph | bbox=[81,363,821,402] | order=3
+  g
+  Newborn Claim Workflow
+BLOCK 4 | type=heading | bbox=[581,417,879,443] | order=4
+  Child Claim Workfiow agrams
+BLOCK 5 | type=paragraph | bbox=[82,440,786,483] | order=5
+  C LA
+  A Child Claim Workflow
+BLOCK 6 | type=heading | bbox=[582,499,829,525] | order=6
+  Newborn Notes Temptates
+BLOCK 7 | type=heading | bbox=[581,538,845,567] | order=7
+  Newborn Coverage by State
+BLOCK 8 | type=label_value | bbox=[84,578,1151,605] | order=8
+  Cis Cg As r lemized Bils: Claim Sprtting for Elig bility and Authorization
+BLOCK 9 | type=footer | bbox=[199,698,609,721] | order=9
+  A Clare
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[34,17,1584,721] | shape=18x4 | conf=0.920
+  shape: 18x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | - | -
+    CELL[1,0] = VERINT
+  ROW 2 | Q | Newborn | - | -
+    CELL[2,0] = Q
+    CELL[2,1] = Newborn
+  ROW 3 | Q | - | - | -
+    CELL[3,0] = Q
+  ROW 4 | yr1 | - | Raf-pet | -
+    CELL[4,0] = yr1
+    CELL[4,2] = Raf-pet
+  ROW 5 | Q | LREIULS | - | -
+    CELL[5,0] = Q
+    CELL[5,1] = LREIULS
+  ROW 6 | Newborn Blocker Workflow Diagrams | - | - | -
+    CELL[6,0] = Newborn Blocker Workflow Diagrams
+  ROW 7 | Newborn Blocker Workfiows (lncludes Newborn and Child Workflows) | - | - | -
+    CELL[7,0] = Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)
+  ROW 8 | Newborn Clsim Wosflow agrams | - | - | -
+    CELL[8,0] = Newborn Clsim Wosflow agrams
+  ROW 9 | g | - | - | -
+    CELL[9,0] = g
+  ROW 10 | Newborn Claim Workflow | - | - | -
+    CELL[10,0] = Newborn Claim Workflow
+  ROW 11 | Child Claim Workfiow agrams | - | - | -
+    CELL[11,0] = Child Claim Workfiow agrams
+  ROW 12 | C LA | - | - | -
+    CELL[12,0] = C LA
+  ROW 13 | A | Child Claim Workflow | - | -
+    CELL[13,0] = A
+    CELL[13,1] = Child Claim Workflow
+  ROW 14 | Newborn Notes Temptates | - | - | -
+    CELL[14,0] = Newborn Notes Temptates
+  ROW 15 | Newborn Coverage by State | - | - | -
+    CELL[15,0] = Newborn Coverage by State
+  ROW 16 | Cis Cg As r | lemized Bils: Claim Sprtting for Elig bility and Authorization | - | -
+    CELL[16,0] = Cis Cg As r
+    CELL[16,1] = lemized Bils: Claim Sprtting for Elig bility and Authorization
+  ROW 17 | A | Clare | - | -
+    CELL[17,0] = A
+    CELL[17,1] = Clare
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[61,17,150,34] | conf=0.996 | text=VERINT
+LINE 1 | bbox=[496,81,692,106] | conf=0.907 | text=Q Newborn
+  WORD | bbox=[496,88,512,106] | text=Q
+  WORD | bbox=[604,81,692,103] | text=Newborn
+LINE 2 | bbox=[165,126,371,148] | conf=0.637 | text=Q
+LINE 3 | bbox=[34,172,1584,194] | conf=0.691 | text=yr1 Raf-pet
+  WORD | bbox=[34,172,212,192] | text=yr1
+  WORD | bbox=[1538,179,1584,194] | text=Raf-pet
+LINE 4 | bbox=[478,209,886,227] | conf=0.585 | text=Q LREIULS
+  WORD | bbox=[478,209,494,227] | text=Q
+  WORD | bbox=[786,211,886,220] | text=LREIULS
+LINE 5 | bbox=[584,253,931,276] | conf=0.907 | text=Newborn Blocker Workflow Diagrams
+LINE 6 | bbox=[581,297,1233,320] | conf=0.881 | text=Newborn Blocker Workfiows (lncludes Newborn and Child Workflows)
+LINE 7 | bbox=[581,336,914,362] | conf=0.850 | text=Newborn Clsim Wosflow agrams
+LINE 8 | bbox=[81,363,433,381] | conf=0.552 | text=g
+LINE 9 | bbox=[581,378,821,402] | conf=0.858 | text=Newborn Claim Workflow
+LINE 10 | bbox=[581,417,879,443] | conf=0.865 | text=Child Claim Workfiow agrams
+LINE 11 | bbox=[82,440,436,457] | conf=0.632 | text=C LA
+LINE 12 | bbox=[84,458,786,483] | conf=0.789 | text=A Child Claim Workflow
+  WORD | bbox=[84,460,218,472] | text=A
+  WORD | bbox=[581,458,786,483] | text=Child Claim Workflow
+LINE 13 | bbox=[582,499,829,525] | conf=0.957 | text=Newborn Notes Temptates
+LINE 14 | bbox=[581,538,845,567] | conf=0.952 | text=Newborn Coverage by State
+LINE 15 | bbox=[84,578,1151,605] | conf=0.696 | text=Cis Cg As r lemized Bils: Claim Sprtting for Elig bility and Authorization
+  WORD | bbox=[84,578,360,595] | text=Cis Cg As r
+  WORD | bbox=[581,580,1151,605] | text=lemized Bils: Claim Sprtting for Elig bility and Authorization
+LINE 16 | bbox=[199,698,609,721] | conf=0.687 | text=A Clare
+  WORD | bbox=[199,698,454,710] | text=A
+  WORD | bbox=[572,707,609,721] | text=Clare
+[/BOXES]

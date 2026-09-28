@@ -1,0 +1,231 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x1042 | blocks=12 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 13x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Curamind | Claims Management | Maria Torres PROC003 Logout | -
+  CELL[1,0] = Curamind
+  CELL[1,1] = Claims Management
+  CELL[1,2] = Maria Torres PROC003 Logout
+ROW 2 | - | - | Back to Dashboard | -
+  CELL[2,2] = Back to Dashboard
+ROW 3 | Professional Claim X | - | - | -
+  CELL[3,0] = Professional Claim X
+ROW 4 | - | - | Save changes | -
+  CELL[4,2] = Save changes
+ROW 5 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+  CELL[5,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+ROW 6 | Processor: Maria Torres | Last edit:11/17/202510:41 ProcessorID:PROC003 Decision SLA: 3 days | - | -
+  CELL[6,0] = Processor: Maria Torres
+  CELL[6,1] = Last edit:11/17/202510:41 ProcessorID:PROC003 Decision SLA: 3 days
+ROW 7 | General Information | - | - | -
+  CELL[7,0] = General Information
+ROW 8 | Member H6883848304 | GARCIA, | - | -
+  CELL[8,0] = Member H6883848304
+  CELL[8,1] = GARCIA,
+ROW 9 | ID | RICHARD | - | -
+  CELL[9,0] = ID
+  CELL[9,1] = RICHARD
+ROW 10 | EOB Indicator | MPPR Indicator | - | -
+  CELL[10,0] = EOB Indicator
+  CELL[10,1] = MPPR Indicator
+ROW 11 | Place of Service(24b) | 22 HOSPITAL OUTPATIENT Facility: 34 | SERVICE LOCATION | -
+  CELL[11,0] = Place of Service(24b)
+  CELL[11,1] = 22 HOSPITAL OUTPATIENT Facility: 34
+  CELL[11,2] = SERVICE LOCATION
+ROW 12 | Outcome | 01 DISCHARGED TO HOME OR SELF CARE Resp: Payer PRIMARY | - | -
+  CELL[12,0] = Outcome
+  CELL[12,1] = 01 DISCHARGED TO HOME OR SELF CARE Resp: Payer PRIMARY
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[26,5,1404,42] | order=0
+  Curamind Claims Management Maria Torres PROC003 Logout
+BLOCK 1 | type=header | bbox=[1301,63,1444,78] | order=1
+  Back to Dashboard
+BLOCK 2 | type=header | bbox=[34,65,1419,108] | order=2
+  Professional Claim X Save changes
+BLOCK 3 | type=table | bbox=[48,125,689,147] | order=3
+  Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+BLOCK 4 | type=label_value | bbox=[40,176,775,191] | order=4
+  Processor: Maria Torres Last edit:11/17/202510:41 ProcessorID:PROC003 Decision SLA: 3 days
+BLOCK 5 | type=table | bbox=[34,217,1356,448] | order=5
+  Claim: Professional 25110335223941 Member ID: H6883848304 ID: Company CAPLUS P3CA OMNI
+  Status: PENDING REVIEW Date Received: 11/03/2025 Service Date From: 10/15/2025
+  Auth/Referral #1(23): 2510821271260593216 Auth/Referral #2(23) Auth/Referral #3(23):
+  Auth/Ref Status: APPROVED Auth/Ref Status: Auth/Ref Status:
+  Claim Type: Professional Priority: 1 HIGH
+BLOCK 6 | type=heading | bbox=[38,469,229,487] | order=6
+  General Information
+BLOCK 7 | type=label_value | bbox=[33,497,451,534] | order=7
+  ID: Member H6883848304 GARCIA, RICHARD
+BLOCK 8 | type=table | bbox=[34,543,771,666] | order=8
+  Provider ID: 1098225172 MARTINEZ MD, ANNA LUCIA
+  Primary Diagnosis: R07.9 CHEST PAIN, UNSPECIFIED
+  Birth Date: 05/19/1987 Gender(3) M Marital Status:U
+BLOCK 9 | type=heading | bbox=[35,683,424,700] | order=9
+  EOB Indicator MPPR Indicator
+BLOCK 10 | type=table | bbox=[36,714,1035,751] | order=10
+  Place of Service(24b): 22 HOSPITAL OUTPATIENT Facility: 34 SERVICE LOCATION
+BLOCK 11 | type=label_value | bbox=[36,760,778,798] | order=11
+  Outcome: 01 DISCHARGED TO HOME OR SELF CARE Resp: Payer PRIMARY
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[26,5,1444,798] | shape=13x4 | conf=0.920
+  shape: 13x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Curamind | Claims Management | Maria Torres PROC003 Logout | -
+    CELL[1,0] = Curamind
+    CELL[1,1] = Claims Management
+    CELL[1,2] = Maria Torres PROC003 Logout
+  ROW 2 | - | - | Back to Dashboard | -
+    CELL[2,2] = Back to Dashboard
+  ROW 3 | Professional Claim X | - | - | -
+    CELL[3,0] = Professional Claim X
+  ROW 4 | - | - | Save changes | -
+    CELL[4,2] = Save changes
+  ROW 5 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+    CELL[5,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  ROW 6 | Processor: Maria Torres | Last edit:11/17/202510:41 ProcessorID:PROC003 Decision SLA: 3 days | - | -
+    CELL[6,0] = Processor: Maria Torres
+    CELL[6,1] = Last edit:11/17/202510:41 ProcessorID:PROC003 Decision SLA: 3 days
+  ROW 7 | General Information | - | - | -
+    CELL[7,0] = General Information
+  ROW 8 | Member H6883848304 | GARCIA, | - | -
+    CELL[8,0] = Member H6883848304
+    CELL[8,1] = GARCIA,
+  ROW 9 | ID | RICHARD | - | -
+    CELL[9,0] = ID
+    CELL[9,1] = RICHARD
+  ROW 10 | EOB Indicator | MPPR Indicator | - | -
+    CELL[10,0] = EOB Indicator
+    CELL[10,1] = MPPR Indicator
+  ROW 11 | Place of Service(24b) | 22 HOSPITAL OUTPATIENT Facility: 34 | SERVICE LOCATION | -
+    CELL[11,0] = Place of Service(24b)
+    CELL[11,1] = 22 HOSPITAL OUTPATIENT Facility: 34
+    CELL[11,2] = SERVICE LOCATION
+  ROW 12 | Outcome | 01 DISCHARGED TO HOME OR SELF CARE Resp: Payer PRIMARY | - | -
+    CELL[12,0] = Outcome
+    CELL[12,1] = 01 DISCHARGED TO HOME OR SELF CARE Resp: Payer PRIMARY
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[26,5,1404,42] | conf=0.979 | text=Curamind Claims Management Maria Torres PROC003 Logout
+  WORD | bbox=[26,17,125,34] | text=Curamind
+  WORD | bbox=[142,17,295,35] | text=Claims Management
+  WORD | bbox=[1152,5,1194,42] | text=Maria Torres
+  WORD | bbox=[1238,15,1305,30] | text=PROC003
+  WORD | bbox=[1351,16,1404,33] | text=Logout
+LINE 1 | bbox=[1301,63,1444,78] | conf=0.982 | text=Back to Dashboard
+LINE 2 | bbox=[34,65,1419,108] | conf=0.919 | text=Professional Claim X Save changes
+  WORD | bbox=[34,65,164,108] | text=Professional Claim X
+  WORD | bbox=[1318,92,1419,108] | text=Save changes
+LINE 3 | bbox=[48,125,689,147] | conf=0.965 | text=Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  WORD | bbox=[48,128,124,144] | text=Claim Pg1
+  WORD | bbox=[161,125,228,147] | text=Prov pg2
+  WORD | bbox=[275,128,362,144] | text=Member Pg3
+  WORD | bbox=[412,128,510,144] | text=Diagnosis Pg4
+  WORD | bbox=[561,126,689,144] | text=Miscellaneous Pg5
+LINE 4 | bbox=[40,176,775,191] | conf=0.939 | text=Processor: Maria Torres Last edit:11/17/202510:41 ProcessorID:PROC003 Decision SLA: 3 days
+  WORD | bbox=[40,176,203,191] | text=Processor: Maria Torres
+  WORD | bbox=[238,176,434,191] | text=Last edit:11/17/202510:41
+  WORD | bbox=[427,176,607,191] | text=ProcessorID:PROC003
+  WORD | bbox=[633,176,775,191] | text=Decision SLA: 3 days
+LINE 5 | bbox=[34,217,1356,256] | conf=0.987 | text=Claim: Professional 25110335223941 Member ID: H6883848304 ID: Company CAPLUS P3CA OMNI
+  WORD | bbox=[34,236,80,256] | text=Claim:
+  WORD | bbox=[35,222,114,237] | text=Professional
+  WORD | bbox=[134,227,278,244] | text=25110335223941
+  WORD | bbox=[308,220,365,239] | text=Member
+  WORD | bbox=[308,237,334,255] | text=ID:
+  WORD | bbox=[380,229,480,245] | text=H6883848304
+  WORD | bbox=[952,233,979,255] | text=ID:
+  WORD | bbox=[955,220,1019,239] | text=Company
+  WORD | bbox=[1041,227,1099,247] | text=CAPLUS
+  WORD | bbox=[1313,217,1356,251] | text=P3CA OMNI
+LINE 6 | bbox=[34,266,1107,301] | conf=0.987 | text=Status: PENDING REVIEW Date Received: 11/03/2025 Service Date From: 10/15/2025
+  WORD | bbox=[34,277,84,297] | text=Status:
+  WORD | bbox=[361,278,479,293] | text=PENDING REVIEW
+  WORD | bbox=[518,269,553,286] | text=Date
+  WORD | bbox=[518,285,585,301] | text=Received:
+  WORD | bbox=[607,277,693,297] | text=11/03/2025
+  WORD | bbox=[913,266,996,285] | text=Service Date
+  WORD | bbox=[914,285,955,301] | text=From:
+  WORD | bbox=[1027,278,1107,294] | text=10/15/2025
+LINE 7 | bbox=[35,314,990,350] | conf=0.945 | text=Auth/Referral #1(23): 2510821271260593216 Auth/Referral #2(23) Auth/Referral #3(23):
+  WORD | bbox=[35,316,120,333] | text=Auth/Referral
+  WORD | bbox=[35,334,88,350] | text=#1(23):
+  WORD | bbox=[161,326,330,344] | text=2510821271260593216
+  WORD | bbox=[468,316,552,331] | text=Auth/Referral
+  WORD | bbox=[468,333,519,349] | text=#2(23)
+  WORD | bbox=[903,314,990,333] | text=Auth/Referral
+  WORD | bbox=[905,333,955,349] | text=#3(23):
+LINE 8 | bbox=[34,361,1024,398] | conf=0.991 | text=Auth/Ref Status: APPROVED Auth/Ref Status: Auth/Ref Status:
+  WORD | bbox=[34,361,93,384] | text=Auth/Ref
+  WORD | bbox=[35,381,83,398] | text=Status:
+  WORD | bbox=[393,374,469,391] | text=APPROVED
+  WORD | bbox=[516,364,575,398] | text=Auth/Ref Status:
+  WORD | bbox=[967,364,1024,397] | text=Auth/Ref Status:
+LINE 9 | bbox=[34,411,766,448] | conf=0.986 | text=Claim Type: Professional Priority: 1 HIGH
+  WORD | bbox=[34,411,75,432] | text=Claim
+  WORD | bbox=[35,430,74,448] | text=Type:
+  WORD | bbox=[104,422,189,438] | text=Professional
+  WORD | bbox=[412,417,468,441] | text=Priority:
+  WORD | bbox=[485,426,495,436] | text=1
+  WORD | bbox=[727,421,766,438] | text=HIGH
+LINE 10 | bbox=[38,469,229,487] | conf=0.968 | text=General Information
+LINE 11 | bbox=[33,497,451,534] | conf=0.985 | text=ID: Member H6883848304 GARCIA, RICHARD
+  WORD | bbox=[33,516,57,534] | text=ID:
+  WORD | bbox=[34,499,91,518] | text=Member
+  WORD | bbox=[136,508,236,524] | text=H6883848304
+  WORD | bbox=[384,497,446,520] | text=GARCIA,
+  WORD | bbox=[386,519,451,534] | text=RICHARD
+LINE 12 | bbox=[34,543,743,578] | conf=0.970 | text=Provider ID: 1098225172 MARTINEZ MD, ANNA LUCIA
+  WORD | bbox=[34,543,92,562] | text=Provider
+  WORD | bbox=[34,561,59,578] | text=ID:
+  WORD | bbox=[390,552,479,569] | text=1098225172
+  WORD | bbox=[642,545,743,578] | text=MARTINEZ MD, ANNA LUCIA
+LINE 13 | bbox=[34,588,507,627] | conf=0.975 | text=Primary Diagnosis: R07.9 CHEST PAIN, UNSPECIFIED
+  WORD | bbox=[34,590,88,611] | text=Primary
+  WORD | bbox=[34,608,103,627] | text=Diagnosis:
+  WORD | bbox=[159,598,207,619] | text=R07.9
+  WORD | bbox=[415,588,500,605] | text=CHEST PAIN,
+  WORD | bbox=[415,606,507,621] | text=UNSPECIFIED
+LINE 14 | bbox=[35,634,771,666] | conf=0.969 | text=Birth Date: 05/19/1987 Gender(3) M Marital Status:U
+  WORD | bbox=[35,634,69,651] | text=Birth
+  WORD | bbox=[35,650,74,666] | text=Date:
+  WORD | bbox=[115,642,197,658] | text=05/19/1987
+  WORD | bbox=[393,642,469,657] | text=Gender(3)
+  WORD | bbox=[487,642,503,657] | text=M
+  WORD | bbox=[654,640,771,657] | text=Marital Status:U
+LINE 15 | bbox=[35,683,424,700] | conf=0.944 | text=EOB Indicator MPPR Indicator
+  WORD | bbox=[35,684,141,700] | text=EOB Indicator
+  WORD | bbox=[309,683,424,700] | text=MPPR Indicator
+LINE 16 | bbox=[36,714,1035,751] | conf=0.990 | text=Place of Service(24b): 22 HOSPITAL OUTPATIENT Facility: 34 SERVICE LOCATION
+  WORD | bbox=[36,720,90,736] | text=Place of
+  WORD | bbox=[36,736,124,751] | text=Service(24b):
+  WORD | bbox=[158,726,184,744] | text=22
+  WORD | bbox=[435,735,500,751] | text=HOSPITAL
+  WORD | bbox=[436,719,517,735] | text=OUTPATIENT
+  WORD | bbox=[642,722,696,745] | text=Facility:
+  WORD | bbox=[712,726,737,744] | text=34
+  WORD | bbox=[965,714,1035,750] | text=SERVICE LOCATION
+LINE 17 | bbox=[36,760,778,798] | conf=0.982 | text=Outcome: 01 DISCHARGED TO HOME OR SELF CARE Resp: Payer PRIMARY
+  WORD | bbox=[36,770,103,786] | text=Outcome:
+  WORD | bbox=[110,771,136,788] | text=01
+  WORD | bbox=[359,764,602,779] | text=DISCHARGED TO HOME OR SELF CARE
+  WORD | bbox=[642,776,684,798] | text=Resp:
+  WORD | bbox=[643,760,685,782] | text=Payer
+  WORD | bbox=[712,766,778,789] | text=PRIMARY
+[/BOXES]
+
+[FIELDS]
+NPI: 1098225172
+[/FIELDS]

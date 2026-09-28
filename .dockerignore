@@ -1,0 +1,42 @@
+# Python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+
+.venv/
+venv/
+
+# Git
+
+.git
+.gitignore
+
+# IDE
+
+.vscode/
+.cursor/
+
+# Logs
+
+handler_checker/logs/*
+
+# Generated Outputs
+
+handler_checker/storage/originals/*
+handler_checker/storage/outputs/*
+
+# Metadata
+
+handler_checker/metadata/*.json
+
+# Queue
+
+handler_checker/queue/*.json
+
+# Tests
+
+tests/__pycache__/

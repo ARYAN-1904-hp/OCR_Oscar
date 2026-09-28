@@ -1,0 +1,248 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x1042 | blocks=13 | tables=2 | checkboxes=2
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 4x5
+HEADER | Curamind | Claims Management | Sarah Johnson | PROCO01 | Logout
+ROW 1 | Professional Claim | - | - | - | Back to Dashboard
+  CELL[1,0] = Professional Claim
+  CELL[1,4] = Back to Dashboard
+ROW 2 | X | - | - | - | Save changes
+  CELL[2,0] = X
+  CELL[2,4] = Save changes
+ROW 3 | Claim Pg1 | Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+  CELL[3,0] = Claim Pg1
+  CELL[3,1] = Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 13x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Processor: Sarah Johnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 | Decision SLA: 3 days | - | -
+  CELL[1,0] = Processor: Sarah Johnson Last edit: 11/17/2025 08:05 Processor ID:PROc001
+  CELL[1,1] = Decision SLA: 3 days
+ROW 2 | Provider NPI | 1098216607 Provider Name: MARTINEZ MD,ANNA LUCIA | - | -
+  CELL[2,0] = Provider NPI
+  CELL[2,1] = 1098216607 Provider Name: MARTINEZ MD,ANNA LUCIA
+ROW 3 | Tax ID | 884280110 Specialty Code: 207Q | FAMILY PRACTICE | -
+  CELL[3,0] = Tax ID
+  CELL[3,1] = 884280110 Specialty Code: 207Q
+  CELL[3,2] = FAMILY PRACTICE
+ROW 4 | Service Address | 689 Birch Rd,Fresno,CA | - | -
+  CELL[4,0] = Service Address
+  CELL[4,1] = 689 Birch Rd,Fresno,CA
+ROW 5 | Billing Address | 689 Birch Rd,Fresno,CA | - | -
+  CELL[5,0] = Billing Address
+  CELL[5,1] = 689 Birch Rd,Fresno,CA
+ROW 6 | Phone | 555747-8246 Fax: 555321-8546 | - | -
+  CELL[6,0] = Phone
+  CELL[6,1] = 555747-8246 Fax: 555321-8546
+ROW 7 | Contract Type | EPO-NETWORK Network Tier: 1 | OUT-OF-AREA | -
+  CELL[7,0] = Contract Type
+  CELL[7,1] = EPO-NETWORK Network Tier: 1
+  CELL[7,2] = OUT-OF-AREA
+ROW 8 | Referring Provider | SPECIALIST REFERRED | - | -
+  CELL[8,0] = Referring Provider
+  CELL[8,1] = SPECIALIST REFERRED
+ROW 9 | Provider Status | ACTIVE Effective Date: 01/01/2023 | Term Date | 12/31/9999
+  CELL[9,0] = Provider Status
+  CELL[9,1] = ACTIVE Effective Date: 01/01/2023
+  CELL[9,2] = Term Date
+  CELL[9,3] = 12/31/9999
+ROW 10 | Credentialing | - | - | -
+  CELL[10,0] = Credentialing
+ROW 11 | License # | A91941 DEA #: BA4369889 | Board Cert | NO
+  CELL[11,0] = License #
+  CELL[11,1] = A91941 DEA #: BA4369889
+  CELL[11,2] = Board Cert
+  CELL[11,3] = NO
+ROW 12 | Last Recredentialed | 06/15/2025 Next Review: 06/15/2027 | - | -
+  CELL[12,0] = Last Recredentialed
+  CELL[12,1] = 06/15/2025 Next Review: 06/15/2027
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[26,7,1404,41] | order=0
+  Curamind Claims Management Sarah Johnson PROCO01 Logout
+BLOCK 1 | type=header | bbox=[35,62,1445,108] | order=1
+  Professional Claim Back to Dashboard
+  X Save changes
+BLOCK 2 | type=table | bbox=[44,125,689,148] | order=2
+  Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+BLOCK 3 | type=table_row | bbox=[40,176,775,192] | order=3
+  Processor: Sarah Johnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 Decision SLA: 3 days
+BLOCK 4 | type=table_row | bbox=[40,240,237,258] | order=4
+  Provider Information
+BLOCK 5 | type=table_row | bbox=[39,281,754,314] | order=5
+  Provider NPI: 1098216607 Provider Name: MARTINEZ MD,ANNA LUCIA
+BLOCK 6 | type=table | bbox=[39,322,838,359] | order=6
+  Tax ID: 884280110 Specialty Code: 207Q FAMILY PRACTICE
+BLOCK 7 | type=table_row | bbox=[38,377,555,463] | order=7
+  Service Address: 689 Birch Rd,Fresno,CA
+  Billing Address: 689 Birch Rd,Fresno,CA
+  Phone: 555747-8246 Fax: 555321-8546
+BLOCK 8 | type=table | bbox=[40,478,916,513] | order=8
+  Contract Type: EPO-NETWORK Network Tier: 1 OUT-OF-AREA
+BLOCK 9 | type=table_row | bbox=[37,521,320,557] | order=9
+  Referring Provider: SPECIALIST REFERRED
+BLOCK 10 | type=table | bbox=[40,564,1052,599] | order=10
+  Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date: 12/31/9999
+BLOCK 11 | type=table_row | bbox=[41,652,169,677] | order=11
+  Credentialing
+BLOCK 12 | type=table | bbox=[38,695,897,778] | order=12
+  License #: A91941 DEA #: BA4369889 Board Cert: NO
+  Last Recredentialed: 06/15/2025 Next Review: 06/15/2027
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[37,176,1052,778] | shape=13x4 | conf=0.920
+  shape: 13x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Processor: Sarah Johnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 | Decision SLA: 3 days | - | -
+    CELL[1,0] = Processor: Sarah Johnson Last edit: 11/17/2025 08:05 Processor ID:PROc001
+    CELL[1,1] = Decision SLA: 3 days
+  ROW 2 | Provider NPI | 1098216607 Provider Name: MARTINEZ MD,ANNA LUCIA | - | -
+    CELL[2,0] = Provider NPI
+    CELL[2,1] = 1098216607 Provider Name: MARTINEZ MD,ANNA LUCIA
+  ROW 3 | Tax ID | 884280110 Specialty Code: 207Q | FAMILY PRACTICE | -
+    CELL[3,0] = Tax ID
+    CELL[3,1] = 884280110 Specialty Code: 207Q
+    CELL[3,2] = FAMILY PRACTICE
+  ROW 4 | Service Address | 689 Birch Rd,Fresno,CA | - | -
+    CELL[4,0] = Service Address
+    CELL[4,1] = 689 Birch Rd,Fresno,CA
+  ROW 5 | Billing Address | 689 Birch Rd,Fresno,CA | - | -
+    CELL[5,0] = Billing Address
+    CELL[5,1] = 689 Birch Rd,Fresno,CA
+  ROW 6 | Phone | 555747-8246 Fax: 555321-8546 | - | -
+    CELL[6,0] = Phone
+    CELL[6,1] = 555747-8246 Fax: 555321-8546
+  ROW 7 | Contract Type | EPO-NETWORK Network Tier: 1 | OUT-OF-AREA | -
+    CELL[7,0] = Contract Type
+    CELL[7,1] = EPO-NETWORK Network Tier: 1
+    CELL[7,2] = OUT-OF-AREA
+  ROW 8 | Referring Provider | SPECIALIST REFERRED | - | -
+    CELL[8,0] = Referring Provider
+    CELL[8,1] = SPECIALIST REFERRED
+  ROW 9 | Provider Status | ACTIVE Effective Date: 01/01/2023 | Term Date | 12/31/9999
+    CELL[9,0] = Provider Status
+    CELL[9,1] = ACTIVE Effective Date: 01/01/2023
+    CELL[9,2] = Term Date
+    CELL[9,3] = 12/31/9999
+  ROW 10 | Credentialing | - | - | -
+    CELL[10,0] = Credentialing
+  ROW 11 | License # | A91941 DEA #: BA4369889 | Board Cert | NO
+    CELL[11,0] = License #
+    CELL[11,1] = A91941 DEA #: BA4369889
+    CELL[11,2] = Board Cert
+    CELL[11,3] = NO
+  ROW 12 | Last Recredentialed | 06/15/2025 Next Review: 06/15/2027 | - | -
+    CELL[12,0] = Last Recredentialed
+    CELL[12,1] = 06/15/2025 Next Review: 06/15/2027
+TABLE 1 | source=wide_grid | bbox=[26,7,1445,148] | shape=4x5 | conf=0.850
+  shape: 4x5
+  HEADER | Curamind | Claims Management | Sarah Johnson | PROCO01 | Logout
+  ROW 1 | Professional Claim | - | - | - | Back to Dashboard
+    CELL[1,0] = Professional Claim
+    CELL[1,4] = Back to Dashboard
+  ROW 2 | X | - | - | - | Save changes
+    CELL[2,0] = X
+    CELL[2,4] = Save changes
+  ROW 3 | Claim Pg1 | Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+    CELL[3,0] = Claim Pg1
+    CELL[3,1] = Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+[/TABLES]
+
+[CHECKBOXES]
+CHECKBOX 0 | Translation Services Available: Unknown | column=left | source=image_ink
+CHECKBOX 1 | Translation Services Available: Unknown | column=right | source=image_ink | no_ink=False
+[/CHECKBOXES]
+
+[BOXES]
+LINE 0 | bbox=[26,7,1404,41] | conf=0.985 | text=Curamind Claims Management Sarah Johnson PROCO01 Logout
+  WORD | bbox=[26,17,125,34] | text=Curamind
+  WORD | bbox=[142,17,295,36] | text=Claims Management
+  WORD | bbox=[1152,7,1206,41] | text=Sarah Johnson
+  WORD | bbox=[1239,16,1304,31] | text=PROCO01
+  WORD | bbox=[1351,16,1404,33] | text=Logout
+LINE 1 | bbox=[35,62,1445,83] | conf=0.974 | text=Professional Claim Back to Dashboard
+  WORD | bbox=[35,67,163,83] | text=Professional Claim
+  WORD | bbox=[1302,62,1445,77] | text=Back to Dashboard
+LINE 2 | bbox=[129,92,1419,108] | conf=0.806 | text=X Save changes
+  WORD | bbox=[129,99,138,108] | text=X
+  WORD | bbox=[1318,92,1419,107] | text=Save changes
+LINE 3 | bbox=[44,125,689,148] | conf=0.974 | text=Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  WORD | bbox=[44,125,117,148] | text=Claim Pg1
+  WORD | bbox=[161,125,237,148] | text=Prov pg2
+  WORD | bbox=[274,128,362,144] | text=Member Pg3
+  WORD | bbox=[412,128,510,144] | text=Diagnosis Pg4
+  WORD | bbox=[561,126,689,144] | text=Miscellaneous Pg5
+LINE 4 | bbox=[40,176,775,192] | conf=0.939 | text=Processor: Sarah Johnson Last edit: 11/17/2025 08:05 Processor ID:PROc001 Decision SLA: 3 days
+  WORD | bbox=[40,177,219,192] | text=Processor: Sarah Johnson
+  WORD | bbox=[237,177,431,192] | text=Last edit: 11/17/2025 08:05
+  WORD | bbox=[437,176,607,191] | text=Processor ID:PROc001
+  WORD | bbox=[633,176,775,191] | text=Decision SLA: 3 days
+LINE 5 | bbox=[40,240,237,258] | conf=0.995 | text=Provider Information
+LINE 6 | bbox=[39,281,754,314] | conf=0.972 | text=Provider NPI: 1098216607 Provider Name: MARTINEZ MD,ANNA LUCIA
+  WORD | bbox=[39,281,95,314] | text=Provider NPI:
+  WORD | bbox=[130,288,219,305] | text=1098216607
+  WORD | bbox=[436,287,536,302] | text=Provider Name:
+  WORD | bbox=[562,287,754,302] | text=MARTINEZ MD,ANNA LUCIA
+LINE 7 | bbox=[39,322,838,359] | conf=0.989 | text=Tax ID: 884280110 Specialty Code: 207Q FAMILY PRACTICE
+  WORD | bbox=[39,327,64,359] | text=Tax ID:
+  WORD | bbox=[90,330,176,353] | text=884280110
+  WORD | bbox=[386,322,449,358] | text=Specialty Code:
+  WORD | bbox=[487,331,533,352] | text=207Q
+  WORD | bbox=[773,324,838,357] | text=FAMILY PRACTICE
+LINE 8 | bbox=[39,377,343,397] | conf=0.942 | text=Service Address: 689 Birch Rd,Fresno,CA
+  WORD | bbox=[39,377,148,394] | text=Service Address:
+  WORD | bbox=[172,378,343,397] | text=689 Birch Rd,Fresno,CA
+LINE 9 | bbox=[40,409,343,427] | conf=0.941 | text=Billing Address: 689 Birch Rd,Fresno,CA
+  WORD | bbox=[40,409,138,426] | text=Billing Address:
+  WORD | bbox=[172,412,343,427] | text=689 Birch Rd,Fresno,CA
+LINE 10 | bbox=[38,442,555,463] | conf=0.973 | text=Phone: 555747-8246 Fax: 555321-8546
+  WORD | bbox=[38,442,87,462] | text=Phone:
+  WORD | bbox=[110,447,219,463] | text=555747-8246
+  WORD | bbox=[404,443,435,459] | text=Fax:
+  WORD | bbox=[443,445,555,462] | text=555321-8546
+LINE 11 | bbox=[40,478,916,513] | conf=0.984 | text=Contract Type: EPO-NETWORK Network Tier: 1 OUT-OF-AREA
+  WORD | bbox=[40,479,97,513] | text=Contract Type:
+  WORD | bbox=[136,486,241,502] | text=EPO-NETWORK
+  WORD | bbox=[448,478,507,512] | text=Network Tier:
+  WORD | bbox=[534,485,548,500] | text=1
+  WORD | bbox=[821,484,916,501] | text=OUT-OF-AREA
+LINE 12 | bbox=[37,521,320,557] | conf=0.978 | text=Referring Provider: SPECIALIST REFERRED
+  WORD | bbox=[37,521,101,545] | text=Referring
+  WORD | bbox=[38,538,100,557] | text=Provider:
+  WORD | bbox=[162,530,320,549] | text=SPECIALIST REFERRED
+LINE 13 | bbox=[40,564,1052,599] | conf=0.986 | text=Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date: 12/31/9999
+  WORD | bbox=[40,566,96,599] | text=Provider Status:
+  WORD | bbox=[144,572,200,592] | text=ACTIVE
+  WORD | bbox=[469,565,530,599] | text=Effective Date:
+  WORD | bbox=[572,570,656,592] | text=01/01/2023
+  WORD | bbox=[879,564,918,597] | text=Term Date:
+  WORD | bbox=[967,570,1052,590] | text=12/31/9999
+LINE 14 | bbox=[41,652,169,677] | conf=1.000 | text=Credentialing
+LINE 15 | bbox=[38,695,897,730] | conf=0.972 | text=License #: A91941 DEA #: BA4369889 Board Cert: NO
+  WORD | bbox=[38,696,92,730] | text=License #:
+  WORD | bbox=[118,704,178,723] | text=A91941
+  WORD | bbox=[420,697,451,729] | text=DEA #:
+  WORD | bbox=[486,701,574,724] | text=BA4369889
+  WORD | bbox=[785,695,826,729] | text=Board Cert:
+  WORD | bbox=[865,701,897,722] | text=NO
+LINE 16 | bbox=[40,744,682,778] | conf=0.995 | text=Last Recredentialed: 06/15/2025 Next Review: 06/15/2027
+  WORD | bbox=[40,745,142,777] | text=Last Recredentialed:
+  WORD | bbox=[193,751,277,771] | text=06/15/2025
+  WORD | bbox=[486,744,541,778] | text=Next Review:
+  WORD | bbox=[599,750,682,770] | text=06/15/2027
+[/BOXES]
+
+[FIELDS]
+NPI: 1098216607
+[/FIELDS]

@@ -1,0 +1,203 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=17 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 21x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | MR | -
+  CELL[1,0] = VERINT
+  CELL[1,2] = MR
+ROW 2 | Knowledge Management | - | - | -
+  CELL[2,0] = Knowledge Management
+ROW 3 | Copy and paste the note template into both: | - | - | -
+  CELL[3,0] = Copy and paste the note template into both:
+ROW 4 | Cortex claim AND Appian ticket | - | - | -
+  CELL[4,0] = Cortex claim AND Appian ticket
+ROW 5 | Always add additional details as needed to give a clear explanation supporting the changes made. | - | - | -
+  CELL[5,0] = Always add additional details as needed to give a clear explanation supporting the changes made.
+ROW 6 | Not an Oscar MM | - | - | -
+  CELL[6,0] = Not an Oscar MM
+ROW 7 | Not an Oscar MM | - | - | -
+  CELL[7,0] = Not an Oscar MM
+ROW 8 | Workflow: | - | - | -
+  CELL[8,0] = Workflow:
+ROW 9 | Newborn | - | - | -
+  CELL[9,0] = Newborn
+ROW 10 | Changes Made: | - | - | -
+  CELL[10,0] = Changes Made:
+ROW 11 | Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim. | - | - | -
+  CELL[11,0] = Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.
+ROW 12 | Reason for changes: | - | - | -
+  CELL[12,0] = Reason for changes:
+ROW 13 | No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s) | - | - | -
+  CELL[13,0] = No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)
+ROW 14 | BABY | - | - | -
+  CELL[14,0] = BABY
+ROW 15 | Baby | - | - | -
+  CELL[15,0] = Baby
+ROW 16 | Workflow: | - | - | -
+  CELL[16,0] = Workflow:
+ROW 17 | Newborn | - | - | -
+  CELL[17,0] = Newborn
+ROW 18 | Changes Made: | - | - | -
+  CELL[18,0] = Changes Made:
+ROW 19 | Suppress Newborn Blocker | To allow Claim to process as Submitted on Baby's Active Policy. | - | -
+  CELL[19,0] = Suppress Newborn Blocker
+  CELL[19,1] = To allow Claim to process as Submitted on Baby's Active Policy.
+ROW 20 | Reason for changes: | - | - | -
+  CELL[20,0] = Reason for changes:
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x3
+HEADER | Filters Search | 8 Newborn 7/10/26 - KM1014156 | 9 x
+ROW 1 | - | 4 ratings #** | .:
+  CELL[1,1] = 4 ratings #**
+  CELL[1,2] = .:
+ROW 2 | - | Skip To: Private Information | Tags | Refresh
+  CELL[2,1] = Skip To: Private Information | Tags
+  CELL[2,2] = Refresh
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[59,18,1568,39] | order=0
+  VERINT MR
+BLOCK 1 | type=header | bbox=[30,42,175,55] | order=1
+  Knowledge Management
+BLOCK 2 | type=paragraph | bbox=[0,84,1591,134] | order=2
+  Filters Search 8 Newborn 7/10/26 - KM1014156 9 x
+BLOCK 3 | type=label_value | bbox=[41,130,1585,242] | order=3
+  4 ratings #** .:
+  Skip To: Private Information | Tags Refresh
+  Copy and paste the note template into both:
+BLOCK 4 | type=heading | bbox=[99,258,249,298] | order=4
+  Cortex claim AND Appian ticket
+BLOCK 5 | type=paragraph | bbox=[72,312,896,406] | order=5
+  Always add additional details as needed to give a clear explanation supporting the changes made.
+  Not an Oscar MM
+  Not an Oscar MM
+BLOCK 6 | type=label_value | bbox=[73,413,160,438] | order=6
+  Workflow:
+BLOCK 7 | type=paragraph | bbox=[75,438,145,456] | order=7
+  Newborn
+BLOCK 8 | type=label_value | bbox=[76,466,204,486] | order=8
+  Changes Made:
+BLOCK 9 | type=paragraph | bbox=[74,481,546,524] | order=9
+  Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.
+BLOCK 10 | type=label_value | bbox=[78,536,244,552] | order=10
+  Reason for changes:
+BLOCK 11 | type=paragraph | bbox=[75,552,848,595] | order=11
+  No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)
+  BABY
+BLOCK 12 | type=heading | bbox=[74,612,127,640] | order=12
+  Baby
+BLOCK 13 | type=label_value | bbox=[75,643,162,667] | order=13
+  Workflow:
+BLOCK 14 | type=paragraph | bbox=[75,667,146,685] | order=14
+  Newborn
+BLOCK 15 | type=label_value | bbox=[78,695,205,715] | order=15
+  Changes Made:
+BLOCK 16 | type=footer | bbox=[75,712,759,763] | order=16
+  Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.
+  Reason for changes:
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[30,18,1568,763] | shape=21x4 | conf=0.920
+  shape: 21x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | MR | -
+    CELL[1,0] = VERINT
+    CELL[1,2] = MR
+  ROW 2 | Knowledge Management | - | - | -
+    CELL[2,0] = Knowledge Management
+  ROW 3 | Copy and paste the note template into both: | - | - | -
+    CELL[3,0] = Copy and paste the note template into both:
+  ROW 4 | Cortex claim AND Appian ticket | - | - | -
+    CELL[4,0] = Cortex claim AND Appian ticket
+  ROW 5 | Always add additional details as needed to give a clear explanation supporting the changes made. | - | - | -
+    CELL[5,0] = Always add additional details as needed to give a clear explanation supporting the changes made.
+  ROW 6 | Not an Oscar MM | - | - | -
+    CELL[6,0] = Not an Oscar MM
+  ROW 7 | Not an Oscar MM | - | - | -
+    CELL[7,0] = Not an Oscar MM
+  ROW 8 | Workflow: | - | - | -
+    CELL[8,0] = Workflow:
+  ROW 9 | Newborn | - | - | -
+    CELL[9,0] = Newborn
+  ROW 10 | Changes Made: | - | - | -
+    CELL[10,0] = Changes Made:
+  ROW 11 | Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim. | - | - | -
+    CELL[11,0] = Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.
+  ROW 12 | Reason for changes: | - | - | -
+    CELL[12,0] = Reason for changes:
+  ROW 13 | No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s) | - | - | -
+    CELL[13,0] = No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)
+  ROW 14 | BABY | - | - | -
+    CELL[14,0] = BABY
+  ROW 15 | Baby | - | - | -
+    CELL[15,0] = Baby
+  ROW 16 | Workflow: | - | - | -
+    CELL[16,0] = Workflow:
+  ROW 17 | Newborn | - | - | -
+    CELL[17,0] = Newborn
+  ROW 18 | Changes Made: | - | - | -
+    CELL[18,0] = Changes Made:
+  ROW 19 | Suppress Newborn Blocker | To allow Claim to process as Submitted on Baby's Active Policy. | - | -
+    CELL[19,0] = Suppress Newborn Blocker
+    CELL[19,1] = To allow Claim to process as Submitted on Baby's Active Policy.
+  ROW 20 | Reason for changes: | - | - | -
+    CELL[20,0] = Reason for changes:
+TABLE 1 | source=wide_grid | bbox=[0,84,1591,195] | shape=3x3 | conf=0.850
+  shape: 3x3
+  HEADER | Filters Search | 8 Newborn 7/10/26 - KM1014156 | 9 x
+  ROW 1 | - | 4 ratings #** | .:
+    CELL[1,1] = 4 ratings #**
+    CELL[1,2] = .:
+  ROW 2 | - | Skip To: Private Information | Tags | Refresh
+    CELL[2,1] = Skip To: Private Information | Tags
+    CELL[2,2] = Refresh
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,18,1568,39] | conf=0.996 | text=VERINT MR
+  WORD | bbox=[59,18,148,36] | text=VERINT
+  WORD | bbox=[1540,25,1568,39] | text=MR
+LINE 1 | bbox=[30,42,175,55] | conf=0.985 | text=Knowledge Management
+LINE 2 | bbox=[0,84,1591,134] | conf=0.861 | text=Filters Search 8 Newborn 7/10/26 - KM1014156 9 x
+  WORD | bbox=[0,91,15,129] | text=Filters
+  WORD | bbox=[15,89,32,134] | text=Search
+  WORD | bbox=[49,87,80,115] | text=8
+  WORD | bbox=[90,85,225,123] | text=Newborn 7/10/26 - KM1014156
+  WORD | bbox=[1543,84,1591,113] | text=9 x
+LINE 3 | bbox=[41,130,1585,155] | conf=0.815 | text=4 ratings #** .:
+  WORD | bbox=[41,135,207,155] | text=4 ratings #**
+  WORD | bbox=[1540,130,1585,154] | text=.:
+LINE 4 | bbox=[44,174,1585,195] | conf=0.970 | text=Skip To: Private Information | Tags Refresh
+  WORD | bbox=[44,178,255,195] | text=Skip To: Private Information | Tags
+  WORD | bbox=[1534,174,1585,192] | text=Refresh
+LINE 5 | bbox=[72,223,398,242] | conf=0.958 | text=Copy and paste the note template into both:
+LINE 6 | bbox=[99,258,249,298] | conf=0.952 | text=Cortex claim AND Appian ticket
+LINE 7 | bbox=[72,312,798,334] | conf=0.985 | text=Always add additional details as needed to give a clear explanation supporting the changes made.
+LINE 8 | bbox=[736,345,896,365] | conf=0.982 | text=Not an Oscar MM
+LINE 9 | bbox=[75,386,236,406] | conf=0.963 | text=Not an Oscar MM
+LINE 10 | bbox=[73,413,160,438] | conf=0.998 | text=Workflow:
+LINE 11 | bbox=[75,438,145,456] | conf=0.998 | text=Newborn
+LINE 12 | bbox=[76,466,204,486] | conf=0.989 | text=Changes Made:
+LINE 13 | bbox=[74,481,546,524] | conf=0.982 | text=Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.
+LINE 14 | bbox=[78,536,244,552] | conf=0.974 | text=Reason for changes:
+LINE 15 | bbox=[75,552,719,572] | conf=0.964 | text=No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)
+LINE 16 | bbox=[789,573,848,595] | conf=0.997 | text=BABY
+LINE 17 | bbox=[74,612,127,640] | conf=0.999 | text=Baby
+LINE 18 | bbox=[75,643,162,667] | conf=0.991 | text=Workflow:
+LINE 19 | bbox=[75,667,146,685] | conf=0.999 | text=Newborn
+LINE 20 | bbox=[78,695,205,715] | conf=0.962 | text=Changes Made:
+LINE 21 | bbox=[75,712,759,735] | conf=0.986 | text=Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.
+LINE 22 | bbox=[79,746,245,763] | conf=0.984 | text=Reason for changes:
+[/BOXES]

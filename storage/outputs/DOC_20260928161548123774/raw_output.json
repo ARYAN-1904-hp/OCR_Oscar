@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Knowledge Management VERINT MR",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "Knowledge Management VERINT MR",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [],
+          "text": ""
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            30,
+            13,
+            1569,
+            55
+          ],
+          "text": "Knowledge Management VERINT MR",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Knowledge Management VERINT MR",
+              "conf": 0.9951707323392233,
+              "bbox": [
+                30,
+                13,
+                1569,
+                55
+              ],
+              "words": [
+                {
+                  "text": "Knowledge Management",
+                  "conf": 0.9910440444946289,
+                  "bbox": [
+                    30,
+                    38,
+                    179,
+                    55
+                  ]
+                },
+                {
+                  "text": "VERINT",
+                  "conf": 0.998042643070221,
+                  "bbox": [
+                    59,
+                    13,
+                    150,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR",
+                  "conf": 0.9964255094528198,
+                  "bbox": [
+                    1539,
+                    25,
+                    1569,
+                    45
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Knowledge Management VERINT MR",
+          "conf": 0.9951707323392233,
+          "bbox": [
+            30,
+            13,
+            1569,
+            55
+          ],
+          "words": [
+            {
+              "text": "Knowledge Management",
+              "conf": 0.9910440444946289,
+              "bbox": [
+                30,
+                38,
+                179,
+                55
+              ]
+            },
+            {
+              "text": "VERINT",
+              "conf": 0.998042643070221,
+              "bbox": [
+                59,
+                13,
+                150,
+                34
+              ]
+            },
+            {
+              "text": "MR",
+              "conf": 0.9964255094528198,
+              "bbox": [
+                1539,
+                25,
+                1569,
+                45
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

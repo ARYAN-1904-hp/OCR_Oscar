@@ -1,0 +1,256 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x871 | blocks=9 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 13x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims | appian
+  CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+  CELL[1,2] = Claims
+  CELL[1,3] = appian
+ROW 2 | HOLD-5892354 Production Hold | - | - | -
+  CELL[2,0] = HOLD-5892354 Production Hold
+ROW 3 | Ticket Info Re-triage. | - | PAUSE ESCALATE WITHDRAW RESOLVE | -
+  CELL[3,0] = Ticket Info Re-triage.
+  CELL[3,2] = PAUSE ESCALATE WITHDRAW RESOLVE
+ROW 4 | NEWBORN hold on claim PPBBYRWE In Progress (In Review) | - | - | -
+  CELL[4,0] = NEWBORN hold on claim PPBBYRWE In Progress (In Review)
+ROW 5 | LOB | Individual | - | -
+  CELL[5,0] = LOB
+  CELL[5,1] = Individual
+ROW 6 | The claim is for a newborn and requires manual review | - | Additional Info Issue | -
+  CELL[6,0] = The claim is for a newborn and requires manual review
+  CELL[6,2] = Additional Info Issue
+ROW 7 | - | - | Other | -
+  CELL[7,2] = Other
+ROW 8 | Tenant | Oscar | - | -
+  CELL[8,0] = Tenant
+  CELL[8,1] = Oscar
+ROW 9 | - | - | Code | NEWBORN
+  CELL[9,2] = Code
+  CELL[9,3] = NEWBORN
+ROW 10 | - | - | System | Ocelot
+  CELL[10,2] = System
+  CELL[10,3] = Ocelot
+ROW 11 | Claim Info OcelotID | - | - | -
+  CELL[11,0] = Claim Info OcelotID
+ROW 12 | PPBBYRWE | - | - | -
+  CELL[12,0] = PPBBYRWE
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 8x4
+HEADER | P3 | Due | 07/29/2026 | Assignee
+ROW 1 | >Skill:NEWBORN | SLA | All Holds SLA (minus High$) (7 working days) | Submitter Internal
+  CELL[1,0] = >Skill:NEWBORN
+  CELL[1,1] = SLA
+  CELL[1,2] = All Holds SLA (minus High$) (7 working days)
+  CELL[1,3] = Submitter Internal
+ROW 2 | - | Created On | 7/20/2026 9:16 AM EDT | Created By svc.automat
+  CELL[2,1] = Created On
+  CELL[2,2] = 7/20/2026 9:16 AM EDT
+  CELL[2,3] = Created By svc.automat
+ROW 3 | Member Info Member ID | Updated On | 7/23/2026 6:28PMEDT | Updated By
+  CELL[3,0] = Member Info Member ID
+  CELL[3,1] = Updated On
+  CELL[3,2] = 7/23/2026 6:28PMEDT
+  CELL[3,3] = Updated By
+ROW 4 | OSCID | Closed On | - | Closed By
+  CELL[4,0] = OSCID
+  CELL[4,1] = Closed On
+  CELL[4,3] = Closed By
+ROW 5 | State FL | Reported On | - | Reporter
+  CELL[5,0] = State FL
+  CELL[5,1] = Reported On
+  CELL[5,3] = Reporter
+ROW 6 | Plan Type | Source | Automat (appian_hold_ticket_creation) | Watchers 0 WATCH
+  CELL[6,0] = Plan Type
+  CELL[6,1] = Source
+  CELL[6,2] = Automat (appian_hold_ticket_creation)
+  CELL[6,3] = Watchers 0 WATCH
+ROW 7 | ICHRA | Labels | - | -
+  CELL[7,0] = ICHRA
+  CELL[7,1] = Labels
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[53,19,1587,48] | order=0
+  Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims- appian
+BLOCK 1 | type=header | bbox=[27,90,428,112] | order=1
+  HOLD-5892354 Production Hold
+BLOCK 2 | type=table | bbox=[42,167,1537,575] | order=2
+  NEWBORN hold on claim PPBBYRWE In Progress (In Review) Ticket Info Re-triage. PAUSE ESCALATE WITHDRAW RESOLVE
+  P3 Due 07/29/2026 Assignee
+  >Skill:NEWBORN SLA All Holds SLA (minus High$) (7 working days) Submitter Internal
+  Created On 7/20/2026 9: 16 AM EDT Created By svc.automat
+  Member Info Member ID Updated On 7/23/2026 6: 28PMEDT Updated By
+  OSCID Closed On Closed By
+  State FL Reported On Reporter
+  Plan Type Source Automat (appian_hold_ticket_creation) Watchers 0 WATCH
+BLOCK 3 | type=table_row | bbox=[52,599,493,624] | order=3
+  ICHRA Labels
+BLOCK 4 | type=table | bbox=[48,655,1233,716] | order=4
+  LOB Individual The claim is for a newborn and requires manual review Additional Info Issue Other
+BLOCK 5 | type=table_row | bbox=[52,707,276,737] | order=5
+  Tenant Oscar
+BLOCK 6 | type=table_row | bbox=[1010,747,1268,772] | order=6
+  Code NEWBORN
+BLOCK 7 | type=footer | bbox=[1010,801,1240,827] | order=7
+  System Ocelot
+BLOCK 8 | type=footer | bbox=[52,817,315,870] | order=8
+  Claim Info OcelotID PPBBYRWE
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[27,19,1587,870] | shape=13x4 | conf=0.920
+  shape: 13x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims | appian
+    CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+    CELL[1,2] = Claims
+    CELL[1,3] = appian
+  ROW 2 | HOLD-5892354 Production Hold | - | - | -
+    CELL[2,0] = HOLD-5892354 Production Hold
+  ROW 3 | Ticket Info Re-triage. | - | PAUSE ESCALATE WITHDRAW RESOLVE | -
+    CELL[3,0] = Ticket Info Re-triage.
+    CELL[3,2] = PAUSE ESCALATE WITHDRAW RESOLVE
+  ROW 4 | NEWBORN hold on claim PPBBYRWE In Progress (In Review) | - | - | -
+    CELL[4,0] = NEWBORN hold on claim PPBBYRWE In Progress (In Review)
+  ROW 5 | LOB | Individual | - | -
+    CELL[5,0] = LOB
+    CELL[5,1] = Individual
+  ROW 6 | The claim is for a newborn and requires manual review | - | Additional Info Issue | -
+    CELL[6,0] = The claim is for a newborn and requires manual review
+    CELL[6,2] = Additional Info Issue
+  ROW 7 | - | - | Other | -
+    CELL[7,2] = Other
+  ROW 8 | Tenant | Oscar | - | -
+    CELL[8,0] = Tenant
+    CELL[8,1] = Oscar
+  ROW 9 | - | - | Code | NEWBORN
+    CELL[9,2] = Code
+    CELL[9,3] = NEWBORN
+  ROW 10 | - | - | System | Ocelot
+    CELL[10,2] = System
+    CELL[10,3] = Ocelot
+  ROW 11 | Claim Info OcelotID | - | - | -
+    CELL[11,0] = Claim Info OcelotID
+  ROW 12 | PPBBYRWE | - | - | -
+    CELL[12,0] = PPBBYRWE
+TABLE 1 | source=wide_grid | bbox=[42,208,1290,624] | shape=8x4 | conf=0.850
+  shape: 8x4
+  HEADER | P3 | Due | 07/29/2026 | Assignee
+  ROW 1 | >Skill:NEWBORN | SLA | All Holds SLA (minus High$) (7 working days) | Submitter Internal
+    CELL[1,0] = >Skill:NEWBORN
+    CELL[1,1] = SLA
+    CELL[1,2] = All Holds SLA (minus High$) (7 working days)
+    CELL[1,3] = Submitter Internal
+  ROW 2 | - | Created On | 7/20/2026 9:16 AM EDT | Created By svc.automat
+    CELL[2,1] = Created On
+    CELL[2,2] = 7/20/2026 9:16 AM EDT
+    CELL[2,3] = Created By svc.automat
+  ROW 3 | Member Info Member ID | Updated On | 7/23/2026 6:28PMEDT | Updated By
+    CELL[3,0] = Member Info Member ID
+    CELL[3,1] = Updated On
+    CELL[3,2] = 7/23/2026 6:28PMEDT
+    CELL[3,3] = Updated By
+  ROW 4 | OSCID | Closed On | - | Closed By
+    CELL[4,0] = OSCID
+    CELL[4,1] = Closed On
+    CELL[4,3] = Closed By
+  ROW 5 | State FL | Reported On | - | Reporter
+    CELL[5,0] = State FL
+    CELL[5,1] = Reported On
+    CELL[5,3] = Reporter
+  ROW 6 | Plan Type | Source | Automat (appian_hold_ticket_creation) | Watchers 0 WATCH
+    CELL[6,0] = Plan Type
+    CELL[6,1] = Source
+    CELL[6,2] = Automat (appian_hold_ticket_creation)
+    CELL[6,3] = Watchers 0 WATCH
+  ROW 7 | ICHRA | Labels | - | -
+    CELL[7,0] = ICHRA
+    CELL[7,1] = Labels
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[53,19,1587,48] | conf=0.995 | text=Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims- appian
+  WORD | bbox=[53,20,132,48] | text=Claims
+  WORD | bbox=[172,22,225,41] | text=HOME
+  WORD | bbox=[247,22,340,39] | text=INVENTORY
+  WORD | bbox=[367,22,485,39] | text=CREATE TICKET
+  WORD | bbox=[510,22,603,39] | text=UNARCHIVE
+  WORD | bbox=[1387,19,1470,41] | text=Claims
+  WORD | bbox=[1535,20,1587,39] | text=appian
+LINE 1 | bbox=[27,90,428,112] | conf=0.960 | text=HOLD-5892354 Production Hold
+LINE 2 | bbox=[48,167,1537,228] | conf=0.986 | text=NEWBORN hold on claim PPBBYRWE In Progress (In Review) Ticket Info Re-triage. PAUSE ESCALATE WITHDRAW RESOLVE
+  WORD | bbox=[48,167,390,228] | text=NEWBORN hold on claim PPBBYRWE In Progress (In Review)
+  WORD | bbox=[427,167,727,194] | text=Ticket Info Re-triage.
+  WORD | bbox=[1028,170,1080,189] | text=PAUSE
+  WORD | bbox=[1165,168,1245,191] | text=ESCALATE
+  WORD | bbox=[1310,168,1398,191] | text=WITHDRAW
+  WORD | bbox=[1472,168,1537,187] | text=RESOLVE
+LINE 3 | bbox=[42,208,1082,243] | conf=0.996 | text=P3 Due 07/29/2026 Assignee
+  WORD | bbox=[42,208,77,226] | text=P3
+  WORD | bbox=[437,218,475,243] | text=Due
+  WORD | bbox=[615,219,700,236] | text=07/29/2026
+  WORD | bbox=[1008,218,1082,240] | text=Assignee
+LINE 4 | bbox=[53,272,1245,298] | conf=0.977 | text=>Skill:NEWBORN SLA All Holds SLA (minus High$) (7 working days) Submitter Internal
+  WORD | bbox=[53,272,210,289] | text=>Skill:NEWBORN
+  WORD | bbox=[437,272,475,298] | text=SLA
+  WORD | bbox=[615,274,933,291] | text=All Holds SLA (minus High$) (7 working days)
+  WORD | bbox=[1010,274,1090,291] | text=Submitter
+  WORD | bbox=[1183,272,1245,291] | text=Internal
+LINE 5 | bbox=[440,325,1283,350] | conf=0.990 | text=Created On 7/20/2026 9: 16 AM EDT Created By svc.automat
+  WORD | bbox=[440,328,528,350] | text=Created On
+  WORD | bbox=[613,325,785,347] | text=7/20/2026 9:16 AM EDT
+  WORD | bbox=[1010,327,1097,349] | text=Created By
+  WORD | bbox=[1185,325,1283,345] | text=svc.automat
+LINE 6 | bbox=[48,354,1100,412] | conf=0.981 | text=Member Info Member ID Updated On 7/23/2026 6: 28PMEDT Updated By
+  WORD | bbox=[48,354,178,412] | text=Member Info Member ID
+  WORD | bbox=[438,381,535,403] | text=Updated On
+  WORD | bbox=[613,379,785,400] | text=7/23/2026 6:28PMEDT
+  WORD | bbox=[1010,381,1100,403] | text=Updated By
+LINE 7 | bbox=[50,434,1087,464] | conf=0.996 | text=OSCID Closed On Closed By
+  WORD | bbox=[50,441,108,464] | text=OSCID
+  WORD | bbox=[440,436,522,458] | text=Closed On
+  WORD | bbox=[1010,434,1087,458] | text=Closed By
+LINE 8 | bbox=[48,486,1082,519] | conf=0.994 | text=State FL Reported On Reporter
+  WORD | bbox=[48,495,98,519] | text=State
+  WORD | bbox=[223,495,248,517] | text=FL
+  WORD | bbox=[442,493,537,510] | text=Reported On
+  WORD | bbox=[1008,486,1082,512] | text=Reporter
+LINE 9 | bbox=[48,541,1290,575] | conf=0.943 | text=Plan Type Source Automat (appian_hold_ticket_creation) Watchers 0 WATCH
+  WORD | bbox=[48,547,125,575] | text=Plan Type
+  WORD | bbox=[442,546,497,565] | text=Source
+  WORD | bbox=[615,543,900,565] | text=Automat (appian_hold_ticket_creation)
+  WORD | bbox=[1010,541,1087,563] | text=Watchers
+  WORD | bbox=[1180,551,1195,565] | text=0
+  WORD | bbox=[1207,548,1290,570] | text=WATCH
+LINE 10 | bbox=[52,599,493,624] | conf=0.998 | text=ICHRA Labels
+  WORD | bbox=[52,606,105,624] | text=ICHRA
+  WORD | bbox=[440,599,493,618] | text=Labels
+LINE 11 | bbox=[48,655,1233,716] | conf=0.994 | text=LOB Individual The claim is for a newborn and requires manual review Additional Info Issue Other
+  WORD | bbox=[48,657,90,682] | text=LOB
+  WORD | bbox=[225,655,302,679] | text=Individual
+  WORD | bbox=[457,680,843,697] | text=The claim is for a newborn and requires manual review
+  WORD | bbox=[1010,658,1145,716] | text=Additional Info Issue
+  WORD | bbox=[1183,692,1233,716] | text=Other
+LINE 12 | bbox=[52,707,276,737] | conf=0.999 | text=Tenant Oscar
+  WORD | bbox=[52,714,108,733] | text=Tenant
+  WORD | bbox=[223,707,276,737] | text=Oscar
+LINE 13 | bbox=[1010,747,1268,772] | conf=0.972 | text=Code NEWBORN
+  WORD | bbox=[1010,749,1055,772] | text=Code
+  WORD | bbox=[1183,747,1268,769] | text=NEWBORN
+LINE 14 | bbox=[1010,801,1240,827] | conf=1.000 | text=System Ocelot
+  WORD | bbox=[1010,803,1073,827] | text=System
+  WORD | bbox=[1185,801,1240,825] | text=Ocelot
+LINE 15 | bbox=[52,817,315,870] | conf=0.973 | text=Claim Info OcelotID PPBBYRWE
+  WORD | bbox=[52,817,158,870] | text=Claim Info OcelotID
+  WORD | bbox=[227,849,315,870] | text=PPBBYRWE
+[/BOXES]

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>OCR Layout Preview</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #dfe6eb;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      color: #24343d;
+    }
+    .hint {
+      margin: 0 0 14px;
+      font-size: 12px;
+      color: #5a6d78;
+    }
+    .page-wrap {
+      margin: 0 auto 24px;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,.15);
+      line-height: 0;
+    }
+    .page {
+      position: relative;
+      margin: 0 auto;
+      background: #fff;
+    }
+    .page-img {
+      display: block;
+      width: 100%;
+      height: auto;
+      /* never stretch/squash — page box matches image pixel size */
+    }
+    .overlay {
+      position: absolute;
+      left: 0;
+      top: 0;
+      pointer-events: none;
+    }
+    .box-table, .box-block {
+      position: absolute;
+      pointer-events: none;
+    }
+    .box-table {
+      border: 2px solid rgba(20, 140, 90, 0.95);
+      background: rgba(20, 140, 90, 0.08);
+    }
+    .box-block {
+      border: 1px solid rgba(25, 105, 160, 0.75);
+      background: rgba(25, 105, 160, 0.04);
+    }
+    .box-block.type-heading,
+    .box-block.type-header {
+      border-color: rgba(110, 70, 170, 0.85);
+      background: rgba(110, 70, 170, 0.05);
+    }
+    .plain {
+      margin: 16px;
+      line-height: 1.4;
+      white-space: pre-wrap;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h1>OCR Layout Preview</h1>
+  <p class="hint">Reference image shown exactly as <code>source_preview</code> (native size, no stretch). Boxes are scaled to that image.</p>
+  <div class="page-wrap" style="width:1275px;"><section class="page" style="width:1275px;height:1650px;"><img class="page-img" src="source_preview.png" width="1275" height="1650" alt="source preview page 1" /><div class="overlay" style="width:1275px;height:1650px;"><div class="box-table" title="TABLE 0 (two_column_form)" style="left:150px;top:233px;width:912px;height:1336px;"></div>
+<div class="box-table" title="TABLE 1 (wide_grid)" style="left:188px;top:1231px;width:924px;height:92px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 0: paragraph" style="left:319px;top:233px;width:639px;height:40px;"></div>
+<div class="box-block type-heading" title="BLOCK 1: heading" style="left:150px;top:296px;width:871px;height:39px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 2: paragraph" style="left:150px;top:362px;width:765px;height:51px;"></div>
+<div class="box-block type-table" title="BLOCK 3: table" style="left:150px;top:415px;width:975px;height:125px;"></div>
+<div class="box-block type-table_row" title="BLOCK 4: table_row" style="left:162px;top:417px;width:888px;height:25px;"></div>
+<div class="box-block type-table_row" title="BLOCK 5: table_row" style="left:162px;top:448px;width:521px;height:25px;"></div>
+<div class="box-block type-table_row" title="BLOCK 6: table_row" style="left:162px;top:479px;width:613px;height:56px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 7: paragraph" style="left:213px;top:592px;width:849px;height:35px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 8: paragraph" style="left:535px;top:631px;width:215px;height:36px;"></div>
+<div class="box-block type-heading" title="BLOCK 9: heading" style="left:150px;top:690px;width:538px;height:39px;"></div>
+<div class="box-block type-heading" title="BLOCK 10: heading" style="left:150px;top:752px;width:335px;height:33px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 11: paragraph" style="left:188px;top:804px;width:327px;height:36px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 12: paragraph" style="left:188px;top:842px;width:310px;height:35px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 13: paragraph" style="left:188px;top:879px;width:381px;height:36px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 14: paragraph" style="left:188px;top:917px;width:308px;height:33px;"></div>
+<div class="box-block type-paragraph" title="BLOCK 15: paragraph" style="left:188px;top:954px;width:241px;height:34px;"></div>
+<div class="box-block type-heading" title="BLOCK 16: heading" style="left:188px;top:992px;width:447px;height:33px;"></div>
+<div class="box-block type-heading" title="BLOCK 17: heading" style="left:150px;top:1044px;width:733px;height:33px;"></div>
+<div class="box-block type-heading" title="BLOCK 18: heading" style="left:150px;top:1094px;width:752px;height:33px;"></div>
+<div class="box-block type-heading" title="BLOCK 19: heading" style="left:150px;top:1144px;width:458px;height:33px;"></div>
+<div class="box-block type-heading" title="BLOCK 20: heading" style="left:150px;top:1194px;width:323px;height:33px;"></div>
+<div class="box-block type-table" title="BLOCK 21: table" style="left:188px;top:1231px;width:937px;height:307px;"></div>
+<div class="box-block type-table_row" title="BLOCK 22: table_row" style="left:410px;top:1231px;width:709px;height:29px;"></div>
+<div class="box-block type-table_row" title="BLOCK 23: table_row" style="left:188px;top:1269px;width:795px;height:23px;"></div>
+<div class="box-block type-table_row" title="BLOCK 24: table_row" style="left:188px;top:1300px;width:795px;height:23px;"></div>
+<div class="box-block type-table_row" title="BLOCK 25: table_row" style="left:188px;top:1331px;width:652px;height:81px;"></div>
+<div class="box-block type-table_row" title="BLOCK 26: table_row" style="left:835px;top:1331px;width:148px;height:23px;"></div>
+<div class="box-block type-table_row" title="BLOCK 27: table_row" style="left:188px;top:1421px;width:581px;height:52px;"></div>
+<div class="box-block type-table_row" title="BLOCK 28: table_row" style="left:835px;top:1421px;width:148px;height:23px;"></div>
+<div class="box-block type-table_row" title="BLOCK 29: table_row" style="left:188px;top:1481px;width:604px;height:52px;"></div>
+<div class="box-block type-table_row" title="BLOCK 30: table_row" style="left:835px;top:1481px;width:148px;height:23px;"></div>
+<div class="box-block type-footer" title="BLOCK 31: footer" style="left:188px;top:1538px;width:866px;height:31px;"></div></div></section></div>
+</body>
+</html>

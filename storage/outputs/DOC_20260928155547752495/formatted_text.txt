@@ -1,0 +1,415 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=17 | tables=6 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x8
+HEADER | Cortex-Claim#7S7PQ98D | Latest version (7 of 7) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 3 hours ago | Readjudicate | Actions | -
+  CELL[1,0] = About thls claim Payment Patlent
+  CELL[1,1] = Providers Medical Claim lines
+  CELL[1,4] = 3 hours ago
+  CELL[1,5] = Readjudicate
+  CELL[1,6] = Actions
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 15x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Internationairroviaer | NO | - | -
+  CELL[1,0] = Internationairroviaer
+  CELL[1,1] = NO
+ROW 2 | 7S7PQ98D | Is Medicaid reclamation? No | - | -
+  CELL[2,0] = 7S7PQ98D
+  CELL[2,1] = Is Medicaid reclamation? No
+ROW 3 | Member | Genesis Adriana Herna.. | - | -
+  CELL[3,0] = Member
+  CELL[3,1] = Genesis Adriana Herna..
+ROW 4 | 1 Note | Submission information | - | -
+  CELL[4,0] = 1 Note
+  CELL[4,1] = Submission information
+ROW 5 | See all member's clalms | - | - | -
+  CELL[5,0] = See all member's clalms
+ROW 6 | Blockers (1) | - | - | -
+  CELL[6,0] = Blockers (1)
+ROW 7 | NEWBORN | Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac | - | -
+  CELL[7,0] = NEWBORN
+  CELL[7,1] = Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+ROW 8 | Manage | - | - | -
+  CELL[8,0] = Manage
+ROW 9 | Denials (0) | - | - | -
+  CELL[9,0] = Denials (0)
+ROW 10 | Payment | - | - | -
+  CELL[10,0] = Payment
+ROW 11 | Matched Member | Submitted Info | - | -
+  CELL[11,0] = Matched Member
+  CELL[11,1] = Submitted Info
+ROW 12 | 7/18/2026 | - | - | -
+  CELL[12,0] = 7/18/2026
+ROW 13 | Potential duplicate claims | - | - | -
+  CELL[13,0] = Potential duplicate claims
+ROW 14 | No system identified duplicates | Eligibility | - | -
+  CELL[14,0] = No system identified duplicates
+  CELL[14,1] = Eligibility
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 3x4
+HEADER | Submission type | Electronic | Vendor source | AVAILITY
+ROW 1 | Claim state: Blocked EDIfle | Download | Documents | View
+  CELL[1,0] = Claim state: Blocked EDIfle
+  CELL[1,1] = Download
+  CELL[1,2] = Documents
+  CELL[1,3] = View
+ROW 2 | Tenant | oscar | - | -
+  CELL[2,0] = Tenant
+  CELL[2,1] = oscar
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 7x4
+HEADER | No denials on this claim. Manage | Charge group | Prompt process due date | 08/05/2026
+ROW 1 | - | Payment authority NEXTGEN | Interestaccrued | $0.00
+  CELL[1,1] = Payment authority NEXTGEN
+  CELL[1,2] = Interestaccrued
+  CELL[1,3] = $0.00
+ROW 2 | Billed $944.00 (100%) | Pay to member No | Excluded from interest | No
+  CELL[2,0] = Billed $944.00 (100%)
+  CELL[2,1] = Pay to member No
+  CELL[2,2] = Excluded from interest
+  CELL[2,3] = No
+ROW 3 | Allowed $101.00 (11%) | - | - | -
+  CELL[3,0] = Allowed $101.00 (11%)
+ROW 4 | Pay provider $101.00 | - | - | -
+  CELL[4,0] = Pay provider $101.00
+ROW 5 | Pay member $0.00 | Patient | - | -
+  CELL[5,0] = Pay member $0.00
+  CELL[5,1] = Patient
+ROW 6 | >Memberresponsibility $0.00 | Manually edited - Revert changes | - | -
+  CELL[6,0] = >Memberresponsibility $0.00
+  CELL[6,1] = Manually edited - Revert changes
+[/TABLE 3]
+
+[TABLE 4 | source=wide_grid]
+shape: 2x6
+HEADER | Claim lineage | Member | Genesis Adriana Hernandez De Hoyo | Change | Address | 21720 NW 3rd St
+ROW 1 | 7S7PQ98D Blocked | OSCID | OSC7584722102 | - | - | Pembroke Pines, FL 33029
+  CELL[1,0] = 7S7PQ98D Blocked
+  CELL[1,1] = OSCID
+  CELL[1,2] = OSC7584722102
+  CELL[1,5] = Pembroke Pines, FL 33029
+[/TABLE 4]
+
+[TABLE 5 | source=wide_grid]
+shape: 4x5
+HEADER | Person ID | 8f9dc3841de7435b928e4bc1d2d758a9 | Authorizations | 3 authorizations | View
+ROW 1 | Potential parent claims SSN | 176-75-9424 | Referrals | View | -
+  CELL[1,0] = Potential parent claims SSN
+  CELL[1,1] = 176-75-9424
+  CELL[1,2] = Referrals
+  CELL[1,3] = View
+ROW 2 | Date of birth | 06/26/1996 (29) | EOB | No EOB information is available | -
+  CELL[2,0] = Date of birth
+  CELL[2,1] = 06/26/1996 (29)
+  CELL[2,2] = EOB
+  CELL[2,3] = No EOB information is available
+ROW 3 | Sex | Female | Rosco claim history | View a | -
+  CELL[3,0] = Sex
+  CELL[3,1] = Female
+  CELL[3,2] = Rosco claim history
+  CELL[3,3] = View a
+[/TABLE 5]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[50,14,1555,35] | order=0
+  Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create
+BLOCK 1 | type=header | bbox=[31,63,1521,80] | order=1
+  About thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions
+BLOCK 2 | type=table_row | bbox=[300,90,538,106] | order=2
+  Internationairroviaer NO
+BLOCK 3 | type=table | bbox=[32,116,538,137] | order=3
+  7S7PQ98D Is Medicaid reclamation? No
+BLOCK 4 | type=table_row | bbox=[32,145,219,158] | order=4
+  Member: Genesis Adriana Herna.
+BLOCK 5 | type=table_row | bbox=[32,162,454,195] | order=5
+  1 Note Submission information
+  See all member's clalms
+BLOCK 6 | type=table | bbox=[31,202,1210,252] | order=6
+  Submission type Electronic Vendor source AVAILITY
+  Claim state: Blocked EDIfle Download Documents View
+BLOCK 7 | type=table | bbox=[31,256,551,284] | order=7
+  Tenant oscar
+  Blockers (1)
+BLOCK 8 | type=table_row | bbox=[32,285,560,300] | order=8
+  NEWBORN Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+BLOCK 9 | type=table_row | bbox=[30,303,82,324] | order=9
+  Manage
+BLOCK 10 | type=table_row | bbox=[31,336,388,363] | order=10
+  Denials (0) Payment
+BLOCK 11 | type=table | bbox=[31,356,1238,443] | order=11
+  No denials on this claim. Manage Charge group Prompt process due date 08/05/2026
+  Payment authority NEXTGEN Interestaccrued $0.00
+  Billed $944.00 (100%) Pay to member No Excluded from interest No
+BLOCK 12 | type=table | bbox=[30,443,224,485] | order=12
+  Allowed $101.00 (11%)
+  Pay provider $101.00
+BLOCK 13 | type=table | bbox=[19,493,461,536] | order=13
+  Pay member $0.00 Patient
+  >Memberresponsibility $0.00 Manually edited - Revert changes
+BLOCK 14 | type=table_row | bbox=[300,544,514,556] | order=14
+  Matched Member Submitted Info
+BLOCK 15 | type=table | bbox=[28,564,1553,728] | order=15
+  Claim lineage Member Genesis Adriana Hernandez De Hoyo Change Address 21720 NW 3rd St
+  7S7PQ98D 7/18/2026 Blocked OSCID OSC7584722102 Pembroke Pines, FL 33029
+  Person ID 8f9dc3841de7435b928e4bc1d2d758a9 Authorizations 3 authorizations View
+  Potential parent claims SSN 176-75-9424 Referrals View
+  Date of birth 06/26/1996 (29) EOB No EOB information is available
+  Potential duplicate claims Sex Female Rosco claim history View a
+BLOCK 16 | type=footer | bbox=[31,737,363,758] | order=16
+  No system identified duplicates Eligibility
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[30,90,560,758] | shape=15x4 | conf=0.920
+  shape: 15x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Internationairroviaer | NO | - | -
+    CELL[1,0] = Internationairroviaer
+    CELL[1,1] = NO
+  ROW 2 | 7S7PQ98D | Is Medicaid reclamation? No | - | -
+    CELL[2,0] = 7S7PQ98D
+    CELL[2,1] = Is Medicaid reclamation? No
+  ROW 3 | Member | Genesis Adriana Herna.. | - | -
+    CELL[3,0] = Member
+    CELL[3,1] = Genesis Adriana Herna..
+  ROW 4 | 1 Note | Submission information | - | -
+    CELL[4,0] = 1 Note
+    CELL[4,1] = Submission information
+  ROW 5 | See all member's clalms | - | - | -
+    CELL[5,0] = See all member's clalms
+  ROW 6 | Blockers (1) | - | - | -
+    CELL[6,0] = Blockers (1)
+  ROW 7 | NEWBORN | Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac | - | -
+    CELL[7,0] = NEWBORN
+    CELL[7,1] = Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+  ROW 8 | Manage | - | - | -
+    CELL[8,0] = Manage
+  ROW 9 | Denials (0) | - | - | -
+    CELL[9,0] = Denials (0)
+  ROW 10 | Payment | - | - | -
+    CELL[10,0] = Payment
+  ROW 11 | Matched Member | Submitted Info | - | -
+    CELL[11,0] = Matched Member
+    CELL[11,1] = Submitted Info
+  ROW 12 | 7/18/2026 | - | - | -
+    CELL[12,0] = 7/18/2026
+  ROW 13 | Potential duplicate claims | - | - | -
+    CELL[13,0] = Potential duplicate claims
+  ROW 14 | No system identified duplicates | Eligibility | - | -
+    CELL[14,0] = No system identified duplicates
+    CELL[14,1] = Eligibility
+TABLE 1 | source=wide_grid | bbox=[31,14,1555,80] | shape=2x8 | conf=0.850
+  shape: 2x8
+  HEADER | Cortex-Claim#7S7PQ98D | Latest version (7 of 7) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 3 hours ago | Readjudicate | Actions | -
+    CELL[1,0] = About thls claim Payment Patlent
+    CELL[1,1] = Providers Medical Claim lines
+    CELL[1,4] = 3 hours ago
+    CELL[1,5] = Readjudicate
+    CELL[1,6] = Actions
+TABLE 2 | source=wide_grid | bbox=[31,202,1210,271] | shape=3x4 | conf=0.850
+  shape: 3x4
+  HEADER | Submission type | Electronic | Vendor source | AVAILITY
+  ROW 1 | Claim state: Blocked EDIfle | Download | Documents | View
+    CELL[1,0] = Claim state: Blocked EDIfle
+    CELL[1,1] = Download
+    CELL[1,2] = Documents
+    CELL[1,3] = View
+  ROW 2 | Tenant | oscar | - | -
+    CELL[2,0] = Tenant
+    CELL[2,1] = oscar
+TABLE 3 | source=wide_grid | bbox=[19,356,1238,536] | shape=7x4 | conf=0.850
+  shape: 7x4
+  HEADER | No denials on this claim. Manage | Charge group | Prompt process due date | 08/05/2026
+  ROW 1 | - | Payment authority NEXTGEN | Interestaccrued | $0.00
+    CELL[1,1] = Payment authority NEXTGEN
+    CELL[1,2] = Interestaccrued
+    CELL[1,3] = $0.00
+  ROW 2 | Billed $944.00 (100%) | Pay to member No | Excluded from interest | No
+    CELL[2,0] = Billed $944.00 (100%)
+    CELL[2,1] = Pay to member No
+    CELL[2,2] = Excluded from interest
+    CELL[2,3] = No
+  ROW 3 | Allowed $101.00 (11%) | - | - | -
+    CELL[3,0] = Allowed $101.00 (11%)
+  ROW 4 | Pay provider $101.00 | - | - | -
+    CELL[4,0] = Pay provider $101.00
+  ROW 5 | Pay member $0.00 | Patient | - | -
+    CELL[5,0] = Pay member $0.00
+    CELL[5,1] = Patient
+  ROW 6 | >Memberresponsibility $0.00 | Manually edited - Revert changes | - | -
+    CELL[6,0] = >Memberresponsibility $0.00
+    CELL[6,1] = Manually edited - Revert changes
+TABLE 4 | source=wide_grid | bbox=[28,564,1302,615] | shape=2x6 | conf=0.850
+  shape: 2x6
+  HEADER | Claim lineage | Member | Genesis Adriana Hernandez De Hoyo | Change | Address | 21720 NW 3rd St
+  ROW 1 | 7S7PQ98D Blocked | OSCID | OSC7584722102 | - | - | Pembroke Pines, FL 33029
+    CELL[1,0] = 7S7PQ98D Blocked
+    CELL[1,1] = OSCID
+    CELL[1,2] = OSC7584722102
+    CELL[1,5] = Pembroke Pines, FL 33029
+TABLE 5 | source=wide_grid | bbox=[32,616,1553,721] | shape=4x5 | conf=0.850
+  shape: 4x5
+  HEADER | Person ID | 8f9dc3841de7435b928e4bc1d2d758a9 | Authorizations | 3 authorizations | View
+  ROW 1 | Potential parent claims SSN | 176-75-9424 | Referrals | View | -
+    CELL[1,0] = Potential parent claims SSN
+    CELL[1,1] = 176-75-9424
+    CELL[1,2] = Referrals
+    CELL[1,3] = View
+  ROW 2 | Date of birth | 06/26/1996 (29) | EOB | No EOB information is available | -
+    CELL[2,0] = Date of birth
+    CELL[2,1] = 06/26/1996 (29)
+    CELL[2,2] = EOB
+    CELL[2,3] = No EOB information is available
+  ROW 3 | Sex | Female | Rosco claim history | View a | -
+    CELL[3,0] = Sex
+    CELL[3,1] = Female
+    CELL[3,2] = Rosco claim history
+    CELL[3,3] = View a
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[50,14,1555,35] | conf=0.992 | text=Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[50,17,260,33] | text=Cortex-Claim#7S7PQ98D
+  WORD | bbox=[278,17,401,33] | text=Latest version (7 of 7)
+  WORD | bbox=[1106,16,1170,32] | text=Dashboard
+  WORD | bbox=[1191,14,1272,35] | text=Batch History
+  WORD | bbox=[1291,14,1338,35] | text=Testing
+  WORD | bbox=[1359,19,1430,32] | text=Settlements
+  WORD | bbox=[1452,18,1494,32] | text=Search
+  WORD | bbox=[1515,18,1555,32] | text=Create
+LINE 1 | bbox=[31,63,1521,80] | conf=0.992 | text=About thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions
+  WORD | bbox=[31,64,126,80] | text=About thls claim
+  WORD | bbox=[149,65,201,80] | text=Payment
+  WORD | bbox=[221,65,266,79] | text=Patlent
+  WORD | bbox=[288,64,345,80] | text=Providers
+  WORD | bbox=[365,65,412,79] | text=Medical
+  WORD | bbox=[434,64,499,80] | text=Claim lines
+  WORD | bbox=[1256,63,1316,80] | text=3 hours ago
+  WORD | bbox=[1339,64,1419,80] | text=Readjudicate
+  WORD | bbox=[1469,65,1521,80] | text=Actions
+LINE 2 | bbox=[300,90,538,106] | conf=0.828 | text=Internationairroviaer NO
+  WORD | bbox=[300,92,424,104] | text=Internationairroviaer
+  WORD | bbox=[516,90,538,106] | text=NO
+LINE 3 | bbox=[32,116,538,137] | conf=0.994 | text=7S7PQ98D Is Medicaid reclamation? No
+  WORD | bbox=[32,120,135,137] | text=7S7PQ98D
+  WORD | bbox=[300,117,439,130] | text=Is Medicaid reclamation?
+  WORD | bbox=[516,116,538,132] | text=No
+LINE 4 | bbox=[32,145,219,158] | conf=0.987 | text=Member: Genesis Adriana Herna.
+LINE 5 | bbox=[32,162,454,183] | conf=0.962 | text=1 Note Submission information
+  WORD | bbox=[32,162,88,178] | text=1 Note
+  WORD | bbox=[297,165,454,183] | text=Submission information
+LINE 6 | bbox=[34,182,168,195] | conf=0.977 | text=See all member's clalms
+LINE 7 | bbox=[300,202,1210,219] | conf=0.989 | text=Submission type Electronic Vendor source AVAILITY
+  WORD | bbox=[300,205,394,218] | text=Submission type
+  WORD | bbox=[519,205,576,218] | text=Electronic
+  WORD | bbox=[939,205,1020,218] | text=Vendor source
+  WORD | bbox=[1155,202,1210,219] | text=AVAILITY
+LINE 8 | bbox=[31,225,1189,252] | conf=0.986 | text=Claim state: Blocked EDIfle Download Documents View
+  WORD | bbox=[31,236,102,252] | text=Claim state:
+  WORD | bbox=[169,237,219,251] | text=Blocked
+  WORD | bbox=[296,225,343,246] | text=EDIfle
+  WORD | bbox=[518,229,578,246] | text=Download
+  WORD | bbox=[937,229,1006,246] | text=Documents
+  WORD | bbox=[1155,228,1189,246] | text=View
+LINE 9 | bbox=[299,256,551,271] | conf=0.998 | text=Tenant oscar
+  WORD | bbox=[299,256,341,270] | text=Tenant
+  WORD | bbox=[518,257,551,271] | text=oscar
+LINE 10 | bbox=[31,267,99,284] | conf=0.955 | text=Blockers (1)
+LINE 11 | bbox=[32,285,560,300] | conf=0.985 | text=NEWBORN Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+  WORD | bbox=[32,288,115,300] | text=NEWBORN
+  WORD | bbox=[300,285,560,298] | text=Valet file ID: c245c471-6c24-4c25-a903-4be81b8dc5ac
+LINE 12 | bbox=[30,303,82,324] | conf=0.998 | text=Manage
+LINE 13 | bbox=[31,336,388,363] | conf=0.979 | text=Denials (0) Payment
+  WORD | bbox=[31,336,94,353] | text=Denials (0)
+  WORD | bbox=[300,345,388,363] | text=Payment
+LINE 14 | bbox=[31,356,1238,391] | conf=0.984 | text=No denials on this claim. Manage Charge group Prompt process due date 08/05/2026
+  WORD | bbox=[31,356,166,391] | text=No denials on this claim. Manage
+  WORD | bbox=[297,369,379,390] | text=Charge group
+  WORD | bbox=[937,370,1081,387] | text=Prompt process due date
+  WORD | bbox=[1156,373,1238,390] | text=08/05/2026
+LINE 15 | bbox=[299,396,1191,416] | conf=0.993 | text=Payment authority NEXTGEN Interestaccrued $0.00
+  WORD | bbox=[299,397,406,414] | text=Payment authority
+  WORD | bbox=[518,396,576,412] | text=NEXTGEN
+  WORD | bbox=[939,404,1034,416] | text=Interestaccrued
+  WORD | bbox=[1155,402,1191,416] | text=$0.00
+LINE 16 | bbox=[31,419,1176,443] | conf=0.983 | text=Billed $944.00 (100%) Pay to member No Excluded from interest No
+  WORD | bbox=[31,420,66,434] | text=Billed
+  WORD | bbox=[142,419,224,435] | text=$944.00 (100%)
+  WORD | bbox=[300,424,384,437] | text=Pay to member
+  WORD | bbox=[516,423,538,438] | text=No
+  WORD | bbox=[940,429,1068,442] | text=Excluded from interest
+  WORD | bbox=[1154,428,1176,443] | text=No
+LINE 17 | bbox=[31,443,224,460] | conf=0.987 | text=Allowed $101.00 (11%)
+  WORD | bbox=[31,444,79,458] | text=Allowed
+  WORD | bbox=[155,443,224,460] | text=$101.00 (11%)
+LINE 18 | bbox=[30,468,222,485] | conf=0.994 | text=Pay provider $101.00
+  WORD | bbox=[30,468,104,485] | text=Pay provider
+  WORD | bbox=[179,470,222,484] | text=$101.00
+LINE 19 | bbox=[31,493,374,512] | conf=0.993 | text=Pay member $0.00 Patient
+  WORD | bbox=[31,494,104,510] | text=Pay member
+  WORD | bbox=[186,493,224,510] | text=$0.00
+  WORD | bbox=[300,494,374,512] | text=Patient
+LINE 20 | bbox=[19,518,461,536] | conf=0.991 | text=>Memberresponsibility $0.00 Manually edited - Revert changes
+  WORD | bbox=[19,519,160,536] | text=>Memberresponsibility
+  WORD | bbox=[188,519,222,533] | text=$0.00
+  WORD | bbox=[299,518,461,531] | text=Manually edited - Revert changes
+LINE 21 | bbox=[300,544,514,556] | conf=0.967 | text=Matched Member Submitted Info
+  WORD | bbox=[300,544,400,556] | text=Matched Member
+  WORD | bbox=[426,544,514,556] | text=Submitted Info
+LINE 22 | bbox=[30,564,1248,589] | conf=0.992 | text=Claim lineage Member Genesis Adriana Hernandez De Hoyo Change Address 21720 NW 3rd St
+  WORD | bbox=[30,564,110,582] | text=Claim lineage
+  WORD | bbox=[299,574,349,588] | text=Member
+  WORD | bbox=[518,573,721,589] | text=Genesis Adriana Hernandez De Hoyo
+  WORD | bbox=[871,574,915,588] | text=Change
+  WORD | bbox=[939,574,988,588] | text=Address
+  WORD | bbox=[1158,574,1248,587] | text=21720 NW 3rd St
+LINE 23 | bbox=[28,587,1302,623] | conf=0.992 | text=7S7PQ98D 7/18/2026 Blocked OSCID OSC7584722102 Pembroke Pines, FL 33029
+  WORD | bbox=[28,587,105,603] | text=7S7PQ98D
+  WORD | bbox=[41,607,94,623] | text=7/18/2026
+  WORD | bbox=[169,589,219,603] | text=Blocked
+  WORD | bbox=[299,600,341,614] | text=OSCID
+  WORD | bbox=[519,598,611,615] | text=OSC7584722102
+  WORD | bbox=[1156,593,1302,606] | text=Pembroke Pines, FL 33029
+LINE 24 | bbox=[298,616,1553,640] | conf=0.993 | text=Person ID 8f9dc3841de7435b928e4bc1d2d758a9 Authorizations 3 authorizations View
+  WORD | bbox=[298,624,356,640] | text=Person ID
+  WORD | bbox=[520,626,740,639] | text=8f9dc3841de7435b928e4bc1d2d758a9
+  WORD | bbox=[938,619,1023,631] | text=Authorizations
+  WORD | bbox=[1156,619,1249,631] | text=3 authorizations
+  WORD | bbox=[1520,616,1553,634] | text=View
+LINE 25 | bbox=[32,643,1196,667] | conf=0.954 | text=Potential parent claims SSN 176-75-9424 Referrals View
+  WORD | bbox=[32,653,164,666] | text=Potential parent claims
+  WORD | bbox=[299,651,326,666] | text=SSN
+  WORD | bbox=[516,651,588,667] | text=176-75-9424
+  WORD | bbox=[938,643,994,659] | text=Referrals
+  WORD | bbox=[1158,644,1196,658] | text=View
+LINE 26 | bbox=[299,668,1306,693] | conf=0.994 | text=Date of birth 06/26/1996 (29) EOB No EOB information is available
+  WORD | bbox=[299,676,372,693] | text=Date of birth
+  WORD | bbox=[516,676,608,693] | text=06/26/1996 (29)
+  WORD | bbox=[936,668,968,686] | text=EOB
+  WORD | bbox=[1158,672,1306,681] | text=No EOB information is available
+LINE 27 | bbox=[32,694,1199,728] | conf=0.965 | text=Potential duplicate claims Sex Female Rosco claim history View a
+  WORD | bbox=[32,715,177,728] | text=Potential duplicate claims
+  WORD | bbox=[299,703,322,718] | text=Sex
+  WORD | bbox=[516,700,562,721] | text=Female
+  WORD | bbox=[936,694,1050,712] | text=Rosco claim history
+  WORD | bbox=[1155,694,1199,712] | text=View a
+LINE 28 | bbox=[31,737,363,758] | conf=0.996 | text=No system identified duplicates Eligibility
+  WORD | bbox=[31,740,210,756] | text=No system identified duplicates
+  WORD | bbox=[297,737,363,758] | text=Eligibility
+[/BOXES]

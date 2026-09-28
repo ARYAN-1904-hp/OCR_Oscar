@@ -1,0 +1,488 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1306x1500 | blocks=18 | tables=5 | checkboxes=2
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 17x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | SECTIONI | FACILITY DEMOGRAPHIC INFORMATION (continued) | - | -
+  CELL[1,0] = SECTIONI
+  CELL[1,1] = FACILITY DEMOGRAPHIC INFORMATION (continued)
+ROW 2 | Parent / Main Organization Information | . | - | -
+  CELL[2,0] = Parent / Main Organization Information
+  CELL[2,1] = .
+ROW 3 | egal Business Name | - | Legal Business Name | -
+  CELL[3,0] = egal Business Name
+  CELL[3,2] = Legal Business Name
+ROW 4 | Blue Horizon Community Health Services, Inc. | - | Legal Business Name | Blue Horizon Care Network
+  CELL[4,0] = Blue Horizon Community Health Services, Inc.
+  CELL[4,2] = Legal Business Name
+  CELL[4,3] = Blue Horizon Care Network
+ROW 5 | info@bluehorizon.example.org | - | operations@bluehorizon.example.org | -
+  CELL[5,0] = info@bluehorizon.example.org
+  CELL[5,2] = operations@bluehorizon.example.org
+ROW 6 | Practice Locations | - | - | -
+  CELL[6,0] = Practice Locations
+ROW 7 | Address Information | - | - | -
+  CELL[7,0] = Address Information
+ROW 8 | (Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.). | - | - | -
+  CELL[8,0] = (Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).
+ROW 9 | Legal Business Name | Blue Horizon Community Health Services. | Legal Business Name | Blue Horizon South Clinic
+  CELL[9,0] = Legal Business Name
+  CELL[9,1] = Blue Horizon Community Health Services.
+  CELL[9,2] = Legal Business Name
+  CELL[9,3] = Blue Horizon South Clinic
+ROW 10 | NPI # (If different than above) | - | NPI | (if different from above) 1987654322
+  CELL[10,0] = NPI # (If different than above)
+  CELL[10,2] = NPI
+  CELL[10,3] = (if different from above) 1987654322
+ROW 11 | NPI # (If different than above) | 1987654321 | - | -
+  CELL[11,0] = NPI # (If different than above)
+  CELL[11,1] = 1987654321
+ROW 12 | Federal Tax ID (if different from above) | 84-3179265 | Federal Tax ID (if different from above) | 84-3179265
+  CELL[12,0] = Federal Tax ID (if different from above)
+  CELL[12,1] = 84-3179265
+  CELL[12,2] = Federal Tax ID (if different from above)
+  CELL[12,3] = 84-3179265
+ROW 13 | Email | ecm@bluehorizon.example.org | Email | southclinic@bluehorizon.example.org
+  CELL[13,0] = Email
+  CELL[13,1] = ecm@bluehorizon.example.org
+  CELL[13,2] = Email
+  CELL[13,3] = southclinic@bluehorizon.example.org
+ROW 14 | PM | - | PMI | -
+  CELL[14,0] = PM
+  CELL[14,2] = PMI
+ROW 15 | giventime?): | - | - | -
+  CELL[15,0] = giventime?):
+ROW 16 | Approximately 85 active ECM referrals across both locations. | - | - | -
+  CELL[16,0] = Approximately 85 active ECM referrals across both locations.
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 7x4
+HEADER | Street Address. | Suite # | Street Address. | Suite #
+ROW 1 | 2450 Westlake Avenue | Suite 410 | 2450 Westlake Avenue | Suite 410
+  CELL[1,0] = 2450 Westlake Avenue
+  CELL[1,1] = Suite 410
+  CELL[1,2] = 2450 Westlake Avenue
+  CELL[1,3] = Suite 410
+ROW 2 | City | State Zip 95815 | City | State Zip 95815
+  CELL[2,0] = City
+  CELL[2,1] = State Zip 95815
+  CELL[2,2] = City
+  CELL[2,3] = State Zip 95815
+ROW 3 | Sacramento | CA | Sacramento | CA
+  CELL[3,0] = Sacramento
+  CELL[3,1] = CA
+  CELL[3,2] = Sacramento
+  CELL[3,3] = CA
+ROW 4 | Phone | Fax | Phone | Fax
+  CELL[4,0] = Phone
+  CELL[4,1] = Fax
+  CELL[4,2] = Phone
+  CELL[4,3] = Fax
+ROW 5 | [555]310-2400 | [555) 310-2401 | [555) 310-2400 | (555) 310-2401
+  CELL[5,0] = [555]310-2400
+  CELL[5,1] = [555) 310-2401
+  CELL[5,2] = [555) 310-2400
+  CELL[5,3] = (555) 310-2401
+ROW 6 | Email: | - | Email: | -
+  CELL[6,0] = Email:
+  CELL[6,2] = Email:
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 2x4
+HEADER | Street Address. | Suite# | Street Address. | Suite#
+ROW 1 | 2450 Westlake Avenue | Suite 410 | 880 Harbor Boulevard | Suite 120
+  CELL[1,0] = 2450 Westlake Avenue
+  CELL[1,1] = Suite 410
+  CELL[1,2] = 880 Harbor Boulevard
+  CELL[1,3] = Suite 120
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 4x7
+HEADER | City | State | Zip Code | County | City | State Zip Code | County
+ROW 1 | Sacramento | CA | 95815 | Sacramento | West Sacramento | CA 95691 | Yolo
+  CELL[1,0] = Sacramento
+  CELL[1,1] = CA
+  CELL[1,2] = 95815
+  CELL[1,3] = Sacramento
+  CELL[1,4] = West Sacramento
+  CELL[1,5] = CA 95691
+  CELL[1,6] = Yolo
+ROW 2 | Phone | Fax | - | TY Number | Phone | Fax | TY Number
+  CELL[2,0] = Phone
+  CELL[2,1] = Fax
+  CELL[2,3] = TY Number
+  CELL[2,4] = Phone
+  CELL[2,5] = Fax
+  CELL[2,6] = TY Number
+ROW 3 | 555]310-2400 | - | (555) 310-2401 711 | - | [555) 310-2420 | 555) 310-2421 | 711
+  CELL[3,0] = 555]310-2400
+  CELL[3,2] = (555) 310-2401 711
+  CELL[3,4] = [555) 310-2420
+  CELL[3,5] = 555) 310-2421
+  CELL[3,6] = 711
+[/TABLE 3]
+
+[TABLE 4 | source=wide_grid]
+shape: 3x4
+HEADER | Translation Services Available | Yes No | Translation Services Available | Yes No
+ROW 1 | Business Hours. Schedule: | - | Business Hours Schedule: | -
+  CELL[1,0] = Business Hours. Schedule:
+  CELL[1,2] = Business Hours Schedule:
+ROW 2 | 8:00 AM- 5:00 | MOTOWTHEF | 8:30AMI-5:30 | M ot ow oth ef
+  CELL[2,0] = 8:00 AM- 5:00
+  CELL[2,1] = MOTOWTHEF
+  CELL[2,2] = 8:30AMI-5:30
+  CELL[2,3] = M ot ow oth ef
+[/TABLE 4]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[65,20,988,104] | order=0
+  SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)
+  Parent / Main Organization Information: .
+BLOCK 1 | type=header | bbox=[57,121,964,169] | order=1
+  egal Business Name Legal Business Name
+  Blue Horizon Community Health Services, Inc. Blue Horizon Care Network
+BLOCK 2 | type=table | bbox=[55,189,1199,365] | order=2
+  Street Address. Suite # Street Address. Suite #
+  2450 Westlake Avenue Suite 410 2450 Westlake Avenue Suite 410
+  City Sacramento State CA Zip 95815 City Sacramento State CA Zip 95815
+  Phone Fax Phone Fax
+  [555]310-2400 [555) 310-2401 [555) 310-2400 (555) 310-2401
+BLOCK 3 | type=table_row | bbox=[56,371,760,393] | order=3
+  Email: Email:
+BLOCK 4 | type=table_row | bbox=[54,400,1186,574] | order=4
+  info@bluehorizon.example.org operations@bluehorizon.example.org
+  Practice Locations
+  Address Information
+  (Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).
+  Primary Facility Location Second Facility Location (if applicable)
+BLOCK 5 | type=table_row | bbox=[61,594,879,614] | order=5
+  Legal Business Name Legal Business Name
+BLOCK 6 | type=table_row | bbox=[57,622,921,642] | order=6
+  Blue Horizon Community Health Services. Blue Horizon South Clinic
+BLOCK 7 | type=table | bbox=[54,667,1229,891] | order=7
+  Street Address. Suite# Street Address. Suite#
+  2450 Westlake Avenue Suite 410 880 Harbor Boulevard Suite 120
+  City State Zip Code County City State Zip Code County
+  Sacramento CA 95815 Sacramento West Sacramento CA 95691 Yolo
+  Phone Fax TY Number Phone Fax TY Number
+  555]310-2400 (555) 310-2401 711 [555) 310-2420 555) 310-2421 711
+BLOCK 8 | type=table_row | bbox=[56,915,1064,1018] | order=8
+  NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322
+  Federal Tax ID (if different from above): Federal Tax ID (if different from above):
+BLOCK 9 | type=table_row | bbox=[53,1022,793,1048] | order=9
+  84-3179265 84-3179265
+BLOCK 10 | type=table_row | bbox=[56,1084,738,1105] | order=10
+  Email: Email:
+BLOCK 11 | type=table_row | bbox=[56,1113,1112,1177] | order=11
+  ecm@bluehorizon.example.org southclinic@bluehorizon.example.org
+  Translation Services Available Yes No Translation Services Available Yes No
+BLOCK 12 | type=table_row | bbox=[57,1213,949,1236] | order=12
+  Business Hours. Schedule: Business Hours Schedule:
+BLOCK 13 | type=table_row | bbox=[57,1240,1062,1265] | order=13
+  8:00 AM- 5:00 MOTOWTHEF 8:30AMI-5:30 M ot ow oth ef
+BLOCK 14 | type=table_row | bbox=[55,1270,714,1295] | order=14
+  PM PMI
+BLOCK 15 | type=footer | bbox=[56,1357,1247,1382] | order=15
+  What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any
+BLOCK 16 | type=footer | bbox=[57,1389,183,1409] | order=16
+  giventime?):
+BLOCK 17 | type=footer | bbox=[56,1416,647,1440] | order=17
+  Approximately 85 active ECM referrals across both locations.
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[53,20,1186,1440] | shape=17x4 | conf=0.920
+  shape: 17x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | SECTIONI | FACILITY DEMOGRAPHIC INFORMATION (continued) | - | -
+    CELL[1,0] = SECTIONI
+    CELL[1,1] = FACILITY DEMOGRAPHIC INFORMATION (continued)
+  ROW 2 | Parent / Main Organization Information | . | - | -
+    CELL[2,0] = Parent / Main Organization Information
+    CELL[2,1] = .
+  ROW 3 | egal Business Name | - | Legal Business Name | -
+    CELL[3,0] = egal Business Name
+    CELL[3,2] = Legal Business Name
+  ROW 4 | Blue Horizon Community Health Services, Inc. | - | Legal Business Name | Blue Horizon Care Network
+    CELL[4,0] = Blue Horizon Community Health Services, Inc.
+    CELL[4,2] = Legal Business Name
+    CELL[4,3] = Blue Horizon Care Network
+  ROW 5 | info@bluehorizon.example.org | - | operations@bluehorizon.example.org | -
+    CELL[5,0] = info@bluehorizon.example.org
+    CELL[5,2] = operations@bluehorizon.example.org
+  ROW 6 | Practice Locations | - | - | -
+    CELL[6,0] = Practice Locations
+  ROW 7 | Address Information | - | - | -
+    CELL[7,0] = Address Information
+  ROW 8 | (Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.). | - | - | -
+    CELL[8,0] = (Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).
+  ROW 9 | Legal Business Name | Blue Horizon Community Health Services. | Legal Business Name | Blue Horizon South Clinic
+    CELL[9,0] = Legal Business Name
+    CELL[9,1] = Blue Horizon Community Health Services.
+    CELL[9,2] = Legal Business Name
+    CELL[9,3] = Blue Horizon South Clinic
+  ROW 10 | NPI # (If different than above) | - | NPI | (if different from above) 1987654322
+    CELL[10,0] = NPI # (If different than above)
+    CELL[10,2] = NPI
+    CELL[10,3] = (if different from above) 1987654322
+  ROW 11 | NPI # (If different than above) | 1987654321 | - | -
+    CELL[11,0] = NPI # (If different than above)
+    CELL[11,1] = 1987654321
+  ROW 12 | Federal Tax ID (if different from above) | 84-3179265 | Federal Tax ID (if different from above) | 84-3179265
+    CELL[12,0] = Federal Tax ID (if different from above)
+    CELL[12,1] = 84-3179265
+    CELL[12,2] = Federal Tax ID (if different from above)
+    CELL[12,3] = 84-3179265
+  ROW 13 | Email | ecm@bluehorizon.example.org | Email | southclinic@bluehorizon.example.org
+    CELL[13,0] = Email
+    CELL[13,1] = ecm@bluehorizon.example.org
+    CELL[13,2] = Email
+    CELL[13,3] = southclinic@bluehorizon.example.org
+  ROW 14 | PM | - | PMI | -
+    CELL[14,0] = PM
+    CELL[14,2] = PMI
+  ROW 15 | giventime?): | - | - | -
+    CELL[15,0] = giventime?):
+  ROW 16 | Approximately 85 active ECM referrals across both locations. | - | - | -
+    CELL[16,0] = Approximately 85 active ECM referrals across both locations.
+TABLE 1 | source=wide_grid | bbox=[55,189,1199,393] | shape=7x4 | conf=0.850
+  shape: 7x4
+  HEADER | Street Address. | Suite # | Street Address. | Suite #
+  ROW 1 | 2450 Westlake Avenue | Suite 410 | 2450 Westlake Avenue | Suite 410
+    CELL[1,0] = 2450 Westlake Avenue
+    CELL[1,1] = Suite 410
+    CELL[1,2] = 2450 Westlake Avenue
+    CELL[1,3] = Suite 410
+  ROW 2 | City | State Zip 95815 | City | State Zip 95815
+    CELL[2,0] = City
+    CELL[2,1] = State Zip 95815
+    CELL[2,2] = City
+    CELL[2,3] = State Zip 95815
+  ROW 3 | Sacramento | CA | Sacramento | CA
+    CELL[3,0] = Sacramento
+    CELL[3,1] = CA
+    CELL[3,2] = Sacramento
+    CELL[3,3] = CA
+  ROW 4 | Phone | Fax | Phone | Fax
+    CELL[4,0] = Phone
+    CELL[4,1] = Fax
+    CELL[4,2] = Phone
+    CELL[4,3] = Fax
+  ROW 5 | [555]310-2400 | [555) 310-2401 | [555) 310-2400 | (555) 310-2401
+    CELL[5,0] = [555]310-2400
+    CELL[5,1] = [555) 310-2401
+    CELL[5,2] = [555) 310-2400
+    CELL[5,3] = (555) 310-2401
+  ROW 6 | Email: | - | Email: | -
+    CELL[6,0] = Email:
+    CELL[6,2] = Email:
+TABLE 2 | source=wide_grid | bbox=[56,667,1229,720] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | Street Address. | Suite# | Street Address. | Suite#
+  ROW 1 | 2450 Westlake Avenue | Suite 410 | 880 Harbor Boulevard | Suite 120
+    CELL[1,0] = 2450 Westlake Avenue
+    CELL[1,1] = Suite 410
+    CELL[1,2] = 880 Harbor Boulevard
+    CELL[1,3] = Suite 120
+TABLE 3 | source=wide_grid | bbox=[54,754,1210,891] | shape=4x7 | conf=0.850
+  shape: 4x7
+  HEADER | City | State | Zip Code | County | City | State Zip Code | County
+  ROW 1 | Sacramento | CA | 95815 | Sacramento | West Sacramento | CA 95691 | Yolo
+    CELL[1,0] = Sacramento
+    CELL[1,1] = CA
+    CELL[1,2] = 95815
+    CELL[1,3] = Sacramento
+    CELL[1,4] = West Sacramento
+    CELL[1,5] = CA 95691
+    CELL[1,6] = Yolo
+  ROW 2 | Phone | Fax | - | TY Number | Phone | Fax | TY Number
+    CELL[2,0] = Phone
+    CELL[2,1] = Fax
+    CELL[2,3] = TY Number
+    CELL[2,4] = Phone
+    CELL[2,5] = Fax
+    CELL[2,6] = TY Number
+  ROW 3 | 555]310-2400 | - | (555) 310-2401 711 | - | [555) 310-2420 | 555) 310-2421 | 711
+    CELL[3,0] = 555]310-2400
+    CELL[3,2] = (555) 310-2401 711
+    CELL[3,4] = [555) 310-2420
+    CELL[3,5] = 555) 310-2421
+    CELL[3,6] = 711
+TABLE 4 | source=wide_grid | bbox=[57,1157,1112,1265] | shape=3x4 | conf=0.850
+  shape: 3x4
+  HEADER | Translation Services Available | Yes No | Translation Services Available | Yes No
+  ROW 1 | Business Hours. Schedule: | - | Business Hours Schedule: | -
+    CELL[1,0] = Business Hours. Schedule:
+    CELL[1,2] = Business Hours Schedule:
+  ROW 2 | 8:00 AM- 5:00 | MOTOWTHEF | 8:30AMI-5:30 | M ot ow oth ef
+    CELL[2,0] = 8:00 AM- 5:00
+    CELL[2,1] = MOTOWTHEF
+    CELL[2,2] = 8:30AMI-5:30
+    CELL[2,3] = M ot ow oth ef
+[/TABLES]
+
+[CHECKBOXES]
+CHECKBOX 0 | Translation Services Available: Unknown | column=left | source=image_ink | yes_ink=True | no_ink=True
+CHECKBOX 1 | Translation Services Available: Yes | column=right | source=image_ink | yes_ink=True | no_ink=False
+[/CHECKBOXES]
+
+[BOXES]
+LINE 0 | bbox=[318,20,988,42] | conf=0.976 | text=SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)
+LINE 1 | bbox=[65,83,462,104] | conf=0.980 | text=Parent / Main Organization Information: .
+LINE 2 | bbox=[62,121,904,141] | conf=0.981 | text=egal Business Name Legal Business Name
+  WORD | bbox=[62,121,260,139] | text=egal Business Name
+  WORD | bbox=[702,121,904,141] | text=Legal Business Name
+LINE 3 | bbox=[57,148,964,169] | conf=0.992 | text=Blue Horizon Community Health Services, Inc. Blue Horizon Care Network
+  WORD | bbox=[57,148,498,169] | text=Blue Horizon Community Health Services, Inc.
+  WORD | bbox=[702,149,964,169] | text=Blue Horizon Care Network
+LINE 4 | bbox=[57,189,1045,213] | conf=0.959 | text=Street Address. Suite # Street Address. Suite #
+  WORD | bbox=[57,192,199,212] | text=Street Address.
+  WORD | bbox=[358,189,430,213] | text=Suite #
+  WORD | bbox=[700,192,843,212] | text=Street Address.
+  WORD | bbox=[973,189,1045,213] | text=Suite #
+LINE 5 | bbox=[55,217,1067,244] | conf=0.992 | text=2450 Westlake Avenue Suite 410 2450 Westlake Avenue Suite 410
+  WORD | bbox=[55,218,281,244] | text=2450 Westlake Avenue
+  WORD | bbox=[358,217,453,244] | text=Suite 410
+  WORD | bbox=[698,218,925,244] | text=2450 Westlake Avenue
+  WORD | bbox=[971,217,1067,244] | text=Suite 410
+LINE 6 | bbox=[56,246,1199,306] | conf=0.990 | text=City Sacramento State CA Zip 95815 City Sacramento State CA Zip 95815
+  WORD | bbox=[56,251,97,277] | text=City
+  WORD | bbox=[56,282,173,302] | text=Sacramento
+  WORD | bbox=[358,250,412,275] | text=State
+  WORD | bbox=[359,279,389,304] | text=CA
+  WORD | bbox=[492,246,561,306] | text=Zip 95815
+  WORD | bbox=[697,247,741,277] | text=City
+  WORD | bbox=[698,280,817,304] | text=Sacramento
+  WORD | bbox=[973,250,1026,275] | text=State
+  WORD | bbox=[974,279,1004,304] | text=CA
+  WORD | bbox=[1130,247,1199,306] | text=Zip 95815
+LINE 7 | bbox=[55,308,1012,337] | conf=0.998 | text=Phone Fax Phone Fax
+  WORD | bbox=[55,311,120,335] | text=Phone
+  WORD | bbox=[359,309,396,336] | text=Fax
+  WORD | bbox=[697,308,764,337] | text=Phone
+  WORD | bbox=[974,309,1012,336] | text=Fax
+LINE 8 | bbox=[58,339,1122,365] | conf=0.930 | text=[555]310-2400 [555) 310-2401 [555) 310-2400 (555) 310-2401
+  WORD | bbox=[58,339,205,363] | text=[555]310-2400
+  WORD | bbox=[361,339,507,365] | text=[555) 310-2401
+  WORD | bbox=[703,340,848,363] | text=[555) 310-2400
+  WORD | bbox=[977,339,1122,365] | text=(555) 310-2401
+LINE 9 | bbox=[56,371,760,393] | conf=0.997 | text=Email: Email:
+  WORD | bbox=[56,371,118,393] | text=Email:
+  WORD | bbox=[700,371,760,393] | text=Email:
+LINE 10 | bbox=[54,400,1072,424] | conf=0.998 | text=info@bluehorizon.example.org operations@bluehorizon.example.org
+  WORD | bbox=[54,401,360,423] | text=info@bluehorizon.example.org
+  WORD | bbox=[697,400,1072,424] | text=operations@bluehorizon.example.org
+LINE 11 | bbox=[580,450,773,470] | conf=0.999 | text=Practice Locations
+LINE 12 | bbox=[364,485,566,504] | conf=0.998 | text=Address Information
+LINE 13 | bbox=[87,507,841,532] | conf=0.970 | text=(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).
+LINE 14 | bbox=[233,551,1186,574] | conf=0.982 | text=Primary Facility Location Second Facility Location (if applicable)
+  WORD | bbox=[233,552,496,572] | text=Primary Facility Location
+  WORD | bbox=[782,551,1186,574] | text=Second Facility Location (if applicable)
+LINE 15 | bbox=[61,594,879,614] | conf=0.968 | text=Legal Business Name Legal Business Name
+  WORD | bbox=[61,594,259,614] | text=Legal Business Name
+  WORD | bbox=[681,594,879,614] | text=Legal Business Name
+LINE 16 | bbox=[57,622,921,642] | conf=0.977 | text=Blue Horizon Community Health Services. Blue Horizon South Clinic
+  WORD | bbox=[57,622,455,642] | text=Blue Horizon Community Health Services.
+  WORD | bbox=[679,622,921,642] | text=Blue Horizon South Clinic
+LINE 17 | bbox=[56,667,1200,688] | conf=0.975 | text=Street Address. Suite# Street Address. Suite#
+  WORD | bbox=[56,668,199,688] | text=Street Address.
+  WORD | bbox=[496,667,560,688] | text=Suite#
+  WORD | bbox=[676,668,820,688] | text=Street Address.
+  WORD | bbox=[1136,667,1200,688] | text=Suite#
+LINE 18 | bbox=[56,692,1229,720] | conf=0.985 | text=2450 Westlake Avenue Suite 410 880 Harbor Boulevard Suite 120
+  WORD | bbox=[56,694,280,718] | text=2450 Westlake Avenue
+  WORD | bbox=[496,694,589,718] | text=Suite 410
+  WORD | bbox=[677,696,891,716] | text=880 Harbor Boulevard
+  WORD | bbox=[1136,692,1229,720] | text=Suite 120
+LINE 19 | bbox=[55,754,1210,783] | conf=0.999 | text=City State Zip Code County City State Zip Code County
+  WORD | bbox=[55,756,97,782] | text=City
+  WORD | bbox=[261,755,316,780] | text=State
+  WORD | bbox=[339,756,428,780] | text=Zip Code
+  WORD | bbox=[495,754,571,783] | text=County
+  WORD | bbox=[675,756,717,782] | text=City
+  WORD | bbox=[871,756,926,780] | text=State
+  WORD | bbox=[940,758,1026,778] | text=Zip Code
+  WORD | bbox=[1136,754,1210,782] | text=County
+LINE 20 | bbox=[56,784,1182,809] | conf=0.998 | text=Sacramento CA 95815 Sacramento West Sacramento CA 95691 Yolo
+  WORD | bbox=[56,787,171,807] | text=Sacramento
+  WORD | bbox=[262,784,293,809] | text=CA
+  WORD | bbox=[339,784,403,809] | text=95815
+  WORD | bbox=[498,787,615,807] | text=Sacramento
+  WORD | bbox=[679,787,849,807] | text=West Sacramento
+  WORD | bbox=[872,785,903,809] | text=CA
+  WORD | bbox=[940,784,1003,809] | text=95691
+  WORD | bbox=[1138,786,1182,809] | text=Yolo
+LINE 21 | bbox=[54,834,1172,861] | conf=0.979 | text=Phone Fax TY Number Phone Fax TY Number
+  WORD | bbox=[54,836,120,860] | text=Phone
+  WORD | bbox=[262,837,301,861] | text=Fax
+  WORD | bbox=[437,834,561,860] | text=TY Number
+  WORD | bbox=[673,834,739,859] | text=Phone
+  WORD | bbox=[873,837,910,860] | text=Fax
+  WORD | bbox=[1048,834,1172,860] | text=TY Number
+LINE 22 | bbox=[61,864,1087,891] | conf=0.957 | text=555]310-2400 (555) 310-2401 711 [555) 310-2420 555) 310-2421 711
+  WORD | bbox=[61,867,203,887] | text=555]310-2400
+  WORD | bbox=[265,864,412,891] | text=(555) 310-2401
+  WORD | bbox=[437,865,476,889] | text=711
+  WORD | bbox=[680,866,826,889] | text=[555) 310-2420
+  WORD | bbox=[877,866,1021,889] | text=555) 310-2421
+  WORD | bbox=[1048,865,1087,889] | text=711
+LINE 23 | bbox=[56,915,969,969] | conf=0.996 | text=NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322
+  WORD | bbox=[56,915,353,941] | text=NPI # (If different than above):
+  WORD | bbox=[56,947,175,967] | text=1987654321
+  WORD | bbox=[675,915,969,969] | text=NPI# (if different from above) 1987654322
+LINE 24 | bbox=[56,994,1064,1018] | conf=0.971 | text=Federal Tax ID (if different from above): Federal Tax ID (if different from above):
+  WORD | bbox=[56,994,442,1018] | text=Federal Tax ID (if different from above):
+  WORD | bbox=[677,995,1064,1017] | text=Federal Tax ID (if different from above):
+LINE 25 | bbox=[53,1022,793,1048] | conf=0.999 | text=84-3179265 84-3179265
+  WORD | bbox=[53,1022,173,1048] | text=84-3179265
+  WORD | bbox=[676,1023,793,1046] | text=84-3179265
+LINE 26 | bbox=[56,1084,738,1105] | conf=0.999 | text=Email: Email:
+  WORD | bbox=[56,1084,118,1105] | text=Email:
+  WORD | bbox=[674,1084,738,1105] | text=Email:
+LINE 27 | bbox=[56,1113,1047,1136] | conf=0.998 | text=ecm@bluehorizon.example.org southclinic@bluehorizon.example.org
+  WORD | bbox=[56,1113,362,1136] | text=ecm@bluehorizon.example.org
+  WORD | bbox=[675,1113,1047,1136] | text=southclinic@bluehorizon.example.org
+LINE 28 | bbox=[64,1157,1112,1177] | conf=0.965 | text=Translation Services Available Yes No Translation Services Available Yes No
+  WORD | bbox=[64,1158,346,1177] | text=Translation Services Available
+  WORD | bbox=[385,1157,491,1177] | text=Yes No
+  WORD | bbox=[686,1158,968,1177] | text=Translation Services Available
+  WORD | bbox=[1007,1157,1112,1177] | text=Yes No
+LINE 29 | bbox=[57,1213,949,1236] | conf=0.990 | text=Business Hours. Schedule: Business Hours Schedule:
+  WORD | bbox=[57,1213,204,1233] | text=Business Hours.
+  WORD | bbox=[220,1213,320,1236] | text=Schedule:
+  WORD | bbox=[677,1214,824,1234] | text=Business Hours
+  WORD | bbox=[851,1213,949,1236] | text=Schedule:
+LINE 30 | bbox=[57,1240,1062,1265] | conf=0.806 | text=8:00 AM- 5:00 MOTOWTHEF 8:30AMI-5:30 M ot ow oth ef
+  WORD | bbox=[57,1243,201,1263] | text=8:00 AM- 5:00
+  WORD | bbox=[223,1242,431,1261] | text=MOTOWTHEF
+  WORD | bbox=[677,1243,820,1263] | text=8:30AMI-5:30
+  WORD | bbox=[851,1240,1062,1265] | text=M ot ow oth ef
+LINE 31 | bbox=[55,1270,714,1295] | conf=0.959 | text=PM PMI
+  WORD | bbox=[55,1270,91,1294] | text=PM
+  WORD | bbox=[675,1270,714,1295] | text=PMI
+LINE 32 | bbox=[56,1357,1247,1382] | conf=0.998 | text=What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any
+LINE 33 | bbox=[57,1389,183,1409] | conf=0.936 | text=giventime?):
+LINE 34 | bbox=[56,1416,647,1440] | conf=0.976 | text=Approximately 85 active ECM referrals across both locations.
+[/BOXES]
+
+[FIELDS]
+Email: info@bluehorizon.example.org
+Email: operations@bluehorizon.example.org
+Email: ecm@bluehorizon.example.org
+Email: southclinic@bluehorizon.example.org
+Phone: (555) 310-2401
+NPI: 1987654321
+NPI: 1987654322
+Federal Tax ID: 84-3179265
+[/FIELDS]

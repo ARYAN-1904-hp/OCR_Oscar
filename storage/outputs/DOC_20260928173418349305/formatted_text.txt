@@ -1,0 +1,435 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=5 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 8x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Raizel Wagner | - | - | -
+  CELL[3,0] = Raizel Wagner
+ROW 4 | Cancelled | - | - | -
+  CELL[4,0] = Cancelled
+ROW 5 | OSC76618297-01 - R216R7H5 - Holder | Member info | - | -
+  CELL[5,0] = OSC76618297-01 - R216R7H5 - Holder
+  CELL[5,1] = Member info
+ROW 6 | ON exc | - | - | -
+  CELL[6,0] = ON exc
+ROW 7 | Basic info | Edit Assigned PCP | Web account | -
+  CELL[7,0] = Basic info
+  CELL[7,1] = Edit Assigned PCP
+  CELL[7,2] = Web account
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 20x6
+HEADER | Heads up note | Legal first | Raizel | PCP | Alberto Manzor | No website profile set up.
+ROW 1 | - | Legal middle | - | NPI | 1134407307 | Send member a link to set up account on their device.
+  CELL[1,1] = Legal middle
+  CELL[1,3] = NPI
+  CELL[1,4] = 1134407307
+  CELL[1,5] = Send member a link to set up account on their device.
+ROW 2 | - | Legal last | Wagner | TIN | 454248770 | -
+  CELL[2,1] = Legal last
+  CELL[2,2] = Wagner
+  CELL[2,3] = TIN
+  CELL[2,4] = 454248770
+ROW 3 | Member actlons | Suffix | - | Phone number | 954-251-1175 | Health info
+  CELL[3,0] = Member actlons
+  CELL[3,1] = Suffix
+  CELL[3,3] = Phone number
+  CELL[3,4] = 954-251-1175
+  CELL[3,5] = Health info
+ROW 4 | - | Date of birth | 01/26/2000 | Last updated by | Auto assignment v2 on 12/08/2023 | Virtual Urgent Care set up?. No
+  CELL[4,1] = Date of birth
+  CELL[4,2] = 01/26/2000
+  CELL[4,3] = Last updated by
+  CELL[4,4] = Auto assignment v2 on 12/08/2023
+  CELL[4,5] = Virtual Urgent Care set up?. No
+ROW 5 | FLBroward | Age | 26 | - | - | Patlent intake Missing
+  CELL[5,0] = FLBroward
+  CELL[5,1] = Age
+  CELL[5,2] = 26
+  CELL[5,5] = Patlent intake Missing
+ROW 6 | Not assigned Not assigned | SSN | 059-96-4211 | Contact | Edit | Health survey MIssing
+  CELL[6,0] = Not assigned Not assigned
+  CELL[6,1] = SSN
+  CELL[6,2] = 059-96-4211
+  CELL[6,3] = Contact
+  CELL[6,4] = Edit
+  CELL[6,5] = Health survey MIssing
+ROW 7 | Oscarplan: | Legal sex | Female | Primary phone Last edited by sync_to_nextgen on 02/10/2025 | 929444-5156 | -
+  CELL[7,0] = Oscarplan:
+  CELL[7,1] = Legal sex
+  CELL[7,2] = Female
+  CELL[7,3] = Primary phone Last edited by sync_to_nextgen on 02/10/2025
+  CELL[7,4] = 929444-5156
+ROW 8 | Silver Elite CSR 150 FL EPO Off Ex | Spoken language | - | - | - | Consent and authorizations Send HIPAA form
+  CELL[8,0] = Silver Elite CSR 150 FL EPO Off Ex
+  CELL[8,1] = Spoken language
+  CELL[8,5] = Consent and authorizations Send HIPAA form
+ROW 9 | View ID card | Written language | - | Alternate phone | 954955-1309 Last edited by ps_comms_mobile_texting on 01/04/2025 | RHIO access No choice
+  CELL[9,0] = View ID card
+  CELL[9,1] = Written language
+  CELL[9,3] = Alternate phone
+  CELL[9,4] = 954955-1309 Last edited by ps_comms_mobile_texting on 01/04/2025
+  CELL[9,5] = RHIO access No choice
+ROW 10 | Alberto Manzor | - | - | SMS phone Last edited by sync_to_nextgen on 02/10/2025 | (929) 444-5156 | Emall communlcations Authorized
+  CELL[10,0] = Alberto Manzor
+  CELL[10,3] = SMS phone Last edited by sync_to_nextgen on 02/10/2025
+  CELL[10,4] = (929) 444-5156
+  CELL[10,5] = Emall communlcations Authorized
+ROW 11 | - | Personalized info | Edit | - | - | SMS communications Denied
+  CELL[11,1] = Personalized info
+  CELL[11,2] = Edit
+  CELL[11,5] = SMS communications Denied
+ROW 12 | Effective 02/01/2025 | Preferred first name | Raizel | Primary emall | raizytoronto@gmail.com | -
+  CELL[12,0] = Effective 02/01/2025
+  CELL[12,1] = Preferred first name
+  CELL[12,2] = Raizel
+  CELL[12,3] = Primary emall
+  CELL[12,4] = raizytoronto@gmail.com
+ROW 13 | 8 Individual | Preferred last name | Wagner | - | - | -
+  CELL[13,0] = 8 Individual
+  CELL[13,1] = Preferred last name
+  CELL[13,2] = Wagner
+ROW 14 | $No bills | Gender assigned at birth | - | Residential address | Edit | -
+  CELL[14,0] = $No bills
+  CELL[14,1] = Gender assigned at birth
+  CELL[14,3] = Residential address
+  CELL[14,4] = Edit
+ROW 15 | - | Gender identity | - | Address | 1534 Van Buren St Apt 301B | -
+  CELL[15,1] = Gender identity
+  CELL[15,3] = Address
+  CELL[15,4] = 1534 Van Buren St Apt 301B
+ROW 16 | Member tags | Pronouns | - | City | Hollywood | -
+  CELL[16,0] = Member tags
+  CELL[16,1] = Pronouns
+  CELL[16,3] = City
+  CELL[16,4] = Hollywood
+ROW 17 | No member tags yet | Sexual orientation | - | State | FL | -
+  CELL[17,0] = No member tags yet
+  CELL[17,1] = Sexual orientation
+  CELL[17,3] = State
+  CELL[17,4] = FL
+ROW 18 | Send a pulse | Race/Ethnicity | - | Zipcode | 33020 | -
+  CELL[18,0] = Send a pulse
+  CELL[18,1] = Race/Ethnicity
+  CELL[18,3] = Zipcode
+  CELL[18,4] = 33020
+ROW 19 | - | - | - | County | Broward | -
+  CELL[19,3] = County
+  CELL[19,4] = Broward
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,15,1580,103] | order=0
+  rosco Q Search Rosco MR Melissa
+  Raizel Wagner Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 1 | type=table_row | bbox=[19,115,385,174] | order=1
+  Cancelled
+  OSC76618297-01 - R216R7H5 - Holder ON exc Member info
+BLOCK 2 | type=table | bbox=[15,199,1275,708] | order=2
+  Basic info Edit Assigned PCP Web account
+  Heads up note Legal first Raizel PCP Alberto Manzor No website profile set up.
+  Legal middle NPI 1134407307 Send member a link to set up account on their device.
+  Legal last Wagner TIN 454248770
+  Member actlons Suffix Phone number 954-251-1175 Health info
+  Date of birth 01/26/2000 Last updated by Auto assignment v2 on 12/08/2023 Virtual Urgent Care set up?. No
+  FLBroward Age 26 Patlent intake Missing
+  Not assigned Not assigned SSN 059-96-4211 Contact Edit Health survey MIssing
+  Oscarplan: Legal sex Spoken language Female Primary phone Last edited by sync_to_nextgen on 02/10/2025 929444-5156
+  Silver Elite CSR 150 FL EPO Off Ex View ID card Written language 954955-1309 Last edited by ps_comms_mobile_texting on 01/04/2025 Alternate phone Consent and authorizations RHIO access Send HIPAA form No choice
+  Alberto Manzor SMS phone Last edited by sync_to_nextgen on 02/10/2025 (929) 444-5156 Emall communlcations Authorized
+  Personalized info Edit SMS communications Denied
+  Effective 02/01/2025 Preferred first name Raizel Primary emall raizytoronto@gmail.com
+  8 Individual Preferred last name Wagner
+  $No bills Gender assigned at birth Residential address Edit
+  Gender identity Address 1534 Van Buren St Apt 301B
+  Member tags Pronouns City Hollywood
+  No member tags yet Sexual orientation State FL
+BLOCK 3 | type=footer | bbox=[19,710,929,742] | order=3
+  Send a pulse Race/Ethnicity Zipcode 33020
+BLOCK 4 | type=footer | bbox=[625,742,929,763] | order=4
+  County Broward
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,15,1580,215] | shape=8x4 | conf=0.920
+  shape: 8x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Raizel Wagner | - | - | -
+    CELL[3,0] = Raizel Wagner
+  ROW 4 | Cancelled | - | - | -
+    CELL[4,0] = Cancelled
+  ROW 5 | OSC76618297-01 - R216R7H5 - Holder | Member info | - | -
+    CELL[5,0] = OSC76618297-01 - R216R7H5 - Holder
+    CELL[5,1] = Member info
+  ROW 6 | ON exc | - | - | -
+    CELL[6,0] = ON exc
+  ROW 7 | Basic info | Edit Assigned PCP | Web account | -
+    CELL[7,0] = Basic info
+    CELL[7,1] = Edit Assigned PCP
+    CELL[7,2] = Web account
+TABLE 1 | source=wide_grid | bbox=[15,210,1275,763] | shape=20x6 | conf=0.850
+  shape: 20x6
+  HEADER | Heads up note | Legal first | Raizel | PCP | Alberto Manzor | No website profile set up.
+  ROW 1 | - | Legal middle | - | NPI | 1134407307 | Send member a link to set up account on their device.
+    CELL[1,1] = Legal middle
+    CELL[1,3] = NPI
+    CELL[1,4] = 1134407307
+    CELL[1,5] = Send member a link to set up account on their device.
+  ROW 2 | - | Legal last | Wagner | TIN | 454248770 | -
+    CELL[2,1] = Legal last
+    CELL[2,2] = Wagner
+    CELL[2,3] = TIN
+    CELL[2,4] = 454248770
+  ROW 3 | Member actlons | Suffix | - | Phone number | 954-251-1175 | Health info
+    CELL[3,0] = Member actlons
+    CELL[3,1] = Suffix
+    CELL[3,3] = Phone number
+    CELL[3,4] = 954-251-1175
+    CELL[3,5] = Health info
+  ROW 4 | - | Date of birth | 01/26/2000 | Last updated by | Auto assignment v2 on 12/08/2023 | Virtual Urgent Care set up?. No
+    CELL[4,1] = Date of birth
+    CELL[4,2] = 01/26/2000
+    CELL[4,3] = Last updated by
+    CELL[4,4] = Auto assignment v2 on 12/08/2023
+    CELL[4,5] = Virtual Urgent Care set up?. No
+  ROW 5 | FLBroward | Age | 26 | - | - | Patlent intake Missing
+    CELL[5,0] = FLBroward
+    CELL[5,1] = Age
+    CELL[5,2] = 26
+    CELL[5,5] = Patlent intake Missing
+  ROW 6 | Not assigned Not assigned | SSN | 059-96-4211 | Contact | Edit | Health survey MIssing
+    CELL[6,0] = Not assigned Not assigned
+    CELL[6,1] = SSN
+    CELL[6,2] = 059-96-4211
+    CELL[6,3] = Contact
+    CELL[6,4] = Edit
+    CELL[6,5] = Health survey MIssing
+  ROW 7 | Oscarplan: | Legal sex | Female | Primary phone Last edited by sync_to_nextgen on 02/10/2025 | 929444-5156 | -
+    CELL[7,0] = Oscarplan:
+    CELL[7,1] = Legal sex
+    CELL[7,2] = Female
+    CELL[7,3] = Primary phone Last edited by sync_to_nextgen on 02/10/2025
+    CELL[7,4] = 929444-5156
+  ROW 8 | Silver Elite CSR 150 FL EPO Off Ex | Spoken language | - | - | - | Consent and authorizations Send HIPAA form
+    CELL[8,0] = Silver Elite CSR 150 FL EPO Off Ex
+    CELL[8,1] = Spoken language
+    CELL[8,5] = Consent and authorizations Send HIPAA form
+  ROW 9 | View ID card | Written language | - | Alternate phone | 954955-1309 Last edited by ps_comms_mobile_texting on 01/04/2025 | RHIO access No choice
+    CELL[9,0] = View ID card
+    CELL[9,1] = Written language
+    CELL[9,3] = Alternate phone
+    CELL[9,4] = 954955-1309 Last edited by ps_comms_mobile_texting on 01/04/2025
+    CELL[9,5] = RHIO access No choice
+  ROW 10 | Alberto Manzor | - | - | SMS phone Last edited by sync_to_nextgen on 02/10/2025 | (929) 444-5156 | Emall communlcations Authorized
+    CELL[10,0] = Alberto Manzor
+    CELL[10,3] = SMS phone Last edited by sync_to_nextgen on 02/10/2025
+    CELL[10,4] = (929) 444-5156
+    CELL[10,5] = Emall communlcations Authorized
+  ROW 11 | - | Personalized info | Edit | - | - | SMS communications Denied
+    CELL[11,1] = Personalized info
+    CELL[11,2] = Edit
+    CELL[11,5] = SMS communications Denied
+  ROW 12 | Effective 02/01/2025 | Preferred first name | Raizel | Primary emall | raizytoronto@gmail.com | -
+    CELL[12,0] = Effective 02/01/2025
+    CELL[12,1] = Preferred first name
+    CELL[12,2] = Raizel
+    CELL[12,3] = Primary emall
+    CELL[12,4] = raizytoronto@gmail.com
+  ROW 13 | 8 Individual | Preferred last name | Wagner | - | - | -
+    CELL[13,0] = 8 Individual
+    CELL[13,1] = Preferred last name
+    CELL[13,2] = Wagner
+  ROW 14 | $No bills | Gender assigned at birth | - | Residential address | Edit | -
+    CELL[14,0] = $No bills
+    CELL[14,1] = Gender assigned at birth
+    CELL[14,3] = Residential address
+    CELL[14,4] = Edit
+  ROW 15 | - | Gender identity | - | Address | 1534 Van Buren St Apt 301B | -
+    CELL[15,1] = Gender identity
+    CELL[15,3] = Address
+    CELL[15,4] = 1534 Van Buren St Apt 301B
+  ROW 16 | Member tags | Pronouns | - | City | Hollywood | -
+    CELL[16,0] = Member tags
+    CELL[16,1] = Pronouns
+    CELL[16,3] = City
+    CELL[16,4] = Hollywood
+  ROW 17 | No member tags yet | Sexual orientation | - | State | FL | -
+    CELL[17,0] = No member tags yet
+    CELL[17,1] = Sexual orientation
+    CELL[17,3] = State
+    CELL[17,4] = FL
+  ROW 18 | Send a pulse | Race/Ethnicity | - | Zipcode | 33020 | -
+    CELL[18,0] = Send a pulse
+    CELL[18,1] = Race/Ethnicity
+    CELL[18,3] = Zipcode
+    CELL[18,4] = 33020
+  ROW 19 | - | - | - | County | Broward | -
+    CELL[19,3] = County
+    CELL[19,4] = Broward
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,15,1580,36] | conf=0.915 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[112,17,134,33] | text=Q
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1464,15,1550,36] | text=MR Melissa
+LINE 1 | bbox=[17,71,919,103] | conf=0.977 | text=Raizel Wagner Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[17,80,156,103] | text=Raizel Wagner
+  WORD | bbox=[278,75,350,88] | text=Memberinfo
+  WORD | bbox=[365,74,405,88] | text=Issues
+  WORD | bbox=[421,73,500,89] | text=Policy details
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[640,71,749,89] | text=Billing & payments
+  WORD | bbox=[762,73,818,89] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[21,115,84,132] | conf=0.999 | text=Cancelled
+LINE 3 | bbox=[19,140,385,174] | conf=0.982 | text=OSC76618297-01 - R216R7H5 - Holder ON exc Member info
+  WORD | bbox=[19,140,221,157] | text=OSC76618297-01 - R216R7H5 - Holder
+  WORD | bbox=[20,160,66,174] | text=ON exc
+  WORD | bbox=[277,148,385,167] | text=Member info
+LINE 4 | bbox=[278,199,1036,215] | conf=0.993 | text=Basic info Edit Assigned PCP Web account
+  WORD | bbox=[278,199,336,215] | text=Basic info
+  WORD | bbox=[568,200,595,215] | text=Edit
+  WORD | bbox=[619,199,714,215] | text=Assigned PCP
+  WORD | bbox=[959,199,1036,215] | text=Web account
+LINE 5 | bbox=[30,210,1100,242] | conf=0.986 | text=Heads up note Legal first Raizel PCP Alberto Manzor No website profile set up.
+  WORD | bbox=[30,210,115,227] | text=Heads up note
+  WORD | bbox=[283,221,348,242] | text=Legal first
+  WORD | bbox=[547,221,588,242] | text=Raizel
+  WORD | bbox=[624,223,655,241] | text=PCP
+  WORD | bbox=[839,227,925,239] | text=Alberto Manzor
+  WORD | bbox=[959,222,1100,234] | text=No website profile set up.
+LINE 6 | bbox=[285,246,1256,269] | conf=0.949 | text=Legal middle NPI 1134407307 Send member a link to set up account on their device.
+  WORD | bbox=[285,252,361,269] | text=Legal middle
+  WORD | bbox=[624,250,652,269] | text=NPI
+  WORD | bbox=[862,251,929,267] | text=1134407307
+  WORD | bbox=[959,246,1256,264] | text=Send member a link to set up account on their device.
+LINE 7 | bbox=[283,275,929,297] | conf=0.976 | text=Legal last Wagner TIN 454248770
+  WORD | bbox=[283,275,345,296] | text=Legal last
+  WORD | bbox=[538,276,589,297] | text=Wagner
+  WORD | bbox=[624,276,651,295] | text=TIN
+  WORD | bbox=[865,278,929,294] | text=454248770
+LINE 8 | bbox=[71,304,1024,322] | conf=0.970 | text=Member actlons Suffix Phone number 954-251-1175 Health info
+  WORD | bbox=[71,307,162,320] | text=Member actlons
+  WORD | bbox=[285,304,324,322] | text=Suffix
+  WORD | bbox=[626,304,711,321] | text=Phone number
+  WORD | bbox=[854,304,929,321] | text=954-251-1175
+  WORD | bbox=[959,306,1024,322] | text=Health info
+LINE 9 | bbox=[286,330,1268,348] | conf=0.961 | text=Date of birth 01/26/2000 Last updated by Auto assignment v2 on 12/08/2023 Virtual Urgent Care set up?. No
+  WORD | bbox=[286,331,361,348] | text=Date of birth
+  WORD | bbox=[518,331,588,348] | text=01/26/2000
+  WORD | bbox=[625,330,721,348] | text=Last updated by
+  WORD | bbox=[732,334,926,346] | text=Auto assignment v2 on 12/08/2023
+  WORD | bbox=[968,331,1121,348] | text=Virtual Urgent Care set up?.
+  WORD | bbox=[1248,332,1268,348] | text=No
+LINE 10 | bbox=[17,353,1269,377] | conf=0.982 | text=FLBroward Age 26 Patlent intake Missing
+  WORD | bbox=[17,353,113,372] | text=FLBroward
+  WORD | bbox=[284,358,312,377] | text=Age
+  WORD | bbox=[569,358,589,374] | text=26
+  WORD | bbox=[968,358,1050,374] | text=Patlent intake
+  WORD | bbox=[1218,355,1269,376] | text=Missing
+LINE 11 | bbox=[15,381,1269,412] | conf=0.979 | text=Not assigned Not assigned SSN 059-96-4211 Contact Edit Health survey MIssing
+  WORD | bbox=[15,383,199,408] | text=Not assigned Not assigned
+  WORD | bbox=[282,381,317,403] | text=SSN
+  WORD | bbox=[515,384,588,401] | text=059-96-4211
+  WORD | bbox=[616,390,670,412] | text=Contact
+  WORD | bbox=[909,395,935,410] | text=Edit
+  WORD | bbox=[966,382,1046,402] | text=Health survey
+  WORD | bbox=[1200,384,1269,402] | text=MIssing
+LINE 12 | bbox=[17,408,926,454] | conf=0.993 | text=Oscarplan: Legal sex Spoken language Female Primary phone Last edited by sync_to_nextgen on 02/10/2025 929444-5156
+  WORD | bbox=[17,419,106,439] | text=Oscarplan:
+  WORD | bbox=[285,411,341,428] | text=Legal sex
+  WORD | bbox=[285,438,385,454] | text=Spoken language
+  WORD | bbox=[541,408,588,429] | text=Female
+  WORD | bbox=[624,417,850,454] | text=Primary phone Last edited by sync_to_nextgen on 02/10/2025
+  WORD | bbox=[822,417,926,437] | text=929444-5156
+LINE 13 | bbox=[37,442,1275,496] | conf=0.970 | text=Silver Elite CSR 150 FL EPO Off Ex View ID card Written language 954955-1309 Last edited by ps_comms_mobile_texting on 01/04/2025 Alternate phone Consent and authorizations RHIO access Send HIPAA form No choice
+  WORD | bbox=[37,442,149,479] | text=Silver Elite CSR 150 FL EPO Off Ex
+  WORD | bbox=[40,480,115,496] | text=View ID card
+  WORD | bbox=[285,463,386,483] | text=Written language
+  WORD | bbox=[625,461,926,496] | text=954955-1309 Last edited by ps_comms_mobile_texting on 01/04/2025
+  WORD | bbox=[629,465,719,477] | text=Alternate phone
+  WORD | bbox=[957,446,1118,463] | text=Consent and authorizations
+  WORD | bbox=[968,472,1041,489] | text=RHIO access
+  WORD | bbox=[1176,447,1275,465] | text=Send HIPAA form
+  WORD | bbox=[1207,471,1269,490] | text=No choice
+LINE 14 | bbox=[18,502,1268,541] | conf=0.976 | text=Alberto Manzor SMS phone Last edited by sync_to_nextgen on 02/10/2025 (929) 444-5156 Emall communlcations Authorized
+  WORD | bbox=[18,508,130,526] | text=Alberto Manzor
+  WORD | bbox=[623,504,851,541] | text=SMS phone Last edited by sync_to_nextgen on 02/10/2025
+  WORD | bbox=[822,505,926,523] | text=(929) 444-5156
+  WORD | bbox=[969,502,1096,514] | text=Emall communlcations
+  WORD | bbox=[1204,502,1268,514] | text=Authorized
+LINE 15 | bbox=[279,524,1269,545] | conf=0.995 | text=Personalized info Edit SMS communications Denied
+  WORD | bbox=[279,527,376,544] | text=Personalized info
+  WORD | bbox=[568,528,595,544] | text=Edit
+  WORD | bbox=[969,528,1090,541] | text=SMS communications
+  WORD | bbox=[1222,524,1269,545] | text=Denied
+LINE 16 | bbox=[18,540,924,570] | conf=0.982 | text=Effective 02/01/2025 Preferred first name Raizel Primary emall raizytoronto@gmail.com
+  WORD | bbox=[18,540,159,556] | text=Effective 02/01/2025
+  WORD | bbox=[285,552,402,569] | text=Preferred first name
+  WORD | bbox=[549,552,589,570] | text=Raizel
+  WORD | bbox=[625,547,706,568] | text=Primary emall
+  WORD | bbox=[789,552,924,565] | text=raizytoronto@gmail.com
+LINE 17 | bbox=[17,570,588,599] | conf=0.985 | text=8 Individual Preferred last name Wagner
+  WORD | bbox=[17,570,98,591] | text=8 Individual
+  WORD | bbox=[286,579,400,596] | text=Preferred last name
+  WORD | bbox=[538,578,588,599] | text=Wagner
+LINE 18 | bbox=[18,603,935,629] | conf=0.981 | text=$No bills Gender assigned at birth Residential address Edit
+  WORD | bbox=[18,603,85,624] | text=$No bills
+  WORD | bbox=[288,609,425,621] | text=Gender assigned at birth
+  WORD | bbox=[620,614,731,626] | text=Residential address
+  WORD | bbox=[909,614,935,629] | text=Edit
+LINE 19 | bbox=[286,633,928,656] | conf=0.988 | text=Gender identity Address 1534 Van Buren St Apt 301B
+  WORD | bbox=[286,633,378,649] | text=Gender identity
+  WORD | bbox=[623,635,677,656] | text=Address
+  WORD | bbox=[772,636,928,654] | text=1534 Van Buren St Apt 301B
+LINE 20 | bbox=[18,659,927,682] | conf=0.985 | text=Member tags Pronouns City Hollywood
+  WORD | bbox=[18,659,95,676] | text=Member tags
+  WORD | bbox=[285,659,344,676] | text=Pronouns
+  WORD | bbox=[625,663,654,682] | text=City
+  WORD | bbox=[865,665,927,681] | text=Hollywood
+LINE 21 | bbox=[19,686,929,708] | conf=0.987 | text=No member tags yet Sexual orientation State FL
+  WORD | bbox=[19,693,116,705] | text=No member tags yet
+  WORD | bbox=[286,686,391,703] | text=Sexual orientation
+  WORD | bbox=[625,690,662,708] | text=State
+  WORD | bbox=[909,691,929,707] | text=FL
+LINE 22 | bbox=[19,710,929,742] | conf=0.975 | text=Send a pulse Race/Ethnicity Zipcode 33020
+  WORD | bbox=[19,726,92,742] | text=Send a pulse
+  WORD | bbox=[285,710,375,731] | text=Race/Ethnicity
+  WORD | bbox=[626,719,675,733] | text=Zipcode
+  WORD | bbox=[889,717,929,735] | text=33020
+LINE 23 | bbox=[625,742,929,763] | conf=0.999 | text=County Broward
+  WORD | bbox=[625,745,671,763] | text=County
+  WORD | bbox=[876,742,929,763] | text=Broward
+[/BOXES]
+
+[FIELDS]
+Email: raizytoronto@gmail.com
+Phone: 954-251-1175
+Phone: (929) 444-5156
+NPI: 1134407307
+[/FIELDS]

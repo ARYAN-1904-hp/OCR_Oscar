@@ -1,0 +1,243 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=16 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 30x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | - | -
+  CELL[1,0] = VERINT
+ROW 2 | Knowledge Management | - | - | -
+  CELL[2,0] = Knowledge Management
+ROW 3 | Search knowledge | Q | - | -
+  CELL[3,0] = Search knowledge
+  CELL[3,1] = Q
+ROW 4 | D | Search | - | -
+  CELL[4,0] = D
+  CELL[4,1] = Search
+ROW 5 | Q | - | - | -
+  CELL[5,0] = Q
+ROW 6 | My Bookmarks (17) F | - | - | -
+  CELL[6,0] = My Bookmarks (17) F
+ROW 7 | Filter | Q | - | -
+  CELL[7,0] = Filter
+  CELL[7,1] = Q
+ROW 8 | Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the | - | - | -
+  CELL[8,0] = Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+ROW 9 | tool we use to review and work claims holds and disputes. What | - | - | -
+  CELL[9,0] = tool we use to review and work claims holds and disputes. What
+ROW 10 | are panels in Cortex? A panel is a list of claims that have | - | - | -
+  CELL[10,0] = are panels in Cortex? A panel is a list of claims that have
+ROW 11 | something | - | - | -
+  CELL[11,0] = something
+ROW 12 | dE | Claims Disputes: Authorization Exceptions | - | -
+  CELL[12,0] = dE
+  CELL[12,1] = Claims Disputes: Authorization Exceptions
+ROW 13 | Scope (Authorization Exceptions) Below are known authorization | - | - | -
+  CELL[13,0] = Scope (Authorization Exceptions) Below are known authorization
+ROW 14 | processing issues, or exceptions to the rules, as of the date of | - | - | -
+  CELL[14,0] = processing issues, or exceptions to the rules, as of the date of
+ROW 15 | this document. Please be aware when working authorization | - | - | -
+  CELL[15,0] = this document. Please be aware when working authorization
+ROW 16 | disputes. | - | - | -
+  CELL[16,0] = disputes.
+ROW 17 | Newborn | .. | - | -
+  CELL[17,0] = Newborn
+  CELL[17,1] = ..
+ROW 18 | Purpose The purpose of this Job Aid is to provide users with | - | - | -
+  CELL[18,0] = Purpose The purpose of this Job Aid is to provide users with
+ROW 19 | state | specific rules, processing flow and claim splitting | - | -
+  CELL[19,0] = state
+  CELL[19,1] = specific rules, processing flow and claim splitting
+ROW 20 | procedures around appropriate claims coverage for newborns | - | - | -
+  CELL[20,0] = procedures around appropriate claims coverage for newborns
+ROW 21 | Following the birth | - | - | -
+  CELL[21,0] = Following the birth
+ROW 22 | Claims Tasks | Locating Authorization and Determining | - | -
+  CELL[22,0] = Claims Tasks
+  CELL[22,1] = Locating Authorization and Determining
+ROW 23 | Authorization Status | - | - | -
+  CELL[23,0] = Authorization Status
+ROW 24 | Summary The purpose of this article is to assist processors in | - | - | -
+  CELL[24,0] = Summary The purpose of this article is to assist processors in
+ROW 25 | Iocating authorization and determining authorization status for a | - | - | -
+  CELL[25,0] = Iocating authorization and determining authorization status for a
+ROW 26 | claim. This is often necessary in workflows such as: | - | - | -
+  CELL[26,0] = claim. This is often necessary in workflows such as:
+ROW 27 | authorization | - | - | -
+  CELL[27,0] = authorization
+ROW 28 | Claims Disputes: Authorization Exceptions | .. | - | -
+  CELL[28,0] = Claims Disputes: Authorization Exceptions
+  CELL[28,1] = ..
+ROW 29 | 17 Bookmarks | - | - | -
+  CELL[29,0] = 17 Bookmarks
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[59,13,150,34] | order=0
+  VERINT
+BLOCK 1 | type=header | bbox=[31,37,177,53] | order=1
+  Knowledge Management
+BLOCK 2 | type=heading | bbox=[5,84,545,134] | order=2
+  D Search knowledge Q Search
+BLOCK 3 | type=paragraph | bbox=[302,123,326,145] | order=3
+  Q
+BLOCK 4 | type=label_value | bbox=[31,171,509,193] | order=4
+  My Bookmarks (17) F:
+BLOCK 5 | type=heading | bbox=[220,206,495,228] | order=5
+  Filter Q
+BLOCK 6 | type=paragraph | bbox=[79,246,495,315] | order=6
+  Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+  tool we use to review and work claims holds and disputes. What
+  are panels in Cortex? A panel is a list of claims that have
+  something
+BLOCK 7 | type=label_value | bbox=[45,342,359,363] | order=7
+  dE Claims Disputes: Authorization Exceptions
+BLOCK 8 | type=paragraph | bbox=[77,365,514,549] | order=8
+  Scope (Authorization Exceptions) Below are known authorization
+  processing issues, or exceptions to the rules, as of the date of
+  this document. Please be aware when working authorization
+  disputes.
+  Newborn .
+  Purpose The purpose of this Job Aid is to provide users with
+  state specific rules, processing flow and claim splitting
+  procedures around appropriate claims coverage for newborns
+  Following the birth
+BLOCK 9 | type=label_value | bbox=[79,578,436,597] | order=9
+  Claims Tasks: Locating Authorization and Determining
+BLOCK 10 | type=heading | bbox=[80,596,219,612] | order=10
+  Authorization Status
+BLOCK 11 | type=paragraph | bbox=[80,623,494,654] | order=11
+  Summary The purpose of this article is to assist processors in
+  Iocating authorization and determining authorization status for a
+BLOCK 12 | type=label_value | bbox=[79,652,413,670] | order=12
+  claim. This is often necessary in workflows such as:
+BLOCK 13 | type=paragraph | bbox=[81,672,166,685] | order=13
+  authorization
+BLOCK 14 | type=footer | bbox=[80,715,516,738] | order=14
+  Claims Disputes: Authorization Exceptions .
+BLOCK 15 | type=footer | bbox=[434,745,521,765] | order=15
+  17 Bookmarks
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[5,13,545,765] | shape=30x4 | conf=0.920
+  shape: 30x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | - | -
+    CELL[1,0] = VERINT
+  ROW 2 | Knowledge Management | - | - | -
+    CELL[2,0] = Knowledge Management
+  ROW 3 | Search knowledge | Q | - | -
+    CELL[3,0] = Search knowledge
+    CELL[3,1] = Q
+  ROW 4 | D | Search | - | -
+    CELL[4,0] = D
+    CELL[4,1] = Search
+  ROW 5 | Q | - | - | -
+    CELL[5,0] = Q
+  ROW 6 | My Bookmarks (17) F | - | - | -
+    CELL[6,0] = My Bookmarks (17) F
+  ROW 7 | Filter | Q | - | -
+    CELL[7,0] = Filter
+    CELL[7,1] = Q
+  ROW 8 | Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the | - | - | -
+    CELL[8,0] = Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+  ROW 9 | tool we use to review and work claims holds and disputes. What | - | - | -
+    CELL[9,0] = tool we use to review and work claims holds and disputes. What
+  ROW 10 | are panels in Cortex? A panel is a list of claims that have | - | - | -
+    CELL[10,0] = are panels in Cortex? A panel is a list of claims that have
+  ROW 11 | something | - | - | -
+    CELL[11,0] = something
+  ROW 12 | dE | Claims Disputes: Authorization Exceptions | - | -
+    CELL[12,0] = dE
+    CELL[12,1] = Claims Disputes: Authorization Exceptions
+  ROW 13 | Scope (Authorization Exceptions) Below are known authorization | - | - | -
+    CELL[13,0] = Scope (Authorization Exceptions) Below are known authorization
+  ROW 14 | processing issues, or exceptions to the rules, as of the date of | - | - | -
+    CELL[14,0] = processing issues, or exceptions to the rules, as of the date of
+  ROW 15 | this document. Please be aware when working authorization | - | - | -
+    CELL[15,0] = this document. Please be aware when working authorization
+  ROW 16 | disputes. | - | - | -
+    CELL[16,0] = disputes.
+  ROW 17 | Newborn | .. | - | -
+    CELL[17,0] = Newborn
+    CELL[17,1] = ..
+  ROW 18 | Purpose The purpose of this Job Aid is to provide users with | - | - | -
+    CELL[18,0] = Purpose The purpose of this Job Aid is to provide users with
+  ROW 19 | state | specific rules, processing flow and claim splitting | - | -
+    CELL[19,0] = state
+    CELL[19,1] = specific rules, processing flow and claim splitting
+  ROW 20 | procedures around appropriate claims coverage for newborns | - | - | -
+    CELL[20,0] = procedures around appropriate claims coverage for newborns
+  ROW 21 | Following the birth | - | - | -
+    CELL[21,0] = Following the birth
+  ROW 22 | Claims Tasks | Locating Authorization and Determining | - | -
+    CELL[22,0] = Claims Tasks
+    CELL[22,1] = Locating Authorization and Determining
+  ROW 23 | Authorization Status | - | - | -
+    CELL[23,0] = Authorization Status
+  ROW 24 | Summary The purpose of this article is to assist processors in | - | - | -
+    CELL[24,0] = Summary The purpose of this article is to assist processors in
+  ROW 25 | Iocating authorization and determining authorization status for a | - | - | -
+    CELL[25,0] = Iocating authorization and determining authorization status for a
+  ROW 26 | claim. This is often necessary in workflows such as: | - | - | -
+    CELL[26,0] = claim. This is often necessary in workflows such as:
+  ROW 27 | authorization | - | - | -
+    CELL[27,0] = authorization
+  ROW 28 | Claims Disputes: Authorization Exceptions | .. | - | -
+    CELL[28,0] = Claims Disputes: Authorization Exceptions
+    CELL[28,1] = ..
+  ROW 29 | 17 Bookmarks | - | - | -
+    CELL[29,0] = 17 Bookmarks
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,13,150,34] | conf=0.998 | text=VERINT
+LINE 1 | bbox=[31,37,177,53] | conf=0.992 | text=Knowledge Management
+LINE 2 | bbox=[5,84,545,134] | conf=0.866 | text=D Search knowledge Q Search
+  WORD | bbox=[5,103,12,113] | text=D
+  WORD | bbox=[32,89,146,106] | text=Search knowledge
+  WORD | bbox=[495,88,512,106] | text=Q
+  WORD | bbox=[528,84,545,134] | text=Search
+LINE 3 | bbox=[302,123,326,145] | conf=0.923 | text=Q
+LINE 4 | bbox=[31,171,509,193] | conf=0.886 | text=My Bookmarks (17) F:
+  WORD | bbox=[31,172,212,192] | text=My Bookmarks (17)
+  WORD | bbox=[447,171,509,193] | text=F :
+LINE 5 | bbox=[220,206,495,228] | conf=0.958 | text=Filter Q
+  WORD | bbox=[220,209,256,227] | text=Filter
+  WORD | bbox=[474,206,495,228] | text=Q
+LINE 6 | bbox=[79,246,490,262] | conf=0.978 | text=Duplicate Disputes Intro to Cortex What is Cortex? Cortex is the
+LINE 7 | bbox=[80,262,495,279] | conf=0.980 | text=tool we use to review and work claims holds and disputes. What
+LINE 8 | bbox=[81,281,441,294] | conf=0.967 | text=are panels in Cortex? A panel is a list of claims that have
+LINE 9 | bbox=[81,292,155,315] | conf=0.998 | text=something
+LINE 10 | bbox=[45,342,359,363] | conf=0.809 | text=dE Claims Disputes: Authorization Exceptions
+  WORD | bbox=[45,349,56,363] | text=dE
+  WORD | bbox=[82,342,359,355] | text=Claims Disputes: Authorization Exceptions
+LINE 11 | bbox=[80,365,495,382] | conf=0.977 | text=Scope (Authorization Exceptions) Below are known authorization
+LINE 12 | bbox=[81,383,479,400] | conf=0.995 | text=processing issues, or exceptions to the rules, as of the date of
+LINE 13 | bbox=[79,397,466,415] | conf=0.981 | text=this document. Please be aware when working authorization
+LINE 14 | bbox=[80,415,139,432] | conf=0.997 | text=disputes.
+LINE 15 | bbox=[80,461,514,482] | conf=0.868 | text=Newborn .
+  WORD | bbox=[80,461,142,477] | text=Newborn
+  WORD | bbox=[504,465,514,482] | text=..
+LINE 16 | bbox=[77,481,469,504] | conf=0.984 | text=Purpose The purpose of this Job Aid is to provide users with
+LINE 17 | bbox=[80,502,431,518] | conf=0.992 | text=state specific rules, processing flow and claim splitting
+LINE 18 | bbox=[82,521,476,533] | conf=0.974 | text=procedures around appropriate claims coverage for newborns
+LINE 19 | bbox=[81,536,201,549] | conf=0.981 | text=Following the birth
+LINE 20 | bbox=[79,578,436,597] | conf=0.984 | text=Claims Tasks: Locating Authorization and Determining
+LINE 21 | bbox=[80,596,219,612] | conf=0.989 | text=Authorization Status
+LINE 22 | bbox=[81,623,476,635] | conf=0.972 | text=Summary The purpose of this article is to assist processors in
+LINE 23 | bbox=[80,638,494,654] | conf=0.977 | text=Iocating authorization and determining authorization status for a
+LINE 24 | bbox=[79,652,413,670] | conf=0.973 | text=claim. This is often necessary in workflows such as:
+LINE 25 | bbox=[81,672,166,685] | conf=0.997 | text=authorization
+LINE 26 | bbox=[80,715,516,738] | conf=0.969 | text=Claims Disputes: Authorization Exceptions .
+  WORD | bbox=[80,715,360,732] | text=Claims Disputes: Authorization Exceptions
+  WORD | bbox=[502,717,516,738] | text=..
+LINE 27 | bbox=[434,745,521,765] | conf=0.977 | text=17 Bookmarks
+[/BOXES]

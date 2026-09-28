@@ -1,0 +1,2089 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Clamnrgi Flo0 pg2 ieinber Fg3 Diaghosisrg4\nProcessor: Sarah Johnson Last edit: 11/17/202508:05 ProcessorID: PRoco01 Decision SLA: 3 days.\nProvider Information\nProvider NPI: 1098216607 Provider Name: MARTINEZ MDANNALUCIA\nTax ID: 884280110 Specialty Code: 207Q FAMILY PRACTICE\nService Address: 689 Birch Rd,FresnoCA\nBilling Address: 689 Birch Rd,FresnoCA\nPhone: 555)747-8246 Fax: 555321-8546\nContract Type: EPO-NETWORK Network Tier: 1 OUT-OF-AREA\nReferring Provider: SPECIALIST REFERRED\nProvider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 790,
+      "text": "Clamnrgi Flo0 pg2 ieinber Fg3 Diaghosisrg4\nProcessor: Sarah Johnson Last edit: 11/17/202508:05 ProcessorID: PRoco01 Decision SLA: 3 days.\nProvider Information\nProvider NPI: 1098216607 Provider Name: MARTINEZ MDANNALUCIA\nTax ID: 884280110 Specialty Code: 207Q FAMILY PRACTICE\nService Address: 689 Birch Rd,FresnoCA\nBilling Address: 689 Birch Rd,FresnoCA\nPhone: 555)747-8246 Fax: 555321-8546\nContract Type: EPO-NETWORK Network Tier: 1 OUT-OF-AREA\nReferring Provider: SPECIALIST REFERRED\nProvider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 2,
+              "bbox": [
+                67,
+                165,
+                384,
+                193
+              ],
+              "text": "ProviderInformation",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "ProviderInformation",
+                  "conf": 0.9882877469062805,
+                  "bbox": [
+                    67,
+                    165,
+                    384,
+                    193
+                  ],
+                  "words": [
+                    {
+                      "text": "ProviderInformation",
+                      "conf": 0.9882877469062805,
+                      "bbox": [
+                        67,
+                        165,
+                        384,
+                        193
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                62,
+                389,
+                900,
+                525
+              ],
+              "text": "Service Address: 689 Birch Rd,FresnoCA\nBilling Address: 689 Birch Rd,FresnoCA\nPhone: 555)747-8246 Fax: 555321-8546",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Service Address: 689 Birch Rd,FresnoCA",
+                  "conf": 0.9560920000076294,
+                  "bbox": [
+                    66,
+                    389,
+                    553,
+                    418
+                  ],
+                  "words": [
+                    {
+                      "text": "Service Address:",
+                      "conf": 0.9773032665252686,
+                      "bbox": [
+                        66,
+                        389,
+                        238,
+                        414
+                      ]
+                    },
+                    {
+                      "text": "689 Birch Rd,FresnoCA",
+                      "conf": 0.9348807334899902,
+                      "bbox": [
+                        280,
+                        390,
+                        553,
+                        418
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Billing Address: 689 Birch Rd,FresnoCA",
+                  "conf": 0.9417431056499481,
+                  "bbox": [
+                    64,
+                    436,
+                    552,
+                    466
+                  ],
+                  "words": [
+                    {
+                      "text": "Billing Address:",
+                      "conf": 0.9714841842651367,
+                      "bbox": [
+                        64,
+                        436,
+                        224,
+                        466
+                      ]
+                    },
+                    {
+                      "text": "689 Birch Rd,FresnoCA",
+                      "conf": 0.9120020270347595,
+                      "bbox": [
+                        283,
+                        446,
+                        552,
+                        466
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Phone: 555)747-8246 Fax: 555321-8546",
+                  "conf": 0.9748508781194687,
+                  "bbox": [
+                    62,
+                    491,
+                    900,
+                    525
+                  ],
+                  "words": [
+                    {
+                      "text": "Phone:",
+                      "conf": 0.987907350063324,
+                      "bbox": [
+                        62,
+                        493,
+                        141,
+                        523
+                      ]
+                    },
+                    {
+                      "text": "555)747-8246",
+                      "conf": 0.9577272534370422,
+                      "bbox": [
+                        180,
+                        500,
+                        353,
+                        525
+                      ]
+                    },
+                    {
+                      "text": "Fax:",
+                      "conf": 0.9677003622055054,
+                      "bbox": [
+                        649,
+                        491,
+                        701,
+                        524
+                      ]
+                    },
+                    {
+                      "text": "555321-8546",
+                      "conf": 0.9860685467720032,
+                      "bbox": [
+                        725,
+                        497,
+                        900,
+                        523
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                62,
+                621,
+                512,
+                674
+              ],
+              "text": "Referring Provider: SPECIALIST REFERRED",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Referring Provider: SPECIALIST REFERRED",
+                  "conf": 0.9644564539194107,
+                  "bbox": [
+                    62,
+                    621,
+                    512,
+                    674
+                  ],
+                  "words": [
+                    {
+                      "text": "Referring Provider:",
+                      "conf": 0.9568310678005219,
+                      "bbox": [
+                        62,
+                        621,
+                        161,
+                        674
+                      ]
+                    },
+                    {
+                      "text": "SPECIALIST REFERRED",
+                      "conf": 0.9720818400382996,
+                      "bbox": [
+                        264,
+                        640,
+                        512,
+                        660
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "ProviderInformation\nService Address: 689 Birch Rd,FresnoCA\nBilling Address: 689 Birch Rd,FresnoCA\nPhone: 555)747-8246 Fax: 555321-8546\nReferring Provider: SPECIALIST REFERRED"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            87,
+            0,
+            820,
+            19
+          ],
+          "text": "Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4",
+              "conf": 0.6627793610095978,
+              "bbox": [
+                87,
+                0,
+                820,
+                19
+              ],
+              "words": [
+                {
+                  "text": "Clamnrgi",
+                  "conf": 0.6641209125518799,
+                  "bbox": [
+                    87,
+                    0,
+                    189,
+                    16
+                  ]
+                },
+                {
+                  "text": "Flo0 pg2",
+                  "conf": 0.548662006855011,
+                  "bbox": [
+                    267,
+                    0,
+                    383,
+                    19
+                  ]
+                },
+                {
+                  "text": "ieinberFg3",
+                  "conf": 0.6301134824752808,
+                  "bbox": [
+                    458,
+                    0,
+                    588,
+                    17
+                  ]
+                },
+                {
+                  "text": "Diaghosisrg4",
+                  "conf": 0.8082210421562195,
+                  "bbox": [
+                    670,
+                    0,
+                    820,
+                    17
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            69,
+            65,
+            1252,
+            89
+          ],
+          "text": "Processor: SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01 Decision SLA: 3 days.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01 Decision SLA: 3 days.",
+              "conf": 0.940178394317627,
+              "bbox": [
+                69,
+                65,
+                1252,
+                89
+              ],
+              "words": [
+                {
+                  "text": "Processor: SarahJohnson",
+                  "conf": 0.9630729556083679,
+                  "bbox": [
+                    69,
+                    66,
+                    356,
+                    86
+                  ]
+                },
+                {
+                  "text": "Last edit: 11/17/202508:05",
+                  "conf": 0.9517071843147278,
+                  "bbox": [
+                    383,
+                    66,
+                    697,
+                    86
+                  ]
+                },
+                {
+                  "text": "ProcessorID: PRoco01",
+                  "conf": 0.8762834668159485,
+                  "bbox": [
+                    720,
+                    66,
+                    978,
+                    86
+                  ]
+                },
+                {
+                  "text": "Decision SLA: 3 days.",
+                  "conf": 0.9696499705314636,
+                  "bbox": [
+                    1023,
+                    65,
+                    1252,
+                    89
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            67,
+            165,
+            384,
+            193
+          ],
+          "text": "ProviderInformation",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "ProviderInformation",
+              "conf": 0.9882877469062805,
+              "bbox": [
+                67,
+                165,
+                384,
+                193
+              ],
+              "words": [
+                {
+                  "text": "ProviderInformation",
+                  "conf": 0.9882877469062805,
+                  "bbox": [
+                    67,
+                    165,
+                    384,
+                    193
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            62,
+            228,
+            1353,
+            358
+          ],
+          "text": "Provider NPI: 1098216607 ProviderName: MARTINEZ MDANNALUCIA\nTax ID: 884280110 Specialty Code: 207Q FAMILY PRACTICE",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Provider NPI: 1098216607 ProviderName: MARTINEZ MDANNALUCIA",
+              "conf": 0.9819243848323822,
+              "bbox": [
+                62,
+                228,
+                1217,
+                283
+              ],
+              "words": [
+                {
+                  "text": "Provider NPI:",
+                  "conf": 0.9720649719238281,
+                  "bbox": [
+                    62,
+                    228,
+                    155,
+                    283
+                  ]
+                },
+                {
+                  "text": "1098216607",
+                  "conf": 0.9982666969299316,
+                  "bbox": [
+                    212,
+                    244,
+                    355,
+                    270
+                  ]
+                },
+                {
+                  "text": "ProviderName:",
+                  "conf": 0.9899625778198242,
+                  "bbox": [
+                    705,
+                    244,
+                    866,
+                    268
+                  ]
+                },
+                {
+                  "text": "MARTINEZ MDANNALUCIA",
+                  "conf": 0.9674032926559448,
+                  "bbox": [
+                    911,
+                    245,
+                    1217,
+                    270
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Tax ID: 884280110 Specialty Code: 207Q FAMILY PRACTICE",
+              "conf": 0.9869366943836212,
+              "bbox": [
+                62,
+                302,
+                1353,
+                358
+              ],
+              "words": [
+                {
+                  "text": "Tax ID:",
+                  "conf": 0.9617185592651367,
+                  "bbox": [
+                    62,
+                    307,
+                    105,
+                    356
+                  ]
+                },
+                {
+                  "text": "884280110",
+                  "conf": 0.9978255033493042,
+                  "bbox": [
+                    153,
+                    318,
+                    284,
+                    344
+                  ]
+                },
+                {
+                  "text": "Specialty Code:",
+                  "conf": 0.9868113100528717,
+                  "bbox": [
+                    626,
+                    302,
+                    725,
+                    358
+                  ]
+                },
+                {
+                  "text": "207Q",
+                  "conf": 0.9910421371459961,
+                  "bbox": [
+                    791,
+                    318,
+                    859,
+                    346
+                  ]
+                },
+                {
+                  "text": "FAMILY PRACTICE",
+                  "conf": 0.9972859621047974,
+                  "bbox": [
+                    1250,
+                    306,
+                    1353,
+                    355
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            62,
+            389,
+            900,
+            525
+          ],
+          "text": "Service Address: 689 Birch Rd,FresnoCA\nBilling Address: 689 Birch Rd,FresnoCA\nPhone: 555)747-8246 Fax: 555321-8546",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Service Address: 689 Birch Rd,FresnoCA",
+              "conf": 0.9560920000076294,
+              "bbox": [
+                66,
+                389,
+                553,
+                418
+              ],
+              "words": [
+                {
+                  "text": "Service Address:",
+                  "conf": 0.9773032665252686,
+                  "bbox": [
+                    66,
+                    389,
+                    238,
+                    414
+                  ]
+                },
+                {
+                  "text": "689 Birch Rd,FresnoCA",
+                  "conf": 0.9348807334899902,
+                  "bbox": [
+                    280,
+                    390,
+                    553,
+                    418
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Billing Address: 689 Birch Rd,FresnoCA",
+              "conf": 0.9417431056499481,
+              "bbox": [
+                64,
+                436,
+                552,
+                466
+              ],
+              "words": [
+                {
+                  "text": "Billing Address:",
+                  "conf": 0.9714841842651367,
+                  "bbox": [
+                    64,
+                    436,
+                    224,
+                    466
+                  ]
+                },
+                {
+                  "text": "689 Birch Rd,FresnoCA",
+                  "conf": 0.9120020270347595,
+                  "bbox": [
+                    283,
+                    446,
+                    552,
+                    466
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Phone: 555)747-8246 Fax: 555321-8546",
+              "conf": 0.9748508781194687,
+              "bbox": [
+                62,
+                491,
+                900,
+                525
+              ],
+              "words": [
+                {
+                  "text": "Phone:",
+                  "conf": 0.987907350063324,
+                  "bbox": [
+                    62,
+                    493,
+                    141,
+                    523
+                  ]
+                },
+                {
+                  "text": "555)747-8246",
+                  "conf": 0.9577272534370422,
+                  "bbox": [
+                    180,
+                    500,
+                    353,
+                    525
+                  ]
+                },
+                {
+                  "text": "Fax:",
+                  "conf": 0.9677003622055054,
+                  "bbox": [
+                    649,
+                    491,
+                    701,
+                    524
+                  ]
+                },
+                {
+                  "text": "555321-8546",
+                  "conf": 0.9860685467720032,
+                  "bbox": [
+                    725,
+                    497,
+                    900,
+                    523
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            64,
+            549,
+            1478,
+            605
+          ],
+          "text": "Contract Type: EPO-NETWORK Network Tier: 1 OUT-OF-AREA",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Contract Type: EPO-NETWORK Network Tier: 1 OUT-OF-AREA",
+              "conf": 0.9737360835075378,
+              "bbox": [
+                64,
+                549,
+                1478,
+                605
+              ],
+              "words": [
+                {
+                  "text": "Contract Type:",
+                  "conf": 0.9649454951286316,
+                  "bbox": [
+                    64,
+                    549,
+                    158,
+                    605
+                  ]
+                },
+                {
+                  "text": "EPO-NETWORK",
+                  "conf": 0.9934713840484619,
+                  "bbox": [
+                    220,
+                    562,
+                    391,
+                    590
+                  ]
+                },
+                {
+                  "text": "Network Tier:",
+                  "conf": 0.9871510863304138,
+                  "bbox": [
+                    727,
+                    551,
+                    819,
+                    602
+                  ]
+                },
+                {
+                  "text": "1",
+                  "conf": 0.9325078129768372,
+                  "bbox": [
+                    869,
+                    568,
+                    883,
+                    585
+                  ]
+                },
+                {
+                  "text": "OUT-OF-AREA",
+                  "conf": 0.9906046390533447,
+                  "bbox": [
+                    1328,
+                    566,
+                    1478,
+                    588
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            62,
+            621,
+            512,
+            674
+          ],
+          "text": "Referring Provider: SPECIALIST REFERRED",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Referring Provider: SPECIALIST REFERRED",
+              "conf": 0.9644564539194107,
+              "bbox": [
+                62,
+                621,
+                512,
+                674
+              ],
+              "words": [
+                {
+                  "text": "Referring Provider:",
+                  "conf": 0.9568310678005219,
+                  "bbox": [
+                    62,
+                    621,
+                    161,
+                    674
+                  ]
+                },
+                {
+                  "text": "SPECIALIST REFERRED",
+                  "conf": 0.9720818400382996,
+                  "bbox": [
+                    264,
+                    640,
+                    512,
+                    660
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            64,
+            691,
+            1482,
+            746
+          ],
+          "text": "Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+              "conf": 0.9826967895030976,
+              "bbox": [
+                64,
+                691,
+                1482,
+                746
+              ],
+              "words": [
+                {
+                  "text": "Provider Status:",
+                  "conf": 0.9887150228023529,
+                  "bbox": [
+                    64,
+                    694,
+                    152,
+                    744
+                  ]
+                },
+                {
+                  "text": "ACTIVE",
+                  "conf": 0.9961414933204651,
+                  "bbox": [
+                    236,
+                    705,
+                    320,
+                    731
+                  ]
+                },
+                {
+                  "text": "Effective Date:",
+                  "conf": 0.9872112274169922,
+                  "bbox": [
+                    761,
+                    691,
+                    856,
+                    744
+                  ]
+                },
+                {
+                  "text": "01/01/2023",
+                  "conf": 0.9978684186935425,
+                  "bbox": [
+                    928,
+                    705,
+                    1058,
+                    731
+                  ]
+                },
+                {
+                  "text": "Term Date:",
+                  "conf": 0.943547785282135,
+                  "bbox": [
+                    1415,
+                    694,
+                    1482,
+                    746
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            62,
+            0,
+            1482,
+            746
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4</td><td></td><td></td><td></td></tr><tr><td>Processor</td><td>SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01</td><td>Decision SLA</td><td>3 days.</td></tr><tr><td>ProviderInformation</td><td></td><td></td><td></td></tr><tr><td>Provider NPI</td><td>1098216607 ProviderName:</td><td>MARTINEZ MDANNALUCIA</td><td></td></tr><tr><td>Tax ID</td><td>884280110 Specialty Code:</td><td>207Q</td><td>FAMILY PRACTICE</td></tr><tr><td>Service Address</td><td>689 Birch Rd,FresnoCA</td><td></td><td></td></tr><tr><td>Billing Address</td><td>689 Birch Rd,FresnoCA</td><td></td><td></td></tr><tr><td>Phone</td><td>555)747-8246 Fax: 555321-8546</td><td></td><td></td></tr><tr><td>Contract Type</td><td>EPO-NETWORK Network Tier:</td><td>1 OUT-OF-AREA</td><td></td></tr><tr><td>Referring Provider</td><td>SPECIALIST REFERRED</td><td></td><td></td></tr><tr><td>Provider Status</td><td>ACTIVE</td><td>Effective Date</td><td>01/01/2023 Term Date:</td></tr></table>",
+          "text": "Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4: \nProcessor: SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01\nDecision SLA: 3 days.\nProviderInformation: \nProvider NPI: 1098216607 ProviderName:\nMARTINEZ MDANNALUCIA: \nTax ID: 884280110 Specialty Code:\n207Q: FAMILY PRACTICE\nService Address: 689 Birch Rd,FresnoCA\nBilling Address: 689 Birch Rd,FresnoCA\nPhone: 555)747-8246 Fax: 555321-8546\nContract Type: EPO-NETWORK Network Tier:\n1 OUT-OF-AREA: \nReferring Provider: SPECIALIST REFERRED\nProvider Status: ACTIVE\nEffective Date: 01/01/2023 Term Date:",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Processor",
+              "SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01",
+              "Decision SLA",
+              "3 days."
+            ],
+            [
+              "ProviderInformation",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Provider NPI",
+              "1098216607 ProviderName:",
+              "MARTINEZ MDANNALUCIA",
+              ""
+            ],
+            [
+              "Tax ID",
+              "884280110 Specialty Code:",
+              "207Q",
+              "FAMILY PRACTICE"
+            ],
+            [
+              "Service Address",
+              "689 Birch Rd,FresnoCA",
+              "",
+              ""
+            ],
+            [
+              "Billing Address",
+              "689 Birch Rd,FresnoCA",
+              "",
+              ""
+            ],
+            [
+              "Phone",
+              "555)747-8246 Fax: 555321-8546",
+              "",
+              ""
+            ],
+            [
+              "Contract Type",
+              "EPO-NETWORK Network Tier:",
+              "1 OUT-OF-AREA",
+              ""
+            ],
+            [
+              "Referring Provider",
+              "SPECIALIST REFERRED",
+              "",
+              ""
+            ],
+            [
+              "Provider Status",
+              "ACTIVE",
+              "Effective Date",
+              "01/01/2023 Term Date:"
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4",
+              ""
+            ],
+            [
+              "Processor: SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01",
+              "Decision SLA: 3 days."
+            ],
+            [
+              "ProviderInformation",
+              ""
+            ],
+            [
+              "Provider NPI: 1098216607 ProviderName:",
+              "MARTINEZ MDANNALUCIA"
+            ],
+            [
+              "Tax ID: 884280110 Specialty Code:",
+              "207Q FAMILY PRACTICE"
+            ],
+            [
+              "Service Address: 689 Birch Rd,FresnoCA",
+              ""
+            ],
+            [
+              "Billing Address: 689 Birch Rd,FresnoCA",
+              ""
+            ],
+            [
+              "Phone: 555)747-8246 Fax: 555321-8546",
+              ""
+            ],
+            [
+              "Contract Type: EPO-NETWORK Network Tier:",
+              "1 OUT-OF-AREA"
+            ],
+            [
+              "Referring Provider: SPECIALIST REFERRED",
+              ""
+            ],
+            [
+              "Provider Status: ACTIVE",
+              "Effective Date: 01/01/2023 Term Date:"
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            39,
+            35,
+            1496,
+            785
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Processor</td><td>SarahJohnson Last edit: 11/17/2025 08:05</td><td>Processor ID</td><td>PRoc001 Decision SLA: 3 days</td></tr><tr><td>ProviderInformations</td><td></td><td></td><td></td></tr><tr><td>Provider NPI</td><td>1098216607</td><td>Provider Name</td><td>MARTINEZ MD,ANNA LUCIA FAMILY</td></tr><tr><td>Tax ID</td><td>884280110 Specialty Code:</td><td>207Q PRACTICE</td><td></td></tr><tr><td>Service Address</td><td>689 Birch Rd, FresnoCA</td><td></td><td></td></tr><tr><td>Billing Address</td><td>689 Birch RdFresnoCA</td><td></td><td></td></tr><tr><td>Phone / Fax:</td><td></td><td>(555) 321-8546</td><td></td></tr><tr><td>Contract</td><td>555)747-8246</td><td>Network</td><td>OUT-OF-AREA</td></tr><tr><td>Type</td><td>Referring EPO-NETWORK</td><td>Tier:</td><td></td></tr><tr><td>Provider</td><td>SPECIALIST REFERRED</td><td>Term</td><td></td></tr><tr><td>Provider Status</td><td>ACTIVE</td><td>Effective Date</td><td>01/01/2023 Date:</td></tr></table>",
+          "text": "Processor: SarahJohnson Last edit: 11/17/2025 08:05 | Processor ID: PRoc001 Decision SLA: 3 days\nProviderInformations: \nProvider NPI: 1098216607 | Provider Name: MARTINEZ MD,ANNA LUCIA FAMILY\nTax ID: 884280110 Specialty Code: | 207Q PRACTICE: \nService Address: 689 Birch Rd, FresnoCA\nBilling Address: 689 Birch RdFresnoCA\nPhone / Fax::  | (555) 321-8546: \nContract: 555)747-8246 | Network: OUT-OF-AREA\nType: Referring EPO-NETWORK | Tier:: \nProvider: SPECIALIST REFERRED | Term: \nProvider Status: ACTIVE | Effective Date: 01/01/2023 Date:",
+          "confidence": 0.5608425140380859,
+          "source": "ppstructure",
+          "cell_bbox": [
+            [
+              75.6444091796875,
+              43.044219970703125,
+              237.58084106445312,
+              76.6329116821289
+            ],
+            [
+              167.17205810546875,
+              40.23624038696289,
+              313.6000671386719,
+              74.18888092041016
+            ],
+            [
+              337.0787048339844,
+              45.598663330078125,
+              445.41241455078125,
+              78.4085464477539
+            ],
+            [
+              457.1753845214844,
+              41.78535842895508,
+              694.4583740234375,
+              78.69625091552734
+            ],
+            [
+              698.5681762695312,
+              53.94169235229492,
+              895.0140380859375,
+              89.8221206665039
+            ],
+            [
+              854.3648681640625,
+              49.6356086730957,
+              999.2869873046875,
+              81.71727752685547
+            ],
+            [
+              986.9390258789062,
+              43.18734359741211,
+              1199.1246337890625,
+              80.12178802490234
+            ],
+            [
+              1191.244873046875,
+              56.824554443359375,
+              1339.1397705078125,
+              107.06842041015625
+            ],
+            [
+              16.556116104125977,
+              146.14727783203125,
+              279.0876770019531,
+              183.8263397216797
+            ],
+            [
+              735.8683471679688,
+              157.69163513183594,
+              872.6627197265625,
+              188.33602905273438
+            ],
+            [
+              866.4837036132812,
+              156.76356506347656,
+              1042.9283447265625,
+              187.07623291015625
+            ],
+            [
+              953.5777587890625,
+              156.0150909423828,
+              1165.42919921875,
+              190.37742614746094
+            ],
+            [
+              1192.9378662109375,
+              205.0559539794922,
+              1308.1063232421875,
+              225.14297485351562
+            ],
+            [
+              33.06538009643555,
+              207.03341674804688,
+              139.26602172851562,
+              243.9495086669922
+            ],
+            [
+              165.71243286132812,
+              204.48785400390625,
+              325.2292175292969,
+              240.22438049316406
+            ],
+            [
+              517.5339965820312,
+              214.0775604248047,
+              692.580078125,
+              254.0497589111328
+            ],
+            [
+              708.1598510742188,
+              227.11083984375,
+              853.906005859375,
+              251.568603515625
+            ],
+            [
+              802.3110961914062,
+              221.35610961914062,
+              934.718994140625,
+              248.31390380859375
+            ],
+            [
+              901.3207397460938,
+              214.80667114257812,
+              1172.407958984375,
+              249.96441650390625
+            ],
+            [
+              1211.1165771484375,
+              243.8115997314453,
+              1322.0526123046875,
+              291.33160400390625
+            ],
+            [
+              19.270221710205078,
+              260.9788818359375,
+              65.89651489257812,
+              300.9760437011719
+            ],
+            [
+              177.5174102783203,
+              263.9989013671875,
+              255.64842224121094,
+              304.1346435546875
+            ],
+            [
+              532.01123046875,
+              281.00433349609375,
+              704.9346313476562,
+              318.8248291015625
+            ],
+            [
+              722.4777221679688,
+              274.3316650390625,
+              825.8862915039062,
+              305.92449951171875
+            ],
+            [
+              837.8823852539062,
+              268.7663269042969,
+              990.9464721679688,
+              301.0910339355469
+            ],
+            [
+              956.5057983398438,
+              265.0948486328125,
+              1203.4794921875,
+              306.2427062988281
+            ],
+            [
+              1224.8118896484375,
+              289.7730407714844,
+              1331.25732421875,
+              329.75750732421875
+            ],
+            [
+              41.51433563232422,
+              328.72479248046875,
+              158.2936553955078,
+              363.5008239746094
+            ],
+            [
+              151.28492736816406,
+              330.6726379394531,
+              277.04425048828125,
+              366.2408752441406
+            ],
+            [
+              258.3108215332031,
+              329.44610595703125,
+              429.7069396972656,
+              368.4107360839844
+            ],
+            [
+              478.8057556152344,
+              355.09381103515625,
+              631.7183227539062,
+              381.83319091796875
+            ],
+            [
+              688.8184814453125,
+              345.5818786621094,
+              788.140869140625,
+              374.92523193359375
+            ],
+            [
+              835.5682983398438,
+              342.2348327636719,
+              910.5565795898438,
+              373.76800537109375
+            ],
+            [
+              935.9520263671875,
+              332.70355224609375,
+              1126.1866455078125,
+              368.5574645996094
+            ],
+            [
+              1242.5791015625,
+              351.6435241699219,
+              1365.046630859375,
+              386.4127502441406
+            ],
+            [
+              32.17882537841797,
+              377.7955017089844,
+              186.61453247070312,
+              413.94915771484375
+            ],
+            [
+              243.50759887695312,
+              380.86224365234375,
+              441.9641418457031,
+              421.0471496582031
+            ],
+            [
+              468.18304443359375,
+              387.6073303222656,
+              629.61865234375,
+              426.09356689453125
+            ],
+            [
+              683.6245727539062,
+              390.2061462402344,
+              807.8672485351562,
+              422.8299255371094
+            ],
+            [
+              810.8960571289062,
+              382.5895690917969,
+              884.2655029296875,
+              419.5543212890625
+            ],
+            [
+              918.5368041992188,
+              379.1936340332031,
+              1086.7672119140625,
+              416.5613708496094
+            ],
+            [
+              1219.427734375,
+              395.9750671386719,
+              1344.611083984375,
+              435.1245422363281
+            ],
+            [
+              16.946636199951172,
+              430.6623229980469,
+              187.52508544921875,
+              460.594482421875
+            ],
+            [
+              267.5691223144531,
+              430.44122314453125,
+              375.1011657714844,
+              463.7272644042969
+            ],
+            [
+              469.2547912597656,
+              437.75640869140625,
+              619.6376342773438,
+              473.2144470214844
+            ],
+            [
+              709.8355712890625,
+              443.0623474121094,
+              845.1937255859375,
+              469.88690185546875
+            ],
+            [
+              818.1263427734375,
+              436.15869140625,
+              928.5673828125,
+              466.5069885253906
+            ],
+            [
+              925.3660888671875,
+              434.7327575683594,
+              1094.389892578125,
+              469.6562805175781
+            ],
+            [
+              1230.3753662109375,
+              475.8392639160156,
+              1346.2955322265625,
+              502.4541320800781
+            ],
+            [
+              22.308040618896484,
+              487.27252197265625,
+              115.9877700805664,
+              528.336669921875
+            ],
+            [
+              144.37660217285156,
+              482.6596984863281,
+              285.720947265625,
+              521.088623046875
+            ],
+            [
+              473.3205871582031,
+              493.63311767578125,
+              610.3486328125,
+              536.558837890625
+            ],
+            [
+              703.5032958984375,
+              497.77618408203125,
+              819.9962158203125,
+              531.4910278320312
+            ],
+            [
+              824.908447265625,
+              498.43310546875,
+              873.5527954101562,
+              526.0617065429688
+            ],
+            [
+              952.925048828125,
+              502.7756652832031,
+              1047.91796875,
+              534.11962890625
+            ],
+            [
+              1259.807861328125,
+              501.6438903808594,
+              1433.076171875,
+              546.2308959960938
+            ],
+            [
+              17.91189193725586,
+              549.60791015625,
+              114.31766510009766,
+              593.7417602539062
+            ],
+            [
+              178.99595642089844,
+              548.2317504882812,
+              312.7158203125,
+              586.3839721679688
+            ],
+            [
+              464.1033630371094,
+              558.9629516601562,
+              613.2747802734375,
+              600.4907836914062
+            ],
+            [
+              703.3262329101562,
+              562.0548706054688,
+              822.4404907226562,
+              596.4390869140625
+            ],
+            [
+              811.5880737304688,
+              561.8585205078125,
+              881.7684936523438,
+              594.097412109375
+            ],
+            [
+              919.73876953125,
+              562.6358642578125,
+              1018.6502685546875,
+              596.6243286132812
+            ],
+            [
+              1287.8165283203125,
+              568.4689331054688,
+              1416.710693359375,
+              609.8675537109375
+            ],
+            [
+              15.346626281738281,
+              613.4383544921875,
+              113.10511779785156,
+              659.6471557617188
+            ],
+            [
+              192.70318603515625,
+              612.8079223632812,
+              331.2602233886719,
+              649.7586059570312
+            ],
+            [
+              437.0540466308594,
+              623.2764282226562,
+              576.7476196289062,
+              662.8450927734375
+            ],
+            [
+              702.2147216796875,
+              627.2098999023438,
+              834.193603515625,
+              662.0100708007812
+            ],
+            [
+              803.479248046875,
+              629.8665161132812,
+              882.0288696289062,
+              663.365478515625
+            ],
+            [
+              912.8206176757812,
+              635.9210815429688,
+              1049.209716796875,
+              668.3112182617188
+            ],
+            [
+              1334.3858642578125,
+              639.2884521484375,
+              1423.7813720703125,
+              680.4965209960938
+            ],
+            [
+              26.325267791748047,
+              669.0669555664062,
+              126.66900634765625,
+              712.5005493164062
+            ],
+            [
+              182.37448120117188,
+              661.1416625976562,
+              283.888671875,
+              696.518798828125
+            ],
+            [
+              246.6839599609375,
+              665.4481811523438,
+              330.2490539550781,
+              697.3213500976562
+            ],
+            [
+              480.24786376953125,
+              664.9533081054688,
+              610.0646362304688,
+              699.64404296875
+            ],
+            [
+              679.2195434570312,
+              668.8507690429688,
+              783.7769775390625,
+              704.5467529296875
+            ],
+            [
+              826.6618041992188,
+              671.9340209960938,
+              924.5535278320312,
+              706.4988403320312
+            ],
+            [
+              938.7083129882812,
+              675.3386840820312,
+              1084.295654296875,
+              708.9169311523438
+            ],
+            [
+              1348.4219970703125,
+              675.4443969726562,
+              1429.9083251953125,
+              718.1136474609375
+            ]
+          ],
+          "engine": "ppstructure",
+          "rows": [
+            [
+              "Processor",
+              "SarahJohnson Last edit: 11/17/2025 08:05",
+              "Processor ID",
+              "PRoc001 Decision SLA: 3 days"
+            ],
+            [
+              "ProviderInformations",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Provider NPI",
+              "1098216607",
+              "Provider Name",
+              "MARTINEZ MD,ANNA LUCIA FAMILY"
+            ],
+            [
+              "Tax ID",
+              "884280110 Specialty Code:",
+              "207Q PRACTICE",
+              ""
+            ],
+            [
+              "Service Address",
+              "689 Birch Rd, FresnoCA",
+              "",
+              ""
+            ],
+            [
+              "Billing Address",
+              "689 Birch RdFresnoCA",
+              "",
+              ""
+            ],
+            [
+              "Phone / Fax:",
+              "",
+              "(555) 321-8546",
+              ""
+            ],
+            [
+              "Contract",
+              "555)747-8246",
+              "Network",
+              "OUT-OF-AREA"
+            ],
+            [
+              "Type",
+              "Referring EPO-NETWORK",
+              "Tier:",
+              ""
+            ],
+            [
+              "Provider",
+              "SPECIALIST REFERRED",
+              "Term",
+              ""
+            ],
+            [
+              "Provider Status",
+              "ACTIVE",
+              "Effective Date",
+              "01/01/2023 Date:"
+            ]
+          ],
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "cleaned": true
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4",
+          "conf": 0.6627793610095978,
+          "bbox": [
+            87,
+            0,
+            820,
+            19
+          ],
+          "words": [
+            {
+              "text": "Clamnrgi",
+              "conf": 0.6641209125518799,
+              "bbox": [
+                87,
+                0,
+                189,
+                16
+              ]
+            },
+            {
+              "text": "Flo0 pg2",
+              "conf": 0.548662006855011,
+              "bbox": [
+                267,
+                0,
+                383,
+                19
+              ]
+            },
+            {
+              "text": "ieinberFg3",
+              "conf": 0.6301134824752808,
+              "bbox": [
+                458,
+                0,
+                588,
+                17
+              ]
+            },
+            {
+              "text": "Diaghosisrg4",
+              "conf": 0.8082210421562195,
+              "bbox": [
+                670,
+                0,
+                820,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01 Decision SLA: 3 days.",
+          "conf": 0.940178394317627,
+          "bbox": [
+            69,
+            65,
+            1252,
+            89
+          ],
+          "words": [
+            {
+              "text": "Processor: SarahJohnson",
+              "conf": 0.9630729556083679,
+              "bbox": [
+                69,
+                66,
+                356,
+                86
+              ]
+            },
+            {
+              "text": "Last edit: 11/17/202508:05",
+              "conf": 0.9517071843147278,
+              "bbox": [
+                383,
+                66,
+                697,
+                86
+              ]
+            },
+            {
+              "text": "ProcessorID: PRoco01",
+              "conf": 0.8762834668159485,
+              "bbox": [
+                720,
+                66,
+                978,
+                86
+              ]
+            },
+            {
+              "text": "Decision SLA: 3 days.",
+              "conf": 0.9696499705314636,
+              "bbox": [
+                1023,
+                65,
+                1252,
+                89
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ProviderInformation",
+          "conf": 0.9882877469062805,
+          "bbox": [
+            67,
+            165,
+            384,
+            193
+          ],
+          "words": [
+            {
+              "text": "ProviderInformation",
+              "conf": 0.9882877469062805,
+              "bbox": [
+                67,
+                165,
+                384,
+                193
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Provider NPI: 1098216607 ProviderName: MARTINEZ MDANNALUCIA",
+          "conf": 0.9819243848323822,
+          "bbox": [
+            62,
+            228,
+            1217,
+            283
+          ],
+          "words": [
+            {
+              "text": "Provider NPI:",
+              "conf": 0.9720649719238281,
+              "bbox": [
+                62,
+                228,
+                155,
+                283
+              ]
+            },
+            {
+              "text": "1098216607",
+              "conf": 0.9982666969299316,
+              "bbox": [
+                212,
+                244,
+                355,
+                270
+              ]
+            },
+            {
+              "text": "ProviderName:",
+              "conf": 0.9899625778198242,
+              "bbox": [
+                705,
+                244,
+                866,
+                268
+              ]
+            },
+            {
+              "text": "MARTINEZ MDANNALUCIA",
+              "conf": 0.9674032926559448,
+              "bbox": [
+                911,
+                245,
+                1217,
+                270
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tax ID: 884280110 Specialty Code: 207Q FAMILY PRACTICE",
+          "conf": 0.9869366943836212,
+          "bbox": [
+            62,
+            302,
+            1353,
+            358
+          ],
+          "words": [
+            {
+              "text": "Tax ID:",
+              "conf": 0.9617185592651367,
+              "bbox": [
+                62,
+                307,
+                105,
+                356
+              ]
+            },
+            {
+              "text": "884280110",
+              "conf": 0.9978255033493042,
+              "bbox": [
+                153,
+                318,
+                284,
+                344
+              ]
+            },
+            {
+              "text": "Specialty Code:",
+              "conf": 0.9868113100528717,
+              "bbox": [
+                626,
+                302,
+                725,
+                358
+              ]
+            },
+            {
+              "text": "207Q",
+              "conf": 0.9910421371459961,
+              "bbox": [
+                791,
+                318,
+                859,
+                346
+              ]
+            },
+            {
+              "text": "FAMILY PRACTICE",
+              "conf": 0.9972859621047974,
+              "bbox": [
+                1250,
+                306,
+                1353,
+                355
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service Address: 689 Birch Rd,FresnoCA",
+          "conf": 0.9560920000076294,
+          "bbox": [
+            66,
+            389,
+            553,
+            418
+          ],
+          "words": [
+            {
+              "text": "Service Address:",
+              "conf": 0.9773032665252686,
+              "bbox": [
+                66,
+                389,
+                238,
+                414
+              ]
+            },
+            {
+              "text": "689 Birch Rd,FresnoCA",
+              "conf": 0.9348807334899902,
+              "bbox": [
+                280,
+                390,
+                553,
+                418
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Billing Address: 689 Birch Rd,FresnoCA",
+          "conf": 0.9417431056499481,
+          "bbox": [
+            64,
+            436,
+            552,
+            466
+          ],
+          "words": [
+            {
+              "text": "Billing Address:",
+              "conf": 0.9714841842651367,
+              "bbox": [
+                64,
+                436,
+                224,
+                466
+              ]
+            },
+            {
+              "text": "689 Birch Rd,FresnoCA",
+              "conf": 0.9120020270347595,
+              "bbox": [
+                283,
+                446,
+                552,
+                466
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone: 555)747-8246 Fax: 555321-8546",
+          "conf": 0.9748508781194687,
+          "bbox": [
+            62,
+            491,
+            900,
+            525
+          ],
+          "words": [
+            {
+              "text": "Phone:",
+              "conf": 0.987907350063324,
+              "bbox": [
+                62,
+                493,
+                141,
+                523
+              ]
+            },
+            {
+              "text": "555)747-8246",
+              "conf": 0.9577272534370422,
+              "bbox": [
+                180,
+                500,
+                353,
+                525
+              ]
+            },
+            {
+              "text": "Fax:",
+              "conf": 0.9677003622055054,
+              "bbox": [
+                649,
+                491,
+                701,
+                524
+              ]
+            },
+            {
+              "text": "555321-8546",
+              "conf": 0.9860685467720032,
+              "bbox": [
+                725,
+                497,
+                900,
+                523
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Contract Type: EPO-NETWORK Network Tier: 1 OUT-OF-AREA",
+          "conf": 0.9737360835075378,
+          "bbox": [
+            64,
+            549,
+            1478,
+            605
+          ],
+          "words": [
+            {
+              "text": "Contract Type:",
+              "conf": 0.9649454951286316,
+              "bbox": [
+                64,
+                549,
+                158,
+                605
+              ]
+            },
+            {
+              "text": "EPO-NETWORK",
+              "conf": 0.9934713840484619,
+              "bbox": [
+                220,
+                562,
+                391,
+                590
+              ]
+            },
+            {
+              "text": "Network Tier:",
+              "conf": 0.9871510863304138,
+              "bbox": [
+                727,
+                551,
+                819,
+                602
+              ]
+            },
+            {
+              "text": "1",
+              "conf": 0.9325078129768372,
+              "bbox": [
+                869,
+                568,
+                883,
+                585
+              ]
+            },
+            {
+              "text": "OUT-OF-AREA",
+              "conf": 0.9906046390533447,
+              "bbox": [
+                1328,
+                566,
+                1478,
+                588
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Referring Provider: SPECIALIST REFERRED",
+          "conf": 0.9644564539194107,
+          "bbox": [
+            62,
+            621,
+            512,
+            674
+          ],
+          "words": [
+            {
+              "text": "Referring Provider:",
+              "conf": 0.9568310678005219,
+              "bbox": [
+                62,
+                621,
+                161,
+                674
+              ]
+            },
+            {
+              "text": "SPECIALIST REFERRED",
+              "conf": 0.9720818400382996,
+              "bbox": [
+                264,
+                640,
+                512,
+                660
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+          "conf": 0.9826967895030976,
+          "bbox": [
+            64,
+            691,
+            1482,
+            746
+          ],
+          "words": [
+            {
+              "text": "Provider Status:",
+              "conf": 0.9887150228023529,
+              "bbox": [
+                64,
+                694,
+                152,
+                744
+              ]
+            },
+            {
+              "text": "ACTIVE",
+              "conf": 0.9961414933204651,
+              "bbox": [
+                236,
+                705,
+                320,
+                731
+              ]
+            },
+            {
+              "text": "Effective Date:",
+              "conf": 0.9872112274169922,
+              "bbox": [
+                761,
+                691,
+                856,
+                744
+              ]
+            },
+            {
+              "text": "01/01/2023",
+              "conf": 0.9978684186935425,
+              "bbox": [
+                928,
+                705,
+                1058,
+                731
+              ]
+            },
+            {
+              "text": "Term Date:",
+              "conf": 0.943547785282135,
+              "bbox": [
+                1415,
+                694,
+                1482,
+                746
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

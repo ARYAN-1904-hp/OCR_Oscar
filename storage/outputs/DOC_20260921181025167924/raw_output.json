@@ -1,0 +1,1348 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "nrg- leiber rg3 leous Fg-\nProcessor: James Okafor Lastedit:11/17/202513:10 Processor ID: PROC004 Decision SLA: 3 days\nDiagnosis Codes (ICD-10)\nPrimary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE\nDiagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission\nSeq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/15/2025\n1 D64.9 ANEMIA,UNSPECIFIED ADMITTING 10/15/2025\nProcedure / Service Coding\nSeq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 10/15/2025\n2 P-36415 Collection of venous blood by venipuncture A 10/15/2025",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 615,
+      "text": "nrg- leiber rg3 leous Fg-\nProcessor: James Okafor Lastedit:11/17/202513:10 Processor ID: PROC004 Decision SLA: 3 days\nDiagnosis Codes (ICD-10)\nPrimary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE\nDiagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission\nSeq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/15/2025\n1 D64.9 ANEMIA,UNSPECIFIED ADMITTING 10/15/2025\nProcedure / Service Coding\nSeq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 10/15/2025\n2 P-36415 Collection of venous blood by venipuncture A 10/15/2025",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 2,
+              "bbox": [
+                42,
+                104,
+                278,
+                120
+              ],
+              "text": "Diagnosis Codes (ICD-10)",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Diagnosis Codes (ICD-10)",
+                  "conf": 0.9226648211479187,
+                  "bbox": [
+                    42,
+                    104,
+                    278,
+                    120
+                  ],
+                  "words": [
+                    {
+                      "text": "Diagnosis Codes (ICD-10)",
+                      "conf": 0.9226648211479187,
+                      "bbox": [
+                        42,
+                        104,
+                        278,
+                        120
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                39,
+                447,
+                297,
+                471
+              ],
+              "text": "Procedure / Service Coding",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Procedure / Service Coding",
+                  "conf": 0.9865025281906128,
+                  "bbox": [
+                    39,
+                    447,
+                    297,
+                    471
+                  ],
+                  "words": [
+                    {
+                      "text": "Procedure / Service Coding",
+                      "conf": 0.9865025281906128,
+                      "bbox": [
+                        39,
+                        447,
+                        297,
+                        471
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Diagnosis Codes (ICD-10)\nProcedure / Service Coding"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            66,
+            0,
+            686,
+            10
+          ],
+          "text": "nrg- leiber rg3 leousFg-",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "nrg- leiber rg3 leousFg-",
+              "conf": 0.6669788360595703,
+              "bbox": [
+                66,
+                0,
+                686,
+                10
+              ],
+              "words": [
+                {
+                  "text": "nrg-",
+                  "conf": 0.5325742363929749,
+                  "bbox": [
+                    66,
+                    0,
+                    116,
+                    10
+                  ]
+                },
+                {
+                  "text": "leiber rg3",
+                  "conf": 0.6797928810119629,
+                  "bbox": [
+                    284,
+                    0,
+                    361,
+                    10
+                  ]
+                },
+                {
+                  "text": "leousFg-",
+                  "conf": 0.7885693907737732,
+                  "bbox": [
+                    622,
+                    0,
+                    686,
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            41,
+            37,
+            775,
+            58
+          ],
+          "text": "Processor: James Okafor Lastedit:11/17/202513:10 Processor ID: PROC004 Decision SLA: 3 days",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: James Okafor Lastedit:11/17/202513:10 Processor ID: PROC004 Decision SLA: 3 days",
+              "conf": 0.9531917810440064,
+              "bbox": [
+                41,
+                37,
+                775,
+                58
+              ],
+              "words": [
+                {
+                  "text": "Processor: James Okafor",
+                  "conf": 0.9799315333366394,
+                  "bbox": [
+                    41,
+                    40,
+                    211,
+                    56
+                  ]
+                },
+                {
+                  "text": "Lastedit:11/17/202513:10",
+                  "conf": 0.9729397296905518,
+                  "bbox": [
+                    239,
+                    42,
+                    430,
+                    53
+                  ]
+                },
+                {
+                  "text": "Processor ID:",
+                  "conf": 0.943848192691803,
+                  "bbox": [
+                    445,
+                    40,
+                    541,
+                    56
+                  ]
+                },
+                {
+                  "text": "PROC004",
+                  "conf": 0.9216432571411133,
+                  "bbox": [
+                    533,
+                    37,
+                    608,
+                    58
+                  ]
+                },
+                {
+                  "text": "Decision SLA: 3 days",
+                  "conf": 0.9475961923599243,
+                  "bbox": [
+                    633,
+                    40,
+                    775,
+                    56
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            42,
+            104,
+            278,
+            120
+          ],
+          "text": "Diagnosis Codes (ICD-10)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Diagnosis Codes (ICD-10)",
+              "conf": 0.9226648211479187,
+              "bbox": [
+                42,
+                104,
+                278,
+                120
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis Codes (ICD-10)",
+                  "conf": 0.9226648211479187,
+                  "bbox": [
+                    42,
+                    104,
+                    278,
+                    120
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            37,
+            141,
+            1336,
+            318
+          ],
+          "text": "Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE\nDiagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission\nSeq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/15/2025\n1 D64.9 ANEMIA,UNSPECIFIED ADMITTING 10/15/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+              "conf": 0.9592197934786478,
+              "bbox": [
+                37,
+                141,
+                717,
+                179
+              ],
+              "words": [
+                {
+                  "text": "Primary Diagnosis:",
+                  "conf": 0.9902481138706207,
+                  "bbox": [
+                    37,
+                    141,
+                    107,
+                    176
+                  ]
+                },
+                {
+                  "text": "M17.11",
+                  "conf": 0.9194849133491516,
+                  "bbox": [
+                    158,
+                    149,
+                    217,
+                    167
+                  ]
+                },
+                {
+                  "text": "UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+                  "conf": 0.9679263532161713,
+                  "bbox": [
+                    444,
+                    141,
+                    717,
+                    179
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Diagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission",
+              "conf": 0.9581470549106598,
+              "bbox": [
+                39,
+                186,
+                959,
+                221
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis Code Type:",
+                  "conf": 0.975458562374115,
+                  "bbox": [
+                    39,
+                    186,
+                    141,
+                    221
+                  ]
+                },
+                {
+                  "text": "ICD-10-CM",
+                  "conf": 0.9371185302734375,
+                  "bbox": [
+                    167,
+                    195,
+                    248,
+                    211
+                  ]
+                },
+                {
+                  "text": "POA Indicator:",
+                  "conf": 0.993500828742981,
+                  "bbox": [
+                    472,
+                    186,
+                    536,
+                    219
+                  ]
+                },
+                {
+                  "text": "Y",
+                  "conf": 0.9075915217399597,
+                  "bbox": [
+                    567,
+                    194,
+                    589,
+                    213
+                  ]
+                },
+                {
+                  "text": "YES,present on admission",
+                  "conf": 0.9770658314228058,
+                  "bbox": [
+                    856,
+                    187,
+                    959,
+                    219
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Seq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/15/2025",
+              "conf": 0.9860178053379058,
+              "bbox": [
+                48,
+                242,
+                1336,
+                290
+              ],
+              "words": [
+                {
+                  "text": "Seq 0",
+                  "conf": 0.9576503038406372,
+                  "bbox": [
+                    48,
+                    243,
+                    83,
+                    288
+                  ]
+                },
+                {
+                  "text": "Code M17.11",
+                  "conf": 0.9969900846481323,
+                  "bbox": [
+                    107,
+                    243,
+                    165,
+                    290
+                  ]
+                },
+                {
+                  "text": "Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE",
+                  "conf": 0.9801027476787567,
+                  "bbox": [
+                    247,
+                    242,
+                    583,
+                    285
+                  ]
+                },
+                {
+                  "text": "Type PRIMARY",
+                  "conf": 0.9967202842235565,
+                  "bbox": [
+                    1069,
+                    242,
+                    1128,
+                    285
+                  ]
+                },
+                {
+                  "text": "Date 10/15/2025",
+                  "conf": 0.9986256062984467,
+                  "bbox": [
+                    1256,
+                    242,
+                    1336,
+                    288
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "1 D64.9 ANEMIA,UNSPECIFIED ADMITTING 10/15/2025",
+              "conf": 0.9887158870697021,
+              "bbox": [
+                50,
+                294,
+                1336,
+                318
+              ],
+              "words": [
+                {
+                  "text": "1",
+                  "conf": 0.9936283230781555,
+                  "bbox": [
+                    50,
+                    298,
+                    64,
+                    316
+                  ]
+                },
+                {
+                  "text": "D64.9",
+                  "conf": 0.9882858395576477,
+                  "bbox": [
+                    109,
+                    294,
+                    155,
+                    318
+                  ]
+                },
+                {
+                  "text": "ANEMIA,UNSPECIFIED",
+                  "conf": 0.9673869013786316,
+                  "bbox": [
+                    248,
+                    298,
+                    391,
+                    314
+                  ]
+                },
+                {
+                  "text": "ADMITTING",
+                  "conf": 0.9947600960731506,
+                  "bbox": [
+                    1070,
+                    298,
+                    1144,
+                    314
+                  ]
+                },
+                {
+                  "text": "10/15/2025",
+                  "conf": 0.9995182752609253,
+                  "bbox": [
+                    1256,
+                    296,
+                    1336,
+                    317
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            39,
+            447,
+            297,
+            471
+          ],
+          "text": "Procedure / Service Coding",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Procedure / Service Coding",
+              "conf": 0.9865025281906128,
+              "bbox": [
+                39,
+                447,
+                297,
+                471
+              ],
+              "words": [
+                {
+                  "text": "Procedure / Service Coding",
+                  "conf": 0.9865025281906128,
+                  "bbox": [
+                    39,
+                    447,
+                    297,
+                    471
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            48,
+            490,
+            1372,
+            565
+          ],
+          "text": "Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 10/15/2025\n2 P-36415 Collection of venous blood by venipuncture A 10/15/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 10/15/2025",
+              "conf": 0.9874984721342722,
+              "bbox": [
+                48,
+                490,
+                1372,
+                539
+              ],
+              "words": [
+                {
+                  "text": "Seq 1",
+                  "conf": 0.9967530369758606,
+                  "bbox": [
+                    48,
+                    492,
+                    83,
+                    538
+                  ]
+                },
+                {
+                  "text": "CPT/HCPCS P-77014",
+                  "conf": 0.9893636107444763,
+                  "bbox": [
+                    105,
+                    490,
+                    191,
+                    537
+                  ]
+                },
+                {
+                  "text": "Modifier A",
+                  "conf": 0.9755704700946808,
+                  "bbox": [
+                    250,
+                    492,
+                    316,
+                    537
+                  ]
+                },
+                {
+                  "text": "Description Computed tomography guidance for placement of radiation therapy fields",
+                  "conf": 0.9875988066196442,
+                  "bbox": [
+                    362,
+                    493,
+                    830,
+                    537
+                  ]
+                },
+                {
+                  "text": "Diag Pointer A",
+                  "conf": 0.9887392222881317,
+                  "bbox": [
+                    1096,
+                    490,
+                    1195,
+                    539
+                  ]
+                },
+                {
+                  "text": "Date of Service 10/15/2025",
+                  "conf": 0.98696568608284,
+                  "bbox": [
+                    1256,
+                    490,
+                    1372,
+                    537
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "2 P-36415 Collection of venous blood by venipuncture A 10/15/2025",
+              "conf": 0.9915648341178894,
+              "bbox": [
+                50,
+                545,
+                1336,
+                565
+              ],
+              "words": [
+                {
+                  "text": "2",
+                  "conf": 0.9981155395507812,
+                  "bbox": [
+                    50,
+                    546,
+                    64,
+                    564
+                  ]
+                },
+                {
+                  "text": "P-36415",
+                  "conf": 0.988815426826477,
+                  "bbox": [
+                    106,
+                    546,
+                    162,
+                    564
+                  ]
+                },
+                {
+                  "text": "Collection of venous blood by venipuncture",
+                  "conf": 0.9725742340087891,
+                  "bbox": [
+                    364,
+                    548,
+                    636,
+                    564
+                  ]
+                },
+                {
+                  "text": "A",
+                  "conf": 0.9986125230789185,
+                  "bbox": [
+                    1098,
+                    545,
+                    1117,
+                    565
+                  ]
+                },
+                {
+                  "text": "10/15/2025",
+                  "conf": 0.9997064471244812,
+                  "bbox": [
+                    1258,
+                    545,
+                    1336,
+                    565
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            37,
+            0,
+            1372,
+            565
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>nrg- leiber rg3 leousFg-</td><td></td><td></td><td></td></tr><tr><td>Processor: James Okafor Lastedit:11/17/202513:10 Processor ID</td><td>PROC004 Decision SLA: 3 days</td><td></td><td></td></tr><tr><td>Diagnosis Codes (ICD-10)</td><td></td><td></td><td></td></tr><tr><td>Primary Diagnosis</td><td>M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE</td><td></td><td></td></tr><tr><td>Diagnosis Code Type</td><td>ICD-10-CM POA Indicator: Y</td><td>YES,present on admission</td><td></td></tr><tr><td>Seq 0 Code M17.11</td><td>Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE</td><td>Type PRIMARY</td><td>Date 10/15/2025</td></tr><tr><td>1 D64.9</td><td>ANEMIA,UNSPECIFIED</td><td>ADMITTING</td><td>10/15/2025</td></tr><tr><td>Procedure / Service Coding</td><td></td><td></td><td></td></tr><tr><td>Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields</td><td></td><td>Diag Pointer A</td><td>Date of Service 10/15/2025</td></tr><tr><td>2 P-36415</td><td>Collection of venous blood by venipuncture</td><td>A</td><td>10/15/2025</td></tr></table>",
+          "text": "nrg- leiber rg3 leousFg-: \nProcessor: James Okafor Lastedit:11/17/202513:10 Processor ID: PROC004 Decision SLA: 3 days\nDiagnosis Codes (ICD-10): \nPrimary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE\nDiagnosis Code Type: ICD-10-CM POA Indicator: Y\nYES,present on admission: \nSeq 0 Code M17.11: Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE\nType PRIMARY: Date 10/15/2025\n1 D64.9: ANEMIA,UNSPECIFIED\nADMITTING: 10/15/2025\nProcedure / Service Coding: \nSeq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields: \nDiag Pointer A: Date of Service 10/15/2025\n2 P-36415: Collection of venous blood by venipuncture\nA: 10/15/2025",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "nrg- leiber rg3 leousFg-",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Processor: James Okafor Lastedit:11/17/202513:10 Processor ID",
+              "PROC004 Decision SLA: 3 days",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis Codes (ICD-10)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Primary Diagnosis",
+              "M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis Code Type",
+              "ICD-10-CM POA Indicator: Y",
+              "YES,present on admission",
+              ""
+            ],
+            [
+              "Seq 0 Code M17.11",
+              "Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE",
+              "Type PRIMARY",
+              "Date 10/15/2025"
+            ],
+            [
+              "1 D64.9",
+              "ANEMIA,UNSPECIFIED",
+              "ADMITTING",
+              "10/15/2025"
+            ],
+            [
+              "Procedure / Service Coding",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields",
+              "",
+              "Diag Pointer A",
+              "Date of Service 10/15/2025"
+            ],
+            [
+              "2 P-36415",
+              "Collection of venous blood by venipuncture",
+              "A",
+              "10/15/2025"
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "nrg- leiber rg3 leousFg-",
+              ""
+            ],
+            [
+              "Processor: James Okafor Lastedit:11/17/202513:10 Processor ID: PROC004 Decision SLA: 3 days",
+              ""
+            ],
+            [
+              "Diagnosis Codes (ICD-10)",
+              ""
+            ],
+            [
+              "Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+              ""
+            ],
+            [
+              "Diagnosis Code Type: ICD-10-CM POA Indicator: Y",
+              "YES,present on admission"
+            ],
+            [
+              "Seq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE",
+              "Type PRIMARY Date 10/15/2025"
+            ],
+            [
+              "1 D64.9 ANEMIA,UNSPECIFIED",
+              "ADMITTING 10/15/2025"
+            ],
+            [
+              "Procedure / Service Coding",
+              ""
+            ],
+            [
+              "Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields",
+              "Diag Pointer A Date of Service 10/15/2025"
+            ],
+            [
+              "2 P-36415 Collection of venous blood by venipuncture",
+              "A 10/15/2025"
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "nrg- leiber rg3 leousFg-",
+          "conf": 0.6669788360595703,
+          "bbox": [
+            66,
+            0,
+            686,
+            10
+          ],
+          "words": [
+            {
+              "text": "nrg-",
+              "conf": 0.5325742363929749,
+              "bbox": [
+                66,
+                0,
+                116,
+                10
+              ]
+            },
+            {
+              "text": "leiber rg3",
+              "conf": 0.6797928810119629,
+              "bbox": [
+                284,
+                0,
+                361,
+                10
+              ]
+            },
+            {
+              "text": "leousFg-",
+              "conf": 0.7885693907737732,
+              "bbox": [
+                622,
+                0,
+                686,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: James Okafor Lastedit:11/17/202513:10 Processor ID: PROC004 Decision SLA: 3 days",
+          "conf": 0.9531917810440064,
+          "bbox": [
+            41,
+            37,
+            775,
+            58
+          ],
+          "words": [
+            {
+              "text": "Processor: James Okafor",
+              "conf": 0.9799315333366394,
+              "bbox": [
+                41,
+                40,
+                211,
+                56
+              ]
+            },
+            {
+              "text": "Lastedit:11/17/202513:10",
+              "conf": 0.9729397296905518,
+              "bbox": [
+                239,
+                42,
+                430,
+                53
+              ]
+            },
+            {
+              "text": "Processor ID:",
+              "conf": 0.943848192691803,
+              "bbox": [
+                445,
+                40,
+                541,
+                56
+              ]
+            },
+            {
+              "text": "PROC004",
+              "conf": 0.9216432571411133,
+              "bbox": [
+                533,
+                37,
+                608,
+                58
+              ]
+            },
+            {
+              "text": "Decision SLA: 3 days",
+              "conf": 0.9475961923599243,
+              "bbox": [
+                633,
+                40,
+                775,
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis Codes (ICD-10)",
+          "conf": 0.9226648211479187,
+          "bbox": [
+            42,
+            104,
+            278,
+            120
+          ],
+          "words": [
+            {
+              "text": "Diagnosis Codes (ICD-10)",
+              "conf": 0.9226648211479187,
+              "bbox": [
+                42,
+                104,
+                278,
+                120
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Primary Diagnosis: M17.11 UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+          "conf": 0.9592197934786478,
+          "bbox": [
+            37,
+            141,
+            717,
+            179
+          ],
+          "words": [
+            {
+              "text": "Primary Diagnosis:",
+              "conf": 0.9902481138706207,
+              "bbox": [
+                37,
+                141,
+                107,
+                176
+              ]
+            },
+            {
+              "text": "M17.11",
+              "conf": 0.9194849133491516,
+              "bbox": [
+                158,
+                149,
+                217,
+                167
+              ]
+            },
+            {
+              "text": "UNILATERAL PRIMARY OSTEOARTHRITIS RIGHT KNEE",
+              "conf": 0.9679263532161713,
+              "bbox": [
+                444,
+                141,
+                717,
+                179
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis Code Type: ICD-10-CM POA Indicator: Y YES,present on admission",
+          "conf": 0.9581470549106598,
+          "bbox": [
+            39,
+            186,
+            959,
+            221
+          ],
+          "words": [
+            {
+              "text": "Diagnosis Code Type:",
+              "conf": 0.975458562374115,
+              "bbox": [
+                39,
+                186,
+                141,
+                221
+              ]
+            },
+            {
+              "text": "ICD-10-CM",
+              "conf": 0.9371185302734375,
+              "bbox": [
+                167,
+                195,
+                248,
+                211
+              ]
+            },
+            {
+              "text": "POA Indicator:",
+              "conf": 0.993500828742981,
+              "bbox": [
+                472,
+                186,
+                536,
+                219
+              ]
+            },
+            {
+              "text": "Y",
+              "conf": 0.9075915217399597,
+              "bbox": [
+                567,
+                194,
+                589,
+                213
+              ]
+            },
+            {
+              "text": "YES,present on admission",
+              "conf": 0.9770658314228058,
+              "bbox": [
+                856,
+                187,
+                959,
+                219
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seq 0 Code M17.11 Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE Type PRIMARY Date 10/15/2025",
+          "conf": 0.9860178053379058,
+          "bbox": [
+            48,
+            242,
+            1336,
+            290
+          ],
+          "words": [
+            {
+              "text": "Seq 0",
+              "conf": 0.9576503038406372,
+              "bbox": [
+                48,
+                243,
+                83,
+                288
+              ]
+            },
+            {
+              "text": "Code M17.11",
+              "conf": 0.9969900846481323,
+              "bbox": [
+                107,
+                243,
+                165,
+                290
+              ]
+            },
+            {
+              "text": "Description UNILATERAL PRIMARY OSTEOARTHRITIS,RIGHT KNEE",
+              "conf": 0.9801027476787567,
+              "bbox": [
+                247,
+                242,
+                583,
+                285
+              ]
+            },
+            {
+              "text": "Type PRIMARY",
+              "conf": 0.9967202842235565,
+              "bbox": [
+                1069,
+                242,
+                1128,
+                285
+              ]
+            },
+            {
+              "text": "Date 10/15/2025",
+              "conf": 0.9986256062984467,
+              "bbox": [
+                1256,
+                242,
+                1336,
+                288
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1 D64.9 ANEMIA,UNSPECIFIED ADMITTING 10/15/2025",
+          "conf": 0.9887158870697021,
+          "bbox": [
+            50,
+            294,
+            1336,
+            318
+          ],
+          "words": [
+            {
+              "text": "1",
+              "conf": 0.9936283230781555,
+              "bbox": [
+                50,
+                298,
+                64,
+                316
+              ]
+            },
+            {
+              "text": "D64.9",
+              "conf": 0.9882858395576477,
+              "bbox": [
+                109,
+                294,
+                155,
+                318
+              ]
+            },
+            {
+              "text": "ANEMIA,UNSPECIFIED",
+              "conf": 0.9673869013786316,
+              "bbox": [
+                248,
+                298,
+                391,
+                314
+              ]
+            },
+            {
+              "text": "ADMITTING",
+              "conf": 0.9947600960731506,
+              "bbox": [
+                1070,
+                298,
+                1144,
+                314
+              ]
+            },
+            {
+              "text": "10/15/2025",
+              "conf": 0.9995182752609253,
+              "bbox": [
+                1256,
+                296,
+                1336,
+                317
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Procedure / Service Coding",
+          "conf": 0.9865025281906128,
+          "bbox": [
+            39,
+            447,
+            297,
+            471
+          ],
+          "words": [
+            {
+              "text": "Procedure / Service Coding",
+              "conf": 0.9865025281906128,
+              "bbox": [
+                39,
+                447,
+                297,
+                471
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seq 1 CPT/HCPCS P-77014 Modifier A Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 10/15/2025",
+          "conf": 0.9874984721342722,
+          "bbox": [
+            48,
+            490,
+            1372,
+            539
+          ],
+          "words": [
+            {
+              "text": "Seq 1",
+              "conf": 0.9967530369758606,
+              "bbox": [
+                48,
+                492,
+                83,
+                538
+              ]
+            },
+            {
+              "text": "CPT/HCPCS P-77014",
+              "conf": 0.9893636107444763,
+              "bbox": [
+                105,
+                490,
+                191,
+                537
+              ]
+            },
+            {
+              "text": "Modifier A",
+              "conf": 0.9755704700946808,
+              "bbox": [
+                250,
+                492,
+                316,
+                537
+              ]
+            },
+            {
+              "text": "Description Computed tomography guidance for placement of radiation therapy fields",
+              "conf": 0.9875988066196442,
+              "bbox": [
+                362,
+                493,
+                830,
+                537
+              ]
+            },
+            {
+              "text": "Diag Pointer A",
+              "conf": 0.9887392222881317,
+              "bbox": [
+                1096,
+                490,
+                1195,
+                539
+              ]
+            },
+            {
+              "text": "Date of Service 10/15/2025",
+              "conf": 0.98696568608284,
+              "bbox": [
+                1256,
+                490,
+                1372,
+                537
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2 P-36415 Collection of venous blood by venipuncture A 10/15/2025",
+          "conf": 0.9915648341178894,
+          "bbox": [
+            50,
+            545,
+            1336,
+            565
+          ],
+          "words": [
+            {
+              "text": "2",
+              "conf": 0.9981155395507812,
+              "bbox": [
+                50,
+                546,
+                64,
+                564
+              ]
+            },
+            {
+              "text": "P-36415",
+              "conf": 0.988815426826477,
+              "bbox": [
+                106,
+                546,
+                162,
+                564
+              ]
+            },
+            {
+              "text": "Collection of venous blood by venipuncture",
+              "conf": 0.9725742340087891,
+              "bbox": [
+                364,
+                548,
+                636,
+                564
+              ]
+            },
+            {
+              "text": "A",
+              "conf": 0.9986125230789185,
+              "bbox": [
+                1098,
+                545,
+                1117,
+                565
+              ]
+            },
+            {
+              "text": "10/15/2025",
+              "conf": 0.9997064471244812,
+              "bbox": [
+                1258,
+                545,
+                1336,
+                565
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

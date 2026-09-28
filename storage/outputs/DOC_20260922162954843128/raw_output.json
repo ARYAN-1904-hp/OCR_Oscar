@@ -1,0 +1,2647 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 1,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)\nBlue Horizon Community Health Services, Inc.. Suite # Parent Main Organization Information:. Legal Business Name Legal Business Name Blue Horizon Care Network\nStreet Address. 2450 Westlake Avenue City Sacramento CA Fax Suite 410 State Zip 95815 Street Address 2450 Westlake Avenue City Sacramento Suite # Suite 410 State CA Zip 95815\nPhone [555]310-2400 (555) 310-2401 Phone (555)310-2400 Fax (555) 310-2401\ninfo@bluehorizon.example.org Email: Email: operations@bluehorizon.example.org\nPractice Locations\nAddress Information (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).\nLegal Business Name Blue Horizon Community Health Services. Primary Facility Location Blue Horizon South Clinic Second Facility Location (if applicable). Legal Business Name\nStreet Address. 2450 Westlake Avenue Suite# Suite 410 Street Address. 880 Harbor Boulevard Suite# Suite 120\nCity Sacramento State CA Zip Code 95815 County Sacramento City West Sacramento State CA Zip Code 95691 County Yolo\nPhone (555)310-2400 Fax (555)310-2401 TY Number 711 Phone 555)310-2420 Fax 555)310-2421 TYNumber 711\nNPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): 84-3179265 Federal Tax ID (if different from above):. 84-3179265\nEmail: Email:\necm@bluehorizon.example.org Translation Services Available Yes No southclinic@bluehorizon.example.org Translation Services Available Yes No\nBusiness Hours Schedule: 8:00 AM- 5:00 PM M ot ew oth ef Business Hours 8:30AM- 5:30 PM Schedule: m ot ow oth ef\nWhat is your current capacity to accept referrals for this service (number of referrals your organization can manage at any given time?):\nApproximately 85 active ECM referrals across both locations.\nTranslation Services Available (left): Unknown",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1306,
+      "height": 1500,
+      "text": "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)\nBlue Horizon Community Health Services, Inc.. Suite # Parent Main Organization Information:. Legal Business Name Legal Business Name Blue Horizon Care Network\nStreet Address. 2450 Westlake Avenue City Sacramento CA Fax Suite 410 State Zip 95815 Street Address 2450 Westlake Avenue City Sacramento Suite # Suite 410 State CA Zip 95815\nPhone [555]310-2400 (555) 310-2401 Phone (555)310-2400 Fax (555) 310-2401\ninfo@bluehorizon.example.org Email: Email: operations@bluehorizon.example.org\nPractice Locations\nAddress Information (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).\nLegal Business Name Blue Horizon Community Health Services. Primary Facility Location Blue Horizon South Clinic Second Facility Location (if applicable). Legal Business Name\nStreet Address. 2450 Westlake Avenue Suite# Suite 410 Street Address. 880 Harbor Boulevard Suite# Suite 120\nCity Sacramento State CA Zip Code 95815 County Sacramento City West Sacramento State CA Zip Code 95691 County Yolo\nPhone (555)310-2400 Fax (555)310-2401 TY Number 711 Phone 555)310-2420 Fax 555)310-2421 TYNumber 711\nNPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): 84-3179265 Federal Tax ID (if different from above):. 84-3179265\nEmail: Email:\necm@bluehorizon.example.org Translation Services Available Yes No southclinic@bluehorizon.example.org Translation Services Available Yes No\nBusiness Hours Schedule: 8:00 AM- 5:00 PM M ot ew oth ef Business Hours 8:30AM- 5:30 PM Schedule: m ot ow oth ef\nWhat is your current capacity to accept referrals for this service (number of referrals your organization can manage at any given time?):\nApproximately 85 active ECM referrals across both locations.\nTranslation Services Available (left): Unknown",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1306
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                50,
+                372,
+                1072,
+                425
+              ],
+              "text": "info@bluehorizon.example.org Email: Email: operations@bluehorizon.example.org",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "info@bluehorizon.example.org Email: Email: operations@bluehorizon.example.org",
+                  "conf": 0.9950311928987503,
+                  "bbox": [
+                    50,
+                    372,
+                    1072,
+                    425
+                  ],
+                  "words": [
+                    {
+                      "text": "info@bluehorizon.example.org",
+                      "conf": 0.9840967059135437,
+                      "bbox": [
+                        50,
+                        398,
+                        363,
+                        425
+                      ]
+                    },
+                    {
+                      "text": "Email:",
+                      "conf": 0.997886598110199,
+                      "bbox": [
+                        53,
+                        372,
+                        118,
+                        394
+                      ]
+                    },
+                    {
+                      "text": "Email:",
+                      "conf": 0.9998044371604919,
+                      "bbox": [
+                        697,
+                        372,
+                        761,
+                        394
+                      ]
+                    },
+                    {
+                      "text": "operations@bluehorizon.example.org",
+                      "conf": 0.9983370304107666,
+                      "bbox": [
+                        697,
+                        400,
+                        1072,
+                        425
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                576,
+                448,
+                775,
+                473
+              ],
+              "text": "Practice Locations",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Practice Locations",
+                  "conf": 0.9988040924072266,
+                  "bbox": [
+                    576,
+                    448,
+                    775,
+                    473
+                  ],
+                  "words": [
+                    {
+                      "text": "Practice Locations",
+                      "conf": 0.9988040924072266,
+                      "bbox": [
+                        576,
+                        448,
+                        775,
+                        473
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 5,
+              "bbox": [
+                86,
+                481,
+                843,
+                533
+              ],
+              "text": "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+                  "conf": 0.9876722097396851,
+                  "bbox": [
+                    86,
+                    481,
+                    843,
+                    533
+                  ],
+                  "words": [
+                    {
+                      "text": "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+                      "conf": 0.9876722097396851,
+                      "bbox": [
+                        86,
+                        481,
+                        843,
+                        533
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                53,
+                548,
+                1185,
+                645
+              ],
+              "text": "Legal Business Name Blue Horizon Community Health Services. Primary Facility Location Blue Horizon South Clinic Second Facility Location (if applicable). Legal Business Name",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Legal Business Name Blue Horizon Community Health Services. Primary Facility Location Blue Horizon South Clinic Second Facility Location (if applicable). Legal Business Name",
+                  "conf": 0.9743726029992104,
+                  "bbox": [
+                    53,
+                    548,
+                    1185,
+                    645
+                  ],
+                  "words": [
+                    {
+                      "text": "Legal Business Name Blue Horizon Community Health Services.",
+                      "conf": 0.9709015190601349,
+                      "bbox": [
+                        53,
+                        594,
+                        457,
+                        645
+                      ]
+                    },
+                    {
+                      "text": "Primary Facility Location",
+                      "conf": 0.9806824326515198,
+                      "bbox": [
+                        231,
+                        548,
+                        496,
+                        573
+                      ]
+                    },
+                    {
+                      "text": "Blue Horizon South Clinic",
+                      "conf": 0.982249915599823,
+                      "bbox": [
+                        675,
+                        620,
+                        925,
+                        645
+                      ]
+                    },
+                    {
+                      "text": "Second Facility Location (if applicable). Legal Business Name",
+                      "conf": 0.9636565446853638,
+                      "bbox": [
+                        680,
+                        550,
+                        1185,
+                        614
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 8,
+              "bbox": [
+                52,
+                914,
+                1066,
+                1106
+              ],
+              "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): 84-3179265 Federal Tax ID (if different from above):. 84-3179265\nEmail: Email:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322",
+                  "conf": 0.9919959108034769,
+                  "bbox": [
+                    52,
+                    914,
+                    970,
+                    971
+                  ],
+                  "words": [
+                    {
+                      "text": "NPI # (If different than above):",
+                      "conf": 0.9795305728912354,
+                      "bbox": [
+                        52,
+                        914,
+                        355,
+                        942
+                      ]
+                    },
+                    {
+                      "text": "1987654321",
+                      "conf": 0.9998523592948914,
+                      "bbox": [
+                        53,
+                        944,
+                        178,
+                        969
+                      ]
+                    },
+                    {
+                      "text": "NPI# (if different from above) 1987654322",
+                      "conf": 0.9966048002243042,
+                      "bbox": [
+                        673,
+                        914,
+                        970,
+                        971
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Federal Tax ID (if different from above): 84-3179265 Federal Tax ID (if different from above):. 84-3179265",
+                  "conf": 0.9857728580633799,
+                  "bbox": [
+                    53,
+                    992,
+                    1066,
+                    1047
+                  ],
+                  "words": [
+                    {
+                      "text": "Federal Tax ID (if different from above):",
+                      "conf": 0.9710407853126526,
+                      "bbox": [
+                        53,
+                        992,
+                        444,
+                        1020
+                      ]
+                    },
+                    {
+                      "text": "84-3179265",
+                      "conf": 0.9992114901542664,
+                      "bbox": [
+                        55,
+                        1025,
+                        173,
+                        1047
+                      ]
+                    },
+                    {
+                      "text": "Federal Tax ID (if different from above):. 84-3179265",
+                      "conf": 0.9870662987232208,
+                      "bbox": [
+                        673,
+                        992,
+                        1066,
+                        1047
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Email: Email:",
+                  "conf": 0.9983324408531189,
+                  "bbox": [
+                    53,
+                    1084,
+                    739,
+                    1106
+                  ],
+                  "words": [
+                    {
+                      "text": "Email:",
+                      "conf": 0.9978517889976501,
+                      "bbox": [
+                        53,
+                        1084,
+                        119,
+                        1106
+                      ]
+                    },
+                    {
+                      "text": "Email:",
+                      "conf": 0.9988130927085876,
+                      "bbox": [
+                        675,
+                        1084,
+                        739,
+                        1106
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 9,
+              "bbox": [
+                52,
+                1109,
+                1113,
+                1178
+              ],
+              "text": "ecm@bluehorizon.example.org Translation Services Available Yes No southclinic@bluehorizon.example.org Translation Services Available Yes No",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "ecm@bluehorizon.example.org Translation Services Available Yes No southclinic@bluehorizon.example.org Translation Services Available Yes No",
+                  "conf": 0.9662002995610237,
+                  "bbox": [
+                    52,
+                    1109,
+                    1113,
+                    1178
+                  ],
+                  "words": [
+                    {
+                      "text": "ecm@bluehorizon.example.org Translation Services Available",
+                      "conf": 0.9874033033847809,
+                      "bbox": [
+                        52,
+                        1109,
+                        366,
+                        1178
+                      ]
+                    },
+                    {
+                      "text": "Yes No",
+                      "conf": 0.935099184513092,
+                      "bbox": [
+                        381,
+                        1158,
+                        491,
+                        1178
+                      ]
+                    },
+                    {
+                      "text": "southclinic@bluehorizon.example.org Translation Services Available",
+                      "conf": 0.9914739727973938,
+                      "bbox": [
+                        673,
+                        1109,
+                        1050,
+                        1178
+                      ]
+                    },
+                    {
+                      "text": "Yes No",
+                      "conf": 0.9508247375488281,
+                      "bbox": [
+                        1006,
+                        1158,
+                        1113,
+                        1178
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "info@bluehorizon.example.org Email: Email: operations@bluehorizon.example.org\nPractice Locations\nAddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).\nLegal Business Name Blue Horizon Community Health Services. Primary Facility Location Blue Horizon South Clinic Second Facility Location (if applicable). Legal Business Name\nNPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): 84-3179265 Federal Tax ID (if different from above):. 84-3179265\nEmail: Email:\necm@bluehorizon.example.org Translation Services Available Yes No southclinic@bluehorizon.example.org Translation Services Available Yes No"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            320,
+            19,
+            989,
+            44
+          ],
+          "text": "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+              "conf": 0.9589675664901733,
+              "bbox": [
+                320,
+                19,
+                989,
+                44
+              ],
+              "words": [
+                {
+                  "text": "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+                  "conf": 0.9589675664901733,
+                  "bbox": [
+                    320,
+                    19,
+                    989,
+                    44
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            53,
+            84,
+            967,
+            216
+          ],
+          "text": "Blue Horizon Community Health Services, Inc.. Suite # Parent Main Organization Information:. Legal Business Name Legal Business Name Blue Horizon Care Network",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Blue Horizon Community Health Services, Inc.. Suite # Parent Main Organization Information:. Legal Business Name Legal Business Name Blue Horizon Care Network",
+              "conf": 0.9835216005643209,
+              "bbox": [
+                53,
+                84,
+                967,
+                216
+              ],
+              "words": [
+                {
+                  "text": "Blue Horizon Community Health Services, Inc.. Suite #",
+                  "conf": 0.9888323843479156,
+                  "bbox": [
+                    53,
+                    147,
+                    499,
+                    216
+                  ]
+                },
+                {
+                  "text": "Parent Main Organization Information:. Legal Business Name",
+                  "conf": 0.9633127152919769,
+                  "bbox": [
+                    58,
+                    84,
+                    463,
+                    142
+                  ]
+                },
+                {
+                  "text": "Legal Business Name Blue Horizon Care Network",
+                  "conf": 0.9984197020530701,
+                  "bbox": [
+                    697,
+                    117,
+                    967,
+                    172
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            50,
+            187,
+            1199,
+            366
+          ],
+          "text": "Street Address. 2450 Westlake Avenue City Sacramento CA Fax Suite 410 State Zip 95815 Street Address 2450 Westlake Avenue City Sacramento Suite # Suite 410 State CA Zip 95815\nPhone [555]310-2400 (555) 310-2401 Phone (555)310-2400 Fax (555) 310-2401",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Street Address. 2450 Westlake Avenue City Sacramento CA Fax Suite 410 State Zip 95815 Street Address 2450 Westlake Avenue City Sacramento Suite # Suite 410 State CA Zip 95815",
+              "conf": 0.9805809289216996,
+              "bbox": [
+                53,
+                187,
+                1199,
+                338
+              ],
+              "words": [
+                {
+                  "text": "Street Address. 2450 Westlake Avenue",
+                  "conf": 0.9610001742839813,
+                  "bbox": [
+                    53,
+                    192,
+                    283,
+                    244
+                  ]
+                },
+                {
+                  "text": "City Sacramento",
+                  "conf": 0.9990141093730927,
+                  "bbox": [
+                    53,
+                    248,
+                    174,
+                    303
+                  ]
+                },
+                {
+                  "text": "CA Fax",
+                  "conf": 0.9854044616222382,
+                  "bbox": [
+                    356,
+                    278,
+                    397,
+                    338
+                  ]
+                },
+                {
+                  "text": "Suite 410 State",
+                  "conf": 0.998864084482193,
+                  "bbox": [
+                    358,
+                    217,
+                    454,
+                    277
+                  ]
+                },
+                {
+                  "text": "Zip 95815",
+                  "conf": 0.9146888256072998,
+                  "bbox": [
+                    489,
+                    244,
+                    560,
+                    305
+                  ]
+                },
+                {
+                  "text": "Street Address 2450 Westlake Avenue",
+                  "conf": 0.9858165383338928,
+                  "bbox": [
+                    695,
+                    187,
+                    926,
+                    245
+                  ]
+                },
+                {
+                  "text": "City Sacramento",
+                  "conf": 0.9979983270168304,
+                  "bbox": [
+                    695,
+                    248,
+                    818,
+                    303
+                  ]
+                },
+                {
+                  "text": "Suite # Suite 410",
+                  "conf": 0.9955745339393616,
+                  "bbox": [
+                    970,
+                    189,
+                    1069,
+                    244
+                  ]
+                },
+                {
+                  "text": "State CA",
+                  "conf": 0.9889530837535858,
+                  "bbox": [
+                    972,
+                    248,
+                    1028,
+                    305
+                  ]
+                },
+                {
+                  "text": "Zip 95815",
+                  "conf": 0.9784951508045197,
+                  "bbox": [
+                    1130,
+                    248,
+                    1199,
+                    305
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Phone [555]310-2400 (555) 310-2401 Phone (555)310-2400 Fax (555) 310-2401",
+              "conf": 0.9640052542090416,
+              "bbox": [
+                50,
+                307,
+                1124,
+                366
+              ],
+              "words": [
+                {
+                  "text": "Phone [555]310-2400",
+                  "conf": 0.9792748689651489,
+                  "bbox": [
+                    50,
+                    307,
+                    204,
+                    362
+                  ]
+                },
+                {
+                  "text": "(555) 310-2401",
+                  "conf": 0.9190353155136108,
+                  "bbox": [
+                    363,
+                    341,
+                    509,
+                    362
+                  ]
+                },
+                {
+                  "text": "Phone (555)310-2400",
+                  "conf": 0.97816002368927,
+                  "bbox": [
+                    693,
+                    307,
+                    848,
+                    362
+                  ]
+                },
+                {
+                  "text": "Fax (555) 310-2401",
+                  "conf": 0.9795508086681366,
+                  "bbox": [
+                    972,
+                    308,
+                    1124,
+                    366
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            50,
+            372,
+            1072,
+            425
+          ],
+          "text": "info@bluehorizon.example.org Email: Email: operations@bluehorizon.example.org",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "info@bluehorizon.example.org Email: Email: operations@bluehorizon.example.org",
+              "conf": 0.9950311928987503,
+              "bbox": [
+                50,
+                372,
+                1072,
+                425
+              ],
+              "words": [
+                {
+                  "text": "info@bluehorizon.example.org",
+                  "conf": 0.9840967059135437,
+                  "bbox": [
+                    50,
+                    398,
+                    363,
+                    425
+                  ]
+                },
+                {
+                  "text": "Email:",
+                  "conf": 0.997886598110199,
+                  "bbox": [
+                    53,
+                    372,
+                    118,
+                    394
+                  ]
+                },
+                {
+                  "text": "Email:",
+                  "conf": 0.9998044371604919,
+                  "bbox": [
+                    697,
+                    372,
+                    761,
+                    394
+                  ]
+                },
+                {
+                  "text": "operations@bluehorizon.example.org",
+                  "conf": 0.9983370304107666,
+                  "bbox": [
+                    697,
+                    400,
+                    1072,
+                    425
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            576,
+            448,
+            775,
+            473
+          ],
+          "text": "Practice Locations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Practice Locations",
+              "conf": 0.9988040924072266,
+              "bbox": [
+                576,
+                448,
+                775,
+                473
+              ],
+              "words": [
+                {
+                  "text": "Practice Locations",
+                  "conf": 0.9988040924072266,
+                  "bbox": [
+                    576,
+                    448,
+                    775,
+                    473
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            86,
+            481,
+            843,
+            533
+          ],
+          "text": "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+              "conf": 0.9876722097396851,
+              "bbox": [
+                86,
+                481,
+                843,
+                533
+              ],
+              "words": [
+                {
+                  "text": "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+                  "conf": 0.9876722097396851,
+                  "bbox": [
+                    86,
+                    481,
+                    843,
+                    533
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            53,
+            548,
+            1185,
+            645
+          ],
+          "text": "Legal Business Name Blue Horizon Community Health Services. Primary Facility Location Blue Horizon South Clinic Second Facility Location (if applicable). Legal Business Name",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Legal Business Name Blue Horizon Community Health Services. Primary Facility Location Blue Horizon South Clinic Second Facility Location (if applicable). Legal Business Name",
+              "conf": 0.9743726029992104,
+              "bbox": [
+                53,
+                548,
+                1185,
+                645
+              ],
+              "words": [
+                {
+                  "text": "Legal Business Name Blue Horizon Community Health Services.",
+                  "conf": 0.9709015190601349,
+                  "bbox": [
+                    53,
+                    594,
+                    457,
+                    645
+                  ]
+                },
+                {
+                  "text": "Primary Facility Location",
+                  "conf": 0.9806824326515198,
+                  "bbox": [
+                    231,
+                    548,
+                    496,
+                    573
+                  ]
+                },
+                {
+                  "text": "Blue Horizon South Clinic",
+                  "conf": 0.982249915599823,
+                  "bbox": [
+                    675,
+                    620,
+                    925,
+                    645
+                  ]
+                },
+                {
+                  "text": "Second Facility Location (if applicable). Legal Business Name",
+                  "conf": 0.9636565446853638,
+                  "bbox": [
+                    680,
+                    550,
+                    1185,
+                    614
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            52,
+            660,
+            1229,
+            892
+          ],
+          "text": "Street Address. 2450 Westlake Avenue Suite# Suite 410 Street Address. 880 Harbor Boulevard Suite# Suite 120\nCity Sacramento State CA Zip Code 95815 County Sacramento City West Sacramento State CA Zip Code 95691 County Yolo\nPhone (555)310-2400 Fax (555)310-2401 TY Number 711 Phone 555)310-2420 Fax 555)310-2421 TYNumber 711",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Street Address. 2450 Westlake Avenue Suite# Suite 410 Street Address. 880 Harbor Boulevard Suite# Suite 120",
+              "conf": 0.9831008464097977,
+              "bbox": [
+                53,
+                660,
+                1229,
+                720
+              ],
+              "words": [
+                {
+                  "text": "Street Address. 2450 Westlake Avenue",
+                  "conf": 0.9683387875556946,
+                  "bbox": [
+                    53,
+                    667,
+                    279,
+                    719
+                  ]
+                },
+                {
+                  "text": "Suite# Suite 410",
+                  "conf": 0.9970329701900482,
+                  "bbox": [
+                    493,
+                    664,
+                    590,
+                    720
+                  ]
+                },
+                {
+                  "text": "Street Address. 880 Harbor Boulevard",
+                  "conf": 0.9722904562950134,
+                  "bbox": [
+                    675,
+                    667,
+                    893,
+                    719
+                  ]
+                },
+                {
+                  "text": "Suite# Suite 120",
+                  "conf": 0.9947411715984344,
+                  "bbox": [
+                    1133,
+                    660,
+                    1229,
+                    717
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "City Sacramento State CA Zip Code 95815 County Sacramento City West Sacramento State CA Zip Code 95691 County Yolo",
+              "conf": 0.9970871806144714,
+              "bbox": [
+                53,
+                753,
+                1211,
+                811
+              ],
+              "words": [
+                {
+                  "text": "City Sacramento",
+                  "conf": 0.9990302324295044,
+                  "bbox": [
+                    53,
+                    754,
+                    173,
+                    808
+                  ]
+                },
+                {
+                  "text": "State CA",
+                  "conf": 0.9973495006561279,
+                  "bbox": [
+                    259,
+                    756,
+                    316,
+                    809
+                  ]
+                },
+                {
+                  "text": "Zip Code 95815",
+                  "conf": 0.9989674985408783,
+                  "bbox": [
+                    336,
+                    755,
+                    429,
+                    809
+                  ]
+                },
+                {
+                  "text": "County Sacramento",
+                  "conf": 0.9992619752883911,
+                  "bbox": [
+                    496,
+                    756,
+                    615,
+                    808
+                  ]
+                },
+                {
+                  "text": "City West Sacramento",
+                  "conf": 0.9935496151447296,
+                  "bbox": [
+                    675,
+                    756,
+                    851,
+                    809
+                  ]
+                },
+                {
+                  "text": "State CA",
+                  "conf": 0.9955348372459412,
+                  "bbox": [
+                    870,
+                    755,
+                    932,
+                    809
+                  ]
+                },
+                {
+                  "text": "Zip Code 95691",
+                  "conf": 0.996830552816391,
+                  "bbox": [
+                    937,
+                    756,
+                    1027,
+                    809
+                  ]
+                },
+                {
+                  "text": "County Yolo",
+                  "conf": 0.996173232793808,
+                  "bbox": [
+                    1133,
+                    753,
+                    1211,
+                    811
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Phone (555)310-2400 Fax (555)310-2401 TY Number 711 Phone 555)310-2420 Fax 555)310-2421 TYNumber 711",
+              "conf": 0.9730000346899033,
+              "bbox": [
+                52,
+                836,
+                1171,
+                892
+              ],
+              "words": [
+                {
+                  "text": "Phone (555)310-2400",
+                  "conf": 0.9893510043621063,
+                  "bbox": [
+                    52,
+                    836,
+                    204,
+                    891
+                  ]
+                },
+                {
+                  "text": "Fax (555)310-2401",
+                  "conf": 0.9862674176692963,
+                  "bbox": [
+                    259,
+                    836,
+                    410,
+                    889
+                  ]
+                },
+                {
+                  "text": "TY Number 711",
+                  "conf": 0.9222629368305206,
+                  "bbox": [
+                    435,
+                    836,
+                    557,
+                    892
+                  ]
+                },
+                {
+                  "text": "Phone 555)310-2420",
+                  "conf": 0.9948779940605164,
+                  "bbox": [
+                    675,
+                    838,
+                    826,
+                    889
+                  ]
+                },
+                {
+                  "text": "Fax 555)310-2421",
+                  "conf": 0.99626025557518,
+                  "bbox": [
+                    871,
+                    838,
+                    1020,
+                    891
+                  ]
+                },
+                {
+                  "text": "TYNumber 711",
+                  "conf": 0.9489805996417999,
+                  "bbox": [
+                    1049,
+                    838,
+                    1171,
+                    889
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 8,
+          "bbox": [
+            52,
+            914,
+            1066,
+            1106
+          ],
+          "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): 84-3179265 Federal Tax ID (if different from above):. 84-3179265\nEmail: Email:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322",
+              "conf": 0.9919959108034769,
+              "bbox": [
+                52,
+                914,
+                970,
+                971
+              ],
+              "words": [
+                {
+                  "text": "NPI # (If different than above):",
+                  "conf": 0.9795305728912354,
+                  "bbox": [
+                    52,
+                    914,
+                    355,
+                    942
+                  ]
+                },
+                {
+                  "text": "1987654321",
+                  "conf": 0.9998523592948914,
+                  "bbox": [
+                    53,
+                    944,
+                    178,
+                    969
+                  ]
+                },
+                {
+                  "text": "NPI# (if different from above) 1987654322",
+                  "conf": 0.9966048002243042,
+                  "bbox": [
+                    673,
+                    914,
+                    970,
+                    971
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Federal Tax ID (if different from above): 84-3179265 Federal Tax ID (if different from above):. 84-3179265",
+              "conf": 0.9857728580633799,
+              "bbox": [
+                53,
+                992,
+                1066,
+                1047
+              ],
+              "words": [
+                {
+                  "text": "Federal Tax ID (if different from above):",
+                  "conf": 0.9710407853126526,
+                  "bbox": [
+                    53,
+                    992,
+                    444,
+                    1020
+                  ]
+                },
+                {
+                  "text": "84-3179265",
+                  "conf": 0.9992114901542664,
+                  "bbox": [
+                    55,
+                    1025,
+                    173,
+                    1047
+                  ]
+                },
+                {
+                  "text": "Federal Tax ID (if different from above):. 84-3179265",
+                  "conf": 0.9870662987232208,
+                  "bbox": [
+                    673,
+                    992,
+                    1066,
+                    1047
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Email: Email:",
+              "conf": 0.9983324408531189,
+              "bbox": [
+                53,
+                1084,
+                739,
+                1106
+              ],
+              "words": [
+                {
+                  "text": "Email:",
+                  "conf": 0.9978517889976501,
+                  "bbox": [
+                    53,
+                    1084,
+                    119,
+                    1106
+                  ]
+                },
+                {
+                  "text": "Email:",
+                  "conf": 0.9988130927085876,
+                  "bbox": [
+                    675,
+                    1084,
+                    739,
+                    1106
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 9,
+          "bbox": [
+            52,
+            1109,
+            1113,
+            1178
+          ],
+          "text": "ecm@bluehorizon.example.org Translation Services Available Yes No southclinic@bluehorizon.example.org Translation Services Available Yes No",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "ecm@bluehorizon.example.org Translation Services Available Yes No southclinic@bluehorizon.example.org Translation Services Available Yes No",
+              "conf": 0.9662002995610237,
+              "bbox": [
+                52,
+                1109,
+                1113,
+                1178
+              ],
+              "words": [
+                {
+                  "text": "ecm@bluehorizon.example.org Translation Services Available",
+                  "conf": 0.9874033033847809,
+                  "bbox": [
+                    52,
+                    1109,
+                    366,
+                    1178
+                  ]
+                },
+                {
+                  "text": "Yes No",
+                  "conf": 0.935099184513092,
+                  "bbox": [
+                    381,
+                    1158,
+                    491,
+                    1178
+                  ]
+                },
+                {
+                  "text": "southclinic@bluehorizon.example.org Translation Services Available",
+                  "conf": 0.9914739727973938,
+                  "bbox": [
+                    673,
+                    1109,
+                    1050,
+                    1178
+                  ]
+                },
+                {
+                  "text": "Yes No",
+                  "conf": 0.9508247375488281,
+                  "bbox": [
+                    1006,
+                    1158,
+                    1113,
+                    1178
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            50,
+            1209,
+            1063,
+            1294
+          ],
+          "text": "Business HoursSchedule: 8:00 AM- 5:00 PM M ot ew oth ef Business Hours 8:30AM- 5:30 PM Schedule: m ot ow oth ef",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Business HoursSchedule: 8:00 AM- 5:00 PM M ot ew oth ef Business Hours 8:30AM- 5:30 PM Schedule: m ot ow oth ef",
+              "conf": 0.8839238669191088,
+              "bbox": [
+                50,
+                1209,
+                1063,
+                1294
+              ],
+              "words": [
+                {
+                  "text": "Business HoursSchedule:",
+                  "conf": 0.9861754775047302,
+                  "bbox": [
+                    50,
+                    1209,
+                    319,
+                    1236
+                  ]
+                },
+                {
+                  "text": "8:00 AM- 5:00 PM",
+                  "conf": 0.9751783609390259,
+                  "bbox": [
+                    53,
+                    1242,
+                    201,
+                    1294
+                  ]
+                },
+                {
+                  "text": "M ot ew oth ef ",
+                  "conf": 0.7087833881378174,
+                  "bbox": [
+                    220,
+                    1241,
+                    433,
+                    1266
+                  ]
+                },
+                {
+                  "text": "Business Hours 8:30AM- 5:30",
+                  "conf": 0.9843550622463226,
+                  "bbox": [
+                    675,
+                    1214,
+                    827,
+                    1264
+                  ]
+                },
+                {
+                  "text": "PM",
+                  "conf": 0.988816499710083,
+                  "bbox": [
+                    675,
+                    1269,
+                    711,
+                    1294
+                  ]
+                },
+                {
+                  "text": "Schedule:",
+                  "conf": 0.9228852391242981,
+                  "bbox": [
+                    846,
+                    1209,
+                    950,
+                    1239
+                  ]
+                },
+                {
+                  "text": "m ot ow oth ef ",
+                  "conf": 0.6212730407714844,
+                  "bbox": [
+                    849,
+                    1241,
+                    1063,
+                    1266
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 11,
+          "bbox": [
+            55,
+            1358,
+            1248,
+            1409
+          ],
+          "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any given time?):",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any given time?):",
+              "conf": 0.9661282002925873,
+              "bbox": [
+                55,
+                1358,
+                1248,
+                1409
+              ],
+              "words": [
+                {
+                  "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any given time?):",
+                  "conf": 0.9661282002925873,
+                  "bbox": [
+                    55,
+                    1358,
+                    1248,
+                    1409
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 12,
+          "bbox": [
+            53,
+            1416,
+            645,
+            1441
+          ],
+          "text": "Approximately 85 active ECM referrals across both locations.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Approximately 85 active ECM referrals across both locations.",
+              "conf": 0.971277117729187,
+              "bbox": [
+                53,
+                1416,
+                645,
+                1441
+              ],
+              "words": [
+                {
+                  "text": "Approximately 85 active ECM referrals across both locations.",
+                  "conf": 0.971277117729187,
+                  "bbox": [
+                    53,
+                    1416,
+                    645,
+                    1441
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            50,
+            19,
+            1185,
+            1441
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>SECTION I</td><td>FACILITY DEMOGRAPHIC INFORMATION (continued)</td><td></td><td></td></tr><tr><td>Parent Main Organization Information</td><td>. Legal Business Name</td><td>Legal Business Name</td><td>Blue Horizon Care Network</td></tr><tr><td>Blue Horizon Community Health Services, Inc.. Suite #</td><td></td><td></td><td></td></tr><tr><td>Practice Locations</td><td></td><td></td><td></td></tr><tr><td>AddressInformation (Please list all locations and group affiliations. If needed, use &#x27;Attachment A&#x27;enclosed.).</td><td></td><td></td><td></td></tr><tr><td>Legal Business Name</td><td>Blue Horizon Community Health Services</td><td>Second Facility Location (if applicable) / Legal Business Name</td><td>Blue Horizon South Clinic</td></tr><tr><td>ecm@bluehorizon.example.org Translation Services Available Yes No</td><td></td><td>southclinic@bluehorizon.example.org Translation Services Available Yes No</td><td></td></tr><tr><td>Business HoursSchedule</td><td>8:00 AM- 5:00 PM M ot ew oth ef</td><td>Business Hours 8:30AM- 5:30 PM Schedule</td><td>m ot ow oth ef</td></tr><tr><td>Approximately 85 active ECM referrals across both locations.</td><td></td><td></td><td></td></tr></table>",
+          "text": "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)\nParent Main Organization Information: . Legal Business Name\nLegal Business Name: Blue Horizon Care Network\nBlue Horizon Community Health Services, Inc.. Suite #: \nPractice Locations: \nAddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).: \nLegal Business Name: Blue Horizon Community Health Services\nSecond Facility Location (if applicable) / Legal Business Name: Blue Horizon South Clinic\necm@bluehorizon.example.org Translation Services Available Yes No: \nsouthclinic@bluehorizon.example.org Translation Services Available Yes No: \nBusiness HoursSchedule: 8:00 AM- 5:00 PM M ot ew oth ef\nBusiness Hours 8:30AM- 5:30 PM Schedule: m ot ow oth ef\nApproximately 85 active ECM referrals across both locations.: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "SECTION I",
+              "FACILITY DEMOGRAPHIC INFORMATION (continued)",
+              "",
+              ""
+            ],
+            [
+              "Parent Main Organization Information",
+              ". Legal Business Name",
+              "Legal Business Name",
+              "Blue Horizon Care Network"
+            ],
+            [
+              "Blue Horizon Community Health Services, Inc.. Suite #",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Practice Locations",
+              "",
+              "",
+              ""
+            ],
+            [
+              "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Legal Business Name",
+              "Blue Horizon Community Health Services",
+              "Second Facility Location (if applicable) / Legal Business Name",
+              "Blue Horizon South Clinic"
+            ],
+            [
+              "ecm@bluehorizon.example.org Translation Services Available Yes No",
+              "",
+              "southclinic@bluehorizon.example.org Translation Services Available Yes No",
+              ""
+            ],
+            [
+              "Business HoursSchedule",
+              "8:00 AM- 5:00 PM M ot ew oth ef",
+              "Business Hours 8:30AM- 5:30 PM Schedule",
+              "m ot ow oth ef"
+            ],
+            [
+              "Approximately 85 active ECM referrals across both locations.",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+              ""
+            ],
+            [
+              "Parent Main Organization Information:. Legal Business Name",
+              "Legal Business Name Blue Horizon Care Network"
+            ],
+            [
+              "Blue Horizon Community Health Services, Inc.. Suite #",
+              ""
+            ],
+            [
+              "Practice Locations",
+              ""
+            ],
+            [
+              "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+              ""
+            ],
+            [
+              "Primary Facility Location",
+              "Second Facility Location (if applicable). Legal Business Name"
+            ],
+            [
+              "Legal Business Name Blue Horizon Community Health Services.",
+              "Blue Horizon South Clinic"
+            ],
+            [
+              "ecm@bluehorizon.example.org Translation Services Available Yes No",
+              "southclinic@bluehorizon.example.org Translation Services Available Yes No"
+            ],
+            [
+              "Business HoursSchedule: 8:00 AM- 5:00 PM M ot ew oth ef",
+              "Business Hours 8:30AM- 5:30 PM Schedule: m ot ow oth ef"
+            ],
+            [
+              "Approximately 85 active ECM referrals across both locations.",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            50,
+            187,
+            1199,
+            425
+          ],
+          "html": "<table><tr><th>Street Address. 2450 Westlake Avenue</th><th>Suite 410 State</th><th>Street Address 2450 Westlake Avenue</th><th>Suite # Suite 410</th></tr><tr><td>City Sacramento</td><td>Zip 95815</td><td>City Sacramento</td><td>State CA Zip 95815</td></tr><tr><td>Phone [555]310-2400</td><td>CA Fax (555) 310-2401</td><td>Phone (555)310-2400</td><td>Fax (555) 310-2401</td></tr><tr><td>info@bluehorizon.example.org Email:</td><td></td><td>Email: operations@bluehorizon.example.org</td><td></td></tr></table>",
+          "text": "City Sacramento | Zip 95815 | City Sacramento | State CA Zip 95815\nPhone [555]310-2400 | CA Fax (555) 310-2401 | Phone (555)310-2400 | Fax (555) 310-2401\ninfo@bluehorizon.example.org Email: |  | Email: operations@bluehorizon.example.org | ",
+          "headers": [
+            "Street Address. 2450 Westlake Avenue",
+            "Suite 410 State",
+            "Street Address 2450 Westlake Avenue",
+            "Suite # Suite 410"
+          ],
+          "rows": [
+            [
+              "City Sacramento",
+              "Zip 95815",
+              "City Sacramento",
+              "State CA Zip 95815"
+            ],
+            [
+              "Phone [555]310-2400",
+              "CA Fax (555) 310-2401",
+              "Phone (555)310-2400",
+              "Fax (555) 310-2401"
+            ],
+            [
+              "info@bluehorizon.example.org Email:",
+              "",
+              "Email: operations@bluehorizon.example.org",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            53,
+            660,
+            1229,
+            811
+          ],
+          "html": "<table><tr><th>Street Address. 2450 Westlake Avenue</th><th>Suite# Suite 410</th><th>Street Address. 880 Harbor Boulevard</th><th>Suite# Suite 120</th></tr><tr><td>City Sacramento State CA</td><td>Zip Code 95815 County Sacramento</td><td>City West Sacramento State CA Zip Code 95691</td><td>County Yolo</td></tr></table>",
+          "text": "City Sacramento State CA | Zip Code 95815 County Sacramento | City West Sacramento State CA Zip Code 95691 | County Yolo",
+          "headers": [
+            "Street Address. 2450 Westlake Avenue",
+            "Suite# Suite 410",
+            "Street Address. 880 Harbor Boulevard",
+            "Suite# Suite 120"
+          ],
+          "rows": [
+            [
+              "City Sacramento State CA",
+              "Zip Code 95815 County Sacramento",
+              "City West Sacramento State CA Zip Code 95691",
+              "County Yolo"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            52,
+            836,
+            1171,
+            1106
+          ],
+          "html": "<table><tr><th>Phone (555)310-2400</th><th>Fax (555)310-2401 TY Number 711</th><th>Phone 555)310-2420</th><th>Fax 555)310-2421 TYNumber 711</th></tr><tr><td>NPI # (If different than above): 1987654321</td><td></td><td>NPI# (if different from above) 1987654322</td><td></td></tr><tr><td>Federal Tax ID (if different from above): 84-3179265</td><td></td><td>Federal Tax ID (if different from above):. 84-3179265</td><td></td></tr><tr><td>Email:</td><td></td><td>Email:</td><td></td></tr></table>",
+          "text": "NPI # (If different than above): 1987654321 |  | NPI# (if different from above) 1987654322 | \nFederal Tax ID (if different from above): 84-3179265 |  | Federal Tax ID (if different from above):. 84-3179265 | \nEmail: |  | Email: | ",
+          "headers": [
+            "Phone (555)310-2400",
+            "Fax (555)310-2401 TY Number 711",
+            "Phone 555)310-2420",
+            "Fax 555)310-2421 TYNumber 711"
+          ],
+          "rows": [
+            [
+              "NPI # (If different than above): 1987654321",
+              "",
+              "NPI# (if different from above) 1987654322",
+              ""
+            ],
+            [
+              "Federal Tax ID (if different from above): 84-3179265",
+              "",
+              "Federal Tax ID (if different from above):. 84-3179265",
+              ""
+            ],
+            [
+              "Email:",
+              "",
+              "Email:",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [
+        {
+          "label": "Translation Services Available",
+          "value": "Unknown",
+          "checked_yes": null,
+          "checked_no": null,
+          "yes_ink_score": null,
+          "no_ink_score": null,
+          "bbox": [
+            53,
+            1084,
+            739,
+            1106
+          ],
+          "yes_bbox": [],
+          "no_bbox": [],
+          "source": "image_ink",
+          "column": "left"
+        }
+      ],
+      "lines": [
+        {
+          "text": "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+          "conf": 0.9589675664901733,
+          "bbox": [
+            320,
+            19,
+            989,
+            44
+          ],
+          "words": [
+            {
+              "text": "SECTION I: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+              "conf": 0.9589675664901733,
+              "bbox": [
+                320,
+                19,
+                989,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Blue Horizon Community Health Services, Inc.. Suite # Parent Main Organization Information:. Legal Business Name Legal Business Name Blue Horizon Care Network",
+          "conf": 0.9835216005643209,
+          "bbox": [
+            53,
+            84,
+            967,
+            216
+          ],
+          "words": [
+            {
+              "text": "Blue Horizon Community Health Services, Inc.. Suite #",
+              "conf": 0.9888323843479156,
+              "bbox": [
+                53,
+                147,
+                499,
+                216
+              ]
+            },
+            {
+              "text": "Parent Main Organization Information:. Legal Business Name",
+              "conf": 0.9633127152919769,
+              "bbox": [
+                58,
+                84,
+                463,
+                142
+              ]
+            },
+            {
+              "text": "Legal Business Name Blue Horizon Care Network",
+              "conf": 0.9984197020530701,
+              "bbox": [
+                697,
+                117,
+                967,
+                172
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Street Address. 2450 Westlake Avenue City Sacramento CA Fax Suite 410 State Zip 95815 Street Address 2450 Westlake Avenue City Sacramento Suite # Suite 410 State CA Zip 95815",
+          "conf": 0.9805809289216996,
+          "bbox": [
+            53,
+            187,
+            1199,
+            338
+          ],
+          "words": [
+            {
+              "text": "Street Address. 2450 Westlake Avenue",
+              "conf": 0.9610001742839813,
+              "bbox": [
+                53,
+                192,
+                283,
+                244
+              ]
+            },
+            {
+              "text": "City Sacramento",
+              "conf": 0.9990141093730927,
+              "bbox": [
+                53,
+                248,
+                174,
+                303
+              ]
+            },
+            {
+              "text": "CA Fax",
+              "conf": 0.9854044616222382,
+              "bbox": [
+                356,
+                278,
+                397,
+                338
+              ]
+            },
+            {
+              "text": "Suite 410 State",
+              "conf": 0.998864084482193,
+              "bbox": [
+                358,
+                217,
+                454,
+                277
+              ]
+            },
+            {
+              "text": "Zip 95815",
+              "conf": 0.9146888256072998,
+              "bbox": [
+                489,
+                244,
+                560,
+                305
+              ]
+            },
+            {
+              "text": "Street Address 2450 Westlake Avenue",
+              "conf": 0.9858165383338928,
+              "bbox": [
+                695,
+                187,
+                926,
+                245
+              ]
+            },
+            {
+              "text": "City Sacramento",
+              "conf": 0.9979983270168304,
+              "bbox": [
+                695,
+                248,
+                818,
+                303
+              ]
+            },
+            {
+              "text": "Suite # Suite 410",
+              "conf": 0.9955745339393616,
+              "bbox": [
+                970,
+                189,
+                1069,
+                244
+              ]
+            },
+            {
+              "text": "State CA",
+              "conf": 0.9889530837535858,
+              "bbox": [
+                972,
+                248,
+                1028,
+                305
+              ]
+            },
+            {
+              "text": "Zip 95815",
+              "conf": 0.9784951508045197,
+              "bbox": [
+                1130,
+                248,
+                1199,
+                305
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone [555]310-2400 (555) 310-2401 Phone (555)310-2400 Fax (555) 310-2401",
+          "conf": 0.9640052542090416,
+          "bbox": [
+            50,
+            307,
+            1124,
+            366
+          ],
+          "words": [
+            {
+              "text": "Phone [555]310-2400",
+              "conf": 0.9792748689651489,
+              "bbox": [
+                50,
+                307,
+                204,
+                362
+              ]
+            },
+            {
+              "text": "(555) 310-2401",
+              "conf": 0.9190353155136108,
+              "bbox": [
+                363,
+                341,
+                509,
+                362
+              ]
+            },
+            {
+              "text": "Phone (555)310-2400",
+              "conf": 0.97816002368927,
+              "bbox": [
+                693,
+                307,
+                848,
+                362
+              ]
+            },
+            {
+              "text": "Fax (555) 310-2401",
+              "conf": 0.9795508086681366,
+              "bbox": [
+                972,
+                308,
+                1124,
+                366
+              ]
+            }
+          ]
+        },
+        {
+          "text": "info@bluehorizon.example.org Email: Email: operations@bluehorizon.example.org",
+          "conf": 0.9950311928987503,
+          "bbox": [
+            50,
+            372,
+            1072,
+            425
+          ],
+          "words": [
+            {
+              "text": "info@bluehorizon.example.org",
+              "conf": 0.9840967059135437,
+              "bbox": [
+                50,
+                398,
+                363,
+                425
+              ]
+            },
+            {
+              "text": "Email:",
+              "conf": 0.997886598110199,
+              "bbox": [
+                53,
+                372,
+                118,
+                394
+              ]
+            },
+            {
+              "text": "Email:",
+              "conf": 0.9998044371604919,
+              "bbox": [
+                697,
+                372,
+                761,
+                394
+              ]
+            },
+            {
+              "text": "operations@bluehorizon.example.org",
+              "conf": 0.9983370304107666,
+              "bbox": [
+                697,
+                400,
+                1072,
+                425
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Practice Locations",
+          "conf": 0.9988040924072266,
+          "bbox": [
+            576,
+            448,
+            775,
+            473
+          ],
+          "words": [
+            {
+              "text": "Practice Locations",
+              "conf": 0.9988040924072266,
+              "bbox": [
+                576,
+                448,
+                775,
+                473
+              ]
+            }
+          ]
+        },
+        {
+          "text": "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+          "conf": 0.9876722097396851,
+          "bbox": [
+            86,
+            481,
+            843,
+            533
+          ],
+          "words": [
+            {
+              "text": "AddressInformation (Please list all locations and group affiliations. If needed, use 'Attachment A'enclosed.).",
+              "conf": 0.9876722097396851,
+              "bbox": [
+                86,
+                481,
+                843,
+                533
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Legal Business Name Blue Horizon Community Health Services. Primary Facility Location Blue Horizon South Clinic Second Facility Location (if applicable). Legal Business Name",
+          "conf": 0.9743726029992104,
+          "bbox": [
+            53,
+            548,
+            1185,
+            645
+          ],
+          "words": [
+            {
+              "text": "Legal Business Name Blue Horizon Community Health Services.",
+              "conf": 0.9709015190601349,
+              "bbox": [
+                53,
+                594,
+                457,
+                645
+              ]
+            },
+            {
+              "text": "Primary Facility Location",
+              "conf": 0.9806824326515198,
+              "bbox": [
+                231,
+                548,
+                496,
+                573
+              ]
+            },
+            {
+              "text": "Blue Horizon South Clinic",
+              "conf": 0.982249915599823,
+              "bbox": [
+                675,
+                620,
+                925,
+                645
+              ]
+            },
+            {
+              "text": "Second Facility Location (if applicable). Legal Business Name",
+              "conf": 0.9636565446853638,
+              "bbox": [
+                680,
+                550,
+                1185,
+                614
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Street Address. 2450 Westlake Avenue Suite# Suite 410 Street Address. 880 Harbor Boulevard Suite# Suite 120",
+          "conf": 0.9831008464097977,
+          "bbox": [
+            53,
+            660,
+            1229,
+            720
+          ],
+          "words": [
+            {
+              "text": "Street Address. 2450 Westlake Avenue",
+              "conf": 0.9683387875556946,
+              "bbox": [
+                53,
+                667,
+                279,
+                719
+              ]
+            },
+            {
+              "text": "Suite# Suite 410",
+              "conf": 0.9970329701900482,
+              "bbox": [
+                493,
+                664,
+                590,
+                720
+              ]
+            },
+            {
+              "text": "Street Address. 880 Harbor Boulevard",
+              "conf": 0.9722904562950134,
+              "bbox": [
+                675,
+                667,
+                893,
+                719
+              ]
+            },
+            {
+              "text": "Suite# Suite 120",
+              "conf": 0.9947411715984344,
+              "bbox": [
+                1133,
+                660,
+                1229,
+                717
+              ]
+            }
+          ]
+        },
+        {
+          "text": "City Sacramento State CA Zip Code 95815 County Sacramento City West Sacramento State CA Zip Code 95691 County Yolo",
+          "conf": 0.9970871806144714,
+          "bbox": [
+            53,
+            753,
+            1211,
+            811
+          ],
+          "words": [
+            {
+              "text": "City Sacramento",
+              "conf": 0.9990302324295044,
+              "bbox": [
+                53,
+                754,
+                173,
+                808
+              ]
+            },
+            {
+              "text": "State CA",
+              "conf": 0.9973495006561279,
+              "bbox": [
+                259,
+                756,
+                316,
+                809
+              ]
+            },
+            {
+              "text": "Zip Code 95815",
+              "conf": 0.9989674985408783,
+              "bbox": [
+                336,
+                755,
+                429,
+                809
+              ]
+            },
+            {
+              "text": "County Sacramento",
+              "conf": 0.9992619752883911,
+              "bbox": [
+                496,
+                756,
+                615,
+                808
+              ]
+            },
+            {
+              "text": "City West Sacramento",
+              "conf": 0.9935496151447296,
+              "bbox": [
+                675,
+                756,
+                851,
+                809
+              ]
+            },
+            {
+              "text": "State CA",
+              "conf": 0.9955348372459412,
+              "bbox": [
+                870,
+                755,
+                932,
+                809
+              ]
+            },
+            {
+              "text": "Zip Code 95691",
+              "conf": 0.996830552816391,
+              "bbox": [
+                937,
+                756,
+                1027,
+                809
+              ]
+            },
+            {
+              "text": "County Yolo",
+              "conf": 0.996173232793808,
+              "bbox": [
+                1133,
+                753,
+                1211,
+                811
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone (555)310-2400 Fax (555)310-2401 TY Number 711 Phone 555)310-2420 Fax 555)310-2421 TYNumber 711",
+          "conf": 0.9730000346899033,
+          "bbox": [
+            52,
+            836,
+            1171,
+            892
+          ],
+          "words": [
+            {
+              "text": "Phone (555)310-2400",
+              "conf": 0.9893510043621063,
+              "bbox": [
+                52,
+                836,
+                204,
+                891
+              ]
+            },
+            {
+              "text": "Fax (555)310-2401",
+              "conf": 0.9862674176692963,
+              "bbox": [
+                259,
+                836,
+                410,
+                889
+              ]
+            },
+            {
+              "text": "TY Number 711",
+              "conf": 0.9222629368305206,
+              "bbox": [
+                435,
+                836,
+                557,
+                892
+              ]
+            },
+            {
+              "text": "Phone 555)310-2420",
+              "conf": 0.9948779940605164,
+              "bbox": [
+                675,
+                838,
+                826,
+                889
+              ]
+            },
+            {
+              "text": "Fax 555)310-2421",
+              "conf": 0.99626025557518,
+              "bbox": [
+                871,
+                838,
+                1020,
+                891
+              ]
+            },
+            {
+              "text": "TYNumber 711",
+              "conf": 0.9489805996417999,
+              "bbox": [
+                1049,
+                838,
+                1171,
+                889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322",
+          "conf": 0.9919959108034769,
+          "bbox": [
+            52,
+            914,
+            970,
+            971
+          ],
+          "words": [
+            {
+              "text": "NPI # (If different than above):",
+              "conf": 0.9795305728912354,
+              "bbox": [
+                52,
+                914,
+                355,
+                942
+              ]
+            },
+            {
+              "text": "1987654321",
+              "conf": 0.9998523592948914,
+              "bbox": [
+                53,
+                944,
+                178,
+                969
+              ]
+            },
+            {
+              "text": "NPI# (if different from above) 1987654322",
+              "conf": 0.9966048002243042,
+              "bbox": [
+                673,
+                914,
+                970,
+                971
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Federal Tax ID (if different from above): 84-3179265 Federal Tax ID (if different from above):. 84-3179265",
+          "conf": 0.9857728580633799,
+          "bbox": [
+            53,
+            992,
+            1066,
+            1047
+          ],
+          "words": [
+            {
+              "text": "Federal Tax ID (if different from above):",
+              "conf": 0.9710407853126526,
+              "bbox": [
+                53,
+                992,
+                444,
+                1020
+              ]
+            },
+            {
+              "text": "84-3179265",
+              "conf": 0.9992114901542664,
+              "bbox": [
+                55,
+                1025,
+                173,
+                1047
+              ]
+            },
+            {
+              "text": "Federal Tax ID (if different from above):. 84-3179265",
+              "conf": 0.9870662987232208,
+              "bbox": [
+                673,
+                992,
+                1066,
+                1047
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Email: Email:",
+          "conf": 0.9983324408531189,
+          "bbox": [
+            53,
+            1084,
+            739,
+            1106
+          ],
+          "words": [
+            {
+              "text": "Email:",
+              "conf": 0.9978517889976501,
+              "bbox": [
+                53,
+                1084,
+                119,
+                1106
+              ]
+            },
+            {
+              "text": "Email:",
+              "conf": 0.9988130927085876,
+              "bbox": [
+                675,
+                1084,
+                739,
+                1106
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ecm@bluehorizon.example.org Translation Services Available Yes No southclinic@bluehorizon.example.org Translation Services Available Yes No",
+          "conf": 0.9662002995610237,
+          "bbox": [
+            52,
+            1109,
+            1113,
+            1178
+          ],
+          "words": [
+            {
+              "text": "ecm@bluehorizon.example.org Translation Services Available",
+              "conf": 0.9874033033847809,
+              "bbox": [
+                52,
+                1109,
+                366,
+                1178
+              ]
+            },
+            {
+              "text": "Yes No",
+              "conf": 0.935099184513092,
+              "bbox": [
+                381,
+                1158,
+                491,
+                1178
+              ]
+            },
+            {
+              "text": "southclinic@bluehorizon.example.org Translation Services Available",
+              "conf": 0.9914739727973938,
+              "bbox": [
+                673,
+                1109,
+                1050,
+                1178
+              ]
+            },
+            {
+              "text": "Yes No",
+              "conf": 0.9508247375488281,
+              "bbox": [
+                1006,
+                1158,
+                1113,
+                1178
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Business HoursSchedule: 8:00 AM- 5:00 PM M ot ew oth ef Business Hours 8:30AM- 5:30 PM Schedule: m ot ow oth ef",
+          "conf": 0.8839238669191088,
+          "bbox": [
+            50,
+            1209,
+            1063,
+            1294
+          ],
+          "words": [
+            {
+              "text": "Business HoursSchedule:",
+              "conf": 0.9861754775047302,
+              "bbox": [
+                50,
+                1209,
+                319,
+                1236
+              ]
+            },
+            {
+              "text": "8:00 AM- 5:00 PM",
+              "conf": 0.9751783609390259,
+              "bbox": [
+                53,
+                1242,
+                201,
+                1294
+              ]
+            },
+            {
+              "text": "M ot ew oth ef ",
+              "conf": 0.7087833881378174,
+              "bbox": [
+                220,
+                1241,
+                433,
+                1266
+              ]
+            },
+            {
+              "text": "Business Hours 8:30AM- 5:30",
+              "conf": 0.9843550622463226,
+              "bbox": [
+                675,
+                1214,
+                827,
+                1264
+              ]
+            },
+            {
+              "text": "PM",
+              "conf": 0.988816499710083,
+              "bbox": [
+                675,
+                1269,
+                711,
+                1294
+              ]
+            },
+            {
+              "text": "Schedule:",
+              "conf": 0.9228852391242981,
+              "bbox": [
+                846,
+                1209,
+                950,
+                1239
+              ]
+            },
+            {
+              "text": "m ot ow oth ef ",
+              "conf": 0.6212730407714844,
+              "bbox": [
+                849,
+                1241,
+                1063,
+                1266
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any given time?):",
+          "conf": 0.9661282002925873,
+          "bbox": [
+            55,
+            1358,
+            1248,
+            1409
+          ],
+          "words": [
+            {
+              "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any given time?):",
+              "conf": 0.9661282002925873,
+              "bbox": [
+                55,
+                1358,
+                1248,
+                1409
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Approximately 85 active ECM referrals across both locations.",
+          "conf": 0.971277117729187,
+          "bbox": [
+            53,
+            1416,
+            645,
+            1441
+          ],
+          "words": [
+            {
+              "text": "Approximately 85 active ECM referrals across both locations.",
+              "conf": 0.971277117729187,
+              "bbox": [
+                53,
+                1416,
+                645,
+                1441
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x1042 | blocks=12 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x5
+HEADER | Curamind | Claims Management | David Kim | PROC002 | Logout
+ROW 1 | Professional Claim | - | - | - | Back to Dashboard
+  CELL[1,0] = Professional Claim
+  CELL[1,4] = Back to Dashboard
+[/TABLE 1]
+
+Professional Claim Back to Dashboard
+Save changes
+
+[TABLE 0 | source=two_column_form]
+shape: 9x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | - | - | Save changes | -
+  CELL[1,2] = Save changes
+ROW 2 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+  CELL[2,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+ROW 3 | Processor: David Kim | Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days | - | -
+  CELL[3,0] = Processor: David Kim
+  CELL[3,1] = Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days
+ROW 4 | Member / Patient Information | - | - | -
+  CELL[4,0] = Member / Patient Information
+ROW 5 | Group # | GRP-007 Subscriber: DEPENDENT | - | -
+  CELL[5,0] = Group #
+  CELL[5,1] = GRP-007 Subscriber: DEPENDENT
+ROW 6 | Contact Information | - | - | -
+  CELL[6,0] = Contact Information
+ROW 7 | Coverage / Eligibility | - | - | -
+  CELL[7,0] = Coverage / Eligibility
+ROW 8 | PCP Assignment | OKONKWO MD, ADAEZE | - | -
+  CELL[8,0] = PCP Assignment
+  CELL[8,1] = OKONKWO MD, ADAEZE
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[26,7,1404,40] | order=0
+  Curamind Claims Management David Kim PROC002 Logout
+BLOCK 1 | type=header | bbox=[34,63,1445,108] | order=1
+  Professional Claim Back to Dashboard
+  Save changes
+BLOCK 2 | type=table | bbox=[47,125,689,148] | order=2
+  Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+BLOCK 3 | type=label_value | bbox=[40,174,773,192] | order=3
+  Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days
+BLOCK 4 | type=heading | bbox=[41,241,319,256] | order=4
+  Member / Patient Information
+BLOCK 5 | type=table | bbox=[38,280,1071,407] | order=5
+  Member ID: H6887740210 Full Name: DAVIS, OLIVER Gender: M
+  Date of Birth: 11/13/1960 SSN (last 4): 6716 Language: SPANISH
+  Plan Type: PPO Effective Date: 01/01/2025 Term Date: 12/31/2025
+BLOCK 6 | type=heading | bbox=[38,415,604,450] | order=6
+  Group #: GRP-007 Subscriber: DEPENDENT
+BLOCK 7 | type=heading | bbox=[43,512,230,527] | order=7
+  Contact Information
+BLOCK 8 | type=table | bbox=[38,550,777,619] | order=8
+  Address: 6314 Pine St City/State/ZIP: SACRAMENTO, CA 95182
+  Phone: (555) 881-9263 Email: oliver.davis@examplemail.com
+BLOCK 9 | type=heading | bbox=[41,674,236,697] | order=9
+  Coverage / Eligibility
+BLOCK 10 | type=table | bbox=[38,720,873,802] | order=10
+  Eligibility Status: ACTIVE Verified On: 11/14/2025 Verified By: PROC002
+  Deductible Met: $0.00 / $750.00 OOP Max: $2,000.00 / $7,500.00
+BLOCK 11 | type=label_value | bbox=[40,817,343,837] | order=11
+  PCP Assignment: OKONKWO MD, ADAEZE
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[38,92,1419,837] | shape=9x4 | conf=0.920
+  shape: 9x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | - | - | Save changes | -
+    CELL[1,2] = Save changes
+  ROW 2 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+    CELL[2,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  ROW 3 | Processor: David Kim | Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days | - | -
+    CELL[3,0] = Processor: David Kim
+    CELL[3,1] = Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days
+  ROW 4 | Member / Patient Information | - | - | -
+    CELL[4,0] = Member / Patient Information
+  ROW 5 | Group # | GRP-007 Subscriber: DEPENDENT | - | -
+    CELL[5,0] = Group #
+    CELL[5,1] = GRP-007 Subscriber: DEPENDENT
+  ROW 6 | Contact Information | - | - | -
+    CELL[6,0] = Contact Information
+  ROW 7 | Coverage / Eligibility | - | - | -
+    CELL[7,0] = Coverage / Eligibility
+  ROW 8 | PCP Assignment | OKONKWO MD, ADAEZE | - | -
+    CELL[8,0] = PCP Assignment
+    CELL[8,1] = OKONKWO MD, ADAEZE
+TABLE 1 | source=wide_grid | bbox=[26,7,1445,84] | shape=2x5 | conf=0.850
+  shape: 2x5
+  HEADER | Curamind | Claims Management | David Kim | PROC002 | Logout
+  ROW 1 | Professional Claim | - | - | - | Back to Dashboard
+    CELL[1,0] = Professional Claim
+    CELL[1,4] = Back to Dashboard
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[26,7,1404,40] | conf=0.987 | text=Curamind Claims Management David Kim PROC002 Logout
+  WORD | bbox=[26,17,125,34] | text=Curamind
+  WORD | bbox=[142,17,295,35] | text=Claims Management
+  WORD | bbox=[1153,7,1194,23] | text=David
+  WORD | bbox=[1154,26,1180,40] | text=Kim
+  WORD | bbox=[1239,16,1307,31] | text=PROC002
+  WORD | bbox=[1351,16,1404,33] | text=Logout
+LINE 1 | bbox=[34,63,1445,84] | conf=0.989 | text=Professional Claim Back to Dashboard
+  WORD | bbox=[34,65,164,84] | text=Professional Claim
+  WORD | bbox=[1302,63,1445,78] | text=Back to Dashboard
+LINE 2 | bbox=[1318,92,1419,108] | conf=0.990 | text=Save changes
+LINE 3 | bbox=[47,125,689,148] | conf=0.960 | text=Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  WORD | bbox=[47,128,117,144] | text=Claim Pg1
+  WORD | bbox=[161,125,229,148] | text=Prov pg2
+  WORD | bbox=[275,128,373,144] | text=Member Pg3
+  WORD | bbox=[412,128,510,144] | text=Diagnosis Pg4
+  WORD | bbox=[561,126,689,144] | text=Miscellaneous Pg5
+LINE 4 | bbox=[40,174,773,192] | conf=0.943 | text=Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days
+  WORD | bbox=[40,177,188,192] | text=Processor: David Kim
+  WORD | bbox=[238,177,431,192] | text=Last edit: 11/17/2025 09:12
+  WORD | bbox=[434,176,607,191] | text=Processor ID: PROC002
+  WORD | bbox=[632,174,773,190] | text=Decision SLA: 2 days
+LINE 5 | bbox=[41,241,319,256] | conf=0.971 | text=Member / Patient Information
+LINE 6 | bbox=[40,280,908,312] | conf=0.969 | text=Member ID: H6887740210 Full Name: DAVIS, OLIVER Gender: M
+  WORD | bbox=[40,280,94,312] | text=Member ID:
+  WORD | bbox=[130,287,230,304] | text=H6887740210
+  WORD | bbox=[430,286,500,302] | text=Full Name:
+  WORD | bbox=[527,287,627,304] | text=DAVIS, OLIVER
+  WORD | bbox=[825,285,886,304] | text=Gender:
+  WORD | bbox=[891,288,908,302] | text=M
+LINE 7 | bbox=[40,326,996,360] | conf=0.973 | text=Date of Birth: 11/13/1960 SSN (last 4): 6716 Language: SPANISH
+  WORD | bbox=[40,326,90,358] | text=Date of Birth:
+  WORD | bbox=[139,330,224,350] | text=11/13/1960
+  WORD | bbox=[442,326,506,360] | text=SSN (last 4):
+  WORD | bbox=[539,329,583,353] | text=6716
+  WORD | bbox=[840,331,912,350] | text=Language:
+  WORD | bbox=[930,329,996,349] | text=SPANISH
+LINE 8 | bbox=[38,368,1071,407] | conf=0.986 | text=Plan Type: PPO Effective Date: 01/01/2025 Term Date: 12/31/2025
+  WORD | bbox=[38,371,79,407] | text=Plan Type:
+  WORD | bbox=[110,377,148,398] | text=PPO
+  WORD | bbox=[418,370,478,404] | text=Effective Date:
+  WORD | bbox=[537,379,619,395] | text=01/01/2025
+  WORD | bbox=[912,368,953,402] | text=Term Date:
+  WORD | bbox=[989,378,1071,394] | text=12/31/2025
+LINE 9 | bbox=[38,415,604,450] | conf=0.983 | text=Group #: GRP-007 Subscriber: DEPENDENT
+  WORD | bbox=[38,415,81,450] | text=Group #:
+  WORD | bbox=[108,423,173,443] | text=GRP-007
+  WORD | bbox=[410,424,484,441] | text=Subscriber:
+  WORD | bbox=[517,424,604,441] | text=DEPENDENT
+LINE 10 | bbox=[43,512,230,527] | conf=0.987 | text=Contact Information
+LINE 11 | bbox=[38,550,777,583] | conf=0.969 | text=Address: 6314 Pine St City/State/ZIP: SACRAMENTO, CA 95182
+  WORD | bbox=[38,553,98,574] | text=Address:
+  WORD | bbox=[116,559,206,576] | text=6314 Pine St
+  WORD | bbox=[487,550,557,583] | text=City/State/ZIP:
+  WORD | bbox=[605,558,777,573] | text=SACRAMENTO, CA 95182
+LINE 12 | bbox=[38,595,688,619] | conf=0.963 | text=Phone: (555) 881-9263 Email: oliver.davis@examplemail.com
+  WORD | bbox=[38,595,87,616] | text=Phone:
+  WORD | bbox=[108,596,220,619] | text=(555) 881-9263
+  WORD | bbox=[415,598,458,614] | text=Email:
+  WORD | bbox=[476,599,688,618] | text=oliver.davis@examplemail.com
+LINE 13 | bbox=[41,674,236,697] | conf=0.944 | text=Coverage / Eligibility
+LINE 14 | bbox=[41,720,873,755] | conf=0.964 | text=Eligibility Status: ACTIVE Verified On: 11/14/2025 Verified By: PROC002
+  WORD | bbox=[41,727,149,742] | text=Eligibility Status:
+  WORD | bbox=[178,723,234,743] | text=ACTIVE
+  WORD | bbox=[320,720,374,755] | text=Verified On:
+  WORD | bbox=[412,729,495,745] | text=11/14/2025
+  WORD | bbox=[717,725,873,743] | text=Verified By: PROC002
+LINE 15 | bbox=[38,766,703,802] | conf=0.979 | text=Deductible Met: $0.00 / $750.00 OOP Max: $2,000.00 / $7,500.00
+  WORD | bbox=[38,766,110,801] | text=Deductible Met:
+  WORD | bbox=[163,776,273,792] | text=$0.00 / $750.00
+  WORD | bbox=[460,766,497,802] | text=OOP Max:
+  WORD | bbox=[547,773,703,792] | text=$2,000.00 / $7,500.00
+LINE 16 | bbox=[40,817,343,837] | conf=0.954 | text=PCP Assignment: OKONKWO MD, ADAEZE
+  WORD | bbox=[40,817,148,835] | text=PCP Assignment:
+  WORD | bbox=[179,822,343,837] | text=OKONKWO MD, ADAEZE
+[/BOXES]
+
+[FIELDS]
+Email: oliver.davis@examplemail.com
+Phone: (555) 881-9263
+[/FIELDS]

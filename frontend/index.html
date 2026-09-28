@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OCR Engine — Document Upload</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css?v=5" />
+  <meta name="color-scheme" content="dark" />
+  <!-- cache-bust JS for multi-file upload -->
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <p class="brand">OCR Engine</p>
+      <h1>Provider document upload</h1>
+      <p class="lede">
+        Upload a credentialing form or supporting file. Processing extracts
+        text for review.
+      </p>
+    </header>
+
+    <main class="main">
+      <section class="panel upload-section" aria-labelledby="upload-heading">
+        <h2 id="upload-heading" class="section-title">Upload</h2>
+
+        <form id="upload-form" novalidate>
+          <div
+            class="dropzone"
+            id="dropzone"
+            role="button"
+            tabindex="0"
+            aria-controls="file-input"
+          >
+            <div class="dropzone-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <rect x="8" y="6" width="24" height="28" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M14 16h12M14 21h12M14 26h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p class="dropzone-title">Drag and drop documents here</p>
+            <p class="dropzone-hint">PDF, Word, PowerPoint, Excel, or image · files or a folder · up to 1000 files · or click to browse</p>
+            <input
+              id="file-input"
+              name="files"
+              type="file"
+              accept=".pdf,.jpg,.jpeg,.png,.tif,.tiff,.bmp,.webp,.doc,.docx,.ppt,.pptx,.xlsx"
+              multiple
+              required
+            />
+          </div>
+
+          <div class="folder-row">
+            <button type="button" class="btn-ghost" id="folder-btn">
+              Select a folder instead
+            </button>
+            <input id="folder-input" type="file" webkitdirectory multiple hidden />
+          </div>
+
+          <p class="file-name" id="file-name">No documents selected</p>
+
+          <button type="submit" class="btn-primary" id="process-btn" disabled>
+            Process Documents
+          </button>
+        </form>
+
+        <div
+          class="processing-section"
+          id="processing-section"
+          aria-labelledby="processing-toggle"
+        >
+          <button
+            type="button"
+            class="processing-toggle"
+            id="processing-toggle"
+            aria-expanded="false"
+            aria-controls="processing-panel"
+          >
+            <span class="processing-chevron" aria-hidden="true">▶</span>
+            <span class="processing-toggle-label">Processing Details</span>
+          </button>
+
+          <div
+            class="processing-collapse"
+            id="processing-panel"
+            role="region"
+            aria-labelledby="processing-toggle"
+            aria-hidden="true"
+          >
+            <div class="processing-collapse-inner">
+              <ol class="pipeline-steps" id="pipeline-steps" aria-live="polite">
+                <li class="pipeline-step is-pending" data-step="upload">
+                  <span class="step-icon" aria-hidden="true"></span>
+                  <span class="step-label">File Uploaded</span>
+                </li>
+                <li class="pipeline-step is-pending" data-step="validate">
+                  <span class="step-icon" aria-hidden="true"></span>
+                  <span class="step-label">Document Validation</span>
+                </li>
+                <li class="pipeline-step is-pending" data-step="ocr">
+                  <span class="step-icon" aria-hidden="true"></span>
+                  <span class="step-label">OCR Processing (PaddleOCR)</span>
+                </li>
+                <li class="pipeline-step is-pending" data-step="layout">
+                  <span class="step-icon" aria-hidden="true"></span>
+                  <span class="step-label">Layout Analysis (PPStructure)</span>
+                </li>
+                <li class="pipeline-step is-pending" data-step="post">
+                  <span class="step-icon" aria-hidden="true"></span>
+                  <span class="step-label">Text Post-Processing</span>
+                </li>
+                <li class="pipeline-step is-pending" data-step="handler">
+                  <span class="step-icon" aria-hidden="true"></span>
+                  <span class="step-label">Handler Checker Validation</span>
+                </li>
+                <li class="pipeline-step is-pending" data-step="txt">
+                  <span class="step-icon" aria-hidden="true"></span>
+                  <span class="step-label">TXT Output Generated</span>
+                </li>
+                <li class="pipeline-step is-pending" data-step="json">
+                  <span class="step-icon" aria-hidden="true"></span>
+                  <span class="step-label">JSON Output Generated</span>
+                </li>
+              </ol>
+
+              <div class="pipeline-meta" id="pipeline-meta" hidden>
+                <p class="pipeline-success" id="pipeline-success" hidden>
+                  OCR Processing Completed Successfully
+                </p>
+                <dl class="pipeline-stats">
+                  <div>
+                    <dt>Processing Time</dt>
+                    <dd id="pipeline-time">—</dd>
+                  </div>
+                  <div>
+                    <dt>OCR Engine</dt>
+                    <dd>PaddleOCR 2.8.1</dd>
+                  </div>
+                  <div>
+                    <dt>Layout Engine</dt>
+                    <dd>PPStructure</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="status" id="status" aria-live="polite">Ready to upload</p>
+      </section>
+
+      <section
+        class="panel results-section"
+        id="results-section"
+        aria-labelledby="results-heading"
+      >
+        <div class="results-header">
+          <h2 id="results-heading" class="section-title">OCR results</h2>
+          <div class="results-actions">
+            <button type="button" class="btn-ghost" id="copy-btn" disabled>
+              Copy
+            </button>
+            <button type="button" class="btn-ghost" id="download-txt-btn" disabled>
+              Download TXT
+            </button>
+            <button type="button" class="btn-ghost" id="download-json-btn" disabled>
+              Download JSON
+            </button>
+            <button type="button" class="btn-ghost" id="download-html-btn" disabled>
+              Download Layout HTML
+            </button>
+            <button type="button" class="btn-ghost" id="download-excel-btn" disabled>
+              Download Excel
+            </button>
+          </div>
+        </div>
+        <p class="storage-hint" id="storage-hint" hidden></p>
+
+        <div class="tabs" role="tablist" aria-label="OCR result views">
+          <button
+            type="button"
+            class="tab is-active"
+            role="tab"
+            id="tab-text"
+            aria-controls="panel-text"
+            aria-selected="true"
+            data-tab="text"
+          >
+            Extracted Text
+          </button>
+          <button
+            type="button"
+            class="tab"
+            role="tab"
+            id="tab-json"
+            aria-controls="panel-json"
+            aria-selected="false"
+            data-tab="json"
+          >
+            JSON Output
+          </button>
+          <button
+            type="button"
+            class="tab"
+            role="tab"
+            id="tab-fields"
+            aria-controls="panel-fields"
+            aria-selected="false"
+            data-tab="fields"
+          >
+            Extracted Fields
+          </button>
+        </div>
+
+        <div class="results-body" id="results-body">
+          <p class="results-placeholder" id="results-placeholder">
+            Extracted text will appear here after processing.
+          </p>
+
+          <div
+            class="tab-panel is-active"
+            id="panel-text"
+            role="tabpanel"
+            aria-labelledby="tab-text"
+            data-panel="text"
+            hidden
+          >
+            <pre class="results-text" id="results-text"></pre>
+          </div>
+
+          <div
+            class="tab-panel"
+            id="panel-json"
+            role="tabpanel"
+            aria-labelledby="tab-json"
+            data-panel="json"
+            hidden
+          >
+            <pre class="results-text" id="results-json"></pre>
+          </div>
+
+          <div
+            class="tab-panel"
+            id="panel-fields"
+            role="tabpanel"
+            aria-labelledby="tab-fields"
+            data-panel="fields"
+            hidden
+          >
+            <div class="fields-view" id="results-fields"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>For authorized intake use only. Do not upload PHI outside approved workflows.</p>
+    </footer>
+  </div>
+
+  <script>window.OCR_API_BASE = "http://127.0.0.1:8000";</script>
+  <script src="script.js?v=7"></script>
+</body>
+</html>

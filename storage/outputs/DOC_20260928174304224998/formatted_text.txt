@@ -1,0 +1,216 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=13 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 17x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Yisroel Dubov | - | - | -
+  CELL[3,0] = Yisroel Dubov
+ROW 4 | Active | - | - | -
+  CELL[4,0] = Active
+ROW 5 | Claims & accumulators | - | - | -
+  CELL[5,0] = Claims & accumulators
+ROW 6 | OSC78747909-01- R213XB6D | Viewing information for Silver Simple PCP Saver CSR 150 (09/01/202512/31/2025) | - | -
+  CELL[6,0] = OSC78747909-01- R213XB6D
+  CELL[6,1] = Viewing information for Silver Simple PCP Saver CSR 150 (09/01/202512/31/2025)
+ROW 7 | Holder - ON exc | - | - | -
+  CELL[7,0] = Holder - ON exc
+ROW 8 | Heads up note | - | - | -
+  CELL[8,0] = Heads up note
+ROW 9 | Reduced price PCP visits are not supported by this plan. | - | - | -
+  CELL[9,0] = Reduced price PCP visits are not supported by this plan.
+ROW 10 | Accumulators | - | View benefit limit accumulators | -
+  CELL[10,0] = Accumulators
+  CELL[10,2] = View benefit limit accumulators
+ROW 11 | Member actions | - | - | -
+  CELL[11,0] = Member actions
+ROW 12 | $Current Balance due | Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) | Member responslblllty Status Provider/Facility | -
+  CELL[12,0] = $Current Balance due
+  CELL[12,1] = Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2)
+  CELL[12,2] = Member responslblllty Status Provider/Facility
+ROW 13 | Oscar Unlocks Not activated | - | - | -
+  CELL[13,0] = Oscar Unlocks Not activated
+ROW 14 | 9X1W28AK | - | $0.00 | -
+  CELL[14,0] = 9X1W28AK
+  CELL[14,2] = $0.00
+ROW 15 | Member tags | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | Pald | -
+  CELL[15,0] = Member tags
+  CELL[15,1] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  CELL[15,2] = Pald
+ROW 16 | nextgen_billing_rosco_tag | Oscar Medical Group Nathan Lycan | - | -
+  CELL[16,0] = nextgen_billing_rosco_tag
+  CELL[16,1] = Oscar Medical Group Nathan Lycan
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,34] | order=0
+  rosco Search Rosco MR Melissa
+BLOCK 1 | type=header | bbox=[19,71,919,102] | order=1
+  Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 2 | type=sidebar | bbox=[22,115,64,132] | order=2
+  Active
+BLOCK 3 | type=sidebar | bbox=[18,125,748,176] | order=3
+  Holder - ON exc OSC78747909-01- R213XB6D: Viewing information for Silver Simple PCP Saver CSR 150 (09/01/202512/31/2025) Claims & accumulators
+BLOCK 4 | type=table | bbox=[16,350,1261,591] | order=4
+  FLBroward Individual deductible Individual out-of-pocket-maximum
+  FLO3FLTeam $0.00 spent out of$0.00 $266.90 spent out of$1,850.00
+  Oscarplan: Deductible met $1,583.10 remaining
+  8 Individual Claims Export CSV
+BLOCK 5 | type=sidebar | bbox=[16,480,424,560] | order=5
+  View ID card
+  Jeffin Alex View famlly accumulators
+  Effective 01/01/2026
+BLOCK 6 | type=sidebar | bbox=[30,211,219,456] | order=6
+  Heads up note
+  Member actions
+  Silver Simple PCP Saver CSR 150
+BLOCK 7 | type=sidebar | bbox=[39,461,142,477] | order=7
+  FL HMO Standard
+BLOCK 8 | type=paragraph | bbox=[276,225,1260,290] | order=8
+  Reduced price PCP visits are not supported by this plan.
+  Accumulators View benefit limit accumulators
+BLOCK 9 | type=paragraph | bbox=[19,605,1255,707] | order=9
+  $Current Balance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility
+  9X1W28AK $0.00
+BLOCK 10 | type=sidebar | bbox=[19,639,122,674] | order=10
+  Oscar Unlocks Not activated
+BLOCK 11 | type=footer | bbox=[16,706,1252,732] | order=11
+  Member tags Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald
+BLOCK 12 | type=footer | bbox=[22,736,535,761] | order=12
+  nextgen_billing_rosco_tag Oscar Medical Group Nathan Lycan
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,17,1580,761] | shape=17x4 | conf=0.920
+  shape: 17x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Yisroel Dubov | - | - | -
+    CELL[3,0] = Yisroel Dubov
+  ROW 4 | Active | - | - | -
+    CELL[4,0] = Active
+  ROW 5 | Claims & accumulators | - | - | -
+    CELL[5,0] = Claims & accumulators
+  ROW 6 | OSC78747909-01- R213XB6D | Viewing information for Silver Simple PCP Saver CSR 150 (09/01/202512/31/2025) | - | -
+    CELL[6,0] = OSC78747909-01- R213XB6D
+    CELL[6,1] = Viewing information for Silver Simple PCP Saver CSR 150 (09/01/202512/31/2025)
+  ROW 7 | Holder - ON exc | - | - | -
+    CELL[7,0] = Holder - ON exc
+  ROW 8 | Heads up note | - | - | -
+    CELL[8,0] = Heads up note
+  ROW 9 | Reduced price PCP visits are not supported by this plan. | - | - | -
+    CELL[9,0] = Reduced price PCP visits are not supported by this plan.
+  ROW 10 | Accumulators | - | View benefit limit accumulators | -
+    CELL[10,0] = Accumulators
+    CELL[10,2] = View benefit limit accumulators
+  ROW 11 | Member actions | - | - | -
+    CELL[11,0] = Member actions
+  ROW 12 | $Current Balance due | Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) | Member responslblllty Status Provider/Facility | -
+    CELL[12,0] = $Current Balance due
+    CELL[12,1] = Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2)
+    CELL[12,2] = Member responslblllty Status Provider/Facility
+  ROW 13 | Oscar Unlocks Not activated | - | - | -
+    CELL[13,0] = Oscar Unlocks Not activated
+  ROW 14 | 9X1W28AK | - | $0.00 | -
+    CELL[14,0] = 9X1W28AK
+    CELL[14,2] = $0.00
+  ROW 15 | Member tags | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | Pald | -
+    CELL[15,0] = Member tags
+    CELL[15,1] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+    CELL[15,2] = Pald
+  ROW 16 | nextgen_billing_rosco_tag | Oscar Medical Group Nathan Lycan | - | -
+    CELL[16,0] = nextgen_billing_rosco_tag
+    CELL[16,1] = Oscar Medical Group Nathan Lycan
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.917 | text=rosco Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,71,919,102] | conf=0.982 | text=Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,152,102] | text=Yisroel Dubov
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[421,73,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[640,71,749,89] | text=Billing & payments
+  WORD | bbox=[764,75,816,88] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[22,115,64,132] | conf=0.986 | text=Active
+LINE 3 | bbox=[18,125,748,176] | conf=0.957 | text=Holder - ON exc OSC78747909-01- R213XB6D: Viewing information for Silver Simple PCP Saver CSR 150 (09/01/202512/31/2025) Claims & accumulators
+  WORD | bbox=[18,159,108,176] | text=Holder - ON exc
+  WORD | bbox=[19,140,182,157] | text=OSC78747909-01- R213XB6D :
+  WORD | bbox=[276,149,748,168] | text=Viewing information for Silver Simple PCP Saver CSR 150 (09/01/202512/31/2025)
+  WORD | bbox=[280,125,474,146] | text=Claims & accumulators
+LINE 4 | bbox=[17,350,738,373] | conf=0.989 | text=FLBroward Individual deductible Individual out-of-pocket-maximum
+  WORD | bbox=[17,351,113,373] | text=FLBroward
+  WORD | bbox=[276,350,399,368] | text=Individual deductible
+  WORD | bbox=[537,351,738,367] | text=Individual out-of-pocket-maximum
+LINE 5 | bbox=[16,384,776,406] | conf=0.979 | text=FLO3FLTeam $0.00 spent out of$0.00 $266.90 spent out of$1,850.00
+  WORD | bbox=[16,384,125,406] | text=FLO3FLTeam
+  WORD | bbox=[278,390,349,406] | text=$0.00 spent
+  WORD | bbox=[445,390,516,406] | text=out of$0.00
+  WORD | bbox=[538,390,621,406] | text=$266.90 spent
+  WORD | bbox=[684,390,776,406] | text=out of$1,850.00
+LINE 6 | bbox=[17,419,713,446] | conf=0.973 | text=Oscarplan: Deductible met $1,583.10 remaining
+  WORD | bbox=[17,419,106,439] | text=Oscarplan:
+  WORD | bbox=[350,426,441,444] | text=Deductible met
+  WORD | bbox=[600,426,713,446] | text=$1,583.10 remaining
+LINE 7 | bbox=[17,560,1261,591] | conf=0.977 | text=8 Individual Claims Export CSV
+  WORD | bbox=[17,570,98,591] | text=8 Individual
+  WORD | bbox=[277,560,327,582] | text=Claims
+  WORD | bbox=[1204,566,1261,579] | text=Export CSV
+LINE 8 | bbox=[40,480,114,496] | conf=0.932 | text=View ID card
+LINE 9 | bbox=[18,503,424,526] | conf=0.957 | text=Jeffin Alex View famlly accumulators
+  WORD | bbox=[18,508,102,526] | text=Jeffin Alex
+  WORD | bbox=[280,503,424,516] | text=View famlly accumulators
+LINE 10 | bbox=[16,536,158,560] | conf=0.931 | text=Effective 01/01/2026
+LINE 11 | bbox=[30,211,115,228] | conf=0.997 | text=Heads up note
+LINE 12 | bbox=[71,307,162,320] | conf=0.941 | text=Member actions
+LINE 13 | bbox=[41,443,219,456] | conf=0.972 | text=Silver Simple PCP Saver CSR 150
+LINE 14 | bbox=[39,461,142,477] | conf=0.998 | text=FL HMO Standard
+LINE 15 | bbox=[276,225,589,243] | conf=0.979 | text=Reduced price PCP visits are not supported by this plan.
+LINE 16 | bbox=[279,274,1260,290] | conf=0.982 | text=Accumulators View benefit limit accumulators
+  WORD | bbox=[279,274,371,290] | text=Accumulators
+  WORD | bbox=[1108,276,1260,289] | text=View benefit limit accumulators
+LINE 17 | bbox=[19,605,1230,630] | conf=0.949 | text=$Current Balance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility
+  WORD | bbox=[19,605,163,624] | text=$Current Balance due
+  WORD | bbox=[289,612,434,630] | text=Order by date of service
+  WORD | bbox=[464,612,558,630] | text=Medical clalms
+  WORD | bbox=[592,615,834,628] | text=Servlce dates 01/01/2025-07/23/2026 (2)
+  WORD | bbox=[874,614,1011,630] | text=Member responslblllty
+  WORD | bbox=[1041,615,1094,630] | text=Status
+  WORD | bbox=[1122,614,1230,630] | text=Provider/Facility
+LINE 18 | bbox=[302,685,1255,707] | conf=0.998 | text=9X1W28AK $0.00
+  WORD | bbox=[302,685,374,704] | text=9X1W28AK
+  WORD | bbox=[1214,689,1255,707] | text=$0.00
+LINE 19 | bbox=[19,639,122,674] | conf=0.986 | text=Oscar Unlocks Not activated
+LINE 20 | bbox=[16,706,1252,732] | conf=0.957 | text=Member tags Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald
+  WORD | bbox=[16,706,96,727] | text=Member tags
+  WORD | bbox=[304,715,1062,732] | text=Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  WORD | bbox=[1220,714,1252,732] | text=Pald
+LINE 21 | bbox=[22,736,535,761] | conf=0.961 | text=nextgen_billing_rosco_tag Oscar Medical Group Nathan Lycan
+  WORD | bbox=[22,745,175,761] | text=nextgen_billing_rosco_tag
+  WORD | bbox=[321,736,535,754] | text=Oscar Medical Group Nathan Lycan
+[/BOXES]

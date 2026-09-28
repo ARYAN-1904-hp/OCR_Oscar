@@ -1,0 +1,300 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=22 | tables=5 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 19x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Genesis Hernandez | Member info Issues Policy detalls Benefits Claims Rewards Authorizations | - | -
+  CELL[2,0] = Genesis Hernandez
+  CELL[2,1] = Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+ROW 3 | De Hoyo | Medical claim Assessment of emotional or behavioral problems | Pald | -
+  CELL[3,0] = De Hoyo
+  CELL[3,1] = Medical claim Assessment of emotional or behavioral problems
+  CELL[3,2] = Pald
+ROW 4 | No facility referenced Catherine Cepeda | - | - | -
+  CELL[4,0] = No facility referenced Catherine Cepeda
+ROW 5 | Active | Service on Jun 23,2026-Accumulation on Jun 25,2026 | - | -
+  CELL[5,0] = Active
+  CELL[5,1] = Service on Jun 23,2026-Accumulation on Jun 25,2026
+ROW 6 | OSC75847221-02-R220XDSX Spouse ON exc | - | - | -
+  CELL[6,0] = OSC75847221-02-R220XDSX Spouse ON exc
+ROW 7 | Memorial Hospital West Jennifer Runco Therrien | - | - | -
+  CELL[7,0] = Memorial Hospital West Jennifer Runco Therrien
+ROW 8 | Service on Jun 16, 2026 - Did not apply to accumulators | - | - | -
+  CELL[8,0] = Service on Jun 16, 2026 - Did not apply to accumulators
+ROW 9 | Member actions | - | - | -
+  CELL[9,0] = Member actions
+ROW 10 | Memorial Hospital West Jennifer Runco Therrien | - | - | -
+  CELL[10,0] = Memorial Hospital West Jennifer Runco Therrien
+ROW 11 | Oscar plan | Service on Jun 2, 2026 Did not apply to accumulators | - | -
+  CELL[11,0] = Oscar plan
+  CELL[11,1] = Service on Jun 2, 2026 Did not apply to accumulators
+ROW 12 | Silver Simple PCP Saver CSR 150 | - | - | -
+  CELL[12,0] = Silver Simple PCP Saver CSR 150
+ROW 13 | FL HMO Standard | - | - | -
+  CELL[13,0] = FL HMO Standard
+ROW 14 | View ID card | - | - | -
+  CELL[14,0] = View ID card
+ROW 15 | Bureau of Public Health Laboratories No provider referenced | - | - | -
+  CELL[15,0] = Bureau of Public Health Laboratories No provider referenced
+ROW 16 | 8 Family | Service on May 31,2026-Accumulation on Jun 22,2026 | - | -
+  CELL[16,0] = 8 Family
+  CELL[16,1] = Service on May 31,2026-Accumulation on Jun 22,2026
+ROW 17 | Jimmy Joe Hoyo Salas Holder | - | - | -
+  CELL[17,0] = Jimmy Joe Hoyo Salas Holder
+ROW 18 | Gael Enrique Hoyo Hernandez Child | - | - | -
+  CELL[18,0] = Gael Enrique Hoyo Hernandez Child
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x3
+HEADER | Heads up note | P4B2C3RB | $0.00
+ROW 1 | - | Medical claim X-ray of chest, 1 view | Processing
+  CELL[1,1] = Medical claim X-ray of chest, 1 view
+  CELL[1,2] = Processing
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 2x3
+HEADER | FLBroward | 4TZRRGQQ | $0.00
+ROW 1 | SP02-FL Team | Medical claimX-ray of chest,1 view | Processing
+  CELL[1,0] = SP02-FL Team
+  CELL[1,1] = Medical claimX-ray of chest,1 view
+  CELL[1,2] = Processing
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 2x3
+HEADER | V Maria Alejandra Dempaire | ESMJ7YTF | $0.00
+ROW 1 | Effective 05/27/2026 | Medical claim Enzyme activity measurement, nonradioactive substrate | Paid
+  CELL[1,0] = Effective 05/27/2026
+  CELL[1,1] = Medical claim Enzyme activity measurement, nonradioactive substrate
+  CELL[1,2] = Paid
+[/TABLE 3]
+
+[TABLE 4 | source=wide_grid]
+shape: 3x3
+HEADER | 5 No bills | MP14AYCH | $0.00
+ROW 1 | - | Medical claim X-ray of chest, 1 view | Processing
+  CELL[1,1] = Medical claim X-ray of chest, 1 view
+  CELL[1,2] = Processing
+ROW 2 | Giveaway Go-getter View details | Memorial Hospital West Jared Green | -
+  CELL[2,0] = Giveaway Go-getter View details
+  CELL[2,1] = Memorial Hospital West Jared Green
+[/TABLE 4]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,34] | order=0
+  rosco Search Rosco MR Melissa
+BLOCK 1 | type=header | bbox=[19,73,795,102] | order=1
+  Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+BLOCK 2 | type=table | bbox=[17,103,1253,130] | order=2
+  De Hoyo Medical claim Assessment of emotional or behavioral problems Pald
+BLOCK 3 | type=table_row | bbox=[20,129,628,165] | order=3
+  No facility referenced Catherine Cepeda
+  Active Service on Jun 23,2026-Accumulation on Jun 25,2026
+BLOCK 4 | type=table_row | bbox=[18,167,184,201] | order=4
+  OSC75847221-02-R220XDSX Spouse ON exc
+BLOCK 5 | type=table | bbox=[30,228,1254,255] | order=5
+  Heads up note P4B2C3RB $0.00
+BLOCK 6 | type=table_row | bbox=[304,256,1252,275] | order=6
+  Medical claim X-ray of chest, 1 view Processing
+BLOCK 7 | type=table_row | bbox=[304,280,609,297] | order=7
+  Memorial Hospital West Jennifer Runco Therrien
+BLOCK 8 | type=table_row | bbox=[302,303,629,320] | order=8
+  Service on Jun 16, 2026 - Did not apply to accumulators
+BLOCK 9 | type=table | bbox=[16,378,1255,432] | order=9
+  FLBroward 4TZRRGQQ $0.00
+  SP02-FL Team Medical claimX-ray of chest,1 view Processing
+BLOCK 10 | type=table_row | bbox=[17,445,624,471] | order=10
+  Oscar plan: Service on Jun 2, 2026 Did not apply to accumulators
+BLOCK 11 | type=table_row | bbox=[41,331,219,482] | order=11
+  Member actions
+  Silver Simple PCP Saver CSR 150
+BLOCK 12 | type=table_row | bbox=[305,434,608,447] | order=12
+  Memorial Hospital West Jennifer Runco Therrien
+BLOCK 13 | type=table_row | bbox=[37,486,143,504] | order=13
+  FL HMO Standard
+BLOCK 14 | type=table_row | bbox=[40,508,114,521] | order=14
+  View ID card
+BLOCK 15 | type=table | bbox=[16,533,1255,584] | order=15
+  V Maria Alejandra Dempaire ESMJ7YTF $0.00
+  Effective 05/27/2026 Medical claim Enzyme activity measurement, nonradioactive substrate Paid
+BLOCK 16 | type=table | bbox=[18,586,671,620] | order=16
+  Bureau of Public Health Laboratories No provider referenced
+  8 Family Service on May 31,2026-Accumulation on Jun 22,2026
+BLOCK 17 | type=table_row | bbox=[42,623,211,635] | order=17
+  Jimmy Joe Hoyo Salas Holder
+BLOCK 18 | type=table_row | bbox=[39,639,211,673] | order=18
+  Gael Enrique Hoyo Hernandez Child
+BLOCK 19 | type=footer | bbox=[19,685,1254,708] | order=19
+  5 No bills MP14AYCH $0.00
+BLOCK 20 | type=footer | bbox=[304,710,1252,731] | order=20
+  Medical claim X-ray of chest, 1 view Processing
+BLOCK 21 | type=footer | bbox=[19,724,542,756] | order=21
+  Giveaway Go-getter View details Memorial Hospital West Jared Green
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,17,1580,673] | shape=19x4 | conf=0.920
+  shape: 19x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Genesis Hernandez | Member info Issues Policy detalls Benefits Claims Rewards Authorizations | - | -
+    CELL[2,0] = Genesis Hernandez
+    CELL[2,1] = Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+  ROW 3 | De Hoyo | Medical claim Assessment of emotional or behavioral problems | Pald | -
+    CELL[3,0] = De Hoyo
+    CELL[3,1] = Medical claim Assessment of emotional or behavioral problems
+    CELL[3,2] = Pald
+  ROW 4 | No facility referenced Catherine Cepeda | - | - | -
+    CELL[4,0] = No facility referenced Catherine Cepeda
+  ROW 5 | Active | Service on Jun 23,2026-Accumulation on Jun 25,2026 | - | -
+    CELL[5,0] = Active
+    CELL[5,1] = Service on Jun 23,2026-Accumulation on Jun 25,2026
+  ROW 6 | OSC75847221-02-R220XDSX Spouse ON exc | - | - | -
+    CELL[6,0] = OSC75847221-02-R220XDSX Spouse ON exc
+  ROW 7 | Memorial Hospital West Jennifer Runco Therrien | - | - | -
+    CELL[7,0] = Memorial Hospital West Jennifer Runco Therrien
+  ROW 8 | Service on Jun 16, 2026 - Did not apply to accumulators | - | - | -
+    CELL[8,0] = Service on Jun 16, 2026 - Did not apply to accumulators
+  ROW 9 | Member actions | - | - | -
+    CELL[9,0] = Member actions
+  ROW 10 | Memorial Hospital West Jennifer Runco Therrien | - | - | -
+    CELL[10,0] = Memorial Hospital West Jennifer Runco Therrien
+  ROW 11 | Oscar plan | Service on Jun 2, 2026 Did not apply to accumulators | - | -
+    CELL[11,0] = Oscar plan
+    CELL[11,1] = Service on Jun 2, 2026 Did not apply to accumulators
+  ROW 12 | Silver Simple PCP Saver CSR 150 | - | - | -
+    CELL[12,0] = Silver Simple PCP Saver CSR 150
+  ROW 13 | FL HMO Standard | - | - | -
+    CELL[13,0] = FL HMO Standard
+  ROW 14 | View ID card | - | - | -
+    CELL[14,0] = View ID card
+  ROW 15 | Bureau of Public Health Laboratories No provider referenced | - | - | -
+    CELL[15,0] = Bureau of Public Health Laboratories No provider referenced
+  ROW 16 | 8 Family | Service on May 31,2026-Accumulation on Jun 22,2026 | - | -
+    CELL[16,0] = 8 Family
+    CELL[16,1] = Service on May 31,2026-Accumulation on Jun 22,2026
+  ROW 17 | Jimmy Joe Hoyo Salas Holder | - | - | -
+    CELL[17,0] = Jimmy Joe Hoyo Salas Holder
+  ROW 18 | Gael Enrique Hoyo Hernandez Child | - | - | -
+    CELL[18,0] = Gael Enrique Hoyo Hernandez Child
+TABLE 1 | source=wide_grid | bbox=[30,228,1254,275] | shape=2x3 | conf=0.850
+  shape: 2x3
+  HEADER | Heads up note | P4B2C3RB | $0.00
+  ROW 1 | - | Medical claim X-ray of chest, 1 view | Processing
+    CELL[1,1] = Medical claim X-ray of chest, 1 view
+    CELL[1,2] = Processing
+TABLE 2 | source=wide_grid | bbox=[16,378,1255,432] | shape=2x3 | conf=0.850
+  shape: 2x3
+  HEADER | FLBroward | 4TZRRGQQ | $0.00
+  ROW 1 | SP02-FL Team | Medical claimX-ray of chest,1 view | Processing
+    CELL[1,0] = SP02-FL Team
+    CELL[1,1] = Medical claimX-ray of chest,1 view
+    CELL[1,2] = Processing
+TABLE 3 | source=wide_grid | bbox=[16,533,1255,584] | shape=2x3 | conf=0.850
+  shape: 2x3
+  HEADER | V Maria Alejandra Dempaire | ESMJ7YTF | $0.00
+  ROW 1 | Effective 05/27/2026 | Medical claim Enzyme activity measurement, nonradioactive substrate | Paid
+    CELL[1,0] = Effective 05/27/2026
+    CELL[1,1] = Medical claim Enzyme activity measurement, nonradioactive substrate
+    CELL[1,2] = Paid
+TABLE 4 | source=wide_grid | bbox=[19,685,1254,756] | shape=3x3 | conf=0.850
+  shape: 3x3
+  HEADER | 5 No bills | MP14AYCH | $0.00
+  ROW 1 | - | Medical claim X-ray of chest, 1 view | Processing
+    CELL[1,1] = Medical claim X-ray of chest, 1 view
+    CELL[1,2] = Processing
+  ROW 2 | Giveaway Go-getter View details | Memorial Hospital West Jared Green | -
+    CELL[2,0] = Giveaway Go-getter View details
+    CELL[2,1] = Memorial Hospital West Jared Green
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.917 | text=rosco Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,73,795,102] | conf=0.991 | text=Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+  WORD | bbox=[19,81,206,102] | text=Genesis Hernandez
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[421,73,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[641,74,694,89] | text=Rewards
+  WORD | bbox=[710,75,795,88] | text=Authorizations
+LINE 2 | bbox=[17,103,1253,130] | conf=0.977 | text=De Hoyo Medical claim Assessment of emotional or behavioral problems Pald
+  WORD | bbox=[17,105,100,130] | text=De Hoyo
+  WORD | bbox=[302,107,688,123] | text=Medical claim Assessment of emotional or behavioral problems
+  WORD | bbox=[1219,103,1253,124] | text=Pald
+LINE 3 | bbox=[302,129,564,145] | conf=0.976 | text=No facility referenced Catherine Cepeda
+LINE 4 | bbox=[20,138,628,165] | conf=0.967 | text=Active Service on Jun 23,2026-Accumulation on Jun 25,2026
+  WORD | bbox=[20,138,64,160] | text=Active
+  WORD | bbox=[304,153,628,165] | text=Service on Jun 23,2026-Accumulation on Jun 25,2026
+LINE 5 | bbox=[18,167,184,201] | conf=0.968 | text=OSC75847221-02-R220XDSX Spouse ON exc
+LINE 6 | bbox=[30,228,1254,255] | conf=0.996 | text=Heads up note P4B2C3RB $0.00
+  WORD | bbox=[30,235,115,255] | text=Heads up note
+  WORD | bbox=[302,228,375,248] | text=P4B2C3RB
+  WORD | bbox=[1212,230,1254,252] | text=$0.00
+LINE 7 | bbox=[304,256,1252,275] | conf=0.971 | text=Medical claim X-ray of chest, 1 view Processing
+  WORD | bbox=[304,258,532,275] | text=Medical claim X-ray of chest, 1 view
+  WORD | bbox=[1182,256,1252,275] | text=Processing
+LINE 8 | bbox=[304,280,609,297] | conf=0.972 | text=Memorial Hospital West Jennifer Runco Therrien
+LINE 9 | bbox=[302,303,629,320] | conf=0.977 | text=Service on Jun 16, 2026 - Did not apply to accumulators
+LINE 10 | bbox=[18,378,1255,402] | conf=0.994 | text=FLBroward 4TZRRGQQ $0.00
+  WORD | bbox=[18,378,112,400] | text=FLBroward
+  WORD | bbox=[302,378,380,400] | text=4TZRRGQQ
+  WORD | bbox=[1214,383,1255,402] | text=$0.00
+LINE 11 | bbox=[16,407,1252,432] | conf=0.942 | text=SP02-FL Team Medical claimX-ray of chest,1 view Processing
+  WORD | bbox=[16,412,126,432] | text=SP02-FL Team
+  WORD | bbox=[305,412,531,425] | text=Medical claimX-ray of chest,1 view
+  WORD | bbox=[1182,407,1252,428] | text=Processing
+LINE 12 | bbox=[17,445,624,471] | conf=0.971 | text=Oscar plan: Service on Jun 2, 2026 Did not apply to accumulators
+  WORD | bbox=[17,445,106,466] | text=Oscar plan:
+  WORD | bbox=[302,454,624,471] | text=Service on Jun 2, 2026 Did not apply to accumulators
+LINE 13 | bbox=[70,331,163,346] | conf=0.958 | text=Member actions
+LINE 14 | bbox=[41,470,219,482] | conf=0.983 | text=Silver Simple PCP Saver CSR 150
+LINE 15 | bbox=[305,434,608,447] | conf=0.995 | text=Memorial Hospital West Jennifer Runco Therrien
+LINE 16 | bbox=[37,486,143,504] | conf=0.980 | text=FL HMO Standard
+LINE 17 | bbox=[40,508,114,521] | conf=0.960 | text=View ID card
+LINE 18 | bbox=[16,533,1255,554] | conf=0.974 | text=V Maria Alejandra Dempaire ESMJ7YTF $0.00
+  WORD | bbox=[16,533,186,554] | text=V Maria Alejandra Dempaire
+  WORD | bbox=[304,533,374,550] | text=ESMJ7YTF
+  WORD | bbox=[1214,535,1255,554] | text=$0.00
+LINE 19 | bbox=[17,560,1252,584] | conf=0.973 | text=Effective 05/27/2026 Medical claim Enzyme activity measurement, nonradioactive substrate Paid
+  WORD | bbox=[17,564,159,584] | text=Effective 05/27/2026
+  WORD | bbox=[304,563,730,579] | text=Medical claim Enzyme activity measurement, nonradioactive substrate
+  WORD | bbox=[1221,560,1252,578] | text=Paid
+LINE 20 | bbox=[322,586,671,598] | conf=0.997 | text=Bureau of Public Health Laboratories No provider referenced
+LINE 21 | bbox=[18,597,628,620] | conf=0.946 | text=8 Family Service on May 31,2026-Accumulation on Jun 22,2026
+  WORD | bbox=[18,597,80,618] | text=8 Family
+  WORD | bbox=[304,607,628,620] | text=Service on May 31,2026-Accumulation on Jun 22,2026
+LINE 22 | bbox=[42,623,211,635] | conf=0.971 | text=Jimmy Joe Hoyo Salas Holder
+LINE 23 | bbox=[39,639,211,673] | conf=0.994 | text=Gael Enrique Hoyo Hernandez Child
+LINE 24 | bbox=[19,685,1254,708] | conf=0.911 | text=5 No bills MP14AYCH $0.00
+  WORD | bbox=[19,691,34,707] | text=5
+  WORD | bbox=[30,691,85,708] | text=No bills
+  WORD | bbox=[304,685,376,701] | text=MP14AYCH
+  WORD | bbox=[1214,687,1254,707] | text=$0.00
+LINE 25 | bbox=[304,710,1252,731] | conf=0.969 | text=Medical claim X-ray of chest, 1 view Processing
+  WORD | bbox=[304,714,532,731] | text=Medical claim X-ray of chest, 1 view
+  WORD | bbox=[1182,710,1252,731] | text=Processing
+LINE 26 | bbox=[19,724,542,756] | conf=0.968 | text=Giveaway Go-getter View details Memorial Hospital West Jared Green
+  WORD | bbox=[19,724,152,756] | text=Giveaway Go-getter View details
+  WORD | bbox=[305,737,542,750] | text=Memorial Hospital West Jared Green
+[/BOXES]

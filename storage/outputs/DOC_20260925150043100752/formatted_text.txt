@@ -1,0 +1,247 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x832 | blocks=16 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 4x6
+HEADER | Claims | HOME | INVENTORY | CREATE TICKET | UNARCHIVE | Claims LM appian
+ROW 1 | - | HOLD-5886366 Production Hold | - | - | - | Start Next Ticket
+  CELL[1,1] = HOLD-5886366 Production Hold
+  CELL[1,5] = Start Next Ticket
+ROW 2 | - | NEWBORN hold on claim Q20K5GSF | - | - | Ticket Info | -
+  CELL[2,1] = NEWBORN hold on claim Q20K5GSF
+  CELL[2,4] = Ticket Info
+ROW 3 | Resolved On | - | 7/23/2026 1:27 PM EDT | - | - | -
+  CELL[3,0] = Resolved On
+  CELL[3,2] = 7/23/2026 1:27 PM EDT
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Resolution Resolved (Suppressed) Updated On 7/23/20261 | 27PMEDT | Updated By | Latavia Mutcherson
+  CELL[1,0] = Resolution Resolved (Suppressed) Updated On 7/23/20261
+  CELL[1,1] = 27PMEDT
+  CELL[1,2] = Updated By
+  CELL[1,3] = Latavia Mutcherson
+ROW 2 | Reason | Suppressed | - | -
+  CELL[2,0] = Reason
+  CELL[2,1] = Suppressed
+ROW 3 | Details | - | - | -
+  CELL[3,0] = Details
+ROW 4 | Source | Automat (appian_hold_ticket_creation) | Watchers | HWATCH
+  CELL[4,0] = Source
+  CELL[4,1] = Automat (appian_hold_ticket_creation)
+  CELL[4,2] = Watchers
+  CELL[4,3] = HWATCH
+ROW 5 | HOLD-5886366 | - | - | -
+  CELL[5,0] = HOLD-5886366
+ROW 6 | Workflow | Labels | - | -
+  CELL[6,0] = Workflow
+  CELL[6,1] = Labels
+ROW 7 | Newborn | - | - | -
+  CELL[7,0] = Newborn
+ROW 8 | Changes Made: | - | Additional Info | -
+  CELL[8,0] = Changes Made:
+  CELL[8,2] = Additional Info
+ROW 9 | Baby does NOT have an Active Policy that | - | - | -
+  CELL[9,0] = Baby does NOT have an Active Policy that
+ROW 10 | covers the Start DOS of the claim. | - | System | Ocelot
+  CELL[10,0] = covers the Start DOS of the claim.
+  CELL[10,2] = System
+  CELL[10,3] = Ocelot
+ROW 11 | 2026-07-23 20:15:51 s Effectuated for .oscgrgpps.hioscar.com | SWITCH Ticket Details Form - Claims | - | -
+  CELL[11,0] = 2026-07-23 20:15:51 s Effectuated for .oscgrgpps.hioscar.com
+  CELL[11,1] = SWITCH Ticket Details Form - Claims
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[26,20,1488,108] | order=0
+  Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims LM appian
+  HOLD-5886366 Production Hold Start Next Ticket
+BLOCK 1 | type=paragraph | bbox=[60,164,582,188] | order=1
+  NEWBORN hold on claim Q20K5GSF Ticket Info
+BLOCK 2 | type=table | bbox=[46,201,1247,334] | order=2
+  P3 Resolved (Suppressed) Due 07/29/2026 Assignee Latavia Mutcherson
+  Resolution Details SLA All Holds SLA (minus High$) (7 working days) Submitter Internal
+  Resolved By Latavia Mutcherson Created On 7/18/2026 7: 02 PM EDT Created By svc.automat
+BLOCK 3 | type=label_value | bbox=[62,329,328,345] | order=3
+  Resolved On 7/23/2026 1: 27 PM EDT
+BLOCK 4 | type=table | bbox=[62,358,1247,383] | order=4
+  Resolution Resolved (Suppressed) Updated On 7/23/2026 1: 27 PM EDT Updated By Latavia Mutcherson
+BLOCK 5 | type=heading | bbox=[59,386,258,407] | order=5
+  Reason Suppressed
+BLOCK 6 | type=table | bbox=[60,411,1247,487] | order=6
+  Description Closed On 7/23/2026 1: 27 PM EDT Closed By Latavia Mutcherson
+  Please copy your notes from Cortex and paste it below. Reported On Reporter
+BLOCK 7 | type=table | bbox=[61,498,115,518] | order=7
+  Details
+BLOCK 8 | type=table | bbox=[62,513,1206,546] | order=8
+  HOLD-5886366 Source Automat (appian_hold_ticket_creation) Watchers HWATCH
+BLOCK 9 | type=label_value | bbox=[61,565,464,586] | order=9
+  Workflow: Labels
+BLOCK 10 | type=paragraph | bbox=[61,588,128,608] | order=10
+  Newborn
+BLOCK 11 | type=label_value | bbox=[63,622,1071,646] | order=11
+  Changes Made: Additional Info
+BLOCK 12 | type=table | bbox=[62,641,1188,727] | order=12
+  Applied Parents Active Policy that covers the Start DOS of the claim The claim is for a newborn and requires manual review Issue Other
+  Reason for changes: Code NEWBORN
+BLOCK 13 | type=table | bbox=[63,729,339,745] | order=13
+  Baby does NOT have an Active Policy that
+BLOCK 14 | type=footer | bbox=[62,750,1161,782] | order=14
+  covers the Start DOS of the claim. System Ocelot
+BLOCK 15 | type=footer | bbox=[18,792,730,818] | order=15
+  2026-07-23 20:15:51 s Effectuated for .oscgrgpps.hioscar.com SWITCH Ticket Details Form - Claims
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[18,358,1247,818] | shape=12x4 | conf=0.920
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Resolution Resolved (Suppressed) Updated On 7/23/20261 | 27PMEDT | Updated By | Latavia Mutcherson
+    CELL[1,0] = Resolution Resolved (Suppressed) Updated On 7/23/20261
+    CELL[1,1] = 27PMEDT
+    CELL[1,2] = Updated By
+    CELL[1,3] = Latavia Mutcherson
+  ROW 2 | Reason | Suppressed | - | -
+    CELL[2,0] = Reason
+    CELL[2,1] = Suppressed
+  ROW 3 | Details | - | - | -
+    CELL[3,0] = Details
+  ROW 4 | Source | Automat (appian_hold_ticket_creation) | Watchers | HWATCH
+    CELL[4,0] = Source
+    CELL[4,1] = Automat (appian_hold_ticket_creation)
+    CELL[4,2] = Watchers
+    CELL[4,3] = HWATCH
+  ROW 5 | HOLD-5886366 | - | - | -
+    CELL[5,0] = HOLD-5886366
+  ROW 6 | Workflow | Labels | - | -
+    CELL[6,0] = Workflow
+    CELL[6,1] = Labels
+  ROW 7 | Newborn | - | - | -
+    CELL[7,0] = Newborn
+  ROW 8 | Changes Made: | - | Additional Info | -
+    CELL[8,0] = Changes Made:
+    CELL[8,2] = Additional Info
+  ROW 9 | Baby does NOT have an Active Policy that | - | - | -
+    CELL[9,0] = Baby does NOT have an Active Policy that
+  ROW 10 | covers the Start DOS of the claim. | - | System | Ocelot
+    CELL[10,0] = covers the Start DOS of the claim.
+    CELL[10,2] = System
+    CELL[10,3] = Ocelot
+  ROW 11 | 2026-07-23 20:15:51 s Effectuated for .oscgrgpps.hioscar.com | SWITCH Ticket Details Form - Claims | - | -
+    CELL[11,0] = 2026-07-23 20:15:51 s Effectuated for .oscgrgpps.hioscar.com
+    CELL[11,1] = SWITCH Ticket Details Form - Claims
+TABLE 1 | source=wide_grid | bbox=[26,20,1488,345] | shape=4x6 | conf=0.850
+  shape: 4x6
+  HEADER | Claims | HOME | INVENTORY | CREATE TICKET | UNARCHIVE | Claims LM appian
+  ROW 1 | - | HOLD-5886366 Production Hold | - | - | - | Start Next Ticket
+    CELL[1,1] = HOLD-5886366 Production Hold
+    CELL[1,5] = Start Next Ticket
+  ROW 2 | - | NEWBORN hold on claim Q20K5GSF | - | - | Ticket Info | -
+    CELL[2,1] = NEWBORN hold on claim Q20K5GSF
+    CELL[2,4] = Ticket Info
+  ROW 3 | Resolved On | - | 7/23/2026 1:27 PM EDT | - | - | -
+    CELL[3,0] = Resolved On
+    CELL[3,2] = 7/23/2026 1:27 PM EDT
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[61,20,1488,43] | conf=0.990 | text=Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims LM appian
+  WORD | bbox=[61,20,124,41] | text=Claims
+  WORD | bbox=[163,20,212,40] | text=HOME
+  WORD | bbox=[238,22,320,38] | text=INVENTORY
+  WORD | bbox=[347,22,456,38] | text=CREATE TICKET
+  WORD | bbox=[482,21,567,37] | text=UNARCHIVE
+  WORD | bbox=[1302,22,1429,43] | text=Claims LM
+  WORD | bbox=[1437,22,1488,43] | text=appian
+LINE 1 | bbox=[26,87,1420,108] | conf=0.956 | text=HOLD-5886366 Production Hold Start Next Ticket
+  WORD | bbox=[26,87,404,108] | text=HOLD-5886366 Production Hold
+  WORD | bbox=[1304,90,1420,108] | text=Start Next Ticket
+LINE 2 | bbox=[60,164,582,188] | conf=0.925 | text=NEWBORN hold on claim Q20K5GSF Ticket Info
+  WORD | bbox=[60,164,359,180] | text=NEWBORN hold on claim Q20K5GSF
+  WORD | bbox=[403,164,582,188] | text=Ticket Info
+LINE 3 | bbox=[46,201,1247,230] | conf=0.991 | text=P3 Resolved (Suppressed) Due 07/29/2026 Assignee Latavia Mutcherson
+  WORD | bbox=[46,202,68,216] | text=P3
+  WORD | bbox=[88,201,247,220] | text=Resolved (Suppressed)
+  WORD | bbox=[411,209,445,230] | text=Due
+  WORD | bbox=[578,210,657,227] | text=07/29/2026
+  WORD | bbox=[947,210,1014,230] | text=Assignee
+  WORD | bbox=[1111,212,1247,227] | text=Latavia Mutcherson
+LINE 4 | bbox=[50,260,1167,281] | conf=0.967 | text=Resolution Details SLA All Holds SLA (minus High$) (7 working days) Submitter Internal
+  WORD | bbox=[50,260,216,279] | text=Resolution Details
+  WORD | bbox=[411,260,446,281] | text=SLA
+  WORD | bbox=[578,262,875,278] | text=All Holds SLA (minus High$) (7 working days)
+  WORD | bbox=[948,262,1021,279] | text=Submitter
+  WORD | bbox=[1110,261,1167,278] | text=Internal
+LINE 5 | bbox=[59,298,1201,334] | conf=0.967 | text=Resolved By Latavia Mutcherson Created On 7/18/2026 7: 02 PM EDT Created By svc.automat
+  WORD | bbox=[59,298,148,322] | text=Resolved By
+  WORD | bbox=[172,301,309,317] | text=Latavia Mutcherson
+  WORD | bbox=[415,313,496,330] | text=Created On
+  WORD | bbox=[579,313,731,325] | text=7/18/2026 7:02 PM EDT
+  WORD | bbox=[947,309,1027,334] | text=Created By
+  WORD | bbox=[1114,313,1201,329] | text=svc.automat
+LINE 6 | bbox=[62,329,328,345] | conf=0.966 | text=Resolved On 7/23/2026 1: 27 PM EDT
+  WORD | bbox=[62,329,150,345] | text=Resolved On
+  WORD | bbox=[173,330,328,345] | text=7/23/2026 1:27 PM EDT
+LINE 7 | bbox=[62,358,1247,383] | conf=0.966 | text=Resolution Resolved (Suppressed) Updated On 7/23/2026 1: 27 PM EDT Updated By Latavia Mutcherson
+  WORD | bbox=[62,359,138,376] | text=Resolution
+  WORD | bbox=[173,358,329,376] | text=Resolved (Suppressed)
+  WORD | bbox=[414,363,498,379] | text=Updated On
+  WORD | bbox=[577,363,731,378] | text=7/23/2026 1:27 PM EDT
+  WORD | bbox=[945,360,1031,383] | text=Updated By
+  WORD | bbox=[1111,363,1247,378] | text=Latavia Mutcherson
+LINE 8 | bbox=[59,386,258,407] | conf=0.997 | text=Reason Suppressed
+  WORD | bbox=[59,386,116,407] | text=Reason
+  WORD | bbox=[173,390,258,407] | text=Suppressed
+LINE 9 | bbox=[62,411,1247,436] | conf=0.968 | text=Description Closed On 7/23/2026 1: 27 PM EDT Closed By Latavia Mutcherson
+  WORD | bbox=[62,420,144,436] | text=Description
+  WORD | bbox=[414,415,486,431] | text=Closed On
+  WORD | bbox=[578,412,731,428] | text=7/23/2026 1:27 PM EDT
+  WORD | bbox=[945,411,1019,434] | text=Closed By
+  WORD | bbox=[1111,415,1247,430] | text=Latavia Mutcherson
+LINE 10 | bbox=[60,448,1012,487] | conf=0.970 | text=Please copy your notes from Cortex and paste it below. Reported On Reporter
+  WORD | bbox=[60,448,331,487] | text=Please copy your notes from Cortex and paste it below.
+  WORD | bbox=[414,466,504,482] | text=Reported On
+  WORD | bbox=[948,466,1012,482] | text=Reporter
+LINE 11 | bbox=[61,498,115,518] | conf=0.957 | text=Details
+LINE 12 | bbox=[62,513,1206,546] | conf=0.975 | text=HOLD-5886366 Source Automat (appian_hold_ticket_creation) Watchers HWATCH
+  WORD | bbox=[62,529,170,546] | text=HOLD-5886366
+  WORD | bbox=[411,514,466,534] | text=Source
+  WORD | bbox=[577,513,841,533] | text=Automat (appian_hold_ticket_creation)
+  WORD | bbox=[948,515,1016,532] | text=Watchers
+  WORD | bbox=[1137,522,1206,539] | text=HWATCH
+LINE 13 | bbox=[61,565,464,586] | conf=0.991 | text=Workflow: Labels
+  WORD | bbox=[61,570,132,586] | text=Workflow:
+  WORD | bbox=[412,565,464,585] | text=Labels
+LINE 14 | bbox=[61,588,128,608] | conf=0.997 | text=Newborn
+LINE 15 | bbox=[63,622,1071,646] | conf=0.965 | text=Changes Made: Additional Info
+  WORD | bbox=[63,630,170,646] | text=Changes Made:
+  WORD | bbox=[948,622,1071,642] | text=Additional Info
+LINE 16 | bbox=[63,641,1153,684] | conf=0.956 | text=Applied Parents Active Policy that covers the Start DOS of the claim The claim is for a newborn and requires manual review Issue Other
+  WORD | bbox=[63,650,339,665] | text=Applied Parents Active Policy that covers
+  WORD | bbox=[63,669,241,684] | text=the Start DOS of the claim
+  WORD | bbox=[428,641,789,658] | text=The claim is for a newborn and requires manual review
+  WORD | bbox=[945,657,988,678] | text=Issue
+  WORD | bbox=[1111,657,1153,675] | text=Other
+LINE 17 | bbox=[62,707,1188,727] | conf=0.980 | text=Reason for changes: Code NEWBORN
+  WORD | bbox=[62,709,199,727] | text=Reason for changes:
+  WORD | bbox=[947,709,987,727] | text=Code
+  WORD | bbox=[1111,707,1188,723] | text=NEWBORN
+LINE 18 | bbox=[63,729,339,745] | conf=0.944 | text=Baby does NOT have an Active Policy that
+LINE 19 | bbox=[62,750,1161,782] | conf=0.972 | text=covers the Start DOS of the claim. System Ocelot
+  WORD | bbox=[62,750,289,766] | text=covers the Start DOS of the claim.
+  WORD | bbox=[944,757,1005,782] | text=System
+  WORD | bbox=[1110,758,1161,778] | text=Ocelot
+LINE 20 | bbox=[18,792,730,818] | conf=0.935 | text=2026-07-23 20:15:51 s Effectuated for .oscgrgpps.hioscar.com SWITCH Ticket Details Form - Claims
+  WORD | bbox=[18,801,205,817] | text=2026-07-23 20:15:51
+  WORD | bbox=[206,792,393,815] | text=s Effectuated for .oscgrgpps.hioscar.com
+  WORD | bbox=[423,801,483,817] | text=SWITCH
+  WORD | bbox=[501,799,730,818] | text=Ticket Details Form - Claims
+[/BOXES]

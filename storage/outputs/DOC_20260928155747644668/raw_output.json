@@ -1,0 +1,3625 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create\nAbout thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions\n7S7PQ98D\nMember: Genesis Adriana Herna... 1 Note Payment\nSee all member's clalms Charge group Prompt process due date 08/05/2026\nPayment authority NEXTGEN Interest accrued $0.00\nClaim state: Blocked Pay to member No Excluded from interest No\nBlockers (1)\nNEWBORN\nManage Patient\nManually edited - Revert changes\nDenials (0) Matched Member Submitted Infa\nNo denials on this claim. Manage First name MASTER SSN\nMiddle name G Date of birth 05/27/2026 (2 days)\nBilled $944.00 (100%) Last name HERNANDEZ DE HOYO Sex Male\nAllowed $101.00 (11%)\nSuffix - Address 21720 NW 3RD ST\nPay provider $101.00 OSCID OSC7584722101 PEMBROKE PINES, FL 33029\nPay member $0.00\n>Memberresponsibility $0.00 Policy holder Group\nFirstname MASTER Name OSCAR HEALTH CLAIMS\nClaim lineage Middle name G Number\n7S7PQ98D Blocked Last name HERNANDEZ DE HOYO Responsibillity sequence Primary\n7/18/2026\nSuffix\nPotential parent claims Organization name\nPatient relationship Self\nPotential duplicate claims\nNo system identified duplicates. Providers",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create\nAbout thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions\n7S7PQ98D\nMember: Genesis Adriana Herna... 1 Note Payment\nSee all member's clalms Charge group Prompt process due date 08/05/2026\nPayment authority NEXTGEN Interest accrued $0.00\nClaim state: Blocked Pay to member No Excluded from interest No\nBlockers (1)\nNEWBORN\nManage Patient\nManually edited - Revert changes\nDenials (0) Matched Member Submitted Infa\nNo denials on this claim. Manage First name MASTER SSN\nMiddle name G Date of birth 05/27/2026 (2 days)\nBilled $944.00 (100%) Last name HERNANDEZ DE HOYO Sex Male\nAllowed $101.00 (11%)\nSuffix - Address 21720 NW 3RD ST\nPay provider $101.00 OSCID OSC7584722101 PEMBROKE PINES, FL 33029\nPay member $0.00\n>Memberresponsibility $0.00 Policy holder Group\nFirstname MASTER Name OSCAR HEALTH CLAIMS\nClaim lineage Middle name G Number\n7S7PQ98D Blocked Last name HERNANDEZ DE HOYO Responsibillity sequence Primary\n7/18/2026\nSuffix\nPotential parent claims Organization name\nPatient relationship Self\nPotential duplicate claims\nNo system identified duplicates. Providers",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 2,
+              "bbox": [
+                32,
+                120,
+                135,
+                137
+              ],
+              "text": "7S7PQ98D",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "7S7PQ98D",
+                  "conf": 0.9950461983680725,
+                  "bbox": [
+                    32,
+                    120,
+                    135,
+                    137
+                  ],
+                  "words": [
+                    {
+                      "text": "7S7PQ98D",
+                      "conf": 0.9950461983680725,
+                      "bbox": [
+                        32,
+                        120,
+                        135,
+                        137
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                32,
+                145,
+                386,
+                178
+              ],
+              "text": "Member: Genesis Adriana Herna... 1 Note Payment",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Member: Genesis Adriana Herna... 1 Note Payment",
+                  "conf": 0.9653327465057373,
+                  "bbox": [
+                    32,
+                    145,
+                    386,
+                    178
+                  ],
+                  "words": [
+                    {
+                      "text": "Member: Genesis Adriana Herna...",
+                      "conf": 0.963518500328064,
+                      "bbox": [
+                        32,
+                        145,
+                        218,
+                        158
+                      ]
+                    },
+                    {
+                      "text": " 1 Note",
+                      "conf": 0.9334335327148438,
+                      "bbox": [
+                        32,
+                        162,
+                        88,
+                        178
+                      ]
+                    },
+                    {
+                      "text": "Payment",
+                      "conf": 0.9990462064743042,
+                      "bbox": [
+                        300,
+                        150,
+                        386,
+                        168
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                30,
+                297,
+                375,
+                324
+              ],
+              "text": "Manage Patient",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Manage Patient",
+                  "conf": 0.9986157715320587,
+                  "bbox": [
+                    30,
+                    297,
+                    375,
+                    324
+                  ],
+                  "words": [
+                    {
+                      "text": "Manage",
+                      "conf": 0.9980456233024597,
+                      "bbox": [
+                        30,
+                        303,
+                        80,
+                        324
+                      ]
+                    },
+                    {
+                      "text": "Patient",
+                      "conf": 0.9991859197616577,
+                      "bbox": [
+                        299,
+                        297,
+                        375,
+                        318
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 7,
+              "bbox": [
+                31,
+                323,
+                511,
+                362
+              ],
+              "text": "Manually edited - Revert changes\nDenials (0) Matched Member Submitted Infa",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Manually edited - Revert changes",
+                  "conf": 0.9676198363304138,
+                  "bbox": [
+                    299,
+                    323,
+                    460,
+                    336
+                  ],
+                  "words": [
+                    {
+                      "text": "Manually edited - Revert changes",
+                      "conf": 0.9676198363304138,
+                      "bbox": [
+                        299,
+                        323,
+                        460,
+                        336
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Denials (0) Matched Member Submitted Infa",
+                  "conf": 0.9581090609232584,
+                  "bbox": [
+                    31,
+                    336,
+                    511,
+                    362
+                  ],
+                  "words": [
+                    {
+                      "text": "Denials (0)",
+                      "conf": 0.9596254825592041,
+                      "bbox": [
+                        31,
+                        336,
+                        94,
+                        353
+                      ]
+                    },
+                    {
+                      "text": "Matched Member",
+                      "conf": 0.9963628649711609,
+                      "bbox": [
+                        300,
+                        349,
+                        401,
+                        362
+                      ]
+                    },
+                    {
+                      "text": "Submitted Infa",
+                      "conf": 0.9183388352394104,
+                      "bbox": [
+                        426,
+                        348,
+                        511,
+                        360
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 13,
+              "bbox": [
+                32,
+                607,
+                544,
+                686
+              ],
+              "text": "7/18/2026\nSuffix\nPotential parent claims Organization name\nPatient relationship Self",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "7/18/2026",
+                  "conf": 0.9840233325958252,
+                  "bbox": [
+                    42,
+                    607,
+                    92,
+                    621
+                  ],
+                  "words": [
+                    {
+                      "text": "7/18/2026",
+                      "conf": 0.9840233325958252,
+                      "bbox": [
+                        42,
+                        607,
+                        92,
+                        621
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Suffix",
+                  "conf": 0.8973367214202881,
+                  "bbox": [
+                    298,
+                    619,
+                    335,
+                    637
+                  ],
+                  "words": [
+                    {
+                      "text": "Suffix",
+                      "conf": 0.8973367214202881,
+                      "bbox": [
+                        298,
+                        619,
+                        335,
+                        637
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Potential parent claims Organization name",
+                  "conf": 0.9878709316253662,
+                  "bbox": [
+                    32,
+                    644,
+                    409,
+                    666
+                  ],
+                  "words": [
+                    {
+                      "text": "Potential parent claims",
+                      "conf": 0.9865501523017883,
+                      "bbox": [
+                        32,
+                        653,
+                        164,
+                        666
+                      ]
+                    },
+                    {
+                      "text": "Organization name",
+                      "conf": 0.9891917109489441,
+                      "bbox": [
+                        297,
+                        644,
+                        409,
+                        663
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 3,
+                  "text": "Patient relationship Self",
+                  "conf": 0.9866566956043243,
+                  "bbox": [
+                    300,
+                    672,
+                    544,
+                    686
+                  ],
+                  "words": [
+                    {
+                      "text": "Patient relationship",
+                      "conf": 0.975197970867157,
+                      "bbox": [
+                        300,
+                        673,
+                        411,
+                        686
+                      ]
+                    },
+                    {
+                      "text": "Self",
+                      "conf": 0.9981154203414917,
+                      "bbox": [
+                        516,
+                        672,
+                        544,
+                        686
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "7S7PQ98D\nMember: Genesis Adriana Herna... 1 Note Payment\nManage Patient\nManually edited - Revert changes\nDenials (0) Matched Member Submitted Infa\n7/18/2026\nSuffix\nPotential parent claims Organization name\nPatient relationship Self"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            50,
+            14,
+            1555,
+            35
+          ],
+          "text": "Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create",
+              "conf": 0.9913216382265091,
+              "bbox": [
+                50,
+                14,
+                1555,
+                35
+              ],
+              "words": [
+                {
+                  "text": "Cortex-Claim#7S7PQ98D",
+                  "conf": 0.9866238832473755,
+                  "bbox": [
+                    50,
+                    17,
+                    260,
+                    33
+                  ]
+                },
+                {
+                  "text": "Latest version (7 of 7)",
+                  "conf": 0.9927950501441956,
+                  "bbox": [
+                    278,
+                    17,
+                    401,
+                    33
+                  ]
+                },
+                {
+                  "text": "Dashboard",
+                  "conf": 0.9982174634933472,
+                  "bbox": [
+                    1106,
+                    16,
+                    1170,
+                    32
+                  ]
+                },
+                {
+                  "text": "Batch History",
+                  "conf": 0.9647697806358337,
+                  "bbox": [
+                    1191,
+                    15,
+                    1271,
+                    35
+                  ]
+                },
+                {
+                  "text": "Testing",
+                  "conf": 0.9921069741249084,
+                  "bbox": [
+                    1291,
+                    14,
+                    1338,
+                    35
+                  ]
+                },
+                {
+                  "text": "Settlements",
+                  "conf": 0.9980468153953552,
+                  "bbox": [
+                    1359,
+                    19,
+                    1430,
+                    32
+                  ]
+                },
+                {
+                  "text": "Search",
+                  "conf": 0.9986855387687683,
+                  "bbox": [
+                    1452,
+                    18,
+                    1494,
+                    32
+                  ]
+                },
+                {
+                  "text": "Create",
+                  "conf": 0.9993276000022888,
+                  "bbox": [
+                    1515,
+                    18,
+                    1555,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            31,
+            63,
+            1521,
+            80
+          ],
+          "text": "About thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "About thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions",
+              "conf": 0.9926331639289856,
+              "bbox": [
+                31,
+                63,
+                1521,
+                80
+              ],
+              "words": [
+                {
+                  "text": "About thls claim",
+                  "conf": 0.9905943870544434,
+                  "bbox": [
+                    31,
+                    64,
+                    126,
+                    80
+                  ]
+                },
+                {
+                  "text": "Payment",
+                  "conf": 0.9991168975830078,
+                  "bbox": [
+                    149,
+                    65,
+                    201,
+                    80
+                  ]
+                },
+                {
+                  "text": "Patlent",
+                  "conf": 0.9989598393440247,
+                  "bbox": [
+                    221,
+                    65,
+                    266,
+                    79
+                  ]
+                },
+                {
+                  "text": "Providers",
+                  "conf": 0.9992866516113281,
+                  "bbox": [
+                    286,
+                    64,
+                    345,
+                    80
+                  ]
+                },
+                {
+                  "text": "Medical",
+                  "conf": 0.9991480112075806,
+                  "bbox": [
+                    365,
+                    65,
+                    412,
+                    79
+                  ]
+                },
+                {
+                  "text": "Claim lines",
+                  "conf": 0.9849426746368408,
+                  "bbox": [
+                    434,
+                    64,
+                    500,
+                    80
+                  ]
+                },
+                {
+                  "text": "3 hours ago",
+                  "conf": 0.9933709502220154,
+                  "bbox": [
+                    1256,
+                    63,
+                    1316,
+                    80
+                  ]
+                },
+                {
+                  "text": "Readjudicate",
+                  "conf": 0.9961047768592834,
+                  "bbox": [
+                    1339,
+                    64,
+                    1419,
+                    80
+                  ]
+                },
+                {
+                  "text": "Actions",
+                  "conf": 0.9721742868423462,
+                  "bbox": [
+                    1469,
+                    65,
+                    1521,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            32,
+            120,
+            135,
+            137
+          ],
+          "text": "7S7PQ98D",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "7S7PQ98D",
+              "conf": 0.9950461983680725,
+              "bbox": [
+                32,
+                120,
+                135,
+                137
+              ],
+              "words": [
+                {
+                  "text": "7S7PQ98D",
+                  "conf": 0.9950461983680725,
+                  "bbox": [
+                    32,
+                    120,
+                    135,
+                    137
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            32,
+            145,
+            386,
+            178
+          ],
+          "text": "Member: Genesis Adriana Herna... 1 Note Payment",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member: Genesis Adriana Herna... 1 Note Payment",
+              "conf": 0.9653327465057373,
+              "bbox": [
+                32,
+                145,
+                386,
+                178
+              ],
+              "words": [
+                {
+                  "text": "Member: Genesis Adriana Herna...",
+                  "conf": 0.963518500328064,
+                  "bbox": [
+                    32,
+                    145,
+                    218,
+                    158
+                  ]
+                },
+                {
+                  "text": " 1 Note",
+                  "conf": 0.9334335327148438,
+                  "bbox": [
+                    32,
+                    162,
+                    88,
+                    178
+                  ]
+                },
+                {
+                  "text": "Payment",
+                  "conf": 0.9990462064743042,
+                  "bbox": [
+                    300,
+                    150,
+                    386,
+                    168
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            31,
+            176,
+            1238,
+            252
+          ],
+          "text": "See all member's clalms Charge group Prompt process due date 08/05/2026\nPayment authority NEXTGEN Interest accrued $0.00\nClaim state: Blocked Pay to member No Excluded from interest No",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "See all member's clalms Charge group Prompt process due date 08/05/2026",
+              "conf": 0.9858624786138535,
+              "bbox": [
+                34,
+                176,
+                1238,
+                195
+              ],
+              "words": [
+                {
+                  "text": "See all member's clalms",
+                  "conf": 0.9703028202056885,
+                  "bbox": [
+                    34,
+                    182,
+                    168,
+                    195
+                  ]
+                },
+                {
+                  "text": "Charge group",
+                  "conf": 0.9860601425170898,
+                  "bbox": [
+                    300,
+                    176,
+                    379,
+                    192
+                  ]
+                },
+                {
+                  "text": "Prompt process due date",
+                  "conf": 0.9947495460510254,
+                  "bbox": [
+                    939,
+                    176,
+                    1081,
+                    192
+                  ]
+                },
+                {
+                  "text": "08/05/2026",
+                  "conf": 0.9923374056816101,
+                  "bbox": [
+                    1156,
+                    177,
+                    1238,
+                    194
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Payment authority NEXTGEN Interest accrued $0.00",
+              "conf": 0.9970036596059799,
+              "bbox": [
+                299,
+                201,
+                1191,
+                223
+              ],
+              "words": [
+                {
+                  "text": "Payment authority",
+                  "conf": 0.998487114906311,
+                  "bbox": [
+                    299,
+                    201,
+                    406,
+                    218
+                  ]
+                },
+                {
+                  "text": "NEXTGEN",
+                  "conf": 0.9990853667259216,
+                  "bbox": [
+                    518,
+                    201,
+                    576,
+                    218
+                  ]
+                },
+                {
+                  "text": "Interest accrued",
+                  "conf": 0.9924271106719971,
+                  "bbox": [
+                    938,
+                    206,
+                    1035,
+                    223
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9980150461196899,
+                  "bbox": [
+                    1154,
+                    205,
+                    1191,
+                    223
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Claim state: Blocked Pay to member No Excluded from interest No",
+              "conf": 0.992954949537913,
+              "bbox": [
+                31,
+                227,
+                1176,
+                252
+              ],
+              "words": [
+                {
+                  "text": "Claim state:",
+                  "conf": 0.9963535666465759,
+                  "bbox": [
+                    31,
+                    236,
+                    102,
+                    252
+                  ]
+                },
+                {
+                  "text": "Blocked",
+                  "conf": 0.9978546500205994,
+                  "bbox": [
+                    169,
+                    237,
+                    219,
+                    251
+                  ]
+                },
+                {
+                  "text": "Pay to member",
+                  "conf": 0.9925381541252136,
+                  "bbox": [
+                    299,
+                    227,
+                    385,
+                    243
+                  ]
+                },
+                {
+                  "text": "No",
+                  "conf": 0.998049795627594,
+                  "bbox": [
+                    516,
+                    228,
+                    536,
+                    243
+                  ]
+                },
+                {
+                  "text": "Excluded from interest",
+                  "conf": 0.973501443862915,
+                  "bbox": [
+                    937,
+                    230,
+                    1069,
+                    248
+                  ]
+                },
+                {
+                  "text": "No",
+                  "conf": 0.9994320869445801,
+                  "bbox": [
+                    1154,
+                    233,
+                    1176,
+                    248
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            31,
+            267,
+            115,
+            300
+          ],
+          "text": "Blockers (1)\nNEWBORN",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Blockers (1)",
+              "conf": 0.9549934267997742,
+              "bbox": [
+                31,
+                267,
+                99,
+                284
+              ],
+              "words": [
+                {
+                  "text": "Blockers (1)",
+                  "conf": 0.9549934267997742,
+                  "bbox": [
+                    31,
+                    267,
+                    99,
+                    284
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "NEWBORN",
+              "conf": 0.9883421063423157,
+              "bbox": [
+                32,
+                288,
+                115,
+                300
+              ],
+              "words": [
+                {
+                  "text": "NEWBORN",
+                  "conf": 0.9883421063423157,
+                  "bbox": [
+                    32,
+                    288,
+                    115,
+                    300
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            30,
+            297,
+            375,
+            324
+          ],
+          "text": "Manage Patient",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Manage Patient",
+              "conf": 0.9986157715320587,
+              "bbox": [
+                30,
+                297,
+                375,
+                324
+              ],
+              "words": [
+                {
+                  "text": "Manage",
+                  "conf": 0.9980456233024597,
+                  "bbox": [
+                    30,
+                    303,
+                    80,
+                    324
+                  ]
+                },
+                {
+                  "text": "Patient",
+                  "conf": 0.9991859197616577,
+                  "bbox": [
+                    299,
+                    297,
+                    375,
+                    318
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 7,
+          "bbox": [
+            31,
+            323,
+            511,
+            362
+          ],
+          "text": "Manually edited - Revert changes\nDenials (0) Matched Member Submitted Infa",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Manually edited - Revert changes",
+              "conf": 0.9676198363304138,
+              "bbox": [
+                299,
+                323,
+                460,
+                336
+              ],
+              "words": [
+                {
+                  "text": "Manually edited - Revert changes",
+                  "conf": 0.9676198363304138,
+                  "bbox": [
+                    299,
+                    323,
+                    460,
+                    336
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Denials (0) Matched Member Submitted Infa",
+              "conf": 0.9581090609232584,
+              "bbox": [
+                31,
+                336,
+                511,
+                362
+              ],
+              "words": [
+                {
+                  "text": "Denials (0)",
+                  "conf": 0.9596254825592041,
+                  "bbox": [
+                    31,
+                    336,
+                    94,
+                    353
+                  ]
+                },
+                {
+                  "text": "Matched Member",
+                  "conf": 0.9963628649711609,
+                  "bbox": [
+                    300,
+                    349,
+                    401,
+                    362
+                  ]
+                },
+                {
+                  "text": "Submitted Infa",
+                  "conf": 0.9183388352394104,
+                  "bbox": [
+                    426,
+                    348,
+                    511,
+                    360
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 8,
+          "bbox": [
+            31,
+            356,
+            1268,
+            447
+          ],
+          "text": "No denials on this claim. Manage First name MASTER SSN\nMiddle name G Date of birth 05/27/2026 (2 days)\nBilled $944.00 (100%) Last name HERNANDEZ DE HOYO Sex Male",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "No denials on this claim. Manage First name MASTER SSN",
+              "conf": 0.992341972887516,
+              "bbox": [
+                31,
+                356,
+                968,
+                395
+              ],
+              "words": [
+                {
+                  "text": "No denials on this claim. Manage",
+                  "conf": 0.9816966354846954,
+                  "bbox": [
+                    31,
+                    356,
+                    166,
+                    391
+                  ]
+                },
+                {
+                  "text": "First name",
+                  "conf": 0.9983978271484375,
+                  "bbox": [
+                    298,
+                    378,
+                    362,
+                    395
+                  ]
+                },
+                {
+                  "text": "MASTER",
+                  "conf": 0.9989081025123596,
+                  "bbox": [
+                    519,
+                    379,
+                    568,
+                    393
+                  ]
+                },
+                {
+                  "text": "SSN",
+                  "conf": 0.9903653264045715,
+                  "bbox": [
+                    936,
+                    377,
+                    968,
+                    395
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Middle name G Date of birth 05/27/2026 (2 days)",
+              "conf": 0.9846795052289963,
+              "bbox": [
+                299,
+                404,
+                1268,
+                420
+              ],
+              "words": [
+                {
+                  "text": "Middle name",
+                  "conf": 0.9846786856651306,
+                  "bbox": [
+                    299,
+                    406,
+                    374,
+                    419
+                  ]
+                },
+                {
+                  "text": "G",
+                  "conf": 0.9928929209709167,
+                  "bbox": [
+                    515,
+                    404,
+                    531,
+                    420
+                  ]
+                },
+                {
+                  "text": "Date of birth",
+                  "conf": 0.964072585105896,
+                  "bbox": [
+                    938,
+                    404,
+                    1012,
+                    420
+                  ]
+                },
+                {
+                  "text": "05/27/2026 (2 days)",
+                  "conf": 0.9970738291740417,
+                  "bbox": [
+                    1156,
+                    404,
+                    1268,
+                    420
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Billed $944.00 (100%) Last name HERNANDEZ DE HOYO Sex Male",
+              "conf": 0.98863152662913,
+              "bbox": [
+                31,
+                419,
+                1188,
+                447
+              ],
+              "words": [
+                {
+                  "text": "Billed",
+                  "conf": 0.9971303939819336,
+                  "bbox": [
+                    31,
+                    420,
+                    66,
+                    434
+                  ]
+                },
+                {
+                  "text": "$944.00 (100%)",
+                  "conf": 0.9911887049674988,
+                  "bbox": [
+                    142,
+                    419,
+                    224,
+                    435
+                  ]
+                },
+                {
+                  "text": "Last name",
+                  "conf": 0.9848178029060364,
+                  "bbox": [
+                    299,
+                    430,
+                    360,
+                    443
+                  ]
+                },
+                {
+                  "text": "HERNANDEZ DE HOYO",
+                  "conf": 0.9632429480552673,
+                  "bbox": [
+                    519,
+                    432,
+                    649,
+                    444
+                  ]
+                },
+                {
+                  "text": "Sex",
+                  "conf": 0.9961535334587097,
+                  "bbox": [
+                    938,
+                    430,
+                    962,
+                    446
+                  ]
+                },
+                {
+                  "text": "Male",
+                  "conf": 0.9992557764053345,
+                  "bbox": [
+                    1154,
+                    429,
+                    1188,
+                    447
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            31,
+            443,
+            224,
+            460
+          ],
+          "text": "Allowed $101.00 (11%)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Allowed $101.00 (11%)",
+              "conf": 0.9870322644710541,
+              "bbox": [
+                31,
+                443,
+                224,
+                460
+              ],
+              "words": [
+                {
+                  "text": "Allowed",
+                  "conf": 0.9788540005683899,
+                  "bbox": [
+                    31,
+                    444,
+                    79,
+                    458
+                  ]
+                },
+                {
+                  "text": "$101.00 (11%)",
+                  "conf": 0.9952105283737183,
+                  "bbox": [
+                    155,
+                    443,
+                    224,
+                    460
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            30,
+            454,
+            1319,
+            496
+          ],
+          "text": "Suffix - Address 21720 NW 3RD ST\nPay provider $101.00 OSCID OSC7584722101 PEMBROKE PINES, FL33029",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Suffix - Address 21720 NW 3RD ST",
+              "conf": 0.8591399788856506,
+              "bbox": [
+                298,
+                454,
+                1254,
+                472
+              ],
+              "words": [
+                {
+                  "text": "Suffix",
+                  "conf": 0.941418468952179,
+                  "bbox": [
+                    298,
+                    454,
+                    336,
+                    472
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.5367615222930908,
+                  "bbox": [
+                    520,
+                    461,
+                    528,
+                    467
+                  ]
+                },
+                {
+                  "text": "Address",
+                  "conf": 0.9990925192832947,
+                  "bbox": [
+                    939,
+                    457,
+                    988,
+                    471
+                  ]
+                },
+                {
+                  "text": "21720 NW 3RD ST",
+                  "conf": 0.9592874050140381,
+                  "bbox": [
+                    1158,
+                    457,
+                    1254,
+                    470
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Pay provider $101.00 OSCID OSC7584722101 PEMBROKE PINES, FL33029",
+              "conf": 0.9923682332038879,
+              "bbox": [
+                30,
+                468,
+                1319,
+                496
+              ],
+              "words": [
+                {
+                  "text": "Pay provider",
+                  "conf": 0.9902100563049316,
+                  "bbox": [
+                    30,
+                    468,
+                    104,
+                    485
+                  ]
+                },
+                {
+                  "text": "$101.00",
+                  "conf": 0.9986176490783691,
+                  "bbox": [
+                    179,
+                    470,
+                    222,
+                    484
+                  ]
+                },
+                {
+                  "text": "OSCID",
+                  "conf": 0.991901695728302,
+                  "bbox": [
+                    299,
+                    482,
+                    342,
+                    496
+                  ]
+                },
+                {
+                  "text": "OSC7584722101",
+                  "conf": 0.9974397420883179,
+                  "bbox": [
+                    520,
+                    482,
+                    608,
+                    495
+                  ]
+                },
+                {
+                  "text": "PEMBROKE PINES, FL33029",
+                  "conf": 0.983672022819519,
+                  "bbox": [
+                    1156,
+                    474,
+                    1319,
+                    490
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 11,
+          "bbox": [
+            31,
+            493,
+            224,
+            510
+          ],
+          "text": "Pay member $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Pay member $0.00",
+              "conf": 0.9906119406223297,
+              "bbox": [
+                31,
+                493,
+                224,
+                510
+              ],
+              "words": [
+                {
+                  "text": "Pay member",
+                  "conf": 0.9836532473564148,
+                  "bbox": [
+                    31,
+                    494,
+                    104,
+                    510
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9975706338882446,
+                  "bbox": [
+                    186,
+                    493,
+                    224,
+                    510
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 12,
+          "bbox": [
+            19,
+            516,
+            1295,
+            611
+          ],
+          "text": ">Memberresponsibility $0.00 Policy holder Group\nFirstname MASTER Name OSCAR HEALTH CLAIMS\nClaim lineage Middle name G Number\n7S7PQ98D Blocked Last name HERNANDEZ DE HOYO Responsibillity sequence Primary",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": ">Memberresponsibility $0.00 Policy holder Group",
+              "conf": 0.9840060919523239,
+              "bbox": [
+                19,
+                516,
+                982,
+                538
+              ],
+              "words": [
+                {
+                  "text": ">Memberresponsibility",
+                  "conf": 0.981751024723053,
+                  "bbox": [
+                    19,
+                    519,
+                    160,
+                    536
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9970811605453491,
+                  "bbox": [
+                    188,
+                    519,
+                    222,
+                    533
+                  ]
+                },
+                {
+                  "text": "Policy holder",
+                  "conf": 0.9581787586212158,
+                  "bbox": [
+                    297,
+                    517,
+                    383,
+                    537
+                  ]
+                },
+                {
+                  "text": "Group",
+                  "conf": 0.9990134239196777,
+                  "bbox": [
+                    937,
+                    516,
+                    982,
+                    538
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Firstname MASTER Name OSCAR HEALTH CLAIMS",
+              "conf": 0.9991960376501083,
+              "bbox": [
+                299,
+                541,
+                1295,
+                559
+              ],
+              "words": [
+                {
+                  "text": "Firstname",
+                  "conf": 0.9991854429244995,
+                  "bbox": [
+                    299,
+                    544,
+                    361,
+                    556
+                  ]
+                },
+                {
+                  "text": "MASTER",
+                  "conf": 0.9988737106323242,
+                  "bbox": [
+                    519,
+                    544,
+                    568,
+                    556
+                  ]
+                },
+                {
+                  "text": "Name",
+                  "conf": 0.9997637867927551,
+                  "bbox": [
+                    936,
+                    541,
+                    976,
+                    559
+                  ]
+                },
+                {
+                  "text": "OSCAR HEALTH CLAIMS",
+                  "conf": 0.9989612102508545,
+                  "bbox": [
+                    1158,
+                    544,
+                    1295,
+                    556
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Claim lineage Middle name G Number",
+              "conf": 0.9896846860647202,
+              "bbox": [
+                30,
+                564,
+                986,
+                584
+              ],
+              "words": [
+                {
+                  "text": "Claim lineage",
+                  "conf": 0.9856761693954468,
+                  "bbox": [
+                    30,
+                    564,
+                    110,
+                    582
+                  ]
+                },
+                {
+                  "text": "Middle name",
+                  "conf": 0.9799041748046875,
+                  "bbox": [
+                    298,
+                    568,
+                    375,
+                    584
+                  ]
+                },
+                {
+                  "text": "G",
+                  "conf": 0.9943857192993164,
+                  "bbox": [
+                    515,
+                    568,
+                    531,
+                    584
+                  ]
+                },
+                {
+                  "text": "Number",
+                  "conf": 0.9987726807594299,
+                  "bbox": [
+                    939,
+                    569,
+                    986,
+                    583
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "7S7PQ98D Blocked Last name HERNANDEZ DE HOYO Responsibillity sequence Primary",
+              "conf": 0.9783243934313456,
+              "bbox": [
+                28,
+                587,
+                1204,
+                611
+              ],
+              "words": [
+                {
+                  "text": "7S7PQ98D",
+                  "conf": 0.9885705709457397,
+                  "bbox": [
+                    28,
+                    587,
+                    105,
+                    603
+                  ]
+                },
+                {
+                  "text": "Blocked",
+                  "conf": 0.9966288805007935,
+                  "bbox": [
+                    169,
+                    589,
+                    219,
+                    603
+                  ]
+                },
+                {
+                  "text": "Last name",
+                  "conf": 0.9693360924720764,
+                  "bbox": [
+                    299,
+                    596,
+                    360,
+                    609
+                  ]
+                },
+                {
+                  "text": "HERNANDEZ DE HOYO",
+                  "conf": 0.9826517701148987,
+                  "bbox": [
+                    518,
+                    593,
+                    650,
+                    610
+                  ]
+                },
+                {
+                  "text": "Responsibillity sequence",
+                  "conf": 0.9361551403999329,
+                  "bbox": [
+                    939,
+                    596,
+                    1075,
+                    609
+                  ]
+                },
+                {
+                  "text": "Primary",
+                  "conf": 0.9966039061546326,
+                  "bbox": [
+                    1153,
+                    592,
+                    1204,
+                    611
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 13,
+          "bbox": [
+            32,
+            607,
+            544,
+            686
+          ],
+          "text": "7/18/2026\nSuffix\nPotential parent claims Organization name\nPatient relationship Self",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "7/18/2026",
+              "conf": 0.9840233325958252,
+              "bbox": [
+                42,
+                607,
+                92,
+                621
+              ],
+              "words": [
+                {
+                  "text": "7/18/2026",
+                  "conf": 0.9840233325958252,
+                  "bbox": [
+                    42,
+                    607,
+                    92,
+                    621
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Suffix",
+              "conf": 0.8973367214202881,
+              "bbox": [
+                298,
+                619,
+                335,
+                637
+              ],
+              "words": [
+                {
+                  "text": "Suffix",
+                  "conf": 0.8973367214202881,
+                  "bbox": [
+                    298,
+                    619,
+                    335,
+                    637
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Potential parent claims Organization name",
+              "conf": 0.9878709316253662,
+              "bbox": [
+                32,
+                644,
+                409,
+                666
+              ],
+              "words": [
+                {
+                  "text": "Potential parent claims",
+                  "conf": 0.9865501523017883,
+                  "bbox": [
+                    32,
+                    653,
+                    164,
+                    666
+                  ]
+                },
+                {
+                  "text": "Organization name",
+                  "conf": 0.9891917109489441,
+                  "bbox": [
+                    297,
+                    644,
+                    409,
+                    663
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Patient relationship Self",
+              "conf": 0.9866566956043243,
+              "bbox": [
+                300,
+                672,
+                544,
+                686
+              ],
+              "words": [
+                {
+                  "text": "Patient relationship",
+                  "conf": 0.975197970867157,
+                  "bbox": [
+                    300,
+                    673,
+                    411,
+                    686
+                  ]
+                },
+                {
+                  "text": "Self",
+                  "conf": 0.9981154203414917,
+                  "bbox": [
+                    516,
+                    672,
+                    544,
+                    686
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 14,
+          "bbox": [
+            31,
+            715,
+            394,
+            756
+          ],
+          "text": "Potential duplicate claims\nNo system identified duplicates. Providers",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Potential duplicate claims",
+              "conf": 0.984485924243927,
+              "bbox": [
+                32,
+                715,
+                177,
+                728
+              ],
+              "words": [
+                {
+                  "text": "Potential duplicate claims",
+                  "conf": 0.984485924243927,
+                  "bbox": [
+                    32,
+                    715,
+                    177,
+                    728
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "No system identified duplicates. Providers",
+              "conf": 0.9935985803604126,
+              "bbox": [
+                31,
+                738,
+                394,
+                756
+              ],
+              "words": [
+                {
+                  "text": "No system identified duplicates.",
+                  "conf": 0.9888319969177246,
+                  "bbox": [
+                    31,
+                    740,
+                    210,
+                    756
+                  ]
+                },
+                {
+                  "text": "Providers",
+                  "conf": 0.9983651638031006,
+                  "bbox": [
+                    301,
+                    738,
+                    394,
+                    756
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            19,
+            120,
+            982,
+            756
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>7S7PQ98D</td><td></td><td></td><td></td></tr><tr><td>Member: Genesis Adriana Herna...</td><td>Payment</td><td></td><td></td></tr><tr><td>1 Note</td><td></td><td></td><td></td></tr><tr><td>Blockers (1)</td><td></td><td></td><td></td></tr><tr><td>NEWBORN</td><td></td><td></td><td></td></tr><tr><td>Manage</td><td>Patient</td><td></td><td></td></tr><tr><td>Manually edited - Revert changes</td><td></td><td></td><td></td></tr><tr><td>Denials (0)</td><td></td><td></td><td></td></tr><tr><td>Matched Member</td><td>Submitted Infa</td><td></td><td></td></tr><tr><td>No denials on this claim. Manage</td><td></td><td></td><td></td></tr><tr><td>First name</td><td>MASTER</td><td>SSN</td><td></td></tr><tr><td>Allowed</td><td>$101.00 (11%)</td><td></td><td></td></tr><tr><td>Pay member</td><td>$0.00</td><td></td><td></td></tr><tr><td>&gt;Memberresponsibility $0.00</td><td>Policy holder</td><td>Group</td><td></td></tr><tr><td>7/18/2026</td><td></td><td></td><td></td></tr><tr><td>Suffix</td><td></td><td></td><td></td></tr><tr><td>Potential parent claims</td><td>Organization name</td><td></td><td></td></tr><tr><td>Patient relationship</td><td>Self</td><td></td><td></td></tr><tr><td>Potential duplicate claims</td><td></td><td></td><td></td></tr><tr><td>No system identified duplicates.</td><td>Providers</td><td></td><td></td></tr></table>",
+          "text": "7S7PQ98D: \nMember: Genesis Adriana Herna...: Payment\n1 Note: \nBlockers (1): \nNEWBORN: \nManage: Patient\nManually edited - Revert changes: \nDenials (0): \nMatched Member: Submitted Infa\nNo denials on this claim. Manage: \nFirst name: MASTER\nSSN: \nAllowed: $101.00 (11%)\nPay member: $0.00\n>Memberresponsibility $0.00: Policy holder\nGroup: \n7/18/2026: \nSuffix: \nPotential parent claims: Organization name\nPatient relationship: Self\nPotential duplicate claims: \nNo system identified duplicates.: Providers",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "7S7PQ98D",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Member: Genesis Adriana Herna...",
+              "Payment",
+              "",
+              ""
+            ],
+            [
+              "1 Note",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Blockers (1)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "NEWBORN",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Manage",
+              "Patient",
+              "",
+              ""
+            ],
+            [
+              "Manually edited - Revert changes",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Denials (0)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Matched Member",
+              "Submitted Infa",
+              "",
+              ""
+            ],
+            [
+              "No denials on this claim. Manage",
+              "",
+              "",
+              ""
+            ],
+            [
+              "First name",
+              "MASTER",
+              "SSN",
+              ""
+            ],
+            [
+              "Allowed",
+              "$101.00 (11%)",
+              "",
+              ""
+            ],
+            [
+              "Pay member",
+              "$0.00",
+              "",
+              ""
+            ],
+            [
+              ">Memberresponsibility $0.00",
+              "Policy holder",
+              "Group",
+              ""
+            ],
+            [
+              "7/18/2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Suffix",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Potential parent claims",
+              "Organization name",
+              "",
+              ""
+            ],
+            [
+              "Patient relationship",
+              "Self",
+              "",
+              ""
+            ],
+            [
+              "Potential duplicate claims",
+              "",
+              "",
+              ""
+            ],
+            [
+              "No system identified duplicates.",
+              "Providers",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "7S7PQ98D",
+              ""
+            ],
+            [
+              "Member: Genesis Adriana Herna... Payment",
+              ""
+            ],
+            [
+              "1 Note",
+              ""
+            ],
+            [
+              "Blockers (1)",
+              ""
+            ],
+            [
+              "NEWBORN",
+              ""
+            ],
+            [
+              "Manage Patient",
+              ""
+            ],
+            [
+              "Manually edited - Revert changes",
+              ""
+            ],
+            [
+              "Denials (0)",
+              ""
+            ],
+            [
+              "Matched Member Submitted Infa",
+              ""
+            ],
+            [
+              "No denials on this claim. Manage",
+              ""
+            ],
+            [
+              "First name MASTER",
+              "SSN"
+            ],
+            [
+              "Allowed $101.00 (11%)",
+              ""
+            ],
+            [
+              "Pay member $0.00",
+              ""
+            ],
+            [
+              ">Memberresponsibility $0.00 Policy holder",
+              "Group"
+            ],
+            [
+              "7/18/2026",
+              ""
+            ],
+            [
+              "Suffix",
+              ""
+            ],
+            [
+              "Potential parent claims Organization name",
+              ""
+            ],
+            [
+              "Patient relationship Self",
+              ""
+            ],
+            [
+              "Potential duplicate claims",
+              ""
+            ],
+            [
+              "No system identified duplicates. Providers",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            31,
+            14,
+            1555,
+            80
+          ],
+          "html": "<table><tr><th>Cortex-Claim#7S7PQ98D</th><th>Latest version (7 of 7)</th><th>Dashboard</th><th>Batch History</th><th>Testing</th><th>Settlements</th><th>Search</th><th>Create</th></tr><tr><td>About thls claim Payment Patlent</td><td>Providers Medical Claim lines</td><td></td><td></td><td>3 hours ago</td><td>Readjudicate</td><td>Actions</td><td></td></tr></table>",
+          "text": "About thls claim Payment Patlent | Providers Medical Claim lines |  |  | 3 hours ago | Readjudicate | Actions | ",
+          "headers": [
+            "Cortex-Claim#7S7PQ98D",
+            "Latest version (7 of 7)",
+            "Dashboard",
+            "Batch History",
+            "Testing",
+            "Settlements",
+            "Search",
+            "Create"
+          ],
+          "rows": [
+            [
+              "About thls claim Payment Patlent",
+              "Providers Medical Claim lines",
+              "",
+              "",
+              "3 hours ago",
+              "Readjudicate",
+              "Actions",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            31,
+            176,
+            1238,
+            252
+          ],
+          "html": "<table><tr><th>See all member&#x27;s clalms</th><th>Charge group</th><th>Prompt process due date</th><th>08/05/2026</th></tr><tr><td></td><td>Payment authority NEXTGEN</td><td>Interest accrued</td><td>$0.00</td></tr><tr><td>Claim state: Blocked</td><td>Pay to member No</td><td>Excluded from interest</td><td>No</td></tr></table>",
+          "text": " | Payment authority NEXTGEN | Interest accrued | $0.00\nClaim state: Blocked | Pay to member No | Excluded from interest | No",
+          "headers": [
+            "See all member's clalms",
+            "Charge group",
+            "Prompt process due date",
+            "08/05/2026"
+          ],
+          "rows": [
+            [
+              "",
+              "Payment authority NEXTGEN",
+              "Interest accrued",
+              "$0.00"
+            ],
+            [
+              "Claim state: Blocked",
+              "Pay to member No",
+              "Excluded from interest",
+              "No"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            31,
+            404,
+            1268,
+            447
+          ],
+          "html": "<table><tr><th>Middle name</th><th>G</th><th>Date of birth</th><th>05/27/2026 (2 days)</th></tr><tr><td>Billed $944.00 (100%) Last name</td><td>HERNANDEZ DE HOYO</td><td>Sex</td><td>Male</td></tr></table>",
+          "text": "Billed $944.00 (100%) Last name | HERNANDEZ DE HOYO | Sex | Male",
+          "headers": [
+            "Middle name",
+            "G",
+            "Date of birth",
+            "05/27/2026 (2 days)"
+          ],
+          "rows": [
+            [
+              "Billed $944.00 (100%) Last name",
+              "HERNANDEZ DE HOYO",
+              "Sex",
+              "Male"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            30,
+            454,
+            1319,
+            496
+          ],
+          "html": "<table><tr><th>Suffix</th><th>-</th><th>Address</th><th>21720 NW 3RD ST</th></tr><tr><td>Pay provider $101.00 OSCID</td><td>OSC7584722101</td><td></td><td>PEMBROKE PINES, FL33029</td></tr></table>",
+          "text": "Pay provider $101.00 OSCID | OSC7584722101 |  | PEMBROKE PINES, FL33029",
+          "headers": [
+            "Suffix",
+            "-",
+            "Address",
+            "21720 NW 3RD ST"
+          ],
+          "rows": [
+            [
+              "Pay provider $101.00 OSCID",
+              "OSC7584722101",
+              "",
+              "PEMBROKE PINES, FL33029"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            28,
+            541,
+            1295,
+            611
+          ],
+          "html": "<table><tr><th>Firstname</th><th>MASTER</th><th>Name</th><th>OSCAR HEALTH CLAIMS</th></tr><tr><td>Claim lineage Middle name</td><td>G</td><td>Number</td><td></td></tr><tr><td>7S7PQ98D Blocked Last name</td><td>HERNANDEZ DE HOYO</td><td>Responsibillity sequence</td><td>Primary</td></tr></table>",
+          "text": "Claim lineage Middle name | G | Number | \n7S7PQ98D Blocked Last name | HERNANDEZ DE HOYO | Responsibillity sequence | Primary",
+          "headers": [
+            "Firstname",
+            "MASTER",
+            "Name",
+            "OSCAR HEALTH CLAIMS"
+          ],
+          "rows": [
+            [
+              "Claim lineage Middle name",
+              "G",
+              "Number",
+              ""
+            ],
+            [
+              "7S7PQ98D Blocked Last name",
+              "HERNANDEZ DE HOYO",
+              "Responsibillity sequence",
+              "Primary"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create",
+          "conf": 0.9913216382265091,
+          "bbox": [
+            50,
+            14,
+            1555,
+            35
+          ],
+          "words": [
+            {
+              "text": "Cortex-Claim#7S7PQ98D",
+              "conf": 0.9866238832473755,
+              "bbox": [
+                50,
+                17,
+                260,
+                33
+              ]
+            },
+            {
+              "text": "Latest version (7 of 7)",
+              "conf": 0.9927950501441956,
+              "bbox": [
+                278,
+                17,
+                401,
+                33
+              ]
+            },
+            {
+              "text": "Dashboard",
+              "conf": 0.9982174634933472,
+              "bbox": [
+                1106,
+                16,
+                1170,
+                32
+              ]
+            },
+            {
+              "text": "Batch History",
+              "conf": 0.9647697806358337,
+              "bbox": [
+                1191,
+                15,
+                1271,
+                35
+              ]
+            },
+            {
+              "text": "Testing",
+              "conf": 0.9921069741249084,
+              "bbox": [
+                1291,
+                14,
+                1338,
+                35
+              ]
+            },
+            {
+              "text": "Settlements",
+              "conf": 0.9980468153953552,
+              "bbox": [
+                1359,
+                19,
+                1430,
+                32
+              ]
+            },
+            {
+              "text": "Search",
+              "conf": 0.9986855387687683,
+              "bbox": [
+                1452,
+                18,
+                1494,
+                32
+              ]
+            },
+            {
+              "text": "Create",
+              "conf": 0.9993276000022888,
+              "bbox": [
+                1515,
+                18,
+                1555,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "About thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions",
+          "conf": 0.9926331639289856,
+          "bbox": [
+            31,
+            63,
+            1521,
+            80
+          ],
+          "words": [
+            {
+              "text": "About thls claim",
+              "conf": 0.9905943870544434,
+              "bbox": [
+                31,
+                64,
+                126,
+                80
+              ]
+            },
+            {
+              "text": "Payment",
+              "conf": 0.9991168975830078,
+              "bbox": [
+                149,
+                65,
+                201,
+                80
+              ]
+            },
+            {
+              "text": "Patlent",
+              "conf": 0.9989598393440247,
+              "bbox": [
+                221,
+                65,
+                266,
+                79
+              ]
+            },
+            {
+              "text": "Providers",
+              "conf": 0.9992866516113281,
+              "bbox": [
+                286,
+                64,
+                345,
+                80
+              ]
+            },
+            {
+              "text": "Medical",
+              "conf": 0.9991480112075806,
+              "bbox": [
+                365,
+                65,
+                412,
+                79
+              ]
+            },
+            {
+              "text": "Claim lines",
+              "conf": 0.9849426746368408,
+              "bbox": [
+                434,
+                64,
+                500,
+                80
+              ]
+            },
+            {
+              "text": "3 hours ago",
+              "conf": 0.9933709502220154,
+              "bbox": [
+                1256,
+                63,
+                1316,
+                80
+              ]
+            },
+            {
+              "text": "Readjudicate",
+              "conf": 0.9961047768592834,
+              "bbox": [
+                1339,
+                64,
+                1419,
+                80
+              ]
+            },
+            {
+              "text": "Actions",
+              "conf": 0.9721742868423462,
+              "bbox": [
+                1469,
+                65,
+                1521,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "text": "7S7PQ98D",
+          "conf": 0.9950461983680725,
+          "bbox": [
+            32,
+            120,
+            135,
+            137
+          ],
+          "words": [
+            {
+              "text": "7S7PQ98D",
+              "conf": 0.9950461983680725,
+              "bbox": [
+                32,
+                120,
+                135,
+                137
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member: Genesis Adriana Herna... 1 Note Payment",
+          "conf": 0.9653327465057373,
+          "bbox": [
+            32,
+            145,
+            386,
+            178
+          ],
+          "words": [
+            {
+              "text": "Member: Genesis Adriana Herna...",
+              "conf": 0.963518500328064,
+              "bbox": [
+                32,
+                145,
+                218,
+                158
+              ]
+            },
+            {
+              "text": " 1 Note",
+              "conf": 0.9334335327148438,
+              "bbox": [
+                32,
+                162,
+                88,
+                178
+              ]
+            },
+            {
+              "text": "Payment",
+              "conf": 0.9990462064743042,
+              "bbox": [
+                300,
+                150,
+                386,
+                168
+              ]
+            }
+          ]
+        },
+        {
+          "text": "See all member's clalms Charge group Prompt process due date 08/05/2026",
+          "conf": 0.9858624786138535,
+          "bbox": [
+            34,
+            176,
+            1238,
+            195
+          ],
+          "words": [
+            {
+              "text": "See all member's clalms",
+              "conf": 0.9703028202056885,
+              "bbox": [
+                34,
+                182,
+                168,
+                195
+              ]
+            },
+            {
+              "text": "Charge group",
+              "conf": 0.9860601425170898,
+              "bbox": [
+                300,
+                176,
+                379,
+                192
+              ]
+            },
+            {
+              "text": "Prompt process due date",
+              "conf": 0.9947495460510254,
+              "bbox": [
+                939,
+                176,
+                1081,
+                192
+              ]
+            },
+            {
+              "text": "08/05/2026",
+              "conf": 0.9923374056816101,
+              "bbox": [
+                1156,
+                177,
+                1238,
+                194
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Payment authority NEXTGEN Interest accrued $0.00",
+          "conf": 0.9970036596059799,
+          "bbox": [
+            299,
+            201,
+            1191,
+            223
+          ],
+          "words": [
+            {
+              "text": "Payment authority",
+              "conf": 0.998487114906311,
+              "bbox": [
+                299,
+                201,
+                406,
+                218
+              ]
+            },
+            {
+              "text": "NEXTGEN",
+              "conf": 0.9990853667259216,
+              "bbox": [
+                518,
+                201,
+                576,
+                218
+              ]
+            },
+            {
+              "text": "Interest accrued",
+              "conf": 0.9924271106719971,
+              "bbox": [
+                938,
+                206,
+                1035,
+                223
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9980150461196899,
+              "bbox": [
+                1154,
+                205,
+                1191,
+                223
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim state: Blocked Pay to member No Excluded from interest No",
+          "conf": 0.992954949537913,
+          "bbox": [
+            31,
+            227,
+            1176,
+            252
+          ],
+          "words": [
+            {
+              "text": "Claim state:",
+              "conf": 0.9963535666465759,
+              "bbox": [
+                31,
+                236,
+                102,
+                252
+              ]
+            },
+            {
+              "text": "Blocked",
+              "conf": 0.9978546500205994,
+              "bbox": [
+                169,
+                237,
+                219,
+                251
+              ]
+            },
+            {
+              "text": "Pay to member",
+              "conf": 0.9925381541252136,
+              "bbox": [
+                299,
+                227,
+                385,
+                243
+              ]
+            },
+            {
+              "text": "No",
+              "conf": 0.998049795627594,
+              "bbox": [
+                516,
+                228,
+                536,
+                243
+              ]
+            },
+            {
+              "text": "Excluded from interest",
+              "conf": 0.973501443862915,
+              "bbox": [
+                937,
+                230,
+                1069,
+                248
+              ]
+            },
+            {
+              "text": "No",
+              "conf": 0.9994320869445801,
+              "bbox": [
+                1154,
+                233,
+                1176,
+                248
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Blockers (1)",
+          "conf": 0.9549934267997742,
+          "bbox": [
+            31,
+            267,
+            99,
+            284
+          ],
+          "words": [
+            {
+              "text": "Blockers (1)",
+              "conf": 0.9549934267997742,
+              "bbox": [
+                31,
+                267,
+                99,
+                284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "NEWBORN",
+          "conf": 0.9883421063423157,
+          "bbox": [
+            32,
+            288,
+            115,
+            300
+          ],
+          "words": [
+            {
+              "text": "NEWBORN",
+              "conf": 0.9883421063423157,
+              "bbox": [
+                32,
+                288,
+                115,
+                300
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Manage Patient",
+          "conf": 0.9986157715320587,
+          "bbox": [
+            30,
+            297,
+            375,
+            324
+          ],
+          "words": [
+            {
+              "text": "Manage",
+              "conf": 0.9980456233024597,
+              "bbox": [
+                30,
+                303,
+                80,
+                324
+              ]
+            },
+            {
+              "text": "Patient",
+              "conf": 0.9991859197616577,
+              "bbox": [
+                299,
+                297,
+                375,
+                318
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Manually edited - Revert changes",
+          "conf": 0.9676198363304138,
+          "bbox": [
+            299,
+            323,
+            460,
+            336
+          ],
+          "words": [
+            {
+              "text": "Manually edited - Revert changes",
+              "conf": 0.9676198363304138,
+              "bbox": [
+                299,
+                323,
+                460,
+                336
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Denials (0) Matched Member Submitted Infa",
+          "conf": 0.9581090609232584,
+          "bbox": [
+            31,
+            336,
+            511,
+            362
+          ],
+          "words": [
+            {
+              "text": "Denials (0)",
+              "conf": 0.9596254825592041,
+              "bbox": [
+                31,
+                336,
+                94,
+                353
+              ]
+            },
+            {
+              "text": "Matched Member",
+              "conf": 0.9963628649711609,
+              "bbox": [
+                300,
+                349,
+                401,
+                362
+              ]
+            },
+            {
+              "text": "Submitted Infa",
+              "conf": 0.9183388352394104,
+              "bbox": [
+                426,
+                348,
+                511,
+                360
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No denials on this claim. Manage First name MASTER SSN",
+          "conf": 0.992341972887516,
+          "bbox": [
+            31,
+            356,
+            968,
+            395
+          ],
+          "words": [
+            {
+              "text": "No denials on this claim. Manage",
+              "conf": 0.9816966354846954,
+              "bbox": [
+                31,
+                356,
+                166,
+                391
+              ]
+            },
+            {
+              "text": "First name",
+              "conf": 0.9983978271484375,
+              "bbox": [
+                298,
+                378,
+                362,
+                395
+              ]
+            },
+            {
+              "text": "MASTER",
+              "conf": 0.9989081025123596,
+              "bbox": [
+                519,
+                379,
+                568,
+                393
+              ]
+            },
+            {
+              "text": "SSN",
+              "conf": 0.9903653264045715,
+              "bbox": [
+                936,
+                377,
+                968,
+                395
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Middle name G Date of birth 05/27/2026 (2 days)",
+          "conf": 0.9846795052289963,
+          "bbox": [
+            299,
+            404,
+            1268,
+            420
+          ],
+          "words": [
+            {
+              "text": "Middle name",
+              "conf": 0.9846786856651306,
+              "bbox": [
+                299,
+                406,
+                374,
+                419
+              ]
+            },
+            {
+              "text": "G",
+              "conf": 0.9928929209709167,
+              "bbox": [
+                515,
+                404,
+                531,
+                420
+              ]
+            },
+            {
+              "text": "Date of birth",
+              "conf": 0.964072585105896,
+              "bbox": [
+                938,
+                404,
+                1012,
+                420
+              ]
+            },
+            {
+              "text": "05/27/2026 (2 days)",
+              "conf": 0.9970738291740417,
+              "bbox": [
+                1156,
+                404,
+                1268,
+                420
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Billed $944.00 (100%) Last name HERNANDEZ DE HOYO Sex Male",
+          "conf": 0.98863152662913,
+          "bbox": [
+            31,
+            419,
+            1188,
+            447
+          ],
+          "words": [
+            {
+              "text": "Billed",
+              "conf": 0.9971303939819336,
+              "bbox": [
+                31,
+                420,
+                66,
+                434
+              ]
+            },
+            {
+              "text": "$944.00 (100%)",
+              "conf": 0.9911887049674988,
+              "bbox": [
+                142,
+                419,
+                224,
+                435
+              ]
+            },
+            {
+              "text": "Last name",
+              "conf": 0.9848178029060364,
+              "bbox": [
+                299,
+                430,
+                360,
+                443
+              ]
+            },
+            {
+              "text": "HERNANDEZ DE HOYO",
+              "conf": 0.9632429480552673,
+              "bbox": [
+                519,
+                432,
+                649,
+                444
+              ]
+            },
+            {
+              "text": "Sex",
+              "conf": 0.9961535334587097,
+              "bbox": [
+                938,
+                430,
+                962,
+                446
+              ]
+            },
+            {
+              "text": "Male",
+              "conf": 0.9992557764053345,
+              "bbox": [
+                1154,
+                429,
+                1188,
+                447
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Allowed $101.00 (11%)",
+          "conf": 0.9870322644710541,
+          "bbox": [
+            31,
+            443,
+            224,
+            460
+          ],
+          "words": [
+            {
+              "text": "Allowed",
+              "conf": 0.9788540005683899,
+              "bbox": [
+                31,
+                444,
+                79,
+                458
+              ]
+            },
+            {
+              "text": "$101.00 (11%)",
+              "conf": 0.9952105283737183,
+              "bbox": [
+                155,
+                443,
+                224,
+                460
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Suffix - Address 21720 NW 3RD ST",
+          "conf": 0.8591399788856506,
+          "bbox": [
+            298,
+            454,
+            1254,
+            472
+          ],
+          "words": [
+            {
+              "text": "Suffix",
+              "conf": 0.941418468952179,
+              "bbox": [
+                298,
+                454,
+                336,
+                472
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.5367615222930908,
+              "bbox": [
+                520,
+                461,
+                528,
+                467
+              ]
+            },
+            {
+              "text": "Address",
+              "conf": 0.9990925192832947,
+              "bbox": [
+                939,
+                457,
+                988,
+                471
+              ]
+            },
+            {
+              "text": "21720 NW 3RD ST",
+              "conf": 0.9592874050140381,
+              "bbox": [
+                1158,
+                457,
+                1254,
+                470
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pay provider $101.00 OSCID OSC7584722101 PEMBROKE PINES, FL33029",
+          "conf": 0.9923682332038879,
+          "bbox": [
+            30,
+            468,
+            1319,
+            496
+          ],
+          "words": [
+            {
+              "text": "Pay provider",
+              "conf": 0.9902100563049316,
+              "bbox": [
+                30,
+                468,
+                104,
+                485
+              ]
+            },
+            {
+              "text": "$101.00",
+              "conf": 0.9986176490783691,
+              "bbox": [
+                179,
+                470,
+                222,
+                484
+              ]
+            },
+            {
+              "text": "OSCID",
+              "conf": 0.991901695728302,
+              "bbox": [
+                299,
+                482,
+                342,
+                496
+              ]
+            },
+            {
+              "text": "OSC7584722101",
+              "conf": 0.9974397420883179,
+              "bbox": [
+                520,
+                482,
+                608,
+                495
+              ]
+            },
+            {
+              "text": "PEMBROKE PINES, FL33029",
+              "conf": 0.983672022819519,
+              "bbox": [
+                1156,
+                474,
+                1319,
+                490
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pay member $0.00",
+          "conf": 0.9906119406223297,
+          "bbox": [
+            31,
+            493,
+            224,
+            510
+          ],
+          "words": [
+            {
+              "text": "Pay member",
+              "conf": 0.9836532473564148,
+              "bbox": [
+                31,
+                494,
+                104,
+                510
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9975706338882446,
+              "bbox": [
+                186,
+                493,
+                224,
+                510
+              ]
+            }
+          ]
+        },
+        {
+          "text": ">Memberresponsibility $0.00 Policy holder Group",
+          "conf": 0.9840060919523239,
+          "bbox": [
+            19,
+            516,
+            982,
+            538
+          ],
+          "words": [
+            {
+              "text": ">Memberresponsibility",
+              "conf": 0.981751024723053,
+              "bbox": [
+                19,
+                519,
+                160,
+                536
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9970811605453491,
+              "bbox": [
+                188,
+                519,
+                222,
+                533
+              ]
+            },
+            {
+              "text": "Policy holder",
+              "conf": 0.9581787586212158,
+              "bbox": [
+                297,
+                517,
+                383,
+                537
+              ]
+            },
+            {
+              "text": "Group",
+              "conf": 0.9990134239196777,
+              "bbox": [
+                937,
+                516,
+                982,
+                538
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Firstname MASTER Name OSCAR HEALTH CLAIMS",
+          "conf": 0.9991960376501083,
+          "bbox": [
+            299,
+            541,
+            1295,
+            559
+          ],
+          "words": [
+            {
+              "text": "Firstname",
+              "conf": 0.9991854429244995,
+              "bbox": [
+                299,
+                544,
+                361,
+                556
+              ]
+            },
+            {
+              "text": "MASTER",
+              "conf": 0.9988737106323242,
+              "bbox": [
+                519,
+                544,
+                568,
+                556
+              ]
+            },
+            {
+              "text": "Name",
+              "conf": 0.9997637867927551,
+              "bbox": [
+                936,
+                541,
+                976,
+                559
+              ]
+            },
+            {
+              "text": "OSCAR HEALTH CLAIMS",
+              "conf": 0.9989612102508545,
+              "bbox": [
+                1158,
+                544,
+                1295,
+                556
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim lineage Middle name G Number",
+          "conf": 0.9896846860647202,
+          "bbox": [
+            30,
+            564,
+            986,
+            584
+          ],
+          "words": [
+            {
+              "text": "Claim lineage",
+              "conf": 0.9856761693954468,
+              "bbox": [
+                30,
+                564,
+                110,
+                582
+              ]
+            },
+            {
+              "text": "Middle name",
+              "conf": 0.9799041748046875,
+              "bbox": [
+                298,
+                568,
+                375,
+                584
+              ]
+            },
+            {
+              "text": "G",
+              "conf": 0.9943857192993164,
+              "bbox": [
+                515,
+                568,
+                531,
+                584
+              ]
+            },
+            {
+              "text": "Number",
+              "conf": 0.9987726807594299,
+              "bbox": [
+                939,
+                569,
+                986,
+                583
+              ]
+            }
+          ]
+        },
+        {
+          "text": "7S7PQ98D Blocked Last name HERNANDEZ DE HOYO Responsibillity sequence Primary",
+          "conf": 0.9783243934313456,
+          "bbox": [
+            28,
+            587,
+            1204,
+            611
+          ],
+          "words": [
+            {
+              "text": "7S7PQ98D",
+              "conf": 0.9885705709457397,
+              "bbox": [
+                28,
+                587,
+                105,
+                603
+              ]
+            },
+            {
+              "text": "Blocked",
+              "conf": 0.9966288805007935,
+              "bbox": [
+                169,
+                589,
+                219,
+                603
+              ]
+            },
+            {
+              "text": "Last name",
+              "conf": 0.9693360924720764,
+              "bbox": [
+                299,
+                596,
+                360,
+                609
+              ]
+            },
+            {
+              "text": "HERNANDEZ DE HOYO",
+              "conf": 0.9826517701148987,
+              "bbox": [
+                518,
+                593,
+                650,
+                610
+              ]
+            },
+            {
+              "text": "Responsibillity sequence",
+              "conf": 0.9361551403999329,
+              "bbox": [
+                939,
+                596,
+                1075,
+                609
+              ]
+            },
+            {
+              "text": "Primary",
+              "conf": 0.9966039061546326,
+              "bbox": [
+                1153,
+                592,
+                1204,
+                611
+              ]
+            }
+          ]
+        },
+        {
+          "text": "7/18/2026",
+          "conf": 0.9840233325958252,
+          "bbox": [
+            42,
+            607,
+            92,
+            621
+          ],
+          "words": [
+            {
+              "text": "7/18/2026",
+              "conf": 0.9840233325958252,
+              "bbox": [
+                42,
+                607,
+                92,
+                621
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Suffix",
+          "conf": 0.8973367214202881,
+          "bbox": [
+            298,
+            619,
+            335,
+            637
+          ],
+          "words": [
+            {
+              "text": "Suffix",
+              "conf": 0.8973367214202881,
+              "bbox": [
+                298,
+                619,
+                335,
+                637
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Potential parent claims Organization name",
+          "conf": 0.9878709316253662,
+          "bbox": [
+            32,
+            644,
+            409,
+            666
+          ],
+          "words": [
+            {
+              "text": "Potential parent claims",
+              "conf": 0.9865501523017883,
+              "bbox": [
+                32,
+                653,
+                164,
+                666
+              ]
+            },
+            {
+              "text": "Organization name",
+              "conf": 0.9891917109489441,
+              "bbox": [
+                297,
+                644,
+                409,
+                663
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Patient relationship Self",
+          "conf": 0.9866566956043243,
+          "bbox": [
+            300,
+            672,
+            544,
+            686
+          ],
+          "words": [
+            {
+              "text": "Patient relationship",
+              "conf": 0.975197970867157,
+              "bbox": [
+                300,
+                673,
+                411,
+                686
+              ]
+            },
+            {
+              "text": "Self",
+              "conf": 0.9981154203414917,
+              "bbox": [
+                516,
+                672,
+                544,
+                686
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Potential duplicate claims",
+          "conf": 0.984485924243927,
+          "bbox": [
+            32,
+            715,
+            177,
+            728
+          ],
+          "words": [
+            {
+              "text": "Potential duplicate claims",
+              "conf": 0.984485924243927,
+              "bbox": [
+                32,
+                715,
+                177,
+                728
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No system identified duplicates. Providers",
+          "conf": 0.9935985803604126,
+          "bbox": [
+            31,
+            738,
+            394,
+            756
+          ],
+          "words": [
+            {
+              "text": "No system identified duplicates.",
+              "conf": 0.9888319969177246,
+              "bbox": [
+                31,
+                740,
+                210,
+                756
+              ]
+            },
+            {
+              "text": "Providers",
+              "conf": 0.9983651638031006,
+              "bbox": [
+                301,
+                738,
+                394,
+                756
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

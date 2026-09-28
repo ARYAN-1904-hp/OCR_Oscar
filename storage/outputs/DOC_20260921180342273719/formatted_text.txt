@@ -1,0 +1,270 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x790 | blocks=8 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4 | - | - | -
+  CELL[1,0] = Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4
+ROW 2 | Processor | SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01 | Decision SLA | 3 days.
+  CELL[2,0] = Processor
+  CELL[2,1] = SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01
+  CELL[2,2] = Decision SLA
+  CELL[2,3] = 3 days.
+ROW 3 | ProviderInformation | - | - | -
+  CELL[3,0] = ProviderInformation
+ROW 4 | Provider NPI | 1098216607 ProviderName: | MARTINEZ MDANNALUCIA | -
+  CELL[4,0] = Provider NPI
+  CELL[4,1] = 1098216607 ProviderName:
+  CELL[4,2] = MARTINEZ MDANNALUCIA
+ROW 5 | Tax ID | 884280110 Specialty Code: | 207Q | FAMILY PRACTICE
+  CELL[5,0] = Tax ID
+  CELL[5,1] = 884280110 Specialty Code:
+  CELL[5,2] = 207Q
+  CELL[5,3] = FAMILY PRACTICE
+ROW 6 | Service Address | 689 Birch Rd,FresnoCA | - | -
+  CELL[6,0] = Service Address
+  CELL[6,1] = 689 Birch Rd,FresnoCA
+ROW 7 | Billing Address | 689 Birch Rd,FresnoCA | - | -
+  CELL[7,0] = Billing Address
+  CELL[7,1] = 689 Birch Rd,FresnoCA
+ROW 8 | Phone | 555)747-8246 Fax: 555321-8546 | - | -
+  CELL[8,0] = Phone
+  CELL[8,1] = 555)747-8246 Fax: 555321-8546
+ROW 9 | Contract Type | EPO-NETWORK Network Tier: | 1 OUT-OF-AREA | -
+  CELL[9,0] = Contract Type
+  CELL[9,1] = EPO-NETWORK Network Tier:
+  CELL[9,2] = 1 OUT-OF-AREA
+ROW 10 | Referring Provider | SPECIALIST REFERRED | - | -
+  CELL[10,0] = Referring Provider
+  CELL[10,1] = SPECIALIST REFERRED
+ROW 11 | Provider Status | ACTIVE | Effective Date | 01/01/2023 Term Date:
+  CELL[11,0] = Provider Status
+  CELL[11,1] = ACTIVE
+  CELL[11,2] = Effective Date
+  CELL[11,3] = 01/01/2023 Term Date:
+[/TABLE 0]
+
+[TABLE 1 | source=ppstructure]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Processor | SarahJohnson Last edit: 11/17/2025 08:05 | Processor ID | PRoc001 Decision SLA: 3 days
+  CELL[1,0] = Processor
+  CELL[1,1] = SarahJohnson Last edit: 11/17/2025 08:05
+  CELL[1,2] = Processor ID
+  CELL[1,3] = PRoc001 Decision SLA: 3 days
+ROW 2 | ProviderInformations | - | - | -
+  CELL[2,0] = ProviderInformations
+ROW 3 | Provider NPI | 1098216607 | Provider Name | MARTINEZ MD,ANNA LUCIA FAMILY
+  CELL[3,0] = Provider NPI
+  CELL[3,1] = 1098216607
+  CELL[3,2] = Provider Name
+  CELL[3,3] = MARTINEZ MD,ANNA LUCIA FAMILY
+ROW 4 | Tax ID | 884280110 Specialty Code: | 207Q PRACTICE | -
+  CELL[4,0] = Tax ID
+  CELL[4,1] = 884280110 Specialty Code:
+  CELL[4,2] = 207Q PRACTICE
+ROW 5 | Service Address | 689 Birch Rd, FresnoCA | - | -
+  CELL[5,0] = Service Address
+  CELL[5,1] = 689 Birch Rd, FresnoCA
+ROW 6 | Billing Address | 689 Birch RdFresnoCA | - | -
+  CELL[6,0] = Billing Address
+  CELL[6,1] = 689 Birch RdFresnoCA
+ROW 7 | Phone / Fax: | - | (555) 321-8546 | -
+  CELL[7,0] = Phone / Fax:
+  CELL[7,2] = (555) 321-8546
+ROW 8 | Contract | 555)747-8246 | Network | OUT-OF-AREA
+  CELL[8,0] = Contract
+  CELL[8,1] = 555)747-8246
+  CELL[8,2] = Network
+  CELL[8,3] = OUT-OF-AREA
+ROW 9 | Type | Referring EPO-NETWORK | Tier: | -
+  CELL[9,0] = Type
+  CELL[9,1] = Referring EPO-NETWORK
+  CELL[9,2] = Tier:
+ROW 10 | Provider | SPECIALIST REFERRED | Term | -
+  CELL[10,0] = Provider
+  CELL[10,1] = SPECIALIST REFERRED
+  CELL[10,2] = Term
+ROW 11 | Provider Status | ACTIVE | Effective Date | 01/01/2023 Date:
+  CELL[11,0] = Provider Status
+  CELL[11,1] = ACTIVE
+  CELL[11,2] = Effective Date
+  CELL[11,3] = 01/01/2023 Date:
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[87,0,820,19] | order=0
+  Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4
+BLOCK 1 | type=header | bbox=[69,65,1252,89] | order=1
+  Processor: SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01 Decision SLA: 3 days.
+BLOCK 2 | type=table_row | bbox=[67,165,384,193] | order=2
+  ProviderInformation
+BLOCK 3 | type=table | bbox=[62,228,1353,358] | order=3
+  Provider NPI: 1098216607 ProviderName: MARTINEZ MDANNALUCIA
+  Tax ID: 884280110 Specialty Code: 207Q FAMILY PRACTICE
+BLOCK 4 | type=table_row | bbox=[62,389,900,525] | order=4
+  Service Address: 689 Birch Rd,FresnoCA
+  Billing Address: 689 Birch Rd,FresnoCA
+  Phone: 555)747-8246 Fax: 555321-8546
+BLOCK 5 | type=table | bbox=[64,549,1478,605] | order=5
+  Contract Type: EPO-NETWORK Network Tier: 1 OUT-OF-AREA
+BLOCK 6 | type=table_row | bbox=[62,621,512,674] | order=6
+  Referring Provider: SPECIALIST REFERRED
+BLOCK 7 | type=table | bbox=[64,691,1482,746] | order=7
+  Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[62,0,1482,746] | shape=12x4 | conf=0.920
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4 | - | - | -
+    CELL[1,0] = Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4
+  ROW 2 | Processor | SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01 | Decision SLA | 3 days.
+    CELL[2,0] = Processor
+    CELL[2,1] = SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01
+    CELL[2,2] = Decision SLA
+    CELL[2,3] = 3 days.
+  ROW 3 | ProviderInformation | - | - | -
+    CELL[3,0] = ProviderInformation
+  ROW 4 | Provider NPI | 1098216607 ProviderName: | MARTINEZ MDANNALUCIA | -
+    CELL[4,0] = Provider NPI
+    CELL[4,1] = 1098216607 ProviderName:
+    CELL[4,2] = MARTINEZ MDANNALUCIA
+  ROW 5 | Tax ID | 884280110 Specialty Code: | 207Q | FAMILY PRACTICE
+    CELL[5,0] = Tax ID
+    CELL[5,1] = 884280110 Specialty Code:
+    CELL[5,2] = 207Q
+    CELL[5,3] = FAMILY PRACTICE
+  ROW 6 | Service Address | 689 Birch Rd,FresnoCA | - | -
+    CELL[6,0] = Service Address
+    CELL[6,1] = 689 Birch Rd,FresnoCA
+  ROW 7 | Billing Address | 689 Birch Rd,FresnoCA | - | -
+    CELL[7,0] = Billing Address
+    CELL[7,1] = 689 Birch Rd,FresnoCA
+  ROW 8 | Phone | 555)747-8246 Fax: 555321-8546 | - | -
+    CELL[8,0] = Phone
+    CELL[8,1] = 555)747-8246 Fax: 555321-8546
+  ROW 9 | Contract Type | EPO-NETWORK Network Tier: | 1 OUT-OF-AREA | -
+    CELL[9,0] = Contract Type
+    CELL[9,1] = EPO-NETWORK Network Tier:
+    CELL[9,2] = 1 OUT-OF-AREA
+  ROW 10 | Referring Provider | SPECIALIST REFERRED | - | -
+    CELL[10,0] = Referring Provider
+    CELL[10,1] = SPECIALIST REFERRED
+  ROW 11 | Provider Status | ACTIVE | Effective Date | 01/01/2023 Term Date:
+    CELL[11,0] = Provider Status
+    CELL[11,1] = ACTIVE
+    CELL[11,2] = Effective Date
+    CELL[11,3] = 01/01/2023 Term Date:
+TABLE 1 | source=ppstructure | bbox=[39,35,1496,785] | shape=12x4 | conf=0.561
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Processor | SarahJohnson Last edit: 11/17/2025 08:05 | Processor ID | PRoc001 Decision SLA: 3 days
+    CELL[1,0] = Processor
+    CELL[1,1] = SarahJohnson Last edit: 11/17/2025 08:05
+    CELL[1,2] = Processor ID
+    CELL[1,3] = PRoc001 Decision SLA: 3 days
+  ROW 2 | ProviderInformations | - | - | -
+    CELL[2,0] = ProviderInformations
+  ROW 3 | Provider NPI | 1098216607 | Provider Name | MARTINEZ MD,ANNA LUCIA FAMILY
+    CELL[3,0] = Provider NPI
+    CELL[3,1] = 1098216607
+    CELL[3,2] = Provider Name
+    CELL[3,3] = MARTINEZ MD,ANNA LUCIA FAMILY
+  ROW 4 | Tax ID | 884280110 Specialty Code: | 207Q PRACTICE | -
+    CELL[4,0] = Tax ID
+    CELL[4,1] = 884280110 Specialty Code:
+    CELL[4,2] = 207Q PRACTICE
+  ROW 5 | Service Address | 689 Birch Rd, FresnoCA | - | -
+    CELL[5,0] = Service Address
+    CELL[5,1] = 689 Birch Rd, FresnoCA
+  ROW 6 | Billing Address | 689 Birch RdFresnoCA | - | -
+    CELL[6,0] = Billing Address
+    CELL[6,1] = 689 Birch RdFresnoCA
+  ROW 7 | Phone / Fax: | - | (555) 321-8546 | -
+    CELL[7,0] = Phone / Fax:
+    CELL[7,2] = (555) 321-8546
+  ROW 8 | Contract | 555)747-8246 | Network | OUT-OF-AREA
+    CELL[8,0] = Contract
+    CELL[8,1] = 555)747-8246
+    CELL[8,2] = Network
+    CELL[8,3] = OUT-OF-AREA
+  ROW 9 | Type | Referring EPO-NETWORK | Tier: | -
+    CELL[9,0] = Type
+    CELL[9,1] = Referring EPO-NETWORK
+    CELL[9,2] = Tier:
+  ROW 10 | Provider | SPECIALIST REFERRED | Term | -
+    CELL[10,0] = Provider
+    CELL[10,1] = SPECIALIST REFERRED
+    CELL[10,2] = Term
+  ROW 11 | Provider Status | ACTIVE | Effective Date | 01/01/2023 Date:
+    CELL[11,0] = Provider Status
+    CELL[11,1] = ACTIVE
+    CELL[11,2] = Effective Date
+    CELL[11,3] = 01/01/2023 Date:
+  HTML: <table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Processor</td><td>SarahJohnson Last edit: 11/17/2025 08:05</td><td>Processor ID</td><td>PRoc001 Decision SLA: 3 days</td></tr><tr><td>ProviderInformations</td><td></td><td></td><td></td></tr><tr><td>Provider NPI</td><td>1098216607</td><td>Provider Name</td><td>MARTINEZ MD,ANNA LUCIA FAMILY</td></t…
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[87,0,820,19] | conf=0.663 | text=Clamnrgi Flo0 pg2 ieinberFg3 Diaghosisrg4
+  WORD | bbox=[87,0,189,16] | text=Clamnrgi
+  WORD | bbox=[267,0,383,19] | text=Flo0 pg2
+  WORD | bbox=[458,0,588,17] | text=ieinberFg3
+  WORD | bbox=[670,0,820,17] | text=Diaghosisrg4
+LINE 1 | bbox=[69,65,1252,89] | conf=0.940 | text=Processor: SarahJohnson Last edit: 11/17/202508:05 ProcessorID: PRoco01 Decision SLA: 3 days.
+  WORD | bbox=[69,66,356,86] | text=Processor: SarahJohnson
+  WORD | bbox=[383,66,697,86] | text=Last edit: 11/17/202508:05
+  WORD | bbox=[720,66,978,86] | text=ProcessorID: PRoco01
+  WORD | bbox=[1023,65,1252,89] | text=Decision SLA: 3 days.
+LINE 2 | bbox=[67,165,384,193] | conf=0.988 | text=ProviderInformation
+LINE 3 | bbox=[62,228,1217,283] | conf=0.982 | text=Provider NPI: 1098216607 ProviderName: MARTINEZ MDANNALUCIA
+  WORD | bbox=[62,228,155,283] | text=Provider NPI:
+  WORD | bbox=[212,244,355,270] | text=1098216607
+  WORD | bbox=[705,244,866,268] | text=ProviderName:
+  WORD | bbox=[911,245,1217,270] | text=MARTINEZ MDANNALUCIA
+LINE 4 | bbox=[62,302,1353,358] | conf=0.987 | text=Tax ID: 884280110 Specialty Code: 207Q FAMILY PRACTICE
+  WORD | bbox=[62,307,105,356] | text=Tax ID:
+  WORD | bbox=[153,318,284,344] | text=884280110
+  WORD | bbox=[626,302,725,358] | text=Specialty Code:
+  WORD | bbox=[791,318,859,346] | text=207Q
+  WORD | bbox=[1250,306,1353,355] | text=FAMILY PRACTICE
+LINE 5 | bbox=[66,389,553,418] | conf=0.956 | text=Service Address: 689 Birch Rd,FresnoCA
+  WORD | bbox=[66,389,238,414] | text=Service Address:
+  WORD | bbox=[280,390,553,418] | text=689 Birch Rd,FresnoCA
+LINE 6 | bbox=[64,436,552,466] | conf=0.942 | text=Billing Address: 689 Birch Rd,FresnoCA
+  WORD | bbox=[64,436,224,466] | text=Billing Address:
+  WORD | bbox=[283,446,552,466] | text=689 Birch Rd,FresnoCA
+LINE 7 | bbox=[62,491,900,525] | conf=0.975 | text=Phone: 555)747-8246 Fax: 555321-8546
+  WORD | bbox=[62,493,141,523] | text=Phone:
+  WORD | bbox=[180,500,353,525] | text=555)747-8246
+  WORD | bbox=[649,491,701,524] | text=Fax:
+  WORD | bbox=[725,497,900,523] | text=555321-8546
+LINE 8 | bbox=[64,549,1478,605] | conf=0.974 | text=Contract Type: EPO-NETWORK Network Tier: 1 OUT-OF-AREA
+  WORD | bbox=[64,549,158,605] | text=Contract Type:
+  WORD | bbox=[220,562,391,590] | text=EPO-NETWORK
+  WORD | bbox=[727,551,819,602] | text=Network Tier:
+  WORD | bbox=[869,568,883,585] | text=1
+  WORD | bbox=[1328,566,1478,588] | text=OUT-OF-AREA
+LINE 9 | bbox=[62,621,512,674] | conf=0.964 | text=Referring Provider: SPECIALIST REFERRED
+  WORD | bbox=[62,621,161,674] | text=Referring Provider:
+  WORD | bbox=[264,640,512,660] | text=SPECIALIST REFERRED
+LINE 10 | bbox=[64,691,1482,746] | conf=0.983 | text=Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:
+  WORD | bbox=[64,694,152,744] | text=Provider Status:
+  WORD | bbox=[236,705,320,731] | text=ACTIVE
+  WORD | bbox=[761,691,856,744] | text=Effective Date:
+  WORD | bbox=[928,705,1058,731] | text=01/01/2023
+  WORD | bbox=[1415,694,1482,746] | text=Term Date:
+[/BOXES]
+
+[FIELDS]
+Phone: (555) 321-8546
+NPI: 1098216607
+[/FIELDS]

@@ -1,0 +1,472 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=7 | tables=3 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 17x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy details Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Member info Issues Policy details Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Yisroel Dubov | - | - | -
+  CELL[3,0] = Yisroel Dubov
+ROW 4 | Active | - | - | -
+  CELL[4,0] = Active
+ROW 5 | Policy details | - | Actions | -
+  CELL[5,0] = Policy details
+  CELL[5,2] = Actions
+ROW 6 | OSC78747909-01R213XB6D Holder - ON exc | Viewing information for | - | -
+  CELL[6,0] = OSC78747909-01R213XB6D Holder - ON exc
+  CELL[6,1] = Viewing information for
+ROW 7 | Heads up note | Silver Simple PCP Saver CSR 150 (01/01/2026 12/31/2026) | - | -
+  CELL[7,0] = Heads up note
+  CELL[7,1] = Silver Simple PCP Saver CSR 150 (01/01/2026 12/31/2026)
+ROW 8 | Plan details | - | Tools | -
+  CELL[8,0] = Plan details
+  CELL[8,2] = Tools
+ROW 9 | Sitver Simpht | C0R150-101/01/2026 01/01/2026) | $55.76 Search in-network drugs | View
+  CELL[9,0] = Sitver Simpht
+  CELL[9,1] = C0R150-101/01/2026 01/01/2026)
+  CELL[9,2] = $55.76 Search in-network drugs
+  CELL[9,3] = View
+ROW 10 | Cllent Oscar | Cancelled | - | -
+  CELL[10,0] = Cllent Oscar
+  CELL[10,1] = Cancelled
+ROW 11 | - | - | 492.00 Check benefits | View
+  CELL[11,2] = 492.00 Check benefits
+  CELL[11,3] = View
+ROW 12 | Member actlons | Silver Simple PCP Saver CSR150 (09/01/2025 12/31/2025) | Oscar Community Resources | -
+  CELL[12,0] = Member actlons
+  CELL[12,1] = Silver Simple PCP Saver CSR150 (09/01/2025 12/31/2025)
+  CELL[12,2] = Oscar Community Resources
+ROW 13 | Plan name Silver Simple PCP Sa | - | - | -
+  CELL[13,0] = Plan name Silver Simple PCP Sa
+ROW 14 | Silver Simple PCP Saver (09/01/2O25 | 09/01/2025) | - | -
+  CELL[14,0] = Silver Simple PCP Saver (09/01/2O25
+  CELL[14,1] = 09/01/2025)
+ROW 15 | - | - | Virtual Primary Care | Yes
+  CELL[15,2] = Virtual Primary Care
+  CELL[15,3] = Yes
+ROW 16 | nextgen_billing_rosco_tag | - | - | -
+  CELL[16,0] = nextgen_billing_rosco_tag
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 4x4
+HEADER | FLBroward | Type | Cancelled | /2025
+ROW 1 | - | Individual | - | Oscar Care offerings Learn more
+  CELL[1,1] = Individual
+  CELL[1,3] = Oscar Care offerings Learn more
+ROW 2 | FLO3FLTeam | - | Silver Simple PCP Saver (09/01/202509/01/2025) | 1/2025 Virtual Urgent Care Yes
+  CELL[2,0] = FLO3FLTeam
+  CELL[2,2] = Silver Simple PCP Saver (09/01/202509/01/2025)
+  CELL[2,3] = 1/2025 Virtual Urgent Care Yes
+ROW 3 | Oscarplan: | - | Effective date | 01/01/2026
+  CELL[3,0] = Oscarplan:
+  CELL[3,2] = Effective date
+  CELL[3,3] = 01/01/2026
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 15x7
+HEADER | FL HMO Standard Silver Simple PCP Saver CSR 150 | Plan essentials | Individual | Coverage end date | 12/31/2026 | Virtual mental health | No
+ROW 1 | View ID card | Medical Deductible | $0.00 | Term reason | - | Eligible $o related care | Yes
+  CELL[1,0] = View ID card
+  CELL[1,1] = Medical Deductible
+  CELL[1,2] = $0.00
+  CELL[1,3] = Term reason
+  CELL[1,5] = Eligible $o related care
+  CELL[1,6] = Yes
+ROW 2 | Jeffin Alex | Out-of-pocket max | $1,750.00 | - | - | - | -
+  CELL[2,0] = Jeffin Alex
+  CELL[2,1] = Out-of-pocket max
+  CELL[2,2] = $1,750.00
+ROW 3 | - | Referrals | Not required | Enrollment information | - | - | -
+  CELL[3,1] = Referrals
+  CELL[3,2] = Not required
+  CELL[3,3] = Enrollment information
+ROW 4 | Effective 01/01/2026 | Referral submissions | Not required | Eligib Illity ID | bc2c5d62f6224a6da9ed0377cc513e29 | Network | -
+  CELL[4,0] = Effective 01/01/2026
+  CELL[4,1] = Referral submissions
+  CELL[4,2] = Not required
+  CELL[4,3] = Eligib Illity ID
+  CELL[4,4] = bc2c5d62f6224a6da9ed0377cc513e29
+  CELL[4,5] = Network
+ROW 5 | 8 Individual | - | - | - | - | Rating area | FL - Broward
+  CELL[5,0] = 8 Individual
+  CELL[5,5] = Rating area
+  CELL[5,6] = FL - Broward
+ROW 6 | - | - | - | Broker | Charles Green | - | -
+  CELL[6,3] = Broker
+  CELL[6,4] = Charles Green
+ROW 7 | $Current Balance due | Plan documents | - | Exchange | On exchange | Provider network | FL HMO Standard
+  CELL[7,0] = $Current Balance due
+  CELL[7,1] = Plan documents
+  CELL[7,3] = Exchange
+  CELL[7,4] = On exchange
+  CELL[7,5] = Provider network
+  CELL[7,6] = FL HMO Standard
+ROW 8 | - | - | - | - | - | Tiering | Yes
+  CELL[8,5] = Tiering
+  CELL[8,6] = Yes
+ROW 9 | Oscar Unlocks Not activated | Schedule of Benefits | View | Exchange ID | 0027738477 | Provider organization type | HMO
+  CELL[9,0] = Oscar Unlocks Not activated
+  CELL[9,1] = Schedule of Benefits
+  CELL[9,2] = View
+  CELL[9,3] = Exchange ID
+  CELL[9,4] = 0027738477
+  CELL[9,5] = Provider organization type
+  CELL[9,6] = HMO
+ROW 10 | - | Certificate of Coverage | View | Enrollmenttype | Active Renewal | - | -
+  CELL[10,1] = Certificate of Coverage
+  CELL[10,2] = View
+  CELL[10,3] = Enrollmenttype
+  CELL[10,4] = Active Renewal
+ROW 11 | - | - | - | - | - | OOA | No
+  CELL[11,5] = OOA
+  CELL[11,6] = No
+ROW 12 | - | Summary of Benefits & Coverage | Vlew | Enrollment source | Ffm | - | -
+  CELL[12,1] = Summary of Benefits & Coverage
+  CELL[12,2] = Vlew
+  CELL[12,3] = Enrollment source
+  CELL[12,4] = Ffm
+ROW 13 | Member tags | - | - | - | - | HSA compatible | No
+  CELL[13,0] = Member tags
+  CELL[13,5] = HSA compatible
+  CELL[13,6] = No
+ROW 14 | - | ID Card | View | - | - | Has rider | No
+  CELL[14,1] = ID Card
+  CELL[14,2] = View
+  CELL[14,5] = Has rider
+  CELL[14,6] = No
+[/TABLE 2]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,15,1580,102] | order=0
+  rosco Q Search Rosco MR Melissa
+  Yisroel Dubov Member info Issues Policy details Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 1 | type=table_row | bbox=[22,115,64,132] | order=1
+  Active
+BLOCK 2 | type=table | bbox=[18,132,1238,176] | order=2
+  OSC78747909-01R213XB6D Holder - ON exc Viewing information for Policy details Actions
+BLOCK 3 | type=table_row | bbox=[30,210,992,248] | order=3
+  Heads up note Silver Simple PCP Saver CSR 150 (01/01/2026 12/31/2026)
+  Plan details Tools
+BLOCK 4 | type=table | bbox=[16,248,1275,727] | order=4
+  Sitver Simpht Cancelled C0R150-101/01/2026 01/01/2026) $55.76 Search in-network drugs View
+  Cllent Oscar 492.00 Check benefits View
+  Member actlons Plan name Silver Simple PCP Sa Silver Simple PCP Saver CSR150 (09/01/2025 12/31/2025) Oscar Community Resources
+  FLBroward Individual Type Cancelled Silver Simple PCP Saver (09/01/2O25 09/01/2025) /2025 Oscar Care offerings Learn more
+  FLO3FLTeam Silver Simple PCP Saver (09/01/202509/01/2025) 1/2025 Virtual Urgent Care Yes
+  Oscarplan: Effective date 01/01/2026 Virtual Primary Care Yes
+  FL HMO Standard Silver Simple PCP Saver CSR 150 Plan essentials Medical Deductible Individual $0.00 Term reason Coverage end date 12/31/2026 Virtual mental health No
+  View ID card Eligible $o related care Yes
+  Jeffin Alex Out-of-pocket max $1,750.00
+  Effective 01/01/2026 Referrals Referral submissions Not required Not required Enrollment information Eligib Illity ID bc2c5d62f6224a6da9ed0377cc513e29 Network
+  8 Individual Broker Charles Green Rating area FL - Broward
+  $Current Balance due Plan documents Exchange On exchange Tiering Provider network FL HMO Standard Yes
+  Oscar Unlocks Not activated Schedule of Benefits View Exchange ID 0027738477 Provider organization type HMO
+  Certificate of Coverage View Enrollmenttype Active Renewal OOA No
+  Member tags Summary of Benefits & Coverage Vlew Enrollment source Ffm HSA compatible No
+BLOCK 5 | type=footer | bbox=[286,719,1269,749] | order=5
+  ID Card View Has rider No
+BLOCK 6 | type=footer | bbox=[22,745,175,761] | order=6
+  nextgen_billing_rosco_tag
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,15,1580,761] | shape=17x4 | conf=0.920
+  shape: 17x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy details Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Member info Issues Policy details Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Yisroel Dubov | - | - | -
+    CELL[3,0] = Yisroel Dubov
+  ROW 4 | Active | - | - | -
+    CELL[4,0] = Active
+  ROW 5 | Policy details | - | Actions | -
+    CELL[5,0] = Policy details
+    CELL[5,2] = Actions
+  ROW 6 | OSC78747909-01R213XB6D Holder - ON exc | Viewing information for | - | -
+    CELL[6,0] = OSC78747909-01R213XB6D Holder - ON exc
+    CELL[6,1] = Viewing information for
+  ROW 7 | Heads up note | Silver Simple PCP Saver CSR 150 (01/01/2026 12/31/2026) | - | -
+    CELL[7,0] = Heads up note
+    CELL[7,1] = Silver Simple PCP Saver CSR 150 (01/01/2026 12/31/2026)
+  ROW 8 | Plan details | - | Tools | -
+    CELL[8,0] = Plan details
+    CELL[8,2] = Tools
+  ROW 9 | Sitver Simpht | C0R150-101/01/2026 01/01/2026) | $55.76 Search in-network drugs | View
+    CELL[9,0] = Sitver Simpht
+    CELL[9,1] = C0R150-101/01/2026 01/01/2026)
+    CELL[9,2] = $55.76 Search in-network drugs
+    CELL[9,3] = View
+  ROW 10 | Cllent Oscar | Cancelled | - | -
+    CELL[10,0] = Cllent Oscar
+    CELL[10,1] = Cancelled
+  ROW 11 | - | - | 492.00 Check benefits | View
+    CELL[11,2] = 492.00 Check benefits
+    CELL[11,3] = View
+  ROW 12 | Member actlons | Silver Simple PCP Saver CSR150 (09/01/2025 12/31/2025) | Oscar Community Resources | -
+    CELL[12,0] = Member actlons
+    CELL[12,1] = Silver Simple PCP Saver CSR150 (09/01/2025 12/31/2025)
+    CELL[12,2] = Oscar Community Resources
+  ROW 13 | Plan name Silver Simple PCP Sa | - | - | -
+    CELL[13,0] = Plan name Silver Simple PCP Sa
+  ROW 14 | Silver Simple PCP Saver (09/01/2O25 | 09/01/2025) | - | -
+    CELL[14,0] = Silver Simple PCP Saver (09/01/2O25
+    CELL[14,1] = 09/01/2025)
+  ROW 15 | - | - | Virtual Primary Care | Yes
+    CELL[15,2] = Virtual Primary Care
+    CELL[15,3] = Yes
+  ROW 16 | nextgen_billing_rosco_tag | - | - | -
+    CELL[16,0] = nextgen_billing_rosco_tag
+TABLE 1 | source=wide_grid | bbox=[16,353,1275,439] | shape=4x4 | conf=0.850
+  shape: 4x4
+  HEADER | FLBroward | Type | Cancelled | /2025
+  ROW 1 | - | Individual | - | Oscar Care offerings Learn more
+    CELL[1,1] = Individual
+    CELL[1,3] = Oscar Care offerings Learn more
+  ROW 2 | FLO3FLTeam | - | Silver Simple PCP Saver (09/01/202509/01/2025) | 1/2025 Virtual Urgent Care Yes
+    CELL[2,0] = FLO3FLTeam
+    CELL[2,2] = Silver Simple PCP Saver (09/01/202509/01/2025)
+    CELL[2,3] = 1/2025 Virtual Urgent Care Yes
+  ROW 3 | Oscarplan: | - | Effective date | 01/01/2026
+    CELL[3,0] = Oscarplan:
+    CELL[3,2] = Effective date
+    CELL[3,3] = 01/01/2026
+TABLE 2 | source=wide_grid | bbox=[16,443,1270,749] | shape=15x7 | conf=0.850
+  shape: 15x7
+  HEADER | FL HMO Standard Silver Simple PCP Saver CSR 150 | Plan essentials | Individual | Coverage end date | 12/31/2026 | Virtual mental health | No
+  ROW 1 | View ID card | Medical Deductible | $0.00 | Term reason | - | Eligible $o related care | Yes
+    CELL[1,0] = View ID card
+    CELL[1,1] = Medical Deductible
+    CELL[1,2] = $0.00
+    CELL[1,3] = Term reason
+    CELL[1,5] = Eligible $o related care
+    CELL[1,6] = Yes
+  ROW 2 | Jeffin Alex | Out-of-pocket max | $1,750.00 | - | - | - | -
+    CELL[2,0] = Jeffin Alex
+    CELL[2,1] = Out-of-pocket max
+    CELL[2,2] = $1,750.00
+  ROW 3 | - | Referrals | Not required | Enrollment information | - | - | -
+    CELL[3,1] = Referrals
+    CELL[3,2] = Not required
+    CELL[3,3] = Enrollment information
+  ROW 4 | Effective 01/01/2026 | Referral submissions | Not required | Eligib Illity ID | bc2c5d62f6224a6da9ed0377cc513e29 | Network | -
+    CELL[4,0] = Effective 01/01/2026
+    CELL[4,1] = Referral submissions
+    CELL[4,2] = Not required
+    CELL[4,3] = Eligib Illity ID
+    CELL[4,4] = bc2c5d62f6224a6da9ed0377cc513e29
+    CELL[4,5] = Network
+  ROW 5 | 8 Individual | - | - | - | - | Rating area | FL - Broward
+    CELL[5,0] = 8 Individual
+    CELL[5,5] = Rating area
+    CELL[5,6] = FL - Broward
+  ROW 6 | - | - | - | Broker | Charles Green | - | -
+    CELL[6,3] = Broker
+    CELL[6,4] = Charles Green
+  ROW 7 | $Current Balance due | Plan documents | - | Exchange | On exchange | Provider network | FL HMO Standard
+    CELL[7,0] = $Current Balance due
+    CELL[7,1] = Plan documents
+    CELL[7,3] = Exchange
+    CELL[7,4] = On exchange
+    CELL[7,5] = Provider network
+    CELL[7,6] = FL HMO Standard
+  ROW 8 | - | - | - | - | - | Tiering | Yes
+    CELL[8,5] = Tiering
+    CELL[8,6] = Yes
+  ROW 9 | Oscar Unlocks Not activated | Schedule of Benefits | View | Exchange ID | 0027738477 | Provider organization type | HMO
+    CELL[9,0] = Oscar Unlocks Not activated
+    CELL[9,1] = Schedule of Benefits
+    CELL[9,2] = View
+    CELL[9,3] = Exchange ID
+    CELL[9,4] = 0027738477
+    CELL[9,5] = Provider organization type
+    CELL[9,6] = HMO
+  ROW 10 | - | Certificate of Coverage | View | Enrollmenttype | Active Renewal | - | -
+    CELL[10,1] = Certificate of Coverage
+    CELL[10,2] = View
+    CELL[10,3] = Enrollmenttype
+    CELL[10,4] = Active Renewal
+  ROW 11 | - | - | - | - | - | OOA | No
+    CELL[11,5] = OOA
+    CELL[11,6] = No
+  ROW 12 | - | Summary of Benefits & Coverage | Vlew | Enrollment source | Ffm | - | -
+    CELL[12,1] = Summary of Benefits & Coverage
+    CELL[12,2] = Vlew
+    CELL[12,3] = Enrollment source
+    CELL[12,4] = Ffm
+  ROW 13 | Member tags | - | - | - | - | HSA compatible | No
+    CELL[13,0] = Member tags
+    CELL[13,5] = HSA compatible
+    CELL[13,6] = No
+  ROW 14 | - | ID Card | View | - | - | Has rider | No
+    CELL[14,1] = ID Card
+    CELL[14,2] = View
+    CELL[14,5] = Has rider
+    CELL[14,6] = No
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,15,1580,36] | conf=0.915 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[112,17,134,33] | text=Q
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1464,15,1550,36] | text=MR Melissa
+LINE 1 | bbox=[19,71,919,102] | conf=0.972 | text=Yisroel Dubov Member info Issues Policy details Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,152,102] | text=Yisroel Dubov
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[420,71,500,89] | text=Policy details
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[640,71,749,89] | text=Billing & payments
+  WORD | bbox=[762,73,818,89] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[22,115,64,132] | conf=0.986 | text=Active
+LINE 3 | bbox=[18,132,1238,176] | conf=0.986 | text=OSC78747909-01R213XB6D Holder - ON exc Viewing information for Policy details Actions
+  WORD | bbox=[18,140,181,176] | text=OSC78747909-01R213XB6D Holder - ON exc
+  WORD | bbox=[278,158,410,174] | text=Viewing information for
+  WORD | bbox=[280,132,392,150] | text=Policy details
+  WORD | bbox=[1189,144,1238,157] | text=Actions
+LINE 4 | bbox=[30,210,766,227] | conf=0.985 | text=Heads up note Silver Simple PCP Saver CSR 150 (01/01/2026 12/31/2026)
+  WORD | bbox=[30,210,115,227] | text=Heads up note
+  WORD | bbox=[428,211,766,224] | text=Silver Simple PCP Saver CSR 150 (01/01/2026 12/31/2026)
+LINE 5 | bbox=[276,229,992,248] | conf=0.970 | text=Plan details Tools
+  WORD | bbox=[276,229,347,248] | text=Plan details
+  WORD | bbox=[958,230,992,248] | text=Tools
+LINE 6 | bbox=[440,248,1269,283] | conf=0.957 | text=Sitver Simpht Cancelled C0R150-101/01/2026 01/01/2026) $55.76 Search in-network drugs View
+  WORD | bbox=[440,248,509,265] | text=Sitver Simpht
+  WORD | bbox=[440,269,490,283] | text=Cancelled
+  WORD | bbox=[575,252,688,261] | text=C0R150-101/01/2026
+  WORD | bbox=[699,251,769,264] | text=01/01/2026)
+  WORD | bbox=[886,254,929,275] | text=$55.76
+  WORD | bbox=[966,256,1109,274] | text=Search in-network drugs
+  WORD | bbox=[1225,254,1269,275] | text=View
+LINE 7 | bbox=[292,267,1269,306] | conf=0.945 | text=Cllent Oscar 492.00 Check benefits View
+  WORD | bbox=[292,267,334,306] | text=Cllent Oscar
+  WORD | bbox=[886,285,927,299] | text=492.00
+  WORD | bbox=[968,284,1055,300] | text=Check benefits
+  WORD | bbox=[1224,281,1269,304] | text=View
+LINE 8 | bbox=[71,306,1130,348] | conf=0.969 | text=Member actlons Plan name Silver Simple PCP Sa Silver Simple PCP Saver CSR150 (09/01/2025 12/31/2025) Oscar Community Resources
+  WORD | bbox=[71,307,161,320] | text=Member actlons
+  WORD | bbox=[292,310,410,348] | text=Plan name Silver Simple PCP Sa
+  WORD | bbox=[441,306,769,318] | text=Silver Simple PCP Saver CSR150 (09/01/2025 12/31/2025)
+  WORD | bbox=[969,312,1130,325] | text=Oscar Community Resources
+LINE 9 | bbox=[19,344,1275,392] | conf=0.986 | text=FLBroward Individual Type Cancelled Silver Simple PCP Saver (09/01/2O25 09/01/2025) /2025 Oscar Care offerings Learn more
+  WORD | bbox=[19,353,111,369] | text=FLBroward
+  WORD | bbox=[294,376,352,392] | text=Individual
+  WORD | bbox=[295,358,324,372] | text=Type
+  WORD | bbox=[440,363,490,376] | text=Cancelled
+  WORD | bbox=[441,344,642,356] | text=Silver Simple PCP Saver (09/01/2O25
+  WORD | bbox=[656,344,725,356] | text=09/01/2025)
+  WORD | bbox=[883,361,929,382] | text=/2025
+  WORD | bbox=[957,372,1076,391] | text=Oscar Care offerings
+  WORD | bbox=[1209,374,1275,391] | text=Learn more
+LINE 10 | bbox=[16,384,1269,419] | conf=0.990 | text=FLO3FLTeam Silver Simple PCP Saver (09/01/202509/01/2025) 1/2025 Virtual Urgent Care Yes
+  WORD | bbox=[16,384,125,406] | text=FLO3FLTeam
+  WORD | bbox=[440,397,724,410] | text=Silver Simple PCP Saver (09/01/202509/01/2025)
+  WORD | bbox=[885,390,929,407] | text=1/2025
+  WORD | bbox=[966,400,1079,419] | text=Virtual Urgent Care
+  WORD | bbox=[1245,404,1269,419] | text=Yes
+LINE 11 | bbox=[17,416,1270,447] | conf=0.993 | text=Oscarplan: Effective date 01/01/2026 Virtual Primary Care Yes
+  WORD | bbox=[17,419,106,439] | text=Oscarplan:
+  WORD | bbox=[628,418,708,430] | text=Effective date
+  WORD | bbox=[860,416,927,433] | text=01/01/2026
+  WORD | bbox=[968,429,1082,446] | text=Virtual Primary Care
+  WORD | bbox=[1242,428,1270,447] | text=Yes
+LINE 12 | bbox=[39,443,1269,489] | conf=0.992 | text=FL HMO Standard Silver Simple PCP Saver CSR 150 Plan essentials Medical Deductible Individual $0.00 Term reason Coverage end date 12/31/2026 Virtual mental health No
+  WORD | bbox=[39,461,142,477] | text=FL HMO Standard
+  WORD | bbox=[41,443,219,456] | text=Silver Simple PCP Saver CSR 150
+  WORD | bbox=[276,448,366,467] | text=Plan essentials
+  WORD | bbox=[286,474,398,486] | text=Medical Deductible
+  WORD | bbox=[538,449,596,466] | text=Individual
+  WORD | bbox=[551,471,589,489] | text=$0.00
+  WORD | bbox=[625,467,700,488] | text=Term reason
+  WORD | bbox=[626,444,735,461] | text=Coverage end date
+  WORD | bbox=[861,446,926,458] | text=12/31/2026
+  WORD | bbox=[966,454,1089,471] | text=Virtual mental health
+  WORD | bbox=[1248,456,1269,472] | text=No
+LINE 13 | bbox=[40,480,1269,498] | conf=0.966 | text=View ID card Eligible $o related care Yes
+  WORD | bbox=[40,480,114,496] | text=View ID card
+  WORD | bbox=[969,482,1096,495] | text=Eligible $o related care
+  WORD | bbox=[1244,482,1269,498] | text=Yes
+LINE 14 | bbox=[18,498,588,526] | conf=0.976 | text=Jeffin Alex Out-of-pocket max $1,750.00
+  WORD | bbox=[18,508,102,526] | text=Jeffin Alex
+  WORD | bbox=[286,498,398,516] | text=Out-of-pocket max
+  WORD | bbox=[532,498,588,516] | text=$1,750.00
+LINE 15 | bbox=[16,526,1013,575] | conf=0.981 | text=Effective 01/01/2026 Referrals Referral submissions Not required Not required Enrollment information Eligib Illity ID bc2c5d62f6224a6da9ed0377cc513e29 Network
+  WORD | bbox=[16,536,158,560] | text=Effective 01/01/2026
+  WORD | bbox=[285,526,341,542] | text=Referrals
+  WORD | bbox=[288,554,405,566] | text=Referral submissions
+  WORD | bbox=[512,526,589,542] | text=Not required
+  WORD | bbox=[514,554,586,566] | text=Not required
+  WORD | bbox=[619,532,751,549] | text=Enrollment information
+  WORD | bbox=[626,559,698,575] | text=Eligib Illity ID
+  WORD | bbox=[714,558,928,575] | text=bc2c5d62f6224a6da9ed0377cc513e29
+  WORD | bbox=[956,542,1013,563] | text=Network
+LINE 16 | bbox=[17,570,1269,602] | conf=0.981 | text=8 Individual Broker Charles Green Rating area FL - Broward
+  WORD | bbox=[17,570,98,591] | text=8 Individual
+  WORD | bbox=[625,584,669,602] | text=Broker
+  WORD | bbox=[845,584,928,602] | text=Charles Green
+  WORD | bbox=[968,570,1035,587] | text=Rating area
+  WORD | bbox=[1195,570,1269,587] | text=FL - Broward
+LINE 17 | bbox=[19,597,1270,642] | conf=0.989 | text=$Current Balance due Plan documents Exchange On exchange Tiering Provider network FL HMO Standard Yes
+  WORD | bbox=[19,605,161,624] | text=$Current Balance due
+  WORD | bbox=[278,615,371,631] | text=Plan documents
+  WORD | bbox=[623,609,685,630] | text=Exchange
+  WORD | bbox=[851,608,929,630] | text=On exchange
+  WORD | bbox=[963,621,1012,642] | text=Tiering
+  WORD | bbox=[968,597,1066,614] | text=Provider network
+  WORD | bbox=[1165,597,1269,614] | text=FL HMO Standard
+  WORD | bbox=[1244,623,1270,642] | text=Yes
+LINE 18 | bbox=[19,636,1269,674] | conf=0.993 | text=Oscar Unlocks Not activated Schedule of Benefits View Exchange ID 0027738477 Provider organization type HMO
+  WORD | bbox=[19,639,122,674] | text=Oscar Unlocks Not activated
+  WORD | bbox=[285,640,405,657] | text=Schedule of Benefits
+  WORD | bbox=[545,637,588,659] | text=View
+  WORD | bbox=[625,636,700,657] | text=Exchange ID
+  WORD | bbox=[861,640,927,653] | text=0027738477
+  WORD | bbox=[966,649,1116,667] | text=Provider organization type
+  WORD | bbox=[1234,649,1269,667] | text=HMO
+LINE 19 | bbox=[285,663,1268,694] | conf=0.994 | text=Certificate of Coverage View Enrollmenttype Active Renewal OOA No
+  WORD | bbox=[285,666,420,684] | text=Certificate of Coverage
+  WORD | bbox=[545,664,589,685] | text=View
+  WORD | bbox=[625,663,720,682] | text=Enrollmenttype
+  WORD | bbox=[841,667,927,680] | text=Active Renewal
+  WORD | bbox=[965,676,998,694] | text=OOA
+  WORD | bbox=[1248,677,1268,694] | text=No
+LINE 20 | bbox=[16,693,1270,727] | conf=0.971 | text=Member tags Summary of Benefits & Coverage Vlew Enrollment source Ffm HSA compatible No
+  WORD | bbox=[16,706,96,727] | text=Member tags
+  WORD | bbox=[285,694,471,710] | text=Summary of Benefits & Coverage
+  WORD | bbox=[546,695,588,709] | text=Vlew
+  WORD | bbox=[628,694,730,707] | text=Enrollment source
+  WORD | bbox=[902,693,927,708] | text=Ffm
+  WORD | bbox=[966,703,1061,721] | text=HSA compatible
+  WORD | bbox=[1245,703,1270,722] | text=No
+LINE 21 | bbox=[286,719,1269,749] | conf=0.971 | text=ID Card View Has rider No
+  WORD | bbox=[286,722,331,736] | text=ID Card
+  WORD | bbox=[545,719,588,737] | text=View
+  WORD | bbox=[965,728,1023,749] | text=Has rider
+  WORD | bbox=[1248,731,1269,747] | text=No
+LINE 22 | bbox=[22,745,175,761] | conf=0.962 | text=nextgen_billing_rosco_tag
+[/BOXES]
+
+[FIELDS]
+NPI: 0027738477
+[/FIELDS]

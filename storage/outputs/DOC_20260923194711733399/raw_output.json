@@ -1,0 +1,2901 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Curamind Claims Management David Kim PROC002 Logout\nBack to Dashboard\nProfessional Claim X Save changes\nClaim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days\nClaim: Professional 25115726708347 Member ID: H6887740210 ID: Company CAOMNI P3CA OMNI\nStatus: PENDING REVIEW Date Received: 11/14/2025 Service Date From: 11/07/2025\nAuth/Referra! Auth/Referral Auth/Referral\n#1(23): #2(23) #3(23):\nAuth/Ref Status: \nAuth/Ref Status: \nAuth/Ref Status: \nClaim Type: Professional Priority: 2 | HIGH\nGeneral Information\nMember ID: H6887740210 DAVIS, OLIVER\nProvider ID: 1098240233 OKONKWO MD, ADAEZE\nPrimary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED\nBirth Date: 11/13/1960 Gender (3) M Marital Status:M\nEOB Indicator MPPR Indicator\nPlace of Service(24b): 31 NURSING FACILITY SKILLED Facility: 49 SERVICE LOCATION\nOutcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY\nEOB Indicator: No\nMPPR Indicator: No",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 1042,
+      "text": "Curamind Claims Management David Kim PROC002 Logout\nBack to Dashboard\nProfessional Claim X Save changes\nClaim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days\nClaim: Professional 25115726708347 Member ID: H6887740210 ID: Company CAOMNI P3CA OMNI\nStatus: PENDING REVIEW Date Received: 11/14/2025 Service Date From: 11/07/2025\nAuth/Referra! Auth/Referral Auth/Referral\n#1(23): #2(23) #3(23):\nAuth/Ref Status: \nAuth/Ref Status: \nAuth/Ref Status: \nClaim Type: Professional Priority: 2 | HIGH\nGeneral Information\nMember ID: H6887740210 DAVIS, OLIVER\nProvider ID: 1098240233 OKONKWO MD, ADAEZE\nPrimary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED\nBirth Date: 11/13/1960 Gender (3) M Marital Status:M\nEOB Indicator MPPR Indicator\nPlace of Service(24b): 31 NURSING FACILITY SKILLED Facility: 49 SERVICE LOCATION\nOutcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY\nEOB Indicator: No\nMPPR Indicator: No",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "label_value",
+              "reading_order": 3,
+              "bbox": [
+                40,
+                176,
+                775,
+                192
+              ],
+              "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+                  "conf": 0.9460471868515015,
+                  "bbox": [
+                    40,
+                    176,
+                    775,
+                    192
+                  ],
+                  "words": [
+                    {
+                      "text": "Processor: David Kim",
+                      "conf": 0.9522015452384949,
+                      "bbox": [
+                        40,
+                        177,
+                        188,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "Last edit: 11/17/202509:12",
+                      "conf": 0.9653760194778442,
+                      "bbox": [
+                        238,
+                        177,
+                        432,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "ProcessorID:PROc002",
+                      "conf": 0.9131397604942322,
+                      "bbox": [
+                        431,
+                        176,
+                        607,
+                        191
+                      ]
+                    },
+                    {
+                      "text": "Decision SLA:2 days",
+                      "conf": 0.9534714221954346,
+                      "bbox": [
+                        633,
+                        176,
+                        775,
+                        191
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 5,
+              "bbox": [
+                38,
+                469,
+                227,
+                487
+              ],
+              "text": "General Information",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "General Information",
+                  "conf": 0.9868035316467285,
+                  "bbox": [
+                    38,
+                    469,
+                    227,
+                    487
+                  ],
+                  "words": [
+                    {
+                      "text": "General Information",
+                      "conf": 0.9868035316467285,
+                      "bbox": [
+                        38,
+                        469,
+                        227,
+                        487
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 6,
+              "bbox": [
+                33,
+                497,
+                438,
+                535
+              ],
+              "text": "ID: Member H6887740210 DAVIS, OLIVER",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "ID: Member H6887740210 DAVIS, OLIVER",
+                  "conf": 0.9836857438087463,
+                  "bbox": [
+                    33,
+                    497,
+                    438,
+                    535
+                  ],
+                  "words": [
+                    {
+                      "text": "ID:",
+                      "conf": 0.9473504424095154,
+                      "bbox": [
+                        33,
+                        516,
+                        57,
+                        534
+                      ]
+                    },
+                    {
+                      "text": "Member",
+                      "conf": 0.9974939227104187,
+                      "bbox": [
+                        34,
+                        499,
+                        91,
+                        518
+                      ]
+                    },
+                    {
+                      "text": "H6887740210",
+                      "conf": 0.9987807869911194,
+                      "bbox": [
+                        136,
+                        508,
+                        236,
+                        524
+                      ]
+                    },
+                    {
+                      "text": "DAVIS,",
+                      "conf": 0.9765017628669739,
+                      "bbox": [
+                        383,
+                        497,
+                        435,
+                        520
+                      ]
+                    },
+                    {
+                      "text": "OLIVER",
+                      "conf": 0.9983018040657043,
+                      "bbox": [
+                        386,
+                        519,
+                        438,
+                        535
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 8,
+              "bbox": [
+                35,
+                683,
+                424,
+                700
+              ],
+              "text": "EOB Indicator MPPR Indicator",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "EOB Indicator MPPR Indicator",
+                  "conf": 0.9481432139873505,
+                  "bbox": [
+                    35,
+                    683,
+                    424,
+                    700
+                  ],
+                  "words": [
+                    {
+                      "text": " EOB Indicator",
+                      "conf": 0.9386806488037109,
+                      "bbox": [
+                        35,
+                        684,
+                        141,
+                        700
+                      ]
+                    },
+                    {
+                      "text": "MPPR Indicator",
+                      "conf": 0.95760577917099,
+                      "bbox": [
+                        309,
+                        683,
+                        424,
+                        700
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 10,
+              "bbox": [
+                36,
+                760,
+                777,
+                798
+              ],
+              "text": "Outcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Outcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY",
+                  "conf": 0.9850901166598002,
+                  "bbox": [
+                    36,
+                    760,
+                    777,
+                    798
+                  ],
+                  "words": [
+                    {
+                      "text": "Outcome:",
+                      "conf": 0.9847399592399597,
+                      "bbox": [
+                        36,
+                        770,
+                        103,
+                        786
+                      ]
+                    },
+                    {
+                      "text": "06",
+                      "conf": 0.989622950553894,
+                      "bbox": [
+                        110,
+                        771,
+                        137,
+                        788
+                      ]
+                    },
+                    {
+                      "text": "DISCHARGED TO HOME HEALTH SERVICE",
+                      "conf": 0.9615963697433472,
+                      "bbox": [
+                        359,
+                        764,
+                        616,
+                        779
+                      ]
+                    },
+                    {
+                      "text": "Payer",
+                      "conf": 0.9963726997375488,
+                      "bbox": [
+                        642,
+                        760,
+                        685,
+                        782
+                      ]
+                    },
+                    {
+                      "text": "Resp:",
+                      "conf": 0.983523964881897,
+                      "bbox": [
+                        642,
+                        776,
+                        684,
+                        798
+                      ]
+                    },
+                    {
+                      "text": "PRIMARY",
+                      "conf": 0.9946847558021545,
+                      "bbox": [
+                        712,
+                        766,
+                        777,
+                        789
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days\nGeneral Information\nID: Member H6887740210 DAVIS, OLIVER\nEOB Indicator MPPR Indicator\nOutcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            26,
+            7,
+            1444,
+            78
+          ],
+          "text": "Curamind Claims Management David Kim PROC002 Logout\nBack to Dashboard",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Curamind Claims Management David Kim PROC002 Logout",
+              "conf": 0.9829472243785858,
+              "bbox": [
+                26,
+                7,
+                1404,
+                40
+              ],
+              "words": [
+                {
+                  "text": "Curamind",
+                  "conf": 0.9890196323394775,
+                  "bbox": [
+                    26,
+                    17,
+                    125,
+                    34
+                  ]
+                },
+                {
+                  "text": "Claims Management",
+                  "conf": 0.9942700862884521,
+                  "bbox": [
+                    142,
+                    17,
+                    295,
+                    35
+                  ]
+                },
+                {
+                  "text": "David Kim",
+                  "conf": 0.9976294934749603,
+                  "bbox": [
+                    1153,
+                    7,
+                    1194,
+                    40
+                  ]
+                },
+                {
+                  "text": "PROC002",
+                  "conf": 0.9340588450431824,
+                  "bbox": [
+                    1239,
+                    16,
+                    1307,
+                    31
+                  ]
+                },
+                {
+                  "text": "Logout",
+                  "conf": 0.9997580647468567,
+                  "bbox": [
+                    1351,
+                    16,
+                    1404,
+                    33
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Back to Dashboard",
+              "conf": 0.9788920283317566,
+              "bbox": [
+                1301,
+                63,
+                1444,
+                78
+              ],
+              "words": [
+                {
+                  "text": "Back to Dashboard",
+                  "conf": 0.9788920283317566,
+                  "bbox": [
+                    1301,
+                    63,
+                    1444,
+                    78
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            34,
+            65,
+            1419,
+            108
+          ],
+          "text": "Professional Claim X Save changes",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Professional Claim X Save changes",
+              "conf": 0.9254967421293259,
+              "bbox": [
+                34,
+                65,
+                1419,
+                108
+              ],
+              "words": [
+                {
+                  "text": "Professional Claim X",
+                  "conf": 0.857564240694046,
+                  "bbox": [
+                    34,
+                    65,
+                    164,
+                    108
+                  ]
+                },
+                {
+                  "text": "Save changes",
+                  "conf": 0.9934292435646057,
+                  "bbox": [
+                    1318,
+                    92,
+                    1419,
+                    108
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            48,
+            125,
+            689,
+            147
+          ],
+          "text": "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "conf": 0.9657745838165284,
+              "bbox": [
+                48,
+                125,
+                689,
+                147
+              ],
+              "words": [
+                {
+                  "text": "Claim Pg1",
+                  "conf": 0.9622339606285095,
+                  "bbox": [
+                    48,
+                    128,
+                    124,
+                    144
+                  ]
+                },
+                {
+                  "text": "Prov pg2",
+                  "conf": 0.9380863904953003,
+                  "bbox": [
+                    161,
+                    125,
+                    228,
+                    147
+                  ]
+                },
+                {
+                  "text": "Member Pg3",
+                  "conf": 0.9637344479560852,
+                  "bbox": [
+                    275,
+                    128,
+                    362,
+                    144
+                  ]
+                },
+                {
+                  "text": "Diagnosis Pg4",
+                  "conf": 0.9798805713653564,
+                  "bbox": [
+                    412,
+                    128,
+                    510,
+                    144
+                  ]
+                },
+                {
+                  "text": "Miscellaneous Pg5",
+                  "conf": 0.9849375486373901,
+                  "bbox": [
+                    561,
+                    126,
+                    689,
+                    144
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 3,
+          "bbox": [
+            40,
+            176,
+            775,
+            192
+          ],
+          "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+              "conf": 0.9460471868515015,
+              "bbox": [
+                40,
+                176,
+                775,
+                192
+              ],
+              "words": [
+                {
+                  "text": "Processor: David Kim",
+                  "conf": 0.9522015452384949,
+                  "bbox": [
+                    40,
+                    177,
+                    188,
+                    192
+                  ]
+                },
+                {
+                  "text": "Last edit: 11/17/202509:12",
+                  "conf": 0.9653760194778442,
+                  "bbox": [
+                    238,
+                    177,
+                    432,
+                    192
+                  ]
+                },
+                {
+                  "text": "ProcessorID:PROc002",
+                  "conf": 0.9131397604942322,
+                  "bbox": [
+                    431,
+                    176,
+                    607,
+                    191
+                  ]
+                },
+                {
+                  "text": "Decision SLA:2 days",
+                  "conf": 0.9534714221954346,
+                  "bbox": [
+                    633,
+                    176,
+                    775,
+                    191
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            34,
+            220,
+            1356,
+            448
+          ],
+          "text": "Claim: Professional 25115726708347 Member ID: H6887740210 ID: Company CAOMNI P3CA OMNI\nStatus: PENDING REVIEW Date Received: 11/14/2025 Service Date From: 11/07/2025\nAuth/Referra! Auth/Referral Auth/Referral\n#1(23): #2(23) #3(23):\nAuth/Ref Status: Auth/Ref Status: Auth/Ref Status:\nClaim Type: Professional Priority: 2 HIGH",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claim: Professional 25115726708347 Member ID: H6887740210 ID: Company CAOMNI P3CA OMNI",
+              "conf": 0.987239682674408,
+              "bbox": [
+                34,
+                220,
+                1356,
+                256
+              ],
+              "words": [
+                {
+                  "text": "Claim:",
+                  "conf": 0.983294665813446,
+                  "bbox": [
+                    34,
+                    236,
+                    80,
+                    256
+                  ]
+                },
+                {
+                  "text": "Professional",
+                  "conf": 0.9976406097412109,
+                  "bbox": [
+                    35,
+                    222,
+                    114,
+                    237
+                  ]
+                },
+                {
+                  "text": "25115726708347",
+                  "conf": 0.9988184571266174,
+                  "bbox": [
+                    134,
+                    227,
+                    278,
+                    244
+                  ]
+                },
+                {
+                  "text": "Member",
+                  "conf": 0.9973275661468506,
+                  "bbox": [
+                    308,
+                    220,
+                    365,
+                    239
+                  ]
+                },
+                {
+                  "text": "ID:",
+                  "conf": 0.952378511428833,
+                  "bbox": [
+                    308,
+                    237,
+                    334,
+                    255
+                  ]
+                },
+                {
+                  "text": "H6887740210",
+                  "conf": 0.9990274906158447,
+                  "bbox": [
+                    380,
+                    229,
+                    480,
+                    245
+                  ]
+                },
+                {
+                  "text": "ID:",
+                  "conf": 0.9527154564857483,
+                  "bbox": [
+                    952,
+                    233,
+                    979,
+                    255
+                  ]
+                },
+                {
+                  "text": "Company",
+                  "conf": 0.9984029531478882,
+                  "bbox": [
+                    955,
+                    220,
+                    1019,
+                    239
+                  ]
+                },
+                {
+                  "text": "CAOMNI",
+                  "conf": 0.997663676738739,
+                  "bbox": [
+                    1041,
+                    227,
+                    1102,
+                    247
+                  ]
+                },
+                {
+                  "text": "P3CA OMNI",
+                  "conf": 0.9951274394989014,
+                  "bbox": [
+                    1315,
+                    220,
+                    1356,
+                    251
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Status: PENDING REVIEW Date Received: 11/14/2025 Service Date From: 11/07/2025",
+              "conf": 0.9868594408035278,
+              "bbox": [
+                34,
+                266,
+                1107,
+                301
+              ],
+              "words": [
+                {
+                  "text": "Status:",
+                  "conf": 0.9873247146606445,
+                  "bbox": [
+                    34,
+                    277,
+                    84,
+                    297
+                  ]
+                },
+                {
+                  "text": "PENDING REVIEW",
+                  "conf": 0.9787536859512329,
+                  "bbox": [
+                    361,
+                    278,
+                    479,
+                    293
+                  ]
+                },
+                {
+                  "text": "Date",
+                  "conf": 0.9976972937583923,
+                  "bbox": [
+                    518,
+                    269,
+                    553,
+                    286
+                  ]
+                },
+                {
+                  "text": "Received:",
+                  "conf": 0.97907954454422,
+                  "bbox": [
+                    518,
+                    285,
+                    585,
+                    301
+                  ]
+                },
+                {
+                  "text": "11/14/2025",
+                  "conf": 0.9955183267593384,
+                  "bbox": [
+                    608,
+                    278,
+                    691,
+                    294
+                  ]
+                },
+                {
+                  "text": "Service Date",
+                  "conf": 0.9751377701759338,
+                  "bbox": [
+                    913,
+                    266,
+                    996,
+                    285
+                  ]
+                },
+                {
+                  "text": "From:",
+                  "conf": 0.9839265942573547,
+                  "bbox": [
+                    914,
+                    285,
+                    955,
+                    301
+                  ]
+                },
+                {
+                  "text": "11/07/2025",
+                  "conf": 0.997437596321106,
+                  "bbox": [
+                    1025,
+                    278,
+                    1107,
+                    294
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Auth/Referra! Auth/Referral Auth/Referral",
+              "conf": 0.9801859060923258,
+              "bbox": [
+                35,
+                314,
+                990,
+                334
+              ],
+              "words": [
+                {
+                  "text": "Auth/Referra!",
+                  "conf": 0.9811621308326721,
+                  "bbox": [
+                    35,
+                    317,
+                    121,
+                    334
+                  ]
+                },
+                {
+                  "text": "Auth/Referral",
+                  "conf": 0.9973045587539673,
+                  "bbox": [
+                    468,
+                    316,
+                    552,
+                    331
+                  ]
+                },
+                {
+                  "text": "Auth/Referral",
+                  "conf": 0.9620910286903381,
+                  "bbox": [
+                    903,
+                    314,
+                    990,
+                    333
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "#1(23): #2(23) #3(23):",
+              "conf": 0.8896220525105795,
+              "bbox": [
+                35,
+                333,
+                955,
+                350
+              ],
+              "words": [
+                {
+                  "text": "#1(23):",
+                  "conf": 0.9127334952354431,
+                  "bbox": [
+                    35,
+                    334,
+                    88,
+                    350
+                  ]
+                },
+                {
+                  "text": "#2(23)",
+                  "conf": 0.8544356822967529,
+                  "bbox": [
+                    468,
+                    333,
+                    519,
+                    349
+                  ]
+                },
+                {
+                  "text": "#3(23):",
+                  "conf": 0.9016969799995422,
+                  "bbox": [
+                    905,
+                    333,
+                    955,
+                    349
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Auth/Ref Status: Auth/Ref Status: Auth/Ref Status:",
+              "conf": 0.9902945086359978,
+              "bbox": [
+                35,
+                364,
+                1024,
+                398
+              ],
+              "words": [
+                {
+                  "text": "Auth/Ref",
+                  "conf": 0.9934921264648438,
+                  "bbox": [
+                    35,
+                    365,
+                    93,
+                    381
+                  ]
+                },
+                {
+                  "text": "Status:",
+                  "conf": 0.988161027431488,
+                  "bbox": [
+                    35,
+                    381,
+                    83,
+                    398
+                  ]
+                },
+                {
+                  "text": "Auth/Ref Status:",
+                  "conf": 0.9898760318756104,
+                  "bbox": [
+                    518,
+                    364,
+                    575,
+                    398
+                  ]
+                },
+                {
+                  "text": "Auth/Ref Status:",
+                  "conf": 0.989648848772049,
+                  "bbox": [
+                    967,
+                    364,
+                    1024,
+                    397
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "Claim Type: Professional Priority: 2 HIGH",
+              "conf": 0.9898345569769541,
+              "bbox": [
+                34,
+                411,
+                766,
+                448
+              ],
+              "words": [
+                {
+                  "text": "Claim",
+                  "conf": 0.9969746470451355,
+                  "bbox": [
+                    34,
+                    411,
+                    75,
+                    432
+                  ]
+                },
+                {
+                  "text": "Type:",
+                  "conf": 0.97484290599823,
+                  "bbox": [
+                    35,
+                    430,
+                    74,
+                    448
+                  ]
+                },
+                {
+                  "text": "Professional",
+                  "conf": 0.9984330534934998,
+                  "bbox": [
+                    105,
+                    423,
+                    190,
+                    440
+                  ]
+                },
+                {
+                  "text": "Priority:",
+                  "conf": 0.9745038151741028,
+                  "bbox": [
+                    412,
+                    417,
+                    467,
+                    441
+                  ]
+                },
+                {
+                  "text": "2",
+                  "conf": 0.997292697429657,
+                  "bbox": [
+                    485,
+                    426,
+                    496,
+                    438
+                  ]
+                },
+                {
+                  "text": "HIGH",
+                  "conf": 0.9969602227210999,
+                  "bbox": [
+                    727,
+                    421,
+                    766,
+                    438
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 5,
+          "bbox": [
+            38,
+            469,
+            227,
+            487
+          ],
+          "text": "General Information",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "General Information",
+              "conf": 0.9868035316467285,
+              "bbox": [
+                38,
+                469,
+                227,
+                487
+              ],
+              "words": [
+                {
+                  "text": "General Information",
+                  "conf": 0.9868035316467285,
+                  "bbox": [
+                    38,
+                    469,
+                    227,
+                    487
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 6,
+          "bbox": [
+            33,
+            497,
+            438,
+            535
+          ],
+          "text": "ID: Member H6887740210 DAVIS, OLIVER",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "ID: Member H6887740210 DAVIS, OLIVER",
+              "conf": 0.9836857438087463,
+              "bbox": [
+                33,
+                497,
+                438,
+                535
+              ],
+              "words": [
+                {
+                  "text": "ID:",
+                  "conf": 0.9473504424095154,
+                  "bbox": [
+                    33,
+                    516,
+                    57,
+                    534
+                  ]
+                },
+                {
+                  "text": "Member",
+                  "conf": 0.9974939227104187,
+                  "bbox": [
+                    34,
+                    499,
+                    91,
+                    518
+                  ]
+                },
+                {
+                  "text": "H6887740210",
+                  "conf": 0.9987807869911194,
+                  "bbox": [
+                    136,
+                    508,
+                    236,
+                    524
+                  ]
+                },
+                {
+                  "text": "DAVIS,",
+                  "conf": 0.9765017628669739,
+                  "bbox": [
+                    383,
+                    497,
+                    435,
+                    520
+                  ]
+                },
+                {
+                  "text": "OLIVER",
+                  "conf": 0.9983018040657043,
+                  "bbox": [
+                    386,
+                    519,
+                    438,
+                    535
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            34,
+            543,
+            775,
+            666
+          ],
+          "text": "Provider ID: 1098240233 OKONKWO MD, ADAEZE\nPrimary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED\nBirth Date: 11/13/1960 Gender (3) M Marital Status:M",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Provider ID: 1098240233 OKONKWO MD, ADAEZE",
+              "conf": 0.9759511500597,
+              "bbox": [
+                34,
+                543,
+                746,
+                578
+              ],
+              "words": [
+                {
+                  "text": "Provider",
+                  "conf": 0.9979320764541626,
+                  "bbox": [
+                    34,
+                    543,
+                    92,
+                    562
+                  ]
+                },
+                {
+                  "text": "ID:",
+                  "conf": 0.9418322443962097,
+                  "bbox": [
+                    34,
+                    561,
+                    59,
+                    578
+                  ]
+                },
+                {
+                  "text": "1098240233",
+                  "conf": 0.9990790486335754,
+                  "bbox": [
+                    391,
+                    552,
+                    480,
+                    569
+                  ]
+                },
+                {
+                  "text": "OKONKWO MD, ADAEZE",
+                  "conf": 0.9649612307548523,
+                  "bbox": [
+                    642,
+                    545,
+                    746,
+                    578
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Primary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED",
+              "conf": 0.9847932815551758,
+              "bbox": [
+                34,
+                589,
+                687,
+                627
+              ],
+              "words": [
+                {
+                  "text": "Primary",
+                  "conf": 0.9951428174972534,
+                  "bbox": [
+                    34,
+                    589,
+                    88,
+                    611
+                  ]
+                },
+                {
+                  "text": "Diagnosis:",
+                  "conf": 0.9931645393371582,
+                  "bbox": [
+                    34,
+                    608,
+                    103,
+                    627
+                  ]
+                },
+                {
+                  "text": "J06.9",
+                  "conf": 0.9691853523254395,
+                  "bbox": [
+                    158,
+                    600,
+                    200,
+                    618
+                  ]
+                },
+                {
+                  "text": "ACUTE UPPER RESPIRATORY INFECTION,",
+                  "conf": 0.9703809022903442,
+                  "bbox": [
+                    415,
+                    590,
+                    687,
+                    605
+                  ]
+                },
+                {
+                  "text": "UNSPECIFIED",
+                  "conf": 0.9960927963256836,
+                  "bbox": [
+                    415,
+                    605,
+                    508,
+                    622
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Birth Date: 11/13/1960 Gender (3) M Marital Status:M",
+              "conf": 0.9640007416407267,
+              "bbox": [
+                35,
+                634,
+                775,
+                666
+              ],
+              "words": [
+                {
+                  "text": "Birth",
+                  "conf": 0.9965370297431946,
+                  "bbox": [
+                    35,
+                    634,
+                    69,
+                    651
+                  ]
+                },
+                {
+                  "text": "Date:",
+                  "conf": 0.9683681726455688,
+                  "bbox": [
+                    35,
+                    650,
+                    74,
+                    666
+                  ]
+                },
+                {
+                  "text": "11/13/1960",
+                  "conf": 0.9973041415214539,
+                  "bbox": [
+                    115,
+                    642,
+                    197,
+                    658
+                  ]
+                },
+                {
+                  "text": "Gender (3)",
+                  "conf": 0.8806661367416382,
+                  "bbox": [
+                    393,
+                    642,
+                    469,
+                    657
+                  ]
+                },
+                {
+                  "text": "M",
+                  "conf": 0.9863923192024231,
+                  "bbox": [
+                    487,
+                    642,
+                    503,
+                    657
+                  ]
+                },
+                {
+                  "text": "Marital Status:M",
+                  "conf": 0.9547366499900818,
+                  "bbox": [
+                    653,
+                    640,
+                    775,
+                    657
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 8,
+          "bbox": [
+            35,
+            683,
+            424,
+            700
+          ],
+          "text": "EOB Indicator MPPR Indicator",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "EOB Indicator MPPR Indicator",
+              "conf": 0.9481432139873505,
+              "bbox": [
+                35,
+                683,
+                424,
+                700
+              ],
+              "words": [
+                {
+                  "text": " EOB Indicator",
+                  "conf": 0.9386806488037109,
+                  "bbox": [
+                    35,
+                    684,
+                    141,
+                    700
+                  ]
+                },
+                {
+                  "text": "MPPR Indicator",
+                  "conf": 0.95760577917099,
+                  "bbox": [
+                    309,
+                    683,
+                    424,
+                    700
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            36,
+            714,
+            1035,
+            752
+          ],
+          "text": "Place of Service(24b): 31 NURSING FACILITY SKILLED Facility: 49 SERVICE LOCATION",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Place of Service(24b): 31 NURSING FACILITY SKILLED Facility: 49 SERVICE LOCATION",
+              "conf": 0.9798107631504536,
+              "bbox": [
+                36,
+                714,
+                1035,
+                752
+              ],
+              "words": [
+                {
+                  "text": "Place of",
+                  "conf": 0.9832891225814819,
+                  "bbox": [
+                    36,
+                    720,
+                    90,
+                    736
+                  ]
+                },
+                {
+                  "text": "Service(24b):",
+                  "conf": 0.9594169855117798,
+                  "bbox": [
+                    36,
+                    736,
+                    124,
+                    751
+                  ]
+                },
+                {
+                  "text": "31",
+                  "conf": 0.9974411725997925,
+                  "bbox": [
+                    159,
+                    727,
+                    184,
+                    744
+                  ]
+                },
+                {
+                  "text": "NURSING FACILITY",
+                  "conf": 0.9778839349746704,
+                  "bbox": [
+                    435,
+                    734,
+                    555,
+                    752
+                  ]
+                },
+                {
+                  "text": "SKILLED",
+                  "conf": 0.9967662692070007,
+                  "bbox": [
+                    436,
+                    719,
+                    491,
+                    735
+                  ]
+                },
+                {
+                  "text": "Facility:",
+                  "conf": 0.9264233112335205,
+                  "bbox": [
+                    643,
+                    723,
+                    695,
+                    745
+                  ]
+                },
+                {
+                  "text": "49",
+                  "conf": 0.9990049600601196,
+                  "bbox": [
+                    712,
+                    726,
+                    736,
+                    744
+                  ]
+                },
+                {
+                  "text": "SERVICE LOCATION",
+                  "conf": 0.9982603490352631,
+                  "bbox": [
+                    965,
+                    714,
+                    1035,
+                    750
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 10,
+          "bbox": [
+            36,
+            760,
+            777,
+            798
+          ],
+          "text": "Outcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Outcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY",
+              "conf": 0.9850901166598002,
+              "bbox": [
+                36,
+                760,
+                777,
+                798
+              ],
+              "words": [
+                {
+                  "text": "Outcome:",
+                  "conf": 0.9847399592399597,
+                  "bbox": [
+                    36,
+                    770,
+                    103,
+                    786
+                  ]
+                },
+                {
+                  "text": "06",
+                  "conf": 0.989622950553894,
+                  "bbox": [
+                    110,
+                    771,
+                    137,
+                    788
+                  ]
+                },
+                {
+                  "text": "DISCHARGED TO HOME HEALTH SERVICE",
+                  "conf": 0.9615963697433472,
+                  "bbox": [
+                    359,
+                    764,
+                    616,
+                    779
+                  ]
+                },
+                {
+                  "text": "Payer",
+                  "conf": 0.9963726997375488,
+                  "bbox": [
+                    642,
+                    760,
+                    685,
+                    782
+                  ]
+                },
+                {
+                  "text": "Resp:",
+                  "conf": 0.983523964881897,
+                  "bbox": [
+                    642,
+                    776,
+                    684,
+                    798
+                  ]
+                },
+                {
+                  "text": "PRIMARY",
+                  "conf": 0.9946847558021545,
+                  "bbox": [
+                    712,
+                    766,
+                    777,
+                    789
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            26,
+            7,
+            1444,
+            798
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Curamind</td><td>Claims Management</td><td>David Kim PROC002 Logout</td><td></td></tr><tr><td></td><td></td><td>Back to Dashboard</td><td></td></tr><tr><td>Professional Claim X</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Save changes</td><td></td></tr><tr><td>Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5</td><td></td><td></td><td></td></tr><tr><td>Processor: David Kim</td><td>Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days</td><td></td><td></td></tr><tr><td>General Information</td><td></td><td></td><td></td></tr><tr><td>Member H6887740210</td><td>DAVIS,</td><td></td><td></td></tr><tr><td>ID</td><td>OLIVER</td><td></td><td></td></tr><tr><td>EOB Indicator</td><td>MPPR Indicator</td><td></td><td></td></tr><tr><td>Place of Service(24b)</td><td>31 NURSING FACILITY SKILLED Facility: 49</td><td>SERVICE LOCATION</td><td></td></tr><tr><td>Outcome</td><td>06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY</td><td></td><td></td></tr></table>",
+          "text": "Curamind: Claims Management\nDavid Kim PROC002 Logout: \nBack to Dashboard: \nProfessional Claim X: \nSave changes: \nClaim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5: \nProcessor: David Kim: Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days\nGeneral Information: \nMember H6887740210: DAVIS,\nID: OLIVER\nEOB Indicator: MPPR Indicator\nPlace of Service(24b): 31 NURSING FACILITY SKILLED Facility: 49\nSERVICE LOCATION: \nOutcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "Curamind",
+              "Claims Management",
+              "David Kim PROC002 Logout",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Back to Dashboard",
+              ""
+            ],
+            [
+              "Professional Claim X",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Save changes",
+              ""
+            ],
+            [
+              "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Processor: David Kim",
+              "Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+              "",
+              ""
+            ],
+            [
+              "General Information",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Member H6887740210",
+              "DAVIS,",
+              "",
+              ""
+            ],
+            [
+              "ID",
+              "OLIVER",
+              "",
+              ""
+            ],
+            [
+              "EOB Indicator",
+              "MPPR Indicator",
+              "",
+              ""
+            ],
+            [
+              "Place of Service(24b)",
+              "31 NURSING FACILITY SKILLED Facility: 49",
+              "SERVICE LOCATION",
+              ""
+            ],
+            [
+              "Outcome",
+              "06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "Curamind Claims Management",
+              "David Kim PROC002 Logout"
+            ],
+            [
+              "",
+              "Back to Dashboard"
+            ],
+            [
+              "Professional Claim X",
+              ""
+            ],
+            [
+              "",
+              "Save changes"
+            ],
+            [
+              "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              ""
+            ],
+            [
+              "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+              ""
+            ],
+            [
+              "General Information",
+              ""
+            ],
+            [
+              "Member H6887740210 DAVIS,",
+              ""
+            ],
+            [
+              "ID: OLIVER",
+              ""
+            ],
+            [
+              "EOB Indicator MPPR Indicator",
+              ""
+            ],
+            [
+              "Place of Service(24b): 31 NURSING FACILITY SKILLED Facility: 49",
+              "SERVICE LOCATION"
+            ],
+            [
+              "Outcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        }
+      ],
+      "checkboxes": [
+        {
+          "label": "EOB Indicator",
+          "value": "No",
+          "checked": false,
+          "bbox": [
+            35,
+            684,
+            141,
+            700
+          ],
+          "source": "standalone_indicator"
+        },
+        {
+          "label": "MPPR Indicator",
+          "value": "No",
+          "checked": false,
+          "bbox": [
+            309,
+            683,
+            424,
+            700
+          ],
+          "source": "standalone_indicator"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Curamind Claims Management David Kim PROC002 Logout",
+          "conf": 0.9829472243785858,
+          "bbox": [
+            26,
+            7,
+            1404,
+            40
+          ],
+          "words": [
+            {
+              "text": "Curamind",
+              "conf": 0.9890196323394775,
+              "bbox": [
+                26,
+                17,
+                125,
+                34
+              ]
+            },
+            {
+              "text": "Claims Management",
+              "conf": 0.9942700862884521,
+              "bbox": [
+                142,
+                17,
+                295,
+                35
+              ]
+            },
+            {
+              "text": "David Kim",
+              "conf": 0.9976294934749603,
+              "bbox": [
+                1153,
+                7,
+                1194,
+                40
+              ]
+            },
+            {
+              "text": "PROC002",
+              "conf": 0.9340588450431824,
+              "bbox": [
+                1239,
+                16,
+                1307,
+                31
+              ]
+            },
+            {
+              "text": "Logout",
+              "conf": 0.9997580647468567,
+              "bbox": [
+                1351,
+                16,
+                1404,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Back to Dashboard",
+          "conf": 0.9788920283317566,
+          "bbox": [
+            1301,
+            63,
+            1444,
+            78
+          ],
+          "words": [
+            {
+              "text": "Back to Dashboard",
+              "conf": 0.9788920283317566,
+              "bbox": [
+                1301,
+                63,
+                1444,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Professional Claim X Save changes",
+          "conf": 0.9254967421293259,
+          "bbox": [
+            34,
+            65,
+            1419,
+            108
+          ],
+          "words": [
+            {
+              "text": "Professional Claim X",
+              "conf": 0.857564240694046,
+              "bbox": [
+                34,
+                65,
+                164,
+                108
+              ]
+            },
+            {
+              "text": "Save changes",
+              "conf": 0.9934292435646057,
+              "bbox": [
+                1318,
+                92,
+                1419,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "conf": 0.9657745838165284,
+          "bbox": [
+            48,
+            125,
+            689,
+            147
+          ],
+          "words": [
+            {
+              "text": "Claim Pg1",
+              "conf": 0.9622339606285095,
+              "bbox": [
+                48,
+                128,
+                124,
+                144
+              ]
+            },
+            {
+              "text": "Prov pg2",
+              "conf": 0.9380863904953003,
+              "bbox": [
+                161,
+                125,
+                228,
+                147
+              ]
+            },
+            {
+              "text": "Member Pg3",
+              "conf": 0.9637344479560852,
+              "bbox": [
+                275,
+                128,
+                362,
+                144
+              ]
+            },
+            {
+              "text": "Diagnosis Pg4",
+              "conf": 0.9798805713653564,
+              "bbox": [
+                412,
+                128,
+                510,
+                144
+              ]
+            },
+            {
+              "text": "Miscellaneous Pg5",
+              "conf": 0.9849375486373901,
+              "bbox": [
+                561,
+                126,
+                689,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+          "conf": 0.9460471868515015,
+          "bbox": [
+            40,
+            176,
+            775,
+            192
+          ],
+          "words": [
+            {
+              "text": "Processor: David Kim",
+              "conf": 0.9522015452384949,
+              "bbox": [
+                40,
+                177,
+                188,
+                192
+              ]
+            },
+            {
+              "text": "Last edit: 11/17/202509:12",
+              "conf": 0.9653760194778442,
+              "bbox": [
+                238,
+                177,
+                432,
+                192
+              ]
+            },
+            {
+              "text": "ProcessorID:PROc002",
+              "conf": 0.9131397604942322,
+              "bbox": [
+                431,
+                176,
+                607,
+                191
+              ]
+            },
+            {
+              "text": "Decision SLA:2 days",
+              "conf": 0.9534714221954346,
+              "bbox": [
+                633,
+                176,
+                775,
+                191
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim: Professional 25115726708347 Member ID: H6887740210 ID: Company CAOMNI P3CA OMNI",
+          "conf": 0.987239682674408,
+          "bbox": [
+            34,
+            220,
+            1356,
+            256
+          ],
+          "words": [
+            {
+              "text": "Claim:",
+              "conf": 0.983294665813446,
+              "bbox": [
+                34,
+                236,
+                80,
+                256
+              ]
+            },
+            {
+              "text": "Professional",
+              "conf": 0.9976406097412109,
+              "bbox": [
+                35,
+                222,
+                114,
+                237
+              ]
+            },
+            {
+              "text": "25115726708347",
+              "conf": 0.9988184571266174,
+              "bbox": [
+                134,
+                227,
+                278,
+                244
+              ]
+            },
+            {
+              "text": "Member",
+              "conf": 0.9973275661468506,
+              "bbox": [
+                308,
+                220,
+                365,
+                239
+              ]
+            },
+            {
+              "text": "ID:",
+              "conf": 0.952378511428833,
+              "bbox": [
+                308,
+                237,
+                334,
+                255
+              ]
+            },
+            {
+              "text": "H6887740210",
+              "conf": 0.9990274906158447,
+              "bbox": [
+                380,
+                229,
+                480,
+                245
+              ]
+            },
+            {
+              "text": "ID:",
+              "conf": 0.9527154564857483,
+              "bbox": [
+                952,
+                233,
+                979,
+                255
+              ]
+            },
+            {
+              "text": "Company",
+              "conf": 0.9984029531478882,
+              "bbox": [
+                955,
+                220,
+                1019,
+                239
+              ]
+            },
+            {
+              "text": "CAOMNI",
+              "conf": 0.997663676738739,
+              "bbox": [
+                1041,
+                227,
+                1102,
+                247
+              ]
+            },
+            {
+              "text": "P3CA OMNI",
+              "conf": 0.9951274394989014,
+              "bbox": [
+                1315,
+                220,
+                1356,
+                251
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Status: PENDING REVIEW Date Received: 11/14/2025 Service Date From: 11/07/2025",
+          "conf": 0.9868594408035278,
+          "bbox": [
+            34,
+            266,
+            1107,
+            301
+          ],
+          "words": [
+            {
+              "text": "Status:",
+              "conf": 0.9873247146606445,
+              "bbox": [
+                34,
+                277,
+                84,
+                297
+              ]
+            },
+            {
+              "text": "PENDING REVIEW",
+              "conf": 0.9787536859512329,
+              "bbox": [
+                361,
+                278,
+                479,
+                293
+              ]
+            },
+            {
+              "text": "Date",
+              "conf": 0.9976972937583923,
+              "bbox": [
+                518,
+                269,
+                553,
+                286
+              ]
+            },
+            {
+              "text": "Received:",
+              "conf": 0.97907954454422,
+              "bbox": [
+                518,
+                285,
+                585,
+                301
+              ]
+            },
+            {
+              "text": "11/14/2025",
+              "conf": 0.9955183267593384,
+              "bbox": [
+                608,
+                278,
+                691,
+                294
+              ]
+            },
+            {
+              "text": "Service Date",
+              "conf": 0.9751377701759338,
+              "bbox": [
+                913,
+                266,
+                996,
+                285
+              ]
+            },
+            {
+              "text": "From:",
+              "conf": 0.9839265942573547,
+              "bbox": [
+                914,
+                285,
+                955,
+                301
+              ]
+            },
+            {
+              "text": "11/07/2025",
+              "conf": 0.997437596321106,
+              "bbox": [
+                1025,
+                278,
+                1107,
+                294
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Auth/Referra! Auth/Referral Auth/Referral",
+          "conf": 0.9801859060923258,
+          "bbox": [
+            35,
+            314,
+            990,
+            334
+          ],
+          "words": [
+            {
+              "text": "Auth/Referra!",
+              "conf": 0.9811621308326721,
+              "bbox": [
+                35,
+                317,
+                121,
+                334
+              ]
+            },
+            {
+              "text": "Auth/Referral",
+              "conf": 0.9973045587539673,
+              "bbox": [
+                468,
+                316,
+                552,
+                331
+              ]
+            },
+            {
+              "text": "Auth/Referral",
+              "conf": 0.9620910286903381,
+              "bbox": [
+                903,
+                314,
+                990,
+                333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "#1(23): #2(23) #3(23):",
+          "conf": 0.8896220525105795,
+          "bbox": [
+            35,
+            333,
+            955,
+            350
+          ],
+          "words": [
+            {
+              "text": "#1(23):",
+              "conf": 0.9127334952354431,
+              "bbox": [
+                35,
+                334,
+                88,
+                350
+              ]
+            },
+            {
+              "text": "#2(23)",
+              "conf": 0.8544356822967529,
+              "bbox": [
+                468,
+                333,
+                519,
+                349
+              ]
+            },
+            {
+              "text": "#3(23):",
+              "conf": 0.9016969799995422,
+              "bbox": [
+                905,
+                333,
+                955,
+                349
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Auth/Ref Status: Auth/Ref Status: Auth/Ref Status:",
+          "conf": 0.9902945086359978,
+          "bbox": [
+            35,
+            364,
+            1024,
+            398
+          ],
+          "words": [
+            {
+              "text": "Auth/Ref",
+              "conf": 0.9934921264648438,
+              "bbox": [
+                35,
+                365,
+                93,
+                381
+              ]
+            },
+            {
+              "text": "Status:",
+              "conf": 0.988161027431488,
+              "bbox": [
+                35,
+                381,
+                83,
+                398
+              ]
+            },
+            {
+              "text": "Auth/Ref Status:",
+              "conf": 0.9898760318756104,
+              "bbox": [
+                518,
+                364,
+                575,
+                398
+              ]
+            },
+            {
+              "text": "Auth/Ref Status:",
+              "conf": 0.989648848772049,
+              "bbox": [
+                967,
+                364,
+                1024,
+                397
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim Type: Professional Priority: 2 HIGH",
+          "conf": 0.9898345569769541,
+          "bbox": [
+            34,
+            411,
+            766,
+            448
+          ],
+          "words": [
+            {
+              "text": "Claim",
+              "conf": 0.9969746470451355,
+              "bbox": [
+                34,
+                411,
+                75,
+                432
+              ]
+            },
+            {
+              "text": "Type:",
+              "conf": 0.97484290599823,
+              "bbox": [
+                35,
+                430,
+                74,
+                448
+              ]
+            },
+            {
+              "text": "Professional",
+              "conf": 0.9984330534934998,
+              "bbox": [
+                105,
+                423,
+                190,
+                440
+              ]
+            },
+            {
+              "text": "Priority:",
+              "conf": 0.9745038151741028,
+              "bbox": [
+                412,
+                417,
+                467,
+                441
+              ]
+            },
+            {
+              "text": "2",
+              "conf": 0.997292697429657,
+              "bbox": [
+                485,
+                426,
+                496,
+                438
+              ]
+            },
+            {
+              "text": "HIGH",
+              "conf": 0.9969602227210999,
+              "bbox": [
+                727,
+                421,
+                766,
+                438
+              ]
+            }
+          ]
+        },
+        {
+          "text": "General Information",
+          "conf": 0.9868035316467285,
+          "bbox": [
+            38,
+            469,
+            227,
+            487
+          ],
+          "words": [
+            {
+              "text": "General Information",
+              "conf": 0.9868035316467285,
+              "bbox": [
+                38,
+                469,
+                227,
+                487
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ID: Member H6887740210 DAVIS, OLIVER",
+          "conf": 0.9836857438087463,
+          "bbox": [
+            33,
+            497,
+            438,
+            535
+          ],
+          "words": [
+            {
+              "text": "ID:",
+              "conf": 0.9473504424095154,
+              "bbox": [
+                33,
+                516,
+                57,
+                534
+              ]
+            },
+            {
+              "text": "Member",
+              "conf": 0.9974939227104187,
+              "bbox": [
+                34,
+                499,
+                91,
+                518
+              ]
+            },
+            {
+              "text": "H6887740210",
+              "conf": 0.9987807869911194,
+              "bbox": [
+                136,
+                508,
+                236,
+                524
+              ]
+            },
+            {
+              "text": "DAVIS,",
+              "conf": 0.9765017628669739,
+              "bbox": [
+                383,
+                497,
+                435,
+                520
+              ]
+            },
+            {
+              "text": "OLIVER",
+              "conf": 0.9983018040657043,
+              "bbox": [
+                386,
+                519,
+                438,
+                535
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Provider ID: 1098240233 OKONKWO MD, ADAEZE",
+          "conf": 0.9759511500597,
+          "bbox": [
+            34,
+            543,
+            746,
+            578
+          ],
+          "words": [
+            {
+              "text": "Provider",
+              "conf": 0.9979320764541626,
+              "bbox": [
+                34,
+                543,
+                92,
+                562
+              ]
+            },
+            {
+              "text": "ID:",
+              "conf": 0.9418322443962097,
+              "bbox": [
+                34,
+                561,
+                59,
+                578
+              ]
+            },
+            {
+              "text": "1098240233",
+              "conf": 0.9990790486335754,
+              "bbox": [
+                391,
+                552,
+                480,
+                569
+              ]
+            },
+            {
+              "text": "OKONKWO MD, ADAEZE",
+              "conf": 0.9649612307548523,
+              "bbox": [
+                642,
+                545,
+                746,
+                578
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Primary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED",
+          "conf": 0.9847932815551758,
+          "bbox": [
+            34,
+            589,
+            687,
+            627
+          ],
+          "words": [
+            {
+              "text": "Primary",
+              "conf": 0.9951428174972534,
+              "bbox": [
+                34,
+                589,
+                88,
+                611
+              ]
+            },
+            {
+              "text": "Diagnosis:",
+              "conf": 0.9931645393371582,
+              "bbox": [
+                34,
+                608,
+                103,
+                627
+              ]
+            },
+            {
+              "text": "J06.9",
+              "conf": 0.9691853523254395,
+              "bbox": [
+                158,
+                600,
+                200,
+                618
+              ]
+            },
+            {
+              "text": "ACUTE UPPER RESPIRATORY INFECTION,",
+              "conf": 0.9703809022903442,
+              "bbox": [
+                415,
+                590,
+                687,
+                605
+              ]
+            },
+            {
+              "text": "UNSPECIFIED",
+              "conf": 0.9960927963256836,
+              "bbox": [
+                415,
+                605,
+                508,
+                622
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Birth Date: 11/13/1960 Gender (3) M Marital Status:M",
+          "conf": 0.9640007416407267,
+          "bbox": [
+            35,
+            634,
+            775,
+            666
+          ],
+          "words": [
+            {
+              "text": "Birth",
+              "conf": 0.9965370297431946,
+              "bbox": [
+                35,
+                634,
+                69,
+                651
+              ]
+            },
+            {
+              "text": "Date:",
+              "conf": 0.9683681726455688,
+              "bbox": [
+                35,
+                650,
+                74,
+                666
+              ]
+            },
+            {
+              "text": "11/13/1960",
+              "conf": 0.9973041415214539,
+              "bbox": [
+                115,
+                642,
+                197,
+                658
+              ]
+            },
+            {
+              "text": "Gender (3)",
+              "conf": 0.8806661367416382,
+              "bbox": [
+                393,
+                642,
+                469,
+                657
+              ]
+            },
+            {
+              "text": "M",
+              "conf": 0.9863923192024231,
+              "bbox": [
+                487,
+                642,
+                503,
+                657
+              ]
+            },
+            {
+              "text": "Marital Status:M",
+              "conf": 0.9547366499900818,
+              "bbox": [
+                653,
+                640,
+                775,
+                657
+              ]
+            }
+          ]
+        },
+        {
+          "text": "EOB Indicator MPPR Indicator",
+          "conf": 0.9481432139873505,
+          "bbox": [
+            35,
+            683,
+            424,
+            700
+          ],
+          "words": [
+            {
+              "text": " EOB Indicator",
+              "conf": 0.9386806488037109,
+              "bbox": [
+                35,
+                684,
+                141,
+                700
+              ]
+            },
+            {
+              "text": "MPPR Indicator",
+              "conf": 0.95760577917099,
+              "bbox": [
+                309,
+                683,
+                424,
+                700
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Place of Service(24b): 31 NURSING FACILITY SKILLED Facility: 49 SERVICE LOCATION",
+          "conf": 0.9798107631504536,
+          "bbox": [
+            36,
+            714,
+            1035,
+            752
+          ],
+          "words": [
+            {
+              "text": "Place of",
+              "conf": 0.9832891225814819,
+              "bbox": [
+                36,
+                720,
+                90,
+                736
+              ]
+            },
+            {
+              "text": "Service(24b):",
+              "conf": 0.9594169855117798,
+              "bbox": [
+                36,
+                736,
+                124,
+                751
+              ]
+            },
+            {
+              "text": "31",
+              "conf": 0.9974411725997925,
+              "bbox": [
+                159,
+                727,
+                184,
+                744
+              ]
+            },
+            {
+              "text": "NURSING FACILITY",
+              "conf": 0.9778839349746704,
+              "bbox": [
+                435,
+                734,
+                555,
+                752
+              ]
+            },
+            {
+              "text": "SKILLED",
+              "conf": 0.9967662692070007,
+              "bbox": [
+                436,
+                719,
+                491,
+                735
+              ]
+            },
+            {
+              "text": "Facility:",
+              "conf": 0.9264233112335205,
+              "bbox": [
+                643,
+                723,
+                695,
+                745
+              ]
+            },
+            {
+              "text": "49",
+              "conf": 0.9990049600601196,
+              "bbox": [
+                712,
+                726,
+                736,
+                744
+              ]
+            },
+            {
+              "text": "SERVICE LOCATION",
+              "conf": 0.9982603490352631,
+              "bbox": [
+                965,
+                714,
+                1035,
+                750
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Outcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY",
+          "conf": 0.9850901166598002,
+          "bbox": [
+            36,
+            760,
+            777,
+            798
+          ],
+          "words": [
+            {
+              "text": "Outcome:",
+              "conf": 0.9847399592399597,
+              "bbox": [
+                36,
+                770,
+                103,
+                786
+              ]
+            },
+            {
+              "text": "06",
+              "conf": 0.989622950553894,
+              "bbox": [
+                110,
+                771,
+                137,
+                788
+              ]
+            },
+            {
+              "text": "DISCHARGED TO HOME HEALTH SERVICE",
+              "conf": 0.9615963697433472,
+              "bbox": [
+                359,
+                764,
+                616,
+                779
+              ]
+            },
+            {
+              "text": "Payer",
+              "conf": 0.9963726997375488,
+              "bbox": [
+                642,
+                760,
+                685,
+                782
+              ]
+            },
+            {
+              "text": "Resp:",
+              "conf": 0.983523964881897,
+              "bbox": [
+                642,
+                776,
+                684,
+                798
+              ]
+            },
+            {
+              "text": "PRIMARY",
+              "conf": 0.9946847558021545,
+              "bbox": [
+                712,
+                766,
+                777,
+                789
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

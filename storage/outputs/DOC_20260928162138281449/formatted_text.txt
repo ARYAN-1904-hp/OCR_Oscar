@@ -1,0 +1,235 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=16 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 30x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | - | -
+  CELL[1,0] = VERINT
+ROW 2 | Knowledge Management | - | - | -
+  CELL[2,0] = Knowledge Management
+ROW 3 | Search knowledge. | Q | - | -
+  CELL[3,0] = Search knowledge.
+  CELL[3,1] = Q
+ROW 4 | D | Search | - | -
+  CELL[4,0] = D
+  CELL[4,1] = Search
+ROW 5 | Q | - | - | -
+  CELL[5,0] = Q
+ROW 6 | My Bookmarks (17) F | - | - | -
+  CELL[6,0] = My Bookmarks (17) F
+ROW 7 | Filter | Q | - | -
+  CELL[7,0] = Filter
+  CELL[7,1] = Q
+ROW 8 | state | specific rules, processing flow and claim splitting | - | -
+  CELL[8,0] = state
+  CELL[8,1] = specific rules, processing flow and claim splitting
+ROW 9 | procedures around appropriate claims coverage for newborns. | - | - | -
+  CELL[9,0] = procedures around appropriate claims coverage for newborns.
+ROW 10 | Following the birth | - | - | -
+  CELL[10,0] = Following the birth
+ROW 11 | Claims Tasks | Locating Authorization and Determining | - | -
+  CELL[11,0] = Claims Tasks
+  CELL[11,1] = Locating Authorization and Determining
+ROW 12 | Authorization Status | - | - | -
+  CELL[12,0] = Authorization Status
+ROW 13 | Summary The purpose of this article is to assist processors in | - | - | -
+  CELL[13,0] = Summary The purpose of this article is to assist processors in
+ROW 14 | locating authorization and determining authorization status for a | - | - | -
+  CELL[14,0] = locating authorization and determining authorization status for a
+ROW 15 | claim. This is often necessary in workflows such as: | - | - | -
+  CELL[15,0] = claim. This is often necessary in workflows such as:
+ROW 16 | authorization | - | - | -
+  CELL[16,0] = authorization
+ROW 17 | Claims Disputes | Authorization Exceptions | - | -
+  CELL[17,0] = Claims Disputes
+  CELL[17,1] = Authorization Exceptions
+ROW 18 | Scope (Authorization Exceptions) Below are known authorization | - | - | -
+  CELL[18,0] = Scope (Authorization Exceptions) Below are known authorization
+ROW 19 | processing issues, or exceptions to the rules, as of the date of | - | - | -
+  CELL[19,0] = processing issues, or exceptions to the rules, as of the date of
+ROW 20 | this document. Please be aware when working authorization | - | - | -
+  CELL[20,0] = this document. Please be aware when working authorization
+ROW 21 | disputes. | - | - | -
+  CELL[21,0] = disputes.
+ROW 22 | Standard Reviews for All Pre-Payment and Post-Payment | - | - | -
+  CELL[22,0] = Standard Reviews for All Pre-Payment and Post-Payment
+ROW 23 | Tickets | - | - | -
+  CELL[23,0] = Tickets
+ROW 24 | Purpose/Summary The purpose of this procedure is to ensure | - | - | -
+  CELL[24,0] = Purpose/Summary The purpose of this procedure is to ensure
+ROW 25 | consistent processing across Claims Operations in both pre | - | - | -
+  CELL[25,0] = consistent processing across Claims Operations in both pre
+ROW 26 | payment andpost-payment workflows. Oscar Health Claims | - | - | -
+  CELL[26,0] = payment andpost-payment workflows. Oscar Health Claims
+ROW 27 | Operations procedures | - | - | -
+  CELL[27,0] = Operations procedures
+ROW 28 | Document Triaginge | - | - | -
+  CELL[28,0] = Document Triaginge
+ROW 29 | 17 Bookmarks | - | - | -
+  CELL[29,0] = 17 Bookmarks
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[59,13,150,34] | order=0
+  VERINT
+BLOCK 1 | type=header | bbox=[31,37,177,53] | order=1
+  Knowledge Management
+BLOCK 2 | type=heading | bbox=[5,84,545,134] | order=2
+  D Search knowledge. Q Search
+BLOCK 3 | type=paragraph | bbox=[302,123,326,145] | order=3
+  Q
+BLOCK 4 | type=label_value | bbox=[31,171,509,193] | order=4
+  My Bookmarks (17) F:
+BLOCK 5 | type=heading | bbox=[221,208,494,225] | order=5
+  Filter Q
+BLOCK 6 | type=paragraph | bbox=[79,246,479,295] | order=6
+  state specific rules, processing flow and claim splitting
+  procedures around appropriate claims coverage for newborns.
+  Following the birth
+BLOCK 7 | type=label_value | bbox=[80,323,435,340] | order=7
+  Claims Tasks: Locating Authorization and Determining
+BLOCK 8 | type=heading | bbox=[79,339,218,356] | order=8
+  Authorization Status
+BLOCK 9 | type=paragraph | bbox=[79,362,494,398] | order=9
+  Summary The purpose of this article is to assist processors in
+  locating authorization and determining authorization status for a
+BLOCK 10 | type=label_value | bbox=[80,396,411,412] | order=10
+  claim. This is often necessary in workflows such as:
+BLOCK 11 | type=paragraph | bbox=[80,416,165,429] | order=11
+  authorization
+BLOCK 12 | type=label_value | bbox=[81,460,360,476] | order=12
+  Claims Disputes: Authorization Exceptions
+BLOCK 13 | type=paragraph | bbox=[77,484,495,685] | order=13
+  Scope (Authorization Exceptions) Below are known authorization
+  processing issues, or exceptions to the rules, as of the date of
+  this document. Please be aware when working authorization
+  disputes.
+  Standard Reviews for All Pre-Payment and Post-Payment
+  Tickets
+  Purpose/Summary The purpose of this procedure is to ensure
+  consistent processing across Claims Operations in both pre
+  payment andpost-payment workflows. Oscar Health Claims
+  Operations procedures
+BLOCK 14 | type=footer | bbox=[77,713,519,738] | order=14
+  Document Triaginge:
+BLOCK 15 | type=footer | bbox=[434,745,521,765] | order=15
+  17 Bookmarks
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[5,13,545,765] | shape=30x4 | conf=0.920
+  shape: 30x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | - | -
+    CELL[1,0] = VERINT
+  ROW 2 | Knowledge Management | - | - | -
+    CELL[2,0] = Knowledge Management
+  ROW 3 | Search knowledge. | Q | - | -
+    CELL[3,0] = Search knowledge.
+    CELL[3,1] = Q
+  ROW 4 | D | Search | - | -
+    CELL[4,0] = D
+    CELL[4,1] = Search
+  ROW 5 | Q | - | - | -
+    CELL[5,0] = Q
+  ROW 6 | My Bookmarks (17) F | - | - | -
+    CELL[6,0] = My Bookmarks (17) F
+  ROW 7 | Filter | Q | - | -
+    CELL[7,0] = Filter
+    CELL[7,1] = Q
+  ROW 8 | state | specific rules, processing flow and claim splitting | - | -
+    CELL[8,0] = state
+    CELL[8,1] = specific rules, processing flow and claim splitting
+  ROW 9 | procedures around appropriate claims coverage for newborns. | - | - | -
+    CELL[9,0] = procedures around appropriate claims coverage for newborns.
+  ROW 10 | Following the birth | - | - | -
+    CELL[10,0] = Following the birth
+  ROW 11 | Claims Tasks | Locating Authorization and Determining | - | -
+    CELL[11,0] = Claims Tasks
+    CELL[11,1] = Locating Authorization and Determining
+  ROW 12 | Authorization Status | - | - | -
+    CELL[12,0] = Authorization Status
+  ROW 13 | Summary The purpose of this article is to assist processors in | - | - | -
+    CELL[13,0] = Summary The purpose of this article is to assist processors in
+  ROW 14 | locating authorization and determining authorization status for a | - | - | -
+    CELL[14,0] = locating authorization and determining authorization status for a
+  ROW 15 | claim. This is often necessary in workflows such as: | - | - | -
+    CELL[15,0] = claim. This is often necessary in workflows such as:
+  ROW 16 | authorization | - | - | -
+    CELL[16,0] = authorization
+  ROW 17 | Claims Disputes | Authorization Exceptions | - | -
+    CELL[17,0] = Claims Disputes
+    CELL[17,1] = Authorization Exceptions
+  ROW 18 | Scope (Authorization Exceptions) Below are known authorization | - | - | -
+    CELL[18,0] = Scope (Authorization Exceptions) Below are known authorization
+  ROW 19 | processing issues, or exceptions to the rules, as of the date of | - | - | -
+    CELL[19,0] = processing issues, or exceptions to the rules, as of the date of
+  ROW 20 | this document. Please be aware when working authorization | - | - | -
+    CELL[20,0] = this document. Please be aware when working authorization
+  ROW 21 | disputes. | - | - | -
+    CELL[21,0] = disputes.
+  ROW 22 | Standard Reviews for All Pre-Payment and Post-Payment | - | - | -
+    CELL[22,0] = Standard Reviews for All Pre-Payment and Post-Payment
+  ROW 23 | Tickets | - | - | -
+    CELL[23,0] = Tickets
+  ROW 24 | Purpose/Summary The purpose of this procedure is to ensure | - | - | -
+    CELL[24,0] = Purpose/Summary The purpose of this procedure is to ensure
+  ROW 25 | consistent processing across Claims Operations in both pre | - | - | -
+    CELL[25,0] = consistent processing across Claims Operations in both pre
+  ROW 26 | payment andpost-payment workflows. Oscar Health Claims | - | - | -
+    CELL[26,0] = payment andpost-payment workflows. Oscar Health Claims
+  ROW 27 | Operations procedures | - | - | -
+    CELL[27,0] = Operations procedures
+  ROW 28 | Document Triaginge | - | - | -
+    CELL[28,0] = Document Triaginge
+  ROW 29 | 17 Bookmarks | - | - | -
+    CELL[29,0] = 17 Bookmarks
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,13,150,34] | conf=0.998 | text=VERINT
+LINE 1 | bbox=[31,37,177,53] | conf=0.992 | text=Knowledge Management
+LINE 2 | bbox=[5,84,545,134] | conf=0.853 | text=D Search knowledge. Q Search
+  WORD | bbox=[5,103,12,113] | text=D
+  WORD | bbox=[32,89,146,106] | text=Search knowledge.
+  WORD | bbox=[495,88,512,106] | text=Q
+  WORD | bbox=[528,84,545,134] | text=Search
+LINE 3 | bbox=[302,123,326,145] | conf=0.923 | text=Q
+LINE 4 | bbox=[31,171,509,193] | conf=0.931 | text=My Bookmarks (17) F:
+  WORD | bbox=[31,172,212,192] | text=My Bookmarks (17)
+  WORD | bbox=[447,171,509,193] | text=F:
+LINE 5 | bbox=[221,208,494,225] | conf=0.926 | text=Filter Q
+  WORD | bbox=[221,210,255,224] | text=Filter
+  WORD | bbox=[476,208,494,225] | text=Q
+LINE 6 | bbox=[79,246,431,262] | conf=0.994 | text=state specific rules, processing flow and claim splitting
+LINE 7 | bbox=[81,265,479,278] | conf=0.988 | text=procedures around appropriate claims coverage for newborns.
+LINE 8 | bbox=[79,279,203,295] | conf=0.998 | text=Following the birth
+LINE 9 | bbox=[80,323,435,340] | conf=0.984 | text=Claims Tasks: Locating Authorization and Determining
+LINE 10 | bbox=[79,339,218,356] | conf=0.994 | text=Authorization Status
+LINE 11 | bbox=[79,362,478,383] | conf=0.985 | text=Summary The purpose of this article is to assist processors in
+LINE 12 | bbox=[79,381,494,398] | conf=0.990 | text=locating authorization and determining authorization status for a
+LINE 13 | bbox=[80,396,411,412] | conf=0.976 | text=claim. This is often necessary in workflows such as:
+LINE 14 | bbox=[80,416,165,429] | conf=0.997 | text=authorization
+LINE 15 | bbox=[81,460,360,476] | conf=0.990 | text=Claims Disputes: Authorization Exceptions
+LINE 16 | bbox=[80,484,495,500] | conf=0.992 | text=Scope (Authorization Exceptions) Below are known authorization
+LINE 17 | bbox=[80,500,480,517] | conf=0.980 | text=processing issues, or exceptions to the rules, as of the date of
+LINE 18 | bbox=[77,516,468,535] | conf=0.973 | text=this document. Please be aware when working authorization
+LINE 19 | bbox=[80,532,139,551] | conf=0.983 | text=disputes.
+LINE 20 | bbox=[80,579,455,596] | conf=0.982 | text=Standard Reviews for All Pre-Payment and Post-Payment
+LINE 21 | bbox=[81,597,130,611] | conf=0.997 | text=Tickets
+LINE 22 | bbox=[90,620,488,637] | conf=0.975 | text=Purpose/Summary The purpose of this procedure is to ensure
+LINE 23 | bbox=[79,635,468,653] | conf=0.990 | text=consistent processing across Claims Operations in both pre
+LINE 24 | bbox=[81,656,465,668] | conf=0.971 | text=payment andpost-payment workflows. Oscar Health Claims
+LINE 25 | bbox=[79,668,229,685] | conf=0.997 | text=Operations procedures
+LINE 26 | bbox=[77,713,519,738] | conf=0.954 | text=Document Triaginge:
+  WORD | bbox=[77,713,206,732] | text=Document Triaginge
+  WORD | bbox=[502,717,519,738] | text=:
+LINE 27 | bbox=[434,745,521,765] | conf=0.974 | text=17 Bookmarks
+[/BOXES]

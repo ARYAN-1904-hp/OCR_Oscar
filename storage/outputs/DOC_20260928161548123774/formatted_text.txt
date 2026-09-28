@@ -1,0 +1,20 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=1 | tables=0 | checkboxes=0
+
+[TEXT]
+Knowledge Management VERINT MR
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[30,13,1569,55] | order=0
+  Knowledge Management VERINT MR
+[/LAYOUT]
+
+[BOXES]
+LINE 0 | bbox=[30,13,1569,55] | conf=0.995 | text=Knowledge Management VERINT MR
+  WORD | bbox=[30,38,179,55] | text=Knowledge Management
+  WORD | bbox=[59,13,150,34] | text=VERINT
+  WORD | bbox=[1539,25,1569,45] | text=MR
+[/BOXES]

@@ -1,0 +1,296 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=15 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 24x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | a Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = a Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Heads up note | - | - | -
+  CELL[2,0] = Heads up note
+ROW 3 | DB74BR1S | - | $30.00 | -
+  CELL[3,0] = DB74BR1S
+  CELL[3,2] = $30.00
+ROW 4 | + Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more | - | Pald | -
+  CELL[4,0] = + Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more
+  CELL[4,2] = Pald
+ROW 5 | Memorial Urgent Care Center Shoji Ajl | - | - | -
+  CELL[5,0] = Memorial Urgent Care Center Shoji Ajl
+ROW 6 | Member actions | Service on Mar 12, 2026 Accumulation on Mar 17, 2026 | - | -
+  CELL[6,0] = Member actions
+  CELL[6,1] = Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+ROW 7 | Applies to OOPM - Cumulative OOPM$30.00 | - | - | -
+  CELL[7,0] = Applies to OOPM - Cumulative OOPM$30.00
+ROW 8 | FLBroward | - | - | -
+  CELL[8,0] = FLBroward
+ROW 9 | FLO3FLTeam | - | - | -
+  CELL[9,0] = FLO3FLTeam
+ROW 10 | Oscarplan | NJHSBVP9 | $0.00 | -
+  CELL[10,0] = Oscarplan
+  CELL[10,1] = NJHSBVP9
+  CELL[10,2] = $0.00
+ROW 11 | Silver Simple PCP Saver CSR 150 | Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more | Pald | -
+  CELL[11,0] = Silver Simple PCP Saver CSR 150
+  CELL[11,1] = Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more
+  CELL[11,2] = Pald
+ROW 12 | FL HMO Standard | Oscar Medical Group Lorilea Williams | - | -
+  CELL[12,0] = FL HMO Standard
+  CELL[12,1] = Oscar Medical Group Lorilea Williams
+ROW 13 | View ID card | Service on Feb 13, 2026 - Accumulation on Feb 15, 2026 | - | -
+  CELL[13,0] = View ID card
+  CELL[13,1] = Service on Feb 13, 2026 - Accumulation on Feb 15, 2026
+ROW 14 | Jeffin Alex | - | - | -
+  CELL[14,0] = Jeffin Alex
+ROW 15 | Effective 01/01/2026 | - | - | -
+  CELL[15,0] = Effective 01/01/2026
+ROW 16 | 8 Individual | 5YNC6CCH | $0.00 | -
+  CELL[16,0] = 8 Individual
+  CELL[16,1] = 5YNC6CCH
+  CELL[16,2] = $0.00
+ROW 17 | Medical claim Initial new patient preventive medicine evaluation (younger than 1 year) | - | Paid | -
+  CELL[17,0] = Medical claim Initial new patient preventive medicine evaluation (younger than 1 year)
+  CELL[17,2] = Paid
+ROW 18 | $Current Balance due | - | - | -
+  CELL[18,0] = $Current Balance due
+ROW 19 | No facility referenced - Rebecca Ohayon | - | - | -
+  CELL[19,0] = No facility referenced - Rebecca Ohayon
+ROW 20 | Oscar Unlocks Not activated | Service On Sep17, 2025 Accumulation on Mar 12, 2026 | - | -
+  CELL[20,0] = Oscar Unlocks Not activated
+  CELL[20,1] = Service On Sep17, 2025 Accumulation on Mar 12, 2026
+ROW 21 | Member tags | - | - | -
+  CELL[21,0] = Member tags
+ROW 22 | AAMSZV4Y | - | $0.00 | -
+  CELL[22,0] = AAMSZV4Y
+  CELL[22,2] = $0.00
+ROW 23 | nextgen_billing_rosco_tag | Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn | Paid | -
+  CELL[23,0] = nextgen_billing_rosco_tag
+  CELL[23,1] = Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn
+  CELL[23,2] = Paid
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 4x9
+HEADER | Yisroel Dubov | Member info | Issues | Policy detalls | Benefits | Claims | Billing & payments | Rewards | Authorizations
+ROW 1 | Active | - | - | - | - | - | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | - | . Paid
+  CELL[1,0] = Active
+  CELL[1,6] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  CELL[1,8] = . Paid
+ROW 2 | OSC78747909-01 - R213XB6D : | - | - | Oscar Medical Group Nathan Lycan | - | - | - | - | -
+  CELL[2,0] = OSC78747909-01 - R213XB6D :
+  CELL[2,3] = Oscar Medical Group Nathan Lycan
+ROW 3 | Holder - ON exc | - | - | Service on Mar 31, 2026 Accumulation on Apr 2, 2026 | - | - | - | - | -
+  CELL[3,0] = Holder - ON exc
+  CELL[3,3] = Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,14,1580,102] | order=0
+  rosco a Search Rosco MR Melissa
+  Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 1 | type=table | bbox=[22,98,1252,132] | order=1
+  Active Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more . Paid
+BLOCK 2 | type=table_row | bbox=[19,139,535,157] | order=2
+  OSC78747909-01 - R213XB6D: Oscar Medical Group Nathan Lycan
+BLOCK 3 | type=table_row | bbox=[18,158,1255,283] | order=3
+  Holder - ON exc Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+  DB74BR1S $30.00
+  + Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more Pald
+BLOCK 4 | type=table_row | bbox=[16,211,125,406] | order=4
+  Heads up note
+  FLBroward
+  FLO3FLTeam
+BLOCK 5 | type=table_row | bbox=[71,307,624,325] | order=5
+  Member actions Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+BLOCK 6 | type=table_row | bbox=[300,330,575,353] | order=6
+  Applies to OOPM - Cumulative OOPM$30.00
+BLOCK 7 | type=table_row | bbox=[305,290,550,303] | order=7
+  Memorial Urgent Care Center Shoji Ajl
+BLOCK 8 | type=table | bbox=[17,415,1255,461] | order=8
+  Oscarplan: NJHSBVP9 $0.00
+  Silver Simple PCP Saver CSR 150 Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more Pald
+BLOCK 9 | type=table | bbox=[39,461,624,503] | order=9
+  FL HMO Standard Oscar Medical Group Lorilea Williams
+  View ID card Service on Feb 13, 2026 - Accumulation on Feb 15, 2026
+BLOCK 10 | type=table_row | bbox=[18,508,102,526] | order=10
+  Jeffin Alex
+BLOCK 11 | type=table_row | bbox=[16,538,158,558] | order=11
+  Effective 01/01/2026
+BLOCK 12 | type=table | bbox=[17,568,1255,624] | order=12
+  8 Individual 5YNC6CCH $0.00
+  $Current Balance due Medical claim Initial new patient preventive medicine evaluation (younger than 1 year) Paid
+BLOCK 13 | type=table | bbox=[19,620,624,674] | order=13
+  No facility referenced - Rebecca Ohayon
+  Oscar Unlocks Not activated Service On Sep17, 2025 Accumulation on Mar 12, 2026
+BLOCK 14 | type=footer | bbox=[16,706,1255,764] | order=14
+  Member tags AAMSZV4Y $0.00
+  nextgen_billing_rosco_tag Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn Paid
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,14,1580,764] | shape=24x4 | conf=0.920
+  shape: 24x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | a Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = a Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Heads up note | - | - | -
+    CELL[2,0] = Heads up note
+  ROW 3 | DB74BR1S | - | $30.00 | -
+    CELL[3,0] = DB74BR1S
+    CELL[3,2] = $30.00
+  ROW 4 | + Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more | - | Pald | -
+    CELL[4,0] = + Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more
+    CELL[4,2] = Pald
+  ROW 5 | Memorial Urgent Care Center Shoji Ajl | - | - | -
+    CELL[5,0] = Memorial Urgent Care Center Shoji Ajl
+  ROW 6 | Member actions | Service on Mar 12, 2026 Accumulation on Mar 17, 2026 | - | -
+    CELL[6,0] = Member actions
+    CELL[6,1] = Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+  ROW 7 | Applies to OOPM - Cumulative OOPM$30.00 | - | - | -
+    CELL[7,0] = Applies to OOPM - Cumulative OOPM$30.00
+  ROW 8 | FLBroward | - | - | -
+    CELL[8,0] = FLBroward
+  ROW 9 | FLO3FLTeam | - | - | -
+    CELL[9,0] = FLO3FLTeam
+  ROW 10 | Oscarplan | NJHSBVP9 | $0.00 | -
+    CELL[10,0] = Oscarplan
+    CELL[10,1] = NJHSBVP9
+    CELL[10,2] = $0.00
+  ROW 11 | Silver Simple PCP Saver CSR 150 | Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more | Pald | -
+    CELL[11,0] = Silver Simple PCP Saver CSR 150
+    CELL[11,1] = Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more
+    CELL[11,2] = Pald
+  ROW 12 | FL HMO Standard | Oscar Medical Group Lorilea Williams | - | -
+    CELL[12,0] = FL HMO Standard
+    CELL[12,1] = Oscar Medical Group Lorilea Williams
+  ROW 13 | View ID card | Service on Feb 13, 2026 - Accumulation on Feb 15, 2026 | - | -
+    CELL[13,0] = View ID card
+    CELL[13,1] = Service on Feb 13, 2026 - Accumulation on Feb 15, 2026
+  ROW 14 | Jeffin Alex | - | - | -
+    CELL[14,0] = Jeffin Alex
+  ROW 15 | Effective 01/01/2026 | - | - | -
+    CELL[15,0] = Effective 01/01/2026
+  ROW 16 | 8 Individual | 5YNC6CCH | $0.00 | -
+    CELL[16,0] = 8 Individual
+    CELL[16,1] = 5YNC6CCH
+    CELL[16,2] = $0.00
+  ROW 17 | Medical claim Initial new patient preventive medicine evaluation (younger than 1 year) | - | Paid | -
+    CELL[17,0] = Medical claim Initial new patient preventive medicine evaluation (younger than 1 year)
+    CELL[17,2] = Paid
+  ROW 18 | $Current Balance due | - | - | -
+    CELL[18,0] = $Current Balance due
+  ROW 19 | No facility referenced - Rebecca Ohayon | - | - | -
+    CELL[19,0] = No facility referenced - Rebecca Ohayon
+  ROW 20 | Oscar Unlocks Not activated | Service On Sep17, 2025 Accumulation on Mar 12, 2026 | - | -
+    CELL[20,0] = Oscar Unlocks Not activated
+    CELL[20,1] = Service On Sep17, 2025 Accumulation on Mar 12, 2026
+  ROW 21 | Member tags | - | - | -
+    CELL[21,0] = Member tags
+  ROW 22 | AAMSZV4Y | - | $0.00 | -
+    CELL[22,0] = AAMSZV4Y
+    CELL[22,2] = $0.00
+  ROW 23 | nextgen_billing_rosco_tag | Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn | Paid | -
+    CELL[23,0] = nextgen_billing_rosco_tag
+    CELL[23,1] = Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn
+    CELL[23,2] = Paid
+TABLE 1 | source=wide_grid | bbox=[18,73,1252,176] | shape=4x9 | conf=0.850
+  shape: 4x9
+  HEADER | Yisroel Dubov | Member info | Issues | Policy detalls | Benefits | Claims | Billing & payments | Rewards | Authorizations
+  ROW 1 | Active | - | - | - | - | - | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | - | . Paid
+    CELL[1,0] = Active
+    CELL[1,6] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+    CELL[1,8] = . Paid
+  ROW 2 | OSC78747909-01 - R213XB6D : | - | - | Oscar Medical Group Nathan Lycan | - | - | - | - | -
+    CELL[2,0] = OSC78747909-01 - R213XB6D :
+    CELL[2,3] = Oscar Medical Group Nathan Lycan
+  ROW 3 | Holder - ON exc | - | - | Service on Mar 31, 2026 Accumulation on Apr 2, 2026 | - | - | - | - | -
+    CELL[3,0] = Holder - ON exc
+    CELL[3,3] = Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,14,1580,36] | conf=0.844 | text=rosco a Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[109,14,135,36] | text=a
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,73,919,102] | conf=0.989 | text=Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,152,102] | text=Yisroel Dubov
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[421,73,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[642,75,748,88] | text=Billing & payments
+  WORD | bbox=[765,74,815,88] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[22,98,1252,132] | conf=0.922 | text=Active Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more . Paid
+  WORD | bbox=[22,115,64,132] | text=Active
+  WORD | bbox=[304,115,1062,131] | text=Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  WORD | bbox=[1214,98,1252,131] | text=. Paid
+LINE 3 | bbox=[19,139,535,157] | conf=0.977 | text=OSC78747909-01 - R213XB6D: Oscar Medical Group Nathan Lycan
+  WORD | bbox=[19,140,182,157] | text=OSC78747909-01 - R213XB6D :
+  WORD | bbox=[322,139,535,151] | text=Oscar Medical Group Nathan Lycan
+LINE 4 | bbox=[18,158,620,176] | conf=0.952 | text=Holder - ON exc Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+  WORD | bbox=[18,159,108,176] | text=Holder - ON exc
+  WORD | bbox=[302,158,620,174] | text=Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+LINE 5 | bbox=[304,237,1255,257] | conf=0.996 | text=DB74BR1S $30.00
+  WORD | bbox=[304,237,371,253] | text=DB74BR1S
+  WORD | bbox=[1206,239,1255,257] | text=$30.00
+LINE 6 | bbox=[305,265,1252,283] | conf=0.979 | text=+ Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more Pald
+  WORD | bbox=[305,269,1065,281] | text=+ Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more
+  WORD | bbox=[1221,265,1252,283] | text=Pald
+LINE 7 | bbox=[30,211,115,228] | conf=0.997 | text=Heads up note
+LINE 8 | bbox=[19,353,111,369] | conf=0.990 | text=FLBroward
+LINE 9 | bbox=[16,384,125,406] | conf=0.973 | text=FLO3FLTeam
+LINE 10 | bbox=[71,307,624,325] | conf=0.956 | text=Member actions Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+  WORD | bbox=[71,307,162,320] | text=Member actions
+  WORD | bbox=[304,312,624,325] | text=Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+LINE 11 | bbox=[300,330,575,353] | conf=0.899 | text=Applies to OOPM - Cumulative OOPM$30.00
+LINE 12 | bbox=[305,290,550,303] | conf=0.985 | text=Memorial Urgent Care Center Shoji Ajl
+LINE 13 | bbox=[17,415,1255,439] | conf=0.977 | text=Oscarplan: NJHSBVP9 $0.00
+  WORD | bbox=[17,419,106,439] | text=Oscarplan:
+  WORD | bbox=[304,415,378,432] | text=NJHSBVP9
+  WORD | bbox=[1212,416,1255,438] | text=$0.00
+LINE 14 | bbox=[41,443,1252,461] | conf=0.978 | text=Silver Simple PCP Saver CSR 150 Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more Pald
+  WORD | bbox=[41,443,219,456] | text=Silver Simple PCP Saver CSR 150
+  WORD | bbox=[304,444,1134,461] | text=Medical claim Established patient office or other outpatient visit with straightforward medical decision making, if using time, 10 minutes or more
+  WORD | bbox=[1221,443,1252,461] | text=Pald
+LINE 15 | bbox=[39,461,548,481] | conf=0.978 | text=FL HMO Standard Oscar Medical Group Lorilea Williams
+  WORD | bbox=[39,461,142,477] | text=FL HMO Standard
+  WORD | bbox=[322,468,548,481] | text=Oscar Medical Group Lorilea Williams
+LINE 16 | bbox=[40,480,624,503] | conf=0.952 | text=View ID card Service on Feb 13, 2026 - Accumulation on Feb 15, 2026
+  WORD | bbox=[40,480,114,496] | text=View ID card
+  WORD | bbox=[304,490,624,503] | text=Service on Feb 13, 2026 - Accumulation on Feb 15, 2026
+LINE 17 | bbox=[18,508,102,526] | conf=0.944 | text=Jeffin Alex
+LINE 18 | bbox=[16,538,158,558] | conf=0.964 | text=Effective 01/01/2026
+LINE 19 | bbox=[17,568,1255,591] | conf=0.985 | text=8 Individual 5YNC6CCH $0.00
+  WORD | bbox=[17,570,98,591] | text=8 Individual
+  WORD | bbox=[304,568,380,584] | text=5YNC6CCH
+  WORD | bbox=[1214,569,1255,588] | text=$0.00
+LINE 20 | bbox=[19,594,1252,624] | conf=0.982 | text=$Current Balance due Medical claim Initial new patient preventive medicine evaluation (younger than 1 year) Paid
+  WORD | bbox=[19,605,161,624] | text=$Current Balance due
+  WORD | bbox=[301,594,806,614] | text=Medical claim Initial new patient preventive medicine evaluation (younger than 1 year)
+  WORD | bbox=[1221,595,1252,612] | text=Paid
+LINE 21 | bbox=[304,620,554,633] | conf=0.953 | text=No facility referenced - Rebecca Ohayon
+LINE 22 | bbox=[19,639,624,674] | conf=0.976 | text=Oscar Unlocks Not activated Service On Sep17, 2025 Accumulation on Mar 12, 2026
+  WORD | bbox=[19,639,122,674] | text=Oscar Unlocks Not activated
+  WORD | bbox=[304,642,624,654] | text=Service On Sep17, 2025 Accumulation on Mar 12, 2026
+LINE 23 | bbox=[16,706,1255,740] | conf=0.985 | text=Member tags AAMSZV4Y $0.00
+  WORD | bbox=[16,706,96,727] | text=Member tags
+  WORD | bbox=[304,719,379,736] | text=AAMSZV4Y
+  WORD | bbox=[1214,721,1255,740] | text=$0.00
+LINE 24 | bbox=[21,743,1252,764] | conf=0.979 | text=nextgen_billing_rosco_tag Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn Paid
+  WORD | bbox=[21,743,175,761] | text=nextgen_billing_rosco_tag
+  WORD | bbox=[304,746,880,763] | text=Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn
+  WORD | bbox=[1221,746,1252,764] | text=Paid
+[/BOXES]

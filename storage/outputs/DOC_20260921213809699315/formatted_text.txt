@@ -1,0 +1,173 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x790 | blocks=7 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Clamnnrgi Hlov pg2 ieinberFg3 Diaghosisrg4 | - | - | -
+  CELL[1,0] = Clamnnrgi Hlov pg2 ieinberFg3 Diaghosisrg4
+ROW 2 | Processor: David Kim. | Last edit: 11/17/202509:12 ProcessorID: PRoc002 | Decision SLA | 2 days.
+  CELL[2,0] = Processor: David Kim.
+  CELL[2,1] = Last edit: 11/17/202509:12 ProcessorID: PRoc002
+  CELL[2,2] = Decision SLA
+  CELL[2,3] = 2 days.
+ROW 3 | ProviderInformation | - | - | -
+  CELL[3,0] = ProviderInformation
+ROW 4 | Provider NPI | 1098240233 ProviderName: | OKONKWOMD,ADAEZE | -
+  CELL[4,0] = Provider NPI
+  CELL[4,1] = 1098240233 ProviderName:
+  CELL[4,2] = OKONKWOMD,ADAEZE
+ROW 5 | Tax ID | 885344573 Specialty Code: | 207V | OBSTETRICS &GYNECOLOGY
+  CELL[5,0] = Tax ID
+  CELL[5,1] = 885344573 Specialty Code:
+  CELL[5,2] = 207V
+  CELL[5,3] = OBSTETRICS &GYNECOLOGY
+ROW 6 | Service Address | 457 Pine St,Sacramento,CA | - | -
+  CELL[6,0] = Service Address
+  CELL[6,1] = 457 Pine St,Sacramento,CA
+ROW 7 | Billing Address | 457 Pine St, Sacramento,CA | - | -
+  CELL[7,0] = Billing Address
+  CELL[7,1] = 457 Pine St, Sacramento,CA
+ROW 8 | Phone | 555)827-4188 Fax: 555593-7414 | - | -
+  CELL[8,0] = Phone
+  CELL[8,1] = 555)827-4188 Fax: 555593-7414
+ROW 9 | Contract Type | EPO-NETWORK Network Tier: | 3 STANDARD | -
+  CELL[9,0] = Contract Type
+  CELL[9,1] = EPO-NETWORK Network Tier:
+  CELL[9,2] = 3 STANDARD
+ROW 10 | Referring Provider | SELFREFERRED | - | -
+  CELL[10,0] = Referring Provider
+  CELL[10,1] = SELFREFERRED
+ROW 11 | Provider Status | ACTIVE | Effective Date | 01/01/2023 Term Date:
+  CELL[11,0] = Provider Status
+  CELL[11,1] = ACTIVE
+  CELL[11,2] = Effective Date
+  CELL[11,3] = 01/01/2023 Term Date:
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[66,0,1252,89] | order=0
+  Clamnnrgi Hlov pg2 ieinberFg3 Diaghosisrg4
+  Processor: David Kim. Last edit: 11/17/202509:12 ProcessorID: PRoc002 Decision SLA: 2 days.
+BLOCK 1 | type=table_row | bbox=[67,165,384,193] | order=1
+  ProviderInformation
+BLOCK 2 | type=table | bbox=[62,230,1416,358] | order=2
+  Provider NPI: 1098240233 ProviderName: OKONKWOMD,ADAEZE
+  Tax ID: 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY
+BLOCK 3 | type=table_row | bbox=[62,389,900,525] | order=3
+  Service Address: 457 Pine St,Sacramento,CA
+  Billing Address: 457 Pine St, Sacramento,CA
+  Phone: 555)827-4188 Fax: 555593-7414
+BLOCK 4 | type=table | bbox=[64,549,1448,605] | order=4
+  Contract Type: EPO-NETWORK Network Tier: 3 STANDARD
+BLOCK 5 | type=table_row | bbox=[62,621,444,674] | order=5
+  Referring Provider: SELFREFERRED
+BLOCK 6 | type=table | bbox=[64,691,1482,746] | order=6
+  Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[62,0,1482,746] | shape=12x4 | conf=0.920
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Clamnnrgi Hlov pg2 ieinberFg3 Diaghosisrg4 | - | - | -
+    CELL[1,0] = Clamnnrgi Hlov pg2 ieinberFg3 Diaghosisrg4
+  ROW 2 | Processor: David Kim. | Last edit: 11/17/202509:12 ProcessorID: PRoc002 | Decision SLA | 2 days.
+    CELL[2,0] = Processor: David Kim.
+    CELL[2,1] = Last edit: 11/17/202509:12 ProcessorID: PRoc002
+    CELL[2,2] = Decision SLA
+    CELL[2,3] = 2 days.
+  ROW 3 | ProviderInformation | - | - | -
+    CELL[3,0] = ProviderInformation
+  ROW 4 | Provider NPI | 1098240233 ProviderName: | OKONKWOMD,ADAEZE | -
+    CELL[4,0] = Provider NPI
+    CELL[4,1] = 1098240233 ProviderName:
+    CELL[4,2] = OKONKWOMD,ADAEZE
+  ROW 5 | Tax ID | 885344573 Specialty Code: | 207V | OBSTETRICS &GYNECOLOGY
+    CELL[5,0] = Tax ID
+    CELL[5,1] = 885344573 Specialty Code:
+    CELL[5,2] = 207V
+    CELL[5,3] = OBSTETRICS &GYNECOLOGY
+  ROW 6 | Service Address | 457 Pine St,Sacramento,CA | - | -
+    CELL[6,0] = Service Address
+    CELL[6,1] = 457 Pine St,Sacramento,CA
+  ROW 7 | Billing Address | 457 Pine St, Sacramento,CA | - | -
+    CELL[7,0] = Billing Address
+    CELL[7,1] = 457 Pine St, Sacramento,CA
+  ROW 8 | Phone | 555)827-4188 Fax: 555593-7414 | - | -
+    CELL[8,0] = Phone
+    CELL[8,1] = 555)827-4188 Fax: 555593-7414
+  ROW 9 | Contract Type | EPO-NETWORK Network Tier: | 3 STANDARD | -
+    CELL[9,0] = Contract Type
+    CELL[9,1] = EPO-NETWORK Network Tier:
+    CELL[9,2] = 3 STANDARD
+  ROW 10 | Referring Provider | SELFREFERRED | - | -
+    CELL[10,0] = Referring Provider
+    CELL[10,1] = SELFREFERRED
+  ROW 11 | Provider Status | ACTIVE | Effective Date | 01/01/2023 Term Date:
+    CELL[11,0] = Provider Status
+    CELL[11,1] = ACTIVE
+    CELL[11,2] = Effective Date
+    CELL[11,3] = 01/01/2023 Term Date:
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[83,0,820,20] | conf=0.660 | text=Clamnnrgi Hlov pg2 ieinberFg3 Diaghosisrg4
+  WORD | bbox=[83,0,189,16] | text=Clamnnrgi
+  WORD | bbox=[264,0,383,20] | text=Hlov pg2
+  WORD | bbox=[458,0,588,17] | text=ieinberFg3
+  WORD | bbox=[670,0,820,17] | text=Diaghosisrg4
+LINE 1 | bbox=[66,63,1252,89] | conf=0.942 | text=Processor: David Kim. Last edit: 11/17/202509:12 ProcessorID: PRoc002 Decision SLA: 2 days.
+  WORD | bbox=[66,63,305,88] | text=Processor: David Kim.
+  WORD | bbox=[386,66,695,86] | text=Last edit: 11/17/202509:12
+  WORD | bbox=[720,66,978,86] | text=ProcessorID: PRoc002
+  WORD | bbox=[1023,65,1252,89] | text=Decision SLA: 2 days.
+LINE 2 | bbox=[67,165,384,193] | conf=0.988 | text=ProviderInformation
+LINE 3 | bbox=[62,230,1175,283] | conf=0.982 | text=Provider NPI: 1098240233 ProviderName: OKONKWOMD,ADAEZE
+  WORD | bbox=[62,230,155,283] | text=Provider NPI:
+  WORD | bbox=[212,244,355,270] | text=1098240233
+  WORD | bbox=[703,244,866,268] | text=ProviderName:
+  WORD | bbox=[911,245,1175,270] | text=OKONKWOMD,ADAEZE
+LINE 4 | bbox=[62,302,1416,358] | conf=0.987 | text=Tax ID: 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY
+  WORD | bbox=[62,307,105,356] | text=Tax ID:
+  WORD | bbox=[153,318,284,344] | text=885344573
+  WORD | bbox=[626,302,725,358] | text=Specialty Code:
+  WORD | bbox=[791,318,856,344] | text=207V
+  WORD | bbox=[1248,307,1416,356] | text=OBSTETRICS &GYNECOLOGY
+LINE 5 | bbox=[66,389,598,418] | conf=0.958 | text=Service Address: 457 Pine St,Sacramento,CA
+  WORD | bbox=[66,389,238,414] | text=Service Address:
+  WORD | bbox=[280,393,598,418] | text=457 Pine St,Sacramento,CA
+LINE 6 | bbox=[64,436,598,469] | conf=0.944 | text=Billing Address: 457 Pine St, Sacramento,CA
+  WORD | bbox=[64,436,224,466] | text=Billing Address:
+  WORD | bbox=[281,444,598,469] | text=457 Pine St, Sacramento,CA
+LINE 7 | bbox=[62,491,900,525] | conf=0.976 | text=Phone: 555)827-4188 Fax: 555593-7414
+  WORD | bbox=[62,493,141,523] | text=Phone:
+  WORD | bbox=[180,500,353,525] | text=555)827-4188
+  WORD | bbox=[649,491,701,524] | text=Fax:
+  WORD | bbox=[725,497,900,523] | text=555593-7414
+LINE 8 | bbox=[64,549,1448,605] | conf=0.989 | text=Contract Type: EPO-NETWORK Network Tier: 3 STANDARD
+  WORD | bbox=[64,549,158,605] | text=Contract Type:
+  WORD | bbox=[222,565,391,589] | text=EPO-NETWORK
+  WORD | bbox=[727,551,819,602] | text=Network Tier:
+  WORD | bbox=[867,563,886,588] | text=3
+  WORD | bbox=[1328,566,1448,588] | text=STANDARD
+LINE 9 | bbox=[62,621,444,674] | conf=0.975 | text=Referring Provider: SELFREFERRED
+  WORD | bbox=[62,621,161,674] | text=Referring Provider:
+  WORD | bbox=[261,636,444,664] | text=SELFREFERRED
+LINE 10 | bbox=[64,691,1482,746] | conf=0.983 | text=Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:
+  WORD | bbox=[64,694,152,744] | text=Provider Status:
+  WORD | bbox=[236,705,320,731] | text=ACTIVE
+  WORD | bbox=[761,691,856,744] | text=Effective Date:
+  WORD | bbox=[928,705,1058,731] | text=01/01/2023
+  WORD | bbox=[1415,694,1482,746] | text=Term Date:
+[/BOXES]
+
+[FIELDS]
+NPI: 1098240233
+[/FIELDS]

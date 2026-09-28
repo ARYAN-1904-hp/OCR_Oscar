@@ -1,0 +1,456 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=5 | tables=3 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Genesis Hernandez | Memberinfo Issues Policy details Benefits Claims Rewards Authorizations | - | -
+  CELL[2,0] = Genesis Hernandez
+  CELL[2,1] = Memberinfo Issues Policy details Benefits Claims Rewards Authorizations
+ROW 3 | De Hoyo | - | - | -
+  CELL[3,0] = De Hoyo
+ROW 4 | Active | - | - | -
+  CELL[4,0] = Active
+ROW 5 | OSC75847221-02 - R220XDSX | Member info | Actions | -
+  CELL[5,0] = OSC75847221-02 - R220XDSX
+  CELL[5,1] = Member info
+  CELL[5,2] = Actions
+ROW 6 | Spouse-ON exc | - | - | -
+  CELL[6,0] = Spouse-ON exc
+ROW 7 | View ID card | - | - | -
+  CELL[7,0] = View ID card
+ROW 8 | V Maria Alejandra Dempaire | SMS phone Unable to SMS, cannot guarantee recipient | (754) 204-6906 | -
+  CELL[8,0] = V Maria Alejandra Dempaire
+  CELL[8,1] = SMS phone Unable to SMS, cannot guarantee recipient
+  CELL[8,2] = (754) 204-6906
+ROW 9 | 5 No bills | - | - | -
+  CELL[9,0] = 5 No bills
+ROW 10 | Sexual orientation | State | FL | -
+  CELL[10,0] = Sexual orientation
+  CELL[10,1] = State
+  CELL[10,2] = FL
+ROW 11 | Giveaway Go-getter Vlew detalls | Race/Ethnicity Hispanic/Latino, White Zipcode | 33029 | -
+  CELL[11,0] = Giveaway Go-getter Vlew detalls
+  CELL[11,1] = Race/Ethnicity Hispanic/Latino, White Zipcode
+  CELL[11,2] = 33029
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 11x6
+HEADER | Basic info | Edit | Assigned PCP | Manage PCP | Webaccount | Edit
+ROW 1 | Heads up note Legal first | Genesis | PCP | Maria Alejandra Dempaire | Email | Gahr1996@gmail.com
+  CELL[1,0] = Heads up note Legal first
+  CELL[1,1] = Genesis
+  CELL[1,2] = PCP
+  CELL[1,3] = Maria Alejandra Dempaire
+  CELL[1,4] = Email
+  CELL[1,5] = Gahr1996@gmail.com
+ROW 2 | Legal middle | Adriana | NP1 | 1932551637 | Last login | 07/17/2026
+  CELL[2,0] = Legal middle
+  CELL[2,1] = Adriana
+  CELL[2,2] = NP1
+  CELL[2,3] = 1932551637
+  CELL[2,4] = Last login
+  CELL[2,5] = 07/17/2026
+ROW 3 | Legal last | Hernandez De Hoyo | TIN | 815475761 | Web profile language | Spanish
+  CELL[3,0] = Legal last
+  CELL[3,1] = Hernandez De Hoyo
+  CELL[3,2] = TIN
+  CELL[3,3] = 815475761
+  CELL[3,4] = Web profile language
+  CELL[3,5] = Spanish
+ROW 4 | Member actions Suffix | - | Phone number | 954- 442-0784 | Web profile phone | 754-204-6906
+  CELL[4,0] = Member actions Suffix
+  CELL[4,2] = Phone number
+  CELL[4,3] = 954- 442-0784
+  CELL[4,4] = Web profile phone
+  CELL[4,5] = 754-204-6906
+ROW 5 | Date of birth | 06/26/1996 | Last updated by | Member selection on 11/10/2025 | Mobile app | Android
+  CELL[5,0] = Date of birth
+  CELL[5,1] = 06/26/1996
+  CELL[5,2] = Last updated by
+  CELL[5,3] = Member selection on 11/10/2025
+  CELL[5,4] = Mobile app
+  CELL[5,5] = Android
+ROW 6 | FLBroward Age | 30 | - | - | - | -
+  CELL[6,0] = FLBroward Age
+  CELL[6,1] = 30
+ROW 7 | SP02-FLTeam SSN | 176-75-9424 | Contact | Edit | Health info | -
+  CELL[7,0] = SP02-FLTeam SSN
+  CELL[7,1] = 176-75-9424
+  CELL[7,2] = Contact
+  CELL[7,3] = Edit
+  CELL[7,4] = Health info
+ROW 8 | Oscar plan: Legal sex | Female | (754) 204-6906 Last edited by sync_to_nextgen on 12/10/2025 Primary phone | - | Virtual Urgent Care set up? | No
+  CELL[8,0] = Oscar plan: Legal sex
+  CELL[8,1] = Female
+  CELL[8,2] = (754) 204-6906 Last edited by sync_to_nextgen on 12/10/2025 Primary phone
+  CELL[8,4] = Virtual Urgent Care set up?
+  CELL[8,5] = No
+ROW 9 | Silver Simple PCP Saver CSR 150 Spoken language | Spanish | - | - | Patient intake | Missing
+  CELL[9,0] = Silver Simple PCP Saver CSR 150 Spoken language
+  CELL[9,1] = Spanish
+  CELL[9,4] = Patient intake
+  CELL[9,5] = Missing
+ROW 10 | FL HMO Standard Written language | Spanish | Alternate phone From enrollment data | Missing number | Health survey | Missing
+  CELL[10,0] = FL HMO Standard Written language
+  CELL[10,1] = Spanish
+  CELL[10,2] = Alternate phone From enrollment data
+  CELL[10,3] = Missing number
+  CELL[10,4] = Health survey
+  CELL[10,5] = Missing
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 6x4
+HEADER | Personalized info | Edit | Consent and authorizations | Send HIPAA form
+ROW 1 | Effective 05/27/2026 Preferred first name | Genesis Primary emall | Gahr1996@gmail.com RHIO access | No choice
+  CELL[1,0] = Effective 05/27/2026 Preferred first name
+  CELL[1,1] = Genesis Primary emall
+  CELL[1,2] = Gahr1996@gmail.com RHIO access
+  CELL[1,3] = No choice
+ROW 2 | 8 Family Preferred last name | Hernandez De Hoyo | Emall communications | Not Authorized
+  CELL[2,0] = 8 Family Preferred last name
+  CELL[2,1] = Hernandez De Hoyo
+  CELL[2,2] = Emall communications
+  CELL[2,3] = Not Authorized
+ROW 3 | Jimmy Joe Hoyo Salas Holder Gender assigned at blrth | Residential address | Edit | -
+  CELL[3,0] = Jimmy Joe Hoyo Salas Holder Gender assigned at blrth
+  CELL[3,1] = Residential address
+  CELL[3,2] = Edit
+ROW 4 | Gael Enrique Hoyo Hernandez Child Gender identity | Address | 21720 NW 3rd St SMS communicatlons Unable to opt-in to comms because SMS number is a | -
+  CELL[4,0] = Gael Enrique Hoyo Hernandez Child Gender identity
+  CELL[4,1] = Address
+  CELL[4,2] = 21720 NW 3rd St SMS communicatlons Unable to opt-in to comms because SMS number is a
+ROW 5 | Pronouns | City | Pembroke Pines duplicate | -
+  CELL[5,0] = Pronouns
+  CELL[5,1] = City
+  CELL[5,2] = Pembroke Pines duplicate
+[/TABLE 2]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,102] | order=0
+  rosco Q Search Rosco MR Melissa
+  Genesis Hernandez Memberinfo Issues Policy details Benefits Claims Rewards Authorizations
+BLOCK 1 | type=table_row | bbox=[17,105,102,130] | order=1
+  De Hoyo
+BLOCK 2 | type=table | bbox=[16,159,1276,708] | order=2
+  OSC75847221-02 - R220XDSX Member info Actions
+  Basic info Edit Assigned PCP Manage PCP Webaccount Edit
+  Heads up note Legal first Genesis PCP Maria Alejandra Dempaire Email Gahr1996@gmail.com
+  Legal middle Adriana NP1 1932551637 Last login 07/17/2026
+  Legal last Hernandez De Hoyo TIN 815475761 Web profile language Spanish
+  Member actions Suffix Phone number 954- 442-0784 Web profile phone 754-204-6906
+  Date of birth 06/26/1996 Last updated by Member selection on 11/10/2025 Mobile app Android
+  FLBroward Age 30
+  SP02-FLTeam SSN 176-75-9424 Contact Edit Health info
+  Oscar plan: Spoken language Legal sex Spanish Female (754) 204-6906 Last edited by sync_to_nextgen on 12/10/2025 Primary phone Virtual Urgent Care set up? No
+  FL HMO Standard Silver Simple PCP Saver CSR 150 Written language Spanish Alternate phone From enrollment data Missing number Health survey Patient intake Missing Missing
+  V Maria Alejandra Dempaire Personalized info Edit SMS phone Unable to SMS, cannot guarantee recipient (754) 204-6906 Consent and authorizations Send HIPAA form
+  Effective 05/27/2026 Preferred first name Genesis Primary emall Gahr1996@gmail.com RHIO access No choice
+  8 Family Preferred last name Hernandez De Hoyo Emall communications Not Authorized
+  Gael Enrique Hoyo Hernandez Child Jimmy Joe Hoyo Salas Holder Gender assigned at blrth Gender identity Residential address Address 21720 NW 3rd St Edit SMS communicatlons Unable to opt-in to comms because SMS number is a
+  5 No bills Pronouns City Pembroke Pines duplicate
+BLOCK 3 | type=table_row | bbox=[19,141,114,521] | order=3
+  Active
+  Spouse-ON exc
+  View ID card
+BLOCK 4 | type=footer | bbox=[19,706,929,759] | order=4
+  Sexual orientation State FL
+  Giveaway Go-getter Vlew detalls Race/Ethnicity Hispanic/Latino, White Zipcode 33029
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,17,1580,759] | shape=12x4 | conf=0.920
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Genesis Hernandez | Memberinfo Issues Policy details Benefits Claims Rewards Authorizations | - | -
+    CELL[2,0] = Genesis Hernandez
+    CELL[2,1] = Memberinfo Issues Policy details Benefits Claims Rewards Authorizations
+  ROW 3 | De Hoyo | - | - | -
+    CELL[3,0] = De Hoyo
+  ROW 4 | Active | - | - | -
+    CELL[4,0] = Active
+  ROW 5 | OSC75847221-02 - R220XDSX | Member info | Actions | -
+    CELL[5,0] = OSC75847221-02 - R220XDSX
+    CELL[5,1] = Member info
+    CELL[5,2] = Actions
+  ROW 6 | Spouse-ON exc | - | - | -
+    CELL[6,0] = Spouse-ON exc
+  ROW 7 | View ID card | - | - | -
+    CELL[7,0] = View ID card
+  ROW 8 | V Maria Alejandra Dempaire | SMS phone Unable to SMS, cannot guarantee recipient | (754) 204-6906 | -
+    CELL[8,0] = V Maria Alejandra Dempaire
+    CELL[8,1] = SMS phone Unable to SMS, cannot guarantee recipient
+    CELL[8,2] = (754) 204-6906
+  ROW 9 | 5 No bills | - | - | -
+    CELL[9,0] = 5 No bills
+  ROW 10 | Sexual orientation | State | FL | -
+    CELL[10,0] = Sexual orientation
+    CELL[10,1] = State
+    CELL[10,2] = FL
+  ROW 11 | Giveaway Go-getter Vlew detalls | Race/Ethnicity Hispanic/Latino, White Zipcode | 33029 | -
+    CELL[11,0] = Giveaway Go-getter Vlew detalls
+    CELL[11,1] = Race/Ethnicity Hispanic/Latino, White Zipcode
+    CELL[11,2] = 33029
+TABLE 1 | source=wide_grid | bbox=[16,216,1276,514] | shape=11x6 | conf=0.850
+  shape: 11x6
+  HEADER | Basic info | Edit | Assigned PCP | Manage PCP | Webaccount | Edit
+  ROW 1 | Heads up note Legal first | Genesis | PCP | Maria Alejandra Dempaire | Email | Gahr1996@gmail.com
+    CELL[1,0] = Heads up note Legal first
+    CELL[1,1] = Genesis
+    CELL[1,2] = PCP
+    CELL[1,3] = Maria Alejandra Dempaire
+    CELL[1,4] = Email
+    CELL[1,5] = Gahr1996@gmail.com
+  ROW 2 | Legal middle | Adriana | NP1 | 1932551637 | Last login | 07/17/2026
+    CELL[2,0] = Legal middle
+    CELL[2,1] = Adriana
+    CELL[2,2] = NP1
+    CELL[2,3] = 1932551637
+    CELL[2,4] = Last login
+    CELL[2,5] = 07/17/2026
+  ROW 3 | Legal last | Hernandez De Hoyo | TIN | 815475761 | Web profile language | Spanish
+    CELL[3,0] = Legal last
+    CELL[3,1] = Hernandez De Hoyo
+    CELL[3,2] = TIN
+    CELL[3,3] = 815475761
+    CELL[3,4] = Web profile language
+    CELL[3,5] = Spanish
+  ROW 4 | Member actions Suffix | - | Phone number | 954- 442-0784 | Web profile phone | 754-204-6906
+    CELL[4,0] = Member actions Suffix
+    CELL[4,2] = Phone number
+    CELL[4,3] = 954- 442-0784
+    CELL[4,4] = Web profile phone
+    CELL[4,5] = 754-204-6906
+  ROW 5 | Date of birth | 06/26/1996 | Last updated by | Member selection on 11/10/2025 | Mobile app | Android
+    CELL[5,0] = Date of birth
+    CELL[5,1] = 06/26/1996
+    CELL[5,2] = Last updated by
+    CELL[5,3] = Member selection on 11/10/2025
+    CELL[5,4] = Mobile app
+    CELL[5,5] = Android
+  ROW 6 | FLBroward Age | 30 | - | - | - | -
+    CELL[6,0] = FLBroward Age
+    CELL[6,1] = 30
+  ROW 7 | SP02-FLTeam SSN | 176-75-9424 | Contact | Edit | Health info | -
+    CELL[7,0] = SP02-FLTeam SSN
+    CELL[7,1] = 176-75-9424
+    CELL[7,2] = Contact
+    CELL[7,3] = Edit
+    CELL[7,4] = Health info
+  ROW 8 | Oscar plan: Legal sex | Female | (754) 204-6906 Last edited by sync_to_nextgen on 12/10/2025 Primary phone | - | Virtual Urgent Care set up? | No
+    CELL[8,0] = Oscar plan: Legal sex
+    CELL[8,1] = Female
+    CELL[8,2] = (754) 204-6906 Last edited by sync_to_nextgen on 12/10/2025 Primary phone
+    CELL[8,4] = Virtual Urgent Care set up?
+    CELL[8,5] = No
+  ROW 9 | Silver Simple PCP Saver CSR 150 Spoken language | Spanish | - | - | Patient intake | Missing
+    CELL[9,0] = Silver Simple PCP Saver CSR 150 Spoken language
+    CELL[9,1] = Spanish
+    CELL[9,4] = Patient intake
+    CELL[9,5] = Missing
+  ROW 10 | FL HMO Standard Written language | Spanish | Alternate phone From enrollment data | Missing number | Health survey | Missing
+    CELL[10,0] = FL HMO Standard Written language
+    CELL[10,1] = Spanish
+    CELL[10,2] = Alternate phone From enrollment data
+    CELL[10,3] = Missing number
+    CELL[10,4] = Health survey
+    CELL[10,5] = Missing
+TABLE 2 | source=wide_grid | bbox=[17,546,1275,702] | shape=6x4 | conf=0.850
+  shape: 6x4
+  HEADER | Personalized info | Edit | Consent and authorizations | Send HIPAA form
+  ROW 1 | Effective 05/27/2026 Preferred first name | Genesis Primary emall | Gahr1996@gmail.com RHIO access | No choice
+    CELL[1,0] = Effective 05/27/2026 Preferred first name
+    CELL[1,1] = Genesis Primary emall
+    CELL[1,2] = Gahr1996@gmail.com RHIO access
+    CELL[1,3] = No choice
+  ROW 2 | 8 Family Preferred last name | Hernandez De Hoyo | Emall communications | Not Authorized
+    CELL[2,0] = 8 Family Preferred last name
+    CELL[2,1] = Hernandez De Hoyo
+    CELL[2,2] = Emall communications
+    CELL[2,3] = Not Authorized
+  ROW 3 | Jimmy Joe Hoyo Salas Holder Gender assigned at blrth | Residential address | Edit | -
+    CELL[3,0] = Jimmy Joe Hoyo Salas Holder Gender assigned at blrth
+    CELL[3,1] = Residential address
+    CELL[3,2] = Edit
+  ROW 4 | Gael Enrique Hoyo Hernandez Child Gender identity | Address | 21720 NW 3rd St SMS communicatlons Unable to opt-in to comms because SMS number is a | -
+    CELL[4,0] = Gael Enrique Hoyo Hernandez Child Gender identity
+    CELL[4,1] = Address
+    CELL[4,2] = 21720 NW 3rd St SMS communicatlons Unable to opt-in to comms because SMS number is a
+  ROW 5 | Pronouns | City | Pembroke Pines duplicate | -
+    CELL[5,0] = Pronouns
+    CELL[5,1] = City
+    CELL[5,2] = Pembroke Pines duplicate
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.918 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[112,17,134,33] | text=Q
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,73,795,102] | conf=0.983 | text=Genesis Hernandez Memberinfo Issues Policy details Benefits Claims Rewards Authorizations
+  WORD | bbox=[19,81,206,102] | text=Genesis Hernandez
+  WORD | bbox=[276,75,350,88] | text=Memberinfo
+  WORD | bbox=[365,74,406,88] | text=Issues
+  WORD | bbox=[421,73,500,89] | text=Policy details
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[641,74,694,89] | text=Rewards
+  WORD | bbox=[710,75,795,88] | text=Authorizations
+LINE 2 | bbox=[17,105,102,130] | conf=0.967 | text=De Hoyo
+LINE 3 | bbox=[19,159,1250,185] | conf=0.967 | text=OSC75847221-02 - R220XDSX Member info Actions
+  WORD | bbox=[19,167,184,183] | text=OSC75847221-02 - R220XDSX
+  WORD | bbox=[279,168,384,185] | text=Member info
+  WORD | bbox=[1189,159,1250,176] | text=Actions
+LINE 4 | bbox=[278,216,1276,236] | conf=0.991 | text=Basic info Edit Assigned PCP Manage PCP Webaccount Edit
+  WORD | bbox=[278,216,336,233] | text=Basic info
+  WORD | bbox=[568,218,595,233] | text=Edit
+  WORD | bbox=[618,216,699,233] | text=Assigned PCP
+  WORD | bbox=[861,218,935,234] | text=Manage PCP
+  WORD | bbox=[959,219,1035,232] | text=Webaccount
+  WORD | bbox=[1248,216,1276,236] | text=Edit
+LINE 5 | bbox=[30,235,1230,260] | conf=0.986 | text=Heads up note Legal first Genesis PCP Maria Alejandra Dempaire Email Gahr1996@gmail.com
+  WORD | bbox=[30,235,115,253] | text=Heads up note
+  WORD | bbox=[285,243,348,260] | text=Legal first
+  WORD | bbox=[540,244,588,258] | text=Genesis
+  WORD | bbox=[624,242,655,260] | text=PCP
+  WORD | bbox=[780,243,926,260] | text=Maria Alejandra Dempaire
+  WORD | bbox=[966,242,1002,260] | text=Email
+  WORD | bbox=[1110,246,1230,258] | text=Gahr1996@gmail.com
+LINE 6 | bbox=[286,267,1268,289] | conf=0.960 | text=Legal middle Adriana NP1 1932551637 Last login 07/17/2026
+  WORD | bbox=[286,270,361,286] | text=Legal middle
+  WORD | bbox=[538,267,589,288] | text=Adriana
+  WORD | bbox=[625,270,651,285] | text=NP1
+  WORD | bbox=[862,269,929,285] | text=1932551637
+  WORD | bbox=[966,271,1026,289] | text=Last login
+  WORD | bbox=[1202,271,1268,288] | text=07/17/2026
+LINE 7 | bbox=[285,295,1268,314] | conf=0.977 | text=Legal last Hernandez De Hoyo TIN 815475761 Web profile language Spanish
+  WORD | bbox=[285,297,345,313] | text=Legal last
+  WORD | bbox=[472,295,588,313] | text=Hernandez De Hoyo
+  WORD | bbox=[626,297,651,312] | text=TIN
+  WORD | bbox=[870,295,929,312] | text=815475761
+  WORD | bbox=[966,298,1088,314] | text=Web profile language
+  WORD | bbox=[1220,299,1268,313] | text=Spanish
+LINE 8 | bbox=[71,322,1266,346] | conf=0.983 | text=Member actions Suffix Phone number 954- 442-0784 Web profile phone 754-204-6906
+  WORD | bbox=[71,331,161,346] | text=Member actions
+  WORD | bbox=[285,322,325,340] | text=Suffix
+  WORD | bbox=[626,322,711,339] | text=Phone number
+  WORD | bbox=[846,325,926,337] | text=954- 442-0784
+  WORD | bbox=[966,325,1071,341] | text=Web profile phone
+  WORD | bbox=[1166,322,1266,343] | text=754-204-6906
+LINE 9 | bbox=[285,347,1268,370] | conf=0.990 | text=Date of birth 06/26/1996 Last updated by Member selection on 11/10/2025 Mobile app Android
+  WORD | bbox=[285,349,361,365] | text=Date of birth
+  WORD | bbox=[519,349,588,365] | text=06/26/1996
+  WORD | bbox=[625,347,720,367] | text=Last updated by
+  WORD | bbox=[748,351,926,364] | text=Member selection on 11/10/2025
+  WORD | bbox=[966,347,1032,370] | text=Mobile app
+  WORD | bbox=[1221,353,1268,367] | text=Android
+LINE 10 | bbox=[18,373,588,400] | conf=0.995 | text=FLBroward Age 30
+  WORD | bbox=[18,378,112,400] | text=FLBroward
+  WORD | bbox=[283,373,313,397] | text=Age
+  WORD | bbox=[569,376,588,392] | text=30
+LINE 11 | bbox=[16,402,1024,433] | conf=0.977 | text=SP02-FLTeam SSN 176-75-9424 Contact Edit Health info
+  WORD | bbox=[16,411,126,433] | text=SP02-FLTeam
+  WORD | bbox=[284,402,316,420] | text=SSN
+  WORD | bbox=[516,402,588,419] | text=176-75-9424
+  WORD | bbox=[616,410,669,429] | text=Contact
+  WORD | bbox=[909,414,935,429] | text=Edit
+  WORD | bbox=[958,414,1024,430] | text=Health info
+LINE 12 | bbox=[17,429,1269,474] | conf=0.990 | text=Oscar plan: Spoken language Legal sex Spanish Female (754) 204-6906 Last edited by sync_to_nextgen on 12/10/2025 Primary phone Virtual Urgent Care set up? No
+  WORD | bbox=[17,445,106,466] | text=Oscar plan:
+  WORD | bbox=[284,454,385,474] | text=Spoken language
+  WORD | bbox=[285,430,342,447] | text=Legal sex
+  WORD | bbox=[538,456,589,474] | text=Spanish
+  WORD | bbox=[542,429,589,447] | text=Female
+  WORD | bbox=[625,437,926,472] | text=(754) 204-6906 Last edited by sync_to_nextgen on 12/10/2025
+  WORD | bbox=[626,438,711,454] | text=Primary phone
+  WORD | bbox=[966,439,1121,456] | text=Virtual Urgent Care set up?
+  WORD | bbox=[1248,440,1269,456] | text=No
+LINE 13 | bbox=[39,462,1269,514] | conf=0.983 | text=FL HMO Standard Silver Simple PCP Saver CSR 150 Written language Spanish Alternate phone From enrollment data Missing number Health survey Patient intake Missing Missing
+  WORD | bbox=[39,488,142,504] | text=FL HMO Standard
+  WORD | bbox=[41,468,218,481] | text=Silver Simple PCP Saver CSR 150
+  WORD | bbox=[285,481,386,500] | text=Written language
+  WORD | bbox=[538,480,588,501] | text=Spanish
+  WORD | bbox=[626,480,721,496] | text=Alternate phone
+  WORD | bbox=[626,502,731,514] | text=From enrollment data
+  WORD | bbox=[816,480,926,499] | text=Missing number
+  WORD | bbox=[966,490,1046,511] | text=Health survey
+  WORD | bbox=[968,466,1050,482] | text=Patient intake
+  WORD | bbox=[1200,493,1268,510] | text=Missing
+  WORD | bbox=[1218,462,1269,486] | text=Missing
+LINE 14 | bbox=[16,524,1275,573] | conf=0.965 | text=V Maria Alejandra Dempaire Personalized info Edit SMS phone Unable to SMS, cannot guarantee recipient (754) 204-6906 Consent and authorizations Send HIPAA form
+  WORD | bbox=[16,533,186,554] | text=V Maria Alejandra Dempaire
+  WORD | bbox=[280,547,375,560] | text=Personalized info
+  WORD | bbox=[568,546,595,561] | text=Edit
+  WORD | bbox=[624,524,834,559] | text=SMS phone Unable to SMS, cannot guarantee recipient
+  WORD | bbox=[823,524,926,541] | text=(754) 204-6906
+  WORD | bbox=[959,554,1118,573] | text=Consent and authorizations
+  WORD | bbox=[1179,558,1275,570] | text=Send HIPAA form
+LINE 15 | bbox=[17,564,1269,599] | conf=0.988 | text=Effective 05/27/2026 Preferred first name Genesis Primary emall Gahr1996@gmail.com RHIO access No choice
+  WORD | bbox=[17,564,159,584] | text=Effective 05/27/2026
+  WORD | bbox=[288,573,400,586] | text=Preferred first name
+  WORD | bbox=[537,569,589,590] | text=Genesis
+  WORD | bbox=[626,568,706,584] | text=Primary emall
+  WORD | bbox=[804,568,926,584] | text=Gahr1996@gmail.com
+  WORD | bbox=[966,579,1041,599] | text=RHIO access
+  WORD | bbox=[1209,580,1269,597] | text=No choice
+LINE 16 | bbox=[18,596,1268,623] | conf=0.981 | text=8 Family Preferred last name Hernandez De Hoyo Emall communications Not Authorized
+  WORD | bbox=[18,597,80,618] | text=8 Family
+  WORD | bbox=[288,600,399,612] | text=Preferred last name
+  WORD | bbox=[472,596,588,615] | text=Hernandez De Hoyo
+  WORD | bbox=[969,610,1096,623] | text=Emall communications
+  WORD | bbox=[1180,610,1268,623] | text=Not Authorized
+LINE 17 | bbox=[39,623,1263,674] | conf=0.984 | text=Gael Enrique Hoyo Hernandez Child Jimmy Joe Hoyo Salas Holder Gender assigned at blrth Gender identity Residential address Address 21720 NW 3rd St Edit SMS communicatlons Unable to opt-in to comms because SMS number is a
+  WORD | bbox=[39,639,213,673] | text=Gael Enrique Hoyo Hernandez Child
+  WORD | bbox=[42,623,211,635] | text=Jimmy Joe Hoyo Salas Holder
+  WORD | bbox=[286,626,426,639] | text=Gender assigned at blrth
+  WORD | bbox=[286,652,378,668] | text=Gender identity
+  WORD | bbox=[618,630,731,647] | text=Residential address
+  WORD | bbox=[623,653,677,674] | text=Address
+  WORD | bbox=[836,658,927,671] | text=21720 NW 3rd St
+  WORD | bbox=[908,631,935,647] | text=Edit
+  WORD | bbox=[966,634,1263,671] | text=SMS communicatlons Unable to opt-in to comms because SMS number is a
+LINE 18 | bbox=[19,672,1024,708] | conf=0.935 | text=5 No bills Pronouns City Pembroke Pines duplicate
+  WORD | bbox=[19,691,34,707] | text=5
+  WORD | bbox=[30,691,85,708] | text=No bills
+  WORD | bbox=[283,674,344,695] | text=Pronouns
+  WORD | bbox=[623,679,656,702] | text=City
+  WORD | bbox=[836,685,926,698] | text=Pembroke Pines
+  WORD | bbox=[966,672,1024,689] | text=duplicate
+LINE 19 | bbox=[21,141,64,159] | conf=1.000 | text=Active
+LINE 20 | bbox=[19,186,111,202] | conf=0.953 | text=Spouse-ON exc
+LINE 21 | bbox=[40,508,114,521] | conf=0.974 | text=View ID card
+LINE 22 | bbox=[286,706,929,727] | conf=0.995 | text=Sexual orientation State FL
+  WORD | bbox=[286,707,391,719] | text=Sexual orientation
+  WORD | bbox=[623,706,663,727] | text=State
+  WORD | bbox=[909,709,929,726] | text=FL
+LINE 23 | bbox=[19,724,927,759] | conf=0.993 | text=Giveaway Go-getter Vlew detalls Race/Ethnicity Hispanic/Latino, White Zipcode 33029
+  WORD | bbox=[19,724,152,759] | text=Giveaway Go-getter Vlew detalls
+  WORD | bbox=[285,728,375,749] | text=Race/Ethnicity
+  WORD | bbox=[456,733,586,746] | text=Hispanic/Latino, White
+  WORD | bbox=[626,737,675,751] | text=Zipcode
+  WORD | bbox=[889,737,927,751] | text=33029
+[/BOXES]
+
+[FIELDS]
+Email: Gahr1996@gmail.com
+Phone: 754-204-6906
+Phone: (754) 204-6906
+NPI: 1932551637
+[/FIELDS]

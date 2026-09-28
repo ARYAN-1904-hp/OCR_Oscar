@@ -1,0 +1,37 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=3 | tables=0 | checkboxes=0
+
+[TEXT]
+VERINT
+Q
+yr1
+g
+C LA
+C Cg As
+Tehsts
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[60,14,151,36] | order=0
+  VERINT
+BLOCK 1 | type=paragraph | bbox=[34,88,512,593] | order=1
+  Q
+  yr1
+  g
+  C LA
+  C Cg As
+BLOCK 2 | type=footer | bbox=[82,711,130,728] | order=2
+  Tehsts
+[/LAYOUT]
+
+[BOXES]
+LINE 0 | bbox=[60,14,151,36] | conf=0.997 | text=VERINT
+LINE 1 | bbox=[498,88,512,104] | conf=0.904 | text=Q
+LINE 2 | bbox=[34,172,212,192] | conf=0.808 | text=yr1
+LINE 3 | bbox=[81,363,433,381] | conf=0.549 | text=g
+LINE 4 | bbox=[82,440,436,457] | conf=0.634 | text=C LA
+LINE 5 | bbox=[84,577,360,593] | conf=0.601 | text=C Cg As
+LINE 6 | bbox=[82,711,130,728] | conf=0.654 | text=Tehsts
+[/BOXES]

@@ -1,0 +1,2676 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Curamind Claims Management David Kim PROC002 Logout\nBack to Dashboard\nProfessional Claim X Save changes\nClaim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days\nProvider Information\nNPI: Provider 1098240233 Provider Name: OKONKWO MD,ADAEZE\nID: Tax 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY\nService Address:\nBilling Address: 457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA\nContract Type: EPO-NETWORK Tier: 3 STANDARD\nPhone: 555827-4188 Fax: 555593-7414 Network\nReferring Provider: SELF REFERRED\nStatus: Provider ACTIVE Effective Date: 01/01/2023 Term Date: 12/31/9999\nCredentialing\nLicense #: A66828 DEA #: BA3651602 Board Cert: YES\nLast Recredentialed: 06/15/2025 Review: Next 06/15/2027\nTranslation Services Available (left): Unknown\nTranslation Services Available (right): Unknown",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 1042,
+      "text": "Curamind Claims Management David Kim PROC002 Logout\nBack to Dashboard\nProfessional Claim X Save changes\nClaim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days\nProvider Information\nNPI: Provider 1098240233 Provider Name: OKONKWO MD,ADAEZE\nID: Tax 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY\nService Address:\nBilling Address: 457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA\nContract Type: EPO-NETWORK Tier: 3 STANDARD\nPhone: 555827-4188 Fax: 555593-7414 Network\nReferring Provider: SELF REFERRED\nStatus: Provider ACTIVE Effective Date: 01/01/2023 Term Date: 12/31/9999\nCredentialing\nLicense #: A66828 DEA #: BA3651602 Board Cert: YES\nLast Recredentialed: 06/15/2025 Review: Next 06/15/2027\nTranslation Services Available (left): Unknown\nTranslation Services Available (right): Unknown",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "label_value",
+              "reading_order": 3,
+              "bbox": [
+                40,
+                174,
+                773,
+                192
+              ],
+              "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+                  "conf": 0.9448416531085968,
+                  "bbox": [
+                    40,
+                    174,
+                    773,
+                    192
+                  ],
+                  "words": [
+                    {
+                      "text": "Processor: David Kim",
+                      "conf": 0.9487439393997192,
+                      "bbox": [
+                        40,
+                        177,
+                        188,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "Last edit: 11/17/202509:12",
+                      "conf": 0.9667949080467224,
+                      "bbox": [
+                        238,
+                        177,
+                        431,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "ProcessorID:PROc002",
+                      "conf": 0.9119396209716797,
+                      "bbox": [
+                        431,
+                        176,
+                        607,
+                        191
+                      ]
+                    },
+                    {
+                      "text": "Decision SLA:2 days",
+                      "conf": 0.9518881440162659,
+                      "bbox": [
+                        632,
+                        174,
+                        773,
+                        190
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 4,
+              "bbox": [
+                40,
+                238,
+                237,
+                258
+              ],
+              "text": "Provider Information",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Provider Information",
+                  "conf": 0.9793233871459961,
+                  "bbox": [
+                    40,
+                    238,
+                    237,
+                    258
+                  ],
+                  "words": [
+                    {
+                      "text": "Provider Information",
+                      "conf": 0.9793233871459961,
+                      "bbox": [
+                        40,
+                        238,
+                        237,
+                        258
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 5,
+              "bbox": [
+                39,
+                280,
+                728,
+                313
+              ],
+              "text": "NPI: Provider 1098240233 Provider Name: OKONKWO MD,ADAEZE",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "NPI: Provider 1098240233 Provider Name: OKONKWO MD,ADAEZE",
+                  "conf": 0.9717262744903564,
+                  "bbox": [
+                    39,
+                    280,
+                    728,
+                    313
+                  ],
+                  "words": [
+                    {
+                      "text": "NPI:",
+                      "conf": 0.9436967372894287,
+                      "bbox": [
+                        39,
+                        295,
+                        69,
+                        313
+                      ]
+                    },
+                    {
+                      "text": "Provider",
+                      "conf": 0.9978536367416382,
+                      "bbox": [
+                        40,
+                        280,
+                        95,
+                        297
+                      ]
+                    },
+                    {
+                      "text": "1098240233",
+                      "conf": 0.9987567067146301,
+                      "bbox": [
+                        130,
+                        287,
+                        219,
+                        304
+                      ]
+                    },
+                    {
+                      "text": "Provider Name:",
+                      "conf": 0.9683118462562561,
+                      "bbox": [
+                        436,
+                        287,
+                        537,
+                        302
+                      ]
+                    },
+                    {
+                      "text": "OKONKWO MD,ADAEZE",
+                      "conf": 0.9500124454498291,
+                      "bbox": [
+                        564,
+                        287,
+                        728,
+                        302
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 7,
+              "bbox": [
+                39,
+                375,
+                147,
+                394
+              ],
+              "text": "Service Address:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Service Address:",
+                  "conf": 0.9852994084358215,
+                  "bbox": [
+                    39,
+                    375,
+                    147,
+                    394
+                  ],
+                  "words": [
+                    {
+                      "text": "Service Address:",
+                      "conf": 0.9852994084358215,
+                      "bbox": [
+                        39,
+                        375,
+                        147,
+                        394
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 8,
+              "bbox": [
+                39,
+                378,
+                373,
+                428
+              ],
+              "text": "Billing Address: 457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Billing Address: 457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+                  "conf": 0.9424325823783875,
+                  "bbox": [
+                    39,
+                    378,
+                    373,
+                    428
+                  ],
+                  "words": [
+                    {
+                      "text": "Billing Address:",
+                      "conf": 0.9528881907463074,
+                      "bbox": [
+                        39,
+                        407,
+                        140,
+                        426
+                      ]
+                    },
+                    {
+                      "text": "457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+                      "conf": 0.9319769740104675,
+                      "bbox": [
+                        170,
+                        378,
+                        373,
+                        428
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 10,
+              "bbox": [
+                38,
+                442,
+                558,
+                495
+              ],
+              "text": "Phone: 555827-4188 Fax: 555593-7414 Network",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Phone: 555827-4188 Fax: 555593-7414 Network",
+                  "conf": 0.9754324108362198,
+                  "bbox": [
+                    38,
+                    442,
+                    558,
+                    495
+                  ],
+                  "words": [
+                    {
+                      "text": "Phone:",
+                      "conf": 0.9836569428443909,
+                      "bbox": [
+                        38,
+                        442,
+                        87,
+                        461
+                      ]
+                    },
+                    {
+                      "text": "555827-4188",
+                      "conf": 0.9888834357261658,
+                      "bbox": [
+                        108,
+                        443,
+                        220,
+                        465
+                      ]
+                    },
+                    {
+                      "text": "Fax:",
+                      "conf": 0.9352705478668213,
+                      "bbox": [
+                        404,
+                        443,
+                        435,
+                        459
+                      ]
+                    },
+                    {
+                      "text": "555593-7414 Network",
+                      "conf": 0.9939187169075012,
+                      "bbox": [
+                        445,
+                        445,
+                        558,
+                        495
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 11,
+              "bbox": [
+                38,
+                519,
+                273,
+                556
+              ],
+              "text": "Referring Provider: SELF REFERRED",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Referring Provider: SELF REFERRED",
+                  "conf": 0.9550588925679525,
+                  "bbox": [
+                    38,
+                    519,
+                    273,
+                    556
+                  ],
+                  "words": [
+                    {
+                      "text": "Referring",
+                      "conf": 0.9714459180831909,
+                      "bbox": [
+                        38,
+                        519,
+                        101,
+                        544
+                      ]
+                    },
+                    {
+                      "text": "Provider:",
+                      "conf": 0.9373881220817566,
+                      "bbox": [
+                        40,
+                        541,
+                        98,
+                        556
+                      ]
+                    },
+                    {
+                      "text": "SELF REFERRED",
+                      "conf": 0.9563426375389099,
+                      "bbox": [
+                        161,
+                        531,
+                        273,
+                        548
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 13,
+              "bbox": [
+                41,
+                655,
+                169,
+                676
+              ],
+              "text": "Credentialing",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Credentialing",
+                  "conf": 0.9996973872184753,
+                  "bbox": [
+                    41,
+                    655,
+                    169,
+                    676
+                  ],
+                  "words": [
+                    {
+                      "text": "Credentialing",
+                      "conf": 0.9996973872184753,
+                      "bbox": [
+                        41,
+                        655,
+                        169,
+                        676
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days\nProvider Information\nNPI: Provider 1098240233 Provider Name: OKONKWO MD,ADAEZE\nService Address:\nBilling Address: 457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA\nPhone: 555827-4188 Fax: 555593-7414 Network\nReferring Provider: SELF REFERRED\nCredentialing"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            26,
+            7,
+            1445,
+            78
+          ],
+          "text": "Curamind Claims Management David Kim PROC002 Logout\nBack to Dashboard",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Curamind Claims Management David Kim PROC002 Logout",
+              "conf": 0.9766492545604706,
+              "bbox": [
+                26,
+                7,
+                1404,
+                40
+              ],
+              "words": [
+                {
+                  "text": "Curamind",
+                  "conf": 0.9583932161331177,
+                  "bbox": [
+                    26,
+                    17,
+                    125,
+                    34
+                  ]
+                },
+                {
+                  "text": "Claims Management",
+                  "conf": 0.9934066534042358,
+                  "bbox": [
+                    142,
+                    17,
+                    295,
+                    35
+                  ]
+                },
+                {
+                  "text": "David Kim",
+                  "conf": 0.9976294934749603,
+                  "bbox": [
+                    1153,
+                    7,
+                    1194,
+                    40
+                  ]
+                },
+                {
+                  "text": "PROC002",
+                  "conf": 0.9340588450431824,
+                  "bbox": [
+                    1239,
+                    16,
+                    1307,
+                    31
+                  ]
+                },
+                {
+                  "text": "Logout",
+                  "conf": 0.9997580647468567,
+                  "bbox": [
+                    1351,
+                    16,
+                    1404,
+                    33
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Back to Dashboard",
+              "conf": 0.9927955865859985,
+              "bbox": [
+                1302,
+                63,
+                1445,
+                78
+              ],
+              "words": [
+                {
+                  "text": "Back to Dashboard",
+                  "conf": 0.9927955865859985,
+                  "bbox": [
+                    1302,
+                    63,
+                    1445,
+                    78
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            34,
+            65,
+            1419,
+            108
+          ],
+          "text": "Professional Claim X Save changes",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Professional Claim X Save changes",
+              "conf": 0.9230920970439911,
+              "bbox": [
+                34,
+                65,
+                1419,
+                108
+              ],
+              "words": [
+                {
+                  "text": "Professional Claim X",
+                  "conf": 0.8529746532440186,
+                  "bbox": [
+                    34,
+                    65,
+                    164,
+                    108
+                  ]
+                },
+                {
+                  "text": "Save changes",
+                  "conf": 0.9932095408439636,
+                  "bbox": [
+                    1318,
+                    92,
+                    1419,
+                    108
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            47,
+            125,
+            689,
+            148
+          ],
+          "text": "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "conf": 0.9747725129127502,
+              "bbox": [
+                47,
+                125,
+                689,
+                148
+              ],
+              "words": [
+                {
+                  "text": "Claim Pg1",
+                  "conf": 0.9496319890022278,
+                  "bbox": [
+                    47,
+                    128,
+                    117,
+                    144
+                  ]
+                },
+                {
+                  "text": "Prov pg2",
+                  "conf": 0.9994293451309204,
+                  "bbox": [
+                    161,
+                    125,
+                    238,
+                    148
+                  ]
+                },
+                {
+                  "text": "Member Pg3",
+                  "conf": 0.9639211893081665,
+                  "bbox": [
+                    275,
+                    128,
+                    362,
+                    144
+                  ]
+                },
+                {
+                  "text": "Diagnosis Pg4",
+                  "conf": 0.9801566004753113,
+                  "bbox": [
+                    414,
+                    128,
+                    510,
+                    144
+                  ]
+                },
+                {
+                  "text": "Miscellaneous Pg5",
+                  "conf": 0.9807234406471252,
+                  "bbox": [
+                    561,
+                    126,
+                    689,
+                    144
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 3,
+          "bbox": [
+            40,
+            174,
+            773,
+            192
+          ],
+          "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+              "conf": 0.9448416531085968,
+              "bbox": [
+                40,
+                174,
+                773,
+                192
+              ],
+              "words": [
+                {
+                  "text": "Processor: David Kim",
+                  "conf": 0.9487439393997192,
+                  "bbox": [
+                    40,
+                    177,
+                    188,
+                    192
+                  ]
+                },
+                {
+                  "text": "Last edit: 11/17/202509:12",
+                  "conf": 0.9667949080467224,
+                  "bbox": [
+                    238,
+                    177,
+                    431,
+                    192
+                  ]
+                },
+                {
+                  "text": "ProcessorID:PROc002",
+                  "conf": 0.9119396209716797,
+                  "bbox": [
+                    431,
+                    176,
+                    607,
+                    191
+                  ]
+                },
+                {
+                  "text": "Decision SLA:2 days",
+                  "conf": 0.9518881440162659,
+                  "bbox": [
+                    632,
+                    174,
+                    773,
+                    190
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 4,
+          "bbox": [
+            40,
+            238,
+            237,
+            258
+          ],
+          "text": "Provider Information",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Provider Information",
+              "conf": 0.9793233871459961,
+              "bbox": [
+                40,
+                238,
+                237,
+                258
+              ],
+              "words": [
+                {
+                  "text": "Provider Information",
+                  "conf": 0.9793233871459961,
+                  "bbox": [
+                    40,
+                    238,
+                    237,
+                    258
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 5,
+          "bbox": [
+            39,
+            280,
+            728,
+            313
+          ],
+          "text": "NPI: Provider 1098240233 Provider Name: OKONKWO MD,ADAEZE",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "NPI: Provider 1098240233 Provider Name: OKONKWO MD,ADAEZE",
+              "conf": 0.9717262744903564,
+              "bbox": [
+                39,
+                280,
+                728,
+                313
+              ],
+              "words": [
+                {
+                  "text": "NPI:",
+                  "conf": 0.9436967372894287,
+                  "bbox": [
+                    39,
+                    295,
+                    69,
+                    313
+                  ]
+                },
+                {
+                  "text": "Provider",
+                  "conf": 0.9978536367416382,
+                  "bbox": [
+                    40,
+                    280,
+                    95,
+                    297
+                  ]
+                },
+                {
+                  "text": "1098240233",
+                  "conf": 0.9987567067146301,
+                  "bbox": [
+                    130,
+                    287,
+                    219,
+                    304
+                  ]
+                },
+                {
+                  "text": "Provider Name:",
+                  "conf": 0.9683118462562561,
+                  "bbox": [
+                    436,
+                    287,
+                    537,
+                    302
+                  ]
+                },
+                {
+                  "text": "OKONKWO MD,ADAEZE",
+                  "conf": 0.9500124454498291,
+                  "bbox": [
+                    564,
+                    287,
+                    728,
+                    302
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 6,
+          "bbox": [
+            36,
+            324,
+            877,
+            360
+          ],
+          "text": "ID: Tax 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "ID: Tax 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY",
+              "conf": 0.9804869244496027,
+              "bbox": [
+                36,
+                324,
+                877,
+                360
+              ],
+              "words": [
+                {
+                  "text": "ID:",
+                  "conf": 0.9354586601257324,
+                  "bbox": [
+                    36,
+                    339,
+                    63,
+                    360
+                  ]
+                },
+                {
+                  "text": "Tax",
+                  "conf": 0.9715366363525391,
+                  "bbox": [
+                    39,
+                    326,
+                    64,
+                    343
+                  ]
+                },
+                {
+                  "text": "885344573",
+                  "conf": 0.9990449547767639,
+                  "bbox": [
+                    93,
+                    334,
+                    175,
+                    350
+                  ]
+                },
+                {
+                  "text": "Specialty Code:",
+                  "conf": 0.9891921877861023,
+                  "bbox": [
+                    388,
+                    324,
+                    450,
+                    358
+                  ]
+                },
+                {
+                  "text": "207V",
+                  "conf": 0.9971609711647034,
+                  "bbox": [
+                    486,
+                    329,
+                    531,
+                    353
+                  ]
+                },
+                {
+                  "text": "OBSTETRICS &GYNECOLOGY",
+                  "conf": 0.9905281364917755,
+                  "bbox": [
+                    773,
+                    324,
+                    877,
+                    357
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 7,
+          "bbox": [
+            39,
+            375,
+            147,
+            394
+          ],
+          "text": "Service Address:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Service Address:",
+              "conf": 0.9852994084358215,
+              "bbox": [
+                39,
+                375,
+                147,
+                394
+              ],
+              "words": [
+                {
+                  "text": "Service Address:",
+                  "conf": 0.9852994084358215,
+                  "bbox": [
+                    39,
+                    375,
+                    147,
+                    394
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 8,
+          "bbox": [
+            39,
+            378,
+            373,
+            428
+          ],
+          "text": "Billing Address: 457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Billing Address: 457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+              "conf": 0.9424325823783875,
+              "bbox": [
+                39,
+                378,
+                373,
+                428
+              ],
+              "words": [
+                {
+                  "text": "Billing Address:",
+                  "conf": 0.9528881907463074,
+                  "bbox": [
+                    39,
+                    407,
+                    140,
+                    426
+                  ]
+                },
+                {
+                  "text": "457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+                  "conf": 0.9319769740104675,
+                  "bbox": [
+                    170,
+                    378,
+                    373,
+                    428
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            37,
+            474,
+            898,
+            512
+          ],
+          "text": "Contract Type: EPO-NETWORK Tier: 3 STANDARD",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Contract Type: EPO-NETWORK Tier: 3 STANDARD",
+              "conf": 0.9911367992560068,
+              "bbox": [
+                37,
+                474,
+                898,
+                512
+              ],
+              "words": [
+                {
+                  "text": "Contract",
+                  "conf": 0.9964945912361145,
+                  "bbox": [
+                    37,
+                    474,
+                    99,
+                    497
+                  ]
+                },
+                {
+                  "text": "Type:",
+                  "conf": 0.9824624061584473,
+                  "bbox": [
+                    40,
+                    494,
+                    77,
+                    512
+                  ]
+                },
+                {
+                  "text": "EPO-NETWORK",
+                  "conf": 0.9939809441566467,
+                  "bbox": [
+                    136,
+                    486,
+                    243,
+                    501
+                  ]
+                },
+                {
+                  "text": "Tier:",
+                  "conf": 0.9774284362792969,
+                  "bbox": [
+                    448,
+                    490,
+                    484,
+                    512
+                  ]
+                },
+                {
+                  "text": "3",
+                  "conf": 0.9988927245140076,
+                  "bbox": [
+                    536,
+                    485,
+                    550,
+                    500
+                  ]
+                },
+                {
+                  "text": "STANDARD",
+                  "conf": 0.9975616931915283,
+                  "bbox": [
+                    821,
+                    485,
+                    898,
+                    501
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 10,
+          "bbox": [
+            38,
+            442,
+            558,
+            495
+          ],
+          "text": "Phone: 555827-4188 Fax: 555593-7414 Network",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Phone: 555827-4188 Fax: 555593-7414 Network",
+              "conf": 0.9754324108362198,
+              "bbox": [
+                38,
+                442,
+                558,
+                495
+              ],
+              "words": [
+                {
+                  "text": "Phone:",
+                  "conf": 0.9836569428443909,
+                  "bbox": [
+                    38,
+                    442,
+                    87,
+                    461
+                  ]
+                },
+                {
+                  "text": "555827-4188",
+                  "conf": 0.9888834357261658,
+                  "bbox": [
+                    108,
+                    443,
+                    220,
+                    465
+                  ]
+                },
+                {
+                  "text": "Fax:",
+                  "conf": 0.9352705478668213,
+                  "bbox": [
+                    404,
+                    443,
+                    435,
+                    459
+                  ]
+                },
+                {
+                  "text": "555593-7414 Network",
+                  "conf": 0.9939187169075012,
+                  "bbox": [
+                    445,
+                    445,
+                    558,
+                    495
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 11,
+          "bbox": [
+            38,
+            519,
+            273,
+            556
+          ],
+          "text": "Referring Provider: SELF REFERRED",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Referring Provider: SELF REFERRED",
+              "conf": 0.9550588925679525,
+              "bbox": [
+                38,
+                519,
+                273,
+                556
+              ],
+              "words": [
+                {
+                  "text": "Referring",
+                  "conf": 0.9714459180831909,
+                  "bbox": [
+                    38,
+                    519,
+                    101,
+                    544
+                  ]
+                },
+                {
+                  "text": "Provider:",
+                  "conf": 0.9373881220817566,
+                  "bbox": [
+                    40,
+                    541,
+                    98,
+                    556
+                  ]
+                },
+                {
+                  "text": "SELF REFERRED",
+                  "conf": 0.9563426375389099,
+                  "bbox": [
+                    161,
+                    531,
+                    273,
+                    548
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 12,
+          "bbox": [
+            38,
+            561,
+            1051,
+            599
+          ],
+          "text": "Status: Provider ACTIVE Effective Date: 01/01/2023 Term Date: 12/31/9999",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Status: Provider ACTIVE Effective Date: 01/01/2023 Term Date: 12/31/9999",
+              "conf": 0.9901943675109318,
+              "bbox": [
+                38,
+                561,
+                1051,
+                599
+              ],
+              "words": [
+                {
+                  "text": "Status:",
+                  "conf": 0.9796247482299805,
+                  "bbox": [
+                    38,
+                    580,
+                    89,
+                    599
+                  ]
+                },
+                {
+                  "text": "Provider",
+                  "conf": 0.9982448816299438,
+                  "bbox": [
+                    40,
+                    565,
+                    96,
+                    581
+                  ]
+                },
+                {
+                  "text": "ACTIVE",
+                  "conf": 0.9979898929595947,
+                  "bbox": [
+                    144,
+                    572,
+                    200,
+                    592
+                  ]
+                },
+                {
+                  "text": "Effective Date:",
+                  "conf": 0.9872298240661621,
+                  "bbox": [
+                    471,
+                    563,
+                    530,
+                    599
+                  ]
+                },
+                {
+                  "text": "01/01/2023",
+                  "conf": 0.9980049133300781,
+                  "bbox": [
+                    572,
+                    570,
+                    656,
+                    592
+                  ]
+                },
+                {
+                  "text": "Term Date:",
+                  "conf": 0.9718131721019745,
+                  "bbox": [
+                    876,
+                    561,
+                    918,
+                    598
+                  ]
+                },
+                {
+                  "text": "12/31/9999",
+                  "conf": 0.9984531402587891,
+                  "bbox": [
+                    968,
+                    572,
+                    1051,
+                    588
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 13,
+          "bbox": [
+            41,
+            655,
+            169,
+            676
+          ],
+          "text": "Credentialing",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Credentialing",
+              "conf": 0.9996973872184753,
+              "bbox": [
+                41,
+                655,
+                169,
+                676
+              ],
+              "words": [
+                {
+                  "text": "Credentialing",
+                  "conf": 0.9996973872184753,
+                  "bbox": [
+                    41,
+                    655,
+                    169,
+                    676
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 14,
+          "bbox": [
+            38,
+            695,
+            902,
+            777
+          ],
+          "text": "License #: A66828 DEA #: BA3651602 Board Cert: YES\nLast Recredentialed: 06/15/2025 Review: Next 06/15/2027",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "License #: A66828 DEA #: BA3651602 Board Cert: YES",
+              "conf": 0.9817032643726894,
+              "bbox": [
+                38,
+                695,
+                902,
+                730
+              ],
+              "words": [
+                {
+                  "text": "License",
+                  "conf": 0.9970865845680237,
+                  "bbox": [
+                    38,
+                    695,
+                    91,
+                    714
+                  ]
+                },
+                {
+                  "text": "#:",
+                  "conf": 0.9090235233306885,
+                  "bbox": [
+                    40,
+                    714,
+                    60,
+                    729
+                  ]
+                },
+                {
+                  "text": "A66828",
+                  "conf": 0.9975185394287109,
+                  "bbox": [
+                    117,
+                    702,
+                    178,
+                    722
+                  ]
+                },
+                {
+                  "text": "DEA #:",
+                  "conf": 0.9844118356704712,
+                  "bbox": [
+                    420,
+                    695,
+                    451,
+                    730
+                  ]
+                },
+                {
+                  "text": "BA3651602",
+                  "conf": 0.9975309371948242,
+                  "bbox": [
+                    489,
+                    702,
+                    573,
+                    719
+                  ]
+                },
+                {
+                  "text": "Board Cert:",
+                  "conf": 0.9914864897727966,
+                  "bbox": [
+                    785,
+                    695,
+                    826,
+                    729
+                  ]
+                },
+                {
+                  "text": "YES",
+                  "conf": 0.9948649406433105,
+                  "bbox": [
+                    866,
+                    701,
+                    902,
+                    722
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Last Recredentialed: 06/15/2025 Review: Next 06/15/2027",
+              "conf": 0.9933242698510488,
+              "bbox": [
+                40,
+                744,
+                682,
+                777
+              ],
+              "words": [
+                {
+                  "text": "Last",
+                  "conf": 0.9987704753875732,
+                  "bbox": [
+                    40,
+                    745,
+                    71,
+                    762
+                  ]
+                },
+                {
+                  "text": "Recredentialed:",
+                  "conf": 0.9927517175674438,
+                  "bbox": [
+                    40,
+                    762,
+                    142,
+                    777
+                  ]
+                },
+                {
+                  "text": "06/15/2025",
+                  "conf": 0.9972759485244751,
+                  "bbox": [
+                    193,
+                    752,
+                    275,
+                    769
+                  ]
+                },
+                {
+                  "text": "Review:",
+                  "conf": 0.975041925907135,
+                  "bbox": [
+                    486,
+                    759,
+                    541,
+                    777
+                  ]
+                },
+                {
+                  "text": "Next",
+                  "conf": 0.996780276298523,
+                  "bbox": [
+                    487,
+                    744,
+                    523,
+                    761
+                  ]
+                },
+                {
+                  "text": "06/15/2027",
+                  "conf": 0.9993252754211426,
+                  "bbox": [
+                    599,
+                    750,
+                    682,
+                    770
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            26,
+            7,
+            1445,
+            676
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Curamind</td><td>Claims Management</td><td>David Kim PROC002 Logout</td><td></td></tr><tr><td></td><td></td><td>Back to Dashboard</td><td></td></tr><tr><td>Professional Claim X</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Save changes</td><td></td></tr><tr><td>Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5</td><td></td><td></td><td></td></tr><tr><td>Processor: David Kim</td><td>Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days</td><td></td><td></td></tr><tr><td>Provider 1098240233 Provider Name</td><td>OKONKWO MD,ADAEZE</td><td></td><td></td></tr><tr><td>ID</td><td>Tax 885344573 Specialty Code: 207V</td><td>OBSTETRICS &amp;GYNECOLOGY</td><td></td></tr><tr><td>Service Address</td><td>457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA</td><td></td><td></td></tr><tr><td>Phone</td><td>555827-4188 Fax:</td><td></td><td></td></tr><tr><td>555593-7414 Network</td><td></td><td></td><td></td></tr><tr><td>Contract Type</td><td>EPO-NETWORK Tier: 3</td><td>STANDARD</td><td></td></tr><tr><td>Referring</td><td>SELF REFERRED</td><td></td><td></td></tr><tr><td>Provider:</td><td></td><td></td><td></td></tr><tr><td>Status</td><td>Provider ACTIVE Effective Date: 01/01/2023</td><td>Term Date</td><td>12/31/9999</td></tr><tr><td>Credentialing</td><td></td><td></td><td></td></tr></table>",
+          "text": "Curamind: Claims Management\nDavid Kim PROC002 Logout: \nBack to Dashboard: \nProfessional Claim X: \nSave changes: \nClaim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5: \nProcessor: David Kim: Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days\nProvider 1098240233 Provider Name: OKONKWO MD,ADAEZE\nID: Tax 885344573 Specialty Code: 207V\nOBSTETRICS &GYNECOLOGY: \nService Address: 457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA\nPhone: 555827-4188 Fax:\n555593-7414 Network: \nContract Type: EPO-NETWORK Tier: 3\nSTANDARD: \nReferring: SELF REFERRED\nProvider:: \nStatus: Provider ACTIVE Effective Date: 01/01/2023\nTerm Date: 12/31/9999\nCredentialing: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "Curamind",
+              "Claims Management",
+              "David Kim PROC002 Logout",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Back to Dashboard",
+              ""
+            ],
+            [
+              "Professional Claim X",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Save changes",
+              ""
+            ],
+            [
+              "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Processor: David Kim",
+              "Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+              "",
+              ""
+            ],
+            [
+              "Provider 1098240233 Provider Name",
+              "OKONKWO MD,ADAEZE",
+              "",
+              ""
+            ],
+            [
+              "ID",
+              "Tax 885344573 Specialty Code: 207V",
+              "OBSTETRICS &GYNECOLOGY",
+              ""
+            ],
+            [
+              "Service Address",
+              "457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+              "",
+              ""
+            ],
+            [
+              "Phone",
+              "555827-4188 Fax:",
+              "",
+              ""
+            ],
+            [
+              "555593-7414 Network",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Contract Type",
+              "EPO-NETWORK Tier: 3",
+              "STANDARD",
+              ""
+            ],
+            [
+              "Referring",
+              "SELF REFERRED",
+              "",
+              ""
+            ],
+            [
+              "Provider:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Status",
+              "Provider ACTIVE Effective Date: 01/01/2023",
+              "Term Date",
+              "12/31/9999"
+            ],
+            [
+              "Credentialing",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "Curamind Claims Management",
+              "David Kim PROC002 Logout"
+            ],
+            [
+              "",
+              "Back to Dashboard"
+            ],
+            [
+              "Professional Claim X",
+              ""
+            ],
+            [
+              "",
+              "Save changes"
+            ],
+            [
+              "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              ""
+            ],
+            [
+              "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+              ""
+            ],
+            [
+              "Provider Information",
+              ""
+            ],
+            [
+              "Provider 1098240233 Provider Name: OKONKWO MD,ADAEZE",
+              ""
+            ],
+            [
+              "NPI:",
+              ""
+            ],
+            [
+              "ID: Tax 885344573 Specialty Code: 207V",
+              "OBSTETRICS &GYNECOLOGY"
+            ],
+            [
+              "Service Address:",
+              ""
+            ],
+            [
+              "457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+              ""
+            ],
+            [
+              "Billing Address:",
+              ""
+            ],
+            [
+              "Phone: 555827-4188 Fax:",
+              ""
+            ],
+            [
+              "555593-7414 Network",
+              ""
+            ],
+            [
+              "Contract Type: EPO-NETWORK Tier: 3",
+              "STANDARD"
+            ],
+            [
+              "Referring SELF REFERRED",
+              ""
+            ],
+            [
+              "Provider:",
+              ""
+            ],
+            [
+              "Status: Provider ACTIVE Effective Date: 01/01/2023",
+              "Term Date: 12/31/9999"
+            ],
+            [
+              "Credentialing",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            38,
+            695,
+            902,
+            777
+          ],
+          "headers": [
+            "License",
+            "#:",
+            "A66828",
+            "DEA #:",
+            "BA3651602",
+            "Board Cert:",
+            "YES"
+          ],
+          "rows": [
+            [
+              "Recredentialed:",
+              "Last",
+              "06/15/2025",
+              "",
+              "Review: Next 06/15/2027",
+              "",
+              ""
+            ]
+          ],
+          "text": "Recredentialed: | Last | 06/15/2025 |  | Review: Next 06/15/2027 |  | ",
+          "html": "<table><tr><th>License</th><th>#:</th><th>A66828</th><th>DEA #:</th><th>BA3651602</th><th>Board Cert:</th><th>YES</th></tr><tr><td>Recredentialed:</td><td>Last</td><td>06/15/2025</td><td></td><td>Review: Next 06/15/2027</td><td></td><td></td></tr></table>",
+          "source": "layout",
+          "cleaned": true
+        }
+      ],
+      "checkboxes": [
+        {
+          "label": "Translation Services Available",
+          "value": "Unknown",
+          "checked_yes": null,
+          "checked_no": null,
+          "yes_ink_score": null,
+          "no_ink_score": null,
+          "bbox": [
+            10,
+            573,
+            740,
+            1042
+          ],
+          "yes_bbox": [],
+          "no_bbox": [],
+          "source": "image_ink",
+          "column": "left"
+        },
+        {
+          "label": "Translation Services Available",
+          "value": "Unknown",
+          "checked_yes": false,
+          "checked_no": null,
+          "yes_ink_score": 0.11085858585858585,
+          "no_ink_score": null,
+          "bbox": [
+            760,
+            573,
+            1490,
+            1042
+          ],
+          "yes_bbox": [
+            866,
+            701,
+            902,
+            722
+          ],
+          "no_bbox": [],
+          "source": "image_ink",
+          "column": "right"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Curamind Claims Management David Kim PROC002 Logout",
+          "conf": 0.9766492545604706,
+          "bbox": [
+            26,
+            7,
+            1404,
+            40
+          ],
+          "words": [
+            {
+              "text": "Curamind",
+              "conf": 0.9583932161331177,
+              "bbox": [
+                26,
+                17,
+                125,
+                34
+              ]
+            },
+            {
+              "text": "Claims Management",
+              "conf": 0.9934066534042358,
+              "bbox": [
+                142,
+                17,
+                295,
+                35
+              ]
+            },
+            {
+              "text": "David Kim",
+              "conf": 0.9976294934749603,
+              "bbox": [
+                1153,
+                7,
+                1194,
+                40
+              ]
+            },
+            {
+              "text": "PROC002",
+              "conf": 0.9340588450431824,
+              "bbox": [
+                1239,
+                16,
+                1307,
+                31
+              ]
+            },
+            {
+              "text": "Logout",
+              "conf": 0.9997580647468567,
+              "bbox": [
+                1351,
+                16,
+                1404,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Back to Dashboard",
+          "conf": 0.9927955865859985,
+          "bbox": [
+            1302,
+            63,
+            1445,
+            78
+          ],
+          "words": [
+            {
+              "text": "Back to Dashboard",
+              "conf": 0.9927955865859985,
+              "bbox": [
+                1302,
+                63,
+                1445,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Professional Claim X Save changes",
+          "conf": 0.9230920970439911,
+          "bbox": [
+            34,
+            65,
+            1419,
+            108
+          ],
+          "words": [
+            {
+              "text": "Professional Claim X",
+              "conf": 0.8529746532440186,
+              "bbox": [
+                34,
+                65,
+                164,
+                108
+              ]
+            },
+            {
+              "text": "Save changes",
+              "conf": 0.9932095408439636,
+              "bbox": [
+                1318,
+                92,
+                1419,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "conf": 0.9747725129127502,
+          "bbox": [
+            47,
+            125,
+            689,
+            148
+          ],
+          "words": [
+            {
+              "text": "Claim Pg1",
+              "conf": 0.9496319890022278,
+              "bbox": [
+                47,
+                128,
+                117,
+                144
+              ]
+            },
+            {
+              "text": "Prov pg2",
+              "conf": 0.9994293451309204,
+              "bbox": [
+                161,
+                125,
+                238,
+                148
+              ]
+            },
+            {
+              "text": "Member Pg3",
+              "conf": 0.9639211893081665,
+              "bbox": [
+                275,
+                128,
+                362,
+                144
+              ]
+            },
+            {
+              "text": "Diagnosis Pg4",
+              "conf": 0.9801566004753113,
+              "bbox": [
+                414,
+                128,
+                510,
+                144
+              ]
+            },
+            {
+              "text": "Miscellaneous Pg5",
+              "conf": 0.9807234406471252,
+              "bbox": [
+                561,
+                126,
+                689,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROc002 Decision SLA:2 days",
+          "conf": 0.9448416531085968,
+          "bbox": [
+            40,
+            174,
+            773,
+            192
+          ],
+          "words": [
+            {
+              "text": "Processor: David Kim",
+              "conf": 0.9487439393997192,
+              "bbox": [
+                40,
+                177,
+                188,
+                192
+              ]
+            },
+            {
+              "text": "Last edit: 11/17/202509:12",
+              "conf": 0.9667949080467224,
+              "bbox": [
+                238,
+                177,
+                431,
+                192
+              ]
+            },
+            {
+              "text": "ProcessorID:PROc002",
+              "conf": 0.9119396209716797,
+              "bbox": [
+                431,
+                176,
+                607,
+                191
+              ]
+            },
+            {
+              "text": "Decision SLA:2 days",
+              "conf": 0.9518881440162659,
+              "bbox": [
+                632,
+                174,
+                773,
+                190
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Provider Information",
+          "conf": 0.9793233871459961,
+          "bbox": [
+            40,
+            238,
+            237,
+            258
+          ],
+          "words": [
+            {
+              "text": "Provider Information",
+              "conf": 0.9793233871459961,
+              "bbox": [
+                40,
+                238,
+                237,
+                258
+              ]
+            }
+          ]
+        },
+        {
+          "text": "NPI: Provider 1098240233 Provider Name: OKONKWO MD,ADAEZE",
+          "conf": 0.9717262744903564,
+          "bbox": [
+            39,
+            280,
+            728,
+            313
+          ],
+          "words": [
+            {
+              "text": "NPI:",
+              "conf": 0.9436967372894287,
+              "bbox": [
+                39,
+                295,
+                69,
+                313
+              ]
+            },
+            {
+              "text": "Provider",
+              "conf": 0.9978536367416382,
+              "bbox": [
+                40,
+                280,
+                95,
+                297
+              ]
+            },
+            {
+              "text": "1098240233",
+              "conf": 0.9987567067146301,
+              "bbox": [
+                130,
+                287,
+                219,
+                304
+              ]
+            },
+            {
+              "text": "Provider Name:",
+              "conf": 0.9683118462562561,
+              "bbox": [
+                436,
+                287,
+                537,
+                302
+              ]
+            },
+            {
+              "text": "OKONKWO MD,ADAEZE",
+              "conf": 0.9500124454498291,
+              "bbox": [
+                564,
+                287,
+                728,
+                302
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ID: Tax 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY",
+          "conf": 0.9804869244496027,
+          "bbox": [
+            36,
+            324,
+            877,
+            360
+          ],
+          "words": [
+            {
+              "text": "ID:",
+              "conf": 0.9354586601257324,
+              "bbox": [
+                36,
+                339,
+                63,
+                360
+              ]
+            },
+            {
+              "text": "Tax",
+              "conf": 0.9715366363525391,
+              "bbox": [
+                39,
+                326,
+                64,
+                343
+              ]
+            },
+            {
+              "text": "885344573",
+              "conf": 0.9990449547767639,
+              "bbox": [
+                93,
+                334,
+                175,
+                350
+              ]
+            },
+            {
+              "text": "Specialty Code:",
+              "conf": 0.9891921877861023,
+              "bbox": [
+                388,
+                324,
+                450,
+                358
+              ]
+            },
+            {
+              "text": "207V",
+              "conf": 0.9971609711647034,
+              "bbox": [
+                486,
+                329,
+                531,
+                353
+              ]
+            },
+            {
+              "text": "OBSTETRICS &GYNECOLOGY",
+              "conf": 0.9905281364917755,
+              "bbox": [
+                773,
+                324,
+                877,
+                357
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service Address:",
+          "conf": 0.9852994084358215,
+          "bbox": [
+            39,
+            375,
+            147,
+            394
+          ],
+          "words": [
+            {
+              "text": "Service Address:",
+              "conf": 0.9852994084358215,
+              "bbox": [
+                39,
+                375,
+                147,
+                394
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Billing Address: 457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+          "conf": 0.9424325823783875,
+          "bbox": [
+            39,
+            378,
+            373,
+            428
+          ],
+          "words": [
+            {
+              "text": "Billing Address:",
+              "conf": 0.9528881907463074,
+              "bbox": [
+                39,
+                407,
+                140,
+                426
+              ]
+            },
+            {
+              "text": "457 Pine St, Sacramento,CA 457 Pine St, Sacramento,CA",
+              "conf": 0.9319769740104675,
+              "bbox": [
+                170,
+                378,
+                373,
+                428
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Contract Type: EPO-NETWORK Tier: 3 STANDARD",
+          "conf": 0.9911367992560068,
+          "bbox": [
+            37,
+            474,
+            898,
+            512
+          ],
+          "words": [
+            {
+              "text": "Contract",
+              "conf": 0.9964945912361145,
+              "bbox": [
+                37,
+                474,
+                99,
+                497
+              ]
+            },
+            {
+              "text": "Type:",
+              "conf": 0.9824624061584473,
+              "bbox": [
+                40,
+                494,
+                77,
+                512
+              ]
+            },
+            {
+              "text": "EPO-NETWORK",
+              "conf": 0.9939809441566467,
+              "bbox": [
+                136,
+                486,
+                243,
+                501
+              ]
+            },
+            {
+              "text": "Tier:",
+              "conf": 0.9774284362792969,
+              "bbox": [
+                448,
+                490,
+                484,
+                512
+              ]
+            },
+            {
+              "text": "3",
+              "conf": 0.9988927245140076,
+              "bbox": [
+                536,
+                485,
+                550,
+                500
+              ]
+            },
+            {
+              "text": "STANDARD",
+              "conf": 0.9975616931915283,
+              "bbox": [
+                821,
+                485,
+                898,
+                501
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone: 555827-4188 Fax: 555593-7414 Network",
+          "conf": 0.9754324108362198,
+          "bbox": [
+            38,
+            442,
+            558,
+            495
+          ],
+          "words": [
+            {
+              "text": "Phone:",
+              "conf": 0.9836569428443909,
+              "bbox": [
+                38,
+                442,
+                87,
+                461
+              ]
+            },
+            {
+              "text": "555827-4188",
+              "conf": 0.9888834357261658,
+              "bbox": [
+                108,
+                443,
+                220,
+                465
+              ]
+            },
+            {
+              "text": "Fax:",
+              "conf": 0.9352705478668213,
+              "bbox": [
+                404,
+                443,
+                435,
+                459
+              ]
+            },
+            {
+              "text": "555593-7414 Network",
+              "conf": 0.9939187169075012,
+              "bbox": [
+                445,
+                445,
+                558,
+                495
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Referring Provider: SELF REFERRED",
+          "conf": 0.9550588925679525,
+          "bbox": [
+            38,
+            519,
+            273,
+            556
+          ],
+          "words": [
+            {
+              "text": "Referring",
+              "conf": 0.9714459180831909,
+              "bbox": [
+                38,
+                519,
+                101,
+                544
+              ]
+            },
+            {
+              "text": "Provider:",
+              "conf": 0.9373881220817566,
+              "bbox": [
+                40,
+                541,
+                98,
+                556
+              ]
+            },
+            {
+              "text": "SELF REFERRED",
+              "conf": 0.9563426375389099,
+              "bbox": [
+                161,
+                531,
+                273,
+                548
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Status: Provider ACTIVE Effective Date: 01/01/2023 Term Date: 12/31/9999",
+          "conf": 0.9901943675109318,
+          "bbox": [
+            38,
+            561,
+            1051,
+            599
+          ],
+          "words": [
+            {
+              "text": "Status:",
+              "conf": 0.9796247482299805,
+              "bbox": [
+                38,
+                580,
+                89,
+                599
+              ]
+            },
+            {
+              "text": "Provider",
+              "conf": 0.9982448816299438,
+              "bbox": [
+                40,
+                565,
+                96,
+                581
+              ]
+            },
+            {
+              "text": "ACTIVE",
+              "conf": 0.9979898929595947,
+              "bbox": [
+                144,
+                572,
+                200,
+                592
+              ]
+            },
+            {
+              "text": "Effective Date:",
+              "conf": 0.9872298240661621,
+              "bbox": [
+                471,
+                563,
+                530,
+                599
+              ]
+            },
+            {
+              "text": "01/01/2023",
+              "conf": 0.9980049133300781,
+              "bbox": [
+                572,
+                570,
+                656,
+                592
+              ]
+            },
+            {
+              "text": "Term Date:",
+              "conf": 0.9718131721019745,
+              "bbox": [
+                876,
+                561,
+                918,
+                598
+              ]
+            },
+            {
+              "text": "12/31/9999",
+              "conf": 0.9984531402587891,
+              "bbox": [
+                968,
+                572,
+                1051,
+                588
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Credentialing",
+          "conf": 0.9996973872184753,
+          "bbox": [
+            41,
+            655,
+            169,
+            676
+          ],
+          "words": [
+            {
+              "text": "Credentialing",
+              "conf": 0.9996973872184753,
+              "bbox": [
+                41,
+                655,
+                169,
+                676
+              ]
+            }
+          ]
+        },
+        {
+          "text": "License #: A66828 DEA #: BA3651602 Board Cert: YES",
+          "conf": 0.9817032643726894,
+          "bbox": [
+            38,
+            695,
+            902,
+            730
+          ],
+          "words": [
+            {
+              "text": "License",
+              "conf": 0.9970865845680237,
+              "bbox": [
+                38,
+                695,
+                91,
+                714
+              ]
+            },
+            {
+              "text": "#:",
+              "conf": 0.9090235233306885,
+              "bbox": [
+                40,
+                714,
+                60,
+                729
+              ]
+            },
+            {
+              "text": "A66828",
+              "conf": 0.9975185394287109,
+              "bbox": [
+                117,
+                702,
+                178,
+                722
+              ]
+            },
+            {
+              "text": "DEA #:",
+              "conf": 0.9844118356704712,
+              "bbox": [
+                420,
+                695,
+                451,
+                730
+              ]
+            },
+            {
+              "text": "BA3651602",
+              "conf": 0.9975309371948242,
+              "bbox": [
+                489,
+                702,
+                573,
+                719
+              ]
+            },
+            {
+              "text": "Board Cert:",
+              "conf": 0.9914864897727966,
+              "bbox": [
+                785,
+                695,
+                826,
+                729
+              ]
+            },
+            {
+              "text": "YES",
+              "conf": 0.9948649406433105,
+              "bbox": [
+                866,
+                701,
+                902,
+                722
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Last Recredentialed: 06/15/2025 Review: Next 06/15/2027",
+          "conf": 0.9933242698510488,
+          "bbox": [
+            40,
+            744,
+            682,
+            777
+          ],
+          "words": [
+            {
+              "text": "Last",
+              "conf": 0.9987704753875732,
+              "bbox": [
+                40,
+                745,
+                71,
+                762
+              ]
+            },
+            {
+              "text": "Recredentialed:",
+              "conf": 0.9927517175674438,
+              "bbox": [
+                40,
+                762,
+                142,
+                777
+              ]
+            },
+            {
+              "text": "06/15/2025",
+              "conf": 0.9972759485244751,
+              "bbox": [
+                193,
+                752,
+                275,
+                769
+              ]
+            },
+            {
+              "text": "Review:",
+              "conf": 0.975041925907135,
+              "bbox": [
+                486,
+                759,
+                541,
+                777
+              ]
+            },
+            {
+              "text": "Next",
+              "conf": 0.996780276298523,
+              "bbox": [
+                487,
+                744,
+                523,
+                761
+              ]
+            },
+            {
+              "text": "06/15/2027",
+              "conf": 0.9993252754211426,
+              "bbox": [
+                599,
+                750,
+                682,
+                770
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

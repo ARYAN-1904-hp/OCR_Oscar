@@ -1,0 +1,236 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=4 | tables=2 | checkboxes=0
+
+[TEXT]
+rosco Q OSC78747909-02 MR Melissa
+
+[TABLE 0 | source=wide_grid]
+shape: 5x6
+HEADER | 8 MEMBERS | OSCAR ID | R NUMBER | SSN | DOB | STATE
+ROW 1 | Raizel Wagner | OSC78747909-02 | R213X90S | 4211 | 01/26/2000 | FL
+  CELL[1,0] = Raizel Wagner
+  CELL[1,1] = OSC78747909-02
+  CELL[1,2] = R213X90S
+  CELL[1,3] = 4211
+  CELL[1,4] = 01/26/2000
+  CELL[1,5] = FL
+ROW 2 | Raizel Wagner | OSC76618297-01 | R216R7H5 | 4211 | 01/26/2000 | FL
+  CELL[2,0] = Raizel Wagner
+  CELL[2,1] = OSC76618297-01
+  CELL[2,2] = R216R7H5
+  CELL[2,3] = 4211
+  CELL[2,4] = 01/26/2000
+  CELL[2,5] = FL
+ROW 3 | Yisroel Dubov | OSC78747909-01 | R213XB6D | 4790 | 02/06/1999 | FL
+  CELL[3,0] = Yisroel Dubov
+  CELL[3,1] = OSC78747909-01
+  CELL[3,2] = R213XB6D
+  CELL[3,3] = 4790
+  CELL[3,4] = 02/06/1999
+  CELL[3,5] = FL
+ROW 4 | Avraham Dubov | OSC78747909-03 | R215X99Z | 8599 | 02/21/2024 | FL
+  CELL[4,0] = Avraham Dubov
+  CELL[4,1] = OSC78747909-03
+  CELL[4,2] = R215X99Z
+  CELL[4,3] = 8599
+  CELL[4,4] = 02/21/2024
+  CELL[4,5] = FL
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 5x5
+HEADER | Y9 PROVIDERS | NPI | TIN | CLIENT | SPECIALTY
+ROW 1 | Oscar Arrate Fernandez | 1356161624 | 610666209 | Cigna | Family Nurse Practitioner
+  CELL[1,0] = Oscar Arrate Fernandez
+  CELL[1,1] = 1356161624
+  CELL[1,2] = 610666209
+  CELL[1,3] = Cigna
+  CELL[1,4] = Family Nurse Practitioner
+ROW 2 | Itzel A Garcia Oscos | 1255194007 | 832865075 | Cigna | Dentist
+  CELL[2,0] = Itzel A Garcia Oscos
+  CELL[2,1] = 1255194007
+  CELL[2,2] = 832865075
+  CELL[2,3] = Cigna
+  CELL[2,4] = Dentist
+ROW 3 | Oscar E Perez | 1336209147 | 201124098 | Cigna | Psychiatrist, Family Medicine Specialist
+  CELL[3,0] = Oscar E Perez
+  CELL[3,1] = 1336209147
+  CELL[3,2] = 201124098
+  CELL[3,3] = Cigna
+  CELL[3,4] = Psychiatrist, Family Medicine Specialist
+ROW 4 | Oscar J Hines | 1497779581 | 954377219 | Cigna | General Surgeon
+  CELL[4,0] = Oscar J Hines
+  CELL[4,1] = 1497779581
+  CELL[4,2] = 954377219
+  CELL[4,3] = Cigna
+  CELL[4,4] = General Surgeon
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,34] | order=0
+  rosco Q OSC78747909-02 MR Melissa
+BLOCK 1 | type=header | bbox=[116,77,1009,97] | order=1
+  8 MEMBERS OSCAR ID R NUMBER SSN DOB STATE
+BLOCK 2 | type=table | bbox=[116,112,1058,388] | order=2
+  Raizel Wagner OSC78747909-02 R213X90S -4211 01/26/2000 FL
+  Raizel Wagner OSC76618297-01 R216R7H5 -4211 01/26/2000 FL
+  Yisroel Dubov OSC78747909-01 R213XB6D 4790 02/06/1999 FL
+  Avraham Dubov OSC78747909-03 R215X99Z 8599 02/21/2024 FL
+  Y9 PROVIDERS NPI TIN CLIENT SPECIALTY
+  Oscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner
+  Itzel A Garcia Oscos 1255194007 832865075 Cigna Dentist
+  Oscar E Perez 1336209147 201124098 Cigna Psychiatrist, Family Medicine Specialist
+  Oscar J Hines 1497779581 954377219 Cigna General Surgeon
+BLOCK 3 | type=table_row | bbox=[136,218,260,414] | order=3
+  See all members
+  See all 1, 159 providers
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=wide_grid | bbox=[116,77,1009,210] | shape=5x6 | conf=0.850
+  shape: 5x6
+  HEADER | 8 MEMBERS | OSCAR ID | R NUMBER | SSN | DOB | STATE
+  ROW 1 | Raizel Wagner | OSC78747909-02 | R213X90S | 4211 | 01/26/2000 | FL
+    CELL[1,0] = Raizel Wagner
+    CELL[1,1] = OSC78747909-02
+    CELL[1,2] = R213X90S
+    CELL[1,3] = 4211
+    CELL[1,4] = 01/26/2000
+    CELL[1,5] = FL
+  ROW 2 | Raizel Wagner | OSC76618297-01 | R216R7H5 | 4211 | 01/26/2000 | FL
+    CELL[2,0] = Raizel Wagner
+    CELL[2,1] = OSC76618297-01
+    CELL[2,2] = R216R7H5
+    CELL[2,3] = 4211
+    CELL[2,4] = 01/26/2000
+    CELL[2,5] = FL
+  ROW 3 | Yisroel Dubov | OSC78747909-01 | R213XB6D | 4790 | 02/06/1999 | FL
+    CELL[3,0] = Yisroel Dubov
+    CELL[3,1] = OSC78747909-01
+    CELL[3,2] = R213XB6D
+    CELL[3,3] = 4790
+    CELL[3,4] = 02/06/1999
+    CELL[3,5] = FL
+  ROW 4 | Avraham Dubov | OSC78747909-03 | R215X99Z | 8599 | 02/21/2024 | FL
+    CELL[4,0] = Avraham Dubov
+    CELL[4,1] = OSC78747909-03
+    CELL[4,2] = R215X99Z
+    CELL[4,3] = 8599
+    CELL[4,4] = 02/21/2024
+    CELL[4,5] = FL
+TABLE 1 | source=wide_grid | bbox=[116,254,1058,388] | shape=5x5 | conf=0.850
+  shape: 5x5
+  HEADER | Y9 PROVIDERS | NPI | TIN | CLIENT | SPECIALTY
+  ROW 1 | Oscar Arrate Fernandez | 1356161624 | 610666209 | Cigna | Family Nurse Practitioner
+    CELL[1,0] = Oscar Arrate Fernandez
+    CELL[1,1] = 1356161624
+    CELL[1,2] = 610666209
+    CELL[1,3] = Cigna
+    CELL[1,4] = Family Nurse Practitioner
+  ROW 2 | Itzel A Garcia Oscos | 1255194007 | 832865075 | Cigna | Dentist
+    CELL[2,0] = Itzel A Garcia Oscos
+    CELL[2,1] = 1255194007
+    CELL[2,2] = 832865075
+    CELL[2,3] = Cigna
+    CELL[2,4] = Dentist
+  ROW 3 | Oscar E Perez | 1336209147 | 201124098 | Cigna | Psychiatrist, Family Medicine Specialist
+    CELL[3,0] = Oscar E Perez
+    CELL[3,1] = 1336209147
+    CELL[3,2] = 201124098
+    CELL[3,3] = Cigna
+    CELL[3,4] = Psychiatrist, Family Medicine Specialist
+  ROW 4 | Oscar J Hines | 1497779581 | 954377219 | Cigna | General Surgeon
+    CELL[4,0] = Oscar J Hines
+    CELL[4,1] = 1497779581
+    CELL[4,2] = 954377219
+    CELL[4,3] = Cigna
+    CELL[4,4] = General Surgeon
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.921 | text=rosco Q OSC78747909-02 MR Melissa
+  WORD | bbox=[14,17,74,34] | text=rosco
+  WORD | bbox=[112,17,132,33] | text=Q
+  WORD | bbox=[142,17,255,33] | text=OSC78747909-02
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[116,77,1009,97] | conf=0.954 | text=8 MEMBERS OSCAR ID R NUMBER SSN DOB STATE
+  WORD | bbox=[116,81,131,93] | text=8
+  WORD | bbox=[135,79,194,95] | text=MEMBERS
+  WORD | bbox=[534,81,585,94] | text=OSCAR ID
+  WORD | bbox=[645,79,705,95] | text=R NUMBER
+  WORD | bbox=[759,80,785,95] | text=SSN
+  WORD | bbox=[865,79,896,97] | text=DOB
+  WORD | bbox=[973,77,1009,97] | text=STATE
+LINE 2 | bbox=[138,112,990,129] | conf=0.986 | text=Raizel Wagner OSC78747909-02 R213X90S -4211 01/26/2000 FL
+  WORD | bbox=[138,112,219,129] | text=Raizel Wagner
+  WORD | bbox=[532,112,619,129] | text=OSC78747909-02
+  WORD | bbox=[646,113,696,127] | text=R213X90S
+  WORD | bbox=[761,113,788,129] | text=4211
+  WORD | bbox=[869,115,926,127] | text=01/26/2000
+  WORD | bbox=[974,113,990,129] | text=FL
+LINE 3 | bbox=[136,136,991,157] | conf=0.987 | text=Raizel Wagner OSC76618297-01 R216R7H5 -4211 01/26/2000 FL
+  WORD | bbox=[136,136,219,157] | text=Raizel Wagner
+  WORD | bbox=[532,139,616,155] | text=OSC76618297-01
+  WORD | bbox=[648,140,698,154] | text=R216R7H5
+  WORD | bbox=[758,136,789,157] | text=4211
+  WORD | bbox=[866,139,929,155] | text=01/26/2000
+  WORD | bbox=[974,139,991,155] | text=FL
+LINE 4 | bbox=[138,165,991,183] | conf=0.981 | text=Yisroel Dubov OSC78747909-01 R213XB6D 4790 02/06/1999 FL
+  WORD | bbox=[138,165,219,182] | text=Yisroel Dubov
+  WORD | bbox=[532,165,618,182] | text=OSC78747909-01
+  WORD | bbox=[648,167,700,182] | text=R213XB6D
+  WORD | bbox=[760,165,792,183] | text=4790
+  WORD | bbox=[866,165,929,182] | text=02/06/1999
+  WORD | bbox=[974,165,991,183] | text=FL
+LINE 5 | bbox=[137,191,991,210] | conf=0.992 | text=Avraham Dubov OSC78747909-03 R215X99Z 8599 02/21/2024 FL
+  WORD | bbox=[137,191,230,209] | text=Avraham Dubov
+  WORD | bbox=[532,192,620,209] | text=OSC78747909-03
+  WORD | bbox=[648,194,696,208] | text=R215X99Z
+  WORD | bbox=[760,192,792,210] | text=8599
+  WORD | bbox=[868,192,926,209] | text=02/21/2024
+  WORD | bbox=[974,192,991,209] | text=FL
+LINE 6 | bbox=[116,254,925,276] | conf=0.938 | text=Y9 PROVIDERS NPI TIN CLIENT SPECIALTY
+  WORD | bbox=[116,260,130,271] | text=Y9
+  WORD | bbox=[136,258,201,275] | text=PROVIDERS
+  WORD | bbox=[531,258,555,274] | text=NPI
+  WORD | bbox=[644,257,669,276] | text=TIN
+  WORD | bbox=[757,254,802,275] | text=CLIENT
+  WORD | bbox=[866,258,925,275] | text=SPECIALTY
+LINE 7 | bbox=[137,289,990,309] | conf=0.994 | text=Oscar Arrate Fernandez 1356161624 610666209 Cigna Family Nurse Practitioner
+  WORD | bbox=[137,289,273,308] | text=Oscar Arrate Fernandez
+  WORD | bbox=[534,293,588,306] | text=1356161624
+  WORD | bbox=[646,293,700,306] | text=610666209
+  WORD | bbox=[759,292,792,309] | text=Cigna
+  WORD | bbox=[869,293,990,306] | text=Family Nurse Practitioner
+LINE 8 | bbox=[138,314,908,337] | conf=0.999 | text=Itzel A Garcia Oscos 1255194007 832865075 Cigna Dentist
+  WORD | bbox=[138,317,250,334] | text=Itzel A Garcia Oscos
+  WORD | bbox=[532,317,591,334] | text=1255194007
+  WORD | bbox=[645,317,702,334] | text=832865075
+  WORD | bbox=[757,315,793,337] | text=Cigna
+  WORD | bbox=[865,314,908,335] | text=Dentist
+LINE 9 | bbox=[136,341,1058,363] | conf=0.988 | text=Oscar E Perez 1336209147 201124098 Cigna Psychiatrist, Family Medicine Specialist
+  WORD | bbox=[136,341,218,362] | text=Oscar E Perez
+  WORD | bbox=[532,344,591,360] | text=1336209147
+  WORD | bbox=[645,344,701,360] | text=201124098
+  WORD | bbox=[759,345,792,363] | text=Cigna
+  WORD | bbox=[869,346,1058,359] | text=Psychiatrist, Family Medicine Specialist
+LINE 10 | bbox=[138,369,950,388] | conf=0.976 | text=Oscar J Hines 1497779581 954377219 Cigna General Surgeon
+  WORD | bbox=[138,369,218,386] | text=Oscar J Hines
+  WORD | bbox=[532,370,589,387] | text=1497779581
+  WORD | bbox=[648,372,700,387] | text=954377219
+  WORD | bbox=[759,370,792,388] | text=Cigna
+  WORD | bbox=[867,370,950,388] | text=General Surgeon
+LINE 11 | bbox=[138,218,232,234] | conf=0.956 | text=See all members
+LINE 12 | bbox=[136,396,260,414] | conf=0.963 | text=See all 1, 159 providers
+[/BOXES]
+
+[FIELDS]
+NPI: 1356161624
+NPI: 1255194007
+NPI: 1336209147
+NPI: 1497779581
+[/FIELDS]

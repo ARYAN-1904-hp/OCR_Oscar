@@ -1,0 +1,2474 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "VERINT MR\nKnowledge Management\nFilters Search 8 Newborn 7/10/26 - KM1014156 9 x\n4 ratings* :\nSkip To: Private Information Tags Refresh\nAlways add additional details as needed to give a clear explanation supporting the changes made\nNot an Oscar MM\nNot an Oscar MM\nWorkflow:\nNewborn\nChanges Made:\nChanged MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.\nReason for changes:\nNo Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)\nBABY\nBaby\nWorkflow:\nNewborn\nChanges Made:\nSuppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.\nReason for changes:\nBaby has an Active Policy Effectuated on or before the Start DOs of the claim.\nBaby's claim will be covered by the baby's own Active Policy\nWorkflow:",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "VERINT MR\nKnowledge Management\nFilters Search 8 Newborn 7/10/26 - KM1014156 9 x\n4 ratings* :\nSkip To: Private Information Tags Refresh\nAlways add additional details as needed to give a clear explanation supporting the changes made\nNot an Oscar MM\nNot an Oscar MM\nWorkflow:\nNewborn\nChanges Made:\nChanged MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.\nReason for changes:\nNo Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)\nBABY\nBaby\nWorkflow:\nNewborn\nChanges Made:\nSuppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.\nReason for changes:\nBaby has an Active Policy Effectuated on or before the Start DOs of the claim.\nBaby's claim will be covered by the baby's own Active Policy\nWorkflow:",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "paragraph",
+              "reading_order": 2,
+              "bbox": [
+                2,
+                83,
+                1591,
+                132
+              ],
+              "text": "Filters Search 8 Newborn 7/10/26 - KM1014156 9 x",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Filters Search 8 Newborn 7/10/26 - KM1014156 9 x",
+                  "conf": 0.8518943071365357,
+                  "bbox": [
+                    2,
+                    83,
+                    1591,
+                    132
+                  ],
+                  "words": [
+                    {
+                      "text": "Filters",
+                      "conf": 0.9929164052009583,
+                      "bbox": [
+                        2,
+                        92,
+                        15,
+                        130
+                      ]
+                    },
+                    {
+                      "text": "Search",
+                      "conf": 0.9975371956825256,
+                      "bbox": [
+                        16,
+                        90,
+                        30,
+                        132
+                      ]
+                    },
+                    {
+                      "text": "8",
+                      "conf": 0.522944986820221,
+                      "bbox": [
+                        50,
+                        90,
+                        74,
+                        113
+                      ]
+                    },
+                    {
+                      "text": "Newborn 7/10/26 - KM1014156",
+                      "conf": 0.9806740283966064,
+                      "bbox": [
+                        90,
+                        83,
+                        222,
+                        122
+                      ]
+                    },
+                    {
+                      "text": "9 x",
+                      "conf": 0.7653989195823669,
+                      "bbox": [
+                        1544,
+                        83,
+                        1591,
+                        111
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 3,
+              "bbox": [
+                41,
+                127,
+                1586,
+                197
+              ],
+              "text": "4 ratings* :\nSkip To: Private Information Tags Refresh",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "4 ratings* :",
+                  "conf": 0.7144557535648346,
+                  "bbox": [
+                    41,
+                    127,
+                    1586,
+                    155
+                  ],
+                  "words": [
+                    {
+                      "text": "4 ratings*",
+                      "conf": 0.9116604924201965,
+                      "bbox": [
+                        41,
+                        136,
+                        206,
+                        155
+                      ]
+                    },
+                    {
+                      "text": ":",
+                      "conf": 0.5172510147094727,
+                      "bbox": [
+                        1530,
+                        127,
+                        1586,
+                        154
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Skip To: Private Information Tags Refresh",
+                  "conf": 0.975479006767273,
+                  "bbox": [
+                    44,
+                    173,
+                    1585,
+                    197
+                  ],
+                  "words": [
+                    {
+                      "text": "Skip To: Private Information Tags",
+                      "conf": 0.9566296935081482,
+                      "bbox": [
+                        44,
+                        181,
+                        256,
+                        197
+                      ]
+                    },
+                    {
+                      "text": "Refresh",
+                      "conf": 0.9943283200263977,
+                      "bbox": [
+                        1534,
+                        173,
+                        1585,
+                        191
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 4,
+              "bbox": [
+                71,
+                215,
+                896,
+                308
+              ],
+              "text": "Always add additional details as needed to give a clear explanation supporting the changes made\nNot an Oscar MM\nNot an Oscar MM",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Always add additional details as needed to give a clear explanation supporting the changes made",
+                  "conf": 0.9806296825408936,
+                  "bbox": [
+                    71,
+                    215,
+                    796,
+                    238
+                  ],
+                  "words": [
+                    {
+                      "text": "Always add additional details as needed to give a clear explanation supporting the changes made",
+                      "conf": 0.9806296825408936,
+                      "bbox": [
+                        71,
+                        215,
+                        796,
+                        238
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Not an Oscar MM",
+                  "conf": 0.963124692440033,
+                  "bbox": [
+                    735,
+                    248,
+                    896,
+                    269
+                  ],
+                  "words": [
+                    {
+                      "text": "Not an Oscar MM",
+                      "conf": 0.963124692440033,
+                      "bbox": [
+                        735,
+                        248,
+                        896,
+                        269
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Not an Oscar MM",
+                  "conf": 0.9505599141120911,
+                  "bbox": [
+                    76,
+                    292,
+                    234,
+                    308
+                  ],
+                  "words": [
+                    {
+                      "text": "Not an Oscar MM",
+                      "conf": 0.9505599141120911,
+                      "bbox": [
+                        76,
+                        292,
+                        234,
+                        308
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 5,
+              "bbox": [
+                73,
+                318,
+                160,
+                343
+              ],
+              "text": "Workflow:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Workflow:",
+                  "conf": 0.9988417029380798,
+                  "bbox": [
+                    73,
+                    318,
+                    160,
+                    343
+                  ],
+                  "words": [
+                    {
+                      "text": "Workflow:",
+                      "conf": 0.9988417029380798,
+                      "bbox": [
+                        73,
+                        318,
+                        160,
+                        343
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 6,
+              "bbox": [
+                74,
+                342,
+                145,
+                360
+              ],
+              "text": "Newborn",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn",
+                  "conf": 0.9987030625343323,
+                  "bbox": [
+                    74,
+                    342,
+                    145,
+                    360
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn",
+                      "conf": 0.9987030625343323,
+                      "bbox": [
+                        74,
+                        342,
+                        145,
+                        360
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 7,
+              "bbox": [
+                75,
+                368,
+                203,
+                388
+              ],
+              "text": "Changes Made:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Changes Made:",
+                  "conf": 0.9800500273704529,
+                  "bbox": [
+                    75,
+                    368,
+                    203,
+                    388
+                  ],
+                  "words": [
+                    {
+                      "text": "Changes Made:",
+                      "conf": 0.9800500273704529,
+                      "bbox": [
+                        75,
+                        368,
+                        203,
+                        388
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 8,
+              "bbox": [
+                74,
+                386,
+                544,
+                426
+              ],
+              "text": "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+                  "conf": 0.9636785089969635,
+                  "bbox": [
+                    74,
+                    386,
+                    544,
+                    426
+                  ],
+                  "words": [
+                    {
+                      "text": "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+                      "conf": 0.9636785089969635,
+                      "bbox": [
+                        74,
+                        386,
+                        544,
+                        426
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 9,
+              "bbox": [
+                76,
+                438,
+                245,
+                458
+              ],
+              "text": "Reason for changes:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Reason for changes:",
+                  "conf": 0.9875696897506714,
+                  "bbox": [
+                    76,
+                    438,
+                    245,
+                    458
+                  ],
+                  "words": [
+                    {
+                      "text": "Reason for changes:",
+                      "conf": 0.9875696897506714,
+                      "bbox": [
+                        76,
+                        438,
+                        245,
+                        458
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 10,
+              "bbox": [
+                72,
+                454,
+                846,
+                498
+              ],
+              "text": "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)\nBABY",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)",
+                  "conf": 0.9808582067489624,
+                  "bbox": [
+                    72,
+                    454,
+                    719,
+                    477
+                  ],
+                  "words": [
+                    {
+                      "text": "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)",
+                      "conf": 0.9808582067489624,
+                      "bbox": [
+                        72,
+                        454,
+                        719,
+                        477
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "BABY",
+                  "conf": 0.997858464717865,
+                  "bbox": [
+                    789,
+                    475,
+                    846,
+                    498
+                  ],
+                  "words": [
+                    {
+                      "text": "BABY",
+                      "conf": 0.997858464717865,
+                      "bbox": [
+                        789,
+                        475,
+                        846,
+                        498
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 11,
+              "bbox": [
+                73,
+                516,
+                127,
+                544
+              ],
+              "text": "Baby",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Baby",
+                  "conf": 0.998606264591217,
+                  "bbox": [
+                    73,
+                    516,
+                    127,
+                    544
+                  ],
+                  "words": [
+                    {
+                      "text": "Baby",
+                      "conf": 0.998606264591217,
+                      "bbox": [
+                        73,
+                        516,
+                        127,
+                        544
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 12,
+              "bbox": [
+                75,
+                547,
+                162,
+                572
+              ],
+              "text": "Workflow:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Workflow:",
+                  "conf": 0.9989655613899231,
+                  "bbox": [
+                    75,
+                    547,
+                    162,
+                    572
+                  ],
+                  "words": [
+                    {
+                      "text": "Workflow:",
+                      "conf": 0.9989655613899231,
+                      "bbox": [
+                        75,
+                        547,
+                        162,
+                        572
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 13,
+              "bbox": [
+                75,
+                572,
+                146,
+                589
+              ],
+              "text": "Newborn",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn",
+                  "conf": 0.9986080527305603,
+                  "bbox": [
+                    75,
+                    572,
+                    146,
+                    589
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn",
+                      "conf": 0.9986080527305603,
+                      "bbox": [
+                        75,
+                        572,
+                        146,
+                        589
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 14,
+              "bbox": [
+                75,
+                598,
+                758,
+                668
+              ],
+              "text": "Changes Made:\nSuppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.\nReason for changes:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Changes Made:",
+                  "conf": 0.9715231657028198,
+                  "bbox": [
+                    78,
+                    598,
+                    204,
+                    619
+                  ],
+                  "words": [
+                    {
+                      "text": "Changes Made:",
+                      "conf": 0.9715231657028198,
+                      "bbox": [
+                        78,
+                        598,
+                        204,
+                        619
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.",
+                  "conf": 0.9889084100723267,
+                  "bbox": [
+                    75,
+                    615,
+                    758,
+                    639
+                  ],
+                  "words": [
+                    {
+                      "text": "Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.",
+                      "conf": 0.9889084100723267,
+                      "bbox": [
+                        75,
+                        615,
+                        758,
+                        639
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Reason for changes:",
+                  "conf": 0.9766307473182678,
+                  "bbox": [
+                    76,
+                    648,
+                    246,
+                    668
+                  ],
+                  "words": [
+                    {
+                      "text": "Reason for changes:",
+                      "conf": 0.9766307473182678,
+                      "bbox": [
+                        76,
+                        648,
+                        246,
+                        668
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 15,
+              "bbox": [
+                75,
+                663,
+                654,
+                705
+              ],
+              "text": "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.\nBaby's claim will be covered by the baby's own Active Policy",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.",
+                  "conf": 0.9661444425582886,
+                  "bbox": [
+                    75,
+                    663,
+                    654,
+                    687
+                  ],
+                  "words": [
+                    {
+                      "text": "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.",
+                      "conf": 0.9661444425582886,
+                      "bbox": [
+                        75,
+                        663,
+                        654,
+                        687
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Baby's claim will be covered by the baby's own Active Policy",
+                  "conf": 0.94479900598526,
+                  "bbox": [
+                    76,
+                    686,
+                    524,
+                    705
+                  ],
+                  "words": [
+                    {
+                      "text": "Baby's claim will be covered by the baby's own Active Policy",
+                      "conf": 0.94479900598526,
+                      "bbox": [
+                        76,
+                        686,
+                        524,
+                        705
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Filters Search 8 Newborn 7/10/26 - KM1014156 9 x\n4 ratings* :\nSkip To: Private Information Tags Refresh\nAlways add additional details as needed to give a clear explanation supporting the changes made\nNot an Oscar MM\nNot an Oscar MM\nWorkflow:\nNewborn\nChanges Made:\nChanged MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.\nReason for changes:\nNo Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)\nBABY\nBaby\nWorkflow:\nNewborn\nChanges Made:\nSuppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.\nReason for changes:\nBaby has an Active Policy Effectuated on or before the Start DOs of the claim.\nBaby's claim will be covered by the baby's own Active Policy"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            59,
+            19,
+            1569,
+            39
+          ],
+          "text": "VERINT MR",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "VERINT MR",
+              "conf": 0.9976659417152405,
+              "bbox": [
+                59,
+                19,
+                1569,
+                39
+              ],
+              "words": [
+                {
+                  "text": "VERINT",
+                  "conf": 0.9976599812507629,
+                  "bbox": [
+                    59,
+                    19,
+                    148,
+                    37
+                  ]
+                },
+                {
+                  "text": "MR",
+                  "conf": 0.997671902179718,
+                  "bbox": [
+                    1536,
+                    22,
+                    1569,
+                    39
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            29,
+            41,
+            176,
+            57
+          ],
+          "text": "Knowledge Management",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Knowledge Management",
+              "conf": 0.9828110933303833,
+              "bbox": [
+                29,
+                41,
+                176,
+                57
+              ],
+              "words": [
+                {
+                  "text": "Knowledge Management",
+                  "conf": 0.9828110933303833,
+                  "bbox": [
+                    29,
+                    41,
+                    176,
+                    57
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 2,
+          "bbox": [
+            2,
+            83,
+            1591,
+            132
+          ],
+          "text": "Filters Search 8 Newborn 7/10/26 - KM1014156 9 x",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Filters Search 8 Newborn 7/10/26 - KM1014156 9 x",
+              "conf": 0.8518943071365357,
+              "bbox": [
+                2,
+                83,
+                1591,
+                132
+              ],
+              "words": [
+                {
+                  "text": "Filters",
+                  "conf": 0.9929164052009583,
+                  "bbox": [
+                    2,
+                    92,
+                    15,
+                    130
+                  ]
+                },
+                {
+                  "text": "Search",
+                  "conf": 0.9975371956825256,
+                  "bbox": [
+                    16,
+                    90,
+                    30,
+                    132
+                  ]
+                },
+                {
+                  "text": "8",
+                  "conf": 0.522944986820221,
+                  "bbox": [
+                    50,
+                    90,
+                    74,
+                    113
+                  ]
+                },
+                {
+                  "text": "Newborn 7/10/26 - KM1014156",
+                  "conf": 0.9806740283966064,
+                  "bbox": [
+                    90,
+                    83,
+                    222,
+                    122
+                  ]
+                },
+                {
+                  "text": "9 x",
+                  "conf": 0.7653989195823669,
+                  "bbox": [
+                    1544,
+                    83,
+                    1591,
+                    111
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 3,
+          "bbox": [
+            41,
+            127,
+            1586,
+            197
+          ],
+          "text": "4 ratings* :\nSkip To: Private Information Tags Refresh",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "4 ratings* :",
+              "conf": 0.7144557535648346,
+              "bbox": [
+                41,
+                127,
+                1586,
+                155
+              ],
+              "words": [
+                {
+                  "text": "4 ratings*",
+                  "conf": 0.9116604924201965,
+                  "bbox": [
+                    41,
+                    136,
+                    206,
+                    155
+                  ]
+                },
+                {
+                  "text": ":",
+                  "conf": 0.5172510147094727,
+                  "bbox": [
+                    1530,
+                    127,
+                    1586,
+                    154
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Skip To: Private Information Tags Refresh",
+              "conf": 0.975479006767273,
+              "bbox": [
+                44,
+                173,
+                1585,
+                197
+              ],
+              "words": [
+                {
+                  "text": "Skip To: Private Information Tags",
+                  "conf": 0.9566296935081482,
+                  "bbox": [
+                    44,
+                    181,
+                    256,
+                    197
+                  ]
+                },
+                {
+                  "text": "Refresh",
+                  "conf": 0.9943283200263977,
+                  "bbox": [
+                    1534,
+                    173,
+                    1585,
+                    191
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 4,
+          "bbox": [
+            71,
+            215,
+            896,
+            308
+          ],
+          "text": "Always add additional details as needed to give a clear explanation supporting the changes made\nNot an Oscar MM\nNot an Oscar MM",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Always add additional details as needed to give a clear explanation supporting the changes made",
+              "conf": 0.9806296825408936,
+              "bbox": [
+                71,
+                215,
+                796,
+                238
+              ],
+              "words": [
+                {
+                  "text": "Always add additional details as needed to give a clear explanation supporting the changes made",
+                  "conf": 0.9806296825408936,
+                  "bbox": [
+                    71,
+                    215,
+                    796,
+                    238
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Not an Oscar MM",
+              "conf": 0.963124692440033,
+              "bbox": [
+                735,
+                248,
+                896,
+                269
+              ],
+              "words": [
+                {
+                  "text": "Not an Oscar MM",
+                  "conf": 0.963124692440033,
+                  "bbox": [
+                    735,
+                    248,
+                    896,
+                    269
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Not an Oscar MM",
+              "conf": 0.9505599141120911,
+              "bbox": [
+                76,
+                292,
+                234,
+                308
+              ],
+              "words": [
+                {
+                  "text": "Not an Oscar MM",
+                  "conf": 0.9505599141120911,
+                  "bbox": [
+                    76,
+                    292,
+                    234,
+                    308
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 5,
+          "bbox": [
+            73,
+            318,
+            160,
+            343
+          ],
+          "text": "Workflow:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Workflow:",
+              "conf": 0.9988417029380798,
+              "bbox": [
+                73,
+                318,
+                160,
+                343
+              ],
+              "words": [
+                {
+                  "text": "Workflow:",
+                  "conf": 0.9988417029380798,
+                  "bbox": [
+                    73,
+                    318,
+                    160,
+                    343
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 6,
+          "bbox": [
+            74,
+            342,
+            145,
+            360
+          ],
+          "text": "Newborn",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn",
+              "conf": 0.9987030625343323,
+              "bbox": [
+                74,
+                342,
+                145,
+                360
+              ],
+              "words": [
+                {
+                  "text": "Newborn",
+                  "conf": 0.9987030625343323,
+                  "bbox": [
+                    74,
+                    342,
+                    145,
+                    360
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 7,
+          "bbox": [
+            75,
+            368,
+            203,
+            388
+          ],
+          "text": "Changes Made:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Changes Made:",
+              "conf": 0.9800500273704529,
+              "bbox": [
+                75,
+                368,
+                203,
+                388
+              ],
+              "words": [
+                {
+                  "text": "Changes Made:",
+                  "conf": 0.9800500273704529,
+                  "bbox": [
+                    75,
+                    368,
+                    203,
+                    388
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 8,
+          "bbox": [
+            74,
+            386,
+            544,
+            426
+          ],
+          "text": "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+              "conf": 0.9636785089969635,
+              "bbox": [
+                74,
+                386,
+                544,
+                426
+              ],
+              "words": [
+                {
+                  "text": "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+                  "conf": 0.9636785089969635,
+                  "bbox": [
+                    74,
+                    386,
+                    544,
+                    426
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 9,
+          "bbox": [
+            76,
+            438,
+            245,
+            458
+          ],
+          "text": "Reason for changes:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Reason for changes:",
+              "conf": 0.9875696897506714,
+              "bbox": [
+                76,
+                438,
+                245,
+                458
+              ],
+              "words": [
+                {
+                  "text": "Reason for changes:",
+                  "conf": 0.9875696897506714,
+                  "bbox": [
+                    76,
+                    438,
+                    245,
+                    458
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 10,
+          "bbox": [
+            72,
+            454,
+            846,
+            498
+          ],
+          "text": "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)\nBABY",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)",
+              "conf": 0.9808582067489624,
+              "bbox": [
+                72,
+                454,
+                719,
+                477
+              ],
+              "words": [
+                {
+                  "text": "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)",
+                  "conf": 0.9808582067489624,
+                  "bbox": [
+                    72,
+                    454,
+                    719,
+                    477
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "BABY",
+              "conf": 0.997858464717865,
+              "bbox": [
+                789,
+                475,
+                846,
+                498
+              ],
+              "words": [
+                {
+                  "text": "BABY",
+                  "conf": 0.997858464717865,
+                  "bbox": [
+                    789,
+                    475,
+                    846,
+                    498
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 11,
+          "bbox": [
+            73,
+            516,
+            127,
+            544
+          ],
+          "text": "Baby",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Baby",
+              "conf": 0.998606264591217,
+              "bbox": [
+                73,
+                516,
+                127,
+                544
+              ],
+              "words": [
+                {
+                  "text": "Baby",
+                  "conf": 0.998606264591217,
+                  "bbox": [
+                    73,
+                    516,
+                    127,
+                    544
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 12,
+          "bbox": [
+            75,
+            547,
+            162,
+            572
+          ],
+          "text": "Workflow:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Workflow:",
+              "conf": 0.9989655613899231,
+              "bbox": [
+                75,
+                547,
+                162,
+                572
+              ],
+              "words": [
+                {
+                  "text": "Workflow:",
+                  "conf": 0.9989655613899231,
+                  "bbox": [
+                    75,
+                    547,
+                    162,
+                    572
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 13,
+          "bbox": [
+            75,
+            572,
+            146,
+            589
+          ],
+          "text": "Newborn",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn",
+              "conf": 0.9986080527305603,
+              "bbox": [
+                75,
+                572,
+                146,
+                589
+              ],
+              "words": [
+                {
+                  "text": "Newborn",
+                  "conf": 0.9986080527305603,
+                  "bbox": [
+                    75,
+                    572,
+                    146,
+                    589
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 14,
+          "bbox": [
+            75,
+            598,
+            758,
+            668
+          ],
+          "text": "Changes Made:\nSuppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.\nReason for changes:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Changes Made:",
+              "conf": 0.9715231657028198,
+              "bbox": [
+                78,
+                598,
+                204,
+                619
+              ],
+              "words": [
+                {
+                  "text": "Changes Made:",
+                  "conf": 0.9715231657028198,
+                  "bbox": [
+                    78,
+                    598,
+                    204,
+                    619
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.",
+              "conf": 0.9889084100723267,
+              "bbox": [
+                75,
+                615,
+                758,
+                639
+              ],
+              "words": [
+                {
+                  "text": "Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.",
+                  "conf": 0.9889084100723267,
+                  "bbox": [
+                    75,
+                    615,
+                    758,
+                    639
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Reason for changes:",
+              "conf": 0.9766307473182678,
+              "bbox": [
+                76,
+                648,
+                246,
+                668
+              ],
+              "words": [
+                {
+                  "text": "Reason for changes:",
+                  "conf": 0.9766307473182678,
+                  "bbox": [
+                    76,
+                    648,
+                    246,
+                    668
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 15,
+          "bbox": [
+            75,
+            663,
+            654,
+            705
+          ],
+          "text": "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.\nBaby's claim will be covered by the baby's own Active Policy",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.",
+              "conf": 0.9661444425582886,
+              "bbox": [
+                75,
+                663,
+                654,
+                687
+              ],
+              "words": [
+                {
+                  "text": "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.",
+                  "conf": 0.9661444425582886,
+                  "bbox": [
+                    75,
+                    663,
+                    654,
+                    687
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Baby's claim will be covered by the baby's own Active Policy",
+              "conf": 0.94479900598526,
+              "bbox": [
+                76,
+                686,
+                524,
+                705
+              ],
+              "words": [
+                {
+                  "text": "Baby's claim will be covered by the baby's own Active Policy",
+                  "conf": 0.94479900598526,
+                  "bbox": [
+                    76,
+                    686,
+                    524,
+                    705
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 16,
+          "bbox": [
+            79,
+            747,
+            161,
+            765
+          ],
+          "text": "Workflow:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Workflow:",
+              "conf": 0.9860830307006836,
+              "bbox": [
+                79,
+                747,
+                161,
+                765
+              ],
+              "words": [
+                {
+                  "text": "Workflow:",
+                  "conf": 0.9860830307006836,
+                  "bbox": [
+                    79,
+                    747,
+                    161,
+                    765
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            29,
+            19,
+            1569,
+            765
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>VERINT</td><td></td><td>MR</td><td></td></tr><tr><td>Knowledge Management</td><td></td><td></td><td></td></tr><tr><td>Always add additional details as needed to give a clear explanation supporting the changes made</td><td></td><td></td><td></td></tr><tr><td>Not an Oscar MM</td><td></td><td></td><td></td></tr><tr><td>Not an Oscar MM</td><td></td><td></td><td></td></tr><tr><td>Workflow:</td><td></td><td></td><td></td></tr><tr><td>Newborn</td><td></td><td></td><td></td></tr><tr><td>Changes Made:</td><td></td><td></td><td></td></tr><tr><td>Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.</td><td></td><td></td><td></td></tr><tr><td>Reason for changes:</td><td></td><td></td><td></td></tr><tr><td>No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)</td><td></td><td></td><td></td></tr><tr><td>BABY</td><td></td><td></td><td></td></tr><tr><td>Baby</td><td></td><td></td><td></td></tr><tr><td>Workflow:</td><td></td><td></td><td></td></tr><tr><td>Newborn</td><td></td><td></td><td></td></tr><tr><td>Changes Made:</td><td></td><td></td><td></td></tr><tr><td>Suppress Newborn Blocker</td><td>To allow Claim to process as Submitted on Baby&#x27;s Active Policy.</td><td></td><td></td></tr><tr><td>Reason for changes:</td><td></td><td></td><td></td></tr><tr><td>Baby has an Active Policy Effectuated on or before the Start DOs of the claim.</td><td></td><td></td><td></td></tr><tr><td>Baby&#x27;s claim will be covered by the baby&#x27;s own Active Policy</td><td></td><td></td><td></td></tr><tr><td>Workflow:</td><td></td><td></td><td></td></tr></table>",
+          "text": "VERINT: \nMR: \nKnowledge Management: \nAlways add additional details as needed to give a clear explanation supporting the changes made: \nNot an Oscar MM: \nNot an Oscar MM: \nWorkflow:: \nNewborn: \nChanges Made:: \nChanged MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.: \nReason for changes:: \nNo Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s): \nBABY: \nBaby: \nWorkflow:: \nNewborn: \nChanges Made:: \nSuppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.\nReason for changes:: \nBaby has an Active Policy Effectuated on or before the Start DOs of the claim.: \nBaby's claim will be covered by the baby's own Active Policy: \nWorkflow:: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "VERINT",
+              "",
+              "MR",
+              ""
+            ],
+            [
+              "Knowledge Management",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Always add additional details as needed to give a clear explanation supporting the changes made",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Not an Oscar MM",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Not an Oscar MM",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Workflow:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Changes Made:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Reason for changes:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "BABY",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Baby",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Workflow:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Changes Made:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Suppress Newborn Blocker",
+              "To allow Claim to process as Submitted on Baby's Active Policy.",
+              "",
+              ""
+            ],
+            [
+              "Reason for changes:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Baby's claim will be covered by the baby's own Active Policy",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Workflow:",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "VERINT",
+              "MR"
+            ],
+            [
+              "Knowledge Management",
+              ""
+            ],
+            [
+              "Always add additional details as needed to give a clear explanation supporting the changes made",
+              ""
+            ],
+            [
+              "Not an Oscar MM",
+              ""
+            ],
+            [
+              "Not an Oscar MM",
+              ""
+            ],
+            [
+              "Workflow:",
+              ""
+            ],
+            [
+              "Newborn",
+              ""
+            ],
+            [
+              "Changes Made:",
+              ""
+            ],
+            [
+              "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+              ""
+            ],
+            [
+              "Reason for changes:",
+              ""
+            ],
+            [
+              "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)",
+              ""
+            ],
+            [
+              "BABY",
+              ""
+            ],
+            [
+              "Baby",
+              ""
+            ],
+            [
+              "Workflow:",
+              ""
+            ],
+            [
+              "Newborn",
+              ""
+            ],
+            [
+              "Changes Made:",
+              ""
+            ],
+            [
+              "Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.",
+              ""
+            ],
+            [
+              "Reason for changes:",
+              ""
+            ],
+            [
+              "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.",
+              ""
+            ],
+            [
+              "Baby's claim will be covered by the baby's own Active Policy",
+              ""
+            ],
+            [
+              "Workflow:",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            2,
+            83,
+            1591,
+            197
+          ],
+          "html": "<table><tr><th>Filters Search</th><th>8 Newborn 7/10/26 - KM1014156</th><th>9 x</th></tr><tr><td></td><td>4 ratings*</td><td>:</td></tr><tr><td></td><td>Skip To: Private Information Tags</td><td>Refresh</td></tr></table>",
+          "text": " | 4 ratings* | :\n | Skip To: Private Information Tags | Refresh",
+          "headers": [
+            "Filters Search",
+            "8 Newborn 7/10/26 - KM1014156",
+            "9 x"
+          ],
+          "rows": [
+            [
+              "",
+              "4 ratings*",
+              ":"
+            ],
+            [
+              "",
+              "Skip To: Private Information Tags",
+              "Refresh"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "VERINT MR",
+          "conf": 0.9976659417152405,
+          "bbox": [
+            59,
+            19,
+            1569,
+            39
+          ],
+          "words": [
+            {
+              "text": "VERINT",
+              "conf": 0.9976599812507629,
+              "bbox": [
+                59,
+                19,
+                148,
+                37
+              ]
+            },
+            {
+              "text": "MR",
+              "conf": 0.997671902179718,
+              "bbox": [
+                1536,
+                22,
+                1569,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Knowledge Management",
+          "conf": 0.9828110933303833,
+          "bbox": [
+            29,
+            41,
+            176,
+            57
+          ],
+          "words": [
+            {
+              "text": "Knowledge Management",
+              "conf": 0.9828110933303833,
+              "bbox": [
+                29,
+                41,
+                176,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Filters Search 8 Newborn 7/10/26 - KM1014156 9 x",
+          "conf": 0.8518943071365357,
+          "bbox": [
+            2,
+            83,
+            1591,
+            132
+          ],
+          "words": [
+            {
+              "text": "Filters",
+              "conf": 0.9929164052009583,
+              "bbox": [
+                2,
+                92,
+                15,
+                130
+              ]
+            },
+            {
+              "text": "Search",
+              "conf": 0.9975371956825256,
+              "bbox": [
+                16,
+                90,
+                30,
+                132
+              ]
+            },
+            {
+              "text": "8",
+              "conf": 0.522944986820221,
+              "bbox": [
+                50,
+                90,
+                74,
+                113
+              ]
+            },
+            {
+              "text": "Newborn 7/10/26 - KM1014156",
+              "conf": 0.9806740283966064,
+              "bbox": [
+                90,
+                83,
+                222,
+                122
+              ]
+            },
+            {
+              "text": "9 x",
+              "conf": 0.7653989195823669,
+              "bbox": [
+                1544,
+                83,
+                1591,
+                111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "4 ratings* :",
+          "conf": 0.7144557535648346,
+          "bbox": [
+            41,
+            127,
+            1586,
+            155
+          ],
+          "words": [
+            {
+              "text": "4 ratings*",
+              "conf": 0.9116604924201965,
+              "bbox": [
+                41,
+                136,
+                206,
+                155
+              ]
+            },
+            {
+              "text": ":",
+              "conf": 0.5172510147094727,
+              "bbox": [
+                1530,
+                127,
+                1586,
+                154
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Skip To: Private Information Tags Refresh",
+          "conf": 0.975479006767273,
+          "bbox": [
+            44,
+            173,
+            1585,
+            197
+          ],
+          "words": [
+            {
+              "text": "Skip To: Private Information Tags",
+              "conf": 0.9566296935081482,
+              "bbox": [
+                44,
+                181,
+                256,
+                197
+              ]
+            },
+            {
+              "text": "Refresh",
+              "conf": 0.9943283200263977,
+              "bbox": [
+                1534,
+                173,
+                1585,
+                191
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Always add additional details as needed to give a clear explanation supporting the changes made",
+          "conf": 0.9806296825408936,
+          "bbox": [
+            71,
+            215,
+            796,
+            238
+          ],
+          "words": [
+            {
+              "text": "Always add additional details as needed to give a clear explanation supporting the changes made",
+              "conf": 0.9806296825408936,
+              "bbox": [
+                71,
+                215,
+                796,
+                238
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Not an Oscar MM",
+          "conf": 0.963124692440033,
+          "bbox": [
+            735,
+            248,
+            896,
+            269
+          ],
+          "words": [
+            {
+              "text": "Not an Oscar MM",
+              "conf": 0.963124692440033,
+              "bbox": [
+                735,
+                248,
+                896,
+                269
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Not an Oscar MM",
+          "conf": 0.9505599141120911,
+          "bbox": [
+            76,
+            292,
+            234,
+            308
+          ],
+          "words": [
+            {
+              "text": "Not an Oscar MM",
+              "conf": 0.9505599141120911,
+              "bbox": [
+                76,
+                292,
+                234,
+                308
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Workflow:",
+          "conf": 0.9988417029380798,
+          "bbox": [
+            73,
+            318,
+            160,
+            343
+          ],
+          "words": [
+            {
+              "text": "Workflow:",
+              "conf": 0.9988417029380798,
+              "bbox": [
+                73,
+                318,
+                160,
+                343
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn",
+          "conf": 0.9987030625343323,
+          "bbox": [
+            74,
+            342,
+            145,
+            360
+          ],
+          "words": [
+            {
+              "text": "Newborn",
+              "conf": 0.9987030625343323,
+              "bbox": [
+                74,
+                342,
+                145,
+                360
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Changes Made:",
+          "conf": 0.9800500273704529,
+          "bbox": [
+            75,
+            368,
+            203,
+            388
+          ],
+          "words": [
+            {
+              "text": "Changes Made:",
+              "conf": 0.9800500273704529,
+              "bbox": [
+                75,
+                368,
+                203,
+                388
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+          "conf": 0.9636785089969635,
+          "bbox": [
+            74,
+            386,
+            544,
+            426
+          ],
+          "words": [
+            {
+              "text": "Changed MM Record on Claim to NON_OSCAR_MEMBER_ID ~Added newborn_record_not_created Denial to claim.",
+              "conf": 0.9636785089969635,
+              "bbox": [
+                74,
+                386,
+                544,
+                426
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reason for changes:",
+          "conf": 0.9875696897506714,
+          "bbox": [
+            76,
+            438,
+            245,
+            458
+          ],
+          "words": [
+            {
+              "text": "Reason for changes:",
+              "conf": 0.9875696897506714,
+              "bbox": [
+                76,
+                438,
+                245,
+                458
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)",
+          "conf": 0.9808582067489624,
+          "bbox": [
+            72,
+            454,
+            719,
+            477
+          ],
+          "words": [
+            {
+              "text": "No Effectuated MM record found in Member Match Tool or Rosco for Baby or Parent(s)",
+              "conf": 0.9808582067489624,
+              "bbox": [
+                72,
+                454,
+                719,
+                477
+              ]
+            }
+          ]
+        },
+        {
+          "text": "BABY",
+          "conf": 0.997858464717865,
+          "bbox": [
+            789,
+            475,
+            846,
+            498
+          ],
+          "words": [
+            {
+              "text": "BABY",
+              "conf": 0.997858464717865,
+              "bbox": [
+                789,
+                475,
+                846,
+                498
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Baby",
+          "conf": 0.998606264591217,
+          "bbox": [
+            73,
+            516,
+            127,
+            544
+          ],
+          "words": [
+            {
+              "text": "Baby",
+              "conf": 0.998606264591217,
+              "bbox": [
+                73,
+                516,
+                127,
+                544
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Workflow:",
+          "conf": 0.9989655613899231,
+          "bbox": [
+            75,
+            547,
+            162,
+            572
+          ],
+          "words": [
+            {
+              "text": "Workflow:",
+              "conf": 0.9989655613899231,
+              "bbox": [
+                75,
+                547,
+                162,
+                572
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn",
+          "conf": 0.9986080527305603,
+          "bbox": [
+            75,
+            572,
+            146,
+            589
+          ],
+          "words": [
+            {
+              "text": "Newborn",
+              "conf": 0.9986080527305603,
+              "bbox": [
+                75,
+                572,
+                146,
+                589
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Changes Made:",
+          "conf": 0.9715231657028198,
+          "bbox": [
+            78,
+            598,
+            204,
+            619
+          ],
+          "words": [
+            {
+              "text": "Changes Made:",
+              "conf": 0.9715231657028198,
+              "bbox": [
+                78,
+                598,
+                204,
+                619
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.",
+          "conf": 0.9889084100723267,
+          "bbox": [
+            75,
+            615,
+            758,
+            639
+          ],
+          "words": [
+            {
+              "text": "Suppress Newborn Blocker: To allow Claim to process as Submitted on Baby's Active Policy.",
+              "conf": 0.9889084100723267,
+              "bbox": [
+                75,
+                615,
+                758,
+                639
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reason for changes:",
+          "conf": 0.9766307473182678,
+          "bbox": [
+            76,
+            648,
+            246,
+            668
+          ],
+          "words": [
+            {
+              "text": "Reason for changes:",
+              "conf": 0.9766307473182678,
+              "bbox": [
+                76,
+                648,
+                246,
+                668
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.",
+          "conf": 0.9661444425582886,
+          "bbox": [
+            75,
+            663,
+            654,
+            687
+          ],
+          "words": [
+            {
+              "text": "Baby has an Active Policy Effectuated on or before the Start DOs of the claim.",
+              "conf": 0.9661444425582886,
+              "bbox": [
+                75,
+                663,
+                654,
+                687
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Baby's claim will be covered by the baby's own Active Policy",
+          "conf": 0.94479900598526,
+          "bbox": [
+            76,
+            686,
+            524,
+            705
+          ],
+          "words": [
+            {
+              "text": "Baby's claim will be covered by the baby's own Active Policy",
+              "conf": 0.94479900598526,
+              "bbox": [
+                76,
+                686,
+                524,
+                705
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Workflow:",
+          "conf": 0.9860830307006836,
+          "bbox": [
+            79,
+            747,
+            161,
+            765
+          ],
+          "words": [
+            {
+              "text": "Workflow:",
+              "conf": 0.9860830307006836,
+              "bbox": [
+                79,
+                747,
+                161,
+                765
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

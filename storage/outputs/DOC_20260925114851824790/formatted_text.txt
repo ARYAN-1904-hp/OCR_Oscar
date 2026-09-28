@@ -1,0 +1,363 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x788 | blocks=17 | tables=4 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x8
+HEADER | Cortex -Claim #KJJVAQGV | Latest version (5of5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About this claim Payment Patient | Providers Medical Claim lines | - | a few sccondsago | - | Readjudicate | Actions | -
+  CELL[1,0] = About this claim Payment Patient
+  CELL[1,1] = Providers Medical Claim lines
+  CELL[1,3] = a few sccondsago
+  CELL[1,5] = Readjudicate
+  CELL[1,6] = Actions
+ROW 2 | KJJVAQGV | About this claim | - | - | - | - | - | -
+  CELL[2,0] = KJJVAQGV
+  CELL[2,1] = About this claim
+[/TABLE 1]
+
+[TABLE 3 | source=layout]
+shape: 5x6
+HEADER | Member: Jessika Montilla Mona. 0 Notes | See all member's claims | Service start date | 07/18/2026 | Received date | 07/20/2026
+ROW 1 | - | - | Service end date | 07/18/2026 | Claimtype | HCFA-Professional
+  CELL[1,2] = Service end date
+  CELL[1,3] = 07/18/2026
+  CELL[1,4] = Claimtype
+  CELL[1,5] = HCFA-Professional
+ROW 2 | - | - | Provider's claim # | ECW4987220 | Billing type | 1
+  CELL[2,2] = Provider's claim #
+  CELL[2,3] = ECW4987220
+  CELL[2,4] = Billing type
+  CELL[2,5] = 1
+ROW 3 | Blocked | Claim state: | Stay type | Outpatient | Place of service | 11
+  CELL[3,0] = Blocked
+  CELL[3,1] = Claim state:
+  CELL[3,2] = Stay type
+  CELL[3,3] = Outpatient
+  CELL[3,4] = Place of service
+  CELL[3,5] = 11
+ROW 4 | - | Blockers (1) COTIVITI | Diagnosis related group | - | Transmission ID | 76421259479
+  CELL[4,1] = Blockers (1) COTIVITI
+  CELL[4,2] = Diagnosis related group
+  CELL[4,4] = Transmission ID
+  CELL[4,5] = 76421259479
+[/TABLE 3]
+
+[TABLE 0 | source=two_column_form]
+shape: 13x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | COTIVITI | - | - | -
+  CELL[1,0] = COTIVITI
+ROW 2 | Denials (0) | - | - | -
+  CELL[2,0] = Denials (0)
+ROW 3 | Is Medicaid reclamation? | No | - | -
+  CELL[3,0] = Is Medicaid reclamation?
+  CELL[3,1] = No
+ROW 4 | Billed | $317.00 (100%) | - | -
+  CELL[4,0] = Billed
+  CELL[4,1] = $317.00 (100%)
+ROW 5 | Allowed | $103.38 (33%) | - | -
+  CELL[5,0] = Allowed
+  CELL[5,1] = $103.38 (33%)
+ROW 6 | Submissioninformation | - | - | -
+  CELL[6,0] = Submissioninformation
+ROW 7 | Pay provider | $103.38 | - | -
+  CELL[7,0] = Pay provider
+  CELL[7,1] = $103.38
+ROW 8 | Tenant | oscar | - | -
+  CELL[8,0] = Tenant
+  CELL[8,1] = oscar
+ROW 9 | Claimlineage | ValtfileD: d4f363e4-afaf-44d6-9c7c-570601011da5 | - | -
+  CELL[9,0] = Claimlineage
+  CELL[9,1] = ValtfileD: d4f363e4-afaf-44d6-9c7c-570601011da5
+ROW 10 | KJJVAQGV 7/20/2026 | Blocked | - | -
+  CELL[10,0] = KJJVAQGV 7/20/2026
+  CELL[10,1] = Blocked
+ROW 11 | Payment | - | - | -
+  CELL[11,0] = Payment
+ROW 12 | Vosvstemidentified duplicates | - | - | -
+  CELL[12,0] = Vosvstemidentified duplicates
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 3x4
+HEADER | Potential parent claims | Charge group | Prompt process due date | 08/05/2026
+ROW 1 | - | Payment authority NEXTGEN | Interest accrued | $0.00
+  CELL[1,1] = Payment authority NEXTGEN
+  CELL[1,2] = Interest accrued
+  CELL[1,3] = $0.00
+ROW 2 | Potential duplicate claims | Payto member No | Excluded from interest | No
+  CELL[2,0] = Potential duplicate claims
+  CELL[2,1] = Payto member No
+  CELL[2,2] = Excluded from interest
+  CELL[2,3] = No
+[/TABLE 2]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[67,13,1452,38] | order=0
+  Cortex -Claim #KJJVAQGV Latest version (5of5) Dashboard Batch History Testing Settlements Search Create
+BLOCK 1 | type=header | bbox=[33,66,1414,87] | order=1
+  About this claim Payment Patient Providers Medical Claim lines a few sccondsago Readjudicate Actions
+BLOCK 2 | type=paragraph | bbox=[33,125,475,148] | order=2
+  KJJVAQGV About this claim
+BLOCK 3 | type=table | bbox=[33,156,1214,306] | order=3
+  Member: Jessika Montilla Mona. 0 Notes See all member's claims Service start date 07/18/2026 Received date 07/20/2026
+  Service end date 07/18/2026 Claimtype HCFA-Professional
+  Provider's claim # ECW4987220 Billing type 1
+  Claim state: Blocked Stay type Outpatient Place of service 11
+  Blockers (1) Diagnosis related group Transmission ID 76421259479
+BLOCK 4 | type=table | bbox=[33,303,109,318] | order=4
+  COTIVITI
+BLOCK 5 | type=table | bbox=[33,314,1198,359] | order=5
+  Manage Payer control number Nucleus ID
+  Authorization required? Cannot be determined Goal PROCESS_CLAIM
+BLOCK 6 | type=table | bbox=[33,354,97,371] | order=6
+  Denials (0)
+BLOCK 7 | type=table | bbox=[34,367,1432,414] | order=7
+  No denials on this claim Is transplant? Skip ER downcoding Skip emergency department visit level downcoding for
+  Manage International Provider No this claim
+BLOCK 8 | type=paragraph | bbox=[33,423,533,509] | order=8
+  Is Medicaid reclamation? No
+  Billed $317.00 (100%)
+  Allowed $103.38 (33%)
+  Submissioninformation
+  Pay provider $103.38
+BLOCK 9 | type=table | bbox=[22,512,1150,561] | order=9
+  Pay member $0.00 Submission type Electronic Vendor source AVAILITY
+  >Member responsibility $0.00 EDI file Download Documents View
+BLOCK 10 | type=table | bbox=[312,570,548,586] | order=10
+  Tenant oscar
+BLOCK 11 | type=label_value | bbox=[33,591,579,613] | order=11
+  Claimlineage ValtfileD: d4f363e4-afaf-44d6-9c7c-570601011da5
+BLOCK 12 | type=heading | bbox=[29,614,230,652] | order=12
+  KJJVAQGV 7/20/2026 Blocked
+BLOCK 13 | type=paragraph | bbox=[314,663,405,682] | order=13
+  Payment
+BLOCK 14 | type=table | bbox=[35,684,1179,707] | order=14
+  Potential parent claims Charge group Prompt process due date 08/05/2026
+BLOCK 15 | type=footer | bbox=[35,716,1131,766] | order=15
+  Payment authority NEXTGEN Interest accrued $0.00
+  Potential duplicate claims Payto member No Excluded from interest No
+BLOCK 16 | type=footer | bbox=[39,780,218,787] | order=16
+  Vosvstemidentified duplicates
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[29,303,579,787] | shape=13x4 | conf=0.920
+  shape: 13x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | COTIVITI | - | - | -
+    CELL[1,0] = COTIVITI
+  ROW 2 | Denials (0) | - | - | -
+    CELL[2,0] = Denials (0)
+  ROW 3 | Is Medicaid reclamation? | No | - | -
+    CELL[3,0] = Is Medicaid reclamation?
+    CELL[3,1] = No
+  ROW 4 | Billed | $317.00 (100%) | - | -
+    CELL[4,0] = Billed
+    CELL[4,1] = $317.00 (100%)
+  ROW 5 | Allowed | $103.38 (33%) | - | -
+    CELL[5,0] = Allowed
+    CELL[5,1] = $103.38 (33%)
+  ROW 6 | Submissioninformation | - | - | -
+    CELL[6,0] = Submissioninformation
+  ROW 7 | Pay provider | $103.38 | - | -
+    CELL[7,0] = Pay provider
+    CELL[7,1] = $103.38
+  ROW 8 | Tenant | oscar | - | -
+    CELL[8,0] = Tenant
+    CELL[8,1] = oscar
+  ROW 9 | Claimlineage | ValtfileD: d4f363e4-afaf-44d6-9c7c-570601011da5 | - | -
+    CELL[9,0] = Claimlineage
+    CELL[9,1] = ValtfileD: d4f363e4-afaf-44d6-9c7c-570601011da5
+  ROW 10 | KJJVAQGV 7/20/2026 | Blocked | - | -
+    CELL[10,0] = KJJVAQGV 7/20/2026
+    CELL[10,1] = Blocked
+  ROW 11 | Payment | - | - | -
+    CELL[11,0] = Payment
+  ROW 12 | Vosvstemidentified duplicates | - | - | -
+    CELL[12,0] = Vosvstemidentified duplicates
+TABLE 1 | source=wide_grid | bbox=[33,13,1452,148] | shape=3x8 | conf=0.850
+  shape: 3x8
+  HEADER | Cortex -Claim #KJJVAQGV | Latest version (5of5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About this claim Payment Patient | Providers Medical Claim lines | - | a few sccondsago | - | Readjudicate | Actions | -
+    CELL[1,0] = About this claim Payment Patient
+    CELL[1,1] = Providers Medical Claim lines
+    CELL[1,3] = a few sccondsago
+    CELL[1,5] = Readjudicate
+    CELL[1,6] = Actions
+  ROW 2 | KJJVAQGV | About this claim | - | - | - | - | - | -
+    CELL[2,0] = KJJVAQGV
+    CELL[2,1] = About this claim
+TABLE 2 | source=wide_grid | bbox=[35,684,1179,766] | shape=3x4 | conf=0.850
+  shape: 3x4
+  HEADER | Potential parent claims | Charge group | Prompt process due date | 08/05/2026
+  ROW 1 | - | Payment authority NEXTGEN | Interest accrued | $0.00
+    CELL[1,1] = Payment authority NEXTGEN
+    CELL[1,2] = Interest accrued
+    CELL[1,3] = $0.00
+  ROW 2 | Potential duplicate claims | Payto member No | Excluded from interest | No
+    CELL[2,0] = Potential duplicate claims
+    CELL[2,1] = Payto member No
+    CELL[2,2] = Excluded from interest
+    CELL[2,3] = No
+TABLE 3 | source=layout | bbox=[33,156,1214,306] | shape=5x6 | conf=-
+  shape: 5x6
+  HEADER | Member: Jessika Montilla Mona. 0 Notes | See all member's claims | Service start date | 07/18/2026 | Received date | 07/20/2026
+  ROW 1 | - | - | Service end date | 07/18/2026 | Claimtype | HCFA-Professional
+    CELL[1,2] = Service end date
+    CELL[1,3] = 07/18/2026
+    CELL[1,4] = Claimtype
+    CELL[1,5] = HCFA-Professional
+  ROW 2 | - | - | Provider's claim # | ECW4987220 | Billing type | 1
+    CELL[2,2] = Provider's claim #
+    CELL[2,3] = ECW4987220
+    CELL[2,4] = Billing type
+    CELL[2,5] = 1
+  ROW 3 | Blocked | Claim state: | Stay type | Outpatient | Place of service | 11
+    CELL[3,0] = Blocked
+    CELL[3,1] = Claim state:
+    CELL[3,2] = Stay type
+    CELL[3,3] = Outpatient
+    CELL[3,4] = Place of service
+    CELL[3,5] = 11
+  ROW 4 | - | Blockers (1) COTIVITI | Diagnosis related group | - | Transmission ID | 76421259479
+    CELL[4,1] = Blockers (1) COTIVITI
+    CELL[4,2] = Diagnosis related group
+    CELL[4,4] = Transmission ID
+    CELL[4,5] = 76421259479
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[67,13,1452,38] | conf=0.987 | text=Cortex -Claim #KJJVAQGV Latest version (5of5) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[67,22,273,38] | text=Cortex -Claim #KJJVAQGV
+  WORD | bbox=[292,18,422,36] | text=Latest version (5of5)
+  WORD | bbox=[984,16,1050,32] | text=Dashboard
+  WORD | bbox=[1072,13,1156,33] | text=Batch History
+  WORD | bbox=[1176,13,1224,32] | text=Testing
+  WORD | bbox=[1246,15,1322,30] | text=Settlements
+  WORD | bbox=[1344,15,1386,28] | text=Search
+  WORD | bbox=[1408,13,1452,32] | text=Create
+LINE 1 | bbox=[33,66,1414,87] | conf=0.969 | text=About this claim Payment Patient Providers Medical Claim lines a few sccondsago Readjudicate Actions
+  WORD | bbox=[33,72,130,87] | text=About this claim
+  WORD | bbox=[151,72,207,87] | text=Payment
+  WORD | bbox=[230,72,275,84] | text=Patient
+  WORD | bbox=[299,72,356,83] | text=Providers
+  WORD | bbox=[380,70,429,84] | text=Medical
+  WORD | bbox=[450,67,517,85] | text=Claim lines
+  WORD | bbox=[1109,67,1202,81] | text=a few sccondsago
+  WORD | bbox=[1227,66,1308,81] | text=Readjudicate
+  WORD | bbox=[1363,67,1414,79] | text=Actions
+LINE 2 | bbox=[33,125,475,148] | conf=0.977 | text=KJJVAQGV About this claim
+  WORD | bbox=[33,128,145,148] | text=KJJVAQGV
+  WORD | bbox=[313,125,475,144] | text=About this claim
+LINE 3 | bbox=[33,156,1162,208] | conf=0.970 | text=Member: Jessika Montilla Mona. 0 Notes See all member's claims Service start date 07/18/2026 Received date 07/20/2026
+  WORD | bbox=[33,156,221,189] | text=Member: Jessika Montilla Mona. 0 Notes
+  WORD | bbox=[33,191,173,208] | text=See all member's claims
+  WORD | bbox=[311,183,417,198] | text=Service start date
+  WORD | bbox=[510,182,579,197] | text=07/18/2026
+  WORD | bbox=[894,182,977,193] | text=Received date
+  WORD | bbox=[1092,178,1162,193] | text=07/20/2026
+LINE 4 | bbox=[311,206,1214,225] | conf=0.989 | text=Service end date 07/18/2026 Claimtype HCFA-Professional
+  WORD | bbox=[311,210,410,225] | text=Service end date
+  WORD | bbox=[510,209,579,224] | text=07/18/2026
+  WORD | bbox=[893,206,959,223] | text=Claimtype
+  WORD | bbox=[1093,208,1214,219] | text=HCFA-Professional
+LINE 5 | bbox=[312,231,1131,252] | conf=0.882 | text=Provider's claim # ECW4987220 Billing type 1
+  WORD | bbox=[312,238,415,250] | text=Provider's claim #
+  WORD | bbox=[511,235,589,250] | text=ECW4987220
+  WORD | bbox=[892,231,961,252] | text=Billing type
+  WORD | bbox=[1092,232,1131,249] | text=1
+LINE 6 | bbox=[33,247,1124,280] | conf=0.958 | text=Claim state: Blocked Stay type Outpatient Place of service 11
+  WORD | bbox=[33,251,105,266] | text=Claim state:
+  WORD | bbox=[173,247,228,266] | text=Blocked
+  WORD | bbox=[311,264,369,280] | text=Stay type
+  WORD | bbox=[511,263,578,279] | text=Outpatient
+  WORD | bbox=[893,260,987,276] | text=Place of service
+  WORD | bbox=[1089,255,1124,277] | text=11
+LINE 7 | bbox=[33,284,1167,306] | conf=0.964 | text=Blockers (1) Diagnosis related group Transmission ID 76421259479
+  WORD | bbox=[33,284,102,300] | text=Blockers (1)
+  WORD | bbox=[311,291,450,306] | text=Diagnosis related group
+  WORD | bbox=[893,287,988,303] | text=Transmission ID
+  WORD | bbox=[1092,286,1167,301] | text=76421259479
+LINE 8 | bbox=[33,303,109,318] | conf=0.949 | text=COTIVITI
+LINE 9 | bbox=[33,314,1106,339] | conf=0.945 | text=Manage Payer control number Nucleus ID
+  WORD | bbox=[33,322,83,339] | text=Manage
+  WORD | bbox=[312,318,438,333] | text=Payer control number
+  WORD | bbox=[893,314,959,331] | text=Nucleus ID
+LINE 10 | bbox=[312,340,1198,359] | conf=0.984 | text=Authorization required? Cannot be determined Goal PROCESS_CLAIM
+  WORD | bbox=[312,342,451,358] | text=Authorization required?
+  WORD | bbox=[511,344,643,359] | text=Cannot be determined
+  WORD | bbox=[893,340,926,356] | text=Goal
+  WORD | bbox=[1093,340,1198,355] | text=PROCESS_CLAIM
+LINE 11 | bbox=[33,354,97,371] | conf=0.882 | text=Denials (0)
+LINE 12 | bbox=[34,367,1432,388] | conf=0.966 | text=No denials on this claim Is transplant? Skip ER downcoding Skip emergency department visit level downcoding for
+  WORD | bbox=[34,376,173,388] | text=No denials on this claim
+  WORD | bbox=[312,372,395,387] | text=Is transplant?
+  WORD | bbox=[893,367,1015,385] | text=Skip ER downcoding
+  WORD | bbox=[1103,367,1432,382] | text=Skip emergency department visit level downcoding for
+LINE 13 | bbox=[34,387,1177,414] | conf=0.983 | text=Manage International Provider No this claim
+  WORD | bbox=[34,394,84,410] | text=Manage
+  WORD | bbox=[313,399,442,414] | text=International Provider
+  WORD | bbox=[509,396,533,414] | text=No
+  WORD | bbox=[1117,387,1177,402] | text=this claim
+LINE 14 | bbox=[311,423,533,441] | conf=0.992 | text=Is Medicaid reclamation? No
+  WORD | bbox=[311,424,458,440] | text=Is Medicaid reclamation?
+  WORD | bbox=[509,423,533,441] | text=No
+LINE 15 | bbox=[33,441,232,457] | conf=0.973 | text=Billed $317.00 (100%)
+  WORD | bbox=[33,441,70,457] | text=Billed
+  WORD | bbox=[155,441,232,456] | text=$317.00 (100%)
+LINE 16 | bbox=[33,467,233,483] | conf=0.972 | text=Allowed $103.38 (33%)
+  WORD | bbox=[33,467,83,483] | text=Allowed
+  WORD | bbox=[158,467,233,482] | text=$103.38 (33%)
+LINE 17 | bbox=[313,478,473,494] | conf=0.998 | text=Submissioninformation
+LINE 18 | bbox=[34,492,233,509] | conf=0.985 | text=Pay provider $103.38
+  WORD | bbox=[34,494,109,509] | text=Pay provider
+  WORD | bbox=[185,492,233,509] | text=$103.38
+LINE 19 | bbox=[34,512,1150,535] | conf=0.972 | text=Pay member $0.00 Submission type Electronic Vendor source AVAILITY
+  WORD | bbox=[34,519,108,535] | text=Pay member
+  WORD | bbox=[196,518,233,535] | text=$0.00
+  WORD | bbox=[312,515,411,532] | text=Submission type
+  WORD | bbox=[512,515,574,530] | text=Electronic
+  WORD | bbox=[893,514,980,529] | text=Vendor source
+  WORD | bbox=[1093,512,1150,528] | text=AVAILITY
+LINE 20 | bbox=[22,537,1128,561] | conf=0.958 | text=>Member responsibility $0.00 EDI file Download Documents View
+  WORD | bbox=[22,548,165,559] | text=>Member responsibility
+  WORD | bbox=[196,544,233,561] | text=$0.00
+  WORD | bbox=[312,543,357,559] | text=EDI file
+  WORD | bbox=[511,540,576,560] | text=Download
+  WORD | bbox=[894,541,967,556] | text=Documents
+  WORD | bbox=[1093,537,1128,557] | text=View
+LINE 21 | bbox=[312,570,548,586] | conf=0.996 | text=Tenant oscar
+  WORD | bbox=[312,570,357,586] | text=Tenant
+  WORD | bbox=[511,570,548,586] | text=oscar
+LINE 22 | bbox=[33,591,579,613] | conf=0.940 | text=Claimlineage ValtfileD: d4f363e4-afaf-44d6-9c7c-570601011da5
+  WORD | bbox=[33,591,116,610] | text=Claimlineage
+  WORD | bbox=[313,599,579,613] | text=ValtfileD: d4f363e4-afaf-44d6-9c7c-570601011da5
+LINE 23 | bbox=[29,614,230,652] | conf=0.956 | text=KJJVAQGV 7/20/2026 Blocked
+  WORD | bbox=[29,614,113,652] | text=KJJVAQGV 7/20/2026
+  WORD | bbox=[177,618,230,633] | text=Blocked
+LINE 24 | bbox=[314,663,405,682] | conf=0.999 | text=Payment
+LINE 25 | bbox=[35,684,1179,707] | conf=0.978 | text=Potential parent claims Charge group Prompt process due date 08/05/2026
+  WORD | bbox=[35,684,172,699] | text=Potential parent claims
+  WORD | bbox=[314,692,396,707] | text=Charge group
+  WORD | bbox=[896,688,1044,704] | text=Prompt process due date
+  WORD | bbox=[1094,687,1179,705] | text=08/05/2026
+LINE 26 | bbox=[314,716,1131,735] | conf=0.984 | text=Payment authority NEXTGEN Interest accrued $0.00
+  WORD | bbox=[314,719,424,734] | text=Payment authority
+  WORD | bbox=[512,716,575,732] | text=NEXTGEN
+  WORD | bbox=[895,720,995,735] | text=Interest accrued
+  WORD | bbox=[1095,718,1131,735] | text=$0.00
+LINE 27 | bbox=[35,743,1118,766] | conf=0.989 | text=Potential duplicate claims Payto member No Excluded from interest No
+  WORD | bbox=[35,750,189,766] | text=Potential duplicate claims
+  WORD | bbox=[314,746,402,761] | text=Payto member
+  WORD | bbox=[511,743,534,761] | text=No
+  WORD | bbox=[896,747,1031,762] | text=Excluded from interest
+  WORD | bbox=[1092,743,1118,764] | text=No
+LINE 28 | bbox=[39,780,218,787] | conf=0.905 | text=Vosvstemidentified duplicates
+[/BOXES]

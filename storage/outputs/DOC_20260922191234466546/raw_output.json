@@ -1,0 +1,2318 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Curamind Claims Management Sarah Johnson PROC001 Logout\nProfessional Claim -Back to Dashboard\nSave changes\nClaim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 Decision SLA: 3 days\nMember/ Patient Information\nMember ID: H6881954663 Full Name: FLORES,BRIAN Gender: F\nDate of Birth: 01/22/1977 SSN (last 4): 9967 Language: SPANISH\nPlan Type: PPO Effective Date: 01/01/2025 Term Date: 12/31/2025\nGroup #: GRP-003 Subscriber: SELF\nContact Information\nAddress: 6110 Birch Rd City/State/ ZIP: FRESNO,CA93484\nPhone: 555269-1976 Email: brian.flores@examplemail.com\nCoverage/Eligibility\nEligibility Status: ACTIVE Verified On: 11/18/2025 Verified By: PROC001\nDeductible Met: $0.00/$1,000.00 OOP Max: $2,000.00/$8,000.00\nPCP Assignment: MARTINEZ MD,ANNA LUCIA",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 1042,
+      "text": "Curamind Claims Management Sarah Johnson PROC001 Logout\nProfessional Claim -Back to Dashboard\nSave changes\nClaim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 Decision SLA: 3 days\nMember/ Patient Information\nMember ID: H6881954663 Full Name: FLORES,BRIAN Gender: F\nDate of Birth: 01/22/1977 SSN (last 4): 9967 Language: SPANISH\nPlan Type: PPO Effective Date: 01/01/2025 Term Date: 12/31/2025\nGroup #: GRP-003 Subscriber: SELF\nContact Information\nAddress: 6110 Birch Rd City/State/ ZIP: FRESNO,CA93484\nPhone: 555269-1976 Email: brian.flores@examplemail.com\nCoverage/Eligibility\nEligibility Status: ACTIVE Verified On: 11/18/2025 Verified By: PROC001\nDeductible Met: $0.00/$1,000.00 OOP Max: $2,000.00/$8,000.00\nPCP Assignment: MARTINEZ MD,ANNA LUCIA",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                40,
+                176,
+                775,
+                192
+              ],
+              "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days",
+                  "conf": 0.9321369379758835,
+                  "bbox": [
+                    40,
+                    176,
+                    775,
+                    192
+                  ],
+                  "words": [
+                    {
+                      "text": "Processor: Sarah Johnson",
+                      "conf": 0.950112521648407,
+                      "bbox": [
+                        40,
+                        177,
+                        219,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "Last edit: 11/17/2025 08:05",
+                      "conf": 0.9409899711608887,
+                      "bbox": [
+                        237,
+                        177,
+                        431,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "ProcessorID:PROc001",
+                      "conf": 0.9058639407157898,
+                      "bbox": [
+                        442,
+                        176,
+                        607,
+                        191
+                      ]
+                    },
+                    {
+                      "text": "Decision SLA: 3 days",
+                      "conf": 0.9315813183784485,
+                      "bbox": [
+                        633,
+                        176,
+                        775,
+                        191
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                40,
+                240,
+                320,
+                258
+              ],
+              "text": "Member/ Patient Information",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Member/ Patient Information",
+                  "conf": 0.9647511839866638,
+                  "bbox": [
+                    40,
+                    240,
+                    320,
+                    258
+                  ],
+                  "words": [
+                    {
+                      "text": "Member/ Patient Information",
+                      "conf": 0.9647511839866638,
+                      "bbox": [
+                        40,
+                        240,
+                        320,
+                        258
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                38,
+                417,
+                553,
+                451
+              ],
+              "text": "Group #: GRP-003 Subscriber: SELF",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Group #: GRP-003 Subscriber: SELF",
+                  "conf": 0.9856989607214928,
+                  "bbox": [
+                    38,
+                    417,
+                    553,
+                    451
+                  ],
+                  "words": [
+                    {
+                      "text": "Group #:",
+                      "conf": 0.9699036180973053,
+                      "bbox": [
+                        38,
+                        417,
+                        82,
+                        451
+                      ]
+                    },
+                    {
+                      "text": "GRP-003",
+                      "conf": 0.9822961091995239,
+                      "bbox": [
+                        109,
+                        424,
+                        173,
+                        444
+                      ]
+                    },
+                    {
+                      "text": "Subscriber:",
+                      "conf": 0.9923856258392334,
+                      "bbox": [
+                        410,
+                        424,
+                        484,
+                        441
+                      ]
+                    },
+                    {
+                      "text": "SELF",
+                      "conf": 0.9982104897499084,
+                      "bbox": [
+                        516,
+                        424,
+                        553,
+                        442
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 7,
+              "bbox": [
+                42,
+                511,
+                231,
+                529
+              ],
+              "text": "Contact Information",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Contact Information",
+                  "conf": 0.9743320345878601,
+                  "bbox": [
+                    42,
+                    511,
+                    231,
+                    529
+                  ],
+                  "words": [
+                    {
+                      "text": "Contact Information",
+                      "conf": 0.9743320345878601,
+                      "bbox": [
+                        42,
+                        511,
+                        231,
+                        529
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 11,
+              "bbox": [
+                40,
+                817,
+                369,
+                837
+              ],
+              "text": "PCP Assignment: MARTINEZ MD,ANNA LUCIA",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "PCP Assignment: MARTINEZ MD,ANNA LUCIA",
+                  "conf": 0.9505171477794647,
+                  "bbox": [
+                    40,
+                    817,
+                    369,
+                    837
+                  ],
+                  "words": [
+                    {
+                      "text": "PCP Assignment:",
+                      "conf": 0.9529117345809937,
+                      "bbox": [
+                        40,
+                        817,
+                        149,
+                        835
+                      ]
+                    },
+                    {
+                      "text": "MARTINEZ MD,ANNA LUCIA",
+                      "conf": 0.9481225609779358,
+                      "bbox": [
+                        179,
+                        822,
+                        369,
+                        837
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days\nMember/ Patient Information\nGroup #: GRP-003 Subscriber: SELF\nContact Information\nPCP Assignment: MARTINEZ MD,ANNA LUCIA"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            26,
+            7,
+            1404,
+            41
+          ],
+          "text": "Curamind Claims Management Sarah Johnson PROCO01 Logout",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Curamind Claims Management Sarah Johnson PROCO01 Logout",
+              "conf": 0.9859651088714599,
+              "bbox": [
+                26,
+                7,
+                1404,
+                41
+              ],
+              "words": [
+                {
+                  "text": "Curamind",
+                  "conf": 0.9995173811912537,
+                  "bbox": [
+                    26,
+                    17,
+                    125,
+                    34
+                  ]
+                },
+                {
+                  "text": "Claims Management",
+                  "conf": 0.9911081790924072,
+                  "bbox": [
+                    143,
+                    20,
+                    295,
+                    35
+                  ]
+                },
+                {
+                  "text": "Sarah Johnson",
+                  "conf": 0.9971266984939575,
+                  "bbox": [
+                    1152,
+                    7,
+                    1206,
+                    41
+                  ]
+                },
+                {
+                  "text": "PROCO01",
+                  "conf": 0.9423017501831055,
+                  "bbox": [
+                    1239,
+                    16,
+                    1304,
+                    31
+                  ]
+                },
+                {
+                  "text": "Logout",
+                  "conf": 0.9997715353965759,
+                  "bbox": [
+                    1351,
+                    16,
+                    1404,
+                    33
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            35,
+            62,
+            1445,
+            107
+          ],
+          "text": "Professional Claim -Back to Dashboard\nSave changes",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Professional Claim -Back to Dashboard",
+              "conf": 0.963602751493454,
+              "bbox": [
+                35,
+                62,
+                1445,
+                83
+              ],
+              "words": [
+                {
+                  "text": "Professional Claim",
+                  "conf": 0.9879275560379028,
+                  "bbox": [
+                    35,
+                    67,
+                    163,
+                    83
+                  ]
+                },
+                {
+                  "text": "-Back to Dashboard",
+                  "conf": 0.9392779469490051,
+                  "bbox": [
+                    1302,
+                    62,
+                    1445,
+                    77
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Save changes",
+              "conf": 0.9876072406768799,
+              "bbox": [
+                1318,
+                92,
+                1419,
+                107
+              ],
+              "words": [
+                {
+                  "text": "Save changes",
+                  "conf": 0.9876072406768799,
+                  "bbox": [
+                    1318,
+                    92,
+                    1419,
+                    107
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            44,
+            125,
+            689,
+            148
+          ],
+          "text": "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "conf": 0.9694627165794373,
+              "bbox": [
+                44,
+                125,
+                689,
+                148
+              ],
+              "words": [
+                {
+                  "text": "Claim Pg1",
+                  "conf": 0.949268102645874,
+                  "bbox": [
+                    44,
+                    125,
+                    117,
+                    148
+                  ]
+                },
+                {
+                  "text": "Provpg2",
+                  "conf": 0.9910086393356323,
+                  "bbox": [
+                    161,
+                    125,
+                    228,
+                    148
+                  ]
+                },
+                {
+                  "text": "Member Pg3",
+                  "conf": 0.9650641679763794,
+                  "bbox": [
+                    275,
+                    128,
+                    373,
+                    144
+                  ]
+                },
+                {
+                  "text": "Diagnosis Pg4",
+                  "conf": 0.9750909805297852,
+                  "bbox": [
+                    412,
+                    128,
+                    510,
+                    144
+                  ]
+                },
+                {
+                  "text": "Miscellaneous Pg5",
+                  "conf": 0.9668816924095154,
+                  "bbox": [
+                    561,
+                    126,
+                    689,
+                    144
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            40,
+            176,
+            775,
+            192
+          ],
+          "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days",
+              "conf": 0.9321369379758835,
+              "bbox": [
+                40,
+                176,
+                775,
+                192
+              ],
+              "words": [
+                {
+                  "text": "Processor: Sarah Johnson",
+                  "conf": 0.950112521648407,
+                  "bbox": [
+                    40,
+                    177,
+                    219,
+                    192
+                  ]
+                },
+                {
+                  "text": "Last edit: 11/17/2025 08:05",
+                  "conf": 0.9409899711608887,
+                  "bbox": [
+                    237,
+                    177,
+                    431,
+                    192
+                  ]
+                },
+                {
+                  "text": "ProcessorID:PROc001",
+                  "conf": 0.9058639407157898,
+                  "bbox": [
+                    442,
+                    176,
+                    607,
+                    191
+                  ]
+                },
+                {
+                  "text": "Decision SLA: 3 days",
+                  "conf": 0.9315813183784485,
+                  "bbox": [
+                    633,
+                    176,
+                    775,
+                    191
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            40,
+            240,
+            320,
+            258
+          ],
+          "text": "Member/ Patient Information",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member/ Patient Information",
+              "conf": 0.9647511839866638,
+              "bbox": [
+                40,
+                240,
+                320,
+                258
+              ],
+              "words": [
+                {
+                  "text": "Member/ Patient Information",
+                  "conf": 0.9647511839866638,
+                  "bbox": [
+                    40,
+                    240,
+                    320,
+                    258
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            37,
+            281,
+            1071,
+            407
+          ],
+          "text": "Member ID: H6881954663 Full Name: FLORES,BRIAN Gender: F\nDate of Birth: 01/22/1977 SSN (last 4): 9967 Language: SPANISH\nPlan Type: PPO Effective Date: 01/01/2025 Term Date: 12/31/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member ID: H6881954663 Full Name: FLORES,BRIAN Gender: F",
+              "conf": 0.9342761486768723,
+              "bbox": [
+                38,
+                281,
+                902,
+                314
+              ],
+              "words": [
+                {
+                  "text": "Member ID:",
+                  "conf": 0.9813595712184906,
+                  "bbox": [
+                    38,
+                    281,
+                    94,
+                    314
+                  ]
+                },
+                {
+                  "text": "H6881954663",
+                  "conf": 0.9988273978233337,
+                  "bbox": [
+                    130,
+                    288,
+                    230,
+                    305
+                  ]
+                },
+                {
+                  "text": "Full Name:",
+                  "conf": 0.9170312881469727,
+                  "bbox": [
+                    430,
+                    286,
+                    500,
+                    302
+                  ]
+                },
+                {
+                  "text": "FLORES,BRIAN",
+                  "conf": 0.964662492275238,
+                  "bbox": [
+                    526,
+                    287,
+                    633,
+                    304
+                  ]
+                },
+                {
+                  "text": "Gender:",
+                  "conf": 0.9642037153244019,
+                  "bbox": [
+                    825,
+                    285,
+                    887,
+                    303
+                  ]
+                },
+                {
+                  "text": "F",
+                  "conf": 0.7795724272727966,
+                  "bbox": [
+                    893,
+                    290,
+                    902,
+                    299
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Date of Birth: 01/22/1977 SSN (last 4): 9967 Language: SPANISH",
+              "conf": 0.9730548163255056,
+              "bbox": [
+                38,
+                326,
+                996,
+                361
+              ],
+              "words": [
+                {
+                  "text": "Date of Birth:",
+                  "conf": 0.9790971875190735,
+                  "bbox": [
+                    38,
+                    327,
+                    90,
+                    361
+                  ]
+                },
+                {
+                  "text": "01/22/1977",
+                  "conf": 0.9976520538330078,
+                  "bbox": [
+                    139,
+                    333,
+                    224,
+                    352
+                  ]
+                },
+                {
+                  "text": "SSN (last 4):",
+                  "conf": 0.8739953637123108,
+                  "bbox": [
+                    442,
+                    326,
+                    506,
+                    360
+                  ]
+                },
+                {
+                  "text": "9967",
+                  "conf": 0.9986432790756226,
+                  "bbox": [
+                    540,
+                    333,
+                    580,
+                    350
+                  ]
+                },
+                {
+                  "text": "Language:",
+                  "conf": 0.9915914535522461,
+                  "bbox": [
+                    840,
+                    331,
+                    911,
+                    350
+                  ]
+                },
+                {
+                  "text": "SPANISH",
+                  "conf": 0.9973495602607727,
+                  "bbox": [
+                    930,
+                    329,
+                    996,
+                    349
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Plan Type: PPO Effective Date: 01/01/2025 Term Date: 12/31/2025",
+              "conf": 0.9733106046915054,
+              "bbox": [
+                37,
+                368,
+                1071,
+                407
+              ],
+              "words": [
+                {
+                  "text": "Plan Type:",
+                  "conf": 0.9772292673587799,
+                  "bbox": [
+                    37,
+                    372,
+                    79,
+                    407
+                  ]
+                },
+                {
+                  "text": "PPO",
+                  "conf": 0.9843447208404541,
+                  "bbox": [
+                    110,
+                    378,
+                    148,
+                    399
+                  ]
+                },
+                {
+                  "text": "Effective Date:",
+                  "conf": 0.9661440551280975,
+                  "bbox": [
+                    417,
+                    370,
+                    478,
+                    405
+                  ]
+                },
+                {
+                  "text": "01/01/2025",
+                  "conf": 0.9973200559616089,
+                  "bbox": [
+                    537,
+                    379,
+                    619,
+                    395
+                  ]
+                },
+                {
+                  "text": "Term Date:",
+                  "conf": 0.9529577195644379,
+                  "bbox": [
+                    912,
+                    368,
+                    953,
+                    402
+                  ]
+                },
+                {
+                  "text": "12/31/2025",
+                  "conf": 0.9618678092956543,
+                  "bbox": [
+                    989,
+                    378,
+                    1071,
+                    394
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            38,
+            417,
+            553,
+            451
+          ],
+          "text": "Group #: GRP-003 Subscriber: SELF",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Group #: GRP-003 Subscriber: SELF",
+              "conf": 0.9856989607214928,
+              "bbox": [
+                38,
+                417,
+                553,
+                451
+              ],
+              "words": [
+                {
+                  "text": "Group #:",
+                  "conf": 0.9699036180973053,
+                  "bbox": [
+                    38,
+                    417,
+                    82,
+                    451
+                  ]
+                },
+                {
+                  "text": "GRP-003",
+                  "conf": 0.9822961091995239,
+                  "bbox": [
+                    109,
+                    424,
+                    173,
+                    444
+                  ]
+                },
+                {
+                  "text": "Subscriber:",
+                  "conf": 0.9923856258392334,
+                  "bbox": [
+                    410,
+                    424,
+                    484,
+                    441
+                  ]
+                },
+                {
+                  "text": "SELF",
+                  "conf": 0.9982104897499084,
+                  "bbox": [
+                    516,
+                    424,
+                    553,
+                    442
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 7,
+          "bbox": [
+            42,
+            511,
+            231,
+            529
+          ],
+          "text": "Contact Information",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Contact Information",
+              "conf": 0.9743320345878601,
+              "bbox": [
+                42,
+                511,
+                231,
+                529
+              ],
+              "words": [
+                {
+                  "text": "Contact Information",
+                  "conf": 0.9743320345878601,
+                  "bbox": [
+                    42,
+                    511,
+                    231,
+                    529
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 8,
+          "bbox": [
+            38,
+            548,
+            737,
+            618
+          ],
+          "text": "Address: 6110 Birch Rd City/State/ ZIP: FRESNO,CA93484\nPhone: 555269-1976 Email: brian.flores@examplemail.com",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Address: 6110 Birch Rd City/State/ ZIP: FRESNO,CA93484",
+              "conf": 0.9686331003904343,
+              "bbox": [
+                41,
+                548,
+                737,
+                584
+              ],
+              "words": [
+                {
+                  "text": "Address:",
+                  "conf": 0.9928474426269531,
+                  "bbox": [
+                    41,
+                    557,
+                    97,
+                    573
+                  ]
+                },
+                {
+                  "text": "6110 Birch Rd",
+                  "conf": 0.9470629096031189,
+                  "bbox": [
+                    115,
+                    559,
+                    214,
+                    576
+                  ]
+                },
+                {
+                  "text": "City/State/ ZIP:",
+                  "conf": 0.9813923239707947,
+                  "bbox": [
+                    487,
+                    548,
+                    557,
+                    584
+                  ]
+                },
+                {
+                  "text": "FRESNO,CA93484",
+                  "conf": 0.9532297253608704,
+                  "bbox": [
+                    605,
+                    558,
+                    737,
+                    573
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Phone: 555269-1976 Email: brian.flores@examplemail.com",
+              "conf": 0.9870609641075134,
+              "bbox": [
+                38,
+                595,
+                689,
+                618
+              ],
+              "words": [
+                {
+                  "text": "Phone:",
+                  "conf": 0.9804976582527161,
+                  "bbox": [
+                    38,
+                    595,
+                    88,
+                    618
+                  ]
+                },
+                {
+                  "text": "555269-1976",
+                  "conf": 0.9866014122962952,
+                  "bbox": [
+                    110,
+                    600,
+                    219,
+                    616
+                  ]
+                },
+                {
+                  "text": "Email:",
+                  "conf": 0.9879147410392761,
+                  "bbox": [
+                    415,
+                    598,
+                    458,
+                    614
+                  ]
+                },
+                {
+                  "text": "brian.flores@examplemail.com",
+                  "conf": 0.9932300448417664,
+                  "bbox": [
+                    475,
+                    598,
+                    689,
+                    616
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            43,
+            678,
+            236,
+            697
+          ],
+          "text": "Coverage/Eligibility",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Coverage/Eligibility",
+              "conf": 0.9975795745849609,
+              "bbox": [
+                43,
+                678,
+                236,
+                697
+              ],
+              "words": [
+                {
+                  "text": "Coverage/Eligibility",
+                  "conf": 0.9975795745849609,
+                  "bbox": [
+                    43,
+                    678,
+                    236,
+                    697
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            40,
+            720,
+            872,
+            801
+          ],
+          "text": "Eligibility Status: ACTIVE Verified On: 11/18/2025 Verified By: PROCOO1\nDeductible Met: $0.00/$1,000.00 OOP Max: $2,000.00/$8,000.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Eligibility Status: ACTIVE Verified On: 11/18/2025 Verified By: PROCOO1",
+              "conf": 0.9638901154200236,
+              "bbox": [
+                41,
+                720,
+                872,
+                755
+              ],
+              "words": [
+                {
+                  "text": "Eligibility Status:",
+                  "conf": 0.9595121145248413,
+                  "bbox": [
+                    41,
+                    728,
+                    149,
+                    743
+                  ]
+                },
+                {
+                  "text": "ACTIVE",
+                  "conf": 0.9970123171806335,
+                  "bbox": [
+                    180,
+                    726,
+                    233,
+                    742
+                  ]
+                },
+                {
+                  "text": "Verified On:",
+                  "conf": 0.9400402307510376,
+                  "bbox": [
+                    320,
+                    720,
+                    375,
+                    755
+                  ]
+                },
+                {
+                  "text": "11/18/2025",
+                  "conf": 0.999732494354248,
+                  "bbox": [
+                    411,
+                    728,
+                    496,
+                    748
+                  ]
+                },
+                {
+                  "text": "Verified By:",
+                  "conf": 0.9430444240570068,
+                  "bbox": [
+                    718,
+                    726,
+                    799,
+                    742
+                  ]
+                },
+                {
+                  "text": "PROCOO1",
+                  "conf": 0.9439991116523743,
+                  "bbox": [
+                    792,
+                    726,
+                    872,
+                    742
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Deductible Met: $0.00/$1,000.00 OOP Max: $2,000.00/$8,000.00",
+              "conf": 0.9733134061098099,
+              "bbox": [
+                40,
+                766,
+                702,
+                801
+              ],
+              "words": [
+                {
+                  "text": "Deductible Met:",
+                  "conf": 0.9901052117347717,
+                  "bbox": [
+                    40,
+                    768,
+                    109,
+                    801
+                  ]
+                },
+                {
+                  "text": "$0.00/$1,000.00",
+                  "conf": 0.9618126153945923,
+                  "bbox": [
+                    162,
+                    776,
+                    288,
+                    794
+                  ]
+                },
+                {
+                  "text": "OOP Max:",
+                  "conf": 0.9831927418708801,
+                  "bbox": [
+                    462,
+                    766,
+                    497,
+                    800
+                  ]
+                },
+                {
+                  "text": "$2,000.00/$8,000.00",
+                  "conf": 0.9581430554389954,
+                  "bbox": [
+                    548,
+                    775,
+                    702,
+                    790
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 11,
+          "bbox": [
+            40,
+            817,
+            369,
+            837
+          ],
+          "text": "PCP Assignment: MARTINEZ MD,ANNA LUCIA",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "PCP Assignment: MARTINEZ MD,ANNA LUCIA",
+              "conf": 0.9505171477794647,
+              "bbox": [
+                40,
+                817,
+                369,
+                837
+              ],
+              "words": [
+                {
+                  "text": "PCP Assignment:",
+                  "conf": 0.9529117345809937,
+                  "bbox": [
+                    40,
+                    817,
+                    149,
+                    835
+                  ]
+                },
+                {
+                  "text": "MARTINEZ MD,ANNA LUCIA",
+                  "conf": 0.9481225609779358,
+                  "bbox": [
+                    179,
+                    822,
+                    369,
+                    837
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            37,
+            92,
+            1419,
+            837
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td></td><td></td><td>Save changes</td><td></td></tr><tr><td>Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5</td><td></td><td></td><td></td></tr><tr><td>Processor</td><td>Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days</td><td></td><td></td></tr><tr><td>Member/ Patient Information</td><td></td><td></td><td></td></tr><tr><td>Member ID</td><td>H6881954663 Full Name: FLORES,BRIAN</td><td>Gender</td><td>F</td></tr><tr><td>Date of Birth</td><td>01/22/1977 SSN (last 4): 9967</td><td>Language</td><td>SPANISH</td></tr><tr><td>Plan Type</td><td>PPO Effective Date: 01/01/2025</td><td>Term Date</td><td>12/31/2025</td></tr><tr><td>Group #</td><td>GRP-003 Subscriber: SELF</td><td></td><td></td></tr><tr><td>Contact Information</td><td></td><td></td><td></td></tr><tr><td>Address</td><td>6110 Birch Rd City/State/ ZIP: FRESNO,CA93484</td><td></td><td></td></tr><tr><td>Phone</td><td>555269-1976 Email: brian.flores@examplemail.com</td><td></td><td></td></tr><tr><td>Coverage/Eligibility</td><td></td><td></td><td></td></tr><tr><td>Eligibility Status</td><td>ACTIVE Verified On: 11/18/2025 Verified By:</td><td>PROCOO1</td><td></td></tr><tr><td>Deductible Met</td><td>$0.00/$1,000.00 OOP Max: $2,000.00/$8,000.00</td><td></td><td></td></tr><tr><td>PCP Assignment</td><td>MARTINEZ MD,ANNA LUCIA</td><td></td><td></td></tr></table>",
+          "text": "Save changes: \nClaim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5: \nProcessor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days\nMember/ Patient Information: \nMember ID: H6881954663 Full Name: FLORES,BRIAN\nGender: F\nDate of Birth: 01/22/1977 SSN (last 4): 9967\nLanguage: SPANISH\nPlan Type: PPO Effective Date: 01/01/2025\nTerm Date: 12/31/2025\nGroup #: GRP-003 Subscriber: SELF\nContact Information: \nAddress: 6110 Birch Rd City/State/ ZIP: FRESNO,CA93484\nPhone: 555269-1976 Email: brian.flores@examplemail.com\nCoverage/Eligibility: \nEligibility Status: ACTIVE Verified On: 11/18/2025 Verified By:\nPROCOO1: \nDeductible Met: $0.00/$1,000.00 OOP Max: $2,000.00/$8,000.00\nPCP Assignment: MARTINEZ MD,ANNA LUCIA",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "Save changes",
+              ""
+            ],
+            [
+              "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Processor",
+              "Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days",
+              "",
+              ""
+            ],
+            [
+              "Member/ Patient Information",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Member ID",
+              "H6881954663 Full Name: FLORES,BRIAN",
+              "Gender",
+              "F"
+            ],
+            [
+              "Date of Birth",
+              "01/22/1977 SSN (last 4): 9967",
+              "Language",
+              "SPANISH"
+            ],
+            [
+              "Plan Type",
+              "PPO Effective Date: 01/01/2025",
+              "Term Date",
+              "12/31/2025"
+            ],
+            [
+              "Group #",
+              "GRP-003 Subscriber: SELF",
+              "",
+              ""
+            ],
+            [
+              "Contact Information",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Address",
+              "6110 Birch Rd City/State/ ZIP: FRESNO,CA93484",
+              "",
+              ""
+            ],
+            [
+              "Phone",
+              "555269-1976 Email: brian.flores@examplemail.com",
+              "",
+              ""
+            ],
+            [
+              "Coverage/Eligibility",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Eligibility Status",
+              "ACTIVE Verified On: 11/18/2025 Verified By:",
+              "PROCOO1",
+              ""
+            ],
+            [
+              "Deductible Met",
+              "$0.00/$1,000.00 OOP Max: $2,000.00/$8,000.00",
+              "",
+              ""
+            ],
+            [
+              "PCP Assignment",
+              "MARTINEZ MD,ANNA LUCIA",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "",
+              "Save changes"
+            ],
+            [
+              "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              ""
+            ],
+            [
+              "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days",
+              ""
+            ],
+            [
+              "Member/ Patient Information",
+              ""
+            ],
+            [
+              "Member ID: H6881954663 Full Name: FLORES,BRIAN",
+              "Gender: F"
+            ],
+            [
+              "Date of Birth: 01/22/1977 SSN (last 4): 9967",
+              "Language: SPANISH"
+            ],
+            [
+              "Plan Type: PPO Effective Date: 01/01/2025",
+              "Term Date: 12/31/2025"
+            ],
+            [
+              "Group #: GRP-003 Subscriber: SELF",
+              ""
+            ],
+            [
+              "Contact Information",
+              ""
+            ],
+            [
+              "Address: 6110 Birch Rd City/State/ ZIP: FRESNO,CA93484",
+              ""
+            ],
+            [
+              "Phone: 555269-1976 Email: brian.flores@examplemail.com",
+              ""
+            ],
+            [
+              "Coverage/Eligibility",
+              ""
+            ],
+            [
+              "Eligibility Status: ACTIVE Verified On: 11/18/2025 Verified By:",
+              "PROCOO1"
+            ],
+            [
+              "Deductible Met: $0.00/$1,000.00 OOP Max: $2,000.00/$8,000.00",
+              ""
+            ],
+            [
+              "PCP Assignment: MARTINEZ MD,ANNA LUCIA",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            26,
+            7,
+            1445,
+            83
+          ],
+          "html": "<table><tr><th>Curamind</th><th>Claims Management</th><th>Sarah Johnson</th><th>PROCO01</th><th>Logout</th></tr><tr><td>Professional Claim</td><td></td><td></td><td></td><td>-Back to Dashboard</td></tr></table>",
+          "text": "Professional Claim |  |  |  | -Back to Dashboard",
+          "headers": [
+            "Curamind",
+            "Claims Management",
+            "Sarah Johnson",
+            "PROCO01",
+            "Logout"
+          ],
+          "rows": [
+            [
+              "Professional Claim",
+              "",
+              "",
+              "",
+              "-Back to Dashboard"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Curamind Claims Management Sarah Johnson PROCO01 Logout",
+          "conf": 0.9859651088714599,
+          "bbox": [
+            26,
+            7,
+            1404,
+            41
+          ],
+          "words": [
+            {
+              "text": "Curamind",
+              "conf": 0.9995173811912537,
+              "bbox": [
+                26,
+                17,
+                125,
+                34
+              ]
+            },
+            {
+              "text": "Claims Management",
+              "conf": 0.9911081790924072,
+              "bbox": [
+                143,
+                20,
+                295,
+                35
+              ]
+            },
+            {
+              "text": "Sarah Johnson",
+              "conf": 0.9971266984939575,
+              "bbox": [
+                1152,
+                7,
+                1206,
+                41
+              ]
+            },
+            {
+              "text": "PROCO01",
+              "conf": 0.9423017501831055,
+              "bbox": [
+                1239,
+                16,
+                1304,
+                31
+              ]
+            },
+            {
+              "text": "Logout",
+              "conf": 0.9997715353965759,
+              "bbox": [
+                1351,
+                16,
+                1404,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Professional Claim -Back to Dashboard",
+          "conf": 0.963602751493454,
+          "bbox": [
+            35,
+            62,
+            1445,
+            83
+          ],
+          "words": [
+            {
+              "text": "Professional Claim",
+              "conf": 0.9879275560379028,
+              "bbox": [
+                35,
+                67,
+                163,
+                83
+              ]
+            },
+            {
+              "text": "-Back to Dashboard",
+              "conf": 0.9392779469490051,
+              "bbox": [
+                1302,
+                62,
+                1445,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Save changes",
+          "conf": 0.9876072406768799,
+          "bbox": [
+            1318,
+            92,
+            1419,
+            107
+          ],
+          "words": [
+            {
+              "text": "Save changes",
+              "conf": 0.9876072406768799,
+              "bbox": [
+                1318,
+                92,
+                1419,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "conf": 0.9694627165794373,
+          "bbox": [
+            44,
+            125,
+            689,
+            148
+          ],
+          "words": [
+            {
+              "text": "Claim Pg1",
+              "conf": 0.949268102645874,
+              "bbox": [
+                44,
+                125,
+                117,
+                148
+              ]
+            },
+            {
+              "text": "Provpg2",
+              "conf": 0.9910086393356323,
+              "bbox": [
+                161,
+                125,
+                228,
+                148
+              ]
+            },
+            {
+              "text": "Member Pg3",
+              "conf": 0.9650641679763794,
+              "bbox": [
+                275,
+                128,
+                373,
+                144
+              ]
+            },
+            {
+              "text": "Diagnosis Pg4",
+              "conf": 0.9750909805297852,
+              "bbox": [
+                412,
+                128,
+                510,
+                144
+              ]
+            },
+            {
+              "text": "Miscellaneous Pg5",
+              "conf": 0.9668816924095154,
+              "bbox": [
+                561,
+                126,
+                689,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROc001 Decision SLA: 3 days",
+          "conf": 0.9321369379758835,
+          "bbox": [
+            40,
+            176,
+            775,
+            192
+          ],
+          "words": [
+            {
+              "text": "Processor: Sarah Johnson",
+              "conf": 0.950112521648407,
+              "bbox": [
+                40,
+                177,
+                219,
+                192
+              ]
+            },
+            {
+              "text": "Last edit: 11/17/2025 08:05",
+              "conf": 0.9409899711608887,
+              "bbox": [
+                237,
+                177,
+                431,
+                192
+              ]
+            },
+            {
+              "text": "ProcessorID:PROc001",
+              "conf": 0.9058639407157898,
+              "bbox": [
+                442,
+                176,
+                607,
+                191
+              ]
+            },
+            {
+              "text": "Decision SLA: 3 days",
+              "conf": 0.9315813183784485,
+              "bbox": [
+                633,
+                176,
+                775,
+                191
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member/ Patient Information",
+          "conf": 0.9647511839866638,
+          "bbox": [
+            40,
+            240,
+            320,
+            258
+          ],
+          "words": [
+            {
+              "text": "Member/ Patient Information",
+              "conf": 0.9647511839866638,
+              "bbox": [
+                40,
+                240,
+                320,
+                258
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member ID: H6881954663 Full Name: FLORES,BRIAN Gender: F",
+          "conf": 0.9342761486768723,
+          "bbox": [
+            38,
+            281,
+            902,
+            314
+          ],
+          "words": [
+            {
+              "text": "Member ID:",
+              "conf": 0.9813595712184906,
+              "bbox": [
+                38,
+                281,
+                94,
+                314
+              ]
+            },
+            {
+              "text": "H6881954663",
+              "conf": 0.9988273978233337,
+              "bbox": [
+                130,
+                288,
+                230,
+                305
+              ]
+            },
+            {
+              "text": "Full Name:",
+              "conf": 0.9170312881469727,
+              "bbox": [
+                430,
+                286,
+                500,
+                302
+              ]
+            },
+            {
+              "text": "FLORES,BRIAN",
+              "conf": 0.964662492275238,
+              "bbox": [
+                526,
+                287,
+                633,
+                304
+              ]
+            },
+            {
+              "text": "Gender:",
+              "conf": 0.9642037153244019,
+              "bbox": [
+                825,
+                285,
+                887,
+                303
+              ]
+            },
+            {
+              "text": "F",
+              "conf": 0.7795724272727966,
+              "bbox": [
+                893,
+                290,
+                902,
+                299
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Date of Birth: 01/22/1977 SSN (last 4): 9967 Language: SPANISH",
+          "conf": 0.9730548163255056,
+          "bbox": [
+            38,
+            326,
+            996,
+            361
+          ],
+          "words": [
+            {
+              "text": "Date of Birth:",
+              "conf": 0.9790971875190735,
+              "bbox": [
+                38,
+                327,
+                90,
+                361
+              ]
+            },
+            {
+              "text": "01/22/1977",
+              "conf": 0.9976520538330078,
+              "bbox": [
+                139,
+                333,
+                224,
+                352
+              ]
+            },
+            {
+              "text": "SSN (last 4):",
+              "conf": 0.8739953637123108,
+              "bbox": [
+                442,
+                326,
+                506,
+                360
+              ]
+            },
+            {
+              "text": "9967",
+              "conf": 0.9986432790756226,
+              "bbox": [
+                540,
+                333,
+                580,
+                350
+              ]
+            },
+            {
+              "text": "Language:",
+              "conf": 0.9915914535522461,
+              "bbox": [
+                840,
+                331,
+                911,
+                350
+              ]
+            },
+            {
+              "text": "SPANISH",
+              "conf": 0.9973495602607727,
+              "bbox": [
+                930,
+                329,
+                996,
+                349
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Plan Type: PPO Effective Date: 01/01/2025 Term Date: 12/31/2025",
+          "conf": 0.9733106046915054,
+          "bbox": [
+            37,
+            368,
+            1071,
+            407
+          ],
+          "words": [
+            {
+              "text": "Plan Type:",
+              "conf": 0.9772292673587799,
+              "bbox": [
+                37,
+                372,
+                79,
+                407
+              ]
+            },
+            {
+              "text": "PPO",
+              "conf": 0.9843447208404541,
+              "bbox": [
+                110,
+                378,
+                148,
+                399
+              ]
+            },
+            {
+              "text": "Effective Date:",
+              "conf": 0.9661440551280975,
+              "bbox": [
+                417,
+                370,
+                478,
+                405
+              ]
+            },
+            {
+              "text": "01/01/2025",
+              "conf": 0.9973200559616089,
+              "bbox": [
+                537,
+                379,
+                619,
+                395
+              ]
+            },
+            {
+              "text": "Term Date:",
+              "conf": 0.9529577195644379,
+              "bbox": [
+                912,
+                368,
+                953,
+                402
+              ]
+            },
+            {
+              "text": "12/31/2025",
+              "conf": 0.9618678092956543,
+              "bbox": [
+                989,
+                378,
+                1071,
+                394
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Group #: GRP-003 Subscriber: SELF",
+          "conf": 0.9856989607214928,
+          "bbox": [
+            38,
+            417,
+            553,
+            451
+          ],
+          "words": [
+            {
+              "text": "Group #:",
+              "conf": 0.9699036180973053,
+              "bbox": [
+                38,
+                417,
+                82,
+                451
+              ]
+            },
+            {
+              "text": "GRP-003",
+              "conf": 0.9822961091995239,
+              "bbox": [
+                109,
+                424,
+                173,
+                444
+              ]
+            },
+            {
+              "text": "Subscriber:",
+              "conf": 0.9923856258392334,
+              "bbox": [
+                410,
+                424,
+                484,
+                441
+              ]
+            },
+            {
+              "text": "SELF",
+              "conf": 0.9982104897499084,
+              "bbox": [
+                516,
+                424,
+                553,
+                442
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Contact Information",
+          "conf": 0.9743320345878601,
+          "bbox": [
+            42,
+            511,
+            231,
+            529
+          ],
+          "words": [
+            {
+              "text": "Contact Information",
+              "conf": 0.9743320345878601,
+              "bbox": [
+                42,
+                511,
+                231,
+                529
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Address: 6110 Birch Rd City/State/ ZIP: FRESNO,CA93484",
+          "conf": 0.9686331003904343,
+          "bbox": [
+            41,
+            548,
+            737,
+            584
+          ],
+          "words": [
+            {
+              "text": "Address:",
+              "conf": 0.9928474426269531,
+              "bbox": [
+                41,
+                557,
+                97,
+                573
+              ]
+            },
+            {
+              "text": "6110 Birch Rd",
+              "conf": 0.9470629096031189,
+              "bbox": [
+                115,
+                559,
+                214,
+                576
+              ]
+            },
+            {
+              "text": "City/State/ ZIP:",
+              "conf": 0.9813923239707947,
+              "bbox": [
+                487,
+                548,
+                557,
+                584
+              ]
+            },
+            {
+              "text": "FRESNO,CA93484",
+              "conf": 0.9532297253608704,
+              "bbox": [
+                605,
+                558,
+                737,
+                573
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone: 555269-1976 Email: brian.flores@examplemail.com",
+          "conf": 0.9870609641075134,
+          "bbox": [
+            38,
+            595,
+            689,
+            618
+          ],
+          "words": [
+            {
+              "text": "Phone:",
+              "conf": 0.9804976582527161,
+              "bbox": [
+                38,
+                595,
+                88,
+                618
+              ]
+            },
+            {
+              "text": "555269-1976",
+              "conf": 0.9866014122962952,
+              "bbox": [
+                110,
+                600,
+                219,
+                616
+              ]
+            },
+            {
+              "text": "Email:",
+              "conf": 0.9879147410392761,
+              "bbox": [
+                415,
+                598,
+                458,
+                614
+              ]
+            },
+            {
+              "text": "brian.flores@examplemail.com",
+              "conf": 0.9932300448417664,
+              "bbox": [
+                475,
+                598,
+                689,
+                616
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Coverage/Eligibility",
+          "conf": 0.9975795745849609,
+          "bbox": [
+            43,
+            678,
+            236,
+            697
+          ],
+          "words": [
+            {
+              "text": "Coverage/Eligibility",
+              "conf": 0.9975795745849609,
+              "bbox": [
+                43,
+                678,
+                236,
+                697
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Eligibility Status: ACTIVE Verified On: 11/18/2025 Verified By: PROCOO1",
+          "conf": 0.9638901154200236,
+          "bbox": [
+            41,
+            720,
+            872,
+            755
+          ],
+          "words": [
+            {
+              "text": "Eligibility Status:",
+              "conf": 0.9595121145248413,
+              "bbox": [
+                41,
+                728,
+                149,
+                743
+              ]
+            },
+            {
+              "text": "ACTIVE",
+              "conf": 0.9970123171806335,
+              "bbox": [
+                180,
+                726,
+                233,
+                742
+              ]
+            },
+            {
+              "text": "Verified On:",
+              "conf": 0.9400402307510376,
+              "bbox": [
+                320,
+                720,
+                375,
+                755
+              ]
+            },
+            {
+              "text": "11/18/2025",
+              "conf": 0.999732494354248,
+              "bbox": [
+                411,
+                728,
+                496,
+                748
+              ]
+            },
+            {
+              "text": "Verified By:",
+              "conf": 0.9430444240570068,
+              "bbox": [
+                718,
+                726,
+                799,
+                742
+              ]
+            },
+            {
+              "text": "PROCOO1",
+              "conf": 0.9439991116523743,
+              "bbox": [
+                792,
+                726,
+                872,
+                742
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Deductible Met: $0.00/$1,000.00 OOP Max: $2,000.00/$8,000.00",
+          "conf": 0.9733134061098099,
+          "bbox": [
+            40,
+            766,
+            702,
+            801
+          ],
+          "words": [
+            {
+              "text": "Deductible Met:",
+              "conf": 0.9901052117347717,
+              "bbox": [
+                40,
+                768,
+                109,
+                801
+              ]
+            },
+            {
+              "text": "$0.00/$1,000.00",
+              "conf": 0.9618126153945923,
+              "bbox": [
+                162,
+                776,
+                288,
+                794
+              ]
+            },
+            {
+              "text": "OOP Max:",
+              "conf": 0.9831927418708801,
+              "bbox": [
+                462,
+                766,
+                497,
+                800
+              ]
+            },
+            {
+              "text": "$2,000.00/$8,000.00",
+              "conf": 0.9581430554389954,
+              "bbox": [
+                548,
+                775,
+                702,
+                790
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PCP Assignment: MARTINEZ MD,ANNA LUCIA",
+          "conf": 0.9505171477794647,
+          "bbox": [
+            40,
+            817,
+            369,
+            837
+          ],
+          "words": [
+            {
+              "text": "PCP Assignment:",
+              "conf": 0.9529117345809937,
+              "bbox": [
+                40,
+                817,
+                149,
+                835
+              ]
+            },
+            {
+              "text": "MARTINEZ MD,ANNA LUCIA",
+              "conf": 0.9481225609779358,
+              "bbox": [
+                179,
+                822,
+                369,
+                837
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

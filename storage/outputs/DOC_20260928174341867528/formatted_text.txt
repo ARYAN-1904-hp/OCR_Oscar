@@ -1,0 +1,300 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=19 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 31x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Yisroel Dubov | - | - | -
+  CELL[3,0] = Yisroel Dubov
+ROW 4 | Active | Accumulators | View benefit limit accumulators | -
+  CELL[4,0] = Active
+  CELL[4,1] = Accumulators
+  CELL[4,2] = View benefit limit accumulators
+ROW 5 | OSC78747909-01R213XB6D Holder - ON exc | - | - | -
+  CELL[5,0] = OSC78747909-01R213XB6D Holder - ON exc
+ROW 6 | Individual deductible | Individual out-of-pocket-maximum | - | -
+  CELL[6,0] = Individual deductible
+  CELL[6,1] = Individual out-of-pocket-maximum
+ROW 7 | Heads up note | - | - | -
+  CELL[7,0] = Heads up note
+ROW 8 | $0.00 spent | outof$0.00 $266.90 spent out of$1,850.00 | - | -
+  CELL[8,0] = $0.00 spent
+  CELL[8,1] = outof$0.00 $266.90 spent out of$1,850.00
+ROW 9 | Deductible met | $1,583.10 remaining | - | -
+  CELL[9,0] = Deductible met
+  CELL[9,1] = $1,583.10 remaining
+ROW 10 | Member actions | - | - | -
+  CELL[10,0] = Member actions
+ROW 11 | View family accumulators | - | - | -
+  CELL[11,0] = View family accumulators
+ROW 12 | FLBroward | - | - | -
+  CELL[12,0] = FLBroward
+ROW 13 | FLO3FLTeam | - | - | -
+  CELL[13,0] = FLO3FLTeam
+ROW 14 | Claims | - | Export CSV | -
+  CELL[14,0] = Claims
+  CELL[14,2] = Export CSV
+ROW 15 | Oscarplan: | - | - | -
+  CELL[15,0] = Oscarplan:
+ROW 16 | Silver Simple PCP Saver CSR 150 | Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) | Member responslbility Status Provider/Facllity | -
+  CELL[16,0] = Silver Simple PCP Saver CSR 150
+  CELL[16,1] = Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2)
+  CELL[16,2] = Member responslbility Status Provider/Facllity
+ROW 17 | FL HMO Standard | - | - | -
+  CELL[17,0] = FL HMO Standard
+ROW 18 | View ID card | - | - | -
+  CELL[18,0] = View ID card
+ROW 19 | Jeffin Alex | - | - | -
+  CELL[19,0] = Jeffin Alex
+ROW 20 | 9X1W28AK | - | $0.00 | -
+  CELL[20,0] = 9X1W28AK
+  CELL[20,2] = $0.00
+ROW 21 | Effective 01/01/2026 | - | - | -
+  CELL[21,0] = Effective 01/01/2026
+ROW 22 | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | - | Pald | -
+  CELL[22,0] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  CELL[22,2] = Pald
+ROW 23 | 8 Individual | Oscar Medical Group Nathan Lycan | - | -
+  CELL[23,0] = 8 Individual
+  CELL[23,1] = Oscar Medical Group Nathan Lycan
+ROW 24 | Service on Mar 31, 2026 Accumulation on Apr 2, 2026 | - | - | -
+  CELL[24,0] = Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+ROW 25 | $Current - Balance due | - | - | -
+  CELL[25,0] = $Current - Balance due
+ROW 26 | Oscar Unlocks Not activated | - | - | -
+  CELL[26,0] = Oscar Unlocks Not activated
+ROW 27 | DB74BR1S | - | $30.00 | -
+  CELL[27,0] = DB74BR1S
+  CELL[27,2] = $30.00
+ROW 28 | Member tags | Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more | Paid | -
+  CELL[28,0] = Member tags
+  CELL[28,1] = Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more
+  CELL[28,2] = Paid
+ROW 29 | Memorial Urgent Care Center-Shoji Ajl | - | - | -
+  CELL[29,0] = Memorial Urgent Care Center-Shoji Ajl
+ROW 30 | nextgen_billing_rosco_tag | Service on Mar 12, 2026 Accumulation on Mar 17, 2026 | - | -
+  CELL[30,0] = nextgen_billing_rosco_tag
+  CELL[30,1] = Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,15,1580,36] | order=0
+  rosco Search Rosco MR Melissa
+BLOCK 1 | type=header | bbox=[19,71,919,102] | order=1
+  Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 2 | type=table | bbox=[22,109,1261,132] | order=2
+  Active Accumulators View benefit limit accumulators
+BLOCK 3 | type=sidebar | bbox=[18,140,182,176] | order=3
+  OSC78747909-01R213XB6D Holder - ON exc
+BLOCK 4 | type=paragraph | bbox=[276,186,738,204] | order=4
+  Individual deductible Individual out-of-pocket-maximum
+BLOCK 5 | type=sidebar | bbox=[17,209,162,373] | order=5
+  Heads up note
+  Member actions
+  FLBroward
+BLOCK 6 | type=table | bbox=[278,224,775,242] | order=6
+  $0.00 spent outof$0.00 $266.90 spent out of$1,850.00
+BLOCK 7 | type=paragraph | bbox=[280,262,712,351] | order=7
+  Deductible met $1,583.10 remaining
+  View family accumulators
+BLOCK 8 | type=table | bbox=[16,384,1262,416] | order=8
+  FLO3FLTeam Claims Export CSV
+BLOCK 9 | type=sidebar | bbox=[17,419,106,439] | order=9
+  Oscarplan:
+BLOCK 10 | type=sidebar | bbox=[18,508,102,526] | order=10
+  Jeffin Alex
+BLOCK 11 | type=paragraph | bbox=[39,443,1254,544] | order=11
+  FL HMO Standard Silver Simple PCP Saver CSR 150 Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslbility Status Provider/Facllity
+  9X1W28AK $0.00
+BLOCK 12 | type=sidebar | bbox=[40,480,114,496] | order=12
+  View ID card
+BLOCK 13 | type=table | bbox=[18,540,1252,568] | order=13
+  Effective 01/01/2026 Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald
+BLOCK 14 | type=paragraph | bbox=[17,570,1255,696] | order=14
+  8 Individual Oscar Medical Group Nathan Lycan
+  $Current - Balance due Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+  DB74BR1S $30.00
+BLOCK 15 | type=sidebar | bbox=[19,639,122,674] | order=15
+  Oscar Unlocks Not activated
+BLOCK 16 | type=table | bbox=[16,701,1252,727] | order=16
+  Member tags Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more Paid
+BLOCK 17 | type=footer | bbox=[305,726,550,738] | order=17
+  Memorial Urgent Care Center-Shoji Ajl
+BLOCK 18 | type=footer | bbox=[22,745,624,761] | order=18
+  nextgen_billing_rosco_tag Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,15,1580,761] | shape=31x4 | conf=0.920
+  shape: 31x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Yisroel Dubov | - | - | -
+    CELL[3,0] = Yisroel Dubov
+  ROW 4 | Active | Accumulators | View benefit limit accumulators | -
+    CELL[4,0] = Active
+    CELL[4,1] = Accumulators
+    CELL[4,2] = View benefit limit accumulators
+  ROW 5 | OSC78747909-01R213XB6D Holder - ON exc | - | - | -
+    CELL[5,0] = OSC78747909-01R213XB6D Holder - ON exc
+  ROW 6 | Individual deductible | Individual out-of-pocket-maximum | - | -
+    CELL[6,0] = Individual deductible
+    CELL[6,1] = Individual out-of-pocket-maximum
+  ROW 7 | Heads up note | - | - | -
+    CELL[7,0] = Heads up note
+  ROW 8 | $0.00 spent | outof$0.00 $266.90 spent out of$1,850.00 | - | -
+    CELL[8,0] = $0.00 spent
+    CELL[8,1] = outof$0.00 $266.90 spent out of$1,850.00
+  ROW 9 | Deductible met | $1,583.10 remaining | - | -
+    CELL[9,0] = Deductible met
+    CELL[9,1] = $1,583.10 remaining
+  ROW 10 | Member actions | - | - | -
+    CELL[10,0] = Member actions
+  ROW 11 | View family accumulators | - | - | -
+    CELL[11,0] = View family accumulators
+  ROW 12 | FLBroward | - | - | -
+    CELL[12,0] = FLBroward
+  ROW 13 | FLO3FLTeam | - | - | -
+    CELL[13,0] = FLO3FLTeam
+  ROW 14 | Claims | - | Export CSV | -
+    CELL[14,0] = Claims
+    CELL[14,2] = Export CSV
+  ROW 15 | Oscarplan: | - | - | -
+    CELL[15,0] = Oscarplan:
+  ROW 16 | Silver Simple PCP Saver CSR 150 | Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) | Member responslbility Status Provider/Facllity | -
+    CELL[16,0] = Silver Simple PCP Saver CSR 150
+    CELL[16,1] = Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2)
+    CELL[16,2] = Member responslbility Status Provider/Facllity
+  ROW 17 | FL HMO Standard | - | - | -
+    CELL[17,0] = FL HMO Standard
+  ROW 18 | View ID card | - | - | -
+    CELL[18,0] = View ID card
+  ROW 19 | Jeffin Alex | - | - | -
+    CELL[19,0] = Jeffin Alex
+  ROW 20 | 9X1W28AK | - | $0.00 | -
+    CELL[20,0] = 9X1W28AK
+    CELL[20,2] = $0.00
+  ROW 21 | Effective 01/01/2026 | - | - | -
+    CELL[21,0] = Effective 01/01/2026
+  ROW 22 | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | - | Pald | -
+    CELL[22,0] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+    CELL[22,2] = Pald
+  ROW 23 | 8 Individual | Oscar Medical Group Nathan Lycan | - | -
+    CELL[23,0] = 8 Individual
+    CELL[23,1] = Oscar Medical Group Nathan Lycan
+  ROW 24 | Service on Mar 31, 2026 Accumulation on Apr 2, 2026 | - | - | -
+    CELL[24,0] = Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+  ROW 25 | $Current - Balance due | - | - | -
+    CELL[25,0] = $Current - Balance due
+  ROW 26 | Oscar Unlocks Not activated | - | - | -
+    CELL[26,0] = Oscar Unlocks Not activated
+  ROW 27 | DB74BR1S | - | $30.00 | -
+    CELL[27,0] = DB74BR1S
+    CELL[27,2] = $30.00
+  ROW 28 | Member tags | Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more | Paid | -
+    CELL[28,0] = Member tags
+    CELL[28,1] = Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more
+    CELL[28,2] = Paid
+  ROW 29 | Memorial Urgent Care Center-Shoji Ajl | - | - | -
+    CELL[29,0] = Memorial Urgent Care Center-Shoji Ajl
+  ROW 30 | nextgen_billing_rosco_tag | Service on Mar 12, 2026 Accumulation on Mar 17, 2026 | - | -
+    CELL[30,0] = nextgen_billing_rosco_tag
+    CELL[30,1] = Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,15,1580,36] | conf=0.915 | text=rosco Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1464,15,1550,36] | text=MR Melissa
+LINE 1 | bbox=[19,71,919,102] | conf=0.982 | text=Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,152,102] | text=Yisroel Dubov
+  WORD | bbox=[275,73,351,89] | text=Member info
+  WORD | bbox=[366,74,405,88] | text=Issues
+  WORD | bbox=[420,71,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[639,71,749,89] | text=Billing & payments
+  WORD | bbox=[764,75,816,88] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[22,109,1261,132] | conf=0.964 | text=Active Accumulators View benefit limit accumulators
+  WORD | bbox=[22,115,64,132] | text=Active
+  WORD | bbox=[279,109,371,126] | text=Accumulators
+  WORD | bbox=[1106,111,1261,126] | text=View benefit limit accumulators
+LINE 3 | bbox=[18,140,182,176] | conf=0.965 | text=OSC78747909-01R213XB6D Holder - ON exc
+LINE 4 | bbox=[276,186,738,204] | conf=0.995 | text=Individual deductible Individual out-of-pocket-maximum
+  WORD | bbox=[276,186,399,204] | text=Individual deductible
+  WORD | bbox=[537,187,738,202] | text=Individual out-of-pocket-maximum
+LINE 5 | bbox=[29,209,115,229] | conf=0.985 | text=Heads up note
+LINE 6 | bbox=[71,307,162,320] | conf=0.947 | text=Member actions
+LINE 7 | bbox=[17,351,113,373] | conf=0.976 | text=FLBroward
+LINE 8 | bbox=[278,224,775,242] | conf=0.986 | text=$0.00 spent outof$0.00 $266.90 spent out of$1,850.00
+  WORD | bbox=[278,225,349,242] | text=$0.00 spent
+  WORD | bbox=[443,224,515,241] | text=outof$0.00
+  WORD | bbox=[538,225,621,242] | text=$266.90 spent
+  WORD | bbox=[685,228,775,241] | text=out of$1,850.00
+LINE 9 | bbox=[350,262,712,281] | conf=0.993 | text=Deductible met $1,583.10 remaining
+  WORD | bbox=[350,262,441,280] | text=Deductible met
+  WORD | bbox=[601,265,712,281] | text=$1,583.10 remaining
+LINE 10 | bbox=[280,339,424,351] | conf=0.962 | text=View family accumulators
+LINE 11 | bbox=[16,384,1262,416] | conf=0.983 | text=FLO3FLTeam Claims Export CSV
+  WORD | bbox=[16,384,125,406] | text=FLO3FLTeam
+  WORD | bbox=[279,398,326,416] | text=Claims
+  WORD | bbox=[1204,402,1262,415] | text=Export CSV
+LINE 12 | bbox=[17,419,106,439] | conf=0.975 | text=Oscarplan:
+LINE 13 | bbox=[18,508,102,526] | conf=0.944 | text=Jeffin Alex
+LINE 14 | bbox=[39,443,1230,477] | conf=0.971 | text=FL HMO Standard Silver Simple PCP Saver CSR 150 Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslbility Status Provider/Facllity
+  WORD | bbox=[39,461,142,477] | text=FL HMO Standard
+  WORD | bbox=[41,443,219,456] | text=Silver Simple PCP Saver CSR 150
+  WORD | bbox=[289,448,433,466] | text=Order by date of service
+  WORD | bbox=[465,449,555,466] | text=Medical clalms
+  WORD | bbox=[589,448,836,466] | text=Servlce dates 01/01/2025-07/23/2026 (2)
+  WORD | bbox=[871,448,1011,467] | text=Member responslbility
+  WORD | bbox=[1041,451,1094,466] | text=Status
+  WORD | bbox=[1121,448,1230,467] | text=Provider/Facllity
+LINE 15 | bbox=[304,523,1254,544] | conf=0.999 | text=9X1W28AK $0.00
+  WORD | bbox=[304,523,375,540] | text=9X1W28AK
+  WORD | bbox=[1214,524,1254,544] | text=$0.00
+LINE 16 | bbox=[40,480,114,496] | conf=0.932 | text=View ID card
+LINE 17 | bbox=[18,540,1252,568] | conf=0.945 | text=Effective 01/01/2026 Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald
+  WORD | bbox=[18,540,158,556] | text=Effective 01/01/2026
+  WORD | bbox=[304,551,1061,568] | text=Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  WORD | bbox=[1221,550,1252,568] | text=Pald
+LINE 18 | bbox=[17,570,535,591] | conf=0.968 | text=8 Individual Oscar Medical Group Nathan Lycan
+  WORD | bbox=[17,570,98,591] | text=8 Individual
+  WORD | bbox=[322,575,535,588] | text=Oscar Medical Group Nathan Lycan
+LINE 19 | bbox=[19,597,619,624] | conf=0.943 | text=$Current - Balance due Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+  WORD | bbox=[19,605,161,624] | text=$Current - Balance due
+  WORD | bbox=[304,597,619,610] | text=Service on Mar 31, 2026 Accumulation on Apr 2, 2026
+LINE 20 | bbox=[304,675,1255,696] | conf=0.996 | text=DB74BR1S $30.00
+  WORD | bbox=[304,675,371,691] | text=DB74BR1S
+  WORD | bbox=[1205,675,1255,696] | text=$30.00
+LINE 21 | bbox=[19,639,122,674] | conf=0.991 | text=Oscar Unlocks Not activated
+LINE 22 | bbox=[16,701,1252,727] | conf=0.970 | text=Member tags Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more Paid
+  WORD | bbox=[16,706,96,727] | text=Member tags
+  WORD | bbox=[304,703,1066,719] | text=Medical claim New patient office or other outpatient visit with low level of medical decision making, if using time, 30 minutes or more
+  WORD | bbox=[1221,701,1252,719] | text=Paid
+LINE 23 | bbox=[305,726,550,738] | conf=0.948 | text=Memorial Urgent Care Center-Shoji Ajl
+LINE 24 | bbox=[22,745,624,761] | conf=0.963 | text=nextgen_billing_rosco_tag Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+  WORD | bbox=[22,745,175,761] | text=nextgen_billing_rosco_tag
+  WORD | bbox=[304,749,624,761] | text=Service on Mar 12, 2026 Accumulation on Mar 17, 2026
+[/BOXES]

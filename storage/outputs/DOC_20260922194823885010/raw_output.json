@@ -1,0 +1,5249 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Curamind Claims Management Sarah Johnson PROC001 Logout\nProcessor:Sarah Johnson (PROC001) | Email: s.johnson@curamind.com Queue:18 claims\nClaims Management System\n# Claim Number Member ID Member Name Claim Type Status Date Received Service Date Provider Total Billed Net Pay\n1 25115366316743 H6881954663 FLORES, BRIAN Professional PENDING REVIEW 11/18/2025 11/06/2025 MARTINEZ MD, ANNA LUCIA $3,015.49 $2,384.70\n2 25117905347389 H6888550245 MILLER,JESSICA Professional PENDING REVIEW 11/07/2025 10/29/2025 HARRIS MD,MARCUS $2,032.51 $1,243.12\n3 25111276140353 H6888133229 TORRES,RICHARD Institutional PENDING REVIEW 11/20/2025 11/18/2025 OKONKWO MD,ADAEZE $3,736.07 $3,205.61\n4 25110570605030 H6886276126 JOHNSON,TINA Professional APPROVED 11/25/2025 11/24/2025 CHEN MD,DAVID WEI $4,221.09 $2,699.84\n5 25112774222276 H6887025194 MARTIN, CHARLES Institutional PARTIAL APPROVAL 11/23/2025 11/17/2025 CHEN MD,DAVID WEI $3,976.89 $3,028.98\n6 25113475167505 H6887015595 JOHNSON, THOMAS Institutional PARTIALAPPROVAL 11/26/2025 11/25/2025 CHEN MD,DAVID WEI $2,405.87 $2,013.15\n7 25115619144871 H6886320372 GREEN,HECTOR Institutional PARTIAL APPROVAL 11/03/2025 10/24/2025 CHEN MD,DAVID WE! $2,324.95 $1,960.57\n8 25113937871513 H6885420972 HALL, KEVIN Professional PENDING REVIEW 11/23/2025 11/19/2025 OKONKWO MD,ADAEZE $2,783.87 $2,578.86\n9 25112704286948 H6881814298 KING,AMANDA Institutional PENDING REVIEW 11/01/2025 10/15/2025 PATELMD,RAJ KUMAR $1,254.27 $1,068.78\n10 25116264529867 H6885789861 CLARK,OLIVER Institutional APPROVED 11/10/2025 10/24/2025 CHEN MD,DAVID WEI $2,885.04 $1,855.32\n11 25117563404309 H6885337993 TORRES,SAMUEL Institutional PENDING REVIEW 11/18/2025 11/12/2025 CHEN MD,DAVID WEI $2,319.10 $1,859.44\n12 25110012661311 H6885369115 MILLER,TINA Professional PENDING REVIEW 11/04/2025 10/16/2025 FERNANDEZ MD,ISABEL $4,972.56 $4,623.65\n13 25114472156864 H6888942707 FLORES,PEARL Institutional APPROVED 11/08/2025 11/07/2025 NGUYEN MD,TRAN VAN $3,167.73 $2,028.19\n14 25116151162084 H6889601421 NGUYEN,KAREN Institutional PENDING REVIEW 11/16/2025 10/30/2025 CHEN MD.DAVID WEI $2,325.09 $2,203.99\n15 25119150767241 H6881605108 LEWIS,QUENTIN Institutional APPROVED 11/18/2025 10/29/2025 CHUNG MD, CHRISTINE SUMI $3,737.26 $2,865.36\n16 25112106551646 H6883135291 LOPEZ,KAREN Professional PARTIAL APPROVAL 11/13/2025 11/01/2025 OKONKWO MD,ADAEZE $1,599.15 $1,443.21\n17 25111734491590 H6886983129 HILL, ROSA Institutional PENDING REVIEW 11/02/2025 10/19/2025 CHUNG MD, CHRISTINE SUMI $1,629.90 $1,439.87\n18 25113851703095 H6885734653 MILLER,THOMAS Institutional APPROVED 11/14/2025 11/01/2025 NGUYEN MD,TRAN VAN $1,812.57 $1,374.87",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 1042,
+      "text": "Curamind Claims Management Sarah Johnson PROC001 Logout\nProcessor:Sarah Johnson (PROC001) | Email: s.johnson@curamind.com Queue:18 claims\nClaims Management System\n# Claim Number Member ID Member Name Claim Type Status Date Received Service Date Provider Total Billed Net Pay\n1 25115366316743 H6881954663 FLORES, BRIAN Professional PENDING REVIEW 11/18/2025 11/06/2025 MARTINEZ MD, ANNA LUCIA $3,015.49 $2,384.70\n2 25117905347389 H6888550245 MILLER,JESSICA Professional PENDING REVIEW 11/07/2025 10/29/2025 HARRIS MD,MARCUS $2,032.51 $1,243.12\n3 25111276140353 H6888133229 TORRES,RICHARD Institutional PENDING REVIEW 11/20/2025 11/18/2025 OKONKWO MD,ADAEZE $3,736.07 $3,205.61\n4 25110570605030 H6886276126 JOHNSON,TINA Professional APPROVED 11/25/2025 11/24/2025 CHEN MD,DAVID WEI $4,221.09 $2,699.84\n5 25112774222276 H6887025194 MARTIN, CHARLES Institutional PARTIAL APPROVAL 11/23/2025 11/17/2025 CHEN MD,DAVID WEI $3,976.89 $3,028.98\n6 25113475167505 H6887015595 JOHNSON, THOMAS Institutional PARTIALAPPROVAL 11/26/2025 11/25/2025 CHEN MD,DAVID WEI $2,405.87 $2,013.15\n7 25115619144871 H6886320372 GREEN,HECTOR Institutional PARTIAL APPROVAL 11/03/2025 10/24/2025 CHEN MD,DAVID WE! $2,324.95 $1,960.57\n8 25113937871513 H6885420972 HALL, KEVIN Professional PENDING REVIEW 11/23/2025 11/19/2025 OKONKWO MD,ADAEZE $2,783.87 $2,578.86\n9 25112704286948 H6881814298 KING,AMANDA Institutional PENDING REVIEW 11/01/2025 10/15/2025 PATELMD,RAJ KUMAR $1,254.27 $1,068.78\n10 25116264529867 H6885789861 CLARK,OLIVER Institutional APPROVED 11/10/2025 10/24/2025 CHEN MD,DAVID WEI $2,885.04 $1,855.32\n11 25117563404309 H6885337993 TORRES,SAMUEL Institutional PENDING REVIEW 11/18/2025 11/12/2025 CHEN MD,DAVID WEI $2,319.10 $1,859.44\n12 25110012661311 H6885369115 MILLER,TINA Professional PENDING REVIEW 11/04/2025 10/16/2025 FERNANDEZ MD,ISABEL $4,972.56 $4,623.65\n13 25114472156864 H6888942707 FLORES,PEARL Institutional APPROVED 11/08/2025 11/07/2025 NGUYEN MD,TRAN VAN $3,167.73 $2,028.19\n14 25116151162084 H6889601421 NGUYEN,KAREN Institutional PENDING REVIEW 11/16/2025 10/30/2025 CHEN MD.DAVID WEI $2,325.09 $2,203.99\n15 25119150767241 H6881605108 LEWIS,QUENTIN Institutional APPROVED 11/18/2025 10/29/2025 CHUNG MD, CHRISTINE SUMI $3,737.26 $2,865.36\n16 25112106551646 H6883135291 LOPEZ,KAREN Professional PARTIAL APPROVAL 11/13/2025 11/01/2025 OKONKWO MD,ADAEZE $1,599.15 $1,443.21\n17 25111734491590 H6886983129 HILL, ROSA Institutional PENDING REVIEW 11/02/2025 10/19/2025 CHUNG MD, CHRISTINE SUMI $1,629.90 $1,439.87\n18 25113851703095 H6885734653 MILLER,THOMAS Institutional APPROVED 11/14/2025 11/01/2025 NGUYEN MD,TRAN VAN $1,812.57 $1,374.87",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [],
+          "text": ""
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            27,
+            8,
+            1405,
+            42
+          ],
+          "text": "Curamind Claims Management Sarah Johnson PROC001 Logout",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Curamind Claims Management Sarah Johnson PROC001 Logout",
+              "conf": 0.9851073861122132,
+              "bbox": [
+                27,
+                8,
+                1405,
+                42
+              ],
+              "words": [
+                {
+                  "text": "Curamind",
+                  "conf": 0.9996038675308228,
+                  "bbox": [
+                    27,
+                    16,
+                    127,
+                    33
+                  ]
+                },
+                {
+                  "text": "Claims Management",
+                  "conf": 0.9972647428512573,
+                  "bbox": [
+                    143,
+                    17,
+                    297,
+                    35
+                  ]
+                },
+                {
+                  "text": "Sarah Johnson",
+                  "conf": 0.9976412057876587,
+                  "bbox": [
+                    1154,
+                    8,
+                    1208,
+                    42
+                  ]
+                },
+                {
+                  "text": "PROC001",
+                  "conf": 0.9312223792076111,
+                  "bbox": [
+                    1239,
+                    16,
+                    1304,
+                    31
+                  ]
+                },
+                {
+                  "text": "Logout",
+                  "conf": 0.9998047351837158,
+                  "bbox": [
+                    1354,
+                    19,
+                    1405,
+                    34
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            32,
+            76,
+            732,
+            93
+          ],
+          "text": "Processor:Sarah Johnson (PRoco01) | Email: s.johnson@curamind.com Queue:18 claims",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor:Sarah Johnson (PRoco01) | Email: s.johnson@curamind.com Queue:18 claims",
+              "conf": 0.9327996174494425,
+              "bbox": [
+                32,
+                76,
+                732,
+                93
+              ],
+              "words": [
+                {
+                  "text": "Processor:Sarah Johnson (PRoco01)",
+                  "conf": 0.9169874787330627,
+                  "bbox": [
+                    32,
+                    76,
+                    289,
+                    93
+                  ]
+                },
+                {
+                  "text": "| Email: s.johnson@curamind.com",
+                  "conf": 0.9342544078826904,
+                  "bbox": [
+                    320,
+                    78,
+                    564,
+                    93
+                  ]
+                },
+                {
+                  "text": "Queue:18 claims",
+                  "conf": 0.9471569657325745,
+                  "bbox": [
+                    598,
+                    78,
+                    732,
+                    93
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 2,
+          "bbox": [
+            34,
+            106,
+            400,
+            131
+          ],
+          "text": "Claims Management System",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claims Management System",
+              "conf": 0.999504566192627,
+              "bbox": [
+                34,
+                106,
+                400,
+                131
+              ],
+              "words": [
+                {
+                  "text": "Claims Management System",
+                  "conf": 0.999504566192627,
+                  "bbox": [
+                    34,
+                    106,
+                    400,
+                    131
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            32,
+            152,
+            1431,
+            861
+          ],
+          "text": "# Claim Number Member ID Member Name Claim Type Status Date Received Service Date Provider Total Billed Net Pay\n1 25115366316743 H6881954663 FLORES, BRIAN Professional PENDING REVIEW 11/18/2025 11/06/2025 MARTINEZ MD, ANNA LUCIA $3,015.49 $2,384.70\n2 25117905347389 H6888550245 MILLER,JESSICA Professional PENDING REVIEW 11/07/2025 10/29/2025 HARRIS MD,MARCUS $2,032.51 $1,243.12\n3 25111276140353 H6888133229 TORRES,RICHARD Institutional PENDING REVIEW 11/20/2025 11/18/2025 OKONKWO MD,ADAEZE $3,736.07 $3,205.61\n4 25110570605030 H6886276126 JOHNSON,TINA Professional APPROVED 11/25/2025 11/24/2025 CHEN MD,DAVID WEI $4,221.09 $2,699.84\n5 25112774222276 H6887025194 MARTIN, CHARLES Institutional PARTIAL APPROVAL 11/23/2025 11/17/2025 CHEN MD,DAVID WEI $3,976.89 $3,028.98\n6 25113475167505 H6887015595 JOHNSON, THOMAS Institutional PARTIALAPPROVAL 11/26/2025 11/25/2025 CHEN MD,DAVID WEI $2,405.87 $2,013.15\n7 25115619144871 H6886320372 GREEN,HECTOR Institutional PARTIAL APPROVAL 11/03/2025 10/24/2025 CHEN MD,DAVID WE! $2,324.95 $1,960.57\n8 25113937871513 H6885420972 HALL, KEVIN Professional PENDING REVIEW 11/23/2025 11/19/2025 OKONKWO MD,ADAEZE $2,783.87 $2,578.86\n9 25112704286948 H6881814298 KING,AMANDA Institutional PENDING REVIEW 11/01/2025 10/15/2025 PATELMD,RAJ KUMAR $1,254.27 $1,068.78\n10 25116264529867 H6885789861 CLARK,OLIVER Institutional APPROVED 11/10/2025 10/24/2025 CHEN MD,DAVID WEI $2,885.04 $1,855.32\n11 25117563404309 H6885337993 TORRES,SAMUEL Institutional PENDING REVIEW 11/18/2025 11/12/2025 CHEN MD,DAVID WEI $2,319.10 $1,859.44\n12 25110012661311 H6885369115 MILLER,TINA Professional PENDING REVIEW 11/04/2025 10/16/2025 FERNANDEZ MD,ISABEL $4,972.56 $4,623.65\n13 25114472156864 H6888942707 FLORES,PEARL Institutional APPROVED 11/08/2025 11/07/2025 NGUYEN MD,TRAN VAN $3,167.73 $2,028.19\n14 25116151162084 H6889601421 NGUYEN,KAREN Institutional PENDING REVIEW 11/16/2025 10/30/2025 CHEN MD.DAVID WEI $2,325.09 $2,203.99\n15 25119150767241 H6881605108 LEWIS,QUENTIN Institutional APPROVED 11/18/2025 10/29/2025 CHUNG MD, CHRISTINE SUMI $3,737.26 $2,865.36\n16 25112106551646 H6883135291 LOPEZ,KAREN Professional PARTIAL APPROVAL 11/13/2025 11/01/2025 OKONKWO MD,ADAEZE $1,599.15 $1,443.21\n17 25111734491590 H6886983129 HILL, ROSA Institutional PENDING REVIEW 11/02/2025 10/19/2025 CHUNG MD, CHRISTINE SUMI $1,629.90 $1,439.87\n18 25113851703095 H6885734653 MILLER,THOMAS Institutional APPROVED 11/14/2025 11/01/2025 NGUYEN MD,TRAN VAN $1,812.57 $1,374.87",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "# Claim Number Member ID Member Name Claim Type Status Date Received Service Date Provider Total Billed Net Pay",
+              "conf": 0.9766617634079673,
+              "bbox": [
+                35,
+                152,
+                1421,
+                175
+              ],
+              "words": [
+                {
+                  "text": "#",
+                  "conf": 0.998241662979126,
+                  "bbox": [
+                    35,
+                    156,
+                    50,
+                    173
+                  ]
+                },
+                {
+                  "text": "Claim Number",
+                  "conf": 0.9708934426307678,
+                  "bbox": [
+                    79,
+                    157,
+                    182,
+                    172
+                  ]
+                },
+                {
+                  "text": "Member ID",
+                  "conf": 0.9561576843261719,
+                  "bbox": [
+                    248,
+                    156,
+                    328,
+                    172
+                  ]
+                },
+                {
+                  "text": "Member Name",
+                  "conf": 0.9751120209693909,
+                  "bbox": [
+                    364,
+                    157,
+                    470,
+                    172
+                  ]
+                },
+                {
+                  "text": "Claim Type",
+                  "conf": 0.9773386120796204,
+                  "bbox": [
+                    516,
+                    157,
+                    594,
+                    173
+                  ]
+                },
+                {
+                  "text": "Status",
+                  "conf": 0.9969550967216492,
+                  "bbox": [
+                    613,
+                    157,
+                    662,
+                    173
+                  ]
+                },
+                {
+                  "text": "Date Received",
+                  "conf": 0.9665785431861877,
+                  "bbox": [
+                    792,
+                    155,
+                    908,
+                    172
+                  ]
+                },
+                {
+                  "text": "Service Date",
+                  "conf": 0.9719647765159607,
+                  "bbox": [
+                    906,
+                    157,
+                    998,
+                    172
+                  ]
+                },
+                {
+                  "text": "Provider",
+                  "conf": 0.9977242350578308,
+                  "bbox": [
+                    1022,
+                    156,
+                    1085,
+                    172
+                  ]
+                },
+                {
+                  "text": "Total Billed",
+                  "conf": 0.9668049216270447,
+                  "bbox": [
+                    1238,
+                    156,
+                    1320,
+                    172
+                  ]
+                },
+                {
+                  "text": "Net Pay",
+                  "conf": 0.9655084013938904,
+                  "bbox": [
+                    1359,
+                    152,
+                    1421,
+                    175
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "1 25115366316743 H6881954663 FLORES, BRIAN Professional PENDING REVIEW 11/18/2025 11/06/2025 MARTINEZ MD, ANNA LUCIA $3,015.49 $2,384.70",
+              "conf": 0.9796118844639171,
+              "bbox": [
+                34,
+                183,
+                1431,
+                206
+              ],
+              "words": [
+                {
+                  "text": "1",
+                  "conf": 0.9991863369941711,
+                  "bbox": [
+                    34,
+                    186,
+                    48,
+                    205
+                  ]
+                },
+                {
+                  "text": "25115366316743",
+                  "conf": 0.9998784065246582,
+                  "bbox": [
+                    79,
+                    188,
+                    191,
+                    204
+                  ]
+                },
+                {
+                  "text": "H6881954663",
+                  "conf": 0.9984027743339539,
+                  "bbox": [
+                    248,
+                    187,
+                    340,
+                    204
+                  ]
+                },
+                {
+                  "text": "FLORES, BRIAN",
+                  "conf": 0.9361993074417114,
+                  "bbox": [
+                    366,
+                    187,
+                    463,
+                    204
+                  ]
+                },
+                {
+                  "text": "Professional",
+                  "conf": 0.9975036978721619,
+                  "bbox": [
+                    514,
+                    187,
+                    593,
+                    204
+                  ]
+                },
+                {
+                  "text": "PENDING REVIEW",
+                  "conf": 0.982466995716095,
+                  "bbox": [
+                    622,
+                    188,
+                    738,
+                    204
+                  ]
+                },
+                {
+                  "text": "11/18/2025",
+                  "conf": 0.9988595247268677,
+                  "bbox": [
+                    792,
+                    187,
+                    867,
+                    204
+                  ]
+                },
+                {
+                  "text": "11/06/2025",
+                  "conf": 0.9989694356918335,
+                  "bbox": [
+                    907,
+                    187,
+                    982,
+                    204
+                  ]
+                },
+                {
+                  "text": "MARTINEZ MD, ANNA LUCIA",
+                  "conf": 0.9251309037208557,
+                  "bbox": [
+                    1022,
+                    187,
+                    1196,
+                    202
+                  ]
+                },
+                {
+                  "text": "$3,015.49",
+                  "conf": 0.9691898822784424,
+                  "bbox": [
+                    1238,
+                    187,
+                    1304,
+                    204
+                  ]
+                },
+                {
+                  "text": "$2,384.70",
+                  "conf": 0.9699434638023376,
+                  "bbox": [
+                    1360,
+                    183,
+                    1431,
+                    206
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "2 25117905347389 H6888550245 MILLER,JESSICA Professional PENDING REVIEW 11/07/2025 10/29/2025 HARRIS MD,MARCUS $2,032.51 $1,243.12",
+              "conf": 0.9819812883030284,
+              "bbox": [
+                34,
+                224,
+                1429,
+                243
+              ],
+              "words": [
+                {
+                  "text": "2",
+                  "conf": 0.9983007311820984,
+                  "bbox": [
+                    34,
+                    224,
+                    48,
+                    243
+                  ]
+                },
+                {
+                  "text": "25117905347389",
+                  "conf": 0.9997172355651855,
+                  "bbox": [
+                    79,
+                    227,
+                    190,
+                    242
+                  ]
+                },
+                {
+                  "text": "H6888550245",
+                  "conf": 0.9993816018104553,
+                  "bbox": [
+                    248,
+                    226,
+                    340,
+                    242
+                  ]
+                },
+                {
+                  "text": "MILLER,JESSICA",
+                  "conf": 0.9697628021240234,
+                  "bbox": [
+                    364,
+                    227,
+                    469,
+                    242
+                  ]
+                },
+                {
+                  "text": "Professional",
+                  "conf": 0.995811402797699,
+                  "bbox": [
+                    513,
+                    227,
+                    594,
+                    242
+                  ]
+                },
+                {
+                  "text": "PENDING REVIEW",
+                  "conf": 0.978670597076416,
+                  "bbox": [
+                    622,
+                    227,
+                    741,
+                    242
+                  ]
+                },
+                {
+                  "text": "11/07/2025",
+                  "conf": 0.9987945556640625,
+                  "bbox": [
+                    791,
+                    226,
+                    866,
+                    242
+                  ]
+                },
+                {
+                  "text": "10/29/2025",
+                  "conf": 0.9989346265792847,
+                  "bbox": [
+                    907,
+                    226,
+                    982,
+                    242
+                  ]
+                },
+                {
+                  "text": "HARRIS MD,MARCUS",
+                  "conf": 0.9399163722991943,
+                  "bbox": [
+                    1021,
+                    227,
+                    1157,
+                    242
+                  ]
+                },
+                {
+                  "text": "$2,032.51",
+                  "conf": 0.9578354358673096,
+                  "bbox": [
+                    1236,
+                    224,
+                    1304,
+                    243
+                  ]
+                },
+                {
+                  "text": "$1,243.12",
+                  "conf": 0.9646688103675842,
+                  "bbox": [
+                    1363,
+                    227,
+                    1429,
+                    243
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "3 25111276140353 H6888133229 TORRES,RICHARD Institutional PENDING REVIEW 11/20/2025 11/18/2025 OKONKWO MD,ADAEZE $3,736.07 $3,205.61",
+              "conf": 0.9825160232457247,
+              "bbox": [
+                34,
+                260,
+                1429,
+                283
+              ],
+              "words": [
+                {
+                  "text": "3",
+                  "conf": 0.9989816546440125,
+                  "bbox": [
+                    34,
+                    264,
+                    49,
+                    283
+                  ]
+                },
+                {
+                  "text": "25111276140353",
+                  "conf": 0.9997535347938538,
+                  "bbox": [
+                    79,
+                    265,
+                    191,
+                    280
+                  ]
+                },
+                {
+                  "text": "H6888133229",
+                  "conf": 0.9994468688964844,
+                  "bbox": [
+                    248,
+                    264,
+                    340,
+                    280
+                  ]
+                },
+                {
+                  "text": "TORRES,RICHARD",
+                  "conf": 0.9780758023262024,
+                  "bbox": [
+                    366,
+                    265,
+                    483,
+                    280
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9959737062454224,
+                  "bbox": [
+                    513,
+                    265,
+                    592,
+                    280
+                  ]
+                },
+                {
+                  "text": "PENDING REVIEW",
+                  "conf": 0.9813328981399536,
+                  "bbox": [
+                    622,
+                    265,
+                    739,
+                    280
+                  ]
+                },
+                {
+                  "text": "11/20/2025",
+                  "conf": 0.9992669820785522,
+                  "bbox": [
+                    792,
+                    264,
+                    867,
+                    280
+                  ]
+                },
+                {
+                  "text": "11/18/2025",
+                  "conf": 0.9991738200187683,
+                  "bbox": [
+                    907,
+                    264,
+                    982,
+                    280
+                  ]
+                },
+                {
+                  "text": "OKONKWO MD,ADAEZE",
+                  "conf": 0.9411120414733887,
+                  "bbox": [
+                    1022,
+                    263,
+                    1173,
+                    280
+                  ]
+                },
+                {
+                  "text": "$3,736.07",
+                  "conf": 0.9525637030601501,
+                  "bbox": [
+                    1235,
+                    260,
+                    1306,
+                    283
+                  ]
+                },
+                {
+                  "text": "$3,205.61",
+                  "conf": 0.9619952440261841,
+                  "bbox": [
+                    1363,
+                    265,
+                    1429,
+                    281
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "4 25110570605030 H6886276126 JOHNSON,TINA Professional APPROVED 11/25/2025 11/24/2025 CHEN MD,DAVID WEI $4,221.09 $2,699.84",
+              "conf": 0.9815168597481467,
+              "bbox": [
+                34,
+                299,
+                1431,
+                322
+              ],
+              "words": [
+                {
+                  "text": "4",
+                  "conf": 0.99850994348526,
+                  "bbox": [
+                    34,
+                    302,
+                    49,
+                    320
+                  ]
+                },
+                {
+                  "text": "25110570605030",
+                  "conf": 0.999549388885498,
+                  "bbox": [
+                    79,
+                    304,
+                    191,
+                    319
+                  ]
+                },
+                {
+                  "text": "H6886276126",
+                  "conf": 0.9991680383682251,
+                  "bbox": [
+                    248,
+                    304,
+                    341,
+                    319
+                  ]
+                },
+                {
+                  "text": "JOHNSON,TINA",
+                  "conf": 0.9681577086448669,
+                  "bbox": [
+                    364,
+                    304,
+                    465,
+                    320
+                  ]
+                },
+                {
+                  "text": "Professional",
+                  "conf": 0.9973462224006653,
+                  "bbox": [
+                    512,
+                    299,
+                    596,
+                    321
+                  ]
+                },
+                {
+                  "text": "APPROVED",
+                  "conf": 0.9964600205421448,
+                  "bbox": [
+                    622,
+                    304,
+                    697,
+                    320
+                  ]
+                },
+                {
+                  "text": "11/25/2025",
+                  "conf": 0.9993950128555298,
+                  "bbox": [
+                    791,
+                    301,
+                    868,
+                    321
+                  ]
+                },
+                {
+                  "text": "11/24/2025",
+                  "conf": 0.9985443353652954,
+                  "bbox": [
+                    907,
+                    302,
+                    982,
+                    319
+                  ]
+                },
+                {
+                  "text": "CHEN MD,DAVID WEI",
+                  "conf": 0.9117782115936279,
+                  "bbox": [
+                    1023,
+                    304,
+                    1159,
+                    319
+                  ]
+                },
+                {
+                  "text": "$4,221.09",
+                  "conf": 0.9500681757926941,
+                  "bbox": [
+                    1236,
+                    301,
+                    1305,
+                    321
+                  ]
+                },
+                {
+                  "text": "$2,699.84",
+                  "conf": 0.9777083992958069,
+                  "bbox": [
+                    1362,
+                    302,
+                    1431,
+                    322
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "5 25112774222276 H6887025194 MARTIN, CHARLES Institutional PARTIAL APPROVAL 11/23/2025 11/17/2025 CHEN MD,DAVID WEI $3,976.89 $3,028.98",
+              "conf": 0.9712553837082603,
+              "bbox": [
+                34,
+                341,
+                1431,
+                361
+              ],
+              "words": [
+                {
+                  "text": "5",
+                  "conf": 0.9991223216056824,
+                  "bbox": [
+                    34,
+                    341,
+                    48,
+                    359
+                  ]
+                },
+                {
+                  "text": "25112774222276",
+                  "conf": 0.9998087882995605,
+                  "bbox": [
+                    79,
+                    342,
+                    191,
+                    357
+                  ]
+                },
+                {
+                  "text": "H6887025194",
+                  "conf": 0.9986667037010193,
+                  "bbox": [
+                    248,
+                    342,
+                    341,
+                    357
+                  ]
+                },
+                {
+                  "text": "MARTIN, CHARLES",
+                  "conf": 0.9514685869216919,
+                  "bbox": [
+                    364,
+                    342,
+                    482,
+                    357
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9974632859230042,
+                  "bbox": [
+                    513,
+                    342,
+                    592,
+                    358
+                  ]
+                },
+                {
+                  "text": " PARTIAL APPROVAL",
+                  "conf": 0.9617936611175537,
+                  "bbox": [
+                    622,
+                    342,
+                    751,
+                    357
+                  ]
+                },
+                {
+                  "text": "11/23/2025",
+                  "conf": 0.9993547201156616,
+                  "bbox": [
+                    792,
+                    342,
+                    867,
+                    358
+                  ]
+                },
+                {
+                  "text": "11/17/2025",
+                  "conf": 0.9995095133781433,
+                  "bbox": [
+                    907,
+                    342,
+                    981,
+                    358
+                  ]
+                },
+                {
+                  "text": "CHEN MD,DAVID WEI",
+                  "conf": 0.9092783331871033,
+                  "bbox": [
+                    1023,
+                    342,
+                    1159,
+                    357
+                  ]
+                },
+                {
+                  "text": "$3,976.89",
+                  "conf": 0.9202920198440552,
+                  "bbox": [
+                    1236,
+                    341,
+                    1303,
+                    357
+                  ]
+                },
+                {
+                  "text": "$3,028.98",
+                  "conf": 0.9470512866973877,
+                  "bbox": [
+                    1362,
+                    341,
+                    1431,
+                    361
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 6,
+              "text": "6 25113475167505 H6887015595 JOHNSON, THOMAS Institutional PARTIALAPPROVAL 11/26/2025 11/25/2025 CHEN MD,DAVID WEI $2,405.87 $2,013.15",
+              "conf": 0.9817007617516951,
+              "bbox": [
+                35,
+                378,
+                1429,
+                398
+              ],
+              "words": [
+                {
+                  "text": "6",
+                  "conf": 0.994134247303009,
+                  "bbox": [
+                    35,
+                    379,
+                    49,
+                    398
+                  ]
+                },
+                {
+                  "text": "25113475167505",
+                  "conf": 0.994640052318573,
+                  "bbox": [
+                    79,
+                    380,
+                    190,
+                    395
+                  ]
+                },
+                {
+                  "text": "H6887015595",
+                  "conf": 0.9980703592300415,
+                  "bbox": [
+                    248,
+                    380,
+                    340,
+                    395
+                  ]
+                },
+                {
+                  "text": "JOHNSON, THOMAS",
+                  "conf": 0.9672711491584778,
+                  "bbox": [
+                    363,
+                    379,
+                    490,
+                    398
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9959399700164795,
+                  "bbox": [
+                    513,
+                    380,
+                    592,
+                    397
+                  ]
+                },
+                {
+                  "text": "PARTIALAPPROVAL",
+                  "conf": 0.9924636483192444,
+                  "bbox": [
+                    623,
+                    383,
+                    750,
+                    394
+                  ]
+                },
+                {
+                  "text": "11/26/2025",
+                  "conf": 0.9979833364486694,
+                  "bbox": [
+                    792,
+                    379,
+                    867,
+                    395
+                  ]
+                },
+                {
+                  "text": "11/25/2025",
+                  "conf": 0.9988633394241333,
+                  "bbox": [
+                    907,
+                    379,
+                    982,
+                    395
+                  ]
+                },
+                {
+                  "text": "CHEN MD,DAVID WEI",
+                  "conf": 0.9071276783943176,
+                  "bbox": [
+                    1023,
+                    380,
+                    1159,
+                    395
+                  ]
+                },
+                {
+                  "text": "$2,405.87",
+                  "conf": 0.9716074466705322,
+                  "bbox": [
+                    1236,
+                    378,
+                    1305,
+                    398
+                  ]
+                },
+                {
+                  "text": "$2,013.15",
+                  "conf": 0.9806071519851685,
+                  "bbox": [
+                    1363,
+                    380,
+                    1429,
+                    397
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 7,
+              "text": "7 25115619144871 H6886320372 GREEN,HECTOR Institutional PARTIAL APPROVAL 11/03/2025 10/24/2025 CHEN MD,DAVID WE! $2,324.95 $1,960.57",
+              "conf": 0.9765494411641901,
+              "bbox": [
+                32,
+                416,
+                1430,
+                437
+              ],
+              "words": [
+                {
+                  "text": "7",
+                  "conf": 0.989150881767273,
+                  "bbox": [
+                    32,
+                    416,
+                    51,
+                    437
+                  ]
+                },
+                {
+                  "text": "25115619144871",
+                  "conf": 0.9997673034667969,
+                  "bbox": [
+                    79,
+                    420,
+                    190,
+                    435
+                  ]
+                },
+                {
+                  "text": "H6886320372",
+                  "conf": 0.9922999739646912,
+                  "bbox": [
+                    248,
+                    420,
+                    340,
+                    435
+                  ]
+                },
+                {
+                  "text": "GREEN,HECTOR",
+                  "conf": 0.9772924780845642,
+                  "bbox": [
+                    366,
+                    420,
+                    471,
+                    435
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9963927865028381,
+                  "bbox": [
+                    513,
+                    420,
+                    592,
+                    435
+                  ]
+                },
+                {
+                  "text": " PARTIAL APPROVAL",
+                  "conf": 0.970193088054657,
+                  "bbox": [
+                    622,
+                    420,
+                    751,
+                    435
+                  ]
+                },
+                {
+                  "text": "11/03/2025",
+                  "conf": 0.9983512163162231,
+                  "bbox": [
+                    791,
+                    417,
+                    866,
+                    434
+                  ]
+                },
+                {
+                  "text": "10/24/2025",
+                  "conf": 0.9993178248405457,
+                  "bbox": [
+                    907,
+                    419,
+                    982,
+                    435
+                  ]
+                },
+                {
+                  "text": "CHEN MD,DAVID WE!",
+                  "conf": 0.8974766135215759,
+                  "bbox": [
+                    1022,
+                    417,
+                    1160,
+                    436
+                  ]
+                },
+                {
+                  "text": "$2,324.95",
+                  "conf": 0.9594287872314453,
+                  "bbox": [
+                    1236,
+                    417,
+                    1305,
+                    437
+                  ]
+                },
+                {
+                  "text": "$1,960.57",
+                  "conf": 0.962372899055481,
+                  "bbox": [
+                    1362,
+                    417,
+                    1430,
+                    437
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 8,
+              "text": "8 25113937871513 H6885420972 HALL, KEVIN Professional PENDING REVIEW 11/23/2025 11/19/2025 OKONKWO MD,ADAEZE $2,783.87 $2,578.86",
+              "conf": 0.9853538220578973,
+              "bbox": [
+                34,
+                453,
+                1430,
+                476
+              ],
+              "words": [
+                {
+                  "text": "8",
+                  "conf": 0.9937514662742615,
+                  "bbox": [
+                    34,
+                    457,
+                    49,
+                    474
+                  ]
+                },
+                {
+                  "text": "25113937871513",
+                  "conf": 0.9998295903205872,
+                  "bbox": [
+                    79,
+                    458,
+                    190,
+                    473
+                  ]
+                },
+                {
+                  "text": "H6885420972",
+                  "conf": 0.9992967844009399,
+                  "bbox": [
+                    248,
+                    457,
+                    340,
+                    473
+                  ]
+                },
+                {
+                  "text": "HALL, KEVIN",
+                  "conf": 0.9604119658470154,
+                  "bbox": [
+                    364,
+                    457,
+                    445,
+                    473
+                  ]
+                },
+                {
+                  "text": "Professional",
+                  "conf": 0.9969978928565979,
+                  "bbox": [
+                    513,
+                    457,
+                    594,
+                    473
+                  ]
+                },
+                {
+                  "text": "PENDING REVIEW",
+                  "conf": 0.9807087182998657,
+                  "bbox": [
+                    622,
+                    458,
+                    739,
+                    473
+                  ]
+                },
+                {
+                  "text": "11/23/2025",
+                  "conf": 0.9991931915283203,
+                  "bbox": [
+                    792,
+                    457,
+                    867,
+                    473
+                  ]
+                },
+                {
+                  "text": "11/19/2025",
+                  "conf": 0.9991390109062195,
+                  "bbox": [
+                    907,
+                    457,
+                    982,
+                    473
+                  ]
+                },
+                {
+                  "text": "OKONKWO MD,ADAEZE",
+                  "conf": 0.9511190056800842,
+                  "bbox": [
+                    1022,
+                    456,
+                    1174,
+                    474
+                  ]
+                },
+                {
+                  "text": "$2,783.87",
+                  "conf": 0.9770910739898682,
+                  "bbox": [
+                    1235,
+                    453,
+                    1306,
+                    476
+                  ]
+                },
+                {
+                  "text": "$2,578.86",
+                  "conf": 0.9813533425331116,
+                  "bbox": [
+                    1360,
+                    453,
+                    1430,
+                    476
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 9,
+              "text": "9 25112704286948 H6881814298 KING,AMANDA Institutional PENDING REVIEW 11/01/2025 10/15/2025 PATELMD,RAJ KUMAR $1,254.27 $1,068.78",
+              "conf": 0.9754047610542991,
+              "bbox": [
+                34,
+                492,
+                1429,
+                514
+              ],
+              "words": [
+                {
+                  "text": "9",
+                  "conf": 0.9829506278038025,
+                  "bbox": [
+                    34,
+                    495,
+                    48,
+                    513
+                  ]
+                },
+                {
+                  "text": "25112704286948",
+                  "conf": 0.9997135400772095,
+                  "bbox": [
+                    79,
+                    497,
+                    190,
+                    512
+                  ]
+                },
+                {
+                  "text": "H6881814298",
+                  "conf": 0.9989807605743408,
+                  "bbox": [
+                    248,
+                    497,
+                    340,
+                    512
+                  ]
+                },
+                {
+                  "text": "KING,AMANDA",
+                  "conf": 0.9468540549278259,
+                  "bbox": [
+                    364,
+                    497,
+                    463,
+                    512
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.995150625705719,
+                  "bbox": [
+                    513,
+                    497,
+                    592,
+                    512
+                  ]
+                },
+                {
+                  "text": " PENDING REVIEW",
+                  "conf": 0.9591391086578369,
+                  "bbox": [
+                    622,
+                    497,
+                    739,
+                    512
+                  ]
+                },
+                {
+                  "text": "11/01/2025",
+                  "conf": 0.9993284344673157,
+                  "bbox": [
+                    791,
+                    497,
+                    866,
+                    512
+                  ]
+                },
+                {
+                  "text": "10/15/2025",
+                  "conf": 0.9993894696235657,
+                  "bbox": [
+                    907,
+                    495,
+                    982,
+                    512
+                  ]
+                },
+                {
+                  "text": "PATELMD,RAJ KUMAR",
+                  "conf": 0.9368475079536438,
+                  "bbox": [
+                    1022,
+                    497,
+                    1164,
+                    512
+                  ]
+                },
+                {
+                  "text": "$1,254.27",
+                  "conf": 0.9404735565185547,
+                  "bbox": [
+                    1235,
+                    492,
+                    1306,
+                    514
+                  ]
+                },
+                {
+                  "text": "$1,068.78",
+                  "conf": 0.9706246852874756,
+                  "bbox": [
+                    1363,
+                    497,
+                    1429,
+                    513
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 10,
+              "text": "10 25116264529867 H6885789861 CLARK,OLIVER Institutional APPROVED 11/10/2025 10/24/2025 CHEN MD,DAVID WEI $2,885.04 $1,855.32",
+              "conf": 0.9813031174919822,
+              "bbox": [
+                34,
+                531,
+                1429,
+                554
+              ],
+              "words": [
+                {
+                  "text": "10",
+                  "conf": 0.9977369904518127,
+                  "bbox": [
+                    34,
+                    533,
+                    57,
+                    552
+                  ]
+                },
+                {
+                  "text": "25116264529867",
+                  "conf": 0.9995831251144409,
+                  "bbox": [
+                    79,
+                    535,
+                    190,
+                    550
+                  ]
+                },
+                {
+                  "text": "H6885789861",
+                  "conf": 0.999049961566925,
+                  "bbox": [
+                    248,
+                    535,
+                    340,
+                    550
+                  ]
+                },
+                {
+                  "text": "CLARK,OLIVER",
+                  "conf": 0.9357826709747314,
+                  "bbox": [
+                    366,
+                    535,
+                    463,
+                    550
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9981043338775635,
+                  "bbox": [
+                    513,
+                    535,
+                    592,
+                    551
+                  ]
+                },
+                {
+                  "text": "APPROVED",
+                  "conf": 0.9961115121841431,
+                  "bbox": [
+                    622,
+                    535,
+                    697,
+                    550
+                  ]
+                },
+                {
+                  "text": "11/10/2025",
+                  "conf": 0.9992502331733704,
+                  "bbox": [
+                    790,
+                    531,
+                    869,
+                    554
+                  ]
+                },
+                {
+                  "text": "10/24/2025",
+                  "conf": 0.9992955327033997,
+                  "bbox": [
+                    907,
+                    534,
+                    982,
+                    550
+                  ]
+                },
+                {
+                  "text": "CHEN MD,DAVID WEI",
+                  "conf": 0.9083600044250488,
+                  "bbox": [
+                    1023,
+                    535,
+                    1159,
+                    550
+                  ]
+                },
+                {
+                  "text": "$2,885.04",
+                  "conf": 0.975358247756958,
+                  "bbox": [
+                    1236,
+                    531,
+                    1306,
+                    554
+                  ]
+                },
+                {
+                  "text": "$1,855.32",
+                  "conf": 0.9857016801834106,
+                  "bbox": [
+                    1363,
+                    535,
+                    1429,
+                    551
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 11,
+              "text": "11 25117563404309 H6885337993 TORRES,SAMUEL Institutional PENDING REVIEW 11/18/2025 11/12/2025 CHEN MD,DAVID WEI $2,319.10 $1,859.44",
+              "conf": 0.9780916300686923,
+              "bbox": [
+                34,
+                571,
+                1429,
+                591
+              ],
+              "words": [
+                {
+                  "text": "11",
+                  "conf": 0.9971194863319397,
+                  "bbox": [
+                    34,
+                    571,
+                    56,
+                    591
+                  ]
+                },
+                {
+                  "text": "25117563404309",
+                  "conf": 0.9991846084594727,
+                  "bbox": [
+                    79,
+                    573,
+                    191,
+                    588
+                  ]
+                },
+                {
+                  "text": "H6885337993",
+                  "conf": 0.9989122748374939,
+                  "bbox": [
+                    248,
+                    573,
+                    340,
+                    588
+                  ]
+                },
+                {
+                  "text": "TORRES,SAMUEL",
+                  "conf": 0.9787655472755432,
+                  "bbox": [
+                    366,
+                    573,
+                    478,
+                    588
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.995973527431488,
+                  "bbox": [
+                    513,
+                    573,
+                    592,
+                    590
+                  ]
+                },
+                {
+                  "text": " PENDING REVIEW",
+                  "conf": 0.9451548457145691,
+                  "bbox": [
+                    621,
+                    573,
+                    741,
+                    588
+                  ]
+                },
+                {
+                  "text": "11/18/2025",
+                  "conf": 0.998434841632843,
+                  "bbox": [
+                    792,
+                    573,
+                    867,
+                    590
+                  ]
+                },
+                {
+                  "text": "11/12/2025",
+                  "conf": 0.9993804097175598,
+                  "bbox": [
+                    906,
+                    571,
+                    983,
+                    591
+                  ]
+                },
+                {
+                  "text": "CHEN MD,DAVID WEI",
+                  "conf": 0.9056897163391113,
+                  "bbox": [
+                    1023,
+                    573,
+                    1159,
+                    588
+                  ]
+                },
+                {
+                  "text": "$2,319.10",
+                  "conf": 0.9828441143035889,
+                  "bbox": [
+                    1238,
+                    573,
+                    1304,
+                    590
+                  ]
+                },
+                {
+                  "text": "$1,859.44",
+                  "conf": 0.9575485587120056,
+                  "bbox": [
+                    1362,
+                    573,
+                    1429,
+                    590
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 12,
+              "text": "12 25110012661311 H6885369115 MILLER,TINA Professional PENDING REVIEW 11/04/2025 10/16/2025 FERNANDEZ MD,ISABEL $4,972.56 $4,623.65",
+              "conf": 0.9831982038237832,
+              "bbox": [
+                34,
+                611,
+                1430,
+                629
+              ],
+              "words": [
+                {
+                  "text": "12",
+                  "conf": 0.9987030029296875,
+                  "bbox": [
+                    34,
+                    611,
+                    56,
+                    629
+                  ]
+                },
+                {
+                  "text": "25110012661311",
+                  "conf": 0.9996752142906189,
+                  "bbox": [
+                    79,
+                    612,
+                    190,
+                    627
+                  ]
+                },
+                {
+                  "text": "H6885369115",
+                  "conf": 0.999198853969574,
+                  "bbox": [
+                    248,
+                    612,
+                    340,
+                    627
+                  ]
+                },
+                {
+                  "text": "MILLER,TINA",
+                  "conf": 0.958787202835083,
+                  "bbox": [
+                    364,
+                    612,
+                    450,
+                    628
+                  ]
+                },
+                {
+                  "text": "Professional",
+                  "conf": 0.9970795512199402,
+                  "bbox": [
+                    513,
+                    611,
+                    594,
+                    627
+                  ]
+                },
+                {
+                  "text": "PENDING REVIEW",
+                  "conf": 0.9771324992179871,
+                  "bbox": [
+                    622,
+                    614,
+                    738,
+                    626
+                  ]
+                },
+                {
+                  "text": "11/04/2025",
+                  "conf": 0.9995650053024292,
+                  "bbox": [
+                    792,
+                    612,
+                    867,
+                    628
+                  ]
+                },
+                {
+                  "text": "10/16/2025",
+                  "conf": 0.9995766878128052,
+                  "bbox": [
+                    907,
+                    612,
+                    982,
+                    628
+                  ]
+                },
+                {
+                  "text": "FERNANDEZ MD,ISABEL",
+                  "conf": 0.9469656944274902,
+                  "bbox": [
+                    1022,
+                    611,
+                    1175,
+                    626
+                  ]
+                },
+                {
+                  "text": "$4,972.56",
+                  "conf": 0.9714376926422119,
+                  "bbox": [
+                    1236,
+                    611,
+                    1303,
+                    627
+                  ]
+                },
+                {
+                  "text": "$4,623.65",
+                  "conf": 0.9670588374137878,
+                  "bbox": [
+                    1363,
+                    612,
+                    1430,
+                    628
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 13,
+              "text": "13 25114472156864 H6888942707 FLORES,PEARL Institutional APPROVED 11/08/2025 11/07/2025 NGUYEN MD,TRAN VAN $3,167.73 $2,028.19",
+              "conf": 0.9773642312396656,
+              "bbox": [
+                34,
+                646,
+                1431,
+                669
+              ],
+              "words": [
+                {
+                  "text": "13",
+                  "conf": 0.9983019828796387,
+                  "bbox": [
+                    34,
+                    648,
+                    56,
+                    668
+                  ]
+                },
+                {
+                  "text": "25114472156864",
+                  "conf": 0.9995885491371155,
+                  "bbox": [
+                    79,
+                    650,
+                    191,
+                    665
+                  ]
+                },
+                {
+                  "text": "H6888942707",
+                  "conf": 0.9600493907928467,
+                  "bbox": [
+                    248,
+                    650,
+                    340,
+                    665
+                  ]
+                },
+                {
+                  "text": "FLORES,PEARL",
+                  "conf": 0.9666164517402649,
+                  "bbox": [
+                    366,
+                    650,
+                    463,
+                    665
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9923357367515564,
+                  "bbox": [
+                    513,
+                    649,
+                    592,
+                    665
+                  ]
+                },
+                {
+                  "text": "APPROVED",
+                  "conf": 0.9958271980285645,
+                  "bbox": [
+                    622,
+                    650,
+                    697,
+                    666
+                  ]
+                },
+                {
+                  "text": "11/08/2025",
+                  "conf": 0.9990687370300293,
+                  "bbox": [
+                    792,
+                    650,
+                    867,
+                    666
+                  ]
+                },
+                {
+                  "text": "11/07/2025",
+                  "conf": 0.9987848997116089,
+                  "bbox": [
+                    907,
+                    650,
+                    982,
+                    666
+                  ]
+                },
+                {
+                  "text": "NGUYEN MD,TRAN VAN",
+                  "conf": 0.9239848256111145,
+                  "bbox": [
+                    1022,
+                    650,
+                    1173,
+                    665
+                  ]
+                },
+                {
+                  "text": "$3,167.73",
+                  "conf": 0.9660977125167847,
+                  "bbox": [
+                    1236,
+                    649,
+                    1303,
+                    665
+                  ]
+                },
+                {
+                  "text": "$2,028.19",
+                  "conf": 0.9503510594367981,
+                  "bbox": [
+                    1360,
+                    646,
+                    1431,
+                    669
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 14,
+              "text": "14 25116151162084 H6889601421 NGUYEN,KAREN Institutional PENDING REVIEW 11/16/2025 10/30/2025 CHEN MD.DAVID WEI $2,325.09 $2,203.99",
+              "conf": 0.9788771705193953,
+              "bbox": [
+                34,
+                685,
+                1430,
+                707
+              ],
+              "words": [
+                {
+                  "text": "14",
+                  "conf": 0.9985255599021912,
+                  "bbox": [
+                    34,
+                    687,
+                    57,
+                    706
+                  ]
+                },
+                {
+                  "text": "25116151162084",
+                  "conf": 0.999700665473938,
+                  "bbox": [
+                    79,
+                    690,
+                    191,
+                    705
+                  ]
+                },
+                {
+                  "text": "H6889601421",
+                  "conf": 0.9986042380332947,
+                  "bbox": [
+                    248,
+                    688,
+                    340,
+                    705
+                  ]
+                },
+                {
+                  "text": "NGUYEN,KAREN",
+                  "conf": 0.9530962109565735,
+                  "bbox": [
+                    364,
+                    688,
+                    471,
+                    705
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9969190955162048,
+                  "bbox": [
+                    513,
+                    688,
+                    592,
+                    705
+                  ]
+                },
+                {
+                  "text": " PENDING REVIEW",
+                  "conf": 0.9646593332290649,
+                  "bbox": [
+                    621,
+                    690,
+                    739,
+                    705
+                  ]
+                },
+                {
+                  "text": "11/16/2025",
+                  "conf": 0.9987597465515137,
+                  "bbox": [
+                    792,
+                    688,
+                    867,
+                    705
+                  ]
+                },
+                {
+                  "text": "10/30/2025",
+                  "conf": 0.999380886554718,
+                  "bbox": [
+                    907,
+                    688,
+                    982,
+                    705
+                  ]
+                },
+                {
+                  "text": "CHEN MD.DAVID WEI",
+                  "conf": 0.907345175743103,
+                  "bbox": [
+                    1022,
+                    687,
+                    1160,
+                    706
+                  ]
+                },
+                {
+                  "text": "$2,325.09",
+                  "conf": 0.9784464240074158,
+                  "bbox": [
+                    1235,
+                    685,
+                    1306,
+                    707
+                  ]
+                },
+                {
+                  "text": "$2,203.99",
+                  "conf": 0.9722115397453308,
+                  "bbox": [
+                    1362,
+                    687,
+                    1430,
+                    706
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 15,
+              "text": "15 25119150767241 H6881605108 LEWIS,QUENTIN Institutional APPROVED 11/18/2025 10/29/2025 CHUNG MD, CHRISTINE SUMI $3,737.26 $2,865.36",
+              "conf": 0.9829907417297363,
+              "bbox": [
+                34,
+                723,
+                1431,
+                746
+              ],
+              "words": [
+                {
+                  "text": "15",
+                  "conf": 0.9979811906814575,
+                  "bbox": [
+                    34,
+                    726,
+                    56,
+                    745
+                  ]
+                },
+                {
+                  "text": "25119150767241",
+                  "conf": 0.9996948838233948,
+                  "bbox": [
+                    79,
+                    728,
+                    190,
+                    743
+                  ]
+                },
+                {
+                  "text": "H6881605108",
+                  "conf": 0.9977135062217712,
+                  "bbox": [
+                    248,
+                    727,
+                    341,
+                    743
+                  ]
+                },
+                {
+                  "text": "LEWIS,QUENTIN",
+                  "conf": 0.9724063873291016,
+                  "bbox": [
+                    366,
+                    727,
+                    472,
+                    743
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9941243529319763,
+                  "bbox": [
+                    513,
+                    728,
+                    592,
+                    743
+                  ]
+                },
+                {
+                  "text": "APPROVED",
+                  "conf": 0.9959703683853149,
+                  "bbox": [
+                    622,
+                    728,
+                    697,
+                    743
+                  ]
+                },
+                {
+                  "text": "11/18/2025",
+                  "conf": 0.9981873631477356,
+                  "bbox": [
+                    792,
+                    727,
+                    867,
+                    743
+                  ]
+                },
+                {
+                  "text": "10/29/2025",
+                  "conf": 0.9989574551582336,
+                  "bbox": [
+                    907,
+                    727,
+                    982,
+                    743
+                  ]
+                },
+                {
+                  "text": "CHUNG MD, CHRISTINE SUMI",
+                  "conf": 0.9310707449913025,
+                  "bbox": [
+                    1023,
+                    728,
+                    1205,
+                    743
+                  ]
+                },
+                {
+                  "text": "$3,737.26",
+                  "conf": 0.9544522762298584,
+                  "bbox": [
+                    1235,
+                    723,
+                    1306,
+                    746
+                  ]
+                },
+                {
+                  "text": "$2,865.36",
+                  "conf": 0.9723396301269531,
+                  "bbox": [
+                    1360,
+                    723,
+                    1431,
+                    746
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 16,
+              "text": "16 25112106551646 H6883135291 LOPEZ,KAREN Professional PARTIAL APPROVAL 11/13/2025 11/01/2025 OKONKWO MD,ADAEZE $1,599.15 $1,443.21",
+              "conf": 0.9829802675680681,
+              "bbox": [
+                32,
+                762,
+                1429,
+                785
+              ],
+              "words": [
+                {
+                  "text": "16",
+                  "conf": 0.9966624975204468,
+                  "bbox": [
+                    32,
+                    762,
+                    58,
+                    785
+                  ]
+                },
+                {
+                  "text": "25112106551646",
+                  "conf": 0.9998720288276672,
+                  "bbox": [
+                    79,
+                    766,
+                    190,
+                    782
+                  ]
+                },
+                {
+                  "text": "H6883135291",
+                  "conf": 0.9996841549873352,
+                  "bbox": [
+                    248,
+                    766,
+                    340,
+                    782
+                  ]
+                },
+                {
+                  "text": "LOPEZ,KAREN",
+                  "conf": 0.9638926982879639,
+                  "bbox": [
+                    364,
+                    766,
+                    458,
+                    782
+                  ]
+                },
+                {
+                  "text": "Professional",
+                  "conf": 0.9954946041107178,
+                  "bbox": [
+                    513,
+                    766,
+                    594,
+                    781
+                  ]
+                },
+                {
+                  "text": "PARTIAL APPROVAL",
+                  "conf": 0.9950447082519531,
+                  "bbox": [
+                    622,
+                    766,
+                    751,
+                    782
+                  ]
+                },
+                {
+                  "text": "11/13/2025",
+                  "conf": 0.9987326860427856,
+                  "bbox": [
+                    792,
+                    766,
+                    867,
+                    782
+                  ]
+                },
+                {
+                  "text": "11/01/2025",
+                  "conf": 0.9992052316665649,
+                  "bbox": [
+                    907,
+                    765,
+                    982,
+                    782
+                  ]
+                },
+                {
+                  "text": "OKONKWO MD,ADAEZE",
+                  "conf": 0.9430580139160156,
+                  "bbox": [
+                    1023,
+                    766,
+                    1173,
+                    782
+                  ]
+                },
+                {
+                  "text": "$1,599.15",
+                  "conf": 0.9505491256713867,
+                  "bbox": [
+                    1237,
+                    764,
+                    1304,
+                    783
+                  ]
+                },
+                {
+                  "text": "$1,443.21",
+                  "conf": 0.9705871939659119,
+                  "bbox": [
+                    1363,
+                    766,
+                    1429,
+                    783
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 17,
+              "text": "17 25111734491590 H6886983129 HILL, ROSA Institutional PENDING REVIEW 11/02/2025 10/19/2025 CHUNG MD, CHRISTINE SUMI $1,629.90 $1,439.87",
+              "conf": 0.9839212027463046,
+              "bbox": [
+                34,
+                802,
+                1429,
+                822
+              ],
+              "words": [
+                {
+                  "text": "17",
+                  "conf": 0.9992737174034119,
+                  "bbox": [
+                    34,
+                    802,
+                    56,
+                    822
+                  ]
+                },
+                {
+                  "text": "25111734491590",
+                  "conf": 0.9997978806495667,
+                  "bbox": [
+                    79,
+                    805,
+                    190,
+                    820
+                  ]
+                },
+                {
+                  "text": "H6886983129",
+                  "conf": 0.9633045196533203,
+                  "bbox": [
+                    248,
+                    805,
+                    340,
+                    820
+                  ]
+                },
+                {
+                  "text": "HILL, ROSA",
+                  "conf": 0.9969371557235718,
+                  "bbox": [
+                    364,
+                    805,
+                    438,
+                    821
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9973637461662292,
+                  "bbox": [
+                    513,
+                    805,
+                    592,
+                    821
+                  ]
+                },
+                {
+                  "text": "PENDING REVIEW",
+                  "conf": 0.9810829162597656,
+                  "bbox": [
+                    622,
+                    805,
+                    738,
+                    820
+                  ]
+                },
+                {
+                  "text": "11/02/2025",
+                  "conf": 0.9996158480644226,
+                  "bbox": [
+                    792,
+                    805,
+                    867,
+                    821
+                  ]
+                },
+                {
+                  "text": "10/19/2025",
+                  "conf": 0.999653160572052,
+                  "bbox": [
+                    907,
+                    805,
+                    982,
+                    821
+                  ]
+                },
+                {
+                  "text": "CHUNG MD, CHRISTINE SUMI",
+                  "conf": 0.9329936504364014,
+                  "bbox": [
+                    1023,
+                    805,
+                    1205,
+                    820
+                  ]
+                },
+                {
+                  "text": "$1,629.90",
+                  "conf": 0.9749266505241394,
+                  "bbox": [
+                    1238,
+                    805,
+                    1304,
+                    821
+                  ]
+                },
+                {
+                  "text": "$1,439.87",
+                  "conf": 0.9781839847564697,
+                  "bbox": [
+                    1363,
+                    805,
+                    1429,
+                    821
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 18,
+              "text": "18 25113851703095 H6885734653 MILLER,THOMAS Institutional APPROVED 11/14/2025 11/01/2025 NGUYEN MD,TRAN VAN $1,812.57 $1,374.87",
+              "conf": 0.983641651543704,
+              "bbox": [
+                34,
+                842,
+                1429,
+                861
+              ],
+              "words": [
+                {
+                  "text": "18",
+                  "conf": 0.9984735250473022,
+                  "bbox": [
+                    34,
+                    842,
+                    57,
+                    861
+                  ]
+                },
+                {
+                  "text": "25113851703095",
+                  "conf": 0.9992951154708862,
+                  "bbox": [
+                    79,
+                    843,
+                    191,
+                    858
+                  ]
+                },
+                {
+                  "text": "H6885734653",
+                  "conf": 0.9989612102508545,
+                  "bbox": [
+                    248,
+                    843,
+                    340,
+                    858
+                  ]
+                },
+                {
+                  "text": "MILLER,THOMAS",
+                  "conf": 0.9754828810691833,
+                  "bbox": [
+                    366,
+                    843,
+                    475,
+                    858
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9960057139396667,
+                  "bbox": [
+                    513,
+                    843,
+                    592,
+                    859
+                  ]
+                },
+                {
+                  "text": "APPROVED",
+                  "conf": 0.9961448907852173,
+                  "bbox": [
+                    622,
+                    843,
+                    697,
+                    859
+                  ]
+                },
+                {
+                  "text": "11/14/2025",
+                  "conf": 0.9991667866706848,
+                  "bbox": [
+                    792,
+                    843,
+                    867,
+                    859
+                  ]
+                },
+                {
+                  "text": "11/01/2025",
+                  "conf": 0.9994010925292969,
+                  "bbox": [
+                    907,
+                    843,
+                    982,
+                    859
+                  ]
+                },
+                {
+                  "text": "NGUYEN MD,TRAN VAN",
+                  "conf": 0.9344031810760498,
+                  "bbox": [
+                    1022,
+                    843,
+                    1173,
+                    858
+                  ]
+                },
+                {
+                  "text": "$1,812.57",
+                  "conf": 0.9606383442878723,
+                  "bbox": [
+                    1239,
+                    843,
+                    1303,
+                    859
+                  ]
+                },
+                {
+                  "text": "$1,374.87",
+                  "conf": 0.9620854258537292,
+                  "bbox": [
+                    1363,
+                    843,
+                    1429,
+                    859
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            32,
+            152,
+            1431,
+            861
+          ],
+          "html": "<table><tr><th>#</th><th>Claim Number</th><th>Member ID</th><th>Member Name</th><th>Claim Type</th><th>Status</th><th>Date Received Service Date</th><th>Provider</th><th>Total Billed</th><th>Net Pay</th></tr><tr><td>1</td><td>25115366316743</td><td>H6881954663</td><td>FLORES, BRIAN</td><td>Professional</td><td>PENDING REVIEW</td><td>11/18/2025 11/06/2025</td><td>MARTINEZ MD, ANNA LUCIA</td><td>$3,015.49</td><td>$2,384.70</td></tr><tr><td>2</td><td>25117905347389</td><td>H6888550245</td><td>MILLER,JESSICA</td><td>Professional</td><td>PENDING REVIEW</td><td>11/07/2025 10/29/2025</td><td>HARRIS MD,MARCUS</td><td>$2,032.51</td><td>$1,243.12</td></tr><tr><td>3</td><td>25111276140353</td><td>H6888133229</td><td>TORRES,RICHARD</td><td>Institutional</td><td>PENDING REVIEW</td><td>11/20/2025 11/18/2025</td><td>OKONKWO MD,ADAEZE</td><td>$3,736.07</td><td>$3,205.61</td></tr><tr><td>4</td><td>25110570605030</td><td>H6886276126</td><td>JOHNSON,TINA</td><td>Professional</td><td>APPROVED</td><td>11/25/2025 11/24/2025</td><td>CHEN MD,DAVID WEI</td><td>$4,221.09</td><td>$2,699.84</td></tr><tr><td>5</td><td>25112774222276</td><td>H6887025194</td><td>MARTIN, CHARLES</td><td>Institutional</td><td>PARTIAL APPROVAL</td><td>11/23/2025 11/17/2025</td><td>CHEN MD,DAVID WEI</td><td>$3,976.89</td><td>$3,028.98</td></tr><tr><td>6</td><td>25113475167505</td><td>H6887015595</td><td>JOHNSON, THOMAS</td><td>Institutional</td><td>PARTIALAPPROVAL</td><td>11/26/2025 11/25/2025</td><td>CHEN MD,DAVID WEI</td><td>$2,405.87</td><td>$2,013.15</td></tr><tr><td>7</td><td>25115619144871</td><td>H6886320372</td><td>GREEN,HECTOR</td><td>Institutional</td><td>PARTIAL APPROVAL</td><td>11/03/2025 10/24/2025</td><td>CHEN MD,DAVID WE!</td><td>$2,324.95</td><td>$1,960.57</td></tr><tr><td>8</td><td>25113937871513</td><td>H6885420972</td><td>HALL, KEVIN</td><td>Professional</td><td>PENDING REVIEW</td><td>11/23/2025 11/19/2025</td><td>OKONKWO MD,ADAEZE</td><td>$2,783.87</td><td>$2,578.86</td></tr><tr><td>9</td><td>25112704286948</td><td>H6881814298</td><td>KING,AMANDA</td><td>Institutional</td><td>PENDING REVIEW</td><td>11/01/2025 10/15/2025</td><td>PATELMD,RAJ KUMAR</td><td>$1,254.27</td><td>$1,068.78</td></tr><tr><td>10</td><td>25116264529867</td><td>H6885789861</td><td>CLARK,OLIVER</td><td>Institutional</td><td>APPROVED</td><td>11/10/2025 10/24/2025</td><td>CHEN MD,DAVID WEI</td><td>$2,885.04</td><td>$1,855.32</td></tr><tr><td>11</td><td>25117563404309</td><td>H6885337993</td><td>TORRES,SAMUEL</td><td>Institutional</td><td>PENDING REVIEW</td><td>11/18/2025 11/12/2025</td><td>CHEN MD,DAVID WEI</td><td>$2,319.10</td><td>$1,859.44</td></tr><tr><td>12</td><td>25110012661311</td><td>H6885369115</td><td>MILLER,TINA</td><td>Professional</td><td>PENDING REVIEW</td><td>11/04/2025 10/16/2025</td><td>FERNANDEZ MD,ISABEL</td><td>$4,972.56</td><td>$4,623.65</td></tr><tr><td>13</td><td>25114472156864</td><td>H6888942707</td><td>FLORES,PEARL</td><td>Institutional</td><td>APPROVED</td><td>11/08/2025 11/07/2025</td><td>NGUYEN MD,TRAN VAN</td><td>$3,167.73</td><td>$2,028.19</td></tr><tr><td>14</td><td>25116151162084</td><td>H6889601421</td><td>NGUYEN,KAREN</td><td>Institutional</td><td>PENDING REVIEW</td><td>11/16/2025 10/30/2025</td><td>CHEN MD.DAVID WEI</td><td>$2,325.09</td><td>$2,203.99</td></tr><tr><td>15</td><td>25119150767241</td><td>H6881605108</td><td>LEWIS,QUENTIN</td><td>Institutional</td><td>APPROVED</td><td>11/18/2025 10/29/2025</td><td>CHUNG MD, CHRISTINE SUMI</td><td>$3,737.26</td><td>$2,865.36</td></tr><tr><td>16</td><td>25112106551646</td><td>H6883135291</td><td>LOPEZ,KAREN</td><td>Professional</td><td>PARTIAL APPROVAL</td><td>11/13/2025 11/01/2025</td><td>OKONKWO MD,ADAEZE</td><td>$1,599.15</td><td>$1,443.21</td></tr><tr><td>17</td><td>25111734491590</td><td>H6886983129</td><td>HILL, ROSA</td><td>Institutional</td><td>PENDING REVIEW</td><td>11/02/2025 10/19/2025</td><td>CHUNG MD, CHRISTINE SUMI</td><td>$1,629.90</td><td>$1,439.87</td></tr><tr><td>18</td><td>25113851703095</td><td>H6885734653</td><td>MILLER,THOMAS</td><td>Institutional</td><td>APPROVED</td><td>11/14/2025 11/01/2025</td><td>NGUYEN MD,TRAN VAN</td><td>$1,812.57</td><td>$1,374.87</td></tr></table>",
+          "text": "1 | 25115366316743 | H6881954663 | FLORES, BRIAN | Professional | PENDING REVIEW | 11/18/2025 11/06/2025 | MARTINEZ MD, ANNA LUCIA | $3,015.49 | $2,384.70\n2 | 25117905347389 | H6888550245 | MILLER,JESSICA | Professional | PENDING REVIEW | 11/07/2025 10/29/2025 | HARRIS MD,MARCUS | $2,032.51 | $1,243.12\n3 | 25111276140353 | H6888133229 | TORRES,RICHARD | Institutional | PENDING REVIEW | 11/20/2025 11/18/2025 | OKONKWO MD,ADAEZE | $3,736.07 | $3,205.61\n4 | 25110570605030 | H6886276126 | JOHNSON,TINA | Professional | APPROVED | 11/25/2025 11/24/2025 | CHEN MD,DAVID WEI | $4,221.09 | $2,699.84\n5 | 25112774222276 | H6887025194 | MARTIN, CHARLES | Institutional | PARTIAL APPROVAL | 11/23/2025 11/17/2025 | CHEN MD,DAVID WEI | $3,976.89 | $3,028.98\n6 | 25113475167505 | H6887015595 | JOHNSON, THOMAS | Institutional | PARTIALAPPROVAL | 11/26/2025 11/25/2025 | CHEN MD,DAVID WEI | $2,405.87 | $2,013.15\n7 | 25115619144871 | H6886320372 | GREEN,HECTOR | Institutional | PARTIAL APPROVAL | 11/03/2025 10/24/2025 | CHEN MD,DAVID WE! | $2,324.95 | $1,960.57\n8 | 25113937871513 | H6885420972 | HALL, KEVIN | Professional | PENDING REVIEW | 11/23/2025 11/19/2025 | OKONKWO MD,ADAEZE | $2,783.87 | $2,578.86\n9 | 25112704286948 | H6881814298 | KING,AMANDA | Institutional | PENDING REVIEW | 11/01/2025 10/15/2025 | PATELMD,RAJ KUMAR | $1,254.27 | $1,068.78\n10 | 25116264529867 | H6885789861 | CLARK,OLIVER | Institutional | APPROVED | 11/10/2025 10/24/2025 | CHEN MD,DAVID WEI | $2,885.04 | $1,855.32\n11 | 25117563404309 | H6885337993 | TORRES,SAMUEL | Institutional | PENDING REVIEW | 11/18/2025 11/12/2025 | CHEN MD,DAVID WEI | $2,319.10 | $1,859.44\n12 | 25110012661311 | H6885369115 | MILLER,TINA | Professional | PENDING REVIEW | 11/04/2025 10/16/2025 | FERNANDEZ MD,ISABEL | $4,972.56 | $4,623.65\n13 | 25114472156864 | H6888942707 | FLORES,PEARL | Institutional | APPROVED | 11/08/2025 11/07/2025 | NGUYEN MD,TRAN VAN | $3,167.73 | $2,028.19\n14 | 25116151162084 | H6889601421 | NGUYEN,KAREN | Institutional | PENDING REVIEW | 11/16/2025 10/30/2025 | CHEN MD.DAVID WEI | $2,325.09 | $2,203.99\n15 | 25119150767241 | H6881605108 | LEWIS,QUENTIN | Institutional | APPROVED | 11/18/2025 10/29/2025 | CHUNG MD, CHRISTINE SUMI | $3,737.26 | $2,865.36\n16 | 25112106551646 | H6883135291 | LOPEZ,KAREN | Professional | PARTIAL APPROVAL | 11/13/2025 11/01/2025 | OKONKWO MD,ADAEZE | $1,599.15 | $1,443.21\n17 | 25111734491590 | H6886983129 | HILL, ROSA | Institutional | PENDING REVIEW | 11/02/2025 10/19/2025 | CHUNG MD, CHRISTINE SUMI | $1,629.90 | $1,439.87\n18 | 25113851703095 | H6885734653 | MILLER,THOMAS | Institutional | APPROVED | 11/14/2025 11/01/2025 | NGUYEN MD,TRAN VAN | $1,812.57 | $1,374.87",
+          "headers": [
+            "#",
+            "Claim Number",
+            "Member ID",
+            "Member Name",
+            "Claim Type",
+            "Status",
+            "Date Received Service Date",
+            "Provider",
+            "Total Billed",
+            "Net Pay"
+          ],
+          "rows": [
+            [
+              "1",
+              "25115366316743",
+              "H6881954663",
+              "FLORES, BRIAN",
+              "Professional",
+              "PENDING REVIEW",
+              "11/18/2025 11/06/2025",
+              "MARTINEZ MD, ANNA LUCIA",
+              "$3,015.49",
+              "$2,384.70"
+            ],
+            [
+              "2",
+              "25117905347389",
+              "H6888550245",
+              "MILLER,JESSICA",
+              "Professional",
+              "PENDING REVIEW",
+              "11/07/2025 10/29/2025",
+              "HARRIS MD,MARCUS",
+              "$2,032.51",
+              "$1,243.12"
+            ],
+            [
+              "3",
+              "25111276140353",
+              "H6888133229",
+              "TORRES,RICHARD",
+              "Institutional",
+              "PENDING REVIEW",
+              "11/20/2025 11/18/2025",
+              "OKONKWO MD,ADAEZE",
+              "$3,736.07",
+              "$3,205.61"
+            ],
+            [
+              "4",
+              "25110570605030",
+              "H6886276126",
+              "JOHNSON,TINA",
+              "Professional",
+              "APPROVED",
+              "11/25/2025 11/24/2025",
+              "CHEN MD,DAVID WEI",
+              "$4,221.09",
+              "$2,699.84"
+            ],
+            [
+              "5",
+              "25112774222276",
+              "H6887025194",
+              "MARTIN, CHARLES",
+              "Institutional",
+              "PARTIAL APPROVAL",
+              "11/23/2025 11/17/2025",
+              "CHEN MD,DAVID WEI",
+              "$3,976.89",
+              "$3,028.98"
+            ],
+            [
+              "6",
+              "25113475167505",
+              "H6887015595",
+              "JOHNSON, THOMAS",
+              "Institutional",
+              "PARTIALAPPROVAL",
+              "11/26/2025 11/25/2025",
+              "CHEN MD,DAVID WEI",
+              "$2,405.87",
+              "$2,013.15"
+            ],
+            [
+              "7",
+              "25115619144871",
+              "H6886320372",
+              "GREEN,HECTOR",
+              "Institutional",
+              "PARTIAL APPROVAL",
+              "11/03/2025 10/24/2025",
+              "CHEN MD,DAVID WE!",
+              "$2,324.95",
+              "$1,960.57"
+            ],
+            [
+              "8",
+              "25113937871513",
+              "H6885420972",
+              "HALL, KEVIN",
+              "Professional",
+              "PENDING REVIEW",
+              "11/23/2025 11/19/2025",
+              "OKONKWO MD,ADAEZE",
+              "$2,783.87",
+              "$2,578.86"
+            ],
+            [
+              "9",
+              "25112704286948",
+              "H6881814298",
+              "KING,AMANDA",
+              "Institutional",
+              "PENDING REVIEW",
+              "11/01/2025 10/15/2025",
+              "PATELMD,RAJ KUMAR",
+              "$1,254.27",
+              "$1,068.78"
+            ],
+            [
+              "10",
+              "25116264529867",
+              "H6885789861",
+              "CLARK,OLIVER",
+              "Institutional",
+              "APPROVED",
+              "11/10/2025 10/24/2025",
+              "CHEN MD,DAVID WEI",
+              "$2,885.04",
+              "$1,855.32"
+            ],
+            [
+              "11",
+              "25117563404309",
+              "H6885337993",
+              "TORRES,SAMUEL",
+              "Institutional",
+              "PENDING REVIEW",
+              "11/18/2025 11/12/2025",
+              "CHEN MD,DAVID WEI",
+              "$2,319.10",
+              "$1,859.44"
+            ],
+            [
+              "12",
+              "25110012661311",
+              "H6885369115",
+              "MILLER,TINA",
+              "Professional",
+              "PENDING REVIEW",
+              "11/04/2025 10/16/2025",
+              "FERNANDEZ MD,ISABEL",
+              "$4,972.56",
+              "$4,623.65"
+            ],
+            [
+              "13",
+              "25114472156864",
+              "H6888942707",
+              "FLORES,PEARL",
+              "Institutional",
+              "APPROVED",
+              "11/08/2025 11/07/2025",
+              "NGUYEN MD,TRAN VAN",
+              "$3,167.73",
+              "$2,028.19"
+            ],
+            [
+              "14",
+              "25116151162084",
+              "H6889601421",
+              "NGUYEN,KAREN",
+              "Institutional",
+              "PENDING REVIEW",
+              "11/16/2025 10/30/2025",
+              "CHEN MD.DAVID WEI",
+              "$2,325.09",
+              "$2,203.99"
+            ],
+            [
+              "15",
+              "25119150767241",
+              "H6881605108",
+              "LEWIS,QUENTIN",
+              "Institutional",
+              "APPROVED",
+              "11/18/2025 10/29/2025",
+              "CHUNG MD, CHRISTINE SUMI",
+              "$3,737.26",
+              "$2,865.36"
+            ],
+            [
+              "16",
+              "25112106551646",
+              "H6883135291",
+              "LOPEZ,KAREN",
+              "Professional",
+              "PARTIAL APPROVAL",
+              "11/13/2025 11/01/2025",
+              "OKONKWO MD,ADAEZE",
+              "$1,599.15",
+              "$1,443.21"
+            ],
+            [
+              "17",
+              "25111734491590",
+              "H6886983129",
+              "HILL, ROSA",
+              "Institutional",
+              "PENDING REVIEW",
+              "11/02/2025 10/19/2025",
+              "CHUNG MD, CHRISTINE SUMI",
+              "$1,629.90",
+              "$1,439.87"
+            ],
+            [
+              "18",
+              "25113851703095",
+              "H6885734653",
+              "MILLER,THOMAS",
+              "Institutional",
+              "APPROVED",
+              "11/14/2025 11/01/2025",
+              "NGUYEN MD,TRAN VAN",
+              "$1,812.57",
+              "$1,374.87"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Curamind Claims Management Sarah Johnson PROC001 Logout",
+          "conf": 0.9851073861122132,
+          "bbox": [
+            27,
+            8,
+            1405,
+            42
+          ],
+          "words": [
+            {
+              "text": "Curamind",
+              "conf": 0.9996038675308228,
+              "bbox": [
+                27,
+                16,
+                127,
+                33
+              ]
+            },
+            {
+              "text": "Claims Management",
+              "conf": 0.9972647428512573,
+              "bbox": [
+                143,
+                17,
+                297,
+                35
+              ]
+            },
+            {
+              "text": "Sarah Johnson",
+              "conf": 0.9976412057876587,
+              "bbox": [
+                1154,
+                8,
+                1208,
+                42
+              ]
+            },
+            {
+              "text": "PROC001",
+              "conf": 0.9312223792076111,
+              "bbox": [
+                1239,
+                16,
+                1304,
+                31
+              ]
+            },
+            {
+              "text": "Logout",
+              "conf": 0.9998047351837158,
+              "bbox": [
+                1354,
+                19,
+                1405,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor:Sarah Johnson (PRoco01) | Email: s.johnson@curamind.com Queue:18 claims",
+          "conf": 0.9327996174494425,
+          "bbox": [
+            32,
+            76,
+            732,
+            93
+          ],
+          "words": [
+            {
+              "text": "Processor:Sarah Johnson (PRoco01)",
+              "conf": 0.9169874787330627,
+              "bbox": [
+                32,
+                76,
+                289,
+                93
+              ]
+            },
+            {
+              "text": "| Email: s.johnson@curamind.com",
+              "conf": 0.9342544078826904,
+              "bbox": [
+                320,
+                78,
+                564,
+                93
+              ]
+            },
+            {
+              "text": "Queue:18 claims",
+              "conf": 0.9471569657325745,
+              "bbox": [
+                598,
+                78,
+                732,
+                93
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claims Management System",
+          "conf": 0.999504566192627,
+          "bbox": [
+            34,
+            106,
+            400,
+            131
+          ],
+          "words": [
+            {
+              "text": "Claims Management System",
+              "conf": 0.999504566192627,
+              "bbox": [
+                34,
+                106,
+                400,
+                131
+              ]
+            }
+          ]
+        },
+        {
+          "text": "# Claim Number Member ID Member Name Claim Type Status Date Received Service Date Provider Total Billed Net Pay",
+          "conf": 0.9766617634079673,
+          "bbox": [
+            35,
+            152,
+            1421,
+            175
+          ],
+          "words": [
+            {
+              "text": "#",
+              "conf": 0.998241662979126,
+              "bbox": [
+                35,
+                156,
+                50,
+                173
+              ]
+            },
+            {
+              "text": "Claim Number",
+              "conf": 0.9708934426307678,
+              "bbox": [
+                79,
+                157,
+                182,
+                172
+              ]
+            },
+            {
+              "text": "Member ID",
+              "conf": 0.9561576843261719,
+              "bbox": [
+                248,
+                156,
+                328,
+                172
+              ]
+            },
+            {
+              "text": "Member Name",
+              "conf": 0.9751120209693909,
+              "bbox": [
+                364,
+                157,
+                470,
+                172
+              ]
+            },
+            {
+              "text": "Claim Type",
+              "conf": 0.9773386120796204,
+              "bbox": [
+                516,
+                157,
+                594,
+                173
+              ]
+            },
+            {
+              "text": "Status",
+              "conf": 0.9969550967216492,
+              "bbox": [
+                613,
+                157,
+                662,
+                173
+              ]
+            },
+            {
+              "text": "Date Received",
+              "conf": 0.9665785431861877,
+              "bbox": [
+                792,
+                155,
+                908,
+                172
+              ]
+            },
+            {
+              "text": "Service Date",
+              "conf": 0.9719647765159607,
+              "bbox": [
+                906,
+                157,
+                998,
+                172
+              ]
+            },
+            {
+              "text": "Provider",
+              "conf": 0.9977242350578308,
+              "bbox": [
+                1022,
+                156,
+                1085,
+                172
+              ]
+            },
+            {
+              "text": "Total Billed",
+              "conf": 0.9668049216270447,
+              "bbox": [
+                1238,
+                156,
+                1320,
+                172
+              ]
+            },
+            {
+              "text": "Net Pay",
+              "conf": 0.9655084013938904,
+              "bbox": [
+                1359,
+                152,
+                1421,
+                175
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1 25115366316743 H6881954663 FLORES, BRIAN Professional PENDING REVIEW 11/18/2025 11/06/2025 MARTINEZ MD, ANNA LUCIA $3,015.49 $2,384.70",
+          "conf": 0.9796118844639171,
+          "bbox": [
+            34,
+            183,
+            1431,
+            206
+          ],
+          "words": [
+            {
+              "text": "1",
+              "conf": 0.9991863369941711,
+              "bbox": [
+                34,
+                186,
+                48,
+                205
+              ]
+            },
+            {
+              "text": "25115366316743",
+              "conf": 0.9998784065246582,
+              "bbox": [
+                79,
+                188,
+                191,
+                204
+              ]
+            },
+            {
+              "text": "H6881954663",
+              "conf": 0.9984027743339539,
+              "bbox": [
+                248,
+                187,
+                340,
+                204
+              ]
+            },
+            {
+              "text": "FLORES, BRIAN",
+              "conf": 0.9361993074417114,
+              "bbox": [
+                366,
+                187,
+                463,
+                204
+              ]
+            },
+            {
+              "text": "Professional",
+              "conf": 0.9975036978721619,
+              "bbox": [
+                514,
+                187,
+                593,
+                204
+              ]
+            },
+            {
+              "text": "PENDING REVIEW",
+              "conf": 0.982466995716095,
+              "bbox": [
+                622,
+                188,
+                738,
+                204
+              ]
+            },
+            {
+              "text": "11/18/2025",
+              "conf": 0.9988595247268677,
+              "bbox": [
+                792,
+                187,
+                867,
+                204
+              ]
+            },
+            {
+              "text": "11/06/2025",
+              "conf": 0.9989694356918335,
+              "bbox": [
+                907,
+                187,
+                982,
+                204
+              ]
+            },
+            {
+              "text": "MARTINEZ MD, ANNA LUCIA",
+              "conf": 0.9251309037208557,
+              "bbox": [
+                1022,
+                187,
+                1196,
+                202
+              ]
+            },
+            {
+              "text": "$3,015.49",
+              "conf": 0.9691898822784424,
+              "bbox": [
+                1238,
+                187,
+                1304,
+                204
+              ]
+            },
+            {
+              "text": "$2,384.70",
+              "conf": 0.9699434638023376,
+              "bbox": [
+                1360,
+                183,
+                1431,
+                206
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2 25117905347389 H6888550245 MILLER,JESSICA Professional PENDING REVIEW 11/07/2025 10/29/2025 HARRIS MD,MARCUS $2,032.51 $1,243.12",
+          "conf": 0.9819812883030284,
+          "bbox": [
+            34,
+            224,
+            1429,
+            243
+          ],
+          "words": [
+            {
+              "text": "2",
+              "conf": 0.9983007311820984,
+              "bbox": [
+                34,
+                224,
+                48,
+                243
+              ]
+            },
+            {
+              "text": "25117905347389",
+              "conf": 0.9997172355651855,
+              "bbox": [
+                79,
+                227,
+                190,
+                242
+              ]
+            },
+            {
+              "text": "H6888550245",
+              "conf": 0.9993816018104553,
+              "bbox": [
+                248,
+                226,
+                340,
+                242
+              ]
+            },
+            {
+              "text": "MILLER,JESSICA",
+              "conf": 0.9697628021240234,
+              "bbox": [
+                364,
+                227,
+                469,
+                242
+              ]
+            },
+            {
+              "text": "Professional",
+              "conf": 0.995811402797699,
+              "bbox": [
+                513,
+                227,
+                594,
+                242
+              ]
+            },
+            {
+              "text": "PENDING REVIEW",
+              "conf": 0.978670597076416,
+              "bbox": [
+                622,
+                227,
+                741,
+                242
+              ]
+            },
+            {
+              "text": "11/07/2025",
+              "conf": 0.9987945556640625,
+              "bbox": [
+                791,
+                226,
+                866,
+                242
+              ]
+            },
+            {
+              "text": "10/29/2025",
+              "conf": 0.9989346265792847,
+              "bbox": [
+                907,
+                226,
+                982,
+                242
+              ]
+            },
+            {
+              "text": "HARRIS MD,MARCUS",
+              "conf": 0.9399163722991943,
+              "bbox": [
+                1021,
+                227,
+                1157,
+                242
+              ]
+            },
+            {
+              "text": "$2,032.51",
+              "conf": 0.9578354358673096,
+              "bbox": [
+                1236,
+                224,
+                1304,
+                243
+              ]
+            },
+            {
+              "text": "$1,243.12",
+              "conf": 0.9646688103675842,
+              "bbox": [
+                1363,
+                227,
+                1429,
+                243
+              ]
+            }
+          ]
+        },
+        {
+          "text": "3 25111276140353 H6888133229 TORRES,RICHARD Institutional PENDING REVIEW 11/20/2025 11/18/2025 OKONKWO MD,ADAEZE $3,736.07 $3,205.61",
+          "conf": 0.9825160232457247,
+          "bbox": [
+            34,
+            260,
+            1429,
+            283
+          ],
+          "words": [
+            {
+              "text": "3",
+              "conf": 0.9989816546440125,
+              "bbox": [
+                34,
+                264,
+                49,
+                283
+              ]
+            },
+            {
+              "text": "25111276140353",
+              "conf": 0.9997535347938538,
+              "bbox": [
+                79,
+                265,
+                191,
+                280
+              ]
+            },
+            {
+              "text": "H6888133229",
+              "conf": 0.9994468688964844,
+              "bbox": [
+                248,
+                264,
+                340,
+                280
+              ]
+            },
+            {
+              "text": "TORRES,RICHARD",
+              "conf": 0.9780758023262024,
+              "bbox": [
+                366,
+                265,
+                483,
+                280
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9959737062454224,
+              "bbox": [
+                513,
+                265,
+                592,
+                280
+              ]
+            },
+            {
+              "text": "PENDING REVIEW",
+              "conf": 0.9813328981399536,
+              "bbox": [
+                622,
+                265,
+                739,
+                280
+              ]
+            },
+            {
+              "text": "11/20/2025",
+              "conf": 0.9992669820785522,
+              "bbox": [
+                792,
+                264,
+                867,
+                280
+              ]
+            },
+            {
+              "text": "11/18/2025",
+              "conf": 0.9991738200187683,
+              "bbox": [
+                907,
+                264,
+                982,
+                280
+              ]
+            },
+            {
+              "text": "OKONKWO MD,ADAEZE",
+              "conf": 0.9411120414733887,
+              "bbox": [
+                1022,
+                263,
+                1173,
+                280
+              ]
+            },
+            {
+              "text": "$3,736.07",
+              "conf": 0.9525637030601501,
+              "bbox": [
+                1235,
+                260,
+                1306,
+                283
+              ]
+            },
+            {
+              "text": "$3,205.61",
+              "conf": 0.9619952440261841,
+              "bbox": [
+                1363,
+                265,
+                1429,
+                281
+              ]
+            }
+          ]
+        },
+        {
+          "text": "4 25110570605030 H6886276126 JOHNSON,TINA Professional APPROVED 11/25/2025 11/24/2025 CHEN MD,DAVID WEI $4,221.09 $2,699.84",
+          "conf": 0.9815168597481467,
+          "bbox": [
+            34,
+            299,
+            1431,
+            322
+          ],
+          "words": [
+            {
+              "text": "4",
+              "conf": 0.99850994348526,
+              "bbox": [
+                34,
+                302,
+                49,
+                320
+              ]
+            },
+            {
+              "text": "25110570605030",
+              "conf": 0.999549388885498,
+              "bbox": [
+                79,
+                304,
+                191,
+                319
+              ]
+            },
+            {
+              "text": "H6886276126",
+              "conf": 0.9991680383682251,
+              "bbox": [
+                248,
+                304,
+                341,
+                319
+              ]
+            },
+            {
+              "text": "JOHNSON,TINA",
+              "conf": 0.9681577086448669,
+              "bbox": [
+                364,
+                304,
+                465,
+                320
+              ]
+            },
+            {
+              "text": "Professional",
+              "conf": 0.9973462224006653,
+              "bbox": [
+                512,
+                299,
+                596,
+                321
+              ]
+            },
+            {
+              "text": "APPROVED",
+              "conf": 0.9964600205421448,
+              "bbox": [
+                622,
+                304,
+                697,
+                320
+              ]
+            },
+            {
+              "text": "11/25/2025",
+              "conf": 0.9993950128555298,
+              "bbox": [
+                791,
+                301,
+                868,
+                321
+              ]
+            },
+            {
+              "text": "11/24/2025",
+              "conf": 0.9985443353652954,
+              "bbox": [
+                907,
+                302,
+                982,
+                319
+              ]
+            },
+            {
+              "text": "CHEN MD,DAVID WEI",
+              "conf": 0.9117782115936279,
+              "bbox": [
+                1023,
+                304,
+                1159,
+                319
+              ]
+            },
+            {
+              "text": "$4,221.09",
+              "conf": 0.9500681757926941,
+              "bbox": [
+                1236,
+                301,
+                1305,
+                321
+              ]
+            },
+            {
+              "text": "$2,699.84",
+              "conf": 0.9777083992958069,
+              "bbox": [
+                1362,
+                302,
+                1431,
+                322
+              ]
+            }
+          ]
+        },
+        {
+          "text": "5 25112774222276 H6887025194 MARTIN, CHARLES Institutional PARTIAL APPROVAL 11/23/2025 11/17/2025 CHEN MD,DAVID WEI $3,976.89 $3,028.98",
+          "conf": 0.9712553837082603,
+          "bbox": [
+            34,
+            341,
+            1431,
+            361
+          ],
+          "words": [
+            {
+              "text": "5",
+              "conf": 0.9991223216056824,
+              "bbox": [
+                34,
+                341,
+                48,
+                359
+              ]
+            },
+            {
+              "text": "25112774222276",
+              "conf": 0.9998087882995605,
+              "bbox": [
+                79,
+                342,
+                191,
+                357
+              ]
+            },
+            {
+              "text": "H6887025194",
+              "conf": 0.9986667037010193,
+              "bbox": [
+                248,
+                342,
+                341,
+                357
+              ]
+            },
+            {
+              "text": "MARTIN, CHARLES",
+              "conf": 0.9514685869216919,
+              "bbox": [
+                364,
+                342,
+                482,
+                357
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9974632859230042,
+              "bbox": [
+                513,
+                342,
+                592,
+                358
+              ]
+            },
+            {
+              "text": " PARTIAL APPROVAL",
+              "conf": 0.9617936611175537,
+              "bbox": [
+                622,
+                342,
+                751,
+                357
+              ]
+            },
+            {
+              "text": "11/23/2025",
+              "conf": 0.9993547201156616,
+              "bbox": [
+                792,
+                342,
+                867,
+                358
+              ]
+            },
+            {
+              "text": "11/17/2025",
+              "conf": 0.9995095133781433,
+              "bbox": [
+                907,
+                342,
+                981,
+                358
+              ]
+            },
+            {
+              "text": "CHEN MD,DAVID WEI",
+              "conf": 0.9092783331871033,
+              "bbox": [
+                1023,
+                342,
+                1159,
+                357
+              ]
+            },
+            {
+              "text": "$3,976.89",
+              "conf": 0.9202920198440552,
+              "bbox": [
+                1236,
+                341,
+                1303,
+                357
+              ]
+            },
+            {
+              "text": "$3,028.98",
+              "conf": 0.9470512866973877,
+              "bbox": [
+                1362,
+                341,
+                1431,
+                361
+              ]
+            }
+          ]
+        },
+        {
+          "text": "6 25113475167505 H6887015595 JOHNSON, THOMAS Institutional PARTIALAPPROVAL 11/26/2025 11/25/2025 CHEN MD,DAVID WEI $2,405.87 $2,013.15",
+          "conf": 0.9817007617516951,
+          "bbox": [
+            35,
+            378,
+            1429,
+            398
+          ],
+          "words": [
+            {
+              "text": "6",
+              "conf": 0.994134247303009,
+              "bbox": [
+                35,
+                379,
+                49,
+                398
+              ]
+            },
+            {
+              "text": "25113475167505",
+              "conf": 0.994640052318573,
+              "bbox": [
+                79,
+                380,
+                190,
+                395
+              ]
+            },
+            {
+              "text": "H6887015595",
+              "conf": 0.9980703592300415,
+              "bbox": [
+                248,
+                380,
+                340,
+                395
+              ]
+            },
+            {
+              "text": "JOHNSON, THOMAS",
+              "conf": 0.9672711491584778,
+              "bbox": [
+                363,
+                379,
+                490,
+                398
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9959399700164795,
+              "bbox": [
+                513,
+                380,
+                592,
+                397
+              ]
+            },
+            {
+              "text": "PARTIALAPPROVAL",
+              "conf": 0.9924636483192444,
+              "bbox": [
+                623,
+                383,
+                750,
+                394
+              ]
+            },
+            {
+              "text": "11/26/2025",
+              "conf": 0.9979833364486694,
+              "bbox": [
+                792,
+                379,
+                867,
+                395
+              ]
+            },
+            {
+              "text": "11/25/2025",
+              "conf": 0.9988633394241333,
+              "bbox": [
+                907,
+                379,
+                982,
+                395
+              ]
+            },
+            {
+              "text": "CHEN MD,DAVID WEI",
+              "conf": 0.9071276783943176,
+              "bbox": [
+                1023,
+                380,
+                1159,
+                395
+              ]
+            },
+            {
+              "text": "$2,405.87",
+              "conf": 0.9716074466705322,
+              "bbox": [
+                1236,
+                378,
+                1305,
+                398
+              ]
+            },
+            {
+              "text": "$2,013.15",
+              "conf": 0.9806071519851685,
+              "bbox": [
+                1363,
+                380,
+                1429,
+                397
+              ]
+            }
+          ]
+        },
+        {
+          "text": "7 25115619144871 H6886320372 GREEN,HECTOR Institutional PARTIAL APPROVAL 11/03/2025 10/24/2025 CHEN MD,DAVID WE! $2,324.95 $1,960.57",
+          "conf": 0.9765494411641901,
+          "bbox": [
+            32,
+            416,
+            1430,
+            437
+          ],
+          "words": [
+            {
+              "text": "7",
+              "conf": 0.989150881767273,
+              "bbox": [
+                32,
+                416,
+                51,
+                437
+              ]
+            },
+            {
+              "text": "25115619144871",
+              "conf": 0.9997673034667969,
+              "bbox": [
+                79,
+                420,
+                190,
+                435
+              ]
+            },
+            {
+              "text": "H6886320372",
+              "conf": 0.9922999739646912,
+              "bbox": [
+                248,
+                420,
+                340,
+                435
+              ]
+            },
+            {
+              "text": "GREEN,HECTOR",
+              "conf": 0.9772924780845642,
+              "bbox": [
+                366,
+                420,
+                471,
+                435
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9963927865028381,
+              "bbox": [
+                513,
+                420,
+                592,
+                435
+              ]
+            },
+            {
+              "text": " PARTIAL APPROVAL",
+              "conf": 0.970193088054657,
+              "bbox": [
+                622,
+                420,
+                751,
+                435
+              ]
+            },
+            {
+              "text": "11/03/2025",
+              "conf": 0.9983512163162231,
+              "bbox": [
+                791,
+                417,
+                866,
+                434
+              ]
+            },
+            {
+              "text": "10/24/2025",
+              "conf": 0.9993178248405457,
+              "bbox": [
+                907,
+                419,
+                982,
+                435
+              ]
+            },
+            {
+              "text": "CHEN MD,DAVID WE!",
+              "conf": 0.8974766135215759,
+              "bbox": [
+                1022,
+                417,
+                1160,
+                436
+              ]
+            },
+            {
+              "text": "$2,324.95",
+              "conf": 0.9594287872314453,
+              "bbox": [
+                1236,
+                417,
+                1305,
+                437
+              ]
+            },
+            {
+              "text": "$1,960.57",
+              "conf": 0.962372899055481,
+              "bbox": [
+                1362,
+                417,
+                1430,
+                437
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8 25113937871513 H6885420972 HALL, KEVIN Professional PENDING REVIEW 11/23/2025 11/19/2025 OKONKWO MD,ADAEZE $2,783.87 $2,578.86",
+          "conf": 0.9853538220578973,
+          "bbox": [
+            34,
+            453,
+            1430,
+            476
+          ],
+          "words": [
+            {
+              "text": "8",
+              "conf": 0.9937514662742615,
+              "bbox": [
+                34,
+                457,
+                49,
+                474
+              ]
+            },
+            {
+              "text": "25113937871513",
+              "conf": 0.9998295903205872,
+              "bbox": [
+                79,
+                458,
+                190,
+                473
+              ]
+            },
+            {
+              "text": "H6885420972",
+              "conf": 0.9992967844009399,
+              "bbox": [
+                248,
+                457,
+                340,
+                473
+              ]
+            },
+            {
+              "text": "HALL, KEVIN",
+              "conf": 0.9604119658470154,
+              "bbox": [
+                364,
+                457,
+                445,
+                473
+              ]
+            },
+            {
+              "text": "Professional",
+              "conf": 0.9969978928565979,
+              "bbox": [
+                513,
+                457,
+                594,
+                473
+              ]
+            },
+            {
+              "text": "PENDING REVIEW",
+              "conf": 0.9807087182998657,
+              "bbox": [
+                622,
+                458,
+                739,
+                473
+              ]
+            },
+            {
+              "text": "11/23/2025",
+              "conf": 0.9991931915283203,
+              "bbox": [
+                792,
+                457,
+                867,
+                473
+              ]
+            },
+            {
+              "text": "11/19/2025",
+              "conf": 0.9991390109062195,
+              "bbox": [
+                907,
+                457,
+                982,
+                473
+              ]
+            },
+            {
+              "text": "OKONKWO MD,ADAEZE",
+              "conf": 0.9511190056800842,
+              "bbox": [
+                1022,
+                456,
+                1174,
+                474
+              ]
+            },
+            {
+              "text": "$2,783.87",
+              "conf": 0.9770910739898682,
+              "bbox": [
+                1235,
+                453,
+                1306,
+                476
+              ]
+            },
+            {
+              "text": "$2,578.86",
+              "conf": 0.9813533425331116,
+              "bbox": [
+                1360,
+                453,
+                1430,
+                476
+              ]
+            }
+          ]
+        },
+        {
+          "text": "9 25112704286948 H6881814298 KING,AMANDA Institutional PENDING REVIEW 11/01/2025 10/15/2025 PATELMD,RAJ KUMAR $1,254.27 $1,068.78",
+          "conf": 0.9754047610542991,
+          "bbox": [
+            34,
+            492,
+            1429,
+            514
+          ],
+          "words": [
+            {
+              "text": "9",
+              "conf": 0.9829506278038025,
+              "bbox": [
+                34,
+                495,
+                48,
+                513
+              ]
+            },
+            {
+              "text": "25112704286948",
+              "conf": 0.9997135400772095,
+              "bbox": [
+                79,
+                497,
+                190,
+                512
+              ]
+            },
+            {
+              "text": "H6881814298",
+              "conf": 0.9989807605743408,
+              "bbox": [
+                248,
+                497,
+                340,
+                512
+              ]
+            },
+            {
+              "text": "KING,AMANDA",
+              "conf": 0.9468540549278259,
+              "bbox": [
+                364,
+                497,
+                463,
+                512
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.995150625705719,
+              "bbox": [
+                513,
+                497,
+                592,
+                512
+              ]
+            },
+            {
+              "text": " PENDING REVIEW",
+              "conf": 0.9591391086578369,
+              "bbox": [
+                622,
+                497,
+                739,
+                512
+              ]
+            },
+            {
+              "text": "11/01/2025",
+              "conf": 0.9993284344673157,
+              "bbox": [
+                791,
+                497,
+                866,
+                512
+              ]
+            },
+            {
+              "text": "10/15/2025",
+              "conf": 0.9993894696235657,
+              "bbox": [
+                907,
+                495,
+                982,
+                512
+              ]
+            },
+            {
+              "text": "PATELMD,RAJ KUMAR",
+              "conf": 0.9368475079536438,
+              "bbox": [
+                1022,
+                497,
+                1164,
+                512
+              ]
+            },
+            {
+              "text": "$1,254.27",
+              "conf": 0.9404735565185547,
+              "bbox": [
+                1235,
+                492,
+                1306,
+                514
+              ]
+            },
+            {
+              "text": "$1,068.78",
+              "conf": 0.9706246852874756,
+              "bbox": [
+                1363,
+                497,
+                1429,
+                513
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10 25116264529867 H6885789861 CLARK,OLIVER Institutional APPROVED 11/10/2025 10/24/2025 CHEN MD,DAVID WEI $2,885.04 $1,855.32",
+          "conf": 0.9813031174919822,
+          "bbox": [
+            34,
+            531,
+            1429,
+            554
+          ],
+          "words": [
+            {
+              "text": "10",
+              "conf": 0.9977369904518127,
+              "bbox": [
+                34,
+                533,
+                57,
+                552
+              ]
+            },
+            {
+              "text": "25116264529867",
+              "conf": 0.9995831251144409,
+              "bbox": [
+                79,
+                535,
+                190,
+                550
+              ]
+            },
+            {
+              "text": "H6885789861",
+              "conf": 0.999049961566925,
+              "bbox": [
+                248,
+                535,
+                340,
+                550
+              ]
+            },
+            {
+              "text": "CLARK,OLIVER",
+              "conf": 0.9357826709747314,
+              "bbox": [
+                366,
+                535,
+                463,
+                550
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9981043338775635,
+              "bbox": [
+                513,
+                535,
+                592,
+                551
+              ]
+            },
+            {
+              "text": "APPROVED",
+              "conf": 0.9961115121841431,
+              "bbox": [
+                622,
+                535,
+                697,
+                550
+              ]
+            },
+            {
+              "text": "11/10/2025",
+              "conf": 0.9992502331733704,
+              "bbox": [
+                790,
+                531,
+                869,
+                554
+              ]
+            },
+            {
+              "text": "10/24/2025",
+              "conf": 0.9992955327033997,
+              "bbox": [
+                907,
+                534,
+                982,
+                550
+              ]
+            },
+            {
+              "text": "CHEN MD,DAVID WEI",
+              "conf": 0.9083600044250488,
+              "bbox": [
+                1023,
+                535,
+                1159,
+                550
+              ]
+            },
+            {
+              "text": "$2,885.04",
+              "conf": 0.975358247756958,
+              "bbox": [
+                1236,
+                531,
+                1306,
+                554
+              ]
+            },
+            {
+              "text": "$1,855.32",
+              "conf": 0.9857016801834106,
+              "bbox": [
+                1363,
+                535,
+                1429,
+                551
+              ]
+            }
+          ]
+        },
+        {
+          "text": "11 25117563404309 H6885337993 TORRES,SAMUEL Institutional PENDING REVIEW 11/18/2025 11/12/2025 CHEN MD,DAVID WEI $2,319.10 $1,859.44",
+          "conf": 0.9780916300686923,
+          "bbox": [
+            34,
+            571,
+            1429,
+            591
+          ],
+          "words": [
+            {
+              "text": "11",
+              "conf": 0.9971194863319397,
+              "bbox": [
+                34,
+                571,
+                56,
+                591
+              ]
+            },
+            {
+              "text": "25117563404309",
+              "conf": 0.9991846084594727,
+              "bbox": [
+                79,
+                573,
+                191,
+                588
+              ]
+            },
+            {
+              "text": "H6885337993",
+              "conf": 0.9989122748374939,
+              "bbox": [
+                248,
+                573,
+                340,
+                588
+              ]
+            },
+            {
+              "text": "TORRES,SAMUEL",
+              "conf": 0.9787655472755432,
+              "bbox": [
+                366,
+                573,
+                478,
+                588
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.995973527431488,
+              "bbox": [
+                513,
+                573,
+                592,
+                590
+              ]
+            },
+            {
+              "text": " PENDING REVIEW",
+              "conf": 0.9451548457145691,
+              "bbox": [
+                621,
+                573,
+                741,
+                588
+              ]
+            },
+            {
+              "text": "11/18/2025",
+              "conf": 0.998434841632843,
+              "bbox": [
+                792,
+                573,
+                867,
+                590
+              ]
+            },
+            {
+              "text": "11/12/2025",
+              "conf": 0.9993804097175598,
+              "bbox": [
+                906,
+                571,
+                983,
+                591
+              ]
+            },
+            {
+              "text": "CHEN MD,DAVID WEI",
+              "conf": 0.9056897163391113,
+              "bbox": [
+                1023,
+                573,
+                1159,
+                588
+              ]
+            },
+            {
+              "text": "$2,319.10",
+              "conf": 0.9828441143035889,
+              "bbox": [
+                1238,
+                573,
+                1304,
+                590
+              ]
+            },
+            {
+              "text": "$1,859.44",
+              "conf": 0.9575485587120056,
+              "bbox": [
+                1362,
+                573,
+                1429,
+                590
+              ]
+            }
+          ]
+        },
+        {
+          "text": "12 25110012661311 H6885369115 MILLER,TINA Professional PENDING REVIEW 11/04/2025 10/16/2025 FERNANDEZ MD,ISABEL $4,972.56 $4,623.65",
+          "conf": 0.9831982038237832,
+          "bbox": [
+            34,
+            611,
+            1430,
+            629
+          ],
+          "words": [
+            {
+              "text": "12",
+              "conf": 0.9987030029296875,
+              "bbox": [
+                34,
+                611,
+                56,
+                629
+              ]
+            },
+            {
+              "text": "25110012661311",
+              "conf": 0.9996752142906189,
+              "bbox": [
+                79,
+                612,
+                190,
+                627
+              ]
+            },
+            {
+              "text": "H6885369115",
+              "conf": 0.999198853969574,
+              "bbox": [
+                248,
+                612,
+                340,
+                627
+              ]
+            },
+            {
+              "text": "MILLER,TINA",
+              "conf": 0.958787202835083,
+              "bbox": [
+                364,
+                612,
+                450,
+                628
+              ]
+            },
+            {
+              "text": "Professional",
+              "conf": 0.9970795512199402,
+              "bbox": [
+                513,
+                611,
+                594,
+                627
+              ]
+            },
+            {
+              "text": "PENDING REVIEW",
+              "conf": 0.9771324992179871,
+              "bbox": [
+                622,
+                614,
+                738,
+                626
+              ]
+            },
+            {
+              "text": "11/04/2025",
+              "conf": 0.9995650053024292,
+              "bbox": [
+                792,
+                612,
+                867,
+                628
+              ]
+            },
+            {
+              "text": "10/16/2025",
+              "conf": 0.9995766878128052,
+              "bbox": [
+                907,
+                612,
+                982,
+                628
+              ]
+            },
+            {
+              "text": "FERNANDEZ MD,ISABEL",
+              "conf": 0.9469656944274902,
+              "bbox": [
+                1022,
+                611,
+                1175,
+                626
+              ]
+            },
+            {
+              "text": "$4,972.56",
+              "conf": 0.9714376926422119,
+              "bbox": [
+                1236,
+                611,
+                1303,
+                627
+              ]
+            },
+            {
+              "text": "$4,623.65",
+              "conf": 0.9670588374137878,
+              "bbox": [
+                1363,
+                612,
+                1430,
+                628
+              ]
+            }
+          ]
+        },
+        {
+          "text": "13 25114472156864 H6888942707 FLORES,PEARL Institutional APPROVED 11/08/2025 11/07/2025 NGUYEN MD,TRAN VAN $3,167.73 $2,028.19",
+          "conf": 0.9773642312396656,
+          "bbox": [
+            34,
+            646,
+            1431,
+            669
+          ],
+          "words": [
+            {
+              "text": "13",
+              "conf": 0.9983019828796387,
+              "bbox": [
+                34,
+                648,
+                56,
+                668
+              ]
+            },
+            {
+              "text": "25114472156864",
+              "conf": 0.9995885491371155,
+              "bbox": [
+                79,
+                650,
+                191,
+                665
+              ]
+            },
+            {
+              "text": "H6888942707",
+              "conf": 0.9600493907928467,
+              "bbox": [
+                248,
+                650,
+                340,
+                665
+              ]
+            },
+            {
+              "text": "FLORES,PEARL",
+              "conf": 0.9666164517402649,
+              "bbox": [
+                366,
+                650,
+                463,
+                665
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9923357367515564,
+              "bbox": [
+                513,
+                649,
+                592,
+                665
+              ]
+            },
+            {
+              "text": "APPROVED",
+              "conf": 0.9958271980285645,
+              "bbox": [
+                622,
+                650,
+                697,
+                666
+              ]
+            },
+            {
+              "text": "11/08/2025",
+              "conf": 0.9990687370300293,
+              "bbox": [
+                792,
+                650,
+                867,
+                666
+              ]
+            },
+            {
+              "text": "11/07/2025",
+              "conf": 0.9987848997116089,
+              "bbox": [
+                907,
+                650,
+                982,
+                666
+              ]
+            },
+            {
+              "text": "NGUYEN MD,TRAN VAN",
+              "conf": 0.9239848256111145,
+              "bbox": [
+                1022,
+                650,
+                1173,
+                665
+              ]
+            },
+            {
+              "text": "$3,167.73",
+              "conf": 0.9660977125167847,
+              "bbox": [
+                1236,
+                649,
+                1303,
+                665
+              ]
+            },
+            {
+              "text": "$2,028.19",
+              "conf": 0.9503510594367981,
+              "bbox": [
+                1360,
+                646,
+                1431,
+                669
+              ]
+            }
+          ]
+        },
+        {
+          "text": "14 25116151162084 H6889601421 NGUYEN,KAREN Institutional PENDING REVIEW 11/16/2025 10/30/2025 CHEN MD.DAVID WEI $2,325.09 $2,203.99",
+          "conf": 0.9788771705193953,
+          "bbox": [
+            34,
+            685,
+            1430,
+            707
+          ],
+          "words": [
+            {
+              "text": "14",
+              "conf": 0.9985255599021912,
+              "bbox": [
+                34,
+                687,
+                57,
+                706
+              ]
+            },
+            {
+              "text": "25116151162084",
+              "conf": 0.999700665473938,
+              "bbox": [
+                79,
+                690,
+                191,
+                705
+              ]
+            },
+            {
+              "text": "H6889601421",
+              "conf": 0.9986042380332947,
+              "bbox": [
+                248,
+                688,
+                340,
+                705
+              ]
+            },
+            {
+              "text": "NGUYEN,KAREN",
+              "conf": 0.9530962109565735,
+              "bbox": [
+                364,
+                688,
+                471,
+                705
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9969190955162048,
+              "bbox": [
+                513,
+                688,
+                592,
+                705
+              ]
+            },
+            {
+              "text": " PENDING REVIEW",
+              "conf": 0.9646593332290649,
+              "bbox": [
+                621,
+                690,
+                739,
+                705
+              ]
+            },
+            {
+              "text": "11/16/2025",
+              "conf": 0.9987597465515137,
+              "bbox": [
+                792,
+                688,
+                867,
+                705
+              ]
+            },
+            {
+              "text": "10/30/2025",
+              "conf": 0.999380886554718,
+              "bbox": [
+                907,
+                688,
+                982,
+                705
+              ]
+            },
+            {
+              "text": "CHEN MD.DAVID WEI",
+              "conf": 0.907345175743103,
+              "bbox": [
+                1022,
+                687,
+                1160,
+                706
+              ]
+            },
+            {
+              "text": "$2,325.09",
+              "conf": 0.9784464240074158,
+              "bbox": [
+                1235,
+                685,
+                1306,
+                707
+              ]
+            },
+            {
+              "text": "$2,203.99",
+              "conf": 0.9722115397453308,
+              "bbox": [
+                1362,
+                687,
+                1430,
+                706
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15 25119150767241 H6881605108 LEWIS,QUENTIN Institutional APPROVED 11/18/2025 10/29/2025 CHUNG MD, CHRISTINE SUMI $3,737.26 $2,865.36",
+          "conf": 0.9829907417297363,
+          "bbox": [
+            34,
+            723,
+            1431,
+            746
+          ],
+          "words": [
+            {
+              "text": "15",
+              "conf": 0.9979811906814575,
+              "bbox": [
+                34,
+                726,
+                56,
+                745
+              ]
+            },
+            {
+              "text": "25119150767241",
+              "conf": 0.9996948838233948,
+              "bbox": [
+                79,
+                728,
+                190,
+                743
+              ]
+            },
+            {
+              "text": "H6881605108",
+              "conf": 0.9977135062217712,
+              "bbox": [
+                248,
+                727,
+                341,
+                743
+              ]
+            },
+            {
+              "text": "LEWIS,QUENTIN",
+              "conf": 0.9724063873291016,
+              "bbox": [
+                366,
+                727,
+                472,
+                743
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9941243529319763,
+              "bbox": [
+                513,
+                728,
+                592,
+                743
+              ]
+            },
+            {
+              "text": "APPROVED",
+              "conf": 0.9959703683853149,
+              "bbox": [
+                622,
+                728,
+                697,
+                743
+              ]
+            },
+            {
+              "text": "11/18/2025",
+              "conf": 0.9981873631477356,
+              "bbox": [
+                792,
+                727,
+                867,
+                743
+              ]
+            },
+            {
+              "text": "10/29/2025",
+              "conf": 0.9989574551582336,
+              "bbox": [
+                907,
+                727,
+                982,
+                743
+              ]
+            },
+            {
+              "text": "CHUNG MD, CHRISTINE SUMI",
+              "conf": 0.9310707449913025,
+              "bbox": [
+                1023,
+                728,
+                1205,
+                743
+              ]
+            },
+            {
+              "text": "$3,737.26",
+              "conf": 0.9544522762298584,
+              "bbox": [
+                1235,
+                723,
+                1306,
+                746
+              ]
+            },
+            {
+              "text": "$2,865.36",
+              "conf": 0.9723396301269531,
+              "bbox": [
+                1360,
+                723,
+                1431,
+                746
+              ]
+            }
+          ]
+        },
+        {
+          "text": "16 25112106551646 H6883135291 LOPEZ,KAREN Professional PARTIAL APPROVAL 11/13/2025 11/01/2025 OKONKWO MD,ADAEZE $1,599.15 $1,443.21",
+          "conf": 0.9829802675680681,
+          "bbox": [
+            32,
+            762,
+            1429,
+            785
+          ],
+          "words": [
+            {
+              "text": "16",
+              "conf": 0.9966624975204468,
+              "bbox": [
+                32,
+                762,
+                58,
+                785
+              ]
+            },
+            {
+              "text": "25112106551646",
+              "conf": 0.9998720288276672,
+              "bbox": [
+                79,
+                766,
+                190,
+                782
+              ]
+            },
+            {
+              "text": "H6883135291",
+              "conf": 0.9996841549873352,
+              "bbox": [
+                248,
+                766,
+                340,
+                782
+              ]
+            },
+            {
+              "text": "LOPEZ,KAREN",
+              "conf": 0.9638926982879639,
+              "bbox": [
+                364,
+                766,
+                458,
+                782
+              ]
+            },
+            {
+              "text": "Professional",
+              "conf": 0.9954946041107178,
+              "bbox": [
+                513,
+                766,
+                594,
+                781
+              ]
+            },
+            {
+              "text": "PARTIAL APPROVAL",
+              "conf": 0.9950447082519531,
+              "bbox": [
+                622,
+                766,
+                751,
+                782
+              ]
+            },
+            {
+              "text": "11/13/2025",
+              "conf": 0.9987326860427856,
+              "bbox": [
+                792,
+                766,
+                867,
+                782
+              ]
+            },
+            {
+              "text": "11/01/2025",
+              "conf": 0.9992052316665649,
+              "bbox": [
+                907,
+                765,
+                982,
+                782
+              ]
+            },
+            {
+              "text": "OKONKWO MD,ADAEZE",
+              "conf": 0.9430580139160156,
+              "bbox": [
+                1023,
+                766,
+                1173,
+                782
+              ]
+            },
+            {
+              "text": "$1,599.15",
+              "conf": 0.9505491256713867,
+              "bbox": [
+                1237,
+                764,
+                1304,
+                783
+              ]
+            },
+            {
+              "text": "$1,443.21",
+              "conf": 0.9705871939659119,
+              "bbox": [
+                1363,
+                766,
+                1429,
+                783
+              ]
+            }
+          ]
+        },
+        {
+          "text": "17 25111734491590 H6886983129 HILL, ROSA Institutional PENDING REVIEW 11/02/2025 10/19/2025 CHUNG MD, CHRISTINE SUMI $1,629.90 $1,439.87",
+          "conf": 0.9839212027463046,
+          "bbox": [
+            34,
+            802,
+            1429,
+            822
+          ],
+          "words": [
+            {
+              "text": "17",
+              "conf": 0.9992737174034119,
+              "bbox": [
+                34,
+                802,
+                56,
+                822
+              ]
+            },
+            {
+              "text": "25111734491590",
+              "conf": 0.9997978806495667,
+              "bbox": [
+                79,
+                805,
+                190,
+                820
+              ]
+            },
+            {
+              "text": "H6886983129",
+              "conf": 0.9633045196533203,
+              "bbox": [
+                248,
+                805,
+                340,
+                820
+              ]
+            },
+            {
+              "text": "HILL, ROSA",
+              "conf": 0.9969371557235718,
+              "bbox": [
+                364,
+                805,
+                438,
+                821
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9973637461662292,
+              "bbox": [
+                513,
+                805,
+                592,
+                821
+              ]
+            },
+            {
+              "text": "PENDING REVIEW",
+              "conf": 0.9810829162597656,
+              "bbox": [
+                622,
+                805,
+                738,
+                820
+              ]
+            },
+            {
+              "text": "11/02/2025",
+              "conf": 0.9996158480644226,
+              "bbox": [
+                792,
+                805,
+                867,
+                821
+              ]
+            },
+            {
+              "text": "10/19/2025",
+              "conf": 0.999653160572052,
+              "bbox": [
+                907,
+                805,
+                982,
+                821
+              ]
+            },
+            {
+              "text": "CHUNG MD, CHRISTINE SUMI",
+              "conf": 0.9329936504364014,
+              "bbox": [
+                1023,
+                805,
+                1205,
+                820
+              ]
+            },
+            {
+              "text": "$1,629.90",
+              "conf": 0.9749266505241394,
+              "bbox": [
+                1238,
+                805,
+                1304,
+                821
+              ]
+            },
+            {
+              "text": "$1,439.87",
+              "conf": 0.9781839847564697,
+              "bbox": [
+                1363,
+                805,
+                1429,
+                821
+              ]
+            }
+          ]
+        },
+        {
+          "text": "18 25113851703095 H6885734653 MILLER,THOMAS Institutional APPROVED 11/14/2025 11/01/2025 NGUYEN MD,TRAN VAN $1,812.57 $1,374.87",
+          "conf": 0.983641651543704,
+          "bbox": [
+            34,
+            842,
+            1429,
+            861
+          ],
+          "words": [
+            {
+              "text": "18",
+              "conf": 0.9984735250473022,
+              "bbox": [
+                34,
+                842,
+                57,
+                861
+              ]
+            },
+            {
+              "text": "25113851703095",
+              "conf": 0.9992951154708862,
+              "bbox": [
+                79,
+                843,
+                191,
+                858
+              ]
+            },
+            {
+              "text": "H6885734653",
+              "conf": 0.9989612102508545,
+              "bbox": [
+                248,
+                843,
+                340,
+                858
+              ]
+            },
+            {
+              "text": "MILLER,THOMAS",
+              "conf": 0.9754828810691833,
+              "bbox": [
+                366,
+                843,
+                475,
+                858
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9960057139396667,
+              "bbox": [
+                513,
+                843,
+                592,
+                859
+              ]
+            },
+            {
+              "text": "APPROVED",
+              "conf": 0.9961448907852173,
+              "bbox": [
+                622,
+                843,
+                697,
+                859
+              ]
+            },
+            {
+              "text": "11/14/2025",
+              "conf": 0.9991667866706848,
+              "bbox": [
+                792,
+                843,
+                867,
+                859
+              ]
+            },
+            {
+              "text": "11/01/2025",
+              "conf": 0.9994010925292969,
+              "bbox": [
+                907,
+                843,
+                982,
+                859
+              ]
+            },
+            {
+              "text": "NGUYEN MD,TRAN VAN",
+              "conf": 0.9344031810760498,
+              "bbox": [
+                1022,
+                843,
+                1173,
+                858
+              ]
+            },
+            {
+              "text": "$1,812.57",
+              "conf": 0.9606383442878723,
+              "bbox": [
+                1239,
+                843,
+                1303,
+                859
+              ]
+            },
+            {
+              "text": "$1,374.87",
+              "conf": 0.9620854258537292,
+              "bbox": [
+                1363,
+                843,
+                1429,
+                859
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1300 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "penber FyJ Diaynosis Fyt Mscellaneous Fg-\nProcessor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days\nDiagnosis Codes (IcD-10)\nDiagnosis: Primary J06.9 ACUTE UPPER RESPIRATORY INFECTION,E UNSPECIFIED POA Y YES.present on admission\nDiagnosis Code Type: ICD-10-CM Indicator:\nSeq 0 Code J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED Description Type PRIMARY ADMITTING Date 11/07/2025 11/07/2025\n1 M54.50\nProcedure / Service Coding. Modifier Seq 1 CPT/HCPCS P-99214 59 Description Office/outpatient visit.established patient, moderate complexity Diag Pointer A Date of Service 11/07/2025",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 615,
+      "text": "penber FyJ Diaynosis Fyt Mscellaneous Fg-\nProcessor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days\nDiagnosis Codes (IcD-10)\nDiagnosis: Primary J06.9 ACUTE UPPER RESPIRATORY INFECTION,E UNSPECIFIED POA Y YES.present on admission\nDiagnosis Code Type: ICD-10-CM Indicator:\nSeq 0 Code J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED Description Type PRIMARY ADMITTING Date 11/07/2025 11/07/2025\n1 M54.50\nProcedure / Service Coding. Modifier Seq 1 CPT/HCPCS P-99214 59 Description Office/outpatient visit.established patient, moderate complexity Diag Pointer A Date of Service 11/07/2025",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 2,
+              "bbox": [
+                34,
+                113,
+                274,
+                143
+              ],
+              "text": "Diagnosis Codes (IcD-10)",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Diagnosis Codes (IcD-10)",
+                  "conf": 0.9793758392333984,
+                  "bbox": [
+                    34,
+                    113,
+                    274,
+                    143
+                  ],
+                  "words": [
+                    {
+                      "text": "Diagnosis Codes (IcD-10)",
+                      "conf": 0.9793758392333984,
+                      "bbox": [
+                        34,
+                        113,
+                        274,
+                        143
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                36,
+                203,
+                533,
+                243
+              ],
+              "text": "Diagnosis Code Type: ICD-10-CM Indicator:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Diagnosis Code Type: ICD-10-CM Indicator:",
+                  "conf": 0.98086017370224,
+                  "bbox": [
+                    36,
+                    203,
+                    533,
+                    243
+                  ],
+                  "words": [
+                    {
+                      "text": "Diagnosis Code Type:",
+                      "conf": 0.9675578474998474,
+                      "bbox": [
+                        36,
+                        203,
+                        138,
+                        243
+                      ]
+                    },
+                    {
+                      "text": "ICD-10-CM",
+                      "conf": 0.9840793609619141,
+                      "bbox": [
+                        164,
+                        208,
+                        248,
+                        229
+                      ]
+                    },
+                    {
+                      "text": "Indicator:",
+                      "conf": 0.9909433126449585,
+                      "bbox": [
+                        467,
+                        206,
+                        533,
+                        228
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Diagnosis Codes (IcD-10)\nDiagnosis Code Type: ICD-10-CM Indicator:"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            270,
+            0,
+            678,
+            18
+          ],
+          "text": "penberFyJ DiaynosisFyt MscellaneousFg-",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "penberFyJ DiaynosisFyt MscellaneousFg-",
+              "conf": 0.7348932226498922,
+              "bbox": [
+                270,
+                0,
+                678,
+                18
+              ],
+              "words": [
+                {
+                  "text": "penberFyJ",
+                  "conf": 0.5811617970466614,
+                  "bbox": [
+                    270,
+                    2,
+                    356,
+                    18
+                  ]
+                },
+                {
+                  "text": "DiaynosisFyt",
+                  "conf": 0.7466434836387634,
+                  "bbox": [
+                    403,
+                    0,
+                    516,
+                    16
+                  ]
+                },
+                {
+                  "text": "MscellaneousFg-",
+                  "conf": 0.8768743872642517,
+                  "bbox": [
+                    556,
+                    0,
+                    678,
+                    11
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            30,
+            38,
+            769,
+            75
+          ],
+          "text": "Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days",
+              "conf": 0.9606809467077255,
+              "bbox": [
+                30,
+                38,
+                769,
+                75
+              ],
+              "words": [
+                {
+                  "text": "Processor: David Kim",
+                  "conf": 0.9646293520927429,
+                  "bbox": [
+                    30,
+                    53,
+                    183,
+                    75
+                  ]
+                },
+                {
+                  "text": "Last edit: 11/17/2025 09:12",
+                  "conf": 0.9700137972831726,
+                  "bbox": [
+                    229,
+                    46,
+                    425,
+                    69
+                  ]
+                },
+                {
+                  "text": "Processor ID: PRoco02",
+                  "conf": 0.9155465960502625,
+                  "bbox": [
+                    436,
+                    41,
+                    600,
+                    64
+                  ]
+                },
+                {
+                  "text": "Decision SLA: 2 days",
+                  "conf": 0.9925340414047241,
+                  "bbox": [
+                    623,
+                    38,
+                    769,
+                    58
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            34,
+            113,
+            274,
+            143
+          ],
+          "text": "Diagnosis Codes (IcD-10)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Diagnosis Codes (IcD-10)",
+              "conf": 0.9793758392333984,
+              "bbox": [
+                34,
+                113,
+                274,
+                143
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis Codes (IcD-10)",
+                  "conf": 0.9793758392333984,
+                  "bbox": [
+                    34,
+                    113,
+                    274,
+                    143
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            32,
+            141,
+            956,
+            216
+          ],
+          "text": "Diagnosis: Primary J06.9 ACUTE UPPER RESPIRATORY INFECTION,E UNSPECIFIED POA Y YES.present on admission",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Diagnosis: Primary J06.9 ACUTE UPPER RESPIRATORY INFECTION,E UNSPECIFIED POA Y YES.present on admission",
+              "conf": 0.9845172379698072,
+              "bbox": [
+                32,
+                141,
+                956,
+                216
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis:",
+                  "conf": 0.9915426969528198,
+                  "bbox": [
+                    32,
+                    171,
+                    105,
+                    197
+                  ]
+                },
+                {
+                  "text": "Primary",
+                  "conf": 0.9970845580101013,
+                  "bbox": [
+                    34,
+                    160,
+                    89,
+                    178
+                  ]
+                },
+                {
+                  "text": "J06.9",
+                  "conf": 0.9787546396255493,
+                  "bbox": [
+                    150,
+                    162,
+                    198,
+                    184
+                  ]
+                },
+                {
+                  "text": "ACUTE UPPER RESPIRATORY INFECTION,E",
+                  "conf": 0.9604814648628235,
+                  "bbox": [
+                    440,
+                    141,
+                    714,
+                    168
+                  ]
+                },
+                {
+                  "text": "UNSPECIFIED POA",
+                  "conf": 0.9958212673664093,
+                  "bbox": [
+                    440,
+                    163,
+                    536,
+                    211
+                  ]
+                },
+                {
+                  "text": "Y",
+                  "conf": 0.9843922853469849,
+                  "bbox": [
+                    566,
+                    200,
+                    583,
+                    215
+                  ]
+                },
+                {
+                  "text": "YES.present on admission",
+                  "conf": 0.9835437536239624,
+                  "bbox": [
+                    853,
+                    179,
+                    956,
+                    216
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            36,
+            203,
+            533,
+            243
+          ],
+          "text": "Diagnosis Code Type: ICD-10-CM Indicator:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Diagnosis Code Type: ICD-10-CM Indicator:",
+              "conf": 0.98086017370224,
+              "bbox": [
+                36,
+                203,
+                533,
+                243
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis Code Type:",
+                  "conf": 0.9675578474998474,
+                  "bbox": [
+                    36,
+                    203,
+                    138,
+                    243
+                  ]
+                },
+                {
+                  "text": "ICD-10-CM",
+                  "conf": 0.9840793609619141,
+                  "bbox": [
+                    164,
+                    208,
+                    248,
+                    229
+                  ]
+                },
+                {
+                  "text": "Indicator:",
+                  "conf": 0.9909433126449585,
+                  "bbox": [
+                    467,
+                    206,
+                    533,
+                    228
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            50,
+            229,
+            1336,
+            328
+          ],
+          "text": "Seq 0 Code J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED Description Type PRIMARY ADMITTING Date 11/07/2025 11/07/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Seq 0 Code J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED Description Type PRIMARY ADMITTING Date 11/07/2025 11/07/2025",
+              "conf": 0.9842372387647629,
+              "bbox": [
+                50,
+                229,
+                1336,
+                328
+              ],
+              "words": [
+                {
+                  "text": "Seq 0",
+                  "conf": 0.9588019251823425,
+                  "bbox": [
+                    50,
+                    263,
+                    83,
+                    306
+                  ]
+                },
+                {
+                  "text": "Code J06.9",
+                  "conf": 0.9954746067523956,
+                  "bbox": [
+                    108,
+                    259,
+                    152,
+                    306
+                  ]
+                },
+                {
+                  "text": "ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED",
+                  "conf": 0.9511109292507172,
+                  "bbox": [
+                    245,
+                    270,
+                    588,
+                    328
+                  ]
+                },
+                {
+                  "text": "Description",
+                  "conf": 0.9974891543388367,
+                  "bbox": [
+                    247,
+                    255,
+                    333,
+                    275
+                  ]
+                },
+                {
+                  "text": "Type PRIMARY",
+                  "conf": 0.9976088106632233,
+                  "bbox": [
+                    1066,
+                    232,
+                    1130,
+                    279
+                  ]
+                },
+                {
+                  "text": "ADMITTING",
+                  "conf": 0.9763523936271667,
+                  "bbox": [
+                    1068,
+                    282,
+                    1146,
+                    308
+                  ]
+                },
+                {
+                  "text": "Date 11/07/2025",
+                  "conf": 0.997892290353775,
+                  "bbox": [
+                    1255,
+                    229,
+                    1334,
+                    272
+                  ]
+                },
+                {
+                  "text": "11/07/2025",
+                  "conf": 0.999167799949646,
+                  "bbox": [
+                    1256,
+                    280,
+                    1336,
+                    301
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 6,
+          "bbox": [
+            52,
+            314,
+            162,
+            335
+          ],
+          "text": "1 M54.50",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "1 M54.50",
+              "conf": 0.8807352185249329,
+              "bbox": [
+                52,
+                314,
+                162,
+                335
+              ],
+              "words": [
+                {
+                  "text": "1",
+                  "conf": 0.7676690816879272,
+                  "bbox": [
+                    52,
+                    317,
+                    64,
+                    335
+                  ]
+                },
+                {
+                  "text": "M54.50",
+                  "conf": 0.9938013553619385,
+                  "bbox": [
+                    111,
+                    314,
+                    162,
+                    332
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            44,
+            461,
+            1377,
+            553
+          ],
+          "text": "Procedure / Service Coding. Modifier Seq 1 CPT/HCPCS P-99214 59 Description Office/outpatient visit.established patient, moderate complexity Diag Pointer A Date of Service 11/07/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Procedure / Service Coding. Modifier Seq 1 CPT/HCPCS P-99214 59 Description Office/outpatient visit.established patient, moderate complexity Diag Pointer A Date of Service 11/07/2025",
+              "conf": 0.989799227565527,
+              "bbox": [
+                44,
+                461,
+                1377,
+                553
+              ],
+              "words": [
+                {
+                  "text": "Procedure / Service Coding. Modifier",
+                  "conf": 0.9832788109779358,
+                  "bbox": [
+                    44,
+                    461,
+                    320,
+                    522
+                  ]
+                },
+                {
+                  "text": "Seq 1",
+                  "conf": 0.9956087470054626,
+                  "bbox": [
+                    56,
+                    511,
+                    91,
+                    553
+                  ]
+                },
+                {
+                  "text": "CPT/HCPCS P-99214",
+                  "conf": 0.9890235960483551,
+                  "bbox": [
+                    109,
+                    504,
+                    197,
+                    551
+                  ]
+                },
+                {
+                  "text": "59",
+                  "conf": 0.9981770515441895,
+                  "bbox": [
+                    258,
+                    530,
+                    281,
+                    549
+                  ]
+                },
+                {
+                  "text": "Description",
+                  "conf": 0.9972492456436157,
+                  "bbox": [
+                    367,
+                    500,
+                    453,
+                    521
+                  ]
+                },
+                {
+                  "text": "Office/outpatient visit.established patient, moderate complexity",
+                  "conf": 0.9574230909347534,
+                  "bbox": [
+                    367,
+                    516,
+                    777,
+                    546
+                  ]
+                },
+                {
+                  "text": "Diag Pointer A",
+                  "conf": 0.9988046288490295,
+                  "bbox": [
+                    1104,
+                    477,
+                    1200,
+                    525
+                  ]
+                },
+                {
+                  "text": "Date of Service 11/07/2025",
+                  "conf": 0.998828649520874,
+                  "bbox": [
+                    1261,
+                    471,
+                    1377,
+                    524
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            30,
+            0,
+            1334,
+            553
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>penberFyJ DiaynosisFyt MscellaneousFg-</td><td></td><td></td><td></td></tr><tr><td>Processor: David Kim</td><td>Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days</td><td></td><td></td></tr><tr><td>Diagnosis Codes (IcD-10)</td><td></td><td></td><td></td></tr><tr><td>Primary J06.9</td><td>ACUTE UPPER RESPIRATORY INFECTION,E</td><td></td><td></td></tr><tr><td>Diagnosis</td><td>UNSPECIFIED POA</td><td>YES.present on admission</td><td></td></tr><tr><td>Diagnosis Code Type</td><td>ICD-10-CM Indicator: Y</td><td></td><td></td></tr><tr><td>Description</td><td></td><td>Type PRIMARY</td><td>Date 11/07/2025</td></tr><tr><td>Seq 1 CPT/HCPCS P-99214 59</td><td>Office/outpatient visit.established patient, moderate complexity</td><td></td><td></td></tr></table>",
+          "text": "penberFyJ DiaynosisFyt MscellaneousFg-: \nProcessor: David Kim: Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days\nDiagnosis Codes (IcD-10): \nPrimary J06.9: ACUTE UPPER RESPIRATORY INFECTION,E\nDiagnosis: UNSPECIFIED POA\nYES.present on admission: \nDiagnosis Code Type: ICD-10-CM Indicator: Y\nDescription: \nType PRIMARY: Date 11/07/2025\nSeq 1 CPT/HCPCS P-99214 59: Office/outpatient visit.established patient, moderate complexity",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "penberFyJ DiaynosisFyt MscellaneousFg-",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Processor: David Kim",
+              "Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis Codes (IcD-10)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Primary J06.9",
+              "ACUTE UPPER RESPIRATORY INFECTION,E",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis",
+              "UNSPECIFIED POA",
+              "YES.present on admission",
+              ""
+            ],
+            [
+              "Diagnosis Code Type",
+              "ICD-10-CM Indicator: Y",
+              "",
+              ""
+            ],
+            [
+              "Description",
+              "",
+              "Type PRIMARY",
+              "Date 11/07/2025"
+            ],
+            [
+              "Seq 1 CPT/HCPCS P-99214 59",
+              "Office/outpatient visit.established patient, moderate complexity",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "penberFyJ DiaynosisFyt MscellaneousFg-",
+              ""
+            ],
+            [
+              "Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days",
+              ""
+            ],
+            [
+              "Diagnosis Codes (IcD-10)",
+              ""
+            ],
+            [
+              "Primary J06.9 ACUTE UPPER RESPIRATORY INFECTION,E",
+              ""
+            ],
+            [
+              "Diagnosis: UNSPECIFIED POA",
+              "YES.present on admission"
+            ],
+            [
+              "Diagnosis Code Type: ICD-10-CM Indicator: Y",
+              ""
+            ],
+            [
+              "Description",
+              "Type PRIMARY Date 11/07/2025"
+            ],
+            [
+              "Seq 1 CPT/HCPCS P-99214 59 Office/outpatient visit.established patient, moderate complexity",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            44,
+            259,
+            1377,
+            525
+          ],
+          "html": "<table><tr><th>Seq 0</th><th>Code J06.9</th><th>ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED</th><th>ADMITTING</th><th>11/07/2025</th></tr><tr><td>1</td><td>M54.50</td><td></td><td></td><td></td></tr><tr><td></td><td>Procedure / Service Coding. Modifier</td><td>Description</td><td>Diag Pointer A</td><td>Date of Service 11/07/2025</td></tr></table>",
+          "text": "1 | M54.50 |  |  | \n | Procedure / Service Coding. Modifier | Description | Diag Pointer A | Date of Service 11/07/2025",
+          "headers": [
+            "Seq 0",
+            "Code J06.9",
+            "ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED",
+            "ADMITTING",
+            "11/07/2025"
+          ],
+          "rows": [
+            [
+              "1",
+              "M54.50",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "Procedure / Service Coding. Modifier",
+              "Description",
+              "Diag Pointer A",
+              "Date of Service 11/07/2025"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "penberFyJ DiaynosisFyt MscellaneousFg-",
+          "conf": 0.7348932226498922,
+          "bbox": [
+            270,
+            0,
+            678,
+            18
+          ],
+          "words": [
+            {
+              "text": "penberFyJ",
+              "conf": 0.5811617970466614,
+              "bbox": [
+                270,
+                2,
+                356,
+                18
+              ]
+            },
+            {
+              "text": "DiaynosisFyt",
+              "conf": 0.7466434836387634,
+              "bbox": [
+                403,
+                0,
+                516,
+                16
+              ]
+            },
+            {
+              "text": "MscellaneousFg-",
+              "conf": 0.8768743872642517,
+              "bbox": [
+                556,
+                0,
+                678,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PRoco02 Decision SLA: 2 days",
+          "conf": 0.9606809467077255,
+          "bbox": [
+            30,
+            38,
+            769,
+            75
+          ],
+          "words": [
+            {
+              "text": "Processor: David Kim",
+              "conf": 0.9646293520927429,
+              "bbox": [
+                30,
+                53,
+                183,
+                75
+              ]
+            },
+            {
+              "text": "Last edit: 11/17/2025 09:12",
+              "conf": 0.9700137972831726,
+              "bbox": [
+                229,
+                46,
+                425,
+                69
+              ]
+            },
+            {
+              "text": "Processor ID: PRoco02",
+              "conf": 0.9155465960502625,
+              "bbox": [
+                436,
+                41,
+                600,
+                64
+              ]
+            },
+            {
+              "text": "Decision SLA: 2 days",
+              "conf": 0.9925340414047241,
+              "bbox": [
+                623,
+                38,
+                769,
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis Codes (IcD-10)",
+          "conf": 0.9793758392333984,
+          "bbox": [
+            34,
+            113,
+            274,
+            143
+          ],
+          "words": [
+            {
+              "text": "Diagnosis Codes (IcD-10)",
+              "conf": 0.9793758392333984,
+              "bbox": [
+                34,
+                113,
+                274,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis: Primary J06.9 ACUTE UPPER RESPIRATORY INFECTION,E UNSPECIFIED POA Y YES.present on admission",
+          "conf": 0.9845172379698072,
+          "bbox": [
+            32,
+            141,
+            956,
+            216
+          ],
+          "words": [
+            {
+              "text": "Diagnosis:",
+              "conf": 0.9915426969528198,
+              "bbox": [
+                32,
+                171,
+                105,
+                197
+              ]
+            },
+            {
+              "text": "Primary",
+              "conf": 0.9970845580101013,
+              "bbox": [
+                34,
+                160,
+                89,
+                178
+              ]
+            },
+            {
+              "text": "J06.9",
+              "conf": 0.9787546396255493,
+              "bbox": [
+                150,
+                162,
+                198,
+                184
+              ]
+            },
+            {
+              "text": "ACUTE UPPER RESPIRATORY INFECTION,E",
+              "conf": 0.9604814648628235,
+              "bbox": [
+                440,
+                141,
+                714,
+                168
+              ]
+            },
+            {
+              "text": "UNSPECIFIED POA",
+              "conf": 0.9958212673664093,
+              "bbox": [
+                440,
+                163,
+                536,
+                211
+              ]
+            },
+            {
+              "text": "Y",
+              "conf": 0.9843922853469849,
+              "bbox": [
+                566,
+                200,
+                583,
+                215
+              ]
+            },
+            {
+              "text": "YES.present on admission",
+              "conf": 0.9835437536239624,
+              "bbox": [
+                853,
+                179,
+                956,
+                216
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis Code Type: ICD-10-CM Indicator:",
+          "conf": 0.98086017370224,
+          "bbox": [
+            36,
+            203,
+            533,
+            243
+          ],
+          "words": [
+            {
+              "text": "Diagnosis Code Type:",
+              "conf": 0.9675578474998474,
+              "bbox": [
+                36,
+                203,
+                138,
+                243
+              ]
+            },
+            {
+              "text": "ICD-10-CM",
+              "conf": 0.9840793609619141,
+              "bbox": [
+                164,
+                208,
+                248,
+                229
+              ]
+            },
+            {
+              "text": "Indicator:",
+              "conf": 0.9909433126449585,
+              "bbox": [
+                467,
+                206,
+                533,
+                228
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seq 0 Code J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED Description Type PRIMARY ADMITTING Date 11/07/2025 11/07/2025",
+          "conf": 0.9842372387647629,
+          "bbox": [
+            50,
+            229,
+            1336,
+            328
+          ],
+          "words": [
+            {
+              "text": "Seq 0",
+              "conf": 0.9588019251823425,
+              "bbox": [
+                50,
+                263,
+                83,
+                306
+              ]
+            },
+            {
+              "text": "Code J06.9",
+              "conf": 0.9954746067523956,
+              "bbox": [
+                108,
+                259,
+                152,
+                306
+              ]
+            },
+            {
+              "text": "ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED LOW BACK PAIN.UNSPECIFIED",
+              "conf": 0.9511109292507172,
+              "bbox": [
+                245,
+                270,
+                588,
+                328
+              ]
+            },
+            {
+              "text": "Description",
+              "conf": 0.9974891543388367,
+              "bbox": [
+                247,
+                255,
+                333,
+                275
+              ]
+            },
+            {
+              "text": "Type PRIMARY",
+              "conf": 0.9976088106632233,
+              "bbox": [
+                1066,
+                232,
+                1130,
+                279
+              ]
+            },
+            {
+              "text": "ADMITTING",
+              "conf": 0.9763523936271667,
+              "bbox": [
+                1068,
+                282,
+                1146,
+                308
+              ]
+            },
+            {
+              "text": "Date 11/07/2025",
+              "conf": 0.997892290353775,
+              "bbox": [
+                1255,
+                229,
+                1334,
+                272
+              ]
+            },
+            {
+              "text": "11/07/2025",
+              "conf": 0.999167799949646,
+              "bbox": [
+                1256,
+                280,
+                1336,
+                301
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1 M54.50",
+          "conf": 0.8807352185249329,
+          "bbox": [
+            52,
+            314,
+            162,
+            335
+          ],
+          "words": [
+            {
+              "text": "1",
+              "conf": 0.7676690816879272,
+              "bbox": [
+                52,
+                317,
+                64,
+                335
+              ]
+            },
+            {
+              "text": "M54.50",
+              "conf": 0.9938013553619385,
+              "bbox": [
+                111,
+                314,
+                162,
+                332
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Procedure / Service Coding. Modifier Seq 1 CPT/HCPCS P-99214 59 Description Office/outpatient visit.established patient, moderate complexity Diag Pointer A Date of Service 11/07/2025",
+          "conf": 0.989799227565527,
+          "bbox": [
+            44,
+            461,
+            1377,
+            553
+          ],
+          "words": [
+            {
+              "text": "Procedure / Service Coding. Modifier",
+              "conf": 0.9832788109779358,
+              "bbox": [
+                44,
+                461,
+                320,
+                522
+              ]
+            },
+            {
+              "text": "Seq 1",
+              "conf": 0.9956087470054626,
+              "bbox": [
+                56,
+                511,
+                91,
+                553
+              ]
+            },
+            {
+              "text": "CPT/HCPCS P-99214",
+              "conf": 0.9890235960483551,
+              "bbox": [
+                109,
+                504,
+                197,
+                551
+              ]
+            },
+            {
+              "text": "59",
+              "conf": 0.9981770515441895,
+              "bbox": [
+                258,
+                530,
+                281,
+                549
+              ]
+            },
+            {
+              "text": "Description",
+              "conf": 0.9972492456436157,
+              "bbox": [
+                367,
+                500,
+                453,
+                521
+              ]
+            },
+            {
+              "text": "Office/outpatient visit.established patient, moderate complexity",
+              "conf": 0.9574230909347534,
+              "bbox": [
+                367,
+                516,
+                777,
+                546
+              ]
+            },
+            {
+              "text": "Diag Pointer A",
+              "conf": 0.9988046288490295,
+              "bbox": [
+                1104,
+                477,
+                1200,
+                525
+              ]
+            },
+            {
+              "text": "Date of Service 11/07/2025",
+              "conf": 0.998828649520874,
+              "bbox": [
+                1261,
+                471,
+                1377,
+                524
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

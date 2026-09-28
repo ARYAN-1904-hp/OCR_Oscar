@@ -1,0 +1,403 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=16 | tables=6 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x8
+HEADER | Cortex-Claim#7S7PQ98D | Latest version (7 of 7) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 3 hours ago | Readjudicate | Actions | -
+  CELL[1,0] = About thls claim Payment Patlent
+  CELL[1,1] = Providers Medical Claim lines
+  CELL[1,4] = 3 hours ago
+  CELL[1,5] = Readjudicate
+  CELL[1,6] = Actions
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 22x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | 7S7PQ98D | - | - | -
+  CELL[1,0] = 7S7PQ98D
+ROW 2 | Member: Genesis Adriana Herna.. | Payment | - | -
+  CELL[2,0] = Member: Genesis Adriana Herna..
+  CELL[2,1] = Payment
+ROW 3 | 1 Note | - | - | -
+  CELL[3,0] = 1 Note
+ROW 4 | Blockers (1) | - | - | -
+  CELL[4,0] = Blockers (1)
+ROW 5 | NEWBORN | - | - | -
+  CELL[5,0] = NEWBORN
+ROW 6 | Manage | Patient | - | -
+  CELL[6,0] = Manage
+  CELL[6,1] = Patient
+ROW 7 | Manually edited - Revert changes | - | - | -
+  CELL[7,0] = Manually edited - Revert changes
+ROW 8 | Denials (0) | - | - | -
+  CELL[8,0] = Denials (0)
+ROW 9 | Matched Member | Submitted Info | - | -
+  CELL[9,0] = Matched Member
+  CELL[9,1] = Submitted Info
+ROW 10 | No denials on this claim. Manage | - | - | -
+  CELL[10,0] = No denials on this claim. Manage
+ROW 11 | First name | MASTER | SSN | -
+  CELL[11,0] = First name
+  CELL[11,1] = MASTER
+  CELL[11,2] = SSN
+ROW 12 | Allowed | $101.00 (11%) | - | -
+  CELL[12,0] = Allowed
+  CELL[12,1] = $101.00 (11%)
+ROW 13 | OSCID | OSC7584722101 | - | -
+  CELL[13,0] = OSCID
+  CELL[13,1] = OSC7584722101
+ROW 14 | Pay member | $0.00 | - | -
+  CELL[14,0] = Pay member
+  CELL[14,1] = $0.00
+ROW 15 | >Memberresponsibility $0.00 | Policy holder | Group | -
+  CELL[15,0] = >Memberresponsibility $0.00
+  CELL[15,1] = Policy holder
+  CELL[15,2] = Group
+ROW 16 | 7/18/2026 | - | - | -
+  CELL[16,0] = 7/18/2026
+ROW 17 | Suffix | - | - | -
+  CELL[17,0] = Suffix
+ROW 18 | Potential parent claims | Organization name | - | -
+  CELL[18,0] = Potential parent claims
+  CELL[18,1] = Organization name
+ROW 19 | Patient relationship | Self | - | -
+  CELL[19,0] = Patient relationship
+  CELL[19,1] = Self
+ROW 20 | Potential duplicate claims | - | - | -
+  CELL[20,0] = Potential duplicate claims
+ROW 21 | No system identified duplicates. | Providers | - | -
+  CELL[21,0] = No system identified duplicates.
+  CELL[21,1] = Providers
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 3x4
+HEADER | See all member's clalms | Charge group | Prompt process due date | 08/05/2026
+ROW 1 | - | Payment authority NEXTGEN | Interest accrued | $0.00
+  CELL[1,1] = Payment authority NEXTGEN
+  CELL[1,2] = Interest accrued
+  CELL[1,3] = $0.00
+ROW 2 | Claim state: Blocked | Pay to member No | Excluded from interest | No
+  CELL[2,0] = Claim state: Blocked
+  CELL[2,1] = Pay to member No
+  CELL[2,2] = Excluded from interest
+  CELL[2,3] = No
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 2x4
+HEADER | Middle name | G | Date of birth | 05/27/2026 (2 days)
+ROW 1 | Billed $944.00 (100%) Last name | HERNANDEZ DE HOYO | Sex | Male
+  CELL[1,0] = Billed $944.00 (100%) Last name
+  CELL[1,1] = HERNANDEZ DE HOYO
+  CELL[1,2] = Sex
+  CELL[1,3] = Male
+[/TABLE 3]
+
+[TABLE 4 | source=wide_grid]
+shape: 2x3
+HEADER | Suffix | Address | 21720 NW 3RD ST
+ROW 1 | Pay provider $101.00 | - | PEMBROKE PINES, FL 33029
+  CELL[1,0] = Pay provider $101.00
+  CELL[1,2] = PEMBROKE PINES, FL 33029
+[/TABLE 4]
+
+[TABLE 5 | source=wide_grid]
+shape: 3x4
+HEADER | First name | MASTER | Name | OSCAR HEALTH CLAIMS
+ROW 1 | Claim lineage Middle name | G | Number | -
+  CELL[1,0] = Claim lineage Middle name
+  CELL[1,1] = G
+  CELL[1,2] = Number
+ROW 2 | 7S7PQ98D Blocked Last name | HERNANDEZ DE HOYO | Responsibillity sequence | Primary
+  CELL[2,0] = 7S7PQ98D Blocked Last name
+  CELL[2,1] = HERNANDEZ DE HOYO
+  CELL[2,2] = Responsibillity sequence
+  CELL[2,3] = Primary
+[/TABLE 5]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[50,14,1555,35] | order=0
+  Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create
+BLOCK 1 | type=header | bbox=[31,63,1521,80] | order=1
+  About thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions
+BLOCK 2 | type=table_row | bbox=[32,120,135,137] | order=2
+  7S7PQ98D
+BLOCK 3 | type=table_row | bbox=[32,145,386,178] | order=3
+  Member: Genesis Adriana Herna. 1 Note Payment
+BLOCK 4 | type=table | bbox=[31,176,1238,252] | order=4
+  See all member's clalms Charge group Prompt process due date 08/05/2026
+  Payment authority NEXTGEN Interest accrued $0.00
+  Claim state: Blocked Pay to member No Excluded from interest No
+BLOCK 5 | type=table | bbox=[31,267,115,300] | order=5
+  Blockers (1)
+  NEWBORN
+BLOCK 6 | type=table_row | bbox=[30,297,375,324] | order=6
+  Manage Patient
+BLOCK 7 | type=table_row | bbox=[31,323,460,353] | order=7
+  Manually edited - Revert changes
+  Denials (0)
+BLOCK 8 | type=table_row | bbox=[300,349,512,362] | order=8
+  Matched Member Submitted Info
+BLOCK 9 | type=table | bbox=[31,356,1268,447] | order=9
+  No denials on this claim. Manage First name MASTER SSN
+  Middle name G Date of birth 05/27/2026 (2 days)
+  Billed $944.00 (100%) Last name HERNANDEZ DE HOYO Sex Male
+BLOCK 10 | type=table | bbox=[31,443,224,460] | order=10
+  Allowed $101.00 (11%)
+BLOCK 11 | type=table | bbox=[30,454,1319,498] | order=11
+  Suffix Address 21720 NW 3RD ST
+  Pay provider $101.00 OSCID OSC7584722101 PEMBROKE PINES, FL 33029
+BLOCK 12 | type=table | bbox=[31,493,224,510] | order=12
+  Pay member $0.00
+BLOCK 13 | type=table | bbox=[19,516,1295,611] | order=13
+  >Memberresponsibility $0.00 Policy holder Group
+  First name MASTER Name OSCAR HEALTH CLAIMS
+  Claim lineage Middle name G Number
+  7S7PQ98D Blocked Last name HERNANDEZ DE HOYO Responsibillity sequence Primary
+BLOCK 14 | type=table_row | bbox=[32,607,544,686] | order=14
+  7/18/2026
+  Suffix
+  Potential parent claims Organization name
+  Patient relationship Self
+BLOCK 15 | type=footer | bbox=[31,715,394,756] | order=15
+  Potential duplicate claims
+  No system identified duplicates. Providers
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[19,120,982,756] | shape=22x4 | conf=0.920
+  shape: 22x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | 7S7PQ98D | - | - | -
+    CELL[1,0] = 7S7PQ98D
+  ROW 2 | Member: Genesis Adriana Herna.. | Payment | - | -
+    CELL[2,0] = Member: Genesis Adriana Herna..
+    CELL[2,1] = Payment
+  ROW 3 | 1 Note | - | - | -
+    CELL[3,0] = 1 Note
+  ROW 4 | Blockers (1) | - | - | -
+    CELL[4,0] = Blockers (1)
+  ROW 5 | NEWBORN | - | - | -
+    CELL[5,0] = NEWBORN
+  ROW 6 | Manage | Patient | - | -
+    CELL[6,0] = Manage
+    CELL[6,1] = Patient
+  ROW 7 | Manually edited - Revert changes | - | - | -
+    CELL[7,0] = Manually edited - Revert changes
+  ROW 8 | Denials (0) | - | - | -
+    CELL[8,0] = Denials (0)
+  ROW 9 | Matched Member | Submitted Info | - | -
+    CELL[9,0] = Matched Member
+    CELL[9,1] = Submitted Info
+  ROW 10 | No denials on this claim. Manage | - | - | -
+    CELL[10,0] = No denials on this claim. Manage
+  ROW 11 | First name | MASTER | SSN | -
+    CELL[11,0] = First name
+    CELL[11,1] = MASTER
+    CELL[11,2] = SSN
+  ROW 12 | Allowed | $101.00 (11%) | - | -
+    CELL[12,0] = Allowed
+    CELL[12,1] = $101.00 (11%)
+  ROW 13 | OSCID | OSC7584722101 | - | -
+    CELL[13,0] = OSCID
+    CELL[13,1] = OSC7584722101
+  ROW 14 | Pay member | $0.00 | - | -
+    CELL[14,0] = Pay member
+    CELL[14,1] = $0.00
+  ROW 15 | >Memberresponsibility $0.00 | Policy holder | Group | -
+    CELL[15,0] = >Memberresponsibility $0.00
+    CELL[15,1] = Policy holder
+    CELL[15,2] = Group
+  ROW 16 | 7/18/2026 | - | - | -
+    CELL[16,0] = 7/18/2026
+  ROW 17 | Suffix | - | - | -
+    CELL[17,0] = Suffix
+  ROW 18 | Potential parent claims | Organization name | - | -
+    CELL[18,0] = Potential parent claims
+    CELL[18,1] = Organization name
+  ROW 19 | Patient relationship | Self | - | -
+    CELL[19,0] = Patient relationship
+    CELL[19,1] = Self
+  ROW 20 | Potential duplicate claims | - | - | -
+    CELL[20,0] = Potential duplicate claims
+  ROW 21 | No system identified duplicates. | Providers | - | -
+    CELL[21,0] = No system identified duplicates.
+    CELL[21,1] = Providers
+TABLE 1 | source=wide_grid | bbox=[31,14,1555,80] | shape=2x8 | conf=0.850
+  shape: 2x8
+  HEADER | Cortex-Claim#7S7PQ98D | Latest version (7 of 7) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 3 hours ago | Readjudicate | Actions | -
+    CELL[1,0] = About thls claim Payment Patlent
+    CELL[1,1] = Providers Medical Claim lines
+    CELL[1,4] = 3 hours ago
+    CELL[1,5] = Readjudicate
+    CELL[1,6] = Actions
+TABLE 2 | source=wide_grid | bbox=[31,176,1238,252] | shape=3x4 | conf=0.850
+  shape: 3x4
+  HEADER | See all member's clalms | Charge group | Prompt process due date | 08/05/2026
+  ROW 1 | - | Payment authority NEXTGEN | Interest accrued | $0.00
+    CELL[1,1] = Payment authority NEXTGEN
+    CELL[1,2] = Interest accrued
+    CELL[1,3] = $0.00
+  ROW 2 | Claim state: Blocked | Pay to member No | Excluded from interest | No
+    CELL[2,0] = Claim state: Blocked
+    CELL[2,1] = Pay to member No
+    CELL[2,2] = Excluded from interest
+    CELL[2,3] = No
+TABLE 3 | source=wide_grid | bbox=[31,404,1268,447] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | Middle name | G | Date of birth | 05/27/2026 (2 days)
+  ROW 1 | Billed $944.00 (100%) Last name | HERNANDEZ DE HOYO | Sex | Male
+    CELL[1,0] = Billed $944.00 (100%) Last name
+    CELL[1,1] = HERNANDEZ DE HOYO
+    CELL[1,2] = Sex
+    CELL[1,3] = Male
+TABLE 4 | source=wide_grid | bbox=[30,454,1319,490] | shape=2x3 | conf=0.850
+  shape: 2x3
+  HEADER | Suffix | Address | 21720 NW 3RD ST
+  ROW 1 | Pay provider $101.00 | - | PEMBROKE PINES, FL 33029
+    CELL[1,0] = Pay provider $101.00
+    CELL[1,2] = PEMBROKE PINES, FL 33029
+TABLE 5 | source=wide_grid | bbox=[28,541,1295,611] | shape=3x4 | conf=0.850
+  shape: 3x4
+  HEADER | First name | MASTER | Name | OSCAR HEALTH CLAIMS
+  ROW 1 | Claim lineage Middle name | G | Number | -
+    CELL[1,0] = Claim lineage Middle name
+    CELL[1,1] = G
+    CELL[1,2] = Number
+  ROW 2 | 7S7PQ98D Blocked Last name | HERNANDEZ DE HOYO | Responsibillity sequence | Primary
+    CELL[2,0] = 7S7PQ98D Blocked Last name
+    CELL[2,1] = HERNANDEZ DE HOYO
+    CELL[2,2] = Responsibillity sequence
+    CELL[2,3] = Primary
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[50,14,1555,35] | conf=0.991 | text=Cortex-Claim#7S7PQ98D Latest version (7 of 7) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[50,17,260,33] | text=Cortex-Claim#7S7PQ98D
+  WORD | bbox=[278,17,401,33] | text=Latest version (7 of 7)
+  WORD | bbox=[1106,16,1170,32] | text=Dashboard
+  WORD | bbox=[1191,15,1271,35] | text=Batch History
+  WORD | bbox=[1291,14,1338,35] | text=Testing
+  WORD | bbox=[1359,19,1430,32] | text=Settlements
+  WORD | bbox=[1452,18,1494,32] | text=Search
+  WORD | bbox=[1515,18,1555,32] | text=Create
+LINE 1 | bbox=[31,63,1521,80] | conf=0.992 | text=About thls claim Payment Patlent Providers Medical Claim lines 3 hours ago Readjudicate Actions
+  WORD | bbox=[31,64,126,80] | text=About thls claim
+  WORD | bbox=[149,65,201,80] | text=Payment
+  WORD | bbox=[221,65,266,79] | text=Patlent
+  WORD | bbox=[286,64,345,80] | text=Providers
+  WORD | bbox=[365,65,412,79] | text=Medical
+  WORD | bbox=[434,64,500,80] | text=Claim lines
+  WORD | bbox=[1256,63,1316,80] | text=3 hours ago
+  WORD | bbox=[1339,64,1419,80] | text=Readjudicate
+  WORD | bbox=[1469,65,1521,80] | text=Actions
+LINE 2 | bbox=[32,120,135,137] | conf=0.994 | text=7S7PQ98D
+LINE 3 | bbox=[32,145,386,178] | conf=0.965 | text=Member: Genesis Adriana Herna. 1 Note Payment
+  WORD | bbox=[32,145,218,158] | text=Member: Genesis Adriana Herna..
+  WORD | bbox=[32,162,88,178] | text=1 Note
+  WORD | bbox=[300,150,386,168] | text=Payment
+LINE 4 | bbox=[34,176,1238,195] | conf=0.987 | text=See all member's clalms Charge group Prompt process due date 08/05/2026
+  WORD | bbox=[34,182,168,195] | text=See all member's clalms
+  WORD | bbox=[300,176,379,192] | text=Charge group
+  WORD | bbox=[939,176,1081,192] | text=Prompt process due date
+  WORD | bbox=[1156,177,1238,194] | text=08/05/2026
+LINE 5 | bbox=[299,201,1191,223] | conf=0.997 | text=Payment authority NEXTGEN Interest accrued $0.00
+  WORD | bbox=[299,201,406,218] | text=Payment authority
+  WORD | bbox=[518,201,576,218] | text=NEXTGEN
+  WORD | bbox=[938,206,1035,223] | text=Interest accrued
+  WORD | bbox=[1154,205,1191,223] | text=$0.00
+LINE 6 | bbox=[31,227,1176,252] | conf=0.993 | text=Claim state: Blocked Pay to member No Excluded from interest No
+  WORD | bbox=[31,236,102,252] | text=Claim state:
+  WORD | bbox=[169,237,219,251] | text=Blocked
+  WORD | bbox=[299,227,385,243] | text=Pay to member
+  WORD | bbox=[516,228,536,243] | text=No
+  WORD | bbox=[937,230,1069,248] | text=Excluded from interest
+  WORD | bbox=[1154,233,1176,248] | text=No
+LINE 7 | bbox=[31,267,99,284] | conf=0.955 | text=Blockers (1)
+LINE 8 | bbox=[32,288,115,300] | conf=0.989 | text=NEWBORN
+LINE 9 | bbox=[30,297,375,324] | conf=0.999 | text=Manage Patient
+  WORD | bbox=[30,303,80,324] | text=Manage
+  WORD | bbox=[299,297,375,318] | text=Patient
+LINE 10 | bbox=[299,323,460,336] | conf=0.968 | text=Manually edited - Revert changes
+LINE 11 | bbox=[31,336,94,353] | conf=0.960 | text=Denials (0)
+LINE 12 | bbox=[300,349,512,362] | conf=0.990 | text=Matched Member Submitted Info
+  WORD | bbox=[300,349,401,362] | text=Matched Member
+  WORD | bbox=[426,349,512,362] | text=Submitted Info
+LINE 13 | bbox=[31,356,968,395] | conf=0.992 | text=No denials on this claim. Manage First name MASTER SSN
+  WORD | bbox=[31,356,166,391] | text=No denials on this claim. Manage
+  WORD | bbox=[298,378,362,395] | text=First name
+  WORD | bbox=[519,379,568,393] | text=MASTER
+  WORD | bbox=[936,377,968,395] | text=SSN
+LINE 14 | bbox=[299,404,1268,420] | conf=0.983 | text=Middle name G Date of birth 05/27/2026 (2 days)
+  WORD | bbox=[299,406,374,419] | text=Middle name
+  WORD | bbox=[515,404,531,420] | text=G
+  WORD | bbox=[938,404,1012,420] | text=Date of birth
+  WORD | bbox=[1156,404,1268,420] | text=05/27/2026 (2 days)
+LINE 15 | bbox=[31,419,1188,447] | conf=0.988 | text=Billed $944.00 (100%) Last name HERNANDEZ DE HOYO Sex Male
+  WORD | bbox=[31,420,66,434] | text=Billed
+  WORD | bbox=[142,419,224,435] | text=$944.00 (100%)
+  WORD | bbox=[299,430,360,443] | text=Last name
+  WORD | bbox=[519,432,649,444] | text=HERNANDEZ DE HOYO
+  WORD | bbox=[938,430,962,446] | text=Sex
+  WORD | bbox=[1154,429,1188,447] | text=Male
+LINE 16 | bbox=[31,443,224,460] | conf=0.987 | text=Allowed $101.00 (11%)
+  WORD | bbox=[31,444,79,458] | text=Allowed
+  WORD | bbox=[155,443,224,460] | text=$101.00 (11%)
+LINE 17 | bbox=[298,454,1254,472] | conf=0.965 | text=Suffix Address 21720 NW 3RD ST
+  WORD | bbox=[298,454,336,472] | text=Suffix
+  WORD | bbox=[939,457,988,471] | text=Address
+  WORD | bbox=[1158,457,1254,470] | text=21720 NW 3RD ST
+LINE 18 | bbox=[30,468,1319,498] | conf=0.993 | text=Pay provider $101.00 OSCID OSC7584722101 PEMBROKE PINES, FL 33029
+  WORD | bbox=[30,468,104,485] | text=Pay provider
+  WORD | bbox=[179,470,222,484] | text=$101.00
+  WORD | bbox=[299,482,342,496] | text=OSCID
+  WORD | bbox=[519,481,609,498] | text=OSC7584722101
+  WORD | bbox=[1156,474,1319,490] | text=PEMBROKE PINES, FL 33029
+LINE 19 | bbox=[31,493,224,510] | conf=0.991 | text=Pay member $0.00
+  WORD | bbox=[31,494,104,510] | text=Pay member
+  WORD | bbox=[186,493,224,510] | text=$0.00
+LINE 20 | bbox=[19,516,982,538] | conf=0.985 | text=>Memberresponsibility $0.00 Policy holder Group
+  WORD | bbox=[19,519,160,536] | text=>Memberresponsibility
+  WORD | bbox=[188,519,222,533] | text=$0.00
+  WORD | bbox=[297,517,383,537] | text=Policy holder
+  WORD | bbox=[937,516,982,538] | text=Group
+LINE 21 | bbox=[298,541,1295,559] | conf=0.999 | text=First name MASTER Name OSCAR HEALTH CLAIMS
+  WORD | bbox=[298,542,362,559] | text=First name
+  WORD | bbox=[519,544,568,556] | text=MASTER
+  WORD | bbox=[936,541,976,559] | text=Name
+  WORD | bbox=[1158,544,1295,556] | text=OSCAR HEALTH CLAIMS
+LINE 22 | bbox=[30,564,986,584] | conf=0.990 | text=Claim lineage Middle name G Number
+  WORD | bbox=[30,564,110,582] | text=Claim lineage
+  WORD | bbox=[298,568,375,584] | text=Middle name
+  WORD | bbox=[515,568,531,584] | text=G
+  WORD | bbox=[939,569,986,583] | text=Number
+LINE 23 | bbox=[28,587,1204,611] | conf=0.979 | text=7S7PQ98D Blocked Last name HERNANDEZ DE HOYO Responsibillity sequence Primary
+  WORD | bbox=[28,587,105,603] | text=7S7PQ98D
+  WORD | bbox=[169,589,219,603] | text=Blocked
+  WORD | bbox=[299,596,360,609] | text=Last name
+  WORD | bbox=[518,593,650,610] | text=HERNANDEZ DE HOYO
+  WORD | bbox=[939,596,1075,609] | text=Responsibillity sequence
+  WORD | bbox=[1153,592,1204,611] | text=Primary
+LINE 24 | bbox=[42,607,92,621] | conf=0.984 | text=7/18/2026
+LINE 25 | bbox=[298,619,335,637] | conf=0.897 | text=Suffix
+LINE 26 | bbox=[32,644,409,666] | conf=0.987 | text=Potential parent claims Organization name
+  WORD | bbox=[32,653,164,666] | text=Potential parent claims
+  WORD | bbox=[297,644,409,663] | text=Organization name
+LINE 27 | bbox=[300,672,544,686] | conf=0.986 | text=Patient relationship Self
+  WORD | bbox=[300,673,411,686] | text=Patient relationship
+  WORD | bbox=[516,672,544,686] | text=Self
+LINE 28 | bbox=[32,715,177,728] | conf=0.984 | text=Potential duplicate claims
+LINE 29 | bbox=[31,738,394,756] | conf=0.997 | text=No system identified duplicates. Providers
+  WORD | bbox=[31,740,210,756] | text=No system identified duplicates.
+  WORD | bbox=[301,738,394,756] | text=Providers
+[/BOXES]

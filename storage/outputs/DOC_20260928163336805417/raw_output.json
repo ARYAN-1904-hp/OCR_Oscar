@@ -1,0 +1,2550 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "VERINT MR\nKnowledge Management\nFilters Search Newborn 7/10/26 - KM1014156 9 x\n4 ratings :\nSkip To: Private Information | Tags Refresh\nviouer\nMother\nWorkflow:\nNewborn\nChanges Made:\nApplied Mother's Active Policy that covers the Start DOS of the claim.\nReason for changes:\nBaby has an Active Policy, but the effectuated date is after the Start DOS of the claim.\nMother's Active Policy is Effectuated for the Start DOS of the claim\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)\nWorkflow:\nNewborn\nChanges Made:\nApplied Parent's Active Policy that covers the Start DOS of the claim.\nReason for changes:\nBaby does NOT have an Active Policy that covers the Start DOS of the claim..\nMother's Active Policy is Effectuated for the Start DOS of the claim.\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)\nFather\nFather\nWorkflow:",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "VERINT MR\nKnowledge Management\nFilters Search Newborn 7/10/26 - KM1014156 9 x\n4 ratings :\nSkip To: Private Information | Tags Refresh\nviouer\nMother\nWorkflow:\nNewborn\nChanges Made:\nApplied Mother's Active Policy that covers the Start DOS of the claim.\nReason for changes:\nBaby has an Active Policy, but the effectuated date is after the Start DOS of the claim.\nMother's Active Policy is Effectuated for the Start DOS of the claim\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)\nWorkflow:\nNewborn\nChanges Made:\nApplied Parent's Active Policy that covers the Start DOS of the claim.\nReason for changes:\nBaby does NOT have an Active Policy that covers the Start DOS of the claim..\nMother's Active Policy is Effectuated for the Start DOS of the claim.\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)\nFather\nFather\nWorkflow:",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "label_value",
+              "reading_order": 3,
+              "bbox": [
+                41,
+                127,
+                1586,
+                199
+              ],
+              "text": "4 ratings :\nSkip To: Private Information | Tags Refresh",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "4 ratings :",
+                  "conf": 0.8720341920852661,
+                  "bbox": [
+                    41,
+                    127,
+                    1586,
+                    155
+                  ],
+                  "words": [
+                    {
+                      "text": "4 ratings",
+                      "conf": 0.9560459852218628,
+                      "bbox": [
+                        41,
+                        136,
+                        206,
+                        155
+                      ]
+                    },
+                    {
+                      "text": ":",
+                      "conf": 0.7880223989486694,
+                      "bbox": [
+                        1532,
+                        127,
+                        1586,
+                        154
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Skip To: Private Information | Tags Refresh",
+                  "conf": 0.9879262745380402,
+                  "bbox": [
+                    42,
+                    173,
+                    1585,
+                    199
+                  ],
+                  "words": [
+                    {
+                      "text": "Skip To: Private Information | Tags",
+                      "conf": 0.9814587235450745,
+                      "bbox": [
+                        42,
+                        178,
+                        256,
+                        199
+                      ]
+                    },
+                    {
+                      "text": "Refresh",
+                      "conf": 0.9943938255310059,
+                      "bbox": [
+                        1534,
+                        173,
+                        1585,
+                        191
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 4,
+              "bbox": [
+                74,
+                208,
+                849,
+                260
+              ],
+              "text": "viouer\nMother",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "viouer",
+                  "conf": 0.8123986721038818,
+                  "bbox": [
+                    782,
+                    208,
+                    849,
+                    224
+                  ],
+                  "words": [
+                    {
+                      "text": "viouer",
+                      "conf": 0.8123986721038818,
+                      "bbox": [
+                        782,
+                        208,
+                        849,
+                        224
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Mother",
+                  "conf": 0.9990938305854797,
+                  "bbox": [
+                    74,
+                    238,
+                    142,
+                    260
+                  ],
+                  "words": [
+                    {
+                      "text": "Mother",
+                      "conf": 0.9990938305854797,
+                      "bbox": [
+                        74,
+                        238,
+                        142,
+                        260
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 5,
+              "bbox": [
+                75,
+                269,
+                160,
+                290
+              ],
+              "text": "Workflow:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Workflow:",
+                  "conf": 0.99359130859375,
+                  "bbox": [
+                    75,
+                    269,
+                    160,
+                    290
+                  ],
+                  "words": [
+                    {
+                      "text": "Workflow:",
+                      "conf": 0.99359130859375,
+                      "bbox": [
+                        75,
+                        269,
+                        160,
+                        290
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 6,
+              "bbox": [
+                72,
+                286,
+                145,
+                311
+              ],
+              "text": "Newborn",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn",
+                  "conf": 0.9990072250366211,
+                  "bbox": [
+                    72,
+                    286,
+                    145,
+                    311
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn",
+                      "conf": 0.9990072250366211,
+                      "bbox": [
+                        72,
+                        286,
+                        145,
+                        311
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 7,
+              "bbox": [
+                76,
+                318,
+                204,
+                339
+              ],
+              "text": "Changes Made:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Changes Made:",
+                  "conf": 0.9881147146224976,
+                  "bbox": [
+                    76,
+                    318,
+                    204,
+                    339
+                  ],
+                  "words": [
+                    {
+                      "text": "Changes Made:",
+                      "conf": 0.9881147146224976,
+                      "bbox": [
+                        76,
+                        318,
+                        204,
+                        339
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 8,
+              "bbox": [
+                74,
+                335,
+                593,
+                359
+              ],
+              "text": "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+                  "conf": 0.9600000381469727,
+                  "bbox": [
+                    74,
+                    335,
+                    593,
+                    359
+                  ],
+                  "words": [
+                    {
+                      "text": "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+                      "conf": 0.9600000381469727,
+                      "bbox": [
+                        74,
+                        335,
+                        593,
+                        359
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 9,
+              "bbox": [
+                76,
+                368,
+                242,
+                384
+              ],
+              "text": "Reason for changes:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Reason for changes:",
+                  "conf": 0.9853492379188538,
+                  "bbox": [
+                    76,
+                    368,
+                    242,
+                    384
+                  ],
+                  "words": [
+                    {
+                      "text": "Reason for changes:",
+                      "conf": 0.9853492379188538,
+                      "bbox": [
+                        76,
+                        368,
+                        242,
+                        384
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 10,
+              "bbox": [
+                74,
+                383,
+                1158,
+                444
+              ],
+              "text": "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.\nMother's Active Policy is Effectuated for the Start DOS of the claim\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.",
+                  "conf": 0.9723455905914307,
+                  "bbox": [
+                    74,
+                    383,
+                    708,
+                    406
+                  ],
+                  "words": [
+                    {
+                      "text": "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.",
+                      "conf": 0.9723455905914307,
+                      "bbox": [
+                        74,
+                        383,
+                        708,
+                        406
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim",
+                  "conf": 0.9634133577346802,
+                  "bbox": [
+                    76,
+                    405,
+                    574,
+                    424
+                  ],
+                  "words": [
+                    {
+                      "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim",
+                      "conf": 0.9634133577346802,
+                      "bbox": [
+                        76,
+                        405,
+                        574,
+                        424
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+                  "conf": 0.9550467729568481,
+                  "bbox": [
+                    75,
+                    420,
+                    1158,
+                    444
+                  ],
+                  "words": [
+                    {
+                      "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+                      "conf": 0.9550467729568481,
+                      "bbox": [
+                        75,
+                        420,
+                        1158,
+                        444
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 11,
+              "bbox": [
+                78,
+                485,
+                160,
+                503
+              ],
+              "text": "Workflow:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Workflow:",
+                  "conf": 0.9727394580841064,
+                  "bbox": [
+                    78,
+                    485,
+                    160,
+                    503
+                  ],
+                  "words": [
+                    {
+                      "text": "Workflow:",
+                      "conf": 0.9727394580841064,
+                      "bbox": [
+                        78,
+                        485,
+                        160,
+                        503
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 12,
+              "bbox": [
+                74,
+                501,
+                146,
+                523
+              ],
+              "text": "Newborn",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Newborn",
+                  "conf": 0.9986187815666199,
+                  "bbox": [
+                    74,
+                    501,
+                    146,
+                    523
+                  ],
+                  "words": [
+                    {
+                      "text": "Newborn",
+                      "conf": 0.9986187815666199,
+                      "bbox": [
+                        74,
+                        501,
+                        146,
+                        523
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 13,
+              "bbox": [
+                78,
+                532,
+                204,
+                552
+              ],
+              "text": "Changes Made:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Changes Made:",
+                  "conf": 0.9583516716957092,
+                  "bbox": [
+                    78,
+                    532,
+                    204,
+                    552
+                  ],
+                  "words": [
+                    {
+                      "text": "Changes Made:",
+                      "conf": 0.9583516716957092,
+                      "bbox": [
+                        78,
+                        532,
+                        204,
+                        552
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 14,
+              "bbox": [
+                75,
+                550,
+                585,
+                573
+              ],
+              "text": "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+                  "conf": 0.9757863879203796,
+                  "bbox": [
+                    75,
+                    550,
+                    585,
+                    573
+                  ],
+                  "words": [
+                    {
+                      "text": "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+                      "conf": 0.9757863879203796,
+                      "bbox": [
+                        75,
+                        550,
+                        585,
+                        573
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 15,
+              "bbox": [
+                76,
+                582,
+                245,
+                602
+              ],
+              "text": "Reason for changes:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Reason for changes:",
+                  "conf": 0.9909590482711792,
+                  "bbox": [
+                    76,
+                    582,
+                    245,
+                    602
+                  ],
+                  "words": [
+                    {
+                      "text": "Reason for changes:",
+                      "conf": 0.9909590482711792,
+                      "bbox": [
+                        76,
+                        582,
+                        245,
+                        602
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 16,
+              "bbox": [
+                75,
+                597,
+                1153,
+                692
+              ],
+              "text": "Baby does NOT have an Active Policy that covers the Start DOS of the claim..\nMother's Active Policy is Effectuated for the Start DOS of the claim.\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)\nFather",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Baby does NOT have an Active Policy that covers the Start DOS of the claim..",
+                  "conf": 0.9802207946777344,
+                  "bbox": [
+                    75,
+                    597,
+                    648,
+                    621
+                  ],
+                  "words": [
+                    {
+                      "text": "Baby does NOT have an Active Policy that covers the Start DOS of the claim..",
+                      "conf": 0.9802207946777344,
+                      "bbox": [
+                        75,
+                        597,
+                        648,
+                        621
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim.",
+                  "conf": 0.9575613141059875,
+                  "bbox": [
+                    76,
+                    629,
+                    576,
+                    648
+                  ],
+                  "words": [
+                    {
+                      "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim.",
+                      "conf": 0.9575613141059875,
+                      "bbox": [
+                        76,
+                        629,
+                        576,
+                        648
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)",
+                  "conf": 0.9678520560264587,
+                  "bbox": [
+                    75,
+                    644,
+                    1153,
+                    670
+                  ],
+                  "words": [
+                    {
+                      "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)",
+                      "conf": 0.9678520560264587,
+                      "bbox": [
+                        75,
+                        644,
+                        1153,
+                        670
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 3,
+                  "text": "Father",
+                  "conf": 0.997661292552948,
+                  "bbox": [
+                    785,
+                    667,
+                    849,
+                    692
+                  ],
+                  "words": [
+                    {
+                      "text": "Father",
+                      "conf": 0.997661292552948,
+                      "bbox": [
+                        785,
+                        667,
+                        849,
+                        692
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "4 ratings :\nSkip To: Private Information | Tags Refresh\nviouer\nMother\nWorkflow:\nNewborn\nChanges Made:\nApplied Mother's Active Policy that covers the Start DOS of the claim.\nReason for changes:\nBaby has an Active Policy, but the effectuated date is after the Start DOS of the claim.\nMother's Active Policy is Effectuated for the Start DOS of the claim\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)\nWorkflow:\nNewborn\nChanges Made:\nApplied Parent's Active Policy that covers the Start DOS of the claim.\nReason for changes:\nBaby does NOT have an Active Policy that covers the Start DOS of the claim..\nMother's Active Policy is Effectuated for the Start DOS of the claim.\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)\nFather"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            59,
+            18,
+            1566,
+            38
+          ],
+          "text": "VERINT MR",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "VERINT MR",
+              "conf": 0.9946238696575165,
+              "bbox": [
+                59,
+                18,
+                1566,
+                38
+              ],
+              "words": [
+                {
+                  "text": "VERINT",
+                  "conf": 0.9976246953010559,
+                  "bbox": [
+                    59,
+                    18,
+                    148,
+                    36
+                  ]
+                },
+                {
+                  "text": "MR",
+                  "conf": 0.991623044013977,
+                  "bbox": [
+                    1539,
+                    24,
+                    1566,
+                    38
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            29,
+            41,
+            176,
+            57
+          ],
+          "text": "Knowledge Management",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Knowledge Management",
+              "conf": 0.9838385581970215,
+              "bbox": [
+                29,
+                41,
+                176,
+                57
+              ],
+              "words": [
+                {
+                  "text": "Knowledge Management",
+                  "conf": 0.9838385581970215,
+                  "bbox": [
+                    29,
+                    41,
+                    176,
+                    57
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            4,
+            82,
+            1591,
+            132
+          ],
+          "text": "Filters Search Newborn 7/10/26 - KM1014156 9 x",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Filters Search Newborn 7/10/26 - KM1014156 9 x",
+              "conf": 0.8791703507304192,
+              "bbox": [
+                4,
+                82,
+                1591,
+                132
+              ],
+              "words": [
+                {
+                  "text": "Filters",
+                  "conf": 0.9725443124771118,
+                  "bbox": [
+                    4,
+                    93,
+                    12,
+                    129
+                  ]
+                },
+                {
+                  "text": "Search",
+                  "conf": 0.9974493384361267,
+                  "bbox": [
+                    16,
+                    90,
+                    30,
+                    132
+                  ]
+                },
+                {
+                  "text": "Newborn 7/10/26 - KM1014156",
+                  "conf": 0.9784806668758392,
+                  "bbox": [
+                    91,
+                    87,
+                    222,
+                    122
+                  ]
+                },
+                {
+                  "text": "9 x",
+                  "conf": 0.5682070851325989,
+                  "bbox": [
+                    1543,
+                    82,
+                    1591,
+                    111
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 3,
+          "bbox": [
+            41,
+            127,
+            1586,
+            199
+          ],
+          "text": "4 ratings :\nSkip To: Private Information | Tags Refresh",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "4 ratings :",
+              "conf": 0.8720341920852661,
+              "bbox": [
+                41,
+                127,
+                1586,
+                155
+              ],
+              "words": [
+                {
+                  "text": "4 ratings",
+                  "conf": 0.9560459852218628,
+                  "bbox": [
+                    41,
+                    136,
+                    206,
+                    155
+                  ]
+                },
+                {
+                  "text": ":",
+                  "conf": 0.7880223989486694,
+                  "bbox": [
+                    1532,
+                    127,
+                    1586,
+                    154
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Skip To: Private Information | Tags Refresh",
+              "conf": 0.9879262745380402,
+              "bbox": [
+                42,
+                173,
+                1585,
+                199
+              ],
+              "words": [
+                {
+                  "text": "Skip To: Private Information | Tags",
+                  "conf": 0.9814587235450745,
+                  "bbox": [
+                    42,
+                    178,
+                    256,
+                    199
+                  ]
+                },
+                {
+                  "text": "Refresh",
+                  "conf": 0.9943938255310059,
+                  "bbox": [
+                    1534,
+                    173,
+                    1585,
+                    191
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 4,
+          "bbox": [
+            74,
+            208,
+            849,
+            260
+          ],
+          "text": "viouer\nMother",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "viouer",
+              "conf": 0.8123986721038818,
+              "bbox": [
+                782,
+                208,
+                849,
+                224
+              ],
+              "words": [
+                {
+                  "text": "viouer",
+                  "conf": 0.8123986721038818,
+                  "bbox": [
+                    782,
+                    208,
+                    849,
+                    224
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Mother",
+              "conf": 0.9990938305854797,
+              "bbox": [
+                74,
+                238,
+                142,
+                260
+              ],
+              "words": [
+                {
+                  "text": "Mother",
+                  "conf": 0.9990938305854797,
+                  "bbox": [
+                    74,
+                    238,
+                    142,
+                    260
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 5,
+          "bbox": [
+            75,
+            269,
+            160,
+            290
+          ],
+          "text": "Workflow:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Workflow:",
+              "conf": 0.99359130859375,
+              "bbox": [
+                75,
+                269,
+                160,
+                290
+              ],
+              "words": [
+                {
+                  "text": "Workflow:",
+                  "conf": 0.99359130859375,
+                  "bbox": [
+                    75,
+                    269,
+                    160,
+                    290
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 6,
+          "bbox": [
+            72,
+            286,
+            145,
+            311
+          ],
+          "text": "Newborn",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn",
+              "conf": 0.9990072250366211,
+              "bbox": [
+                72,
+                286,
+                145,
+                311
+              ],
+              "words": [
+                {
+                  "text": "Newborn",
+                  "conf": 0.9990072250366211,
+                  "bbox": [
+                    72,
+                    286,
+                    145,
+                    311
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 7,
+          "bbox": [
+            76,
+            318,
+            204,
+            339
+          ],
+          "text": "Changes Made:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Changes Made:",
+              "conf": 0.9881147146224976,
+              "bbox": [
+                76,
+                318,
+                204,
+                339
+              ],
+              "words": [
+                {
+                  "text": "Changes Made:",
+                  "conf": 0.9881147146224976,
+                  "bbox": [
+                    76,
+                    318,
+                    204,
+                    339
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 8,
+          "bbox": [
+            74,
+            335,
+            593,
+            359
+          ],
+          "text": "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+              "conf": 0.9600000381469727,
+              "bbox": [
+                74,
+                335,
+                593,
+                359
+              ],
+              "words": [
+                {
+                  "text": "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+                  "conf": 0.9600000381469727,
+                  "bbox": [
+                    74,
+                    335,
+                    593,
+                    359
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 9,
+          "bbox": [
+            76,
+            368,
+            242,
+            384
+          ],
+          "text": "Reason for changes:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Reason for changes:",
+              "conf": 0.9853492379188538,
+              "bbox": [
+                76,
+                368,
+                242,
+                384
+              ],
+              "words": [
+                {
+                  "text": "Reason for changes:",
+                  "conf": 0.9853492379188538,
+                  "bbox": [
+                    76,
+                    368,
+                    242,
+                    384
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 10,
+          "bbox": [
+            74,
+            383,
+            1158,
+            444
+          ],
+          "text": "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.\nMother's Active Policy is Effectuated for the Start DOS of the claim\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.",
+              "conf": 0.9723455905914307,
+              "bbox": [
+                74,
+                383,
+                708,
+                406
+              ],
+              "words": [
+                {
+                  "text": "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.",
+                  "conf": 0.9723455905914307,
+                  "bbox": [
+                    74,
+                    383,
+                    708,
+                    406
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim",
+              "conf": 0.9634133577346802,
+              "bbox": [
+                76,
+                405,
+                574,
+                424
+              ],
+              "words": [
+                {
+                  "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim",
+                  "conf": 0.9634133577346802,
+                  "bbox": [
+                    76,
+                    405,
+                    574,
+                    424
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+              "conf": 0.9550467729568481,
+              "bbox": [
+                75,
+                420,
+                1158,
+                444
+              ],
+              "words": [
+                {
+                  "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+                  "conf": 0.9550467729568481,
+                  "bbox": [
+                    75,
+                    420,
+                    1158,
+                    444
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 11,
+          "bbox": [
+            78,
+            485,
+            160,
+            503
+          ],
+          "text": "Workflow:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Workflow:",
+              "conf": 0.9727394580841064,
+              "bbox": [
+                78,
+                485,
+                160,
+                503
+              ],
+              "words": [
+                {
+                  "text": "Workflow:",
+                  "conf": 0.9727394580841064,
+                  "bbox": [
+                    78,
+                    485,
+                    160,
+                    503
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 12,
+          "bbox": [
+            74,
+            501,
+            146,
+            523
+          ],
+          "text": "Newborn",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Newborn",
+              "conf": 0.9986187815666199,
+              "bbox": [
+                74,
+                501,
+                146,
+                523
+              ],
+              "words": [
+                {
+                  "text": "Newborn",
+                  "conf": 0.9986187815666199,
+                  "bbox": [
+                    74,
+                    501,
+                    146,
+                    523
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 13,
+          "bbox": [
+            78,
+            532,
+            204,
+            552
+          ],
+          "text": "Changes Made:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Changes Made:",
+              "conf": 0.9583516716957092,
+              "bbox": [
+                78,
+                532,
+                204,
+                552
+              ],
+              "words": [
+                {
+                  "text": "Changes Made:",
+                  "conf": 0.9583516716957092,
+                  "bbox": [
+                    78,
+                    532,
+                    204,
+                    552
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 14,
+          "bbox": [
+            75,
+            550,
+            585,
+            573
+          ],
+          "text": "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+              "conf": 0.9757863879203796,
+              "bbox": [
+                75,
+                550,
+                585,
+                573
+              ],
+              "words": [
+                {
+                  "text": "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+                  "conf": 0.9757863879203796,
+                  "bbox": [
+                    75,
+                    550,
+                    585,
+                    573
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 15,
+          "bbox": [
+            76,
+            582,
+            245,
+            602
+          ],
+          "text": "Reason for changes:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Reason for changes:",
+              "conf": 0.9909590482711792,
+              "bbox": [
+                76,
+                582,
+                245,
+                602
+              ],
+              "words": [
+                {
+                  "text": "Reason for changes:",
+                  "conf": 0.9909590482711792,
+                  "bbox": [
+                    76,
+                    582,
+                    245,
+                    602
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 16,
+          "bbox": [
+            75,
+            597,
+            1153,
+            692
+          ],
+          "text": "Baby does NOT have an Active Policy that covers the Start DOS of the claim..\nMother's Active Policy is Effectuated for the Start DOS of the claim.\nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)\nFather",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Baby does NOT have an Active Policy that covers the Start DOS of the claim..",
+              "conf": 0.9802207946777344,
+              "bbox": [
+                75,
+                597,
+                648,
+                621
+              ],
+              "words": [
+                {
+                  "text": "Baby does NOT have an Active Policy that covers the Start DOS of the claim..",
+                  "conf": 0.9802207946777344,
+                  "bbox": [
+                    75,
+                    597,
+                    648,
+                    621
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim.",
+              "conf": 0.9575613141059875,
+              "bbox": [
+                76,
+                629,
+                576,
+                648
+              ],
+              "words": [
+                {
+                  "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim.",
+                  "conf": 0.9575613141059875,
+                  "bbox": [
+                    76,
+                    629,
+                    576,
+                    648
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)",
+              "conf": 0.9678520560264587,
+              "bbox": [
+                75,
+                644,
+                1153,
+                670
+              ],
+              "words": [
+                {
+                  "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)",
+                  "conf": 0.9678520560264587,
+                  "bbox": [
+                    75,
+                    644,
+                    1153,
+                    670
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Father",
+              "conf": 0.997661292552948,
+              "bbox": [
+                785,
+                667,
+                849,
+                692
+              ],
+              "words": [
+                {
+                  "text": "Father",
+                  "conf": 0.997661292552948,
+                  "bbox": [
+                    785,
+                    667,
+                    849,
+                    692
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 17,
+          "bbox": [
+            75,
+            707,
+            140,
+            734
+          ],
+          "text": "Father",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Father",
+              "conf": 0.9978457093238831,
+              "bbox": [
+                75,
+                707,
+                140,
+                734
+              ],
+              "words": [
+                {
+                  "text": "Father",
+                  "conf": 0.9978457093238831,
+                  "bbox": [
+                    75,
+                    707,
+                    140,
+                    734
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 18,
+          "bbox": [
+            78,
+            742,
+            162,
+            764
+          ],
+          "text": "Workflow:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Workflow:",
+              "conf": 0.9802984595298767,
+              "bbox": [
+                78,
+                742,
+                162,
+                764
+              ],
+              "words": [
+                {
+                  "text": "Workflow:",
+                  "conf": 0.9802984595298767,
+                  "bbox": [
+                    78,
+                    742,
+                    162,
+                    764
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            29,
+            18,
+            1566,
+            764
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>VERINT</td><td></td><td>MR</td><td></td></tr><tr><td>Knowledge Management</td><td></td><td></td><td></td></tr><tr><td>viouer</td><td></td><td></td><td></td></tr><tr><td>Mother</td><td></td><td></td><td></td></tr><tr><td>Workflow:</td><td></td><td></td><td></td></tr><tr><td>Newborn</td><td></td><td></td><td></td></tr><tr><td>Changes Made:</td><td></td><td></td><td></td></tr><tr><td>Applied Mother&#x27;s Active Policy that covers the Start DOS of the claim.</td><td></td><td></td><td></td></tr><tr><td>Reason for changes:</td><td></td><td></td><td></td></tr><tr><td>Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.</td><td></td><td></td><td></td></tr><tr><td>Mother&#x27;s Active Policy is Effectuated for the Start DOS of the claim</td><td></td><td></td><td></td></tr><tr><td>Baby&#x27;s claim will be covered by the Mother&#x27;s Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)</td><td></td><td></td><td></td></tr><tr><td>Workflow:</td><td></td><td></td><td></td></tr><tr><td>Newborn</td><td></td><td></td><td></td></tr><tr><td>Changes Made:</td><td></td><td></td><td></td></tr><tr><td>Applied Parent&#x27;s Active Policy that covers the Start DOS of the claim.</td><td></td><td></td><td></td></tr><tr><td>Reason for changes:</td><td></td><td></td><td></td></tr><tr><td>Baby does NOT have an Active Policy that covers the Start DOS of the claim..</td><td></td><td></td><td></td></tr><tr><td>Mother&#x27;s Active Policy is Effectuated for the Start DOS of the claim.</td><td></td><td></td><td></td></tr><tr><td>Baby&#x27;s claim will be covered by the Mother&#x27;s Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)</td><td></td><td></td><td></td></tr><tr><td>Father</td><td></td><td></td><td></td></tr><tr><td>Father</td><td></td><td></td><td></td></tr><tr><td>Workflow:</td><td></td><td></td><td></td></tr></table>",
+          "text": "VERINT: \nMR: \nKnowledge Management: \nviouer: \nMother: \nWorkflow:: \nNewborn: \nChanges Made:: \nApplied Mother's Active Policy that covers the Start DOS of the claim.: \nReason for changes:: \nBaby has an Active Policy, but the effectuated date is after the Start DOS of the claim.: \nMother's Active Policy is Effectuated for the Start DOS of the claim: \nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules): \nWorkflow:: \nNewborn: \nChanges Made:: \nApplied Parent's Active Policy that covers the Start DOS of the claim.: \nReason for changes:: \nBaby does NOT have an Active Policy that covers the Start DOS of the claim..: \nMother's Active Policy is Effectuated for the Start DOS of the claim.: \nBaby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules): \nFather: \nFather: \nWorkflow:: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "VERINT",
+              "",
+              "MR",
+              ""
+            ],
+            [
+              "Knowledge Management",
+              "",
+              "",
+              ""
+            ],
+            [
+              "viouer",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Mother",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Workflow:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Changes Made:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Reason for changes:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Mother's Active Policy is Effectuated for the Start DOS of the claim",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Workflow:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Newborn",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Changes Made:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Reason for changes:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Baby does NOT have an Active Policy that covers the Start DOS of the claim..",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Mother's Active Policy is Effectuated for the Start DOS of the claim.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Father",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Father",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Workflow:",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "VERINT",
+              "MR"
+            ],
+            [
+              "Knowledge Management",
+              ""
+            ],
+            [
+              "viouer",
+              ""
+            ],
+            [
+              "Mother",
+              ""
+            ],
+            [
+              "Workflow:",
+              ""
+            ],
+            [
+              "Newborn",
+              ""
+            ],
+            [
+              "Changes Made:",
+              ""
+            ],
+            [
+              "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+              ""
+            ],
+            [
+              "Reason for changes:",
+              ""
+            ],
+            [
+              "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.",
+              ""
+            ],
+            [
+              "Mother's Active Policy is Effectuated for the Start DOS of the claim",
+              ""
+            ],
+            [
+              "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+              ""
+            ],
+            [
+              "Workflow:",
+              ""
+            ],
+            [
+              "Newborn",
+              ""
+            ],
+            [
+              "Changes Made:",
+              ""
+            ],
+            [
+              "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+              ""
+            ],
+            [
+              "Reason for changes:",
+              ""
+            ],
+            [
+              "Baby does NOT have an Active Policy that covers the Start DOS of the claim..",
+              ""
+            ],
+            [
+              "Mother's Active Policy is Effectuated for the Start DOS of the claim.",
+              ""
+            ],
+            [
+              "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)",
+              ""
+            ],
+            [
+              "Father",
+              ""
+            ],
+            [
+              "Father",
+              ""
+            ],
+            [
+              "Workflow:",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            4,
+            82,
+            1591,
+            199
+          ],
+          "html": "<table><tr><th>Filters Search</th><th>Newborn 7/10/26 - KM1014156</th><th>9 x</th></tr><tr><td></td><td>4 ratings</td><td>:</td></tr><tr><td></td><td>Skip To: Private Information | Tags</td><td>Refresh</td></tr></table>",
+          "text": " | 4 ratings | :\n | Skip To: Private Information | Tags | Refresh",
+          "headers": [
+            "Filters Search",
+            "Newborn 7/10/26 - KM1014156",
+            "9 x"
+          ],
+          "rows": [
+            [
+              "",
+              "4 ratings",
+              ":"
+            ],
+            [
+              "",
+              "Skip To: Private Information | Tags",
+              "Refresh"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "VERINT MR",
+          "conf": 0.9946238696575165,
+          "bbox": [
+            59,
+            18,
+            1566,
+            38
+          ],
+          "words": [
+            {
+              "text": "VERINT",
+              "conf": 0.9976246953010559,
+              "bbox": [
+                59,
+                18,
+                148,
+                36
+              ]
+            },
+            {
+              "text": "MR",
+              "conf": 0.991623044013977,
+              "bbox": [
+                1539,
+                24,
+                1566,
+                38
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Knowledge Management",
+          "conf": 0.9838385581970215,
+          "bbox": [
+            29,
+            41,
+            176,
+            57
+          ],
+          "words": [
+            {
+              "text": "Knowledge Management",
+              "conf": 0.9838385581970215,
+              "bbox": [
+                29,
+                41,
+                176,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Filters Search Newborn 7/10/26 - KM1014156 9 x",
+          "conf": 0.8791703507304192,
+          "bbox": [
+            4,
+            82,
+            1591,
+            132
+          ],
+          "words": [
+            {
+              "text": "Filters",
+              "conf": 0.9725443124771118,
+              "bbox": [
+                4,
+                93,
+                12,
+                129
+              ]
+            },
+            {
+              "text": "Search",
+              "conf": 0.9974493384361267,
+              "bbox": [
+                16,
+                90,
+                30,
+                132
+              ]
+            },
+            {
+              "text": "Newborn 7/10/26 - KM1014156",
+              "conf": 0.9784806668758392,
+              "bbox": [
+                91,
+                87,
+                222,
+                122
+              ]
+            },
+            {
+              "text": "9 x",
+              "conf": 0.5682070851325989,
+              "bbox": [
+                1543,
+                82,
+                1591,
+                111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "4 ratings :",
+          "conf": 0.8720341920852661,
+          "bbox": [
+            41,
+            127,
+            1586,
+            155
+          ],
+          "words": [
+            {
+              "text": "4 ratings",
+              "conf": 0.9560459852218628,
+              "bbox": [
+                41,
+                136,
+                206,
+                155
+              ]
+            },
+            {
+              "text": ":",
+              "conf": 0.7880223989486694,
+              "bbox": [
+                1532,
+                127,
+                1586,
+                154
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Skip To: Private Information | Tags Refresh",
+          "conf": 0.9879262745380402,
+          "bbox": [
+            42,
+            173,
+            1585,
+            199
+          ],
+          "words": [
+            {
+              "text": "Skip To: Private Information | Tags",
+              "conf": 0.9814587235450745,
+              "bbox": [
+                42,
+                178,
+                256,
+                199
+              ]
+            },
+            {
+              "text": "Refresh",
+              "conf": 0.9943938255310059,
+              "bbox": [
+                1534,
+                173,
+                1585,
+                191
+              ]
+            }
+          ]
+        },
+        {
+          "text": "viouer",
+          "conf": 0.8123986721038818,
+          "bbox": [
+            782,
+            208,
+            849,
+            224
+          ],
+          "words": [
+            {
+              "text": "viouer",
+              "conf": 0.8123986721038818,
+              "bbox": [
+                782,
+                208,
+                849,
+                224
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mother",
+          "conf": 0.9990938305854797,
+          "bbox": [
+            74,
+            238,
+            142,
+            260
+          ],
+          "words": [
+            {
+              "text": "Mother",
+              "conf": 0.9990938305854797,
+              "bbox": [
+                74,
+                238,
+                142,
+                260
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Workflow:",
+          "conf": 0.99359130859375,
+          "bbox": [
+            75,
+            269,
+            160,
+            290
+          ],
+          "words": [
+            {
+              "text": "Workflow:",
+              "conf": 0.99359130859375,
+              "bbox": [
+                75,
+                269,
+                160,
+                290
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn",
+          "conf": 0.9990072250366211,
+          "bbox": [
+            72,
+            286,
+            145,
+            311
+          ],
+          "words": [
+            {
+              "text": "Newborn",
+              "conf": 0.9990072250366211,
+              "bbox": [
+                72,
+                286,
+                145,
+                311
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Changes Made:",
+          "conf": 0.9881147146224976,
+          "bbox": [
+            76,
+            318,
+            204,
+            339
+          ],
+          "words": [
+            {
+              "text": "Changes Made:",
+              "conf": 0.9881147146224976,
+              "bbox": [
+                76,
+                318,
+                204,
+                339
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+          "conf": 0.9600000381469727,
+          "bbox": [
+            74,
+            335,
+            593,
+            359
+          ],
+          "words": [
+            {
+              "text": "Applied Mother's Active Policy that covers the Start DOS of the claim.",
+              "conf": 0.9600000381469727,
+              "bbox": [
+                74,
+                335,
+                593,
+                359
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reason for changes:",
+          "conf": 0.9853492379188538,
+          "bbox": [
+            76,
+            368,
+            242,
+            384
+          ],
+          "words": [
+            {
+              "text": "Reason for changes:",
+              "conf": 0.9853492379188538,
+              "bbox": [
+                76,
+                368,
+                242,
+                384
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.",
+          "conf": 0.9723455905914307,
+          "bbox": [
+            74,
+            383,
+            708,
+            406
+          ],
+          "words": [
+            {
+              "text": "Baby has an Active Policy, but the effectuated date is after the Start DOS of the claim.",
+              "conf": 0.9723455905914307,
+              "bbox": [
+                74,
+                383,
+                708,
+                406
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim",
+          "conf": 0.9634133577346802,
+          "bbox": [
+            76,
+            405,
+            574,
+            424
+          ],
+          "words": [
+            {
+              "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim",
+              "conf": 0.9634133577346802,
+              "bbox": [
+                76,
+                405,
+                574,
+                424
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+          "conf": 0.9550467729568481,
+          "bbox": [
+            75,
+            420,
+            1158,
+            444
+          ],
+          "words": [
+            {
+              "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB,State specific Rules)",
+              "conf": 0.9550467729568481,
+              "bbox": [
+                75,
+                420,
+                1158,
+                444
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Workflow:",
+          "conf": 0.9727394580841064,
+          "bbox": [
+            78,
+            485,
+            160,
+            503
+          ],
+          "words": [
+            {
+              "text": "Workflow:",
+              "conf": 0.9727394580841064,
+              "bbox": [
+                78,
+                485,
+                160,
+                503
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Newborn",
+          "conf": 0.9986187815666199,
+          "bbox": [
+            74,
+            501,
+            146,
+            523
+          ],
+          "words": [
+            {
+              "text": "Newborn",
+              "conf": 0.9986187815666199,
+              "bbox": [
+                74,
+                501,
+                146,
+                523
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Changes Made:",
+          "conf": 0.9583516716957092,
+          "bbox": [
+            78,
+            532,
+            204,
+            552
+          ],
+          "words": [
+            {
+              "text": "Changes Made:",
+              "conf": 0.9583516716957092,
+              "bbox": [
+                78,
+                532,
+                204,
+                552
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+          "conf": 0.9757863879203796,
+          "bbox": [
+            75,
+            550,
+            585,
+            573
+          ],
+          "words": [
+            {
+              "text": "Applied Parent's Active Policy that covers the Start DOS of the claim.",
+              "conf": 0.9757863879203796,
+              "bbox": [
+                75,
+                550,
+                585,
+                573
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reason for changes:",
+          "conf": 0.9909590482711792,
+          "bbox": [
+            76,
+            582,
+            245,
+            602
+          ],
+          "words": [
+            {
+              "text": "Reason for changes:",
+              "conf": 0.9909590482711792,
+              "bbox": [
+                76,
+                582,
+                245,
+                602
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Baby does NOT have an Active Policy that covers the Start DOS of the claim..",
+          "conf": 0.9802207946777344,
+          "bbox": [
+            75,
+            597,
+            648,
+            621
+          ],
+          "words": [
+            {
+              "text": "Baby does NOT have an Active Policy that covers the Start DOS of the claim..",
+              "conf": 0.9802207946777344,
+              "bbox": [
+                75,
+                597,
+                648,
+                621
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim.",
+          "conf": 0.9575613141059875,
+          "bbox": [
+            76,
+            629,
+            576,
+            648
+          ],
+          "words": [
+            {
+              "text": "Mother's Active Policy is Effectuated for the Start DOS of the claim.",
+              "conf": 0.9575613141059875,
+              "bbox": [
+                76,
+                629,
+                576,
+                648
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)",
+          "conf": 0.9678520560264587,
+          "bbox": [
+            75,
+            644,
+            1153,
+            670
+          ],
+          "words": [
+            {
+              "text": "Baby's claim will be covered by the Mother's Active Policy Per the 48/96 hr ACA requirement (plus 31/60/90 Days from DOB, State specific Rules)",
+              "conf": 0.9678520560264587,
+              "bbox": [
+                75,
+                644,
+                1153,
+                670
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Father",
+          "conf": 0.997661292552948,
+          "bbox": [
+            785,
+            667,
+            849,
+            692
+          ],
+          "words": [
+            {
+              "text": "Father",
+              "conf": 0.997661292552948,
+              "bbox": [
+                785,
+                667,
+                849,
+                692
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Father",
+          "conf": 0.9978457093238831,
+          "bbox": [
+            75,
+            707,
+            140,
+            734
+          ],
+          "words": [
+            {
+              "text": "Father",
+              "conf": 0.9978457093238831,
+              "bbox": [
+                75,
+                707,
+                140,
+                734
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Workflow:",
+          "conf": 0.9802984595298767,
+          "bbox": [
+            78,
+            742,
+            162,
+            764
+          ],
+          "words": [
+            {
+              "text": "Workflow:",
+              "conf": 0.9802984595298767,
+              "bbox": [
+                78,
+                742,
+                162,
+                764
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

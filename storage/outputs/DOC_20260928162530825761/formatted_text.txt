@@ -1,0 +1,169 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=15 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 16x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT Knowledge Management | - | MR | -
+  CELL[1,0] = VERINT Knowledge Management
+  CELL[1,2] = MR
+ROW 2 | Newborn Blocker Workflow Diagrams | - | - | -
+  CELL[2,0] = Newborn Blocker Workflow Diagrams
+ROW 3 | Newborn Blocker Workflows (Includes Newborn and Child Workflows) | - | - | -
+  CELL[3,0] = Newborn Blocker Workflows (Includes Newborn and Child Workflows)
+ROW 4 | Newborn Claim Workflow Diagrams | - | - | -
+  CELL[4,0] = Newborn Claim Workflow Diagrams
+ROW 5 | Newborn Claim Workflow | - | - | -
+  CELL[5,0] = Newborn Claim Workflow
+ROW 6 | Child Claim Workflow Diagrams | - | - | -
+  CELL[6,0] = Child Claim Workflow Diagrams
+ROW 7 | Child Claim Workflow | - | - | -
+  CELL[7,0] = Child Claim Workflow
+ROW 8 | Newborn Notes Templates | - | - | -
+  CELL[8,0] = Newborn Notes Templates
+ROW 9 | Copy and paste the note template into both: | - | - | -
+  CELL[9,0] = Copy and paste the note template into both:
+ROW 10 | Cortex claim AND Appian ticket | - | - | -
+  CELL[10,0] = Cortex claim AND Appian ticket
+ROW 11 | Always add additional details as needed to give a clear explanation supporting the changes made. | - | - | -
+  CELL[11,0] = Always add additional details as needed to give a clear explanation supporting the changes made.
+ROW 12 | Not an Oscar MM | - | - | -
+  CELL[12,0] = Not an Oscar MM
+ROW 13 | Not an Oscar MM | - | - | -
+  CELL[13,0] = Not an Oscar MM
+ROW 14 | Workflow: | - | - | -
+  CELL[14,0] = Workflow:
+ROW 15 | Newborn | - | - | -
+  CELL[15,0] = Newborn
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x3
+HEADER | Filters Search | 8 Newborn 7/10/26 - KM1014156 | 9 x
+ROW 1 | - | 4 ratings | ::
+  CELL[1,1] = 4 ratings
+  CELL[1,2] = ::
+ROW 2 | - | Skip To: Private Information | Tags | Refresh
+  CELL[2,1] = Skip To: Private Information | Tags
+  CELL[2,2] = Refresh
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[29,19,1569,56] | order=0
+  VERINT Knowledge Management MR
+BLOCK 1 | type=table_row | bbox=[2,83,1591,132] | order=1
+  Filters Search 8 Newborn 7/10/26 - KM1014156 9 x
+BLOCK 2 | type=table_row | bbox=[41,127,1586,199] | order=2
+  4 ratings ::
+  Skip To: Private Information | Tags Refresh
+BLOCK 3 | type=table_row | bbox=[72,256,420,276] | order=3
+  Newborn Blocker Workflow Diagrams
+BLOCK 4 | type=table_row | bbox=[71,298,721,322] | order=4
+  Newborn Blocker Workflows (Includes Newborn and Child Workflows)
+BLOCK 5 | type=table_row | bbox=[71,339,403,363] | order=5
+  Newborn Claim Workflow Diagrams
+BLOCK 6 | type=table_row | bbox=[70,377,311,405] | order=6
+  Newborn Claim Workflow
+BLOCK 7 | type=table_row | bbox=[71,417,370,446] | order=7
+  Child Claim Workflow Diagrams
+BLOCK 8 | type=table_row | bbox=[71,458,278,488] | order=8
+  Child Claim Workflow
+BLOCK 9 | type=table_row | bbox=[61,499,320,527] | order=9
+  Newborn Notes Templates
+BLOCK 10 | type=table_row | bbox=[75,537,400,558] | order=10
+  Copy and paste the note template into both:
+BLOCK 11 | type=table_row | bbox=[100,573,250,612] | order=11
+  Cortex claim AND Appian ticket
+BLOCK 12 | type=table_row | bbox=[74,625,896,721] | order=12
+  Always add additional details as needed to give a clear explanation supporting the changes made.
+  Not an Oscar MM
+  Not an Oscar MM
+BLOCK 13 | type=footer | bbox=[76,728,163,753] | order=13
+  Workflow:
+BLOCK 14 | type=footer | bbox=[76,752,146,770] | order=14
+  Newborn
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[29,19,1569,770] | shape=16x4 | conf=0.920
+  shape: 16x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT Knowledge Management | - | MR | -
+    CELL[1,0] = VERINT Knowledge Management
+    CELL[1,2] = MR
+  ROW 2 | Newborn Blocker Workflow Diagrams | - | - | -
+    CELL[2,0] = Newborn Blocker Workflow Diagrams
+  ROW 3 | Newborn Blocker Workflows (Includes Newborn and Child Workflows) | - | - | -
+    CELL[3,0] = Newborn Blocker Workflows (Includes Newborn and Child Workflows)
+  ROW 4 | Newborn Claim Workflow Diagrams | - | - | -
+    CELL[4,0] = Newborn Claim Workflow Diagrams
+  ROW 5 | Newborn Claim Workflow | - | - | -
+    CELL[5,0] = Newborn Claim Workflow
+  ROW 6 | Child Claim Workflow Diagrams | - | - | -
+    CELL[6,0] = Child Claim Workflow Diagrams
+  ROW 7 | Child Claim Workflow | - | - | -
+    CELL[7,0] = Child Claim Workflow
+  ROW 8 | Newborn Notes Templates | - | - | -
+    CELL[8,0] = Newborn Notes Templates
+  ROW 9 | Copy and paste the note template into both: | - | - | -
+    CELL[9,0] = Copy and paste the note template into both:
+  ROW 10 | Cortex claim AND Appian ticket | - | - | -
+    CELL[10,0] = Cortex claim AND Appian ticket
+  ROW 11 | Always add additional details as needed to give a clear explanation supporting the changes made. | - | - | -
+    CELL[11,0] = Always add additional details as needed to give a clear explanation supporting the changes made.
+  ROW 12 | Not an Oscar MM | - | - | -
+    CELL[12,0] = Not an Oscar MM
+  ROW 13 | Not an Oscar MM | - | - | -
+    CELL[13,0] = Not an Oscar MM
+  ROW 14 | Workflow: | - | - | -
+    CELL[14,0] = Workflow:
+  ROW 15 | Newborn | - | - | -
+    CELL[15,0] = Newborn
+TABLE 1 | source=wide_grid | bbox=[2,83,1591,199] | shape=3x3 | conf=0.850
+  shape: 3x3
+  HEADER | Filters Search | 8 Newborn 7/10/26 - KM1014156 | 9 x
+  ROW 1 | - | 4 ratings | ::
+    CELL[1,1] = 4 ratings
+    CELL[1,2] = ::
+  ROW 2 | - | Skip To: Private Information | Tags | Refresh
+    CELL[2,1] = Skip To: Private Information | Tags
+    CELL[2,2] = Refresh
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[29,19,1569,56] | conf=0.994 | text=VERINT Knowledge Management MR
+  WORD | bbox=[29,19,175,56] | text=VERINT Knowledge Management
+  WORD | bbox=[1536,22,1569,39] | text=MR
+LINE 1 | bbox=[2,83,1591,132] | conf=0.851 | text=Filters Search 8 Newborn 7/10/26 - KM1014156 9 x
+  WORD | bbox=[2,92,15,130] | text=Filters
+  WORD | bbox=[16,90,30,132] | text=Search
+  WORD | bbox=[50,90,74,113] | text=8
+  WORD | bbox=[90,83,224,122] | text=Newborn 7/10/26 - KM1014156
+  WORD | bbox=[1544,83,1591,111] | text=9 x
+LINE 2 | bbox=[41,127,1586,155] | conf=0.913 | text=4 ratings ::
+  WORD | bbox=[41,136,206,155] | text=4 ratings
+  WORD | bbox=[1528,127,1586,154] | text=::
+LINE 3 | bbox=[42,172,1585,199] | conf=0.990 | text=Skip To: Private Information | Tags Refresh
+  WORD | bbox=[42,178,256,199] | text=Skip To: Private Information | Tags
+  WORD | bbox=[1532,172,1585,193] | text=Refresh
+LINE 4 | bbox=[72,256,420,276] | conf=0.973 | text=Newborn Blocker Workflow Diagrams
+LINE 5 | bbox=[71,298,721,322] | conf=0.997 | text=Newborn Blocker Workflows (Includes Newborn and Child Workflows)
+LINE 6 | bbox=[71,339,403,363] | conf=0.975 | text=Newborn Claim Workflow Diagrams
+LINE 7 | bbox=[70,377,311,405] | conf=0.970 | text=Newborn Claim Workflow
+LINE 8 | bbox=[71,417,370,446] | conf=0.998 | text=Child Claim Workflow Diagrams
+LINE 9 | bbox=[71,458,278,488] | conf=0.999 | text=Child Claim Workflow
+LINE 10 | bbox=[61,499,320,527] | conf=0.997 | text=Newborn Notes Templates
+LINE 11 | bbox=[75,537,400,558] | conf=0.967 | text=Copy and paste the note template into both:
+LINE 12 | bbox=[100,573,250,612] | conf=0.994 | text=Cortex claim AND Appian ticket
+LINE 13 | bbox=[74,625,799,649] | conf=0.982 | text=Always add additional details as needed to give a clear explanation supporting the changes made.
+LINE 14 | bbox=[736,656,896,677] | conf=0.990 | text=Not an Oscar MM
+LINE 15 | bbox=[76,700,238,721] | conf=0.970 | text=Not an Oscar MM
+LINE 16 | bbox=[76,728,163,753] | conf=0.996 | text=Workflow:
+LINE 17 | bbox=[76,752,146,770] | conf=0.999 | text=Newborn
+[/BOXES]

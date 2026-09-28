@@ -1,0 +1,471 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=9 | tables=3 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy details Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Member info Issues Policy details Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Raizel Wagner | - | - | -
+  CELL[3,0] = Raizel Wagner
+ROW 4 | Cancelled | - | - | -
+  CELL[4,0] = Cancelled
+ROW 5 | OSC76618297-01 - R216R7H5 - Holder Policy details Viewing information for | - | - | -
+  CELL[5,0] = OSC76618297-01 - R216R7H5 - Holder Policy details Viewing information for
+ROW 6 | ON exc | Silver Elite CSR150 (02/01/202502/01/2025) | - | -
+  CELL[6,0] = ON exc
+  CELL[6,1] = Silver Elite CSR150 (02/01/202502/01/2025)
+ROW 7 | Heads up note | - | - | -
+  CELL[7,0] = Heads up note
+ROW 8 | Plan details | Coverage information | Tools | -
+  CELL[8,0] = Plan details
+  CELL[8,1] = Coverage information
+  CELL[8,2] = Tools
+ROW 9 | Premium | - | $31.21 Search in-network drugs | View
+  CELL[9,0] = Premium
+  CELL[9,2] = $31.21 Search in-network drugs
+  CELL[9,3] = View
+ROW 10 | Plan name Silver Elite CSR 150 | - | - | -
+  CELL[10,0] = Plan name Silver Elite CSR 150
+ROW 11 | Low income subsidy | - | - | -
+  CELL[11,0] = Low income subsidy
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x5
+HEADER | Cllent Oscar | APTC subsidy | $393.56 | Check benefits | View
+ROW 1 | Member actlons | State subsidy | - | Oscar Community Resources | -
+  CELL[1,0] = Member actlons
+  CELL[1,1] = State subsidy
+  CELL[1,3] = Oscar Community Resources
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 20x8
+HEADER | FLBroward | Individual Type | State FL | CSR subsidy 150 | Application date | 01/03/2025 | Oscar Care offerings | Learn more
+ROW 1 | Not assigned Not assigned | - | - | - | Enrollment created | 01/04/2025 | - | -
+  CELL[1,0] = Not assigned Not assigned
+  CELL[1,4] = Enrollment created
+  CELL[1,5] = 01/04/2025
+ROW 2 | - | - | - | - | - | - | Virtual Urgent Care | Yes
+  CELL[2,6] = Virtual Urgent Care
+  CELL[2,7] = Yes
+ROW 3 | Oscarplan: | - | - | - | Effective date | 02/01/2025 | - | -
+  CELL[3,0] = Oscarplan:
+  CELL[3,4] = Effective date
+  CELL[3,5] = 02/01/2025
+ROW 4 | - | - | - | - | - | - | Virtual Primary Care | No
+  CELL[4,6] = Virtual Primary Care
+  CELL[4,7] = No
+ROW 5 | Silver Elite CSR 150 FL EPO Off Ex | Plan essentials | - | Individual | Coverage end date | 01/31/2025 | Virtual mental health | No
+  CELL[5,0] = Silver Elite CSR 150 FL EPO Off Ex
+  CELL[5,1] = Plan essentials
+  CELL[5,3] = Individual
+  CELL[5,4] = Coverage end date
+  CELL[5,5] = 01/31/2025
+  CELL[5,6] = Virtual mental health
+  CELL[5,7] = No
+ROW 6 | View ID card | Medical Deductible | - | $0.00 | Term reason | State change | Eligible $o related care | No
+  CELL[6,0] = View ID card
+  CELL[6,1] = Medical Deductible
+  CELL[6,3] = $0.00
+  CELL[6,4] = Term reason
+  CELL[6,5] = State change
+  CELL[6,6] = Eligible $o related care
+  CELL[6,7] = No
+ROW 7 | Alberto Manzor | Out-of-pocket max | - | $1,150.00 | - | - | - | -
+  CELL[7,0] = Alberto Manzor
+  CELL[7,1] = Out-of-pocket max
+  CELL[7,3] = $1,150.00
+ROW 8 | - | Referrals | - | Not required | Enrollment information | - | - | -
+  CELL[8,1] = Referrals
+  CELL[8,3] = Not required
+  CELL[8,4] = Enrollment information
+ROW 9 | Effective 02/01/2025 | Referral submissions | - | Not required | Eligib Illity ID | 85626d01b08848f1b693e88667d5a609 | Network | -
+  CELL[9,0] = Effective 02/01/2025
+  CELL[9,1] = Referral submissions
+  CELL[9,3] = Not required
+  CELL[9,4] = Eligib Illity ID
+  CELL[9,5] = 85626d01b08848f1b693e88667d5a609
+  CELL[9,6] = Network
+ROW 10 | 8 Individual | - | - | - | - | - | Rating area | FL - Broward
+  CELL[10,0] = 8 Individual
+  CELL[10,6] = Rating area
+  CELL[10,7] = FL - Broward
+ROW 11 | - | - | - | - | Broker | Charles Green | - | -
+  CELL[11,4] = Broker
+  CELL[11,5] = Charles Green
+ROW 12 | $No bills | Plan documents | - | - | Exchange | On exchange | Provider network | FL EPO Off Ex
+  CELL[12,0] = $No bills
+  CELL[12,1] = Plan documents
+  CELL[12,4] = Exchange
+  CELL[12,5] = On exchange
+  CELL[12,6] = Provider network
+  CELL[12,7] = FL EPO Off Ex
+ROW 13 | - | - | - | - | - | - | Tiering | Yes
+  CELL[13,6] = Tiering
+  CELL[13,7] = Yes
+ROW 14 | - | Schedule of Benefits | - | View | Exchange ID | 0015443155 | - | -
+  CELL[14,1] = Schedule of Benefits
+  CELL[14,3] = View
+  CELL[14,4] = Exchange ID
+  CELL[14,5] = 0015443155
+ROW 15 | Member tags | Certificate of Coverage | - | View | Enrollmenttype | Initial Enrollment | Provider organization type | EPO
+  CELL[15,0] = Member tags
+  CELL[15,1] = Certificate of Coverage
+  CELL[15,3] = View
+  CELL[15,4] = Enrollmenttype
+  CELL[15,5] = Initial Enrollment
+  CELL[15,6] = Provider organization type
+  CELL[15,7] = EPO
+ROW 16 | - | - | - | - | - | - | OOA | No
+  CELL[16,6] = OOA
+  CELL[16,7] = No
+ROW 17 | No member tags yet | - | Summary of Benefits & Coverage | Vlew | Enrollment source | Ffm | - | -
+  CELL[17,0] = No member tags yet
+  CELL[17,2] = Summary of Benefits & Coverage
+  CELL[17,3] = Vlew
+  CELL[17,4] = Enrollment source
+  CELL[17,5] = Ffm
+ROW 18 | - | - | - | - | - | - | HSA compatible | No
+  CELL[18,6] = HSA compatible
+  CELL[18,7] = No
+ROW 19 | Send a pulse | ID Card | - | View | - | - | Has rider | No
+  CELL[19,0] = Send a pulse
+  CELL[19,1] = ID Card
+  CELL[19,3] = View
+  CELL[19,6] = Has rider
+  CELL[19,7] = No
+[/TABLE 2]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,15,1580,103] | order=0
+  rosco Q Search Rosco MR Melissa
+  Raizel Wagner Member info Issues Policy details Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 1 | type=table_row | bbox=[19,132,679,174] | order=1
+  OSC76618297-01 - R216R7H5 - Holder ON exc Policy details Viewing information for: Silver Elite CSR150 (02/01/202502/01/2025)
+BLOCK 2 | type=table_row | bbox=[21,115,115,227] | order=2
+  Cancelled
+  Heads up note
+BLOCK 3 | type=table | bbox=[71,229,1269,348] | order=3
+  Plan details Coverage information Tools
+  Premium $31.21 Search in-network drugs View
+  Cllent Oscar APTC subsidy $393.56 Check benefits View
+  Member actlons Plan name Silver Elite CSR 150 State subsidy Oscar Community Resources
+BLOCK 4 | type=table | bbox=[625,336,741,354] | order=4
+  Low income subsidy
+BLOCK 5 | type=table | bbox=[15,353,1276,685] | order=5
+  FLBroward Individual Type State FL CSR subsidy 150 Application date 01/03/2025 Oscar Care offerings Learn more
+  Not assigned Not assigned Enrollment created 01/04/2025 Virtual Urgent Care Yes
+  Oscarplan: Effective date 02/01/2025 Virtual Primary Care No
+  Silver Elite CSR 150 FL EPO Off Ex Plan essentials Medical Deductible Individual $0.00 Term reason Coverage end date State change 01/31/2025 Virtual mental health No
+  View ID card Eligible $o related care No
+  Alberto Manzor Out-of-pocket max $1,150.00
+  Effective 02/01/2025 Referrals Referral submissions Not required Not required Enrollment information Eligib Illity ID 85626d01b08848f1b693e88667d5a609 Network
+  8 Individual Broker Charles Green Rating area FL - Broward
+  $No bills Plan documents Exchange On exchange Tiering Provider network FL EPO Off Ex Yes
+  Member tags Schedule of Benefits Certificate of Coverage View View Enrollmenttype Exchange ID Initial Enrollment 0015443155 Provider organization type EPO
+BLOCK 6 | type=table_row | bbox=[965,676,1268,694] | order=6
+  OOA No
+BLOCK 7 | type=table | bbox=[19,693,1270,722] | order=7
+  No member tags yet Summary of Benefits & Coverage Vlew Enrollment source Ffm HSA compatible No
+BLOCK 8 | type=footer | bbox=[19,718,1269,749] | order=8
+  Send a pulse ID Card View Has rider No
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,15,1580,354] | shape=12x4 | conf=0.920
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy details Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Member info Issues Policy details Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Raizel Wagner | - | - | -
+    CELL[3,0] = Raizel Wagner
+  ROW 4 | Cancelled | - | - | -
+    CELL[4,0] = Cancelled
+  ROW 5 | OSC76618297-01 - R216R7H5 - Holder Policy details Viewing information for | - | - | -
+    CELL[5,0] = OSC76618297-01 - R216R7H5 - Holder Policy details Viewing information for
+  ROW 6 | ON exc | Silver Elite CSR150 (02/01/202502/01/2025) | - | -
+    CELL[6,0] = ON exc
+    CELL[6,1] = Silver Elite CSR150 (02/01/202502/01/2025)
+  ROW 7 | Heads up note | - | - | -
+    CELL[7,0] = Heads up note
+  ROW 8 | Plan details | Coverage information | Tools | -
+    CELL[8,0] = Plan details
+    CELL[8,1] = Coverage information
+    CELL[8,2] = Tools
+  ROW 9 | Premium | - | $31.21 Search in-network drugs | View
+    CELL[9,0] = Premium
+    CELL[9,2] = $31.21 Search in-network drugs
+    CELL[9,3] = View
+  ROW 10 | Plan name Silver Elite CSR 150 | - | - | -
+    CELL[10,0] = Plan name Silver Elite CSR 150
+  ROW 11 | Low income subsidy | - | - | -
+    CELL[11,0] = Low income subsidy
+TABLE 1 | source=wide_grid | bbox=[71,267,1269,327] | shape=2x5 | conf=0.850
+  shape: 2x5
+  HEADER | Cllent Oscar | APTC subsidy | $393.56 | Check benefits | View
+  ROW 1 | Member actlons | State subsidy | - | Oscar Community Resources | -
+    CELL[1,0] = Member actlons
+    CELL[1,1] = State subsidy
+    CELL[1,3] = Oscar Community Resources
+TABLE 2 | source=wide_grid | bbox=[15,353,1276,749] | shape=20x8 | conf=0.850
+  shape: 20x8
+  HEADER | FLBroward | Individual Type | State FL | CSR subsidy 150 | Application date | 01/03/2025 | Oscar Care offerings | Learn more
+  ROW 1 | Not assigned Not assigned | - | - | - | Enrollment created | 01/04/2025 | - | -
+    CELL[1,0] = Not assigned Not assigned
+    CELL[1,4] = Enrollment created
+    CELL[1,5] = 01/04/2025
+  ROW 2 | - | - | - | - | - | - | Virtual Urgent Care | Yes
+    CELL[2,6] = Virtual Urgent Care
+    CELL[2,7] = Yes
+  ROW 3 | Oscarplan: | - | - | - | Effective date | 02/01/2025 | - | -
+    CELL[3,0] = Oscarplan:
+    CELL[3,4] = Effective date
+    CELL[3,5] = 02/01/2025
+  ROW 4 | - | - | - | - | - | - | Virtual Primary Care | No
+    CELL[4,6] = Virtual Primary Care
+    CELL[4,7] = No
+  ROW 5 | Silver Elite CSR 150 FL EPO Off Ex | Plan essentials | - | Individual | Coverage end date | 01/31/2025 | Virtual mental health | No
+    CELL[5,0] = Silver Elite CSR 150 FL EPO Off Ex
+    CELL[5,1] = Plan essentials
+    CELL[5,3] = Individual
+    CELL[5,4] = Coverage end date
+    CELL[5,5] = 01/31/2025
+    CELL[5,6] = Virtual mental health
+    CELL[5,7] = No
+  ROW 6 | View ID card | Medical Deductible | - | $0.00 | Term reason | State change | Eligible $o related care | No
+    CELL[6,0] = View ID card
+    CELL[6,1] = Medical Deductible
+    CELL[6,3] = $0.00
+    CELL[6,4] = Term reason
+    CELL[6,5] = State change
+    CELL[6,6] = Eligible $o related care
+    CELL[6,7] = No
+  ROW 7 | Alberto Manzor | Out-of-pocket max | - | $1,150.00 | - | - | - | -
+    CELL[7,0] = Alberto Manzor
+    CELL[7,1] = Out-of-pocket max
+    CELL[7,3] = $1,150.00
+  ROW 8 | - | Referrals | - | Not required | Enrollment information | - | - | -
+    CELL[8,1] = Referrals
+    CELL[8,3] = Not required
+    CELL[8,4] = Enrollment information
+  ROW 9 | Effective 02/01/2025 | Referral submissions | - | Not required | Eligib Illity ID | 85626d01b08848f1b693e88667d5a609 | Network | -
+    CELL[9,0] = Effective 02/01/2025
+    CELL[9,1] = Referral submissions
+    CELL[9,3] = Not required
+    CELL[9,4] = Eligib Illity ID
+    CELL[9,5] = 85626d01b08848f1b693e88667d5a609
+    CELL[9,6] = Network
+  ROW 10 | 8 Individual | - | - | - | - | - | Rating area | FL - Broward
+    CELL[10,0] = 8 Individual
+    CELL[10,6] = Rating area
+    CELL[10,7] = FL - Broward
+  ROW 11 | - | - | - | - | Broker | Charles Green | - | -
+    CELL[11,4] = Broker
+    CELL[11,5] = Charles Green
+  ROW 12 | $No bills | Plan documents | - | - | Exchange | On exchange | Provider network | FL EPO Off Ex
+    CELL[12,0] = $No bills
+    CELL[12,1] = Plan documents
+    CELL[12,4] = Exchange
+    CELL[12,5] = On exchange
+    CELL[12,6] = Provider network
+    CELL[12,7] = FL EPO Off Ex
+  ROW 13 | - | - | - | - | - | - | Tiering | Yes
+    CELL[13,6] = Tiering
+    CELL[13,7] = Yes
+  ROW 14 | - | Schedule of Benefits | - | View | Exchange ID | 0015443155 | - | -
+    CELL[14,1] = Schedule of Benefits
+    CELL[14,3] = View
+    CELL[14,4] = Exchange ID
+    CELL[14,5] = 0015443155
+  ROW 15 | Member tags | Certificate of Coverage | - | View | Enrollmenttype | Initial Enrollment | Provider organization type | EPO
+    CELL[15,0] = Member tags
+    CELL[15,1] = Certificate of Coverage
+    CELL[15,3] = View
+    CELL[15,4] = Enrollmenttype
+    CELL[15,5] = Initial Enrollment
+    CELL[15,6] = Provider organization type
+    CELL[15,7] = EPO
+  ROW 16 | - | - | - | - | - | - | OOA | No
+    CELL[16,6] = OOA
+    CELL[16,7] = No
+  ROW 17 | No member tags yet | - | Summary of Benefits & Coverage | Vlew | Enrollment source | Ffm | - | -
+    CELL[17,0] = No member tags yet
+    CELL[17,2] = Summary of Benefits & Coverage
+    CELL[17,3] = Vlew
+    CELL[17,4] = Enrollment source
+    CELL[17,5] = Ffm
+  ROW 18 | - | - | - | - | - | - | HSA compatible | No
+    CELL[18,6] = HSA compatible
+    CELL[18,7] = No
+  ROW 19 | Send a pulse | ID Card | - | View | - | - | Has rider | No
+    CELL[19,0] = Send a pulse
+    CELL[19,1] = ID Card
+    CELL[19,3] = View
+    CELL[19,6] = Has rider
+    CELL[19,7] = No
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,15,1580,36] | conf=0.915 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[112,17,134,33] | text=Q
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1464,15,1550,36] | text=MR Melissa
+LINE 1 | bbox=[17,71,919,103] | conf=0.971 | text=Raizel Wagner Member info Issues Policy details Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[17,80,156,103] | text=Raizel Wagner
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[422,75,499,88] | text=Policy details
+  WORD | bbox=[512,73,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[640,71,749,89] | text=Billing & payments
+  WORD | bbox=[762,73,818,89] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[19,132,679,174] | conf=0.987 | text=OSC76618297-01 - R216R7H5 - Holder ON exc Policy details Viewing information for: Silver Elite CSR150 (02/01/202502/01/2025)
+  WORD | bbox=[19,140,221,157] | text=OSC76618297-01 - R216R7H5 - Holder
+  WORD | bbox=[20,160,66,174] | text=ON exc
+  WORD | bbox=[279,132,422,172] | text=Policy details Viewing information for:
+  WORD | bbox=[416,155,679,171] | text=Silver Elite CSR150 (02/01/202502/01/2025)
+LINE 3 | bbox=[21,115,84,132] | conf=0.999 | text=Cancelled
+LINE 4 | bbox=[30,210,115,227] | conf=0.995 | text=Heads up note
+LINE 5 | bbox=[276,229,992,248] | conf=0.980 | text=Plan details Coverage information Tools
+  WORD | bbox=[276,229,347,248] | text=Plan details
+  WORD | bbox=[619,232,742,248] | text=Coverage information
+  WORD | bbox=[958,230,992,248] | text=Tools
+LINE 6 | bbox=[623,254,1268,275] | conf=0.991 | text=Premium $31.21 Search in-network drugs View
+  WORD | bbox=[623,254,682,275] | text=Premium
+  WORD | bbox=[891,256,929,274] | text=$31.21
+  WORD | bbox=[966,256,1108,274] | text=Search in-network drugs
+  WORD | bbox=[1228,258,1268,272] | text=View
+LINE 7 | bbox=[292,267,1269,306] | conf=0.970 | text=Cllent Oscar APTC subsidy $393.56 Check benefits View
+  WORD | bbox=[292,267,334,306] | text=Cllent Oscar
+  WORD | bbox=[626,284,706,300] | text=APTC subsidy
+  WORD | bbox=[877,281,929,302] | text=$393.56
+  WORD | bbox=[968,284,1055,300] | text=Check benefits
+  WORD | bbox=[1225,281,1269,302] | text=View
+LINE 8 | bbox=[71,307,1130,348] | conf=0.970 | text=Member actlons Plan name Silver Elite CSR 150 State subsidy Oscar Community Resources
+  WORD | bbox=[71,307,161,320] | text=Member actlons
+  WORD | bbox=[292,310,404,348] | text=Plan name Silver Elite CSR 150
+  WORD | bbox=[626,311,706,327] | text=State subsidy
+  WORD | bbox=[967,311,1130,326] | text=Oscar Community Resources
+LINE 9 | bbox=[625,336,741,354] | conf=0.987 | text=Low income subsidy
+LINE 10 | bbox=[17,353,1276,392] | conf=0.990 | text=FLBroward Individual Type State FL CSR subsidy 150 Application date 01/03/2025 Oscar Care offerings Learn more
+  WORD | bbox=[17,353,113,372] | text=FLBroward
+  WORD | bbox=[294,376,352,392] | text=Individual
+  WORD | bbox=[295,358,324,372] | text=Type
+  WORD | bbox=[410,355,446,391] | text=State FL
+  WORD | bbox=[504,354,579,373] | text=CSR subsidy
+  WORD | bbox=[505,376,528,391] | text=150
+  WORD | bbox=[626,364,722,381] | text=Application date
+  WORD | bbox=[859,364,929,381] | text=01/03/2025
+  WORD | bbox=[959,372,1076,391] | text=Oscar Care offerings
+  WORD | bbox=[1209,374,1276,391] | text=Learn more
+LINE 11 | bbox=[15,383,1269,419] | conf=0.989 | text=Not assigned Not assigned Enrollment created 01/04/2025 Virtual Urgent Care Yes
+  WORD | bbox=[15,383,200,409] | text=Not assigned Not assigned
+  WORD | bbox=[626,390,738,406] | text=Enrollment created
+  WORD | bbox=[856,387,929,408] | text=01/04/2025
+  WORD | bbox=[966,400,1079,419] | text=Virtual Urgent Care
+  WORD | bbox=[1245,404,1269,419] | text=Yes
+LINE 12 | bbox=[17,416,1270,447] | conf=0.991 | text=Oscarplan: Effective date 02/01/2025 Virtual Primary Care No
+  WORD | bbox=[17,419,106,439] | text=Oscarplan:
+  WORD | bbox=[626,416,709,433] | text=Effective date
+  WORD | bbox=[859,416,927,433] | text=02/01/2025
+  WORD | bbox=[968,429,1082,446] | text=Virtual Primary Care
+  WORD | bbox=[1245,428,1270,447] | text=No
+LINE 13 | bbox=[37,442,1269,489] | conf=0.989 | text=Silver Elite CSR 150 FL EPO Off Ex Plan essentials Medical Deductible Individual $0.00 Term reason Coverage end date State change 01/31/2025 Virtual mental health No
+  WORD | bbox=[37,442,149,479] | text=Silver Elite CSR 150 FL EPO Off Ex
+  WORD | bbox=[276,448,366,467] | text=Plan essentials
+  WORD | bbox=[286,474,398,486] | text=Medical Deductible
+  WORD | bbox=[538,449,596,466] | text=Individual
+  WORD | bbox=[551,471,589,489] | text=$0.00
+  WORD | bbox=[625,467,700,488] | text=Term reason
+  WORD | bbox=[626,444,735,461] | text=Coverage end date
+  WORD | bbox=[849,468,928,488] | text=State change
+  WORD | bbox=[860,446,926,458] | text=01/31/2025
+  WORD | bbox=[966,454,1089,471] | text=Virtual mental health
+  WORD | bbox=[1248,456,1269,472] | text=No
+LINE 14 | bbox=[40,480,1269,498] | conf=0.964 | text=View ID card Eligible $o related care No
+  WORD | bbox=[40,480,115,496] | text=View ID card
+  WORD | bbox=[969,482,1096,495] | text=Eligible $o related care
+  WORD | bbox=[1246,482,1269,498] | text=No
+LINE 15 | bbox=[18,498,588,526] | conf=0.979 | text=Alberto Manzor Out-of-pocket max $1,150.00
+  WORD | bbox=[18,508,130,526] | text=Alberto Manzor
+  WORD | bbox=[286,498,398,516] | text=Out-of-pocket max
+  WORD | bbox=[534,498,588,516] | text=$1,150.00
+LINE 16 | bbox=[18,526,1013,575] | conf=0.983 | text=Effective 02/01/2025 Referrals Referral submissions Not required Not required Enrollment information Eligib Illity ID 85626d01b08848f1b693e88667d5a609 Network
+  WORD | bbox=[18,540,159,556] | text=Effective 02/01/2025
+  WORD | bbox=[285,526,341,542] | text=Referrals
+  WORD | bbox=[288,554,405,566] | text=Referral submissions
+  WORD | bbox=[512,526,589,542] | text=Not required
+  WORD | bbox=[514,554,586,566] | text=Not required
+  WORD | bbox=[619,532,751,549] | text=Enrollment information
+  WORD | bbox=[626,559,698,575] | text=Eligib Illity ID
+  WORD | bbox=[714,560,926,573] | text=85626d01b08848f1b693e88667d5a609
+  WORD | bbox=[956,542,1013,563] | text=Network
+LINE 17 | bbox=[17,570,1269,602] | conf=0.980 | text=8 Individual Broker Charles Green Rating area FL - Broward
+  WORD | bbox=[17,570,98,591] | text=8 Individual
+  WORD | bbox=[625,584,669,602] | text=Broker
+  WORD | bbox=[846,586,927,602] | text=Charles Green
+  WORD | bbox=[968,570,1035,587] | text=Rating area
+  WORD | bbox=[1195,570,1269,587] | text=FL - Broward
+LINE 18 | bbox=[18,597,1270,642] | conf=0.987 | text=$No bills Plan documents Exchange On exchange Tiering Provider network FL EPO Off Ex Yes
+  WORD | bbox=[18,603,85,624] | text=$No bills
+  WORD | bbox=[278,615,371,631] | text=Plan documents
+  WORD | bbox=[623,609,685,630] | text=Exchange
+  WORD | bbox=[851,608,929,630] | text=On exchange
+  WORD | bbox=[963,621,1012,642] | text=Tiering
+  WORD | bbox=[968,597,1066,614] | text=Provider network
+  WORD | bbox=[1188,597,1269,614] | text=FL EPO Off Ex
+  WORD | bbox=[1242,623,1270,642] | text=Yes
+LINE 19 | bbox=[18,637,1269,685] | conf=0.985 | text=Member tags Schedule of Benefits Certificate of Coverage View View Enrollmenttype Exchange ID Initial Enrollment 0015443155 Provider organization type EPO
+  WORD | bbox=[18,659,95,676] | text=Member tags
+  WORD | bbox=[285,639,405,657] | text=Schedule of Benefits
+  WORD | bbox=[285,666,420,684] | text=Certificate of Coverage
+  WORD | bbox=[545,637,588,659] | text=View
+  WORD | bbox=[545,664,589,685] | text=View
+  WORD | bbox=[625,663,720,682] | text=Enrollmenttype
+  WORD | bbox=[626,639,700,656] | text=Exchange ID
+  WORD | bbox=[827,664,929,682] | text=Initial Enrollment
+  WORD | bbox=[860,639,929,656] | text=0015443155
+  WORD | bbox=[966,649,1116,667] | text=Provider organization type
+  WORD | bbox=[1239,649,1269,668] | text=EPO
+LINE 20 | bbox=[965,676,1268,694] | conf=0.997 | text=OOA No
+  WORD | bbox=[965,676,998,694] | text=OOA
+  WORD | bbox=[1248,677,1268,694] | text=No
+LINE 21 | bbox=[19,693,1270,722] | conf=0.971 | text=No member tags yet Summary of Benefits & Coverage Vlew Enrollment source Ffm HSA compatible No
+  WORD | bbox=[19,693,116,705] | text=No member tags yet
+  WORD | bbox=[285,694,471,710] | text=Summary of Benefits & Coverage
+  WORD | bbox=[546,695,588,709] | text=Vlew
+  WORD | bbox=[628,694,730,707] | text=Enrollment source
+  WORD | bbox=[902,693,927,708] | text=Ffm
+  WORD | bbox=[966,703,1061,721] | text=HSA compatible
+  WORD | bbox=[1245,703,1270,722] | text=No
+LINE 22 | bbox=[19,718,1269,749] | conf=0.961 | text=Send a pulse ID Card View Has rider No
+  WORD | bbox=[19,726,92,742] | text=Send a pulse
+  WORD | bbox=[286,722,331,736] | text=ID Card
+  WORD | bbox=[543,718,588,739] | text=View
+  WORD | bbox=[965,728,1023,749] | text=Has rider
+  WORD | bbox=[1248,731,1269,747] | text=No
+[/BOXES]
+
+[FIELDS]
+NPI: 0015443155
+[/FIELDS]

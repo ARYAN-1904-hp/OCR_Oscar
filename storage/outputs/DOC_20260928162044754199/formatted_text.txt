@@ -1,0 +1,237 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=14 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 30x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | - | -
+  CELL[1,0] = VERINT
+ROW 2 | Knowledge Management | - | - | -
+  CELL[2,0] = Knowledge Management
+ROW 3 | Search knowledge. | Q | - | -
+  CELL[3,0] = Search knowledge.
+  CELL[3,1] = Q
+ROW 4 | D | Search | - | -
+  CELL[4,0] = D
+  CELL[4,1] = Search
+ROW 5 | Q | - | - | -
+  CELL[5,0] = Q
+ROW 6 | My Bookmarks (17) F | - | - | -
+  CELL[6,0] = My Bookmarks (17) F
+ROW 7 | Filter | Q | - | -
+  CELL[7,0] = Filter
+  CELL[7,1] = Q
+ROW 8 | processing issues, or exceptions to the rules, as of the date of | - | - | -
+  CELL[8,0] = processing issues, or exceptions to the rules, as of the date of
+ROW 9 | this document. Please be aware when working authorization | - | - | -
+  CELL[9,0] = this document. Please be aware when working authorization
+ROW 10 | disputes. | - | - | -
+  CELL[10,0] = disputes.
+ROW 11 | Newborn | .. | - | -
+  CELL[11,0] = Newborn
+  CELL[11,1] = ..
+ROW 12 | Purpose The purpose of this Job Aid is to provide users with | - | - | -
+  CELL[12,0] = Purpose The purpose of this Job Aid is to provide users with
+ROW 13 | state | specific rules, processing flow and claim splitting | - | -
+  CELL[13,0] = state
+  CELL[13,1] = specific rules, processing flow and claim splitting
+ROW 14 | procedures around appropriate claims coverage for newborns. | - | - | -
+  CELL[14,0] = procedures around appropriate claims coverage for newborns.
+ROW 15 | Following the birth. | - | - | -
+  CELL[15,0] = Following the birth.
+ROW 16 | Claims Tasks: Locating Authorization and Determining | .. | - | -
+  CELL[16,0] = Claims Tasks: Locating Authorization and Determining
+  CELL[16,1] = ..
+ROW 17 | Authorization Status | - | - | -
+  CELL[17,0] = Authorization Status
+ROW 18 | Summary The purpose of this article is to assist processors in | - | - | -
+  CELL[18,0] = Summary The purpose of this article is to assist processors in
+ROW 19 | locating authorization and determining authorization status for a | - | - | -
+  CELL[19,0] = locating authorization and determining authorization status for a
+ROW 20 | claim. This is often necessary in workflows such as: | - | - | -
+  CELL[20,0] = claim. This is often necessary in workflows such as:
+ROW 21 | authorization | - | - | -
+  CELL[21,0] = authorization
+ROW 22 | Claims Disputes | Authorization Exceptions | - | -
+  CELL[22,0] = Claims Disputes
+  CELL[22,1] = Authorization Exceptions
+ROW 23 | Scope (Authorization Exceptions) Below are known authorization | - | - | -
+  CELL[23,0] = Scope (Authorization Exceptions) Below are known authorization
+ROW 24 | processing issues, or exceptions to the rules, as of the date of | - | - | -
+  CELL[24,0] = processing issues, or exceptions to the rules, as of the date of
+ROW 25 | this document. Please be aware when working authorization | - | - | -
+  CELL[25,0] = this document. Please be aware when working authorization
+ROW 26 | disputes. | - | - | -
+  CELL[26,0] = disputes.
+ROW 27 | 8 Standard Reviews for All Pre-Payment and Post-Payment | - | - | -
+  CELL[27,0] = 8 Standard Reviews for All Pre-Payment and Post-Payment
+ROW 28 | Tickets | - | - | -
+  CELL[28,0] = Tickets
+ROW 29 | 17 Bookmarks | - | - | -
+  CELL[29,0] = 17 Bookmarks
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[59,13,150,34] | order=0
+  VERINT
+BLOCK 1 | type=header | bbox=[31,37,177,53] | order=1
+  Knowledge Management
+BLOCK 2 | type=heading | bbox=[5,84,545,134] | order=2
+  D Search knowledge. Q Search
+BLOCK 3 | type=paragraph | bbox=[302,123,326,145] | order=3
+  Q
+BLOCK 4 | type=label_value | bbox=[31,171,509,193] | order=4
+  My Bookmarks (17) F:
+BLOCK 5 | type=heading | bbox=[220,206,495,228] | order=5
+  Filter Q
+BLOCK 6 | type=paragraph | bbox=[79,243,514,411] | order=6
+  processing issues, or exceptions to the rules, as of the date of
+  this document. Please be aware when working authorization
+  disputes.
+  Newborn .
+  Purpose The purpose of this Job Aid is to provide users with
+  state specific rules, processing flow and claim splitting
+  procedures around appropriate claims coverage for newborns.
+  Following the birth.
+BLOCK 7 | type=label_value | bbox=[80,440,514,470] | order=7
+  Claims Tasks: Locating Authorization and Determining Authorization Status .
+BLOCK 8 | type=paragraph | bbox=[79,480,493,513] | order=8
+  Summary The purpose of this article is to assist processors in
+  locating authorization and determining authorization status for a
+BLOCK 9 | type=label_value | bbox=[80,514,414,531] | order=9
+  claim. This is often necessary in workflows such as:
+BLOCK 10 | type=paragraph | bbox=[79,531,166,547] | order=10
+  authorization
+BLOCK 11 | type=label_value | bbox=[81,577,361,593] | order=11
+  Claims Disputes: Authorization Exceptions
+BLOCK 12 | type=paragraph | bbox=[41,598,495,730] | order=12
+  Scope (Authorization Exceptions) Below are known authorization
+  processing issues, or exceptions to the rules, as of the date of
+  this document. Please be aware when working authorization
+  disputes.
+  8 Tickets Standard Reviews for All Pre-Payment and Post-Payment
+BLOCK 13 | type=footer | bbox=[435,747,520,764] | order=13
+  17 Bookmarks
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[5,13,545,764] | shape=30x4 | conf=0.920
+  shape: 30x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | - | -
+    CELL[1,0] = VERINT
+  ROW 2 | Knowledge Management | - | - | -
+    CELL[2,0] = Knowledge Management
+  ROW 3 | Search knowledge. | Q | - | -
+    CELL[3,0] = Search knowledge.
+    CELL[3,1] = Q
+  ROW 4 | D | Search | - | -
+    CELL[4,0] = D
+    CELL[4,1] = Search
+  ROW 5 | Q | - | - | -
+    CELL[5,0] = Q
+  ROW 6 | My Bookmarks (17) F | - | - | -
+    CELL[6,0] = My Bookmarks (17) F
+  ROW 7 | Filter | Q | - | -
+    CELL[7,0] = Filter
+    CELL[7,1] = Q
+  ROW 8 | processing issues, or exceptions to the rules, as of the date of | - | - | -
+    CELL[8,0] = processing issues, or exceptions to the rules, as of the date of
+  ROW 9 | this document. Please be aware when working authorization | - | - | -
+    CELL[9,0] = this document. Please be aware when working authorization
+  ROW 10 | disputes. | - | - | -
+    CELL[10,0] = disputes.
+  ROW 11 | Newborn | .. | - | -
+    CELL[11,0] = Newborn
+    CELL[11,1] = ..
+  ROW 12 | Purpose The purpose of this Job Aid is to provide users with | - | - | -
+    CELL[12,0] = Purpose The purpose of this Job Aid is to provide users with
+  ROW 13 | state | specific rules, processing flow and claim splitting | - | -
+    CELL[13,0] = state
+    CELL[13,1] = specific rules, processing flow and claim splitting
+  ROW 14 | procedures around appropriate claims coverage for newborns. | - | - | -
+    CELL[14,0] = procedures around appropriate claims coverage for newborns.
+  ROW 15 | Following the birth. | - | - | -
+    CELL[15,0] = Following the birth.
+  ROW 16 | Claims Tasks: Locating Authorization and Determining | .. | - | -
+    CELL[16,0] = Claims Tasks: Locating Authorization and Determining
+    CELL[16,1] = ..
+  ROW 17 | Authorization Status | - | - | -
+    CELL[17,0] = Authorization Status
+  ROW 18 | Summary The purpose of this article is to assist processors in | - | - | -
+    CELL[18,0] = Summary The purpose of this article is to assist processors in
+  ROW 19 | locating authorization and determining authorization status for a | - | - | -
+    CELL[19,0] = locating authorization and determining authorization status for a
+  ROW 20 | claim. This is often necessary in workflows such as: | - | - | -
+    CELL[20,0] = claim. This is often necessary in workflows such as:
+  ROW 21 | authorization | - | - | -
+    CELL[21,0] = authorization
+  ROW 22 | Claims Disputes | Authorization Exceptions | - | -
+    CELL[22,0] = Claims Disputes
+    CELL[22,1] = Authorization Exceptions
+  ROW 23 | Scope (Authorization Exceptions) Below are known authorization | - | - | -
+    CELL[23,0] = Scope (Authorization Exceptions) Below are known authorization
+  ROW 24 | processing issues, or exceptions to the rules, as of the date of | - | - | -
+    CELL[24,0] = processing issues, or exceptions to the rules, as of the date of
+  ROW 25 | this document. Please be aware when working authorization | - | - | -
+    CELL[25,0] = this document. Please be aware when working authorization
+  ROW 26 | disputes. | - | - | -
+    CELL[26,0] = disputes.
+  ROW 27 | 8 Standard Reviews for All Pre-Payment and Post-Payment | - | - | -
+    CELL[27,0] = 8 Standard Reviews for All Pre-Payment and Post-Payment
+  ROW 28 | Tickets | - | - | -
+    CELL[28,0] = Tickets
+  ROW 29 | 17 Bookmarks | - | - | -
+    CELL[29,0] = 17 Bookmarks
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,13,150,34] | conf=0.998 | text=VERINT
+LINE 1 | bbox=[31,37,177,53] | conf=0.989 | text=Knowledge Management
+LINE 2 | bbox=[5,84,545,134] | conf=0.852 | text=D Search knowledge. Q Search
+  WORD | bbox=[5,103,12,113] | text=D
+  WORD | bbox=[32,89,146,106] | text=Search knowledge.
+  WORD | bbox=[495,88,512,106] | text=Q
+  WORD | bbox=[528,84,545,134] | text=Search
+LINE 3 | bbox=[302,123,326,145] | conf=0.923 | text=Q
+LINE 4 | bbox=[31,171,509,193] | conf=0.928 | text=My Bookmarks (17) F:
+  WORD | bbox=[31,172,212,192] | text=My Bookmarks (17)
+  WORD | bbox=[447,171,509,193] | text=F:
+LINE 5 | bbox=[220,206,495,228] | conf=0.956 | text=Filter Q
+  WORD | bbox=[220,209,256,227] | text=Filter
+  WORD | bbox=[474,206,495,228] | text=Q
+LINE 6 | bbox=[80,243,480,260] | conf=0.978 | text=processing issues, or exceptions to the rules, as of the date of
+LINE 7 | bbox=[81,261,466,274] | conf=0.974 | text=this document. Please be aware when working authorization
+LINE 8 | bbox=[80,276,140,293] | conf=0.993 | text=disputes.
+LINE 9 | bbox=[80,322,514,342] | conf=0.913 | text=Newborn .
+  WORD | bbox=[80,322,142,339] | text=Newborn
+  WORD | bbox=[504,326,514,342] | text=..
+LINE 10 | bbox=[80,345,468,362] | conf=0.997 | text=Purpose The purpose of this Job Aid is to provide users with
+LINE 11 | bbox=[80,362,430,378] | conf=0.991 | text=state specific rules, processing flow and claim splitting
+LINE 12 | bbox=[79,378,479,396] | conf=0.990 | text=procedures around appropriate claims coverage for newborns.
+LINE 13 | bbox=[80,395,203,411] | conf=0.960 | text=Following the birth.
+LINE 14 | bbox=[80,440,514,470] | conf=0.877 | text=Claims Tasks: Locating Authorization and Determining Authorization Status .
+  WORD | bbox=[80,440,436,457] | text=Claims Tasks: Locating Authorization and Determining
+  WORD | bbox=[80,457,216,470] | text=Authorization Status
+  WORD | bbox=[504,444,514,463] | text=..
+LINE 15 | bbox=[79,480,476,498] | conf=0.983 | text=Summary The purpose of this article is to assist processors in
+LINE 16 | bbox=[80,500,493,513] | conf=0.974 | text=locating authorization and determining authorization status for a
+LINE 17 | bbox=[80,514,414,531] | conf=0.991 | text=claim. This is often necessary in workflows such as:
+LINE 18 | bbox=[79,531,166,547] | conf=0.998 | text=authorization
+LINE 19 | bbox=[81,577,361,593] | conf=0.981 | text=Claims Disputes: Authorization Exceptions
+LINE 20 | bbox=[79,598,495,617] | conf=0.977 | text=Scope (Authorization Exceptions) Below are known authorization
+LINE 21 | bbox=[80,617,480,634] | conf=0.983 | text=processing issues, or exceptions to the rules, as of the date of
+LINE 22 | bbox=[79,633,468,651] | conf=0.983 | text=this document. Please be aware when working authorization
+LINE 23 | bbox=[80,649,138,666] | conf=0.945 | text=disputes.
+LINE 24 | bbox=[41,695,456,730] | conf=0.853 | text=8 Tickets Standard Reviews for All Pre-Payment and Post-Payment
+  WORD | bbox=[41,699,65,722] | text=8
+  WORD | bbox=[78,709,132,730] | text=Tickets
+  WORD | bbox=[80,695,456,712] | text=Standard Reviews for All Pre-Payment and Post-Payment
+LINE 25 | bbox=[435,747,520,764] | conf=0.977 | text=17 Bookmarks
+[/BOXES]

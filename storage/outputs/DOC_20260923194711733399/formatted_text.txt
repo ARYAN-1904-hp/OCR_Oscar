@@ -1,0 +1,235 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x1042 | blocks=11 | tables=1 | checkboxes=2
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 13x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Curamind | Claims Management | David Kim PROC002 Logout | -
+  CELL[1,0] = Curamind
+  CELL[1,1] = Claims Management
+  CELL[1,2] = David Kim PROC002 Logout
+ROW 2 | - | - | Back to Dashboard | -
+  CELL[2,2] = Back to Dashboard
+ROW 3 | Professional Claim X | - | - | -
+  CELL[3,0] = Professional Claim X
+ROW 4 | - | - | Save changes | -
+  CELL[4,2] = Save changes
+ROW 5 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+  CELL[5,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+ROW 6 | Processor: David Kim | Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days | - | -
+  CELL[6,0] = Processor: David Kim
+  CELL[6,1] = Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days
+ROW 7 | General Information | - | - | -
+  CELL[7,0] = General Information
+ROW 8 | Member H6887740210 | DAVIS, | - | -
+  CELL[8,0] = Member H6887740210
+  CELL[8,1] = DAVIS,
+ROW 9 | ID | OLIVER | - | -
+  CELL[9,0] = ID
+  CELL[9,1] = OLIVER
+ROW 10 | EOB Indicator | MPPR Indicator | - | -
+  CELL[10,0] = EOB Indicator
+  CELL[10,1] = MPPR Indicator
+ROW 11 | Place of Service(24b) | 31 NURSING FACILITY SKILLED Facility: 49 | SERVICE LOCATION | -
+  CELL[11,0] = Place of Service(24b)
+  CELL[11,1] = 31 NURSING FACILITY SKILLED Facility: 49
+  CELL[11,2] = SERVICE LOCATION
+ROW 12 | Outcome | 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY | - | -
+  CELL[12,0] = Outcome
+  CELL[12,1] = 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[26,7,1444,78] | order=0
+  Curamind Claims Management David Kim PROC002 Logout
+  Back to Dashboard
+BLOCK 1 | type=header | bbox=[34,65,1419,108] | order=1
+  Professional Claim X Save changes
+BLOCK 2 | type=table | bbox=[48,125,689,147] | order=2
+  Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+BLOCK 3 | type=label_value | bbox=[40,176,775,192] | order=3
+  Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days
+BLOCK 4 | type=table | bbox=[34,220,1356,448] | order=4
+  Claim: Professional 25115726708347 Member ID: H6887740210 ID: Company CAOMNI P3CA OMNI
+  Status: PENDING REVIEW Date Received: 11/14/2025 Service Date From: 11/07/2025
+  Auth/Referra! Auth/Referral Auth/Referral
+  #1(23): #2(23) #3(23):
+  Auth/Ref Status: Auth/Ref Status: Auth/Ref Status:
+  Claim Type: Professional Priority: 2 HIGH
+BLOCK 5 | type=heading | bbox=[38,469,227,487] | order=5
+  General Information
+BLOCK 6 | type=label_value | bbox=[33,497,438,535] | order=6
+  ID: Member H6887740210 DAVIS, OLIVER
+BLOCK 7 | type=table | bbox=[34,543,775,666] | order=7
+  Provider ID: 1098240233 OKONKWO MD, ADAEZE
+  Primary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED
+  Birth Date: 11/13/1960 Gender (3) M Marital Status:M
+BLOCK 8 | type=heading | bbox=[35,683,424,700] | order=8
+  EOB Indicator MPPR Indicator
+BLOCK 9 | type=table | bbox=[36,714,1035,752] | order=9
+  Place of Service(24b): 31 NURSING FACILITY SKILLED Facility: 49 SERVICE LOCATION
+BLOCK 10 | type=label_value | bbox=[36,760,777,798] | order=10
+  Outcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[26,7,1444,798] | shape=13x4 | conf=0.920
+  shape: 13x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Curamind | Claims Management | David Kim PROC002 Logout | -
+    CELL[1,0] = Curamind
+    CELL[1,1] = Claims Management
+    CELL[1,2] = David Kim PROC002 Logout
+  ROW 2 | - | - | Back to Dashboard | -
+    CELL[2,2] = Back to Dashboard
+  ROW 3 | Professional Claim X | - | - | -
+    CELL[3,0] = Professional Claim X
+  ROW 4 | - | - | Save changes | -
+    CELL[4,2] = Save changes
+  ROW 5 | Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 | - | - | -
+    CELL[5,0] = Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  ROW 6 | Processor: David Kim | Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days | - | -
+    CELL[6,0] = Processor: David Kim
+    CELL[6,1] = Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days
+  ROW 7 | General Information | - | - | -
+    CELL[7,0] = General Information
+  ROW 8 | Member H6887740210 | DAVIS, | - | -
+    CELL[8,0] = Member H6887740210
+    CELL[8,1] = DAVIS,
+  ROW 9 | ID | OLIVER | - | -
+    CELL[9,0] = ID
+    CELL[9,1] = OLIVER
+  ROW 10 | EOB Indicator | MPPR Indicator | - | -
+    CELL[10,0] = EOB Indicator
+    CELL[10,1] = MPPR Indicator
+  ROW 11 | Place of Service(24b) | 31 NURSING FACILITY SKILLED Facility: 49 | SERVICE LOCATION | -
+    CELL[11,0] = Place of Service(24b)
+    CELL[11,1] = 31 NURSING FACILITY SKILLED Facility: 49
+    CELL[11,2] = SERVICE LOCATION
+  ROW 12 | Outcome | 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY | - | -
+    CELL[12,0] = Outcome
+    CELL[12,1] = 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY
+[/TABLES]
+
+[CHECKBOXES]
+CHECKBOX 0 | EOB Indicator: No | source=standalone_indicator
+CHECKBOX 1 | MPPR Indicator: No | source=standalone_indicator
+[/CHECKBOXES]
+
+[BOXES]
+LINE 0 | bbox=[26,7,1404,40] | conf=0.983 | text=Curamind Claims Management David Kim PROC002 Logout
+  WORD | bbox=[26,17,125,34] | text=Curamind
+  WORD | bbox=[142,17,295,35] | text=Claims Management
+  WORD | bbox=[1153,7,1194,40] | text=David Kim
+  WORD | bbox=[1239,16,1307,31] | text=PROC002
+  WORD | bbox=[1351,16,1404,33] | text=Logout
+LINE 1 | bbox=[1301,63,1444,78] | conf=0.979 | text=Back to Dashboard
+LINE 2 | bbox=[34,65,1419,108] | conf=0.925 | text=Professional Claim X Save changes
+  WORD | bbox=[34,65,164,108] | text=Professional Claim X
+  WORD | bbox=[1318,92,1419,108] | text=Save changes
+LINE 3 | bbox=[48,125,689,147] | conf=0.966 | text=Claim Pg1 Prov pg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5
+  WORD | bbox=[48,128,124,144] | text=Claim Pg1
+  WORD | bbox=[161,125,228,147] | text=Prov pg2
+  WORD | bbox=[275,128,362,144] | text=Member Pg3
+  WORD | bbox=[412,128,510,144] | text=Diagnosis Pg4
+  WORD | bbox=[561,126,689,144] | text=Miscellaneous Pg5
+LINE 4 | bbox=[40,176,775,192] | conf=0.946 | text=Processor: David Kim Last edit: 11/17/202509:12 ProcessorID:PROC002 Decision SLA:2 days
+  WORD | bbox=[40,177,188,192] | text=Processor: David Kim
+  WORD | bbox=[238,177,432,192] | text=Last edit: 11/17/202509:12
+  WORD | bbox=[431,176,607,191] | text=ProcessorID:PROC002
+  WORD | bbox=[633,176,775,191] | text=Decision SLA:2 days
+LINE 5 | bbox=[34,220,1356,256] | conf=0.987 | text=Claim: Professional 25115726708347 Member ID: H6887740210 ID: Company CAOMNI P3CA OMNI
+  WORD | bbox=[34,236,80,256] | text=Claim:
+  WORD | bbox=[35,222,114,237] | text=Professional
+  WORD | bbox=[134,227,278,244] | text=25115726708347
+  WORD | bbox=[308,220,365,239] | text=Member
+  WORD | bbox=[308,237,334,255] | text=ID:
+  WORD | bbox=[380,229,480,245] | text=H6887740210
+  WORD | bbox=[952,233,979,255] | text=ID:
+  WORD | bbox=[955,220,1019,239] | text=Company
+  WORD | bbox=[1041,227,1102,247] | text=CAOMNI
+  WORD | bbox=[1315,220,1356,251] | text=P3CA OMNI
+LINE 6 | bbox=[34,266,1107,301] | conf=0.987 | text=Status: PENDING REVIEW Date Received: 11/14/2025 Service Date From: 11/07/2025
+  WORD | bbox=[34,277,84,297] | text=Status:
+  WORD | bbox=[361,278,479,293] | text=PENDING REVIEW
+  WORD | bbox=[518,269,553,286] | text=Date
+  WORD | bbox=[518,285,585,301] | text=Received:
+  WORD | bbox=[608,278,691,294] | text=11/14/2025
+  WORD | bbox=[913,266,996,285] | text=Service Date
+  WORD | bbox=[914,285,955,301] | text=From:
+  WORD | bbox=[1025,278,1107,294] | text=11/07/2025
+LINE 7 | bbox=[35,314,990,334] | conf=0.980 | text=Auth/Referra! Auth/Referral Auth/Referral
+  WORD | bbox=[35,317,121,334] | text=Auth/Referra!
+  WORD | bbox=[468,316,552,331] | text=Auth/Referral
+  WORD | bbox=[903,314,990,333] | text=Auth/Referral
+LINE 8 | bbox=[35,333,955,350] | conf=0.890 | text=#1(23): #2(23) #3(23):
+  WORD | bbox=[35,334,88,350] | text=#1(23):
+  WORD | bbox=[468,333,519,349] | text=#2(23)
+  WORD | bbox=[905,333,955,349] | text=#3(23):
+LINE 9 | bbox=[35,364,1024,398] | conf=0.990 | text=Auth/Ref Status: Auth/Ref Status: Auth/Ref Status:
+  WORD | bbox=[35,365,93,381] | text=Auth/Ref
+  WORD | bbox=[35,381,83,398] | text=Status:
+  WORD | bbox=[518,364,575,398] | text=Auth/Ref Status:
+  WORD | bbox=[967,364,1024,397] | text=Auth/Ref Status:
+LINE 10 | bbox=[34,411,766,448] | conf=0.990 | text=Claim Type: Professional Priority: 2 HIGH
+  WORD | bbox=[34,411,75,432] | text=Claim
+  WORD | bbox=[35,430,74,448] | text=Type:
+  WORD | bbox=[105,423,190,440] | text=Professional
+  WORD | bbox=[412,417,467,441] | text=Priority:
+  WORD | bbox=[485,426,496,438] | text=2
+  WORD | bbox=[727,421,766,438] | text=HIGH
+LINE 11 | bbox=[38,469,227,487] | conf=0.987 | text=General Information
+LINE 12 | bbox=[33,497,438,535] | conf=0.984 | text=ID: Member H6887740210 DAVIS, OLIVER
+  WORD | bbox=[33,516,57,534] | text=ID:
+  WORD | bbox=[34,499,91,518] | text=Member
+  WORD | bbox=[136,508,236,524] | text=H6887740210
+  WORD | bbox=[383,497,435,520] | text=DAVIS,
+  WORD | bbox=[386,519,438,535] | text=OLIVER
+LINE 13 | bbox=[34,543,746,578] | conf=0.976 | text=Provider ID: 1098240233 OKONKWO MD, ADAEZE
+  WORD | bbox=[34,543,92,562] | text=Provider
+  WORD | bbox=[34,561,59,578] | text=ID:
+  WORD | bbox=[391,552,480,569] | text=1098240233
+  WORD | bbox=[642,545,746,578] | text=OKONKWO MD, ADAEZE
+LINE 14 | bbox=[34,589,687,627] | conf=0.985 | text=Primary Diagnosis: J06.9 ACUTE UPPER RESPIRATORY INFECTION, UNSPECIFIED
+  WORD | bbox=[34,589,88,611] | text=Primary
+  WORD | bbox=[34,608,103,627] | text=Diagnosis:
+  WORD | bbox=[158,600,200,618] | text=J06.9
+  WORD | bbox=[415,590,687,605] | text=ACUTE UPPER RESPIRATORY INFECTION,
+  WORD | bbox=[415,605,508,622] | text=UNSPECIFIED
+LINE 15 | bbox=[35,634,775,666] | conf=0.964 | text=Birth Date: 11/13/1960 Gender (3) M Marital Status:M
+  WORD | bbox=[35,634,69,651] | text=Birth
+  WORD | bbox=[35,650,74,666] | text=Date:
+  WORD | bbox=[115,642,197,658] | text=11/13/1960
+  WORD | bbox=[393,642,469,657] | text=Gender (3)
+  WORD | bbox=[487,642,503,657] | text=M
+  WORD | bbox=[653,640,775,657] | text=Marital Status:M
+LINE 16 | bbox=[35,683,424,700] | conf=0.948 | text=EOB Indicator MPPR Indicator
+  WORD | bbox=[35,684,141,700] | text=EOB Indicator
+  WORD | bbox=[309,683,424,700] | text=MPPR Indicator
+LINE 17 | bbox=[36,714,1035,752] | conf=0.980 | text=Place of Service(24b): 31 NURSING FACILITY SKILLED Facility: 49 SERVICE LOCATION
+  WORD | bbox=[36,720,90,736] | text=Place of
+  WORD | bbox=[36,736,124,751] | text=Service(24b):
+  WORD | bbox=[159,727,184,744] | text=31
+  WORD | bbox=[435,734,555,752] | text=NURSING FACILITY
+  WORD | bbox=[436,719,491,735] | text=SKILLED
+  WORD | bbox=[643,723,695,745] | text=Facility:
+  WORD | bbox=[712,726,736,744] | text=49
+  WORD | bbox=[965,714,1035,750] | text=SERVICE LOCATION
+LINE 18 | bbox=[36,760,777,798] | conf=0.985 | text=Outcome: 06 DISCHARGED TO HOME HEALTH SERVICE Payer Resp: PRIMARY
+  WORD | bbox=[36,770,103,786] | text=Outcome:
+  WORD | bbox=[110,771,137,788] | text=06
+  WORD | bbox=[359,764,616,779] | text=DISCHARGED TO HOME HEALTH SERVICE
+  WORD | bbox=[642,760,685,782] | text=Payer
+  WORD | bbox=[642,776,684,798] | text=Resp:
+  WORD | bbox=[712,766,777,789] | text=PRIMARY
+[/BOXES]
+
+[FIELDS]
+NPI: 1098240233
+[/FIELDS]

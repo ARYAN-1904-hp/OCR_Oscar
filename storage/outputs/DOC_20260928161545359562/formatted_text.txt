@@ -1,0 +1,34 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=3 | tables=0 | checkboxes=0
+
+[TEXT]
+VERINT.
+Sorry, your session has
+timed out and has been shut
+down for your security.
+OK
+Copyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=heading | bbox=[691,168,903,214] | order=0
+  VERINT.
+BLOCK 1 | type=paragraph | bbox=[639,452,968,586] | order=1
+  Sorry, your session has
+  timed out and has been shut
+  down for your security.
+  OK
+BLOCK 2 | type=sidebar | bbox=[55,585,323,638] | order=2
+  Copyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide
+[/LAYOUT]
+
+[BOXES]
+LINE 0 | bbox=[691,168,903,214] | conf=0.958 | text=VERINT.
+LINE 1 | bbox=[667,452,935,487] | conf=1.000 | text=Sorry, your session has
+LINE 2 | bbox=[639,480,968,513] | conf=0.997 | text=timed out and has been shut
+LINE 3 | bbox=[674,512,930,541] | conf=0.980 | text=down for your security.
+LINE 4 | bbox=[792,565,818,586] | conf=0.983 | text=OK
+LINE 5 | bbox=[55,585,323,638] | conf=0.966 | text=Copyright 2001 -2026 Verint Systems, Inc. All Rights Reserved Worldwide
+[/BOXES]

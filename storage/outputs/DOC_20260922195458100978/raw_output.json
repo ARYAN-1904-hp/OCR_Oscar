@@ -1,0 +1,2470 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Curamind Claims Management Sarah Johnson PROC001 Logout\nBack to Dashboard\nProfessional Claim + Save changes\nClaim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 Decision SLA: 3 days\nProfessional Claim: 25115366316743 Member ID: H6881954663 Company ID: CAOMNI P3 CA OMNI\nStatus: 2 PENDING REVIEW Date Received: 11/18/2025 Service Date From: 11/06/2025\nAuth/Referral #1(23): 2510815055049206241 #2(23): Auth/Referral Auth/Referral #3(23):\nAuth/Ref Status: 1 APPROVED Auth/Ref Status: Auth/Ref Status:\nClaim Type: Professional Priority: 1 MEDIUM\nID: General Information Member H6881954663 FLORES, BRIAN\nProvider ID: 1098216607 MARTINEZ MD, ANNA LUCIA\nPrimary Diagnosis: D64.9 ANEMIA, UNSPECIFIED\nBirth Date: 01/22/1977 Gender 3) F. Marital Status: U\nEOB Indicator MPPR Indicator\nPlace of Service(24b): 21 INPATIENT HOSPITAL Facility: 75 SERVICE LOCATION\nOutcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 1042,
+      "text": "Curamind Claims Management Sarah Johnson PROC001 Logout\nBack to Dashboard\nProfessional Claim + Save changes\nClaim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 Decision SLA: 3 days\nProfessional Claim: 25115366316743 Member ID: H6881954663 Company ID: CAOMNI P3 CA OMNI\nStatus: 2 PENDING REVIEW Date Received: 11/18/2025 Service Date From: 11/06/2025\nAuth/Referral #1(23): 2510815055049206241 #2(23): Auth/Referral Auth/Referral #3(23):\nAuth/Ref Status: 1 APPROVED Auth/Ref Status: Auth/Ref Status:\nClaim Type: Professional Priority: 1 MEDIUM\nID: General Information Member H6881954663 FLORES, BRIAN\nProvider ID: 1098216607 MARTINEZ MD, ANNA LUCIA\nPrimary Diagnosis: D64.9 ANEMIA, UNSPECIFIED\nBirth Date: 01/22/1977 Gender 3) F. Marital Status: U\nEOB Indicator MPPR Indicator\nPlace of Service(24b): 21 INPATIENT HOSPITAL Facility: 75 SERVICE LOCATION\nOutcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "label_value",
+              "reading_order": 4,
+              "bbox": [
+                40,
+                174,
+                773,
+                192
+              ],
+              "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PRocoo1 Decision SLA: 3 days",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PRocoo1 Decision SLA: 3 days",
+                  "conf": 0.9229434430599213,
+                  "bbox": [
+                    40,
+                    174,
+                    773,
+                    192
+                  ],
+                  "words": [
+                    {
+                      "text": "Processor: Sarah Johnson",
+                      "conf": 0.9315354228019714,
+                      "bbox": [
+                        40,
+                        177,
+                        219,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "Last edit: 11/17/2025 08:05",
+                      "conf": 0.9432820081710815,
+                      "bbox": [
+                        237,
+                        177,
+                        431,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "ProcessorID:PRocoo1",
+                      "conf": 0.8757416605949402,
+                      "bbox": [
+                        430,
+                        174,
+                        606,
+                        190
+                      ]
+                    },
+                    {
+                      "text": "Decision SLA: 3 days",
+                      "conf": 0.9412146806716919,
+                      "bbox": [
+                        632,
+                        174,
+                        773,
+                        190
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 6,
+              "bbox": [
+                33,
+                469,
+                446,
+                535
+              ],
+              "text": "ID: General Information Member H6881954663 FLORES, BRIAN",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "ID: General Information Member H6881954663 FLORES, BRIAN",
+                  "conf": 0.9794227778911591,
+                  "bbox": [
+                    33,
+                    469,
+                    446,
+                    535
+                  ],
+                  "words": [
+                    {
+                      "text": "ID:",
+                      "conf": 0.9329628944396973,
+                      "bbox": [
+                        33,
+                        518,
+                        59,
+                        535
+                      ]
+                    },
+                    {
+                      "text": "General Information Member",
+                      "conf": 0.9943353533744812,
+                      "bbox": [
+                        34,
+                        469,
+                        227,
+                        519
+                      ]
+                    },
+                    {
+                      "text": "H6881954663",
+                      "conf": 0.9971973896026611,
+                      "bbox": [
+                        136,
+                        508,
+                        236,
+                        524
+                      ]
+                    },
+                    {
+                      "text": "FLORES, BRIAN",
+                      "conf": 0.9931954741477966,
+                      "bbox": [
+                        383,
+                        497,
+                        446,
+                        535
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "heading",
+              "reading_order": 8,
+              "bbox": [
+                35,
+                683,
+                424,
+                701
+              ],
+              "text": "EOB Indicator MPPR Indicator",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "EOB Indicator MPPR Indicator",
+                  "conf": 0.9505301415920258,
+                  "bbox": [
+                    35,
+                    683,
+                    424,
+                    701
+                  ],
+                  "words": [
+                    {
+                      "text": " EOB Indicator",
+                      "conf": 0.9367475509643555,
+                      "bbox": [
+                        35,
+                        685,
+                        141,
+                        701
+                      ]
+                    },
+                    {
+                      "text": "MPPR Indicator",
+                      "conf": 0.964312732219696,
+                      "bbox": [
+                        309,
+                        683,
+                        424,
+                        701
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "label_value",
+              "reading_order": 10,
+              "bbox": [
+                38,
+                760,
+                780,
+                797
+              ],
+              "text": "Outcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Outcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+                  "conf": 0.9841490685939789,
+                  "bbox": [
+                    38,
+                    760,
+                    780,
+                    797
+                  ],
+                  "words": [
+                    {
+                      "text": "Outcome:",
+                      "conf": 0.9891467094421387,
+                      "bbox": [
+                        38,
+                        771,
+                        102,
+                        787
+                      ]
+                    },
+                    {
+                      "text": "02",
+                      "conf": 0.9941050410270691,
+                      "bbox": [
+                        110,
+                        769,
+                        138,
+                        790
+                      ]
+                    },
+                    {
+                      "text": "TRANSFERRED TO SHORT-TERM HOSPITAL",
+                      "conf": 0.9578290581703186,
+                      "bbox": [
+                        360,
+                        764,
+                        621,
+                        779
+                      ]
+                    },
+                    {
+                      "text": "Payer",
+                      "conf": 0.9950302839279175,
+                      "bbox": [
+                        642,
+                        760,
+                        685,
+                        781
+                      ]
+                    },
+                    {
+                      "text": "Resp:",
+                      "conf": 0.9745441675186157,
+                      "bbox": [
+                        642,
+                        776,
+                        684,
+                        797
+                      ]
+                    },
+                    {
+                      "text": "PRIMARY",
+                      "conf": 0.9942391514778137,
+                      "bbox": [
+                        711,
+                        766,
+                        780,
+                        789
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PRocoo1 Decision SLA: 3 days\nID: General Information Member H6881954663 FLORES, BRIAN\nEOB Indicator MPPR Indicator\nOutcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            26,
+            7,
+            1404,
+            41
+          ],
+          "text": "Curamind Claims Management Sarah Johnson PROCO01 Logout",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Curamind Claims Management Sarah Johnson PROCO01 Logout",
+              "conf": 0.9861260056495667,
+              "bbox": [
+                26,
+                7,
+                1404,
+                41
+              ],
+              "words": [
+                {
+                  "text": "Curamind",
+                  "conf": 0.999152421951294,
+                  "bbox": [
+                    26,
+                    17,
+                    125,
+                    34
+                  ]
+                },
+                {
+                  "text": "Claims Management",
+                  "conf": 0.9922776222229004,
+                  "bbox": [
+                    143,
+                    20,
+                    295,
+                    35
+                  ]
+                },
+                {
+                  "text": "Sarah Johnson",
+                  "conf": 0.9971266984939575,
+                  "bbox": [
+                    1152,
+                    7,
+                    1206,
+                    41
+                  ]
+                },
+                {
+                  "text": "PROCO01",
+                  "conf": 0.9423017501831055,
+                  "bbox": [
+                    1239,
+                    16,
+                    1304,
+                    31
+                  ]
+                },
+                {
+                  "text": "Logout",
+                  "conf": 0.9997715353965759,
+                  "bbox": [
+                    1351,
+                    16,
+                    1404,
+                    33
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            1302,
+            62,
+            1445,
+            77
+          ],
+          "text": "Back to Dashboard",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Back to Dashboard",
+              "conf": 0.9786725640296936,
+              "bbox": [
+                1302,
+                62,
+                1445,
+                77
+              ],
+              "words": [
+                {
+                  "text": "Back to Dashboard",
+                  "conf": 0.9786725640296936,
+                  "bbox": [
+                    1302,
+                    62,
+                    1445,
+                    77
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 2,
+          "bbox": [
+            35,
+            67,
+            1419,
+            110
+          ],
+          "text": "Professional Claim + Save changes",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Professional Claim + Save changes",
+              "conf": 0.9796800166368484,
+              "bbox": [
+                35,
+                67,
+                1419,
+                110
+              ],
+              "words": [
+                {
+                  "text": "Professional Claim +",
+                  "conf": 0.9701506793498993,
+                  "bbox": [
+                    35,
+                    67,
+                    163,
+                    110
+                  ]
+                },
+                {
+                  "text": "Save changes",
+                  "conf": 0.9892093539237976,
+                  "bbox": [
+                    1318,
+                    92,
+                    1419,
+                    107
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            44,
+            124,
+            689,
+            148
+          ],
+          "text": "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "conf": 0.9748628616333008,
+              "bbox": [
+                44,
+                124,
+                689,
+                148
+              ],
+              "words": [
+                {
+                  "text": "Claim Pg1",
+                  "conf": 0.9897704720497131,
+                  "bbox": [
+                    44,
+                    124,
+                    126,
+                    147
+                  ]
+                },
+                {
+                  "text": "Provpg2",
+                  "conf": 0.9910086393356323,
+                  "bbox": [
+                    161,
+                    125,
+                    228,
+                    148
+                  ]
+                },
+                {
+                  "text": "Member Pg3",
+                  "conf": 0.9603829383850098,
+                  "bbox": [
+                    274,
+                    128,
+                    362,
+                    144
+                  ]
+                },
+                {
+                  "text": "Diagnosis Pg4",
+                  "conf": 0.9719781279563904,
+                  "bbox": [
+                    412,
+                    128,
+                    510,
+                    144
+                  ]
+                },
+                {
+                  "text": "Miscellaneous Pg5",
+                  "conf": 0.9611741304397583,
+                  "bbox": [
+                    561,
+                    126,
+                    689,
+                    144
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 4,
+          "bbox": [
+            40,
+            174,
+            773,
+            192
+          ],
+          "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PRocoo1 Decision SLA: 3 days",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PRocoo1 Decision SLA: 3 days",
+              "conf": 0.9229434430599213,
+              "bbox": [
+                40,
+                174,
+                773,
+                192
+              ],
+              "words": [
+                {
+                  "text": "Processor: Sarah Johnson",
+                  "conf": 0.9315354228019714,
+                  "bbox": [
+                    40,
+                    177,
+                    219,
+                    192
+                  ]
+                },
+                {
+                  "text": "Last edit: 11/17/2025 08:05",
+                  "conf": 0.9432820081710815,
+                  "bbox": [
+                    237,
+                    177,
+                    431,
+                    192
+                  ]
+                },
+                {
+                  "text": "ProcessorID:PRocoo1",
+                  "conf": 0.8757416605949402,
+                  "bbox": [
+                    430,
+                    174,
+                    606,
+                    190
+                  ]
+                },
+                {
+                  "text": "Decision SLA: 3 days",
+                  "conf": 0.9412146806716919,
+                  "bbox": [
+                    632,
+                    174,
+                    773,
+                    190
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            32,
+            218,
+            1356,
+            448
+          ],
+          "text": "Professional Claim: 25115366316743 Member ID: H6881954663 Company ID: CAOMNI P3 CA OMNI\nStatus: 2 PENDING REVIEW Date Received: 11/18/2025 Service Date From: 11/06/2025\nAuth/Referral #1(23): 2510815055049206241 #2(23): Auth/Referral Auth/Referral #3(23):\nAuth/Ref Status: 1 APPROVED Auth/Ref Status: Auth/Ref Status:\nClaim Type: Professional Priority: 1 MEDIUM",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Professional Claim: 25115366316743 Member ID: H6881954663 Company ID: CAOMNI P3 CA OMNI",
+              "conf": 0.9814685072217669,
+              "bbox": [
+                34,
+                218,
+                1356,
+                256
+              ],
+              "words": [
+                {
+                  "text": "Professional Claim:",
+                  "conf": 0.990612655878067,
+                  "bbox": [
+                    34,
+                    223,
+                    113,
+                    256
+                  ]
+                },
+                {
+                  "text": "25115366316743",
+                  "conf": 0.9987820386886597,
+                  "bbox": [
+                    135,
+                    229,
+                    278,
+                    244
+                  ]
+                },
+                {
+                  "text": "Member ID:",
+                  "conf": 0.9660653471946716,
+                  "bbox": [
+                    307,
+                    222,
+                    364,
+                    255
+                  ]
+                },
+                {
+                  "text": "H6881954663",
+                  "conf": 0.9971456527709961,
+                  "bbox": [
+                    380,
+                    229,
+                    479,
+                    245
+                  ]
+                },
+                {
+                  "text": "Company ID:",
+                  "conf": 0.9686087071895599,
+                  "bbox": [
+                    954,
+                    218,
+                    1019,
+                    254
+                  ]
+                },
+                {
+                  "text": "CAOMNI",
+                  "conf": 0.992469072341919,
+                  "bbox": [
+                    1041,
+                    226,
+                    1102,
+                    245
+                  ]
+                },
+                {
+                  "text": "P3 CA OMNI",
+                  "conf": 0.9565960764884949,
+                  "bbox": [
+                    1315,
+                    219,
+                    1356,
+                    251
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Status: 2 PENDING REVIEW Date Received: 11/18/2025 Service Date From: 11/06/2025",
+              "conf": 0.9889594614505768,
+              "bbox": [
+                32,
+                266,
+                1109,
+                303
+              ],
+              "words": [
+                {
+                  "text": "Status:",
+                  "conf": 0.9853771924972534,
+                  "bbox": [
+                    32,
+                    275,
+                    84,
+                    298
+                  ]
+                },
+                {
+                  "text": "2",
+                  "conf": 0.9976414442062378,
+                  "bbox": [
+                    95,
+                    280,
+                    109,
+                    295
+                  ]
+                },
+                {
+                  "text": "PENDING REVIEW",
+                  "conf": 0.9791833758354187,
+                  "bbox": [
+                    361,
+                    278,
+                    479,
+                    293
+                  ]
+                },
+                {
+                  "text": "Date Received:",
+                  "conf": 0.990206778049469,
+                  "bbox": [
+                    516,
+                    267,
+                    584,
+                    301
+                  ]
+                },
+                {
+                  "text": "11/18/2025",
+                  "conf": 0.9993964433670044,
+                  "bbox": [
+                    607,
+                    277,
+                    693,
+                    297
+                  ]
+                },
+                {
+                  "text": "Service Date From:",
+                  "conf": 0.9730275571346283,
+                  "bbox": [
+                    911,
+                    266,
+                    996,
+                    303
+                  ]
+                },
+                {
+                  "text": "11/06/2025",
+                  "conf": 0.9978834390640259,
+                  "bbox": [
+                    1024,
+                    274,
+                    1109,
+                    297
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Auth/Referral #1(23): 2510815055049206241 #2(23): Auth/Referral Auth/Referral #3(23):",
+              "conf": 0.9552929937839508,
+              "bbox": [
+                35,
+                315,
+                990,
+                352
+              ],
+              "words": [
+                {
+                  "text": "Auth/Referral #1(23):",
+                  "conf": 0.9411369860172272,
+                  "bbox": [
+                    35,
+                    316,
+                    121,
+                    351
+                  ]
+                },
+                {
+                  "text": "2510815055049206241",
+                  "conf": 0.9983347654342651,
+                  "bbox": [
+                    162,
+                    328,
+                    328,
+                    343
+                  ]
+                },
+                {
+                  "text": "#2(23):",
+                  "conf": 0.9309231638908386,
+                  "bbox": [
+                    464,
+                    329,
+                    521,
+                    352
+                  ]
+                },
+                {
+                  "text": "Auth/Referral",
+                  "conf": 0.993040144443512,
+                  "bbox": [
+                    468,
+                    317,
+                    552,
+                    334
+                  ]
+                },
+                {
+                  "text": "Auth/Referral #3(23):",
+                  "conf": 0.9130299091339111,
+                  "bbox": [
+                    905,
+                    315,
+                    990,
+                    348
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Auth/Ref Status: 1 APPROVED Auth/Ref Status: Auth/Ref Status:",
+              "conf": 0.9752366542816162,
+              "bbox": [
+                35,
+                362,
+                1025,
+                399
+              ],
+              "words": [
+                {
+                  "text": "Auth/Ref Status:",
+                  "conf": 0.9798567295074463,
+                  "bbox": [
+                    35,
+                    366,
+                    93,
+                    399
+                  ]
+                },
+                {
+                  "text": "1",
+                  "conf": 0.9181060194969177,
+                  "bbox": [
+                    120,
+                    379,
+                    130,
+                    392
+                  ]
+                },
+                {
+                  "text": "APPROVED",
+                  "conf": 0.9970012307167053,
+                  "bbox": [
+                    393,
+                    374,
+                    469,
+                    391
+                  ]
+                },
+                {
+                  "text": "Auth/Ref Status:",
+                  "conf": 0.9920161664485931,
+                  "bbox": [
+                    518,
+                    365,
+                    575,
+                    398
+                  ]
+                },
+                {
+                  "text": "Auth/Ref Status:",
+                  "conf": 0.9892031252384186,
+                  "bbox": [
+                    965,
+                    362,
+                    1025,
+                    397
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Claim Type: Professional Priority: 1 MEDIUM",
+              "conf": 0.9816295444965363,
+              "bbox": [
+                34,
+                411,
+                786,
+                448
+              ],
+              "words": [
+                {
+                  "text": "Claim Type:",
+                  "conf": 0.9842287600040436,
+                  "bbox": [
+                    34,
+                    411,
+                    75,
+                    448
+                  ]
+                },
+                {
+                  "text": "Professional",
+                  "conf": 0.9750335812568665,
+                  "bbox": [
+                    102,
+                    421,
+                    190,
+                    441
+                  ]
+                },
+                {
+                  "text": "Priority:",
+                  "conf": 0.9911993741989136,
+                  "bbox": [
+                    412,
+                    417,
+                    468,
+                    441
+                  ]
+                },
+                {
+                  "text": "1",
+                  "conf": 0.9648126363754272,
+                  "bbox": [
+                    485,
+                    426,
+                    495,
+                    438
+                  ]
+                },
+                {
+                  "text": "MEDIUM",
+                  "conf": 0.9928733706474304,
+                  "bbox": [
+                    725,
+                    420,
+                    786,
+                    436
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 6,
+          "bbox": [
+            33,
+            469,
+            446,
+            535
+          ],
+          "text": "ID: General Information Member H6881954663 FLORES, BRIAN",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "ID: General Information Member H6881954663 FLORES, BRIAN",
+              "conf": 0.9794227778911591,
+              "bbox": [
+                33,
+                469,
+                446,
+                535
+              ],
+              "words": [
+                {
+                  "text": "ID:",
+                  "conf": 0.9329628944396973,
+                  "bbox": [
+                    33,
+                    518,
+                    59,
+                    535
+                  ]
+                },
+                {
+                  "text": "General Information Member",
+                  "conf": 0.9943353533744812,
+                  "bbox": [
+                    34,
+                    469,
+                    227,
+                    519
+                  ]
+                },
+                {
+                  "text": "H6881954663",
+                  "conf": 0.9971973896026611,
+                  "bbox": [
+                    136,
+                    508,
+                    236,
+                    524
+                  ]
+                },
+                {
+                  "text": "FLORES, BRIAN",
+                  "conf": 0.9931954741477966,
+                  "bbox": [
+                    383,
+                    497,
+                    446,
+                    535
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            32,
+            545,
+            770,
+            668
+          ],
+          "text": "Provider ID: 1098216607 MARTINEZ MD, ANNA LUCIA\nPrimary Diagnosis: D64.9 ANEMIA, UNSPECIFIED\nBirth Date: 01/22/1977 Gender 3) F. Marital Status: U",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Provider ID: 1098216607 MARTINEZ MD, ANNA LUCIA",
+              "conf": 0.9676714142163595,
+              "bbox": [
+                32,
+                545,
+                743,
+                580
+              ],
+              "words": [
+                {
+                  "text": "Provider ID:",
+                  "conf": 0.9620961844921112,
+                  "bbox": [
+                    32,
+                    545,
+                    91,
+                    580
+                  ]
+                },
+                {
+                  "text": "1098216607",
+                  "conf": 0.998249351978302,
+                  "bbox": [
+                    391,
+                    552,
+                    480,
+                    569
+                  ]
+                },
+                {
+                  "text": "MARTINEZ MD, ANNA LUCIA",
+                  "conf": 0.9426687061786652,
+                  "bbox": [
+                    642,
+                    545,
+                    743,
+                    578
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED",
+              "conf": 0.9904304047425588,
+              "bbox": [
+                34,
+                590,
+                508,
+                627
+              ],
+              "words": [
+                {
+                  "text": "Primary Diagnosis:",
+                  "conf": 0.9930850863456726,
+                  "bbox": [
+                    34,
+                    592,
+                    105,
+                    627
+                  ]
+                },
+                {
+                  "text": "D64.9",
+                  "conf": 0.9862969517707825,
+                  "bbox": [
+                    158,
+                    596,
+                    209,
+                    620
+                  ]
+                },
+                {
+                  "text": "ANEMIA, UNSPECIFIED",
+                  "conf": 0.9919091761112213,
+                  "bbox": [
+                    414,
+                    590,
+                    508,
+                    622
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Birth Date: 01/22/1977 Gender 3) F. Marital Status: U",
+              "conf": 0.906386653582255,
+              "bbox": [
+                35,
+                634,
+                770,
+                668
+              ],
+              "words": [
+                {
+                  "text": "Birth Date:",
+                  "conf": 0.9878036379814148,
+                  "bbox": [
+                    35,
+                    634,
+                    74,
+                    668
+                  ]
+                },
+                {
+                  "text": "01/22/1977",
+                  "conf": 0.9965302348136902,
+                  "bbox": [
+                    115,
+                    643,
+                    197,
+                    659
+                  ]
+                },
+                {
+                  "text": "Gender 3)",
+                  "conf": 0.9220010042190552,
+                  "bbox": [
+                    393,
+                    642,
+                    469,
+                    657
+                  ]
+                },
+                {
+                  "text": "F.",
+                  "conf": 0.6285154819488525,
+                  "bbox": [
+                    490,
+                    644,
+                    498,
+                    656
+                  ]
+                },
+                {
+                  "text": "Marital Status:",
+                  "conf": 0.95198655128479,
+                  "bbox": [
+                    654,
+                    640,
+                    757,
+                    657
+                  ]
+                },
+                {
+                  "text": "U",
+                  "conf": 0.9514830112457275,
+                  "bbox": [
+                    751,
+                    643,
+                    770,
+                    656
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 8,
+          "bbox": [
+            35,
+            683,
+            424,
+            701
+          ],
+          "text": "EOB Indicator MPPR Indicator",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "EOB Indicator MPPR Indicator",
+              "conf": 0.9505301415920258,
+              "bbox": [
+                35,
+                683,
+                424,
+                701
+              ],
+              "words": [
+                {
+                  "text": " EOB Indicator",
+                  "conf": 0.9367475509643555,
+                  "bbox": [
+                    35,
+                    685,
+                    141,
+                    701
+                  ]
+                },
+                {
+                  "text": "MPPR Indicator",
+                  "conf": 0.964312732219696,
+                  "bbox": [
+                    309,
+                    683,
+                    424,
+                    701
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            34,
+            717,
+            1035,
+            752
+          ],
+          "text": "Place of Service(24b): 21 INPATIENT HOSPITAL Facility: 75 SERVICE LOCATION",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Place of Service(24b): 21 INPATIENT HOSPITAL Facility: 75 SERVICE LOCATION",
+              "conf": 0.9894473900397619,
+              "bbox": [
+                34,
+                717,
+                1035,
+                752
+              ],
+              "words": [
+                {
+                  "text": "Place of Service(24b):",
+                  "conf": 0.9573363959789276,
+                  "bbox": [
+                    34,
+                    717,
+                    124,
+                    752
+                  ]
+                },
+                {
+                  "text": "21",
+                  "conf": 0.9967236518859863,
+                  "bbox": [
+                    158,
+                    727,
+                    184,
+                    745
+                  ]
+                },
+                {
+                  "text": "INPATIENT HOSPITAL",
+                  "conf": 0.9980429708957672,
+                  "bbox": [
+                    436,
+                    720,
+                    504,
+                    752
+                  ]
+                },
+                {
+                  "text": "Facility:",
+                  "conf": 0.9872589111328125,
+                  "bbox": [
+                    643,
+                    725,
+                    696,
+                    744
+                  ]
+                },
+                {
+                  "text": "75",
+                  "conf": 0.9989635944366455,
+                  "bbox": [
+                    712,
+                    726,
+                    736,
+                    744
+                  ]
+                },
+                {
+                  "text": "SERVICE LOCATION",
+                  "conf": 0.998358815908432,
+                  "bbox": [
+                    968,
+                    718,
+                    1035,
+                    750
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "label_value",
+          "reading_order": 10,
+          "bbox": [
+            38,
+            760,
+            780,
+            797
+          ],
+          "text": "Outcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Outcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+              "conf": 0.9841490685939789,
+              "bbox": [
+                38,
+                760,
+                780,
+                797
+              ],
+              "words": [
+                {
+                  "text": "Outcome:",
+                  "conf": 0.9891467094421387,
+                  "bbox": [
+                    38,
+                    771,
+                    102,
+                    787
+                  ]
+                },
+                {
+                  "text": "02",
+                  "conf": 0.9941050410270691,
+                  "bbox": [
+                    110,
+                    769,
+                    138,
+                    790
+                  ]
+                },
+                {
+                  "text": "TRANSFERRED TO SHORT-TERM HOSPITAL",
+                  "conf": 0.9578290581703186,
+                  "bbox": [
+                    360,
+                    764,
+                    621,
+                    779
+                  ]
+                },
+                {
+                  "text": "Payer",
+                  "conf": 0.9950302839279175,
+                  "bbox": [
+                    642,
+                    760,
+                    685,
+                    781
+                  ]
+                },
+                {
+                  "text": "Resp:",
+                  "conf": 0.9745441675186157,
+                  "bbox": [
+                    642,
+                    776,
+                    684,
+                    797
+                  ]
+                },
+                {
+                  "text": "PRIMARY",
+                  "conf": 0.9942391514778137,
+                  "bbox": [
+                    711,
+                    766,
+                    780,
+                    789
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            26,
+            7,
+            1445,
+            797
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Curamind</td><td>Claims Management</td><td>Sarah Johnson PROCO01 Logout</td><td></td></tr><tr><td></td><td></td><td>Back to Dashboard</td><td></td></tr><tr><td>Professional Claim +</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Save changes</td><td></td></tr><tr><td>Outcome</td><td>02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY</td><td></td><td></td></tr></table>",
+          "text": "Curamind: Claims Management\nSarah Johnson PROCO01 Logout: \nBack to Dashboard: \nProfessional Claim +: \nSave changes: \nOutcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "Curamind",
+              "Claims Management",
+              "Sarah Johnson PROCO01 Logout",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Back to Dashboard",
+              ""
+            ],
+            [
+              "Professional Claim +",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Save changes",
+              ""
+            ],
+            [
+              "Outcome",
+              "02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "Curamind Claims Management",
+              "Sarah Johnson PROCO01 Logout"
+            ],
+            [
+              "",
+              "Back to Dashboard"
+            ],
+            [
+              "Professional Claim +",
+              ""
+            ],
+            [
+              "",
+              "Save changes"
+            ],
+            [
+              "Outcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Curamind Claims Management Sarah Johnson PROCO01 Logout",
+          "conf": 0.9861260056495667,
+          "bbox": [
+            26,
+            7,
+            1404,
+            41
+          ],
+          "words": [
+            {
+              "text": "Curamind",
+              "conf": 0.999152421951294,
+              "bbox": [
+                26,
+                17,
+                125,
+                34
+              ]
+            },
+            {
+              "text": "Claims Management",
+              "conf": 0.9922776222229004,
+              "bbox": [
+                143,
+                20,
+                295,
+                35
+              ]
+            },
+            {
+              "text": "Sarah Johnson",
+              "conf": 0.9971266984939575,
+              "bbox": [
+                1152,
+                7,
+                1206,
+                41
+              ]
+            },
+            {
+              "text": "PROCO01",
+              "conf": 0.9423017501831055,
+              "bbox": [
+                1239,
+                16,
+                1304,
+                31
+              ]
+            },
+            {
+              "text": "Logout",
+              "conf": 0.9997715353965759,
+              "bbox": [
+                1351,
+                16,
+                1404,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Back to Dashboard",
+          "conf": 0.9786725640296936,
+          "bbox": [
+            1302,
+            62,
+            1445,
+            77
+          ],
+          "words": [
+            {
+              "text": "Back to Dashboard",
+              "conf": 0.9786725640296936,
+              "bbox": [
+                1302,
+                62,
+                1445,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Professional Claim + Save changes",
+          "conf": 0.9796800166368484,
+          "bbox": [
+            35,
+            67,
+            1419,
+            110
+          ],
+          "words": [
+            {
+              "text": "Professional Claim +",
+              "conf": 0.9701506793498993,
+              "bbox": [
+                35,
+                67,
+                163,
+                110
+              ]
+            },
+            {
+              "text": "Save changes",
+              "conf": 0.9892093539237976,
+              "bbox": [
+                1318,
+                92,
+                1419,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "conf": 0.9748628616333008,
+          "bbox": [
+            44,
+            124,
+            689,
+            148
+          ],
+          "words": [
+            {
+              "text": "Claim Pg1",
+              "conf": 0.9897704720497131,
+              "bbox": [
+                44,
+                124,
+                126,
+                147
+              ]
+            },
+            {
+              "text": "Provpg2",
+              "conf": 0.9910086393356323,
+              "bbox": [
+                161,
+                125,
+                228,
+                148
+              ]
+            },
+            {
+              "text": "Member Pg3",
+              "conf": 0.9603829383850098,
+              "bbox": [
+                274,
+                128,
+                362,
+                144
+              ]
+            },
+            {
+              "text": "Diagnosis Pg4",
+              "conf": 0.9719781279563904,
+              "bbox": [
+                412,
+                128,
+                510,
+                144
+              ]
+            },
+            {
+              "text": "Miscellaneous Pg5",
+              "conf": 0.9611741304397583,
+              "bbox": [
+                561,
+                126,
+                689,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PRocoo1 Decision SLA: 3 days",
+          "conf": 0.9229434430599213,
+          "bbox": [
+            40,
+            174,
+            773,
+            192
+          ],
+          "words": [
+            {
+              "text": "Processor: Sarah Johnson",
+              "conf": 0.9315354228019714,
+              "bbox": [
+                40,
+                177,
+                219,
+                192
+              ]
+            },
+            {
+              "text": "Last edit: 11/17/2025 08:05",
+              "conf": 0.9432820081710815,
+              "bbox": [
+                237,
+                177,
+                431,
+                192
+              ]
+            },
+            {
+              "text": "ProcessorID:PRocoo1",
+              "conf": 0.8757416605949402,
+              "bbox": [
+                430,
+                174,
+                606,
+                190
+              ]
+            },
+            {
+              "text": "Decision SLA: 3 days",
+              "conf": 0.9412146806716919,
+              "bbox": [
+                632,
+                174,
+                773,
+                190
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Professional Claim: 25115366316743 Member ID: H6881954663 Company ID: CAOMNI P3 CA OMNI",
+          "conf": 0.9814685072217669,
+          "bbox": [
+            34,
+            218,
+            1356,
+            256
+          ],
+          "words": [
+            {
+              "text": "Professional Claim:",
+              "conf": 0.990612655878067,
+              "bbox": [
+                34,
+                223,
+                113,
+                256
+              ]
+            },
+            {
+              "text": "25115366316743",
+              "conf": 0.9987820386886597,
+              "bbox": [
+                135,
+                229,
+                278,
+                244
+              ]
+            },
+            {
+              "text": "Member ID:",
+              "conf": 0.9660653471946716,
+              "bbox": [
+                307,
+                222,
+                364,
+                255
+              ]
+            },
+            {
+              "text": "H6881954663",
+              "conf": 0.9971456527709961,
+              "bbox": [
+                380,
+                229,
+                479,
+                245
+              ]
+            },
+            {
+              "text": "Company ID:",
+              "conf": 0.9686087071895599,
+              "bbox": [
+                954,
+                218,
+                1019,
+                254
+              ]
+            },
+            {
+              "text": "CAOMNI",
+              "conf": 0.992469072341919,
+              "bbox": [
+                1041,
+                226,
+                1102,
+                245
+              ]
+            },
+            {
+              "text": "P3 CA OMNI",
+              "conf": 0.9565960764884949,
+              "bbox": [
+                1315,
+                219,
+                1356,
+                251
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Status: 2 PENDING REVIEW Date Received: 11/18/2025 Service Date From: 11/06/2025",
+          "conf": 0.9889594614505768,
+          "bbox": [
+            32,
+            266,
+            1109,
+            303
+          ],
+          "words": [
+            {
+              "text": "Status:",
+              "conf": 0.9853771924972534,
+              "bbox": [
+                32,
+                275,
+                84,
+                298
+              ]
+            },
+            {
+              "text": "2",
+              "conf": 0.9976414442062378,
+              "bbox": [
+                95,
+                280,
+                109,
+                295
+              ]
+            },
+            {
+              "text": "PENDING REVIEW",
+              "conf": 0.9791833758354187,
+              "bbox": [
+                361,
+                278,
+                479,
+                293
+              ]
+            },
+            {
+              "text": "Date Received:",
+              "conf": 0.990206778049469,
+              "bbox": [
+                516,
+                267,
+                584,
+                301
+              ]
+            },
+            {
+              "text": "11/18/2025",
+              "conf": 0.9993964433670044,
+              "bbox": [
+                607,
+                277,
+                693,
+                297
+              ]
+            },
+            {
+              "text": "Service Date From:",
+              "conf": 0.9730275571346283,
+              "bbox": [
+                911,
+                266,
+                996,
+                303
+              ]
+            },
+            {
+              "text": "11/06/2025",
+              "conf": 0.9978834390640259,
+              "bbox": [
+                1024,
+                274,
+                1109,
+                297
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Auth/Referral #1(23): 2510815055049206241 #2(23): Auth/Referral Auth/Referral #3(23):",
+          "conf": 0.9552929937839508,
+          "bbox": [
+            35,
+            315,
+            990,
+            352
+          ],
+          "words": [
+            {
+              "text": "Auth/Referral #1(23):",
+              "conf": 0.9411369860172272,
+              "bbox": [
+                35,
+                316,
+                121,
+                351
+              ]
+            },
+            {
+              "text": "2510815055049206241",
+              "conf": 0.9983347654342651,
+              "bbox": [
+                162,
+                328,
+                328,
+                343
+              ]
+            },
+            {
+              "text": "#2(23):",
+              "conf": 0.9309231638908386,
+              "bbox": [
+                464,
+                329,
+                521,
+                352
+              ]
+            },
+            {
+              "text": "Auth/Referral",
+              "conf": 0.993040144443512,
+              "bbox": [
+                468,
+                317,
+                552,
+                334
+              ]
+            },
+            {
+              "text": "Auth/Referral #3(23):",
+              "conf": 0.9130299091339111,
+              "bbox": [
+                905,
+                315,
+                990,
+                348
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Auth/Ref Status: 1 APPROVED Auth/Ref Status: Auth/Ref Status:",
+          "conf": 0.9752366542816162,
+          "bbox": [
+            35,
+            362,
+            1025,
+            399
+          ],
+          "words": [
+            {
+              "text": "Auth/Ref Status:",
+              "conf": 0.9798567295074463,
+              "bbox": [
+                35,
+                366,
+                93,
+                399
+              ]
+            },
+            {
+              "text": "1",
+              "conf": 0.9181060194969177,
+              "bbox": [
+                120,
+                379,
+                130,
+                392
+              ]
+            },
+            {
+              "text": "APPROVED",
+              "conf": 0.9970012307167053,
+              "bbox": [
+                393,
+                374,
+                469,
+                391
+              ]
+            },
+            {
+              "text": "Auth/Ref Status:",
+              "conf": 0.9920161664485931,
+              "bbox": [
+                518,
+                365,
+                575,
+                398
+              ]
+            },
+            {
+              "text": "Auth/Ref Status:",
+              "conf": 0.9892031252384186,
+              "bbox": [
+                965,
+                362,
+                1025,
+                397
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim Type: Professional Priority: 1 MEDIUM",
+          "conf": 0.9816295444965363,
+          "bbox": [
+            34,
+            411,
+            786,
+            448
+          ],
+          "words": [
+            {
+              "text": "Claim Type:",
+              "conf": 0.9842287600040436,
+              "bbox": [
+                34,
+                411,
+                75,
+                448
+              ]
+            },
+            {
+              "text": "Professional",
+              "conf": 0.9750335812568665,
+              "bbox": [
+                102,
+                421,
+                190,
+                441
+              ]
+            },
+            {
+              "text": "Priority:",
+              "conf": 0.9911993741989136,
+              "bbox": [
+                412,
+                417,
+                468,
+                441
+              ]
+            },
+            {
+              "text": "1",
+              "conf": 0.9648126363754272,
+              "bbox": [
+                485,
+                426,
+                495,
+                438
+              ]
+            },
+            {
+              "text": "MEDIUM",
+              "conf": 0.9928733706474304,
+              "bbox": [
+                725,
+                420,
+                786,
+                436
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ID: General Information Member H6881954663 FLORES, BRIAN",
+          "conf": 0.9794227778911591,
+          "bbox": [
+            33,
+            469,
+            446,
+            535
+          ],
+          "words": [
+            {
+              "text": "ID:",
+              "conf": 0.9329628944396973,
+              "bbox": [
+                33,
+                518,
+                59,
+                535
+              ]
+            },
+            {
+              "text": "General Information Member",
+              "conf": 0.9943353533744812,
+              "bbox": [
+                34,
+                469,
+                227,
+                519
+              ]
+            },
+            {
+              "text": "H6881954663",
+              "conf": 0.9971973896026611,
+              "bbox": [
+                136,
+                508,
+                236,
+                524
+              ]
+            },
+            {
+              "text": "FLORES, BRIAN",
+              "conf": 0.9931954741477966,
+              "bbox": [
+                383,
+                497,
+                446,
+                535
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Provider ID: 1098216607 MARTINEZ MD, ANNA LUCIA",
+          "conf": 0.9676714142163595,
+          "bbox": [
+            32,
+            545,
+            743,
+            580
+          ],
+          "words": [
+            {
+              "text": "Provider ID:",
+              "conf": 0.9620961844921112,
+              "bbox": [
+                32,
+                545,
+                91,
+                580
+              ]
+            },
+            {
+              "text": "1098216607",
+              "conf": 0.998249351978302,
+              "bbox": [
+                391,
+                552,
+                480,
+                569
+              ]
+            },
+            {
+              "text": "MARTINEZ MD, ANNA LUCIA",
+              "conf": 0.9426687061786652,
+              "bbox": [
+                642,
+                545,
+                743,
+                578
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED",
+          "conf": 0.9904304047425588,
+          "bbox": [
+            34,
+            590,
+            508,
+            627
+          ],
+          "words": [
+            {
+              "text": "Primary Diagnosis:",
+              "conf": 0.9930850863456726,
+              "bbox": [
+                34,
+                592,
+                105,
+                627
+              ]
+            },
+            {
+              "text": "D64.9",
+              "conf": 0.9862969517707825,
+              "bbox": [
+                158,
+                596,
+                209,
+                620
+              ]
+            },
+            {
+              "text": "ANEMIA, UNSPECIFIED",
+              "conf": 0.9919091761112213,
+              "bbox": [
+                414,
+                590,
+                508,
+                622
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Birth Date: 01/22/1977 Gender 3) F. Marital Status: U",
+          "conf": 0.906386653582255,
+          "bbox": [
+            35,
+            634,
+            770,
+            668
+          ],
+          "words": [
+            {
+              "text": "Birth Date:",
+              "conf": 0.9878036379814148,
+              "bbox": [
+                35,
+                634,
+                74,
+                668
+              ]
+            },
+            {
+              "text": "01/22/1977",
+              "conf": 0.9965302348136902,
+              "bbox": [
+                115,
+                643,
+                197,
+                659
+              ]
+            },
+            {
+              "text": "Gender 3)",
+              "conf": 0.9220010042190552,
+              "bbox": [
+                393,
+                642,
+                469,
+                657
+              ]
+            },
+            {
+              "text": "F.",
+              "conf": 0.6285154819488525,
+              "bbox": [
+                490,
+                644,
+                498,
+                656
+              ]
+            },
+            {
+              "text": "Marital Status:",
+              "conf": 0.95198655128479,
+              "bbox": [
+                654,
+                640,
+                757,
+                657
+              ]
+            },
+            {
+              "text": "U",
+              "conf": 0.9514830112457275,
+              "bbox": [
+                751,
+                643,
+                770,
+                656
+              ]
+            }
+          ]
+        },
+        {
+          "text": "EOB Indicator MPPR Indicator",
+          "conf": 0.9505301415920258,
+          "bbox": [
+            35,
+            683,
+            424,
+            701
+          ],
+          "words": [
+            {
+              "text": " EOB Indicator",
+              "conf": 0.9367475509643555,
+              "bbox": [
+                35,
+                685,
+                141,
+                701
+              ]
+            },
+            {
+              "text": "MPPR Indicator",
+              "conf": 0.964312732219696,
+              "bbox": [
+                309,
+                683,
+                424,
+                701
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Place of Service(24b): 21 INPATIENT HOSPITAL Facility: 75 SERVICE LOCATION",
+          "conf": 0.9894473900397619,
+          "bbox": [
+            34,
+            717,
+            1035,
+            752
+          ],
+          "words": [
+            {
+              "text": "Place of Service(24b):",
+              "conf": 0.9573363959789276,
+              "bbox": [
+                34,
+                717,
+                124,
+                752
+              ]
+            },
+            {
+              "text": "21",
+              "conf": 0.9967236518859863,
+              "bbox": [
+                158,
+                727,
+                184,
+                745
+              ]
+            },
+            {
+              "text": "INPATIENT HOSPITAL",
+              "conf": 0.9980429708957672,
+              "bbox": [
+                436,
+                720,
+                504,
+                752
+              ]
+            },
+            {
+              "text": "Facility:",
+              "conf": 0.9872589111328125,
+              "bbox": [
+                643,
+                725,
+                696,
+                744
+              ]
+            },
+            {
+              "text": "75",
+              "conf": 0.9989635944366455,
+              "bbox": [
+                712,
+                726,
+                736,
+                744
+              ]
+            },
+            {
+              "text": "SERVICE LOCATION",
+              "conf": 0.998358815908432,
+              "bbox": [
+                968,
+                718,
+                1035,
+                750
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Outcome: 02 TRANSFERRED TO SHORT-TERM HOSPITAL Payer Resp: PRIMARY",
+          "conf": 0.9841490685939789,
+          "bbox": [
+            38,
+            760,
+            780,
+            797
+          ],
+          "words": [
+            {
+              "text": "Outcome:",
+              "conf": 0.9891467094421387,
+              "bbox": [
+                38,
+                771,
+                102,
+                787
+              ]
+            },
+            {
+              "text": "02",
+              "conf": 0.9941050410270691,
+              "bbox": [
+                110,
+                769,
+                138,
+                790
+              ]
+            },
+            {
+              "text": "TRANSFERRED TO SHORT-TERM HOSPITAL",
+              "conf": 0.9578290581703186,
+              "bbox": [
+                360,
+                764,
+                621,
+                779
+              ]
+            },
+            {
+              "text": "Payer",
+              "conf": 0.9950302839279175,
+              "bbox": [
+                642,
+                760,
+                685,
+                781
+              ]
+            },
+            {
+              "text": "Resp:",
+              "conf": 0.9745441675186157,
+              "bbox": [
+                642,
+                776,
+                684,
+                797
+              ]
+            },
+            {
+              "text": "PRIMARY",
+              "conf": 0.9942391514778137,
+              "bbox": [
+                711,
+                766,
+                780,
+                789
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# ==========================================================
+# OCR Handler & Validation Manager
+# Environment Configuration
+# ==========================================================
+
+PROJECT_NAME=Intake_Agent_OCR_Engine
+
+# Storage
+STORAGE_DIR=handler_checker/storage
+ORIGINALS_DIR=handler_checker/storage/originals
+OUTPUTS_DIR=handler_checker/storage/outputs
+
+# Metadata
+METADATA_DIR=handler_checker/metadata
+METADATA_FILE=handler_checker/metadata/metadata.json
+
+# Queue
+QUEUE_DIR=handler_checker/queue
+QUEUE_FILE=handler_checker/queue/queue.json
+QUEUE_MODE=FIFO
+
+# Logs
+LOG_DIR=handler_checker/logs
+LOG_FILE=handler_checker/logs/processing.log
+LOG_LEVEL=INFO
+
+# Retry
+MAX_RETRY_COUNT=3
+
+# OCR
+OCR_ENGINE=default
+OCR_TIMEOUT=60
+
+# Supported Extensions
+SUPPORTED_EXTENSIONS=.pdf,.jpg,.jpeg,.png,.bmp,.tif,.tiff,.docx,.xlsx,.csv,.txt

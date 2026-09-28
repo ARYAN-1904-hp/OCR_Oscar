@@ -1,0 +1,2267 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Curamind Claims Management Sarah Johnson PROC001 Logout\nProfessional Claim -Back to Dashboard\nX Save changes\nClaim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 Decision SLA: 3 days.\nDiagnosis Codes (ICD-10)\nPrimary Diagnosis: D64.9 ANEMIA, UNSPECIFIED\nDiagnosis Code Type: ICD-10-CM POA Indicator: YES.present on admission\nSeq 0 Code D64.9 Description ANEMIA,UNSPECIFIED Type PRIMARY Date 11/06/2025\n1 2 K21.9 M54.50 LOW BACK PAIN, UNSPECIFIED GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS SECONDARY ADMITTING 11/06/2025 11/06/2025\nProcedure/Service Coding\nSeq 1 CPT/HCPCS P-77014 Modifier Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 11/06/2025\n2 P-80053 Comprehensive metabolic panel A 11/06/2025\nMedical Necessity Review\nReviewed By: Sarah Johnson (PROC001) Review Date:11/19/2025 Status: APPROVED\nReview Notes:\nDocumentation complete.Approved per policy CM-104.",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 1042,
+      "text": "Curamind Claims Management Sarah Johnson PROC001 Logout\nProfessional Claim -Back to Dashboard\nX Save changes\nClaim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5\nProcessor: Sarah Johnson Last edit: 11/17/2025 08:05 ProcessorID:PROC001 Decision SLA: 3 days.\nDiagnosis Codes (ICD-10)\nPrimary Diagnosis: D64.9 ANEMIA, UNSPECIFIED\nDiagnosis Code Type: ICD-10-CM POA Indicator: YES.present on admission\nSeq 0 Code D64.9 Description ANEMIA,UNSPECIFIED Type PRIMARY Date 11/06/2025\n1 2 K21.9 M54.50 LOW BACK PAIN, UNSPECIFIED GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS SECONDARY ADMITTING 11/06/2025 11/06/2025\nProcedure/Service Coding\nSeq 1 CPT/HCPCS P-77014 Modifier Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 11/06/2025\n2 P-80053 Comprehensive metabolic panel A 11/06/2025\nMedical Necessity Review\nReviewed By: Sarah Johnson (PROC001) Review Date:11/19/2025 Status: APPROVED\nReview Notes:\nDocumentation complete.Approved per policy CM-104.",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                40,
+                173,
+                775,
+                193
+              ],
+              "text": "Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1 Decision SLA: 3 days.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1 Decision SLA: 3 days.",
+                  "conf": 0.9318667352199554,
+                  "bbox": [
+                    40,
+                    173,
+                    775,
+                    193
+                  ],
+                  "words": [
+                    {
+                      "text": "Processor: SarahJohnson",
+                      "conf": 0.9695311784744263,
+                      "bbox": [
+                        40,
+                        177,
+                        219,
+                        192
+                      ]
+                    },
+                    {
+                      "text": "Last edit: 11/17/2025 08:05",
+                      "conf": 0.9288946986198425,
+                      "bbox": [
+                        237,
+                        176,
+                        430,
+                        191
+                      ]
+                    },
+                    {
+                      "text": "ProcessorID:PROcoo1",
+                      "conf": 0.8837530016899109,
+                      "bbox": [
+                        437,
+                        176,
+                        607,
+                        191
+                      ]
+                    },
+                    {
+                      "text": "Decision SLA: 3 days.",
+                      "conf": 0.9452880620956421,
+                      "bbox": [
+                        632,
+                        173,
+                        775,
+                        193
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                41,
+                240,
+                279,
+                258
+              ],
+              "text": "Diagnosis Codes (ICD-10)",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Diagnosis Codes (ICD-10)",
+                  "conf": 0.96577388048172,
+                  "bbox": [
+                    41,
+                    240,
+                    279,
+                    258
+                  ],
+                  "words": [
+                    {
+                      "text": "Diagnosis Codes (ICD-10)",
+                      "conf": 0.96577388048172,
+                      "bbox": [
+                        41,
+                        240,
+                        279,
+                        258
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                41,
+                585,
+                297,
+                606
+              ],
+              "text": "Procedure/Service Coding",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Procedure/Service Coding",
+                  "conf": 0.9916205406188965,
+                  "bbox": [
+                    41,
+                    585,
+                    297,
+                    606
+                  ],
+                  "words": [
+                    {
+                      "text": "Procedure/Service Coding",
+                      "conf": 0.9916205406188965,
+                      "bbox": [
+                        41,
+                        585,
+                        297,
+                        606
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 8,
+              "bbox": [
+                43,
+                785,
+                282,
+                800
+              ],
+              "text": "Medical Necessity Review",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Medical Necessity Review",
+                  "conf": 0.9571468234062195,
+                  "bbox": [
+                    43,
+                    785,
+                    282,
+                    800
+                  ],
+                  "words": [
+                    {
+                      "text": "Medical Necessity Review",
+                      "conf": 0.9571468234062195,
+                      "bbox": [
+                        43,
+                        785,
+                        282,
+                        800
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 10,
+              "bbox": [
+                40,
+                869,
+                133,
+                886
+              ],
+              "text": "Review Notes:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Review Notes:",
+                  "conf": 0.9590075016021729,
+                  "bbox": [
+                    40,
+                    869,
+                    133,
+                    886
+                  ],
+                  "words": [
+                    {
+                      "text": "Review Notes:",
+                      "conf": 0.9590075016021729,
+                      "bbox": [
+                        40,
+                        869,
+                        133,
+                        886
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 11,
+              "bbox": [
+                54,
+                904,
+                403,
+                919
+              ],
+              "text": "Documentation complete.Approved per policy CM-104.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Documentation complete.Approved per policy CM-104.",
+                  "conf": 0.9752556681632996,
+                  "bbox": [
+                    54,
+                    904,
+                    403,
+                    919
+                  ],
+                  "words": [
+                    {
+                      "text": "Documentation complete.Approved per policy CM-104.",
+                      "conf": 0.9752556681632996,
+                      "bbox": [
+                        54,
+                        904,
+                        403,
+                        919
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1 Decision SLA: 3 days.\nDiagnosis Codes (ICD-10)\nProcedure/Service Coding\nMedical Necessity Review\nReview Notes:\nDocumentation complete.Approved per policy CM-104."
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            26,
+            7,
+            1403,
+            41
+          ],
+          "text": "Curamind Claims Management Sarah Johnson PROCO01 Logout",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Curamind Claims Management Sarah Johnson PROCO01 Logout",
+              "conf": 0.9838742792606354,
+              "bbox": [
+                26,
+                7,
+                1403,
+                41
+              ],
+              "words": [
+                {
+                  "text": "Curamind",
+                  "conf": 0.9994620084762573,
+                  "bbox": [
+                    26,
+                    17,
+                    125,
+                    34
+                  ]
+                },
+                {
+                  "text": "Claims Management",
+                  "conf": 0.9805833101272583,
+                  "bbox": [
+                    142,
+                    19,
+                    295,
+                    36
+                  ]
+                },
+                {
+                  "text": "Sarah Johnson",
+                  "conf": 0.9972203075885773,
+                  "bbox": [
+                    1152,
+                    7,
+                    1206,
+                    41
+                  ]
+                },
+                {
+                  "text": "PROCO01",
+                  "conf": 0.9423017501831055,
+                  "bbox": [
+                    1239,
+                    16,
+                    1304,
+                    31
+                  ]
+                },
+                {
+                  "text": "Logout",
+                  "conf": 0.9998040199279785,
+                  "bbox": [
+                    1351,
+                    16,
+                    1403,
+                    33
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            35,
+            62,
+            1445,
+            108
+          ],
+          "text": "Professional Claim -Back to Dashboard\nX Save changes",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Professional Claim -Back to Dashboard",
+              "conf": 0.9642467498779297,
+              "bbox": [
+                35,
+                62,
+                1445,
+                83
+              ],
+              "words": [
+                {
+                  "text": "Professional Claim",
+                  "conf": 0.9898838400840759,
+                  "bbox": [
+                    35,
+                    67,
+                    163,
+                    83
+                  ]
+                },
+                {
+                  "text": "-Back to Dashboard",
+                  "conf": 0.9386096596717834,
+                  "bbox": [
+                    1302,
+                    62,
+                    1445,
+                    77
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "X Save changes",
+              "conf": 0.8358202874660492,
+              "bbox": [
+                129,
+                92,
+                1419,
+                108
+              ],
+              "words": [
+                {
+                  "text": "X",
+                  "conf": 0.6803774833679199,
+                  "bbox": [
+                    129,
+                    97,
+                    138,
+                    108
+                  ]
+                },
+                {
+                  "text": "Save changes",
+                  "conf": 0.9912630915641785,
+                  "bbox": [
+                    1318,
+                    92,
+                    1419,
+                    107
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            44,
+            125,
+            688,
+            148
+          ],
+          "text": "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "conf": 0.9712251782417297,
+              "bbox": [
+                44,
+                125,
+                688,
+                148
+              ],
+              "words": [
+                {
+                  "text": "Claim Pg1",
+                  "conf": 0.949268102645874,
+                  "bbox": [
+                    44,
+                    125,
+                    117,
+                    148
+                  ]
+                },
+                {
+                  "text": "Provpg2",
+                  "conf": 0.9910086393356323,
+                  "bbox": [
+                    161,
+                    125,
+                    228,
+                    148
+                  ]
+                },
+                {
+                  "text": "Member Pg3",
+                  "conf": 0.9557870030403137,
+                  "bbox": [
+                    274,
+                    128,
+                    362,
+                    144
+                  ]
+                },
+                {
+                  "text": "Diagnosis Pg4",
+                  "conf": 0.9759925603866577,
+                  "bbox": [
+                    412,
+                    128,
+                    523,
+                    144
+                  ]
+                },
+                {
+                  "text": "Miscellaneous Pg5",
+                  "conf": 0.9840695858001709,
+                  "bbox": [
+                    562,
+                    128,
+                    688,
+                    143
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            40,
+            173,
+            775,
+            193
+          ],
+          "text": "Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1 Decision SLA: 3 days.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1 Decision SLA: 3 days.",
+              "conf": 0.9318667352199554,
+              "bbox": [
+                40,
+                173,
+                775,
+                193
+              ],
+              "words": [
+                {
+                  "text": "Processor: SarahJohnson",
+                  "conf": 0.9695311784744263,
+                  "bbox": [
+                    40,
+                    177,
+                    219,
+                    192
+                  ]
+                },
+                {
+                  "text": "Last edit: 11/17/2025 08:05",
+                  "conf": 0.9288946986198425,
+                  "bbox": [
+                    237,
+                    176,
+                    430,
+                    191
+                  ]
+                },
+                {
+                  "text": "ProcessorID:PROcoo1",
+                  "conf": 0.8837530016899109,
+                  "bbox": [
+                    437,
+                    176,
+                    607,
+                    191
+                  ]
+                },
+                {
+                  "text": "Decision SLA: 3 days.",
+                  "conf": 0.9452880620956421,
+                  "bbox": [
+                    632,
+                    173,
+                    775,
+                    193
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            41,
+            240,
+            279,
+            258
+          ],
+          "text": "Diagnosis Codes (ICD-10)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Diagnosis Codes (ICD-10)",
+              "conf": 0.96577388048172,
+              "bbox": [
+                41,
+                240,
+                279,
+                258
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis Codes (ICD-10)",
+                  "conf": 0.96577388048172,
+                  "bbox": [
+                    41,
+                    240,
+                    279,
+                    258
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            37,
+            275,
+            1334,
+            481
+          ],
+          "text": "Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED\nDiagnosis Code Type: ICD-10-CM POA Indicator: YES.present on admission\nSeq 0 Code D64.9 Description ANEMIA,UNSPECIFIED Type PRIMARY Date 11/06/2025\n1 2 K21.9 M54.50 LOW BACK PAIN, UNSPECIFIED GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS SECONDARY ADMITTING 11/06/2025 11/06/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED",
+              "conf": 0.9933721522490183,
+              "bbox": [
+                37,
+                275,
+                538,
+                312
+              ],
+              "words": [
+                {
+                  "text": "Primary Diagnosis:",
+                  "conf": 0.9953086674213409,
+                  "bbox": [
+                    37,
+                    275,
+                    108,
+                    312
+                  ]
+                },
+                {
+                  "text": "D64.9",
+                  "conf": 0.9908288717269897,
+                  "bbox": [
+                    159,
+                    285,
+                    207,
+                    305
+                  ]
+                },
+                {
+                  "text": "ANEMIA, UNSPECIFIED",
+                  "conf": 0.9939789175987244,
+                  "bbox": [
+                    445,
+                    279,
+                    538,
+                    311
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Diagnosis Code Type: ICD-10-CM POA Indicator: YES.present on admission",
+              "conf": 0.9768654704093933,
+              "bbox": [
+                40,
+                323,
+                960,
+                358
+              ],
+              "words": [
+                {
+                  "text": "Diagnosis Code Type:",
+                  "conf": 0.9783719778060913,
+                  "bbox": [
+                    40,
+                    326,
+                    138,
+                    358
+                  ]
+                },
+                {
+                  "text": "ICD-10-CM",
+                  "conf": 0.9631826877593994,
+                  "bbox": [
+                    170,
+                    333,
+                    248,
+                    349
+                  ]
+                },
+                {
+                  "text": "POA Indicator:",
+                  "conf": 0.9952991902828217,
+                  "bbox": [
+                    471,
+                    323,
+                    534,
+                    356
+                  ]
+                },
+                {
+                  "text": "YES.present on admission",
+                  "conf": 0.9706080257892609,
+                  "bbox": [
+                    858,
+                    323,
+                    960,
+                    355
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Seq 0 Code D64.9 Description ANEMIA,UNSPECIFIED Type PRIMARY Date 11/06/2025",
+              "conf": 0.986388099193573,
+              "bbox": [
+                49,
+                375,
+                1334,
+                423
+              ],
+              "words": [
+                {
+                  "text": "Seq 0",
+                  "conf": 0.9525215029716492,
+                  "bbox": [
+                    49,
+                    379,
+                    84,
+                    423
+                  ]
+                },
+                {
+                  "text": "Code D64.9",
+                  "conf": 0.9960228800773621,
+                  "bbox": [
+                    111,
+                    380,
+                    154,
+                    422
+                  ]
+                },
+                {
+                  "text": "Description ANEMIA,UNSPECIFIED",
+                  "conf": 0.9889114499092102,
+                  "bbox": [
+                    248,
+                    380,
+                    390,
+                    420
+                  ]
+                },
+                {
+                  "text": "Type PRIMARY",
+                  "conf": 0.9961583912372589,
+                  "bbox": [
+                    1067,
+                    375,
+                    1130,
+                    421
+                  ]
+                },
+                {
+                  "text": "Date 11/06/2025",
+                  "conf": 0.9983262717723846,
+                  "bbox": [
+                    1259,
+                    378,
+                    1334,
+                    419
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "1 2 K21.9 M54.50 LOW BACK PAIN, UNSPECIFIED GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS SECONDARY ADMITTING 11/06/2025 11/06/2025",
+              "conf": 0.9840284969125476,
+              "bbox": [
+                50,
+                431,
+                1334,
+                481
+              ],
+              "words": [
+                {
+                  "text": "1 2",
+                  "conf": 0.9985858201980591,
+                  "bbox": [
+                    50,
+                    434,
+                    64,
+                    481
+                  ]
+                },
+                {
+                  "text": "K21.9 M54.50",
+                  "conf": 0.992163211107254,
+                  "bbox": [
+                    111,
+                    434,
+                    163,
+                    480
+                  ]
+                },
+                {
+                  "text": "LOW BACK PAIN, UNSPECIFIED",
+                  "conf": 0.9377623796463013,
+                  "bbox": [
+                    248,
+                    464,
+                    441,
+                    479
+                  ]
+                },
+                {
+                  "text": "GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS",
+                  "conf": 0.9656354188919067,
+                  "bbox": [
+                    250,
+                    435,
+                    652,
+                    450
+                  ]
+                },
+                {
+                  "text": "SECONDARY ADMITTING",
+                  "conf": 0.9972531795501709,
+                  "bbox": [
+                    1071,
+                    433,
+                    1151,
+                    478
+                  ]
+                },
+                {
+                  "text": "11/06/2025",
+                  "conf": 0.9979751706123352,
+                  "bbox": [
+                    1257,
+                    462,
+                    1334,
+                    477
+                  ]
+                },
+                {
+                  "text": "11/06/2025",
+                  "conf": 0.9988242983818054,
+                  "bbox": [
+                    1259,
+                    431,
+                    1334,
+                    448
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            41,
+            585,
+            297,
+            606
+          ],
+          "text": "Procedure/Service Coding",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Procedure/Service Coding",
+              "conf": 0.9916205406188965,
+              "bbox": [
+                41,
+                585,
+                297,
+                606
+              ],
+              "words": [
+                {
+                  "text": "Procedure/Service Coding",
+                  "conf": 0.9916205406188965,
+                  "bbox": [
+                    41,
+                    585,
+                    297,
+                    606
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            48,
+            624,
+            1370,
+            701
+          ],
+          "text": "Seq 1 CPT/HCPCS P-77014 Modifier Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 11/06/2025\n2 P-80053 Comprehensive metabolic panel A 11/06/2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Seq 1 CPT/HCPCS P-77014 Modifier Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 11/06/2025",
+              "conf": 0.9892115741968155,
+              "bbox": [
+                48,
+                624,
+                1370,
+                674
+              ],
+              "words": [
+                {
+                  "text": "Seq 1",
+                  "conf": 0.9933743476867676,
+                  "bbox": [
+                    48,
+                    628,
+                    85,
+                    673
+                  ]
+                },
+                {
+                  "text": "CPT/HCPCS P-77014",
+                  "conf": 0.9791396856307983,
+                  "bbox": [
+                    104,
+                    629,
+                    190,
+                    674
+                  ]
+                },
+                {
+                  "text": "Modifier",
+                  "conf": 0.9959836006164551,
+                  "bbox": [
+                    253,
+                    628,
+                    315,
+                    644
+                  ]
+                },
+                {
+                  "text": "Description Computed tomography guidance for placement of radiation therapy fields",
+                  "conf": 0.9885565340518951,
+                  "bbox": [
+                    362,
+                    629,
+                    830,
+                    673
+                  ]
+                },
+                {
+                  "text": "Diag Pointer A",
+                  "conf": 0.9928069710731506,
+                  "bbox": [
+                    1100,
+                    624,
+                    1196,
+                    670
+                  ]
+                },
+                {
+                  "text": "Date of Service 11/06/2025",
+                  "conf": 0.9854083061218262,
+                  "bbox": [
+                    1259,
+                    627,
+                    1370,
+                    668
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "2 P-80053 Comprehensive metabolic panel A 11/06/2025",
+              "conf": 0.9938262581825257,
+              "bbox": [
+                52,
+                680,
+                1334,
+                701
+              ],
+              "words": [
+                {
+                  "text": "2",
+                  "conf": 0.9984917640686035,
+                  "bbox": [
+                    52,
+                    683,
+                    66,
+                    701
+                  ]
+                },
+                {
+                  "text": "P-80053",
+                  "conf": 0.9938415884971619,
+                  "bbox": [
+                    108,
+                    684,
+                    163,
+                    700
+                  ]
+                },
+                {
+                  "text": "Comprehensive metabolic panel",
+                  "conf": 0.981111466884613,
+                  "bbox": [
+                    364,
+                    684,
+                    568,
+                    699
+                  ]
+                },
+                {
+                  "text": "A",
+                  "conf": 0.9988634586334229,
+                  "bbox": [
+                    1100,
+                    681,
+                    1117,
+                    698
+                  ]
+                },
+                {
+                  "text": "11/06/2025",
+                  "conf": 0.9968230128288269,
+                  "bbox": [
+                    1259,
+                    680,
+                    1334,
+                    695
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 8,
+          "bbox": [
+            43,
+            785,
+            282,
+            800
+          ],
+          "text": "Medical Necessity Review",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Medical Necessity Review",
+              "conf": 0.9571468234062195,
+              "bbox": [
+                43,
+                785,
+                282,
+                800
+              ],
+              "words": [
+                {
+                  "text": "Medical Necessity Review",
+                  "conf": 0.9571468234062195,
+                  "bbox": [
+                    43,
+                    785,
+                    282,
+                    800
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            40,
+            821,
+            762,
+            856
+          ],
+          "text": "Reviewed By: Sarah Johnson (PROCOO1) Review Date:11/19/2025 Status: APPROVED",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Reviewed By: Sarah Johnson (PROCOO1) Review Date:11/19/2025 Status: APPROVED",
+              "conf": 0.9742684781551361,
+              "bbox": [
+                40,
+                821,
+                762,
+                856
+              ],
+              "words": [
+                {
+                  "text": "Reviewed By:",
+                  "conf": 0.97708460688591,
+                  "bbox": [
+                    40,
+                    821,
+                    104,
+                    856
+                  ]
+                },
+                {
+                  "text": "Sarah Johnson (PROCOO1)",
+                  "conf": 0.9471345543861389,
+                  "bbox": [
+                    136,
+                    822,
+                    234,
+                    855
+                  ]
+                },
+                {
+                  "text": "Review Date:11/19/2025",
+                  "conf": 0.9627876877784729,
+                  "bbox": [
+                    342,
+                    826,
+                    524,
+                    844
+                  ]
+                },
+                {
+                  "text": "Status:",
+                  "conf": 0.9876284599304199,
+                  "bbox": [
+                    614,
+                    826,
+                    662,
+                    842
+                  ]
+                },
+                {
+                  "text": "APPROVED",
+                  "conf": 0.9967070817947388,
+                  "bbox": [
+                    686,
+                    826,
+                    762,
+                    842
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 10,
+          "bbox": [
+            40,
+            869,
+            133,
+            886
+          ],
+          "text": "Review Notes:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Review Notes:",
+              "conf": 0.9590075016021729,
+              "bbox": [
+                40,
+                869,
+                133,
+                886
+              ],
+              "words": [
+                {
+                  "text": "Review Notes:",
+                  "conf": 0.9590075016021729,
+                  "bbox": [
+                    40,
+                    869,
+                    133,
+                    886
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 11,
+          "bbox": [
+            54,
+            904,
+            403,
+            919
+          ],
+          "text": "Documentation complete.Approved per policy CM-104.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Documentation complete.Approved per policy CM-104.",
+              "conf": 0.9752556681632996,
+              "bbox": [
+                54,
+                904,
+                403,
+                919
+              ],
+              "words": [
+                {
+                  "text": "Documentation complete.Approved per policy CM-104.",
+                  "conf": 0.9752556681632996,
+                  "bbox": [
+                    54,
+                    904,
+                    403,
+                    919
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            37,
+            173,
+            1334,
+            919
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1</td><td>Decision SLA: 3 days.</td><td></td><td></td></tr><tr><td>Diagnosis Codes (ICD-10)</td><td></td><td></td><td></td></tr><tr><td>Primary Diagnosis</td><td>D64.9 ANEMIA, UNSPECIFIED</td><td></td><td></td></tr><tr><td>Diagnosis Code Type</td><td>ICD-10-CM POA Indicator:</td><td>YES.present on admission</td><td></td></tr><tr><td>Seq 0 Code D64.9</td><td>Description ANEMIA,UNSPECIFIED</td><td>Type PRIMARY</td><td>Date 11/06/2025</td></tr><tr><td>GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS</td><td></td><td>11/06/2025</td><td></td></tr><tr><td>1 2 K21.9 M54.50</td><td></td><td>SECONDARY ADMITTING</td><td></td></tr><tr><td>LOW BACK PAIN, UNSPECIFIED</td><td></td><td>11/06/2025</td><td></td></tr><tr><td>Procedure/Service Coding</td><td></td><td></td><td></td></tr><tr><td>Modifier</td><td></td><td></td><td></td></tr><tr><td>Medical Necessity Review</td><td></td><td></td><td></td></tr><tr><td>Reviewed By</td><td>Sarah Johnson (PROCOO1) Review Date:11/19/2025 Status: APPROVED</td><td></td><td></td></tr><tr><td>Review Notes:</td><td></td><td></td><td></td></tr><tr><td>Documentation complete.Approved per policy CM-104.</td><td></td><td></td><td></td></tr></table>",
+          "text": "Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1: Decision SLA: 3 days.\nDiagnosis Codes (ICD-10): \nPrimary Diagnosis: D64.9 ANEMIA, UNSPECIFIED\nDiagnosis Code Type: ICD-10-CM POA Indicator:\nYES.present on admission: \nSeq 0 Code D64.9: Description ANEMIA,UNSPECIFIED\nType PRIMARY: Date 11/06/2025\nGASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS: \n11/06/2025: \n1 2 K21.9 M54.50: \nSECONDARY ADMITTING: \nLOW BACK PAIN, UNSPECIFIED: \n11/06/2025: \nProcedure/Service Coding: \nModifier: \nMedical Necessity Review: \nReviewed By: Sarah Johnson (PROCOO1) Review Date:11/19/2025 Status: APPROVED\nReview Notes:: \nDocumentation complete.Approved per policy CM-104.: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1",
+              "Decision SLA: 3 days.",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis Codes (ICD-10)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Primary Diagnosis",
+              "D64.9 ANEMIA, UNSPECIFIED",
+              "",
+              ""
+            ],
+            [
+              "Diagnosis Code Type",
+              "ICD-10-CM POA Indicator:",
+              "YES.present on admission",
+              ""
+            ],
+            [
+              "Seq 0 Code D64.9",
+              "Description ANEMIA,UNSPECIFIED",
+              "Type PRIMARY",
+              "Date 11/06/2025"
+            ],
+            [
+              "GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS",
+              "",
+              "11/06/2025",
+              ""
+            ],
+            [
+              "1 2 K21.9 M54.50",
+              "",
+              "SECONDARY ADMITTING",
+              ""
+            ],
+            [
+              "LOW BACK PAIN, UNSPECIFIED",
+              "",
+              "11/06/2025",
+              ""
+            ],
+            [
+              "Procedure/Service Coding",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Modifier",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Medical Necessity Review",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Reviewed By",
+              "Sarah Johnson (PROCOO1) Review Date:11/19/2025 Status: APPROVED",
+              "",
+              ""
+            ],
+            [
+              "Review Notes:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Documentation complete.Approved per policy CM-104.",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1 Decision SLA: 3 days.",
+              ""
+            ],
+            [
+              "Diagnosis Codes (ICD-10)",
+              ""
+            ],
+            [
+              "Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED",
+              ""
+            ],
+            [
+              "Diagnosis Code Type: ICD-10-CM POA Indicator:",
+              "YES.present on admission"
+            ],
+            [
+              "Seq 0 Code D64.9 Description ANEMIA,UNSPECIFIED",
+              "Type PRIMARY Date 11/06/2025"
+            ],
+            [
+              "GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS",
+              "11/06/2025"
+            ],
+            [
+              "1 2 K21.9 M54.50",
+              "SECONDARY ADMITTING"
+            ],
+            [
+              "LOW BACK PAIN, UNSPECIFIED",
+              "11/06/2025"
+            ],
+            [
+              "Procedure/Service Coding",
+              ""
+            ],
+            [
+              "Modifier",
+              ""
+            ],
+            [
+              "Medical Necessity Review",
+              ""
+            ],
+            [
+              "Reviewed By: Sarah Johnson (PROCOO1) Review Date:11/19/2025 Status: APPROVED",
+              ""
+            ],
+            [
+              "Review Notes:",
+              ""
+            ],
+            [
+              "Documentation complete.Approved per policy CM-104.",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            26,
+            7,
+            1445,
+            148
+          ],
+          "html": "<table><tr><th>Curamind</th><th>Claims Management</th><th>Sarah Johnson</th><th>PROCO01</th><th>Logout</th></tr><tr><td>Professional Claim</td><td></td><td></td><td></td><td>-Back to Dashboard</td></tr><tr><td>X</td><td></td><td></td><td></td><td>Save changes</td></tr><tr><td>Claim Pg1</td><td>Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5</td><td></td><td></td><td></td></tr></table>",
+          "text": "Professional Claim |  |  |  | -Back to Dashboard\nX |  |  |  | Save changes\nClaim Pg1 | Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5 |  |  | ",
+          "headers": [
+            "Curamind",
+            "Claims Management",
+            "Sarah Johnson",
+            "PROCO01",
+            "Logout"
+          ],
+          "rows": [
+            [
+              "Professional Claim",
+              "",
+              "",
+              "",
+              "-Back to Dashboard"
+            ],
+            [
+              "X",
+              "",
+              "",
+              "",
+              "Save changes"
+            ],
+            [
+              "Claim Pg1",
+              "Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            48,
+            624,
+            1370,
+            701
+          ],
+          "html": "<table><tr><th>Seq 1</th><th>CPT/HCPCS P-77014</th><th>Description Computed tomography guidance for placement of radiation therapy fields</th><th>Diag Pointer A</th><th>Date of Service 11/06/2025</th></tr><tr><td>2</td><td>P-80053</td><td>Comprehensive metabolic panel</td><td>A</td><td>11/06/2025</td></tr></table>",
+          "text": "2 | P-80053 | Comprehensive metabolic panel | A | 11/06/2025",
+          "headers": [
+            "Seq 1",
+            "CPT/HCPCS P-77014",
+            "Description Computed tomography guidance for placement of radiation therapy fields",
+            "Diag Pointer A",
+            "Date of Service 11/06/2025"
+          ],
+          "rows": [
+            [
+              "2",
+              "P-80053",
+              "Comprehensive metabolic panel",
+              "A",
+              "11/06/2025"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Curamind Claims Management Sarah Johnson PROCO01 Logout",
+          "conf": 0.9838742792606354,
+          "bbox": [
+            26,
+            7,
+            1403,
+            41
+          ],
+          "words": [
+            {
+              "text": "Curamind",
+              "conf": 0.9994620084762573,
+              "bbox": [
+                26,
+                17,
+                125,
+                34
+              ]
+            },
+            {
+              "text": "Claims Management",
+              "conf": 0.9805833101272583,
+              "bbox": [
+                142,
+                19,
+                295,
+                36
+              ]
+            },
+            {
+              "text": "Sarah Johnson",
+              "conf": 0.9972203075885773,
+              "bbox": [
+                1152,
+                7,
+                1206,
+                41
+              ]
+            },
+            {
+              "text": "PROCO01",
+              "conf": 0.9423017501831055,
+              "bbox": [
+                1239,
+                16,
+                1304,
+                31
+              ]
+            },
+            {
+              "text": "Logout",
+              "conf": 0.9998040199279785,
+              "bbox": [
+                1351,
+                16,
+                1403,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Professional Claim -Back to Dashboard",
+          "conf": 0.9642467498779297,
+          "bbox": [
+            35,
+            62,
+            1445,
+            83
+          ],
+          "words": [
+            {
+              "text": "Professional Claim",
+              "conf": 0.9898838400840759,
+              "bbox": [
+                35,
+                67,
+                163,
+                83
+              ]
+            },
+            {
+              "text": "-Back to Dashboard",
+              "conf": 0.9386096596717834,
+              "bbox": [
+                1302,
+                62,
+                1445,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "text": "X Save changes",
+          "conf": 0.8358202874660492,
+          "bbox": [
+            129,
+            92,
+            1419,
+            108
+          ],
+          "words": [
+            {
+              "text": "X",
+              "conf": 0.6803774833679199,
+              "bbox": [
+                129,
+                97,
+                138,
+                108
+              ]
+            },
+            {
+              "text": "Save changes",
+              "conf": 0.9912630915641785,
+              "bbox": [
+                1318,
+                92,
+                1419,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim Pg1 Provpg2 Member Pg3 Diagnosis Pg4 Miscellaneous Pg5",
+          "conf": 0.9712251782417297,
+          "bbox": [
+            44,
+            125,
+            688,
+            148
+          ],
+          "words": [
+            {
+              "text": "Claim Pg1",
+              "conf": 0.949268102645874,
+              "bbox": [
+                44,
+                125,
+                117,
+                148
+              ]
+            },
+            {
+              "text": "Provpg2",
+              "conf": 0.9910086393356323,
+              "bbox": [
+                161,
+                125,
+                228,
+                148
+              ]
+            },
+            {
+              "text": "Member Pg3",
+              "conf": 0.9557870030403137,
+              "bbox": [
+                274,
+                128,
+                362,
+                144
+              ]
+            },
+            {
+              "text": "Diagnosis Pg4",
+              "conf": 0.9759925603866577,
+              "bbox": [
+                412,
+                128,
+                523,
+                144
+              ]
+            },
+            {
+              "text": "Miscellaneous Pg5",
+              "conf": 0.9840695858001709,
+              "bbox": [
+                562,
+                128,
+                688,
+                143
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: SarahJohnson Last edit: 11/17/2025 08:05 ProcessorID:PROcoo1 Decision SLA: 3 days.",
+          "conf": 0.9318667352199554,
+          "bbox": [
+            40,
+            173,
+            775,
+            193
+          ],
+          "words": [
+            {
+              "text": "Processor: SarahJohnson",
+              "conf": 0.9695311784744263,
+              "bbox": [
+                40,
+                177,
+                219,
+                192
+              ]
+            },
+            {
+              "text": "Last edit: 11/17/2025 08:05",
+              "conf": 0.9288946986198425,
+              "bbox": [
+                237,
+                176,
+                430,
+                191
+              ]
+            },
+            {
+              "text": "ProcessorID:PROcoo1",
+              "conf": 0.8837530016899109,
+              "bbox": [
+                437,
+                176,
+                607,
+                191
+              ]
+            },
+            {
+              "text": "Decision SLA: 3 days.",
+              "conf": 0.9452880620956421,
+              "bbox": [
+                632,
+                173,
+                775,
+                193
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis Codes (ICD-10)",
+          "conf": 0.96577388048172,
+          "bbox": [
+            41,
+            240,
+            279,
+            258
+          ],
+          "words": [
+            {
+              "text": "Diagnosis Codes (ICD-10)",
+              "conf": 0.96577388048172,
+              "bbox": [
+                41,
+                240,
+                279,
+                258
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Primary Diagnosis: D64.9 ANEMIA, UNSPECIFIED",
+          "conf": 0.9933721522490183,
+          "bbox": [
+            37,
+            275,
+            538,
+            312
+          ],
+          "words": [
+            {
+              "text": "Primary Diagnosis:",
+              "conf": 0.9953086674213409,
+              "bbox": [
+                37,
+                275,
+                108,
+                312
+              ]
+            },
+            {
+              "text": "D64.9",
+              "conf": 0.9908288717269897,
+              "bbox": [
+                159,
+                285,
+                207,
+                305
+              ]
+            },
+            {
+              "text": "ANEMIA, UNSPECIFIED",
+              "conf": 0.9939789175987244,
+              "bbox": [
+                445,
+                279,
+                538,
+                311
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnosis Code Type: ICD-10-CM POA Indicator: YES.present on admission",
+          "conf": 0.9768654704093933,
+          "bbox": [
+            40,
+            323,
+            960,
+            358
+          ],
+          "words": [
+            {
+              "text": "Diagnosis Code Type:",
+              "conf": 0.9783719778060913,
+              "bbox": [
+                40,
+                326,
+                138,
+                358
+              ]
+            },
+            {
+              "text": "ICD-10-CM",
+              "conf": 0.9631826877593994,
+              "bbox": [
+                170,
+                333,
+                248,
+                349
+              ]
+            },
+            {
+              "text": "POA Indicator:",
+              "conf": 0.9952991902828217,
+              "bbox": [
+                471,
+                323,
+                534,
+                356
+              ]
+            },
+            {
+              "text": "YES.present on admission",
+              "conf": 0.9706080257892609,
+              "bbox": [
+                858,
+                323,
+                960,
+                355
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seq 0 Code D64.9 Description ANEMIA,UNSPECIFIED Type PRIMARY Date 11/06/2025",
+          "conf": 0.986388099193573,
+          "bbox": [
+            49,
+            375,
+            1334,
+            423
+          ],
+          "words": [
+            {
+              "text": "Seq 0",
+              "conf": 0.9525215029716492,
+              "bbox": [
+                49,
+                379,
+                84,
+                423
+              ]
+            },
+            {
+              "text": "Code D64.9",
+              "conf": 0.9960228800773621,
+              "bbox": [
+                111,
+                380,
+                154,
+                422
+              ]
+            },
+            {
+              "text": "Description ANEMIA,UNSPECIFIED",
+              "conf": 0.9889114499092102,
+              "bbox": [
+                248,
+                380,
+                390,
+                420
+              ]
+            },
+            {
+              "text": "Type PRIMARY",
+              "conf": 0.9961583912372589,
+              "bbox": [
+                1067,
+                375,
+                1130,
+                421
+              ]
+            },
+            {
+              "text": "Date 11/06/2025",
+              "conf": 0.9983262717723846,
+              "bbox": [
+                1259,
+                378,
+                1334,
+                419
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1 2 K21.9 M54.50 LOW BACK PAIN, UNSPECIFIED GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS SECONDARY ADMITTING 11/06/2025 11/06/2025",
+          "conf": 0.9840284969125476,
+          "bbox": [
+            50,
+            431,
+            1334,
+            481
+          ],
+          "words": [
+            {
+              "text": "1 2",
+              "conf": 0.9985858201980591,
+              "bbox": [
+                50,
+                434,
+                64,
+                481
+              ]
+            },
+            {
+              "text": "K21.9 M54.50",
+              "conf": 0.992163211107254,
+              "bbox": [
+                111,
+                434,
+                163,
+                480
+              ]
+            },
+            {
+              "text": "LOW BACK PAIN, UNSPECIFIED",
+              "conf": 0.9377623796463013,
+              "bbox": [
+                248,
+                464,
+                441,
+                479
+              ]
+            },
+            {
+              "text": "GASTRO-ESOPHAGEAL REFLUX DISEASE WITHOUT ESOPHAGITIS",
+              "conf": 0.9656354188919067,
+              "bbox": [
+                250,
+                435,
+                652,
+                450
+              ]
+            },
+            {
+              "text": "SECONDARY ADMITTING",
+              "conf": 0.9972531795501709,
+              "bbox": [
+                1071,
+                433,
+                1151,
+                478
+              ]
+            },
+            {
+              "text": "11/06/2025",
+              "conf": 0.9979751706123352,
+              "bbox": [
+                1257,
+                462,
+                1334,
+                477
+              ]
+            },
+            {
+              "text": "11/06/2025",
+              "conf": 0.9988242983818054,
+              "bbox": [
+                1259,
+                431,
+                1334,
+                448
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Procedure/Service Coding",
+          "conf": 0.9916205406188965,
+          "bbox": [
+            41,
+            585,
+            297,
+            606
+          ],
+          "words": [
+            {
+              "text": "Procedure/Service Coding",
+              "conf": 0.9916205406188965,
+              "bbox": [
+                41,
+                585,
+                297,
+                606
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seq 1 CPT/HCPCS P-77014 Modifier Description Computed tomography guidance for placement of radiation therapy fields Diag Pointer A Date of Service 11/06/2025",
+          "conf": 0.9892115741968155,
+          "bbox": [
+            48,
+            624,
+            1370,
+            674
+          ],
+          "words": [
+            {
+              "text": "Seq 1",
+              "conf": 0.9933743476867676,
+              "bbox": [
+                48,
+                628,
+                85,
+                673
+              ]
+            },
+            {
+              "text": "CPT/HCPCS P-77014",
+              "conf": 0.9791396856307983,
+              "bbox": [
+                104,
+                629,
+                190,
+                674
+              ]
+            },
+            {
+              "text": "Modifier",
+              "conf": 0.9959836006164551,
+              "bbox": [
+                253,
+                628,
+                315,
+                644
+              ]
+            },
+            {
+              "text": "Description Computed tomography guidance for placement of radiation therapy fields",
+              "conf": 0.9885565340518951,
+              "bbox": [
+                362,
+                629,
+                830,
+                673
+              ]
+            },
+            {
+              "text": "Diag Pointer A",
+              "conf": 0.9928069710731506,
+              "bbox": [
+                1100,
+                624,
+                1196,
+                670
+              ]
+            },
+            {
+              "text": "Date of Service 11/06/2025",
+              "conf": 0.9854083061218262,
+              "bbox": [
+                1259,
+                627,
+                1370,
+                668
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2 P-80053 Comprehensive metabolic panel A 11/06/2025",
+          "conf": 0.9938262581825257,
+          "bbox": [
+            52,
+            680,
+            1334,
+            701
+          ],
+          "words": [
+            {
+              "text": "2",
+              "conf": 0.9984917640686035,
+              "bbox": [
+                52,
+                683,
+                66,
+                701
+              ]
+            },
+            {
+              "text": "P-80053",
+              "conf": 0.9938415884971619,
+              "bbox": [
+                108,
+                684,
+                163,
+                700
+              ]
+            },
+            {
+              "text": "Comprehensive metabolic panel",
+              "conf": 0.981111466884613,
+              "bbox": [
+                364,
+                684,
+                568,
+                699
+              ]
+            },
+            {
+              "text": "A",
+              "conf": 0.9988634586334229,
+              "bbox": [
+                1100,
+                681,
+                1117,
+                698
+              ]
+            },
+            {
+              "text": "11/06/2025",
+              "conf": 0.9968230128288269,
+              "bbox": [
+                1259,
+                680,
+                1334,
+                695
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medical Necessity Review",
+          "conf": 0.9571468234062195,
+          "bbox": [
+            43,
+            785,
+            282,
+            800
+          ],
+          "words": [
+            {
+              "text": "Medical Necessity Review",
+              "conf": 0.9571468234062195,
+              "bbox": [
+                43,
+                785,
+                282,
+                800
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reviewed By: Sarah Johnson (PROCOO1) Review Date:11/19/2025 Status: APPROVED",
+          "conf": 0.9742684781551361,
+          "bbox": [
+            40,
+            821,
+            762,
+            856
+          ],
+          "words": [
+            {
+              "text": "Reviewed By:",
+              "conf": 0.97708460688591,
+              "bbox": [
+                40,
+                821,
+                104,
+                856
+              ]
+            },
+            {
+              "text": "Sarah Johnson (PROCOO1)",
+              "conf": 0.9471345543861389,
+              "bbox": [
+                136,
+                822,
+                234,
+                855
+              ]
+            },
+            {
+              "text": "Review Date:11/19/2025",
+              "conf": 0.9627876877784729,
+              "bbox": [
+                342,
+                826,
+                524,
+                844
+              ]
+            },
+            {
+              "text": "Status:",
+              "conf": 0.9876284599304199,
+              "bbox": [
+                614,
+                826,
+                662,
+                842
+              ]
+            },
+            {
+              "text": "APPROVED",
+              "conf": 0.9967070817947388,
+              "bbox": [
+                686,
+                826,
+                762,
+                842
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Review Notes:",
+          "conf": 0.9590075016021729,
+          "bbox": [
+            40,
+            869,
+            133,
+            886
+          ],
+          "words": [
+            {
+              "text": "Review Notes:",
+              "conf": 0.9590075016021729,
+              "bbox": [
+                40,
+                869,
+                133,
+                886
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Documentation complete.Approved per policy CM-104.",
+          "conf": 0.9752556681632996,
+          "bbox": [
+            54,
+            904,
+            403,
+            919
+          ],
+          "words": [
+            {
+              "text": "Documentation complete.Approved per policy CM-104.",
+              "conf": 0.9752556681632996,
+              "bbox": [
+                54,
+                904,
+                403,
+                919
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

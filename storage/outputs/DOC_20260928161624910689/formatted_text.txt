@@ -1,0 +1,311 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=23 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 34x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | VERINT | - | - | -
+  CELL[1,0] = VERINT
+ROW 2 | Knowledge Management | - | - | -
+  CELL[2,0] = Knowledge Management
+ROW 3 | Search Cloud | - | - | -
+  CELL[3,0] = Search Cloud
+ROW 4 | Search knowledge | Q | Search | -
+  CELL[4,0] = Search knowledge
+  CELL[4,1] = Q
+  CELL[4,2] = Search
+ROW 5 | Reset All | ters | - | -
+  CELL[5,0] = Reset All
+  CELL[5,1] = ters
+ROW 6 | Q | - | - | -
+  CELL[6,0] = Q
+ROW 7 | No Search Cloud | - | - | -
+  CELL[7,0] = No Search Cloud
+ROW 8 | Knowledge Alerts (99) | - | - | -
+  CELL[8,0] = Knowledge Alerts (99)
+ROW 9 | Browse | - | - | -
+  CELL[9,0] = Browse
+ROW 10 | Filter | Q | - | -
+  CELL[10,0] = Filter
+  CELL[10,1] = Q
+ROW 11 | Reset | - | - | -
+  CELL[11,0] = Reset
+ROW 12 | Benefits & Coverage Billing | Member Owed Premium Payment Refunds | - | -
+  CELL[12,0] = Benefits & Coverage Billing
+  CELL[12,1] = Member Owed Premium Payment Refunds
+ROW 13 | Claims Investigation Claims Management | By: Katie Meakem, MPSO Initiatives Audience: Concierge | - | -
+  CELL[13,0] = Claims Investigation Claims Management
+  CELL[13,1] = By: Katie Meakem, MPSO Initiatives Audience: Concierge
+ROW 14 | Impacted Group | ~44k members Summary -Approximately 44k | - | -
+  CELL[14,0] = Impacted Group
+  CELL[14,1] = ~44k members Summary -Approximately 44k
+ROW 15 | Claims Processing Claims Regulatory Ops | members were impacted by a premium payment auto-refund | - | -
+  CELL[15,0] = Claims Processing Claims Regulatory Ops
+  CELL[15,1] = members were impacted by a premium payment auto-refund
+ROW 16 | system error where balance | - | - | -
+  CELL[16,0] = system error where balance
+ROW 17 | Eligibility Health & Wellness | 7/22/26 | - | -
+  CELL[17,0] = Eligibility Health & Wellness
+  CELL[17,1] = 7/22/26
+ROW 18 | Member Services Peer Reviews | - | - | -
+  CELL[18,0] = Member Services Peer Reviews
+ROW 19 | ! Federal External Review Process Outage | - | - | -
+  CELL[19,0] = ! Federal External Review Process Outage
+ROW 20 | Performance Management Pharmacy & Medication Man.. | - | - | -
+  CELL[20,0] = Performance Management Pharmacy & Medication Man..
+ROW 21 | By | Alex Hardy Audience: Concierge Impacted Group: Members | - | -
+  CELL[21,0] = By
+  CELL[21,1] = Alex Hardy Audience: Concierge Impacted Group: Members
+ROW 22 | Policies & Plans Preauthorization Procedures | in FL and TX Pursuing External Review Summary: The federal. | - | -
+  CELL[22,0] = Policies & Plans Preauthorization Procedures
+  CELL[22,1] = in FL and TX Pursuing External Review Summary: The federal.
+ROW 23 | government announced that as of July 1,2026, the HHS | - | - | -
+  CELL[23,0] = government announced that as of July 1,2026, the HHS
+ROW 24 | Provider Networks Regulatory Compliance | Administered Federal | - | -
+  CELL[24,0] = Provider Networks Regulatory Compliance
+  CELL[24,1] = Administered Federal
+ROW 25 | 7/10/26 | - | - | -
+  CELL[25,0] = 7/10/26
+ROW 26 | Systems & Tools Third-Party Processes | - | - | -
+  CELL[26,0] = Systems & Tools Third-Party Processes
+ROW 27 | Utilization Review Utilization Management Guid.. | 0 Internal Update: MEDOPS Refresher | - | -
+  CELL[27,0] = Utilization Review Utilization Management Guid..
+  CELL[27,1] = 0 Internal Update: MEDOPS Refresher
+ROW 28 | Broker Support Virtual Telemedicine | By: Tiffany R., MPSO Audience: Concierge Impacted Group: ALL | - | -
+  CELL[28,0] = Broker Support Virtual Telemedicine
+  CELL[28,1] = By: Tiffany R., MPSO Audience: Concierge Impacted Group: ALL
+ROW 29 | Summary | Our Pharmacy Team is currently working through a | - | -
+  CELL[29,0] = Summary
+  CELL[29,1] = Our Pharmacy Team is currently working through a
+ROW 30 | 1. Inquires About Plan Selecti.. Pre-Care | backlog of prescription Prior Authorization (PA) requests | - | -
+  CELL[30,0] = 1. Inquires About Plan Selecti.. Pre-Care
+  CELL[30,1] = backlog of prescription Prior Authorization (PA) requests
+ROW 31 | (INTERNAL ONLY, PLEASE | - | - | -
+  CELL[31,0] = (INTERNAL ONLY, PLEASE
+ROW 32 | 5. After-Care 4. Care | 717/26 | - | -
+  CELL[32,0] = 5. After-Care 4. Care
+  CELL[32,1] = 717/26
+ROW 33 | 4. Care 4. Care | 1-20of 99 |< 3 4 5 > >1 | - | -
+  CELL[33,0] = 4. Care 4. Care
+  CELL[33,1] = 1-20of 99 |< 3 4 5 > >1
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[59,13,150,34] | order=0
+  VERINT
+BLOCK 1 | type=header | bbox=[30,38,177,55] | order=1
+  Knowledge Management
+BLOCK 2 | type=header | bbox=[15,76,110,93] | order=2
+  Search Cloud
+BLOCK 3 | type=table | bbox=[31,85,824,130] | order=3
+  Reset All ters Search knowledge Q Search
+BLOCK 4 | type=paragraph | bbox=[360,123,382,144] | order=4
+  Q
+BLOCK 5 | type=heading | bbox=[34,140,130,157] | order=5
+  No Search Cloud
+BLOCK 6 | type=paragraph | bbox=[13,172,519,207] | order=6
+  Browse Knowledge Alerts (99)
+BLOCK 7 | type=heading | bbox=[501,208,775,227] | order=7
+  Filter Q
+BLOCK 8 | type=paragraph | bbox=[30,224,69,242] | order=8
+  Reset
+BLOCK 9 | type=heading | bbox=[72,248,640,287] | order=9
+  Benefits & Coverage Billing Member Owed Premium Payment Refunds
+BLOCK 10 | type=heading | bbox=[75,288,751,326] | order=10
+  Claims Investigation Claims Management By: Katie Meakem, MPSO Initiatives Audience: Concierge Impacted Group:~44k members Summary -Approximately 44k
+BLOCK 11 | type=paragraph | bbox=[74,323,736,360] | order=11
+  Claims Processing Claims Regulatory Ops members were impacted by a premium payment auto-refund system error where balance
+BLOCK 12 | type=heading | bbox=[72,360,410,397] | order=12
+  Eligibility Health & Wellness 7/22/26
+BLOCK 13 | type=heading | bbox=[70,398,628,448] | order=13
+  Member Services Peer Reviews ! Federal External Review Process Outage
+BLOCK 14 | type=heading | bbox=[72,435,754,476] | order=14
+  Performance Management Pharmacy & Medication Man. By: Alex Hardy Audience: Concierge Impacted Group: Members
+BLOCK 15 | type=label_value | bbox=[74,475,746,511] | order=15
+  Policies & Plans Preauthorization Procedures in FL and TX Pursuing External Review Summary: The federal. government announced that as of July 1,2026, the HHS
+BLOCK 16 | type=heading | bbox=[72,510,496,547] | order=16
+  Provider Networks Regulatory Compliance Administered Federal
+BLOCK 17 | type=heading | bbox=[74,541,410,584] | order=17
+  Systems & Tools Third-Party Processes 7/10/26
+BLOCK 18 | type=heading | bbox=[72,586,620,623] | order=18
+  Utilization Review Utilization Management Guid. 0 Internal Update: MEDOPS Refresher
+BLOCK 19 | type=heading | bbox=[74,625,760,662] | order=19
+  Broker Support Virtual Telemedicine Summary: Our Pharmacy Team is currently working through a By: Tiffany R., MPSO Audience: Concierge Impacted Group: ALL
+BLOCK 20 | type=paragraph | bbox=[72,662,708,698] | order=20
+  1. Inquires About Plan Selecti. Pre-Care backlog of prescription Prior Authorization (PA) requests (INTERNAL ONLY, PLEASE
+BLOCK 21 | type=footer | bbox=[72,696,404,736] | order=21
+  5. After-Care 4. Care 717/26
+BLOCK 22 | type=footer | bbox=[70,734,726,773] | order=22
+  4. Care 4. Care 1-20of 99 |< 3 4 5 > >1
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[13,13,824,773] | shape=34x4 | conf=0.920
+  shape: 34x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | VERINT | - | - | -
+    CELL[1,0] = VERINT
+  ROW 2 | Knowledge Management | - | - | -
+    CELL[2,0] = Knowledge Management
+  ROW 3 | Search Cloud | - | - | -
+    CELL[3,0] = Search Cloud
+  ROW 4 | Search knowledge | Q | Search | -
+    CELL[4,0] = Search knowledge
+    CELL[4,1] = Q
+    CELL[4,2] = Search
+  ROW 5 | Reset All | ters | - | -
+    CELL[5,0] = Reset All
+    CELL[5,1] = ters
+  ROW 6 | Q | - | - | -
+    CELL[6,0] = Q
+  ROW 7 | No Search Cloud | - | - | -
+    CELL[7,0] = No Search Cloud
+  ROW 8 | Knowledge Alerts (99) | - | - | -
+    CELL[8,0] = Knowledge Alerts (99)
+  ROW 9 | Browse | - | - | -
+    CELL[9,0] = Browse
+  ROW 10 | Filter | Q | - | -
+    CELL[10,0] = Filter
+    CELL[10,1] = Q
+  ROW 11 | Reset | - | - | -
+    CELL[11,0] = Reset
+  ROW 12 | Benefits & Coverage Billing | Member Owed Premium Payment Refunds | - | -
+    CELL[12,0] = Benefits & Coverage Billing
+    CELL[12,1] = Member Owed Premium Payment Refunds
+  ROW 13 | Claims Investigation Claims Management | By: Katie Meakem, MPSO Initiatives Audience: Concierge | - | -
+    CELL[13,0] = Claims Investigation Claims Management
+    CELL[13,1] = By: Katie Meakem, MPSO Initiatives Audience: Concierge
+  ROW 14 | Impacted Group | ~44k members Summary -Approximately 44k | - | -
+    CELL[14,0] = Impacted Group
+    CELL[14,1] = ~44k members Summary -Approximately 44k
+  ROW 15 | Claims Processing Claims Regulatory Ops | members were impacted by a premium payment auto-refund | - | -
+    CELL[15,0] = Claims Processing Claims Regulatory Ops
+    CELL[15,1] = members were impacted by a premium payment auto-refund
+  ROW 16 | system error where balance | - | - | -
+    CELL[16,0] = system error where balance
+  ROW 17 | Eligibility Health & Wellness | 7/22/26 | - | -
+    CELL[17,0] = Eligibility Health & Wellness
+    CELL[17,1] = 7/22/26
+  ROW 18 | Member Services Peer Reviews | - | - | -
+    CELL[18,0] = Member Services Peer Reviews
+  ROW 19 | ! Federal External Review Process Outage | - | - | -
+    CELL[19,0] = ! Federal External Review Process Outage
+  ROW 20 | Performance Management Pharmacy & Medication Man.. | - | - | -
+    CELL[20,0] = Performance Management Pharmacy & Medication Man..
+  ROW 21 | By | Alex Hardy Audience: Concierge Impacted Group: Members | - | -
+    CELL[21,0] = By
+    CELL[21,1] = Alex Hardy Audience: Concierge Impacted Group: Members
+  ROW 22 | Policies & Plans Preauthorization Procedures | in FL and TX Pursuing External Review Summary: The federal. | - | -
+    CELL[22,0] = Policies & Plans Preauthorization Procedures
+    CELL[22,1] = in FL and TX Pursuing External Review Summary: The federal.
+  ROW 23 | government announced that as of July 1,2026, the HHS | - | - | -
+    CELL[23,0] = government announced that as of July 1,2026, the HHS
+  ROW 24 | Provider Networks Regulatory Compliance | Administered Federal | - | -
+    CELL[24,0] = Provider Networks Regulatory Compliance
+    CELL[24,1] = Administered Federal
+  ROW 25 | 7/10/26 | - | - | -
+    CELL[25,0] = 7/10/26
+  ROW 26 | Systems & Tools Third-Party Processes | - | - | -
+    CELL[26,0] = Systems & Tools Third-Party Processes
+  ROW 27 | Utilization Review Utilization Management Guid.. | 0 Internal Update: MEDOPS Refresher | - | -
+    CELL[27,0] = Utilization Review Utilization Management Guid..
+    CELL[27,1] = 0 Internal Update: MEDOPS Refresher
+  ROW 28 | Broker Support Virtual Telemedicine | By: Tiffany R., MPSO Audience: Concierge Impacted Group: ALL | - | -
+    CELL[28,0] = Broker Support Virtual Telemedicine
+    CELL[28,1] = By: Tiffany R., MPSO Audience: Concierge Impacted Group: ALL
+  ROW 29 | Summary | Our Pharmacy Team is currently working through a | - | -
+    CELL[29,0] = Summary
+    CELL[29,1] = Our Pharmacy Team is currently working through a
+  ROW 30 | 1. Inquires About Plan Selecti.. Pre-Care | backlog of prescription Prior Authorization (PA) requests | - | -
+    CELL[30,0] = 1. Inquires About Plan Selecti.. Pre-Care
+    CELL[30,1] = backlog of prescription Prior Authorization (PA) requests
+  ROW 31 | (INTERNAL ONLY, PLEASE | - | - | -
+    CELL[31,0] = (INTERNAL ONLY, PLEASE
+  ROW 32 | 5. After-Care 4. Care | 717/26 | - | -
+    CELL[32,0] = 5. After-Care 4. Care
+    CELL[32,1] = 717/26
+  ROW 33 | 4. Care 4. Care | 1-20of 99 |< 3 4 5 > >1 | - | -
+    CELL[33,0] = 4. Care 4. Care
+    CELL[33,1] = 1-20of 99 |< 3 4 5 > >1
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[59,13,150,34] | conf=0.998 | text=VERINT
+LINE 1 | bbox=[30,38,177,55] | conf=0.987 | text=Knowledge Management
+LINE 2 | bbox=[15,76,110,93] | conf=0.967 | text=Search Cloud
+LINE 3 | bbox=[31,85,824,130] | conf=0.988 | text=Reset All ters Search knowledge Q Search
+  WORD | bbox=[31,113,88,130] | text=Reset All
+  WORD | bbox=[285,104,295,125] | text=ters
+  WORD | bbox=[312,89,426,106] | text=Search knowledge
+  WORD | bbox=[776,88,794,106] | text=Q
+  WORD | bbox=[810,85,824,130] | text=Search
+LINE 4 | bbox=[360,123,382,144] | conf=0.776 | text=Q
+LINE 5 | bbox=[34,140,130,157] | conf=0.995 | text=No Search Cloud
+LINE 6 | bbox=[13,172,519,207] | conf=0.982 | text=Browse Knowledge Alerts (99)
+  WORD | bbox=[13,183,70,207] | text=Browse
+  WORD | bbox=[304,172,519,192] | text=Knowledge Alerts (99)
+LINE 7 | bbox=[501,208,775,227] | conf=0.921 | text=Filter Q
+  WORD | bbox=[501,209,538,227] | text=Filter
+  WORD | bbox=[756,208,775,225] | text=Q
+LINE 8 | bbox=[30,224,69,242] | conf=0.999 | text=Reset
+LINE 9 | bbox=[72,248,640,287] | conf=0.975 | text=Benefits & Coverage Billing Member Owed Premium Payment Refunds
+  WORD | bbox=[72,248,199,287] | text=Benefits & Coverage Billing
+  WORD | bbox=[356,257,640,279] | text=Member Owed Premium Payment Refunds
+LINE 10 | bbox=[75,288,751,326] | conf=0.969 | text=Claims Investigation Claims Management By: Katie Meakem, MPSO Initiatives Audience: Concierge Impacted Group:~44k members Summary -Approximately 44k
+  WORD | bbox=[75,288,200,322] | text=Claims Investigation Claims Management
+  WORD | bbox=[360,292,719,311] | text=By: Katie Meakem, MPSO Initiatives Audience: Concierge
+  WORD | bbox=[360,309,751,326] | text=Impacted Group:~44k members Summary -Approximately 44k
+LINE 11 | bbox=[74,323,736,360] | conf=0.992 | text=Claims Processing Claims Regulatory Ops members were impacted by a premium payment auto-refund system error where balance
+  WORD | bbox=[74,323,212,360] | text=Claims Processing Claims Regulatory Ops
+  WORD | bbox=[360,327,736,344] | text=members were impacted by a premium payment auto-refund
+  WORD | bbox=[360,344,535,360] | text=system error where balance
+LINE 12 | bbox=[72,360,410,397] | conf=0.994 | text=Eligibility Health & Wellness 7/22/26
+  WORD | bbox=[72,360,185,397] | text=Eligibility Health & Wellness
+  WORD | bbox=[361,377,410,391] | text=7/22/26
+LINE 13 | bbox=[70,398,628,448] | conf=0.824 | text=Member Services Peer Reviews ! Federal External Review Process Outage
+  WORD | bbox=[70,398,183,436] | text=Member Services Peer Reviews
+  WORD | bbox=[324,426,342,444] | text=!
+  WORD | bbox=[357,425,628,448] | text=Federal External Review Process Outage
+LINE 14 | bbox=[72,435,754,476] | conf=0.971 | text=Performance Management Pharmacy & Medication Man. By: Alex Hardy Audience: Concierge Impacted Group: Members
+  WORD | bbox=[72,435,256,472] | text=Performance Management Pharmacy & Medication Man..
+  WORD | bbox=[359,460,754,476] | text=By: Alex Hardy Audience: Concierge Impacted Group: Members
+LINE 15 | bbox=[74,475,746,511] | conf=0.967 | text=Policies & Plans Preauthorization Procedures in FL and TX Pursuing External Review Summary: The federal. government announced that as of July 1,2026, the HHS
+  WORD | bbox=[74,475,246,509] | text=Policies & Plans Preauthorization Procedures
+  WORD | bbox=[360,477,746,494] | text=in FL and TX Pursuing External Review Summary: The federal.
+  WORD | bbox=[360,493,714,511] | text=government announced that as of July 1,2026, the HHS
+LINE 16 | bbox=[72,510,496,547] | conf=0.992 | text=Provider Networks Regulatory Compliance Administered Federal
+  WORD | bbox=[72,510,215,547] | text=Provider Networks Regulatory Compliance
+  WORD | bbox=[360,510,496,527] | text=Administered Federal
+LINE 17 | bbox=[74,541,410,584] | conf=0.979 | text=Systems & Tools Third-Party Processes 7/10/26
+  WORD | bbox=[74,550,211,584] | text=Systems & Tools Third-Party Processes
+  WORD | bbox=[358,541,410,562] | text=7/10/26
+LINE 18 | bbox=[72,586,620,623] | conf=0.975 | text=Utilization Review Utilization Management Guid. 0 Internal Update: MEDOPS Refresher
+  WORD | bbox=[72,586,258,623] | text=Utilization Review Utilization Management Guid..
+  WORD | bbox=[362,595,620,615] | text=0 Internal Update: MEDOPS Refresher
+LINE 19 | bbox=[74,625,760,662] | conf=0.974 | text=Broker Support Virtual Telemedicine Summary: Our Pharmacy Team is currently working through a By: Tiffany R., MPSO Audience: Concierge Impacted Group: ALL
+  WORD | bbox=[74,625,199,659] | text=Broker Support Virtual Telemedicine
+  WORD | bbox=[360,645,741,662] | text=Summary: Our Pharmacy Team is currently working through a
+  WORD | bbox=[361,628,760,644] | text=By: Tiffany R., MPSO Audience: Concierge Impacted Group: ALL
+LINE 20 | bbox=[72,662,708,698] | conf=0.982 | text=1. Inquires About Plan Selecti. Pre-Care backlog of prescription Prior Authorization (PA) requests (INTERNAL ONLY, PLEASE
+  WORD | bbox=[72,662,258,698] | text=1. Inquires About Plan Selecti.. Pre-Care
+  WORD | bbox=[361,662,708,679] | text=backlog of prescription Prior Authorization (PA) requests
+  WORD | bbox=[361,680,536,693] | text=(INTERNAL ONLY, PLEASE
+LINE 21 | bbox=[72,696,404,736] | conf=0.985 | text=5. After-Care 4. Care 717/26
+  WORD | bbox=[72,696,155,736] | text=5. After-Care 4. Care
+  WORD | bbox=[359,712,404,729] | text=717/26
+LINE 22 | bbox=[70,734,726,773] | conf=0.896 | text=4. Care 4. Care 1-20of 99 |< 3 4 5 > >1
+  WORD | bbox=[70,734,123,773] | text=4. Care 4. Care
+  WORD | bbox=[382,740,455,756] | text=1-20of 99
+  WORD | bbox=[468,743,482,755] | text=<
+  WORD | bbox=[592,743,602,755] | text=3
+  WORD | bbox=[620,743,634,755] | text=4
+  WORD | bbox=[652,742,664,755] | text=5
+  WORD | bbox=[682,743,695,755] | text=>
+  WORD | bbox=[702,742,726,756] | text=>1
+[/BOXES]

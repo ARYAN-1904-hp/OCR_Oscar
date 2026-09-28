@@ -1,0 +1,20 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=1 | tables=0 | checkboxes=0
+
+[TEXT]
+rosco Q Search Rosco MR Melissa
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[12,14,1551,36] | order=0
+  rosco Q Search Rosco MR Melissa
+[/LAYOUT]
+
+[BOXES]
+LINE 0 | bbox=[12,14,1551,36] | conf=0.975 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[12,14,75,36] | text=rosco
+  WORD | bbox=[110,14,231,36] | text=Q Search Rosco
+  WORD | bbox=[1465,18,1551,34] | text=MR Melissa
+[/BOXES]

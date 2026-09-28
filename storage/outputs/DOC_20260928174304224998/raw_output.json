@@ -1,0 +1,2305 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Search Rosco MR Melissa -\nYisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nActive\nHolder - ON exc OSC78747909-01- R213XB6D : Viewing information for Silver Simple PCP Saver CSR 150 (09/01/202512/31/2025) Claims & accumulators\nFLBroward Individual deductible Individual out-of-pocket-maximum\nFLO3FLTeam $0.00 spent out of$0.00 $266.90 spent out of$1,850.00\nOscarplan: Deductible met $1,583.10 remaining\n8 Individual Claims Export CSV\nView ID card\nJeffin Alex View famlly accumulators\nEffective 01/01/2026\nHeads up note\nMember actions\nSilver Simple PCP Saver CSR 150\nFL HMO Standard\nReduced price PCP visits are not supported by this plan.\nAccumulators View benefit limit accumulators\n$Current Balance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility -\n9X1W28AK $0.00\nOscar Unlocks Not activated\nMember tags Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald\nnextgen_billing_rosco_tag Oscar Medical Group  Nathan Lycan",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Search Rosco MR Melissa -\nYisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nActive\nHolder - ON exc OSC78747909-01- R213XB6D : Viewing information for Silver Simple PCP Saver CSR 150 (09/01/202512/31/2025) Claims & accumulators\nFLBroward Individual deductible Individual out-of-pocket-maximum\nFLO3FLTeam $0.00 spent out of$0.00 $266.90 spent out of$1,850.00\nOscarplan: Deductible met $1,583.10 remaining\n8 Individual Claims Export CSV\nView ID card\nJeffin Alex View famlly accumulators\nEffective 01/01/2026\nHeads up note\nMember actions\nSilver Simple PCP Saver CSR 150\nFL HMO Standard\nReduced price PCP visits are not supported by this plan.\nAccumulators View benefit limit accumulators\n$Current Balance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility -\n9X1W28AK $0.00\nOscar Unlocks Not activated\nMember tags Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald\nnextgen_billing_rosco_tag Oscar Medical Group  Nathan Lycan",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "paragraph",
+              "reading_order": 8,
+              "bbox": [
+                276,
+                225,
+                1260,
+                290
+              ],
+              "text": "Reduced price PCP visits are not supported by this plan.\nAccumulators View benefit limit accumulators",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Reduced price PCP visits are not supported by this plan.",
+                  "conf": 0.9787277579307556,
+                  "bbox": [
+                    276,
+                    225,
+                    589,
+                    243
+                  ],
+                  "words": [
+                    {
+                      "text": "Reduced price PCP visits are not supported by this plan.",
+                      "conf": 0.9787277579307556,
+                      "bbox": [
+                        276,
+                        225,
+                        589,
+                        243
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Accumulators View benefit limit accumulators",
+                  "conf": 0.9820154011249542,
+                  "bbox": [
+                    279,
+                    274,
+                    1260,
+                    290
+                  ],
+                  "words": [
+                    {
+                      "text": "Accumulators",
+                      "conf": 0.9989284873008728,
+                      "bbox": [
+                        279,
+                        274,
+                        371,
+                        290
+                      ]
+                    },
+                    {
+                      "text": "View benefit limit accumulators",
+                      "conf": 0.9651023149490356,
+                      "bbox": [
+                        1108,
+                        276,
+                        1260,
+                        289
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 9,
+              "bbox": [
+                19,
+                605,
+                1255,
+                707
+              ],
+              "text": "$CurrentBalance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility -\n9X1W28AK $0.00",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "$CurrentBalance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility -",
+                  "conf": 0.9488344533102853,
+                  "bbox": [
+                    19,
+                    605,
+                    1230,
+                    630
+                  ],
+                  "words": [
+                    {
+                      "text": "$CurrentBalance due",
+                      "conf": 0.9676082730293274,
+                      "bbox": [
+                        19,
+                        605,
+                        163,
+                        624
+                      ]
+                    },
+                    {
+                      "text": "Order by date of service ",
+                      "conf": 0.9655224084854126,
+                      "bbox": [
+                        289,
+                        612,
+                        434,
+                        630
+                      ]
+                    },
+                    {
+                      "text": "Medical clalms",
+                      "conf": 0.9322730898857117,
+                      "bbox": [
+                        464,
+                        612,
+                        558,
+                        630
+                      ]
+                    },
+                    {
+                      "text": "Servlce dates 01/01/2025-07/23/2026 (2)",
+                      "conf": 0.9258962869644165,
+                      "bbox": [
+                        592,
+                        615,
+                        834,
+                        628
+                      ]
+                    },
+                    {
+                      "text": "Member responslblllty ",
+                      "conf": 0.9194103479385376,
+                      "bbox": [
+                        874,
+                        614,
+                        1011,
+                        630
+                      ]
+                    },
+                    {
+                      "text": "Status",
+                      "conf": 0.9974164366722107,
+                      "bbox": [
+                        1041,
+                        615,
+                        1094,
+                        630
+                      ]
+                    },
+                    {
+                      "text": "Provider/Facility -",
+                      "conf": 0.9337143301963806,
+                      "bbox": [
+                        1122,
+                        614,
+                        1230,
+                        630
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "9X1W28AK $0.00",
+                  "conf": 0.9983122050762177,
+                  "bbox": [
+                    302,
+                    685,
+                    1255,
+                    707
+                  ],
+                  "words": [
+                    {
+                      "text": "9X1W28AK",
+                      "conf": 0.9973198175430298,
+                      "bbox": [
+                        302,
+                        685,
+                        374,
+                        704
+                      ]
+                    },
+                    {
+                      "text": "$0.00",
+                      "conf": 0.9993045926094055,
+                      "bbox": [
+                        1214,
+                        689,
+                        1255,
+                        707
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Reduced price PCP visits are not supported by this plan.\nAccumulators View benefit limit accumulators\n$CurrentBalance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility -\n9X1W28AK $0.00"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "text": "rosco Search Rosco MR Melissa -",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Search Rosco MR Melissa -",
+              "conf": 0.9174846261739731,
+              "bbox": [
+                14,
+                17,
+                1580,
+                34
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9885711669921875,
+                  "bbox": [
+                    14,
+                    17,
+                    72,
+                    34
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.9943478107452393,
+                  "bbox": [
+                    138,
+                    18,
+                    230,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9716466665267944,
+                  "bbox": [
+                    1465,
+                    18,
+                    1550,
+                    34
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7153728604316711,
+                  "bbox": [
+                    1565,
+                    23,
+                    1580,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            19,
+            71,
+            919,
+            102
+          ],
+          "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing &payments Rewards Authorizations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing &payments Rewards Authorizations",
+              "conf": 0.9818124837345548,
+              "bbox": [
+                19,
+                71,
+                919,
+                102
+              ],
+              "words": [
+                {
+                  "text": "Yisroel Dubov",
+                  "conf": 0.971049964427948,
+                  "bbox": [
+                    19,
+                    81,
+                    152,
+                    102
+                  ]
+                },
+                {
+                  "text": "Member info",
+                  "conf": 0.9979149103164673,
+                  "bbox": [
+                    276,
+                    73,
+                    351,
+                    89
+                  ]
+                },
+                {
+                  "text": "Issues",
+                  "conf": 0.99818354845047,
+                  "bbox": [
+                    366,
+                    74,
+                    406,
+                    88
+                  ]
+                },
+                {
+                  "text": "Policy detalls",
+                  "conf": 0.969422459602356,
+                  "bbox": [
+                    421,
+                    73,
+                    500,
+                    89
+                  ]
+                },
+                {
+                  "text": "Benefits",
+                  "conf": 0.99494469165802,
+                  "bbox": [
+                    515,
+                    74,
+                    568,
+                    89
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9910710453987122,
+                  "bbox": [
+                    584,
+                    74,
+                    625,
+                    88
+                  ]
+                },
+                {
+                  "text": "Billing &payments",
+                  "conf": 0.9151747822761536,
+                  "bbox": [
+                    640,
+                    71,
+                    749,
+                    89
+                  ]
+                },
+                {
+                  "text": "Rewards",
+                  "conf": 0.9995003938674927,
+                  "bbox": [
+                    764,
+                    75,
+                    816,
+                    88
+                  ]
+                },
+                {
+                  "text": "Authorizations",
+                  "conf": 0.9990505576133728,
+                  "bbox": [
+                    834,
+                    75,
+                    919,
+                    88
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 2,
+          "bbox": [
+            22,
+            115,
+            64,
+            132
+          ],
+          "text": "Active",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Active",
+              "conf": 0.9863805174827576,
+              "bbox": [
+                22,
+                115,
+                64,
+                132
+              ],
+              "words": [
+                {
+                  "text": "Active",
+                  "conf": 0.9863805174827576,
+                  "bbox": [
+                    22,
+                    115,
+                    64,
+                    132
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 3,
+          "bbox": [
+            18,
+            125,
+            748,
+            176
+          ],
+          "text": "Holder - ON exc OSC78747909-01- R213XB6D : Viewing information forSilver Simple PCP Saver CSR 150 (09/01/202512/31/2025) Claims & accumulators",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Holder - ON exc OSC78747909-01- R213XB6D : Viewing information forSilver Simple PCP Saver CSR 150 (09/01/202512/31/2025) Claims & accumulators",
+              "conf": 0.9568799138069153,
+              "bbox": [
+                18,
+                125,
+                748,
+                176
+              ],
+              "words": [
+                {
+                  "text": "Holder - ON exc",
+                  "conf": 0.9442716836929321,
+                  "bbox": [
+                    18,
+                    159,
+                    108,
+                    176
+                  ]
+                },
+                {
+                  "text": "OSC78747909-01- R213XB6D :",
+                  "conf": 0.9387913942337036,
+                  "bbox": [
+                    19,
+                    140,
+                    182,
+                    157
+                  ]
+                },
+                {
+                  "text": "Viewing information forSilver Simple PCP Saver CSR 150 (09/01/202512/31/2025)",
+                  "conf": 0.9536354541778564,
+                  "bbox": [
+                    276,
+                    149,
+                    748,
+                    168
+                  ]
+                },
+                {
+                  "text": "Claims & accumulators",
+                  "conf": 0.990821123123169,
+                  "bbox": [
+                    280,
+                    125,
+                    474,
+                    146
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            16,
+            350,
+            1261,
+            591
+          ],
+          "text": "FLBroward Individual deductible Individual out-of-pocket-maximum\nFLO3FLTeam $0.00 spent out of$0.00 $266.90 spent out of$1,850.00\nOscarplan: Deductible met $1,583.10 remaining\n8Individual Claims Export CSV",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FLBroward Individual deductible Individual out-of-pocket-maximum",
+              "conf": 0.9894553820292155,
+              "bbox": [
+                17,
+                350,
+                738,
+                373
+              ],
+              "words": [
+                {
+                  "text": "FLBroward",
+                  "conf": 0.9760915040969849,
+                  "bbox": [
+                    17,
+                    351,
+                    113,
+                    373
+                  ]
+                },
+                {
+                  "text": "Individual deductible",
+                  "conf": 0.998386025428772,
+                  "bbox": [
+                    276,
+                    350,
+                    399,
+                    368
+                  ]
+                },
+                {
+                  "text": "Individual out-of-pocket-maximum",
+                  "conf": 0.9938886165618896,
+                  "bbox": [
+                    537,
+                    351,
+                    738,
+                    367
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "FLO3FLTeam $0.00 spent out of$0.00 $266.90 spent out of$1,850.00",
+              "conf": 0.9789241790771485,
+              "bbox": [
+                16,
+                384,
+                776,
+                406
+              ],
+              "words": [
+                {
+                  "text": "FLO3FLTeam",
+                  "conf": 0.9745137095451355,
+                  "bbox": [
+                    16,
+                    384,
+                    125,
+                    406
+                  ]
+                },
+                {
+                  "text": "$0.00 spent",
+                  "conf": 0.9876677989959717,
+                  "bbox": [
+                    278,
+                    390,
+                    349,
+                    406
+                  ]
+                },
+                {
+                  "text": "out of$0.00",
+                  "conf": 0.9795224666595459,
+                  "bbox": [
+                    445,
+                    390,
+                    516,
+                    406
+                  ]
+                },
+                {
+                  "text": "$266.90 spent",
+                  "conf": 0.9788208603858948,
+                  "bbox": [
+                    538,
+                    390,
+                    621,
+                    406
+                  ]
+                },
+                {
+                  "text": "out of$1,850.00",
+                  "conf": 0.9740960597991943,
+                  "bbox": [
+                    684,
+                    390,
+                    776,
+                    406
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Oscarplan: Deductible met $1,583.10 remaining",
+              "conf": 0.9732148845990499,
+              "bbox": [
+                17,
+                419,
+                713,
+                446
+              ],
+              "words": [
+                {
+                  "text": "Oscarplan:",
+                  "conf": 0.9751992225646973,
+                  "bbox": [
+                    17,
+                    419,
+                    106,
+                    439
+                  ]
+                },
+                {
+                  "text": "Deductible met",
+                  "conf": 0.9932790994644165,
+                  "bbox": [
+                    350,
+                    426,
+                    441,
+                    444
+                  ]
+                },
+                {
+                  "text": "$1,583.10 remaining",
+                  "conf": 0.9511663317680359,
+                  "bbox": [
+                    600,
+                    426,
+                    713,
+                    446
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "8Individual Claims Export CSV",
+              "conf": 0.9766371647516886,
+              "bbox": [
+                17,
+                560,
+                1261,
+                591
+              ],
+              "words": [
+                {
+                  "text": "8Individual",
+                  "conf": 0.960349440574646,
+                  "bbox": [
+                    17,
+                    570,
+                    98,
+                    591
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9979166984558105,
+                  "bbox": [
+                    277,
+                    560,
+                    327,
+                    582
+                  ]
+                },
+                {
+                  "text": "Export CSV",
+                  "conf": 0.9716453552246094,
+                  "bbox": [
+                    1204,
+                    566,
+                    1261,
+                    579
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 5,
+          "bbox": [
+            16,
+            480,
+            424,
+            560
+          ],
+          "text": "View ID card\nJeffin Alex View famlly accumulators\nEffective 01/01/2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "View ID card",
+              "conf": 0.9315194487571716,
+              "bbox": [
+                40,
+                480,
+                114,
+                496
+              ],
+              "words": [
+                {
+                  "text": "View ID card",
+                  "conf": 0.9315194487571716,
+                  "bbox": [
+                    40,
+                    480,
+                    114,
+                    496
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Jeffin Alex View famlly accumulators",
+              "conf": 0.9566916227340698,
+              "bbox": [
+                18,
+                503,
+                424,
+                526
+              ],
+              "words": [
+                {
+                  "text": "Jeffin Alex",
+                  "conf": 0.9443033337593079,
+                  "bbox": [
+                    18,
+                    508,
+                    102,
+                    526
+                  ]
+                },
+                {
+                  "text": "View famlly accumulators",
+                  "conf": 0.9690799117088318,
+                  "bbox": [
+                    280,
+                    503,
+                    424,
+                    516
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Effective 01/01/2026",
+              "conf": 0.930864155292511,
+              "bbox": [
+                16,
+                536,
+                158,
+                560
+              ],
+              "words": [
+                {
+                  "text": "Effective 01/01/2026",
+                  "conf": 0.930864155292511,
+                  "bbox": [
+                    16,
+                    536,
+                    158,
+                    560
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 6,
+          "bbox": [
+            30,
+            211,
+            219,
+            456
+          ],
+          "text": "Heads up note\nMember actions\nSilver Simple PCP Saver CSR 150",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Heads up note",
+              "conf": 0.9967240691184998,
+              "bbox": [
+                30,
+                211,
+                115,
+                228
+              ],
+              "words": [
+                {
+                  "text": "Heads up note",
+                  "conf": 0.9967240691184998,
+                  "bbox": [
+                    30,
+                    211,
+                    115,
+                    228
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Member actions",
+              "conf": 0.9413241147994995,
+              "bbox": [
+                71,
+                307,
+                162,
+                320
+              ],
+              "words": [
+                {
+                  "text": "Member actions",
+                  "conf": 0.9413241147994995,
+                  "bbox": [
+                    71,
+                    307,
+                    162,
+                    320
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.9718018770217896,
+              "bbox": [
+                41,
+                443,
+                219,
+                456
+              ],
+              "words": [
+                {
+                  "text": "Silver Simple PCP Saver CSR 150",
+                  "conf": 0.9718018770217896,
+                  "bbox": [
+                    41,
+                    443,
+                    219,
+                    456
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 7,
+          "bbox": [
+            39,
+            461,
+            142,
+            477
+          ],
+          "text": "FL HMO Standard",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FL HMO Standard",
+              "conf": 0.9981254935264587,
+              "bbox": [
+                39,
+                461,
+                142,
+                477
+              ],
+              "words": [
+                {
+                  "text": "FL HMO Standard",
+                  "conf": 0.9981254935264587,
+                  "bbox": [
+                    39,
+                    461,
+                    142,
+                    477
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 8,
+          "bbox": [
+            276,
+            225,
+            1260,
+            290
+          ],
+          "text": "Reduced price PCP visits are not supported by this plan.\nAccumulators View benefit limit accumulators",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Reduced price PCP visits are not supported by this plan.",
+              "conf": 0.9787277579307556,
+              "bbox": [
+                276,
+                225,
+                589,
+                243
+              ],
+              "words": [
+                {
+                  "text": "Reduced price PCP visits are not supported by this plan.",
+                  "conf": 0.9787277579307556,
+                  "bbox": [
+                    276,
+                    225,
+                    589,
+                    243
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Accumulators View benefit limit accumulators",
+              "conf": 0.9820154011249542,
+              "bbox": [
+                279,
+                274,
+                1260,
+                290
+              ],
+              "words": [
+                {
+                  "text": "Accumulators",
+                  "conf": 0.9989284873008728,
+                  "bbox": [
+                    279,
+                    274,
+                    371,
+                    290
+                  ]
+                },
+                {
+                  "text": "View benefit limit accumulators",
+                  "conf": 0.9651023149490356,
+                  "bbox": [
+                    1108,
+                    276,
+                    1260,
+                    289
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 9,
+          "bbox": [
+            19,
+            605,
+            1255,
+            707
+          ],
+          "text": "$CurrentBalance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility -\n9X1W28AK $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "$CurrentBalance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility -",
+              "conf": 0.9488344533102853,
+              "bbox": [
+                19,
+                605,
+                1230,
+                630
+              ],
+              "words": [
+                {
+                  "text": "$CurrentBalance due",
+                  "conf": 0.9676082730293274,
+                  "bbox": [
+                    19,
+                    605,
+                    163,
+                    624
+                  ]
+                },
+                {
+                  "text": "Order by date of service ",
+                  "conf": 0.9655224084854126,
+                  "bbox": [
+                    289,
+                    612,
+                    434,
+                    630
+                  ]
+                },
+                {
+                  "text": "Medical clalms",
+                  "conf": 0.9322730898857117,
+                  "bbox": [
+                    464,
+                    612,
+                    558,
+                    630
+                  ]
+                },
+                {
+                  "text": "Servlce dates 01/01/2025-07/23/2026 (2)",
+                  "conf": 0.9258962869644165,
+                  "bbox": [
+                    592,
+                    615,
+                    834,
+                    628
+                  ]
+                },
+                {
+                  "text": "Member responslblllty ",
+                  "conf": 0.9194103479385376,
+                  "bbox": [
+                    874,
+                    614,
+                    1011,
+                    630
+                  ]
+                },
+                {
+                  "text": "Status",
+                  "conf": 0.9974164366722107,
+                  "bbox": [
+                    1041,
+                    615,
+                    1094,
+                    630
+                  ]
+                },
+                {
+                  "text": "Provider/Facility -",
+                  "conf": 0.9337143301963806,
+                  "bbox": [
+                    1122,
+                    614,
+                    1230,
+                    630
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "9X1W28AK $0.00",
+              "conf": 0.9983122050762177,
+              "bbox": [
+                302,
+                685,
+                1255,
+                707
+              ],
+              "words": [
+                {
+                  "text": "9X1W28AK",
+                  "conf": 0.9973198175430298,
+                  "bbox": [
+                    302,
+                    685,
+                    374,
+                    704
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9993045926094055,
+                  "bbox": [
+                    1214,
+                    689,
+                    1255,
+                    707
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 10,
+          "bbox": [
+            19,
+            639,
+            122,
+            674
+          ],
+          "text": "Oscar Unlocks Not activated",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscar Unlocks Not activated",
+              "conf": 0.9860503077507019,
+              "bbox": [
+                19,
+                639,
+                122,
+                674
+              ],
+              "words": [
+                {
+                  "text": "Oscar Unlocks Not activated",
+                  "conf": 0.9860503077507019,
+                  "bbox": [
+                    19,
+                    639,
+                    122,
+                    674
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 11,
+          "bbox": [
+            16,
+            706,
+            1252,
+            732
+          ],
+          "text": "Member tags Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member tags Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald",
+              "conf": 0.9569187760353088,
+              "bbox": [
+                16,
+                706,
+                1252,
+                732
+              ],
+              "words": [
+                {
+                  "text": "Member tags",
+                  "conf": 0.9601938128471375,
+                  "bbox": [
+                    16,
+                    706,
+                    96,
+                    727
+                  ]
+                },
+                {
+                  "text": " Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+                  "conf": 0.9925523996353149,
+                  "bbox": [
+                    304,
+                    715,
+                    1062,
+                    732
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9180101156234741,
+                  "bbox": [
+                    1220,
+                    714,
+                    1252,
+                    732
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 12,
+          "bbox": [
+            22,
+            736,
+            535,
+            761
+          ],
+          "text": "nextgen_billing_rosco_tag Oscar Medical Group  Nathan Lycan",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "nextgen_billing_rosco_tag Oscar Medical Group  Nathan Lycan",
+              "conf": 0.9607703983783722,
+              "bbox": [
+                22,
+                736,
+                535,
+                761
+              ],
+              "words": [
+                {
+                  "text": "nextgen_billing_rosco_tag",
+                  "conf": 0.9528142809867859,
+                  "bbox": [
+                    22,
+                    745,
+                    175,
+                    761
+                  ]
+                },
+                {
+                  "text": "Oscar Medical Group  Nathan Lycan",
+                  "conf": 0.9687265157699585,
+                  "bbox": [
+                    321,
+                    736,
+                    535,
+                    754
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            14,
+            17,
+            1580,
+            761
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>Search Rosco</td><td>MR Melissa</td><td>-</td></tr><tr><td>Member info Issues Policy detalls Benefits Claims Billing &amp;payments Rewards</td><td></td><td>Authorizations</td><td></td></tr><tr><td>Yisroel Dubov</td><td></td><td></td><td></td></tr><tr><td>Active</td><td></td><td></td><td></td></tr><tr><td>Claims &amp; accumulators</td><td></td><td></td><td></td></tr><tr><td>OSC78747909-01- R213XB6D</td><td>Viewing information forSilver Simple PCP Saver CSR 150 (09/01/202512/31/2025)</td><td></td><td></td></tr><tr><td>Holder - ON exc</td><td></td><td></td><td></td></tr><tr><td>Heads up note</td><td></td><td></td><td></td></tr><tr><td>Reduced price PCP visits are not supported by this plan.</td><td></td><td></td><td></td></tr><tr><td>Accumulators</td><td></td><td>View benefit limit accumulators</td><td></td></tr><tr><td>Member actions</td><td></td><td></td><td></td></tr><tr><td>$CurrentBalance due</td><td>Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2)</td><td>Member responslblllty Status Provider/Facility -</td><td></td></tr><tr><td>Oscar Unlocks Not activated</td><td></td><td></td><td></td></tr><tr><td>9X1W28AK</td><td></td><td>$0.00</td><td></td></tr><tr><td>Member tags</td><td>Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more</td><td>Pald</td><td></td></tr><tr><td>nextgen_billing_rosco_tag</td><td>Oscar Medical Group  Nathan Lycan</td><td></td><td></td></tr></table>",
+          "text": "rosco: Search Rosco\nMR Melissa: -\nMember info Issues Policy detalls Benefits Claims Billing &payments Rewards: \nAuthorizations: \nYisroel Dubov: \nActive: \nClaims & accumulators: \nOSC78747909-01- R213XB6D: Viewing information forSilver Simple PCP Saver CSR 150 (09/01/202512/31/2025)\nHolder - ON exc: \nHeads up note: \nReduced price PCP visits are not supported by this plan.: \nAccumulators: \nView benefit limit accumulators: \nMember actions: \n$CurrentBalance due: Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2)\nMember responslblllty Status Provider/Facility -: \nOscar Unlocks Not activated: \n9X1W28AK: \n$0.00: \nMember tags: Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more\nPald: \nnextgen_billing_rosco_tag: Oscar Medical Group  Nathan Lycan",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "Search Rosco",
+              "MR Melissa",
+              "-"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing &payments Rewards",
+              "",
+              "Authorizations",
+              ""
+            ],
+            [
+              "Yisroel Dubov",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Active",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Claims & accumulators",
+              "",
+              "",
+              ""
+            ],
+            [
+              "OSC78747909-01- R213XB6D",
+              "Viewing information forSilver Simple PCP Saver CSR 150 (09/01/202512/31/2025)",
+              "",
+              ""
+            ],
+            [
+              "Holder - ON exc",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Heads up note",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Reduced price PCP visits are not supported by this plan.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Accumulators",
+              "",
+              "View benefit limit accumulators",
+              ""
+            ],
+            [
+              "Member actions",
+              "",
+              "",
+              ""
+            ],
+            [
+              "$CurrentBalance due",
+              "Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2)",
+              "Member responslblllty Status Provider/Facility -",
+              ""
+            ],
+            [
+              "Oscar Unlocks Not activated",
+              "",
+              "",
+              ""
+            ],
+            [
+              "9X1W28AK",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "Member tags",
+              "Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "Pald",
+              ""
+            ],
+            [
+              "nextgen_billing_rosco_tag",
+              "Oscar Medical Group  Nathan Lycan",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco Search Rosco",
+              "MR Melissa -"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing &payments Rewards",
+              "Authorizations"
+            ],
+            [
+              "Yisroel Dubov",
+              ""
+            ],
+            [
+              "Active",
+              ""
+            ],
+            [
+              "Claims & accumulators",
+              ""
+            ],
+            [
+              "OSC78747909-01- R213XB6D : Viewing information forSilver Simple PCP Saver CSR 150 (09/01/202512/31/2025)",
+              ""
+            ],
+            [
+              "Holder - ON exc",
+              ""
+            ],
+            [
+              "Heads up note",
+              ""
+            ],
+            [
+              "Reduced price PCP visits are not supported by this plan.",
+              ""
+            ],
+            [
+              "Accumulators",
+              "View benefit limit accumulators"
+            ],
+            [
+              "Member actions",
+              ""
+            ],
+            [
+              "$CurrentBalance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2)",
+              "Member responslblllty Status Provider/Facility -"
+            ],
+            [
+              "Oscar Unlocks Not activated",
+              ""
+            ],
+            [
+              "9X1W28AK",
+              "$0.00"
+            ],
+            [
+              "Member tags Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "Pald"
+            ],
+            [
+              "nextgen_billing_rosco_tag Oscar Medical Group  Nathan Lycan",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Search Rosco MR Melissa -",
+          "conf": 0.9174846261739731,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9885711669921875,
+              "bbox": [
+                14,
+                17,
+                72,
+                34
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.9943478107452393,
+              "bbox": [
+                138,
+                18,
+                230,
+                34
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9716466665267944,
+              "bbox": [
+                1465,
+                18,
+                1550,
+                34
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7153728604316711,
+              "bbox": [
+                1565,
+                23,
+                1580,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing &payments Rewards Authorizations",
+          "conf": 0.9818124837345548,
+          "bbox": [
+            19,
+            71,
+            919,
+            102
+          ],
+          "words": [
+            {
+              "text": "Yisroel Dubov",
+              "conf": 0.971049964427948,
+              "bbox": [
+                19,
+                81,
+                152,
+                102
+              ]
+            },
+            {
+              "text": "Member info",
+              "conf": 0.9979149103164673,
+              "bbox": [
+                276,
+                73,
+                351,
+                89
+              ]
+            },
+            {
+              "text": "Issues",
+              "conf": 0.99818354845047,
+              "bbox": [
+                366,
+                74,
+                406,
+                88
+              ]
+            },
+            {
+              "text": "Policy detalls",
+              "conf": 0.969422459602356,
+              "bbox": [
+                421,
+                73,
+                500,
+                89
+              ]
+            },
+            {
+              "text": "Benefits",
+              "conf": 0.99494469165802,
+              "bbox": [
+                515,
+                74,
+                568,
+                89
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9910710453987122,
+              "bbox": [
+                584,
+                74,
+                625,
+                88
+              ]
+            },
+            {
+              "text": "Billing &payments",
+              "conf": 0.9151747822761536,
+              "bbox": [
+                640,
+                71,
+                749,
+                89
+              ]
+            },
+            {
+              "text": "Rewards",
+              "conf": 0.9995003938674927,
+              "bbox": [
+                764,
+                75,
+                816,
+                88
+              ]
+            },
+            {
+              "text": "Authorizations",
+              "conf": 0.9990505576133728,
+              "bbox": [
+                834,
+                75,
+                919,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Active",
+          "conf": 0.9863805174827576,
+          "bbox": [
+            22,
+            115,
+            64,
+            132
+          ],
+          "words": [
+            {
+              "text": "Active",
+              "conf": 0.9863805174827576,
+              "bbox": [
+                22,
+                115,
+                64,
+                132
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Holder - ON exc OSC78747909-01- R213XB6D : Viewing information forSilver Simple PCP Saver CSR 150 (09/01/202512/31/2025) Claims & accumulators",
+          "conf": 0.9568799138069153,
+          "bbox": [
+            18,
+            125,
+            748,
+            176
+          ],
+          "words": [
+            {
+              "text": "Holder - ON exc",
+              "conf": 0.9442716836929321,
+              "bbox": [
+                18,
+                159,
+                108,
+                176
+              ]
+            },
+            {
+              "text": "OSC78747909-01- R213XB6D :",
+              "conf": 0.9387913942337036,
+              "bbox": [
+                19,
+                140,
+                182,
+                157
+              ]
+            },
+            {
+              "text": "Viewing information forSilver Simple PCP Saver CSR 150 (09/01/202512/31/2025)",
+              "conf": 0.9536354541778564,
+              "bbox": [
+                276,
+                149,
+                748,
+                168
+              ]
+            },
+            {
+              "text": "Claims & accumulators",
+              "conf": 0.990821123123169,
+              "bbox": [
+                280,
+                125,
+                474,
+                146
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLBroward Individual deductible Individual out-of-pocket-maximum",
+          "conf": 0.9894553820292155,
+          "bbox": [
+            17,
+            350,
+            738,
+            373
+          ],
+          "words": [
+            {
+              "text": "FLBroward",
+              "conf": 0.9760915040969849,
+              "bbox": [
+                17,
+                351,
+                113,
+                373
+              ]
+            },
+            {
+              "text": "Individual deductible",
+              "conf": 0.998386025428772,
+              "bbox": [
+                276,
+                350,
+                399,
+                368
+              ]
+            },
+            {
+              "text": "Individual out-of-pocket-maximum",
+              "conf": 0.9938886165618896,
+              "bbox": [
+                537,
+                351,
+                738,
+                367
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLO3FLTeam $0.00 spent out of$0.00 $266.90 spent out of$1,850.00",
+          "conf": 0.9789241790771485,
+          "bbox": [
+            16,
+            384,
+            776,
+            406
+          ],
+          "words": [
+            {
+              "text": "FLO3FLTeam",
+              "conf": 0.9745137095451355,
+              "bbox": [
+                16,
+                384,
+                125,
+                406
+              ]
+            },
+            {
+              "text": "$0.00 spent",
+              "conf": 0.9876677989959717,
+              "bbox": [
+                278,
+                390,
+                349,
+                406
+              ]
+            },
+            {
+              "text": "out of$0.00",
+              "conf": 0.9795224666595459,
+              "bbox": [
+                445,
+                390,
+                516,
+                406
+              ]
+            },
+            {
+              "text": "$266.90 spent",
+              "conf": 0.9788208603858948,
+              "bbox": [
+                538,
+                390,
+                621,
+                406
+              ]
+            },
+            {
+              "text": "out of$1,850.00",
+              "conf": 0.9740960597991943,
+              "bbox": [
+                684,
+                390,
+                776,
+                406
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscarplan: Deductible met $1,583.10 remaining",
+          "conf": 0.9732148845990499,
+          "bbox": [
+            17,
+            419,
+            713,
+            446
+          ],
+          "words": [
+            {
+              "text": "Oscarplan:",
+              "conf": 0.9751992225646973,
+              "bbox": [
+                17,
+                419,
+                106,
+                439
+              ]
+            },
+            {
+              "text": "Deductible met",
+              "conf": 0.9932790994644165,
+              "bbox": [
+                350,
+                426,
+                441,
+                444
+              ]
+            },
+            {
+              "text": "$1,583.10 remaining",
+              "conf": 0.9511663317680359,
+              "bbox": [
+                600,
+                426,
+                713,
+                446
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8Individual Claims Export CSV",
+          "conf": 0.9766371647516886,
+          "bbox": [
+            17,
+            560,
+            1261,
+            591
+          ],
+          "words": [
+            {
+              "text": "8Individual",
+              "conf": 0.960349440574646,
+              "bbox": [
+                17,
+                570,
+                98,
+                591
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9979166984558105,
+              "bbox": [
+                277,
+                560,
+                327,
+                582
+              ]
+            },
+            {
+              "text": "Export CSV",
+              "conf": 0.9716453552246094,
+              "bbox": [
+                1204,
+                566,
+                1261,
+                579
+              ]
+            }
+          ]
+        },
+        {
+          "text": "View ID card",
+          "conf": 0.9315194487571716,
+          "bbox": [
+            40,
+            480,
+            114,
+            496
+          ],
+          "words": [
+            {
+              "text": "View ID card",
+              "conf": 0.9315194487571716,
+              "bbox": [
+                40,
+                480,
+                114,
+                496
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jeffin Alex View famlly accumulators",
+          "conf": 0.9566916227340698,
+          "bbox": [
+            18,
+            503,
+            424,
+            526
+          ],
+          "words": [
+            {
+              "text": "Jeffin Alex",
+              "conf": 0.9443033337593079,
+              "bbox": [
+                18,
+                508,
+                102,
+                526
+              ]
+            },
+            {
+              "text": "View famlly accumulators",
+              "conf": 0.9690799117088318,
+              "bbox": [
+                280,
+                503,
+                424,
+                516
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Effective 01/01/2026",
+          "conf": 0.930864155292511,
+          "bbox": [
+            16,
+            536,
+            158,
+            560
+          ],
+          "words": [
+            {
+              "text": "Effective 01/01/2026",
+              "conf": 0.930864155292511,
+              "bbox": [
+                16,
+                536,
+                158,
+                560
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Heads up note",
+          "conf": 0.9967240691184998,
+          "bbox": [
+            30,
+            211,
+            115,
+            228
+          ],
+          "words": [
+            {
+              "text": "Heads up note",
+              "conf": 0.9967240691184998,
+              "bbox": [
+                30,
+                211,
+                115,
+                228
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member actions",
+          "conf": 0.9413241147994995,
+          "bbox": [
+            71,
+            307,
+            162,
+            320
+          ],
+          "words": [
+            {
+              "text": "Member actions",
+              "conf": 0.9413241147994995,
+              "bbox": [
+                71,
+                307,
+                162,
+                320
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Silver Simple PCP Saver CSR 150",
+          "conf": 0.9718018770217896,
+          "bbox": [
+            41,
+            443,
+            219,
+            456
+          ],
+          "words": [
+            {
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.9718018770217896,
+              "bbox": [
+                41,
+                443,
+                219,
+                456
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FL HMO Standard",
+          "conf": 0.9981254935264587,
+          "bbox": [
+            39,
+            461,
+            142,
+            477
+          ],
+          "words": [
+            {
+              "text": "FL HMO Standard",
+              "conf": 0.9981254935264587,
+              "bbox": [
+                39,
+                461,
+                142,
+                477
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reduced price PCP visits are not supported by this plan.",
+          "conf": 0.9787277579307556,
+          "bbox": [
+            276,
+            225,
+            589,
+            243
+          ],
+          "words": [
+            {
+              "text": "Reduced price PCP visits are not supported by this plan.",
+              "conf": 0.9787277579307556,
+              "bbox": [
+                276,
+                225,
+                589,
+                243
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Accumulators View benefit limit accumulators",
+          "conf": 0.9820154011249542,
+          "bbox": [
+            279,
+            274,
+            1260,
+            290
+          ],
+          "words": [
+            {
+              "text": "Accumulators",
+              "conf": 0.9989284873008728,
+              "bbox": [
+                279,
+                274,
+                371,
+                290
+              ]
+            },
+            {
+              "text": "View benefit limit accumulators",
+              "conf": 0.9651023149490356,
+              "bbox": [
+                1108,
+                276,
+                1260,
+                289
+              ]
+            }
+          ]
+        },
+        {
+          "text": "$CurrentBalance due Order by date of service Medical clalms Servlce dates 01/01/2025-07/23/2026 (2) Member responslblllty Status Provider/Facility -",
+          "conf": 0.9488344533102853,
+          "bbox": [
+            19,
+            605,
+            1230,
+            630
+          ],
+          "words": [
+            {
+              "text": "$CurrentBalance due",
+              "conf": 0.9676082730293274,
+              "bbox": [
+                19,
+                605,
+                163,
+                624
+              ]
+            },
+            {
+              "text": "Order by date of service ",
+              "conf": 0.9655224084854126,
+              "bbox": [
+                289,
+                612,
+                434,
+                630
+              ]
+            },
+            {
+              "text": "Medical clalms",
+              "conf": 0.9322730898857117,
+              "bbox": [
+                464,
+                612,
+                558,
+                630
+              ]
+            },
+            {
+              "text": "Servlce dates 01/01/2025-07/23/2026 (2)",
+              "conf": 0.9258962869644165,
+              "bbox": [
+                592,
+                615,
+                834,
+                628
+              ]
+            },
+            {
+              "text": "Member responslblllty ",
+              "conf": 0.9194103479385376,
+              "bbox": [
+                874,
+                614,
+                1011,
+                630
+              ]
+            },
+            {
+              "text": "Status",
+              "conf": 0.9974164366722107,
+              "bbox": [
+                1041,
+                615,
+                1094,
+                630
+              ]
+            },
+            {
+              "text": "Provider/Facility -",
+              "conf": 0.9337143301963806,
+              "bbox": [
+                1122,
+                614,
+                1230,
+                630
+              ]
+            }
+          ]
+        },
+        {
+          "text": "9X1W28AK $0.00",
+          "conf": 0.9983122050762177,
+          "bbox": [
+            302,
+            685,
+            1255,
+            707
+          ],
+          "words": [
+            {
+              "text": "9X1W28AK",
+              "conf": 0.9973198175430298,
+              "bbox": [
+                302,
+                685,
+                374,
+                704
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9993045926094055,
+              "bbox": [
+                1214,
+                689,
+                1255,
+                707
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar Unlocks Not activated",
+          "conf": 0.9860503077507019,
+          "bbox": [
+            19,
+            639,
+            122,
+            674
+          ],
+          "words": [
+            {
+              "text": "Oscar Unlocks Not activated",
+              "conf": 0.9860503077507019,
+              "bbox": [
+                19,
+                639,
+                122,
+                674
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member tags Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald",
+          "conf": 0.9569187760353088,
+          "bbox": [
+            16,
+            706,
+            1252,
+            732
+          ],
+          "words": [
+            {
+              "text": "Member tags",
+              "conf": 0.9601938128471375,
+              "bbox": [
+                16,
+                706,
+                96,
+                727
+              ]
+            },
+            {
+              "text": " Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "conf": 0.9925523996353149,
+              "bbox": [
+                304,
+                715,
+                1062,
+                732
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9180101156234741,
+              "bbox": [
+                1220,
+                714,
+                1252,
+                732
+              ]
+            }
+          ]
+        },
+        {
+          "text": "nextgen_billing_rosco_tag Oscar Medical Group  Nathan Lycan",
+          "conf": 0.9607703983783722,
+          "bbox": [
+            22,
+            736,
+            535,
+            761
+          ],
+          "words": [
+            {
+              "text": "nextgen_billing_rosco_tag",
+              "conf": 0.9528142809867859,
+              "bbox": [
+                22,
+                745,
+                175,
+                761
+              ]
+            },
+            {
+              "text": "Oscar Medical Group  Nathan Lycan",
+              "conf": 0.9687265157699585,
+              "bbox": [
+                321,
+                736,
+                535,
+                754
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

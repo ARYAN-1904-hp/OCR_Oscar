@@ -1,0 +1,20 @@
+services:
+
+  handler-checker:
+
+    build: .
+
+    container_name: handler_checker
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./handler_checker/storage:/app/handler_checker/storage
+      - ./handler_checker/logs:/app/handler_checker/logs
+      - ./handler_checker/metadata:/app/handler_checker/metadata
+      - ./handler_checker/queue:/app/handler_checker/queue
+
+    restart: unless-stopped
+
+    command: python handler_checker/main.py

@@ -1,0 +1,91 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==============================
+# Virtual Environment
+# ==============================
+
+.venv/
+venv/
+env/
+
+# ==============================
+# Environment
+# ==============================
+
+.env
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# ==============================
+# Cursor
+# ==============================
+
+.cursor/
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# OS Files
+# ==============================
+
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+
+# ==============================
+# Build
+# ==============================
+
+build/
+dist/
+
+# ==============================
+# Python Cache
+# ==============================
+
+.pytest_cache/
+
+# ==============================
+# Jupyter
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# Local OCR Outputs (Optional)
+# ==============================
+
+handler_checker/storage/outputs/*
+handler_checker/storage/originals/*
+!handler_checker/storage/outputs/.gitkeep
+!handler_checker/storage/originals/.gitkeep
+
+# Runtime handler state (regenerated locally)
+handler_checker/metadata/metadata.json
+handler_checker/queue/queue.json
+
+# Test / temp OCR leftovers
+tests/output_test/
+ocr_output/

@@ -1,0 +1,252 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x844 | blocks=15 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x8
+HEADER | Cortex-Claim#7ATXE61J | Latest version(4 of4) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About this claim Payment Patient | Providers Medical Claimlines | - | - | 17hours ago | Readjudicate | Actions | 4
+  CELL[1,0] = About this claim Payment Patient
+  CELL[1,1] = Providers Medical Claimlines
+  CELL[1,4] = 17hours ago
+  CELL[1,5] = Readjudicate
+  CELL[1,6] = Actions
+  CELL[1,7] = 4
+ROW 2 | 7ATXE61J | About this claim | - | - | - | - | - | -
+  CELL[2,0] = 7ATXE61J
+  CELL[2,1] = About this claim
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 10x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Member | Stephanie Rodgers | - | -
+  CELL[1,0] = Member
+  CELL[1,1] = Stephanie Rodgers
+ROW 2 | O Notes | - | - | -
+  CELL[2,0] = O Notes
+ROW 3 | Is Medicaid | Yes | - | -
+  CELL[3,0] = Is Medicaid
+  CELL[3,1] = Yes
+ROW 4 | Billed $151.09 (100%) reclamation? | - | - | -
+  CELL[4,0] = Billed $151.09 (100%) reclamation?
+ROW 5 | Allowed | $0.00(0%) | - | -
+  CELL[5,0] = Allowed
+  CELL[5,1] = $0.00(0%)
+ROW 6 | Pay provider $0.00 Submission information | - | - | -
+  CELL[6,0] = Pay provider $0.00 Submission information
+ROW 7 | Pay member | $0.00 | - | -
+  CELL[7,0] = Pay member
+  CELL[7,1] = $0.00
+ROW 8 | 7/19/2026 | - | - | -
+  CELL[8,0] = 7/19/2026
+ROW 9 | 2026072325534s cortex.prod.hioscor.covn.ci Gk Cortex: Clcim Ope Rotions Teom Experience | - | - | -
+  CELL[9,0] = 2026072325534s cortex.prod.hioscor.covn.ci Gk Cortex: Clcim Ope Rotions Teom Experience
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[84,35,1462,56] | order=0
+  Cortex-Claim#7ATXE61J Latest version(4 of4) Dashboard Batch History Testing Settlements Search Create
+BLOCK 1 | type=table | bbox=[42,93,1431,114] | order=1
+  About this claim Payment Patient Providers Medical Claimlines 17hours ago Readjudicate Actions 4
+BLOCK 2 | type=paragraph | bbox=[42,161,560,185] | order=2
+  7ATXE61J About this claim
+BLOCK 3 | type=label_value | bbox=[41,192,236,210] | order=3
+  Member: Stephanie Rodgers
+BLOCK 4 | type=paragraph | bbox=[43,216,120,231] | order=4
+  O Notes
+BLOCK 5 | type=table | bbox=[40,228,1412,494] | order=5
+  See all member's claims Service start date 05/01/2025 Received date 07/20/2026
+  Service end date 05/01/2025 Claim type HCFA-Professional
+  Claim state: Blocked Provider's claim # 651AAFP4MA Billing type 1
+  Staytype Outpatient Place of service 81
+  Blockers (1) NEWBORN Diagnosis related group Transmission ID 76414914588
+  Manage Payer controlnumber - Nucleus ID
+  Denials(1) Authorization required? Yes(OSCAR) Goal PROCESS_CLAIM
+  no_contract_found Manage Is transplant? Skip ER downcoding Skip emergency department visit level downcoding forthis claim
+BLOCK 6 | type=heading | bbox=[368,479,587,502] | order=6
+  International Provider No
+BLOCK 7 | type=heading | bbox=[368,513,589,531] | order=7
+  Is Medicaid Yes
+BLOCK 8 | type=table | bbox=[41,529,461,553] | order=8
+  Billed $151.09 (100%) reclamation?
+BLOCK 9 | type=paragraph | bbox=[42,556,291,579] | order=9
+  Allowed $0.00(0%)
+BLOCK 10 | type=table | bbox=[41,590,558,616] | order=10
+  Pay provider $0.00 Submission information
+BLOCK 11 | type=paragraph | bbox=[42,621,289,638] | order=11
+  Pay member $0.00
+BLOCK 12 | type=table | bbox=[35,640,1186,755] | order=12
+  Memberresponsibility $151.09 Submission type Electronic Vendor source AVAILITY
+  EDIfle Download Documents View
+  Claim lineage Tenant oscar
+  7ATXE61J Blocked Valetf1D: 8010cb7b-143c-4963-a291-489825a507d2
+BLOCK 13 | type=table | bbox=[54,758,116,773] | order=13
+  7/19/2026
+BLOCK 14 | type=footer | bbox=[18,813,832,832] | order=14
+  2026072325534s cortex.prod.hioscor.covn.ci Gk Cortex: Clcim Ope Rotions Teom Experience
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[18,192,832,832] | shape=10x4 | conf=0.920
+  shape: 10x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Member | Stephanie Rodgers | - | -
+    CELL[1,0] = Member
+    CELL[1,1] = Stephanie Rodgers
+  ROW 2 | O Notes | - | - | -
+    CELL[2,0] = O Notes
+  ROW 3 | Is Medicaid | Yes | - | -
+    CELL[3,0] = Is Medicaid
+    CELL[3,1] = Yes
+  ROW 4 | Billed $151.09 (100%) reclamation? | - | - | -
+    CELL[4,0] = Billed $151.09 (100%) reclamation?
+  ROW 5 | Allowed | $0.00(0%) | - | -
+    CELL[5,0] = Allowed
+    CELL[5,1] = $0.00(0%)
+  ROW 6 | Pay provider $0.00 Submission information | - | - | -
+    CELL[6,0] = Pay provider $0.00 Submission information
+  ROW 7 | Pay member | $0.00 | - | -
+    CELL[7,0] = Pay member
+    CELL[7,1] = $0.00
+  ROW 8 | 7/19/2026 | - | - | -
+    CELL[8,0] = 7/19/2026
+  ROW 9 | 2026072325534s cortex.prod.hioscor.covn.ci Gk Cortex: Clcim Ope Rotions Teom Experience | - | - | -
+    CELL[9,0] = 2026072325534s cortex.prod.hioscor.covn.ci Gk Cortex: Clcim Ope Rotions Teom Experience
+TABLE 1 | source=wide_grid | bbox=[42,35,1462,185] | shape=3x8 | conf=0.850
+  shape: 3x8
+  HEADER | Cortex-Claim#7ATXE61J | Latest version(4 of4) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About this claim Payment Patient | Providers Medical Claimlines | - | - | 17hours ago | Readjudicate | Actions | 4
+    CELL[1,0] = About this claim Payment Patient
+    CELL[1,1] = Providers Medical Claimlines
+    CELL[1,4] = 17hours ago
+    CELL[1,5] = Readjudicate
+    CELL[1,6] = Actions
+    CELL[1,7] = 4
+  ROW 2 | 7ATXE61J | About this claim | - | - | - | - | - | -
+    CELL[2,0] = 7ATXE61J
+    CELL[2,1] = About this claim
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[84,35,1462,56] | conf=0.981 | text=Cortex-Claim#7ATXE61J Latest version(4 of4) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[84,35,312,56] | text=Cortex-Claim#7ATXE61J
+  WORD | bbox=[333,35,484,54] | text=Latest version(4 of4)
+  WORD | bbox=[914,38,990,54] | text=Dashboard
+  WORD | bbox=[1018,36,1113,55] | text=Batch History
+  WORD | bbox=[1141,38,1194,55] | text=Testing
+  WORD | bbox=[1222,38,1308,54] | text=Settlements
+  WORD | bbox=[1336,37,1386,54] | text=Search
+  WORD | bbox=[1413,37,1462,54] | text=Create
+LINE 1 | bbox=[42,93,1431,114] | conf=0.971 | text=About this claim Payment Patient Providers Medical Claimlines 17hours ago Readjudicate Actions 4
+  WORD | bbox=[42,96,156,111] | text=About this claim
+  WORD | bbox=[181,94,248,114] | text=Payment
+  WORD | bbox=[274,96,328,113] | text=Patient
+  WORD | bbox=[355,96,423,113] | text=Providers
+  WORD | bbox=[450,96,506,113] | text=Medical
+  WORD | bbox=[533,93,612,113] | text=Claimlines
+  WORD | bbox=[1093,95,1169,113] | text=17hours ago
+  WORD | bbox=[1200,96,1293,113] | text=Readjudicate
+  WORD | bbox=[1357,97,1418,113] | text=Actions
+  WORD | bbox=[1420,99,1431,109] | text=4
+LINE 2 | bbox=[42,161,560,185] | conf=0.969 | text=7ATXE61J About this claim
+  WORD | bbox=[42,161,157,185] | text=7ATXE61J
+  WORD | bbox=[371,163,560,183] | text=About this claim
+LINE 3 | bbox=[41,192,236,210] | conf=0.945 | text=Member: Stephanie Rodgers
+LINE 4 | bbox=[43,216,120,231] | conf=0.893 | text=O Notes
+LINE 5 | bbox=[43,228,1204,254] | conf=0.978 | text=See all member's claims Service start date 05/01/2025 Received date 07/20/2026
+  WORD | bbox=[43,239,207,254] | text=See all member's claims
+  WORD | bbox=[369,228,493,247] | text=Service start date
+  WORD | bbox=[562,229,642,246] | text=05/01/2025
+  WORD | bbox=[929,229,1028,246] | text=Received date
+  WORD | bbox=[1123,229,1204,246] | text=07/20/2026
+LINE 6 | bbox=[369,257,1264,282] | conf=0.969 | text=Service end date 05/01/2025 Claim type HCFA-Professional
+  WORD | bbox=[369,260,484,278] | text=Service end date
+  WORD | bbox=[562,260,643,277] | text=05/01/2025
+  WORD | bbox=[928,257,1007,282] | text=Claim type
+  WORD | bbox=[1121,261,1264,277] | text=HCFA-Professional
+LINE 7 | bbox=[41,290,1166,324] | conf=0.960 | text=Claim state: Blocked Provider's claim # 651AAFP4MA Billing type 1
+  WORD | bbox=[41,304,126,324] | text=Claim state:
+  WORD | bbox=[225,306,284,322] | text=Blocked
+  WORD | bbox=[369,293,492,308] | text=Provider's claim #
+  WORD | bbox=[562,293,654,308] | text=651AAFP4MA
+  WORD | bbox=[928,290,1010,313] | text=Billing type
+  WORD | bbox=[1120,290,1166,311] | text=1
+LINE 8 | bbox=[367,318,1162,344] | conf=0.976 | text=Staytype Outpatient Place of service 81
+  WORD | bbox=[367,321,437,344] | text=Staytype
+  WORD | bbox=[562,322,640,339] | text=Outpatient
+  WORD | bbox=[929,324,1037,340] | text=Place of service
+  WORD | bbox=[1119,318,1162,343] | text=81
+LINE 9 | bbox=[42,345,1209,384] | conf=0.977 | text=Blockers (1) NEWBORN Diagnosis related group Transmission ID 76414914588
+  WORD | bbox=[42,345,121,362] | text=Blockers (1)
+  WORD | bbox=[42,368,144,384] | text=NEWBORN
+  WORD | bbox=[369,355,534,374] | text=Diagnosis related group
+  WORD | bbox=[930,355,1039,370] | text=Transmission ID
+  WORD | bbox=[1123,355,1209,372] | text=76414914588
+LINE 10 | bbox=[41,387,1137,410] | conf=0.848 | text=Manage Payer controlnumber - Nucleus ID
+  WORD | bbox=[41,388,100,410] | text=Manage
+  WORD | bbox=[370,388,517,404] | text=Payer controlnumber
+  WORD | bbox=[929,387,1004,404] | text=Nucleus ID
+LINE 11 | bbox=[42,416,1245,445] | conf=0.959 | text=Denials(1) Authorization required? Yes(OSCAR) Goal PROCESS_CLAIM
+  WORD | bbox=[42,429,114,445] | text=Denials(1)
+  WORD | bbox=[369,420,533,435] | text=Authorization required?
+  WORD | bbox=[561,418,649,435] | text=Yes(OSCAR)
+  WORD | bbox=[929,418,966,436] | text=Goal
+  WORD | bbox=[1121,416,1245,435] | text=PROCESS_CLAIM
+LINE 12 | bbox=[40,448,1412,494] | conf=0.975 | text=no_contract_found Manage Is transplant? Skip ER downcoding Skip emergency department visit level downcoding forthis claim
+  WORD | bbox=[40,448,199,494] | text=no_contract_found Manage
+  WORD | bbox=[369,451,466,466] | text=Is transplant?
+  WORD | bbox=[929,450,1070,468] | text=Skip ER downcoding
+  WORD | bbox=[1148,450,1412,469] | text=Skip emergency department visit level
+  WORD | bbox=[1152,474,1327,489] | text=downcoding forthis claim
+LINE 13 | bbox=[368,479,587,502] | conf=0.964 | text=International Provider No
+  WORD | bbox=[368,481,522,499] | text=International Provider
+  WORD | bbox=[557,479,587,502] | text=No
+LINE 14 | bbox=[368,513,589,531] | conf=0.982 | text=Is Medicaid Yes
+  WORD | bbox=[368,513,450,530] | text=Is Medicaid
+  WORD | bbox=[560,513,589,531] | text=Yes
+LINE 15 | bbox=[41,529,461,553] | conf=0.953 | text=Billed $151.09 (100%) reclamation?
+  WORD | bbox=[41,530,83,547] | text=Billed
+  WORD | bbox=[199,529,290,547] | text=$151.09 (100%)
+  WORD | bbox=[369,536,461,553] | text=reclamation?
+LINE 16 | bbox=[42,556,291,579] | conf=0.966 | text=Allowed $0.00(0%)
+  WORD | bbox=[42,560,98,577] | text=Allowed
+  WORD | bbox=[220,556,291,579] | text=$0.00(0%)
+LINE 17 | bbox=[41,590,558,616] | conf=0.985 | text=Pay provider $0.00 Submission information
+  WORD | bbox=[41,590,129,610] | text=Pay provider
+  WORD | bbox=[248,590,289,608] | text=$0.00
+  WORD | bbox=[369,596,558,616] | text=Submission information
+LINE 18 | bbox=[42,621,289,638] | conf=0.984 | text=Pay member $0.00
+  WORD | bbox=[42,621,128,638] | text=Pay member
+  WORD | bbox=[248,621,289,638] | text=$0.00
+LINE 19 | bbox=[39,640,1186,670] | conf=0.988 | text=Memberresponsibility $151.09 Submission type Electronic Vendor source AVAILITY
+  WORD | bbox=[39,653,196,669] | text=Memberresponsibility
+  WORD | bbox=[237,650,291,670] | text=$151.09
+  WORD | bbox=[368,643,484,661] | text=Submission type
+  WORD | bbox=[561,640,634,661] | text=Electronic
+  WORD | bbox=[929,644,1029,661] | text=Vendor source
+  WORD | bbox=[1123,643,1186,659] | text=AVAILITY
+LINE 20 | bbox=[368,670,1159,693] | conf=0.981 | text=EDIfle Download Documents View
+  WORD | bbox=[368,670,422,693] | text=EDIfle
+  WORD | bbox=[564,675,634,691] | text=Download
+  WORD | bbox=[929,675,1011,692] | text=Documents
+  WORD | bbox=[1123,674,1159,692] | text=View
+LINE 21 | bbox=[41,704,604,728] | conf=0.990 | text=Claim lineage Tenant oscar
+  WORD | bbox=[41,704,135,728] | text=Claim lineage
+  WORD | bbox=[368,706,420,723] | text=Tenant
+  WORD | bbox=[561,707,604,724] | text=oscar
+LINE 22 | bbox=[35,735,687,755] | conf=0.958 | text=7ATXE61J Blocked Valetf1D: 8010cb7b-143c-4963-a291-489825a507d2
+  WORD | bbox=[35,735,121,752] | text=7ATXE61J
+  WORD | bbox=[226,737,284,754] | text=Blocked
+  WORD | bbox=[370,743,687,755] | text=Valetf1D: 8010cb7b-143c-4963-a291-489825a507d2
+LINE 23 | bbox=[54,758,116,773] | conf=0.994 | text=7/19/2026
+LINE 24 | bbox=[18,813,832,832] | conf=0.904 | text=2026072325534s cortex.prod.hioscor.covn.ci Gk Cortex: Clcim Ope Rotions Teom Experience
+  WORD | bbox=[18,815,207,831] | text=2026072325534s
+  WORD | bbox=[223,813,476,832] | text=cortex.prod.hioscor.covn.ci Gk
+  WORD | bbox=[507,814,832,832] | text=Cortex: Clcim Ope Rotions Teom Experience
+[/BOXES]

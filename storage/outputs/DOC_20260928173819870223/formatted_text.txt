@@ -1,0 +1,470 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=8 | tables=4 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 13x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Yisroel Dubov | Memberinfo Issues Policy detalls Benefits Claims Billing & payments Rewards | Authorizations | -
+  CELL[2,0] = Yisroel Dubov
+  CELL[2,1] = Memberinfo Issues Policy detalls Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Active | - | - | -
+  CELL[3,0] = Active
+ROW 4 | OSC78747909-01 - R213XB6D : | - | - | -
+  CELL[4,0] = OSC78747909-01 - R213XB6D :
+ROW 5 | Holder - ON exc | Member info | Actions | -
+  CELL[5,0] = Holder - ON exc
+  CELL[5,1] = Member info
+  CELL[5,2] = Actions
+ROW 6 | FLO3FLTeam | - | - | -
+  CELL[6,0] = FLO3FLTeam
+ROW 7 | Oscarplan | SSN 135-064790 Contact | Edit | Health info
+  CELL[7,0] = Oscarplan
+  CELL[7,1] = SSN 135-064790 Contact
+  CELL[7,2] = Edit
+  CELL[7,3] = Health info
+ROW 8 | Jeffin Alex | - | - | -
+  CELL[8,0] = Jeffin Alex
+ROW 9 | SMS phone | - | (954) 955-1309 | -
+  CELL[9,0] = SMS phone
+  CELL[9,2] = (954) 955-1309
+ROW 10 | Effective 01/01/2026 Personalized info | Edit Last edited by sync_to_nextgen on 11/02/2022 | - | -
+  CELL[10,0] = Effective 01/01/2026 Personalized info
+  CELL[10,1] = Edit Last edited by sync_to_nextgen on 11/02/2022
+ROW 11 | - | - | Consent and authorizations | Send HIPAA form
+  CELL[11,2] = Consent and authorizations
+  CELL[11,3] = Send HIPAA form
+ROW 12 | nextgen_billing_rosco_tag | - | - | -
+  CELL[12,0] = nextgen_billing_rosco_tag
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 7x7
+HEADER | Heads up note | Basic info | Edit | Assigned PCP | Manage PCP | Web account | Edit
+ROW 1 | - | Legal first | Yisroel | PCP | Jeffin Alex | Email | yisroeldubov@gmail.com
+  CELL[1,1] = Legal first
+  CELL[1,2] = Yisroel
+  CELL[1,3] = PCP
+  CELL[1,4] = Jeffin Alex
+  CELL[1,5] = Email
+  CELL[1,6] = yisroeldubov@gmail.com
+ROW 2 | - | Legal middle | - | NP1 | 1124449244 | Last login | 04/07/2026
+  CELL[2,1] = Legal middle
+  CELL[2,3] = NP1
+  CELL[2,4] = 1124449244
+  CELL[2,5] = Last login
+  CELL[2,6] = 04/07/2026
+ROW 3 | Member actlons | Legal last | Dubov | TIN | 814293897 | Web profile language | English
+  CELL[3,0] = Member actlons
+  CELL[3,1] = Legal last
+  CELL[3,2] = Dubov
+  CELL[3,3] = TIN
+  CELL[3,4] = 814293897
+  CELL[3,5] = Web profile language
+  CELL[3,6] = English
+ROW 4 | - | Suffix | - | Last updated by | Member selection on 01/05/2024 | Web profile phone | 954-955-1309
+  CELL[4,1] = Suffix
+  CELL[4,3] = Last updated by
+  CELL[4,4] = Member selection on 01/05/2024
+  CELL[4,5] = Web profile phone
+  CELL[4,6] = 954-955-1309
+ROW 5 | FLBroward | Date of birth | 02/06/1999 | Booking | Schedule an appolntment | Mobile app | Android
+  CELL[5,0] = FLBroward
+  CELL[5,1] = Date of birth
+  CELL[5,2] = 02/06/1999
+  CELL[5,3] = Booking
+  CELL[5,4] = Schedule an appolntment
+  CELL[5,5] = Mobile app
+  CELL[5,6] = Android
+ROW 6 | - | Age | 27 | - | - | - | -
+  CELL[6,1] = Age
+  CELL[6,2] = 27
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 3x6
+HEADER | Silver Simple PCP Saver CSR 150 | Legal sex | Male | (954) 955-1309 Last edited by sync_to_nextgen on 11/02/2022 Primary phone | Virtual Urgent Care set up? | No
+ROW 1 | FL HMO Standard | Spoken language | English | - | Patient intake | Expired 05/07/2026
+  CELL[1,0] = FL HMO Standard
+  CELL[1,1] = Spoken language
+  CELL[1,2] = English
+  CELL[1,4] = Patient intake
+  CELL[1,5] = Expired 05/07/2026
+ROW 2 | View ID card | Written language | English Alternate phone | From enrollment data Missing number | Health survey | Missing
+  CELL[2,0] = View ID card
+  CELL[2,1] = Written language
+  CELL[2,2] = English Alternate phone
+  CELL[2,3] = From enrollment data Missing number
+  CELL[2,4] = Health survey
+  CELL[2,5] = Missing
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 7x7
+HEADER | 8 Individual | Preferred first name | Yisroel | Primary emall | yisroeldubov@gmail.com | RHIO access | No choice
+ROW 1 | $Current Balance due | Preferred last name | Dubov | - | - | Emall communications | Authorized
+  CELL[1,0] = $Current Balance due
+  CELL[1,1] = Preferred last name
+  CELL[1,2] = Dubov
+  CELL[1,5] = Emall communications
+  CELL[1,6] = Authorized
+ROW 2 | - | Gender assigned at birth | - | Residential address | Edit | SMS communicatlons | Denied
+  CELL[2,1] = Gender assigned at birth
+  CELL[2,3] = Residential address
+  CELL[2,4] = Edit
+  CELL[2,5] = SMS communicatlons
+  CELL[2,6] = Denied
+ROW 3 | Oscar Unlocks Not activated | Gender identity | - | Address | 1534 Van Buren St Apt 301B | - | -
+  CELL[3,0] = Oscar Unlocks Not activated
+  CELL[3,1] = Gender identity
+  CELL[3,3] = Address
+  CELL[3,4] = 1534 Van Buren St Apt 301B
+ROW 4 | - | Pronouns | - | City | Hollywood | - | -
+  CELL[4,1] = Pronouns
+  CELL[4,3] = City
+  CELL[4,4] = Hollywood
+ROW 5 | Member tags | Sexual orientation | - | State | FL | - | -
+  CELL[5,0] = Member tags
+  CELL[5,1] = Sexual orientation
+  CELL[5,3] = State
+  CELL[5,4] = FL
+ROW 6 | - | Race/Ethnicity | - | Zipcode | 33020 | - | -
+  CELL[6,1] = Race/Ethnicity
+  CELL[6,3] = Zipcode
+  CELL[6,4] = 33020
+[/TABLE 3]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,102] | order=0
+  rosco Q Search Rosco MR Melissa
+  Yisroel Dubov Memberinfo Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 1 | type=table_row | bbox=[22,115,64,132] | order=1
+  Active
+BLOCK 2 | type=table_row | bbox=[19,140,182,157] | order=2
+  OSC78747909-01 - R213XB6D:
+BLOCK 3 | type=table | bbox=[16,159,1276,514] | order=3
+  Holder - ON exc Member info Actions
+  Heads up note Basic info Edit Assigned PCP Manage PCP Web account Edit
+  Legal first Yisroel PCP Jeffin Alex Email yisroeldubov@gmail.com
+  Legal middle NP1 1124449244 Last login 04/07/2026
+  Member actlons Legal last Dubov TIN 814293897 Web profile language English
+  Suffix Last updated by Member selection on 01/05/2024 Web profile phone 954-955-1309
+  FLBroward Date of birth 02/06/1999 Booking Schedule an appolntment Mobile app Android
+  FLO3FLTeam Age 27
+  Oscarplan: SSN Legal sex 135-064790 Male Contact Edit Health info
+  FL HMO Standard Silver Simple PCP Saver CSR 150 Spoken language English (954) 955-1309 Last edited by sync_to_nextgen on 11/02/2022 Primary phone Virtual Urgent Care set up? Patient intake Expired 05/07/2026 No
+  View ID card Written language English Alternate phone From enrollment data Missing number Health survey Missing
+BLOCK 4 | type=table_row | bbox=[18,508,102,526] | order=4
+  Jeffin Alex
+BLOCK 5 | type=table | bbox=[626,523,926,541] | order=5
+  SMS phone (954) 955-1309
+BLOCK 6 | type=table | bbox=[16,536,1275,702] | order=6
+  Effective 01/01/2026 Personalized info Edit Last edited by sync_to_nextgen on 11/02/2022 Consent and authorizations Send HIPAA form
+  8 Individual Preferred first name Yisroel Primary emall yisroeldubov@gmail.com RHIO access No choice
+  $Current Balance due Preferred last name Dubov Emall communications Authorized
+  Gender assigned at birth Residential address Edit SMS communicatlons Denied
+  Oscar Unlocks Not activated Gender identity Address 1534 Van Buren St Apt 301B
+  Pronouns City Hollywood
+BLOCK 7 | type=footer | bbox=[16,706,929,761] | order=7
+  Member tags Sexual orientation State FL
+  nextgen_billing_rosco_tag Race/Ethnicity Zipcode 33020
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,17,1580,761] | shape=13x4 | conf=0.920
+  shape: 13x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Yisroel Dubov | Memberinfo Issues Policy detalls Benefits Claims Billing & payments Rewards | Authorizations | -
+    CELL[2,0] = Yisroel Dubov
+    CELL[2,1] = Memberinfo Issues Policy detalls Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Active | - | - | -
+    CELL[3,0] = Active
+  ROW 4 | OSC78747909-01 - R213XB6D : | - | - | -
+    CELL[4,0] = OSC78747909-01 - R213XB6D :
+  ROW 5 | Holder - ON exc | Member info | Actions | -
+    CELL[5,0] = Holder - ON exc
+    CELL[5,1] = Member info
+    CELL[5,2] = Actions
+  ROW 6 | FLO3FLTeam | - | - | -
+    CELL[6,0] = FLO3FLTeam
+  ROW 7 | Oscarplan | SSN 135-064790 Contact | Edit | Health info
+    CELL[7,0] = Oscarplan
+    CELL[7,1] = SSN 135-064790 Contact
+    CELL[7,2] = Edit
+    CELL[7,3] = Health info
+  ROW 8 | Jeffin Alex | - | - | -
+    CELL[8,0] = Jeffin Alex
+  ROW 9 | SMS phone | - | (954) 955-1309 | -
+    CELL[9,0] = SMS phone
+    CELL[9,2] = (954) 955-1309
+  ROW 10 | Effective 01/01/2026 Personalized info | Edit Last edited by sync_to_nextgen on 11/02/2022 | - | -
+    CELL[10,0] = Effective 01/01/2026 Personalized info
+    CELL[10,1] = Edit Last edited by sync_to_nextgen on 11/02/2022
+  ROW 11 | - | - | Consent and authorizations | Send HIPAA form
+    CELL[11,2] = Consent and authorizations
+    CELL[11,3] = Send HIPAA form
+  ROW 12 | nextgen_billing_rosco_tag | - | - | -
+    CELL[12,0] = nextgen_billing_rosco_tag
+TABLE 1 | source=wide_grid | bbox=[19,209,1276,397] | shape=7x7 | conf=0.850
+  shape: 7x7
+  HEADER | Heads up note | Basic info | Edit | Assigned PCP | Manage PCP | Web account | Edit
+  ROW 1 | - | Legal first | Yisroel | PCP | Jeffin Alex | Email | yisroeldubov@gmail.com
+    CELL[1,1] = Legal first
+    CELL[1,2] = Yisroel
+    CELL[1,3] = PCP
+    CELL[1,4] = Jeffin Alex
+    CELL[1,5] = Email
+    CELL[1,6] = yisroeldubov@gmail.com
+  ROW 2 | - | Legal middle | - | NP1 | 1124449244 | Last login | 04/07/2026
+    CELL[2,1] = Legal middle
+    CELL[2,3] = NP1
+    CELL[2,4] = 1124449244
+    CELL[2,5] = Last login
+    CELL[2,6] = 04/07/2026
+  ROW 3 | Member actlons | Legal last | Dubov | TIN | 814293897 | Web profile language | English
+    CELL[3,0] = Member actlons
+    CELL[3,1] = Legal last
+    CELL[3,2] = Dubov
+    CELL[3,3] = TIN
+    CELL[3,4] = 814293897
+    CELL[3,5] = Web profile language
+    CELL[3,6] = English
+  ROW 4 | - | Suffix | - | Last updated by | Member selection on 01/05/2024 | Web profile phone | 954-955-1309
+    CELL[4,1] = Suffix
+    CELL[4,3] = Last updated by
+    CELL[4,4] = Member selection on 01/05/2024
+    CELL[4,5] = Web profile phone
+    CELL[4,6] = 954-955-1309
+  ROW 5 | FLBroward | Date of birth | 02/06/1999 | Booking | Schedule an appolntment | Mobile app | Android
+    CELL[5,0] = FLBroward
+    CELL[5,1] = Date of birth
+    CELL[5,2] = 02/06/1999
+    CELL[5,3] = Booking
+    CELL[5,4] = Schedule an appolntment
+    CELL[5,5] = Mobile app
+    CELL[5,6] = Android
+  ROW 6 | - | Age | 27 | - | - | - | -
+    CELL[6,1] = Age
+    CELL[6,2] = 27
+TABLE 2 | source=wide_grid | bbox=[39,428,1269,514] | shape=3x6 | conf=0.850
+  shape: 3x6
+  HEADER | Silver Simple PCP Saver CSR 150 | Legal sex | Male | (954) 955-1309 Last edited by sync_to_nextgen on 11/02/2022 Primary phone | Virtual Urgent Care set up? | No
+  ROW 1 | FL HMO Standard | Spoken language | English | - | Patient intake | Expired 05/07/2026
+    CELL[1,0] = FL HMO Standard
+    CELL[1,1] = Spoken language
+    CELL[1,2] = English
+    CELL[1,4] = Patient intake
+    CELL[1,5] = Expired 05/07/2026
+  ROW 2 | View ID card | Written language | English Alternate phone | From enrollment data Missing number | Health survey | Missing
+    CELL[2,0] = View ID card
+    CELL[2,1] = Written language
+    CELL[2,2] = English Alternate phone
+    CELL[2,3] = From enrollment data Missing number
+    CELL[2,4] = Health survey
+    CELL[2,5] = Missing
+TABLE 3 | source=wide_grid | bbox=[16,568,1269,754] | shape=7x7 | conf=0.850
+  shape: 7x7
+  HEADER | 8 Individual | Preferred first name | Yisroel | Primary emall | yisroeldubov@gmail.com | RHIO access | No choice
+  ROW 1 | $Current Balance due | Preferred last name | Dubov | - | - | Emall communications | Authorized
+    CELL[1,0] = $Current Balance due
+    CELL[1,1] = Preferred last name
+    CELL[1,2] = Dubov
+    CELL[1,5] = Emall communications
+    CELL[1,6] = Authorized
+  ROW 2 | - | Gender assigned at birth | - | Residential address | Edit | SMS communicatlons | Denied
+    CELL[2,1] = Gender assigned at birth
+    CELL[2,3] = Residential address
+    CELL[2,4] = Edit
+    CELL[2,5] = SMS communicatlons
+    CELL[2,6] = Denied
+  ROW 3 | Oscar Unlocks Not activated | Gender identity | - | Address | 1534 Van Buren St Apt 301B | - | -
+    CELL[3,0] = Oscar Unlocks Not activated
+    CELL[3,1] = Gender identity
+    CELL[3,3] = Address
+    CELL[3,4] = 1534 Van Buren St Apt 301B
+  ROW 4 | - | Pronouns | - | City | Hollywood | - | -
+    CELL[4,1] = Pronouns
+    CELL[4,3] = City
+    CELL[4,4] = Hollywood
+  ROW 5 | Member tags | Sexual orientation | - | State | FL | - | -
+    CELL[5,0] = Member tags
+    CELL[5,1] = Sexual orientation
+    CELL[5,3] = State
+    CELL[5,4] = FL
+  ROW 6 | - | Race/Ethnicity | - | Zipcode | 33020 | - | -
+    CELL[6,1] = Race/Ethnicity
+    CELL[6,3] = Zipcode
+    CELL[6,4] = 33020
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.918 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[112,17,134,33] | text=Q
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,73,919,102] | conf=0.980 | text=Yisroel Dubov Memberinfo Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,152,102] | text=Yisroel Dubov
+  WORD | bbox=[278,75,350,88] | text=Memberinfo
+  WORD | bbox=[365,74,405,88] | text=Issues
+  WORD | bbox=[421,73,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[642,75,748,88] | text=Billing & payments
+  WORD | bbox=[762,73,818,89] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[22,115,64,132] | conf=0.986 | text=Active
+LINE 3 | bbox=[19,140,182,157] | conf=0.968 | text=OSC78747909-01 - R213XB6D:
+LINE 4 | bbox=[18,159,1250,185] | conf=0.956 | text=Holder - ON exc Member info Actions
+  WORD | bbox=[18,159,108,176] | text=Holder - ON exc
+  WORD | bbox=[279,168,384,185] | text=Member info
+  WORD | bbox=[1189,159,1250,176] | text=Actions
+LINE 5 | bbox=[29,209,1276,236] | conf=0.986 | text=Heads up note Basic info Edit Assigned PCP Manage PCP Web account Edit
+  WORD | bbox=[29,209,115,229] | text=Heads up note
+  WORD | bbox=[278,216,336,233] | text=Basic info
+  WORD | bbox=[568,218,595,233] | text=Edit
+  WORD | bbox=[618,216,699,233] | text=Assigned PCP
+  WORD | bbox=[859,216,934,233] | text=Manage PCP
+  WORD | bbox=[956,215,1036,234] | text=Web account
+  WORD | bbox=[1248,216,1276,236] | text=Edit
+LINE 6 | bbox=[285,239,1230,261] | conf=0.987 | text=Legal first Yisroel PCP Jeffin Alex Email yisroeldubov@gmail.com
+  WORD | bbox=[285,243,348,260] | text=Legal first
+  WORD | bbox=[542,240,588,261] | text=Yisroel
+  WORD | bbox=[624,242,655,260] | text=PCP
+  WORD | bbox=[863,239,928,260] | text=Jeffin Alex
+  WORD | bbox=[966,242,1002,260] | text=Email
+  WORD | bbox=[1091,246,1230,258] | text=yisroeldubov@gmail.com
+LINE 7 | bbox=[286,269,1268,289] | conf=0.958 | text=Legal middle NP1 1124449244 Last login 04/07/2026
+  WORD | bbox=[286,270,361,286] | text=Legal middle
+  WORD | bbox=[626,270,651,285] | text=NP1
+  WORD | bbox=[860,269,929,285] | text=1124449244
+  WORD | bbox=[966,271,1026,289] | text=Last login
+  WORD | bbox=[1198,271,1268,288] | text=04/07/2026
+LINE 8 | bbox=[71,294,1268,320] | conf=0.978 | text=Member actlons Legal last Dubov TIN 814293897 Web profile language English
+  WORD | bbox=[71,307,161,320] | text=Member actlons
+  WORD | bbox=[285,297,345,313] | text=Legal last
+  WORD | bbox=[546,294,589,315] | text=Dubov
+  WORD | bbox=[626,297,651,312] | text=TIN
+  WORD | bbox=[864,295,927,312] | text=814293897
+  WORD | bbox=[966,298,1088,314] | text=Web profile language
+  WORD | bbox=[1224,299,1268,313] | text=English
+LINE 9 | bbox=[285,321,1266,343] | conf=0.996 | text=Suffix Last updated by Member selection on 01/05/2024 Web profile phone 954-955-1309
+  WORD | bbox=[285,322,325,340] | text=Suffix
+  WORD | bbox=[624,321,721,340] | text=Last updated by
+  WORD | bbox=[741,325,926,337] | text=Member selection on 01/05/2024
+  WORD | bbox=[966,325,1071,341] | text=Web profile phone
+  WORD | bbox=[1169,322,1266,343] | text=954-955-1309
+LINE 10 | bbox=[19,346,1269,370] | conf=0.992 | text=FLBroward Date of birth 02/06/1999 Booking Schedule an appolntment Mobile app Android
+  WORD | bbox=[19,354,112,370] | text=FLBroward
+  WORD | bbox=[285,349,361,365] | text=Date of birth
+  WORD | bbox=[518,348,589,364] | text=02/06/1999
+  WORD | bbox=[623,346,677,368] | text=Booking
+  WORD | bbox=[780,349,926,365] | text=Schedule an appolntment
+  WORD | bbox=[966,347,1032,370] | text=Mobile app
+  WORD | bbox=[1218,348,1269,370] | text=Android
+LINE 11 | bbox=[16,373,590,406] | conf=0.993 | text=FLO3FLTeam Age 27
+  WORD | bbox=[16,384,125,406] | text=FLO3FLTeam
+  WORD | bbox=[283,373,313,397] | text=Age
+  WORD | bbox=[568,374,590,395] | text=27
+LINE 12 | bbox=[17,402,1024,447] | conf=0.992 | text=Oscarplan: SSN Legal sex 135-064790 Male Contact Edit Health info
+  WORD | bbox=[17,419,106,439] | text=Oscarplan:
+  WORD | bbox=[284,402,316,420] | text=SSN
+  WORD | bbox=[285,430,342,447] | text=Legal sex
+  WORD | bbox=[514,402,588,419] | text=135-064790
+  WORD | bbox=[556,428,590,447] | text=Male
+  WORD | bbox=[616,410,669,429] | text=Contact
+  WORD | bbox=[909,414,935,429] | text=Edit
+  WORD | bbox=[958,414,1024,430] | text=Health info
+LINE 13 | bbox=[39,437,1269,482] | conf=0.987 | text=FL HMO Standard Silver Simple PCP Saver CSR 150 Spoken language English (954) 955-1309 Last edited by sync_to_nextgen on 11/02/2022 Primary phone Virtual Urgent Care set up? Patient intake Expired 05/07/2026 No
+  WORD | bbox=[39,461,142,477] | text=FL HMO Standard
+  WORD | bbox=[41,443,219,456] | text=Silver Simple PCP Saver CSR 150
+  WORD | bbox=[285,454,385,474] | text=Spoken language
+  WORD | bbox=[541,456,589,474] | text=English
+  WORD | bbox=[625,437,926,472] | text=(954) 955-1309 Last edited by sync_to_nextgen on 11/02/2022
+  WORD | bbox=[626,438,711,454] | text=Primary phone
+  WORD | bbox=[966,439,1121,456] | text=Virtual Urgent Care set up?
+  WORD | bbox=[968,466,1050,482] | text=Patient intake
+  WORD | bbox=[1155,466,1268,482] | text=Expired 05/07/2026
+  WORD | bbox=[1248,440,1269,456] | text=No
+LINE 14 | bbox=[40,480,1268,514] | conf=0.974 | text=View ID card Written language English Alternate phone From enrollment data Missing number Health survey Missing
+  WORD | bbox=[40,480,114,496] | text=View ID card
+  WORD | bbox=[285,481,386,500] | text=Written language
+  WORD | bbox=[540,481,589,502] | text=English
+  WORD | bbox=[625,480,721,498] | text=Alternate phone
+  WORD | bbox=[626,502,731,514] | text=From enrollment data
+  WORD | bbox=[818,481,926,498] | text=Missing number
+  WORD | bbox=[966,490,1046,511] | text=Health survey
+  WORD | bbox=[1200,493,1268,510] | text=Missing
+LINE 15 | bbox=[18,508,102,526] | conf=0.944 | text=Jeffin Alex
+LINE 16 | bbox=[626,523,926,541] | conf=0.970 | text=SMS phone (954) 955-1309
+  WORD | bbox=[626,524,694,541] | text=SMS phone
+  WORD | bbox=[824,523,926,541] | text=(954) 955-1309
+LINE 17 | bbox=[16,536,1275,573] | conf=0.974 | text=Effective 01/01/2026 Personalized info Edit Last edited by sync_to_nextgen on 11/02/2022 Consent and authorizations Send HIPAA form
+  WORD | bbox=[16,536,158,560] | text=Effective 01/01/2026
+  WORD | bbox=[280,547,375,560] | text=Personalized info
+  WORD | bbox=[568,546,595,561] | text=Edit
+  WORD | bbox=[626,545,849,558] | text=Last edited by sync_to_nextgen on 11/02/2022
+  WORD | bbox=[959,554,1118,573] | text=Consent and authorizations
+  WORD | bbox=[1179,558,1275,570] | text=Send HIPAA form
+LINE 18 | bbox=[17,568,1269,599] | conf=0.985 | text=8 Individual Preferred first name Yisroel Primary emall yisroeldubov@gmail.com RHIO access No choice
+  WORD | bbox=[17,570,98,591] | text=8 Individual
+  WORD | bbox=[286,573,400,586] | text=Preferred first name
+  WORD | bbox=[543,569,589,589] | text=Yisroel
+  WORD | bbox=[626,568,706,584] | text=Primary emall
+  WORD | bbox=[786,570,925,583] | text=yisroeldubov@gmail.com
+  WORD | bbox=[966,579,1041,599] | text=RHIO access
+  WORD | bbox=[1209,580,1269,597] | text=No choice
+LINE 19 | bbox=[19,597,1269,625] | conf=0.976 | text=$Current Balance due Preferred last name Dubov Emall communications Authorized
+  WORD | bbox=[19,605,161,624] | text=$Current Balance due
+  WORD | bbox=[288,600,399,612] | text=Preferred last name
+  WORD | bbox=[546,597,589,615] | text=Dubov
+  WORD | bbox=[966,606,1098,625] | text=Emall communications
+  WORD | bbox=[1202,607,1269,624] | text=Authorized
+LINE 20 | bbox=[288,626,1268,651] | conf=0.980 | text=Gender assigned at birth Residential address Edit SMS communicatlons Denied
+  WORD | bbox=[288,626,426,639] | text=Gender assigned at birth
+  WORD | bbox=[618,630,731,647] | text=Residential address
+  WORD | bbox=[909,631,935,647] | text=Edit
+  WORD | bbox=[968,634,1091,651] | text=SMS communicatlons
+  WORD | bbox=[1225,635,1268,649] | text=Denied
+LINE 21 | bbox=[19,639,927,674] | conf=0.996 | text=Oscar Unlocks Not activated Gender identity Address 1534 Van Buren St Apt 301B
+  WORD | bbox=[19,639,122,674] | text=Oscar Unlocks Not activated
+  WORD | bbox=[286,652,376,668] | text=Gender identity
+  WORD | bbox=[623,653,677,674] | text=Address
+  WORD | bbox=[775,656,927,672] | text=1534 Van Buren St Apt 301B
+LINE 22 | bbox=[283,674,927,702] | conf=0.988 | text=Pronouns City Hollywood
+  WORD | bbox=[283,674,344,695] | text=Pronouns
+  WORD | bbox=[623,679,656,702] | text=City
+  WORD | bbox=[864,682,927,699] | text=Hollywood
+LINE 23 | bbox=[16,706,929,727] | conf=0.987 | text=Member tags Sexual orientation State FL
+  WORD | bbox=[16,706,96,727] | text=Member tags
+  WORD | bbox=[286,707,391,719] | text=Sexual orientation
+  WORD | bbox=[625,709,662,727] | text=State
+  WORD | bbox=[909,709,929,726] | text=FL
+LINE 24 | bbox=[22,728,927,761] | conf=0.988 | text=nextgen_billing_rosco_tag Race/Ethnicity Zipcode 33020
+  WORD | bbox=[22,745,175,761] | text=nextgen_billing_rosco_tag
+  WORD | bbox=[285,728,375,749] | text=Race/Ethnicity
+  WORD | bbox=[623,733,677,754] | text=Zipcode
+  WORD | bbox=[889,737,927,751] | text=33020
+[/BOXES]
+
+[FIELDS]
+Email: yisroeldubov@gmail.com
+Phone: 954-955-1309
+Phone: (954) 955-1309
+NPI: 1124449244
+[/FIELDS]

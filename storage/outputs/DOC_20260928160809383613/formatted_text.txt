@@ -1,0 +1,279 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=20 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 28x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy detalls Benefits Claims Rewards Authorizations | - | - | -
+  CELL[2,0] = Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+ROW 3 | Genesis Hernandez | - | - | -
+  CELL[3,0] = Genesis Hernandez
+ROW 4 | De Hoyo | - | - | -
+  CELL[4,0] = De Hoyo
+ROW 5 | Active | Claims & accumulators | - | -
+  CELL[5,0] = Active
+  CELL[5,1] = Claims & accumulators
+ROW 6 | Viewing information for Silver Simple PCP Saver CSR 150 (05/27/2026-12/31/2026) | - | - | -
+  CELL[6,0] = Viewing information for Silver Simple PCP Saver CSR 150 (05/27/2026-12/31/2026)
+ROW 7 | OSC75847221-02R220XDSX Spouse ON exc | - | - | -
+  CELL[7,0] = OSC75847221-02R220XDSX Spouse ON exc
+ROW 8 | Heads up note | Reduced price PCP visits are not supported by this plan. | - | -
+  CELL[8,0] = Heads up note
+  CELL[8,1] = Reduced price PCP visits are not supported by this plan.
+ROW 9 | Accumulators | - | View benefit limit accumulators | -
+  CELL[9,0] = Accumulators
+  CELL[9,2] = View benefit limit accumulators
+ROW 10 | Member actions | - | - | -
+  CELL[10,0] = Member actions
+ROW 11 | Individual deductible | Individual out-of-pocket-maximum | - | -
+  CELL[11,0] = Individual deductible
+  CELL[11,1] = Individual out-of-pocket-maximum
+ROW 12 | FLBroward | - | - | -
+  CELL[12,0] = FLBroward
+ROW 13 | $850.00spent outof$0.00 $3,100.00 spent out of $1,750.00 | - | - | -
+  CELL[13,0] = $850.00spent outof$0.00 $3,100.00 spent out of $1,750.00
+ROW 14 | SP02-FL Team | - | - | -
+  CELL[14,0] = SP02-FL Team
+ROW 15 | Deductible met | Met on 5/21/26 | - | -
+  CELL[15,0] = Deductible met
+  CELL[15,1] = Met on 5/21/26
+ROW 16 | Oscar plan: | - | - | -
+  CELL[16,0] = Oscar plan:
+ROW 17 | Silver Simple PCP Saver CSR 150 | - | - | -
+  CELL[17,0] = Silver Simple PCP Saver CSR 150
+ROW 18 | FL HMO Standard | - | - | -
+  CELL[18,0] = FL HMO Standard
+ROW 19 | View ID card | View family accumulators | - | -
+  CELL[19,0] = View ID card
+  CELL[19,1] = View family accumulators
+ROW 20 | VMaria Alejandra Dempaire | - | - | -
+  CELL[20,0] = VMaria Alejandra Dempaire
+ROW 21 | Effective 05/27/2026 | Claims | Export CSV | -
+  CELL[21,0] = Effective 05/27/2026
+  CELL[21,1] = Claims
+  CELL[21,2] = Export CSV
+ROW 22 | 8 Family | - | - | -
+  CELL[22,0] = 8 Family
+ROW 23 | Jimmy Joe Hoyo Salas Holder | Order by date of service Medical clalms Service dates 01/01/2025 - 07/23/2026 (2) | Member responslbillty Status Provider/Facllity | -
+  CELL[23,0] = Jimmy Joe Hoyo Salas Holder
+  CELL[23,1] = Order by date of service Medical clalms Service dates 01/01/2025 - 07/23/2026 (2)
+  CELL[23,2] = Member responslbillty Status Provider/Facllity
+ROW 24 | Gael Enrique Hoyo Hernandez Child | - | - | -
+  CELL[24,0] = Gael Enrique Hoyo Hernandez Child
+ROW 25 | 5 No bills | BS200JX0 | $0.00 | -
+  CELL[25,0] = 5 No bills
+  CELL[25,1] = BS200JX0
+  CELL[25,2] = $0.00
+ROW 26 | Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types | - | Pald | -
+  CELL[26,0] = Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types
+  CELL[26,2] = Pald
+ROW 27 | Giveaway Go-getter View detalls | No facility referenced Lorenzo Galindo | - | -
+  CELL[27,0] = Giveaway Go-getter View detalls
+  CELL[27,1] = No facility referenced Lorenzo Galindo
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,34] | order=0
+  rosco Search Rosco MR Melissa
+BLOCK 1 | type=header | bbox=[19,73,795,102] | order=1
+  Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+BLOCK 2 | type=sidebar | bbox=[17,105,100,130] | order=2
+  De Hoyo
+BLOCK 3 | type=sidebar | bbox=[20,132,474,160] | order=3
+  Active Claims & accumulators
+BLOCK 4 | type=sidebar | bbox=[16,331,163,432] | order=4
+  Member actions
+  SP02-FL Team
+BLOCK 5 | type=sidebar | bbox=[18,167,184,201] | order=5
+  OSC75847221-02R220XDSX Spouse ON exc
+BLOCK 6 | type=table | bbox=[18,378,774,411] | order=6
+  FLBroward $850.00spent outof$0.00 $3,100.00 spent out of $1,750.00
+BLOCK 7 | type=paragraph | bbox=[31,153,1261,372] | order=7
+  Viewing information for Silver Simple PCP Saver CSR 150 (05/27/2026-12/31/2026)
+  Heads up note Reduced price PCP visits are not supported by this plan.
+  Accumulators View benefit limit accumulators
+  Individual deductible Individual out-of-pocket-maximum
+BLOCK 8 | type=paragraph | bbox=[352,434,700,447] | order=8
+  Deductible met Met on 5/21/26
+BLOCK 9 | type=sidebar | bbox=[17,445,106,465] | order=9
+  Oscar plan:
+BLOCK 10 | type=sidebar | bbox=[41,470,219,482] | order=10
+  Silver Simple PCP Saver CSR 150
+BLOCK 11 | type=sidebar | bbox=[37,486,143,504] | order=11
+  FL HMO Standard
+BLOCK 12 | type=sidebar | bbox=[40,504,428,522] | order=12
+  View ID card View family accumulators
+BLOCK 13 | type=sidebar | bbox=[16,533,186,554] | order=13
+  VMaria Alejandra Dempaire
+BLOCK 14 | type=table | bbox=[16,564,1262,584] | order=14
+  Effective 05/27/2026 Claims Export CSV
+BLOCK 15 | type=sidebar | bbox=[18,597,80,618] | order=15
+  8 Family
+BLOCK 16 | type=paragraph | bbox=[42,616,1230,635] | order=16
+  Jimmy Joe Hoyo Salas Holder Order by date of service Medical clalms Service dates 01/01/2025 - 07/23/2026 (2) Member responslbillty Status Provider/Facllity
+BLOCK 17 | type=sidebar | bbox=[39,639,211,673] | order=17
+  Gael Enrique Hoyo Hernandez Child
+BLOCK 18 | type=table | bbox=[19,691,1255,712] | order=18
+  5 No bills BS200JX0 $0.00
+BLOCK 19 | type=footer | bbox=[19,718,1252,757] | order=19
+  Giveaway Go-getter View detalls Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types No facility referenced Lorenzo Galindo Pald
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,17,1580,757] | shape=28x4 | conf=0.920
+  shape: 28x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy detalls Benefits Claims Rewards Authorizations | - | - | -
+    CELL[2,0] = Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+  ROW 3 | Genesis Hernandez | - | - | -
+    CELL[3,0] = Genesis Hernandez
+  ROW 4 | De Hoyo | - | - | -
+    CELL[4,0] = De Hoyo
+  ROW 5 | Active | Claims & accumulators | - | -
+    CELL[5,0] = Active
+    CELL[5,1] = Claims & accumulators
+  ROW 6 | Viewing information for Silver Simple PCP Saver CSR 150 (05/27/2026-12/31/2026) | - | - | -
+    CELL[6,0] = Viewing information for Silver Simple PCP Saver CSR 150 (05/27/2026-12/31/2026)
+  ROW 7 | OSC75847221-02R220XDSX Spouse ON exc | - | - | -
+    CELL[7,0] = OSC75847221-02R220XDSX Spouse ON exc
+  ROW 8 | Heads up note | Reduced price PCP visits are not supported by this plan. | - | -
+    CELL[8,0] = Heads up note
+    CELL[8,1] = Reduced price PCP visits are not supported by this plan.
+  ROW 9 | Accumulators | - | View benefit limit accumulators | -
+    CELL[9,0] = Accumulators
+    CELL[9,2] = View benefit limit accumulators
+  ROW 10 | Member actions | - | - | -
+    CELL[10,0] = Member actions
+  ROW 11 | Individual deductible | Individual out-of-pocket-maximum | - | -
+    CELL[11,0] = Individual deductible
+    CELL[11,1] = Individual out-of-pocket-maximum
+  ROW 12 | FLBroward | - | - | -
+    CELL[12,0] = FLBroward
+  ROW 13 | $850.00spent outof$0.00 $3,100.00 spent out of $1,750.00 | - | - | -
+    CELL[13,0] = $850.00spent outof$0.00 $3,100.00 spent out of $1,750.00
+  ROW 14 | SP02-FL Team | - | - | -
+    CELL[14,0] = SP02-FL Team
+  ROW 15 | Deductible met | Met on 5/21/26 | - | -
+    CELL[15,0] = Deductible met
+    CELL[15,1] = Met on 5/21/26
+  ROW 16 | Oscar plan: | - | - | -
+    CELL[16,0] = Oscar plan:
+  ROW 17 | Silver Simple PCP Saver CSR 150 | - | - | -
+    CELL[17,0] = Silver Simple PCP Saver CSR 150
+  ROW 18 | FL HMO Standard | - | - | -
+    CELL[18,0] = FL HMO Standard
+  ROW 19 | View ID card | View family accumulators | - | -
+    CELL[19,0] = View ID card
+    CELL[19,1] = View family accumulators
+  ROW 20 | VMaria Alejandra Dempaire | - | - | -
+    CELL[20,0] = VMaria Alejandra Dempaire
+  ROW 21 | Effective 05/27/2026 | Claims | Export CSV | -
+    CELL[21,0] = Effective 05/27/2026
+    CELL[21,1] = Claims
+    CELL[21,2] = Export CSV
+  ROW 22 | 8 Family | - | - | -
+    CELL[22,0] = 8 Family
+  ROW 23 | Jimmy Joe Hoyo Salas Holder | Order by date of service Medical clalms Service dates 01/01/2025 - 07/23/2026 (2) | Member responslbillty Status Provider/Facllity | -
+    CELL[23,0] = Jimmy Joe Hoyo Salas Holder
+    CELL[23,1] = Order by date of service Medical clalms Service dates 01/01/2025 - 07/23/2026 (2)
+    CELL[23,2] = Member responslbillty Status Provider/Facllity
+  ROW 24 | Gael Enrique Hoyo Hernandez Child | - | - | -
+    CELL[24,0] = Gael Enrique Hoyo Hernandez Child
+  ROW 25 | 5 No bills | BS200JX0 | $0.00 | -
+    CELL[25,0] = 5 No bills
+    CELL[25,1] = BS200JX0
+    CELL[25,2] = $0.00
+  ROW 26 | Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types | - | Pald | -
+    CELL[26,0] = Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types
+    CELL[26,2] = Pald
+  ROW 27 | Giveaway Go-getter View detalls | No facility referenced Lorenzo Galindo | - | -
+    CELL[27,0] = Giveaway Go-getter View detalls
+    CELL[27,1] = No facility referenced Lorenzo Galindo
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.918 | text=rosco Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,73,795,102] | conf=0.992 | text=Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+  WORD | bbox=[19,81,206,102] | text=Genesis Hernandez
+  WORD | bbox=[275,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[421,73,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[641,74,694,89] | text=Rewards
+  WORD | bbox=[710,75,795,88] | text=Authorizations
+LINE 2 | bbox=[17,105,100,130] | conf=0.971 | text=De Hoyo
+LINE 3 | bbox=[20,132,474,160] | conf=0.992 | text=Active Claims & accumulators
+  WORD | bbox=[20,138,64,160] | text=Active
+  WORD | bbox=[280,132,474,149] | text=Claims & accumulators
+LINE 4 | bbox=[70,331,163,346] | conf=0.952 | text=Member actions
+LINE 5 | bbox=[16,412,126,432] | conf=0.888 | text=SP02-FL Team
+LINE 6 | bbox=[18,167,184,201] | conf=0.981 | text=OSC75847221-02R220XDSX Spouse ON exc
+LINE 7 | bbox=[18,378,774,411] | conf=0.990 | text=FLBroward $850.00spent outof$0.00 $3,100.00 spent out of $1,750.00
+  WORD | bbox=[18,378,113,400] | text=FLBroward
+  WORD | bbox=[276,392,363,411] | text=$850.00spent
+  WORD | bbox=[443,392,515,409] | text=outof$0.00
+  WORD | bbox=[539,396,629,409] | text=$3,100.00 spent
+  WORD | bbox=[686,396,774,409] | text=out of $1,750.00
+LINE 8 | bbox=[276,153,748,173] | conf=0.968 | text=Viewing information for Silver Simple PCP Saver CSR 150 (05/27/2026-12/31/2026)
+LINE 9 | bbox=[31,229,589,253] | conf=0.978 | text=Heads up note Reduced price PCP visits are not supported by this plan.
+  WORD | bbox=[31,237,115,253] | text=Heads up note
+  WORD | bbox=[276,229,589,248] | text=Reduced price PCP visits are not supported by this plan.
+LINE 10 | bbox=[279,278,1261,294] | conf=0.991 | text=Accumulators View benefit limit accumulators
+  WORD | bbox=[279,278,371,294] | text=Accumulators
+  WORD | bbox=[1106,279,1261,294] | text=View benefit limit accumulators
+LINE 11 | bbox=[279,354,738,372] | conf=0.979 | text=Individual deductible Individual out-of-pocket-maximum
+  WORD | bbox=[279,358,398,370] | text=Individual deductible
+  WORD | bbox=[536,354,738,372] | text=Individual out-of-pocket-maximum
+LINE 12 | bbox=[352,434,700,447] | conf=0.975 | text=Deductible met Met on 5/21/26
+  WORD | bbox=[352,434,440,447] | text=Deductible met
+  WORD | bbox=[614,434,700,447] | text=Met on 5/21/26
+LINE 13 | bbox=[17,445,106,465] | conf=0.931 | text=Oscar plan:
+LINE 14 | bbox=[41,470,219,482] | conf=0.981 | text=Silver Simple PCP Saver CSR 150
+LINE 15 | bbox=[37,486,143,504] | conf=0.980 | text=FL HMO Standard
+LINE 16 | bbox=[40,504,428,522] | conf=0.982 | text=View ID card View family accumulators
+  WORD | bbox=[40,508,114,521] | text=View ID card
+  WORD | bbox=[277,504,428,522] | text=View family accumulators
+LINE 17 | bbox=[16,533,186,554] | conf=0.939 | text=VMaria Alejandra Dempaire
+LINE 18 | bbox=[16,564,1262,584] | conf=0.988 | text=Effective 05/27/2026 Claims Export CSV
+  WORD | bbox=[16,564,159,584] | text=Effective 05/27/2026
+  WORD | bbox=[279,566,326,584] | text=Claims
+  WORD | bbox=[1204,570,1262,583] | text=Export CSV
+LINE 19 | bbox=[18,597,80,618] | conf=0.954 | text=8 Family
+LINE 20 | bbox=[42,616,1230,635] | conf=0.960 | text=Jimmy Joe Hoyo Salas Holder Order by date of service Medical clalms Service dates 01/01/2025 - 07/23/2026 (2) Member responslbillty Status Provider/Facllity
+  WORD | bbox=[42,623,211,635] | text=Jimmy Joe Hoyo Salas Holder
+  WORD | bbox=[290,620,432,633] | text=Order by date of service
+  WORD | bbox=[465,620,559,633] | text=Medical clalms
+  WORD | bbox=[591,620,839,633] | text=Service dates 01/01/2025 - 07/23/2026 (2)
+  WORD | bbox=[874,620,1010,633] | text=Member responslbillty
+  WORD | bbox=[1041,619,1094,634] | text=Status
+  WORD | bbox=[1121,616,1230,635] | text=Provider/Facllity
+LINE 21 | bbox=[39,639,211,673] | conf=0.987 | text=Gael Enrique Hoyo Hernandez Child
+LINE 22 | bbox=[19,691,1255,712] | conf=0.903 | text=5 No bills BS200JX0 $0.00
+  WORD | bbox=[19,691,34,707] | text=5
+  WORD | bbox=[30,691,85,708] | text=No bills
+  WORD | bbox=[304,691,372,708] | text=BS200JX0
+  WORD | bbox=[1214,693,1255,712] | text=$0.00
+LINE 23 | bbox=[19,718,1252,757] | conf=0.975 | text=Giveaway Go-getter View detalls Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types No facility referenced Lorenzo Galindo Pald
+  WORD | bbox=[19,724,152,756] | text=Giveaway Go-getter View detalls
+  WORD | bbox=[302,718,849,737] | text=Medical claim Detection test by nucleic acid for Human Papillomavirus (HPV), high-risk types
+  WORD | bbox=[304,741,551,757] | text=No facility referenced Lorenzo Galindo
+  WORD | bbox=[1221,718,1252,736] | text=Pald
+[/BOXES]

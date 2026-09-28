@@ -1,0 +1,297 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=16 | tables=3 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 24x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy detalls Benefits Claims Rewards Authorizations | - | - | -
+  CELL[2,0] = Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+ROW 3 | Genesis Hernandez | - | - | -
+  CELL[3,0] = Genesis Hernandez
+ROW 4 | De Hoyo | - | - | -
+  CELL[4,0] = De Hoyo
+ROW 5 | Active | - | - | -
+  CELL[5,0] = Active
+ROW 6 | BP10CTW7 | - | $0.00 | -
+  CELL[6,0] = BP10CTW7
+  CELL[6,2] = $0.00
+ROW 7 | OSC75847221-02-R220XDSX | - | - | -
+  CELL[7,0] = OSC75847221-02-R220XDSX
+ROW 8 | Spouse ON exc | Medical claim X-ray of chest, 1 view | Processing | -
+  CELL[8,0] = Spouse ON exc
+  CELL[8,1] = Medical claim X-ray of chest, 1 view
+  CELL[8,2] = Processing
+ROW 9 | Memorial Hospital West -Raymond Ramzi | - | - | -
+  CELL[9,0] = Memorial Hospital West -Raymond Ramzi
+ROW 10 | Heads up note | Service on May 28, 2026 - Did not apply to accumulators | - | -
+  CELL[10,0] = Heads up note
+  CELL[10,1] = Service on May 28, 2026 - Did not apply to accumulators
+ROW 11 | P1PVN50T | - | $0.00 | -
+  CELL[11,0] = P1PVN50T
+  CELL[11,2] = $0.00
+ROW 12 | Member actlons | Medical claim SUBSEQUENT PRENATAL CARE VISIT | Denied | -
+  CELL[12,0] = Member actlons
+  CELL[12,1] = Medical claim SUBSEQUENT PRENATAL CARE VISIT
+  CELL[12,2] = Denied
+ROW 13 | No facility referenced No provider referenced | - | - | -
+  CELL[13,0] = No facility referenced No provider referenced
+ROW 14 | FLBroward | Service on May 27,2026-Accumulation on May 28,2026 | - | -
+  CELL[14,0] = FLBroward
+  CELL[14,1] = Service on May 27,2026-Accumulation on May 28,2026
+ROW 15 | SP02-FL Team | - | - | -
+  CELL[15,0] = SP02-FL Team
+ROW 16 | Oscar plan: | - | - | -
+  CELL[16,0] = Oscar plan:
+ROW 17 | Effective 05/27/2026 | - | - | -
+  CELL[17,0] = Effective 05/27/2026
+ROW 18 | View additional claims in lineage | - | Expand | -
+  CELL[18,0] = View additional claims in lineage
+  CELL[18,2] = Expand
+ROW 19 | 8 Family | - | - | -
+  CELL[19,0] = 8 Family
+ROW 20 | Jimmy Joe Hoyo Salas Holder | - | - | -
+  CELL[20,0] = Jimmy Joe Hoyo Salas Holder
+ROW 21 | 5 No bills | - | - | -
+  CELL[21,0] = 5 No bills
+ROW 22 | Memorial Hospital West Crystal a 001 Tojuola Crna | - | - | -
+  CELL[22,0] = Memorial Hospital West Crystal a 001 Tojuola Crna
+ROW 23 | Giveaway Go-getter View detalls | Service on May 27, 2026 - Accumulation on Jun 10,2026 | - | -
+  CELL[23,0] = Giveaway Go-getter View detalls
+  CELL[23,1] = Service on May 27, 2026 - Accumulation on Jun 10,2026
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 4x3
+HEADER | Silver Simple PCP Saver CSR 150 | JX8BQXV0 | $0.00
+ROW 1 | FL HMO Standard | Medical claim No description available | Processed
+  CELL[1,0] = FL HMO Standard
+  CELL[1,1] = Medical claim No description available
+  CELL[1,2] = Processed
+ROW 2 | View ID card | Memorial Hospital West No provider referenced | -
+  CELL[2,0] = View ID card
+  CELL[2,1] = Memorial Hospital West No provider referenced
+ROW 3 | V Maria Alejandra Dempaire | Service on May 27, 2026 - Accumulation on Jul 21, 2026 | -
+  CELL[3,0] = V Maria Alejandra Dempaire
+  CELL[3,1] = Service on May 27, 2026 - Accumulation on Jul 21, 2026
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 2x3
+HEADER | Gael Enrique Hoyo Hernandez Child | JSMJW9SJ | $0.00
+ROW 1 | - | Medical claim- Anesthesia for cesarean delivery | Pald
+  CELL[1,1] = Medical claim- Anesthesia for cesarean delivery
+  CELL[1,2] = Pald
+[/TABLE 2]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,34] | order=0
+  rosco Search Rosco MR Melissa
+BLOCK 1 | type=header | bbox=[19,71,795,102] | order=1
+  Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+BLOCK 2 | type=table_row | bbox=[17,105,100,130] | order=2
+  De Hoyo
+BLOCK 3 | type=table_row | bbox=[20,138,64,160] | order=3
+  Active
+BLOCK 4 | type=table | bbox=[18,155,1254,202] | order=4
+  OSC75847221-02-R220XDSX BP10CTW7 $0.00
+  Spouse ON exc Medical claim X-ray of chest, 1 view Processing
+BLOCK 5 | type=table_row | bbox=[302,205,566,223] | order=5
+  Memorial Hospital West -Raymond Ramzi
+BLOCK 6 | type=table_row | bbox=[31,230,1254,328] | order=6
+  Heads up note Service on May 28, 2026 - Did not apply to accumulators
+  P1PVN50T $0.00
+BLOCK 7 | type=table | bbox=[70,330,1252,353] | order=7
+  Member actlons Medical claim SUBSEQUENT PRENATAL CARE VISIT Denied
+BLOCK 8 | type=table_row | bbox=[18,360,630,400] | order=8
+  No facility referenced No provider referenced
+  FLBroward Service on May 27,2026-Accumulation on May 28,2026
+BLOCK 9 | type=table_row | bbox=[16,412,159,618] | order=9
+  SP02-FL Team
+  Effective 05/27/2026
+  8 Family
+BLOCK 10 | type=table_row | bbox=[16,508,1271,600] | order=10
+  View ID card Memorial Hospital West No provider referenced
+  V Maria Alejandra Dempaire Service on May 27, 2026 - Accumulation on Jul 21, 2026
+  View additional claims in lineage Expand
+BLOCK 11 | type=table | bbox=[17,445,1255,504] | order=11
+  Oscar plan: Silver Simple PCP Saver CSR 150 JX8BQXV0 $0.00
+  FL HMO Standard Medical claim No description available Processed
+BLOCK 12 | type=table_row | bbox=[42,623,211,635] | order=12
+  Jimmy Joe Hoyo Salas Holder
+BLOCK 13 | type=table | bbox=[19,639,1255,708] | order=13
+  Gael Enrique Hoyo Hernandez Child JSMJW9SJ $0.00
+  5 No bills Medical claim- Anesthesia for cesarean delivery Pald
+BLOCK 14 | type=table | bbox=[305,704,618,717] | order=14
+  Memorial Hospital West Crystal a 001 Tojuola Crna
+BLOCK 15 | type=footer | bbox=[19,724,626,756] | order=15
+  Giveaway Go-getter View detalls Service on May 27, 2026 - Accumulation on Jun 10,2026
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,17,1580,756] | shape=24x4 | conf=0.920
+  shape: 24x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy detalls Benefits Claims Rewards Authorizations | - | - | -
+    CELL[2,0] = Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+  ROW 3 | Genesis Hernandez | - | - | -
+    CELL[3,0] = Genesis Hernandez
+  ROW 4 | De Hoyo | - | - | -
+    CELL[4,0] = De Hoyo
+  ROW 5 | Active | - | - | -
+    CELL[5,0] = Active
+  ROW 6 | BP10CTW7 | - | $0.00 | -
+    CELL[6,0] = BP10CTW7
+    CELL[6,2] = $0.00
+  ROW 7 | OSC75847221-02-R220XDSX | - | - | -
+    CELL[7,0] = OSC75847221-02-R220XDSX
+  ROW 8 | Spouse ON exc | Medical claim X-ray of chest, 1 view | Processing | -
+    CELL[8,0] = Spouse ON exc
+    CELL[8,1] = Medical claim X-ray of chest, 1 view
+    CELL[8,2] = Processing
+  ROW 9 | Memorial Hospital West -Raymond Ramzi | - | - | -
+    CELL[9,0] = Memorial Hospital West -Raymond Ramzi
+  ROW 10 | Heads up note | Service on May 28, 2026 - Did not apply to accumulators | - | -
+    CELL[10,0] = Heads up note
+    CELL[10,1] = Service on May 28, 2026 - Did not apply to accumulators
+  ROW 11 | P1PVN50T | - | $0.00 | -
+    CELL[11,0] = P1PVN50T
+    CELL[11,2] = $0.00
+  ROW 12 | Member actlons | Medical claim SUBSEQUENT PRENATAL CARE VISIT | Denied | -
+    CELL[12,0] = Member actlons
+    CELL[12,1] = Medical claim SUBSEQUENT PRENATAL CARE VISIT
+    CELL[12,2] = Denied
+  ROW 13 | No facility referenced No provider referenced | - | - | -
+    CELL[13,0] = No facility referenced No provider referenced
+  ROW 14 | FLBroward | Service on May 27,2026-Accumulation on May 28,2026 | - | -
+    CELL[14,0] = FLBroward
+    CELL[14,1] = Service on May 27,2026-Accumulation on May 28,2026
+  ROW 15 | SP02-FL Team | - | - | -
+    CELL[15,0] = SP02-FL Team
+  ROW 16 | Oscar plan: | - | - | -
+    CELL[16,0] = Oscar plan:
+  ROW 17 | Effective 05/27/2026 | - | - | -
+    CELL[17,0] = Effective 05/27/2026
+  ROW 18 | View additional claims in lineage | - | Expand | -
+    CELL[18,0] = View additional claims in lineage
+    CELL[18,2] = Expand
+  ROW 19 | 8 Family | - | - | -
+    CELL[19,0] = 8 Family
+  ROW 20 | Jimmy Joe Hoyo Salas Holder | - | - | -
+    CELL[20,0] = Jimmy Joe Hoyo Salas Holder
+  ROW 21 | 5 No bills | - | - | -
+    CELL[21,0] = 5 No bills
+  ROW 22 | Memorial Hospital West Crystal a 001 Tojuola Crna | - | - | -
+    CELL[22,0] = Memorial Hospital West Crystal a 001 Tojuola Crna
+  ROW 23 | Giveaway Go-getter View detalls | Service on May 27, 2026 - Accumulation on Jun 10,2026 | - | -
+    CELL[23,0] = Giveaway Go-getter View detalls
+    CELL[23,1] = Service on May 27, 2026 - Accumulation on Jun 10,2026
+TABLE 1 | source=wide_grid | bbox=[16,458,1255,554] | shape=4x3 | conf=0.850
+  shape: 4x3
+  HEADER | Silver Simple PCP Saver CSR 150 | JX8BQXV0 | $0.00
+  ROW 1 | FL HMO Standard | Medical claim No description available | Processed
+    CELL[1,0] = FL HMO Standard
+    CELL[1,1] = Medical claim No description available
+    CELL[1,2] = Processed
+  ROW 2 | View ID card | Memorial Hospital West No provider referenced | -
+    CELL[2,0] = View ID card
+    CELL[2,1] = Memorial Hospital West No provider referenced
+  ROW 3 | V Maria Alejandra Dempaire | Service on May 27, 2026 - Accumulation on Jul 21, 2026 | -
+    CELL[3,0] = V Maria Alejandra Dempaire
+    CELL[3,1] = Service on May 27, 2026 - Accumulation on Jul 21, 2026
+TABLE 2 | source=wide_grid | bbox=[39,639,1255,698] | shape=2x3 | conf=0.850
+  shape: 2x3
+  HEADER | Gael Enrique Hoyo Hernandez Child | JSMJW9SJ | $0.00
+  ROW 1 | - | Medical claim- Anesthesia for cesarean delivery | Pald
+    CELL[1,1] = Medical claim- Anesthesia for cesarean delivery
+    CELL[1,2] = Pald
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.917 | text=rosco Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,71,795,102] | conf=0.986 | text=Genesis Hernandez Member info Issues Policy detalls Benefits Claims Rewards Authorizations
+  WORD | bbox=[19,81,206,102] | text=Genesis Hernandez
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[420,71,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[641,74,694,89] | text=Rewards
+  WORD | bbox=[710,75,795,88] | text=Authorizations
+LINE 2 | bbox=[17,105,100,130] | conf=0.971 | text=De Hoyo
+LINE 3 | bbox=[20,138,64,160] | conf=0.994 | text=Active
+LINE 4 | bbox=[19,155,1254,183] | conf=0.984 | text=OSC75847221-02-R220XDSX BP10CTW7 $0.00
+  WORD | bbox=[19,167,184,183] | text=OSC75847221-02-R220XDSX
+  WORD | bbox=[304,155,375,172] | text=BP10CTW7
+  WORD | bbox=[1214,158,1254,177] | text=$0.00
+LINE 5 | bbox=[18,182,1252,202] | conf=0.977 | text=Spouse ON exc Medical claim X-ray of chest, 1 view Processing
+  WORD | bbox=[18,186,111,202] | text=Spouse ON exc
+  WORD | bbox=[304,185,532,201] | text=Medical claim X-ray of chest, 1 view
+  WORD | bbox=[1182,182,1252,201] | text=Processing
+LINE 6 | bbox=[302,205,566,223] | conf=0.956 | text=Memorial Hospital West -Raymond Ramzi
+LINE 7 | bbox=[31,230,632,253] | conf=0.978 | text=Heads up note Service on May 28, 2026 - Did not apply to accumulators
+  WORD | bbox=[31,237,115,253] | text=Heads up note
+  WORD | bbox=[305,230,632,243] | text=Service on May 28, 2026 - Did not apply to accumulators
+LINE 8 | bbox=[302,305,1254,328] | conf=0.997 | text=P1PVN50T $0.00
+  WORD | bbox=[302,305,372,325] | text=P1PVN50T
+  WORD | bbox=[1214,309,1254,328] | text=$0.00
+LINE 9 | bbox=[70,330,1252,353] | conf=0.965 | text=Member actlons Medical claim SUBSEQUENT PRENATAL CARE VISIT Denied
+  WORD | bbox=[70,330,163,348] | text=Member actlons
+  WORD | bbox=[304,336,625,353] | text=Medical claim SUBSEQUENT PRENATAL CARE VISIT
+  WORD | bbox=[1205,335,1252,353] | text=Denied
+LINE 10 | bbox=[305,360,586,373] | conf=0.996 | text=No facility referenced No provider referenced
+LINE 11 | bbox=[18,378,630,400] | conf=0.963 | text=FLBroward Service on May 27,2026-Accumulation on May 28,2026
+  WORD | bbox=[18,378,112,400] | text=FLBroward
+  WORD | bbox=[304,381,630,393] | text=Service on May 27,2026-Accumulation on May 28,2026
+LINE 12 | bbox=[16,412,126,432] | conf=0.889 | text=SP02-FL Team
+LINE 13 | bbox=[17,564,159,584] | conf=0.984 | text=Effective 05/27/2026
+LINE 14 | bbox=[18,597,80,618] | conf=0.954 | text=8 Family
+LINE 15 | bbox=[40,508,600,524] | conf=0.968 | text=View ID card Memorial Hospital West No provider referenced
+  WORD | bbox=[40,508,114,521] | text=View ID card
+  WORD | bbox=[305,512,600,524] | text=Memorial Hospital West No provider referenced
+LINE 16 | bbox=[16,533,622,554] | conf=0.954 | text=V Maria Alejandra Dempaire Service on May 27, 2026 - Accumulation on Jul 21, 2026
+  WORD | bbox=[16,533,186,554] | text=V Maria Alejandra Dempaire
+  WORD | bbox=[304,533,622,546] | text=Service on May 27, 2026 - Accumulation on Jul 21, 2026
+LINE 17 | bbox=[299,587,1271,600] | conf=0.965 | text=View additional claims in lineage Expand
+  WORD | bbox=[299,587,479,600] | text=View additional claims in lineage
+  WORD | bbox=[1220,587,1271,600] | text=Expand
+LINE 18 | bbox=[17,445,1255,482] | conf=0.969 | text=Oscar plan: Silver Simple PCP Saver CSR 150 JX8BQXV0 $0.00
+  WORD | bbox=[17,445,106,466] | text=Oscar plan:
+  WORD | bbox=[41,470,219,482] | text=Silver Simple PCP Saver CSR 150
+  WORD | bbox=[304,460,375,476] | text=JX8BQXV0
+  WORD | bbox=[1212,458,1255,480] | text=$0.00
+LINE 19 | bbox=[37,486,1250,504] | conf=0.987 | text=FL HMO Standard Medical claim No description available Processed
+  WORD | bbox=[37,486,143,504] | text=FL HMO Standard
+  WORD | bbox=[305,490,550,503] | text=Medical claim No description available
+  WORD | bbox=[1170,488,1250,504] | text=Processed
+LINE 20 | bbox=[42,623,211,635] | conf=0.968 | text=Jimmy Joe Hoyo Salas Holder
+LINE 21 | bbox=[39,639,1255,673] | conf=0.989 | text=Gael Enrique Hoyo Hernandez Child JSMJW9SJ $0.00
+  WORD | bbox=[39,639,213,673] | text=Gael Enrique Hoyo Hernandez Child
+  WORD | bbox=[305,652,379,668] | text=JSMJW9SJ
+  WORD | bbox=[1214,653,1255,672] | text=$0.00
+LINE 22 | bbox=[19,678,1252,708] | conf=0.900 | text=5 No bills Medical claim- Anesthesia for cesarean delivery Pald
+  WORD | bbox=[19,691,34,707] | text=5
+  WORD | bbox=[30,691,85,708] | text=No bills
+  WORD | bbox=[302,678,596,698] | text=Medical claim- Anesthesia for cesarean delivery
+  WORD | bbox=[1221,679,1252,696] | text=Pald
+LINE 23 | bbox=[305,704,618,717] | conf=0.974 | text=Memorial Hospital West Crystal a 001 Tojuola Crna
+LINE 24 | bbox=[19,724,626,756] | conf=0.955 | text=Giveaway Go-getter View detalls Service on May 27, 2026 - Accumulation on Jun 10,2026
+  WORD | bbox=[19,724,152,756] | text=Giveaway Go-getter View detalls
+  WORD | bbox=[304,726,626,738] | text=Service on May 27, 2026 - Accumulation on Jun 10,2026
+[/BOXES]
