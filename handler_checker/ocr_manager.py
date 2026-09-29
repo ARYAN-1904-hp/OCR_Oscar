@@ -17,8 +17,6 @@ from typing import Dict, Any, Optional
 from ocr.pipeline import run_ocr
 from ocr.html_renderer import render_layout_html
 from ocr.regex_ready import build_regex_ready_text
-from extraction import EXCEL_FILENAME, extract_formatted_text, write_workbook
-from handler_checker.logger import logger
 
 
 class OCRManager:
@@ -85,18 +83,13 @@ class OCRManager:
         output_dir: str,
         source_path: Optional[str] = None,
         source_label: Optional[str] = None,
-    ) -> Dict[str, Any]:
+    ) -> None:
         """
         Persist OCR outputs:
           - raw_output.json
           - formatted_text.txt     (single regex-ready combo text)
           - layout.html
-          - extracted_fields.xlsx  (regex field extraction over formatted_text.txt)
         Per-doc metadata.json is written by the handler/metadata manager.
-
-        Returns the extraction outcome: {"results": [(label, DocumentResult)],
-        "excel_path": Path | None, "error": str | None}. An extraction
-        failure never fails the OCR save.
         """
 
         folder = Path(output_dir)
@@ -112,25 +105,3 @@ class OCRManager:
 
         render_layout_html(ocr_result, folder, source_path=source_path)
 
-        label = source_label or (Path(source_path).name if source_path else folder.name)
-        return self.extract_fields(formatted_text, folder, label)
-
-    def extract_fields(
-        self,
-        formatted_text: str,
-        output_dir: Path,
-        source_label: str,
-    ) -> Dict[str, Any]:
-        """Run the regex field extractor and write extracted_fields.xlsx."""
-        outcome: Dict[str, Any] = {"results": [], "excel_path": None, "error": None}
-        try:
-            results = extract_formatted_text(formatted_text, source_label)
-            outcome["results"] = results
-            if results:
-                outcome["excel_path"] = write_workbook(
-                    results, Path(output_dir) / EXCEL_FILENAME
-                )
-        except Exception as e:
-            outcome["error"] = f"{type(e).__name__}: {e}"
-            logger.exception("Field extraction failed for %s", source_label)
-        return outcome

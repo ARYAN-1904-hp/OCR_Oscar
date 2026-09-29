@@ -3,9 +3,15 @@
   "configurations": [
     {
       "name": "ocr-api",
-      "runtimeExecutable": "C:\\Users\\ARYAN NAIR\\Downloads\\OCR_Enhancement_Task\\Intake_Agent_OCR_Engine-test_1\\venv\\Scripts\\python.exe",
-      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8000"],
+      "runtimeExecutable": "C:\\Users\\ARYAN NAIR\\Downloads\\OCR_Oscar\\OCR_Oscar\\venv\\Scripts\\python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--app-dir", "C:\\Users\\ARYAN NAIR\\Downloads\\OCR_Oscar\\OCR_Oscar\\Intake_Agent_OCR_Engine-test", "--host", "127.0.0.1", "--port", "8000"],
       "port": 8000
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5173", "--directory", "C:\\Users\\ARYAN NAIR\\Downloads\\OCR_Oscar\\OCR_Oscar\\Intake_Agent_OCR_Engine-test\\frontend"],
+      "port": 5173
     }
   ]
 }

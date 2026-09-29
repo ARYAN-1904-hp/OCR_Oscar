@@ -1,0 +1,410 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=14 | tables=5 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x8
+HEADER | Cortex-Claim#MAY94PYC | Latest version (5of5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 15 hours ago | Readjudicate | Actions | -
+  CELL[1,0] = About thls claim Payment Patlent
+  CELL[1,1] = Providers Medical Claim lines
+  CELL[1,4] = 15 hours ago
+  CELL[1,5] = Readjudicate
+  CELL[1,6] = Actions
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 2x4
+HEADER | EUIn Ie | Downioaa | vocuments | view
+ROW 1 | MAY94PYC Tenant | oscar | - | -
+  CELL[1,0] = MAY94PYC Tenant
+  CELL[1,1] = oscar
+[/TABLE 2]
+
+[TABLE 0 | source=two_column_form]
+shape: 12x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Member: Lisandra Fuentes Castro | Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | -
+  CELL[1,0] = Member: Lisandra Fuentes Castro
+  CELL[1,1] = Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+ROW 2 | o Notes | - | - | -
+  CELL[2,0] = o Notes
+ROW 3 | See all member's clalms | - | - | -
+  CELL[3,0] = See all member's clalms
+ROW 4 | Payment | - | - | -
+  CELL[4,0] = Payment
+ROW 5 | Claim state | Blocked Charge group | Prompt process due date | 08/05/2026
+  CELL[5,0] = Claim state
+  CELL[5,1] = Blocked Charge group
+  CELL[5,2] = Prompt process due date
+  CELL[5,3] = 08/05/2026
+ROW 6 | Manage | - | - | -
+  CELL[6,0] = Manage
+ROW 7 | Denials (0) | - | - | -
+  CELL[7,0] = Denials (0)
+ROW 8 | Patient | - | - | -
+  CELL[8,0] = Patient
+ROW 9 | No denials on this claim. Manage | - | - | -
+  CELL[9,0] = No denials on this claim. Manage
+ROW 10 | Matched Member | Submitted Info | - | -
+  CELL[10,0] = Matched Member
+  CELL[10,1] = Submitted Info
+ROW 11 | No system identified duplicates | - | - | -
+  CELL[11,0] = No system identified duplicates
+[/TABLE 0]
+
+[TABLE 3 | source=wide_grid]
+shape: 2x5
+HEADER | Blockers (1) | Payment authority | NEXTGEN | Interest accrued | $0.00
+ROW 1 | NEWBORN | Pay to member | No | Excluded from interest | Yes
+  CELL[1,0] = NEWBORN
+  CELL[1,1] = Pay to member
+  CELL[1,2] = No
+  CELL[1,3] = Excluded from interest
+  CELL[1,4] = Yes
+[/TABLE 3]
+
+[TABLE 4 | source=wide_grid]
+shape: 12x5
+HEADER | Billed | $4,837.00 (100%) | First name | IAN | SSN
+ROW 1 | Allowed | $697.42 (14%) | Middle name | R | Date of birth 01/31/2026 (0 days)
+  CELL[1,0] = Allowed
+  CELL[1,1] = $697.42 (14%)
+  CELL[1,2] = Middle name
+  CELL[1,3] = R
+  CELL[1,4] = Date of birth 01/31/2026 (0 days)
+ROW 2 | Pay provider | $697.42 | Last name | GAINZA FUENTES | Sex Male
+  CELL[2,0] = Pay provider
+  CELL[2,1] = $697.42
+  CELL[2,2] = Last name
+  CELL[2,3] = GAINZA FUENTES
+  CELL[2,4] = Sex Male
+ROW 3 | Pay member | $0.00 | Suffix | - | Address 1030 W 28TH ST APT
+  CELL[3,0] = Pay member
+  CELL[3,1] = $0.00
+  CELL[3,2] = Suffix
+  CELL[3,4] = Address 1030 W 28TH ST APT
+ROW 4 | >Member responsibility | $0.00 | OSCID | OSC76948676 | HIALEAH, FL 330101146
+  CELL[4,0] = >Member responsibility
+  CELL[4,1] = $0.00
+  CELL[4,2] = OSCID
+  CELL[4,3] = OSC76948676
+  CELL[4,4] = HIALEAH, FL 330101146
+ROW 5 | Claim lineage | - | Policy holder | - | Group
+  CELL[5,0] = Claim lineage
+  CELL[5,2] = Policy holder
+  CELL[5,4] = Group
+ROW 6 | MAY94PYC | Blocked | First name | LISANDRA | Name
+  CELL[6,0] = MAY94PYC
+  CELL[6,1] = Blocked
+  CELL[6,2] = First name
+  CELL[6,3] = LISANDRA
+  CELL[6,4] = Name
+ROW 7 | 7/19/2026 | - | Middle name | R | Number
+  CELL[7,0] = 7/19/2026
+  CELL[7,2] = Middle name
+  CELL[7,3] = R
+  CELL[7,4] = Number
+ROW 8 | - | - | Last name | FUENTES CASTRO | Responsibility sequence Primary
+  CELL[8,2] = Last name
+  CELL[8,3] = FUENTES CASTRO
+  CELL[8,4] = Responsibility sequence Primary
+ROW 9 | Potential parent claims | - | Suffix | = | -
+  CELL[9,0] = Potential parent claims
+  CELL[9,2] = Suffix
+  CELL[9,3] = =
+ROW 10 | - | - | Organlzatlon name | - | -
+  CELL[10,2] = Organlzatlon name
+ROW 11 | Potential duplicate claims | - | Patient relationship | Child | -
+  CELL[11,0] = Potential duplicate claims
+  CELL[11,2] = Patient relationship
+  CELL[11,3] = Child
+[/TABLE 4]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[50,14,1555,35] | order=0
+  Cortex-Claim#MAY94PYC Latest version (5of5) Dashboard Batch History Testing Settlements Search Create
+BLOCK 1 | type=header | bbox=[31,64,1521,80] | order=1
+  About thls claim Payment Patlent Providers Medical Claim lines 15 hours ago Readjudicate Actions
+BLOCK 2 | type=table | bbox=[34,90,1188,137] | order=2
+  EUIn Ie Downioaa vocuments view
+  MAY94PYC Tenant oscar
+BLOCK 3 | type=table_row | bbox=[32,145,556,159] | order=3
+  Member: Lisandra Fuentes Castro Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+BLOCK 4 | type=table | bbox=[32,162,166,194] | order=4
+  o Notes
+  See all member's clalms
+BLOCK 5 | type=table_row | bbox=[299,202,389,227] | order=5
+  Payment
+BLOCK 6 | type=table | bbox=[31,230,1238,308] | order=6
+  Claim state: Blocked Charge group Prompt process due date 08/05/2026
+  Blockers (1) Payment authority NEXTGEN Interest accrued $0.00
+  NEWBORN Pay to member No Excluded from interest Yes
+BLOCK 7 | type=table_row | bbox=[30,303,82,324] | order=7
+  Manage
+BLOCK 8 | type=table_row | bbox=[31,336,375,391] | order=8
+  Denials (0)
+  No denials on this claim. Manage Patient
+BLOCK 9 | type=table_row | bbox=[300,388,512,401] | order=9
+  Matched Member Submitted Info
+BLOCK 10 | type=table | bbox=[19,416,1288,673] | order=10
+  Billed $4,837.00 (100%) First name IAN SSN
+  Allowed $697.42 (14%) Middle name R Date of birth 01/31/2026 (0 days)
+  Pay provider $697.42 Last name GAINZA FUENTES Sex Male
+  Pay member $0.00 Suffix Address 1030 W 28TH ST APT
+  >Member responsibility $0.00 OSCID OSC76948676 HIALEAH, FL 330101146
+  Claim lineage Policy holder Group
+  MAY94PYC Blocked First name LISANDRA Name
+  7/19/2026 Middle name R Number
+  Last name FUENTES CASTRO Responsibility sequence Primary
+  Potential parent claims Suffix =
+BLOCK 11 | type=table | bbox=[299,684,529,701] | order=11
+  Organlzatlon name
+BLOCK 12 | type=footer | bbox=[32,709,551,728] | order=12
+  Potential duplicate claims Patient relationship Child
+BLOCK 13 | type=footer | bbox=[31,740,210,756] | order=13
+  No system identified duplicates
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[30,145,1238,756] | shape=12x4 | conf=0.920
+  shape: 12x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Member: Lisandra Fuentes Castro | Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | -
+    CELL[1,0] = Member: Lisandra Fuentes Castro
+    CELL[1,1] = Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+  ROW 2 | o Notes | - | - | -
+    CELL[2,0] = o Notes
+  ROW 3 | See all member's clalms | - | - | -
+    CELL[3,0] = See all member's clalms
+  ROW 4 | Payment | - | - | -
+    CELL[4,0] = Payment
+  ROW 5 | Claim state | Blocked Charge group | Prompt process due date | 08/05/2026
+    CELL[5,0] = Claim state
+    CELL[5,1] = Blocked Charge group
+    CELL[5,2] = Prompt process due date
+    CELL[5,3] = 08/05/2026
+  ROW 6 | Manage | - | - | -
+    CELL[6,0] = Manage
+  ROW 7 | Denials (0) | - | - | -
+    CELL[7,0] = Denials (0)
+  ROW 8 | Patient | - | - | -
+    CELL[8,0] = Patient
+  ROW 9 | No denials on this claim. Manage | - | - | -
+    CELL[9,0] = No denials on this claim. Manage
+  ROW 10 | Matched Member | Submitted Info | - | -
+    CELL[10,0] = Matched Member
+    CELL[10,1] = Submitted Info
+  ROW 11 | No system identified duplicates | - | - | -
+    CELL[11,0] = No system identified duplicates
+TABLE 1 | source=wide_grid | bbox=[31,14,1555,80] | shape=2x8 | conf=0.850
+  shape: 2x8
+  HEADER | Cortex-Claim#MAY94PYC | Latest version (5of5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 15 hours ago | Readjudicate | Actions | -
+    CELL[1,0] = About thls claim Payment Patlent
+    CELL[1,1] = Providers Medical Claim lines
+    CELL[1,4] = 15 hours ago
+    CELL[1,5] = Readjudicate
+    CELL[1,6] = Actions
+TABLE 2 | source=wide_grid | bbox=[34,90,1188,137] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | EUIn Ie | Downioaa | vocuments | view
+  ROW 1 | MAY94PYC Tenant | oscar | - | -
+    CELL[1,0] = MAY94PYC Tenant
+    CELL[1,1] = oscar
+TABLE 3 | source=wide_grid | bbox=[31,257,1191,308] | shape=2x5 | conf=0.850
+  shape: 2x5
+  HEADER | Blockers (1) | Payment authority | NEXTGEN | Interest accrued | $0.00
+  ROW 1 | NEWBORN | Pay to member | No | Excluded from interest | Yes
+    CELL[1,0] = NEWBORN
+    CELL[1,1] = Pay to member
+    CELL[1,2] = No
+    CELL[1,3] = Excluded from interest
+    CELL[1,4] = Yes
+TABLE 4 | source=wide_grid | bbox=[19,416,1288,728] | shape=12x5 | conf=0.850
+  shape: 12x5
+  HEADER | Billed | $4,837.00 (100%) | First name | IAN | SSN
+  ROW 1 | Allowed | $697.42 (14%) | Middle name | R | Date of birth 01/31/2026 (0 days)
+    CELL[1,0] = Allowed
+    CELL[1,1] = $697.42 (14%)
+    CELL[1,2] = Middle name
+    CELL[1,3] = R
+    CELL[1,4] = Date of birth 01/31/2026 (0 days)
+  ROW 2 | Pay provider | $697.42 | Last name | GAINZA FUENTES | Sex Male
+    CELL[2,0] = Pay provider
+    CELL[2,1] = $697.42
+    CELL[2,2] = Last name
+    CELL[2,3] = GAINZA FUENTES
+    CELL[2,4] = Sex Male
+  ROW 3 | Pay member | $0.00 | Suffix | - | Address 1030 W 28TH ST APT
+    CELL[3,0] = Pay member
+    CELL[3,1] = $0.00
+    CELL[3,2] = Suffix
+    CELL[3,4] = Address 1030 W 28TH ST APT
+  ROW 4 | >Member responsibility | $0.00 | OSCID | OSC76948676 | HIALEAH, FL 330101146
+    CELL[4,0] = >Member responsibility
+    CELL[4,1] = $0.00
+    CELL[4,2] = OSCID
+    CELL[4,3] = OSC76948676
+    CELL[4,4] = HIALEAH, FL 330101146
+  ROW 5 | Claim lineage | - | Policy holder | - | Group
+    CELL[5,0] = Claim lineage
+    CELL[5,2] = Policy holder
+    CELL[5,4] = Group
+  ROW 6 | MAY94PYC | Blocked | First name | LISANDRA | Name
+    CELL[6,0] = MAY94PYC
+    CELL[6,1] = Blocked
+    CELL[6,2] = First name
+    CELL[6,3] = LISANDRA
+    CELL[6,4] = Name
+  ROW 7 | 7/19/2026 | - | Middle name | R | Number
+    CELL[7,0] = 7/19/2026
+    CELL[7,2] = Middle name
+    CELL[7,3] = R
+    CELL[7,4] = Number
+  ROW 8 | - | - | Last name | FUENTES CASTRO | Responsibility sequence Primary
+    CELL[8,2] = Last name
+    CELL[8,3] = FUENTES CASTRO
+    CELL[8,4] = Responsibility sequence Primary
+  ROW 9 | Potential parent claims | - | Suffix | = | -
+    CELL[9,0] = Potential parent claims
+    CELL[9,2] = Suffix
+    CELL[9,3] = =
+  ROW 10 | - | - | Organlzatlon name | - | -
+    CELL[10,2] = Organlzatlon name
+  ROW 11 | Potential duplicate claims | - | Patient relationship | Child | -
+    CELL[11,0] = Potential duplicate claims
+    CELL[11,2] = Patient relationship
+    CELL[11,3] = Child
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[50,14,1555,35] | conf=0.987 | text=Cortex-Claim#MAY94PYC Latest version (5of5) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[50,17,266,33] | text=Cortex-Claim#MAY94PYC
+  WORD | bbox=[282,15,409,32] | text=Latest version (5of5)
+  WORD | bbox=[1106,14,1170,33] | text=Dashboard
+  WORD | bbox=[1191,15,1271,35] | text=Batch History
+  WORD | bbox=[1291,14,1338,35] | text=Testing
+  WORD | bbox=[1359,19,1430,32] | text=Settlements
+  WORD | bbox=[1452,18,1494,32] | text=Search
+  WORD | bbox=[1515,18,1555,32] | text=Create
+LINE 1 | bbox=[31,64,1521,80] | conf=0.992 | text=About thls claim Payment Patlent Providers Medical Claim lines 15 hours ago Readjudicate Actions
+  WORD | bbox=[31,64,126,80] | text=About thls claim
+  WORD | bbox=[149,65,201,80] | text=Payment
+  WORD | bbox=[221,65,266,79] | text=Patlent
+  WORD | bbox=[286,64,345,80] | text=Providers
+  WORD | bbox=[365,65,412,79] | text=Medical
+  WORD | bbox=[432,64,498,80] | text=Claim lines
+  WORD | bbox=[1252,65,1316,80] | text=15 hours ago
+  WORD | bbox=[1339,64,1419,80] | text=Readjudicate
+  WORD | bbox=[1469,65,1521,80] | text=Actions
+LINE 2 | bbox=[300,90,1188,107] | conf=0.840 | text=EUIn Ie Downioaa vocuments view
+  WORD | bbox=[300,92,341,106] | text=EUIn Ie
+  WORD | bbox=[518,92,576,104] | text=Downioaa
+  WORD | bbox=[937,90,1006,107] | text=vocuments
+  WORD | bbox=[1158,92,1188,106] | text=view
+LINE 3 | bbox=[34,117,551,137] | conf=0.996 | text=MAY94PYC Tenant oscar
+  WORD | bbox=[34,120,141,137] | text=MAY94PYC
+  WORD | bbox=[299,117,341,131] | text=Tenant
+  WORD | bbox=[516,117,551,131] | text=oscar
+LINE 4 | bbox=[32,145,556,159] | conf=0.985 | text=Member: Lisandra Fuentes Castro Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+  WORD | bbox=[32,145,219,158] | text=Member: Lisandra Fuentes Castro
+  WORD | bbox=[300,146,556,159] | text=Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+LINE 5 | bbox=[32,162,96,178] | conf=0.963 | text=o Notes
+LINE 6 | bbox=[34,181,166,194] | conf=0.977 | text=See all member's clalms
+LINE 7 | bbox=[299,202,389,227] | conf=0.999 | text=Payment
+LINE 8 | bbox=[31,230,1238,252] | conf=0.994 | text=Claim state: Blocked Charge group Prompt process due date 08/05/2026
+  WORD | bbox=[31,236,102,252] | text=Claim state:
+  WORD | bbox=[169,237,219,251] | text=Blocked
+  WORD | bbox=[299,230,379,247] | text=Charge group
+  WORD | bbox=[939,232,1081,248] | text=Prompt process due date
+  WORD | bbox=[1156,232,1238,248] | text=08/05/2026
+LINE 9 | bbox=[31,257,1191,284] | conf=0.983 | text=Blockers (1) Payment authority NEXTGEN Interest accrued $0.00
+  WORD | bbox=[31,267,99,284] | text=Blockers (1)
+  WORD | bbox=[299,257,406,274] | text=Payment authority
+  WORD | bbox=[518,257,576,274] | text=NEXTGEN
+  WORD | bbox=[938,262,1035,279] | text=Interest accrued
+  WORD | bbox=[1154,261,1191,279] | text=$0.00
+LINE 10 | bbox=[32,284,1182,308] | conf=0.982 | text=NEWBORN Pay to member No Excluded from interest Yes
+  WORD | bbox=[32,288,115,300] | text=NEWBORN
+  WORD | bbox=[300,285,384,298] | text=Pay to member
+  WORD | bbox=[516,284,536,299] | text=No
+  WORD | bbox=[939,288,1069,304] | text=Excluded from interest
+  WORD | bbox=[1152,284,1182,308] | text=Yes
+LINE 11 | bbox=[30,303,82,324] | conf=0.998 | text=Manage
+LINE 12 | bbox=[31,336,94,353] | conf=0.960 | text=Denials (0)
+LINE 13 | bbox=[31,353,375,391] | conf=0.988 | text=No denials on this claim. Manage Patient
+  WORD | bbox=[31,356,166,391] | text=No denials on this claim. Manage
+  WORD | bbox=[299,353,375,374] | text=Patient
+LINE 14 | bbox=[300,388,512,401] | conf=0.990 | text=Matched Member Submitted Info
+  WORD | bbox=[300,388,401,401] | text=Matched Member
+  WORD | bbox=[426,388,512,401] | text=Submitted Info
+LINE 15 | bbox=[30,416,968,435] | conf=0.991 | text=Billed $4,837.00 (100%) First name IAN SSN
+  WORD | bbox=[30,418,68,435] | text=Billed
+  WORD | bbox=[135,419,222,435] | text=$4,837.00 (100%)
+  WORD | bbox=[299,419,361,432] | text=First name
+  WORD | bbox=[518,418,541,433] | text=IAN
+  WORD | bbox=[936,416,968,434] | text=SSN
+LINE 16 | bbox=[31,442,1266,460] | conf=0.982 | text=Allowed $697.42 (14%) Middle name R Date of birth 01/31/2026 (0 days)
+  WORD | bbox=[31,444,79,458] | text=Allowed
+  WORD | bbox=[152,442,224,458] | text=$697.42 (14%)
+  WORD | bbox=[298,443,375,460] | text=Middle name
+  WORD | bbox=[516,442,531,460] | text=R
+  WORD | bbox=[938,443,1011,460] | text=Date of birth
+  WORD | bbox=[1156,443,1266,460] | text=01/31/2026 (0 days)
+LINE 17 | bbox=[30,467,1188,486] | conf=0.989 | text=Pay provider $697.42 Last name GAINZA FUENTES Sex Male
+  WORD | bbox=[30,467,102,484] | text=Pay provider
+  WORD | bbox=[179,470,222,484] | text=$697.42
+  WORD | bbox=[299,470,360,482] | text=Last name
+  WORD | bbox=[518,468,621,485] | text=GAINZA FUENTES
+  WORD | bbox=[936,467,964,486] | text=Sex
+  WORD | bbox=[1155,468,1188,486] | text=Male
+LINE 18 | bbox=[31,493,1269,510] | conf=0.990 | text=Pay member $0.00 Suffix Address 1030 W 28TH ST APT
+  WORD | bbox=[31,494,104,510] | text=Pay member
+  WORD | bbox=[186,493,224,510] | text=$0.00
+  WORD | bbox=[299,495,335,509] | text=Suffix
+  WORD | bbox=[939,496,988,510] | text=Address
+  WORD | bbox=[1158,496,1269,509] | text=1030 W 28TH ST APT
+LINE 19 | bbox=[19,513,1288,537] | conf=0.991 | text=>Member responsibility $0.00 OSCID OSC76948676 HIALEAH, FL 330101146
+  WORD | bbox=[19,519,160,536] | text=>Member responsibility
+  WORD | bbox=[188,519,222,533] | text=$0.00
+  WORD | bbox=[299,519,342,537] | text=OSCID
+  WORD | bbox=[520,521,601,537] | text=OSC76948676
+  WORD | bbox=[1155,513,1288,530] | text=HIALEAH, FL 330101146
+LINE 20 | bbox=[30,556,981,582] | conf=0.986 | text=Claim lineage Policy holder Group
+  WORD | bbox=[30,564,110,582] | text=Claim lineage
+  WORD | bbox=[297,556,383,577] | text=Policy holder
+  WORD | bbox=[939,558,981,575] | text=Group
+LINE 21 | bbox=[30,580,976,603] | conf=0.990 | text=MAY94PYC Blocked First name LISANDRA Name
+  WORD | bbox=[30,589,108,602] | text=MAY94PYC
+  WORD | bbox=[169,589,219,603] | text=Blocked
+  WORD | bbox=[299,583,361,596] | text=First name
+  WORD | bbox=[518,580,580,597] | text=LISANDRA
+  WORD | bbox=[938,580,976,598] | text=Name
+LINE 22 | bbox=[41,607,986,624] | conf=0.989 | text=7/19/2026 Middle name R Number
+  WORD | bbox=[41,607,94,623] | text=7/19/2026
+  WORD | bbox=[298,607,375,624] | text=Middle name
+  WORD | bbox=[518,609,529,623] | text=R
+  WORD | bbox=[939,609,986,623] | text=Number
+LINE 23 | bbox=[298,630,1204,651] | conf=0.992 | text=Last name FUENTES CASTRO Responsibility sequence Primary
+  WORD | bbox=[298,633,361,649] | text=Last name
+  WORD | bbox=[518,633,624,649] | text=FUENTES CASTRO
+  WORD | bbox=[938,633,1076,649] | text=Responsibility sequence
+  WORD | bbox=[1153,630,1204,651] | text=Primary
+LINE 24 | bbox=[32,653,530,673] | conf=0.822 | text=Potential parent claims Suffix =
+  WORD | bbox=[32,653,164,666] | text=Potential parent claims
+  WORD | bbox=[299,659,334,673] | text=Suffix
+  WORD | bbox=[519,662,530,672] | text==
+LINE 25 | bbox=[299,684,529,701] | conf=0.796 | text=Organlzatlon name
+  WORD | bbox=[299,685,409,701] | text=Organlzatlon name
+LINE 26 | bbox=[32,709,551,728] | conf=0.994 | text=Potential duplicate claims Patient relationship Child
+  WORD | bbox=[32,715,177,728] | text=Potential duplicate claims
+  WORD | bbox=[299,710,412,727] | text=Patient relationship
+  WORD | bbox=[516,709,551,727] | text=Child
+LINE 27 | bbox=[31,740,210,756] | conf=0.991 | text=No system identified duplicates
+[/BOXES]

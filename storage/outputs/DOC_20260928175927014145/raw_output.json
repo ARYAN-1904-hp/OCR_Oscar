@@ -1,0 +1,2656 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Search Rosco MR Melissa -\nYisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nOSC78747909-01R213XB6D Holder - ON exc\nActive Service on Feb 13, 2026 - Accumulation on Feb 15, 2026\n5YNC6CCH $0.00\nHeads up note Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year) Pald\nMember actlons\nNo facility referenced  Rebecca Ohayon\nService on Sep 17, 2025  Accumulation on Mar 12, 2026\nAAMSZV4Y $0.00\nFLBroward Medical claim  Initial inpatient hospital or birthing center same date care and discharge of newborn Paid\nFLO3-FLTeam No facility referenced Evelyn Tamayo\nService On Sep 16,2025. Accumulation on Apr 28,2026\nOscarplan:\nSilver Simple PCP Saver CSR 150\nFL HMO Standard\nView ID card A28Z91TK $0.00\nJeffin Alex Medical claim  Screening evaluation of brain response to sound with automated analysis Paid\nEffective 01/01/2026 No facility referenced -No provider referenced\n8 Individual Service on Sep 16, 2025  Accumulation on Jan 17, 2026\n$Current Balance due\nOscar Unlocks Not activated 4PYQV4FN $124.23\n# Medical claim - Chemical analysis for genetic disorder Denied\nBureau of Public Health Laboratories  No provider referenced\nMember tags Service On Sep 16,2025. Accumulation on Mar12,2026\nnextgen_blling_rosco_tag",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Search Rosco MR Melissa -\nYisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nOSC78747909-01R213XB6D Holder - ON exc\nActive Service on Feb 13, 2026 - Accumulation on Feb 15, 2026\n5YNC6CCH $0.00\nHeads up note Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year) Pald\nMember actlons\nNo facility referenced  Rebecca Ohayon\nService on Sep 17, 2025  Accumulation on Mar 12, 2026\nAAMSZV4Y $0.00\nFLBroward Medical claim  Initial inpatient hospital or birthing center same date care and discharge of newborn Paid\nFLO3-FLTeam No facility referenced Evelyn Tamayo\nService On Sep 16,2025. Accumulation on Apr 28,2026\nOscarplan:\nSilver Simple PCP Saver CSR 150\nFL HMO Standard\nView ID card A28Z91TK $0.00\nJeffin Alex Medical claim  Screening evaluation of brain response to sound with automated analysis Paid\nEffective 01/01/2026 No facility referenced -No provider referenced\n8 Individual Service on Sep 16, 2025  Accumulation on Jan 17, 2026\n$Current Balance due\nOscar Unlocks Not activated 4PYQV4FN $124.23\n# Medical claim - Chemical analysis for genetic disorder Denied\nBureau of Public Health Laboratories  No provider referenced\nMember tags Service On Sep 16,2025. Accumulation on Mar12,2026\nnextgen_blling_rosco_tag",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                22,
+                107,
+                1255,
+                209
+              ],
+              "text": "Active Service on Feb 13, 2026 - Accumulation on Feb 15, 2026\n5YNC6CCH $0.00",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Active Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+                  "conf": 0.9802553951740265,
+                  "bbox": [
+                    22,
+                    107,
+                    626,
+                    132
+                  ],
+                  "words": [
+                    {
+                      "text": "Active",
+                      "conf": 0.9863805174827576,
+                      "bbox": [
+                        22,
+                        115,
+                        64,
+                        132
+                      ]
+                    },
+                    {
+                      "text": "Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+                      "conf": 0.9741302728652954,
+                      "bbox": [
+                        302,
+                        107,
+                        626,
+                        123
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "5YNC6CCH $0.00",
+                  "conf": 0.9970650970935822,
+                  "bbox": [
+                    304,
+                    186,
+                    1255,
+                    209
+                  ],
+                  "words": [
+                    {
+                      "text": "5YNC6CCH",
+                      "conf": 0.995690107345581,
+                      "bbox": [
+                        304,
+                        186,
+                        381,
+                        202
+                      ]
+                    },
+                    {
+                      "text": "$0.00",
+                      "conf": 0.9984400868415833,
+                      "bbox": [
+                        1212,
+                        187,
+                        1255,
+                        209
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                304,
+                239,
+                1254,
+                358
+              ],
+              "text": "No facility referenced  Rebecca Ohayon\nService on Sep 17, 2025  Accumulation on Mar 12, 2026\nAAMSZV4Y $0.00",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "No facility referenced  Rebecca Ohayon",
+                  "conf": 0.9740625619888306,
+                  "bbox": [
+                    305,
+                    239,
+                    554,
+                    252
+                  ],
+                  "words": [
+                    {
+                      "text": "No facility referenced  Rebecca Ohayon",
+                      "conf": 0.9740625619888306,
+                      "bbox": [
+                        305,
+                        239,
+                        554,
+                        252
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Service on Sep 17, 2025  Accumulation on Mar 12, 2026",
+                  "conf": 0.9709323644638062,
+                  "bbox": [
+                    304,
+                    261,
+                    624,
+                    274
+                  ],
+                  "words": [
+                    {
+                      "text": "Service on Sep 17, 2025  Accumulation on Mar 12, 2026",
+                      "conf": 0.9709323644638062,
+                      "bbox": [
+                        304,
+                        261,
+                        624,
+                        274
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "AAMSZV4Y $0.00",
+                  "conf": 0.9974992871284485,
+                  "bbox": [
+                    304,
+                    339,
+                    1254,
+                    358
+                  ],
+                  "words": [
+                    {
+                      "text": "AAMSZV4Y",
+                      "conf": 0.9955204129219055,
+                      "bbox": [
+                        304,
+                        339,
+                        379,
+                        355
+                      ]
+                    },
+                    {
+                      "text": "$0.00",
+                      "conf": 0.9994781613349915,
+                      "bbox": [
+                        1214,
+                        340,
+                        1254,
+                        358
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 8,
+              "bbox": [
+                16,
+                384,
+                625,
+                425
+              ],
+              "text": "FLO3-FLTeam No facility referenced Evelyn Tamayo\nService 0n Sep 16,2025.Accumulation on Apr 28,2026",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "FLO3-FLTeam No facility referenced Evelyn Tamayo",
+                  "conf": 0.9413005113601685,
+                  "bbox": [
+                    16,
+                    384,
+                    542,
+                    406
+                  ],
+                  "words": [
+                    {
+                      "text": "FLO3-FLTeam",
+                      "conf": 0.9083719253540039,
+                      "bbox": [
+                        16,
+                        384,
+                        125,
+                        406
+                      ]
+                    },
+                    {
+                      "text": "No facility referenced Evelyn Tamayo",
+                      "conf": 0.974229097366333,
+                      "bbox": [
+                        305,
+                        391,
+                        542,
+                        404
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Service 0n Sep 16,2025.Accumulation on Apr 28,2026",
+                  "conf": 0.9315571784973145,
+                  "bbox": [
+                    304,
+                    412,
+                    625,
+                    425
+                  ],
+                  "words": [
+                    {
+                      "text": "Service 0n Sep 16,2025.Accumulation on Apr 28,2026",
+                      "conf": 0.9315571784973145,
+                      "bbox": [
+                        304,
+                        412,
+                        625,
+                        425
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 16,
+              "bbox": [
+                305,
+                668,
+                1252,
+                707
+              ],
+              "text": "# Medical claim - Chemical analysis for genetic disorder Denied\nBureau of Public Health Laboratories  No provider referenced",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "# Medical claim - Chemical analysis for genetic disorder Denied",
+                  "conf": 0.9710740447044373,
+                  "bbox": [
+                    305,
+                    668,
+                    1252,
+                    686
+                  ],
+                  "words": [
+                    {
+                      "text": "# Medical claim - Chemical analysis for genetic disorder",
+                      "conf": 0.94593745470047,
+                      "bbox": [
+                        305,
+                        672,
+                        626,
+                        685
+                      ]
+                    },
+                    {
+                      "text": "Denied",
+                      "conf": 0.9962106347084045,
+                      "bbox": [
+                        1205,
+                        668,
+                        1252,
+                        686
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Bureau of Public Health Laboratories  No provider referenced",
+                  "conf": 0.9928205609321594,
+                  "bbox": [
+                    324,
+                    694,
+                    670,
+                    707
+                  ],
+                  "words": [
+                    {
+                      "text": "Bureau of Public Health Laboratories  No provider referenced",
+                      "conf": 0.9928205609321594,
+                      "bbox": [
+                        324,
+                        694,
+                        670,
+                        707
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Active Service on Feb 13, 2026 - Accumulation on Feb 15, 2026\n5YNC6CCH $0.00\nNo facility referenced  Rebecca Ohayon\nService on Sep 17, 2025  Accumulation on Mar 12, 2026\nAAMSZV4Y $0.00\nFLO3-FLTeam No facility referenced Evelyn Tamayo\nService 0n Sep 16,2025.Accumulation on Apr 28,2026\n# Medical claim - Chemical analysis for genetic disorder Denied\nBureau of Public Health Laboratories  No provider referenced"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "text": "rosco Search Rosco MR Melissa -",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Search Rosco MR Melissa -",
+              "conf": 0.9159037321805954,
+              "bbox": [
+                14,
+                17,
+                1580,
+                34
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9885711669921875,
+                  "bbox": [
+                    14,
+                    17,
+                    72,
+                    34
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.9969816207885742,
+                  "bbox": [
+                    138,
+                    18,
+                    230,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9626892805099487,
+                  "bbox": [
+                    1465,
+                    18,
+                    1550,
+                    34
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7153728604316711,
+                  "bbox": [
+                    1565,
+                    23,
+                    1580,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            19,
+            73,
+            919,
+            102
+          ],
+          "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations",
+              "conf": 0.9902224077118768,
+              "bbox": [
+                19,
+                73,
+                919,
+                102
+              ],
+              "words": [
+                {
+                  "text": "Yisroel Dubov",
+                  "conf": 0.9807201027870178,
+                  "bbox": [
+                    19,
+                    81,
+                    152,
+                    102
+                  ]
+                },
+                {
+                  "text": "Member info",
+                  "conf": 0.9979149103164673,
+                  "bbox": [
+                    276,
+                    73,
+                    351,
+                    89
+                  ]
+                },
+                {
+                  "text": "Issues",
+                  "conf": 0.9983465075492859,
+                  "bbox": [
+                    366,
+                    74,
+                    405,
+                    88
+                  ]
+                },
+                {
+                  "text": "Policy detalls",
+                  "conf": 0.969422459602356,
+                  "bbox": [
+                    421,
+                    73,
+                    500,
+                    89
+                  ]
+                },
+                {
+                  "text": "Benefits",
+                  "conf": 0.99494469165802,
+                  "bbox": [
+                    515,
+                    74,
+                    568,
+                    89
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9910710453987122,
+                  "bbox": [
+                    584,
+                    74,
+                    625,
+                    88
+                  ]
+                },
+                {
+                  "text": "Billing & payments",
+                  "conf": 0.9807723164558411,
+                  "bbox": [
+                    642,
+                    75,
+                    748,
+                    88
+                  ]
+                },
+                {
+                  "text": "Rewards",
+                  "conf": 0.9993256330490112,
+                  "bbox": [
+                    762,
+                    73,
+                    818,
+                    89
+                  ]
+                },
+                {
+                  "text": "Authorizations",
+                  "conf": 0.9994840025901794,
+                  "bbox": [
+                    834,
+                    75,
+                    919,
+                    88
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            18,
+            140,
+            182,
+            176
+          ],
+          "text": "OSC78747909-01R213XB6D Holder - ON exc",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "OSC78747909-01R213XB6D Holder - ON exc",
+              "conf": 0.9625665843486786,
+              "bbox": [
+                18,
+                140,
+                182,
+                176
+              ],
+              "words": [
+                {
+                  "text": "OSC78747909-01R213XB6D Holder - ON exc",
+                  "conf": 0.9625665843486786,
+                  "bbox": [
+                    18,
+                    140,
+                    182,
+                    176
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            22,
+            107,
+            1255,
+            209
+          ],
+          "text": "Active Service on Feb 13, 2026 - Accumulation on Feb 15, 2026\n5YNC6CCH $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Active Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+              "conf": 0.9802553951740265,
+              "bbox": [
+                22,
+                107,
+                626,
+                132
+              ],
+              "words": [
+                {
+                  "text": "Active",
+                  "conf": 0.9863805174827576,
+                  "bbox": [
+                    22,
+                    115,
+                    64,
+                    132
+                  ]
+                },
+                {
+                  "text": "Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+                  "conf": 0.9741302728652954,
+                  "bbox": [
+                    302,
+                    107,
+                    626,
+                    123
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "5YNC6CCH $0.00",
+              "conf": 0.9970650970935822,
+              "bbox": [
+                304,
+                186,
+                1255,
+                209
+              ],
+              "words": [
+                {
+                  "text": "5YNC6CCH",
+                  "conf": 0.995690107345581,
+                  "bbox": [
+                    304,
+                    186,
+                    381,
+                    202
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9984400868415833,
+                  "bbox": [
+                    1212,
+                    187,
+                    1255,
+                    209
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            29,
+            209,
+            1252,
+            232
+          ],
+          "text": "Heads up note Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year) Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Heads up note Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year) Pald",
+              "conf": 0.9864356716473898,
+              "bbox": [
+                29,
+                209,
+                1252,
+                232
+              ],
+              "words": [
+                {
+                  "text": "Heads up note",
+                  "conf": 0.985341489315033,
+                  "bbox": [
+                    29,
+                    209,
+                    115,
+                    229
+                  ]
+                },
+                {
+                  "text": "Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year)",
+                  "conf": 0.9815569519996643,
+                  "bbox": [
+                    304,
+                    215,
+                    806,
+                    232
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9924085736274719,
+                  "bbox": [
+                    1221,
+                    214,
+                    1252,
+                    232
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            71,
+            307,
+            162,
+            320
+          ],
+          "text": "Member actlons",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member actlons",
+              "conf": 0.9564548134803772,
+              "bbox": [
+                71,
+                307,
+                162,
+                320
+              ],
+              "words": [
+                {
+                  "text": "Member actlons",
+                  "conf": 0.9564548134803772,
+                  "bbox": [
+                    71,
+                    307,
+                    162,
+                    320
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            304,
+            239,
+            1254,
+            358
+          ],
+          "text": "No facility referenced  Rebecca Ohayon\nService on Sep 17, 2025  Accumulation on Mar 12, 2026\nAAMSZV4Y $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "No facility referenced  Rebecca Ohayon",
+              "conf": 0.9740625619888306,
+              "bbox": [
+                305,
+                239,
+                554,
+                252
+              ],
+              "words": [
+                {
+                  "text": "No facility referenced  Rebecca Ohayon",
+                  "conf": 0.9740625619888306,
+                  "bbox": [
+                    305,
+                    239,
+                    554,
+                    252
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Service on Sep 17, 2025  Accumulation on Mar 12, 2026",
+              "conf": 0.9709323644638062,
+              "bbox": [
+                304,
+                261,
+                624,
+                274
+              ],
+              "words": [
+                {
+                  "text": "Service on Sep 17, 2025  Accumulation on Mar 12, 2026",
+                  "conf": 0.9709323644638062,
+                  "bbox": [
+                    304,
+                    261,
+                    624,
+                    274
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "AAMSZV4Y $0.00",
+              "conf": 0.9974992871284485,
+              "bbox": [
+                304,
+                339,
+                1254,
+                358
+              ],
+              "words": [
+                {
+                  "text": "AAMSZV4Y",
+                  "conf": 0.9955204129219055,
+                  "bbox": [
+                    304,
+                    339,
+                    379,
+                    355
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9994781613349915,
+                  "bbox": [
+                    1214,
+                    340,
+                    1254,
+                    358
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            17,
+            351,
+            1252,
+            383
+          ],
+          "text": "FLBroward Medical claim  Initial inpatient hospital or birthing center same date care and discharge of newborn Paid",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FLBroward Medical claim  Initial inpatient hospital or birthing center same date care and discharge of newborn Paid",
+              "conf": 0.9799473881721497,
+              "bbox": [
+                17,
+                351,
+                1252,
+                383
+              ],
+              "words": [
+                {
+                  "text": "FLBroward",
+                  "conf": 0.9760915040969849,
+                  "bbox": [
+                    17,
+                    351,
+                    113,
+                    373
+                  ]
+                },
+                {
+                  "text": " Medical claim  Initial inpatient hospital or birthing center same date care and discharge of newborn",
+                  "conf": 0.9939458966255188,
+                  "bbox": [
+                    305,
+                    369,
+                    880,
+                    382
+                  ]
+                },
+                {
+                  "text": "Paid",
+                  "conf": 0.9698047637939453,
+                  "bbox": [
+                    1221,
+                    365,
+                    1252,
+                    383
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 8,
+          "bbox": [
+            16,
+            384,
+            625,
+            425
+          ],
+          "text": "FLO3-FLTeam No facility referenced Evelyn Tamayo\nService 0n Sep 16,2025.Accumulation on Apr 28,2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FLO3-FLTeam No facility referenced Evelyn Tamayo",
+              "conf": 0.9413005113601685,
+              "bbox": [
+                16,
+                384,
+                542,
+                406
+              ],
+              "words": [
+                {
+                  "text": "FLO3-FLTeam",
+                  "conf": 0.9083719253540039,
+                  "bbox": [
+                    16,
+                    384,
+                    125,
+                    406
+                  ]
+                },
+                {
+                  "text": "No facility referenced Evelyn Tamayo",
+                  "conf": 0.974229097366333,
+                  "bbox": [
+                    305,
+                    391,
+                    542,
+                    404
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Service 0n Sep 16,2025.Accumulation on Apr 28,2026",
+              "conf": 0.9315571784973145,
+              "bbox": [
+                304,
+                412,
+                625,
+                425
+              ],
+              "words": [
+                {
+                  "text": "Service 0n Sep 16,2025.Accumulation on Apr 28,2026",
+                  "conf": 0.9315571784973145,
+                  "bbox": [
+                    304,
+                    412,
+                    625,
+                    425
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 9,
+          "bbox": [
+            17,
+            419,
+            106,
+            439
+          ],
+          "text": "Oscarplan:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscarplan:",
+              "conf": 0.9751992225646973,
+              "bbox": [
+                17,
+                419,
+                106,
+                439
+              ],
+              "words": [
+                {
+                  "text": "Oscarplan:",
+                  "conf": 0.9751992225646973,
+                  "bbox": [
+                    17,
+                    419,
+                    106,
+                    439
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 10,
+          "bbox": [
+            41,
+            443,
+            219,
+            456
+          ],
+          "text": "Silver Simple PCP Saver CSR 150",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.9651673436164856,
+              "bbox": [
+                41,
+                443,
+                219,
+                456
+              ],
+              "words": [
+                {
+                  "text": "Silver Simple PCP Saver CSR 150",
+                  "conf": 0.9651673436164856,
+                  "bbox": [
+                    41,
+                    443,
+                    219,
+                    456
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 11,
+          "bbox": [
+            39,
+            461,
+            142,
+            477
+          ],
+          "text": "FL HMO Standard",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FL HMO Standard",
+              "conf": 0.9986156821250916,
+              "bbox": [
+                39,
+                461,
+                142,
+                477
+              ],
+              "words": [
+                {
+                  "text": "FL HMO Standard",
+                  "conf": 0.9986156821250916,
+                  "bbox": [
+                    39,
+                    461,
+                    142,
+                    477
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 12,
+          "bbox": [
+            18,
+            480,
+            1255,
+            535
+          ],
+          "text": "View ID card A28Z91TK $0.00\nJeffin Alex Medical claim  Screening evaluation of brain response to sound with automated analysis Paid",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "View ID card A28Z91TK $0.00",
+              "conf": 0.9765094319979349,
+              "bbox": [
+                40,
+                480,
+                1255,
+                510
+              ],
+              "words": [
+                {
+                  "text": "View ID card",
+                  "conf": 0.9315194487571716,
+                  "bbox": [
+                    40,
+                    480,
+                    114,
+                    496
+                  ]
+                },
+                {
+                  "text": "A28Z91TK",
+                  "conf": 0.9989908337593079,
+                  "bbox": [
+                    304,
+                    490,
+                    370,
+                    507
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9990180134773254,
+                  "bbox": [
+                    1214,
+                    491,
+                    1255,
+                    510
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Jeffin Alex Medical claim  Screening evaluation of brain response to sound with automated analysis Paid",
+              "conf": 0.9468206961949667,
+              "bbox": [
+                18,
+                508,
+                1252,
+                535
+              ],
+              "words": [
+                {
+                  "text": "Jeffin Alex",
+                  "conf": 0.9443033337593079,
+                  "bbox": [
+                    18,
+                    508,
+                    102,
+                    526
+                  ]
+                },
+                {
+                  "text": " Medical claim  Screening evaluation of brain response to sound with automated analysis",
+                  "conf": 0.991993248462677,
+                  "bbox": [
+                    305,
+                    521,
+                    819,
+                    533
+                  ]
+                },
+                {
+                  "text": "Paid",
+                  "conf": 0.904165506362915,
+                  "bbox": [
+                    1221,
+                    517,
+                    1252,
+                    535
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 13,
+          "bbox": [
+            16,
+            536,
+            624,
+            591
+          ],
+          "text": "Effective 01/01/2026 No facility referenced -No provider referenced\n8Individual Service on Sep 16, 2025  Accumulation on Jan 17, 2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Effective 01/01/2026 No facility referenced -No provider referenced",
+              "conf": 0.9430016279220581,
+              "bbox": [
+                16,
+                536,
+                589,
+                560
+              ],
+              "words": [
+                {
+                  "text": "Effective 01/01/2026",
+                  "conf": 0.920835018157959,
+                  "bbox": [
+                    16,
+                    536,
+                    158,
+                    560
+                  ]
+                },
+                {
+                  "text": "No facility referenced -No provider referenced",
+                  "conf": 0.9651682376861572,
+                  "bbox": [
+                    305,
+                    542,
+                    589,
+                    555
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "8Individual Service on Sep 16, 2025  Accumulation on Jan 17, 2026",
+              "conf": 0.9733486473560333,
+              "bbox": [
+                17,
+                563,
+                624,
+                591
+              ],
+              "words": [
+                {
+                  "text": "8Individual",
+                  "conf": 0.960349440574646,
+                  "bbox": [
+                    17,
+                    570,
+                    98,
+                    591
+                  ]
+                },
+                {
+                  "text": "Service on Sep 16, 2025  Accumulation on Jan 17, 2026",
+                  "conf": 0.9863478541374207,
+                  "bbox": [
+                    302,
+                    563,
+                    624,
+                    579
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 14,
+          "bbox": [
+            19,
+            605,
+            161,
+            624
+          ],
+          "text": "$CurrentBalance due",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "$CurrentBalance due",
+              "conf": 0.9776345491409302,
+              "bbox": [
+                19,
+                605,
+                161,
+                624
+              ],
+              "words": [
+                {
+                  "text": "$CurrentBalance due",
+                  "conf": 0.9776345491409302,
+                  "bbox": [
+                    19,
+                    605,
+                    161,
+                    624
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 15,
+          "bbox": [
+            19,
+            639,
+            1254,
+            674
+          ],
+          "text": "Oscar Unlocks Not activated 4PYQV4FN $124.23",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscar Unlocks Not activated 4PYQV4FN $124.23",
+              "conf": 0.9957242210706075,
+              "bbox": [
+                19,
+                639,
+                1254,
+                674
+              ],
+              "words": [
+                {
+                  "text": "Oscar Unlocks Not activated",
+                  "conf": 0.9898644685745239,
+                  "bbox": [
+                    19,
+                    639,
+                    122,
+                    674
+                  ]
+                },
+                {
+                  "text": "4PYQV4FN",
+                  "conf": 0.9986029863357544,
+                  "bbox": [
+                    304,
+                    642,
+                    376,
+                    658
+                  ]
+                },
+                {
+                  "text": "$124.23",
+                  "conf": 0.9987052083015442,
+                  "bbox": [
+                    1204,
+                    644,
+                    1254,
+                    662
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 16,
+          "bbox": [
+            305,
+            668,
+            1252,
+            707
+          ],
+          "text": "# Medical claim - Chemical analysis for genetic disorder Denied\nBureau of Public Health Laboratories  No provider referenced",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "# Medical claim - Chemical analysis for genetic disorder Denied",
+              "conf": 0.9710740447044373,
+              "bbox": [
+                305,
+                668,
+                1252,
+                686
+              ],
+              "words": [
+                {
+                  "text": "# Medical claim - Chemical analysis for genetic disorder",
+                  "conf": 0.94593745470047,
+                  "bbox": [
+                    305,
+                    672,
+                    626,
+                    685
+                  ]
+                },
+                {
+                  "text": "Denied",
+                  "conf": 0.9962106347084045,
+                  "bbox": [
+                    1205,
+                    668,
+                    1252,
+                    686
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Bureau of Public Health Laboratories  No provider referenced",
+              "conf": 0.9928205609321594,
+              "bbox": [
+                324,
+                694,
+                670,
+                707
+              ],
+              "words": [
+                {
+                  "text": "Bureau of Public Health Laboratories  No provider referenced",
+                  "conf": 0.9928205609321594,
+                  "bbox": [
+                    324,
+                    694,
+                    670,
+                    707
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 17,
+          "bbox": [
+            16,
+            706,
+            625,
+            761
+          ],
+          "text": "Member tags Service 0n Sep 16,2025.Accumulation on Mar12,2026\nnextgen_blling_rosco_tag",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member tags Service 0n Sep 16,2025.Accumulation on Mar12,2026",
+              "conf": 0.9423291087150574,
+              "bbox": [
+                16,
+                706,
+                625,
+                727
+              ],
+              "words": [
+                {
+                  "text": "Member tags",
+                  "conf": 0.9601938128471375,
+                  "bbox": [
+                    16,
+                    706,
+                    96,
+                    727
+                  ]
+                },
+                {
+                  "text": "Service 0n Sep 16,2025.Accumulation on Mar12,2026",
+                  "conf": 0.9244644045829773,
+                  "bbox": [
+                    304,
+                    714,
+                    625,
+                    727
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "nextgen_blling_rosco_tag",
+              "conf": 0.9593366980552673,
+              "bbox": [
+                22,
+                745,
+                175,
+                761
+              ],
+              "words": [
+                {
+                  "text": "nextgen_blling_rosco_tag",
+                  "conf": 0.9593366980552673,
+                  "bbox": [
+                    22,
+                    745,
+                    175,
+                    761
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            14,
+            17,
+            1580,
+            761
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>Search Rosco</td><td>MR Melissa</td><td>-</td></tr><tr><td>Member info Issues Policy detalls Benefits Claims Billing &amp; payments Rewards</td><td></td><td>Authorizations</td><td></td></tr><tr><td>Yisroel Dubov</td><td></td><td></td><td></td></tr><tr><td>Active</td><td>Service on Feb 13, 2026 - Accumulation on Feb 15, 2026</td><td></td><td></td></tr><tr><td>OSC78747909-01R213XB6D Holder - ON exc</td><td></td><td></td><td></td></tr><tr><td>5YNC6CCH</td><td></td><td>$0.00</td><td></td></tr><tr><td>Heads up note</td><td>Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year)</td><td>Pald</td><td></td></tr><tr><td>No facility referenced Rebecca Ohayon</td><td></td><td></td><td></td></tr><tr><td>Service on Sep 17, 2025 Accumulation on Mar 12, 2026</td><td></td><td></td><td></td></tr><tr><td>Member actlons</td><td></td><td></td><td></td></tr><tr><td>AAMSZV4Y</td><td></td><td>$0.00</td><td></td></tr><tr><td>FLBroward</td><td></td><td></td><td></td></tr><tr><td>Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn</td><td></td><td>Paid</td><td></td></tr><tr><td>FLO3-FLTeam</td><td>No facility referenced Evelyn Tamayo</td><td></td><td></td></tr><tr><td>Service 0n Sep 16,2025.Accumulation on Apr 28,2026</td><td></td><td></td><td></td></tr><tr><td>Oscarplan:</td><td></td><td></td><td></td></tr><tr><td>Silver Simple PCP Saver CSR 150</td><td></td><td></td><td></td></tr><tr><td>FL HMO Standard</td><td></td><td></td><td></td></tr><tr><td>View ID card</td><td></td><td></td><td></td></tr><tr><td>A28Z91TK</td><td></td><td>$0.00</td><td></td></tr><tr><td>$CurrentBalance due</td><td></td><td></td><td></td></tr><tr><td>Bureau of Public Health Laboratories No provider referenced</td><td></td><td></td><td></td></tr><tr><td>Member tags</td><td>Service 0n Sep 16,2025.Accumulation on Mar12,2026</td><td></td><td></td></tr><tr><td>nextgen_blling_rosco_tag</td><td></td><td></td><td></td></tr></table>",
+          "text": "rosco: Search Rosco\nMR Melissa: -\nMember info Issues Policy detalls Benefits Claims Billing & payments Rewards: \nAuthorizations: \nYisroel Dubov: \nActive: Service on Feb 13, 2026 - Accumulation on Feb 15, 2026\nOSC78747909-01R213XB6D Holder - ON exc: \n5YNC6CCH: \n$0.00: \nHeads up note: Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year)\nPald: \nNo facility referenced Rebecca Ohayon: \nService on Sep 17, 2025 Accumulation on Mar 12, 2026: \nMember actlons: \nAAMSZV4Y: \n$0.00: \nFLBroward: \nMedical claim Initial inpatient hospital or birthing center same date care and discharge of newborn: \nPaid: \nFLO3-FLTeam: No facility referenced Evelyn Tamayo\nService 0n Sep 16,2025.Accumulation on Apr 28,2026: \nOscarplan:: \nSilver Simple PCP Saver CSR 150: \nFL HMO Standard: \nView ID card: \nA28Z91TK: \n$0.00: \n$CurrentBalance due: \nBureau of Public Health Laboratories No provider referenced: \nMember tags: Service 0n Sep 16,2025.Accumulation on Mar12,2026\nnextgen_blling_rosco_tag: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "Search Rosco",
+              "MR Melissa",
+              "-"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing & payments Rewards",
+              "",
+              "Authorizations",
+              ""
+            ],
+            [
+              "Yisroel Dubov",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Active",
+              "Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+              "",
+              ""
+            ],
+            [
+              "OSC78747909-01R213XB6D Holder - ON exc",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5YNC6CCH",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "Heads up note",
+              "Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year)",
+              "Pald",
+              ""
+            ],
+            [
+              "No facility referenced Rebecca Ohayon",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Service on Sep 17, 2025 Accumulation on Mar 12, 2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Member actlons",
+              "",
+              "",
+              ""
+            ],
+            [
+              "AAMSZV4Y",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "FLBroward",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Medical claim Initial inpatient hospital or birthing center same date care and discharge of newborn",
+              "",
+              "Paid",
+              ""
+            ],
+            [
+              "FLO3-FLTeam",
+              "No facility referenced Evelyn Tamayo",
+              "",
+              ""
+            ],
+            [
+              "Service 0n Sep 16,2025.Accumulation on Apr 28,2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Oscarplan:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150",
+              "",
+              "",
+              ""
+            ],
+            [
+              "FL HMO Standard",
+              "",
+              "",
+              ""
+            ],
+            [
+              "View ID card",
+              "",
+              "",
+              ""
+            ],
+            [
+              "A28Z91TK",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "$CurrentBalance due",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Bureau of Public Health Laboratories No provider referenced",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Member tags",
+              "Service 0n Sep 16,2025.Accumulation on Mar12,2026",
+              "",
+              ""
+            ],
+            [
+              "nextgen_blling_rosco_tag",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco Search Rosco",
+              "MR Melissa -"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing & payments Rewards",
+              "Authorizations"
+            ],
+            [
+              "Yisroel Dubov",
+              ""
+            ],
+            [
+              "Active Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+              ""
+            ],
+            [
+              "OSC78747909-01R213XB6D Holder - ON exc",
+              ""
+            ],
+            [
+              "5YNC6CCH",
+              "$0.00"
+            ],
+            [
+              "Heads up note Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year)",
+              "Pald"
+            ],
+            [
+              "No facility referenced  Rebecca Ohayon",
+              ""
+            ],
+            [
+              "Service on Sep 17, 2025  Accumulation on Mar 12, 2026",
+              ""
+            ],
+            [
+              "Member actlons",
+              ""
+            ],
+            [
+              "AAMSZV4Y",
+              "$0.00"
+            ],
+            [
+              "FLBroward",
+              ""
+            ],
+            [
+              "Medical claim  Initial inpatient hospital or birthing center same date care and discharge of newborn",
+              "Paid"
+            ],
+            [
+              "FLO3-FLTeam No facility referenced Evelyn Tamayo",
+              ""
+            ],
+            [
+              "Service 0n Sep 16,2025.Accumulation on Apr 28,2026",
+              ""
+            ],
+            [
+              "Oscarplan:",
+              ""
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150",
+              ""
+            ],
+            [
+              "FL HMO Standard",
+              ""
+            ],
+            [
+              "View ID card",
+              ""
+            ],
+            [
+              "A28Z91TK",
+              "$0.00"
+            ],
+            [
+              "$CurrentBalance due",
+              ""
+            ],
+            [
+              "Bureau of Public Health Laboratories  No provider referenced",
+              ""
+            ],
+            [
+              "Member tags Service 0n Sep 16,2025.Accumulation on Mar12,2026",
+              ""
+            ],
+            [
+              "nextgen_blling_rosco_tag",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            16,
+            508,
+            1252,
+            591
+          ],
+          "html": "<table><tr><th>Jeffin Alex</th><th>Medical claim  Screening evaluation of brain response to sound with automated analysis</th><th>Paid</th></tr><tr><td>Effective 01/01/2026</td><td>No facility referenced -No provider referenced</td><td></td></tr><tr><td>8Individual</td><td>Service on Sep 16, 2025  Accumulation on Jan 17, 2026</td><td></td></tr></table>",
+          "text": "Effective 01/01/2026 | No facility referenced -No provider referenced | \n8Individual | Service on Sep 16, 2025  Accumulation on Jan 17, 2026 | ",
+          "headers": [
+            "Jeffin Alex",
+            "Medical claim  Screening evaluation of brain response to sound with automated analysis",
+            "Paid"
+          ],
+          "rows": [
+            [
+              "Effective 01/01/2026",
+              "No facility referenced -No provider referenced",
+              ""
+            ],
+            [
+              "8Individual",
+              "Service on Sep 16, 2025  Accumulation on Jan 17, 2026",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            19,
+            639,
+            1254,
+            686
+          ],
+          "html": "<table><tr><th>Oscar Unlocks Not activated</th><th>4PYQV4FN</th><th>$124.23</th></tr><tr><td></td><td># Medical claim - Chemical analysis for genetic disorder</td><td>Denied</td></tr></table>",
+          "text": " | # Medical claim - Chemical analysis for genetic disorder | Denied",
+          "headers": [
+            "Oscar Unlocks Not activated",
+            "4PYQV4FN",
+            "$124.23"
+          ],
+          "rows": [
+            [
+              "",
+              "# Medical claim - Chemical analysis for genetic disorder",
+              "Denied"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Search Rosco MR Melissa -",
+          "conf": 0.9159037321805954,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9885711669921875,
+              "bbox": [
+                14,
+                17,
+                72,
+                34
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.9969816207885742,
+              "bbox": [
+                138,
+                18,
+                230,
+                34
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9626892805099487,
+              "bbox": [
+                1465,
+                18,
+                1550,
+                34
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7153728604316711,
+              "bbox": [
+                1565,
+                23,
+                1580,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations",
+          "conf": 0.9902224077118768,
+          "bbox": [
+            19,
+            73,
+            919,
+            102
+          ],
+          "words": [
+            {
+              "text": "Yisroel Dubov",
+              "conf": 0.9807201027870178,
+              "bbox": [
+                19,
+                81,
+                152,
+                102
+              ]
+            },
+            {
+              "text": "Member info",
+              "conf": 0.9979149103164673,
+              "bbox": [
+                276,
+                73,
+                351,
+                89
+              ]
+            },
+            {
+              "text": "Issues",
+              "conf": 0.9983465075492859,
+              "bbox": [
+                366,
+                74,
+                405,
+                88
+              ]
+            },
+            {
+              "text": "Policy detalls",
+              "conf": 0.969422459602356,
+              "bbox": [
+                421,
+                73,
+                500,
+                89
+              ]
+            },
+            {
+              "text": "Benefits",
+              "conf": 0.99494469165802,
+              "bbox": [
+                515,
+                74,
+                568,
+                89
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9910710453987122,
+              "bbox": [
+                584,
+                74,
+                625,
+                88
+              ]
+            },
+            {
+              "text": "Billing & payments",
+              "conf": 0.9807723164558411,
+              "bbox": [
+                642,
+                75,
+                748,
+                88
+              ]
+            },
+            {
+              "text": "Rewards",
+              "conf": 0.9993256330490112,
+              "bbox": [
+                762,
+                73,
+                818,
+                89
+              ]
+            },
+            {
+              "text": "Authorizations",
+              "conf": 0.9994840025901794,
+              "bbox": [
+                834,
+                75,
+                919,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OSC78747909-01R213XB6D Holder - ON exc",
+          "conf": 0.9625665843486786,
+          "bbox": [
+            18,
+            140,
+            182,
+            176
+          ],
+          "words": [
+            {
+              "text": "OSC78747909-01R213XB6D Holder - ON exc",
+              "conf": 0.9625665843486786,
+              "bbox": [
+                18,
+                140,
+                182,
+                176
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Active Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+          "conf": 0.9802553951740265,
+          "bbox": [
+            22,
+            107,
+            626,
+            132
+          ],
+          "words": [
+            {
+              "text": "Active",
+              "conf": 0.9863805174827576,
+              "bbox": [
+                22,
+                115,
+                64,
+                132
+              ]
+            },
+            {
+              "text": "Service on Feb 13, 2026 - Accumulation on Feb 15, 2026",
+              "conf": 0.9741302728652954,
+              "bbox": [
+                302,
+                107,
+                626,
+                123
+              ]
+            }
+          ]
+        },
+        {
+          "text": "5YNC6CCH $0.00",
+          "conf": 0.9970650970935822,
+          "bbox": [
+            304,
+            186,
+            1255,
+            209
+          ],
+          "words": [
+            {
+              "text": "5YNC6CCH",
+              "conf": 0.995690107345581,
+              "bbox": [
+                304,
+                186,
+                381,
+                202
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9984400868415833,
+              "bbox": [
+                1212,
+                187,
+                1255,
+                209
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Heads up note Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year) Pald",
+          "conf": 0.9864356716473898,
+          "bbox": [
+            29,
+            209,
+            1252,
+            232
+          ],
+          "words": [
+            {
+              "text": "Heads up note",
+              "conf": 0.985341489315033,
+              "bbox": [
+                29,
+                209,
+                115,
+                229
+              ]
+            },
+            {
+              "text": "Medical claim  Initial new patient preventive medicine evaluation (younger than 1 year)",
+              "conf": 0.9815569519996643,
+              "bbox": [
+                304,
+                215,
+                806,
+                232
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9924085736274719,
+              "bbox": [
+                1221,
+                214,
+                1252,
+                232
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member actlons",
+          "conf": 0.9564548134803772,
+          "bbox": [
+            71,
+            307,
+            162,
+            320
+          ],
+          "words": [
+            {
+              "text": "Member actlons",
+              "conf": 0.9564548134803772,
+              "bbox": [
+                71,
+                307,
+                162,
+                320
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No facility referenced  Rebecca Ohayon",
+          "conf": 0.9740625619888306,
+          "bbox": [
+            305,
+            239,
+            554,
+            252
+          ],
+          "words": [
+            {
+              "text": "No facility referenced  Rebecca Ohayon",
+              "conf": 0.9740625619888306,
+              "bbox": [
+                305,
+                239,
+                554,
+                252
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service on Sep 17, 2025  Accumulation on Mar 12, 2026",
+          "conf": 0.9709323644638062,
+          "bbox": [
+            304,
+            261,
+            624,
+            274
+          ],
+          "words": [
+            {
+              "text": "Service on Sep 17, 2025  Accumulation on Mar 12, 2026",
+              "conf": 0.9709323644638062,
+              "bbox": [
+                304,
+                261,
+                624,
+                274
+              ]
+            }
+          ]
+        },
+        {
+          "text": "AAMSZV4Y $0.00",
+          "conf": 0.9974992871284485,
+          "bbox": [
+            304,
+            339,
+            1254,
+            358
+          ],
+          "words": [
+            {
+              "text": "AAMSZV4Y",
+              "conf": 0.9955204129219055,
+              "bbox": [
+                304,
+                339,
+                379,
+                355
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9994781613349915,
+              "bbox": [
+                1214,
+                340,
+                1254,
+                358
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLBroward Medical claim  Initial inpatient hospital or birthing center same date care and discharge of newborn Paid",
+          "conf": 0.9799473881721497,
+          "bbox": [
+            17,
+            351,
+            1252,
+            383
+          ],
+          "words": [
+            {
+              "text": "FLBroward",
+              "conf": 0.9760915040969849,
+              "bbox": [
+                17,
+                351,
+                113,
+                373
+              ]
+            },
+            {
+              "text": " Medical claim  Initial inpatient hospital or birthing center same date care and discharge of newborn",
+              "conf": 0.9939458966255188,
+              "bbox": [
+                305,
+                369,
+                880,
+                382
+              ]
+            },
+            {
+              "text": "Paid",
+              "conf": 0.9698047637939453,
+              "bbox": [
+                1221,
+                365,
+                1252,
+                383
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLO3-FLTeam No facility referenced Evelyn Tamayo",
+          "conf": 0.9413005113601685,
+          "bbox": [
+            16,
+            384,
+            542,
+            406
+          ],
+          "words": [
+            {
+              "text": "FLO3-FLTeam",
+              "conf": 0.9083719253540039,
+              "bbox": [
+                16,
+                384,
+                125,
+                406
+              ]
+            },
+            {
+              "text": "No facility referenced Evelyn Tamayo",
+              "conf": 0.974229097366333,
+              "bbox": [
+                305,
+                391,
+                542,
+                404
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service 0n Sep 16,2025.Accumulation on Apr 28,2026",
+          "conf": 0.9315571784973145,
+          "bbox": [
+            304,
+            412,
+            625,
+            425
+          ],
+          "words": [
+            {
+              "text": "Service 0n Sep 16,2025.Accumulation on Apr 28,2026",
+              "conf": 0.9315571784973145,
+              "bbox": [
+                304,
+                412,
+                625,
+                425
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscarplan:",
+          "conf": 0.9751992225646973,
+          "bbox": [
+            17,
+            419,
+            106,
+            439
+          ],
+          "words": [
+            {
+              "text": "Oscarplan:",
+              "conf": 0.9751992225646973,
+              "bbox": [
+                17,
+                419,
+                106,
+                439
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Silver Simple PCP Saver CSR 150",
+          "conf": 0.9651673436164856,
+          "bbox": [
+            41,
+            443,
+            219,
+            456
+          ],
+          "words": [
+            {
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.9651673436164856,
+              "bbox": [
+                41,
+                443,
+                219,
+                456
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FL HMO Standard",
+          "conf": 0.9986156821250916,
+          "bbox": [
+            39,
+            461,
+            142,
+            477
+          ],
+          "words": [
+            {
+              "text": "FL HMO Standard",
+              "conf": 0.9986156821250916,
+              "bbox": [
+                39,
+                461,
+                142,
+                477
+              ]
+            }
+          ]
+        },
+        {
+          "text": "View ID card A28Z91TK $0.00",
+          "conf": 0.9765094319979349,
+          "bbox": [
+            40,
+            480,
+            1255,
+            510
+          ],
+          "words": [
+            {
+              "text": "View ID card",
+              "conf": 0.9315194487571716,
+              "bbox": [
+                40,
+                480,
+                114,
+                496
+              ]
+            },
+            {
+              "text": "A28Z91TK",
+              "conf": 0.9989908337593079,
+              "bbox": [
+                304,
+                490,
+                370,
+                507
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9990180134773254,
+              "bbox": [
+                1214,
+                491,
+                1255,
+                510
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jeffin Alex Medical claim  Screening evaluation of brain response to sound with automated analysis Paid",
+          "conf": 0.9468206961949667,
+          "bbox": [
+            18,
+            508,
+            1252,
+            535
+          ],
+          "words": [
+            {
+              "text": "Jeffin Alex",
+              "conf": 0.9443033337593079,
+              "bbox": [
+                18,
+                508,
+                102,
+                526
+              ]
+            },
+            {
+              "text": " Medical claim  Screening evaluation of brain response to sound with automated analysis",
+              "conf": 0.991993248462677,
+              "bbox": [
+                305,
+                521,
+                819,
+                533
+              ]
+            },
+            {
+              "text": "Paid",
+              "conf": 0.904165506362915,
+              "bbox": [
+                1221,
+                517,
+                1252,
+                535
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Effective 01/01/2026 No facility referenced -No provider referenced",
+          "conf": 0.9430016279220581,
+          "bbox": [
+            16,
+            536,
+            589,
+            560
+          ],
+          "words": [
+            {
+              "text": "Effective 01/01/2026",
+              "conf": 0.920835018157959,
+              "bbox": [
+                16,
+                536,
+                158,
+                560
+              ]
+            },
+            {
+              "text": "No facility referenced -No provider referenced",
+              "conf": 0.9651682376861572,
+              "bbox": [
+                305,
+                542,
+                589,
+                555
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8Individual Service on Sep 16, 2025  Accumulation on Jan 17, 2026",
+          "conf": 0.9733486473560333,
+          "bbox": [
+            17,
+            563,
+            624,
+            591
+          ],
+          "words": [
+            {
+              "text": "8Individual",
+              "conf": 0.960349440574646,
+              "bbox": [
+                17,
+                570,
+                98,
+                591
+              ]
+            },
+            {
+              "text": "Service on Sep 16, 2025  Accumulation on Jan 17, 2026",
+              "conf": 0.9863478541374207,
+              "bbox": [
+                302,
+                563,
+                624,
+                579
+              ]
+            }
+          ]
+        },
+        {
+          "text": "$CurrentBalance due",
+          "conf": 0.9776345491409302,
+          "bbox": [
+            19,
+            605,
+            161,
+            624
+          ],
+          "words": [
+            {
+              "text": "$CurrentBalance due",
+              "conf": 0.9776345491409302,
+              "bbox": [
+                19,
+                605,
+                161,
+                624
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar Unlocks Not activated 4PYQV4FN $124.23",
+          "conf": 0.9957242210706075,
+          "bbox": [
+            19,
+            639,
+            1254,
+            674
+          ],
+          "words": [
+            {
+              "text": "Oscar Unlocks Not activated",
+              "conf": 0.9898644685745239,
+              "bbox": [
+                19,
+                639,
+                122,
+                674
+              ]
+            },
+            {
+              "text": "4PYQV4FN",
+              "conf": 0.9986029863357544,
+              "bbox": [
+                304,
+                642,
+                376,
+                658
+              ]
+            },
+            {
+              "text": "$124.23",
+              "conf": 0.9987052083015442,
+              "bbox": [
+                1204,
+                644,
+                1254,
+                662
+              ]
+            }
+          ]
+        },
+        {
+          "text": "# Medical claim - Chemical analysis for genetic disorder Denied",
+          "conf": 0.9710740447044373,
+          "bbox": [
+            305,
+            668,
+            1252,
+            686
+          ],
+          "words": [
+            {
+              "text": "# Medical claim - Chemical analysis for genetic disorder",
+              "conf": 0.94593745470047,
+              "bbox": [
+                305,
+                672,
+                626,
+                685
+              ]
+            },
+            {
+              "text": "Denied",
+              "conf": 0.9962106347084045,
+              "bbox": [
+                1205,
+                668,
+                1252,
+                686
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Bureau of Public Health Laboratories  No provider referenced",
+          "conf": 0.9928205609321594,
+          "bbox": [
+            324,
+            694,
+            670,
+            707
+          ],
+          "words": [
+            {
+              "text": "Bureau of Public Health Laboratories  No provider referenced",
+              "conf": 0.9928205609321594,
+              "bbox": [
+                324,
+                694,
+                670,
+                707
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member tags Service 0n Sep 16,2025.Accumulation on Mar12,2026",
+          "conf": 0.9423291087150574,
+          "bbox": [
+            16,
+            706,
+            625,
+            727
+          ],
+          "words": [
+            {
+              "text": "Member tags",
+              "conf": 0.9601938128471375,
+              "bbox": [
+                16,
+                706,
+                96,
+                727
+              ]
+            },
+            {
+              "text": "Service 0n Sep 16,2025.Accumulation on Mar12,2026",
+              "conf": 0.9244644045829773,
+              "bbox": [
+                304,
+                714,
+                625,
+                727
+              ]
+            }
+          ]
+        },
+        {
+          "text": "nextgen_blling_rosco_tag",
+          "conf": 0.9593366980552673,
+          "bbox": [
+            22,
+            745,
+            175,
+            761
+          ],
+          "words": [
+            {
+              "text": "nextgen_blling_rosco_tag",
+              "conf": 0.9593366980552673,
+              "bbox": [
+                22,
+                745,
+                175,
+                761
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

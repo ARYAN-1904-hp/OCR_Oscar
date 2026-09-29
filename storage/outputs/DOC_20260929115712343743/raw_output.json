@@ -1,0 +1,4560 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)\nParent / Main Organization Information:.\negal Business Name Legal Business Name\nBlue Horizon Community Health Services, Inc. Blue Horizon Care Network\nStreet Address Suite # Street Address Suite #\n2450 westlake Avenue Suite 410 2450 Westlake Avenue Suite 410\nCity Sacramento State CA Zip 95815 City Sacramento State CA Zip 95815\nPhone Fax Phone Fax\n[555)310-2400 (555) 310-2401 (555) 310-2400 (555) 310-2401\nEmail: Email:\ninfo@bluehorizon.example.org. operations@bluehorizon.example.org\nPractice Locations\nAddress Information\n(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).\nPrimary Facility Location Second Facility Location (if applicable).\nLegal Business Name Legal Business Name\nBlue Horizon Community Health Services. Blue Horizon South Clinic\nStreet Address Suite# Street Address Suite#\n2450 Westlake Avenue Suite 410 880 Harbor Boulevard Suite 120\nCity State Zip Code County City State Zip Code County\nSacramento CA 95815 Sacramento West Sacramento CA 95691 Yolo\nPhone Fax TY Number Phone Fax TY Number\n555]310-2400 (555) 310-2401 711 [555) 310-2420 [555) 310-2421 711\nNPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): Federal Tax ID (if different from above):.\n84-3179265 84-3179265\nEmail: Email:\necm@bluehorizon.example.org southclinic@bluehorizon.example.org\nTranslation Services Available Yes No Translation Services Available Yes No\nBusiness Hours Schedule: Business Hours Schedule:\n8:00 AM- 5:00 MOTOWIHEF 8:30 AMI-5:30 M ot ow oth ef\nPM PMI\nWhat is your current capacity to accept referrals for this service (number of referrals your organization can manage at any\ngiventime?):\nApproximately 85 active ECM referrals across both locations..\nTranslation Services Available (left): Unknown\nTranslation Services Available (right): Yes",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1306,
+      "height": 1500,
+      "text": "SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)\nParent / Main Organization Information:.\negal Business Name Legal Business Name\nBlue Horizon Community Health Services, Inc. Blue Horizon Care Network\nStreet Address Suite # Street Address Suite #\n2450 westlake Avenue Suite 410 2450 Westlake Avenue Suite 410\nCity Sacramento State CA Zip 95815 City Sacramento State CA Zip 95815\nPhone Fax Phone Fax\n[555)310-2400 (555) 310-2401 (555) 310-2400 (555) 310-2401\nEmail: Email:\ninfo@bluehorizon.example.org. operations@bluehorizon.example.org\nPractice Locations\nAddress Information\n(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).\nPrimary Facility Location Second Facility Location (if applicable).\nLegal Business Name Legal Business Name\nBlue Horizon Community Health Services. Blue Horizon South Clinic\nStreet Address Suite# Street Address Suite#\n2450 Westlake Avenue Suite 410 880 Harbor Boulevard Suite 120\nCity State Zip Code County City State Zip Code County\nSacramento CA 95815 Sacramento West Sacramento CA 95691 Yolo\nPhone Fax TY Number Phone Fax TY Number\n555]310-2400 (555) 310-2401 711 [555) 310-2420 [555) 310-2421 711\nNPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): Federal Tax ID (if different from above):.\n84-3179265 84-3179265\nEmail: Email:\necm@bluehorizon.example.org southclinic@bluehorizon.example.org\nTranslation Services Available Yes No Translation Services Available Yes No\nBusiness Hours Schedule: Business Hours Schedule:\n8:00 AM- 5:00 MOTOWIHEF 8:30 AMI-5:30 M ot ow oth ef\nPM PMI\nWhat is your current capacity to accept referrals for this service (number of referrals your organization can manage at any\ngiventime?):\nApproximately 85 active ECM referrals across both locations..\nTranslation Services Available (left): Unknown\nTranslation Services Available (right): Yes",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1306
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                56,
+                371,
+                760,
+                393
+              ],
+              "text": "Email: Email:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Email: Email:",
+                  "conf": 0.9973587393760681,
+                  "bbox": [
+                    56,
+                    371,
+                    760,
+                    393
+                  ],
+                  "words": [
+                    {
+                      "text": "Email:",
+                      "conf": 0.9963281750679016,
+                      "bbox": [
+                        56,
+                        371,
+                        118,
+                        393
+                      ]
+                    },
+                    {
+                      "text": "Email:",
+                      "conf": 0.9983893036842346,
+                      "bbox": [
+                        700,
+                        371,
+                        760,
+                        393
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                54,
+                400,
+                1072,
+                470
+              ],
+              "text": "info@bluehorizon.example.org. operations@bluehorizon.example.org\nPracticeLocations",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "info@bluehorizon.example.org. operations@bluehorizon.example.org",
+                  "conf": 0.987985372543335,
+                  "bbox": [
+                    54,
+                    400,
+                    1072,
+                    424
+                  ],
+                  "words": [
+                    {
+                      "text": "info@bluehorizon.example.org.",
+                      "conf": 0.9790077805519104,
+                      "bbox": [
+                        54,
+                        401,
+                        360,
+                        423
+                      ]
+                    },
+                    {
+                      "text": "operations@bluehorizon.example.org",
+                      "conf": 0.9969629645347595,
+                      "bbox": [
+                        697,
+                        400,
+                        1072,
+                        424
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "PracticeLocations",
+                  "conf": 0.9991205930709839,
+                  "bbox": [
+                    580,
+                    450,
+                    773,
+                    470
+                  ],
+                  "words": [
+                    {
+                      "text": "PracticeLocations",
+                      "conf": 0.9991205930709839,
+                      "bbox": [
+                        580,
+                        450,
+                        773,
+                        470
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 5,
+              "bbox": [
+                364,
+                485,
+                566,
+                504
+              ],
+              "text": "Address Information",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Address Information",
+                  "conf": 0.9721160531044006,
+                  "bbox": [
+                    364,
+                    485,
+                    566,
+                    504
+                  ],
+                  "words": [
+                    {
+                      "text": "Address Information",
+                      "conf": 0.9721160531044006,
+                      "bbox": [
+                        364,
+                        485,
+                        566,
+                        504
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                87,
+                507,
+                1186,
+                574
+              ],
+              "text": "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).\nPrimary Facility Location Second Facility Location (if applicable).",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).",
+                  "conf": 0.9700808525085449,
+                  "bbox": [
+                    87,
+                    507,
+                    841,
+                    532
+                  ],
+                  "words": [
+                    {
+                      "text": "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).",
+                      "conf": 0.9700808525085449,
+                      "bbox": [
+                        87,
+                        507,
+                        841,
+                        532
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Primary Facility Location Second Facility Location (if applicable).",
+                  "conf": 0.9796452820301056,
+                  "bbox": [
+                    233,
+                    551,
+                    1186,
+                    574
+                  ],
+                  "words": [
+                    {
+                      "text": "Primary Facility Location",
+                      "conf": 0.9851893782615662,
+                      "bbox": [
+                        233,
+                        552,
+                        496,
+                        572
+                      ]
+                    },
+                    {
+                      "text": "Second Facility Location (if applicable).",
+                      "conf": 0.974101185798645,
+                      "bbox": [
+                        782,
+                        551,
+                        1186,
+                        574
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 7,
+              "bbox": [
+                61,
+                594,
+                879,
+                614
+              ],
+              "text": "Legal Business Name Legal Business Name",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Legal Business Name Legal Business Name",
+                  "conf": 0.9604399800300598,
+                  "bbox": [
+                    61,
+                    594,
+                    879,
+                    614
+                  ],
+                  "words": [
+                    {
+                      "text": "Legal Business Name",
+                      "conf": 0.9517744183540344,
+                      "bbox": [
+                        61,
+                        594,
+                        259,
+                        614
+                      ]
+                    },
+                    {
+                      "text": "Legal Business Name",
+                      "conf": 0.9691055417060852,
+                      "bbox": [
+                        681,
+                        594,
+                        879,
+                        614
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 8,
+              "bbox": [
+                57,
+                622,
+                921,
+                642
+              ],
+              "text": "Blue Horizon Community Health Services. Blue Horizon South Clinic",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Blue Horizon Community Health Services. Blue Horizon South Clinic",
+                  "conf": 0.9763003587722778,
+                  "bbox": [
+                    57,
+                    622,
+                    921,
+                    642
+                  ],
+                  "words": [
+                    {
+                      "text": "Blue Horizon Community Health Services.",
+                      "conf": 0.9713862538337708,
+                      "bbox": [
+                        57,
+                        622,
+                        455,
+                        642
+                      ]
+                    },
+                    {
+                      "text": "Blue Horizon South Clinic",
+                      "conf": 0.9812144637107849,
+                      "bbox": [
+                        679,
+                        622,
+                        921,
+                        642
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 10,
+              "bbox": [
+                56,
+                915,
+                1064,
+                1018
+              ],
+              "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): Federal Tax ID (if different from above):.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322",
+                  "conf": 0.9956425329049429,
+                  "bbox": [
+                    56,
+                    915,
+                    969,
+                    969
+                  ],
+                  "words": [
+                    {
+                      "text": "NPI # (If different than above):",
+                      "conf": 0.9911819696426392,
+                      "bbox": [
+                        56,
+                        915,
+                        353,
+                        941
+                      ]
+                    },
+                    {
+                      "text": "1987654321",
+                      "conf": 0.9998430013656616,
+                      "bbox": [
+                        56,
+                        947,
+                        175,
+                        967
+                      ]
+                    },
+                    {
+                      "text": "NPI# (if different from above) 1987654322",
+                      "conf": 0.9959026277065277,
+                      "bbox": [
+                        675,
+                        915,
+                        969,
+                        969
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Federal Tax ID (if different from above): Federal Tax ID (if different from above):.",
+                  "conf": 0.9783822000026703,
+                  "bbox": [
+                    56,
+                    994,
+                    1064,
+                    1018
+                  ],
+                  "words": [
+                    {
+                      "text": "Federal Tax ID (if different from above):",
+                      "conf": 0.9831433296203613,
+                      "bbox": [
+                        56,
+                        994,
+                        442,
+                        1018
+                      ]
+                    },
+                    {
+                      "text": "Federal Tax ID (if different from above):.",
+                      "conf": 0.9736210703849792,
+                      "bbox": [
+                        677,
+                        995,
+                        1064,
+                        1017
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 11,
+              "bbox": [
+                53,
+                1022,
+                793,
+                1048
+              ],
+              "text": "84-3179265 84-3179265",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "84-3179265 84-3179265",
+                  "conf": 0.9992655217647552,
+                  "bbox": [
+                    53,
+                    1022,
+                    793,
+                    1048
+                  ],
+                  "words": [
+                    {
+                      "text": "84-3179265",
+                      "conf": 0.9989750981330872,
+                      "bbox": [
+                        53,
+                        1022,
+                        173,
+                        1048
+                      ]
+                    },
+                    {
+                      "text": "84-3179265",
+                      "conf": 0.9995559453964233,
+                      "bbox": [
+                        676,
+                        1023,
+                        793,
+                        1046
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 12,
+              "bbox": [
+                56,
+                1084,
+                738,
+                1105
+              ],
+              "text": "Email: Email:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Email: Email:",
+                  "conf": 0.9994263648986816,
+                  "bbox": [
+                    56,
+                    1084,
+                    738,
+                    1105
+                  ],
+                  "words": [
+                    {
+                      "text": "Email:",
+                      "conf": 0.9991641044616699,
+                      "bbox": [
+                        56,
+                        1084,
+                        118,
+                        1105
+                      ]
+                    },
+                    {
+                      "text": "Email:",
+                      "conf": 0.9996886253356934,
+                      "bbox": [
+                        674,
+                        1084,
+                        738,
+                        1105
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 13,
+              "bbox": [
+                56,
+                1113,
+                1112,
+                1177
+              ],
+              "text": "ecm@bluehorizon.example.org southclinic@bluehorizon.example.org\nTranslation Services Available Yes No Translation Services Available Yes No",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "ecm@bluehorizon.example.org southclinic@bluehorizon.example.org",
+                  "conf": 0.9985227584838867,
+                  "bbox": [
+                    56,
+                    1113,
+                    1047,
+                    1136
+                  ],
+                  "words": [
+                    {
+                      "text": "ecm@bluehorizon.example.org",
+                      "conf": 0.9993683695793152,
+                      "bbox": [
+                        56,
+                        1113,
+                        362,
+                        1136
+                      ]
+                    },
+                    {
+                      "text": "southclinic@bluehorizon.example.org",
+                      "conf": 0.9976771473884583,
+                      "bbox": [
+                        675,
+                        1113,
+                        1047,
+                        1136
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Translation Services Available Yes No Translation Services Available Yes No",
+                  "conf": 0.9629802405834198,
+                  "bbox": [
+                    64,
+                    1157,
+                    1112,
+                    1177
+                  ],
+                  "words": [
+                    {
+                      "text": "Translation Services Available",
+                      "conf": 0.9794139266014099,
+                      "bbox": [
+                        64,
+                        1158,
+                        346,
+                        1177
+                      ]
+                    },
+                    {
+                      "text": "Yes No",
+                      "conf": 0.913364827632904,
+                      "bbox": [
+                        385,
+                        1157,
+                        491,
+                        1177
+                      ]
+                    },
+                    {
+                      "text": "Translation Services Available",
+                      "conf": 0.9775537848472595,
+                      "bbox": [
+                        686,
+                        1158,
+                        968,
+                        1177
+                      ]
+                    },
+                    {
+                      "text": "Yes No",
+                      "conf": 0.9815884232521057,
+                      "bbox": [
+                        1007,
+                        1157,
+                        1112,
+                        1177
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 14,
+              "bbox": [
+                57,
+                1213,
+                949,
+                1236
+              ],
+              "text": "Business Hours Schedule: Business Hours Schedule:",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Business Hours Schedule: Business Hours Schedule:",
+                  "conf": 0.9975875169038773,
+                  "bbox": [
+                    57,
+                    1213,
+                    949,
+                    1236
+                  ],
+                  "words": [
+                    {
+                      "text": "Business Hours",
+                      "conf": 0.9998296499252319,
+                      "bbox": [
+                        57,
+                        1213,
+                        204,
+                        1233
+                      ]
+                    },
+                    {
+                      "text": "Schedule:",
+                      "conf": 0.9988601207733154,
+                      "bbox": [
+                        220,
+                        1213,
+                        320,
+                        1236
+                      ]
+                    },
+                    {
+                      "text": "Business Hours",
+                      "conf": 0.9949619174003601,
+                      "bbox": [
+                        677,
+                        1214,
+                        824,
+                        1234
+                      ]
+                    },
+                    {
+                      "text": "Schedule:",
+                      "conf": 0.9966983795166016,
+                      "bbox": [
+                        851,
+                        1213,
+                        949,
+                        1236
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 15,
+              "bbox": [
+                57,
+                1240,
+                1062,
+                1265
+              ],
+              "text": "8:00 AM- 5:00 MOTOWIHEF 8:30 AMI-5:30 M ot ow oth ef",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "8:00 AM- 5:00 MOTOWIHEF 8:30 AMI-5:30 M ot ow oth ef",
+                  "conf": 0.7904953509569168,
+                  "bbox": [
+                    57,
+                    1240,
+                    1062,
+                    1265
+                  ],
+                  "words": [
+                    {
+                      "text": "8:00 AM- 5:00",
+                      "conf": 0.9210256338119507,
+                      "bbox": [
+                        57,
+                        1243,
+                        201,
+                        1263
+                      ]
+                    },
+                    {
+                      "text": "MOTOWIHEF",
+                      "conf": 0.6659560203552246,
+                      "bbox": [
+                        223,
+                        1242,
+                        431,
+                        1261
+                      ]
+                    },
+                    {
+                      "text": "8:30 AMI-5:30",
+                      "conf": 0.9182732701301575,
+                      "bbox": [
+                        677,
+                        1243,
+                        820,
+                        1263
+                      ]
+                    },
+                    {
+                      "text": "M ot ow oth ef ",
+                      "conf": 0.6567264795303345,
+                      "bbox": [
+                        851,
+                        1240,
+                        1062,
+                        1265
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 16,
+              "bbox": [
+                55,
+                1270,
+                714,
+                1295
+              ],
+              "text": "PM PMI",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "PM PMI",
+                  "conf": 0.9585623741149902,
+                  "bbox": [
+                    55,
+                    1270,
+                    714,
+                    1295
+                  ],
+                  "words": [
+                    {
+                      "text": "PM",
+                      "conf": 0.9867830276489258,
+                      "bbox": [
+                        55,
+                        1270,
+                        91,
+                        1294
+                      ]
+                    },
+                    {
+                      "text": "PMI",
+                      "conf": 0.9303417205810547,
+                      "bbox": [
+                        675,
+                        1270,
+                        714,
+                        1295
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Email: Email:\ninfo@bluehorizon.example.org. operations@bluehorizon.example.org\nPracticeLocations\nAddress Information\n(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).\nPrimary Facility Location Second Facility Location (if applicable).\nLegal Business Name Legal Business Name\nBlue Horizon Community Health Services. Blue Horizon South Clinic\nNPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): Federal Tax ID (if different from above):.\n84-3179265 84-3179265\nEmail: Email:\necm@bluehorizon.example.org southclinic@bluehorizon.example.org\nTranslation Services Available Yes No Translation Services Available Yes No\nBusiness Hours Schedule: Business Hours Schedule:\n8:00 AM- 5:00 MOTOWIHEF 8:30 AMI-5:30 M ot ow oth ef\nPM PMI"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            65,
+            20,
+            988,
+            104
+          ],
+          "text": "SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)\nParent / Main Organization Information:.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+              "conf": 0.9758082628250122,
+              "bbox": [
+                318,
+                20,
+                988,
+                42
+              ],
+              "words": [
+                {
+                  "text": "SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+                  "conf": 0.9758082628250122,
+                  "bbox": [
+                    318,
+                    20,
+                    988,
+                    42
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Parent / Main Organization Information:.",
+              "conf": 0.9724464416503906,
+              "bbox": [
+                65,
+                83,
+                462,
+                104
+              ],
+              "words": [
+                {
+                  "text": "Parent / Main Organization Information:.",
+                  "conf": 0.9724464416503906,
+                  "bbox": [
+                    65,
+                    83,
+                    462,
+                    104
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            57,
+            121,
+            964,
+            169
+          ],
+          "text": "egal BusinessName Legal Business Name\nBlue Horizon Community Health Services, Inc. Blue Horizon Care Network",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "egal BusinessName Legal Business Name",
+              "conf": 0.9807281196117401,
+              "bbox": [
+                62,
+                121,
+                904,
+                141
+              ],
+              "words": [
+                {
+                  "text": "egal BusinessName",
+                  "conf": 0.9688988924026489,
+                  "bbox": [
+                    62,
+                    121,
+                    260,
+                    139
+                  ]
+                },
+                {
+                  "text": "Legal Business Name",
+                  "conf": 0.9925573468208313,
+                  "bbox": [
+                    702,
+                    121,
+                    904,
+                    141
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Blue Horizon Community Health Services, Inc. Blue Horizon Care Network",
+              "conf": 0.9926897287368774,
+              "bbox": [
+                57,
+                148,
+                964,
+                169
+              ],
+              "words": [
+                {
+                  "text": "Blue Horizon Community Health Services, Inc.",
+                  "conf": 0.9894533157348633,
+                  "bbox": [
+                    57,
+                    148,
+                    498,
+                    169
+                  ]
+                },
+                {
+                  "text": "Blue Horizon Care Network",
+                  "conf": 0.9959261417388916,
+                  "bbox": [
+                    702,
+                    149,
+                    964,
+                    169
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            55,
+            189,
+            1199,
+            365
+          ],
+          "text": "Street Address Suite # Street Address Suite #\n2450 westlake Avenue Suite 410 2450 Westlake Avenue Suite 410\nCity Sacramento State CA Zip 95815 City Sacramento State CA Zip 95815\nPhone Fax Phone Fax\n[555)310-2400 (555) 310-2401 (555) 310-2400 (555) 310-2401",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Street Address Suite # Street Address Suite #",
+              "conf": 0.9817611277103424,
+              "bbox": [
+                57,
+                189,
+                1045,
+                213
+              ],
+              "words": [
+                {
+                  "text": "Street Address",
+                  "conf": 0.9993274807929993,
+                  "bbox": [
+                    57,
+                    192,
+                    199,
+                    212
+                  ]
+                },
+                {
+                  "text": "Suite #",
+                  "conf": 0.9938423037528992,
+                  "bbox": [
+                    358,
+                    189,
+                    430,
+                    213
+                  ]
+                },
+                {
+                  "text": "Street Address",
+                  "conf": 0.9997435212135315,
+                  "bbox": [
+                    700,
+                    192,
+                    843,
+                    212
+                  ]
+                },
+                {
+                  "text": "Suite #",
+                  "conf": 0.9341312050819397,
+                  "bbox": [
+                    973,
+                    189,
+                    1045,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "2450 westlake Avenue Suite 410 2450 Westlake Avenue Suite 410",
+              "conf": 0.9912767559289932,
+              "bbox": [
+                55,
+                217,
+                1067,
+                244
+              ],
+              "words": [
+                {
+                  "text": "2450 westlake Avenue",
+                  "conf": 0.9781852960586548,
+                  "bbox": [
+                    55,
+                    218,
+                    281,
+                    244
+                  ]
+                },
+                {
+                  "text": "Suite 410",
+                  "conf": 0.9994773864746094,
+                  "bbox": [
+                    358,
+                    217,
+                    453,
+                    244
+                  ]
+                },
+                {
+                  "text": "2450 Westlake Avenue",
+                  "conf": 0.9895918965339661,
+                  "bbox": [
+                    698,
+                    218,
+                    925,
+                    244
+                  ]
+                },
+                {
+                  "text": "Suite 410",
+                  "conf": 0.9978524446487427,
+                  "bbox": [
+                    971,
+                    217,
+                    1067,
+                    244
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "City Sacramento State CA Zip 95815 City Sacramento State CA Zip 95815",
+              "conf": 0.9897640347480774,
+              "bbox": [
+                56,
+                246,
+                1199,
+                306
+              ],
+              "words": [
+                {
+                  "text": "City",
+                  "conf": 0.9985538721084595,
+                  "bbox": [
+                    56,
+                    251,
+                    97,
+                    277
+                  ]
+                },
+                {
+                  "text": "Sacramento",
+                  "conf": 0.9995744824409485,
+                  "bbox": [
+                    56,
+                    282,
+                    173,
+                    302
+                  ]
+                },
+                {
+                  "text": "State",
+                  "conf": 0.9987495541572571,
+                  "bbox": [
+                    358,
+                    250,
+                    412,
+                    275
+                  ]
+                },
+                {
+                  "text": "CA",
+                  "conf": 0.9977285861968994,
+                  "bbox": [
+                    359,
+                    279,
+                    389,
+                    304
+                  ]
+                },
+                {
+                  "text": "Zip 95815",
+                  "conf": 0.9224200248718262,
+                  "bbox": [
+                    492,
+                    246,
+                    561,
+                    306
+                  ]
+                },
+                {
+                  "text": "City",
+                  "conf": 0.9983198642730713,
+                  "bbox": [
+                    697,
+                    247,
+                    741,
+                    277
+                  ]
+                },
+                {
+                  "text": "Sacramento",
+                  "conf": 0.9992768168449402,
+                  "bbox": [
+                    698,
+                    280,
+                    817,
+                    304
+                  ]
+                },
+                {
+                  "text": "State",
+                  "conf": 0.998704731464386,
+                  "bbox": [
+                    973,
+                    250,
+                    1026,
+                    275
+                  ]
+                },
+                {
+                  "text": "CA",
+                  "conf": 0.9969521164894104,
+                  "bbox": [
+                    974,
+                    279,
+                    1004,
+                    304
+                  ]
+                },
+                {
+                  "text": "Zip 95815",
+                  "conf": 0.9873602986335754,
+                  "bbox": [
+                    1130,
+                    247,
+                    1199,
+                    306
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Phone Fax Phone Fax",
+              "conf": 0.9983099102973938,
+              "bbox": [
+                55,
+                308,
+                1012,
+                337
+              ],
+              "words": [
+                {
+                  "text": "Phone",
+                  "conf": 0.9996684789657593,
+                  "bbox": [
+                    55,
+                    311,
+                    120,
+                    335
+                  ]
+                },
+                {
+                  "text": "Fax",
+                  "conf": 0.9968042373657227,
+                  "bbox": [
+                    359,
+                    309,
+                    396,
+                    336
+                  ]
+                },
+                {
+                  "text": "Phone",
+                  "conf": 0.9988153576850891,
+                  "bbox": [
+                    697,
+                    308,
+                    764,
+                    337
+                  ]
+                },
+                {
+                  "text": "Fax",
+                  "conf": 0.9979515671730042,
+                  "bbox": [
+                    974,
+                    309,
+                    1012,
+                    336
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "[555)310-2400 (555) 310-2401 (555) 310-2400 (555) 310-2401",
+              "conf": 0.950807049870491,
+              "bbox": [
+                58,
+                339,
+                1122,
+                365
+              ],
+              "words": [
+                {
+                  "text": "[555)310-2400",
+                  "conf": 0.9344444870948792,
+                  "bbox": [
+                    58,
+                    339,
+                    205,
+                    363
+                  ]
+                },
+                {
+                  "text": "(555) 310-2401",
+                  "conf": 0.9819032549858093,
+                  "bbox": [
+                    361,
+                    339,
+                    507,
+                    365
+                  ]
+                },
+                {
+                  "text": "(555) 310-2400",
+                  "conf": 0.9444652199745178,
+                  "bbox": [
+                    703,
+                    340,
+                    848,
+                    363
+                  ]
+                },
+                {
+                  "text": "(555) 310-2401",
+                  "conf": 0.9424152374267578,
+                  "bbox": [
+                    977,
+                    339,
+                    1122,
+                    365
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            56,
+            371,
+            760,
+            393
+          ],
+          "text": "Email: Email:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Email: Email:",
+              "conf": 0.9973587393760681,
+              "bbox": [
+                56,
+                371,
+                760,
+                393
+              ],
+              "words": [
+                {
+                  "text": "Email:",
+                  "conf": 0.9963281750679016,
+                  "bbox": [
+                    56,
+                    371,
+                    118,
+                    393
+                  ]
+                },
+                {
+                  "text": "Email:",
+                  "conf": 0.9983893036842346,
+                  "bbox": [
+                    700,
+                    371,
+                    760,
+                    393
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            54,
+            400,
+            1072,
+            470
+          ],
+          "text": "info@bluehorizon.example.org. operations@bluehorizon.example.org\nPracticeLocations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "info@bluehorizon.example.org. operations@bluehorizon.example.org",
+              "conf": 0.987985372543335,
+              "bbox": [
+                54,
+                400,
+                1072,
+                424
+              ],
+              "words": [
+                {
+                  "text": "info@bluehorizon.example.org.",
+                  "conf": 0.9790077805519104,
+                  "bbox": [
+                    54,
+                    401,
+                    360,
+                    423
+                  ]
+                },
+                {
+                  "text": "operations@bluehorizon.example.org",
+                  "conf": 0.9969629645347595,
+                  "bbox": [
+                    697,
+                    400,
+                    1072,
+                    424
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "PracticeLocations",
+              "conf": 0.9991205930709839,
+              "bbox": [
+                580,
+                450,
+                773,
+                470
+              ],
+              "words": [
+                {
+                  "text": "PracticeLocations",
+                  "conf": 0.9991205930709839,
+                  "bbox": [
+                    580,
+                    450,
+                    773,
+                    470
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            364,
+            485,
+            566,
+            504
+          ],
+          "text": "Address Information",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Address Information",
+              "conf": 0.9721160531044006,
+              "bbox": [
+                364,
+                485,
+                566,
+                504
+              ],
+              "words": [
+                {
+                  "text": "Address Information",
+                  "conf": 0.9721160531044006,
+                  "bbox": [
+                    364,
+                    485,
+                    566,
+                    504
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            87,
+            507,
+            1186,
+            574
+          ],
+          "text": "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).\nPrimary Facility Location Second Facility Location (if applicable).",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).",
+              "conf": 0.9700808525085449,
+              "bbox": [
+                87,
+                507,
+                841,
+                532
+              ],
+              "words": [
+                {
+                  "text": "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).",
+                  "conf": 0.9700808525085449,
+                  "bbox": [
+                    87,
+                    507,
+                    841,
+                    532
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Primary Facility Location Second Facility Location (if applicable).",
+              "conf": 0.9796452820301056,
+              "bbox": [
+                233,
+                551,
+                1186,
+                574
+              ],
+              "words": [
+                {
+                  "text": "Primary Facility Location",
+                  "conf": 0.9851893782615662,
+                  "bbox": [
+                    233,
+                    552,
+                    496,
+                    572
+                  ]
+                },
+                {
+                  "text": "Second Facility Location (if applicable).",
+                  "conf": 0.974101185798645,
+                  "bbox": [
+                    782,
+                    551,
+                    1186,
+                    574
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 7,
+          "bbox": [
+            61,
+            594,
+            879,
+            614
+          ],
+          "text": "Legal Business Name Legal Business Name",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Legal Business Name Legal Business Name",
+              "conf": 0.9604399800300598,
+              "bbox": [
+                61,
+                594,
+                879,
+                614
+              ],
+              "words": [
+                {
+                  "text": "Legal Business Name",
+                  "conf": 0.9517744183540344,
+                  "bbox": [
+                    61,
+                    594,
+                    259,
+                    614
+                  ]
+                },
+                {
+                  "text": "Legal Business Name",
+                  "conf": 0.9691055417060852,
+                  "bbox": [
+                    681,
+                    594,
+                    879,
+                    614
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 8,
+          "bbox": [
+            57,
+            622,
+            921,
+            642
+          ],
+          "text": "Blue Horizon Community Health Services. Blue Horizon South Clinic",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Blue Horizon Community Health Services. Blue Horizon South Clinic",
+              "conf": 0.9763003587722778,
+              "bbox": [
+                57,
+                622,
+                921,
+                642
+              ],
+              "words": [
+                {
+                  "text": "Blue Horizon Community Health Services.",
+                  "conf": 0.9713862538337708,
+                  "bbox": [
+                    57,
+                    622,
+                    455,
+                    642
+                  ]
+                },
+                {
+                  "text": "Blue Horizon South Clinic",
+                  "conf": 0.9812144637107849,
+                  "bbox": [
+                    679,
+                    622,
+                    921,
+                    642
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            54,
+            667,
+            1229,
+            891
+          ],
+          "text": "Street Address Suite# Street Address Suite#\n2450 Westlake Avenue Suite 410 880 Harbor Boulevard Suite 120\nCity State Zip Code County City State Zip Code County\nSacramento CA 95815 Sacramento West Sacramento CA 95691 Yolo\nPhone Fax TY Number Phone Fax TY Number\n555]310-2400 (555) 310-2401 711 [555) 310-2420 [555) 310-2421 711",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Street Address Suite# Street Address Suite#",
+              "conf": 0.9981867372989655,
+              "bbox": [
+                56,
+                667,
+                1200,
+                688
+              ],
+              "words": [
+                {
+                  "text": "Street Address",
+                  "conf": 0.9984732270240784,
+                  "bbox": [
+                    56,
+                    668,
+                    199,
+                    688
+                  ]
+                },
+                {
+                  "text": "Suite#",
+                  "conf": 0.9977065920829773,
+                  "bbox": [
+                    496,
+                    667,
+                    560,
+                    688
+                  ]
+                },
+                {
+                  "text": "Street Address",
+                  "conf": 0.9996001124382019,
+                  "bbox": [
+                    676,
+                    668,
+                    820,
+                    688
+                  ]
+                },
+                {
+                  "text": "Suite#",
+                  "conf": 0.9969670176506042,
+                  "bbox": [
+                    1136,
+                    667,
+                    1200,
+                    688
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "2450 Westlake Avenue Suite 410 880 Harbor Boulevard Suite 120",
+              "conf": 0.9855893552303314,
+              "bbox": [
+                56,
+                692,
+                1229,
+                720
+              ],
+              "words": [
+                {
+                  "text": "2450 Westlake Avenue",
+                  "conf": 0.9948045015335083,
+                  "bbox": [
+                    56,
+                    694,
+                    280,
+                    718
+                  ]
+                },
+                {
+                  "text": "Suite 410",
+                  "conf": 0.9552164077758789,
+                  "bbox": [
+                    496,
+                    694,
+                    589,
+                    718
+                  ]
+                },
+                {
+                  "text": "880 Harbor Boulevard",
+                  "conf": 0.9974172711372375,
+                  "bbox": [
+                    677,
+                    696,
+                    891,
+                    716
+                  ]
+                },
+                {
+                  "text": "Suite 120",
+                  "conf": 0.9949192404747009,
+                  "bbox": [
+                    1136,
+                    692,
+                    1229,
+                    720
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "City State Zip Code County City State Zip Code County",
+              "conf": 0.998836100101471,
+              "bbox": [
+                55,
+                754,
+                1210,
+                783
+              ],
+              "words": [
+                {
+                  "text": "City",
+                  "conf": 0.9983203411102295,
+                  "bbox": [
+                    55,
+                    756,
+                    97,
+                    782
+                  ]
+                },
+                {
+                  "text": "State",
+                  "conf": 0.999799907207489,
+                  "bbox": [
+                    261,
+                    755,
+                    316,
+                    780
+                  ]
+                },
+                {
+                  "text": "Zip Code",
+                  "conf": 0.9988085627555847,
+                  "bbox": [
+                    339,
+                    756,
+                    428,
+                    780
+                  ]
+                },
+                {
+                  "text": "County",
+                  "conf": 0.9995408654212952,
+                  "bbox": [
+                    495,
+                    754,
+                    571,
+                    783
+                  ]
+                },
+                {
+                  "text": "City",
+                  "conf": 0.9986270666122437,
+                  "bbox": [
+                    675,
+                    756,
+                    717,
+                    782
+                  ]
+                },
+                {
+                  "text": "State",
+                  "conf": 0.9995647668838501,
+                  "bbox": [
+                    871,
+                    756,
+                    926,
+                    780
+                  ]
+                },
+                {
+                  "text": "Zip Code",
+                  "conf": 0.9964019060134888,
+                  "bbox": [
+                    940,
+                    758,
+                    1026,
+                    778
+                  ]
+                },
+                {
+                  "text": "County",
+                  "conf": 0.9996253848075867,
+                  "bbox": [
+                    1136,
+                    754,
+                    1210,
+                    782
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Sacramento CA 95815 Sacramento West Sacramento CA 95691 Yolo",
+              "conf": 0.998433418571949,
+              "bbox": [
+                56,
+                784,
+                1182,
+                809
+              ],
+              "words": [
+                {
+                  "text": "Sacramento",
+                  "conf": 0.9995146989822388,
+                  "bbox": [
+                    56,
+                    787,
+                    171,
+                    807
+                  ]
+                },
+                {
+                  "text": "CA",
+                  "conf": 0.9971470832824707,
+                  "bbox": [
+                    262,
+                    784,
+                    293,
+                    809
+                  ]
+                },
+                {
+                  "text": "95815",
+                  "conf": 0.9998637437820435,
+                  "bbox": [
+                    339,
+                    784,
+                    403,
+                    809
+                  ]
+                },
+                {
+                  "text": "Sacramento",
+                  "conf": 0.9993730783462524,
+                  "bbox": [
+                    498,
+                    787,
+                    615,
+                    807
+                  ]
+                },
+                {
+                  "text": "West Sacramento",
+                  "conf": 0.9989897012710571,
+                  "bbox": [
+                    679,
+                    787,
+                    849,
+                    807
+                  ]
+                },
+                {
+                  "text": "CA",
+                  "conf": 0.9962412714958191,
+                  "bbox": [
+                    872,
+                    785,
+                    903,
+                    809
+                  ]
+                },
+                {
+                  "text": "95691",
+                  "conf": 0.9997745752334595,
+                  "bbox": [
+                    940,
+                    784,
+                    1003,
+                    809
+                  ]
+                },
+                {
+                  "text": "Yolo",
+                  "conf": 0.996563196182251,
+                  "bbox": [
+                    1138,
+                    786,
+                    1182,
+                    809
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Phone Fax TY Number Phone Fax TY Number",
+              "conf": 0.9792075653870901,
+              "bbox": [
+                54,
+                834,
+                1172,
+                861
+              ],
+              "words": [
+                {
+                  "text": "Phone",
+                  "conf": 0.9983845949172974,
+                  "bbox": [
+                    54,
+                    836,
+                    120,
+                    860
+                  ]
+                },
+                {
+                  "text": "Fax",
+                  "conf": 0.99769526720047,
+                  "bbox": [
+                    262,
+                    837,
+                    301,
+                    861
+                  ]
+                },
+                {
+                  "text": "TY Number",
+                  "conf": 0.9543238878250122,
+                  "bbox": [
+                    437,
+                    834,
+                    561,
+                    860
+                  ]
+                },
+                {
+                  "text": "Phone",
+                  "conf": 0.9965181350708008,
+                  "bbox": [
+                    673,
+                    834,
+                    739,
+                    859
+                  ]
+                },
+                {
+                  "text": "Fax",
+                  "conf": 0.9990279674530029,
+                  "bbox": [
+                    873,
+                    837,
+                    910,
+                    860
+                  ]
+                },
+                {
+                  "text": "TY Number",
+                  "conf": 0.929295539855957,
+                  "bbox": [
+                    1048,
+                    834,
+                    1172,
+                    860
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "555]310-2400 (555) 310-2401 711 [555) 310-2420 [555) 310-2421 711",
+              "conf": 0.9566414753595988,
+              "bbox": [
+                61,
+                864,
+                1087,
+                891
+              ],
+              "words": [
+                {
+                  "text": "555]310-2400",
+                  "conf": 0.9621062874794006,
+                  "bbox": [
+                    61,
+                    867,
+                    203,
+                    887
+                  ]
+                },
+                {
+                  "text": "(555) 310-2401",
+                  "conf": 0.9433205723762512,
+                  "bbox": [
+                    265,
+                    864,
+                    412,
+                    891
+                  ]
+                },
+                {
+                  "text": "711",
+                  "conf": 0.9983559250831604,
+                  "bbox": [
+                    437,
+                    865,
+                    476,
+                    889
+                  ]
+                },
+                {
+                  "text": "[555) 310-2420",
+                  "conf": 0.9094358682632446,
+                  "bbox": [
+                    680,
+                    866,
+                    826,
+                    889
+                  ]
+                },
+                {
+                  "text": "[555) 310-2421",
+                  "conf": 0.9274596571922302,
+                  "bbox": [
+                    877,
+                    866,
+                    1021,
+                    889
+                  ]
+                },
+                {
+                  "text": "711",
+                  "conf": 0.9991705417633057,
+                  "bbox": [
+                    1048,
+                    865,
+                    1087,
+                    889
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 10,
+          "bbox": [
+            56,
+            915,
+            1064,
+            1018
+          ],
+          "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322\nFederal Tax ID (if different from above): Federal Tax ID (if different from above):.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322",
+              "conf": 0.9956425329049429,
+              "bbox": [
+                56,
+                915,
+                969,
+                969
+              ],
+              "words": [
+                {
+                  "text": "NPI # (If different than above):",
+                  "conf": 0.9911819696426392,
+                  "bbox": [
+                    56,
+                    915,
+                    353,
+                    941
+                  ]
+                },
+                {
+                  "text": "1987654321",
+                  "conf": 0.9998430013656616,
+                  "bbox": [
+                    56,
+                    947,
+                    175,
+                    967
+                  ]
+                },
+                {
+                  "text": "NPI# (if different from above) 1987654322",
+                  "conf": 0.9959026277065277,
+                  "bbox": [
+                    675,
+                    915,
+                    969,
+                    969
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Federal Tax ID (if different from above): Federal Tax ID (if different from above):.",
+              "conf": 0.9783822000026703,
+              "bbox": [
+                56,
+                994,
+                1064,
+                1018
+              ],
+              "words": [
+                {
+                  "text": "Federal Tax ID (if different from above):",
+                  "conf": 0.9831433296203613,
+                  "bbox": [
+                    56,
+                    994,
+                    442,
+                    1018
+                  ]
+                },
+                {
+                  "text": "Federal Tax ID (if different from above):.",
+                  "conf": 0.9736210703849792,
+                  "bbox": [
+                    677,
+                    995,
+                    1064,
+                    1017
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 11,
+          "bbox": [
+            53,
+            1022,
+            793,
+            1048
+          ],
+          "text": "84-3179265 84-3179265",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "84-3179265 84-3179265",
+              "conf": 0.9992655217647552,
+              "bbox": [
+                53,
+                1022,
+                793,
+                1048
+              ],
+              "words": [
+                {
+                  "text": "84-3179265",
+                  "conf": 0.9989750981330872,
+                  "bbox": [
+                    53,
+                    1022,
+                    173,
+                    1048
+                  ]
+                },
+                {
+                  "text": "84-3179265",
+                  "conf": 0.9995559453964233,
+                  "bbox": [
+                    676,
+                    1023,
+                    793,
+                    1046
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 12,
+          "bbox": [
+            56,
+            1084,
+            738,
+            1105
+          ],
+          "text": "Email: Email:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Email: Email:",
+              "conf": 0.9994263648986816,
+              "bbox": [
+                56,
+                1084,
+                738,
+                1105
+              ],
+              "words": [
+                {
+                  "text": "Email:",
+                  "conf": 0.9991641044616699,
+                  "bbox": [
+                    56,
+                    1084,
+                    118,
+                    1105
+                  ]
+                },
+                {
+                  "text": "Email:",
+                  "conf": 0.9996886253356934,
+                  "bbox": [
+                    674,
+                    1084,
+                    738,
+                    1105
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 13,
+          "bbox": [
+            56,
+            1113,
+            1112,
+            1177
+          ],
+          "text": "ecm@bluehorizon.example.org southclinic@bluehorizon.example.org\nTranslation Services Available Yes No Translation Services Available Yes No",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "ecm@bluehorizon.example.org southclinic@bluehorizon.example.org",
+              "conf": 0.9985227584838867,
+              "bbox": [
+                56,
+                1113,
+                1047,
+                1136
+              ],
+              "words": [
+                {
+                  "text": "ecm@bluehorizon.example.org",
+                  "conf": 0.9993683695793152,
+                  "bbox": [
+                    56,
+                    1113,
+                    362,
+                    1136
+                  ]
+                },
+                {
+                  "text": "southclinic@bluehorizon.example.org",
+                  "conf": 0.9976771473884583,
+                  "bbox": [
+                    675,
+                    1113,
+                    1047,
+                    1136
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Translation Services Available Yes No Translation Services Available Yes No",
+              "conf": 0.9629802405834198,
+              "bbox": [
+                64,
+                1157,
+                1112,
+                1177
+              ],
+              "words": [
+                {
+                  "text": "Translation Services Available",
+                  "conf": 0.9794139266014099,
+                  "bbox": [
+                    64,
+                    1158,
+                    346,
+                    1177
+                  ]
+                },
+                {
+                  "text": "Yes No",
+                  "conf": 0.913364827632904,
+                  "bbox": [
+                    385,
+                    1157,
+                    491,
+                    1177
+                  ]
+                },
+                {
+                  "text": "Translation Services Available",
+                  "conf": 0.9775537848472595,
+                  "bbox": [
+                    686,
+                    1158,
+                    968,
+                    1177
+                  ]
+                },
+                {
+                  "text": "Yes No",
+                  "conf": 0.9815884232521057,
+                  "bbox": [
+                    1007,
+                    1157,
+                    1112,
+                    1177
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 14,
+          "bbox": [
+            57,
+            1213,
+            949,
+            1236
+          ],
+          "text": "Business Hours Schedule: Business Hours Schedule:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Business Hours Schedule: Business Hours Schedule:",
+              "conf": 0.9975875169038773,
+              "bbox": [
+                57,
+                1213,
+                949,
+                1236
+              ],
+              "words": [
+                {
+                  "text": "Business Hours",
+                  "conf": 0.9998296499252319,
+                  "bbox": [
+                    57,
+                    1213,
+                    204,
+                    1233
+                  ]
+                },
+                {
+                  "text": "Schedule:",
+                  "conf": 0.9988601207733154,
+                  "bbox": [
+                    220,
+                    1213,
+                    320,
+                    1236
+                  ]
+                },
+                {
+                  "text": "Business Hours",
+                  "conf": 0.9949619174003601,
+                  "bbox": [
+                    677,
+                    1214,
+                    824,
+                    1234
+                  ]
+                },
+                {
+                  "text": "Schedule:",
+                  "conf": 0.9966983795166016,
+                  "bbox": [
+                    851,
+                    1213,
+                    949,
+                    1236
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 15,
+          "bbox": [
+            57,
+            1240,
+            1062,
+            1265
+          ],
+          "text": "8:00 AM- 5:00 MOTOWIHEF 8:30 AMI-5:30 M ot ow oth ef",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "8:00 AM- 5:00 MOTOWIHEF 8:30 AMI-5:30 M ot ow oth ef",
+              "conf": 0.7904953509569168,
+              "bbox": [
+                57,
+                1240,
+                1062,
+                1265
+              ],
+              "words": [
+                {
+                  "text": "8:00 AM- 5:00",
+                  "conf": 0.9210256338119507,
+                  "bbox": [
+                    57,
+                    1243,
+                    201,
+                    1263
+                  ]
+                },
+                {
+                  "text": "MOTOWIHEF",
+                  "conf": 0.6659560203552246,
+                  "bbox": [
+                    223,
+                    1242,
+                    431,
+                    1261
+                  ]
+                },
+                {
+                  "text": "8:30 AMI-5:30",
+                  "conf": 0.9182732701301575,
+                  "bbox": [
+                    677,
+                    1243,
+                    820,
+                    1263
+                  ]
+                },
+                {
+                  "text": "M ot ow oth ef ",
+                  "conf": 0.6567264795303345,
+                  "bbox": [
+                    851,
+                    1240,
+                    1062,
+                    1265
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 16,
+          "bbox": [
+            55,
+            1270,
+            714,
+            1295
+          ],
+          "text": "PM PMI",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "PM PMI",
+              "conf": 0.9585623741149902,
+              "bbox": [
+                55,
+                1270,
+                714,
+                1295
+              ],
+              "words": [
+                {
+                  "text": "PM",
+                  "conf": 0.9867830276489258,
+                  "bbox": [
+                    55,
+                    1270,
+                    91,
+                    1294
+                  ]
+                },
+                {
+                  "text": "PMI",
+                  "conf": 0.9303417205810547,
+                  "bbox": [
+                    675,
+                    1270,
+                    714,
+                    1295
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 17,
+          "bbox": [
+            56,
+            1357,
+            1247,
+            1382
+          ],
+          "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any",
+              "conf": 0.9975401759147644,
+              "bbox": [
+                56,
+                1357,
+                1247,
+                1382
+              ],
+              "words": [
+                {
+                  "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any",
+                  "conf": 0.9975401759147644,
+                  "bbox": [
+                    56,
+                    1357,
+                    1247,
+                    1382
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 18,
+          "bbox": [
+            57,
+            1389,
+            183,
+            1409
+          ],
+          "text": "giventime?):",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "giventime?):",
+              "conf": 0.9327617287635803,
+              "bbox": [
+                57,
+                1389,
+                183,
+                1409
+              ],
+              "words": [
+                {
+                  "text": "giventime?):",
+                  "conf": 0.9327617287635803,
+                  "bbox": [
+                    57,
+                    1389,
+                    183,
+                    1409
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 19,
+          "bbox": [
+            56,
+            1416,
+            647,
+            1440
+          ],
+          "text": "Approximately 85 active ECM referrals across both locations..",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Approximately 85 active ECM referrals across both locations..",
+              "conf": 0.9756176471710205,
+              "bbox": [
+                56,
+                1416,
+                647,
+                1440
+              ],
+              "words": [
+                {
+                  "text": "Approximately 85 active ECM referrals across both locations..",
+                  "conf": 0.9756176471710205,
+                  "bbox": [
+                    56,
+                    1416,
+                    647,
+                    1440
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            53,
+            20,
+            1186,
+            1440
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>SECTIONI</td><td>FACILITY DEMOGRAPHIC INFORMATION (continued)</td><td></td><td></td></tr><tr><td>Parent / Main Organization Information</td><td>.</td><td></td><td></td></tr><tr><td>egal BusinessName</td><td></td><td>Legal Business Name</td><td></td></tr><tr><td>Blue Horizon Community Health Services, Inc.</td><td></td><td>Legal Business Name</td><td>Blue Horizon Care Network</td></tr><tr><td>info@bluehorizon.example.org.</td><td></td><td>operations@bluehorizon.example.org</td><td></td></tr><tr><td>PracticeLocations</td><td></td><td></td><td></td></tr><tr><td>Address Information</td><td></td><td></td><td></td></tr><tr><td>(Please list all locations and group affiliations. If needed, use &#x27;Attachment A&#x27; enclosed.).</td><td></td><td></td><td></td></tr><tr><td>Legal Business Name</td><td>Blue Horizon Community Health Services.</td><td>Legal Business Name</td><td>Blue Horizon South Clinic</td></tr><tr><td>NPI # (If different than above)</td><td></td><td>NPI</td><td>(if different from above) 1987654322</td></tr><tr><td>NPI # (If different than above)</td><td>1987654321</td><td></td><td></td></tr><tr><td>Federal Tax ID (if different from above)</td><td></td><td>Federal Tax ID (if different from above)</td><td>.</td></tr><tr><td>Federal Tax ID (if different from above)</td><td>84-3179265</td><td>84-3179265</td><td></td></tr><tr><td>Email</td><td>ecm@bluehorizon.example.org</td><td>Email</td><td>southclinic@bluehorizon.example.org</td></tr><tr><td>PM</td><td></td><td>PMI</td><td></td></tr><tr><td>giventime?):</td><td></td><td></td><td></td></tr><tr><td>Approximately 85 active ECM referrals across both locations..</td><td></td><td></td><td></td></tr></table>",
+          "text": "SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)\nParent / Main Organization Information: .\negal BusinessName: \nLegal Business Name: \nBlue Horizon Community Health Services, Inc.: \nLegal Business Name: Blue Horizon Care Network\ninfo@bluehorizon.example.org.: \noperations@bluehorizon.example.org: \nPracticeLocations: \nAddress Information: \n(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).: \nLegal Business Name: Blue Horizon Community Health Services.\nLegal Business Name: Blue Horizon South Clinic\nNPI # (If different than above): \nNPI: (if different from above) 1987654322\nNPI # (If different than above): 1987654321\nFederal Tax ID (if different from above): \nFederal Tax ID (if different from above): .\nFederal Tax ID (if different from above): 84-3179265\n84-3179265: \nEmail: ecm@bluehorizon.example.org\nEmail: southclinic@bluehorizon.example.org\nPM: \nPMI: \ngiventime?):: \nApproximately 85 active ECM referrals across both locations..: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "SECTIONI",
+              "FACILITY DEMOGRAPHIC INFORMATION (continued)",
+              "",
+              ""
+            ],
+            [
+              "Parent / Main Organization Information",
+              ".",
+              "",
+              ""
+            ],
+            [
+              "egal BusinessName",
+              "",
+              "Legal Business Name",
+              ""
+            ],
+            [
+              "Blue Horizon Community Health Services, Inc.",
+              "",
+              "Legal Business Name",
+              "Blue Horizon Care Network"
+            ],
+            [
+              "info@bluehorizon.example.org.",
+              "",
+              "operations@bluehorizon.example.org",
+              ""
+            ],
+            [
+              "PracticeLocations",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Address Information",
+              "",
+              "",
+              ""
+            ],
+            [
+              "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Legal Business Name",
+              "Blue Horizon Community Health Services.",
+              "Legal Business Name",
+              "Blue Horizon South Clinic"
+            ],
+            [
+              "NPI # (If different than above)",
+              "",
+              "NPI",
+              "(if different from above) 1987654322"
+            ],
+            [
+              "NPI # (If different than above)",
+              "1987654321",
+              "",
+              ""
+            ],
+            [
+              "Federal Tax ID (if different from above)",
+              "",
+              "Federal Tax ID (if different from above)",
+              "."
+            ],
+            [
+              "Federal Tax ID (if different from above)",
+              "84-3179265",
+              "84-3179265",
+              ""
+            ],
+            [
+              "Email",
+              "ecm@bluehorizon.example.org",
+              "Email",
+              "southclinic@bluehorizon.example.org"
+            ],
+            [
+              "PM",
+              "",
+              "PMI",
+              ""
+            ],
+            [
+              "giventime?):",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Approximately 85 active ECM referrals across both locations..",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+              ""
+            ],
+            [
+              "Parent / Main Organization Information:.",
+              ""
+            ],
+            [
+              "egal BusinessName",
+              "Legal Business Name"
+            ],
+            [
+              "Blue Horizon Community Health Services, Inc.",
+              "Blue Horizon Care Network"
+            ],
+            [
+              "info@bluehorizon.example.org.",
+              "operations@bluehorizon.example.org"
+            ],
+            [
+              "PracticeLocations",
+              ""
+            ],
+            [
+              "Address Information",
+              ""
+            ],
+            [
+              "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).",
+              ""
+            ],
+            [
+              "Primary Facility Location",
+              "Second Facility Location (if applicable)."
+            ],
+            [
+              "Legal Business Name",
+              "Legal Business Name"
+            ],
+            [
+              "Blue Horizon Community Health Services.",
+              "Blue Horizon South Clinic"
+            ],
+            [
+              "NPI # (If different than above):",
+              "NPI# (if different from above) 1987654322"
+            ],
+            [
+              "1987654321",
+              ""
+            ],
+            [
+              "Federal Tax ID (if different from above):",
+              "Federal Tax ID (if different from above):."
+            ],
+            [
+              "84-3179265",
+              "84-3179265"
+            ],
+            [
+              "Email:",
+              "Email:"
+            ],
+            [
+              "ecm@bluehorizon.example.org",
+              "southclinic@bluehorizon.example.org"
+            ],
+            [
+              "PM",
+              "PMI"
+            ],
+            [
+              "giventime?):",
+              ""
+            ],
+            [
+              "Approximately 85 active ECM referrals across both locations..",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            55,
+            189,
+            1199,
+            393
+          ],
+          "html": "<table><tr><th>Street Address</th><th>Suite #</th><th>Street Address</th><th>Suite #</th></tr><tr><td>2450 westlake Avenue</td><td>Suite 410</td><td>2450 Westlake Avenue</td><td>Suite 410</td></tr><tr><td>City</td><td>State Zip 95815</td><td>City</td><td>State Zip 95815</td></tr><tr><td>Sacramento</td><td>CA</td><td>Sacramento</td><td>CA</td></tr><tr><td>Phone</td><td>Fax</td><td>Phone</td><td>Fax</td></tr><tr><td>[555)310-2400</td><td>(555) 310-2401</td><td>(555) 310-2400</td><td>(555) 310-2401</td></tr><tr><td>Email:</td><td></td><td>Email:</td><td></td></tr></table>",
+          "text": "2450 westlake Avenue | Suite 410 | 2450 Westlake Avenue | Suite 410\nCity | State Zip 95815 | City | State Zip 95815\nSacramento | CA | Sacramento | CA\nPhone | Fax | Phone | Fax\n[555)310-2400 | (555) 310-2401 | (555) 310-2400 | (555) 310-2401\nEmail: |  | Email: | ",
+          "headers": [
+            "Street Address",
+            "Suite #",
+            "Street Address",
+            "Suite #"
+          ],
+          "rows": [
+            [
+              "2450 westlake Avenue",
+              "Suite 410",
+              "2450 Westlake Avenue",
+              "Suite 410"
+            ],
+            [
+              "City",
+              "State Zip 95815",
+              "City",
+              "State Zip 95815"
+            ],
+            [
+              "Sacramento",
+              "CA",
+              "Sacramento",
+              "CA"
+            ],
+            [
+              "Phone",
+              "Fax",
+              "Phone",
+              "Fax"
+            ],
+            [
+              "[555)310-2400",
+              "(555) 310-2401",
+              "(555) 310-2400",
+              "(555) 310-2401"
+            ],
+            [
+              "Email:",
+              "",
+              "Email:",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            56,
+            667,
+            1229,
+            720
+          ],
+          "html": "<table><tr><th>Street Address</th><th>Suite#</th><th>Street Address</th><th>Suite#</th></tr><tr><td>2450 Westlake Avenue</td><td>Suite 410</td><td>880 Harbor Boulevard</td><td>Suite 120</td></tr></table>",
+          "text": "2450 Westlake Avenue | Suite 410 | 880 Harbor Boulevard | Suite 120",
+          "headers": [
+            "Street Address",
+            "Suite#",
+            "Street Address",
+            "Suite#"
+          ],
+          "rows": [
+            [
+              "2450 Westlake Avenue",
+              "Suite 410",
+              "880 Harbor Boulevard",
+              "Suite 120"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            54,
+            754,
+            1210,
+            891
+          ],
+          "html": "<table><tr><th>City</th><th>State</th><th>Zip Code</th><th>County</th><th>City</th><th>State Zip Code</th><th>County</th></tr><tr><td>Sacramento</td><td>CA</td><td>95815</td><td>Sacramento</td><td>West Sacramento</td><td>CA 95691</td><td>Yolo</td></tr><tr><td>Phone</td><td>Fax</td><td></td><td>TY Number</td><td>Phone</td><td>Fax</td><td>TY Number</td></tr><tr><td>555]310-2400</td><td></td><td>(555) 310-2401 711</td><td></td><td>[555) 310-2420</td><td>[555) 310-2421</td><td>711</td></tr></table>",
+          "text": "Sacramento | CA | 95815 | Sacramento | West Sacramento | CA 95691 | Yolo\nPhone | Fax |  | TY Number | Phone | Fax | TY Number\n555]310-2400 |  | (555) 310-2401 711 |  | [555) 310-2420 | [555) 310-2421 | 711",
+          "headers": [
+            "City",
+            "State",
+            "Zip Code",
+            "County",
+            "City",
+            "State Zip Code",
+            "County"
+          ],
+          "rows": [
+            [
+              "Sacramento",
+              "CA",
+              "95815",
+              "Sacramento",
+              "West Sacramento",
+              "CA 95691",
+              "Yolo"
+            ],
+            [
+              "Phone",
+              "Fax",
+              "",
+              "TY Number",
+              "Phone",
+              "Fax",
+              "TY Number"
+            ],
+            [
+              "555]310-2400",
+              "",
+              "(555) 310-2401 711",
+              "",
+              "[555) 310-2420",
+              "[555) 310-2421",
+              "711"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            57,
+            1157,
+            1112,
+            1265
+          ],
+          "html": "<table><tr><th>Translation Services Available</th><th>Yes No</th><th>Translation Services Available</th><th>Yes No</th></tr><tr><td>Business Hours Schedule:</td><td></td><td>Business Hours Schedule:</td><td></td></tr><tr><td>8:00 AM- 5:00</td><td>MOTOWIHEF</td><td>8:30 AMI-5:30</td><td>M ot ow oth ef</td></tr></table>",
+          "text": "Business Hours Schedule: |  | Business Hours Schedule: | \n8:00 AM- 5:00 | MOTOWIHEF | 8:30 AMI-5:30 | M ot ow oth ef",
+          "headers": [
+            "Translation Services Available",
+            "Yes No",
+            "Translation Services Available",
+            "Yes No"
+          ],
+          "rows": [
+            [
+              "Business Hours Schedule:",
+              "",
+              "Business Hours Schedule:",
+              ""
+            ],
+            [
+              "8:00 AM- 5:00",
+              "MOTOWIHEF",
+              "8:30 AMI-5:30",
+              "M ot ow oth ef"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [
+        {
+          "label": "Translation Services Available",
+          "value": "Unknown",
+          "checked_yes": true,
+          "checked_no": true,
+          "yes_ink_score": 0.3827747168656259,
+          "no_ink_score": 0.35060453014998466,
+          "bbox": [
+            56,
+            1113,
+            1047,
+            1177
+          ],
+          "yes_bbox": [
+            385,
+            1157,
+            438,
+            1177
+          ],
+          "no_bbox": [
+            438,
+            1157,
+            491,
+            1177
+          ],
+          "source": "image_ink",
+          "column": "left"
+        },
+        {
+          "label": "Translation Services Available",
+          "value": "Yes",
+          "checked_yes": true,
+          "checked_no": false,
+          "yes_ink_score": 0.3973523109886746,
+          "no_ink_score": 0.3399602081420263,
+          "bbox": [
+            686,
+            1158,
+            968,
+            1177
+          ],
+          "yes_bbox": [
+            1007,
+            1157,
+            1059,
+            1177
+          ],
+          "no_bbox": [
+            1059,
+            1157,
+            1112,
+            1177
+          ],
+          "source": "image_ink",
+          "column": "right"
+        }
+      ],
+      "lines": [
+        {
+          "text": "SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+          "conf": 0.9758082628250122,
+          "bbox": [
+            318,
+            20,
+            988,
+            42
+          ],
+          "words": [
+            {
+              "text": "SECTIONI: FACILITY DEMOGRAPHIC INFORMATION (continued)",
+              "conf": 0.9758082628250122,
+              "bbox": [
+                318,
+                20,
+                988,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Parent / Main Organization Information:.",
+          "conf": 0.9724464416503906,
+          "bbox": [
+            65,
+            83,
+            462,
+            104
+          ],
+          "words": [
+            {
+              "text": "Parent / Main Organization Information:.",
+              "conf": 0.9724464416503906,
+              "bbox": [
+                65,
+                83,
+                462,
+                104
+              ]
+            }
+          ]
+        },
+        {
+          "text": "egal BusinessName Legal Business Name",
+          "conf": 0.9807281196117401,
+          "bbox": [
+            62,
+            121,
+            904,
+            141
+          ],
+          "words": [
+            {
+              "text": "egal BusinessName",
+              "conf": 0.9688988924026489,
+              "bbox": [
+                62,
+                121,
+                260,
+                139
+              ]
+            },
+            {
+              "text": "Legal Business Name",
+              "conf": 0.9925573468208313,
+              "bbox": [
+                702,
+                121,
+                904,
+                141
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Blue Horizon Community Health Services, Inc. Blue Horizon Care Network",
+          "conf": 0.9926897287368774,
+          "bbox": [
+            57,
+            148,
+            964,
+            169
+          ],
+          "words": [
+            {
+              "text": "Blue Horizon Community Health Services, Inc.",
+              "conf": 0.9894533157348633,
+              "bbox": [
+                57,
+                148,
+                498,
+                169
+              ]
+            },
+            {
+              "text": "Blue Horizon Care Network",
+              "conf": 0.9959261417388916,
+              "bbox": [
+                702,
+                149,
+                964,
+                169
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Street Address Suite # Street Address Suite #",
+          "conf": 0.9817611277103424,
+          "bbox": [
+            57,
+            189,
+            1045,
+            213
+          ],
+          "words": [
+            {
+              "text": "Street Address",
+              "conf": 0.9993274807929993,
+              "bbox": [
+                57,
+                192,
+                199,
+                212
+              ]
+            },
+            {
+              "text": "Suite #",
+              "conf": 0.9938423037528992,
+              "bbox": [
+                358,
+                189,
+                430,
+                213
+              ]
+            },
+            {
+              "text": "Street Address",
+              "conf": 0.9997435212135315,
+              "bbox": [
+                700,
+                192,
+                843,
+                212
+              ]
+            },
+            {
+              "text": "Suite #",
+              "conf": 0.9341312050819397,
+              "bbox": [
+                973,
+                189,
+                1045,
+                213
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2450 westlake Avenue Suite 410 2450 Westlake Avenue Suite 410",
+          "conf": 0.9912767559289932,
+          "bbox": [
+            55,
+            217,
+            1067,
+            244
+          ],
+          "words": [
+            {
+              "text": "2450 westlake Avenue",
+              "conf": 0.9781852960586548,
+              "bbox": [
+                55,
+                218,
+                281,
+                244
+              ]
+            },
+            {
+              "text": "Suite 410",
+              "conf": 0.9994773864746094,
+              "bbox": [
+                358,
+                217,
+                453,
+                244
+              ]
+            },
+            {
+              "text": "2450 Westlake Avenue",
+              "conf": 0.9895918965339661,
+              "bbox": [
+                698,
+                218,
+                925,
+                244
+              ]
+            },
+            {
+              "text": "Suite 410",
+              "conf": 0.9978524446487427,
+              "bbox": [
+                971,
+                217,
+                1067,
+                244
+              ]
+            }
+          ]
+        },
+        {
+          "text": "City Sacramento State CA Zip 95815 City Sacramento State CA Zip 95815",
+          "conf": 0.9897640347480774,
+          "bbox": [
+            56,
+            246,
+            1199,
+            306
+          ],
+          "words": [
+            {
+              "text": "City",
+              "conf": 0.9985538721084595,
+              "bbox": [
+                56,
+                251,
+                97,
+                277
+              ]
+            },
+            {
+              "text": "Sacramento",
+              "conf": 0.9995744824409485,
+              "bbox": [
+                56,
+                282,
+                173,
+                302
+              ]
+            },
+            {
+              "text": "State",
+              "conf": 0.9987495541572571,
+              "bbox": [
+                358,
+                250,
+                412,
+                275
+              ]
+            },
+            {
+              "text": "CA",
+              "conf": 0.9977285861968994,
+              "bbox": [
+                359,
+                279,
+                389,
+                304
+              ]
+            },
+            {
+              "text": "Zip 95815",
+              "conf": 0.9224200248718262,
+              "bbox": [
+                492,
+                246,
+                561,
+                306
+              ]
+            },
+            {
+              "text": "City",
+              "conf": 0.9983198642730713,
+              "bbox": [
+                697,
+                247,
+                741,
+                277
+              ]
+            },
+            {
+              "text": "Sacramento",
+              "conf": 0.9992768168449402,
+              "bbox": [
+                698,
+                280,
+                817,
+                304
+              ]
+            },
+            {
+              "text": "State",
+              "conf": 0.998704731464386,
+              "bbox": [
+                973,
+                250,
+                1026,
+                275
+              ]
+            },
+            {
+              "text": "CA",
+              "conf": 0.9969521164894104,
+              "bbox": [
+                974,
+                279,
+                1004,
+                304
+              ]
+            },
+            {
+              "text": "Zip 95815",
+              "conf": 0.9873602986335754,
+              "bbox": [
+                1130,
+                247,
+                1199,
+                306
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone Fax Phone Fax",
+          "conf": 0.9983099102973938,
+          "bbox": [
+            55,
+            308,
+            1012,
+            337
+          ],
+          "words": [
+            {
+              "text": "Phone",
+              "conf": 0.9996684789657593,
+              "bbox": [
+                55,
+                311,
+                120,
+                335
+              ]
+            },
+            {
+              "text": "Fax",
+              "conf": 0.9968042373657227,
+              "bbox": [
+                359,
+                309,
+                396,
+                336
+              ]
+            },
+            {
+              "text": "Phone",
+              "conf": 0.9988153576850891,
+              "bbox": [
+                697,
+                308,
+                764,
+                337
+              ]
+            },
+            {
+              "text": "Fax",
+              "conf": 0.9979515671730042,
+              "bbox": [
+                974,
+                309,
+                1012,
+                336
+              ]
+            }
+          ]
+        },
+        {
+          "text": "[555)310-2400 (555) 310-2401 (555) 310-2400 (555) 310-2401",
+          "conf": 0.950807049870491,
+          "bbox": [
+            58,
+            339,
+            1122,
+            365
+          ],
+          "words": [
+            {
+              "text": "[555)310-2400",
+              "conf": 0.9344444870948792,
+              "bbox": [
+                58,
+                339,
+                205,
+                363
+              ]
+            },
+            {
+              "text": "(555) 310-2401",
+              "conf": 0.9819032549858093,
+              "bbox": [
+                361,
+                339,
+                507,
+                365
+              ]
+            },
+            {
+              "text": "(555) 310-2400",
+              "conf": 0.9444652199745178,
+              "bbox": [
+                703,
+                340,
+                848,
+                363
+              ]
+            },
+            {
+              "text": "(555) 310-2401",
+              "conf": 0.9424152374267578,
+              "bbox": [
+                977,
+                339,
+                1122,
+                365
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Email: Email:",
+          "conf": 0.9973587393760681,
+          "bbox": [
+            56,
+            371,
+            760,
+            393
+          ],
+          "words": [
+            {
+              "text": "Email:",
+              "conf": 0.9963281750679016,
+              "bbox": [
+                56,
+                371,
+                118,
+                393
+              ]
+            },
+            {
+              "text": "Email:",
+              "conf": 0.9983893036842346,
+              "bbox": [
+                700,
+                371,
+                760,
+                393
+              ]
+            }
+          ]
+        },
+        {
+          "text": "info@bluehorizon.example.org. operations@bluehorizon.example.org",
+          "conf": 0.987985372543335,
+          "bbox": [
+            54,
+            400,
+            1072,
+            424
+          ],
+          "words": [
+            {
+              "text": "info@bluehorizon.example.org.",
+              "conf": 0.9790077805519104,
+              "bbox": [
+                54,
+                401,
+                360,
+                423
+              ]
+            },
+            {
+              "text": "operations@bluehorizon.example.org",
+              "conf": 0.9969629645347595,
+              "bbox": [
+                697,
+                400,
+                1072,
+                424
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PracticeLocations",
+          "conf": 0.9991205930709839,
+          "bbox": [
+            580,
+            450,
+            773,
+            470
+          ],
+          "words": [
+            {
+              "text": "PracticeLocations",
+              "conf": 0.9991205930709839,
+              "bbox": [
+                580,
+                450,
+                773,
+                470
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Address Information",
+          "conf": 0.9721160531044006,
+          "bbox": [
+            364,
+            485,
+            566,
+            504
+          ],
+          "words": [
+            {
+              "text": "Address Information",
+              "conf": 0.9721160531044006,
+              "bbox": [
+                364,
+                485,
+                566,
+                504
+              ]
+            }
+          ]
+        },
+        {
+          "text": "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).",
+          "conf": 0.9700808525085449,
+          "bbox": [
+            87,
+            507,
+            841,
+            532
+          ],
+          "words": [
+            {
+              "text": "(Please list all locations and group affiliations. If needed, use 'Attachment A' enclosed.).",
+              "conf": 0.9700808525085449,
+              "bbox": [
+                87,
+                507,
+                841,
+                532
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Primary Facility Location Second Facility Location (if applicable).",
+          "conf": 0.9796452820301056,
+          "bbox": [
+            233,
+            551,
+            1186,
+            574
+          ],
+          "words": [
+            {
+              "text": "Primary Facility Location",
+              "conf": 0.9851893782615662,
+              "bbox": [
+                233,
+                552,
+                496,
+                572
+              ]
+            },
+            {
+              "text": "Second Facility Location (if applicable).",
+              "conf": 0.974101185798645,
+              "bbox": [
+                782,
+                551,
+                1186,
+                574
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Legal Business Name Legal Business Name",
+          "conf": 0.9604399800300598,
+          "bbox": [
+            61,
+            594,
+            879,
+            614
+          ],
+          "words": [
+            {
+              "text": "Legal Business Name",
+              "conf": 0.9517744183540344,
+              "bbox": [
+                61,
+                594,
+                259,
+                614
+              ]
+            },
+            {
+              "text": "Legal Business Name",
+              "conf": 0.9691055417060852,
+              "bbox": [
+                681,
+                594,
+                879,
+                614
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Blue Horizon Community Health Services. Blue Horizon South Clinic",
+          "conf": 0.9763003587722778,
+          "bbox": [
+            57,
+            622,
+            921,
+            642
+          ],
+          "words": [
+            {
+              "text": "Blue Horizon Community Health Services.",
+              "conf": 0.9713862538337708,
+              "bbox": [
+                57,
+                622,
+                455,
+                642
+              ]
+            },
+            {
+              "text": "Blue Horizon South Clinic",
+              "conf": 0.9812144637107849,
+              "bbox": [
+                679,
+                622,
+                921,
+                642
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Street Address Suite# Street Address Suite#",
+          "conf": 0.9981867372989655,
+          "bbox": [
+            56,
+            667,
+            1200,
+            688
+          ],
+          "words": [
+            {
+              "text": "Street Address",
+              "conf": 0.9984732270240784,
+              "bbox": [
+                56,
+                668,
+                199,
+                688
+              ]
+            },
+            {
+              "text": "Suite#",
+              "conf": 0.9977065920829773,
+              "bbox": [
+                496,
+                667,
+                560,
+                688
+              ]
+            },
+            {
+              "text": "Street Address",
+              "conf": 0.9996001124382019,
+              "bbox": [
+                676,
+                668,
+                820,
+                688
+              ]
+            },
+            {
+              "text": "Suite#",
+              "conf": 0.9969670176506042,
+              "bbox": [
+                1136,
+                667,
+                1200,
+                688
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2450 Westlake Avenue Suite 410 880 Harbor Boulevard Suite 120",
+          "conf": 0.9855893552303314,
+          "bbox": [
+            56,
+            692,
+            1229,
+            720
+          ],
+          "words": [
+            {
+              "text": "2450 Westlake Avenue",
+              "conf": 0.9948045015335083,
+              "bbox": [
+                56,
+                694,
+                280,
+                718
+              ]
+            },
+            {
+              "text": "Suite 410",
+              "conf": 0.9552164077758789,
+              "bbox": [
+                496,
+                694,
+                589,
+                718
+              ]
+            },
+            {
+              "text": "880 Harbor Boulevard",
+              "conf": 0.9974172711372375,
+              "bbox": [
+                677,
+                696,
+                891,
+                716
+              ]
+            },
+            {
+              "text": "Suite 120",
+              "conf": 0.9949192404747009,
+              "bbox": [
+                1136,
+                692,
+                1229,
+                720
+              ]
+            }
+          ]
+        },
+        {
+          "text": "City State Zip Code County City State Zip Code County",
+          "conf": 0.998836100101471,
+          "bbox": [
+            55,
+            754,
+            1210,
+            783
+          ],
+          "words": [
+            {
+              "text": "City",
+              "conf": 0.9983203411102295,
+              "bbox": [
+                55,
+                756,
+                97,
+                782
+              ]
+            },
+            {
+              "text": "State",
+              "conf": 0.999799907207489,
+              "bbox": [
+                261,
+                755,
+                316,
+                780
+              ]
+            },
+            {
+              "text": "Zip Code",
+              "conf": 0.9988085627555847,
+              "bbox": [
+                339,
+                756,
+                428,
+                780
+              ]
+            },
+            {
+              "text": "County",
+              "conf": 0.9995408654212952,
+              "bbox": [
+                495,
+                754,
+                571,
+                783
+              ]
+            },
+            {
+              "text": "City",
+              "conf": 0.9986270666122437,
+              "bbox": [
+                675,
+                756,
+                717,
+                782
+              ]
+            },
+            {
+              "text": "State",
+              "conf": 0.9995647668838501,
+              "bbox": [
+                871,
+                756,
+                926,
+                780
+              ]
+            },
+            {
+              "text": "Zip Code",
+              "conf": 0.9964019060134888,
+              "bbox": [
+                940,
+                758,
+                1026,
+                778
+              ]
+            },
+            {
+              "text": "County",
+              "conf": 0.9996253848075867,
+              "bbox": [
+                1136,
+                754,
+                1210,
+                782
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sacramento CA 95815 Sacramento West Sacramento CA 95691 Yolo",
+          "conf": 0.998433418571949,
+          "bbox": [
+            56,
+            784,
+            1182,
+            809
+          ],
+          "words": [
+            {
+              "text": "Sacramento",
+              "conf": 0.9995146989822388,
+              "bbox": [
+                56,
+                787,
+                171,
+                807
+              ]
+            },
+            {
+              "text": "CA",
+              "conf": 0.9971470832824707,
+              "bbox": [
+                262,
+                784,
+                293,
+                809
+              ]
+            },
+            {
+              "text": "95815",
+              "conf": 0.9998637437820435,
+              "bbox": [
+                339,
+                784,
+                403,
+                809
+              ]
+            },
+            {
+              "text": "Sacramento",
+              "conf": 0.9993730783462524,
+              "bbox": [
+                498,
+                787,
+                615,
+                807
+              ]
+            },
+            {
+              "text": "West Sacramento",
+              "conf": 0.9989897012710571,
+              "bbox": [
+                679,
+                787,
+                849,
+                807
+              ]
+            },
+            {
+              "text": "CA",
+              "conf": 0.9962412714958191,
+              "bbox": [
+                872,
+                785,
+                903,
+                809
+              ]
+            },
+            {
+              "text": "95691",
+              "conf": 0.9997745752334595,
+              "bbox": [
+                940,
+                784,
+                1003,
+                809
+              ]
+            },
+            {
+              "text": "Yolo",
+              "conf": 0.996563196182251,
+              "bbox": [
+                1138,
+                786,
+                1182,
+                809
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone Fax TY Number Phone Fax TY Number",
+          "conf": 0.9792075653870901,
+          "bbox": [
+            54,
+            834,
+            1172,
+            861
+          ],
+          "words": [
+            {
+              "text": "Phone",
+              "conf": 0.9983845949172974,
+              "bbox": [
+                54,
+                836,
+                120,
+                860
+              ]
+            },
+            {
+              "text": "Fax",
+              "conf": 0.99769526720047,
+              "bbox": [
+                262,
+                837,
+                301,
+                861
+              ]
+            },
+            {
+              "text": "TY Number",
+              "conf": 0.9543238878250122,
+              "bbox": [
+                437,
+                834,
+                561,
+                860
+              ]
+            },
+            {
+              "text": "Phone",
+              "conf": 0.9965181350708008,
+              "bbox": [
+                673,
+                834,
+                739,
+                859
+              ]
+            },
+            {
+              "text": "Fax",
+              "conf": 0.9990279674530029,
+              "bbox": [
+                873,
+                837,
+                910,
+                860
+              ]
+            },
+            {
+              "text": "TY Number",
+              "conf": 0.929295539855957,
+              "bbox": [
+                1048,
+                834,
+                1172,
+                860
+              ]
+            }
+          ]
+        },
+        {
+          "text": "555]310-2400 (555) 310-2401 711 [555) 310-2420 [555) 310-2421 711",
+          "conf": 0.9566414753595988,
+          "bbox": [
+            61,
+            864,
+            1087,
+            891
+          ],
+          "words": [
+            {
+              "text": "555]310-2400",
+              "conf": 0.9621062874794006,
+              "bbox": [
+                61,
+                867,
+                203,
+                887
+              ]
+            },
+            {
+              "text": "(555) 310-2401",
+              "conf": 0.9433205723762512,
+              "bbox": [
+                265,
+                864,
+                412,
+                891
+              ]
+            },
+            {
+              "text": "711",
+              "conf": 0.9983559250831604,
+              "bbox": [
+                437,
+                865,
+                476,
+                889
+              ]
+            },
+            {
+              "text": "[555) 310-2420",
+              "conf": 0.9094358682632446,
+              "bbox": [
+                680,
+                866,
+                826,
+                889
+              ]
+            },
+            {
+              "text": "[555) 310-2421",
+              "conf": 0.9274596571922302,
+              "bbox": [
+                877,
+                866,
+                1021,
+                889
+              ]
+            },
+            {
+              "text": "711",
+              "conf": 0.9991705417633057,
+              "bbox": [
+                1048,
+                865,
+                1087,
+                889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "NPI # (If different than above): 1987654321 NPI# (if different from above) 1987654322",
+          "conf": 0.9956425329049429,
+          "bbox": [
+            56,
+            915,
+            969,
+            969
+          ],
+          "words": [
+            {
+              "text": "NPI # (If different than above):",
+              "conf": 0.9911819696426392,
+              "bbox": [
+                56,
+                915,
+                353,
+                941
+              ]
+            },
+            {
+              "text": "1987654321",
+              "conf": 0.9998430013656616,
+              "bbox": [
+                56,
+                947,
+                175,
+                967
+              ]
+            },
+            {
+              "text": "NPI# (if different from above) 1987654322",
+              "conf": 0.9959026277065277,
+              "bbox": [
+                675,
+                915,
+                969,
+                969
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Federal Tax ID (if different from above): Federal Tax ID (if different from above):.",
+          "conf": 0.9783822000026703,
+          "bbox": [
+            56,
+            994,
+            1064,
+            1018
+          ],
+          "words": [
+            {
+              "text": "Federal Tax ID (if different from above):",
+              "conf": 0.9831433296203613,
+              "bbox": [
+                56,
+                994,
+                442,
+                1018
+              ]
+            },
+            {
+              "text": "Federal Tax ID (if different from above):.",
+              "conf": 0.9736210703849792,
+              "bbox": [
+                677,
+                995,
+                1064,
+                1017
+              ]
+            }
+          ]
+        },
+        {
+          "text": "84-3179265 84-3179265",
+          "conf": 0.9992655217647552,
+          "bbox": [
+            53,
+            1022,
+            793,
+            1048
+          ],
+          "words": [
+            {
+              "text": "84-3179265",
+              "conf": 0.9989750981330872,
+              "bbox": [
+                53,
+                1022,
+                173,
+                1048
+              ]
+            },
+            {
+              "text": "84-3179265",
+              "conf": 0.9995559453964233,
+              "bbox": [
+                676,
+                1023,
+                793,
+                1046
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Email: Email:",
+          "conf": 0.9994263648986816,
+          "bbox": [
+            56,
+            1084,
+            738,
+            1105
+          ],
+          "words": [
+            {
+              "text": "Email:",
+              "conf": 0.9991641044616699,
+              "bbox": [
+                56,
+                1084,
+                118,
+                1105
+              ]
+            },
+            {
+              "text": "Email:",
+              "conf": 0.9996886253356934,
+              "bbox": [
+                674,
+                1084,
+                738,
+                1105
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ecm@bluehorizon.example.org southclinic@bluehorizon.example.org",
+          "conf": 0.9985227584838867,
+          "bbox": [
+            56,
+            1113,
+            1047,
+            1136
+          ],
+          "words": [
+            {
+              "text": "ecm@bluehorizon.example.org",
+              "conf": 0.9993683695793152,
+              "bbox": [
+                56,
+                1113,
+                362,
+                1136
+              ]
+            },
+            {
+              "text": "southclinic@bluehorizon.example.org",
+              "conf": 0.9976771473884583,
+              "bbox": [
+                675,
+                1113,
+                1047,
+                1136
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Translation Services Available Yes No Translation Services Available Yes No",
+          "conf": 0.9629802405834198,
+          "bbox": [
+            64,
+            1157,
+            1112,
+            1177
+          ],
+          "words": [
+            {
+              "text": "Translation Services Available",
+              "conf": 0.9794139266014099,
+              "bbox": [
+                64,
+                1158,
+                346,
+                1177
+              ]
+            },
+            {
+              "text": "Yes No",
+              "conf": 0.913364827632904,
+              "bbox": [
+                385,
+                1157,
+                491,
+                1177
+              ]
+            },
+            {
+              "text": "Translation Services Available",
+              "conf": 0.9775537848472595,
+              "bbox": [
+                686,
+                1158,
+                968,
+                1177
+              ]
+            },
+            {
+              "text": "Yes No",
+              "conf": 0.9815884232521057,
+              "bbox": [
+                1007,
+                1157,
+                1112,
+                1177
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Business Hours Schedule: Business Hours Schedule:",
+          "conf": 0.9975875169038773,
+          "bbox": [
+            57,
+            1213,
+            949,
+            1236
+          ],
+          "words": [
+            {
+              "text": "Business Hours",
+              "conf": 0.9998296499252319,
+              "bbox": [
+                57,
+                1213,
+                204,
+                1233
+              ]
+            },
+            {
+              "text": "Schedule:",
+              "conf": 0.9988601207733154,
+              "bbox": [
+                220,
+                1213,
+                320,
+                1236
+              ]
+            },
+            {
+              "text": "Business Hours",
+              "conf": 0.9949619174003601,
+              "bbox": [
+                677,
+                1214,
+                824,
+                1234
+              ]
+            },
+            {
+              "text": "Schedule:",
+              "conf": 0.9966983795166016,
+              "bbox": [
+                851,
+                1213,
+                949,
+                1236
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8:00 AM- 5:00 MOTOWIHEF 8:30 AMI-5:30 M ot ow oth ef",
+          "conf": 0.7904953509569168,
+          "bbox": [
+            57,
+            1240,
+            1062,
+            1265
+          ],
+          "words": [
+            {
+              "text": "8:00 AM- 5:00",
+              "conf": 0.9210256338119507,
+              "bbox": [
+                57,
+                1243,
+                201,
+                1263
+              ]
+            },
+            {
+              "text": "MOTOWIHEF",
+              "conf": 0.6659560203552246,
+              "bbox": [
+                223,
+                1242,
+                431,
+                1261
+              ]
+            },
+            {
+              "text": "8:30 AMI-5:30",
+              "conf": 0.9182732701301575,
+              "bbox": [
+                677,
+                1243,
+                820,
+                1263
+              ]
+            },
+            {
+              "text": "M ot ow oth ef ",
+              "conf": 0.6567264795303345,
+              "bbox": [
+                851,
+                1240,
+                1062,
+                1265
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PM PMI",
+          "conf": 0.9585623741149902,
+          "bbox": [
+            55,
+            1270,
+            714,
+            1295
+          ],
+          "words": [
+            {
+              "text": "PM",
+              "conf": 0.9867830276489258,
+              "bbox": [
+                55,
+                1270,
+                91,
+                1294
+              ]
+            },
+            {
+              "text": "PMI",
+              "conf": 0.9303417205810547,
+              "bbox": [
+                675,
+                1270,
+                714,
+                1295
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any",
+          "conf": 0.9975401759147644,
+          "bbox": [
+            56,
+            1357,
+            1247,
+            1382
+          ],
+          "words": [
+            {
+              "text": "What is your current capacity to accept referrals for this service (number of referrals your organization can manage at any",
+              "conf": 0.9975401759147644,
+              "bbox": [
+                56,
+                1357,
+                1247,
+                1382
+              ]
+            }
+          ]
+        },
+        {
+          "text": "giventime?):",
+          "conf": 0.9327617287635803,
+          "bbox": [
+            57,
+            1389,
+            183,
+            1409
+          ],
+          "words": [
+            {
+              "text": "giventime?):",
+              "conf": 0.9327617287635803,
+              "bbox": [
+                57,
+                1389,
+                183,
+                1409
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Approximately 85 active ECM referrals across both locations..",
+          "conf": 0.9756176471710205,
+          "bbox": [
+            56,
+            1416,
+            647,
+            1440
+          ],
+          "words": [
+            {
+              "text": "Approximately 85 active ECM referrals across both locations..",
+              "conf": 0.9756176471710205,
+              "bbox": [
+                56,
+                1416,
+                647,
+                1440
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

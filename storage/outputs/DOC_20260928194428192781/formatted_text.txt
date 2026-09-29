@@ -1,0 +1,472 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=9 | tables=3 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 9x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy details Benefits Claims Billing&payments Rewards | - | Authorizations | -
+  CELL[2,0] = Member info Issues Policy details Benefits Claims Billing&payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Lisandra Fuentes | - | - | -
+  CELL[3,0] = Lisandra Fuentes
+ROW 4 | Castro | - | - | -
+  CELL[4,0] = Castro
+ROW 5 | Active Policy details Viewing information for | - | Actions | -
+  CELL[5,0] = Active Policy details Viewing information for
+  CELL[5,2] = Actions
+ROW 6 | Silver Classic Standard CSR 150 (01/01/2026 04/30/2026) | - | - | -
+  CELL[6,0] = Silver Classic Standard CSR 150 (01/01/2026 04/30/2026)
+ROW 7 | OSC76948676-01 | R216854F Holder - ON exc | - | -
+  CELL[7,0] = OSC76948676-01
+  CELL[7,1] = R216854F Holder - ON exc
+ROW 8 | Low income subsidy | - | - | -
+  CELL[8,0] = Low income subsidy
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 5x4
+HEADER | Heads up note | Plan details | Coverage information | Tools
+ROW 1 | - | - | Premium | $45.58 Search in-network drugs View
+  CELL[1,2] = Premium
+  CELL[1,3] = $45.58 Search in-network drugs View
+ROW 2 | - | Cllent Oscar | APTC subsidy | $559.00 Check benefits View
+  CELL[2,1] = Cllent Oscar
+  CELL[2,2] = APTC subsidy
+  CELL[2,3] = $559.00 Check benefits View
+ROW 3 | - | - | State subsidy | Oscar Community Resources
+  CELL[3,2] = State subsidy
+  CELL[3,3] = Oscar Community Resources
+ROW 4 | Member actions | Plan name Silver Classic Standard CSR 150 | - | -
+  CELL[4,0] = Member actions
+  CELL[4,1] = Plan name Silver Classic Standard CSR 150
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 20x8
+HEADER | FLDade | Individual Type | State FL | CSR subsidy 150 | Application date | 12/21/2025 | Oscar Care offerings | Learn more
+ROW 1 | - | - | - | - | Enrollment created | 12/21/2025 | - | -
+  CELL[1,4] = Enrollment created
+  CELL[1,5] = 12/21/2025
+ROW 2 | - | - | - | - | - | - | Virtual Urgent Care | Yes
+  CELL[2,6] = Virtual Urgent Care
+  CELL[2,7] = Yes
+ROW 3 | SPO3FLTeam | - | - | - | Effective date | 01/01/2026 | - | -
+  CELL[3,0] = SPO3FLTeam
+  CELL[3,4] = Effective date
+  CELL[3,5] = 01/01/2026
+ROW 4 | - | - | - | - | - | - | Virtual Primary Care | Yes
+  CELL[4,6] = Virtual Primary Care
+  CELL[4,7] = Yes
+ROW 5 | Oscar plan: | Plan essentials | - | Individual | Coverage end date | 04/30/2026 | Virtual mental health | No
+  CELL[5,0] = Oscar plan:
+  CELL[5,1] = Plan essentials
+  CELL[5,3] = Individual
+  CELL[5,4] = Coverage end date
+  CELL[5,5] = 04/30/2026
+  CELL[5,6] = Virtual mental health
+  CELL[5,7] = No
+ROW 6 | FL HMO Standard Gold Simple | Medical Deductible | - | $0.00 | Term reason | Voluntary withdrawal | Eligible $o related care | Yes
+  CELL[6,0] = FL HMO Standard Gold Simple
+  CELL[6,1] = Medical Deductible
+  CELL[6,3] = $0.00
+  CELL[6,4] = Term reason
+  CELL[6,5] = Voluntary withdrawal
+  CELL[6,6] = Eligible $o related care
+  CELL[6,7] = Yes
+ROW 7 | View ID card | Out-of-pocket max | - | $2,200.00 | - | - | - | -
+  CELL[7,0] = View ID card
+  CELL[7,1] = Out-of-pocket max
+  CELL[7,3] = $2,200.00
+ROW 8 | Juan Romero | Referrals | - | Not required | Enrollment information | - | - | -
+  CELL[8,0] = Juan Romero
+  CELL[8,1] = Referrals
+  CELL[8,3] = Not required
+  CELL[8,4] = Enrollment information
+ROW 9 | Effective 05/01/2026 | Referral submissions | - | Not required | Eligib Illity ID | 4ebfd839d25047a1b658308200fe15dc | Network Rating area | FLDade
+  CELL[9,0] = Effective 05/01/2026
+  CELL[9,1] = Referral submissions
+  CELL[9,3] = Not required
+  CELL[9,4] = Eligib Illity ID
+  CELL[9,5] = 4ebfd839d25047a1b658308200fe15dc
+  CELL[9,6] = Network Rating area
+  CELL[9,7] = FLDade
+ROW 10 | - | - | - | - | Broker | Veronica Buzainz | - | -
+  CELL[10,4] = Broker
+  CELL[10,5] = Veronica Buzainz
+ROW 11 | Individual | - | - | - | - | - | Provider network | FL HMO Standard
+  CELL[11,0] = Individual
+  CELL[11,6] = Provider network
+  CELL[11,7] = FL HMO Standard
+ROW 12 | - | Plan documents | - | - | Exchange | On exchange | Tiering | Yes
+  CELL[12,1] = Plan documents
+  CELL[12,4] = Exchange
+  CELL[12,5] = On exchange
+  CELL[12,6] = Tiering
+  CELL[12,7] = Yes
+ROW 13 | $No bills | Schedule of Benefits | - | View | Exchange ID | 0026695834 | - | -
+  CELL[13,0] = $No bills
+  CELL[13,1] = Schedule of Benefits
+  CELL[13,3] = View
+  CELL[13,4] = Exchange ID
+  CELL[13,5] = 0026695834
+ROW 14 | - | - | - | - | - | - | Provider organization type | HMO
+  CELL[14,6] = Provider organization type
+  CELL[14,7] = HMO
+ROW 15 | Oscar Unlocks | Certificate of Coverage | - | View | Enrollmenttype | Initial Enrollment | - | -
+  CELL[15,0] = Oscar Unlocks
+  CELL[15,1] = Certificate of Coverage
+  CELL[15,3] = View
+  CELL[15,4] = Enrollmenttype
+  CELL[15,5] = Initial Enrollment
+ROW 16 | Not activated | - | - | - | - | - | OOA | No
+  CELL[16,0] = Not activated
+  CELL[16,6] = OOA
+  CELL[16,7] = No
+ROW 17 | - | - | Summary of Benefits & Coverage | Vlew | Enrollment source | Ffm | - | -
+  CELL[17,2] = Summary of Benefits & Coverage
+  CELL[17,3] = Vlew
+  CELL[17,4] = Enrollment source
+  CELL[17,5] = Ffm
+ROW 18 | - | - | - | - | - | - | HSA compatible | No
+  CELL[18,6] = HSA compatible
+  CELL[18,7] = No
+ROW 19 | Member tags | ID Card | - | View | - | - | Has rider | No
+  CELL[19,0] = Member tags
+  CELL[19,1] = ID Card
+  CELL[19,3] = View
+  CELL[19,6] = Has rider
+  CELL[19,7] = No
+[/TABLE 2]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,15,1580,102] | order=0
+  rosco Q Search Rosco MR Melissa
+  Lisandra Fuentes Member info Issues Policy details Benefits Claims Billing&payments Rewards Authorizations
+BLOCK 1 | type=table_row | bbox=[17,105,88,130] | order=1
+  Castro
+BLOCK 2 | type=table | bbox=[16,132,1276,433] | order=2
+  Active Policy details Viewing information for: Silver Classic Standard CSR 150 (01/01/2026 04/30/2026) Actions
+  Heads up note Plan details Coverage information Tools
+  Premium $45.58 Search in-network drugs View
+  Cllent Oscar APTC subsidy $559.00 Check benefits View
+  Member actions Plan name Silver Classic Standard CSR 150 Low income subsidy State subsidy Oscar Community Resources
+  FLDade Individual Type State FL CSR subsidy 150 Application date 12/21/2025 Oscar Care offerings Learn more
+  SPO3FLTeam Enrollment created Effective date 01/01/2026 12/21/2025 Virtual Urgent Care Yes
+BLOCK 3 | type=table_row | bbox=[16,167,182,201] | order=3
+  OSC76948676-01: R216854F Holder - ON exc
+BLOCK 4 | type=table_row | bbox=[968,428,1270,447] | order=4
+  Virtual Primary Care Yes
+BLOCK 5 | type=table | bbox=[17,443,1269,587] | order=5
+  Oscar plan: Plan essentials Individual Coverage end date 04/30/2026 Virtual mental health No
+  FL HMO Standard Gold Simple Medical Deductible $0.00 Term reason Voluntary withdrawal Eligible $o related care Yes
+  View ID card Out-of-pocket max $2,200.00
+  Juan Romero Referrals Referral submissions Not required Not required Enrollment information Eligib Illity ID 4ebfd839d25047a1b658308200fe15dc Network
+  Effective 05/01/2026 Rating area FLDade
+BLOCK 6 | type=table_row | bbox=[625,584,928,602] | order=6
+  Broker Veronica Buzainz
+BLOCK 7 | type=table | bbox=[17,597,1270,722] | order=7
+  Individual Plan documents Exchange On exchange Tiering Provider network FL HMO Standard Yes
+  $No bills Schedule of Benefits View Exchange ID 0026695834 Provider organization type HMO
+  Oscar Unlocks Not activated Certificate of Coverage View Enrollmenttype Initial Enrollment OOA No
+  Summary of Benefits & Coverage Vlew Enrollment source Ffm HSA compatible No
+BLOCK 8 | type=footer | bbox=[18,718,1269,752] | order=8
+  Member tags ID Card View Has rider No
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,15,1580,354] | shape=9x4 | conf=0.920
+  shape: 9x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy details Benefits Claims Billing&payments Rewards | - | Authorizations | -
+    CELL[2,0] = Member info Issues Policy details Benefits Claims Billing&payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Lisandra Fuentes | - | - | -
+    CELL[3,0] = Lisandra Fuentes
+  ROW 4 | Castro | - | - | -
+    CELL[4,0] = Castro
+  ROW 5 | Active Policy details Viewing information for | - | Actions | -
+    CELL[5,0] = Active Policy details Viewing information for
+    CELL[5,2] = Actions
+  ROW 6 | Silver Classic Standard CSR 150 (01/01/2026 04/30/2026) | - | - | -
+    CELL[6,0] = Silver Classic Standard CSR 150 (01/01/2026 04/30/2026)
+  ROW 7 | OSC76948676-01 | R216854F Holder - ON exc | - | -
+    CELL[7,0] = OSC76948676-01
+    CELL[7,1] = R216854F Holder - ON exc
+  ROW 8 | Low income subsidy | - | - | -
+    CELL[8,0] = Low income subsidy
+TABLE 1 | source=wide_grid | bbox=[30,229,1269,348] | shape=5x4 | conf=0.850
+  shape: 5x4
+  HEADER | Heads up note | Plan details | Coverage information | Tools
+  ROW 1 | - | - | Premium | $45.58 Search in-network drugs View
+    CELL[1,2] = Premium
+    CELL[1,3] = $45.58 Search in-network drugs View
+  ROW 2 | - | Cllent Oscar | APTC subsidy | $559.00 Check benefits View
+    CELL[2,1] = Cllent Oscar
+    CELL[2,2] = APTC subsidy
+    CELL[2,3] = $559.00 Check benefits View
+  ROW 3 | - | - | State subsidy | Oscar Community Resources
+    CELL[3,2] = State subsidy
+    CELL[3,3] = Oscar Community Resources
+  ROW 4 | Member actions | Plan name Silver Classic Standard CSR 150 | - | -
+    CELL[4,0] = Member actions
+    CELL[4,1] = Plan name Silver Classic Standard CSR 150
+TABLE 2 | source=wide_grid | bbox=[16,355,1276,752] | shape=20x8 | conf=0.850
+  shape: 20x8
+  HEADER | FLDade | Individual Type | State FL | CSR subsidy 150 | Application date | 12/21/2025 | Oscar Care offerings | Learn more
+  ROW 1 | - | - | - | - | Enrollment created | 12/21/2025 | - | -
+    CELL[1,4] = Enrollment created
+    CELL[1,5] = 12/21/2025
+  ROW 2 | - | - | - | - | - | - | Virtual Urgent Care | Yes
+    CELL[2,6] = Virtual Urgent Care
+    CELL[2,7] = Yes
+  ROW 3 | SPO3FLTeam | - | - | - | Effective date | 01/01/2026 | - | -
+    CELL[3,0] = SPO3FLTeam
+    CELL[3,4] = Effective date
+    CELL[3,5] = 01/01/2026
+  ROW 4 | - | - | - | - | - | - | Virtual Primary Care | Yes
+    CELL[4,6] = Virtual Primary Care
+    CELL[4,7] = Yes
+  ROW 5 | Oscar plan: | Plan essentials | - | Individual | Coverage end date | 04/30/2026 | Virtual mental health | No
+    CELL[5,0] = Oscar plan:
+    CELL[5,1] = Plan essentials
+    CELL[5,3] = Individual
+    CELL[5,4] = Coverage end date
+    CELL[5,5] = 04/30/2026
+    CELL[5,6] = Virtual mental health
+    CELL[5,7] = No
+  ROW 6 | FL HMO Standard Gold Simple | Medical Deductible | - | $0.00 | Term reason | Voluntary withdrawal | Eligible $o related care | Yes
+    CELL[6,0] = FL HMO Standard Gold Simple
+    CELL[6,1] = Medical Deductible
+    CELL[6,3] = $0.00
+    CELL[6,4] = Term reason
+    CELL[6,5] = Voluntary withdrawal
+    CELL[6,6] = Eligible $o related care
+    CELL[6,7] = Yes
+  ROW 7 | View ID card | Out-of-pocket max | - | $2,200.00 | - | - | - | -
+    CELL[7,0] = View ID card
+    CELL[7,1] = Out-of-pocket max
+    CELL[7,3] = $2,200.00
+  ROW 8 | Juan Romero | Referrals | - | Not required | Enrollment information | - | - | -
+    CELL[8,0] = Juan Romero
+    CELL[8,1] = Referrals
+    CELL[8,3] = Not required
+    CELL[8,4] = Enrollment information
+  ROW 9 | Effective 05/01/2026 | Referral submissions | - | Not required | Eligib Illity ID | 4ebfd839d25047a1b658308200fe15dc | Network Rating area | FLDade
+    CELL[9,0] = Effective 05/01/2026
+    CELL[9,1] = Referral submissions
+    CELL[9,3] = Not required
+    CELL[9,4] = Eligib Illity ID
+    CELL[9,5] = 4ebfd839d25047a1b658308200fe15dc
+    CELL[9,6] = Network Rating area
+    CELL[9,7] = FLDade
+  ROW 10 | - | - | - | - | Broker | Veronica Buzainz | - | -
+    CELL[10,4] = Broker
+    CELL[10,5] = Veronica Buzainz
+  ROW 11 | Individual | - | - | - | - | - | Provider network | FL HMO Standard
+    CELL[11,0] = Individual
+    CELL[11,6] = Provider network
+    CELL[11,7] = FL HMO Standard
+  ROW 12 | - | Plan documents | - | - | Exchange | On exchange | Tiering | Yes
+    CELL[12,1] = Plan documents
+    CELL[12,4] = Exchange
+    CELL[12,5] = On exchange
+    CELL[12,6] = Tiering
+    CELL[12,7] = Yes
+  ROW 13 | $No bills | Schedule of Benefits | - | View | Exchange ID | 0026695834 | - | -
+    CELL[13,0] = $No bills
+    CELL[13,1] = Schedule of Benefits
+    CELL[13,3] = View
+    CELL[13,4] = Exchange ID
+    CELL[13,5] = 0026695834
+  ROW 14 | - | - | - | - | - | - | Provider organization type | HMO
+    CELL[14,6] = Provider organization type
+    CELL[14,7] = HMO
+  ROW 15 | Oscar Unlocks | Certificate of Coverage | - | View | Enrollmenttype | Initial Enrollment | - | -
+    CELL[15,0] = Oscar Unlocks
+    CELL[15,1] = Certificate of Coverage
+    CELL[15,3] = View
+    CELL[15,4] = Enrollmenttype
+    CELL[15,5] = Initial Enrollment
+  ROW 16 | Not activated | - | - | - | - | - | OOA | No
+    CELL[16,0] = Not activated
+    CELL[16,6] = OOA
+    CELL[16,7] = No
+  ROW 17 | - | - | Summary of Benefits & Coverage | Vlew | Enrollment source | Ffm | - | -
+    CELL[17,2] = Summary of Benefits & Coverage
+    CELL[17,3] = Vlew
+    CELL[17,4] = Enrollment source
+    CELL[17,5] = Ffm
+  ROW 18 | - | - | - | - | - | - | HSA compatible | No
+    CELL[18,6] = HSA compatible
+    CELL[18,7] = No
+  ROW 19 | Member tags | ID Card | - | View | - | - | Has rider | No
+    CELL[19,0] = Member tags
+    CELL[19,1] = ID Card
+    CELL[19,3] = View
+    CELL[19,6] = Has rider
+    CELL[19,7] = No
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,15,1580,36] | conf=0.915 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[112,17,134,33] | text=Q
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1464,15,1550,36] | text=MR Melissa
+LINE 1 | bbox=[19,71,919,102] | conf=0.981 | text=Lisandra Fuentes Member info Issues Policy details Benefits Claims Billing&payments Rewards Authorizations
+  WORD | bbox=[19,81,186,102] | text=Lisandra Fuentes
+  WORD | bbox=[275,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[422,75,499,88] | text=Policy details
+  WORD | bbox=[512,73,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[639,71,749,89] | text=Billing&payments
+  WORD | bbox=[762,73,818,89] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[17,105,88,130] | conf=1.000 | text=Castro
+LINE 3 | bbox=[21,132,1238,172] | conf=0.990 | text=Active Policy details Viewing information for: Silver Classic Standard CSR 150 (01/01/2026 04/30/2026) Actions
+  WORD | bbox=[21,141,64,159] | text=Active
+  WORD | bbox=[279,132,422,172] | text=Policy details Viewing information for:
+  WORD | bbox=[416,155,750,172] | text=Silver Classic Standard CSR 150 (01/01/2026 04/30/2026)
+  WORD | bbox=[1189,144,1238,157] | text=Actions
+LINE 4 | bbox=[30,229,992,253] | conf=0.985 | text=Heads up note Plan details Coverage information Tools
+  WORD | bbox=[30,235,115,253] | text=Heads up note
+  WORD | bbox=[276,229,347,248] | text=Plan details
+  WORD | bbox=[619,232,742,248] | text=Coverage information
+  WORD | bbox=[958,230,992,248] | text=Tools
+LINE 5 | bbox=[623,254,1269,275] | conf=0.987 | text=Premium $45.58 Search in-network drugs View
+  WORD | bbox=[623,254,682,275] | text=Premium
+  WORD | bbox=[885,256,929,274] | text=$45.58
+  WORD | bbox=[966,256,1109,274] | text=Search in-network drugs
+  WORD | bbox=[1225,254,1269,275] | text=View
+LINE 6 | bbox=[292,267,1269,306] | conf=0.970 | text=Cllent Oscar APTC subsidy $559.00 Check benefits View
+  WORD | bbox=[292,267,334,306] | text=Cllent Oscar
+  WORD | bbox=[626,284,706,300] | text=APTC subsidy
+  WORD | bbox=[879,283,929,300] | text=$559.00
+  WORD | bbox=[968,284,1055,300] | text=Check benefits
+  WORD | bbox=[1225,281,1269,302] | text=View
+LINE 7 | bbox=[71,310,1130,354] | conf=0.977 | text=Member actions Plan name Silver Classic Standard CSR 150 Low income subsidy State subsidy Oscar Community Resources
+  WORD | bbox=[71,331,161,346] | text=Member actions
+  WORD | bbox=[292,310,471,348] | text=Plan name Silver Classic Standard CSR 150
+  WORD | bbox=[624,336,741,354] | text=Low income subsidy
+  WORD | bbox=[625,311,706,327] | text=State subsidy
+  WORD | bbox=[969,312,1130,325] | text=Oscar Community Resources
+LINE 8 | bbox=[17,355,1276,400] | conf=0.991 | text=FLDade Individual Type State FL CSR subsidy 150 Application date 12/21/2025 Oscar Care offerings Learn more
+  WORD | bbox=[17,378,95,400] | text=FLDade
+  WORD | bbox=[294,376,352,392] | text=Individual
+  WORD | bbox=[295,358,324,372] | text=Type
+  WORD | bbox=[410,355,446,391] | text=State FL
+  WORD | bbox=[505,356,579,373] | text=CSR subsidy
+  WORD | bbox=[505,376,528,391] | text=150
+  WORD | bbox=[626,364,722,381] | text=Application date
+  WORD | bbox=[862,364,929,381] | text=12/21/2025
+  WORD | bbox=[957,372,1076,391] | text=Oscar Care offerings
+  WORD | bbox=[1209,374,1276,391] | text=Learn more
+LINE 9 | bbox=[16,387,1269,433] | conf=0.984 | text=SPO3FLTeam Enrollment created Effective date 01/01/2026 12/21/2025 Virtual Urgent Care Yes
+  WORD | bbox=[16,411,125,433] | text=SPO3FLTeam
+  WORD | bbox=[626,390,738,406] | text=Enrollment created
+  WORD | bbox=[626,416,709,433] | text=Effective date
+  WORD | bbox=[860,416,927,433] | text=01/01/2026
+  WORD | bbox=[861,387,929,408] | text=12/21/2025
+  WORD | bbox=[966,400,1079,419] | text=Virtual Urgent Care
+  WORD | bbox=[1245,404,1269,419] | text=Yes
+LINE 10 | bbox=[16,167,182,201] | conf=0.940 | text=OSC76948676-01: R216854F Holder - ON exc
+LINE 11 | bbox=[968,428,1270,447] | conf=0.999 | text=Virtual Primary Care Yes
+  WORD | bbox=[968,429,1082,446] | text=Virtual Primary Care
+  WORD | bbox=[1242,428,1270,447] | text=Yes
+LINE 12 | bbox=[17,443,1269,472] | conf=0.985 | text=Oscar plan: Plan essentials Individual Coverage end date 04/30/2026 Virtual mental health No
+  WORD | bbox=[17,445,106,465] | text=Oscar plan:
+  WORD | bbox=[276,448,366,467] | text=Plan essentials
+  WORD | bbox=[538,449,596,466] | text=Individual
+  WORD | bbox=[626,444,735,461] | text=Coverage end date
+  WORD | bbox=[855,443,927,460] | text=04/30/2026
+  WORD | bbox=[966,454,1089,471] | text=Virtual mental health
+  WORD | bbox=[1248,456,1269,472] | text=No
+LINE 13 | bbox=[39,467,1269,504] | conf=0.987 | text=FL HMO Standard Gold Simple Medical Deductible $0.00 Term reason Voluntary withdrawal Eligible $o related care Yes
+  WORD | bbox=[39,488,141,504] | text=FL HMO Standard
+  WORD | bbox=[40,468,110,485] | text=Gold Simple
+  WORD | bbox=[286,474,398,486] | text=Medical Deductible
+  WORD | bbox=[551,471,589,489] | text=$0.00
+  WORD | bbox=[625,467,700,488] | text=Term reason
+  WORD | bbox=[808,471,925,484] | text=Voluntary withdrawal
+  WORD | bbox=[969,482,1096,495] | text=Eligible $o related care
+  WORD | bbox=[1244,482,1269,498] | text=Yes
+LINE 14 | bbox=[40,495,588,521] | conf=0.973 | text=View ID card Out-of-pocket max $2,200.00
+  WORD | bbox=[40,508,112,521] | text=View ID card
+  WORD | bbox=[285,498,398,516] | text=Out-of-pocket max
+  WORD | bbox=[527,495,588,516] | text=$2,200.00
+LINE 15 | bbox=[18,526,1013,575] | conf=0.983 | text=Juan Romero Referrals Referral submissions Not required Not required Enrollment information Eligib Illity ID 4ebfd839d25047a1b658308200fe15dc Network
+  WORD | bbox=[18,535,117,552] | text=Juan Romero
+  WORD | bbox=[285,526,341,542] | text=Referrals
+  WORD | bbox=[288,554,405,566] | text=Referral submissions
+  WORD | bbox=[512,526,589,542] | text=Not required
+  WORD | bbox=[514,554,586,566] | text=Not required
+  WORD | bbox=[619,532,751,549] | text=Enrollment information
+  WORD | bbox=[626,559,698,575] | text=Eligib Illity ID
+  WORD | bbox=[715,558,928,575] | text=4ebfd839d25047a1b658308200fe15dc
+  WORD | bbox=[956,542,1013,563] | text=Network
+LINE 16 | bbox=[17,564,1269,587] | conf=0.986 | text=Effective 05/01/2026 Rating area FLDade
+  WORD | bbox=[17,564,160,584] | text=Effective 05/01/2026
+  WORD | bbox=[968,570,1036,587] | text=Rating area
+  WORD | bbox=[1212,570,1269,587] | text=FLDade
+LINE 17 | bbox=[625,584,928,602] | conf=0.995 | text=Broker Veronica Buzainz
+  WORD | bbox=[625,584,669,602] | text=Broker
+  WORD | bbox=[829,584,928,602] | text=Veronica Buzainz
+LINE 18 | bbox=[20,597,1270,642] | conf=0.991 | text=Individual Plan documents Exchange On exchange Tiering Provider network FL HMO Standard Yes
+  WORD | bbox=[20,600,96,616] | text=Individual
+  WORD | bbox=[278,615,371,631] | text=Plan documents
+  WORD | bbox=[623,609,685,630] | text=Exchange
+  WORD | bbox=[851,608,929,630] | text=On exchange
+  WORD | bbox=[963,621,1012,642] | text=Tiering
+  WORD | bbox=[968,597,1066,614] | text=Provider network
+  WORD | bbox=[1165,597,1269,614] | text=FL HMO Standard
+  WORD | bbox=[1244,623,1270,642] | text=Yes
+LINE 19 | bbox=[17,631,1269,667] | conf=0.987 | text=$No bills Schedule of Benefits View Exchange ID 0026695834 Provider organization type HMO
+  WORD | bbox=[17,631,85,651] | text=$No bills
+  WORD | bbox=[284,639,405,657] | text=Schedule of Benefits
+  WORD | bbox=[545,637,588,659] | text=View
+  WORD | bbox=[626,639,700,656] | text=Exchange ID
+  WORD | bbox=[855,639,929,656] | text=0026695834
+  WORD | bbox=[966,649,1116,667] | text=Provider organization type
+  WORD | bbox=[1234,649,1269,667] | text=HMO
+LINE 20 | bbox=[20,663,1268,699] | conf=0.989 | text=Oscar Unlocks Not activated Certificate of Coverage View Enrollmenttype Initial Enrollment OOA No
+  WORD | bbox=[20,666,122,682] | text=Oscar Unlocks
+  WORD | bbox=[40,686,119,699] | text=Not activated
+  WORD | bbox=[285,666,420,684] | text=Certificate of Coverage
+  WORD | bbox=[545,664,589,685] | text=View
+  WORD | bbox=[625,663,720,682] | text=Enrollmenttype
+  WORD | bbox=[827,664,929,682] | text=Initial Enrollment
+  WORD | bbox=[965,676,998,694] | text=OOA
+  WORD | bbox=[1248,677,1268,694] | text=No
+LINE 21 | bbox=[285,693,1270,722] | conf=0.976 | text=Summary of Benefits & Coverage Vlew Enrollment source Ffm HSA compatible No
+  WORD | bbox=[285,694,471,710] | text=Summary of Benefits & Coverage
+  WORD | bbox=[546,695,588,709] | text=Vlew
+  WORD | bbox=[628,694,730,707] | text=Enrollment source
+  WORD | bbox=[902,693,927,708] | text=Ffm
+  WORD | bbox=[966,703,1061,721] | text=HSA compatible
+  WORD | bbox=[1245,703,1270,722] | text=No
+LINE 22 | bbox=[18,718,1269,752] | conf=0.966 | text=Member tags ID Card View Has rider No
+  WORD | bbox=[18,736,96,752] | text=Member tags
+  WORD | bbox=[286,722,331,736] | text=ID Card
+  WORD | bbox=[543,718,588,739] | text=View
+  WORD | bbox=[965,728,1023,749] | text=Has rider
+  WORD | bbox=[1248,731,1269,747] | text=No
+[/BOXES]
+
+[FIELDS]
+NPI: 0026695834
+[/FIELDS]

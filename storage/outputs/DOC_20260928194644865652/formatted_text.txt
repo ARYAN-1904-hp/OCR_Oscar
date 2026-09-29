@@ -1,0 +1,276 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=16 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 29x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Lisandra Fuentes | - | - | -
+  CELL[3,0] = Lisandra Fuentes
+ROW 4 | Castro | - | - | -
+  CELL[4,0] = Castro
+ROW 5 | Claims & accumulators | - | - | -
+  CELL[5,0] = Claims & accumulators
+ROW 6 | Active | - | - | -
+  CELL[6,0] = Active
+ROW 7 | Viewing information for | Silver Classic Standard CSR 150 (01/01/2026 04/30/2026) | - | -
+  CELL[7,0] = Viewing information for
+  CELL[7,1] = Silver Classic Standard CSR 150 (01/01/2026 04/30/2026)
+ROW 8 | OSC76948676-01 R216854F | - | - | -
+  CELL[8,0] = OSC76948676-01 R216854F
+ROW 9 | Holder - ON exc | - | - | -
+  CELL[9,0] = Holder - ON exc
+ROW 10 | Heads up note | Reduced price PCP visits are not supported by this plan. | - | -
+  CELL[10,0] = Heads up note
+  CELL[10,1] = Reduced price PCP visits are not supported by this plan.
+ROW 11 | Accumulators | - | View benefit limit accumulators | -
+  CELL[11,0] = Accumulators
+  CELL[11,2] = View benefit limit accumulators
+ROW 12 | Member actions | - | - | -
+  CELL[12,0] = Member actions
+ROW 13 | Individual deductible | Individual out-of-pocket-maximum | - | -
+  CELL[13,0] = Individual deductible
+  CELL[13,1] = Individual out-of-pocket-maximum
+ROW 14 | FLDade | - | - | -
+  CELL[14,0] = FLDade
+ROW 15 | $0.00 spent | out of$0.00 $721.75 spent out of$2,200.00 | - | -
+  CELL[15,0] = $0.00 spent
+  CELL[15,1] = out of$0.00 $721.75 spent out of$2,200.00
+ROW 16 | SP03FL Team | - | - | -
+  CELL[16,0] = SP03FL Team
+ROW 17 | Deductible met | $1,478.25 remaining | - | -
+  CELL[17,0] = Deductible met
+  CELL[17,1] = $1,478.25 remaining
+ROW 18 | Oscar plan: | - | - | -
+  CELL[18,0] = Oscar plan:
+ROW 19 | Gold Simple | - | - | -
+  CELL[19,0] = Gold Simple
+ROW 20 | FL HMO Standard | - | - | -
+  CELL[20,0] = FL HMO Standard
+ROW 21 | View ID card | - | - | -
+  CELL[21,0] = View ID card
+ROW 22 | Juan Romero | Claims | Export CSV | -
+  CELL[22,0] = Juan Romero
+  CELL[22,1] = Claims
+  CELL[22,2] = Export CSV
+ROW 23 | Effective 05/01/2026 | - | - | -
+  CELL[23,0] = Effective 05/01/2026
+ROW 24 | Order by date of service Medical claims Service dates 01/01/2025 - 07/23/2026 (2) | - | Member responsibility Status Provider/Facillity | -
+  CELL[24,0] = Order by date of service Medical claims Service dates 01/01/2025 - 07/23/2026 (2)
+  CELL[24,2] = Member responsibility Status Provider/Facillity
+ROW 25 | Individual | - | - | -
+  CELL[25,0] = Individual
+ROW 26 | $No bills | - | - | -
+  CELL[26,0] = $No bills
+ROW 27 | No facility referenced -Michelle Detweiler | - | - | -
+  CELL[27,0] = No facility referenced -Michelle Detweiler
+ROW 28 | Member tags | Service on Jul 14, 2026 Accumulation on Jul 14, 2026 | - | -
+  CELL[28,0] = Member tags
+  CELL[28,1] = Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,34] | order=0
+  rosco Search Rosco MR Melissa
+BLOCK 1 | type=header | bbox=[19,71,919,102] | order=1
+  Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 2 | type=sidebar | bbox=[17,105,88,130] | order=2
+  Castro
+BLOCK 3 | type=sidebar | bbox=[20,131,750,172] | order=3
+  Active Viewing information for: Silver Classic Standard CSR 150 (01/01/2026 04/30/2026) Claims & accumulators
+BLOCK 4 | type=sidebar | bbox=[16,167,182,432] | order=4
+  OSC76948676-01 R216854F
+  Holder - ON exc
+  Member actions
+  SP03FL Team
+BLOCK 5 | type=table | bbox=[17,378,775,411] | order=5
+  FLDade $0.00 spent out of$0.00 $721.75 spent out of$2,200.00
+BLOCK 6 | type=paragraph | bbox=[31,230,1260,369] | order=6
+  Heads up note Reduced price PCP visits are not supported by this plan.
+  Accumulators View benefit limit accumulators
+  Individual deductible Individual out-of-pocket-maximum
+BLOCK 7 | type=paragraph | bbox=[350,430,714,448] | order=7
+  Deductible met $1,478.25 remaining
+BLOCK 8 | type=sidebar | bbox=[16,445,106,465] | order=8
+  Oscar plan:
+BLOCK 9 | type=sidebar | bbox=[41,470,109,482] | order=9
+  Gold Simple
+BLOCK 10 | type=sidebar | bbox=[37,486,143,504] | order=10
+  FL HMO Standard
+BLOCK 11 | type=sidebar | bbox=[16,508,160,651] | order=11
+  View ID card
+  Effective 05/01/2026
+  Individual
+  $No bills
+BLOCK 12 | type=table | bbox=[18,533,1262,554] | order=12
+  Juan Romero Claims Export CSV
+BLOCK 13 | type=paragraph | bbox=[291,585,1228,602] | order=13
+  Order by date of service Medical claims Service dates 01/01/2025 - 07/23/2026 (2) Member responsibility Status Provider/Facillity
+BLOCK 14 | type=table | bbox=[20,659,1255,704] | order=14
+  Oscar Unlocks 4DWG6QRE $0.00
+  Not activated Medical claim Complicated or multiple drainage of skin abscess Denied
+BLOCK 15 | type=footer | bbox=[18,712,615,752] | order=15
+  No facility referenced -Michelle Detweiler
+  Member tags Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,17,1580,752] | shape=29x4 | conf=0.920
+  shape: 29x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Lisandra Fuentes | - | - | -
+    CELL[3,0] = Lisandra Fuentes
+  ROW 4 | Castro | - | - | -
+    CELL[4,0] = Castro
+  ROW 5 | Claims & accumulators | - | - | -
+    CELL[5,0] = Claims & accumulators
+  ROW 6 | Active | - | - | -
+    CELL[6,0] = Active
+  ROW 7 | Viewing information for | Silver Classic Standard CSR 150 (01/01/2026 04/30/2026) | - | -
+    CELL[7,0] = Viewing information for
+    CELL[7,1] = Silver Classic Standard CSR 150 (01/01/2026 04/30/2026)
+  ROW 8 | OSC76948676-01 R216854F | - | - | -
+    CELL[8,0] = OSC76948676-01 R216854F
+  ROW 9 | Holder - ON exc | - | - | -
+    CELL[9,0] = Holder - ON exc
+  ROW 10 | Heads up note | Reduced price PCP visits are not supported by this plan. | - | -
+    CELL[10,0] = Heads up note
+    CELL[10,1] = Reduced price PCP visits are not supported by this plan.
+  ROW 11 | Accumulators | - | View benefit limit accumulators | -
+    CELL[11,0] = Accumulators
+    CELL[11,2] = View benefit limit accumulators
+  ROW 12 | Member actions | - | - | -
+    CELL[12,0] = Member actions
+  ROW 13 | Individual deductible | Individual out-of-pocket-maximum | - | -
+    CELL[13,0] = Individual deductible
+    CELL[13,1] = Individual out-of-pocket-maximum
+  ROW 14 | FLDade | - | - | -
+    CELL[14,0] = FLDade
+  ROW 15 | $0.00 spent | out of$0.00 $721.75 spent out of$2,200.00 | - | -
+    CELL[15,0] = $0.00 spent
+    CELL[15,1] = out of$0.00 $721.75 spent out of$2,200.00
+  ROW 16 | SP03FL Team | - | - | -
+    CELL[16,0] = SP03FL Team
+  ROW 17 | Deductible met | $1,478.25 remaining | - | -
+    CELL[17,0] = Deductible met
+    CELL[17,1] = $1,478.25 remaining
+  ROW 18 | Oscar plan: | - | - | -
+    CELL[18,0] = Oscar plan:
+  ROW 19 | Gold Simple | - | - | -
+    CELL[19,0] = Gold Simple
+  ROW 20 | FL HMO Standard | - | - | -
+    CELL[20,0] = FL HMO Standard
+  ROW 21 | View ID card | - | - | -
+    CELL[21,0] = View ID card
+  ROW 22 | Juan Romero | Claims | Export CSV | -
+    CELL[22,0] = Juan Romero
+    CELL[22,1] = Claims
+    CELL[22,2] = Export CSV
+  ROW 23 | Effective 05/01/2026 | - | - | -
+    CELL[23,0] = Effective 05/01/2026
+  ROW 24 | Order by date of service Medical claims Service dates 01/01/2025 - 07/23/2026 (2) | - | Member responsibility Status Provider/Facillity | -
+    CELL[24,0] = Order by date of service Medical claims Service dates 01/01/2025 - 07/23/2026 (2)
+    CELL[24,2] = Member responsibility Status Provider/Facillity
+  ROW 25 | Individual | - | - | -
+    CELL[25,0] = Individual
+  ROW 26 | $No bills | - | - | -
+    CELL[26,0] = $No bills
+  ROW 27 | No facility referenced -Michelle Detweiler | - | - | -
+    CELL[27,0] = No facility referenced -Michelle Detweiler
+  ROW 28 | Member tags | Service on Jul 14, 2026 Accumulation on Jul 14, 2026 | - | -
+    CELL[28,0] = Member tags
+    CELL[28,1] = Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.918 | text=rosco Search Rosco MR Melissa
+  WORD | bbox=[14,17,74,34] | text=rosco
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,71,919,102] | conf=0.985 | text=Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,186,102] | text=Lisandra Fuentes
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[420,71,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[640,71,749,89] | text=Billing & payments
+  WORD | bbox=[764,75,816,88] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[17,105,88,130] | conf=1.000 | text=Castro
+LINE 3 | bbox=[20,131,750,172] | conf=0.985 | text=Active Viewing information for: Silver Classic Standard CSR 150 (01/01/2026 04/30/2026) Claims & accumulators
+  WORD | bbox=[20,138,64,160] | text=Active
+  WORD | bbox=[276,153,750,172] | text=Viewing information for: Silver Classic Standard CSR 150 (01/01/2026 04/30/2026)
+  WORD | bbox=[280,131,474,148] | text=Claims & accumulators
+LINE 4 | bbox=[19,167,182,183] | conf=0.984 | text=OSC76948676-01 R216854F
+LINE 5 | bbox=[18,186,106,202] | conf=0.982 | text=Holder - ON exc
+LINE 6 | bbox=[69,330,164,349] | conf=0.994 | text=Member actions
+LINE 7 | bbox=[16,412,126,432] | conf=0.915 | text=SP03FL Team
+LINE 8 | bbox=[17,378,775,411] | conf=0.983 | text=FLDade $0.00 spent out of$0.00 $721.75 spent out of$2,200.00
+  WORD | bbox=[17,378,95,400] | text=FLDade
+  WORD | bbox=[277,391,349,411] | text=$0.00 spent
+  WORD | bbox=[445,393,514,406] | text=out of$0.00
+  WORD | bbox=[536,391,615,410] | text=$721.75 spent
+  WORD | bbox=[684,395,775,407] | text=out of$2,200.00
+LINE 9 | bbox=[31,230,588,253] | conf=0.975 | text=Heads up note Reduced price PCP visits are not supported by this plan.
+  WORD | bbox=[31,237,115,253] | text=Heads up note
+  WORD | bbox=[279,230,588,247] | text=Reduced price PCP visits are not supported by this plan.
+LINE 10 | bbox=[279,276,1260,293] | conf=0.990 | text=Accumulators View benefit limit accumulators
+  WORD | bbox=[279,276,371,293] | text=Accumulators
+  WORD | bbox=[1106,277,1260,293] | text=View benefit limit accumulators
+LINE 11 | bbox=[279,356,738,369] | conf=0.989 | text=Individual deductible Individual out-of-pocket-maximum
+  WORD | bbox=[279,356,398,369] | text=Individual deductible
+  WORD | bbox=[539,356,738,369] | text=Individual out-of-pocket-maximum
+LINE 12 | bbox=[350,430,714,448] | conf=0.985 | text=Deductible met $1,478.25 remaining
+  WORD | bbox=[350,430,443,448] | text=Deductible met
+  WORD | bbox=[600,432,714,448] | text=$1,478.25 remaining
+LINE 13 | bbox=[16,445,106,465] | conf=0.940 | text=Oscar plan:
+LINE 14 | bbox=[41,470,109,482] | conf=0.999 | text=Gold Simple
+LINE 15 | bbox=[37,486,143,504] | conf=0.981 | text=FL HMO Standard
+LINE 16 | bbox=[40,508,112,521] | conf=0.972 | text=View ID card
+LINE 17 | bbox=[16,564,160,584] | conf=0.987 | text=Effective 05/01/2026
+LINE 18 | bbox=[20,600,96,616] | conf=0.992 | text=Individual
+LINE 19 | bbox=[17,631,85,651] | conf=0.934 | text=$No bills
+LINE 20 | bbox=[18,533,1262,554] | conf=0.993 | text=Juan Romero Claims Export CSV
+  WORD | bbox=[18,535,117,552] | text=Juan Romero
+  WORD | bbox=[277,533,327,554] | text=Claims
+  WORD | bbox=[1202,537,1262,554] | text=Export CSV
+LINE 21 | bbox=[291,585,1228,602] | conf=0.963 | text=Order by date of service Medical claims Service dates 01/01/2025 - 07/23/2026 (2) Member responsibility Status Provider/Facillity
+  WORD | bbox=[291,588,432,601] | text=Order by date of service
+  WORD | bbox=[466,588,559,601] | text=Medical claims
+  WORD | bbox=[591,588,839,601] | text=Service dates 01/01/2025 - 07/23/2026 (2)
+  WORD | bbox=[875,588,1011,601] | text=Member responsibility
+  WORD | bbox=[1040,585,1093,602] | text=Status
+  WORD | bbox=[1124,588,1228,601] | text=Provider/Facillity
+LINE 22 | bbox=[20,659,1255,682] | conf=0.989 | text=Oscar Unlocks 4DWG6QRE $0.00
+  WORD | bbox=[20,666,122,682] | text=Oscar Unlocks
+  WORD | bbox=[304,659,384,676] | text=4DWG6QRE
+  WORD | bbox=[1214,661,1255,680] | text=$0.00
+LINE 23 | bbox=[40,683,1253,704] | conf=0.993 | text=Not activated Medical claim Complicated or multiple drainage of skin abscess Denied
+  WORD | bbox=[40,686,119,699] | text=Not activated
+  WORD | bbox=[304,687,690,704] | text=Medical claim Complicated or multiple drainage of skin abscess
+  WORD | bbox=[1203,683,1253,704] | text=Denied
+LINE 24 | bbox=[305,712,564,724] | conf=0.955 | text=No facility referenced -Michelle Detweiler
+LINE 25 | bbox=[18,733,615,752] | conf=0.978 | text=Member tags Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+  WORD | bbox=[18,736,96,752] | text=Member tags
+  WORD | bbox=[304,733,615,746] | text=Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+[/BOXES]

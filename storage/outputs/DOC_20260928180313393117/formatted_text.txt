@@ -1,0 +1,27 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=2 | tables=0 | checkboxes=0
+
+[TEXT]
+rosco Q Search Rosco MR Melissa
+Back to claims
+Claim lineage
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,14,1539,85] | order=0
+  rosco Q Search Rosco MR Melissa
+  Back to claims
+BLOCK 1 | type=sidebar | bbox=[24,130,114,150] | order=1
+  Claim lineage
+[/LAYOUT]
+
+[BOXES]
+LINE 0 | bbox=[14,14,1539,36] | conf=0.973 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,14,75,36] | text=rosco
+  WORD | bbox=[110,14,231,36] | text=Q Search Rosco
+  WORD | bbox=[1452,18,1539,34] | text=MR Melissa
+LINE 1 | bbox=[28,69,126,85] | conf=0.942 | text=Back to claims
+LINE 2 | bbox=[24,130,114,150] | conf=0.985 | text=Claim lineage
+[/BOXES]

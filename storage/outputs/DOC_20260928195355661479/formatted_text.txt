@@ -1,0 +1,261 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=15 | tables=1 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 23x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Lisandra Fuentes | - | - | -
+  CELL[3,0] = Lisandra Fuentes
+ROW 4 | Castro | - | - | -
+  CELL[4,0] = Castro
+ROW 5 | Active | Claims | Export CSV | -
+  CELL[5,0] = Active
+  CELL[5,1] = Claims
+  CELL[5,2] = Export CSV
+ROW 6 | OSC76948676-01 R216854F | - | - | -
+  CELL[6,0] = OSC76948676-01 R216854F
+ROW 7 | Holder - ON exc | Order by date of service Medicalclaims Service dates 01/01/2025 - 07/23/2026 (2) | Member responsibillity Status Provider/Facility | -
+  CELL[7,0] = Holder - ON exc
+  CELL[7,1] = Order by date of service Medicalclaims Service dates 01/01/2025 - 07/23/2026 (2)
+  CELL[7,2] = Member responsibillity Status Provider/Facility
+ROW 8 | Heads up note | - | - | -
+  CELL[8,0] = Heads up note
+ROW 9 | 4DWG6QRE | - | $0.00 | -
+  CELL[9,0] = 4DWG6QRE
+  CELL[9,2] = $0.00
+ROW 10 | Medical claim - Complicated or multiple drainage of skin abscess | - | Denied | -
+  CELL[10,0] = Medical claim - Complicated or multiple drainage of skin abscess
+  CELL[10,2] = Denied
+ROW 11 | No facility referenced - Michelle Detweiler | - | - | -
+  CELL[11,0] = No facility referenced - Michelle Detweiler
+ROW 12 | Member actions | Service on Jul 14, 2026 Accumulation on Jul 14, 2026 | - | -
+  CELL[12,0] = Member actions
+  CELL[12,1] = Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+ROW 13 | FLDade | - | - | -
+  CELL[13,0] = FLDade
+ROW 14 | Gold Simple | No facility referenced Carlos a Rodriguez | - | -
+  CELL[14,0] = Gold Simple
+  CELL[14,1] = No facility referenced Carlos a Rodriguez
+ROW 15 | FL HMO Standard | Service on Jul 10, 2026 Accumulation on Jul 22, 2026 | - | -
+  CELL[15,0] = FL HMO Standard
+  CELL[15,1] = Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+ROW 16 | View ID card | - | - | -
+  CELL[16,0] = View ID card
+ROW 17 | Juan Romero | - | - | -
+  CELL[17,0] = Juan Romero
+ROW 18 | No facility referenced -Carlos a Rodriguez | - | - | -
+  CELL[18,0] = No facility referenced -Carlos a Rodriguez
+ROW 19 | $No bills | Service on Jul 10, 2026 Accumulation on Jul 22, 2026 | - | -
+  CELL[19,0] = $No bills
+  CELL[19,1] = Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+ROW 20 | Oscar Unlocks | Applies to OOPM Cumulative OOPM$721.75 | - | -
+  CELL[20,0] = Oscar Unlocks
+  CELL[20,1] = Applies to OOPM Cumulative OOPM$721.75
+ROW 21 | Not activated | - | - | -
+  CELL[21,0] = Not activated
+ROW 22 | Member tags | GHM93K4V | $0.00 | -
+  CELL[22,0] = Member tags
+  CELL[22,1] = GHM93K4V
+  CELL[22,2] = $0.00
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,34] | order=0
+  rosco Search Rosco MR Melissa
+BLOCK 1 | type=header | bbox=[19,71,919,102] | order=1
+  Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 2 | type=sidebar | bbox=[17,105,88,130] | order=2
+  Castro
+BLOCK 3 | type=table | bbox=[20,138,1262,160] | order=3
+  Active Claims Export CSV
+BLOCK 4 | type=paragraph | bbox=[18,186,1255,350] | order=4
+  Holder - ON exc Order by date of service Medicalclaims Service dates 01/01/2025 - 07/23/2026 (2) Member responsibillity Status Provider/Facility
+  4DWG6QRE $0.00
+  Medical claim - Complicated or multiple drainage of skin abscess Denied
+  No facility referenced - Michelle Detweiler
+  Member actions Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+BLOCK 5 | type=sidebar | bbox=[19,167,182,255] | order=5
+  OSC76948676-01 R216854F
+  Heads up note
+BLOCK 6 | type=sidebar | bbox=[17,378,95,400] | order=6
+  FLDade
+BLOCK 7 | type=table | bbox=[16,412,1255,465] | order=7
+  SP03FL Team E5YGSN18 $0.00
+  Oscar plan: Medical claim Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina Processed
+BLOCK 8 | type=table | bbox=[37,465,619,504] | order=8
+  Gold Simple No facility referenced Carlos a Rodriguez
+  FL HMO Standard Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+BLOCK 9 | type=sidebar | bbox=[40,508,112,521] | order=9
+  View ID card
+BLOCK 10 | type=sidebar | bbox=[18,535,117,552] | order=10
+  Juan Romero
+BLOCK 11 | type=table | bbox=[16,564,1255,616] | order=11
+  Effective 05/01/2026 3SB6XK79 $5.00
+  Individual Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Processed
+BLOCK 12 | type=paragraph | bbox=[17,615,619,682] | order=12
+  No facility referenced -Carlos a Rodriguez
+  $No bills Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+  Oscar Unlocks Applies to OOPM Cumulative OOPM$721.75
+BLOCK 13 | type=sidebar | bbox=[40,686,119,699] | order=13
+  Not activated
+BLOCK 14 | type=footer | bbox=[18,736,1255,763] | order=14
+  Member tags GHM93K4V $0.00
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,17,1580,763] | shape=23x4 | conf=0.920
+  shape: 23x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Lisandra Fuentes | - | - | -
+    CELL[3,0] = Lisandra Fuentes
+  ROW 4 | Castro | - | - | -
+    CELL[4,0] = Castro
+  ROW 5 | Active | Claims | Export CSV | -
+    CELL[5,0] = Active
+    CELL[5,1] = Claims
+    CELL[5,2] = Export CSV
+  ROW 6 | OSC76948676-01 R216854F | - | - | -
+    CELL[6,0] = OSC76948676-01 R216854F
+  ROW 7 | Holder - ON exc | Order by date of service Medicalclaims Service dates 01/01/2025 - 07/23/2026 (2) | Member responsibillity Status Provider/Facility | -
+    CELL[7,0] = Holder - ON exc
+    CELL[7,1] = Order by date of service Medicalclaims Service dates 01/01/2025 - 07/23/2026 (2)
+    CELL[7,2] = Member responsibillity Status Provider/Facility
+  ROW 8 | Heads up note | - | - | -
+    CELL[8,0] = Heads up note
+  ROW 9 | 4DWG6QRE | - | $0.00 | -
+    CELL[9,0] = 4DWG6QRE
+    CELL[9,2] = $0.00
+  ROW 10 | Medical claim - Complicated or multiple drainage of skin abscess | - | Denied | -
+    CELL[10,0] = Medical claim - Complicated or multiple drainage of skin abscess
+    CELL[10,2] = Denied
+  ROW 11 | No facility referenced - Michelle Detweiler | - | - | -
+    CELL[11,0] = No facility referenced - Michelle Detweiler
+  ROW 12 | Member actions | Service on Jul 14, 2026 Accumulation on Jul 14, 2026 | - | -
+    CELL[12,0] = Member actions
+    CELL[12,1] = Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+  ROW 13 | FLDade | - | - | -
+    CELL[13,0] = FLDade
+  ROW 14 | Gold Simple | No facility referenced Carlos a Rodriguez | - | -
+    CELL[14,0] = Gold Simple
+    CELL[14,1] = No facility referenced Carlos a Rodriguez
+  ROW 15 | FL HMO Standard | Service on Jul 10, 2026 Accumulation on Jul 22, 2026 | - | -
+    CELL[15,0] = FL HMO Standard
+    CELL[15,1] = Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+  ROW 16 | View ID card | - | - | -
+    CELL[16,0] = View ID card
+  ROW 17 | Juan Romero | - | - | -
+    CELL[17,0] = Juan Romero
+  ROW 18 | No facility referenced -Carlos a Rodriguez | - | - | -
+    CELL[18,0] = No facility referenced -Carlos a Rodriguez
+  ROW 19 | $No bills | Service on Jul 10, 2026 Accumulation on Jul 22, 2026 | - | -
+    CELL[19,0] = $No bills
+    CELL[19,1] = Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+  ROW 20 | Oscar Unlocks | Applies to OOPM Cumulative OOPM$721.75 | - | -
+    CELL[20,0] = Oscar Unlocks
+    CELL[20,1] = Applies to OOPM Cumulative OOPM$721.75
+  ROW 21 | Not activated | - | - | -
+    CELL[21,0] = Not activated
+  ROW 22 | Member tags | GHM93K4V | $0.00 | -
+    CELL[22,0] = Member tags
+    CELL[22,1] = GHM93K4V
+    CELL[22,2] = $0.00
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.918 | text=rosco Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,71,919,102] | conf=0.985 | text=Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,186,102] | text=Lisandra Fuentes
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[420,71,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[640,71,749,89] | text=Billing & payments
+  WORD | bbox=[762,73,818,89] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[17,105,88,130] | conf=1.000 | text=Castro
+LINE 3 | bbox=[20,138,1262,160] | conf=0.997 | text=Active Claims Export CSV
+  WORD | bbox=[20,138,64,160] | text=Active
+  WORD | bbox=[280,139,325,153] | text=Claims
+  WORD | bbox=[1202,139,1262,155] | text=Export CSV
+LINE 4 | bbox=[18,186,1229,205] | conf=0.973 | text=Holder - ON exc Order by date of service Medicalclaims Service dates 01/01/2025 - 07/23/2026 (2) Member responsibillity Status Provider/Facility
+  WORD | bbox=[18,186,106,202] | text=Holder - ON exc
+  WORD | bbox=[291,190,426,202] | text=Order by date of service
+  WORD | bbox=[466,190,554,202] | text=Medicalclaims
+  WORD | bbox=[592,190,835,202] | text=Service dates 01/01/2025 - 07/23/2026 (2)
+  WORD | bbox=[874,190,1010,202] | text=Member responsibillity
+  WORD | bbox=[1041,190,1092,202] | text=Status
+  WORD | bbox=[1121,186,1229,205] | text=Provider/Facility
+LINE 5 | bbox=[304,261,1255,283] | conf=0.998 | text=4DWG6QRE $0.00
+  WORD | bbox=[304,261,384,278] | text=4DWG6QRE
+  WORD | bbox=[1212,261,1255,283] | text=$0.00
+LINE 6 | bbox=[305,288,1252,306] | conf=0.918 | text=Medical claim - Complicated or multiple drainage of skin abscess Denied
+  WORD | bbox=[305,292,688,304] | text=Medical claim - Complicated or multiple drainage of skin abscess
+  WORD | bbox=[1205,288,1252,306] | text=Denied
+LINE 7 | bbox=[304,313,564,326] | conf=0.971 | text=No facility referenced - Michelle Detweiler
+LINE 8 | bbox=[69,330,616,350] | conf=0.991 | text=Member actions Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+  WORD | bbox=[69,330,164,349] | text=Member actions
+  WORD | bbox=[302,334,616,350] | text=Service on Jul 14, 2026 Accumulation on Jul 14, 2026
+LINE 9 | bbox=[19,167,182,183] | conf=0.976 | text=OSC76948676-01 R216854F
+LINE 10 | bbox=[30,235,115,255] | conf=0.999 | text=Heads up note
+LINE 11 | bbox=[17,378,95,400] | conf=0.994 | text=FLDade
+LINE 12 | bbox=[16,412,1255,433] | conf=0.970 | text=SP03FL Team E5YGSN18 $0.00
+  WORD | bbox=[16,412,126,432] | text=SP03FL Team
+  WORD | bbox=[304,412,372,429] | text=E5YGSN18
+  WORD | bbox=[1214,415,1255,433] | text=$0.00
+LINE 13 | bbox=[17,440,1250,465] | conf=0.957 | text=Oscar plan: Medical claim Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina Processed
+  WORD | bbox=[17,445,106,465] | text=Oscar plan:
+  WORD | bbox=[304,442,853,457] | text=Medical claim Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina
+  WORD | bbox=[1170,440,1250,457] | text=Processed
+LINE 14 | bbox=[40,465,565,481] | conf=0.970 | text=Gold Simple No facility referenced Carlos a Rodriguez
+  WORD | bbox=[40,468,108,481] | text=Gold Simple
+  WORD | bbox=[305,465,565,477] | text=No facility referenced Carlos a Rodriguez
+LINE 15 | bbox=[37,485,619,504] | conf=0.978 | text=FL HMO Standard Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+  WORD | bbox=[37,486,143,504] | text=FL HMO Standard
+  WORD | bbox=[302,485,619,502] | text=Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+LINE 16 | bbox=[40,508,112,521] | conf=0.970 | text=View ID card
+LINE 17 | bbox=[18,535,117,552] | conf=0.983 | text=Juan Romero
+LINE 18 | bbox=[16,564,1255,584] | conf=0.991 | text=Effective 05/01/2026 3SB6XK79 $5.00
+  WORD | bbox=[16,564,160,584] | text=Effective 05/01/2026
+  WORD | bbox=[304,564,371,580] | text=3SB6XK79
+  WORD | bbox=[1215,566,1255,584] | text=$5.00
+LINE 19 | bbox=[20,592,1250,616] | conf=0.991 | text=Individual Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Processed
+  WORD | bbox=[20,600,96,616] | text=Individual
+  WORD | bbox=[304,593,1062,610] | text=Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  WORD | bbox=[1169,592,1250,609] | text=Processed
+LINE 20 | bbox=[304,615,566,631] | conf=0.977 | text=No facility referenced -Carlos a Rodriguez
+LINE 21 | bbox=[17,631,619,653] | conf=0.960 | text=$No bills Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+  WORD | bbox=[17,631,85,651] | text=$No bills
+  WORD | bbox=[302,637,619,653] | text=Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+LINE 22 | bbox=[20,656,575,682] | conf=0.962 | text=Oscar Unlocks Applies to OOPM Cumulative OOPM$721.75
+  WORD | bbox=[20,666,122,682] | text=Oscar Unlocks
+  WORD | bbox=[300,656,575,680] | text=Applies to OOPM Cumulative OOPM$721.75
+LINE 23 | bbox=[40,686,119,699] | conf=0.996 | text=Not activated
+LINE 24 | bbox=[18,736,1255,763] | conf=0.990 | text=Member tags GHM93K4V $0.00
+  WORD | bbox=[18,736,96,752] | text=Member tags
+  WORD | bbox=[305,742,380,759] | text=GHM93K4V
+  WORD | bbox=[1214,745,1255,763] | text=$0.00
+[/BOXES]

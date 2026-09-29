@@ -1,0 +1,375 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=8 | tables=3 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 11x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | - | - | Facility type | -
+  CELL[2,2] = Facility type
+ROW 3 | Settlement | - | No | -
+  CELL[3,0] = Settlement
+  CELL[3,2] = No
+ROW 4 | Associated payment (EOP) | - | Place of service | -
+  CELL[4,0] = Associated payment (EOP)
+  CELL[4,2] = Place of service
+ROW 5 | Charge group ID | - | Referring providere | Al Hospi Memorial Region
+  CELL[5,0] = Charge group ID
+  CELL[5,2] = Referring providere
+  CELL[5,3] = Al Hospi Memorial Region
+ROW 6 | Check no. | - | - | -
+  CELL[6,0] = Check no.
+ROW 7 | CCD addendum | - | - | -
+  CELL[7,0] = CCD addendum
+ROW 8 | Payment executor | - | - | -
+  CELL[8,0] = Payment executor
+ROW 9 | Diagnostic information | - | - | -
+  CELL[9,0] = Diagnostic information
+ROW 10 | - | - | caregiver refusal | -
+  CELL[10,2] = caregiver refusal
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 13x5
+HEADER | Legal name | Yisroel Dubov | Plan at time of service | Silver Simple PCP Saver | Provider
+ROW 1 | Oscar ID | OSC7874790901 | Plan carrier | - | Billing NPI 1780667923 Clalm overvlew
+  CELL[1,0] = Oscar ID
+  CELL[1,1] = OSC7874790901
+  CELL[1,2] = Plan carrier
+  CELL[1,4] = Billing NPI 1780667923 Clalm overvlew
+ROW 2 | - | - | Original amount billed | $9,459.00 | Rendering NPI Diagnostic information
+  CELL[2,2] = Original amount billed
+  CELL[2,3] = $9,459.00
+  CELL[2,4] = Rendering NPI Diagnostic information
+ROW 3 | Clalms detalls | - | Allowed amount | $729.17 | Provider specialty Claim line details.
+  CELL[3,0] = Clalms detalls
+  CELL[3,2] = Allowed amount
+  CELL[3,3] = $729.17
+  CELL[3,4] = Provider specialty Claim line details.
+ROW 4 | Claim ID | 3X6ZH7Z9 | Amount Oscar pays | $729.17 | General claim detalls
+  CELL[4,0] = Claim ID
+  CELL[4,1] = 3X6ZH7Z9
+  CELL[4,2] = Amount Oscar pays
+  CELL[4,3] = $729.17
+  CELL[4,4] = General claim detalls
+ROW 5 | Alternate claim ID | / | - | - | Office name Past issues
+  CELL[5,0] = Alternate claim ID
+  CELL[5,1] = /
+  CELL[5,4] = Office name Past issues
+ROW 6 | Priced by | Individual Florida | Applled to deductible | $0.00 | Address IIne 1 3501JOHNSON ST
+  CELL[6,0] = Priced by
+  CELL[6,1] = Individual Florida
+  CELL[6,2] = Applled to deductible
+  CELL[6,3] = $0.00
+  CELL[6,4] = Address IIne 1 3501JOHNSON ST
+ROW 7 | Level of care | Inpatient | Copay amount | $0.00 | Address line 2
+  CELL[7,0] = Level of care
+  CELL[7,1] = Inpatient
+  CELL[7,2] = Copay amount
+  CELL[7,3] = $0.00
+  CELL[7,4] = Address line 2
+ROW 8 | Network status | INN | Colnsurance amount | $0.00 | City HOLLYWOOD
+  CELL[8,0] = Network status
+  CELL[8,1] = INN
+  CELL[8,2] = Colnsurance amount
+  CELL[8,3] = $0.00
+  CELL[8,4] = City HOLLYWOOD
+ROW 9 | Clalm type | Institutional | Not covered | $0.00 | State FL
+  CELL[9,0] = Clalm type
+  CELL[9,1] = Institutional
+  CELL[9,2] = Not covered
+  CELL[9,3] = $0.00
+  CELL[9,4] = State FL
+ROW 10 | Data source | Electronic | Walved amount | $0.00 | ZIP code 330219998
+  CELL[10,0] = Data source
+  CELL[10,1] = Electronic
+  CELL[10,2] = Walved amount
+  CELL[10,3] = $0.00
+  CELL[10,4] = ZIP code 330219998
+ROW 11 | Admit type | Urgent | Amount member owes | $0.00 | TIN 596014973
+  CELL[11,0] = Admit type
+  CELL[11,1] = Urgent
+  CELL[11,2] = Amount member owes
+  CELL[11,3] = $0.00
+  CELL[11,4] = TIN 596014973
+ROW 12 | External pricing vendor | - | - | - | Facllity name Memorial Healthcare System
+  CELL[12,0] = External pricing vendor
+  CELL[12,4] = Facllity name Memorial Healthcare System
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 2x4
+HEADER | Dx no.1 | Dx no. 2 | Dx no.3 | Dx no.4
+ROW 1 | Single lliveborn infant, delivered vaginally | Newborn small for gestational age, other | Post-term newborn | Immunization not carried out because of
+  CELL[1,0] = Single lliveborn infant, delivered vaginally
+  CELL[1,1] = Newborn small for gestational age, other
+  CELL[1,2] = Post-term newborn
+  CELL[1,3] = Immunization not carried out because of
+[/TABLE 2]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[12,11,1565,38] | order=0
+  rosco Q Search Rosco MR Melissa
+BLOCK 1 | type=header | bbox=[30,47,1509,103] | order=1
+  Legal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider
+  Oscar ID OSC7874790901 Plan carrier Billing NPI 1780667923 Clalm overvlew
+BLOCK 2 | type=table | bbox=[22,103,1554,402] | order=2
+  Original amount billed $9,459.00 Rendering NPI Diagnostic information
+  Clalms detalls Allowed amount $729.17 Provider specialty Claim line details.
+  Claim ID 3X6ZH7Z9 Amount Oscar pays $729.17 General claim detalls
+  Alternate claim ID / Office name Past issues
+  Priced by Individual Florida Applled to deductible $0.00 Address IIne 1 3501JOHNSON ST
+  Level of care Inpatient Copay amount $0.00 Address line 2
+  Network status INN Colnsurance amount $0.00 City HOLLYWOOD
+  Clalm type Institutional Not covered $0.00 State FL
+  Data source Electronic Walved amount $0.00 ZIP code 330219998
+  Admit type Urgent Amount member owes $0.00 TIN 596014973
+  External pricing vendor Facllity name Memorial Healthcare System
+BLOCK 3 | type=table | bbox=[947,408,1021,428] | order=3
+  Facility type
+BLOCK 4 | type=table | bbox=[25,423,1366,488] | order=4
+  Associated payment (EOP) Settlement No Place of service
+  Charge group ID Referring providere Al Hospi Memorial Region
+BLOCK 5 | type=table_row | bbox=[27,498,223,675] | order=5
+  Check no.
+  CCD addendum
+  Payment executor
+  Diagnostic information
+BLOCK 6 | type=footer | bbox=[38,701,1144,746] | order=6
+  Dx no.1 Dx no. 2 Dx no.3 Dx no.4
+  Single lliveborn infant, delivered vaginally Newborn small for gestational age, other Post-term newborn Immunization not carried out because of
+BLOCK 7 | type=footer | bbox=[918,746,1011,759] | order=7
+  caregiver refusal
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[12,11,1565,759] | shape=11x4 | conf=0.920
+  shape: 11x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | - | - | Facility type | -
+    CELL[2,2] = Facility type
+  ROW 3 | Settlement | - | No | -
+    CELL[3,0] = Settlement
+    CELL[3,2] = No
+  ROW 4 | Associated payment (EOP) | - | Place of service | -
+    CELL[4,0] = Associated payment (EOP)
+    CELL[4,2] = Place of service
+  ROW 5 | Charge group ID | - | Referring providere | Al Hospi Memorial Region
+    CELL[5,0] = Charge group ID
+    CELL[5,2] = Referring providere
+    CELL[5,3] = Al Hospi Memorial Region
+  ROW 6 | Check no. | - | - | -
+    CELL[6,0] = Check no.
+  ROW 7 | CCD addendum | - | - | -
+    CELL[7,0] = CCD addendum
+  ROW 8 | Payment executor | - | - | -
+    CELL[8,0] = Payment executor
+  ROW 9 | Diagnostic information | - | - | -
+    CELL[9,0] = Diagnostic information
+  ROW 10 | - | - | caregiver refusal | -
+    CELL[10,2] = caregiver refusal
+TABLE 1 | source=wide_grid | bbox=[22,47,1554,402] | shape=13x5 | conf=0.850
+  shape: 13x5
+  HEADER | Legal name | Yisroel Dubov | Plan at time of service | Silver Simple PCP Saver | Provider
+  ROW 1 | Oscar ID | OSC7874790901 | Plan carrier | - | Billing NPI 1780667923 Clalm overvlew
+    CELL[1,0] = Oscar ID
+    CELL[1,1] = OSC7874790901
+    CELL[1,2] = Plan carrier
+    CELL[1,4] = Billing NPI 1780667923 Clalm overvlew
+  ROW 2 | - | - | Original amount billed | $9,459.00 | Rendering NPI Diagnostic information
+    CELL[2,2] = Original amount billed
+    CELL[2,3] = $9,459.00
+    CELL[2,4] = Rendering NPI Diagnostic information
+  ROW 3 | Clalms detalls | - | Allowed amount | $729.17 | Provider specialty Claim line details.
+    CELL[3,0] = Clalms detalls
+    CELL[3,2] = Allowed amount
+    CELL[3,3] = $729.17
+    CELL[3,4] = Provider specialty Claim line details.
+  ROW 4 | Claim ID | 3X6ZH7Z9 | Amount Oscar pays | $729.17 | General claim detalls
+    CELL[4,0] = Claim ID
+    CELL[4,1] = 3X6ZH7Z9
+    CELL[4,2] = Amount Oscar pays
+    CELL[4,3] = $729.17
+    CELL[4,4] = General claim detalls
+  ROW 5 | Alternate claim ID | / | - | - | Office name Past issues
+    CELL[5,0] = Alternate claim ID
+    CELL[5,1] = /
+    CELL[5,4] = Office name Past issues
+  ROW 6 | Priced by | Individual Florida | Applled to deductible | $0.00 | Address IIne 1 3501JOHNSON ST
+    CELL[6,0] = Priced by
+    CELL[6,1] = Individual Florida
+    CELL[6,2] = Applled to deductible
+    CELL[6,3] = $0.00
+    CELL[6,4] = Address IIne 1 3501JOHNSON ST
+  ROW 7 | Level of care | Inpatient | Copay amount | $0.00 | Address line 2
+    CELL[7,0] = Level of care
+    CELL[7,1] = Inpatient
+    CELL[7,2] = Copay amount
+    CELL[7,3] = $0.00
+    CELL[7,4] = Address line 2
+  ROW 8 | Network status | INN | Colnsurance amount | $0.00 | City HOLLYWOOD
+    CELL[8,0] = Network status
+    CELL[8,1] = INN
+    CELL[8,2] = Colnsurance amount
+    CELL[8,3] = $0.00
+    CELL[8,4] = City HOLLYWOOD
+  ROW 9 | Clalm type | Institutional | Not covered | $0.00 | State FL
+    CELL[9,0] = Clalm type
+    CELL[9,1] = Institutional
+    CELL[9,2] = Not covered
+    CELL[9,3] = $0.00
+    CELL[9,4] = State FL
+  ROW 10 | Data source | Electronic | Walved amount | $0.00 | ZIP code 330219998
+    CELL[10,0] = Data source
+    CELL[10,1] = Electronic
+    CELL[10,2] = Walved amount
+    CELL[10,3] = $0.00
+    CELL[10,4] = ZIP code 330219998
+  ROW 11 | Admit type | Urgent | Amount member owes | $0.00 | TIN 596014973
+    CELL[11,0] = Admit type
+    CELL[11,1] = Urgent
+    CELL[11,2] = Amount member owes
+    CELL[11,3] = $0.00
+    CELL[11,4] = TIN 596014973
+  ROW 12 | External pricing vendor | - | - | - | Facllity name Memorial Healthcare System
+    CELL[12,0] = External pricing vendor
+    CELL[12,4] = Facllity name Memorial Healthcare System
+TABLE 2 | source=wide_grid | bbox=[38,701,1144,746] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | Dx no.1 | Dx no. 2 | Dx no.3 | Dx no.4
+  ROW 1 | Single lliveborn infant, delivered vaginally | Newborn small for gestational age, other | Post-term newborn | Immunization not carried out because of
+    CELL[1,0] = Single lliveborn infant, delivered vaginally
+    CELL[1,1] = Newborn small for gestational age, other
+    CELL[1,2] = Post-term newborn
+    CELL[1,3] = Immunization not carried out because of
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[12,11,1565,38] | conf=0.865 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[12,20,71,38] | text=rosco
+  WORD | bbox=[111,20,138,36] | text=Q
+  WORD | bbox=[136,20,226,37] | text=Search Rosco
+  WORD | bbox=[1450,11,1535,32] | text=MR Melissa
+LINE 1 | bbox=[30,47,999,71] | conf=0.987 | text=Legal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider
+  WORD | bbox=[30,55,99,71] | text=Legal name
+  WORD | bbox=[370,52,450,69] | text=Yisroel Dubov
+  WORD | bbox=[490,52,615,69] | text=Plan at time of service
+  WORD | bbox=[775,51,908,67] | text=Silver Simple PCP Saver
+  WORD | bbox=[945,47,999,68] | text=Provider
+LINE 2 | bbox=[32,75,1509,103] | conf=0.971 | text=Oscar ID OSC7874790901 Plan carrier Billing NPI 1780667923 Clalm overvlew
+  WORD | bbox=[32,83,82,97] | text=Oscar ID
+  WORD | bbox=[360,81,450,94] | text=OSC7874790901
+  WORD | bbox=[489,79,559,95] | text=Plan carrier
+  WORD | bbox=[946,75,1009,96] | text=Billing NPI
+  WORD | bbox=[1299,75,1366,92] | text=1780667923
+  WORD | bbox=[1421,87,1509,103] | text=Clalm overvlew
+LINE 3 | bbox=[490,103,1554,130] | conf=0.974 | text=Original amount billed $9,459.00 Rendering NPI Diagnostic information
+  WORD | bbox=[490,106,616,122] | text=Original amount billed
+  WORD | bbox=[850,104,910,121] | text=$9,459.00
+  WORD | bbox=[948,103,1031,120] | text=Rendering NPI
+  WORD | bbox=[1420,112,1554,130] | text=Diagnostic information
+LINE 4 | bbox=[22,130,1520,160] | conf=0.976 | text=Clalms detalls Allowed amount $729.17 Provider specialty Claim line details.
+  WORD | bbox=[22,144,105,160] | text=Clalms detalls
+  WORD | bbox=[490,132,584,149] | text=Allowed amount
+  WORD | bbox=[865,130,910,148] | text=$729.17
+  WORD | bbox=[948,130,1051,146] | text=Provider specialty
+  WORD | bbox=[1421,140,1520,157] | text=Claim line details.
+LINE 5 | bbox=[32,157,1540,185] | conf=0.988 | text=Claim ID 3X6ZH7Z9 Amount Oscar pays $729.17 General claim detalls
+  WORD | bbox=[32,171,81,185] | text=Claim ID
+  WORD | bbox=[389,168,451,185] | text=3X6ZH7Z9
+  WORD | bbox=[491,162,601,174] | text=Amount Oscar pays
+  WORD | bbox=[866,157,911,174] | text=$729.17
+  WORD | bbox=[1422,168,1540,181] | text=General claim detalls
+LINE 6 | bbox=[32,191,1488,214] | conf=0.893 | text=Alternate claim ID / Office name Past issues
+  WORD | bbox=[32,196,136,213] | text=Alternate claim ID
+  WORD | bbox=[438,196,450,209] | text=/
+  WORD | bbox=[949,197,1020,214] | text=Office name
+  WORD | bbox=[1420,191,1488,210] | text=Past issues
+LINE 7 | bbox=[31,220,1365,241] | conf=0.965 | text=Priced by Individual Florida Applled to deductible $0.00 Address IIne 1 3501JOHNSON ST
+  WORD | bbox=[31,220,88,241] | text=Priced by
+  WORD | bbox=[354,222,451,238] | text=Individual Florida
+  WORD | bbox=[491,228,612,241] | text=Applled to deductible
+  WORD | bbox=[873,223,911,241] | text=$0.00
+  WORD | bbox=[948,224,1029,241] | text=Address IIne 1
+  WORD | bbox=[1261,224,1365,237] | text=3501JOHNSON ST
+LINE 8 | bbox=[32,248,1030,270] | conf=0.991 | text=Level of care Inpatient Copay amount $0.00 Address line 2
+  WORD | bbox=[32,250,105,266] | text=Level of care
+  WORD | bbox=[395,248,452,265] | text=Inpatient
+  WORD | bbox=[490,253,575,270] | text=Copay amount
+  WORD | bbox=[873,251,911,269] | text=$0.00
+  WORD | bbox=[948,251,1030,267] | text=Address line 2
+LINE 9 | bbox=[32,275,1366,295] | conf=0.993 | text=Network status INN Colnsurance amount $0.00 City HOLLYWOOD
+  WORD | bbox=[32,276,122,293] | text=Network status
+  WORD | bbox=[425,275,452,290] | text=INN
+  WORD | bbox=[490,279,610,295] | text=Colnsurance amount
+  WORD | bbox=[875,279,910,293] | text=$0.00
+  WORD | bbox=[946,276,976,295] | text=City
+  WORD | bbox=[1287,275,1366,292] | text=HOLLYWOOD
+LINE 10 | bbox=[31,300,1370,322] | conf=0.961 | text=Clalm type Institutional Not covered $0.00 State FL
+  WORD | bbox=[31,300,97,321] | text=Clalm type
+  WORD | bbox=[379,302,452,318] | text=Institutional
+  WORD | bbox=[490,306,562,322] | text=Not covered
+  WORD | bbox=[873,303,911,321] | text=$0.00
+  WORD | bbox=[948,303,985,321] | text=State
+  WORD | bbox=[1348,300,1370,321] | text=FL
+LINE 11 | bbox=[32,324,1368,349] | conf=0.985 | text=Data source Electronic Walved amount $0.00 ZIP code 330219998
+  WORD | bbox=[32,330,104,346] | text=Data source
+  WORD | bbox=[390,324,453,345] | text=Electronic
+  WORD | bbox=[490,332,581,349] | text=Walved amount
+  WORD | bbox=[874,330,911,348] | text=$0.00
+  WORD | bbox=[946,327,1002,348] | text=ZIP code
+  WORD | bbox=[1304,327,1368,344] | text=330219998
+LINE 12 | bbox=[32,355,1368,377] | conf=0.988 | text=Admit type Urgent Amount member owes $0.00 TIN 596014973
+  WORD | bbox=[32,356,99,373] | text=Admit type
+  WORD | bbox=[407,355,454,373] | text=Urgent
+  WORD | bbox=[490,358,620,377] | text=Amount member owes
+  WORD | bbox=[874,356,911,374] | text=$0.00
+  WORD | bbox=[948,358,973,373] | text=TIN
+  WORD | bbox=[1305,355,1368,372] | text=596014973
+LINE 13 | bbox=[32,382,1365,402] | conf=0.978 | text=External pricing vendor Facllity name Memorial Healthcare System
+  WORD | bbox=[32,383,166,400] | text=External pricing vendor
+  WORD | bbox=[947,382,1026,402] | text=Facllity name
+  WORD | bbox=[1206,383,1365,396] | text=Memorial Healthcare System
+LINE 14 | bbox=[947,408,1021,428] | conf=0.946 | text=Facility type
+LINE 15 | bbox=[25,423,1040,462] | conf=0.979 | text=Associated payment (EOP) Settlement No Place of service
+  WORD | bbox=[25,446,176,462] | text=Associated payment (EOP)
+  WORD | bbox=[490,426,559,443] | text=Settlement
+  WORD | bbox=[888,423,912,442] | text=No
+  WORD | bbox=[949,437,1040,453] | text=Place of service
+LINE 16 | bbox=[34,462,1366,488] | conf=0.955 | text=Charge group ID Referring providere Al Hospi Memorial Region
+  WORD | bbox=[34,471,128,488] | text=Charge group ID
+  WORD | bbox=[949,462,1054,481] | text=Referring providere
+  WORD | bbox=[1225,465,1366,477] | text=Al Hospi Memorial Region
+LINE 17 | bbox=[34,498,90,514] | conf=0.946 | text=Check no.
+LINE 18 | bbox=[34,524,125,541] | conf=0.980 | text=CCD addendum
+LINE 19 | bbox=[34,551,139,568] | conf=0.995 | text=Payment executor
+LINE 20 | bbox=[27,656,223,675] | conf=0.986 | text=Diagnostic information
+LINE 21 | bbox=[38,701,962,719] | conf=0.960 | text=Dx no.1 Dx no. 2 Dx no.3 Dx no.4
+  WORD | bbox=[38,705,81,719] | text=Dx no.1
+  WORD | bbox=[330,705,376,718] | text=Dx no. 2
+  WORD | bbox=[624,703,670,717] | text=Dx no.3
+  WORD | bbox=[916,701,962,715] | text=Dx no.4
+LINE 22 | bbox=[38,726,1144,746] | conf=0.958 | text=Single lliveborn infant, delivered vaginally Newborn small for gestational age, other Post-term newborn Immunization not carried out because of
+  WORD | bbox=[38,729,266,746] | text=Single lliveborn infant, delivered vaginally
+  WORD | bbox=[330,728,559,745] | text=Newborn small for gestational age, other
+  WORD | bbox=[621,726,736,744] | text=Post-term newborn
+  WORD | bbox=[918,727,1144,740] | text=Immunization not carried out because of
+LINE 23 | bbox=[918,746,1011,759] | conf=0.954 | text=caregiver refusal
+[/BOXES]
+
+[FIELDS]
+NPI: 1780667923
+[/FIELDS]

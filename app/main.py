@@ -13,8 +13,7 @@ from fastapi.responses import FileResponse, JSONResponse
 
 from ocr.pipeline import run_ocr, warmup_models
 from app.parsers.fast_cpu_parser import FastLocalCPUParser
-from extraction import EXCEL_FILENAME, results_to_json, write_workbook
-from handler_checker.config import ORIGINALS_DIR, OUTPUTS_DIR, STORAGE_DIR
+from handler_checker.config import ORIGINALS_DIR, OUTPUTS_DIR, TEXT_COLLECTIONS_DIR
 from handler_checker.metadata_manager import MetadataManager
 from handler_checker.models import Document
 from handler_checker.ocr_manager import OCRManager
@@ -33,9 +32,6 @@ ALLOWED_EXTENSIONS = {
 ALLOWED_EXTENSIONS_STR = ", ".join(sorted(ALLOWED_EXTENSIONS))
 _DOC_ID_RE = re.compile(r"^DOC_\d+$")
 _BATCH_ID_RE = re.compile(r"^BATCH_\d+$")
-# Combined multi-file workbooks (per-document ones live in OUTPUTS_DIR/<doc>/)
-EXTRACTIONS_DIR = STORAGE_DIR / "extractions"
-_XLSX_MEDIA_TYPE = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 _IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tiff", ".tif", ".gif"}
 _PARSER_EXTS = {".doc", ".docx", ".ppt", ".pptx", ".xlsx"}
 
@@ -117,15 +113,13 @@ def _persist_frontend_upload(
     filename: str,
     source_path: Path,
     raw_json: Dict[str, Any],
-) -> tuple[Dict[str, Any], Dict[str, Any]]:
+) -> Dict[str, Any]:
     """
     Persist frontend uploads like the handler path:
       - originals / outputs under handler_checker/storage/
       - queue.json status updates
       - global + local metadata.json
-      - layout.html + extracted_fields.xlsx via OCRManager.save_ocr_output
-
-    Returns (storage info, field-extraction outcome).
+      - layout.html via OCRManager.save_ocr_output
     """
     ORIGINALS_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -165,7 +159,7 @@ def _persist_frontend_upload(
     QUEUE_MANAGER.update_status(document.document_id, "ongoing")
     METADATA_MANAGER.update_document(document)
 
-    extraction = OCR_MANAGER.save_ocr_output(
+    OCR_MANAGER.save_ocr_output(
         raw_json,
         str(output_dir),
         source_path=str(storage_path),
@@ -183,41 +177,69 @@ def _persist_frontend_upload(
         "output_path": str(output_dir),
         "layout_html": str(output_dir / "layout.html"),
         "layout_html_url": f"/ocr/outputs/{document_id}/layout.html",
-        "excel_url": (
-            f"/ocr/outputs/{document_id}/{EXCEL_FILENAME}"
-            if extraction["excel_path"]
-            else None
-        ),
         "queue_status": QUEUE_MANAGER.get_status(document_id),
         "metadata_file": str(METADATA_MANAGER.metadata_file),
         "queue_file": str(QUEUE_MANAGER.queue_file),
         "files": sorted(p.name for p in output_dir.iterdir() if p.is_file()),
     }
-    return storage, extraction
+    return storage
 
 
-def _write_batch_workbook(
-    extractions: List[Dict[str, Any]],
-) -> tuple[Optional[str], Optional[str]]:
-    """One combined workbook across every file in a batch, so screenshots
-    sharing a Ticket / Claim / OSC / Member ID link into one scenario.
-    Returns (batch id, error); batch id is None when nothing was written."""
-    combined = [r for ex in extractions for r in ex["results"]]
-    if not combined:
-        return None, None
-    batch_id = f"BATCH_{datetime.now().strftime('%Y%m%d%H%M%S%f')}"
-    try:
-        write_workbook(combined, EXTRACTIONS_DIR / batch_id / EXCEL_FILENAME)
-    except Exception as e:
-        return None, f"{type(e).__name__}: {e}"
-    return batch_id, None
+class TextCollection:
+    """
+    Writes each document's cleaned text to its own <filename>.txt, one folder
+    (+ zip) per request.
+
+    Files are written as soon as each document finishes OCR, so the folder
+    fills up while the batch runs.
+    """
+
+    def __init__(self) -> None:
+        self.batch_id = f"BATCH_{datetime.now().strftime('%Y%m%d%H%M%S%f')}"
+        self.folder = TEXT_COLLECTIONS_DIR / self.batch_id
+        self.folder.mkdir(parents=True, exist_ok=True)
+        self.files: List[str] = []
+        self.errors: List[str] = []
+
+    def _unique_name(self, filename: str) -> str:
+        stem = re.sub(r"[^\w.\-]+", "_", Path(filename or "upload").stem) or "upload"
+        name = f"{stem}.txt"
+        n = 2
+        while name in self.files:
+            name = f"{stem}_{n}.txt"
+            n += 1
+        return name
+
+    def add(self, filename: str, text: str) -> None:
+        name = self._unique_name(filename)
+        (self.folder / name).write_text(text or "", encoding="utf-8")
+        self.files.append(name)
+
+    def add_error(self, filename: str, message: str) -> None:
+        self.errors.append(f"{filename}: {message}")
+        (self.folder / "_errors.txt").write_text(
+            "\n".join(self.errors) + "\n", encoding="utf-8"
+        )
+
+    def finish(self) -> Dict[str, Any]:
+        # Zip the folder itself so it extracts as <batch_id>/<filename>.txt
+        zip_path = shutil.make_archive(
+            str(self.folder), "zip", root_dir=TEXT_COLLECTIONS_DIR, base_dir=self.batch_id
+        )
+        return {
+            "batch_id": self.batch_id,
+            "folder": str(self.folder),
+            "zip_path": zip_path,
+            "zip_url": f"/ocr/text-collections/{self.batch_id}.zip",
+            "files": list(self.files),
+            "errors": list(self.errors),
+        }
 
 
 def _shape_response(
     filename: str,
     raw_json: Dict[str, Any],
     storage: Optional[Dict[str, Any]] = None,
-    extraction: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """
     Build the API response.
@@ -228,8 +250,6 @@ def _shape_response(
     layout_summary  - per-page block type counts and column count
     raw_json        - full OCR output with bboxes and confidence scores
     storage         - persisted original + output folder paths (frontend uploads)
-    extracted_fields - regex field extraction over formatted_text.txt
-    excel_url       - download URL for extracted_fields.xlsx
     """
     try:
         parser_text = FAST_PARSER.process_data(raw_json)
@@ -267,14 +287,18 @@ def _shape_response(
         response["storage"] = storage
         response["document_id"] = storage.get("document_id")
         response["layout_html_url"] = storage.get("layout_html_url")
-        response["excel_url"] = storage.get("excel_url")
-    if extraction:
-        response["extracted_fields"] = results_to_json(extraction["results"])
-        if extraction["error"]:
-            response["extraction_error"] = extraction["error"]
     if parser_error:
         response["parser_error"] = parser_error
     return response
+
+
+def _cleaned_text(response: Dict[str, Any]) -> str:
+    """Same text the frontend shows: plain_text, falling back to formatted_text."""
+    for key in ("plain_text", "formatted_text"):
+        value = response.get(key)
+        if isinstance(value, str) and value.strip():
+            return value
+    return ""
 
 
 @app.get("/health")
@@ -298,34 +322,15 @@ def download_layout_html(document_id: str):
     )
 
 
-@app.get("/ocr/outputs/{document_id}/extracted_fields.xlsx")
-def download_document_excel(document_id: str):
-    """Serve the extracted-fields workbook for one document."""
-    if not _DOC_ID_RE.match(document_id):
-        raise HTTPException(status_code=400, detail="Invalid document_id.")
-    path = OUTPUTS_DIR / document_id / EXCEL_FILENAME
-    if not path.is_file():
-        raise HTTPException(status_code=404, detail="No extracted fields workbook for this document.")
-    return FileResponse(
-        path,
-        media_type=_XLSX_MEDIA_TYPE,
-        filename=f"{document_id}_{EXCEL_FILENAME}",
-    )
-
-
-@app.get("/ocr/batches/{batch_id}/extracted_fields.xlsx")
-def download_batch_excel(batch_id: str):
-    """Serve the combined extracted-fields workbook for a batch upload."""
+@app.get("/ocr/text-collections/{batch_id}.zip")
+def download_text_collection(batch_id: str):
+    """Serve the zip of per-document .txt files written for one request."""
     if not _BATCH_ID_RE.match(batch_id):
         raise HTTPException(status_code=400, detail="Invalid batch_id.")
-    path = EXTRACTIONS_DIR / batch_id / EXCEL_FILENAME
+    path = TEXT_COLLECTIONS_DIR / f"{batch_id}.zip"
     if not path.is_file():
-        raise HTTPException(status_code=404, detail="No extracted fields workbook for this batch.")
-    return FileResponse(
-        path,
-        media_type=_XLSX_MEDIA_TYPE,
-        filename=f"{batch_id}_{EXCEL_FILENAME}",
-    )
+        raise HTTPException(status_code=404, detail="Text collection not found.")
+    return FileResponse(path, media_type="application/zip", filename=f"{batch_id}.zip")
 
 
 @app.post("/ocr")
@@ -367,11 +372,15 @@ async def ocr_endpoint(
                 engine="auto",
                 return_layout=return_layout,
             )
-            storage, extraction = _persist_frontend_upload(
+            storage = _persist_frontend_upload(
                 file.filename or "upload",
                 tmp_path,
                 raw,
             )
+            response = _shape_response(file.filename or "upload", raw, storage=storage)
+            collection = TextCollection()
+            collection.add(file.filename or "upload", _cleaned_text(response))
+            response["text_collection"] = collection.finish()
         except HTTPException:
             raise
         except Exception as e:
@@ -383,11 +392,7 @@ async def ocr_endpoint(
                 status_code=500,
                 content={"detail": f"OCR processing failed: {type(e).__name__}: {e}"},
             )
-        return JSONResponse(
-            content=_shape_response(
-                file.filename or "upload", raw, storage=storage, extraction=extraction
-            )
-        )
+        return JSONResponse(content=response)
     finally:
         try:
             tmp_path.unlink(missing_ok=True)
@@ -420,9 +425,6 @@ async def ocr_batch_endpoint(
 
     tmp_paths: List[Path] = []
     results: List[Dict[str, Any]] = []
-    extractions: List[Dict[str, Any]] = []
-    batch_id: Optional[str] = None
-    batch_error: Optional[str] = None
 
     try:
         try:
@@ -432,26 +434,31 @@ async def ocr_batch_endpoint(
                     tmp.write(await f.read())
                     tmp_paths.append(Path(tmp.name))
 
+            collection = TextCollection()
             for tp, f in zip(tmp_paths, files):
-                raw = run_ocr(
-                    input_path=str(tp),
-                    preset=preset,
-                    dpi=dpi,
-                    max_pages=max_pages,
-                    return_debug=return_debug,
-                    engine="auto",
-                    return_layout=return_layout,
-                )
-                storage, extraction = _persist_frontend_upload(
-                    f.filename or "upload", tp, raw
-                )
-                extractions.append(extraction)
-                results.append(
-                    _shape_response(
-                        f.filename or "upload", raw, storage=storage, extraction=extraction
+                name = f.filename or "upload"
+                # One bad file must not throw away the rest of the batch.
+                try:
+                    raw = run_ocr(
+                        input_path=str(tp),
+                        preset=preset,
+                        dpi=dpi,
+                        max_pages=max_pages,
+                        return_debug=return_debug,
+                        engine="auto",
+                        return_layout=return_layout,
                     )
-                )
-            batch_id, batch_error = _write_batch_workbook(extractions)
+                    storage = _persist_frontend_upload(name, tp, raw)
+                except Exception as e:
+                    error = f"OCR processing failed: {type(e).__name__}: {e}"
+                    collection.add_error(name, error)
+                    results.append({"filename": name, "error": error})
+                    continue
+                result = _shape_response(name, raw, storage=storage)
+                # Store this document's text now, before the next file starts.
+                collection.add(name, _cleaned_text(result))
+                results.append(result)
+            text_collection = collection.finish()
         except HTTPException:
             raise
         except Exception as e:
@@ -467,11 +474,7 @@ async def ocr_batch_endpoint(
             content={
                 "count": len(results),
                 "results": results,
-                "batch_id": batch_id,
-                "excel_url": (
-                    f"/ocr/batches/{batch_id}/{EXCEL_FILENAME}" if batch_id else None
-                ),
-                "extraction_error": batch_error,
+                "text_collection": text_collection,
             }
         )
     finally:

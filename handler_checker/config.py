@@ -40,6 +40,8 @@ PROJECT_NAME = os.getenv("PROJECT_NAME", "Intake Agent OCR Engine")
 STORAGE_DIR = PROJECT_ROOT / os.getenv("STORAGE_DIR", "storage")
 ORIGINALS_DIR = PROJECT_ROOT / os.getenv("ORIGINALS_DIR", "storage/originals")
 OUTPUTS_DIR = PROJECT_ROOT / os.getenv("OUTPUTS_DIR", "storage/outputs")
+# One folder (+ zip) per upload request, one cleaned <filename>.txt per document
+TEXT_COLLECTIONS_DIR = PROJECT_ROOT / os.getenv("TEXT_COLLECTIONS_DIR", "storage/text_collections")
 
 # ==========================================================
 # Metadata
@@ -96,6 +98,7 @@ for directory in [
     STORAGE_DIR,
     ORIGINALS_DIR,
     OUTPUTS_DIR,
+    TEXT_COLLECTIONS_DIR,
     METADATA_DIR,
     QUEUE_DIR,
     LOG_DIR,

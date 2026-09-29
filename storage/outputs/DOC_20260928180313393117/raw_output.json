@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Q Search Rosco MR Melissa\nBack to claims\nClaim lineage",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Q Search Rosco MR Melissa\nBack to claims\nClaim lineage",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [],
+          "text": ""
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            14,
+            1539,
+            85
+          ],
+          "text": "rosco Q Search Rosco MR Melissa\nBack to claims",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Q Search Rosco MR Melissa",
+              "conf": 0.9731627901395162,
+              "bbox": [
+                14,
+                14,
+                1539,
+                36
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9926756620407104,
+                  "bbox": [
+                    14,
+                    14,
+                    75,
+                    36
+                  ]
+                },
+                {
+                  "text": "Q Search Rosco",
+                  "conf": 0.9611514806747437,
+                  "bbox": [
+                    110,
+                    14,
+                    231,
+                    36
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9656612277030945,
+                  "bbox": [
+                    1452,
+                    18,
+                    1539,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Back to claims",
+              "conf": 0.9415525794029236,
+              "bbox": [
+                28,
+                69,
+                126,
+                85
+              ],
+              "words": [
+                {
+                  "text": " Back to claims",
+                  "conf": 0.9415525794029236,
+                  "bbox": [
+                    28,
+                    69,
+                    126,
+                    85
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 1,
+          "bbox": [
+            24,
+            130,
+            114,
+            150
+          ],
+          "text": "Claim lineage",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claim lineage",
+              "conf": 0.9848140478134155,
+              "bbox": [
+                24,
+                130,
+                114,
+                150
+              ],
+              "words": [
+                {
+                  "text": "Claim lineage",
+                  "conf": 0.9848140478134155,
+                  "bbox": [
+                    24,
+                    130,
+                    114,
+                    150
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Q Search Rosco MR Melissa",
+          "conf": 0.9731627901395162,
+          "bbox": [
+            14,
+            14,
+            1539,
+            36
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9926756620407104,
+              "bbox": [
+                14,
+                14,
+                75,
+                36
+              ]
+            },
+            {
+              "text": "Q Search Rosco",
+              "conf": 0.9611514806747437,
+              "bbox": [
+                110,
+                14,
+                231,
+                36
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9656612277030945,
+              "bbox": [
+                1452,
+                18,
+                1539,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Back to claims",
+          "conf": 0.9415525794029236,
+          "bbox": [
+            28,
+            69,
+            126,
+            85
+          ],
+          "words": [
+            {
+              "text": " Back to claims",
+              "conf": 0.9415525794029236,
+              "bbox": [
+                28,
+                69,
+                126,
+                85
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim lineage",
+          "conf": 0.9848140478134155,
+          "bbox": [
+            24,
+            130,
+            114,
+            150
+          ],
+          "words": [
+            {
+              "text": "Claim lineage",
+              "conf": 0.9848140478134155,
+              "bbox": [
+                24,
+                130,
+                114,
+                150
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

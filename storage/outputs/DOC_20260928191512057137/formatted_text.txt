@@ -1,0 +1,323 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=18 | tables=4 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 17x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims-MR appian | -
+  CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+  CELL[1,2] = Claims-MR appian
+ROW 2 | HOLD-5886498 Production Hold | - | - | -
+  CELL[2,0] = HOLD-5886498 Production Hold
+ROW 3 | Member Info | - | - | -
+  CELL[3,0] = Member Info
+ROW 4 | Source | Automat (appian_hold_ticket_creation) | Watchers | WATCH
+  CELL[4,0] = Source
+  CELL[4,1] = Automat (appian_hold_ticket_creation)
+  CELL[4,2] = Watchers
+  CELL[4,3] = WATCH
+ROW 5 | State | FL | - | -
+  CELL[5,0] = State
+  CELL[5,1] = FL
+ROW 6 | Labels | - | - | -
+  CELL[6,0] = Labels
+ROW 7 | Plan Type | - | - | -
+  CELL[7,0] = Plan Type
+ROW 8 | ICHRA | - | Additional Info | -
+  CELL[8,0] = ICHRA
+  CELL[8,2] = Additional Info
+ROW 9 | The claim is for a newborn and requires manual review | - | - | -
+  CELL[9,0] = The claim is for a newborn and requires manual review
+ROW 10 | - | - | Issue | Other
+  CELL[10,2] = Issue
+  CELL[10,3] = Other
+ROW 11 | LOB | Individual | - | -
+  CELL[11,0] = LOB
+  CELL[11,1] = Individual
+ROW 12 | - | - | Code | NEWBORN
+  CELL[12,2] = Code
+  CELL[12,3] = NEWBORN
+ROW 13 | Tenant | Oscar | - | -
+  CELL[13,0] = Tenant
+  CELL[13,1] = Oscar
+ROW 14 | - | - | System | Ocelot
+  CELL[14,2] = System
+  CELL[14,3] = Ocelot
+ROW 15 | - | - | Interest Accrued | -
+  CELL[15,2] = Interest Accrued
+ROW 16 | Claim Info | - | - | -
+  CELL[16,0] = Claim Info
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 6x6
+HEADER | NEWBORN hold on claim 3X6ZH7Z9 | Ticket Info Re-triage | PAUSE | ESCALATE | WITHDRAW | RESOLVE
+ROW 1 | P3 In Progress (In Review) | Due 07/29/2026 | Assignee Melissa Rippon | - | - | Resolve
+  CELL[1,0] = P3 In Progress (In Review)
+  CELL[1,1] = Due 07/29/2026
+  CELL[1,2] = Assignee Melissa Rippon
+  CELL[1,5] = Resolve
+ROW 2 | Skill: NEWBORN | SLA All Holds SLA (minus High$) (7 working days) | Submitter Internal | - | - | -
+  CELL[2,0] = Skill: NEWBORN
+  CELL[2,1] = SLA All Holds SLA (minus High$) (7 working days)
+  CELL[2,2] = Submitter Internal
+ROW 3 | No resource links available | Created On 7/19/2026 11:02 AM EDT | Created By svc.automat | - | - | -
+  CELL[3,0] = No resource links available
+  CELL[3,1] = Created On 7/19/2026 11:02 AM EDT
+  CELL[3,2] = Created By svc.automat
+ROW 4 | Queue Newborn Holds | - | - | - | - | -
+  CELL[4,0] = Queue Newborn Holds
+ROW 5 | - | Updated On 7/23/2026 3:14 PM EDT | Updated By Melissa Rippon | - | - | -
+  CELL[5,1] = Updated On 7/23/2026 3:14 PM EDT
+  CELL[5,2] = Updated By Melissa Rippon
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 3x4
+HEADER | Member ID | R213XB6D | Closed On | Closed By
+ROW 1 | - | - | Reported On | Reporter
+  CELL[1,2] = Reported On
+  CELL[1,3] = Reporter
+ROW 2 | OSCID | OSC7874790901 | - | -
+  CELL[2,0] = OSCID
+  CELL[2,1] = OSC7874790901
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 2x3
+HEADER | Ocelot ID | 3X6ZH7Z9 | Prompt Process Due Date
+ROW 1 | Nucleus ID | - | Escalated To
+  CELL[1,0] = Nucleus ID
+  CELL[1,2] = Escalated To
+[/TABLE 3]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[19,13,1589,89] | order=0
+  Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims-MR appian
+  HOLD-5886498 Production Hold
+BLOCK 1 | type=table | bbox=[32,126,1550,269] | order=1
+  NEWBORN hold on claim 3X6ZH7Z9 Ticket Info Re-triage PAUSE ESCALATE WITHDRAW RESOLVE
+  P3 In Progress (In Review) Due 07/29/2026 Assignee Melissa Rippon Resolve
+  Skill: NEWBORN SLA All Holds SLA (minus High$) (7 working days) Submitter Internal
+  No resource links available Created On 7/19/2026 11: 02 AM EDT Created By svc.automat
+BLOCK 2 | type=table_row | bbox=[38,265,259,283] | order=2
+  Queue Newborn Holds
+BLOCK 3 | type=table | bbox=[429,286,1228,308] | order=3
+  Updated On 7/23/2026 3: 14 PM EDT Updated By Melissa Rippon
+BLOCK 4 | type=table_row | bbox=[38,317,135,334] | order=4
+  Member Info
+BLOCK 5 | type=table | bbox=[38,330,1264,444] | order=5
+  Member ID R213XB6D Closed On Closed By
+  OSCID OSC7874790901 Reported On Reporter
+  State FL Source Automat (appian_hold_ticket_creation) Watchers WATCH
+BLOCK 6 | type=table | bbox=[431,457,471,471] | order=6
+  Labels
+BLOCK 7 | type=table_row | bbox=[39,467,96,485] | order=7
+  Plan Type
+BLOCK 8 | type=table | bbox=[39,502,1110,532] | order=8
+  ICHRA The claim is for a newborn and requires manual review Additional Info
+BLOCK 9 | type=table_row | bbox=[1008,527,1179,546] | order=9
+  Issue Other
+BLOCK 10 | type=table_row | bbox=[38,549,231,568] | order=10
+  LOB Individual
+BLOCK 11 | type=table_row | bbox=[1008,568,1208,587] | order=11
+  Code NEWBORN
+BLOCK 12 | type=table_row | bbox=[39,589,210,609] | order=12
+  Tenant Oscar
+BLOCK 13 | type=table_row | bbox=[1009,611,1182,626] | order=13
+  System Ocelot
+BLOCK 14 | type=table_row | bbox=[1010,654,1105,667] | order=14
+  Interest Accrued
+BLOCK 15 | type=table_row | bbox=[40,670,121,687] | order=15
+  Claim Info
+BLOCK 16 | type=table | bbox=[40,691,1126,727] | order=16
+  Ocelot ID 3X6ZH7Z9 Prompt Process Due Date
+BLOCK 17 | type=footer | bbox=[40,740,1085,766] | order=17
+  Nucleus ID Escalated To
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[19,13,1589,687] | shape=17x4 | conf=0.920
+  shape: 17x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims-MR appian | -
+    CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+    CELL[1,2] = Claims-MR appian
+  ROW 2 | HOLD-5886498 Production Hold | - | - | -
+    CELL[2,0] = HOLD-5886498 Production Hold
+  ROW 3 | Member Info | - | - | -
+    CELL[3,0] = Member Info
+  ROW 4 | Source | Automat (appian_hold_ticket_creation) | Watchers | WATCH
+    CELL[4,0] = Source
+    CELL[4,1] = Automat (appian_hold_ticket_creation)
+    CELL[4,2] = Watchers
+    CELL[4,3] = WATCH
+  ROW 5 | State | FL | - | -
+    CELL[5,0] = State
+    CELL[5,1] = FL
+  ROW 6 | Labels | - | - | -
+    CELL[6,0] = Labels
+  ROW 7 | Plan Type | - | - | -
+    CELL[7,0] = Plan Type
+  ROW 8 | ICHRA | - | Additional Info | -
+    CELL[8,0] = ICHRA
+    CELL[8,2] = Additional Info
+  ROW 9 | The claim is for a newborn and requires manual review | - | - | -
+    CELL[9,0] = The claim is for a newborn and requires manual review
+  ROW 10 | - | - | Issue | Other
+    CELL[10,2] = Issue
+    CELL[10,3] = Other
+  ROW 11 | LOB | Individual | - | -
+    CELL[11,0] = LOB
+    CELL[11,1] = Individual
+  ROW 12 | - | - | Code | NEWBORN
+    CELL[12,2] = Code
+    CELL[12,3] = NEWBORN
+  ROW 13 | Tenant | Oscar | - | -
+    CELL[13,0] = Tenant
+    CELL[13,1] = Oscar
+  ROW 14 | - | - | System | Ocelot
+    CELL[14,2] = System
+    CELL[14,3] = Ocelot
+  ROW 15 | - | - | Interest Accrued | -
+    CELL[15,2] = Interest Accrued
+  ROW 16 | Claim Info | - | - | -
+    CELL[16,0] = Claim Info
+TABLE 1 | source=wide_grid | bbox=[32,126,1550,308] | shape=6x6 | conf=0.850
+  shape: 6x6
+  HEADER | NEWBORN hold on claim 3X6ZH7Z9 | Ticket Info Re-triage | PAUSE | ESCALATE | WITHDRAW | RESOLVE
+  ROW 1 | P3 In Progress (In Review) | Due 07/29/2026 | Assignee Melissa Rippon | - | - | Resolve
+    CELL[1,0] = P3 In Progress (In Review)
+    CELL[1,1] = Due 07/29/2026
+    CELL[1,2] = Assignee Melissa Rippon
+    CELL[1,5] = Resolve
+  ROW 2 | Skill: NEWBORN | SLA All Holds SLA (minus High$) (7 working days) | Submitter Internal | - | - | -
+    CELL[2,0] = Skill: NEWBORN
+    CELL[2,1] = SLA All Holds SLA (minus High$) (7 working days)
+    CELL[2,2] = Submitter Internal
+  ROW 3 | No resource links available | Created On 7/19/2026 11:02 AM EDT | Created By svc.automat | - | - | -
+    CELL[3,0] = No resource links available
+    CELL[3,1] = Created On 7/19/2026 11:02 AM EDT
+    CELL[3,2] = Created By svc.automat
+  ROW 4 | Queue Newborn Holds | - | - | - | - | -
+    CELL[4,0] = Queue Newborn Holds
+  ROW 5 | - | Updated On 7/23/2026 3:14 PM EDT | Updated By Melissa Rippon | - | - | -
+    CELL[5,1] = Updated On 7/23/2026 3:14 PM EDT
+    CELL[5,2] = Updated By Melissa Rippon
+TABLE 2 | source=wide_grid | bbox=[38,330,1066,404] | shape=3x4 | conf=0.850
+  shape: 3x4
+  HEADER | Member ID | R213XB6D | Closed On | Closed By
+  ROW 1 | - | - | Reported On | Reporter
+    CELL[1,2] = Reported On
+    CELL[1,3] = Reporter
+  ROW 2 | OSCID | OSC7874790901 | - | -
+    CELL[2,0] = OSCID
+    CELL[2,1] = OSC7874790901
+TABLE 3 | source=wide_grid | bbox=[40,691,1126,766] | shape=2x3 | conf=0.850
+  shape: 2x3
+  HEADER | Ocelot ID | 3X6ZH7Z9 | Prompt Process Due Date
+  ROW 1 | Nucleus ID | - | Escalated To
+    CELL[1,0] = Nucleus ID
+    CELL[1,2] = Escalated To
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[46,13,1589,38] | conf=0.978 | text=Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims-MR appian
+  WORD | bbox=[46,20,100,38] | text=Claims
+  WORD | bbox=[129,17,172,34] | text=HOME
+  WORD | bbox=[189,17,262,33] | text=INVENTORY
+  WORD | bbox=[280,18,371,31] | text=CREATE TICKET
+  WORD | bbox=[389,18,461,31] | text=UNARCHIVE
+  WORD | bbox=[1435,13,1541,31] | text=Claims-MR
+  WORD | bbox=[1548,14,1589,28] | text=appian
+LINE 1 | bbox=[19,69,330,89] | conf=0.955 | text=HOLD-5886498 Production Hold
+LINE 2 | bbox=[39,126,1550,149] | conf=0.979 | text=NEWBORN hold on claim 3X6ZH7Z9 Ticket Info Re-triage PAUSE ESCALATE WITHDRAW RESOLVE
+  WORD | bbox=[39,131,288,144] | text=NEWBORN hold on claim 3X6ZH7Z9
+  WORD | bbox=[420,127,649,149] | text=Ticket Info Re-triage
+  WORD | bbox=[1162,130,1201,144] | text=PAUSE
+  WORD | bbox=[1268,130,1325,143] | text=ESCALATE
+  WORD | bbox=[1377,126,1443,145] | text=WITHDRAW
+  WORD | bbox=[1501,129,1550,143] | text=RESOLVE
+LINE 3 | bbox=[32,155,1549,185] | conf=0.990 | text=P3 In Progress (In Review) Due 07/29/2026 Assignee Melissa Rippon Resolve
+  WORD | bbox=[32,160,56,174] | text=P3
+  WORD | bbox=[69,158,198,174] | text=In Progress (In Review)
+  WORD | bbox=[429,169,455,185] | text=Due
+  WORD | bbox=[562,167,631,183] | text=07/29/2026
+  WORD | bbox=[1005,163,1063,184] | text=Assignee
+  WORD | bbox=[1139,164,1228,181] | text=Melissa Rippon
+  WORD | bbox=[1501,155,1549,173] | text=Resolve
+LINE 4 | bbox=[39,203,1186,228] | conf=0.988 | text=Skill: NEWBORN SLA All Holds SLA (minus High$) (7 working days) Submitter Internal
+  WORD | bbox=[39,208,162,224] | text=Skill: NEWBORN
+  WORD | bbox=[429,209,457,228] | text=SLA
+  WORD | bbox=[564,208,809,224] | text=All Holds SLA (minus High$) (7 working days)
+  WORD | bbox=[1005,203,1069,224] | text=Submitter
+  WORD | bbox=[1139,206,1186,220] | text=Internal
+LINE 5 | bbox=[39,242,1216,269] | conf=0.967 | text=No resource links available Created On 7/19/2026 11: 02 AM EDT Created By svc.automat
+  WORD | bbox=[39,242,186,255] | text=No resource links available
+  WORD | bbox=[428,248,499,269] | text=Created On
+  WORD | bbox=[564,251,695,264] | text=7/19/2026 11:02 AM EDT
+  WORD | bbox=[1005,245,1074,266] | text=Created By
+  WORD | bbox=[1142,247,1216,264] | text=svc.automat
+LINE 6 | bbox=[38,265,259,283] | conf=0.991 | text=Queue Newborn Holds
+  WORD | bbox=[38,265,80,283] | text=Queue
+  WORD | bbox=[172,266,259,279] | text=Newborn Holds
+LINE 7 | bbox=[429,286,1228,308] | conf=0.968 | text=Updated On 7/23/2026 3: 14 PM EDT Updated By Melissa Rippon
+  WORD | bbox=[429,292,501,308] | text=Updated On
+  WORD | bbox=[564,292,691,304] | text=7/23/2026 3:14 PM EDT
+  WORD | bbox=[1006,286,1077,307] | text=Updated By
+  WORD | bbox=[1140,288,1228,304] | text=Melissa Rippon
+LINE 8 | bbox=[38,317,135,334] | conf=0.947 | text=Member Info
+LINE 9 | bbox=[38,330,1066,362] | conf=0.971 | text=Member ID R213XB6D Closed On Closed By
+  WORD | bbox=[38,344,104,362] | text=Member ID
+  WORD | bbox=[172,342,232,359] | text=R213XB6D
+  WORD | bbox=[430,332,491,350] | text=Closed On
+  WORD | bbox=[1008,330,1066,348] | text=Closed By
+LINE 10 | bbox=[39,372,1062,404] | conf=0.981 | text=OSCID OSC7874790901 Reported On Reporter
+  WORD | bbox=[39,386,82,404] | text=OSCID
+  WORD | bbox=[172,384,262,401] | text=OSC7874790901
+  WORD | bbox=[430,374,506,391] | text=Reported On
+  WORD | bbox=[1008,372,1062,388] | text=Reporter
+LINE 11 | bbox=[38,411,1264,444] | conf=0.992 | text=State FL Source Automat (appian_hold_ticket_creation) Watchers WATCH
+  WORD | bbox=[38,426,75,444] | text=State
+  WORD | bbox=[170,424,192,444] | text=FL
+  WORD | bbox=[430,415,475,433] | text=Source
+  WORD | bbox=[564,412,783,430] | text=Automat (appian_hold_ticket_creation)
+  WORD | bbox=[1008,411,1066,428] | text=Watchers
+  WORD | bbox=[1204,416,1264,433] | text=WATCH
+LINE 12 | bbox=[431,457,471,471] | conf=0.998 | text=Labels
+LINE 13 | bbox=[39,467,96,485] | conf=0.957 | text=Plan Type
+LINE 14 | bbox=[39,502,1110,532] | conf=0.993 | text=ICHRA The claim is for a newborn and requires manual review Additional Info
+  WORD | bbox=[39,508,81,526] | text=ICHRA
+  WORD | bbox=[442,519,737,532] | text=The claim is for a newborn and requires manual review
+  WORD | bbox=[1009,502,1110,518] | text=Additional Info
+LINE 15 | bbox=[1008,527,1179,546] | conf=0.998 | text=Issue Other
+  WORD | bbox=[1008,528,1042,546] | text=Issue
+  WORD | bbox=[1140,527,1179,545] | text=Other
+LINE 16 | bbox=[38,549,231,568] | conf=0.999 | text=LOB Individual
+  WORD | bbox=[38,550,69,568] | text=LOB
+  WORD | bbox=[172,549,231,565] | text=Individual
+LINE 17 | bbox=[1008,568,1208,587] | conf=0.998 | text=Code NEWBORN
+  WORD | bbox=[1008,569,1042,587] | text=Code
+  WORD | bbox=[1141,568,1208,584] | text=NEWBORN
+LINE 18 | bbox=[39,589,210,609] | conf=0.999 | text=Tenant Oscar
+  WORD | bbox=[39,591,84,609] | text=Tenant
+  WORD | bbox=[172,589,210,607] | text=Oscar
+LINE 19 | bbox=[1009,611,1182,626] | conf=0.999 | text=System Ocelot
+  WORD | bbox=[1009,612,1054,626] | text=System
+  WORD | bbox=[1142,611,1182,625] | text=Ocelot
+LINE 20 | bbox=[1010,654,1105,667] | conf=0.997 | text=Interest Accrued
+LINE 21 | bbox=[40,670,121,687] | conf=0.955 | text=Claim Info
+LINE 22 | bbox=[40,691,1126,727] | conf=0.981 | text=Ocelot ID 3X6ZH7Z9 Prompt Process Due Date
+  WORD | bbox=[40,698,96,714] | text=Ocelot ID
+  WORD | bbox=[172,696,235,713] | text=3X6ZH7Z9
+  WORD | bbox=[1008,691,1126,727] | text=Prompt Process Due Date
+LINE 23 | bbox=[40,740,1085,766] | conf=0.974 | text=Nucleus ID Escalated To
+  WORD | bbox=[40,740,105,756] | text=Nucleus ID
+  WORD | bbox=[1009,750,1085,766] | text=Escalated To
+[/BOXES]

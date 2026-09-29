@@ -1,0 +1,2611 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco a Search Rosco MR Melissa\nBack to Yisroel's claims\n3X6ZH7Z9 Processing Medical claim Create claims ticket Clalm overvlew\nDiagnostic information\nCare summary No description available - No description available - +2 more services Service date(s) 09/15/202509/16/2025 Oscar received 07/19/2026 Claim processed Claim line details\nGeneral claim detalls\nView member EOB View clalm documents Past issues\nClalm on hold: NEwBORN -Description not avallable yet\nView detalls (1)\nClaim overview\nMember details Cost summary Facility details\nLegal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider\nOscar ID OSC7874790901 Plan carrler Bllling NP1 1780667923\nOriginal amount billed $9,459.00 Rendering NPI\nClaims details Allowed amount $729.17 Provider speciaity\nClaim ID 3X6ZH7Z9 Amount Oscar pays $729.17\nAlternate claim ID Office name\nPriced by Individual Florida. Applied to deductible $0.00 Address line 1 3501JOHNSON ST\nLevel of care Inpatient Copay amount $0.00 Address line 2\nNetwork status INN Colnsurance amount $0.00 City HOLLYWOOD\nClaim type Institutional Not covered $0.00 State FL",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco a Search Rosco MR Melissa\nBack to Yisroel's claims\n3X6ZH7Z9 Processing Medical claim Create claims ticket Clalm overvlew\nDiagnostic information\nCare summary No description available - No description available - +2 more services Service date(s) 09/15/202509/16/2025 Oscar received 07/19/2026 Claim processed Claim line details\nGeneral claim detalls\nView member EOB View clalm documents Past issues\nClalm on hold: NEwBORN -Description not avallable yet\nView detalls (1)\nClaim overview\nMember details Cost summary Facility details\nLegal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider\nOscar ID OSC7874790901 Plan carrler Bllling NP1 1780667923\nOriginal amount billed $9,459.00 Rendering NPI\nClaims details Allowed amount $729.17 Provider speciaity\nClaim ID 3X6ZH7Z9 Amount Oscar pays $729.17\nAlternate claim ID Office name\nPriced by Individual Florida. Applied to deductible $0.00 Address line 1 3501JOHNSON ST\nLevel of care Inpatient Copay amount $0.00 Address line 2\nNetwork status INN Colnsurance amount $0.00 City HOLLYWOOD\nClaim type Institutional Not covered $0.00 State FL",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 2,
+              "bbox": [
+                1424,
+                168,
+                1554,
+                181
+              ],
+              "text": "Diagnostic information",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Diagnostic information",
+                  "conf": 0.9882605075836182,
+                  "bbox": [
+                    1424,
+                    168,
+                    1554,
+                    181
+                  ],
+                  "words": [
+                    {
+                      "text": "Diagnostic information",
+                      "conf": 0.9882605075836182,
+                      "bbox": [
+                        1424,
+                        168,
+                        1554,
+                        181
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                24,
+                222,
+                1541,
+                264
+              ],
+              "text": "General claim detalls\nView member EOB View clalm documents Past issues",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "General claim detalls",
+                  "conf": 0.9672062993049622,
+                  "bbox": [
+                    1424,
+                    222,
+                    1541,
+                    234
+                  ],
+                  "words": [
+                    {
+                      "text": "General claim detalls",
+                      "conf": 0.9672062993049622,
+                      "bbox": [
+                        1424,
+                        222,
+                        1541,
+                        234
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "View member EOB View clalm documents Past issues",
+                  "conf": 0.9574431777000427,
+                  "bbox": [
+                    24,
+                    229,
+                    1489,
+                    264
+                  ],
+                  "words": [
+                    {
+                      "text": "View member EOB View clalm documents",
+                      "conf": 0.9500311613082886,
+                      "bbox": [
+                        24,
+                        229,
+                        155,
+                        262
+                      ]
+                    },
+                    {
+                      "text": "Past issues",
+                      "conf": 0.9648551940917969,
+                      "bbox": [
+                        1422,
+                        247,
+                        1489,
+                        264
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 5,
+              "bbox": [
+                40,
+                320,
+                356,
+                335
+              ],
+              "text": "Clalm on hold:NEwBORN -Description not avallable yet",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Clalm on hold:NEwBORN -Description not avallable yet",
+                  "conf": 0.9422416687011719,
+                  "bbox": [
+                    40,
+                    320,
+                    356,
+                    335
+                  ],
+                  "words": [
+                    {
+                      "text": "Clalm on hold:NEwBORN -Description not avallable yet",
+                      "conf": 0.9422416687011719,
+                      "bbox": [
+                        40,
+                        320,
+                        356,
+                        335
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                26,
+                376,
+                154,
+                444
+              ],
+              "text": "View detalls (1)\nClaim overview",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "View detalls (1)",
+                  "conf": 0.9222652316093445,
+                  "bbox": [
+                    26,
+                    376,
+                    129,
+                    388
+                  ],
+                  "words": [
+                    {
+                      "text": "View detalls (1)",
+                      "conf": 0.9222652316093445,
+                      "bbox": [
+                        26,
+                        376,
+                        129,
+                        388
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Claim overview",
+                  "conf": 0.9913159012794495,
+                  "bbox": [
+                    26,
+                    428,
+                    154,
+                    444
+                  ],
+                  "words": [
+                    {
+                      "text": "Claim overview",
+                      "conf": 0.9913159012794495,
+                      "bbox": [
+                        26,
+                        428,
+                        154,
+                        444
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Diagnostic information\nGeneral claim detalls\nView member EOB View clalm documents Past issues\nClalm on hold:NEwBORN -Description not avallable yet\nView detalls (1)\nClaim overview"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            11,
+            1538,
+            81
+          ],
+          "text": "rosco a Search Rosco MR Melissa\nBack to Yisroel's claims",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco a Search Rosco MR Melissa",
+              "conf": 0.9240415990352631,
+              "bbox": [
+                14,
+                11,
+                1538,
+                38
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9885711669921875,
+                  "bbox": [
+                    14,
+                    17,
+                    72,
+                    34
+                  ]
+                },
+                {
+                  "text": "a",
+                  "conf": 0.7452134490013123,
+                  "bbox": [
+                    107,
+                    11,
+                    139,
+                    38
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.9958447813987732,
+                  "bbox": [
+                    138,
+                    18,
+                    229,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9665369987487793,
+                  "bbox": [
+                    1452,
+                    18,
+                    1538,
+                    34
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Back to Yisroel's claims",
+              "conf": 0.9511666297912598,
+              "bbox": [
+                29,
+                69,
+                174,
+                81
+              ],
+              "words": [
+                {
+                  "text": "Back to Yisroel's claims",
+                  "conf": 0.9511666297912598,
+                  "bbox": [
+                    29,
+                    69,
+                    174,
+                    81
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 1,
+          "bbox": [
+            26,
+            134,
+            1510,
+            157
+          ],
+          "text": "3X6ZH7Z9 Processing Medical claim Create claims ticket Clalm overvlew",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "3X6ZH7Z9 Processing Medical claim Create claims ticket Clalm overvlew",
+              "conf": 0.9874167323112488,
+              "bbox": [
+                26,
+                134,
+                1510,
+                157
+              ],
+              "words": [
+                {
+                  "text": "3X6ZH7Z9",
+                  "conf": 0.9985553026199341,
+                  "bbox": [
+                    26,
+                    134,
+                    144,
+                    155
+                  ]
+                },
+                {
+                  "text": "Processing",
+                  "conf": 0.9992664456367493,
+                  "bbox": [
+                    156,
+                    136,
+                    224,
+                    153
+                  ]
+                },
+                {
+                  "text": "Medical claim",
+                  "conf": 0.9981011748313904,
+                  "bbox": [
+                    235,
+                    136,
+                    320,
+                    153
+                  ]
+                },
+                {
+                  "text": "Create claims ticket",
+                  "conf": 0.9878982305526733,
+                  "bbox": [
+                    1240,
+                    135,
+                    1355,
+                    151
+                  ]
+                },
+                {
+                  "text": "Clalm overvlew",
+                  "conf": 0.9532625079154968,
+                  "bbox": [
+                    1421,
+                    137,
+                    1510,
+                    157
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            1424,
+            168,
+            1554,
+            181
+          ],
+          "text": "Diagnostic information",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Diagnostic information",
+              "conf": 0.9882605075836182,
+              "bbox": [
+                1424,
+                168,
+                1554,
+                181
+              ],
+              "words": [
+                {
+                  "text": "Diagnostic information",
+                  "conf": 0.9882605075836182,
+                  "bbox": [
+                    1424,
+                    168,
+                    1554,
+                    181
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            24,
+            179,
+            1519,
+            218
+          ],
+          "text": "Care summary No description available - No description available - +2 more services Service date(s) 09/15/202509/16/2025 Oscar received 07/19/2026 Claim processed Claim line details",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Care summary No description available - No description available - +2 more services Service date(s) 09/15/202509/16/2025 Oscar received 07/19/2026 Claim processed Claim line details",
+              "conf": 0.9932786524295807,
+              "bbox": [
+                24,
+                179,
+                1519,
+                218
+              ],
+              "words": [
+                {
+                  "text": "Care summary No description available - No description available - +2 more services",
+                  "conf": 0.9885865151882172,
+                  "bbox": [
+                    24,
+                    179,
+                    404,
+                    218
+                  ]
+                },
+                {
+                  "text": "Service date(s)",
+                  "conf": 0.9959041476249695,
+                  "bbox": [
+                    974,
+                    181,
+                    1061,
+                    197
+                  ]
+                },
+                {
+                  "text": "09/15/202509/16/2025",
+                  "conf": 0.9987853169441223,
+                  "bbox": [
+                    975,
+                    202,
+                    1120,
+                    215
+                  ]
+                },
+                {
+                  "text": "Oscar received",
+                  "conf": 0.9863921999931335,
+                  "bbox": [
+                    1158,
+                    181,
+                    1244,
+                    197
+                  ]
+                },
+                {
+                  "text": "07/19/2026",
+                  "conf": 0.9980956315994263,
+                  "bbox": [
+                    1159,
+                    202,
+                    1222,
+                    215
+                  ]
+                },
+                {
+                  "text": "Claim processed",
+                  "conf": 0.9932768940925598,
+                  "bbox": [
+                    1279,
+                    181,
+                    1376,
+                    199
+                  ]
+                },
+                {
+                  "text": "Claim line details",
+                  "conf": 0.9919098615646362,
+                  "bbox": [
+                    1424,
+                    195,
+                    1519,
+                    208
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            24,
+            222,
+            1541,
+            264
+          ],
+          "text": "General claim detalls\nView member EOB View clalm documents Past issues",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "General claim detalls",
+              "conf": 0.9672062993049622,
+              "bbox": [
+                1424,
+                222,
+                1541,
+                234
+              ],
+              "words": [
+                {
+                  "text": "General claim detalls",
+                  "conf": 0.9672062993049622,
+                  "bbox": [
+                    1424,
+                    222,
+                    1541,
+                    234
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "View member EOB View clalm documents Past issues",
+              "conf": 0.9574431777000427,
+              "bbox": [
+                24,
+                229,
+                1489,
+                264
+              ],
+              "words": [
+                {
+                  "text": "View member EOB View clalm documents",
+                  "conf": 0.9500311613082886,
+                  "bbox": [
+                    24,
+                    229,
+                    155,
+                    262
+                  ]
+                },
+                {
+                  "text": "Past issues",
+                  "conf": 0.9648551940917969,
+                  "bbox": [
+                    1422,
+                    247,
+                    1489,
+                    264
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            40,
+            320,
+            356,
+            335
+          ],
+          "text": "Clalm on hold:NEwBORN -Description not avallable yet",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Clalm on hold:NEwBORN -Description not avallable yet",
+              "conf": 0.9422416687011719,
+              "bbox": [
+                40,
+                320,
+                356,
+                335
+              ],
+              "words": [
+                {
+                  "text": "Clalm on hold:NEwBORN -Description not avallable yet",
+                  "conf": 0.9422416687011719,
+                  "bbox": [
+                    40,
+                    320,
+                    356,
+                    335
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            26,
+            376,
+            154,
+            444
+          ],
+          "text": "View detalls (1)\nClaim overview",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "View detalls (1)",
+              "conf": 0.9222652316093445,
+              "bbox": [
+                26,
+                376,
+                129,
+                388
+              ],
+              "words": [
+                {
+                  "text": "View detalls (1)",
+                  "conf": 0.9222652316093445,
+                  "bbox": [
+                    26,
+                    376,
+                    129,
+                    388
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Claim overview",
+              "conf": 0.9913159012794495,
+              "bbox": [
+                26,
+                428,
+                154,
+                444
+              ],
+              "words": [
+                {
+                  "text": "Claim overview",
+                  "conf": 0.9913159012794495,
+                  "bbox": [
+                    26,
+                    428,
+                    154,
+                    444
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            25,
+            477,
+            1368,
+            546
+          ],
+          "text": "Member details Cost summary Facility details\nLegal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider\nOscar ID OSC7874790901 Plan carrler Bllling NP1 1780667923",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member details Cost summary Facility details",
+              "conf": 0.9810304045677185,
+              "bbox": [
+                25,
+                477,
+                1024,
+                494
+              ],
+              "words": [
+                {
+                  "text": "Member details",
+                  "conf": 0.9747095108032227,
+                  "bbox": [
+                    25,
+                    479,
+                    114,
+                    491
+                  ]
+                },
+                {
+                  "text": "Cost summary",
+                  "conf": 0.999470055103302,
+                  "bbox": [
+                    484,
+                    477,
+                    568,
+                    494
+                  ]
+                },
+                {
+                  "text": "Facility details",
+                  "conf": 0.9689116477966309,
+                  "bbox": [
+                    941,
+                    479,
+                    1024,
+                    491
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Legal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider",
+              "conf": 0.9937972307205201,
+              "bbox": [
+                32,
+                500,
+                1000,
+                521
+              ],
+              "words": [
+                {
+                  "text": "Legal name",
+                  "conf": 0.9996306300163269,
+                  "bbox": [
+                    32,
+                    503,
+                    100,
+                    519
+                  ]
+                },
+                {
+                  "text": "Yisroel Dubov",
+                  "conf": 0.9924838542938232,
+                  "bbox": [
+                    372,
+                    503,
+                    452,
+                    519
+                  ]
+                },
+                {
+                  "text": "Plan at time of service",
+                  "conf": 0.9938816428184509,
+                  "bbox": [
+                    490,
+                    503,
+                    616,
+                    519
+                  ]
+                },
+                {
+                  "text": "Silver Simple PCP Saver",
+                  "conf": 0.9847047924995422,
+                  "bbox": [
+                    776,
+                    503,
+                    909,
+                    519
+                  ]
+                },
+                {
+                  "text": "Provider",
+                  "conf": 0.9982852339744568,
+                  "bbox": [
+                    946,
+                    500,
+                    1000,
+                    521
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Oscar ID OSC7874790901 Plan carrler Bllling NP1 1780667923",
+              "conf": 0.9730720758438111,
+              "bbox": [
+                34,
+                530,
+                1368,
+                546
+              ],
+              "words": [
+                {
+                  "text": "Oscar ID",
+                  "conf": 0.9513145685195923,
+                  "bbox": [
+                    34,
+                    531,
+                    84,
+                    545
+                  ]
+                },
+                {
+                  "text": "OSC7874790901",
+                  "conf": 0.9984327554702759,
+                  "bbox": [
+                    361,
+                    531,
+                    450,
+                    544
+                  ]
+                },
+                {
+                  "text": "Plan carrler",
+                  "conf": 0.9850913882255554,
+                  "bbox": [
+                    490,
+                    530,
+                    559,
+                    546
+                  ]
+                },
+                {
+                  "text": "Bllling NP1",
+                  "conf": 0.9312456250190735,
+                  "bbox": [
+                    949,
+                    530,
+                    1011,
+                    546
+                  ]
+                },
+                {
+                  "text": "1780667923",
+                  "conf": 0.9992760419845581,
+                  "bbox": [
+                    1300,
+                    530,
+                    1368,
+                    546
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 8,
+          "bbox": [
+            491,
+            556,
+            1032,
+            573
+          ],
+          "text": "Original amount billed $9,459.00 Rendering NPI",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Original amount billed $9,459.00 Rendering NPI",
+              "conf": 0.9889964461326599,
+              "bbox": [
+                491,
+                556,
+                1032,
+                573
+              ],
+              "words": [
+                {
+                  "text": "Original amount billed",
+                  "conf": 0.9772106409072876,
+                  "bbox": [
+                    491,
+                    556,
+                    619,
+                    573
+                  ]
+                },
+                {
+                  "text": "$9,459.00",
+                  "conf": 0.9924288988113403,
+                  "bbox": [
+                    851,
+                    556,
+                    911,
+                    573
+                  ]
+                },
+                {
+                  "text": "Rendering NPI",
+                  "conf": 0.9973497986793518,
+                  "bbox": [
+                    949,
+                    556,
+                    1032,
+                    573
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            25,
+            583,
+            1052,
+            634
+          ],
+          "text": "Claims details Allowed amount $729.17 Provider speciaity\nClaim ID 3X6ZH7Z9 Amount Oscar pays $729.17",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claims details Allowed amount $729.17 Provider speciaity",
+              "conf": 0.9910283535718918,
+              "bbox": [
+                25,
+                583,
+                1052,
+                609
+              ],
+              "words": [
+                {
+                  "text": "Claims details",
+                  "conf": 0.9993495941162109,
+                  "bbox": [
+                    25,
+                    592,
+                    108,
+                    609
+                  ]
+                },
+                {
+                  "text": "Allowed amount",
+                  "conf": 0.9947000741958618,
+                  "bbox": [
+                    491,
+                    583,
+                    585,
+                    600
+                  ]
+                },
+                {
+                  "text": "$729.17",
+                  "conf": 0.9998124241828918,
+                  "bbox": [
+                    869,
+                    584,
+                    910,
+                    598
+                  ]
+                },
+                {
+                  "text": "Provider speciaity",
+                  "conf": 0.9702513217926025,
+                  "bbox": [
+                    949,
+                    583,
+                    1052,
+                    600
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Claim ID 3X6ZH7Z9 Amount Oscar pays $729.17",
+              "conf": 0.991817981004715,
+              "bbox": [
+                34,
+                609,
+                911,
+                634
+              ],
+              "words": [
+                {
+                  "text": "Claim ID",
+                  "conf": 0.9805020093917847,
+                  "bbox": [
+                    34,
+                    619,
+                    82,
+                    633
+                  ]
+                },
+                {
+                  "text": "3X6ZH7Z9",
+                  "conf": 0.9979889392852783,
+                  "bbox": [
+                    390,
+                    617,
+                    451,
+                    634
+                  ]
+                },
+                {
+                  "text": "Amount Oscar pays",
+                  "conf": 0.9891324639320374,
+                  "bbox": [
+                    491,
+                    610,
+                    604,
+                    626
+                  ]
+                },
+                {
+                  "text": "$729.17",
+                  "conf": 0.9996485114097595,
+                  "bbox": [
+                    868,
+                    609,
+                    911,
+                    626
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            32,
+            644,
+            1020,
+            665
+          ],
+          "text": "Alternate claim ID Office name",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Alternate claim ID Office name",
+              "conf": 0.9816824495792389,
+              "bbox": [
+                32,
+                644,
+                1020,
+                665
+              ],
+              "words": [
+                {
+                  "text": "Alternate claim ID",
+                  "conf": 0.995345950126648,
+                  "bbox": [
+                    32,
+                    644,
+                    136,
+                    661
+                  ]
+                },
+                {
+                  "text": "Office name",
+                  "conf": 0.9680189490318298,
+                  "bbox": [
+                    948,
+                    648,
+                    1020,
+                    665
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 11,
+          "bbox": [
+            32,
+            671,
+            1368,
+            719
+          ],
+          "text": "Priced by Individual Florida. Applied to deductible $0.00 Address line 1 3501JOHNSON ST\nLevel of care Inpatient Copay amount $0.00 Address line 2",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Priced by Individual Florida. Applied to deductible $0.00 Address line 1 3501JOHNSON ST",
+              "conf": 0.9921775758266449,
+              "bbox": [
+                32,
+                671,
+                1368,
+                693
+              ],
+              "words": [
+                {
+                  "text": "Priced by",
+                  "conf": 0.9996384382247925,
+                  "bbox": [
+                    32,
+                    671,
+                    89,
+                    689
+                  ]
+                },
+                {
+                  "text": "Individual Florida.",
+                  "conf": 0.9819900393486023,
+                  "bbox": [
+                    354,
+                    673,
+                    451,
+                    686
+                  ]
+                },
+                {
+                  "text": "Applied to deductible",
+                  "conf": 0.9996386766433716,
+                  "bbox": [
+                    491,
+                    676,
+                    614,
+                    693
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9993274807929993,
+                  "bbox": [
+                    874,
+                    675,
+                    912,
+                    693
+                  ]
+                },
+                {
+                  "text": "Address line 1",
+                  "conf": 0.9743961691856384,
+                  "bbox": [
+                    949,
+                    676,
+                    1030,
+                    693
+                  ]
+                },
+                {
+                  "text": "3501JOHNSON ST",
+                  "conf": 0.9980746507644653,
+                  "bbox": [
+                    1261,
+                    676,
+                    1368,
+                    693
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Level of care Inpatient Copay amount $0.00 Address line 2",
+              "conf": 0.9933510661125183,
+              "bbox": [
+                32,
+                698,
+                1031,
+                719
+              ],
+              "words": [
+                {
+                  "text": "Level of care",
+                  "conf": 0.9987865686416626,
+                  "bbox": [
+                    32,
+                    698,
+                    106,
+                    714
+                  ]
+                },
+                {
+                  "text": "Inpatient",
+                  "conf": 0.998886227607727,
+                  "bbox": [
+                    398,
+                    699,
+                    454,
+                    715
+                  ]
+                },
+                {
+                  "text": "Copay amount",
+                  "conf": 0.9735165238380432,
+                  "bbox": [
+                    489,
+                    701,
+                    576,
+                    719
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.998851478099823,
+                  "bbox": [
+                    874,
+                    701,
+                    911,
+                    719
+                  ]
+                },
+                {
+                  "text": "Address line 2",
+                  "conf": 0.9967145323753357,
+                  "bbox": [
+                    949,
+                    703,
+                    1031,
+                    719
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 12,
+          "bbox": [
+            31,
+            720,
+            1369,
+            773
+          ],
+          "text": "Network status INN Colnsurance amount $0.00 City HOLLYWOOD\nClaim type Institutional Not covered $0.00 State FL",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Network status INN Colnsurance amount $0.00 City HOLLYWOOD",
+              "conf": 0.9941004117329916,
+              "bbox": [
+                32,
+                720,
+                1368,
+                749
+              ],
+              "words": [
+                {
+                  "text": "Network status",
+                  "conf": 0.9995877146720886,
+                  "bbox": [
+                    32,
+                    724,
+                    124,
+                    741
+                  ]
+                },
+                {
+                  "text": "INN",
+                  "conf": 0.998944103717804,
+                  "bbox": [
+                    422,
+                    720,
+                    454,
+                    743
+                  ]
+                },
+                {
+                  "text": "Colnsurance amount",
+                  "conf": 0.9900268912315369,
+                  "bbox": [
+                    490,
+                    729,
+                    611,
+                    746
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9979807734489441,
+                  "bbox": [
+                    874,
+                    729,
+                    911,
+                    747
+                  ]
+                },
+                {
+                  "text": "City",
+                  "conf": 0.979412853717804,
+                  "bbox": [
+                    946,
+                    726,
+                    978,
+                    749
+                  ]
+                },
+                {
+                  "text": "HOLLYWOOD",
+                  "conf": 0.9986501336097717,
+                  "bbox": [
+                    1288,
+                    729,
+                    1368,
+                    746
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Claim type Institutional Not covered $0.00 State FL",
+              "conf": 0.9972095092137655,
+              "bbox": [
+                31,
+                748,
+                1369,
+                773
+              ],
+              "words": [
+                {
+                  "text": "Claim type",
+                  "conf": 0.9929119944572449,
+                  "bbox": [
+                    31,
+                    748,
+                    98,
+                    769
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9980108737945557,
+                  "bbox": [
+                    378,
+                    750,
+                    451,
+                    766
+                  ]
+                },
+                {
+                  "text": "Not covered",
+                  "conf": 0.9933378100395203,
+                  "bbox": [
+                    490,
+                    756,
+                    564,
+                    773
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9995409250259399,
+                  "bbox": [
+                    873,
+                    755,
+                    911,
+                    773
+                  ]
+                },
+                {
+                  "text": "State",
+                  "conf": 0.9998067617416382,
+                  "bbox": [
+                    946,
+                    755,
+                    985,
+                    773
+                  ]
+                },
+                {
+                  "text": "FL",
+                  "conf": 0.9996486902236938,
+                  "bbox": [
+                    1349,
+                    755,
+                    1369,
+                    771
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            14,
+            11,
+            1554,
+            444
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>a Search Rosco</td><td>MR Melissa</td><td></td></tr><tr><td>Back to Yisroel&#x27;s claims</td><td></td><td></td><td></td></tr><tr><td>3X6ZH7Z9 Processing Medical claim</td><td></td><td>Create claims ticket</td><td>Clalm overvlew</td></tr><tr><td></td><td></td><td>Diagnostic information</td><td></td></tr><tr><td></td><td></td><td>General claim detalls</td><td></td></tr><tr><td>View member EOB View clalm documents</td><td></td><td>Past issues</td><td></td></tr><tr><td>Clalm on hold</td><td>NEwBORN -Description not avallable yet</td><td></td><td></td></tr><tr><td>View detalls (1)</td><td></td><td></td><td></td></tr><tr><td>Claim overview</td><td></td><td></td><td></td></tr></table>",
+          "text": "rosco: a Search Rosco\nMR Melissa: \nBack to Yisroel's claims: \n3X6ZH7Z9 Processing Medical claim: \nCreate claims ticket: Clalm overvlew\nDiagnostic information: \nGeneral claim detalls: \nView member EOB View clalm documents: \nPast issues: \nClalm on hold: NEwBORN -Description not avallable yet\nView detalls (1): \nClaim overview: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "a Search Rosco",
+              "MR Melissa",
+              ""
+            ],
+            [
+              "Back to Yisroel's claims",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3X6ZH7Z9 Processing Medical claim",
+              "",
+              "Create claims ticket",
+              "Clalm overvlew"
+            ],
+            [
+              "",
+              "",
+              "Diagnostic information",
+              ""
+            ],
+            [
+              "",
+              "",
+              "General claim detalls",
+              ""
+            ],
+            [
+              "View member EOB View clalm documents",
+              "",
+              "Past issues",
+              ""
+            ],
+            [
+              "Clalm on hold",
+              "NEwBORN -Description not avallable yet",
+              "",
+              ""
+            ],
+            [
+              "View detalls (1)",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Claim overview",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco a Search Rosco",
+              "MR Melissa"
+            ],
+            [
+              "Back to Yisroel's claims",
+              ""
+            ],
+            [
+              "3X6ZH7Z9 Processing Medical claim",
+              "Create claims ticket Clalm overvlew"
+            ],
+            [
+              "",
+              "Diagnostic information"
+            ],
+            [
+              "",
+              "General claim detalls"
+            ],
+            [
+              "View member EOB View clalm documents",
+              "Past issues"
+            ],
+            [
+              "Clalm on hold:NEwBORN -Description not avallable yet",
+              ""
+            ],
+            [
+              "View detalls (1)",
+              ""
+            ],
+            [
+              "Claim overview",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            24,
+            179,
+            1519,
+            218
+          ],
+          "html": "<table><tr><th>Care summary No description available - No description available - +2 more services</th><th>Service date(s)</th><th>Oscar received</th><th>Claim processed</th><th>Claim line details</th></tr><tr><td></td><td>09/15/202509/16/2025</td><td>07/19/2026</td><td></td><td></td></tr></table>",
+          "text": " | 09/15/202509/16/2025 | 07/19/2026 |  | ",
+          "headers": [
+            "Care summary No description available - No description available - +2 more services",
+            "Service date(s)",
+            "Oscar received",
+            "Claim processed",
+            "Claim line details"
+          ],
+          "rows": [
+            [
+              "",
+              "09/15/202509/16/2025",
+              "07/19/2026",
+              "",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            25,
+            477,
+            1369,
+            773
+          ],
+          "html": "<table><tr><th>Member details</th><th>Cost summary</th><th>Facility details</th></tr><tr><td>Legal name</td><td>Yisroel Dubov Plan at time of service</td><td>Silver Simple PCP Saver Provider</td></tr><tr><td>Oscar ID</td><td>OSC7874790901 Plan carrler</td><td>Bllling NP1 1780667923</td></tr><tr><td></td><td>Original amount billed</td><td>$9,459.00 Rendering NPI</td></tr><tr><td>Claims details</td><td>Allowed amount</td><td>$729.17 Provider speciaity</td></tr><tr><td>Claim ID</td><td>3X6ZH7Z9 Amount Oscar pays</td><td>$729.17</td></tr><tr><td>Alternate claim ID</td><td></td><td>Office name</td></tr><tr><td>Priced by</td><td>Individual Florida. Applied to deductible</td><td>$0.00 Address line 1 3501JOHNSON ST</td></tr><tr><td>Level of care</td><td>Inpatient Copay amount</td><td>$0.00 Address line 2</td></tr><tr><td>Network status</td><td>INN Colnsurance amount</td><td>$0.00 City HOLLYWOOD</td></tr><tr><td>Claim type</td><td>Institutional Not covered</td><td>$0.00 State FL</td></tr></table>",
+          "text": "Legal name | Yisroel Dubov Plan at time of service | Silver Simple PCP Saver Provider\nOscar ID | OSC7874790901 Plan carrler | Bllling NP1 1780667923\n | Original amount billed | $9,459.00 Rendering NPI\nClaims details | Allowed amount | $729.17 Provider speciaity\nClaim ID | 3X6ZH7Z9 Amount Oscar pays | $729.17\nAlternate claim ID |  | Office name\nPriced by | Individual Florida. Applied to deductible | $0.00 Address line 1 3501JOHNSON ST\nLevel of care | Inpatient Copay amount | $0.00 Address line 2\nNetwork status | INN Colnsurance amount | $0.00 City HOLLYWOOD\nClaim type | Institutional Not covered | $0.00 State FL",
+          "headers": [
+            "Member details",
+            "Cost summary",
+            "Facility details"
+          ],
+          "rows": [
+            [
+              "Legal name",
+              "Yisroel Dubov Plan at time of service",
+              "Silver Simple PCP Saver Provider"
+            ],
+            [
+              "Oscar ID",
+              "OSC7874790901 Plan carrler",
+              "Bllling NP1 1780667923"
+            ],
+            [
+              "",
+              "Original amount billed",
+              "$9,459.00 Rendering NPI"
+            ],
+            [
+              "Claims details",
+              "Allowed amount",
+              "$729.17 Provider speciaity"
+            ],
+            [
+              "Claim ID",
+              "3X6ZH7Z9 Amount Oscar pays",
+              "$729.17"
+            ],
+            [
+              "Alternate claim ID",
+              "",
+              "Office name"
+            ],
+            [
+              "Priced by",
+              "Individual Florida. Applied to deductible",
+              "$0.00 Address line 1 3501JOHNSON ST"
+            ],
+            [
+              "Level of care",
+              "Inpatient Copay amount",
+              "$0.00 Address line 2"
+            ],
+            [
+              "Network status",
+              "INN Colnsurance amount",
+              "$0.00 City HOLLYWOOD"
+            ],
+            [
+              "Claim type",
+              "Institutional Not covered",
+              "$0.00 State FL"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco a Search Rosco MR Melissa",
+          "conf": 0.9240415990352631,
+          "bbox": [
+            14,
+            11,
+            1538,
+            38
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9885711669921875,
+              "bbox": [
+                14,
+                17,
+                72,
+                34
+              ]
+            },
+            {
+              "text": "a",
+              "conf": 0.7452134490013123,
+              "bbox": [
+                107,
+                11,
+                139,
+                38
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.9958447813987732,
+              "bbox": [
+                138,
+                18,
+                229,
+                34
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9665369987487793,
+              "bbox": [
+                1452,
+                18,
+                1538,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Back to Yisroel's claims",
+          "conf": 0.9511666297912598,
+          "bbox": [
+            29,
+            69,
+            174,
+            81
+          ],
+          "words": [
+            {
+              "text": "Back to Yisroel's claims",
+              "conf": 0.9511666297912598,
+              "bbox": [
+                29,
+                69,
+                174,
+                81
+              ]
+            }
+          ]
+        },
+        {
+          "text": "3X6ZH7Z9 Processing Medical claim Create claims ticket Clalm overvlew",
+          "conf": 0.9874167323112488,
+          "bbox": [
+            26,
+            134,
+            1510,
+            157
+          ],
+          "words": [
+            {
+              "text": "3X6ZH7Z9",
+              "conf": 0.9985553026199341,
+              "bbox": [
+                26,
+                134,
+                144,
+                155
+              ]
+            },
+            {
+              "text": "Processing",
+              "conf": 0.9992664456367493,
+              "bbox": [
+                156,
+                136,
+                224,
+                153
+              ]
+            },
+            {
+              "text": "Medical claim",
+              "conf": 0.9981011748313904,
+              "bbox": [
+                235,
+                136,
+                320,
+                153
+              ]
+            },
+            {
+              "text": "Create claims ticket",
+              "conf": 0.9878982305526733,
+              "bbox": [
+                1240,
+                135,
+                1355,
+                151
+              ]
+            },
+            {
+              "text": "Clalm overvlew",
+              "conf": 0.9532625079154968,
+              "bbox": [
+                1421,
+                137,
+                1510,
+                157
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnostic information",
+          "conf": 0.9882605075836182,
+          "bbox": [
+            1424,
+            168,
+            1554,
+            181
+          ],
+          "words": [
+            {
+              "text": "Diagnostic information",
+              "conf": 0.9882605075836182,
+              "bbox": [
+                1424,
+                168,
+                1554,
+                181
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Care summary No description available - No description available - +2 more services Service date(s) 09/15/202509/16/2025 Oscar received 07/19/2026 Claim processed Claim line details",
+          "conf": 0.9932786524295807,
+          "bbox": [
+            24,
+            179,
+            1519,
+            218
+          ],
+          "words": [
+            {
+              "text": "Care summary No description available - No description available - +2 more services",
+              "conf": 0.9885865151882172,
+              "bbox": [
+                24,
+                179,
+                404,
+                218
+              ]
+            },
+            {
+              "text": "Service date(s)",
+              "conf": 0.9959041476249695,
+              "bbox": [
+                974,
+                181,
+                1061,
+                197
+              ]
+            },
+            {
+              "text": "09/15/202509/16/2025",
+              "conf": 0.9987853169441223,
+              "bbox": [
+                975,
+                202,
+                1120,
+                215
+              ]
+            },
+            {
+              "text": "Oscar received",
+              "conf": 0.9863921999931335,
+              "bbox": [
+                1158,
+                181,
+                1244,
+                197
+              ]
+            },
+            {
+              "text": "07/19/2026",
+              "conf": 0.9980956315994263,
+              "bbox": [
+                1159,
+                202,
+                1222,
+                215
+              ]
+            },
+            {
+              "text": "Claim processed",
+              "conf": 0.9932768940925598,
+              "bbox": [
+                1279,
+                181,
+                1376,
+                199
+              ]
+            },
+            {
+              "text": "Claim line details",
+              "conf": 0.9919098615646362,
+              "bbox": [
+                1424,
+                195,
+                1519,
+                208
+              ]
+            }
+          ]
+        },
+        {
+          "text": "General claim detalls",
+          "conf": 0.9672062993049622,
+          "bbox": [
+            1424,
+            222,
+            1541,
+            234
+          ],
+          "words": [
+            {
+              "text": "General claim detalls",
+              "conf": 0.9672062993049622,
+              "bbox": [
+                1424,
+                222,
+                1541,
+                234
+              ]
+            }
+          ]
+        },
+        {
+          "text": "View member EOB View clalm documents Past issues",
+          "conf": 0.9574431777000427,
+          "bbox": [
+            24,
+            229,
+            1489,
+            264
+          ],
+          "words": [
+            {
+              "text": "View member EOB View clalm documents",
+              "conf": 0.9500311613082886,
+              "bbox": [
+                24,
+                229,
+                155,
+                262
+              ]
+            },
+            {
+              "text": "Past issues",
+              "conf": 0.9648551940917969,
+              "bbox": [
+                1422,
+                247,
+                1489,
+                264
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Clalm on hold:NEwBORN -Description not avallable yet",
+          "conf": 0.9422416687011719,
+          "bbox": [
+            40,
+            320,
+            356,
+            335
+          ],
+          "words": [
+            {
+              "text": "Clalm on hold:NEwBORN -Description not avallable yet",
+              "conf": 0.9422416687011719,
+              "bbox": [
+                40,
+                320,
+                356,
+                335
+              ]
+            }
+          ]
+        },
+        {
+          "text": "View detalls (1)",
+          "conf": 0.9222652316093445,
+          "bbox": [
+            26,
+            376,
+            129,
+            388
+          ],
+          "words": [
+            {
+              "text": "View detalls (1)",
+              "conf": 0.9222652316093445,
+              "bbox": [
+                26,
+                376,
+                129,
+                388
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim overview",
+          "conf": 0.9913159012794495,
+          "bbox": [
+            26,
+            428,
+            154,
+            444
+          ],
+          "words": [
+            {
+              "text": "Claim overview",
+              "conf": 0.9913159012794495,
+              "bbox": [
+                26,
+                428,
+                154,
+                444
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member details Cost summary Facility details",
+          "conf": 0.9810304045677185,
+          "bbox": [
+            25,
+            477,
+            1024,
+            494
+          ],
+          "words": [
+            {
+              "text": "Member details",
+              "conf": 0.9747095108032227,
+              "bbox": [
+                25,
+                479,
+                114,
+                491
+              ]
+            },
+            {
+              "text": "Cost summary",
+              "conf": 0.999470055103302,
+              "bbox": [
+                484,
+                477,
+                568,
+                494
+              ]
+            },
+            {
+              "text": "Facility details",
+              "conf": 0.9689116477966309,
+              "bbox": [
+                941,
+                479,
+                1024,
+                491
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Legal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider",
+          "conf": 0.9937972307205201,
+          "bbox": [
+            32,
+            500,
+            1000,
+            521
+          ],
+          "words": [
+            {
+              "text": "Legal name",
+              "conf": 0.9996306300163269,
+              "bbox": [
+                32,
+                503,
+                100,
+                519
+              ]
+            },
+            {
+              "text": "Yisroel Dubov",
+              "conf": 0.9924838542938232,
+              "bbox": [
+                372,
+                503,
+                452,
+                519
+              ]
+            },
+            {
+              "text": "Plan at time of service",
+              "conf": 0.9938816428184509,
+              "bbox": [
+                490,
+                503,
+                616,
+                519
+              ]
+            },
+            {
+              "text": "Silver Simple PCP Saver",
+              "conf": 0.9847047924995422,
+              "bbox": [
+                776,
+                503,
+                909,
+                519
+              ]
+            },
+            {
+              "text": "Provider",
+              "conf": 0.9982852339744568,
+              "bbox": [
+                946,
+                500,
+                1000,
+                521
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar ID OSC7874790901 Plan carrler Bllling NP1 1780667923",
+          "conf": 0.9730720758438111,
+          "bbox": [
+            34,
+            530,
+            1368,
+            546
+          ],
+          "words": [
+            {
+              "text": "Oscar ID",
+              "conf": 0.9513145685195923,
+              "bbox": [
+                34,
+                531,
+                84,
+                545
+              ]
+            },
+            {
+              "text": "OSC7874790901",
+              "conf": 0.9984327554702759,
+              "bbox": [
+                361,
+                531,
+                450,
+                544
+              ]
+            },
+            {
+              "text": "Plan carrler",
+              "conf": 0.9850913882255554,
+              "bbox": [
+                490,
+                530,
+                559,
+                546
+              ]
+            },
+            {
+              "text": "Bllling NP1",
+              "conf": 0.9312456250190735,
+              "bbox": [
+                949,
+                530,
+                1011,
+                546
+              ]
+            },
+            {
+              "text": "1780667923",
+              "conf": 0.9992760419845581,
+              "bbox": [
+                1300,
+                530,
+                1368,
+                546
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Original amount billed $9,459.00 Rendering NPI",
+          "conf": 0.9889964461326599,
+          "bbox": [
+            491,
+            556,
+            1032,
+            573
+          ],
+          "words": [
+            {
+              "text": "Original amount billed",
+              "conf": 0.9772106409072876,
+              "bbox": [
+                491,
+                556,
+                619,
+                573
+              ]
+            },
+            {
+              "text": "$9,459.00",
+              "conf": 0.9924288988113403,
+              "bbox": [
+                851,
+                556,
+                911,
+                573
+              ]
+            },
+            {
+              "text": "Rendering NPI",
+              "conf": 0.9973497986793518,
+              "bbox": [
+                949,
+                556,
+                1032,
+                573
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claims details Allowed amount $729.17 Provider speciaity",
+          "conf": 0.9910283535718918,
+          "bbox": [
+            25,
+            583,
+            1052,
+            609
+          ],
+          "words": [
+            {
+              "text": "Claims details",
+              "conf": 0.9993495941162109,
+              "bbox": [
+                25,
+                592,
+                108,
+                609
+              ]
+            },
+            {
+              "text": "Allowed amount",
+              "conf": 0.9947000741958618,
+              "bbox": [
+                491,
+                583,
+                585,
+                600
+              ]
+            },
+            {
+              "text": "$729.17",
+              "conf": 0.9998124241828918,
+              "bbox": [
+                869,
+                584,
+                910,
+                598
+              ]
+            },
+            {
+              "text": "Provider speciaity",
+              "conf": 0.9702513217926025,
+              "bbox": [
+                949,
+                583,
+                1052,
+                600
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim ID 3X6ZH7Z9 Amount Oscar pays $729.17",
+          "conf": 0.991817981004715,
+          "bbox": [
+            34,
+            609,
+            911,
+            634
+          ],
+          "words": [
+            {
+              "text": "Claim ID",
+              "conf": 0.9805020093917847,
+              "bbox": [
+                34,
+                619,
+                82,
+                633
+              ]
+            },
+            {
+              "text": "3X6ZH7Z9",
+              "conf": 0.9979889392852783,
+              "bbox": [
+                390,
+                617,
+                451,
+                634
+              ]
+            },
+            {
+              "text": "Amount Oscar pays",
+              "conf": 0.9891324639320374,
+              "bbox": [
+                491,
+                610,
+                604,
+                626
+              ]
+            },
+            {
+              "text": "$729.17",
+              "conf": 0.9996485114097595,
+              "bbox": [
+                868,
+                609,
+                911,
+                626
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alternate claim ID Office name",
+          "conf": 0.9816824495792389,
+          "bbox": [
+            32,
+            644,
+            1020,
+            665
+          ],
+          "words": [
+            {
+              "text": "Alternate claim ID",
+              "conf": 0.995345950126648,
+              "bbox": [
+                32,
+                644,
+                136,
+                661
+              ]
+            },
+            {
+              "text": "Office name",
+              "conf": 0.9680189490318298,
+              "bbox": [
+                948,
+                648,
+                1020,
+                665
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Priced by Individual Florida. Applied to deductible $0.00 Address line 1 3501JOHNSON ST",
+          "conf": 0.9921775758266449,
+          "bbox": [
+            32,
+            671,
+            1368,
+            693
+          ],
+          "words": [
+            {
+              "text": "Priced by",
+              "conf": 0.9996384382247925,
+              "bbox": [
+                32,
+                671,
+                89,
+                689
+              ]
+            },
+            {
+              "text": "Individual Florida.",
+              "conf": 0.9819900393486023,
+              "bbox": [
+                354,
+                673,
+                451,
+                686
+              ]
+            },
+            {
+              "text": "Applied to deductible",
+              "conf": 0.9996386766433716,
+              "bbox": [
+                491,
+                676,
+                614,
+                693
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9993274807929993,
+              "bbox": [
+                874,
+                675,
+                912,
+                693
+              ]
+            },
+            {
+              "text": "Address line 1",
+              "conf": 0.9743961691856384,
+              "bbox": [
+                949,
+                676,
+                1030,
+                693
+              ]
+            },
+            {
+              "text": "3501JOHNSON ST",
+              "conf": 0.9980746507644653,
+              "bbox": [
+                1261,
+                676,
+                1368,
+                693
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Level of care Inpatient Copay amount $0.00 Address line 2",
+          "conf": 0.9933510661125183,
+          "bbox": [
+            32,
+            698,
+            1031,
+            719
+          ],
+          "words": [
+            {
+              "text": "Level of care",
+              "conf": 0.9987865686416626,
+              "bbox": [
+                32,
+                698,
+                106,
+                714
+              ]
+            },
+            {
+              "text": "Inpatient",
+              "conf": 0.998886227607727,
+              "bbox": [
+                398,
+                699,
+                454,
+                715
+              ]
+            },
+            {
+              "text": "Copay amount",
+              "conf": 0.9735165238380432,
+              "bbox": [
+                489,
+                701,
+                576,
+                719
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.998851478099823,
+              "bbox": [
+                874,
+                701,
+                911,
+                719
+              ]
+            },
+            {
+              "text": "Address line 2",
+              "conf": 0.9967145323753357,
+              "bbox": [
+                949,
+                703,
+                1031,
+                719
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Network status INN Colnsurance amount $0.00 City HOLLYWOOD",
+          "conf": 0.9941004117329916,
+          "bbox": [
+            32,
+            720,
+            1368,
+            749
+          ],
+          "words": [
+            {
+              "text": "Network status",
+              "conf": 0.9995877146720886,
+              "bbox": [
+                32,
+                724,
+                124,
+                741
+              ]
+            },
+            {
+              "text": "INN",
+              "conf": 0.998944103717804,
+              "bbox": [
+                422,
+                720,
+                454,
+                743
+              ]
+            },
+            {
+              "text": "Colnsurance amount",
+              "conf": 0.9900268912315369,
+              "bbox": [
+                490,
+                729,
+                611,
+                746
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9979807734489441,
+              "bbox": [
+                874,
+                729,
+                911,
+                747
+              ]
+            },
+            {
+              "text": "City",
+              "conf": 0.979412853717804,
+              "bbox": [
+                946,
+                726,
+                978,
+                749
+              ]
+            },
+            {
+              "text": "HOLLYWOOD",
+              "conf": 0.9986501336097717,
+              "bbox": [
+                1288,
+                729,
+                1368,
+                746
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim type Institutional Not covered $0.00 State FL",
+          "conf": 0.9972095092137655,
+          "bbox": [
+            31,
+            748,
+            1369,
+            773
+          ],
+          "words": [
+            {
+              "text": "Claim type",
+              "conf": 0.9929119944572449,
+              "bbox": [
+                31,
+                748,
+                98,
+                769
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9980108737945557,
+              "bbox": [
+                378,
+                750,
+                451,
+                766
+              ]
+            },
+            {
+              "text": "Not covered",
+              "conf": 0.9933378100395203,
+              "bbox": [
+                490,
+                756,
+                564,
+                773
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9995409250259399,
+              "bbox": [
+                873,
+                755,
+                911,
+                773
+              ]
+            },
+            {
+              "text": "State",
+              "conf": 0.9998067617416382,
+              "bbox": [
+                946,
+                755,
+                985,
+                773
+              ]
+            },
+            {
+              "text": "FL",
+              "conf": 0.9996486902236938,
+              "bbox": [
+                1349,
+                755,
+                1369,
+                771
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

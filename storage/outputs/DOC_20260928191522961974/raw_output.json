@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Cortex - Claim # Latest version (O of 0) Dashboard Batch History Testing Settlements Search Create\nAbout this claim Payment Patient Providers Medical Claim lines Actions",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "Cortex - Claim # Latest version (O of 0) Dashboard Batch History Testing Settlements Search Create\nAbout this claim Payment Patient Providers Medical Claim lines Actions",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [],
+          "text": ""
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            31,
+            12,
+            1569,
+            80
+          ],
+          "text": "Cortex - Claim # Latest version (O of 0) Dashboard Batch History Testing Settlements Search Create\nAbout this claim Payment Patient Providers Medical Claim lines Actions",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Cortex - Claim # Latest version (O of 0) Dashboard Batch History Testing Settlements Search Create",
+              "conf": 0.9744978174567223,
+              "bbox": [
+                65,
+                12,
+                1569,
+                35
+              ],
+              "words": [
+                {
+                  "text": "Cortex - Claim #",
+                  "conf": 0.9689915180206299,
+                  "bbox": [
+                    65,
+                    17,
+                    189,
+                    33
+                  ]
+                },
+                {
+                  "text": "Latest version (O of 0)",
+                  "conf": 0.9312389492988586,
+                  "bbox": [
+                    204,
+                    15,
+                    329,
+                    32
+                  ]
+                },
+                {
+                  "text": "Dashboard",
+                  "conf": 0.9975836873054504,
+                  "bbox": [
+                    1119,
+                    17,
+                    1184,
+                    33
+                  ]
+                },
+                {
+                  "text": "Batch History",
+                  "conf": 0.9422846436500549,
+                  "bbox": [
+                    1202,
+                    12,
+                    1285,
+                    35
+                  ]
+                },
+                {
+                  "text": "Testing",
+                  "conf": 0.96588534116745,
+                  "bbox": [
+                    1303,
+                    14,
+                    1352,
+                    35
+                  ]
+                },
+                {
+                  "text": "Settlements",
+                  "conf": 0.9949035048484802,
+                  "bbox": [
+                    1370,
+                    16,
+                    1443,
+                    32
+                  ]
+                },
+                {
+                  "text": "Search",
+                  "conf": 0.9970826506614685,
+                  "bbox": [
+                    1465,
+                    18,
+                    1506,
+                    32
+                  ]
+                },
+                {
+                  "text": "Create",
+                  "conf": 0.9980122447013855,
+                  "bbox": [
+                    1528,
+                    18,
+                    1569,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "About this claim Payment Patient Providers Medical Claim lines Actions",
+              "conf": 0.9803948402404785,
+              "bbox": [
+                31,
+                62,
+                1539,
+                80
+              ],
+              "words": [
+                {
+                  "text": "About this claim",
+                  "conf": 0.9610735177993774,
+                  "bbox": [
+                    31,
+                    62,
+                    125,
+                    80
+                  ]
+                },
+                {
+                  "text": "Payment",
+                  "conf": 0.9980353116989136,
+                  "bbox": [
+                    149,
+                    66,
+                    198,
+                    79
+                  ]
+                },
+                {
+                  "text": "Patient",
+                  "conf": 0.9887558221817017,
+                  "bbox": [
+                    222,
+                    65,
+                    265,
+                    79
+                  ]
+                },
+                {
+                  "text": "Providers",
+                  "conf": 0.9965512156486511,
+                  "bbox": [
+                    288,
+                    64,
+                    344,
+                    80
+                  ]
+                },
+                {
+                  "text": "Medical",
+                  "conf": 0.9923945069313049,
+                  "bbox": [
+                    366,
+                    65,
+                    412,
+                    79
+                  ]
+                },
+                {
+                  "text": "Claim lines",
+                  "conf": 0.9377914667129517,
+                  "bbox": [
+                    435,
+                    64,
+                    499,
+                    80
+                  ]
+                },
+                {
+                  "text": "Actions",
+                  "conf": 0.9881620407104492,
+                  "bbox": [
+                    1481,
+                    64,
+                    1539,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            31,
+            12,
+            1569,
+            80
+          ],
+          "html": "<table><tr><th>Cortex - Claim #</th><th>Latest version (O of 0)</th><th>Dashboard</th><th>Batch History</th><th>Testing</th><th>Settlements</th><th>Search</th><th>Create</th></tr><tr><td>About this claim Payment</td><td>Patient Providers Medical Claim lines</td><td></td><td></td><td></td><td></td><td>Actions</td><td></td></tr></table>",
+          "text": "About this claim Payment | Patient Providers Medical Claim lines |  |  |  |  | Actions | ",
+          "headers": [
+            "Cortex - Claim #",
+            "Latest version (O of 0)",
+            "Dashboard",
+            "Batch History",
+            "Testing",
+            "Settlements",
+            "Search",
+            "Create"
+          ],
+          "rows": [
+            [
+              "About this claim Payment",
+              "Patient Providers Medical Claim lines",
+              "",
+              "",
+              "",
+              "",
+              "Actions",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Cortex - Claim # Latest version (O of 0) Dashboard Batch History Testing Settlements Search Create",
+          "conf": 0.9744978174567223,
+          "bbox": [
+            65,
+            12,
+            1569,
+            35
+          ],
+          "words": [
+            {
+              "text": "Cortex - Claim #",
+              "conf": 0.9689915180206299,
+              "bbox": [
+                65,
+                17,
+                189,
+                33
+              ]
+            },
+            {
+              "text": "Latest version (O of 0)",
+              "conf": 0.9312389492988586,
+              "bbox": [
+                204,
+                15,
+                329,
+                32
+              ]
+            },
+            {
+              "text": "Dashboard",
+              "conf": 0.9975836873054504,
+              "bbox": [
+                1119,
+                17,
+                1184,
+                33
+              ]
+            },
+            {
+              "text": "Batch History",
+              "conf": 0.9422846436500549,
+              "bbox": [
+                1202,
+                12,
+                1285,
+                35
+              ]
+            },
+            {
+              "text": "Testing",
+              "conf": 0.96588534116745,
+              "bbox": [
+                1303,
+                14,
+                1352,
+                35
+              ]
+            },
+            {
+              "text": "Settlements",
+              "conf": 0.9949035048484802,
+              "bbox": [
+                1370,
+                16,
+                1443,
+                32
+              ]
+            },
+            {
+              "text": "Search",
+              "conf": 0.9970826506614685,
+              "bbox": [
+                1465,
+                18,
+                1506,
+                32
+              ]
+            },
+            {
+              "text": "Create",
+              "conf": 0.9980122447013855,
+              "bbox": [
+                1528,
+                18,
+                1569,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "About this claim Payment Patient Providers Medical Claim lines Actions",
+          "conf": 0.9803948402404785,
+          "bbox": [
+            31,
+            62,
+            1539,
+            80
+          ],
+          "words": [
+            {
+              "text": "About this claim",
+              "conf": 0.9610735177993774,
+              "bbox": [
+                31,
+                62,
+                125,
+                80
+              ]
+            },
+            {
+              "text": "Payment",
+              "conf": 0.9980353116989136,
+              "bbox": [
+                149,
+                66,
+                198,
+                79
+              ]
+            },
+            {
+              "text": "Patient",
+              "conf": 0.9887558221817017,
+              "bbox": [
+                222,
+                65,
+                265,
+                79
+              ]
+            },
+            {
+              "text": "Providers",
+              "conf": 0.9965512156486511,
+              "bbox": [
+                288,
+                64,
+                344,
+                80
+              ]
+            },
+            {
+              "text": "Medical",
+              "conf": 0.9923945069313049,
+              "bbox": [
+                366,
+                65,
+                412,
+                79
+              ]
+            },
+            {
+              "text": "Claim lines",
+              "conf": 0.9377914667129517,
+              "bbox": [
+                435,
+                64,
+                499,
+                80
+              ]
+            },
+            {
+              "text": "Actions",
+              "conf": 0.9881620407104492,
+              "bbox": [
+                1481,
+                64,
+                1539,
+                80
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

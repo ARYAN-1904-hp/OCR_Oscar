@@ -1,0 +1,416 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=15 | tables=6 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 3x8
+HEADER | Cortex-Claim#MAY94PYC | Latest version (5of5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 15 hours ago | Readjudicate | Actions | -
+  CELL[1,0] = About thls claim Payment Patlent
+  CELL[1,1] = Providers Medical Claim lines
+  CELL[1,4] = 15 hours ago
+  CELL[1,5] = Readjudicate
+  CELL[1,6] = Actions
+ROW 2 | - | Is transplant? | Skip ER downcoding | - | Skip emergency department visit level downcoding for this claim | - | - | -
+  CELL[2,1] = Is transplant?
+  CELL[2,2] = Skip ER downcoding
+  CELL[2,4] = Skip emergency department visit level downcoding for this claim
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 18x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | MAY94PYC | - | - | -
+  CELL[1,0] = MAY94PYC
+ROW 2 | Member | Lisandra Fuentes Castro International Provider No | - | -
+  CELL[2,0] = Member
+  CELL[2,1] = Lisandra Fuentes Castro International Provider No
+ROW 3 | o Notes | Is Medicald reclamation? Yes | - | -
+  CELL[3,0] = o Notes
+  CELL[3,1] = Is Medicald reclamation? Yes
+ROW 4 | See all member's clalms | - | - | -
+  CELL[4,0] = See all member's clalms
+ROW 5 | Submission information | - | - | -
+  CELL[5,0] = Submission information
+ROW 6 | Claim state | Blocked | - | -
+  CELL[6,0] = Claim state
+  CELL[6,1] = Blocked
+ROW 7 | NEWBORN | - | - | -
+  CELL[7,0] = NEWBORN
+ROW 8 | Manage Tenant oscar | - | - | -
+  CELL[8,0] = Manage Tenant oscar
+ROW 9 | Denials (0) | Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | -
+  CELL[9,0] = Denials (0)
+  CELL[9,1] = Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+ROW 10 | No denials on this claim. Manage | - | - | -
+  CELL[10,0] = No denials on this claim. Manage
+ROW 11 | Payment | - | - | -
+  CELL[11,0] = Payment
+ROW 12 | Patient | - | - | -
+  CELL[12,0] = Patient
+ROW 13 | Claim lineage | Matched Member Submitted Info | - | -
+  CELL[13,0] = Claim lineage
+  CELL[13,1] = Matched Member Submitted Info
+ROW 14 | MAY94PYC | Blocked | - | -
+  CELL[14,0] = MAY94PYC
+  CELL[14,1] = Blocked
+ROW 15 | - | - | Hialeah, FL 33010 | -
+  CELL[15,2] = Hialeah, FL 33010
+ROW 16 | Potential parent claims Person ID a33a35d4ccde4448a3e1155924b65fb1 | - | - | -
+  CELL[16,0] = Potential parent claims Person ID a33a35d4ccde4448a3e1155924b65fb1
+ROW 17 | - | - | Authorizations 1authorization | Vlew
+  CELL[17,2] = Authorizations 1authorization
+  CELL[17,3] = Vlew
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 2x4
+HEADER | Submission type | Electronic | Vendor source | AVAILITY
+ROW 1 | Blockers (1) EDIfile | Download | Documents | Vlew
+  CELL[1,0] = Blockers (1) EDIfile
+  CELL[1,1] = Download
+  CELL[1,2] = Documents
+  CELL[1,3] = Vlew
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 5x5
+HEADER | Billed | $4,837.00 (100%) | Charge group | Prompt process due date | 08/05/2026
+ROW 1 | Allowed | $697.42 (14%) | Payment authority NEXTGEN | Interestaccrued | $0.00
+  CELL[1,0] = Allowed
+  CELL[1,1] = $697.42 (14%)
+  CELL[1,2] = Payment authority NEXTGEN
+  CELL[1,3] = Interestaccrued
+  CELL[1,4] = $0.00
+ROW 2 | Pay provider | $697.42 | Pay to member No | Excluded from interest | Yes
+  CELL[2,0] = Pay provider
+  CELL[2,1] = $697.42
+  CELL[2,2] = Pay to member No
+  CELL[2,3] = Excluded from interest
+  CELL[2,4] = Yes
+ROW 3 | Pay member | $0.00 | - | - | -
+  CELL[3,0] = Pay member
+  CELL[3,1] = $0.00
+ROW 4 | >Memberresponsibility | $0.00 | - | - | -
+  CELL[4,0] = >Memberresponsibility
+  CELL[4,1] = $0.00
+[/TABLE 3]
+
+[TABLE 4 | source=wide_grid]
+shape: 2x6
+HEADER | 7/19/2026 | Member | Lisandra Fuentes Castro | Change | Address | 1030 West 28 St
+ROW 1 | - | OSCID | OSC7694867601 | - | - | 4
+  CELL[1,1] = OSCID
+  CELL[1,2] = OSC7694867601
+  CELL[1,5] = 4
+[/TABLE 4]
+
+[TABLE 5 | source=wide_grid]
+shape: 4x4
+HEADER | SSN | 137-61-5164 | Referrals | Vlew a
+ROW 1 | Potential duplicate claims Date ofbirth | 07/01/1996 (29) | EOB | No EOB information is available
+  CELL[1,0] = Potential duplicate claims Date ofbirth
+  CELL[1,1] = 07/01/1996 (29)
+  CELL[1,2] = EOB
+  CELL[1,3] = No EOB information is available
+ROW 2 | Sex | Female | - | -
+  CELL[2,0] = Sex
+  CELL[2,1] = Female
+ROW 3 | No system identified duplicates. | - | Rosco claim history | View
+  CELL[3,0] = No system identified duplicates.
+  CELL[3,2] = Rosco claim history
+  CELL[3,3] = View
+[/TABLE 5]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[50,14,1555,35] | order=0
+  Cortex-Claim#MAY94PYC Latest version (5of5) Dashboard Batch History Testing Settlements Search Create
+BLOCK 1 | type=header | bbox=[31,62,1519,82] | order=1
+  About thls claim Payment Patlent Providers Medical Claim lines 15 hours ago Readjudicate Actions
+BLOCK 2 | type=table | bbox=[32,107,1538,178] | order=2
+  MAY94PYC Is transplant? Skip ER downcoding Skip emergency department visit level downcoding for this claim
+  Member: Lisandra Fuentes Castro International Provider No
+  o Notes Is Medicald reclamation? Yes
+BLOCK 3 | type=table | bbox=[34,182,454,227] | order=3
+  See all member's clalms
+  Submission information
+BLOCK 4 | type=table | bbox=[31,236,1212,290] | order=4
+  Claim state: Blocked Submission type Electronic Vendor source AVAILITY
+  Blockers (1) EDIfile Download Documents Vlew
+BLOCK 5 | type=table | bbox=[32,288,115,300] | order=5
+  NEWBORN
+BLOCK 6 | type=table | bbox=[30,300,550,324] | order=6
+  Manage Tenant oscar
+BLOCK 7 | type=table_row | bbox=[31,330,556,353] | order=7
+  Denials (0) Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+BLOCK 8 | type=table_row | bbox=[31,356,388,406] | order=8
+  No denials on this claim. Manage
+  Payment
+BLOCK 9 | type=table | bbox=[30,414,1238,488] | order=9
+  Billed $4,837.00 (100%) Charge group Prompt process due date 08/05/2026
+  Allowed $697.42 (14%) Payment authority NEXTGEN Interestaccrued $0.00
+  Pay provider $697.42 Pay to member No Excluded from interest Yes
+BLOCK 10 | type=table_row | bbox=[19,493,511,603] | order=10
+  Pay member $0.00
+  >Memberresponsibility $0.00
+  Patient
+  Claim lineage Matched Member Submitted Info
+  MAY94PYC Blocked
+BLOCK 11 | type=table | bbox=[41,599,1248,642] | order=11
+  7/19/2026 Member Lisandra Fuentes Castro Change Address 1030 West 28 St
+  OSCID OSC7694867601 4
+BLOCK 12 | type=table | bbox=[1155,638,1256,654] | order=12
+  Hialeah, FL 33010
+BLOCK 13 | type=table | bbox=[32,653,1552,707] | order=13
+  Potential parent claims Person ID a33a35d4ccde4448a3e1155924b65fb1 Authorizations 1authorization Vlew
+  SSN 137-61-5164 Referrals Vlew a
+BLOCK 14 | type=footer | bbox=[31,704,1306,757] | order=14
+  Potential duplicate claims Date ofbirth 07/01/1996 (29) EOB No EOB information is available
+  No system identified duplicates. Sex Female Rosco claim history View
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[29,120,1552,681] | shape=18x4 | conf=0.920
+  shape: 18x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | MAY94PYC | - | - | -
+    CELL[1,0] = MAY94PYC
+  ROW 2 | Member | Lisandra Fuentes Castro International Provider No | - | -
+    CELL[2,0] = Member
+    CELL[2,1] = Lisandra Fuentes Castro International Provider No
+  ROW 3 | o Notes | Is Medicald reclamation? Yes | - | -
+    CELL[3,0] = o Notes
+    CELL[3,1] = Is Medicald reclamation? Yes
+  ROW 4 | See all member's clalms | - | - | -
+    CELL[4,0] = See all member's clalms
+  ROW 5 | Submission information | - | - | -
+    CELL[5,0] = Submission information
+  ROW 6 | Claim state | Blocked | - | -
+    CELL[6,0] = Claim state
+    CELL[6,1] = Blocked
+  ROW 7 | NEWBORN | - | - | -
+    CELL[7,0] = NEWBORN
+  ROW 8 | Manage Tenant oscar | - | - | -
+    CELL[8,0] = Manage Tenant oscar
+  ROW 9 | Denials (0) | Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | -
+    CELL[9,0] = Denials (0)
+    CELL[9,1] = Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+  ROW 10 | No denials on this claim. Manage | - | - | -
+    CELL[10,0] = No denials on this claim. Manage
+  ROW 11 | Payment | - | - | -
+    CELL[11,0] = Payment
+  ROW 12 | Patient | - | - | -
+    CELL[12,0] = Patient
+  ROW 13 | Claim lineage | Matched Member Submitted Info | - | -
+    CELL[13,0] = Claim lineage
+    CELL[13,1] = Matched Member Submitted Info
+  ROW 14 | MAY94PYC | Blocked | - | -
+    CELL[14,0] = MAY94PYC
+    CELL[14,1] = Blocked
+  ROW 15 | - | - | Hialeah, FL 33010 | -
+    CELL[15,2] = Hialeah, FL 33010
+  ROW 16 | Potential parent claims Person ID a33a35d4ccde4448a3e1155924b65fb1 | - | - | -
+    CELL[16,0] = Potential parent claims Person ID a33a35d4ccde4448a3e1155924b65fb1
+  ROW 17 | - | - | Authorizations 1authorization | Vlew
+    CELL[17,2] = Authorizations 1authorization
+    CELL[17,3] = Vlew
+TABLE 1 | source=wide_grid | bbox=[31,14,1555,126] | shape=3x8 | conf=0.850
+  shape: 3x8
+  HEADER | Cortex-Claim#MAY94PYC | Latest version (5of5) | Dashboard | Batch History | Testing | Settlements | Search | Create
+  ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | - | - | 15 hours ago | Readjudicate | Actions | -
+    CELL[1,0] = About thls claim Payment Patlent
+    CELL[1,1] = Providers Medical Claim lines
+    CELL[1,4] = 15 hours ago
+    CELL[1,5] = Readjudicate
+    CELL[1,6] = Actions
+  ROW 2 | - | Is transplant? | Skip ER downcoding | - | Skip emergency department visit level downcoding for this claim | - | - | -
+    CELL[2,1] = Is transplant?
+    CELL[2,2] = Skip ER downcoding
+    CELL[2,4] = Skip emergency department visit level downcoding for this claim
+TABLE 2 | source=wide_grid | bbox=[31,244,1212,290] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | Submission type | Electronic | Vendor source | AVAILITY
+  ROW 1 | Blockers (1) EDIfile | Download | Documents | Vlew
+    CELL[1,0] = Blockers (1) EDIfile
+    CELL[1,1] = Download
+    CELL[1,2] = Documents
+    CELL[1,3] = Vlew
+TABLE 3 | source=wide_grid | bbox=[19,414,1238,536] | shape=5x5 | conf=0.850
+  shape: 5x5
+  HEADER | Billed | $4,837.00 (100%) | Charge group | Prompt process due date | 08/05/2026
+  ROW 1 | Allowed | $697.42 (14%) | Payment authority NEXTGEN | Interestaccrued | $0.00
+    CELL[1,0] = Allowed
+    CELL[1,1] = $697.42 (14%)
+    CELL[1,2] = Payment authority NEXTGEN
+    CELL[1,3] = Interestaccrued
+    CELL[1,4] = $0.00
+  ROW 2 | Pay provider | $697.42 | Pay to member No | Excluded from interest | Yes
+    CELL[2,0] = Pay provider
+    CELL[2,1] = $697.42
+    CELL[2,2] = Pay to member No
+    CELL[2,3] = Excluded from interest
+    CELL[2,4] = Yes
+  ROW 3 | Pay member | $0.00 | - | - | -
+    CELL[3,0] = Pay member
+    CELL[3,1] = $0.00
+  ROW 4 | >Memberresponsibility | $0.00 | - | - | -
+    CELL[4,0] = >Memberresponsibility
+    CELL[4,1] = $0.00
+TABLE 4 | source=wide_grid | bbox=[41,599,1248,642] | shape=2x6 | conf=0.850
+  shape: 2x6
+  HEADER | 7/19/2026 | Member | Lisandra Fuentes Castro | Change | Address | 1030 West 28 St
+  ROW 1 | - | OSCID | OSC7694867601 | - | - | 4
+    CELL[1,1] = OSCID
+    CELL[1,2] = OSC7694867601
+    CELL[1,5] = 4
+TABLE 5 | source=wide_grid | bbox=[31,679,1306,757] | shape=4x4 | conf=0.850
+  shape: 4x4
+  HEADER | SSN | 137-61-5164 | Referrals | Vlew a
+  ROW 1 | Potential duplicate claims Date ofbirth | 07/01/1996 (29) | EOB | No EOB information is available
+    CELL[1,0] = Potential duplicate claims Date ofbirth
+    CELL[1,1] = 07/01/1996 (29)
+    CELL[1,2] = EOB
+    CELL[1,3] = No EOB information is available
+  ROW 2 | Sex | Female | - | -
+    CELL[2,0] = Sex
+    CELL[2,1] = Female
+  ROW 3 | No system identified duplicates. | - | Rosco claim history | View
+    CELL[3,0] = No system identified duplicates.
+    CELL[3,2] = Rosco claim history
+    CELL[3,3] = View
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[50,14,1555,35] | conf=0.987 | text=Cortex-Claim#MAY94PYC Latest version (5of5) Dashboard Batch History Testing Settlements Search Create
+  WORD | bbox=[50,17,266,33] | text=Cortex-Claim#MAY94PYC
+  WORD | bbox=[282,15,409,32] | text=Latest version (5of5)
+  WORD | bbox=[1106,14,1170,33] | text=Dashboard
+  WORD | bbox=[1191,14,1272,35] | text=Batch History
+  WORD | bbox=[1291,14,1338,35] | text=Testing
+  WORD | bbox=[1357,15,1430,33] | text=Settlements
+  WORD | bbox=[1452,18,1494,32] | text=Search
+  WORD | bbox=[1515,18,1555,32] | text=Create
+LINE 1 | bbox=[31,62,1519,82] | conf=0.991 | text=About thls claim Payment Patlent Providers Medical Claim lines 15 hours ago Readjudicate Actions
+  WORD | bbox=[31,64,126,80] | text=About thls claim
+  WORD | bbox=[149,65,201,80] | text=Payment
+  WORD | bbox=[221,65,266,79] | text=Patlent
+  WORD | bbox=[288,64,345,80] | text=Providers
+  WORD | bbox=[365,65,412,79] | text=Medical
+  WORD | bbox=[432,64,498,80] | text=Claim lines
+  WORD | bbox=[1252,62,1315,82] | text=15 hours ago
+  WORD | bbox=[1339,64,1419,80] | text=Readjudicate
+  WORD | bbox=[1469,65,1519,79] | text=Actions
+LINE 2 | bbox=[34,107,1538,137] | conf=0.981 | text=MAY94PYC Is transplant? Skip ER downcoding Skip emergency department visit level downcoding for this claim
+  WORD | bbox=[34,120,141,137] | text=MAY94PYC
+  WORD | bbox=[300,111,379,123] | text=Is transplant?
+  WORD | bbox=[936,107,1055,126] | text=Skip ER downcoding
+  WORD | bbox=[1158,109,1538,126] | text=Skip emergency department visit level downcoding for this claim
+LINE 3 | bbox=[32,135,538,158] | conf=0.987 | text=Member: Lisandra Fuentes Castro International Provider No
+  WORD | bbox=[32,145,219,158] | text=Member: Lisandra Fuentes Castro
+  WORD | bbox=[300,136,424,149] | text=International Provider
+  WORD | bbox=[516,135,538,151] | text=No
+LINE 4 | bbox=[32,159,542,178] | conf=0.981 | text=o Notes Is Medicald reclamation? Yes
+  WORD | bbox=[32,162,96,178] | text=o Notes
+  WORD | bbox=[297,159,441,177] | text=Is Medicald reclamation?
+  WORD | bbox=[515,159,542,178] | text=Yes
+LINE 5 | bbox=[34,182,168,195] | conf=0.981 | text=See all member's clalms
+LINE 6 | bbox=[299,210,454,227] | conf=0.998 | text=Submission information
+LINE 7 | bbox=[31,236,1212,265] | conf=0.995 | text=Claim state: Blocked Submission type Electronic Vendor source AVAILITY
+  WORD | bbox=[31,236,102,252] | text=Claim state:
+  WORD | bbox=[169,237,219,251] | text=Blocked
+  WORD | bbox=[299,248,395,265] | text=Submission type
+  WORD | bbox=[516,245,578,265] | text=Electronic
+  WORD | bbox=[938,248,1021,265] | text=Vendor source
+  WORD | bbox=[1153,244,1212,265] | text=AVAILITY
+LINE 8 | bbox=[31,267,1188,290] | conf=0.963 | text=Blockers (1) EDIfile Download Documents Vlew
+  WORD | bbox=[31,267,99,284] | text=Blockers (1)
+  WORD | bbox=[299,275,341,289] | text=EDIfile
+  WORD | bbox=[518,274,578,290] | text=Download
+  WORD | bbox=[937,274,1006,290] | text=Documents
+  WORD | bbox=[1158,275,1188,289] | text=Vlew
+LINE 9 | bbox=[32,288,115,300] | conf=0.986 | text=NEWBORN
+LINE 10 | bbox=[30,300,550,324] | conf=0.997 | text=Manage Tenant oscar
+  WORD | bbox=[30,303,82,324] | text=Manage
+  WORD | bbox=[299,300,341,314] | text=Tenant
+  WORD | bbox=[516,302,550,316] | text=oscar
+LINE 11 | bbox=[31,330,556,353] | conf=0.965 | text=Denials (0) Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+  WORD | bbox=[31,336,94,353] | text=Denials (0)
+  WORD | bbox=[300,330,556,342] | text=Valet file ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+LINE 12 | bbox=[31,356,166,391] | conf=0.988 | text=No denials on this claim. Manage
+LINE 13 | bbox=[301,388,388,406] | conf=0.999 | text=Payment
+LINE 14 | bbox=[30,414,1238,435] | conf=0.989 | text=Billed $4,837.00 (100%) Charge group Prompt process due date 08/05/2026
+  WORD | bbox=[30,418,68,435] | text=Billed
+  WORD | bbox=[135,419,222,435] | text=$4,837.00 (100%)
+  WORD | bbox=[297,414,379,434] | text=Charge group
+  WORD | bbox=[937,414,1081,432] | text=Prompt process due date
+  WORD | bbox=[1158,418,1238,434] | text=08/05/2026
+LINE 15 | bbox=[31,440,1191,463] | conf=0.991 | text=Allowed $697.42 (14%) Payment authority NEXTGEN Interestaccrued $0.00
+  WORD | bbox=[31,444,79,458] | text=Allowed
+  WORD | bbox=[152,442,224,458] | text=$697.42 (14%)
+  WORD | bbox=[299,442,406,458] | text=Payment authority
+  WORD | bbox=[518,440,576,457] | text=NEXTGEN
+  WORD | bbox=[939,448,1034,461] | text=Interestaccrued
+  WORD | bbox=[1155,446,1191,463] | text=$0.00
+LINE 16 | bbox=[30,467,1180,488] | conf=0.988 | text=Pay provider $697.42 Pay to member No Excluded from interest Yes
+  WORD | bbox=[30,467,102,484] | text=Pay provider
+  WORD | bbox=[179,470,222,484] | text=$697.42
+  WORD | bbox=[299,467,385,484] | text=Pay to member
+  WORD | bbox=[516,467,536,484] | text=No
+  WORD | bbox=[940,474,1068,486] | text=Excluded from interest
+  WORD | bbox=[1155,472,1180,488] | text=Yes
+LINE 17 | bbox=[31,493,224,510] | conf=0.991 | text=Pay member $0.00
+  WORD | bbox=[31,494,104,510] | text=Pay member
+  WORD | bbox=[188,493,224,510] | text=$0.00
+LINE 18 | bbox=[19,519,222,536] | conf=0.990 | text=>Memberresponsibility $0.00
+  WORD | bbox=[19,519,160,536] | text=>Memberresponsibility
+  WORD | bbox=[188,519,222,533] | text=$0.00
+LINE 19 | bbox=[300,538,374,556] | conf=0.998 | text=Patient
+LINE 20 | bbox=[30,564,511,584] | conf=0.979 | text=Claim lineage Matched Member Submitted Info
+  WORD | bbox=[30,564,110,582] | text=Claim lineage
+  WORD | bbox=[300,572,401,584] | text=Matched Member
+  WORD | bbox=[425,572,511,584] | text=Submitted Info
+LINE 21 | bbox=[29,587,219,603] | conf=0.993 | text=MAY94PYC Blocked
+  WORD | bbox=[29,587,109,603] | text=MAY94PYC
+  WORD | bbox=[169,589,219,603] | text=Blocked
+LINE 22 | bbox=[41,599,1248,623] | conf=0.997 | text=7/19/2026 Member Lisandra Fuentes Castro Change Address 1030 West 28 St
+  WORD | bbox=[41,607,94,623] | text=7/19/2026
+  WORD | bbox=[299,602,348,616] | text=Member
+  WORD | bbox=[519,603,654,616] | text=Lisandra Fuentes Castro
+  WORD | bbox=[867,599,917,620] | text=Change
+  WORD | bbox=[939,602,988,616] | text=Address
+  WORD | bbox=[1156,601,1248,617] | text=1030 West 28 St
+LINE 23 | bbox=[300,621,1166,642] | conf=0.995 | text=OSCID OSC7694867601 4
+  WORD | bbox=[300,628,341,642] | text=OSCID
+  WORD | bbox=[520,629,611,642] | text=OSC7694867601
+  WORD | bbox=[1156,621,1166,633] | text=4
+LINE 24 | bbox=[1155,638,1256,654] | conf=0.999 | text=Hialeah, FL 33010
+LINE 25 | bbox=[32,653,1552,681] | conf=0.988 | text=Potential parent claims Person ID a33a35d4ccde4448a3e1155924b65fb1 Authorizations 1authorization Vlew
+  WORD | bbox=[32,653,164,666] | text=Potential parent claims
+  WORD | bbox=[298,653,356,670] | text=Person ID
+  WORD | bbox=[519,653,739,666] | text=a33a35d4ccde4448a3e1155924b65fb1
+  WORD | bbox=[938,663,1025,680] | text=Authorizations
+  WORD | bbox=[1156,666,1240,679] | text=1authorization
+  WORD | bbox=[1520,663,1552,681] | text=Vlew
+LINE 26 | bbox=[299,679,1198,707] | conf=0.944 | text=SSN 137-61-5164 Referrals Vlew a
+  WORD | bbox=[299,680,326,695] | text=SSN
+  WORD | bbox=[515,679,584,695] | text=137-61-5164
+  WORD | bbox=[936,686,994,707] | text=Referrals
+  WORD | bbox=[1155,689,1198,707] | text=Vlew a
+LINE 27 | bbox=[32,704,1306,731] | conf=0.981 | text=Potential duplicate claims Date ofbirth 07/01/1996 (29) EOB No EOB information is available
+  WORD | bbox=[32,715,177,728] | text=Potential duplicate claims
+  WORD | bbox=[299,707,372,719] | text=Date ofbirth
+  WORD | bbox=[518,704,605,721] | text=07/01/1996 (29)
+  WORD | bbox=[938,715,965,731] | text=EOB
+  WORD | bbox=[1156,717,1306,729] | text=No EOB information is available
+LINE 28 | bbox=[31,732,1196,757] | conf=0.972 | text=No system identified duplicates. Sex Female Rosco claim history View
+  WORD | bbox=[31,741,211,757] | text=No system identified duplicates.
+  WORD | bbox=[298,732,324,746] | text=Sex
+  WORD | bbox=[518,732,560,746] | text=Female
+  WORD | bbox=[939,743,1049,756] | text=Rosco claim history
+  WORD | bbox=[1158,742,1196,756] | text=View
+[/BOXES]

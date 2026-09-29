@@ -1,0 +1,2404 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Search Rosco MR Melissa -\nYisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nActive\nOSC78747909-01R213XB6D Holder - ON exc 4PYQV4FN $124.23\nMedical claim  Chemical analysis for genetic disorder Denled\nHeads up note Bureau of Public Health Laboratories  No provider referenced\nService on Sep 16, 2025 Accumulation on Mar 12, 2026\nMember actlons 3X6ZH7Z9 $0.00\n#Medical claim - No description available Processing\nFLBroward Memorial Healthcare System  No provider referenced\nFLO3FLTeam Service on Sep 15,2025 - Did not apply to accumulators\nOscarplan:\nJeffin Alex No facility referenced-Jeffin Alex\nEffective 01/01/2026 Service on Aug 28, 2025 - Accumulation on Aug 30, 2025\nSilver Simple PCP Saver CSR 150\n8 Individual\nFL HMO Standard 2KVC7682 $0.00\nView ID card Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more Paid\n$Current Balance due F3HHJPAW $142.33\nOscar Unlocks Not activated Medical claim  No description available Memorial Regional Hospital  No provider referenced Pald\nService on Aug 24,2025 Accumulation on Sep 3,2025\nMember tags Applies to OOPM - Cumulative OOPM$147.33\nnextgen_billing_rosco_tag",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Search Rosco MR Melissa -\nYisroel Dubov Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nActive\nOSC78747909-01R213XB6D Holder - ON exc 4PYQV4FN $124.23\nMedical claim  Chemical analysis for genetic disorder Denled\nHeads up note Bureau of Public Health Laboratories  No provider referenced\nService on Sep 16, 2025 Accumulation on Mar 12, 2026\nMember actlons 3X6ZH7Z9 $0.00\n#Medical claim - No description available Processing\nFLBroward Memorial Healthcare System  No provider referenced\nFLO3FLTeam Service on Sep 15,2025 - Did not apply to accumulators\nOscarplan:\nJeffin Alex No facility referenced-Jeffin Alex\nEffective 01/01/2026 Service on Aug 28, 2025 - Accumulation on Aug 30, 2025\nSilver Simple PCP Saver CSR 150\n8 Individual\nFL HMO Standard 2KVC7682 $0.00\nView ID card Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more Paid\n$Current Balance due F3HHJPAW $142.33\nOscar Unlocks Not activated Medical claim  No description available Memorial Regional Hospital  No provider referenced Pald\nService on Aug 24,2025 Accumulation on Sep 3,2025\nMember tags Applies to OOPM - Cumulative OOPM$147.33\nnextgen_billing_rosco_tag",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                30,
+                185,
+                1251,
+                242
+              ],
+              "text": "Medical claim  Chemical analysis for genetic disorder Denled\nHeads up note Bureau of Public Health Laboratories  No provider referenced\nService on Sep 16, 2025 Accumulation on Mar 12, 2026",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Medical claim  Chemical analysis for genetic disorder Denled",
+                  "conf": 0.9644153714179993,
+                  "bbox": [
+                    304,
+                    185,
+                    1251,
+                    201
+                  ],
+                  "words": [
+                    {
+                      "text": "Medical claim  Chemical analysis for genetic disorder",
+                      "conf": 0.9825335144996643,
+                      "bbox": [
+                        304,
+                        185,
+                        628,
+                        201
+                      ]
+                    },
+                    {
+                      "text": "Denled",
+                      "conf": 0.9462972283363342,
+                      "bbox": [
+                        1208,
+                        185,
+                        1251,
+                        199
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Heads up note Bureau of Public Health Laboratories  No provider referenced",
+                  "conf": 0.9874805212020874,
+                  "bbox": [
+                    30,
+                    206,
+                    671,
+                    228
+                  ],
+                  "words": [
+                    {
+                      "text": "Heads up note",
+                      "conf": 0.9967240691184998,
+                      "bbox": [
+                        30,
+                        211,
+                        115,
+                        228
+                      ]
+                    },
+                    {
+                      "text": "Bureau of Public Health Laboratories  No provider referenced",
+                      "conf": 0.978236973285675,
+                      "bbox": [
+                        321,
+                        206,
+                        671,
+                        223
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Service on Sep 16, 2025 Accumulation on Mar 12, 2026",
+                  "conf": 0.9654826521873474,
+                  "bbox": [
+                    304,
+                    229,
+                    625,
+                    242
+                  ],
+                  "words": [
+                    {
+                      "text": "Service on Sep 16, 2025 Accumulation on Mar 12, 2026",
+                      "conf": 0.9654826521873474,
+                      "bbox": [
+                        304,
+                        229,
+                        625,
+                        242
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                16,
+                333,
+                1252,
+                406
+              ],
+              "text": "#Medical claim - No description available Processing\nFLBroward Memorial Healthcare System  No provider referenced\nFLO3FLTeam Service on Sep 15,2025 - Did not apply to accumulators",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "#Medical claim - No description available Processing",
+                  "conf": 0.9449103772640228,
+                  "bbox": [
+                    304,
+                    333,
+                    1252,
+                    354
+                  ],
+                  "words": [
+                    {
+                      "text": "#Medical claim - No description available",
+                      "conf": 0.9413822293281555,
+                      "bbox": [
+                        304,
+                        335,
+                        551,
+                        351
+                      ]
+                    },
+                    {
+                      "text": "Processing",
+                      "conf": 0.9484385251998901,
+                      "bbox": [
+                        1182,
+                        333,
+                        1252,
+                        354
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "FLBroward Memorial Healthcare System  No provider referenced",
+                  "conf": 0.9833277761936188,
+                  "bbox": [
+                    17,
+                    351,
+                    629,
+                    373
+                  ],
+                  "words": [
+                    {
+                      "text": "FLBroward",
+                      "conf": 0.9760915040969849,
+                      "bbox": [
+                        17,
+                        351,
+                        113,
+                        373
+                      ]
+                    },
+                    {
+                      "text": "Memorial Healthcare System  No provider referenced",
+                      "conf": 0.9905640482902527,
+                      "bbox": [
+                        305,
+                        360,
+                        629,
+                        373
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "FLO3FLTeam Service on Sep 15,2025 - Did not apply to accumulators",
+                  "conf": 0.9581881463527679,
+                  "bbox": [
+                    16,
+                    382,
+                    628,
+                    406
+                  ],
+                  "words": [
+                    {
+                      "text": "FLO3FLTeam",
+                      "conf": 0.9635049104690552,
+                      "bbox": [
+                        16,
+                        384,
+                        125,
+                        406
+                      ]
+                    },
+                    {
+                      "text": "Service on Sep 15,2025 - Did not apply to accumulators",
+                      "conf": 0.9528713822364807,
+                      "bbox": [
+                        304,
+                        382,
+                        628,
+                        395
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Medical claim  Chemical analysis for genetic disorder Denled\nHeads up note Bureau of Public Health Laboratories  No provider referenced\nService on Sep 16, 2025 Accumulation on Mar 12, 2026\n#Medical claim - No description available Processing\nFLBroward Memorial Healthcare System  No provider referenced\nFLO3FLTeam Service on Sep 15,2025 - Did not apply to accumulators"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "text": "rosco Search Rosco MR Melissa -",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Search Rosco MR Melissa -",
+              "conf": 0.9157106876373291,
+              "bbox": [
+                14,
+                17,
+                1580,
+                34
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9885711669921875,
+                  "bbox": [
+                    14,
+                    17,
+                    72,
+                    34
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.9937952160835266,
+                  "bbox": [
+                    138,
+                    18,
+                    230,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9651035070419312,
+                  "bbox": [
+                    1465,
+                    18,
+                    1550,
+                    34
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7153728604316711,
+                  "bbox": [
+                    1565,
+                    23,
+                    1580,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            19,
+            71,
+            919,
+            102
+          ],
+          "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing &payments Rewards Authorizations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing &payments Rewards Authorizations",
+              "conf": 0.9850772619247437,
+              "bbox": [
+                19,
+                71,
+                919,
+                102
+              ],
+              "words": [
+                {
+                  "text": "Yisroel Dubov",
+                  "conf": 0.9788157939910889,
+                  "bbox": [
+                    19,
+                    81,
+                    152,
+                    102
+                  ]
+                },
+                {
+                  "text": "Member info",
+                  "conf": 0.9979149103164673,
+                  "bbox": [
+                    276,
+                    73,
+                    351,
+                    89
+                  ]
+                },
+                {
+                  "text": "Issues",
+                  "conf": 0.99818354845047,
+                  "bbox": [
+                    366,
+                    74,
+                    406,
+                    88
+                  ]
+                },
+                {
+                  "text": "Policy detalls",
+                  "conf": 0.9349687695503235,
+                  "bbox": [
+                    420,
+                    71,
+                    500,
+                    89
+                  ]
+                },
+                {
+                  "text": "Benefits",
+                  "conf": 0.99494469165802,
+                  "bbox": [
+                    515,
+                    74,
+                    568,
+                    89
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9910710453987122,
+                  "bbox": [
+                    584,
+                    74,
+                    625,
+                    88
+                  ]
+                },
+                {
+                  "text": "Billing &payments",
+                  "conf": 0.9713188409805298,
+                  "bbox": [
+                    640,
+                    71,
+                    749,
+                    89
+                  ]
+                },
+                {
+                  "text": "Rewards",
+                  "conf": 0.9995003938674927,
+                  "bbox": [
+                    764,
+                    75,
+                    816,
+                    88
+                  ]
+                },
+                {
+                  "text": "Authorizations",
+                  "conf": 0.9989773631095886,
+                  "bbox": [
+                    834,
+                    75,
+                    919,
+                    88
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            22,
+            115,
+            64,
+            132
+          ],
+          "text": "Active",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Active",
+              "conf": 0.9863805174827576,
+              "bbox": [
+                22,
+                115,
+                64,
+                132
+              ],
+              "words": [
+                {
+                  "text": "Active",
+                  "conf": 0.9863805174827576,
+                  "bbox": [
+                    22,
+                    115,
+                    64,
+                    132
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            18,
+            140,
+            1254,
+            176
+          ],
+          "text": "OSC78747909-01R213XB6D Holder - ON exc 4PYQV4FN $124.23",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "OSC78747909-01R213XB6D Holder - ON exc 4PYQV4FN $124.23",
+              "conf": 0.9848907689253489,
+              "bbox": [
+                18,
+                140,
+                1254,
+                176
+              ],
+              "words": [
+                {
+                  "text": "OSC78747909-01R213XB6D Holder - ON exc",
+                  "conf": 0.9599786698818207,
+                  "bbox": [
+                    18,
+                    140,
+                    182,
+                    176
+                  ]
+                },
+                {
+                  "text": "4PYQV4FN",
+                  "conf": 0.9989160299301147,
+                  "bbox": [
+                    304,
+                    155,
+                    376,
+                    172
+                  ]
+                },
+                {
+                  "text": "$124.23",
+                  "conf": 0.9957776069641113,
+                  "bbox": [
+                    1202,
+                    158,
+                    1254,
+                    176
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            30,
+            185,
+            1251,
+            242
+          ],
+          "text": "Medical claim  Chemical analysis for genetic disorder Denled\nHeads up note Bureau of Public Health Laboratories  No provider referenced\nService on Sep 16, 2025 Accumulation on Mar 12, 2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Medical claim  Chemical analysis for genetic disorder Denled",
+              "conf": 0.9644153714179993,
+              "bbox": [
+                304,
+                185,
+                1251,
+                201
+              ],
+              "words": [
+                {
+                  "text": "Medical claim  Chemical analysis for genetic disorder",
+                  "conf": 0.9825335144996643,
+                  "bbox": [
+                    304,
+                    185,
+                    628,
+                    201
+                  ]
+                },
+                {
+                  "text": "Denled",
+                  "conf": 0.9462972283363342,
+                  "bbox": [
+                    1208,
+                    185,
+                    1251,
+                    199
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Heads up note Bureau of Public Health Laboratories  No provider referenced",
+              "conf": 0.9874805212020874,
+              "bbox": [
+                30,
+                206,
+                671,
+                228
+              ],
+              "words": [
+                {
+                  "text": "Heads up note",
+                  "conf": 0.9967240691184998,
+                  "bbox": [
+                    30,
+                    211,
+                    115,
+                    228
+                  ]
+                },
+                {
+                  "text": "Bureau of Public Health Laboratories  No provider referenced",
+                  "conf": 0.978236973285675,
+                  "bbox": [
+                    321,
+                    206,
+                    671,
+                    223
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Service on Sep 16, 2025 Accumulation on Mar 12, 2026",
+              "conf": 0.9654826521873474,
+              "bbox": [
+                304,
+                229,
+                625,
+                242
+              ],
+              "words": [
+                {
+                  "text": "Service on Sep 16, 2025 Accumulation on Mar 12, 2026",
+                  "conf": 0.9654826521873474,
+                  "bbox": [
+                    304,
+                    229,
+                    625,
+                    242
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 5,
+          "bbox": [
+            71,
+            306,
+            1254,
+            329
+          ],
+          "text": "Member actlons 3X6ZH7Z9 $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member actlons 3X6ZH7Z9 $0.00",
+              "conf": 0.9816488226254781,
+              "bbox": [
+                71,
+                306,
+                1254,
+                329
+              ],
+              "words": [
+                {
+                  "text": "Member actlons",
+                  "conf": 0.9468560814857483,
+                  "bbox": [
+                    71,
+                    307,
+                    162,
+                    320
+                  ]
+                },
+                {
+                  "text": "3X6ZH7Z9",
+                  "conf": 0.9990596771240234,
+                  "bbox": [
+                    302,
+                    308,
+                    374,
+                    325
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9990307092666626,
+                  "bbox": [
+                    1213,
+                    306,
+                    1254,
+                    329
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            16,
+            333,
+            1252,
+            406
+          ],
+          "text": "#Medical claim - No description available Processing\nFLBroward Memorial Healthcare System  No provider referenced\nFLO3FLTeam Service on Sep 15,2025 - Did not apply to accumulators",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "#Medical claim - No description available Processing",
+              "conf": 0.9449103772640228,
+              "bbox": [
+                304,
+                333,
+                1252,
+                354
+              ],
+              "words": [
+                {
+                  "text": "#Medical claim - No description available",
+                  "conf": 0.9413822293281555,
+                  "bbox": [
+                    304,
+                    335,
+                    551,
+                    351
+                  ]
+                },
+                {
+                  "text": "Processing",
+                  "conf": 0.9484385251998901,
+                  "bbox": [
+                    1182,
+                    333,
+                    1252,
+                    354
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "FLBroward Memorial Healthcare System  No provider referenced",
+              "conf": 0.9833277761936188,
+              "bbox": [
+                17,
+                351,
+                629,
+                373
+              ],
+              "words": [
+                {
+                  "text": "FLBroward",
+                  "conf": 0.9760915040969849,
+                  "bbox": [
+                    17,
+                    351,
+                    113,
+                    373
+                  ]
+                },
+                {
+                  "text": "Memorial Healthcare System  No provider referenced",
+                  "conf": 0.9905640482902527,
+                  "bbox": [
+                    305,
+                    360,
+                    629,
+                    373
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "FLO3FLTeam Service on Sep 15,2025 - Did not apply to accumulators",
+              "conf": 0.9581881463527679,
+              "bbox": [
+                16,
+                382,
+                628,
+                406
+              ],
+              "words": [
+                {
+                  "text": "FLO3FLTeam",
+                  "conf": 0.9635049104690552,
+                  "bbox": [
+                    16,
+                    384,
+                    125,
+                    406
+                  ]
+                },
+                {
+                  "text": "Service on Sep 15,2025 - Did not apply to accumulators",
+                  "conf": 0.9528713822364807,
+                  "bbox": [
+                    304,
+                    382,
+                    628,
+                    395
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 7,
+          "bbox": [
+            17,
+            419,
+            106,
+            439
+          ],
+          "text": "Oscarplan:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscarplan:",
+              "conf": 0.9751992225646973,
+              "bbox": [
+                17,
+                419,
+                106,
+                439
+              ],
+              "words": [
+                {
+                  "text": "Oscarplan:",
+                  "conf": 0.9751992225646973,
+                  "bbox": [
+                    17,
+                    419,
+                    106,
+                    439
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 8,
+          "bbox": [
+            16,
+            508,
+            631,
+            560
+          ],
+          "text": "Jeffin Alex No facility referenced-Jeffin Alex\nEffective 01/01/2026 Service on Aug 28, 2025 - Accumulation on Aug 30, 2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Jeffin Alex No facility referenced-Jeffin Alex",
+              "conf": 0.9516960680484772,
+              "bbox": [
+                18,
+                508,
+                519,
+                526
+              ],
+              "words": [
+                {
+                  "text": "Jeffin Alex",
+                  "conf": 0.9443033337593079,
+                  "bbox": [
+                    18,
+                    508,
+                    102,
+                    526
+                  ]
+                },
+                {
+                  "text": "No facility referenced-Jeffin Alex",
+                  "conf": 0.9590888023376465,
+                  "bbox": [
+                    305,
+                    512,
+                    519,
+                    524
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Effective 01/01/2026 Service on Aug 28, 2025 - Accumulation on Aug 30, 2025",
+              "conf": 0.9396583139896393,
+              "bbox": [
+                16,
+                533,
+                631,
+                560
+              ],
+              "words": [
+                {
+                  "text": "Effective 01/01/2026",
+                  "conf": 0.9224804043769836,
+                  "bbox": [
+                    16,
+                    536,
+                    158,
+                    560
+                  ]
+                },
+                {
+                  "text": "Service on Aug 28, 2025 - Accumulation on Aug 30, 2025",
+                  "conf": 0.9568362236022949,
+                  "bbox": [
+                    304,
+                    533,
+                    631,
+                    546
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 9,
+          "bbox": [
+            17,
+            443,
+            219,
+            591
+          ],
+          "text": "Silver Simple PCP Saver CSR 150\n8Individual",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.964279294013977,
+              "bbox": [
+                41,
+                443,
+                219,
+                456
+              ],
+              "words": [
+                {
+                  "text": "Silver Simple PCP Saver CSR 150",
+                  "conf": 0.964279294013977,
+                  "bbox": [
+                    41,
+                    443,
+                    219,
+                    456
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "8Individual",
+              "conf": 0.960349440574646,
+              "bbox": [
+                17,
+                570,
+                98,
+                591
+              ],
+              "words": [
+                {
+                  "text": "8Individual",
+                  "conf": 0.960349440574646,
+                  "bbox": [
+                    17,
+                    570,
+                    98,
+                    591
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            39,
+            460,
+            1254,
+            504
+          ],
+          "text": "FL HMO Standard 2KVC7682 $0.00\nView ID card Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more Paid",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FL HMO Standard 2KVC7682 $0.00",
+              "conf": 0.998099168141683,
+              "bbox": [
+                39,
+                460,
+                1254,
+                479
+              ],
+              "words": [
+                {
+                  "text": "FL HMO Standard",
+                  "conf": 0.9977504014968872,
+                  "bbox": [
+                    39,
+                    461,
+                    142,
+                    477
+                  ]
+                },
+                {
+                  "text": "2KVC7682",
+                  "conf": 0.9970076084136963,
+                  "bbox": [
+                    304,
+                    460,
+                    371,
+                    476
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9995394945144653,
+                  "bbox": [
+                    1214,
+                    461,
+                    1254,
+                    479
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "View ID card Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more Paid",
+              "conf": 0.9709157745043436,
+              "bbox": [
+                40,
+                480,
+                1252,
+                504
+              ],
+              "words": [
+                {
+                  "text": "View ID card",
+                  "conf": 0.9315194487571716,
+                  "bbox": [
+                    40,
+                    480,
+                    114,
+                    496
+                  ]
+                },
+                {
+                  "text": " Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more",
+                  "conf": 0.9931172132492065,
+                  "bbox": [
+                    305,
+                    490,
+                    1095,
+                    503
+                  ]
+                },
+                {
+                  "text": "Paid",
+                  "conf": 0.9881106615066528,
+                  "bbox": [
+                    1221,
+                    486,
+                    1252,
+                    504
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 11,
+          "bbox": [
+            19,
+            605,
+            1254,
+            676
+          ],
+          "text": "$CurrentBalance due F3HHJPAW $142.33\nOscar Unlocks Not activated Medical claim  No description available Memorial Regional Hospital  No provider referenced Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "$CurrentBalance due F3HHJPAW $142.33",
+              "conf": 0.9882797598838806,
+              "bbox": [
+                19,
+                605,
+                1254,
+                631
+              ],
+              "words": [
+                {
+                  "text": "$CurrentBalance due",
+                  "conf": 0.9699602723121643,
+                  "bbox": [
+                    19,
+                    605,
+                    161,
+                    624
+                  ]
+                },
+                {
+                  "text": "F3HHJPAW",
+                  "conf": 0.9969943761825562,
+                  "bbox": [
+                    304,
+                    611,
+                    380,
+                    628
+                  ]
+                },
+                {
+                  "text": "$142.33",
+                  "conf": 0.9978846311569214,
+                  "bbox": [
+                    1202,
+                    614,
+                    1254,
+                    631
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Oscar Unlocks Not activated Medical claim  No description available Memorial Regional Hospital  No provider referenced Pald",
+              "conf": 0.9846968948841095,
+              "bbox": [
+                19,
+                638,
+                1252,
+                676
+              ],
+              "words": [
+                {
+                  "text": "Oscar Unlocks Not activated",
+                  "conf": 0.9829592704772949,
+                  "bbox": [
+                    19,
+                    639,
+                    122,
+                    674
+                  ]
+                },
+                {
+                  "text": "Medical claim  No description available",
+                  "conf": 0.9845860600471497,
+                  "bbox": [
+                    304,
+                    639,
+                    551,
+                    656
+                  ]
+                },
+                {
+                  "text": "Memorial Regional Hospital  No provider referenced",
+                  "conf": 0.9809208512306213,
+                  "bbox": [
+                    304,
+                    659,
+                    621,
+                    676
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9903213977813721,
+                  "bbox": [
+                    1221,
+                    638,
+                    1252,
+                    656
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 12,
+          "bbox": [
+            304,
+            684,
+            622,
+            696
+          ],
+          "text": "Service on Aug 24,2025Accumulation on Sep 3,2025",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Service on Aug 24,2025Accumulation on Sep 3,2025",
+              "conf": 0.9603568911552429,
+              "bbox": [
+                304,
+                684,
+                622,
+                696
+              ],
+              "words": [
+                {
+                  "text": "Service on Aug 24,2025Accumulation on Sep 3,2025",
+                  "conf": 0.9603568911552429,
+                  "bbox": [
+                    304,
+                    684,
+                    622,
+                    696
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 13,
+          "bbox": [
+            16,
+            703,
+            576,
+            761
+          ],
+          "text": "Member tags Applies to OOPM - Cumulative OOPM$147.33\nnextgen_billing_rosco_tag",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member tags Applies to OOPM - Cumulative OOPM$147.33",
+              "conf": 0.9444667398929596,
+              "bbox": [
+                16,
+                703,
+                576,
+                727
+              ],
+              "words": [
+                {
+                  "text": "Member tags",
+                  "conf": 0.9601938128471375,
+                  "bbox": [
+                    16,
+                    706,
+                    96,
+                    727
+                  ]
+                },
+                {
+                  "text": "Applies to OOPM - Cumulative OOPM$147.33",
+                  "conf": 0.9287396669387817,
+                  "bbox": [
+                    301,
+                    703,
+                    576,
+                    726
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "nextgen_billing_rosco_tag",
+              "conf": 0.9542816877365112,
+              "bbox": [
+                22,
+                745,
+                175,
+                761
+              ],
+              "words": [
+                {
+                  "text": "nextgen_billing_rosco_tag",
+                  "conf": 0.9542816877365112,
+                  "bbox": [
+                    22,
+                    745,
+                    175,
+                    761
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            14,
+            17,
+            1580,
+            761
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>Search Rosco</td><td>MR Melissa</td><td>-</td></tr><tr><td>Member info Issues Policy detalls Benefits Claims Billing &amp;payments Rewards</td><td></td><td>Authorizations</td><td></td></tr><tr><td>Yisroel Dubov</td><td></td><td></td><td></td></tr><tr><td>Active</td><td></td><td></td><td></td></tr><tr><td>Heads up note</td><td>Bureau of Public Health Laboratories  No provider referenced</td><td></td><td></td></tr><tr><td>Service on Sep 16, 2025 Accumulation on Mar 12, 2026</td><td></td><td></td><td></td></tr><tr><td>FLBroward</td><td>Memorial Healthcare System  No provider referenced</td><td></td><td></td></tr><tr><td>FLO3FLTeam</td><td>Service on Sep 15,2025 - Did not apply to accumulators</td><td></td><td></td></tr><tr><td>Oscarplan:</td><td></td><td></td><td></td></tr><tr><td>Silver Simple PCP Saver CSR 150</td><td></td><td></td><td></td></tr><tr><td>Effective 01/01/2026</td><td>Service on Aug 28, 2025 - Accumulation on Aug 30, 2025</td><td></td><td></td></tr><tr><td>8Individual</td><td></td><td></td><td></td></tr><tr><td>Memorial Regional Hospital No provider referenced</td><td></td><td></td><td></td></tr><tr><td>Service on Aug 24,2025Accumulation on Sep 3,2025</td><td></td><td></td><td></td></tr><tr><td>Member tags</td><td>Applies to OOPM - Cumulative OOPM$147.33</td><td></td><td></td></tr><tr><td>nextgen_billing_rosco_tag</td><td></td><td></td><td></td></tr></table>",
+          "text": "rosco: Search Rosco\nMR Melissa: -\nMember info Issues Policy detalls Benefits Claims Billing &payments Rewards: \nAuthorizations: \nYisroel Dubov: \nActive: \nHeads up note: Bureau of Public Health Laboratories  No provider referenced\nService on Sep 16, 2025 Accumulation on Mar 12, 2026: \nFLBroward: Memorial Healthcare System  No provider referenced\nFLO3FLTeam: Service on Sep 15,2025 - Did not apply to accumulators\nOscarplan:: \nSilver Simple PCP Saver CSR 150: \nEffective 01/01/2026: Service on Aug 28, 2025 - Accumulation on Aug 30, 2025\n8Individual: \nMemorial Regional Hospital No provider referenced: \nService on Aug 24,2025Accumulation on Sep 3,2025: \nMember tags: Applies to OOPM - Cumulative OOPM$147.33\nnextgen_billing_rosco_tag: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "Search Rosco",
+              "MR Melissa",
+              "-"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing &payments Rewards",
+              "",
+              "Authorizations",
+              ""
+            ],
+            [
+              "Yisroel Dubov",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Active",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Heads up note",
+              "Bureau of Public Health Laboratories  No provider referenced",
+              "",
+              ""
+            ],
+            [
+              "Service on Sep 16, 2025 Accumulation on Mar 12, 2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "FLBroward",
+              "Memorial Healthcare System  No provider referenced",
+              "",
+              ""
+            ],
+            [
+              "FLO3FLTeam",
+              "Service on Sep 15,2025 - Did not apply to accumulators",
+              "",
+              ""
+            ],
+            [
+              "Oscarplan:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Effective 01/01/2026",
+              "Service on Aug 28, 2025 - Accumulation on Aug 30, 2025",
+              "",
+              ""
+            ],
+            [
+              "8Individual",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Memorial Regional Hospital No provider referenced",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Service on Aug 24,2025Accumulation on Sep 3,2025",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Member tags",
+              "Applies to OOPM - Cumulative OOPM$147.33",
+              "",
+              ""
+            ],
+            [
+              "nextgen_billing_rosco_tag",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco Search Rosco",
+              "MR Melissa -"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing &payments Rewards",
+              "Authorizations"
+            ],
+            [
+              "Yisroel Dubov",
+              ""
+            ],
+            [
+              "Active",
+              ""
+            ],
+            [
+              "Heads up note Bureau of Public Health Laboratories  No provider referenced",
+              ""
+            ],
+            [
+              "Service on Sep 16, 2025 Accumulation on Mar 12, 2026",
+              ""
+            ],
+            [
+              "FLBroward Memorial Healthcare System  No provider referenced",
+              ""
+            ],
+            [
+              "FLO3FLTeam Service on Sep 15,2025 - Did not apply to accumulators",
+              ""
+            ],
+            [
+              "Oscarplan:",
+              ""
+            ],
+            [
+              "Silver Simple PCP Saver CSR 150",
+              ""
+            ],
+            [
+              "Effective 01/01/2026 Service on Aug 28, 2025 - Accumulation on Aug 30, 2025",
+              ""
+            ],
+            [
+              "8Individual",
+              ""
+            ],
+            [
+              "Memorial Regional Hospital  No provider referenced",
+              ""
+            ],
+            [
+              "Service on Aug 24,2025Accumulation on Sep 3,2025",
+              ""
+            ],
+            [
+              "Member tags Applies to OOPM - Cumulative OOPM$147.33",
+              ""
+            ],
+            [
+              "nextgen_billing_rosco_tag",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            18,
+            140,
+            1254,
+            201
+          ],
+          "html": "<table><tr><th>OSC78747909-01R213XB6D Holder - ON exc</th><th>4PYQV4FN</th><th>$124.23</th></tr><tr><td></td><td>Medical claim  Chemical analysis for genetic disorder</td><td>Denled</td></tr></table>",
+          "text": " | Medical claim  Chemical analysis for genetic disorder | Denled",
+          "headers": [
+            "OSC78747909-01R213XB6D Holder - ON exc",
+            "4PYQV4FN",
+            "$124.23"
+          ],
+          "rows": [
+            [
+              "",
+              "Medical claim  Chemical analysis for genetic disorder",
+              "Denled"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            71,
+            306,
+            1254,
+            354
+          ],
+          "html": "<table><tr><th>Member actlons</th><th>3X6ZH7Z9</th><th>$0.00</th></tr><tr><td></td><td>#Medical claim - No description available</td><td>Processing</td></tr></table>",
+          "text": " | #Medical claim - No description available | Processing",
+          "headers": [
+            "Member actlons",
+            "3X6ZH7Z9",
+            "$0.00"
+          ],
+          "rows": [
+            [
+              "",
+              "#Medical claim - No description available",
+              "Processing"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            18,
+            460,
+            1254,
+            526
+          ],
+          "html": "<table><tr><th>FL HMO Standard</th><th>2KVC7682</th><th>$0.00</th></tr><tr><td>View ID card</td><td>Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more</td><td>Paid</td></tr><tr><td>Jeffin Alex</td><td>No facility referenced-Jeffin Alex</td><td></td></tr></table>",
+          "text": "View ID card | Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more | Paid\nJeffin Alex | No facility referenced-Jeffin Alex | ",
+          "headers": [
+            "FL HMO Standard",
+            "2KVC7682",
+            "$0.00"
+          ],
+          "rows": [
+            [
+              "View ID card",
+              "Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more",
+              "Paid"
+            ],
+            [
+              "Jeffin Alex",
+              "No facility referenced-Jeffin Alex",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            19,
+            605,
+            1254,
+            674
+          ],
+          "html": "<table><tr><th>$CurrentBalance due</th><th>F3HHJPAW</th><th>$142.33</th></tr><tr><td>Oscar Unlocks Not activated</td><td>Medical claim  No description available</td><td>Pald</td></tr></table>",
+          "text": "Oscar Unlocks Not activated | Medical claim  No description available | Pald",
+          "headers": [
+            "$CurrentBalance due",
+            "F3HHJPAW",
+            "$142.33"
+          ],
+          "rows": [
+            [
+              "Oscar Unlocks Not activated",
+              "Medical claim  No description available",
+              "Pald"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Search Rosco MR Melissa -",
+          "conf": 0.9157106876373291,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9885711669921875,
+              "bbox": [
+                14,
+                17,
+                72,
+                34
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.9937952160835266,
+              "bbox": [
+                138,
+                18,
+                230,
+                34
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9651035070419312,
+              "bbox": [
+                1465,
+                18,
+                1550,
+                34
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7153728604316711,
+              "bbox": [
+                1565,
+                23,
+                1580,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Yisroel Dubov Member info Issues Policy detalls Benefits Claims Billing &payments Rewards Authorizations",
+          "conf": 0.9850772619247437,
+          "bbox": [
+            19,
+            71,
+            919,
+            102
+          ],
+          "words": [
+            {
+              "text": "Yisroel Dubov",
+              "conf": 0.9788157939910889,
+              "bbox": [
+                19,
+                81,
+                152,
+                102
+              ]
+            },
+            {
+              "text": "Member info",
+              "conf": 0.9979149103164673,
+              "bbox": [
+                276,
+                73,
+                351,
+                89
+              ]
+            },
+            {
+              "text": "Issues",
+              "conf": 0.99818354845047,
+              "bbox": [
+                366,
+                74,
+                406,
+                88
+              ]
+            },
+            {
+              "text": "Policy detalls",
+              "conf": 0.9349687695503235,
+              "bbox": [
+                420,
+                71,
+                500,
+                89
+              ]
+            },
+            {
+              "text": "Benefits",
+              "conf": 0.99494469165802,
+              "bbox": [
+                515,
+                74,
+                568,
+                89
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9910710453987122,
+              "bbox": [
+                584,
+                74,
+                625,
+                88
+              ]
+            },
+            {
+              "text": "Billing &payments",
+              "conf": 0.9713188409805298,
+              "bbox": [
+                640,
+                71,
+                749,
+                89
+              ]
+            },
+            {
+              "text": "Rewards",
+              "conf": 0.9995003938674927,
+              "bbox": [
+                764,
+                75,
+                816,
+                88
+              ]
+            },
+            {
+              "text": "Authorizations",
+              "conf": 0.9989773631095886,
+              "bbox": [
+                834,
+                75,
+                919,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Active",
+          "conf": 0.9863805174827576,
+          "bbox": [
+            22,
+            115,
+            64,
+            132
+          ],
+          "words": [
+            {
+              "text": "Active",
+              "conf": 0.9863805174827576,
+              "bbox": [
+                22,
+                115,
+                64,
+                132
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OSC78747909-01R213XB6D Holder - ON exc 4PYQV4FN $124.23",
+          "conf": 0.9848907689253489,
+          "bbox": [
+            18,
+            140,
+            1254,
+            176
+          ],
+          "words": [
+            {
+              "text": "OSC78747909-01R213XB6D Holder - ON exc",
+              "conf": 0.9599786698818207,
+              "bbox": [
+                18,
+                140,
+                182,
+                176
+              ]
+            },
+            {
+              "text": "4PYQV4FN",
+              "conf": 0.9989160299301147,
+              "bbox": [
+                304,
+                155,
+                376,
+                172
+              ]
+            },
+            {
+              "text": "$124.23",
+              "conf": 0.9957776069641113,
+              "bbox": [
+                1202,
+                158,
+                1254,
+                176
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medical claim  Chemical analysis for genetic disorder Denled",
+          "conf": 0.9644153714179993,
+          "bbox": [
+            304,
+            185,
+            1251,
+            201
+          ],
+          "words": [
+            {
+              "text": "Medical claim  Chemical analysis for genetic disorder",
+              "conf": 0.9825335144996643,
+              "bbox": [
+                304,
+                185,
+                628,
+                201
+              ]
+            },
+            {
+              "text": "Denled",
+              "conf": 0.9462972283363342,
+              "bbox": [
+                1208,
+                185,
+                1251,
+                199
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Heads up note Bureau of Public Health Laboratories  No provider referenced",
+          "conf": 0.9874805212020874,
+          "bbox": [
+            30,
+            206,
+            671,
+            228
+          ],
+          "words": [
+            {
+              "text": "Heads up note",
+              "conf": 0.9967240691184998,
+              "bbox": [
+                30,
+                211,
+                115,
+                228
+              ]
+            },
+            {
+              "text": "Bureau of Public Health Laboratories  No provider referenced",
+              "conf": 0.978236973285675,
+              "bbox": [
+                321,
+                206,
+                671,
+                223
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service on Sep 16, 2025 Accumulation on Mar 12, 2026",
+          "conf": 0.9654826521873474,
+          "bbox": [
+            304,
+            229,
+            625,
+            242
+          ],
+          "words": [
+            {
+              "text": "Service on Sep 16, 2025 Accumulation on Mar 12, 2026",
+              "conf": 0.9654826521873474,
+              "bbox": [
+                304,
+                229,
+                625,
+                242
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member actlons 3X6ZH7Z9 $0.00",
+          "conf": 0.9816488226254781,
+          "bbox": [
+            71,
+            306,
+            1254,
+            329
+          ],
+          "words": [
+            {
+              "text": "Member actlons",
+              "conf": 0.9468560814857483,
+              "bbox": [
+                71,
+                307,
+                162,
+                320
+              ]
+            },
+            {
+              "text": "3X6ZH7Z9",
+              "conf": 0.9990596771240234,
+              "bbox": [
+                302,
+                308,
+                374,
+                325
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9990307092666626,
+              "bbox": [
+                1213,
+                306,
+                1254,
+                329
+              ]
+            }
+          ]
+        },
+        {
+          "text": "#Medical claim - No description available Processing",
+          "conf": 0.9449103772640228,
+          "bbox": [
+            304,
+            333,
+            1252,
+            354
+          ],
+          "words": [
+            {
+              "text": "#Medical claim - No description available",
+              "conf": 0.9413822293281555,
+              "bbox": [
+                304,
+                335,
+                551,
+                351
+              ]
+            },
+            {
+              "text": "Processing",
+              "conf": 0.9484385251998901,
+              "bbox": [
+                1182,
+                333,
+                1252,
+                354
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLBroward Memorial Healthcare System  No provider referenced",
+          "conf": 0.9833277761936188,
+          "bbox": [
+            17,
+            351,
+            629,
+            373
+          ],
+          "words": [
+            {
+              "text": "FLBroward",
+              "conf": 0.9760915040969849,
+              "bbox": [
+                17,
+                351,
+                113,
+                373
+              ]
+            },
+            {
+              "text": "Memorial Healthcare System  No provider referenced",
+              "conf": 0.9905640482902527,
+              "bbox": [
+                305,
+                360,
+                629,
+                373
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLO3FLTeam Service on Sep 15,2025 - Did not apply to accumulators",
+          "conf": 0.9581881463527679,
+          "bbox": [
+            16,
+            382,
+            628,
+            406
+          ],
+          "words": [
+            {
+              "text": "FLO3FLTeam",
+              "conf": 0.9635049104690552,
+              "bbox": [
+                16,
+                384,
+                125,
+                406
+              ]
+            },
+            {
+              "text": "Service on Sep 15,2025 - Did not apply to accumulators",
+              "conf": 0.9528713822364807,
+              "bbox": [
+                304,
+                382,
+                628,
+                395
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscarplan:",
+          "conf": 0.9751992225646973,
+          "bbox": [
+            17,
+            419,
+            106,
+            439
+          ],
+          "words": [
+            {
+              "text": "Oscarplan:",
+              "conf": 0.9751992225646973,
+              "bbox": [
+                17,
+                419,
+                106,
+                439
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jeffin Alex No facility referenced-Jeffin Alex",
+          "conf": 0.9516960680484772,
+          "bbox": [
+            18,
+            508,
+            519,
+            526
+          ],
+          "words": [
+            {
+              "text": "Jeffin Alex",
+              "conf": 0.9443033337593079,
+              "bbox": [
+                18,
+                508,
+                102,
+                526
+              ]
+            },
+            {
+              "text": "No facility referenced-Jeffin Alex",
+              "conf": 0.9590888023376465,
+              "bbox": [
+                305,
+                512,
+                519,
+                524
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Effective 01/01/2026 Service on Aug 28, 2025 - Accumulation on Aug 30, 2025",
+          "conf": 0.9396583139896393,
+          "bbox": [
+            16,
+            533,
+            631,
+            560
+          ],
+          "words": [
+            {
+              "text": "Effective 01/01/2026",
+              "conf": 0.9224804043769836,
+              "bbox": [
+                16,
+                536,
+                158,
+                560
+              ]
+            },
+            {
+              "text": "Service on Aug 28, 2025 - Accumulation on Aug 30, 2025",
+              "conf": 0.9568362236022949,
+              "bbox": [
+                304,
+                533,
+                631,
+                546
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Silver Simple PCP Saver CSR 150",
+          "conf": 0.964279294013977,
+          "bbox": [
+            41,
+            443,
+            219,
+            456
+          ],
+          "words": [
+            {
+              "text": "Silver Simple PCP Saver CSR 150",
+              "conf": 0.964279294013977,
+              "bbox": [
+                41,
+                443,
+                219,
+                456
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8Individual",
+          "conf": 0.960349440574646,
+          "bbox": [
+            17,
+            570,
+            98,
+            591
+          ],
+          "words": [
+            {
+              "text": "8Individual",
+              "conf": 0.960349440574646,
+              "bbox": [
+                17,
+                570,
+                98,
+                591
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FL HMO Standard 2KVC7682 $0.00",
+          "conf": 0.998099168141683,
+          "bbox": [
+            39,
+            460,
+            1254,
+            479
+          ],
+          "words": [
+            {
+              "text": "FL HMO Standard",
+              "conf": 0.9977504014968872,
+              "bbox": [
+                39,
+                461,
+                142,
+                477
+              ]
+            },
+            {
+              "text": "2KVC7682",
+              "conf": 0.9970076084136963,
+              "bbox": [
+                304,
+                460,
+                371,
+                476
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9995394945144653,
+              "bbox": [
+                1214,
+                461,
+                1254,
+                479
+              ]
+            }
+          ]
+        },
+        {
+          "text": "View ID card Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more Paid",
+          "conf": 0.9709157745043436,
+          "bbox": [
+            40,
+            480,
+            1252,
+            504
+          ],
+          "words": [
+            {
+              "text": "View ID card",
+              "conf": 0.9315194487571716,
+              "bbox": [
+                40,
+                480,
+                114,
+                496
+              ]
+            },
+            {
+              "text": " Medical claim  Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes or more",
+              "conf": 0.9931172132492065,
+              "bbox": [
+                305,
+                490,
+                1095,
+                503
+              ]
+            },
+            {
+              "text": "Paid",
+              "conf": 0.9881106615066528,
+              "bbox": [
+                1221,
+                486,
+                1252,
+                504
+              ]
+            }
+          ]
+        },
+        {
+          "text": "$CurrentBalance due F3HHJPAW $142.33",
+          "conf": 0.9882797598838806,
+          "bbox": [
+            19,
+            605,
+            1254,
+            631
+          ],
+          "words": [
+            {
+              "text": "$CurrentBalance due",
+              "conf": 0.9699602723121643,
+              "bbox": [
+                19,
+                605,
+                161,
+                624
+              ]
+            },
+            {
+              "text": "F3HHJPAW",
+              "conf": 0.9969943761825562,
+              "bbox": [
+                304,
+                611,
+                380,
+                628
+              ]
+            },
+            {
+              "text": "$142.33",
+              "conf": 0.9978846311569214,
+              "bbox": [
+                1202,
+                614,
+                1254,
+                631
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar Unlocks Not activated Medical claim  No description available Memorial Regional Hospital  No provider referenced Pald",
+          "conf": 0.9846968948841095,
+          "bbox": [
+            19,
+            638,
+            1252,
+            676
+          ],
+          "words": [
+            {
+              "text": "Oscar Unlocks Not activated",
+              "conf": 0.9829592704772949,
+              "bbox": [
+                19,
+                639,
+                122,
+                674
+              ]
+            },
+            {
+              "text": "Medical claim  No description available",
+              "conf": 0.9845860600471497,
+              "bbox": [
+                304,
+                639,
+                551,
+                656
+              ]
+            },
+            {
+              "text": "Memorial Regional Hospital  No provider referenced",
+              "conf": 0.9809208512306213,
+              "bbox": [
+                304,
+                659,
+                621,
+                676
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9903213977813721,
+              "bbox": [
+                1221,
+                638,
+                1252,
+                656
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service on Aug 24,2025Accumulation on Sep 3,2025",
+          "conf": 0.9603568911552429,
+          "bbox": [
+            304,
+            684,
+            622,
+            696
+          ],
+          "words": [
+            {
+              "text": "Service on Aug 24,2025Accumulation on Sep 3,2025",
+              "conf": 0.9603568911552429,
+              "bbox": [
+                304,
+                684,
+                622,
+                696
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member tags Applies to OOPM - Cumulative OOPM$147.33",
+          "conf": 0.9444667398929596,
+          "bbox": [
+            16,
+            703,
+            576,
+            727
+          ],
+          "words": [
+            {
+              "text": "Member tags",
+              "conf": 0.9601938128471375,
+              "bbox": [
+                16,
+                706,
+                96,
+                727
+              ]
+            },
+            {
+              "text": "Applies to OOPM - Cumulative OOPM$147.33",
+              "conf": 0.9287396669387817,
+              "bbox": [
+                301,
+                703,
+                576,
+                726
+              ]
+            }
+          ]
+        },
+        {
+          "text": "nextgen_billing_rosco_tag",
+          "conf": 0.9542816877365112,
+          "bbox": [
+            22,
+            745,
+            175,
+            761
+          ],
+          "words": [
+            {
+              "text": "nextgen_billing_rosco_tag",
+              "conf": 0.9542816877365112,
+              "bbox": [
+                22,
+                745,
+                175,
+                761
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

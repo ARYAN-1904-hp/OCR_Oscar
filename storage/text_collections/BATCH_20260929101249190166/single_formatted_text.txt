@@ -1,0 +1,182 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1500x790 | blocks=7 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x5
+HEADER | Clann Fgi | F100 p92 | Meinber Fgs | agnosis Pg4 | hscelaneods Fgs
+ROW 1 | Processor: David Kim | - | Last edit: 11/17/2025 09:12 | Processor ID: | PROC002 Decision SLA: 2 days
+  CELL[1,0] = Processor: David Kim
+  CELL[1,2] = Last edit: 11/17/2025 09:12
+  CELL[1,3] = Processor ID:
+  CELL[1,4] = PROC002 Decision SLA: 2 days
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 10x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Provider NPI | 1098240233 Provider Name: | OKONKWOMD, ADAEZE | -
+  CELL[1,0] = Provider NPI
+  CELL[1,1] = 1098240233 Provider Name:
+  CELL[1,2] = OKONKWOMD, ADAEZE
+ROW 2 | Tax ID | 885344573 Specialty Code: | 207V | OBSTETRICS
+  CELL[2,0] = Tax ID
+  CELL[2,1] = 885344573 Specialty Code:
+  CELL[2,2] = 207V
+  CELL[2,3] = OBSTETRICS
+ROW 3 | - | - | &GYNECOLOGY | -
+  CELL[3,2] = &GYNECOLOGY
+ROW 4 | Service Address | 457 Pine St, Sacramento, CA | - | -
+  CELL[4,0] = Service Address
+  CELL[4,1] = 457 Pine St, Sacramento, CA
+ROW 5 | Billing Address | 457 Pine St, Sacramento, CA | - | -
+  CELL[5,0] = Billing Address
+  CELL[5,1] = 457 Pine St, Sacramento, CA
+ROW 6 | Phone | (555) 827-4188 Fax: (555) 593-7414 | - | -
+  CELL[6,0] = Phone
+  CELL[6,1] = (555) 827-4188 Fax: (555) 593-7414
+ROW 7 | Contract Type | EPO-NETWORK Network Tier: | 3 STANDARD | -
+  CELL[7,0] = Contract Type
+  CELL[7,1] = EPO-NETWORK Network Tier:
+  CELL[7,2] = 3 STANDARD
+ROW 8 | Referring Provider | SELF REFERRED | - | -
+  CELL[8,0] = Referring Provider
+  CELL[8,1] = SELF REFERRED
+ROW 9 | Provider Status | ACTIVE | Effective Date | 01/01/2023 Term Date:
+  CELL[9,0] = Provider Status
+  CELL[9,1] = ACTIVE
+  CELL[9,2] = Effective Date
+  CELL[9,3] = 01/01/2023 Term Date:
+[/TABLE 0]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[68,0,1250,89] | order=0
+  Clann Fgi F100 p92 Meinber Fgs agnosis Pg4 hscelaneods Fgs
+  Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days
+BLOCK 1 | type=table_row | bbox=[70,168,382,192] | order=1
+  Provider information
+BLOCK 2 | type=table | bbox=[61,230,1413,357] | order=2
+  Provider NPI: 1098240233 Provider Name: OKONKWOMD, ADAEZE
+  Tax ID: 885344573 Specialty Code: 207V OBSTETRICS & GYNECOLOGY
+BLOCK 3 | type=table_row | bbox=[63,387,899,524] | order=3
+  Service Address: 457 Pine St, Sacramento, CA
+  Billing Address: 457 Pine St, Sacramento, CA
+  Phone: (555) 827-4188 Fax: (555) 593-7414
+BLOCK 4 | type=table | bbox=[64,553,1449,604] | order=4
+  Contract Type: EPO-NETWORK Network Tier: 3 STANDARD
+BLOCK 5 | type=table_row | bbox=[64,623,442,675] | order=5
+  Referring Provider: SELF REFERRED
+BLOCK 6 | type=table | bbox=[64,691,1480,745] | order=6
+  Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[61,168,1480,745] | shape=10x4 | conf=0.920
+  shape: 10x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Provider NPI | 1098240233 Provider Name: | OKONKWOMD, ADAEZE | -
+    CELL[1,0] = Provider NPI
+    CELL[1,1] = 1098240233 Provider Name:
+    CELL[1,2] = OKONKWOMD, ADAEZE
+  ROW 2 | Tax ID | 885344573 Specialty Code: | 207V | OBSTETRICS
+    CELL[2,0] = Tax ID
+    CELL[2,1] = 885344573 Specialty Code:
+    CELL[2,2] = 207V
+    CELL[2,3] = OBSTETRICS
+  ROW 3 | - | - | &GYNECOLOGY | -
+    CELL[3,2] = &GYNECOLOGY
+  ROW 4 | Service Address | 457 Pine St, Sacramento, CA | - | -
+    CELL[4,0] = Service Address
+    CELL[4,1] = 457 Pine St, Sacramento, CA
+  ROW 5 | Billing Address | 457 Pine St, Sacramento, CA | - | -
+    CELL[5,0] = Billing Address
+    CELL[5,1] = 457 Pine St, Sacramento, CA
+  ROW 6 | Phone | (555) 827-4188 Fax: (555) 593-7414 | - | -
+    CELL[6,0] = Phone
+    CELL[6,1] = (555) 827-4188 Fax: (555) 593-7414
+  ROW 7 | Contract Type | EPO-NETWORK Network Tier: | 3 STANDARD | -
+    CELL[7,0] = Contract Type
+    CELL[7,1] = EPO-NETWORK Network Tier:
+    CELL[7,2] = 3 STANDARD
+  ROW 8 | Referring Provider | SELF REFERRED | - | -
+    CELL[8,0] = Referring Provider
+    CELL[8,1] = SELF REFERRED
+  ROW 9 | Provider Status | ACTIVE | Effective Date | 01/01/2023 Term Date:
+    CELL[9,0] = Provider Status
+    CELL[9,1] = ACTIVE
+    CELL[9,2] = Effective Date
+    CELL[9,3] = 01/01/2023 Term Date:
+TABLE 1 | source=wide_grid | bbox=[68,0,1250,89] | shape=2x5 | conf=0.850
+  shape: 2x5
+  HEADER | Clann Fgi | F100 p92 | Meinber Fgs | agnosis Pg4 | hscelaneods Fgs
+  ROW 1 | Processor: David Kim | - | Last edit: 11/17/2025 09:12 | Processor ID: | PROC002 Decision SLA: 2 days
+    CELL[1,0] = Processor: David Kim
+    CELL[1,2] = Last edit: 11/17/2025 09:12
+    CELL[1,3] = Processor ID:
+    CELL[1,4] = PROC002 Decision SLA: 2 days
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[85,0,1111,18] | conf=0.678 | text=Clann Fgi F100 p92 Meinber Fgs agnosis Pg4 hscelaneods Fgs
+  WORD | bbox=[85,0,189,15] | text=Clann Fgi
+  WORD | bbox=[267,0,382,18] | text=F100 p92
+  WORD | bbox=[451,0,584,14] | text=Meinber Fgs
+  WORD | bbox=[690,0,821,14] | text=agnosis Pg4
+  WORD | bbox=[920,0,1111,14] | text=hscelaneods Fgs
+LINE 1 | bbox=[68,63,1250,89] | conf=0.956 | text=Processor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days
+  WORD | bbox=[68,66,302,86] | text=Processor: David Kim
+  WORD | bbox=[388,67,695,86] | text=Last edit: 11/17/2025 09:12
+  WORD | bbox=[723,67,859,86] | text=Processor ID:
+  WORD | bbox=[873,68,977,85] | text=PROC002
+  WORD | bbox=[1024,63,1250,89] | text=Decision SLA: 2 days
+LINE 2 | bbox=[70,168,382,192] | conf=0.958 | text=Provider information
+LINE 3 | bbox=[64,230,1173,281] | conf=0.974 | text=Provider NPI: 1098240233 Provider Name: OKONKWOMD, ADAEZE
+  WORD | bbox=[64,230,154,281] | text=Provider NPI:
+  WORD | bbox=[214,246,355,269] | text=1098240233
+  WORD | bbox=[704,243,865,268] | text=Provider Name:
+  WORD | bbox=[914,247,1173,267] | text=OKONKWOMD, ADAEZE
+LINE 4 | bbox=[61,303,1413,357] | conf=0.988 | text=Tax ID: 885344573 Specialty Code: 207V OBSTETRICS & GYNECOLOGY
+  WORD | bbox=[61,305,105,357] | text=Tax ID:
+  WORD | bbox=[156,321,281,341] | text=885344573
+  WORD | bbox=[627,303,724,356] | text=Specialty Code:
+  WORD | bbox=[793,319,857,344] | text=207V
+  WORD | bbox=[1252,307,1379,327] | text=OBSTETRICS
+  WORD | bbox=[1253,334,1413,354] | text=&GYNECOLOGY
+LINE 5 | bbox=[67,387,596,415] | conf=0.958 | text=Service Address: 457 Pine St, Sacramento, CA
+  WORD | bbox=[67,387,237,413] | text=Service Address:
+  WORD | bbox=[284,395,596,415] | text=457 Pine St, Sacramento, CA
+LINE 6 | bbox=[67,438,596,466] | conf=0.944 | text=Billing Address: 457 Pine St, Sacramento, CA
+  WORD | bbox=[67,438,223,462] | text=Billing Address:
+  WORD | bbox=[284,447,596,466] | text=457 Pine St, Sacramento, CA
+LINE 7 | bbox=[63,493,899,524] | conf=0.984 | text=Phone: (555) 827-4188 Fax: (555) 593-7414
+  WORD | bbox=[63,493,139,522] | text=Phone:
+  WORD | bbox=[182,501,353,524] | text=(555) 827-4188
+  WORD | bbox=[653,495,700,521] | text=Fax:
+  WORD | bbox=[728,500,899,523] | text=(555) 593-7414
+LINE 8 | bbox=[64,553,1449,604] | conf=0.994 | text=Contract Type: EPO-NETWORK Network Tier: 3 STANDARD
+  WORD | bbox=[64,553,157,604] | text=Contract Type:
+  WORD | bbox=[223,563,390,589] | text=EPO-NETWORK
+  WORD | bbox=[726,553,818,604] | text=Network Tier:
+  WORD | bbox=[873,570,884,584] | text=3
+  WORD | bbox=[1325,563,1449,589] | text=STANDARD
+LINE 9 | bbox=[64,623,442,675] | conf=0.953 | text=Referring Provider: SELF REFERRED
+  WORD | bbox=[64,623,160,675] | text=Referring Provider:
+  WORD | bbox=[266,641,442,661] | text=SELF REFERRED
+LINE 10 | bbox=[64,691,1480,745] | conf=0.986 | text=Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:
+  WORD | bbox=[64,691,154,743] | text=Provider Status:
+  WORD | bbox=[238,705,320,730] | text=ACTIVE
+  WORD | bbox=[760,691,855,745] | text=Effective Date:
+  WORD | bbox=[928,707,1058,730] | text=01/01/2023
+  WORD | bbox=[1416,691,1480,745] | text=Term Date:
+[/BOXES]
+
+[FIELDS]
+Phone: (555) 827-4188
+Phone: (555) 593-7414
+NPI: 1098240233
+[/FIELDS]

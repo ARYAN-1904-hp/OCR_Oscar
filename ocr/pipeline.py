@@ -153,7 +153,11 @@ def get_paddle() -> Any:
         # value that still detected the isolated single character without
         # reproducing that word-clipping regression on the same page.
         det_limit_side_len=1280,
-        rec_batch_num=16,
+        # Crops in a recognition batch are padded to the widest one, so one
+        # long screenshot row (60:1) made every batch of 16 pay for it: 59s
+        # vs 19s at 6 (PaddleOCR's default) on the same page. OCR_REC_BATCH
+        # overrides.
+        rec_batch_num=int(os.environ.get("OCR_REC_BATCH", "6")),
         use_gpu=False,
         enable_mkldnn=False,
     )

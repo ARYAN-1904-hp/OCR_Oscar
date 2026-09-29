@@ -174,9 +174,6 @@
             <button type="button" class="btn-ghost" id="download-html-btn" disabled>
               Download Layout HTML
             </button>
-            <button type="button" class="btn-ghost" id="download-excel-btn" disabled>
-              Download Excel
-            </button>
           </div>
         </div>
         <p class="storage-hint" id="storage-hint" hidden></p>
@@ -203,17 +200,6 @@
             data-tab="json"
           >
             JSON Output
-          </button>
-          <button
-            type="button"
-            class="tab"
-            role="tab"
-            id="tab-fields"
-            aria-controls="panel-fields"
-            aria-selected="false"
-            data-tab="fields"
-          >
-            Extracted Fields
           </button>
         </div>
 
@@ -243,17 +229,6 @@
           >
             <pre class="results-text" id="results-json"></pre>
           </div>
-
-          <div
-            class="tab-panel"
-            id="panel-fields"
-            role="tabpanel"
-            aria-labelledby="tab-fields"
-            data-panel="fields"
-            hidden
-          >
-            <div class="fields-view" id="results-fields"></div>
-          </div>
         </div>
       </section>
     </main>
@@ -264,6 +239,6 @@
   </div>
 
   <script>window.OCR_API_BASE = "http://127.0.0.1:8000";</script>
-  <script src="script.js?v=7"></script>
+  <script src="script.js?v=8"></script>
 </body>
 </html>

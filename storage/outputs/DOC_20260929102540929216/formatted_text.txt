@@ -1,0 +1,196 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=11 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 14x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims MR appian | -
+  CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+  CELL[1,2] = Claims MR appian
+ROW 2 | Holds | My Daily Queue Assignments | Primary Queue | Newborn Holds (7M 30S benchmark)
+  CELL[2,0] = Holds
+  CELL[2,1] = My Daily Queue Assignments
+  CELL[2,2] = Primary Queue
+  CELL[2,3] = Newborn Holds (7M 30S benchmark)
+ROW 3 | - | - | Secondary Queue | N/A
+  CELL[3,2] = Secondary Queue
+  CELL[3,3] = N/A
+ROW 4 | Welcome Melissa Rippon, | - | - | -
+  CELL[4,0] = Welcome Melissa Rippon,
+ROW 5 | My Daily Stats | - | - | -
+  CELL[5,0] = My Daily Stats
+ROW 6 | All of your assigned tickets are closed or waiting on others. | - | - | -
+  CELL[6,0] = All of your assigned tickets are closed or waiting on others.
+ROW 7 | Click "Start" to open your next ticket. | Time Worked on Tickets | Output | -
+  CELL[7,0] = Click "Start" to open your next ticket.
+  CELL[7,1] = Time Worked on Tickets
+  CELL[7,2] = Output
+ROW 8 | My Tickets Inventory Reports Notifications | - | - | -
+  CELL[8,0] = My Tickets Inventory Reports Notifications
+ROW 9 | Open Tickets In-progress or paused | Escalated Tickets Require further attention | - | -
+  CELL[9,0] = Open Tickets In-progress or paused
+  CELL[9,1] = Escalated Tickets Require further attention
+ROW 10 | My Open Tickets | - | - | -
+  CELL[10,0] = My Open Tickets
+ROW 11 | Q Search Requests | SEARCH | T | -
+  CELL[11,0] = Q Search Requests
+  CELL[11,1] = SEARCH
+  CELL[11,2] = T
+ROW 12 | Parent ID Ticket ID Claim ID | - | Sk IlI Status Due Action | -
+  CELL[12,0] = Parent ID Ticket ID Claim ID
+  CELL[12,2] = Sk IlI Status Due Action
+ROW 13 | No items available | - | - | -
+  CELL[13,0] = No items available
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x7
+HEADER | START NEXT TICKET | 6H 37M 57S | 0 | 70 | 1 | 71 Total Closed | 0
+ROW 1 | - | - | Escalated | Resolved | Withdrawn | - | High $ Prod Review
+  CELL[1,2] = Escalated
+  CELL[1,3] = Resolved
+  CELL[1,4] = Withdrawn
+  CELL[1,6] = High $ Prod Review
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[43,11,1579,39] | order=0
+  Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims MR appian
+BLOCK 1 | type=header | bbox=[18,74,1355,98] | order=1
+  Holds My Daily Queue Assignments Primary Queue: Newborn Holds (7M 30S benchmark)
+BLOCK 2 | type=table_row | bbox=[1061,104,1191,121] | order=2
+  Secondary Queue: N/A
+BLOCK 3 | type=table_row | bbox=[39,135,283,159] | order=3
+  Welcome Melissa Rippon,
+BLOCK 4 | type=table_row | bbox=[560,163,660,181] | order=4
+  My Daily Stats
+BLOCK 5 | type=table_row | bbox=[40,185,360,197] | order=5
+  All of your assigned tickets are closed or waiting on others.
+BLOCK 6 | type=table | bbox=[38,201,1509,345] | order=6
+  Click "Start" to open your next ticket. Time Worked on Tickets Output
+  START NEXT TICKET 6H 37M 57S 0 70 1 71 Total Closed 0
+  Escalated Resolved Withdrawn High $ Prod Review
+  My Tickets Inventory Reports Notifications
+BLOCK 7 | type=table_row | bbox=[67,384,418,419] | order=7
+  Open Tickets In-progress or paused Escalated Tickets Require further attention
+BLOCK 8 | type=table_row | bbox=[39,461,154,477] | order=8
+  My Open Tickets
+BLOCK 9 | type=table | bbox=[42,494,1512,553] | order=9
+  Q Search Requests SEARCH T
+  Parent ID Ticket ID Claim ID Sk IlI Status Due Action
+BLOCK 10 | type=table | bbox=[741,580,845,597] | order=10
+  No items available
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[18,11,1579,597] | shape=14x4 | conf=0.920
+  shape: 14x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | Claims HOME INVENTORY CREATE TICKET UNARCHIVE | - | Claims MR appian | -
+    CELL[1,0] = Claims HOME INVENTORY CREATE TICKET UNARCHIVE
+    CELL[1,2] = Claims MR appian
+  ROW 2 | Holds | My Daily Queue Assignments | Primary Queue | Newborn Holds (7M 30S benchmark)
+    CELL[2,0] = Holds
+    CELL[2,1] = My Daily Queue Assignments
+    CELL[2,2] = Primary Queue
+    CELL[2,3] = Newborn Holds (7M 30S benchmark)
+  ROW 3 | - | - | Secondary Queue | N/A
+    CELL[3,2] = Secondary Queue
+    CELL[3,3] = N/A
+  ROW 4 | Welcome Melissa Rippon, | - | - | -
+    CELL[4,0] = Welcome Melissa Rippon,
+  ROW 5 | My Daily Stats | - | - | -
+    CELL[5,0] = My Daily Stats
+  ROW 6 | All of your assigned tickets are closed or waiting on others. | - | - | -
+    CELL[6,0] = All of your assigned tickets are closed or waiting on others.
+  ROW 7 | Click "Start" to open your next ticket. | Time Worked on Tickets | Output | -
+    CELL[7,0] = Click "Start" to open your next ticket.
+    CELL[7,1] = Time Worked on Tickets
+    CELL[7,2] = Output
+  ROW 8 | My Tickets Inventory Reports Notifications | - | - | -
+    CELL[8,0] = My Tickets Inventory Reports Notifications
+  ROW 9 | Open Tickets In-progress or paused | Escalated Tickets Require further attention | - | -
+    CELL[9,0] = Open Tickets In-progress or paused
+    CELL[9,1] = Escalated Tickets Require further attention
+  ROW 10 | My Open Tickets | - | - | -
+    CELL[10,0] = My Open Tickets
+  ROW 11 | Q Search Requests | SEARCH | T | -
+    CELL[11,0] = Q Search Requests
+    CELL[11,1] = SEARCH
+    CELL[11,2] = T
+  ROW 12 | Parent ID Ticket ID Claim ID | - | Sk IlI Status Due Action | -
+    CELL[12,0] = Parent ID Ticket ID Claim ID
+    CELL[12,2] = Sk IlI Status Due Action
+  ROW 13 | No items available | - | - | -
+    CELL[13,0] = No items available
+TABLE 1 | source=wide_grid | bbox=[48,241,1509,288] | shape=2x7 | conf=0.850
+  shape: 2x7
+  HEADER | START NEXT TICKET | 6H 37M 57S | 0 | 70 | 1 | 71 Total Closed | 0
+  ROW 1 | - | - | Escalated | Resolved | Withdrawn | - | High $ Prod Review
+    CELL[1,2] = Escalated
+    CELL[1,3] = Resolved
+    CELL[1,4] = Withdrawn
+    CELL[1,6] = High $ Prod Review
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[43,11,1579,39] | conf=0.983 | text=Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims MR appian
+  WORD | bbox=[43,12,103,39] | text=Claims
+  WORD | bbox=[131,11,174,32] | text=HOME
+  WORD | bbox=[189,14,261,31] | text=INVENTORY
+  WORD | bbox=[280,14,374,31] | text=CREATE TICKET
+  WORD | bbox=[391,14,464,31] | text=UNARCHIVE
+  WORD | bbox=[1425,17,1579,33] | text=Claims MR appian
+LINE 1 | bbox=[18,74,1355,98] | conf=0.973 | text=Holds My Daily Queue Assignments Primary Queue: Newborn Holds (7M 30S benchmark)
+  WORD | bbox=[18,74,101,95] | text=Holds
+  WORD | bbox=[560,81,758,98] | text=My Daily Queue Assignments
+  WORD | bbox=[1061,79,1355,95] | text=Primary Queue: Newborn Holds (7M 30S benchmark)
+LINE 2 | bbox=[1061,104,1191,121] | conf=0.984 | text=Secondary Queue: N/A
+LINE 3 | bbox=[39,135,283,159] | conf=0.977 | text=Welcome Melissa Rippon,
+LINE 4 | bbox=[560,163,660,181] | conf=0.955 | text=My Daily Stats
+LINE 5 | bbox=[40,185,360,197] | conf=0.976 | text=All of your assigned tickets are closed or waiting on others.
+LINE 6 | bbox=[38,201,865,227] | conf=0.986 | text=Click "Start" to open your next ticket. Time Worked on Tickets Output
+  WORD | bbox=[38,201,245,218] | text=Click "Start" to open your next ticket.
+  WORD | bbox=[559,209,695,225] | text=Time Worked on Tickets
+  WORD | bbox=[817,206,865,227] | text=Output
+LINE 7 | bbox=[48,241,1434,288] | conf=0.983 | text=START NEXT TICKET 6H 37M 57S 0 70 1 71 Total Closed 0
+  WORD | bbox=[48,241,164,257] | text=START NEXT TICKET
+  WORD | bbox=[562,244,708,266] | text=6H 37M 57S
+  WORD | bbox=[820,243,840,267] | text=0
+  WORD | bbox=[968,242,1002,267] | text=70
+  WORD | bbox=[1115,243,1130,266] | text=1
+  WORD | bbox=[1262,241,1329,288] | text=71 Total Closed
+  WORD | bbox=[1414,243,1434,266] | text=0
+LINE 8 | bbox=[819,271,1509,288] | conf=0.991 | text=Escalated Resolved Withdrawn High $ Prod Review
+  WORD | bbox=[819,272,871,288] | text=Escalated
+  WORD | bbox=[969,272,1015,286] | text=Resolved
+  WORD | bbox=[1115,271,1174,288] | text=Withdrawn
+  WORD | bbox=[1414,271,1509,288] | text=High $ Prod Review
+LINE 9 | bbox=[79,327,516,345] | conf=0.991 | text=My Tickets Inventory Reports Notifications
+  WORD | bbox=[79,328,145,345] | text=My Tickets
+  WORD | bbox=[242,328,346,345] | text=Inventory Reports
+  WORD | bbox=[439,327,516,344] | text=Notifications
+LINE 10 | bbox=[67,384,418,419] | conf=0.995 | text=Open Tickets In-progress or paused Escalated Tickets Require further attention
+  WORD | bbox=[67,386,195,419] | text=Open Tickets In-progress or paused
+  WORD | bbox=[276,384,418,418] | text=Escalated Tickets Require further attention
+LINE 11 | bbox=[39,461,154,477] | conf=0.974 | text=My Open Tickets
+LINE 12 | bbox=[42,494,1512,516] | conf=0.971 | text=Q Search Requests SEARCH T
+  WORD | bbox=[42,496,156,516] | text=Q Search Requests
+  WORD | bbox=[407,494,462,516] | text=SEARCH
+  WORD | bbox=[1481,499,1512,513] | text=T
+LINE 13 | bbox=[45,531,1405,553] | conf=0.957 | text=Parent ID Ticket ID Claim ID Sk IlI Status Due Action
+  WORD | bbox=[45,535,102,551] | text=Parent ID
+  WORD | bbox=[317,532,374,553] | text=Ticket ID
+  WORD | bbox=[581,532,634,553] | text=Claim ID
+  WORD | bbox=[808,533,839,551] | text=Sk IlI
+  WORD | bbox=[976,532,1022,553] | text=Status
+  WORD | bbox=[1196,531,1227,553] | text=Due
+  WORD | bbox=[1361,532,1405,553] | text=Action
+LINE 14 | bbox=[741,580,845,597] | conf=0.998 | text=No items available
+[/BOXES]

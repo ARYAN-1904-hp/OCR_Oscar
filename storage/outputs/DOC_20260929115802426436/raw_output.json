@@ -1,0 +1,3343 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Cortex-Claim #HS5APB5E Latest verslon (6 of6) Dashboard Batch Notes\nAbout thls claim Payment Patlent Providers Medical Claim lines a few seconds ago Readji\nHS5APB5E About this claim No notes for this claim\nMember: Sidney Noa Rodriguez o Notes Service start date 01/14/2026 Received date 07/19/2026\nSee all member's clalms\nService end date 01/16/2026 Claimtype UB  Facility\nProvider's claim # 556AAFMSD77-AY41T2Q Billing type 111\nClaim state: Audit Staytype Inpatient Place ofservice\nBlockers (1) Diagnosis related group .640 Transmission ID 76413591982\nAWAITING_PAYMENT Manage Payer control number Nucleus ID\nAuthorization required? No Goal PROCESS_CLA\nDenials (0) No denials on this claim. Is transplant?\nInternational Provider No\nBilled $2,703.32 (100%) Is Medicald reclamation?. Yes\nAllowed $819.45 (30%)\nPay provider $819.45 Submission information\n>Memberresponsibility Pay member $0.00 $0.00 Submission type Electronic Vendor source AVAILITY\nEDIfle Download Documents View Workflow:\nClaim lineage Tenant oscar Newborn\nHS5APB5E 7/19/2026 Audit Valetfle ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975 Changes Made:\nApplied Parent's Active Policy that\nPotential parent claims Payment\nCharge group - Prompt process due date 08/05/2026\nSave note\nPayment authority NEXTGEN Interest accrued $0.00\nPotential duplicate claims\nPay to member No Excluded from interest Yes Cancel\nNo system identified duplicates.",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "Cortex-Claim #HS5APB5E Latest verslon (6 of6) Dashboard Batch Notes\nAbout thls claim Payment Patlent Providers Medical Claim lines a few seconds ago Readji\nHS5APB5E About this claim No notes for this claim\nMember: Sidney Noa Rodriguez o Notes Service start date 01/14/2026 Received date 07/19/2026\nSee all member's clalms\nService end date 01/16/2026 Claimtype UB  Facility\nProvider's claim # 556AAFMSD77-AY41T2Q Billing type 111\nClaim state: Audit Staytype Inpatient Place ofservice\nBlockers (1) Diagnosis related group .640 Transmission ID 76413591982\nAWAITING_PAYMENT Manage Payer control number Nucleus ID\nAuthorization required? No Goal PROCESS_CLA\nDenials (0) No denials on this claim. Is transplant?\nInternational Provider No\nBilled $2,703.32 (100%) Is Medicald reclamation?. Yes\nAllowed $819.45 (30%)\nPay provider $819.45 Submission information\n>Memberresponsibility Pay member $0.00 $0.00 Submission type Electronic Vendor source AVAILITY\nEDIfle Download Documents View Workflow:\nClaim lineage Tenant oscar Newborn\nHS5APB5E 7/19/2026 Audit Valetfle ID: 5f1a7c34-c933-4af3-b8b1-9865e706d975 Changes Made:\nApplied Parent's Active Policy that\nPotential parent claims Payment\nCharge group - Prompt process due date 08/05/2026\nSave note\nPayment authority NEXTGEN Interest accrued $0.00\nPotential duplicate claims\nPay to member No Excluded from interest Yes Cancel\nNo system identified duplicates.",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "heading",
+              "reading_order": 5,
+              "bbox": [
+                298,
+                382,
+                538,
+                398
+              ],
+              "text": "International Provider No",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "International Provider No",
+                  "conf": 0.9869030117988586,
+                  "bbox": [
+                    298,
+                    382,
+                    538,
+                    398
+                  ],
+                  "words": [
+                    {
+                      "text": "International Provider",
+                      "conf": 0.975698709487915,
+                      "bbox": [
+                        298,
+                        382,
+                        424,
+                        398
+                      ]
+                    },
+                    {
+                      "text": "No",
+                      "conf": 0.9981073141098022,
+                      "bbox": [
+                        516,
+                        382,
+                        538,
+                        398
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 7,
+              "bbox": [
+                32,
+                432,
+                222,
+                446
+              ],
+              "text": "Allowed $819.45 (30%)",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Allowed $819.45 (30%)",
+                  "conf": 0.9575760960578918,
+                  "bbox": [
+                    32,
+                    432,
+                    222,
+                    446
+                  ],
+                  "words": [
+                    {
+                      "text": "Allowed",
+                      "conf": 0.9986193776130676,
+                      "bbox": [
+                        32,
+                        432,
+                        80,
+                        446
+                      ]
+                    },
+                    {
+                      "text": "$819.45 (30%)",
+                      "conf": 0.9165328145027161,
+                      "bbox": [
+                        151,
+                        432,
+                        222,
+                        444
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 11,
+              "bbox": [
+                1386,
+                679,
+                1442,
+                691
+              ],
+              "text": "Save note",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Save note",
+                  "conf": 0.957122802734375,
+                  "bbox": [
+                    1386,
+                    679,
+                    1442,
+                    691
+                  ],
+                  "words": [
+                    {
+                      "text": "Save note",
+                      "conf": 0.957122802734375,
+                      "bbox": [
+                        1386,
+                        679,
+                        1442,
+                        691
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 13,
+              "bbox": [
+                35,
+                704,
+                180,
+                717
+              ],
+              "text": "Potential duplicate claims",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Potential duplicate claims",
+                  "conf": 0.9701727628707886,
+                  "bbox": [
+                    35,
+                    704,
+                    180,
+                    717
+                  ],
+                  "words": [
+                    {
+                      "text": "Potential duplicate claims",
+                      "conf": 0.9701727628707886,
+                      "bbox": [
+                        35,
+                        704,
+                        180,
+                        717
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "International Provider No\nAllowed $819.45 (30%)\nSave note\nPotential duplicate claims"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            30,
+            13,
+            1312,
+            85
+          ],
+          "text": "Cortex-Claim #HS5APB5E Latest verslon (6 of6) Dashboard Batch Notes\nAbout thls claim Payment Patlent Providers Medical Claim lines a few seconds ago Readji",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Cortex-Claim #HS5APB5E Latest verslon (6 of6) Dashboard Batch Notes",
+              "conf": 0.980033814907074,
+              "bbox": [
+                65,
+                13,
+                1312,
+                43
+              ],
+              "words": [
+                {
+                  "text": "Cortex-Claim #HS5APB5E",
+                  "conf": 0.9754877090454102,
+                  "bbox": [
+                    65,
+                    22,
+                    261,
+                    38
+                  ]
+                },
+                {
+                  "text": "Latest verslon (6 of6)",
+                  "conf": 0.936265230178833,
+                  "bbox": [
+                    280,
+                    22,
+                    404,
+                    34
+                  ]
+                },
+                {
+                  "text": "Dashboard",
+                  "conf": 0.9975103735923767,
+                  "bbox": [
+                    1102,
+                    13,
+                    1169,
+                    29
+                  ]
+                },
+                {
+                  "text": "Batch",
+                  "conf": 0.9919265508651733,
+                  "bbox": [
+                    1190,
+                    14,
+                    1230,
+                    28
+                  ]
+                },
+                {
+                  "text": "Notes",
+                  "conf": 0.9989792108535767,
+                  "bbox": [
+                    1258,
+                    25,
+                    1312,
+                    43
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "About thls claim Payment Patlent Providers Medical Claim lines a few seconds ago Readji",
+              "conf": 0.9684569537639618,
+              "bbox": [
+                30,
+                62,
+                1236,
+                85
+              ],
+              "words": [
+                {
+                  "text": "About thls claim",
+                  "conf": 0.9400808811187744,
+                  "bbox": [
+                    30,
+                    71,
+                    122,
+                    84
+                  ]
+                },
+                {
+                  "text": "Payment",
+                  "conf": 0.9984005093574524,
+                  "bbox": [
+                    144,
+                    69,
+                    199,
+                    85
+                  ]
+                },
+                {
+                  "text": "Patlent",
+                  "conf": 0.9946122169494629,
+                  "bbox": [
+                    219,
+                    70,
+                    264,
+                    83
+                  ]
+                },
+                {
+                  "text": "Providers",
+                  "conf": 0.9954826831817627,
+                  "bbox": [
+                    284,
+                    67,
+                    342,
+                    84
+                  ]
+                },
+                {
+                  "text": "Medical",
+                  "conf": 0.9929792284965515,
+                  "bbox": [
+                    364,
+                    69,
+                    411,
+                    81
+                  ]
+                },
+                {
+                  "text": "Claim lines",
+                  "conf": 0.9026653170585632,
+                  "bbox": [
+                    431,
+                    66,
+                    496,
+                    83
+                  ]
+                },
+                {
+                  "text": "a few seconds ago",
+                  "conf": 0.9779908657073975,
+                  "bbox": [
+                    1085,
+                    65,
+                    1174,
+                    78
+                  ]
+                },
+                {
+                  "text": "Readji",
+                  "conf": 0.9454439282417297,
+                  "bbox": [
+                    1199,
+                    62,
+                    1236,
+                    76
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 1,
+          "bbox": [
+            30,
+            122,
+            1474,
+            191
+          ],
+          "text": "HS5APB5E About this claim No notes for this claim\nMember:Sidney Noa Rodriguez o Notes Service start date 01/14/2026 Received date 07/19/2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "HS5APB5E About this claim No notes for this claim",
+              "conf": 0.9794360200564066,
+              "bbox": [
+                30,
+                122,
+                1474,
+                144
+              ],
+              "words": [
+                {
+                  "text": "HS5APB5E",
+                  "conf": 0.9589215517044067,
+                  "bbox": [
+                    30,
+                    126,
+                    136,
+                    144
+                  ]
+                },
+                {
+                  "text": "About this claim",
+                  "conf": 0.9797673225402832,
+                  "bbox": [
+                    299,
+                    122,
+                    456,
+                    143
+                  ]
+                },
+                {
+                  "text": "No notes for this claim",
+                  "conf": 0.99961918592453,
+                  "bbox": [
+                    1348,
+                    125,
+                    1474,
+                    141
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Member:Sidney Noa Rodriguez o Notes Service start date 01/14/2026 Received date 07/19/2026",
+              "conf": 0.9758192777633667,
+              "bbox": [
+                30,
+                150,
+                1221,
+                191
+              ],
+              "words": [
+                {
+                  "text": "Member:Sidney Noa Rodriguez o Notes",
+                  "conf": 0.9287068247795105,
+                  "bbox": [
+                    30,
+                    150,
+                    205,
+                    182
+                  ]
+                },
+                {
+                  "text": "Service start date",
+                  "conf": 0.9641590118408203,
+                  "bbox": [
+                    299,
+                    178,
+                    400,
+                    191
+                  ]
+                },
+                {
+                  "text": "01/14/2026",
+                  "conf": 0.9993609189987183,
+                  "bbox": [
+                    515,
+                    174,
+                    581,
+                    191
+                  ]
+                },
+                {
+                  "text": "Received date",
+                  "conf": 0.9876171946525574,
+                  "bbox": [
+                    936,
+                    172,
+                    1019,
+                    188
+                  ]
+                },
+                {
+                  "text": "07/19/2026",
+                  "conf": 0.999252438545227,
+                  "bbox": [
+                    1154,
+                    169,
+                    1221,
+                    186
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            31,
+            187,
+            165,
+            200
+          ],
+          "text": "See all member's clalms",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "See all member's clalms",
+              "conf": 0.9338168501853943,
+              "bbox": [
+                31,
+                187,
+                165,
+                200
+              ],
+              "words": [
+                {
+                  "text": "See all member's clalms",
+                  "conf": 0.9338168501853943,
+                  "bbox": [
+                    31,
+                    187,
+                    165,
+                    200
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            30,
+            195,
+            1240,
+            348
+          ],
+          "text": "Service end date 01/16/2026 Claimtype UB  Facility\nProvider's claim # 556AAFMSD77-AY41T2Q Billing type 111\nClaim state: Audit Staytype Inpatient Place ofservice\nBlockers (1) Diagnosis related group .640 TransmissionID 76413591982\nAWAITING_PAYMENT Manage Payer control number Nucleus ID\nAuthorization required? No Goal PROCESS_CLA",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Service end date 01/16/2026 Claimtype UB  Facility",
+              "conf": 0.9757090657949448,
+              "bbox": [
+                298,
+                195,
+                1231,
+                219
+              ],
+              "words": [
+                {
+                  "text": "Service end date",
+                  "conf": 0.9841914772987366,
+                  "bbox": [
+                    298,
+                    202,
+                    394,
+                    219
+                  ]
+                },
+                {
+                  "text": "01/16/2026",
+                  "conf": 0.9978479146957397,
+                  "bbox": [
+                    515,
+                    200,
+                    581,
+                    216
+                  ]
+                },
+                {
+                  "text": "Claimtype",
+                  "conf": 0.9875020980834961,
+                  "bbox": [
+                    935,
+                    195,
+                    1000,
+                    215
+                  ]
+                },
+                {
+                  "text": "UB  Facility",
+                  "conf": 0.9332947731018066,
+                  "bbox": [
+                    1154,
+                    196,
+                    1231,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Provider's claim # 556AAFMSD77-AY41T2Q Billing type 111",
+              "conf": 0.9544211626052856,
+              "bbox": [
+                298,
+                218,
+                1191,
+                244
+              ],
+              "words": [
+                {
+                  "text": "Provider's claim #",
+                  "conf": 0.9893025159835815,
+                  "bbox": [
+                    298,
+                    228,
+                    400,
+                    244
+                  ]
+                },
+                {
+                  "text": "556AAFMSD77-AY41T2Q",
+                  "conf": 0.9981281757354736,
+                  "bbox": [
+                    515,
+                    227,
+                    651,
+                    243
+                  ]
+                },
+                {
+                  "text": "Billing type",
+                  "conf": 0.9619320034980774,
+                  "bbox": [
+                    936,
+                    224,
+                    1004,
+                    241
+                  ]
+                },
+                {
+                  "text": "111 ",
+                  "conf": 0.86832195520401,
+                  "bbox": [
+                    1152,
+                    218,
+                    1191,
+                    240
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Claim state: Audit Staytype Inpatient Place ofservice",
+              "conf": 0.9878401517868042,
+              "bbox": [
+                30,
+                241,
+                1025,
+                271
+              ],
+              "words": [
+                {
+                  "text": "Claim state:",
+                  "conf": 0.982715368270874,
+                  "bbox": [
+                    30,
+                    241,
+                    100,
+                    257
+                  ]
+                },
+                {
+                  "text": "Audit",
+                  "conf": 0.9962034225463867,
+                  "bbox": [
+                    181,
+                    241,
+                    218,
+                    255
+                  ]
+                },
+                {
+                  "text": "Staytype",
+                  "conf": 0.9970303773880005,
+                  "bbox": [
+                    298,
+                    255,
+                    355,
+                    271
+                  ]
+                },
+                {
+                  "text": "Inpatient",
+                  "conf": 0.9990342259407043,
+                  "bbox": [
+                    515,
+                    252,
+                    571,
+                    270
+                  ]
+                },
+                {
+                  "text": "Place ofservice",
+                  "conf": 0.9642173647880554,
+                  "bbox": [
+                    939,
+                    251,
+                    1025,
+                    264
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Blockers (1) Diagnosis related group .640 TransmissionID 76413591982",
+              "conf": 0.9676687240600585,
+              "bbox": [
+                31,
+                274,
+                1228,
+                297
+              ],
+              "words": [
+                {
+                  "text": "Blockers (1)",
+                  "conf": 0.944779634475708,
+                  "bbox": [
+                    31,
+                    275,
+                    96,
+                    288
+                  ]
+                },
+                {
+                  "text": "Diagnosis related group",
+                  "conf": 0.9871140122413635,
+                  "bbox": [
+                    299,
+                    280,
+                    434,
+                    297
+                  ]
+                },
+                {
+                  "text": ".640",
+                  "conf": 0.9421422481536865,
+                  "bbox": [
+                    514,
+                    278,
+                    542,
+                    297
+                  ]
+                },
+                {
+                  "text": "TransmissionID",
+                  "conf": 0.9646725654602051,
+                  "bbox": [
+                    938,
+                    275,
+                    1029,
+                    292
+                  ]
+                },
+                {
+                  "text": "76413591982",
+                  "conf": 0.9996351599693298,
+                  "bbox": [
+                    1155,
+                    274,
+                    1228,
+                    290
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "AWAITING_PAYMENT Manage Payer control number Nucleus ID",
+              "conf": 0.974725529551506,
+              "bbox": [
+                30,
+                292,
+                1000,
+                326
+              ],
+              "words": [
+                {
+                  "text": " AWAITING_PAYMENT",
+                  "conf": 0.9630242586135864,
+                  "bbox": [
+                    30,
+                    292,
+                    171,
+                    308
+                  ]
+                },
+                {
+                  "text": "Manage",
+                  "conf": 0.9984455704689026,
+                  "bbox": [
+                    32,
+                    312,
+                    79,
+                    326
+                  ]
+                },
+                {
+                  "text": "Payer control number",
+                  "conf": 0.9933872222900391,
+                  "bbox": [
+                    299,
+                    306,
+                    421,
+                    322
+                  ]
+                },
+                {
+                  "text": "Nucleus ID",
+                  "conf": 0.9440450668334961,
+                  "bbox": [
+                    936,
+                    300,
+                    1000,
+                    317
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "Authorization required? No Goal PROCESS_CLA",
+              "conf": 0.9847027212381363,
+              "bbox": [
+                299,
+                325,
+                1240,
+                348
+              ],
+              "words": [
+                {
+                  "text": "Authorization required?",
+                  "conf": 0.9839305877685547,
+                  "bbox": [
+                    299,
+                    331,
+                    435,
+                    348
+                  ]
+                },
+                {
+                  "text": "No",
+                  "conf": 0.9988359212875366,
+                  "bbox": [
+                    514,
+                    328,
+                    539,
+                    348
+                  ]
+                },
+                {
+                  "text": "Goal",
+                  "conf": 0.9955653548240662,
+                  "bbox": [
+                    936,
+                    326,
+                    969,
+                    344
+                  ]
+                },
+                {
+                  "text": "PROCESS_CLA",
+                  "conf": 0.9604790210723877,
+                  "bbox": [
+                    1155,
+                    325,
+                    1240,
+                    341
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            30,
+            341,
+            380,
+            377
+          ],
+          "text": "Denials (0) No denials on this claim. Is transplant?",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Denials (0) No denials on this claim. Is transplant?",
+              "conf": 0.9523214548826218,
+              "bbox": [
+                30,
+                341,
+                380,
+                377
+              ],
+              "words": [
+                {
+                  "text": "Denials (0) No denials on this claim.",
+                  "conf": 0.9321981966495514,
+                  "bbox": [
+                    30,
+                    341,
+                    168,
+                    377
+                  ]
+                },
+                {
+                  "text": "Is transplant?",
+                  "conf": 0.9724447131156921,
+                  "bbox": [
+                    297,
+                    355,
+                    380,
+                    376
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "heading",
+          "reading_order": 5,
+          "bbox": [
+            298,
+            382,
+            538,
+            398
+          ],
+          "text": "International Provider No",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "International Provider No",
+              "conf": 0.9869030117988586,
+              "bbox": [
+                298,
+                382,
+                538,
+                398
+              ],
+              "words": [
+                {
+                  "text": "International Provider",
+                  "conf": 0.975698709487915,
+                  "bbox": [
+                    298,
+                    382,
+                    424,
+                    398
+                  ]
+                },
+                {
+                  "text": "No",
+                  "conf": 0.9981073141098022,
+                  "bbox": [
+                    516,
+                    382,
+                    538,
+                    398
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 6,
+          "bbox": [
+            30,
+            405,
+            542,
+            425
+          ],
+          "text": "Billed $2,703.32 (100%) Is Medicald reclamation?. Yes",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Billed $2,703.32 (100%) Is Medicald reclamation?. Yes",
+              "conf": 0.9629479646682739,
+              "bbox": [
+                30,
+                405,
+                542,
+                425
+              ],
+              "words": [
+                {
+                  "text": "Billed",
+                  "conf": 0.9473572373390198,
+                  "bbox": [
+                    30,
+                    405,
+                    68,
+                    423
+                  ]
+                },
+                {
+                  "text": "$2,703.32 (100%)",
+                  "conf": 0.9593369960784912,
+                  "bbox": [
+                    135,
+                    405,
+                    224,
+                    421
+                  ]
+                },
+                {
+                  "text": "Is Medicald reclamation?.",
+                  "conf": 0.9472012519836426,
+                  "bbox": [
+                    299,
+                    409,
+                    441,
+                    425
+                  ]
+                },
+                {
+                  "text": "Yes",
+                  "conf": 0.9978963732719421,
+                  "bbox": [
+                    516,
+                    406,
+                    542,
+                    425
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 7,
+          "bbox": [
+            32,
+            432,
+            222,
+            446
+          ],
+          "text": "Allowed $819.45 (30%)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Allowed $819.45 (30%)",
+              "conf": 0.9575760960578918,
+              "bbox": [
+                32,
+                432,
+                222,
+                446
+              ],
+              "words": [
+                {
+                  "text": "Allowed",
+                  "conf": 0.9986193776130676,
+                  "bbox": [
+                    32,
+                    432,
+                    80,
+                    446
+                  ]
+                },
+                {
+                  "text": "$819.45 (30%)",
+                  "conf": 0.9165328145027161,
+                  "bbox": [
+                    151,
+                    432,
+                    222,
+                    444
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 8,
+          "bbox": [
+            22,
+            456,
+            1386,
+            610
+          ],
+          "text": "Pay provider $819.45 Submission information\n>Memberresponsibility Pay member $0.00 $0.00 Submission type Electronic Vendor source AVAILITY\nEDIfle Download Documents View Workflow:\nClaim lineage Tenant oscar Newborn\nHS5APB5E 7/19/2026 Audit Valetfle ID:5f1a7c34-c933-4af3-b8b1-9865e706d975 Changes Made:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Pay provider $819.45 Submission information",
+              "conf": 0.9819445610046387,
+              "bbox": [
+                31,
+                456,
+                455,
+                476
+              ],
+              "words": [
+                {
+                  "text": "Pay provider",
+                  "conf": 0.964361846446991,
+                  "bbox": [
+                    31,
+                    456,
+                    104,
+                    472
+                  ]
+                },
+                {
+                  "text": "$819.45",
+                  "conf": 0.9973112344741821,
+                  "bbox": [
+                    179,
+                    456,
+                    224,
+                    470
+                  ]
+                },
+                {
+                  "text": "Submission information",
+                  "conf": 0.9841606020927429,
+                  "bbox": [
+                    300,
+                    460,
+                    455,
+                    476
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": ">Memberresponsibility Pay member $0.00 $0.00 Submission type Electronic Vendor source AVAILITY",
+              "conf": 0.9844019860029221,
+              "bbox": [
+                22,
+                479,
+                1212,
+                521
+              ],
+              "words": [
+                {
+                  "text": ">Memberresponsibility",
+                  "conf": 0.9730498194694519,
+                  "bbox": [
+                    22,
+                    508,
+                    159,
+                    521
+                  ]
+                },
+                {
+                  "text": "Pay member",
+                  "conf": 0.9680269956588745,
+                  "bbox": [
+                    32,
+                    481,
+                    105,
+                    498
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9959651827812195,
+                  "bbox": [
+                    188,
+                    479,
+                    225,
+                    496
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9878819584846497,
+                  "bbox": [
+                    189,
+                    505,
+                    224,
+                    519
+                  ]
+                },
+                {
+                  "text": "Submission type",
+                  "conf": 0.9794127941131592,
+                  "bbox": [
+                    300,
+                    496,
+                    395,
+                    513
+                  ]
+                },
+                {
+                  "text": "Electronic",
+                  "conf": 0.9989376068115234,
+                  "bbox": [
+                    518,
+                    495,
+                    579,
+                    512
+                  ]
+                },
+                {
+                  "text": "Vendor source",
+                  "conf": 0.9724763035774231,
+                  "bbox": [
+                    938,
+                    491,
+                    1021,
+                    508
+                  ]
+                },
+                {
+                  "text": "AVAILITY",
+                  "conf": 0.9994652271270752,
+                  "bbox": [
+                    1156,
+                    490,
+                    1212,
+                    507
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "EDIfle Download Documents View Workflow:",
+              "conf": 0.975328266620636,
+              "bbox": [
+                301,
+                516,
+                1351,
+                545
+              ],
+              "words": [
+                {
+                  "text": "EDIfle",
+                  "conf": 0.9206740260124207,
+                  "bbox": [
+                    301,
+                    523,
+                    342,
+                    537
+                  ]
+                },
+                {
+                  "text": "Download",
+                  "conf": 0.9964482188224792,
+                  "bbox": [
+                    519,
+                    521,
+                    579,
+                    537
+                  ]
+                },
+                {
+                  "text": "Documents",
+                  "conf": 0.9963108897209167,
+                  "bbox": [
+                    940,
+                    519,
+                    1006,
+                    532
+                  ]
+                },
+                {
+                  "text": "View",
+                  "conf": 0.9725465774536133,
+                  "bbox": [
+                    1158,
+                    516,
+                    1189,
+                    533
+                  ]
+                },
+                {
+                  "text": "Workflow:",
+                  "conf": 0.99066162109375,
+                  "bbox": [
+                    1284,
+                    527,
+                    1351,
+                    545
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Claim lineage Tenant oscar Newborn",
+              "conf": 0.9861863404512405,
+              "bbox": [
+                31,
+                547,
+                1346,
+                569
+              ],
+              "words": [
+                {
+                  "text": "Claim lineage",
+                  "conf": 0.9516706466674805,
+                  "bbox": [
+                    31,
+                    548,
+                    111,
+                    569
+                  ]
+                },
+                {
+                  "text": "Tenant",
+                  "conf": 0.9970899224281311,
+                  "bbox": [
+                    300,
+                    547,
+                    344,
+                    565
+                  ]
+                },
+                {
+                  "text": "oscar",
+                  "conf": 0.9969503283500671,
+                  "bbox": [
+                    518,
+                    549,
+                    552,
+                    563
+                  ]
+                },
+                {
+                  "text": "Newborn",
+                  "conf": 0.9990344643592834,
+                  "bbox": [
+                    1284,
+                    550,
+                    1346,
+                    566
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "HS5APB5E 7/19/2026 Audit Valetfle ID:5f1a7c34-c933-4af3-b8b1-9865e706d975 Changes Made:",
+              "conf": 0.9793048202991486,
+              "bbox": [
+                29,
+                574,
+                1386,
+                610
+              ],
+              "words": [
+                {
+                  "text": "HS5APB5E 7/19/2026",
+                  "conf": 0.9880650043487549,
+                  "bbox": [
+                    29,
+                    574,
+                    107,
+                    610
+                  ]
+                },
+                {
+                  "text": "Audit",
+                  "conf": 0.9979880452156067,
+                  "bbox": [
+                    182,
+                    574,
+                    221,
+                    592
+                  ]
+                },
+                {
+                  "text": "Valetfle ID:5f1a7c34-c933-4af3-b8b1-9865e706d975",
+                  "conf": 0.9456912875175476,
+                  "bbox": [
+                    300,
+                    577,
+                    558,
+                    592
+                  ]
+                },
+                {
+                  "text": "Changes Made:",
+                  "conf": 0.9854749441146851,
+                  "bbox": [
+                    1284,
+                    591,
+                    1386,
+                    610
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            35,
+            612,
+            1505,
+            660
+          ],
+          "text": "Applied Parent's Active Policy that\nPotential parent claims Payment",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Applied Parent's Active Policy that",
+              "conf": 0.9634148478507996,
+              "bbox": [
+                1284,
+                612,
+                1505,
+                631
+              ],
+              "words": [
+                {
+                  "text": "Applied Parent's Active Policy that",
+                  "conf": 0.9634148478507996,
+                  "bbox": [
+                    1284,
+                    612,
+                    1505,
+                    631
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Potential parent claims Payment",
+              "conf": 0.9861164689064026,
+              "bbox": [
+                35,
+                635,
+                390,
+                660
+              ],
+              "words": [
+                {
+                  "text": "Potential parent claims",
+                  "conf": 0.9728649258613586,
+                  "bbox": [
+                    35,
+                    640,
+                    165,
+                    653
+                  ]
+                },
+                {
+                  "text": "Payment",
+                  "conf": 0.9993680119514465,
+                  "bbox": [
+                    300,
+                    635,
+                    390,
+                    660
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            301,
+            659,
+            1240,
+            681
+          ],
+          "text": "Charge group - Prompt process due date 08/05/2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Charge group - Prompt process due date 08/05/2026",
+              "conf": 0.9207639843225479,
+              "bbox": [
+                301,
+                659,
+                1240,
+                681
+              ],
+              "words": [
+                {
+                  "text": "Charge group",
+                  "conf": 0.9900717735290527,
+                  "bbox": [
+                    301,
+                    665,
+                    381,
+                    681
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7216895818710327,
+                  "bbox": [
+                    522,
+                    667,
+                    529,
+                    673
+                  ]
+                },
+                {
+                  "text": "Prompt process due date",
+                  "conf": 0.976579487323761,
+                  "bbox": [
+                    941,
+                    661,
+                    1082,
+                    673
+                  ]
+                },
+                {
+                  "text": "08/05/2026",
+                  "conf": 0.9947150945663452,
+                  "bbox": [
+                    1159,
+                    659,
+                    1240,
+                    676
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 11,
+          "bbox": [
+            1386,
+            679,
+            1442,
+            691
+          ],
+          "text": "Save note",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Save note",
+              "conf": 0.957122802734375,
+              "bbox": [
+                1386,
+                679,
+                1442,
+                691
+              ],
+              "words": [
+                {
+                  "text": "Save note",
+                  "conf": 0.957122802734375,
+                  "bbox": [
+                    1386,
+                    679,
+                    1442,
+                    691
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 12,
+          "bbox": [
+            301,
+            687,
+            1195,
+            707
+          ],
+          "text": "Payment authority NEXTGEN Interest accrued $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Payment authority NEXTGEN Interest accrued $0.00",
+              "conf": 0.9767337739467621,
+              "bbox": [
+                301,
+                687,
+                1195,
+                707
+              ],
+              "words": [
+                {
+                  "text": "Payment authority",
+                  "conf": 0.9662821292877197,
+                  "bbox": [
+                    301,
+                    690,
+                    409,
+                    707
+                  ]
+                },
+                {
+                  "text": "NEXTGEN",
+                  "conf": 0.9742692708969116,
+                  "bbox": [
+                    519,
+                    687,
+                    579,
+                    704
+                  ]
+                },
+                {
+                  "text": "Interest accrued",
+                  "conf": 0.9689939022064209,
+                  "bbox": [
+                    940,
+                    690,
+                    1036,
+                    707
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9973897933959961,
+                  "bbox": [
+                    1158,
+                    687,
+                    1195,
+                    705
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 13,
+          "bbox": [
+            35,
+            704,
+            180,
+            717
+          ],
+          "text": "Potential duplicate claims",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Potential duplicate claims",
+              "conf": 0.9701727628707886,
+              "bbox": [
+                35,
+                704,
+                180,
+                717
+              ],
+              "words": [
+                {
+                  "text": "Potential duplicate claims",
+                  "conf": 0.9701727628707886,
+                  "bbox": [
+                    35,
+                    704,
+                    180,
+                    717
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 14,
+          "bbox": [
+            301,
+            713,
+            1436,
+            733
+          ],
+          "text": "Pay to member No Excluded from interest Yes Cancel",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Pay to member No Excluded from interest Yes Cancel",
+              "conf": 0.9871260762214661,
+              "bbox": [
+                301,
+                713,
+                1436,
+                733
+              ],
+              "words": [
+                {
+                  "text": "Pay to member",
+                  "conf": 0.9657734632492065,
+                  "bbox": [
+                    301,
+                    715,
+                    388,
+                    732
+                  ]
+                },
+                {
+                  "text": "No",
+                  "conf": 0.9984570145606995,
+                  "bbox": [
+                    516,
+                    713,
+                    541,
+                    732
+                  ]
+                },
+                {
+                  "text": "Excluded from interest",
+                  "conf": 0.9752146005630493,
+                  "bbox": [
+                    939,
+                    713,
+                    1071,
+                    732
+                  ]
+                },
+                {
+                  "text": "Yes",
+                  "conf": 0.9985337257385254,
+                  "bbox": [
+                    1158,
+                    715,
+                    1181,
+                    731
+                  ]
+                },
+                {
+                  "text": "Cancel",
+                  "conf": 0.9976515769958496,
+                  "bbox": [
+                    1395,
+                    719,
+                    1436,
+                    733
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 15,
+          "bbox": [
+            35,
+            729,
+            212,
+            742
+          ],
+          "text": "No system identified duplicates.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "No system identified duplicates.",
+              "conf": 0.9822262525558472,
+              "bbox": [
+                35,
+                729,
+                212,
+                742
+              ],
+              "words": [
+                {
+                  "text": "No system identified duplicates.",
+                  "conf": 0.9822262525558472,
+                  "bbox": [
+                    35,
+                    729,
+                    212,
+                    742
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            30,
+            187,
+            1505,
+            742
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>See all member&#x27;s clalms</td><td></td><td></td><td></td></tr><tr><td>Denials (0) No denials on this claim.</td><td>Is transplant?</td><td></td><td></td></tr><tr><td>International Provider</td><td>No</td><td></td><td></td></tr><tr><td>Billed $2,703.32 (100%) Is Medicald reclamation?. Yes</td><td></td><td></td><td></td></tr><tr><td>Allowed</td><td>$819.45 (30%)</td><td></td><td></td></tr><tr><td></td><td></td><td>Applied Parent&#x27;s Active Policy that</td><td></td></tr><tr><td>Potential parent claims</td><td>Payment</td><td></td><td></td></tr><tr><td>Charge group</td><td>-</td><td>Prompt process due date</td><td>08/05/2026</td></tr><tr><td></td><td></td><td>Save note</td><td></td></tr><tr><td>Payment authority</td><td>NEXTGEN</td><td>Interest accrued</td><td>$0.00</td></tr><tr><td>Potential duplicate claims</td><td></td><td></td><td></td></tr><tr><td>Pay to member</td><td>No</td><td>Excluded from interest Yes</td><td>Cancel</td></tr><tr><td>No system identified duplicates.</td><td></td><td></td><td></td></tr></table>",
+          "text": "See all member's clalms: \nDenials (0) No denials on this claim.: Is transplant?\nInternational Provider: No\nBilled $2,703.32 (100%) Is Medicald reclamation?. Yes: \nAllowed: $819.45 (30%)\nApplied Parent's Active Policy that: \nPotential parent claims: Payment\nCharge group: -\nPrompt process due date: 08/05/2026\nSave note: \nPayment authority: NEXTGEN\nInterest accrued: $0.00\nPotential duplicate claims: \nPay to member: No\nExcluded from interest Yes: Cancel\nNo system identified duplicates.: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "See all member's clalms",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Denials (0) No denials on this claim.",
+              "Is transplant?",
+              "",
+              ""
+            ],
+            [
+              "International Provider",
+              "No",
+              "",
+              ""
+            ],
+            [
+              "Billed $2,703.32 (100%) Is Medicald reclamation?. Yes",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Allowed",
+              "$819.45 (30%)",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "Applied Parent's Active Policy that",
+              ""
+            ],
+            [
+              "Potential parent claims",
+              "Payment",
+              "",
+              ""
+            ],
+            [
+              "Charge group",
+              "-",
+              "Prompt process due date",
+              "08/05/2026"
+            ],
+            [
+              "",
+              "",
+              "Save note",
+              ""
+            ],
+            [
+              "Payment authority",
+              "NEXTGEN",
+              "Interest accrued",
+              "$0.00"
+            ],
+            [
+              "Potential duplicate claims",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Pay to member",
+              "No",
+              "Excluded from interest Yes",
+              "Cancel"
+            ],
+            [
+              "No system identified duplicates.",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "See all member's clalms",
+              ""
+            ],
+            [
+              "Denials (0) No denials on this claim. Is transplant?",
+              ""
+            ],
+            [
+              "International Provider No",
+              ""
+            ],
+            [
+              "Billed $2,703.32 (100%) Is Medicald reclamation?. Yes",
+              ""
+            ],
+            [
+              "Allowed $819.45 (30%)",
+              ""
+            ],
+            [
+              "",
+              "Applied Parent's Active Policy that"
+            ],
+            [
+              "Potential parent claims Payment",
+              ""
+            ],
+            [
+              "Charge group -",
+              "Prompt process due date 08/05/2026"
+            ],
+            [
+              "",
+              "Save note"
+            ],
+            [
+              "Payment authority NEXTGEN",
+              "Interest accrued $0.00"
+            ],
+            [
+              "Potential duplicate claims",
+              ""
+            ],
+            [
+              "Pay to member No",
+              "Excluded from interest Yes Cancel"
+            ],
+            [
+              "No system identified duplicates.",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            30,
+            13,
+            1312,
+            85
+          ],
+          "html": "<table><tr><th>Cortex-Claim #HS5APB5E</th><th>Latest verslon (6 of6)</th><th>Dashboard</th><th>Batch</th><th>Notes</th></tr><tr><td>About thls claim Payment Patlent</td><td>Providers Medical Claim lines</td><td>a few seconds ago</td><td>Readji</td><td></td></tr></table>",
+          "text": "About thls claim Payment Patlent | Providers Medical Claim lines | a few seconds ago | Readji | ",
+          "headers": [
+            "Cortex-Claim #HS5APB5E",
+            "Latest verslon (6 of6)",
+            "Dashboard",
+            "Batch",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "About thls claim Payment Patlent",
+              "Providers Medical Claim lines",
+              "a few seconds ago",
+              "Readji",
+              ""
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            30,
+            122,
+            1474,
+            191
+          ],
+          "headers": [
+            "HS5APB5E",
+            "About this claim",
+            "No notes for this claim"
+          ],
+          "rows": [
+            [
+              "Member:Sidney Noa Rodriguez o Notes See all member's clalms",
+              "Service start date 01/14/2026",
+              "Received date 07/19/2026"
+            ]
+          ],
+          "text": "Member:Sidney Noa Rodriguez o Notes See all member's clalms | Service start date 01/14/2026 | Received date 07/19/2026",
+          "html": "<table><tr><th>HS5APB5E</th><th>About this claim</th><th>No notes for this claim</th></tr><tr><td>Member:Sidney Noa Rodriguez o Notes See all member&#x27;s clalms</td><td>Service start date 01/14/2026</td><td>Received date 07/19/2026</td></tr></table>",
+          "source": "layout",
+          "cleaned": true
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Cortex-Claim #HS5APB5E Latest verslon (6 of6) Dashboard Batch Notes",
+          "conf": 0.980033814907074,
+          "bbox": [
+            65,
+            13,
+            1312,
+            43
+          ],
+          "words": [
+            {
+              "text": "Cortex-Claim #HS5APB5E",
+              "conf": 0.9754877090454102,
+              "bbox": [
+                65,
+                22,
+                261,
+                38
+              ]
+            },
+            {
+              "text": "Latest verslon (6 of6)",
+              "conf": 0.936265230178833,
+              "bbox": [
+                280,
+                22,
+                404,
+                34
+              ]
+            },
+            {
+              "text": "Dashboard",
+              "conf": 0.9975103735923767,
+              "bbox": [
+                1102,
+                13,
+                1169,
+                29
+              ]
+            },
+            {
+              "text": "Batch",
+              "conf": 0.9919265508651733,
+              "bbox": [
+                1190,
+                14,
+                1230,
+                28
+              ]
+            },
+            {
+              "text": "Notes",
+              "conf": 0.9989792108535767,
+              "bbox": [
+                1258,
+                25,
+                1312,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "text": "About thls claim Payment Patlent Providers Medical Claim lines a few seconds ago Readji",
+          "conf": 0.9684569537639618,
+          "bbox": [
+            30,
+            62,
+            1236,
+            85
+          ],
+          "words": [
+            {
+              "text": "About thls claim",
+              "conf": 0.9400808811187744,
+              "bbox": [
+                30,
+                71,
+                122,
+                84
+              ]
+            },
+            {
+              "text": "Payment",
+              "conf": 0.9984005093574524,
+              "bbox": [
+                144,
+                69,
+                199,
+                85
+              ]
+            },
+            {
+              "text": "Patlent",
+              "conf": 0.9946122169494629,
+              "bbox": [
+                219,
+                70,
+                264,
+                83
+              ]
+            },
+            {
+              "text": "Providers",
+              "conf": 0.9954826831817627,
+              "bbox": [
+                284,
+                67,
+                342,
+                84
+              ]
+            },
+            {
+              "text": "Medical",
+              "conf": 0.9929792284965515,
+              "bbox": [
+                364,
+                69,
+                411,
+                81
+              ]
+            },
+            {
+              "text": "Claim lines",
+              "conf": 0.9026653170585632,
+              "bbox": [
+                431,
+                66,
+                496,
+                83
+              ]
+            },
+            {
+              "text": "a few seconds ago",
+              "conf": 0.9779908657073975,
+              "bbox": [
+                1085,
+                65,
+                1174,
+                78
+              ]
+            },
+            {
+              "text": "Readji",
+              "conf": 0.9454439282417297,
+              "bbox": [
+                1199,
+                62,
+                1236,
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "text": "HS5APB5E About this claim No notes for this claim",
+          "conf": 0.9794360200564066,
+          "bbox": [
+            30,
+            122,
+            1474,
+            144
+          ],
+          "words": [
+            {
+              "text": "HS5APB5E",
+              "conf": 0.9589215517044067,
+              "bbox": [
+                30,
+                126,
+                136,
+                144
+              ]
+            },
+            {
+              "text": "About this claim",
+              "conf": 0.9797673225402832,
+              "bbox": [
+                299,
+                122,
+                456,
+                143
+              ]
+            },
+            {
+              "text": "No notes for this claim",
+              "conf": 0.99961918592453,
+              "bbox": [
+                1348,
+                125,
+                1474,
+                141
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member:Sidney Noa Rodriguez o Notes Service start date 01/14/2026 Received date 07/19/2026",
+          "conf": 0.9758192777633667,
+          "bbox": [
+            30,
+            150,
+            1221,
+            191
+          ],
+          "words": [
+            {
+              "text": "Member:Sidney Noa Rodriguez o Notes",
+              "conf": 0.9287068247795105,
+              "bbox": [
+                30,
+                150,
+                205,
+                182
+              ]
+            },
+            {
+              "text": "Service start date",
+              "conf": 0.9641590118408203,
+              "bbox": [
+                299,
+                178,
+                400,
+                191
+              ]
+            },
+            {
+              "text": "01/14/2026",
+              "conf": 0.9993609189987183,
+              "bbox": [
+                515,
+                174,
+                581,
+                191
+              ]
+            },
+            {
+              "text": "Received date",
+              "conf": 0.9876171946525574,
+              "bbox": [
+                936,
+                172,
+                1019,
+                188
+              ]
+            },
+            {
+              "text": "07/19/2026",
+              "conf": 0.999252438545227,
+              "bbox": [
+                1154,
+                169,
+                1221,
+                186
+              ]
+            }
+          ]
+        },
+        {
+          "text": "See all member's clalms",
+          "conf": 0.9338168501853943,
+          "bbox": [
+            31,
+            187,
+            165,
+            200
+          ],
+          "words": [
+            {
+              "text": "See all member's clalms",
+              "conf": 0.9338168501853943,
+              "bbox": [
+                31,
+                187,
+                165,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service end date 01/16/2026 Claimtype UB  Facility",
+          "conf": 0.9757090657949448,
+          "bbox": [
+            298,
+            195,
+            1231,
+            219
+          ],
+          "words": [
+            {
+              "text": "Service end date",
+              "conf": 0.9841914772987366,
+              "bbox": [
+                298,
+                202,
+                394,
+                219
+              ]
+            },
+            {
+              "text": "01/16/2026",
+              "conf": 0.9978479146957397,
+              "bbox": [
+                515,
+                200,
+                581,
+                216
+              ]
+            },
+            {
+              "text": "Claimtype",
+              "conf": 0.9875020980834961,
+              "bbox": [
+                935,
+                195,
+                1000,
+                215
+              ]
+            },
+            {
+              "text": "UB  Facility",
+              "conf": 0.9332947731018066,
+              "bbox": [
+                1154,
+                196,
+                1231,
+                213
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Provider's claim # 556AAFMSD77-AY41T2Q Billing type 111",
+          "conf": 0.9544211626052856,
+          "bbox": [
+            298,
+            218,
+            1191,
+            244
+          ],
+          "words": [
+            {
+              "text": "Provider's claim #",
+              "conf": 0.9893025159835815,
+              "bbox": [
+                298,
+                228,
+                400,
+                244
+              ]
+            },
+            {
+              "text": "556AAFMSD77-AY41T2Q",
+              "conf": 0.9981281757354736,
+              "bbox": [
+                515,
+                227,
+                651,
+                243
+              ]
+            },
+            {
+              "text": "Billing type",
+              "conf": 0.9619320034980774,
+              "bbox": [
+                936,
+                224,
+                1004,
+                241
+              ]
+            },
+            {
+              "text": "111 ",
+              "conf": 0.86832195520401,
+              "bbox": [
+                1152,
+                218,
+                1191,
+                240
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim state: Audit Staytype Inpatient Place ofservice",
+          "conf": 0.9878401517868042,
+          "bbox": [
+            30,
+            241,
+            1025,
+            271
+          ],
+          "words": [
+            {
+              "text": "Claim state:",
+              "conf": 0.982715368270874,
+              "bbox": [
+                30,
+                241,
+                100,
+                257
+              ]
+            },
+            {
+              "text": "Audit",
+              "conf": 0.9962034225463867,
+              "bbox": [
+                181,
+                241,
+                218,
+                255
+              ]
+            },
+            {
+              "text": "Staytype",
+              "conf": 0.9970303773880005,
+              "bbox": [
+                298,
+                255,
+                355,
+                271
+              ]
+            },
+            {
+              "text": "Inpatient",
+              "conf": 0.9990342259407043,
+              "bbox": [
+                515,
+                252,
+                571,
+                270
+              ]
+            },
+            {
+              "text": "Place ofservice",
+              "conf": 0.9642173647880554,
+              "bbox": [
+                939,
+                251,
+                1025,
+                264
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Blockers (1) Diagnosis related group .640 TransmissionID 76413591982",
+          "conf": 0.9676687240600585,
+          "bbox": [
+            31,
+            274,
+            1228,
+            297
+          ],
+          "words": [
+            {
+              "text": "Blockers (1)",
+              "conf": 0.944779634475708,
+              "bbox": [
+                31,
+                275,
+                96,
+                288
+              ]
+            },
+            {
+              "text": "Diagnosis related group",
+              "conf": 0.9871140122413635,
+              "bbox": [
+                299,
+                280,
+                434,
+                297
+              ]
+            },
+            {
+              "text": ".640",
+              "conf": 0.9421422481536865,
+              "bbox": [
+                514,
+                278,
+                542,
+                297
+              ]
+            },
+            {
+              "text": "TransmissionID",
+              "conf": 0.9646725654602051,
+              "bbox": [
+                938,
+                275,
+                1029,
+                292
+              ]
+            },
+            {
+              "text": "76413591982",
+              "conf": 0.9996351599693298,
+              "bbox": [
+                1155,
+                274,
+                1228,
+                290
+              ]
+            }
+          ]
+        },
+        {
+          "text": "AWAITING_PAYMENT Manage Payer control number Nucleus ID",
+          "conf": 0.974725529551506,
+          "bbox": [
+            30,
+            292,
+            1000,
+            326
+          ],
+          "words": [
+            {
+              "text": " AWAITING_PAYMENT",
+              "conf": 0.9630242586135864,
+              "bbox": [
+                30,
+                292,
+                171,
+                308
+              ]
+            },
+            {
+              "text": "Manage",
+              "conf": 0.9984455704689026,
+              "bbox": [
+                32,
+                312,
+                79,
+                326
+              ]
+            },
+            {
+              "text": "Payer control number",
+              "conf": 0.9933872222900391,
+              "bbox": [
+                299,
+                306,
+                421,
+                322
+              ]
+            },
+            {
+              "text": "Nucleus ID",
+              "conf": 0.9440450668334961,
+              "bbox": [
+                936,
+                300,
+                1000,
+                317
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Authorization required? No Goal PROCESS_CLA",
+          "conf": 0.9847027212381363,
+          "bbox": [
+            299,
+            325,
+            1240,
+            348
+          ],
+          "words": [
+            {
+              "text": "Authorization required?",
+              "conf": 0.9839305877685547,
+              "bbox": [
+                299,
+                331,
+                435,
+                348
+              ]
+            },
+            {
+              "text": "No",
+              "conf": 0.9988359212875366,
+              "bbox": [
+                514,
+                328,
+                539,
+                348
+              ]
+            },
+            {
+              "text": "Goal",
+              "conf": 0.9955653548240662,
+              "bbox": [
+                936,
+                326,
+                969,
+                344
+              ]
+            },
+            {
+              "text": "PROCESS_CLA",
+              "conf": 0.9604790210723877,
+              "bbox": [
+                1155,
+                325,
+                1240,
+                341
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Denials (0) No denials on this claim. Is transplant?",
+          "conf": 0.9523214548826218,
+          "bbox": [
+            30,
+            341,
+            380,
+            377
+          ],
+          "words": [
+            {
+              "text": "Denials (0) No denials on this claim.",
+              "conf": 0.9321981966495514,
+              "bbox": [
+                30,
+                341,
+                168,
+                377
+              ]
+            },
+            {
+              "text": "Is transplant?",
+              "conf": 0.9724447131156921,
+              "bbox": [
+                297,
+                355,
+                380,
+                376
+              ]
+            }
+          ]
+        },
+        {
+          "text": "International Provider No",
+          "conf": 0.9869030117988586,
+          "bbox": [
+            298,
+            382,
+            538,
+            398
+          ],
+          "words": [
+            {
+              "text": "International Provider",
+              "conf": 0.975698709487915,
+              "bbox": [
+                298,
+                382,
+                424,
+                398
+              ]
+            },
+            {
+              "text": "No",
+              "conf": 0.9981073141098022,
+              "bbox": [
+                516,
+                382,
+                538,
+                398
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Billed $2,703.32 (100%) Is Medicald reclamation?. Yes",
+          "conf": 0.9629479646682739,
+          "bbox": [
+            30,
+            405,
+            542,
+            425
+          ],
+          "words": [
+            {
+              "text": "Billed",
+              "conf": 0.9473572373390198,
+              "bbox": [
+                30,
+                405,
+                68,
+                423
+              ]
+            },
+            {
+              "text": "$2,703.32 (100%)",
+              "conf": 0.9593369960784912,
+              "bbox": [
+                135,
+                405,
+                224,
+                421
+              ]
+            },
+            {
+              "text": "Is Medicald reclamation?.",
+              "conf": 0.9472012519836426,
+              "bbox": [
+                299,
+                409,
+                441,
+                425
+              ]
+            },
+            {
+              "text": "Yes",
+              "conf": 0.9978963732719421,
+              "bbox": [
+                516,
+                406,
+                542,
+                425
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Allowed $819.45 (30%)",
+          "conf": 0.9575760960578918,
+          "bbox": [
+            32,
+            432,
+            222,
+            446
+          ],
+          "words": [
+            {
+              "text": "Allowed",
+              "conf": 0.9986193776130676,
+              "bbox": [
+                32,
+                432,
+                80,
+                446
+              ]
+            },
+            {
+              "text": "$819.45 (30%)",
+              "conf": 0.9165328145027161,
+              "bbox": [
+                151,
+                432,
+                222,
+                444
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pay provider $819.45 Submission information",
+          "conf": 0.9819445610046387,
+          "bbox": [
+            31,
+            456,
+            455,
+            476
+          ],
+          "words": [
+            {
+              "text": "Pay provider",
+              "conf": 0.964361846446991,
+              "bbox": [
+                31,
+                456,
+                104,
+                472
+              ]
+            },
+            {
+              "text": "$819.45",
+              "conf": 0.9973112344741821,
+              "bbox": [
+                179,
+                456,
+                224,
+                470
+              ]
+            },
+            {
+              "text": "Submission information",
+              "conf": 0.9841606020927429,
+              "bbox": [
+                300,
+                460,
+                455,
+                476
+              ]
+            }
+          ]
+        },
+        {
+          "text": ">Memberresponsibility Pay member $0.00 $0.00 Submission type Electronic Vendor source AVAILITY",
+          "conf": 0.9844019860029221,
+          "bbox": [
+            22,
+            479,
+            1212,
+            521
+          ],
+          "words": [
+            {
+              "text": ">Memberresponsibility",
+              "conf": 0.9730498194694519,
+              "bbox": [
+                22,
+                508,
+                159,
+                521
+              ]
+            },
+            {
+              "text": "Pay member",
+              "conf": 0.9680269956588745,
+              "bbox": [
+                32,
+                481,
+                105,
+                498
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9959651827812195,
+              "bbox": [
+                188,
+                479,
+                225,
+                496
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9878819584846497,
+              "bbox": [
+                189,
+                505,
+                224,
+                519
+              ]
+            },
+            {
+              "text": "Submission type",
+              "conf": 0.9794127941131592,
+              "bbox": [
+                300,
+                496,
+                395,
+                513
+              ]
+            },
+            {
+              "text": "Electronic",
+              "conf": 0.9989376068115234,
+              "bbox": [
+                518,
+                495,
+                579,
+                512
+              ]
+            },
+            {
+              "text": "Vendor source",
+              "conf": 0.9724763035774231,
+              "bbox": [
+                938,
+                491,
+                1021,
+                508
+              ]
+            },
+            {
+              "text": "AVAILITY",
+              "conf": 0.9994652271270752,
+              "bbox": [
+                1156,
+                490,
+                1212,
+                507
+              ]
+            }
+          ]
+        },
+        {
+          "text": "EDIfle Download Documents View Workflow:",
+          "conf": 0.975328266620636,
+          "bbox": [
+            301,
+            516,
+            1351,
+            545
+          ],
+          "words": [
+            {
+              "text": "EDIfle",
+              "conf": 0.9206740260124207,
+              "bbox": [
+                301,
+                523,
+                342,
+                537
+              ]
+            },
+            {
+              "text": "Download",
+              "conf": 0.9964482188224792,
+              "bbox": [
+                519,
+                521,
+                579,
+                537
+              ]
+            },
+            {
+              "text": "Documents",
+              "conf": 0.9963108897209167,
+              "bbox": [
+                940,
+                519,
+                1006,
+                532
+              ]
+            },
+            {
+              "text": "View",
+              "conf": 0.9725465774536133,
+              "bbox": [
+                1158,
+                516,
+                1189,
+                533
+              ]
+            },
+            {
+              "text": "Workflow:",
+              "conf": 0.99066162109375,
+              "bbox": [
+                1284,
+                527,
+                1351,
+                545
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim lineage Tenant oscar Newborn",
+          "conf": 0.9861863404512405,
+          "bbox": [
+            31,
+            547,
+            1346,
+            569
+          ],
+          "words": [
+            {
+              "text": "Claim lineage",
+              "conf": 0.9516706466674805,
+              "bbox": [
+                31,
+                548,
+                111,
+                569
+              ]
+            },
+            {
+              "text": "Tenant",
+              "conf": 0.9970899224281311,
+              "bbox": [
+                300,
+                547,
+                344,
+                565
+              ]
+            },
+            {
+              "text": "oscar",
+              "conf": 0.9969503283500671,
+              "bbox": [
+                518,
+                549,
+                552,
+                563
+              ]
+            },
+            {
+              "text": "Newborn",
+              "conf": 0.9990344643592834,
+              "bbox": [
+                1284,
+                550,
+                1346,
+                566
+              ]
+            }
+          ]
+        },
+        {
+          "text": "HS5APB5E 7/19/2026 Audit Valetfle ID:5f1a7c34-c933-4af3-b8b1-9865e706d975 Changes Made:",
+          "conf": 0.9793048202991486,
+          "bbox": [
+            29,
+            574,
+            1386,
+            610
+          ],
+          "words": [
+            {
+              "text": "HS5APB5E 7/19/2026",
+              "conf": 0.9880650043487549,
+              "bbox": [
+                29,
+                574,
+                107,
+                610
+              ]
+            },
+            {
+              "text": "Audit",
+              "conf": 0.9979880452156067,
+              "bbox": [
+                182,
+                574,
+                221,
+                592
+              ]
+            },
+            {
+              "text": "Valetfle ID:5f1a7c34-c933-4af3-b8b1-9865e706d975",
+              "conf": 0.9456912875175476,
+              "bbox": [
+                300,
+                577,
+                558,
+                592
+              ]
+            },
+            {
+              "text": "Changes Made:",
+              "conf": 0.9854749441146851,
+              "bbox": [
+                1284,
+                591,
+                1386,
+                610
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Applied Parent's Active Policy that",
+          "conf": 0.9634148478507996,
+          "bbox": [
+            1284,
+            612,
+            1505,
+            631
+          ],
+          "words": [
+            {
+              "text": "Applied Parent's Active Policy that",
+              "conf": 0.9634148478507996,
+              "bbox": [
+                1284,
+                612,
+                1505,
+                631
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Potential parent claims Payment",
+          "conf": 0.9861164689064026,
+          "bbox": [
+            35,
+            635,
+            390,
+            660
+          ],
+          "words": [
+            {
+              "text": "Potential parent claims",
+              "conf": 0.9728649258613586,
+              "bbox": [
+                35,
+                640,
+                165,
+                653
+              ]
+            },
+            {
+              "text": "Payment",
+              "conf": 0.9993680119514465,
+              "bbox": [
+                300,
+                635,
+                390,
+                660
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Charge group - Prompt process due date 08/05/2026",
+          "conf": 0.9207639843225479,
+          "bbox": [
+            301,
+            659,
+            1240,
+            681
+          ],
+          "words": [
+            {
+              "text": "Charge group",
+              "conf": 0.9900717735290527,
+              "bbox": [
+                301,
+                665,
+                381,
+                681
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7216895818710327,
+              "bbox": [
+                522,
+                667,
+                529,
+                673
+              ]
+            },
+            {
+              "text": "Prompt process due date",
+              "conf": 0.976579487323761,
+              "bbox": [
+                941,
+                661,
+                1082,
+                673
+              ]
+            },
+            {
+              "text": "08/05/2026",
+              "conf": 0.9947150945663452,
+              "bbox": [
+                1159,
+                659,
+                1240,
+                676
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Save note",
+          "conf": 0.957122802734375,
+          "bbox": [
+            1386,
+            679,
+            1442,
+            691
+          ],
+          "words": [
+            {
+              "text": "Save note",
+              "conf": 0.957122802734375,
+              "bbox": [
+                1386,
+                679,
+                1442,
+                691
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Payment authority NEXTGEN Interest accrued $0.00",
+          "conf": 0.9767337739467621,
+          "bbox": [
+            301,
+            687,
+            1195,
+            707
+          ],
+          "words": [
+            {
+              "text": "Payment authority",
+              "conf": 0.9662821292877197,
+              "bbox": [
+                301,
+                690,
+                409,
+                707
+              ]
+            },
+            {
+              "text": "NEXTGEN",
+              "conf": 0.9742692708969116,
+              "bbox": [
+                519,
+                687,
+                579,
+                704
+              ]
+            },
+            {
+              "text": "Interest accrued",
+              "conf": 0.9689939022064209,
+              "bbox": [
+                940,
+                690,
+                1036,
+                707
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9973897933959961,
+              "bbox": [
+                1158,
+                687,
+                1195,
+                705
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Potential duplicate claims",
+          "conf": 0.9701727628707886,
+          "bbox": [
+            35,
+            704,
+            180,
+            717
+          ],
+          "words": [
+            {
+              "text": "Potential duplicate claims",
+              "conf": 0.9701727628707886,
+              "bbox": [
+                35,
+                704,
+                180,
+                717
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pay to member No Excluded from interest Yes Cancel",
+          "conf": 0.9871260762214661,
+          "bbox": [
+            301,
+            713,
+            1436,
+            733
+          ],
+          "words": [
+            {
+              "text": "Pay to member",
+              "conf": 0.9657734632492065,
+              "bbox": [
+                301,
+                715,
+                388,
+                732
+              ]
+            },
+            {
+              "text": "No",
+              "conf": 0.9984570145606995,
+              "bbox": [
+                516,
+                713,
+                541,
+                732
+              ]
+            },
+            {
+              "text": "Excluded from interest",
+              "conf": 0.9752146005630493,
+              "bbox": [
+                939,
+                713,
+                1071,
+                732
+              ]
+            },
+            {
+              "text": "Yes",
+              "conf": 0.9985337257385254,
+              "bbox": [
+                1158,
+                715,
+                1181,
+                731
+              ]
+            },
+            {
+              "text": "Cancel",
+              "conf": 0.9976515769958496,
+              "bbox": [
+                1395,
+                719,
+                1436,
+                733
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No system identified duplicates.",
+          "conf": 0.9822262525558472,
+          "bbox": [
+            35,
+            729,
+            212,
+            742
+          ],
+          "words": [
+            {
+              "text": "No system identified duplicates.",
+              "conf": 0.9822262525558472,
+              "bbox": [
+                35,
+                729,
+                212,
+                742
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

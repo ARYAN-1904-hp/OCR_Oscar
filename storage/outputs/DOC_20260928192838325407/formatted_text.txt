@@ -1,0 +1,443 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=9 | tables=4 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 15x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Q Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Lisandra Fuentes | - | - | -
+  CELL[3,0] = Lisandra Fuentes
+ROW 4 | Castro | - | - | -
+  CELL[4,0] = Castro
+ROW 5 | Active | Member info | - | -
+  CELL[5,0] = Active
+  CELL[5,1] = Member info
+ROW 6 | OSC76948676-01 R216854F : | - | - | -
+  CELL[6,0] = OSC76948676-01 R216854F :
+ROW 7 | Holder - ON exc | - | - | -
+  CELL[7,0] = Holder - ON exc
+ROW 8 | Basic info | Edit Assigned PCP | Manage PCP | Web account
+  CELL[8,0] = Basic info
+  CELL[8,1] = Edit Assigned PCP
+  CELL[8,2] = Manage PCP
+  CELL[8,3] = Web account
+ROW 9 | Legal first | Lisandra PCP | Juan Romero | No website profile set up.
+  CELL[9,0] = Legal first
+  CELL[9,1] = Lisandra PCP
+  CELL[9,2] = Juan Romero
+  CELL[9,3] = No website profile set up.
+ROW 10 | Heads up note | - | - | -
+  CELL[10,0] = Heads up note
+ROW 11 | FL HMO Standard | From enrollment dataa | - | -
+  CELL[11,0] = FL HMO Standard
+  CELL[11,1] = From enrollment dataa
+ROW 12 | Preferred first name | Lisandra Primary emall fuentescastrolisandra@gmail.com | - | -
+  CELL[12,0] = Preferred first name
+  CELL[12,1] = Lisandra Primary emall fuentescastrolisandra@gmail.com
+ROW 13 | Effective 05/01/2026 | - | - | -
+  CELL[13,0] = Effective 05/01/2026
+ROW 14 | Preferred last name | Fuentes Castro | - | -
+  CELL[14,0] = Preferred last name
+  CELL[14,1] = Fuentes Castro
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 9x4
+HEADER | Legal middle | NPI | 1912943614 | Send member a link to set up account on their device.
+ROW 1 | Legal last | Fuentes Castro TIN | 842640890 | -
+  CELL[1,0] = Legal last
+  CELL[1,1] = Fuentes Castro TIN
+  CELL[1,2] = 842640890
+ROW 2 | Suffix | Phone number | 305-266-2929 Health info | -
+  CELL[2,0] = Suffix
+  CELL[2,1] = Phone number
+  CELL[2,2] = 305-266-2929 Health info
+ROW 3 | Member actions Date of birth | 07/01/1996 Last updated by | jesuseduardo.vega on 04/24/2026 | Virtual Urgent Care set up? No
+  CELL[3,0] = Member actions Date of birth
+  CELL[3,1] = 07/01/1996 Last updated by
+  CELL[3,2] = jesuseduardo.vega on 04/24/2026
+  CELL[3,3] = Virtual Urgent Care set up? No
+ROW 4 | Age | 30 | - | Patlent intake Missing
+  CELL[4,0] = Age
+  CELL[4,1] = 30
+  CELL[4,3] = Patlent intake Missing
+ROW 5 | FLDade SSN | 137-61-5164 Contact | Edit | Health survey MIssing
+  CELL[5,0] = FLDade SSN
+  CELL[5,1] = 137-61-5164 Contact
+  CELL[5,2] = Edit
+  CELL[5,3] = Health survey MIssing
+ROW 6 | SPO3FLTeam Legal sex | Female Primary phone | 786)861-7565 | -
+  CELL[6,0] = SPO3FLTeam Legal sex
+  CELL[6,1] = Female Primary phone
+  CELL[6,2] = 786)861-7565
+ROW 7 | Oscar plan: Spoken language | Spanish Last edited by ets on 11/12/2024 | - | Consent and authorizations Send HIPAA form
+  CELL[7,0] = Oscar plan: Spoken language
+  CELL[7,1] = Spanish Last edited by ets on 11/12/2024
+  CELL[7,3] = Consent and authorizations Send HIPAA form
+ROW 8 | Gold Simple Written language | Spanish Alternate phoned | Missing number | RHIO access No choice
+  CELL[8,0] = Gold Simple Written language
+  CELL[8,1] = Spanish Alternate phoned
+  CELL[8,2] = Missing number
+  CELL[8,3] = RHIO access No choice
+[/TABLE 1]
+
+[TABLE 2 | source=wide_grid]
+shape: 2x5
+HEADER | View ID card | SMS phone Last edited by ets on 11/12/2024 | (786) 861-7565 | Emall communlcations | Not Authorized
+ROW 1 | Juan Romero Personalized info | Edit | - | SMS communications | Not Authorized
+  CELL[1,0] = Juan Romero Personalized info
+  CELL[1,1] = Edit
+  CELL[1,3] = SMS communications
+  CELL[1,4] = Not Authorized
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 6x4
+HEADER | Individual | Gender assigned at birth. | Residential address | Edit
+ROW 1 | $No bills | Gender identity | Address | 1030 W 28th St Apt 4
+  CELL[1,0] = $No bills
+  CELL[1,1] = Gender identity
+  CELL[1,2] = Address
+  CELL[1,3] = 1030 W 28th St Apt 4
+ROW 2 | Oscar Unlocks | Pronouns | City | Hialeah
+  CELL[2,0] = Oscar Unlocks
+  CELL[2,1] = Pronouns
+  CELL[2,2] = City
+  CELL[2,3] = Hialeah
+ROW 3 | Not activated | Sexual orientatlon | State | FL
+  CELL[3,0] = Not activated
+  CELL[3,1] = Sexual orientatlon
+  CELL[3,2] = State
+  CELL[3,3] = FL
+ROW 4 | - | Race/Ethnicity | Zipcode | 33010
+  CELL[4,1] = Race/Ethnicity
+  CELL[4,2] = Zipcode
+  CELL[4,3] = 33010
+ROW 5 | Member tags | - | County | Miami-Dade
+  CELL[5,0] = Member tags
+  CELL[5,2] = County
+  CELL[5,3] = Miami-Dade
+[/TABLE 3]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,15,1580,102] | order=0
+  rosco Q Search Rosco MR Melissa
+  Lisandra Fuentes Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 1 | type=table_row | bbox=[17,105,88,130] | order=1
+  Castro
+BLOCK 2 | type=table_row | bbox=[21,141,385,167] | order=2
+  Active Member info
+BLOCK 3 | type=table_row | bbox=[19,167,182,183] | order=3
+  OSC76948676-01 R216854F:
+BLOCK 4 | type=table_row | bbox=[16,185,160,584] | order=4
+  Holder - ON exc
+  Effective 05/01/2026
+BLOCK 5 | type=table | bbox=[16,199,1275,552] | order=5
+  Basic info Edit Assigned PCP Manage PCP Web account
+  Heads up note Legal first Lisandra PCP Juan Romero No website profile set up.
+  Legal middle NPI 1912943614 Send member a link to set up account on their device.
+  Legal last Fuentes Castro TIN 842640890
+  Suffix Phone number 305-266-2929 Health info
+  Member actions Date of birth 07/01/1996 Last updated by jesuseduardo.vega on 04/24/2026 Virtual Urgent Care set up? No
+  Age 30 Patlent intake Missing
+  FLDade SSN 137-61-5164 Contact Edit Health survey MIssing
+  SPO3FLTeam Legal sex Female Primary phone (786) 861-7565
+  Oscar plan: Spoken language Spanish Last edited by ets on 11/12/2024 Consent and authorizations Send HIPAA form
+  FL HMO Standard Gold Simple Written language Spanish From enrollment dataa Alternate phoned Missing number RHIO access No choice
+  View ID card SMS phone Last edited by ets on 11/12/2024 (786) 861-7565 Emall communlcations Not Authorized
+  Juan Romero Personalized info Edit SMS communications Not Authorized
+BLOCK 6 | type=table | bbox=[285,547,925,597] | order=6
+  Preferred first name Lisandra Primary emall fuentescastrolisandra@gmail.com
+  Preferred last name Fuentes Castro
+BLOCK 7 | type=table | bbox=[17,600,937,708] | order=7
+  Individual Gender assigned at birth. Residential address Edit
+  $No bills Gender identity Address 1030 W 28th St Apt 4
+  Oscar Unlocks Pronouns City Hialeah
+  Not activated Sexual orientatlon State FL
+BLOCK 8 | type=footer | bbox=[18,710,929,763] | order=8
+  Race/Ethnicity Zipcode 33010
+  Member tags County Miami-Dade
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,15,1580,597] | shape=15x4 | conf=0.920
+  shape: 15x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Q Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Q Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Lisandra Fuentes | - | - | -
+    CELL[3,0] = Lisandra Fuentes
+  ROW 4 | Castro | - | - | -
+    CELL[4,0] = Castro
+  ROW 5 | Active | Member info | - | -
+    CELL[5,0] = Active
+    CELL[5,1] = Member info
+  ROW 6 | OSC76948676-01 R216854F : | - | - | -
+    CELL[6,0] = OSC76948676-01 R216854F :
+  ROW 7 | Holder - ON exc | - | - | -
+    CELL[7,0] = Holder - ON exc
+  ROW 8 | Basic info | Edit Assigned PCP | Manage PCP | Web account
+    CELL[8,0] = Basic info
+    CELL[8,1] = Edit Assigned PCP
+    CELL[8,2] = Manage PCP
+    CELL[8,3] = Web account
+  ROW 9 | Legal first | Lisandra PCP | Juan Romero | No website profile set up.
+    CELL[9,0] = Legal first
+    CELL[9,1] = Lisandra PCP
+    CELL[9,2] = Juan Romero
+    CELL[9,3] = No website profile set up.
+  ROW 10 | Heads up note | - | - | -
+    CELL[10,0] = Heads up note
+  ROW 11 | FL HMO Standard | From enrollment dataa | - | -
+    CELL[11,0] = FL HMO Standard
+    CELL[11,1] = From enrollment dataa
+  ROW 12 | Preferred first name | Lisandra Primary emall fuentescastrolisandra@gmail.com | - | -
+    CELL[12,0] = Preferred first name
+    CELL[12,1] = Lisandra Primary emall fuentescastrolisandra@gmail.com
+  ROW 13 | Effective 05/01/2026 | - | - | -
+    CELL[13,0] = Effective 05/01/2026
+  ROW 14 | Preferred last name | Fuentes Castro | - | -
+    CELL[14,0] = Preferred last name
+    CELL[14,1] = Fuentes Castro
+TABLE 1 | source=wide_grid | bbox=[16,246,1275,490] | shape=9x4 | conf=0.850
+  shape: 9x4
+  HEADER | Legal middle | NPI | 1912943614 | Send member a link to set up account on their device.
+  ROW 1 | Legal last | Fuentes Castro TIN | 842640890 | -
+    CELL[1,0] = Legal last
+    CELL[1,1] = Fuentes Castro TIN
+    CELL[1,2] = 842640890
+  ROW 2 | Suffix | Phone number | 305-266-2929 Health info | -
+    CELL[2,0] = Suffix
+    CELL[2,1] = Phone number
+    CELL[2,2] = 305-266-2929 Health info
+  ROW 3 | Member actions Date of birth | 07/01/1996 Last updated by | jesuseduardo.vega on 04/24/2026 | Virtual Urgent Care set up? No
+    CELL[3,0] = Member actions Date of birth
+    CELL[3,1] = 07/01/1996 Last updated by
+    CELL[3,2] = jesuseduardo.vega on 04/24/2026
+    CELL[3,3] = Virtual Urgent Care set up? No
+  ROW 4 | Age | 30 | - | Patlent intake Missing
+    CELL[4,0] = Age
+    CELL[4,1] = 30
+    CELL[4,3] = Patlent intake Missing
+  ROW 5 | FLDade SSN | 137-61-5164 Contact | Edit | Health survey MIssing
+    CELL[5,0] = FLDade SSN
+    CELL[5,1] = 137-61-5164 Contact
+    CELL[5,2] = Edit
+    CELL[5,3] = Health survey MIssing
+  ROW 6 | SPO3FLTeam Legal sex | Female Primary phone | 786)861-7565 | -
+    CELL[6,0] = SPO3FLTeam Legal sex
+    CELL[6,1] = Female Primary phone
+    CELL[6,2] = 786)861-7565
+  ROW 7 | Oscar plan: Spoken language | Spanish Last edited by ets on 11/12/2024 | - | Consent and authorizations Send HIPAA form
+    CELL[7,0] = Oscar plan: Spoken language
+    CELL[7,1] = Spanish Last edited by ets on 11/12/2024
+    CELL[7,3] = Consent and authorizations Send HIPAA form
+  ROW 8 | Gold Simple Written language | Spanish Alternate phoned | Missing number | RHIO access No choice
+    CELL[8,0] = Gold Simple Written language
+    CELL[8,1] = Spanish Alternate phoned
+    CELL[8,2] = Missing number
+    CELL[8,3] = RHIO access No choice
+TABLE 2 | source=wide_grid | bbox=[18,502,1268,552] | shape=2x5 | conf=0.850
+  shape: 2x5
+  HEADER | View ID card | SMS phone Last edited by ets on 11/12/2024 | (786) 861-7565 | Emall communlcations | Not Authorized
+  ROW 1 | Juan Romero Personalized info | Edit | - | SMS communications | Not Authorized
+    CELL[1,0] = Juan Romero Personalized info
+    CELL[1,1] = Edit
+    CELL[1,3] = SMS communications
+    CELL[1,4] = Not Authorized
+TABLE 3 | source=wide_grid | bbox=[17,600,937,763] | shape=6x4 | conf=0.850
+  shape: 6x4
+  HEADER | Individual | Gender assigned at birth. | Residential address | Edit
+  ROW 1 | $No bills | Gender identity | Address | 1030 W 28th St Apt 4
+    CELL[1,0] = $No bills
+    CELL[1,1] = Gender identity
+    CELL[1,2] = Address
+    CELL[1,3] = 1030 W 28th St Apt 4
+  ROW 2 | Oscar Unlocks | Pronouns | City | Hialeah
+    CELL[2,0] = Oscar Unlocks
+    CELL[2,1] = Pronouns
+    CELL[2,2] = City
+    CELL[2,3] = Hialeah
+  ROW 3 | Not activated | Sexual orientatlon | State | FL
+    CELL[3,0] = Not activated
+    CELL[3,1] = Sexual orientatlon
+    CELL[3,2] = State
+    CELL[3,3] = FL
+  ROW 4 | - | Race/Ethnicity | Zipcode | 33010
+    CELL[4,1] = Race/Ethnicity
+    CELL[4,2] = Zipcode
+    CELL[4,3] = 33010
+  ROW 5 | Member tags | - | County | Miami-Dade
+    CELL[5,0] = Member tags
+    CELL[5,2] = County
+    CELL[5,3] = Miami-Dade
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,15,1580,36] | conf=0.915 | text=rosco Q Search Rosco MR Melissa
+  WORD | bbox=[14,17,72,34] | text=rosco
+  WORD | bbox=[112,17,134,33] | text=Q
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1464,15,1550,36] | text=MR Melissa
+LINE 1 | bbox=[19,71,919,102] | conf=0.978 | text=Lisandra Fuentes Memberinfo Issues Policy details Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,186,102] | text=Lisandra Fuentes
+  WORD | bbox=[275,71,351,91] | text=Memberinfo
+  WORD | bbox=[365,74,405,88] | text=Issues
+  WORD | bbox=[421,73,500,89] | text=Policy details
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[640,71,749,89] | text=Billing & payments
+  WORD | bbox=[762,73,818,89] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[17,105,88,130] | conf=1.000 | text=Castro
+LINE 3 | bbox=[21,141,385,167] | conf=0.983 | text=Active Member info
+  WORD | bbox=[21,141,64,159] | text=Active
+  WORD | bbox=[277,148,385,167] | text=Member info
+LINE 4 | bbox=[19,167,182,183] | conf=0.949 | text=OSC76948676-01 R216854F:
+LINE 5 | bbox=[16,185,105,201] | conf=0.958 | text=Holder - ON exc
+LINE 6 | bbox=[17,564,160,584] | conf=0.983 | text=Effective 05/01/2026
+LINE 7 | bbox=[278,199,1036,216] | conf=0.990 | text=Basic info Edit Assigned PCP Manage PCP Web account
+  WORD | bbox=[278,199,336,215] | text=Basic info
+  WORD | bbox=[568,200,595,215] | text=Edit
+  WORD | bbox=[619,199,699,215] | text=Assigned PCP
+  WORD | bbox=[860,200,935,216] | text=Manage PCP
+  WORD | bbox=[959,199,1036,215] | text=Web account
+LINE 8 | bbox=[30,221,1100,253] | conf=0.984 | text=Heads up note Legal first Lisandra PCP Juan Romero No website profile set up.
+  WORD | bbox=[30,235,115,253] | text=Heads up note
+  WORD | bbox=[283,221,348,242] | text=Legal first
+  WORD | bbox=[532,222,589,242] | text=Lisandra
+  WORD | bbox=[624,223,655,241] | text=PCP
+  WORD | bbox=[851,227,925,239] | text=Juan Romero
+  WORD | bbox=[959,223,1100,236] | text=No website profile set up.
+LINE 9 | bbox=[286,246,1256,269] | conf=0.957 | text=Legal middle NPI 1912943614 Send member a link to set up account on their device.
+  WORD | bbox=[286,253,360,266] | text=Legal middle
+  WORD | bbox=[624,250,652,269] | text=NPI
+  WORD | bbox=[862,251,929,267] | text=1912943614
+  WORD | bbox=[959,246,1256,264] | text=Send member a link to set up account on their device.
+LINE 10 | bbox=[283,275,929,296] | conf=0.975 | text=Legal last Fuentes Castro TIN 842640890
+  WORD | bbox=[283,275,345,296] | text=Legal last
+  WORD | bbox=[497,276,588,296] | text=Fuentes Castro
+  WORD | bbox=[624,276,651,295] | text=TIN
+  WORD | bbox=[861,278,929,294] | text=842640890
+LINE 11 | bbox=[285,304,1024,322] | conf=0.985 | text=Suffix Phone number 305-266-2929 Health info
+  WORD | bbox=[285,304,324,322] | text=Suffix
+  WORD | bbox=[626,304,711,321] | text=Phone number
+  WORD | bbox=[846,304,927,321] | text=305-266-2929
+  WORD | bbox=[959,306,1024,322] | text=Health info
+LINE 12 | bbox=[70,330,1268,348] | conf=0.962 | text=Member actions Date of birth 07/01/1996 Last updated by jesuseduardo.vega on 04/24/2026 Virtual Urgent Care set up? No
+  WORD | bbox=[70,331,161,346] | text=Member actions
+  WORD | bbox=[286,331,361,348] | text=Date of birth
+  WORD | bbox=[522,331,589,348] | text=07/01/1996
+  WORD | bbox=[625,330,721,348] | text=Last updated by
+  WORD | bbox=[734,334,926,346] | text=jesuseduardo.vega on 04/24/2026
+  WORD | bbox=[968,331,1121,348] | text=Virtual Urgent Care set up?
+  WORD | bbox=[1248,332,1268,348] | text=No
+LINE 13 | bbox=[284,355,1269,377] | conf=0.976 | text=Age 30 Patlent intake Missing
+  WORD | bbox=[284,358,312,377] | text=Age
+  WORD | bbox=[568,358,589,374] | text=30
+  WORD | bbox=[968,358,1050,374] | text=Patlent intake
+  WORD | bbox=[1218,355,1269,376] | text=Missing
+LINE 14 | bbox=[17,378,1269,412] | conf=0.981 | text=FLDade SSN 137-61-5164 Contact Edit Health survey MIssing
+  WORD | bbox=[17,378,95,400] | text=FLDade
+  WORD | bbox=[282,381,317,403] | text=SSN
+  WORD | bbox=[520,384,588,401] | text=137-61-5164
+  WORD | bbox=[616,390,670,412] | text=Contact
+  WORD | bbox=[909,395,935,410] | text=Edit
+  WORD | bbox=[966,382,1046,402] | text=Health survey
+  WORD | bbox=[1200,384,1269,402] | text=MIssing
+LINE 15 | bbox=[16,408,926,435] | conf=0.977 | text=SPO3FLTeam Legal sex Female Primary phone (786) 861-7565
+  WORD | bbox=[16,411,126,433] | text=SPO3FLTeam
+  WORD | bbox=[285,411,341,428] | text=Legal sex
+  WORD | bbox=[541,408,588,429] | text=Female
+  WORD | bbox=[625,419,711,435] | text=Primary phone
+  WORD | bbox=[827,419,926,435] | text=786)861-7565
+LINE 16 | bbox=[17,438,1275,465] | conf=0.977 | text=Oscar plan: Spoken language Spanish Last edited by ets on 11/12/2024 Consent and authorizations Send HIPAA form
+  WORD | bbox=[17,445,106,465] | text=Oscar plan:
+  WORD | bbox=[285,438,385,454] | text=Spoken language
+  WORD | bbox=[539,439,586,453] | text=Spanish
+  WORD | bbox=[626,438,780,451] | text=Last edited by ets on 11/12/2024
+  WORD | bbox=[957,446,1118,463] | text=Consent and authorizations
+  WORD | bbox=[1176,447,1275,465] | text=Send HIPAA form
+LINE 17 | bbox=[39,463,1269,504] | conf=0.982 | text=FL HMO Standard Gold Simple Written language Spanish From enrollment dataa Alternate phoned Missing number RHIO access No choice
+  WORD | bbox=[39,488,141,504] | text=FL HMO Standard
+  WORD | bbox=[40,468,110,485] | text=Gold Simple
+  WORD | bbox=[285,463,386,483] | text=Written language
+  WORD | bbox=[539,466,588,480] | text=Spanish
+  WORD | bbox=[624,480,734,498] | text=From enrollment dataa
+  WORD | bbox=[628,465,719,477] | text=Alternate phoned
+  WORD | bbox=[818,463,926,480] | text=Missing number
+  WORD | bbox=[968,471,1041,488] | text=RHIO access
+  WORD | bbox=[1207,471,1269,490] | text=No choice
+LINE 18 | bbox=[40,502,1268,538] | conf=0.974 | text=View ID card SMS phone Last edited by ets on 11/12/2024 (786) 861-7565 Emall communlcations Not Authorized
+  WORD | bbox=[40,508,112,521] | text=View ID card
+  WORD | bbox=[623,504,780,538] | text=SMS phone Last edited by ets on 11/12/2024
+  WORD | bbox=[826,505,928,523] | text=(786) 861-7565
+  WORD | bbox=[969,502,1096,514] | text=Emall communlcations
+  WORD | bbox=[1180,502,1268,514] | text=Not Authorized
+LINE 19 | bbox=[18,527,1266,552] | conf=0.992 | text=Juan Romero Personalized info Edit SMS communications Not Authorized
+  WORD | bbox=[18,535,117,552] | text=Juan Romero
+  WORD | bbox=[279,527,376,544] | text=Personalized info
+  WORD | bbox=[568,528,595,544] | text=Edit
+  WORD | bbox=[969,528,1090,541] | text=SMS communications
+  WORD | bbox=[1165,528,1266,541] | text=Not Authorized
+LINE 20 | bbox=[286,547,925,571] | conf=0.985 | text=Preferred first name Lisandra Primary emall fuentescastrolisandra@gmail.com
+  WORD | bbox=[286,552,402,569] | text=Preferred first name
+  WORD | bbox=[533,550,589,571] | text=Lisandra
+  WORD | bbox=[625,547,706,568] | text=Primary emall
+  WORD | bbox=[734,550,925,565] | text=fuentescastrolisandra@gmail.com
+LINE 21 | bbox=[285,578,588,597] | conf=0.975 | text=Preferred last name Fuentes Castro
+  WORD | bbox=[285,578,400,596] | text=Preferred last name
+  WORD | bbox=[497,578,588,597] | text=Fuentes Castro
+LINE 22 | bbox=[20,600,937,632] | conf=0.986 | text=Individual Gender assigned at birth. Residential address Edit
+  WORD | bbox=[20,600,96,616] | text=Individual
+  WORD | bbox=[288,609,425,621] | text=Gender assigned at birth.
+  WORD | bbox=[620,614,730,626] | text=Residential address
+  WORD | bbox=[906,609,937,632] | text=Edit
+LINE 23 | bbox=[17,631,927,654] | conf=0.980 | text=$No bills Gender identity Address 1030 W 28th St Apt 4
+  WORD | bbox=[17,631,85,651] | text=$No bills
+  WORD | bbox=[286,633,378,649] | text=Gender identity
+  WORD | bbox=[626,639,675,653] | text=Address
+  WORD | bbox=[810,638,927,654] | text=1030 W 28th St Apt 4
+LINE 24 | bbox=[20,659,927,682] | conf=0.987 | text=Oscar Unlocks Pronouns City Hialeah
+  WORD | bbox=[20,666,122,682] | text=Oscar Unlocks
+  WORD | bbox=[285,659,344,676] | text=Pronouns
+  WORD | bbox=[625,663,654,682] | text=City
+  WORD | bbox=[882,663,927,681] | text=Hialeah
+LINE 25 | bbox=[40,685,929,708] | conf=0.994 | text=Not activated Sexual orientatlon State FL
+  WORD | bbox=[40,686,119,699] | text=Not activated
+  WORD | bbox=[284,685,391,701] | text=Sexual orientatlon
+  WORD | bbox=[625,690,662,708] | text=State
+  WORD | bbox=[909,691,929,707] | text=FL
+LINE 26 | bbox=[285,710,929,735] | conf=0.995 | text=Race/Ethnicity Zipcode 33010
+  WORD | bbox=[285,710,375,731] | text=Race/Ethnicity
+  WORD | bbox=[626,719,675,733] | text=Zipcode
+  WORD | bbox=[890,717,929,735] | text=33010
+LINE 27 | bbox=[18,736,926,763] | conf=0.989 | text=Member tags County Miami-Dade
+  WORD | bbox=[18,736,96,752] | text=Member tags
+  WORD | bbox=[625,745,671,763] | text=County
+  WORD | bbox=[854,743,926,760] | text=Miami-Dade
+[/BOXES]
+
+[FIELDS]
+Email: fuentescastrolisandra@gmail.com
+Phone: 305-266-2929
+Phone: (786) 861-7565
+NPI: 1912943614
+[/FIELDS]

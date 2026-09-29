@@ -1,0 +1,2871 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Search Rosco MR Melissa -\nLisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nCastro\nOSC76948676-01: R216854F . Active Claims Export CSV\nHolder - ON exc\nHeads up note\nSP03FL Team\nFLDade\nOrder by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2) Member responsibility . Status Provider/Facillty\n4DWG6QRE $0.00\nMedical claim  Complicated or multiple drainage of skin abscess Denied\nMember actions @No facility referenced-Michelle Detweller\nService on Jul 14, 2026  Accumulation on Jul 14, 2026\nE5YGSN18 $0.00\nOscar plan: Gold Simple Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina Processed\nEffective 05/01/2026\nYJuan Romero\nFL HMO Standard ONo facility referenced  Carlos a Rodriguez\nView ID card Service on Jul 10, 2026 Accumulation on Jul 22, 2026\n3SB6XK79 $5.00\nIndividual Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Processed\n$No bills No facility referenced  Carlos a Rodriguez\nService On Jul 10, 2026  Accumulation on Jul 22, 2026\nNot activated Applies to OOPM Cumulative OOPM $721.75\nOscar Unlocks\nMember tags",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Search Rosco MR Melissa -\nLisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nCastro\nOSC76948676-01: R216854F . Active Claims Export CSV\nHolder - ON exc\nHeads up note\nSP03FL Team\nFLDade\nOrder by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2) Member responsibility . Status Provider/Facillty\n4DWG6QRE $0.00\nMedical claim  Complicated or multiple drainage of skin abscess Denied\nMember actions @No facility referenced-Michelle Detweller\nService on Jul 14, 2026  Accumulation on Jul 14, 2026\nE5YGSN18 $0.00\nOscar plan: Gold Simple Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina Processed\nEffective 05/01/2026\nYJuan Romero\nFL HMO Standard ONo facility referenced  Carlos a Rodriguez\nView ID card Service on Jul 10, 2026 Accumulation on Jul 22, 2026\n3SB6XK79 $5.00\nIndividual Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Processed\n$No bills No facility referenced  Carlos a Rodriguez\nService On Jul 10, 2026  Accumulation on Jul 22, 2026\nNot activated Applies to OOPM Cumulative OOPM $721.75\nOscar Unlocks\nMember tags",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "paragraph",
+              "reading_order": 7,
+              "bbox": [
+                69,
+                205,
+                1255,
+                452
+              ],
+              "text": "Order by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2) Member responsibility . Status Provider/Facillty\n4DWG6QRE $0.00\nMedical claim  Complicated or multiple drainage of skin abscess Denied\nMember actions @No facility referenced-Michelle Detweller\nService on Jul 14, 2026  Accumulation on Jul 14, 2026\nE5YGSN18 $0.00",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Order by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2) Member responsibility . Status Provider/Facillty",
+                  "conf": 0.9613968431949615,
+                  "bbox": [
+                    291,
+                    205,
+                    1229,
+                    223
+                  ],
+                  "words": [
+                    {
+                      "text": "Order by date of service",
+                      "conf": 0.9703426361083984,
+                      "bbox": [
+                        291,
+                        208,
+                        429,
+                        220
+                      ]
+                    },
+                    {
+                      "text": "Medical claims",
+                      "conf": 0.9504098892211914,
+                      "bbox": [
+                        466,
+                        206,
+                        554,
+                        219
+                      ]
+                    },
+                    {
+                      "text": "Service dates 01/01/2025-07/23/2026 (2)",
+                      "conf": 0.9595306515693665,
+                      "bbox": [
+                        592,
+                        208,
+                        839,
+                        220
+                      ]
+                    },
+                    {
+                      "text": "Member responsibility .",
+                      "conf": 0.9557317495346069,
+                      "bbox": [
+                        873,
+                        206,
+                        1011,
+                        223
+                      ]
+                    },
+                    {
+                      "text": "Status",
+                      "conf": 0.9925443530082703,
+                      "bbox": [
+                        1041,
+                        208,
+                        1094,
+                        223
+                      ]
+                    },
+                    {
+                      "text": "Provider/Facillty ",
+                      "conf": 0.9398217797279358,
+                      "bbox": [
+                        1122,
+                        205,
+                        1229,
+                        223
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "4DWG6QRE $0.00",
+                  "conf": 0.9975461363792419,
+                  "bbox": [
+                    304,
+                    278,
+                    1255,
+                    301
+                  ],
+                  "words": [
+                    {
+                      "text": "4DWG6QRE",
+                      "conf": 0.9970260262489319,
+                      "bbox": [
+                        304,
+                        279,
+                        384,
+                        295
+                      ]
+                    },
+                    {
+                      "text": "$0.00",
+                      "conf": 0.998066246509552,
+                      "bbox": [
+                        1212,
+                        278,
+                        1255,
+                        301
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Medical claim  Complicated or multiple drainage of skin abscess Denied",
+                  "conf": 0.9928963780403137,
+                  "bbox": [
+                    304,
+                    308,
+                    1251,
+                    325
+                  ],
+                  "words": [
+                    {
+                      "text": " Medical claim  Complicated or multiple drainage of skin abscess",
+                      "conf": 0.9880696535110474,
+                      "bbox": [
+                        304,
+                        308,
+                        690,
+                        325
+                      ]
+                    },
+                    {
+                      "text": "Denied",
+                      "conf": 0.9977231025695801,
+                      "bbox": [
+                        1206,
+                        308,
+                        1251,
+                        322
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 3,
+                  "text": "Member actions @No facility referenced-Michelle Detweller",
+                  "conf": 0.965640664100647,
+                  "bbox": [
+                    69,
+                    328,
+                    564,
+                    349
+                  ],
+                  "words": [
+                    {
+                      "text": "Member actions",
+                      "conf": 0.9804567694664001,
+                      "bbox": [
+                        69,
+                        330,
+                        164,
+                        349
+                      ]
+                    },
+                    {
+                      "text": "@No facility referenced-Michelle Detweller",
+                      "conf": 0.9508245587348938,
+                      "bbox": [
+                        302,
+                        328,
+                        564,
+                        346
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 4,
+                  "text": "Service on Jul 14, 2026  Accumulation on Jul 14, 2026",
+                  "conf": 0.9783213138580322,
+                  "bbox": [
+                    302,
+                    351,
+                    616,
+                    368
+                  ],
+                  "words": [
+                    {
+                      "text": "Service on Jul 14, 2026  Accumulation on Jul 14, 2026",
+                      "conf": 0.9783213138580322,
+                      "bbox": [
+                        302,
+                        351,
+                        616,
+                        368
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 5,
+                  "text": "E5YGSN18 $0.00",
+                  "conf": 0.9975907802581787,
+                  "bbox": [
+                    304,
+                    430,
+                    1254,
+                    452
+                  ],
+                  "words": [
+                    {
+                      "text": "E5YGSN18",
+                      "conf": 0.995965838432312,
+                      "bbox": [
+                        304,
+                        430,
+                        372,
+                        447
+                      ]
+                    },
+                    {
+                      "text": "$0.00",
+                      "conf": 0.9992157220840454,
+                      "bbox": [
+                        1214,
+                        433,
+                        1254,
+                        452
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 11,
+              "bbox": [
+                37,
+                481,
+                1255,
+                604
+              ],
+              "text": "FL HMO Standard ONo facility referenced  Carlos a Rodriguez\nView ID card Service on Jul 10, 2026Accumulation on Jul 22, 2026\n3SB6XK79 $5.00",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "FL HMO Standard ONo facility referenced  Carlos a Rodriguez",
+                  "conf": 0.9680810868740082,
+                  "bbox": [
+                    37,
+                    481,
+                    566,
+                    504
+                  ],
+                  "words": [
+                    {
+                      "text": "FL HMO Standard",
+                      "conf": 0.9745299816131592,
+                      "bbox": [
+                        37,
+                        486,
+                        143,
+                        504
+                      ]
+                    },
+                    {
+                      "text": "ONo facility referenced  Carlos a Rodriguez",
+                      "conf": 0.9616321921348572,
+                      "bbox": [
+                        304,
+                        481,
+                        566,
+                        498
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "View ID card Service on Jul 10, 2026Accumulation on Jul 22, 2026",
+                  "conf": 0.9683231115341187,
+                  "bbox": [
+                    40,
+                    502,
+                    619,
+                    521
+                  ],
+                  "words": [
+                    {
+                      "text": "View ID card",
+                      "conf": 0.9687598347663879,
+                      "bbox": [
+                        40,
+                        508,
+                        112,
+                        521
+                      ]
+                    },
+                    {
+                      "text": "Service on Jul 10, 2026Accumulation on Jul 22, 2026",
+                      "conf": 0.9678863883018494,
+                      "bbox": [
+                        302,
+                        502,
+                        619,
+                        519
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "3SB6XK79 $5.00",
+                  "conf": 0.997263491153717,
+                  "bbox": [
+                    302,
+                    581,
+                    1255,
+                    604
+                  ],
+                  "words": [
+                    {
+                      "text": "3SB6XK79",
+                      "conf": 0.9957728385925293,
+                      "bbox": [
+                        302,
+                        583,
+                        372,
+                        600
+                      ]
+                    },
+                    {
+                      "text": "$5.00",
+                      "conf": 0.9987541437149048,
+                      "bbox": [
+                        1213,
+                        581,
+                        1255,
+                        604
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "paragraph",
+              "reading_order": 13,
+              "bbox": [
+                17,
+                631,
+                618,
+                699
+              ],
+              "text": "$No bills No facility referenced  Carlos a Rodriguez\nService 0n Jul 10, 2026  Accumulation on Jul 22, 2026\nNot activated Applies to OOPM Cumulative OOPM $721.75",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "$No bills No facility referenced  Carlos a Rodriguez",
+                  "conf": 0.9568430185317993,
+                  "bbox": [
+                    17,
+                    631,
+                    566,
+                    651
+                  ],
+                  "words": [
+                    {
+                      "text": "$No bills",
+                      "conf": 0.9335289001464844,
+                      "bbox": [
+                        17,
+                        631,
+                        85,
+                        651
+                      ]
+                    },
+                    {
+                      "text": "No facility referenced  Carlos a Rodriguez",
+                      "conf": 0.9801571369171143,
+                      "bbox": [
+                        304,
+                        633,
+                        566,
+                        649
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Service 0n Jul 10, 2026  Accumulation on Jul 22, 2026",
+                  "conf": 0.9446927309036255,
+                  "bbox": [
+                    304,
+                    657,
+                    618,
+                    670
+                  ],
+                  "words": [
+                    {
+                      "text": "Service 0n Jul 10, 2026  Accumulation on Jul 22, 2026",
+                      "conf": 0.9446927309036255,
+                      "bbox": [
+                        304,
+                        657,
+                        618,
+                        670
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Not activated Applies to OOPM Cumulative OOPM $721.75",
+                  "conf": 0.9658253490924835,
+                  "bbox": [
+                    40,
+                    675,
+                    575,
+                    699
+                  ],
+                  "words": [
+                    {
+                      "text": "Not activated",
+                      "conf": 0.9931552410125732,
+                      "bbox": [
+                        40,
+                        686,
+                        119,
+                        699
+                      ]
+                    },
+                    {
+                      "text": "Applies to OOPM Cumulative OOPM $721.75",
+                      "conf": 0.9384954571723938,
+                      "bbox": [
+                        300,
+                        675,
+                        575,
+                        696
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Order by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2) Member responsibility . Status Provider/Facillty\n4DWG6QRE $0.00\nMedical claim  Complicated or multiple drainage of skin abscess Denied\nMember actions @No facility referenced-Michelle Detweller\nService on Jul 14, 2026  Accumulation on Jul 14, 2026\nE5YGSN18 $0.00\nFL HMO Standard ONo facility referenced  Carlos a Rodriguez\nView ID card Service on Jul 10, 2026Accumulation on Jul 22, 2026\n3SB6XK79 $5.00\n$No bills No facility referenced  Carlos a Rodriguez\nService 0n Jul 10, 2026  Accumulation on Jul 22, 2026\nNot activated Applies to OOPM Cumulative OOPM $721.75"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "text": "rosco Search Rosco MR Melissa -",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Search Rosco MR Melissa -",
+              "conf": 0.9172403812408447,
+              "bbox": [
+                14,
+                17,
+                1580,
+                34
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9885711669921875,
+                  "bbox": [
+                    14,
+                    17,
+                    72,
+                    34
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.9933708310127258,
+                  "bbox": [
+                    138,
+                    18,
+                    230,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9716466665267944,
+                  "bbox": [
+                    1465,
+                    18,
+                    1550,
+                    34
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7153728604316711,
+                  "bbox": [
+                    1565,
+                    23,
+                    1580,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            19,
+            71,
+            919,
+            102
+          ],
+          "text": "Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing &payments Rewards Authorizations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing &payments Rewards Authorizations",
+              "conf": 0.9848487708303664,
+              "bbox": [
+                19,
+                71,
+                919,
+                102
+              ],
+              "words": [
+                {
+                  "text": "Lisandra Fuentes",
+                  "conf": 0.9704288244247437,
+                  "bbox": [
+                    19,
+                    81,
+                    186,
+                    102
+                  ]
+                },
+                {
+                  "text": "Member info",
+                  "conf": 0.9921325445175171,
+                  "bbox": [
+                    275,
+                    73,
+                    351,
+                    89
+                  ]
+                },
+                {
+                  "text": "Issues",
+                  "conf": 0.99818354845047,
+                  "bbox": [
+                    366,
+                    74,
+                    406,
+                    88
+                  ]
+                },
+                {
+                  "text": "Policy detalls",
+                  "conf": 0.969422459602356,
+                  "bbox": [
+                    421,
+                    73,
+                    500,
+                    89
+                  ]
+                },
+                {
+                  "text": "Benefits",
+                  "conf": 0.99494469165802,
+                  "bbox": [
+                    515,
+                    74,
+                    568,
+                    89
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9910710453987122,
+                  "bbox": [
+                    584,
+                    74,
+                    625,
+                    88
+                  ]
+                },
+                {
+                  "text": "Billing &payments",
+                  "conf": 0.9491136074066162,
+                  "bbox": [
+                    640,
+                    71,
+                    749,
+                    89
+                  ]
+                },
+                {
+                  "text": "Rewards",
+                  "conf": 0.9995003938674927,
+                  "bbox": [
+                    764,
+                    75,
+                    816,
+                    88
+                  ]
+                },
+                {
+                  "text": "Authorizations",
+                  "conf": 0.9988418221473694,
+                  "bbox": [
+                    834,
+                    75,
+                    919,
+                    88
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 2,
+          "bbox": [
+            17,
+            105,
+            88,
+            130
+          ],
+          "text": "Castro",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Castro",
+              "conf": 0.999560534954071,
+              "bbox": [
+                17,
+                105,
+                88,
+                130
+              ],
+              "words": [
+                {
+                  "text": "Castro",
+                  "conf": 0.999560534954071,
+                  "bbox": [
+                    17,
+                    105,
+                    88,
+                    130
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            19,
+            138,
+            1261,
+            183
+          ],
+          "text": "OSC76948676-01: R216854F . Active Claims Export CSV",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "OSC76948676-01: R216854F . Active Claims Export CSV",
+              "conf": 0.9766045659780502,
+              "bbox": [
+                19,
+                138,
+                1261,
+                183
+              ],
+              "words": [
+                {
+                  "text": "OSC76948676-01: R216854F .",
+                  "conf": 0.9407640695571899,
+                  "bbox": [
+                    19,
+                    167,
+                    182,
+                    183
+                  ]
+                },
+                {
+                  "text": "Active",
+                  "conf": 0.994232177734375,
+                  "bbox": [
+                    20,
+                    138,
+                    64,
+                    160
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9983482360839844,
+                  "bbox": [
+                    277,
+                    152,
+                    327,
+                    174
+                  ]
+                },
+                {
+                  "text": "Export CSV",
+                  "conf": 0.9730737805366516,
+                  "bbox": [
+                    1202,
+                    157,
+                    1261,
+                    173
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 4,
+          "bbox": [
+            18,
+            186,
+            115,
+            253
+          ],
+          "text": "Holder - ON exc\nHeads up note",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Holder - ON exc",
+              "conf": 0.9821824431419373,
+              "bbox": [
+                18,
+                186,
+                106,
+                202
+              ],
+              "words": [
+                {
+                  "text": "Holder - ON exc",
+                  "conf": 0.9821824431419373,
+                  "bbox": [
+                    18,
+                    186,
+                    106,
+                    202
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Heads up note",
+              "conf": 0.9735168814659119,
+              "bbox": [
+                31,
+                237,
+                115,
+                253
+              ],
+              "words": [
+                {
+                  "text": "Heads up note",
+                  "conf": 0.9735168814659119,
+                  "bbox": [
+                    31,
+                    237,
+                    115,
+                    253
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 5,
+          "bbox": [
+            16,
+            412,
+            126,
+            432
+          ],
+          "text": "SP03FL Team",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "SP03FL Team",
+              "conf": 0.916742742061615,
+              "bbox": [
+                16,
+                412,
+                126,
+                432
+              ],
+              "words": [
+                {
+                  "text": "SP03FL Team",
+                  "conf": 0.916742742061615,
+                  "bbox": [
+                    16,
+                    412,
+                    126,
+                    432
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 6,
+          "bbox": [
+            17,
+            378,
+            95,
+            400
+          ],
+          "text": "FLDade",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FLDade",
+              "conf": 0.9937570691108704,
+              "bbox": [
+                17,
+                378,
+                95,
+                400
+              ],
+              "words": [
+                {
+                  "text": "FLDade",
+                  "conf": 0.9937570691108704,
+                  "bbox": [
+                    17,
+                    378,
+                    95,
+                    400
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 7,
+          "bbox": [
+            69,
+            205,
+            1255,
+            452
+          ],
+          "text": "Order by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2) Member responsibility . Status Provider/Facillty\n4DWG6QRE $0.00\nMedical claim  Complicated or multiple drainage of skin abscess Denied\nMember actions @No facility referenced-Michelle Detweller\nService on Jul 14, 2026  Accumulation on Jul 14, 2026\nE5YGSN18 $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Order by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2) Member responsibility . Status Provider/Facillty",
+              "conf": 0.9613968431949615,
+              "bbox": [
+                291,
+                205,
+                1229,
+                223
+              ],
+              "words": [
+                {
+                  "text": "Order by date of service",
+                  "conf": 0.9703426361083984,
+                  "bbox": [
+                    291,
+                    208,
+                    429,
+                    220
+                  ]
+                },
+                {
+                  "text": "Medical claims",
+                  "conf": 0.9504098892211914,
+                  "bbox": [
+                    466,
+                    206,
+                    554,
+                    219
+                  ]
+                },
+                {
+                  "text": "Service dates 01/01/2025-07/23/2026 (2)",
+                  "conf": 0.9595306515693665,
+                  "bbox": [
+                    592,
+                    208,
+                    839,
+                    220
+                  ]
+                },
+                {
+                  "text": "Member responsibility .",
+                  "conf": 0.9557317495346069,
+                  "bbox": [
+                    873,
+                    206,
+                    1011,
+                    223
+                  ]
+                },
+                {
+                  "text": "Status",
+                  "conf": 0.9925443530082703,
+                  "bbox": [
+                    1041,
+                    208,
+                    1094,
+                    223
+                  ]
+                },
+                {
+                  "text": "Provider/Facillty ",
+                  "conf": 0.9398217797279358,
+                  "bbox": [
+                    1122,
+                    205,
+                    1229,
+                    223
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "4DWG6QRE $0.00",
+              "conf": 0.9975461363792419,
+              "bbox": [
+                304,
+                278,
+                1255,
+                301
+              ],
+              "words": [
+                {
+                  "text": "4DWG6QRE",
+                  "conf": 0.9970260262489319,
+                  "bbox": [
+                    304,
+                    279,
+                    384,
+                    295
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.998066246509552,
+                  "bbox": [
+                    1212,
+                    278,
+                    1255,
+                    301
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Medical claim  Complicated or multiple drainage of skin abscess Denied",
+              "conf": 0.9928963780403137,
+              "bbox": [
+                304,
+                308,
+                1251,
+                325
+              ],
+              "words": [
+                {
+                  "text": " Medical claim  Complicated or multiple drainage of skin abscess",
+                  "conf": 0.9880696535110474,
+                  "bbox": [
+                    304,
+                    308,
+                    690,
+                    325
+                  ]
+                },
+                {
+                  "text": "Denied",
+                  "conf": 0.9977231025695801,
+                  "bbox": [
+                    1206,
+                    308,
+                    1251,
+                    322
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Member actions @No facility referenced-Michelle Detweller",
+              "conf": 0.965640664100647,
+              "bbox": [
+                69,
+                328,
+                564,
+                349
+              ],
+              "words": [
+                {
+                  "text": "Member actions",
+                  "conf": 0.9804567694664001,
+                  "bbox": [
+                    69,
+                    330,
+                    164,
+                    349
+                  ]
+                },
+                {
+                  "text": "@No facility referenced-Michelle Detweller",
+                  "conf": 0.9508245587348938,
+                  "bbox": [
+                    302,
+                    328,
+                    564,
+                    346
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Service on Jul 14, 2026  Accumulation on Jul 14, 2026",
+              "conf": 0.9783213138580322,
+              "bbox": [
+                302,
+                351,
+                616,
+                368
+              ],
+              "words": [
+                {
+                  "text": "Service on Jul 14, 2026  Accumulation on Jul 14, 2026",
+                  "conf": 0.9783213138580322,
+                  "bbox": [
+                    302,
+                    351,
+                    616,
+                    368
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "E5YGSN18 $0.00",
+              "conf": 0.9975907802581787,
+              "bbox": [
+                304,
+                430,
+                1254,
+                452
+              ],
+              "words": [
+                {
+                  "text": "E5YGSN18",
+                  "conf": 0.995965838432312,
+                  "bbox": [
+                    304,
+                    430,
+                    372,
+                    447
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9992157220840454,
+                  "bbox": [
+                    1214,
+                    433,
+                    1254,
+                    452
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 8,
+          "bbox": [
+            16,
+            445,
+            1250,
+            481
+          ],
+          "text": "Oscar plan: Gold Simple Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina Processed",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscar plan: Gold Simple Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina Processed",
+              "conf": 0.9619176238775253,
+              "bbox": [
+                16,
+                445,
+                1250,
+                481
+              ],
+              "words": [
+                {
+                  "text": "Oscar plan:",
+                  "conf": 0.9397584795951843,
+                  "bbox": [
+                    16,
+                    445,
+                    106,
+                    465
+                  ]
+                },
+                {
+                  "text": "Gold Simple",
+                  "conf": 0.9755164980888367,
+                  "bbox": [
+                    40,
+                    468,
+                    108,
+                    481
+                  ]
+                },
+                {
+                  "text": "Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina",
+                  "conf": 0.9580066204071045,
+                  "bbox": [
+                    302,
+                    458,
+                    854,
+                    477
+                  ]
+                },
+                {
+                  "text": "Processed ",
+                  "conf": 0.9743888974189758,
+                  "bbox": [
+                    1169,
+                    458,
+                    1250,
+                    475
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 9,
+          "bbox": [
+            16,
+            564,
+            160,
+            584
+          ],
+          "text": "Effective 05/01/2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Effective 05/01/2026",
+              "conf": 0.9799631237983704,
+              "bbox": [
+                16,
+                564,
+                160,
+                584
+              ],
+              "words": [
+                {
+                  "text": "Effective 05/01/2026",
+                  "conf": 0.9799631237983704,
+                  "bbox": [
+                    16,
+                    564,
+                    160,
+                    584
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 10,
+          "bbox": [
+            18,
+            535,
+            117,
+            552
+          ],
+          "text": "YJuan Romero",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "YJuan Romero",
+              "conf": 0.9301149249076843,
+              "bbox": [
+                18,
+                535,
+                117,
+                552
+              ],
+              "words": [
+                {
+                  "text": "YJuan Romero",
+                  "conf": 0.9301149249076843,
+                  "bbox": [
+                    18,
+                    535,
+                    117,
+                    552
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 11,
+          "bbox": [
+            37,
+            481,
+            1255,
+            604
+          ],
+          "text": "FL HMO Standard ONo facility referenced  Carlos a Rodriguez\nView ID card Service on Jul 10, 2026Accumulation on Jul 22, 2026\n3SB6XK79 $5.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FL HMO Standard ONo facility referenced  Carlos a Rodriguez",
+              "conf": 0.9680810868740082,
+              "bbox": [
+                37,
+                481,
+                566,
+                504
+              ],
+              "words": [
+                {
+                  "text": "FL HMO Standard",
+                  "conf": 0.9745299816131592,
+                  "bbox": [
+                    37,
+                    486,
+                    143,
+                    504
+                  ]
+                },
+                {
+                  "text": "ONo facility referenced  Carlos a Rodriguez",
+                  "conf": 0.9616321921348572,
+                  "bbox": [
+                    304,
+                    481,
+                    566,
+                    498
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "View ID card Service on Jul 10, 2026Accumulation on Jul 22, 2026",
+              "conf": 0.9683231115341187,
+              "bbox": [
+                40,
+                502,
+                619,
+                521
+              ],
+              "words": [
+                {
+                  "text": "View ID card",
+                  "conf": 0.9687598347663879,
+                  "bbox": [
+                    40,
+                    508,
+                    112,
+                    521
+                  ]
+                },
+                {
+                  "text": "Service on Jul 10, 2026Accumulation on Jul 22, 2026",
+                  "conf": 0.9678863883018494,
+                  "bbox": [
+                    302,
+                    502,
+                    619,
+                    519
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "3SB6XK79 $5.00",
+              "conf": 0.997263491153717,
+              "bbox": [
+                302,
+                581,
+                1255,
+                604
+              ],
+              "words": [
+                {
+                  "text": "3SB6XK79",
+                  "conf": 0.9957728385925293,
+                  "bbox": [
+                    302,
+                    583,
+                    372,
+                    600
+                  ]
+                },
+                {
+                  "text": "$5.00",
+                  "conf": 0.9987541437149048,
+                  "bbox": [
+                    1213,
+                    581,
+                    1255,
+                    604
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 12,
+          "bbox": [
+            20,
+            600,
+            1251,
+            626
+          ],
+          "text": "Individual Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Processed",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Individual Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Processed",
+              "conf": 0.9852832555770874,
+              "bbox": [
+                20,
+                600,
+                1251,
+                626
+              ],
+              "words": [
+                {
+                  "text": "Individual",
+                  "conf": 0.9918400645256042,
+                  "bbox": [
+                    20,
+                    600,
+                    96,
+                    616
+                  ]
+                },
+                {
+                  "text": " Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+                  "conf": 0.9879482388496399,
+                  "bbox": [
+                    305,
+                    614,
+                    1060,
+                    626
+                  ]
+                },
+                {
+                  "text": "Processed ",
+                  "conf": 0.9760614633560181,
+                  "bbox": [
+                    1169,
+                    610,
+                    1251,
+                    626
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "paragraph",
+          "reading_order": 13,
+          "bbox": [
+            17,
+            631,
+            618,
+            699
+          ],
+          "text": "$No bills No facility referenced  Carlos a Rodriguez\nService 0n Jul 10, 2026  Accumulation on Jul 22, 2026\nNot activated Applies to OOPM Cumulative OOPM $721.75",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "$No bills No facility referenced  Carlos a Rodriguez",
+              "conf": 0.9568430185317993,
+              "bbox": [
+                17,
+                631,
+                566,
+                651
+              ],
+              "words": [
+                {
+                  "text": "$No bills",
+                  "conf": 0.9335289001464844,
+                  "bbox": [
+                    17,
+                    631,
+                    85,
+                    651
+                  ]
+                },
+                {
+                  "text": "No facility referenced  Carlos a Rodriguez",
+                  "conf": 0.9801571369171143,
+                  "bbox": [
+                    304,
+                    633,
+                    566,
+                    649
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Service 0n Jul 10, 2026  Accumulation on Jul 22, 2026",
+              "conf": 0.9446927309036255,
+              "bbox": [
+                304,
+                657,
+                618,
+                670
+              ],
+              "words": [
+                {
+                  "text": "Service 0n Jul 10, 2026  Accumulation on Jul 22, 2026",
+                  "conf": 0.9446927309036255,
+                  "bbox": [
+                    304,
+                    657,
+                    618,
+                    670
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Not activated Applies to OOPM Cumulative OOPM $721.75",
+              "conf": 0.9658253490924835,
+              "bbox": [
+                40,
+                675,
+                575,
+                699
+              ],
+              "words": [
+                {
+                  "text": "Not activated",
+                  "conf": 0.9931552410125732,
+                  "bbox": [
+                    40,
+                    686,
+                    119,
+                    699
+                  ]
+                },
+                {
+                  "text": "Applies to OOPM Cumulative OOPM $721.75",
+                  "conf": 0.9384954571723938,
+                  "bbox": [
+                    300,
+                    675,
+                    575,
+                    696
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "sidebar",
+          "reading_order": 14,
+          "bbox": [
+            20,
+            666,
+            122,
+            682
+          ],
+          "text": "Oscar Unlocks",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscar Unlocks",
+              "conf": 0.963338315486908,
+              "bbox": [
+                20,
+                666,
+                122,
+                682
+              ],
+              "words": [
+                {
+                  "text": "Oscar Unlocks",
+                  "conf": 0.963338315486908,
+                  "bbox": [
+                    20,
+                    666,
+                    122,
+                    682
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 15,
+          "bbox": [
+            18,
+            736,
+            96,
+            752
+          ],
+          "text": "Member tags",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Member tags",
+              "conf": 0.9715107083320618,
+              "bbox": [
+                18,
+                736,
+                96,
+                752
+              ],
+              "words": [
+                {
+                  "text": "Member tags",
+                  "conf": 0.9715107083320618,
+                  "bbox": [
+                    18,
+                    736,
+                    96,
+                    752
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            14,
+            17,
+            1580,
+            752
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>Search Rosco</td><td>MR Melissa</td><td>-</td></tr><tr><td>Member info Issues Policy detalls Benefits Claims Billing &amp;payments Rewards</td><td></td><td>Authorizations</td><td></td></tr><tr><td>Lisandra Fuentes</td><td></td><td></td><td></td></tr><tr><td>Castro</td><td></td><td></td><td></td></tr><tr><td>Active</td><td></td><td></td><td></td></tr><tr><td>Claims</td><td></td><td>Export CSV</td><td></td></tr><tr><td>OSC76948676-01</td><td>R216854F .</td><td></td><td></td></tr><tr><td>Holder - ON exc</td><td></td><td></td><td></td></tr><tr><td>Order by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2)</td><td></td><td>Member responsibility . Status Provider/Facillty</td><td></td></tr><tr><td>Heads up note</td><td></td><td></td><td></td></tr><tr><td>4DWG6QRE</td><td></td><td>$0.00</td><td></td></tr><tr><td>Medical claim Complicated or multiple drainage of skin abscess</td><td></td><td>Denied</td><td></td></tr><tr><td>Member actions</td><td>@No facility referenced-Michelle Detweller</td><td></td><td></td></tr><tr><td>Service on Jul 14, 2026 Accumulation on Jul 14, 2026</td><td></td><td></td><td></td></tr><tr><td>FLDade</td><td></td><td></td><td></td></tr><tr><td>SP03FL Team</td><td></td><td></td><td></td></tr><tr><td>E5YGSN18</td><td></td><td>$0.00</td><td></td></tr><tr><td>Oscar plan:</td><td></td><td></td><td></td></tr><tr><td>Gold Simple</td><td>Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina</td><td>Processed</td><td></td></tr><tr><td>FL HMO Standard</td><td>ONo facility referenced  Carlos a Rodriguez</td><td></td><td></td></tr><tr><td>View ID card</td><td>Service on Jul 10, 2026Accumulation on Jul 22, 2026</td><td></td><td></td></tr><tr><td>YJuan Romero</td><td></td><td></td><td></td></tr><tr><td>Effective 05/01/2026</td><td></td><td></td><td></td></tr><tr><td>3SB6XK79</td><td></td><td>$5.00</td><td></td></tr><tr><td>Individual</td><td></td><td></td><td></td></tr><tr><td>Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more</td><td></td><td>Processed</td><td></td></tr><tr><td>$No bills</td><td>No facility referenced  Carlos a Rodriguez</td><td></td><td></td></tr><tr><td>Service 0n Jul 10, 2026 Accumulation on Jul 22, 2026</td><td></td><td></td><td></td></tr><tr><td>Oscar Unlocks</td><td></td><td></td><td></td></tr><tr><td>Not activated</td><td>Applies to OOPM Cumulative OOPM $721.75</td><td></td><td></td></tr><tr><td>Member tags</td><td></td><td></td><td></td></tr></table>",
+          "text": "rosco: Search Rosco\nMR Melissa: -\nMember info Issues Policy detalls Benefits Claims Billing &payments Rewards: \nAuthorizations: \nLisandra Fuentes: \nCastro: \nActive: \nClaims: \nExport CSV: \nOSC76948676-01: R216854F .\nHolder - ON exc: \nOrder by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2): \nMember responsibility . Status Provider/Facillty: \nHeads up note: \n4DWG6QRE: \n$0.00: \nMedical claim Complicated or multiple drainage of skin abscess: \nDenied: \nMember actions: @No facility referenced-Michelle Detweller\nService on Jul 14, 2026 Accumulation on Jul 14, 2026: \nFLDade: \nSP03FL Team: \nE5YGSN18: \n$0.00: \nOscar plan:: \nGold Simple: Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina\nProcessed: \nFL HMO Standard: ONo facility referenced  Carlos a Rodriguez\nView ID card: Service on Jul 10, 2026Accumulation on Jul 22, 2026\nYJuan Romero: \nEffective 05/01/2026: \n3SB6XK79: \n$5.00: \nIndividual: \nMedical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more: \nProcessed: \n$No bills: No facility referenced  Carlos a Rodriguez\nService 0n Jul 10, 2026 Accumulation on Jul 22, 2026: \nOscar Unlocks: \nNot activated: Applies to OOPM Cumulative OOPM $721.75\nMember tags: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "Search Rosco",
+              "MR Melissa",
+              "-"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing &payments Rewards",
+              "",
+              "Authorizations",
+              ""
+            ],
+            [
+              "Lisandra Fuentes",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Castro",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Active",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Claims",
+              "",
+              "Export CSV",
+              ""
+            ],
+            [
+              "OSC76948676-01",
+              "R216854F .",
+              "",
+              ""
+            ],
+            [
+              "Holder - ON exc",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Order by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2)",
+              "",
+              "Member responsibility . Status Provider/Facillty",
+              ""
+            ],
+            [
+              "Heads up note",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4DWG6QRE",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "Medical claim Complicated or multiple drainage of skin abscess",
+              "",
+              "Denied",
+              ""
+            ],
+            [
+              "Member actions",
+              "@No facility referenced-Michelle Detweller",
+              "",
+              ""
+            ],
+            [
+              "Service on Jul 14, 2026 Accumulation on Jul 14, 2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "FLDade",
+              "",
+              "",
+              ""
+            ],
+            [
+              "SP03FL Team",
+              "",
+              "",
+              ""
+            ],
+            [
+              "E5YGSN18",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "Oscar plan:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Gold Simple",
+              "Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina",
+              "Processed",
+              ""
+            ],
+            [
+              "FL HMO Standard",
+              "ONo facility referenced  Carlos a Rodriguez",
+              "",
+              ""
+            ],
+            [
+              "View ID card",
+              "Service on Jul 10, 2026Accumulation on Jul 22, 2026",
+              "",
+              ""
+            ],
+            [
+              "YJuan Romero",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Effective 05/01/2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3SB6XK79",
+              "",
+              "$5.00",
+              ""
+            ],
+            [
+              "Individual",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "",
+              "Processed",
+              ""
+            ],
+            [
+              "$No bills",
+              "No facility referenced  Carlos a Rodriguez",
+              "",
+              ""
+            ],
+            [
+              "Service 0n Jul 10, 2026 Accumulation on Jul 22, 2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Oscar Unlocks",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Not activated",
+              "Applies to OOPM Cumulative OOPM $721.75",
+              "",
+              ""
+            ],
+            [
+              "Member tags",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco Search Rosco",
+              "MR Melissa -"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing &payments Rewards",
+              "Authorizations"
+            ],
+            [
+              "Lisandra Fuentes",
+              ""
+            ],
+            [
+              "Castro",
+              ""
+            ],
+            [
+              "Active",
+              ""
+            ],
+            [
+              "Claims",
+              "Export CSV"
+            ],
+            [
+              "OSC76948676-01: R216854F .",
+              ""
+            ],
+            [
+              "Holder - ON exc",
+              ""
+            ],
+            [
+              "Order by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2)",
+              "Member responsibility . Status Provider/Facillty"
+            ],
+            [
+              "Heads up note",
+              ""
+            ],
+            [
+              "4DWG6QRE",
+              "$0.00"
+            ],
+            [
+              "Medical claim  Complicated or multiple drainage of skin abscess",
+              "Denied"
+            ],
+            [
+              "Member actions @No facility referenced-Michelle Detweller",
+              ""
+            ],
+            [
+              "Service on Jul 14, 2026  Accumulation on Jul 14, 2026",
+              ""
+            ],
+            [
+              "FLDade",
+              ""
+            ],
+            [
+              "SP03FL Team",
+              ""
+            ],
+            [
+              "E5YGSN18",
+              "$0.00"
+            ],
+            [
+              "Oscar plan:",
+              ""
+            ],
+            [
+              "Gold Simple Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina",
+              "Processed"
+            ],
+            [
+              "FL HMO Standard ONo facility referenced  Carlos a Rodriguez",
+              ""
+            ],
+            [
+              "View ID card Service on Jul 10, 2026Accumulation on Jul 22, 2026",
+              ""
+            ],
+            [
+              "YJuan Romero",
+              ""
+            ],
+            [
+              "Effective 05/01/2026",
+              ""
+            ],
+            [
+              "3SB6XK79",
+              "$5.00"
+            ],
+            [
+              "Individual",
+              ""
+            ],
+            [
+              "Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "Processed"
+            ],
+            [
+              "$No bills No facility referenced  Carlos a Rodriguez",
+              ""
+            ],
+            [
+              "Service 0n Jul 10, 2026  Accumulation on Jul 22, 2026",
+              ""
+            ],
+            [
+              "Oscar Unlocks",
+              ""
+            ],
+            [
+              "Not activated Applies to OOPM Cumulative OOPM $721.75",
+              ""
+            ],
+            [
+              "Member tags",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Search Rosco MR Melissa -",
+          "conf": 0.9172403812408447,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9885711669921875,
+              "bbox": [
+                14,
+                17,
+                72,
+                34
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.9933708310127258,
+              "bbox": [
+                138,
+                18,
+                230,
+                34
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9716466665267944,
+              "bbox": [
+                1465,
+                18,
+                1550,
+                34
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7153728604316711,
+              "bbox": [
+                1565,
+                23,
+                1580,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing &payments Rewards Authorizations",
+          "conf": 0.9848487708303664,
+          "bbox": [
+            19,
+            71,
+            919,
+            102
+          ],
+          "words": [
+            {
+              "text": "Lisandra Fuentes",
+              "conf": 0.9704288244247437,
+              "bbox": [
+                19,
+                81,
+                186,
+                102
+              ]
+            },
+            {
+              "text": "Member info",
+              "conf": 0.9921325445175171,
+              "bbox": [
+                275,
+                73,
+                351,
+                89
+              ]
+            },
+            {
+              "text": "Issues",
+              "conf": 0.99818354845047,
+              "bbox": [
+                366,
+                74,
+                406,
+                88
+              ]
+            },
+            {
+              "text": "Policy detalls",
+              "conf": 0.969422459602356,
+              "bbox": [
+                421,
+                73,
+                500,
+                89
+              ]
+            },
+            {
+              "text": "Benefits",
+              "conf": 0.99494469165802,
+              "bbox": [
+                515,
+                74,
+                568,
+                89
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9910710453987122,
+              "bbox": [
+                584,
+                74,
+                625,
+                88
+              ]
+            },
+            {
+              "text": "Billing &payments",
+              "conf": 0.9491136074066162,
+              "bbox": [
+                640,
+                71,
+                749,
+                89
+              ]
+            },
+            {
+              "text": "Rewards",
+              "conf": 0.9995003938674927,
+              "bbox": [
+                764,
+                75,
+                816,
+                88
+              ]
+            },
+            {
+              "text": "Authorizations",
+              "conf": 0.9988418221473694,
+              "bbox": [
+                834,
+                75,
+                919,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Castro",
+          "conf": 0.999560534954071,
+          "bbox": [
+            17,
+            105,
+            88,
+            130
+          ],
+          "words": [
+            {
+              "text": "Castro",
+              "conf": 0.999560534954071,
+              "bbox": [
+                17,
+                105,
+                88,
+                130
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OSC76948676-01: R216854F . Active Claims Export CSV",
+          "conf": 0.9766045659780502,
+          "bbox": [
+            19,
+            138,
+            1261,
+            183
+          ],
+          "words": [
+            {
+              "text": "OSC76948676-01: R216854F .",
+              "conf": 0.9407640695571899,
+              "bbox": [
+                19,
+                167,
+                182,
+                183
+              ]
+            },
+            {
+              "text": "Active",
+              "conf": 0.994232177734375,
+              "bbox": [
+                20,
+                138,
+                64,
+                160
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9983482360839844,
+              "bbox": [
+                277,
+                152,
+                327,
+                174
+              ]
+            },
+            {
+              "text": "Export CSV",
+              "conf": 0.9730737805366516,
+              "bbox": [
+                1202,
+                157,
+                1261,
+                173
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Holder - ON exc",
+          "conf": 0.9821824431419373,
+          "bbox": [
+            18,
+            186,
+            106,
+            202
+          ],
+          "words": [
+            {
+              "text": "Holder - ON exc",
+              "conf": 0.9821824431419373,
+              "bbox": [
+                18,
+                186,
+                106,
+                202
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Heads up note",
+          "conf": 0.9735168814659119,
+          "bbox": [
+            31,
+            237,
+            115,
+            253
+          ],
+          "words": [
+            {
+              "text": "Heads up note",
+              "conf": 0.9735168814659119,
+              "bbox": [
+                31,
+                237,
+                115,
+                253
+              ]
+            }
+          ]
+        },
+        {
+          "text": "SP03FL Team",
+          "conf": 0.916742742061615,
+          "bbox": [
+            16,
+            412,
+            126,
+            432
+          ],
+          "words": [
+            {
+              "text": "SP03FL Team",
+              "conf": 0.916742742061615,
+              "bbox": [
+                16,
+                412,
+                126,
+                432
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLDade",
+          "conf": 0.9937570691108704,
+          "bbox": [
+            17,
+            378,
+            95,
+            400
+          ],
+          "words": [
+            {
+              "text": "FLDade",
+              "conf": 0.9937570691108704,
+              "bbox": [
+                17,
+                378,
+                95,
+                400
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Order by date of service Medical claims Service dates 01/01/2025-07/23/2026 (2) Member responsibility . Status Provider/Facillty",
+          "conf": 0.9613968431949615,
+          "bbox": [
+            291,
+            205,
+            1229,
+            223
+          ],
+          "words": [
+            {
+              "text": "Order by date of service",
+              "conf": 0.9703426361083984,
+              "bbox": [
+                291,
+                208,
+                429,
+                220
+              ]
+            },
+            {
+              "text": "Medical claims",
+              "conf": 0.9504098892211914,
+              "bbox": [
+                466,
+                206,
+                554,
+                219
+              ]
+            },
+            {
+              "text": "Service dates 01/01/2025-07/23/2026 (2)",
+              "conf": 0.9595306515693665,
+              "bbox": [
+                592,
+                208,
+                839,
+                220
+              ]
+            },
+            {
+              "text": "Member responsibility .",
+              "conf": 0.9557317495346069,
+              "bbox": [
+                873,
+                206,
+                1011,
+                223
+              ]
+            },
+            {
+              "text": "Status",
+              "conf": 0.9925443530082703,
+              "bbox": [
+                1041,
+                208,
+                1094,
+                223
+              ]
+            },
+            {
+              "text": "Provider/Facillty ",
+              "conf": 0.9398217797279358,
+              "bbox": [
+                1122,
+                205,
+                1229,
+                223
+              ]
+            }
+          ]
+        },
+        {
+          "text": "4DWG6QRE $0.00",
+          "conf": 0.9975461363792419,
+          "bbox": [
+            304,
+            278,
+            1255,
+            301
+          ],
+          "words": [
+            {
+              "text": "4DWG6QRE",
+              "conf": 0.9970260262489319,
+              "bbox": [
+                304,
+                279,
+                384,
+                295
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.998066246509552,
+              "bbox": [
+                1212,
+                278,
+                1255,
+                301
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medical claim  Complicated or multiple drainage of skin abscess Denied",
+          "conf": 0.9928963780403137,
+          "bbox": [
+            304,
+            308,
+            1251,
+            325
+          ],
+          "words": [
+            {
+              "text": " Medical claim  Complicated or multiple drainage of skin abscess",
+              "conf": 0.9880696535110474,
+              "bbox": [
+                304,
+                308,
+                690,
+                325
+              ]
+            },
+            {
+              "text": "Denied",
+              "conf": 0.9977231025695801,
+              "bbox": [
+                1206,
+                308,
+                1251,
+                322
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member actions @No facility referenced-Michelle Detweller",
+          "conf": 0.965640664100647,
+          "bbox": [
+            69,
+            328,
+            564,
+            349
+          ],
+          "words": [
+            {
+              "text": "Member actions",
+              "conf": 0.9804567694664001,
+              "bbox": [
+                69,
+                330,
+                164,
+                349
+              ]
+            },
+            {
+              "text": "@No facility referenced-Michelle Detweller",
+              "conf": 0.9508245587348938,
+              "bbox": [
+                302,
+                328,
+                564,
+                346
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service on Jul 14, 2026  Accumulation on Jul 14, 2026",
+          "conf": 0.9783213138580322,
+          "bbox": [
+            302,
+            351,
+            616,
+            368
+          ],
+          "words": [
+            {
+              "text": "Service on Jul 14, 2026  Accumulation on Jul 14, 2026",
+              "conf": 0.9783213138580322,
+              "bbox": [
+                302,
+                351,
+                616,
+                368
+              ]
+            }
+          ]
+        },
+        {
+          "text": "E5YGSN18 $0.00",
+          "conf": 0.9975907802581787,
+          "bbox": [
+            304,
+            430,
+            1254,
+            452
+          ],
+          "words": [
+            {
+              "text": "E5YGSN18",
+              "conf": 0.995965838432312,
+              "bbox": [
+                304,
+                430,
+                372,
+                447
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9992157220840454,
+              "bbox": [
+                1214,
+                433,
+                1254,
+                452
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar plan: Gold Simple Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina Processed",
+          "conf": 0.9619176238775253,
+          "bbox": [
+            16,
+            445,
+            1250,
+            481
+          ],
+          "words": [
+            {
+              "text": "Oscar plan:",
+              "conf": 0.9397584795951843,
+              "bbox": [
+                16,
+                445,
+                106,
+                465
+              ]
+            },
+            {
+              "text": "Gold Simple",
+              "conf": 0.9755164980888367,
+              "bbox": [
+                40,
+                468,
+                108,
+                481
+              ]
+            },
+            {
+              "text": "Medical claim -Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina",
+              "conf": 0.9580066204071045,
+              "bbox": [
+                302,
+                458,
+                854,
+                477
+              ]
+            },
+            {
+              "text": "Processed ",
+              "conf": 0.9743888974189758,
+              "bbox": [
+                1169,
+                458,
+                1250,
+                475
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Effective 05/01/2026",
+          "conf": 0.9799631237983704,
+          "bbox": [
+            16,
+            564,
+            160,
+            584
+          ],
+          "words": [
+            {
+              "text": "Effective 05/01/2026",
+              "conf": 0.9799631237983704,
+              "bbox": [
+                16,
+                564,
+                160,
+                584
+              ]
+            }
+          ]
+        },
+        {
+          "text": "YJuan Romero",
+          "conf": 0.9301149249076843,
+          "bbox": [
+            18,
+            535,
+            117,
+            552
+          ],
+          "words": [
+            {
+              "text": "YJuan Romero",
+              "conf": 0.9301149249076843,
+              "bbox": [
+                18,
+                535,
+                117,
+                552
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FL HMO Standard ONo facility referenced  Carlos a Rodriguez",
+          "conf": 0.9680810868740082,
+          "bbox": [
+            37,
+            481,
+            566,
+            504
+          ],
+          "words": [
+            {
+              "text": "FL HMO Standard",
+              "conf": 0.9745299816131592,
+              "bbox": [
+                37,
+                486,
+                143,
+                504
+              ]
+            },
+            {
+              "text": "ONo facility referenced  Carlos a Rodriguez",
+              "conf": 0.9616321921348572,
+              "bbox": [
+                304,
+                481,
+                566,
+                498
+              ]
+            }
+          ]
+        },
+        {
+          "text": "View ID card Service on Jul 10, 2026Accumulation on Jul 22, 2026",
+          "conf": 0.9683231115341187,
+          "bbox": [
+            40,
+            502,
+            619,
+            521
+          ],
+          "words": [
+            {
+              "text": "View ID card",
+              "conf": 0.9687598347663879,
+              "bbox": [
+                40,
+                508,
+                112,
+                521
+              ]
+            },
+            {
+              "text": "Service on Jul 10, 2026Accumulation on Jul 22, 2026",
+              "conf": 0.9678863883018494,
+              "bbox": [
+                302,
+                502,
+                619,
+                519
+              ]
+            }
+          ]
+        },
+        {
+          "text": "3SB6XK79 $5.00",
+          "conf": 0.997263491153717,
+          "bbox": [
+            302,
+            581,
+            1255,
+            604
+          ],
+          "words": [
+            {
+              "text": "3SB6XK79",
+              "conf": 0.9957728385925293,
+              "bbox": [
+                302,
+                583,
+                372,
+                600
+              ]
+            },
+            {
+              "text": "$5.00",
+              "conf": 0.9987541437149048,
+              "bbox": [
+                1213,
+                581,
+                1255,
+                604
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Individual Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Processed",
+          "conf": 0.9852832555770874,
+          "bbox": [
+            20,
+            600,
+            1251,
+            626
+          ],
+          "words": [
+            {
+              "text": "Individual",
+              "conf": 0.9918400645256042,
+              "bbox": [
+                20,
+                600,
+                96,
+                616
+              ]
+            },
+            {
+              "text": " Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "conf": 0.9879482388496399,
+              "bbox": [
+                305,
+                614,
+                1060,
+                626
+              ]
+            },
+            {
+              "text": "Processed ",
+              "conf": 0.9760614633560181,
+              "bbox": [
+                1169,
+                610,
+                1251,
+                626
+              ]
+            }
+          ]
+        },
+        {
+          "text": "$No bills No facility referenced  Carlos a Rodriguez",
+          "conf": 0.9568430185317993,
+          "bbox": [
+            17,
+            631,
+            566,
+            651
+          ],
+          "words": [
+            {
+              "text": "$No bills",
+              "conf": 0.9335289001464844,
+              "bbox": [
+                17,
+                631,
+                85,
+                651
+              ]
+            },
+            {
+              "text": "No facility referenced  Carlos a Rodriguez",
+              "conf": 0.9801571369171143,
+              "bbox": [
+                304,
+                633,
+                566,
+                649
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service 0n Jul 10, 2026  Accumulation on Jul 22, 2026",
+          "conf": 0.9446927309036255,
+          "bbox": [
+            304,
+            657,
+            618,
+            670
+          ],
+          "words": [
+            {
+              "text": "Service 0n Jul 10, 2026  Accumulation on Jul 22, 2026",
+              "conf": 0.9446927309036255,
+              "bbox": [
+                304,
+                657,
+                618,
+                670
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Not activated Applies to OOPM Cumulative OOPM $721.75",
+          "conf": 0.9658253490924835,
+          "bbox": [
+            40,
+            675,
+            575,
+            699
+          ],
+          "words": [
+            {
+              "text": "Not activated",
+              "conf": 0.9931552410125732,
+              "bbox": [
+                40,
+                686,
+                119,
+                699
+              ]
+            },
+            {
+              "text": "Applies to OOPM Cumulative OOPM $721.75",
+              "conf": 0.9384954571723938,
+              "bbox": [
+                300,
+                675,
+                575,
+                696
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar Unlocks",
+          "conf": 0.963338315486908,
+          "bbox": [
+            20,
+            666,
+            122,
+            682
+          ],
+          "words": [
+            {
+              "text": "Oscar Unlocks",
+              "conf": 0.963338315486908,
+              "bbox": [
+                20,
+                666,
+                122,
+                682
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member tags",
+          "conf": 0.9715107083320618,
+          "bbox": [
+            18,
+            736,
+            96,
+            752
+          ],
+          "words": [
+            {
+              "text": "Member tags",
+              "conf": 0.9715107083320618,
+              "bbox": [
+                18,
+                736,
+                96,
+                752
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

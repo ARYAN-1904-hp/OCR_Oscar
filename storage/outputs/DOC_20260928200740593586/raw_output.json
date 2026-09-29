@@ -1,0 +1,2713 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Search Rosco MR Melissa -\nLisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nCastro\nActive\nOSC76948676-01 R216854F : JTVYS6DS $10.00\nHolder- ON exc Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald\nHeads up note\nMember actions\nONo facility referenced  Michelle Detweiler\nService on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84\nCT1VQT7T $0.00\nFLDade Medical claim  Insertion of luD for pregnancy prevention Pald\nNo facility referenced-Carlos a Rodriguez\nSP03FL Team Service on Feb 16, 2026  Accumulation on Apr 5, 2026\nOscar plan:\nGold Simple\nFL HMO Standard View ID card G11VC8E5 $0.00\nYJuan Romero +Medical claim-Urine pregnancy test Pald\nNo facility referenced  Carlos a Rodriguez\nEffective 05/01/2026 Service on Feb 13,2026 - Accumulation on Feb 25,2026\n1HWZM5YA $1.56\nIndividual\n$No bills\nOscar Unlocks Not activated Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count Paid\nQuest Diagnostics Miami  No provider referenced\nService on Feb 13, 2026- Accumulation on Feb 25, 2026\nMember tags Applies to OOPM - Cumulative OOPM $1.56",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Search Rosco MR Melissa -\nLisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations\nCastro\nActive\nOSC76948676-01 R216854F : JTVYS6DS $10.00\nHolder- ON exc Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald\nHeads up note\nMember actions\nONo facility referenced  Michelle Detweiler\nService on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84\nCT1VQT7T $0.00\nFLDade Medical claim  Insertion of luD for pregnancy prevention Pald\nNo facility referenced-Carlos a Rodriguez\nSP03FL Team Service on Feb 16, 2026  Accumulation on Apr 5, 2026\nOscar plan:\nGold Simple\nFL HMO Standard View ID card G11VC8E5 $0.00\nYJuan Romero +Medical claim-Urine pregnancy test Pald\nNo facility referenced  Carlos a Rodriguez\nEffective 05/01/2026 Service on Feb 13,2026 - Accumulation on Feb 25,2026\n1HWZM5YA $1.56\nIndividual\n$No bills\nOscar Unlocks Not activated Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count Paid\nQuest Diagnostics Miami  No provider referenced\nService on Feb 13, 2026- Accumulation on Feb 25, 2026\nMember tags Applies to OOPM - Cumulative OOPM $1.56",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 6,
+              "bbox": [
+                301,
+                219,
+                1255,
+                365
+              ],
+              "text": "ONo facility referenced  Michelle Detweiler\nService on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84\nCT1VQT7T $0.00",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "ONo facility referenced  Michelle Detweiler",
+                  "conf": 0.9583894610404968,
+                  "bbox": [
+                    305,
+                    219,
+                    564,
+                    232
+                  ],
+                  "words": [
+                    {
+                      "text": "ONo facility referenced  Michelle Detweiler",
+                      "conf": 0.9583894610404968,
+                      "bbox": [
+                        305,
+                        219,
+                        564,
+                        232
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Service on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84",
+                  "conf": 0.9761835634708405,
+                  "bbox": [
+                    301,
+                    239,
+                    625,
+                    281
+                  ],
+                  "words": [
+                    {
+                      "text": "Service on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84",
+                      "conf": 0.9761835634708405,
+                      "bbox": [
+                        301,
+                        239,
+                        625,
+                        281
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "CT1VQT7T $0.00",
+                  "conf": 0.9685228765010834,
+                  "bbox": [
+                    304,
+                    345,
+                    1255,
+                    365
+                  ],
+                  "words": [
+                    {
+                      "text": "CT1VQT7T",
+                      "conf": 0.9992021322250366,
+                      "bbox": [
+                        304,
+                        345,
+                        370,
+                        362
+                      ]
+                    },
+                    {
+                      "text": "$0.00",
+                      "conf": 0.9378436207771301,
+                      "bbox": [
+                        1214,
+                        348,
+                        1255,
+                        365
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 8,
+              "bbox": [
+                16,
+                395,
+                620,
+                434
+              ],
+              "text": "No facility referenced-Carlos a Rodriguez\nSP03FL Team Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "No facility referenced-Carlos a Rodriguez",
+                  "conf": 0.9781263470649719,
+                  "bbox": [
+                    302,
+                    395,
+                    566,
+                    412
+                  ],
+                  "words": [
+                    {
+                      "text": "No facility referenced-Carlos a Rodriguez",
+                      "conf": 0.9781263470649719,
+                      "bbox": [
+                        302,
+                        395,
+                        566,
+                        412
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "SP03FL Team Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+                  "conf": 0.9511710703372955,
+                  "bbox": [
+                    16,
+                    412,
+                    620,
+                    434
+                  ],
+                  "words": [
+                    {
+                      "text": "SP03FL Team",
+                      "conf": 0.9261760115623474,
+                      "bbox": [
+                        16,
+                        412,
+                        126,
+                        432
+                      ]
+                    },
+                    {
+                      "text": "Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+                      "conf": 0.9761661291122437,
+                      "bbox": [
+                        302,
+                        418,
+                        620,
+                        434
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 12,
+              "bbox": [
+                16,
+                549,
+                1255,
+                670
+              ],
+              "text": "No facility referenced  Carlos a Rodriguez\nEffective 05/01/2026 Service on Feb 13,2026 - Accumulation on Feb 25,2026\n1HWZM5YA $1.56",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "No facility referenced  Carlos a Rodriguez",
+                  "conf": 0.9612711668014526,
+                  "bbox": [
+                    305,
+                    549,
+                    565,
+                    561
+                  ],
+                  "words": [
+                    {
+                      "text": "No facility referenced  Carlos a Rodriguez",
+                      "conf": 0.9612711668014526,
+                      "bbox": [
+                        305,
+                        549,
+                        565,
+                        561
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Effective 05/01/2026 Service on Feb 13,2026 - Accumulation on Feb 25,2026",
+                  "conf": 0.9612595736980438,
+                  "bbox": [
+                    16,
+                    564,
+                    626,
+                    584
+                  ],
+                  "words": [
+                    {
+                      "text": "Effective 05/01/2026",
+                      "conf": 0.9814475774765015,
+                      "bbox": [
+                        16,
+                        564,
+                        160,
+                        584
+                      ]
+                    },
+                    {
+                      "text": "Service on Feb 13,2026 - Accumulation on Feb 25,2026",
+                      "conf": 0.9410715699195862,
+                      "bbox": [
+                        304,
+                        570,
+                        626,
+                        583
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "1HWZM5YA $1.56",
+                  "conf": 0.997802197933197,
+                  "bbox": [
+                    302,
+                    646,
+                    1255,
+                    670
+                  ],
+                  "words": [
+                    {
+                      "text": "1HWZM5YA",
+                      "conf": 0.9976911544799805,
+                      "bbox": [
+                        302,
+                        646,
+                        380,
+                        666
+                      ]
+                    },
+                    {
+                      "text": "$1.56",
+                      "conf": 0.9979132413864136,
+                      "bbox": [
+                        1218,
+                        651,
+                        1255,
+                        670
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 15,
+              "bbox": [
+                322,
+                699,
+                609,
+                715
+              ],
+              "text": "Quest Diagnostics Miami  No provider referenced",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Quest Diagnostics Miami  No provider referenced",
+                  "conf": 0.9882554411888123,
+                  "bbox": [
+                    322,
+                    699,
+                    609,
+                    715
+                  ],
+                  "words": [
+                    {
+                      "text": "Quest Diagnostics Miami  No provider referenced",
+                      "conf": 0.9882554411888123,
+                      "bbox": [
+                        322,
+                        699,
+                        609,
+                        715
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "ONo facility referenced  Michelle Detweiler\nService on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84\nCT1VQT7T $0.00\nNo facility referenced-Carlos a Rodriguez\nSP03FL Team Service on Feb 16, 2026  Accumulation on Apr 5, 2026\nNo facility referenced  Carlos a Rodriguez\nEffective 05/01/2026 Service on Feb 13,2026 - Accumulation on Feb 25,2026\n1HWZM5YA $1.56\nQuest Diagnostics Miami  No provider referenced"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "text": "rosco Search Rosco MR Melissa -",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Search Rosco MR Melissa -",
+              "conf": 0.9185255020856857,
+              "bbox": [
+                14,
+                17,
+                1580,
+                34
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9903534054756165,
+                  "bbox": [
+                    14,
+                    17,
+                    74,
+                    34
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.9967290759086609,
+                  "bbox": [
+                    138,
+                    18,
+                    230,
+                    34
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9716466665267944,
+                  "bbox": [
+                    1465,
+                    18,
+                    1550,
+                    34
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.7153728604316711,
+                  "bbox": [
+                    1565,
+                    23,
+                    1580,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            19,
+            73,
+            919,
+            102
+          ],
+          "text": "Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations",
+              "conf": 0.988705144988166,
+              "bbox": [
+                19,
+                73,
+                919,
+                102
+              ],
+              "words": [
+                {
+                  "text": "Lisandra Fuentes",
+                  "conf": 0.9699791669845581,
+                  "bbox": [
+                    19,
+                    81,
+                    186,
+                    102
+                  ]
+                },
+                {
+                  "text": "Member info",
+                  "conf": 0.9979149103164673,
+                  "bbox": [
+                    276,
+                    73,
+                    351,
+                    89
+                  ]
+                },
+                {
+                  "text": "Issues",
+                  "conf": 0.99818354845047,
+                  "bbox": [
+                    366,
+                    74,
+                    406,
+                    88
+                  ]
+                },
+                {
+                  "text": "Policy detalls",
+                  "conf": 0.969422459602356,
+                  "bbox": [
+                    421,
+                    73,
+                    500,
+                    89
+                  ]
+                },
+                {
+                  "text": "Benefits",
+                  "conf": 0.99494469165802,
+                  "bbox": [
+                    515,
+                    74,
+                    568,
+                    89
+                  ]
+                },
+                {
+                  "text": "Claims",
+                  "conf": 0.9910710453987122,
+                  "bbox": [
+                    584,
+                    74,
+                    625,
+                    88
+                  ]
+                },
+                {
+                  "text": "Billing & payments",
+                  "conf": 0.978099524974823,
+                  "bbox": [
+                    642,
+                    75,
+                    748,
+                    88
+                  ]
+                },
+                {
+                  "text": "Rewards",
+                  "conf": 0.9993256330490112,
+                  "bbox": [
+                    762,
+                    73,
+                    818,
+                    89
+                  ]
+                },
+                {
+                  "text": "Authorizations",
+                  "conf": 0.9994053244590759,
+                  "bbox": [
+                    834,
+                    75,
+                    919,
+                    88
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            17,
+            105,
+            87,
+            130
+          ],
+          "text": "Castro",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Castro",
+              "conf": 0.9995825886726379,
+              "bbox": [
+                17,
+                105,
+                87,
+                130
+              ],
+              "words": [
+                {
+                  "text": "Castro",
+                  "conf": 0.9995825886726379,
+                  "bbox": [
+                    17,
+                    105,
+                    87,
+                    130
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            20,
+            138,
+            64,
+            160
+          ],
+          "text": "Active",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Active",
+              "conf": 0.994232177734375,
+              "bbox": [
+                20,
+                138,
+                64,
+                160
+              ],
+              "words": [
+                {
+                  "text": "Active",
+                  "conf": 0.994232177734375,
+                  "bbox": [
+                    20,
+                    138,
+                    64,
+                    160
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            16,
+            167,
+            1254,
+            211
+          ],
+          "text": "OSC76948676-01 R216854F : JTVYS6DS $10.00\nHolder- ON exc Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "OSC76948676-01 R216854F : JTVYS6DS $10.00",
+              "conf": 0.9857348601023356,
+              "bbox": [
+                19,
+                167,
+                1254,
+                187
+              ],
+              "words": [
+                {
+                  "text": "OSC76948676-01 R216854F :",
+                  "conf": 0.9645218849182129,
+                  "bbox": [
+                    19,
+                    167,
+                    181,
+                    183
+                  ]
+                },
+                {
+                  "text": "JTVYS6DS",
+                  "conf": 0.9934859275817871,
+                  "bbox": [
+                    304,
+                    167,
+                    374,
+                    183
+                  ]
+                },
+                {
+                  "text": "$10.00",
+                  "conf": 0.9991967678070068,
+                  "bbox": [
+                    1209,
+                    169,
+                    1254,
+                    187
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Holder- ON exc Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald",
+              "conf": 0.964159369468689,
+              "bbox": [
+                16,
+                185,
+                1252,
+                211
+              ],
+              "words": [
+                {
+                  "text": "Holder- ON exc",
+                  "conf": 0.9351221919059753,
+                  "bbox": [
+                    16,
+                    185,
+                    105,
+                    201
+                  ]
+                },
+                {
+                  "text": " Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+                  "conf": 0.9801666736602783,
+                  "bbox": [
+                    305,
+                    197,
+                    1061,
+                    210
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9771892428398132,
+                  "bbox": [
+                    1221,
+                    194,
+                    1252,
+                    211
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            32,
+            239,
+            163,
+            346
+          ],
+          "text": "Heads up note\nMember actions",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Heads up note",
+              "conf": 0.9979255199432373,
+              "bbox": [
+                32,
+                239,
+                114,
+                252
+              ],
+              "words": [
+                {
+                  "text": "Heads up note",
+                  "conf": 0.9979255199432373,
+                  "bbox": [
+                    32,
+                    239,
+                    114,
+                    252
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Member actions",
+              "conf": 0.957770824432373,
+              "bbox": [
+                70,
+                331,
+                163,
+                346
+              ],
+              "words": [
+                {
+                  "text": "Member actions",
+                  "conf": 0.957770824432373,
+                  "bbox": [
+                    70,
+                    331,
+                    163,
+                    346
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 6,
+          "bbox": [
+            301,
+            219,
+            1255,
+            365
+          ],
+          "text": "ONo facility referenced  Michelle Detweiler\nService on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84\nCT1VQT7T $0.00",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "ONo facility referenced  Michelle Detweiler",
+              "conf": 0.9583894610404968,
+              "bbox": [
+                305,
+                219,
+                564,
+                232
+              ],
+              "words": [
+                {
+                  "text": "ONo facility referenced  Michelle Detweiler",
+                  "conf": 0.9583894610404968,
+                  "bbox": [
+                    305,
+                    219,
+                    564,
+                    232
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Service on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84",
+              "conf": 0.9761835634708405,
+              "bbox": [
+                301,
+                239,
+                625,
+                281
+              ],
+              "words": [
+                {
+                  "text": "Service on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84",
+                  "conf": 0.9761835634708405,
+                  "bbox": [
+                    301,
+                    239,
+                    625,
+                    281
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "CT1VQT7T $0.00",
+              "conf": 0.9685228765010834,
+              "bbox": [
+                304,
+                345,
+                1255,
+                365
+              ],
+              "words": [
+                {
+                  "text": "CT1VQT7T",
+                  "conf": 0.9992021322250366,
+                  "bbox": [
+                    304,
+                    345,
+                    370,
+                    362
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9378436207771301,
+                  "bbox": [
+                    1214,
+                    348,
+                    1255,
+                    365
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 7,
+          "bbox": [
+            17,
+            369,
+            1253,
+            400
+          ],
+          "text": "FLDade Medical claim  Insertion of luD for pregnancy prevention Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FLDade Medical claim  Insertion of luD for pregnancy prevention Pald",
+              "conf": 0.9755203723907471,
+              "bbox": [
+                17,
+                369,
+                1253,
+                400
+              ],
+              "words": [
+                {
+                  "text": "FLDade",
+                  "conf": 0.9937570691108704,
+                  "bbox": [
+                    17,
+                    378,
+                    95,
+                    400
+                  ]
+                },
+                {
+                  "text": "Medical claim  Insertion of luD for pregnancy prevention",
+                  "conf": 0.9640128016471863,
+                  "bbox": [
+                    304,
+                    374,
+                    646,
+                    391
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9687912464141846,
+                  "bbox": [
+                    1219,
+                    369,
+                    1253,
+                    391
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 8,
+          "bbox": [
+            16,
+            395,
+            620,
+            434
+          ],
+          "text": "No facility referenced-Carlos a Rodriguez\nSP03FL Team Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "No facility referenced-Carlos a Rodriguez",
+              "conf": 0.9781263470649719,
+              "bbox": [
+                302,
+                395,
+                566,
+                412
+              ],
+              "words": [
+                {
+                  "text": "No facility referenced-Carlos a Rodriguez",
+                  "conf": 0.9781263470649719,
+                  "bbox": [
+                    302,
+                    395,
+                    566,
+                    412
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "SP03FL Team Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+              "conf": 0.9511710703372955,
+              "bbox": [
+                16,
+                412,
+                620,
+                434
+              ],
+              "words": [
+                {
+                  "text": "SP03FL Team",
+                  "conf": 0.9261760115623474,
+                  "bbox": [
+                    16,
+                    412,
+                    126,
+                    432
+                  ]
+                },
+                {
+                  "text": "Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+                  "conf": 0.9761661291122437,
+                  "bbox": [
+                    302,
+                    418,
+                    620,
+                    434
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 9,
+          "bbox": [
+            17,
+            445,
+            106,
+            465
+          ],
+          "text": "Oscar plan:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscar plan:",
+              "conf": 0.9279960989952087,
+              "bbox": [
+                17,
+                445,
+                106,
+                465
+              ],
+              "words": [
+                {
+                  "text": "Oscar plan:",
+                  "conf": 0.9279960989952087,
+                  "bbox": [
+                    17,
+                    445,
+                    106,
+                    465
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 10,
+          "bbox": [
+            40,
+            468,
+            108,
+            481
+          ],
+          "text": "Gold Simple",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Gold Simple",
+              "conf": 0.9755164980888367,
+              "bbox": [
+                40,
+                468,
+                108,
+                481
+              ],
+              "words": [
+                {
+                  "text": "Gold Simple",
+                  "conf": 0.9755164980888367,
+                  "bbox": [
+                    40,
+                    468,
+                    108,
+                    481
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 11,
+          "bbox": [
+            18,
+            488,
+            1254,
+            552
+          ],
+          "text": "FL HMO Standard View ID card G11VC8E5 $0.00\nYJuan Romero +Medical claim-Urine pregnancy test Pald",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "FL HMO Standard View ID card G11VC8E5 $0.00",
+              "conf": 0.9917080700397491,
+              "bbox": [
+                39,
+                488,
+                1254,
+                521
+              ],
+              "words": [
+                {
+                  "text": "FL HMO Standard",
+                  "conf": 0.9987914562225342,
+                  "bbox": [
+                    39,
+                    488,
+                    142,
+                    504
+                  ]
+                },
+                {
+                  "text": "View ID card",
+                  "conf": 0.9719957709312439,
+                  "bbox": [
+                    40,
+                    508,
+                    112,
+                    521
+                  ]
+                },
+                {
+                  "text": "G11VC8E5",
+                  "conf": 0.9966414570808411,
+                  "bbox": [
+                    304,
+                    496,
+                    370,
+                    513
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9994035959243774,
+                  "bbox": [
+                    1214,
+                    499,
+                    1254,
+                    517
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "YJuan Romero +Medical claim-Urine pregnancy test Pald",
+              "conf": 0.9468634128570557,
+              "bbox": [
+                18,
+                523,
+                1252,
+                552
+              ],
+              "words": [
+                {
+                  "text": "YJuan Romero",
+                  "conf": 0.9370360374450684,
+                  "bbox": [
+                    18,
+                    535,
+                    117,
+                    552
+                  ]
+                },
+                {
+                  "text": "+Medical claim-Urine pregnancy test",
+                  "conf": 0.9480438232421875,
+                  "bbox": [
+                    302,
+                    524,
+                    535,
+                    542
+                  ]
+                },
+                {
+                  "text": "Pald",
+                  "conf": 0.9555103778839111,
+                  "bbox": [
+                    1221,
+                    523,
+                    1252,
+                    541
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 12,
+          "bbox": [
+            16,
+            549,
+            1255,
+            670
+          ],
+          "text": "No facility referenced  Carlos a Rodriguez\nEffective 05/01/2026 Service on Feb 13,2026 - Accumulation on Feb 25,2026\n1HWZM5YA $1.56",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "No facility referenced  Carlos a Rodriguez",
+              "conf": 0.9612711668014526,
+              "bbox": [
+                305,
+                549,
+                565,
+                561
+              ],
+              "words": [
+                {
+                  "text": "No facility referenced  Carlos a Rodriguez",
+                  "conf": 0.9612711668014526,
+                  "bbox": [
+                    305,
+                    549,
+                    565,
+                    561
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Effective 05/01/2026 Service on Feb 13,2026 - Accumulation on Feb 25,2026",
+              "conf": 0.9612595736980438,
+              "bbox": [
+                16,
+                564,
+                626,
+                584
+              ],
+              "words": [
+                {
+                  "text": "Effective 05/01/2026",
+                  "conf": 0.9814475774765015,
+                  "bbox": [
+                    16,
+                    564,
+                    160,
+                    584
+                  ]
+                },
+                {
+                  "text": "Service on Feb 13,2026 - Accumulation on Feb 25,2026",
+                  "conf": 0.9410715699195862,
+                  "bbox": [
+                    304,
+                    570,
+                    626,
+                    583
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "1HWZM5YA $1.56",
+              "conf": 0.997802197933197,
+              "bbox": [
+                302,
+                646,
+                1255,
+                670
+              ],
+              "words": [
+                {
+                  "text": "1HWZM5YA",
+                  "conf": 0.9976911544799805,
+                  "bbox": [
+                    302,
+                    646,
+                    380,
+                    666
+                  ]
+                },
+                {
+                  "text": "$1.56",
+                  "conf": 0.9979132413864136,
+                  "bbox": [
+                    1218,
+                    651,
+                    1255,
+                    670
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 13,
+          "bbox": [
+            17,
+            600,
+            96,
+            651
+          ],
+          "text": "Individual\n$No bills",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Individual",
+              "conf": 0.9918400645256042,
+              "bbox": [
+                20,
+                600,
+                96,
+                616
+              ],
+              "words": [
+                {
+                  "text": "Individual",
+                  "conf": 0.9918400645256042,
+                  "bbox": [
+                    20,
+                    600,
+                    96,
+                    616
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "$No bills",
+              "conf": 0.9335289001464844,
+              "bbox": [
+                17,
+                631,
+                85,
+                651
+              ],
+              "words": [
+                {
+                  "text": "$No bills",
+                  "conf": 0.9335289001464844,
+                  "bbox": [
+                    17,
+                    631,
+                    85,
+                    651
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 14,
+          "bbox": [
+            20,
+            666,
+            1253,
+            699
+          ],
+          "text": "Oscar Unlocks Not activated Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count Paid",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Oscar Unlocks Not activated Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count Paid",
+              "conf": 0.9825515151023865,
+              "bbox": [
+                20,
+                666,
+                1253,
+                699
+              ],
+              "words": [
+                {
+                  "text": "Oscar Unlocks",
+                  "conf": 0.9695805907249451,
+                  "bbox": [
+                    20,
+                    666,
+                    122,
+                    682
+                  ]
+                },
+                {
+                  "text": "Not activated",
+                  "conf": 0.9965223670005798,
+                  "bbox": [
+                    40,
+                    686,
+                    119,
+                    699
+                  ]
+                },
+                {
+                  "text": " Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+                  "conf": 0.9885455965995789,
+                  "bbox": [
+                    304,
+                    677,
+                    1131,
+                    694
+                  ]
+                },
+                {
+                  "text": "Paid",
+                  "conf": 0.9755575060844421,
+                  "bbox": [
+                    1218,
+                    673,
+                    1253,
+                    694
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 15,
+          "bbox": [
+            322,
+            699,
+            609,
+            715
+          ],
+          "text": "Quest Diagnostics Miami  No provider referenced",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Quest Diagnostics Miami  No provider referenced",
+              "conf": 0.9882554411888123,
+              "bbox": [
+                322,
+                699,
+                609,
+                715
+              ],
+              "words": [
+                {
+                  "text": "Quest Diagnostics Miami  No provider referenced",
+                  "conf": 0.9882554411888123,
+                  "bbox": [
+                    322,
+                    699,
+                    609,
+                    715
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 16,
+          "bbox": [
+            18,
+            721,
+            628,
+            763
+          ],
+          "text": "Service on Feb 13, 2026- Accumulation on Feb 25, 2026\nMember tags Applies to OOPM - Cumulative OOPM $1.56",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Service on Feb 13, 2026- Accumulation on Feb 25, 2026",
+              "conf": 0.9481183290481567,
+              "bbox": [
+                302,
+                721,
+                628,
+                737
+              ],
+              "words": [
+                {
+                  "text": "Service on Feb 13, 2026- Accumulation on Feb 25, 2026",
+                  "conf": 0.9481183290481567,
+                  "bbox": [
+                    302,
+                    721,
+                    628,
+                    737
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Member tags Applies to OOPM - Cumulative OOPM $1.56",
+              "conf": 0.9510557353496552,
+              "bbox": [
+                18,
+                736,
+                565,
+                763
+              ],
+              "words": [
+                {
+                  "text": "Member tags",
+                  "conf": 0.9715107083320618,
+                  "bbox": [
+                    18,
+                    736,
+                    96,
+                    752
+                  ]
+                },
+                {
+                  "text": " Applies to OOPM - Cumulative OOPM $1.56",
+                  "conf": 0.9306007623672485,
+                  "bbox": [
+                    300,
+                    740,
+                    565,
+                    763
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            14,
+            17,
+            1580,
+            763
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>Search Rosco</td><td>MR Melissa</td><td>-</td></tr><tr><td>Member info Issues Policy detalls Benefits Claims Billing &amp; payments Rewards</td><td></td><td>Authorizations</td><td></td></tr><tr><td>Lisandra Fuentes</td><td></td><td></td><td></td></tr><tr><td>Castro</td><td></td><td></td><td></td></tr><tr><td>Active</td><td></td><td></td><td></td></tr><tr><td>OSC76948676-01 R216854F</td><td>JTVYS6DS</td><td>$10.00</td><td></td></tr><tr><td>Holder- ON exc</td><td>Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more</td><td>Pald</td><td></td></tr><tr><td>ONo facility referenced Michelle Detweiler</td><td></td><td></td><td></td></tr><tr><td>Heads up note</td><td></td><td></td><td></td></tr><tr><td>Service on Mar 3, 2026 Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84</td><td></td><td></td><td></td></tr><tr><td>Member actions</td><td></td><td></td><td></td></tr><tr><td>CT1VQT7T</td><td></td><td>$0.00</td><td></td></tr><tr><td>FLDade</td><td>Medical claim  Insertion of luD for pregnancy prevention</td><td>Pald</td><td></td></tr><tr><td>No facility referenced-Carlos a Rodriguez</td><td></td><td></td><td></td></tr><tr><td>SP03FL Team</td><td>Service on Feb 16, 2026  Accumulation on Apr 5, 2026</td><td></td><td></td></tr><tr><td>Oscar plan:</td><td></td><td></td><td></td></tr><tr><td>Gold Simple</td><td></td><td></td><td></td></tr><tr><td>FL HMO Standard</td><td>G11VC8E5</td><td>$0.00</td><td></td></tr><tr><td>View ID card</td><td></td><td></td><td></td></tr><tr><td>+Medical claim-Urine pregnancy test</td><td></td><td>Pald</td><td></td></tr><tr><td>YJuan Romero</td><td></td><td></td><td></td></tr><tr><td>No facility referenced Carlos a Rodriguez</td><td></td><td></td><td></td></tr><tr><td>Effective 05/01/2026</td><td>Service on Feb 13,2026 - Accumulation on Feb 25,2026</td><td></td><td></td></tr><tr><td>Individual</td><td></td><td></td><td></td></tr><tr><td>$No bills</td><td></td><td></td><td></td></tr><tr><td>1HWZM5YA</td><td></td><td>$1.56</td><td></td></tr><tr><td>Oscar Unlocks</td><td>Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count</td><td>Paid</td><td></td></tr><tr><td>Not activated</td><td></td><td></td><td></td></tr><tr><td>Quest Diagnostics Miami No provider referenced</td><td></td><td></td><td></td></tr><tr><td>Service on Feb 13, 2026- Accumulation on Feb 25, 2026</td><td></td><td></td><td></td></tr><tr><td>Member tags</td><td>Applies to OOPM - Cumulative OOPM $1.56</td><td></td><td></td></tr></table>",
+          "text": "rosco: Search Rosco\nMR Melissa: -\nMember info Issues Policy detalls Benefits Claims Billing & payments Rewards: \nAuthorizations: \nLisandra Fuentes: \nCastro: \nActive: \nOSC76948676-01 R216854F: JTVYS6DS\n$10.00: \nHolder- ON exc: Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more\nPald: \nONo facility referenced Michelle Detweiler: \nHeads up note: \nService on Mar 3, 2026 Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84: \nMember actions: \nCT1VQT7T: \n$0.00: \nFLDade: Medical claim  Insertion of luD for pregnancy prevention\nPald: \nNo facility referenced-Carlos a Rodriguez: \nSP03FL Team: Service on Feb 16, 2026  Accumulation on Apr 5, 2026\nOscar plan:: \nGold Simple: \nFL HMO Standard: G11VC8E5\n$0.00: \nView ID card: \n+Medical claim-Urine pregnancy test: \nPald: \nYJuan Romero: \nNo facility referenced Carlos a Rodriguez: \nEffective 05/01/2026: Service on Feb 13,2026 - Accumulation on Feb 25,2026\nIndividual: \n$No bills: \n1HWZM5YA: \n$1.56: \nOscar Unlocks: Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count\nPaid: \nNot activated: \nQuest Diagnostics Miami No provider referenced: \nService on Feb 13, 2026- Accumulation on Feb 25, 2026: \nMember tags: Applies to OOPM - Cumulative OOPM $1.56",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "Search Rosco",
+              "MR Melissa",
+              "-"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing & payments Rewards",
+              "",
+              "Authorizations",
+              ""
+            ],
+            [
+              "Lisandra Fuentes",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Castro",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Active",
+              "",
+              "",
+              ""
+            ],
+            [
+              "OSC76948676-01 R216854F",
+              "JTVYS6DS",
+              "$10.00",
+              ""
+            ],
+            [
+              "Holder- ON exc",
+              "Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "Pald",
+              ""
+            ],
+            [
+              "ONo facility referenced Michelle Detweiler",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Heads up note",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Service on Mar 3, 2026 Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Member actions",
+              "",
+              "",
+              ""
+            ],
+            [
+              "CT1VQT7T",
+              "",
+              "$0.00",
+              ""
+            ],
+            [
+              "FLDade",
+              "Medical claim  Insertion of luD for pregnancy prevention",
+              "Pald",
+              ""
+            ],
+            [
+              "No facility referenced-Carlos a Rodriguez",
+              "",
+              "",
+              ""
+            ],
+            [
+              "SP03FL Team",
+              "Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+              "",
+              ""
+            ],
+            [
+              "Oscar plan:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Gold Simple",
+              "",
+              "",
+              ""
+            ],
+            [
+              "FL HMO Standard",
+              "G11VC8E5",
+              "$0.00",
+              ""
+            ],
+            [
+              "View ID card",
+              "",
+              "",
+              ""
+            ],
+            [
+              "+Medical claim-Urine pregnancy test",
+              "",
+              "Pald",
+              ""
+            ],
+            [
+              "YJuan Romero",
+              "",
+              "",
+              ""
+            ],
+            [
+              "No facility referenced Carlos a Rodriguez",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Effective 05/01/2026",
+              "Service on Feb 13,2026 - Accumulation on Feb 25,2026",
+              "",
+              ""
+            ],
+            [
+              "Individual",
+              "",
+              "",
+              ""
+            ],
+            [
+              "$No bills",
+              "",
+              "",
+              ""
+            ],
+            [
+              "1HWZM5YA",
+              "",
+              "$1.56",
+              ""
+            ],
+            [
+              "Oscar Unlocks",
+              "Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+              "Paid",
+              ""
+            ],
+            [
+              "Not activated",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Quest Diagnostics Miami No provider referenced",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Service on Feb 13, 2026- Accumulation on Feb 25, 2026",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Member tags",
+              "Applies to OOPM - Cumulative OOPM $1.56",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco Search Rosco",
+              "MR Melissa -"
+            ],
+            [
+              "Member info Issues Policy detalls Benefits Claims Billing & payments Rewards",
+              "Authorizations"
+            ],
+            [
+              "Lisandra Fuentes",
+              ""
+            ],
+            [
+              "Castro",
+              ""
+            ],
+            [
+              "Active",
+              ""
+            ],
+            [
+              "OSC76948676-01 R216854F : JTVYS6DS",
+              "$10.00"
+            ],
+            [
+              "Holder- ON exc Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "Pald"
+            ],
+            [
+              "ONo facility referenced  Michelle Detweiler",
+              ""
+            ],
+            [
+              "Heads up note",
+              ""
+            ],
+            [
+              "Service on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84",
+              ""
+            ],
+            [
+              "Member actions",
+              ""
+            ],
+            [
+              "CT1VQT7T",
+              "$0.00"
+            ],
+            [
+              "FLDade Medical claim  Insertion of luD for pregnancy prevention",
+              "Pald"
+            ],
+            [
+              "No facility referenced-Carlos a Rodriguez",
+              ""
+            ],
+            [
+              "SP03FL Team Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+              ""
+            ],
+            [
+              "Oscar plan:",
+              ""
+            ],
+            [
+              "Gold Simple",
+              ""
+            ],
+            [
+              "FL HMO Standard G11VC8E5",
+              "$0.00"
+            ],
+            [
+              "View ID card",
+              ""
+            ],
+            [
+              "+Medical claim-Urine pregnancy test",
+              "Pald"
+            ],
+            [
+              "YJuan Romero",
+              ""
+            ],
+            [
+              "No facility referenced  Carlos a Rodriguez",
+              ""
+            ],
+            [
+              "Effective 05/01/2026 Service on Feb 13,2026 - Accumulation on Feb 25,2026",
+              ""
+            ],
+            [
+              "Individual",
+              ""
+            ],
+            [
+              "$No bills",
+              ""
+            ],
+            [
+              "1HWZM5YA",
+              "$1.56"
+            ],
+            [
+              "Oscar Unlocks Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+              "Paid"
+            ],
+            [
+              "Not activated",
+              ""
+            ],
+            [
+              "Quest Diagnostics Miami  No provider referenced",
+              ""
+            ],
+            [
+              "Service on Feb 13, 2026- Accumulation on Feb 25, 2026",
+              ""
+            ],
+            [
+              "Member tags Applies to OOPM - Cumulative OOPM $1.56",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Search Rosco MR Melissa -",
+          "conf": 0.9185255020856857,
+          "bbox": [
+            14,
+            17,
+            1580,
+            34
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9903534054756165,
+              "bbox": [
+                14,
+                17,
+                74,
+                34
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.9967290759086609,
+              "bbox": [
+                138,
+                18,
+                230,
+                34
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9716466665267944,
+              "bbox": [
+                1465,
+                18,
+                1550,
+                34
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.7153728604316711,
+              "bbox": [
+                1565,
+                23,
+                1580,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations",
+          "conf": 0.988705144988166,
+          "bbox": [
+            19,
+            73,
+            919,
+            102
+          ],
+          "words": [
+            {
+              "text": "Lisandra Fuentes",
+              "conf": 0.9699791669845581,
+              "bbox": [
+                19,
+                81,
+                186,
+                102
+              ]
+            },
+            {
+              "text": "Member info",
+              "conf": 0.9979149103164673,
+              "bbox": [
+                276,
+                73,
+                351,
+                89
+              ]
+            },
+            {
+              "text": "Issues",
+              "conf": 0.99818354845047,
+              "bbox": [
+                366,
+                74,
+                406,
+                88
+              ]
+            },
+            {
+              "text": "Policy detalls",
+              "conf": 0.969422459602356,
+              "bbox": [
+                421,
+                73,
+                500,
+                89
+              ]
+            },
+            {
+              "text": "Benefits",
+              "conf": 0.99494469165802,
+              "bbox": [
+                515,
+                74,
+                568,
+                89
+              ]
+            },
+            {
+              "text": "Claims",
+              "conf": 0.9910710453987122,
+              "bbox": [
+                584,
+                74,
+                625,
+                88
+              ]
+            },
+            {
+              "text": "Billing & payments",
+              "conf": 0.978099524974823,
+              "bbox": [
+                642,
+                75,
+                748,
+                88
+              ]
+            },
+            {
+              "text": "Rewards",
+              "conf": 0.9993256330490112,
+              "bbox": [
+                762,
+                73,
+                818,
+                89
+              ]
+            },
+            {
+              "text": "Authorizations",
+              "conf": 0.9994053244590759,
+              "bbox": [
+                834,
+                75,
+                919,
+                88
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Castro",
+          "conf": 0.9995825886726379,
+          "bbox": [
+            17,
+            105,
+            87,
+            130
+          ],
+          "words": [
+            {
+              "text": "Castro",
+              "conf": 0.9995825886726379,
+              "bbox": [
+                17,
+                105,
+                87,
+                130
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Active",
+          "conf": 0.994232177734375,
+          "bbox": [
+            20,
+            138,
+            64,
+            160
+          ],
+          "words": [
+            {
+              "text": "Active",
+              "conf": 0.994232177734375,
+              "bbox": [
+                20,
+                138,
+                64,
+                160
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OSC76948676-01 R216854F : JTVYS6DS $10.00",
+          "conf": 0.9857348601023356,
+          "bbox": [
+            19,
+            167,
+            1254,
+            187
+          ],
+          "words": [
+            {
+              "text": "OSC76948676-01 R216854F :",
+              "conf": 0.9645218849182129,
+              "bbox": [
+                19,
+                167,
+                181,
+                183
+              ]
+            },
+            {
+              "text": "JTVYS6DS",
+              "conf": 0.9934859275817871,
+              "bbox": [
+                304,
+                167,
+                374,
+                183
+              ]
+            },
+            {
+              "text": "$10.00",
+              "conf": 0.9991967678070068,
+              "bbox": [
+                1209,
+                169,
+                1254,
+                187
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Holder- ON exc Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald",
+          "conf": 0.964159369468689,
+          "bbox": [
+            16,
+            185,
+            1252,
+            211
+          ],
+          "words": [
+            {
+              "text": "Holder- ON exc",
+              "conf": 0.9351221919059753,
+              "bbox": [
+                16,
+                185,
+                105,
+                201
+              ]
+            },
+            {
+              "text": " Medical claim  Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more",
+              "conf": 0.9801666736602783,
+              "bbox": [
+                305,
+                197,
+                1061,
+                210
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9771892428398132,
+              "bbox": [
+                1221,
+                194,
+                1252,
+                211
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Heads up note",
+          "conf": 0.9979255199432373,
+          "bbox": [
+            32,
+            239,
+            114,
+            252
+          ],
+          "words": [
+            {
+              "text": "Heads up note",
+              "conf": 0.9979255199432373,
+              "bbox": [
+                32,
+                239,
+                114,
+                252
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member actions",
+          "conf": 0.957770824432373,
+          "bbox": [
+            70,
+            331,
+            163,
+            346
+          ],
+          "words": [
+            {
+              "text": "Member actions",
+              "conf": 0.957770824432373,
+              "bbox": [
+                70,
+                331,
+                163,
+                346
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ONo facility referenced  Michelle Detweiler",
+          "conf": 0.9583894610404968,
+          "bbox": [
+            305,
+            219,
+            564,
+            232
+          ],
+          "words": [
+            {
+              "text": "ONo facility referenced  Michelle Detweiler",
+              "conf": 0.9583894610404968,
+              "bbox": [
+                305,
+                219,
+                564,
+                232
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84",
+          "conf": 0.9761835634708405,
+          "bbox": [
+            301,
+            239,
+            625,
+            281
+          ],
+          "words": [
+            {
+              "text": "Service on Mar 3, 2026  Accumulation on Mar 25, 2026 Applies toOOPM Cumulative OOPM $49.84",
+              "conf": 0.9761835634708405,
+              "bbox": [
+                301,
+                239,
+                625,
+                281
+              ]
+            }
+          ]
+        },
+        {
+          "text": "CT1VQT7T $0.00",
+          "conf": 0.9685228765010834,
+          "bbox": [
+            304,
+            345,
+            1255,
+            365
+          ],
+          "words": [
+            {
+              "text": "CT1VQT7T",
+              "conf": 0.9992021322250366,
+              "bbox": [
+                304,
+                345,
+                370,
+                362
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9378436207771301,
+              "bbox": [
+                1214,
+                348,
+                1255,
+                365
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FLDade Medical claim  Insertion of luD for pregnancy prevention Pald",
+          "conf": 0.9755203723907471,
+          "bbox": [
+            17,
+            369,
+            1253,
+            400
+          ],
+          "words": [
+            {
+              "text": "FLDade",
+              "conf": 0.9937570691108704,
+              "bbox": [
+                17,
+                378,
+                95,
+                400
+              ]
+            },
+            {
+              "text": "Medical claim  Insertion of luD for pregnancy prevention",
+              "conf": 0.9640128016471863,
+              "bbox": [
+                304,
+                374,
+                646,
+                391
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9687912464141846,
+              "bbox": [
+                1219,
+                369,
+                1253,
+                391
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No facility referenced-Carlos a Rodriguez",
+          "conf": 0.9781263470649719,
+          "bbox": [
+            302,
+            395,
+            566,
+            412
+          ],
+          "words": [
+            {
+              "text": "No facility referenced-Carlos a Rodriguez",
+              "conf": 0.9781263470649719,
+              "bbox": [
+                302,
+                395,
+                566,
+                412
+              ]
+            }
+          ]
+        },
+        {
+          "text": "SP03FL Team Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+          "conf": 0.9511710703372955,
+          "bbox": [
+            16,
+            412,
+            620,
+            434
+          ],
+          "words": [
+            {
+              "text": "SP03FL Team",
+              "conf": 0.9261760115623474,
+              "bbox": [
+                16,
+                412,
+                126,
+                432
+              ]
+            },
+            {
+              "text": "Service on Feb 16, 2026  Accumulation on Apr 5, 2026",
+              "conf": 0.9761661291122437,
+              "bbox": [
+                302,
+                418,
+                620,
+                434
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar plan:",
+          "conf": 0.9279960989952087,
+          "bbox": [
+            17,
+            445,
+            106,
+            465
+          ],
+          "words": [
+            {
+              "text": "Oscar plan:",
+              "conf": 0.9279960989952087,
+              "bbox": [
+                17,
+                445,
+                106,
+                465
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gold Simple",
+          "conf": 0.9755164980888367,
+          "bbox": [
+            40,
+            468,
+            108,
+            481
+          ],
+          "words": [
+            {
+              "text": "Gold Simple",
+              "conf": 0.9755164980888367,
+              "bbox": [
+                40,
+                468,
+                108,
+                481
+              ]
+            }
+          ]
+        },
+        {
+          "text": "FL HMO Standard View ID card G11VC8E5 $0.00",
+          "conf": 0.9917080700397491,
+          "bbox": [
+            39,
+            488,
+            1254,
+            521
+          ],
+          "words": [
+            {
+              "text": "FL HMO Standard",
+              "conf": 0.9987914562225342,
+              "bbox": [
+                39,
+                488,
+                142,
+                504
+              ]
+            },
+            {
+              "text": "View ID card",
+              "conf": 0.9719957709312439,
+              "bbox": [
+                40,
+                508,
+                112,
+                521
+              ]
+            },
+            {
+              "text": "G11VC8E5",
+              "conf": 0.9966414570808411,
+              "bbox": [
+                304,
+                496,
+                370,
+                513
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9994035959243774,
+              "bbox": [
+                1214,
+                499,
+                1254,
+                517
+              ]
+            }
+          ]
+        },
+        {
+          "text": "YJuan Romero +Medical claim-Urine pregnancy test Pald",
+          "conf": 0.9468634128570557,
+          "bbox": [
+            18,
+            523,
+            1252,
+            552
+          ],
+          "words": [
+            {
+              "text": "YJuan Romero",
+              "conf": 0.9370360374450684,
+              "bbox": [
+                18,
+                535,
+                117,
+                552
+              ]
+            },
+            {
+              "text": "+Medical claim-Urine pregnancy test",
+              "conf": 0.9480438232421875,
+              "bbox": [
+                302,
+                524,
+                535,
+                542
+              ]
+            },
+            {
+              "text": "Pald",
+              "conf": 0.9555103778839111,
+              "bbox": [
+                1221,
+                523,
+                1252,
+                541
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No facility referenced  Carlos a Rodriguez",
+          "conf": 0.9612711668014526,
+          "bbox": [
+            305,
+            549,
+            565,
+            561
+          ],
+          "words": [
+            {
+              "text": "No facility referenced  Carlos a Rodriguez",
+              "conf": 0.9612711668014526,
+              "bbox": [
+                305,
+                549,
+                565,
+                561
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Effective 05/01/2026 Service on Feb 13,2026 - Accumulation on Feb 25,2026",
+          "conf": 0.9612595736980438,
+          "bbox": [
+            16,
+            564,
+            626,
+            584
+          ],
+          "words": [
+            {
+              "text": "Effective 05/01/2026",
+              "conf": 0.9814475774765015,
+              "bbox": [
+                16,
+                564,
+                160,
+                584
+              ]
+            },
+            {
+              "text": "Service on Feb 13,2026 - Accumulation on Feb 25,2026",
+              "conf": 0.9410715699195862,
+              "bbox": [
+                304,
+                570,
+                626,
+                583
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1HWZM5YA $1.56",
+          "conf": 0.997802197933197,
+          "bbox": [
+            302,
+            646,
+            1255,
+            670
+          ],
+          "words": [
+            {
+              "text": "1HWZM5YA",
+              "conf": 0.9976911544799805,
+              "bbox": [
+                302,
+                646,
+                380,
+                666
+              ]
+            },
+            {
+              "text": "$1.56",
+              "conf": 0.9979132413864136,
+              "bbox": [
+                1218,
+                651,
+                1255,
+                670
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Individual",
+          "conf": 0.9918400645256042,
+          "bbox": [
+            20,
+            600,
+            96,
+            616
+          ],
+          "words": [
+            {
+              "text": "Individual",
+              "conf": 0.9918400645256042,
+              "bbox": [
+                20,
+                600,
+                96,
+                616
+              ]
+            }
+          ]
+        },
+        {
+          "text": "$No bills",
+          "conf": 0.9335289001464844,
+          "bbox": [
+            17,
+            631,
+            85,
+            651
+          ],
+          "words": [
+            {
+              "text": "$No bills",
+              "conf": 0.9335289001464844,
+              "bbox": [
+                17,
+                631,
+                85,
+                651
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar Unlocks Not activated Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count Paid",
+          "conf": 0.9825515151023865,
+          "bbox": [
+            20,
+            666,
+            1253,
+            699
+          ],
+          "words": [
+            {
+              "text": "Oscar Unlocks",
+              "conf": 0.9695805907249451,
+              "bbox": [
+                20,
+                666,
+                122,
+                682
+              ]
+            },
+            {
+              "text": "Not activated",
+              "conf": 0.9965223670005798,
+              "bbox": [
+                40,
+                686,
+                119,
+                699
+              ]
+            },
+            {
+              "text": " Medical claim  Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",
+              "conf": 0.9885455965995789,
+              "bbox": [
+                304,
+                677,
+                1131,
+                694
+              ]
+            },
+            {
+              "text": "Paid",
+              "conf": 0.9755575060844421,
+              "bbox": [
+                1218,
+                673,
+                1253,
+                694
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Quest Diagnostics Miami  No provider referenced",
+          "conf": 0.9882554411888123,
+          "bbox": [
+            322,
+            699,
+            609,
+            715
+          ],
+          "words": [
+            {
+              "text": "Quest Diagnostics Miami  No provider referenced",
+              "conf": 0.9882554411888123,
+              "bbox": [
+                322,
+                699,
+                609,
+                715
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service on Feb 13, 2026- Accumulation on Feb 25, 2026",
+          "conf": 0.9481183290481567,
+          "bbox": [
+            302,
+            721,
+            628,
+            737
+          ],
+          "words": [
+            {
+              "text": "Service on Feb 13, 2026- Accumulation on Feb 25, 2026",
+              "conf": 0.9481183290481567,
+              "bbox": [
+                302,
+                721,
+                628,
+                737
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Member tags Applies to OOPM - Cumulative OOPM $1.56",
+          "conf": 0.9510557353496552,
+          "bbox": [
+            18,
+            736,
+            565,
+            763
+          ],
+          "words": [
+            {
+              "text": "Member tags",
+              "conf": 0.9715107083320618,
+              "bbox": [
+                18,
+                736,
+                96,
+                752
+              ]
+            },
+            {
+              "text": " Applies to OOPM - Cumulative OOPM $1.56",
+              "conf": 0.9306007623672485,
+              "bbox": [
+                300,
+                740,
+                565,
+                763
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

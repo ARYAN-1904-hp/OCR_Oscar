@@ -179,7 +179,7 @@ class HybridLayoutEngine:
             return blocks, columns, tables
 
         try:
-            pp_result = self.pp_engine.analyse(_as_bgr(image))
+            pp_result = self.pp_engine.analyse(_as_bgr(image), words=words)
         except Exception as e:
             print(f"[HybridLayout] PPStructure failed: {e}")
             return blocks, columns, tables

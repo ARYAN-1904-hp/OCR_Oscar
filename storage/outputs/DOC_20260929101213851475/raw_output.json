@@ -1,0 +1,1591 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Clann Fgi F100 p92 Meinber Fgs agnosis Pg4 hscelaneods Fgs\nProcessor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days\nProvider information\nProvider NPI: 1098240233 Provider Name: OKONKWOMD, ADAEZE\nTax ID: 885344573 Specialty Code: 207V OBSTETRICS & GYNECOLOGY\nService Address: 457 Pine St, Sacramento, CA\nBilling Address: 457 Pine St, Sacramento, CA\nPhone: (555) 827-4188 Fax: (555) 593-7414\nContract Type: EPO-NETWORK Network Tier: 3 STANDARD\nReferring Provider: SELF REFERRED\nProvider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1500,
+      "height": 790,
+      "text": "Clann Fgi F100 p92 Meinber Fgs agnosis Pg4 hscelaneods Fgs\nProcessor: David Kim Last edit: 11/17/2025 09:12 Processor ID: PROC002 Decision SLA: 2 days\nProvider information\nProvider NPI: 1098240233 Provider Name: OKONKWOMD, ADAEZE\nTax ID: 885344573 Specialty Code: 207V OBSTETRICS & GYNECOLOGY\nService Address: 457 Pine St, Sacramento, CA\nBilling Address: 457 Pine St, Sacramento, CA\nPhone: (555) 827-4188 Fax: (555) 593-7414\nContract Type: EPO-NETWORK Network Tier: 3 STANDARD\nReferring Provider: SELF REFERRED\nProvider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1500
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 1,
+              "bbox": [
+                70,
+                168,
+                382,
+                192
+              ],
+              "text": "Provider information",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Provider information",
+                  "conf": 0.9575149416923523,
+                  "bbox": [
+                    70,
+                    168,
+                    382,
+                    192
+                  ],
+                  "words": [
+                    {
+                      "text": "Provider information",
+                      "conf": 0.9575149416923523,
+                      "bbox": [
+                        70,
+                        168,
+                        382,
+                        192
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                63,
+                387,
+                899,
+                524
+              ],
+              "text": "Service Address: 457 Pine St,Sacramento,CA\nBilling Address: 457 Pine St,Sacramento,CA\nPhone: (555) 827-4188 Fax: (555) 593-7414",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Service Address: 457 Pine St,Sacramento,CA",
+                  "conf": 0.9584317207336426,
+                  "bbox": [
+                    67,
+                    387,
+                    596,
+                    415
+                  ],
+                  "words": [
+                    {
+                      "text": "Service Address:",
+                      "conf": 0.9861034154891968,
+                      "bbox": [
+                        67,
+                        387,
+                        237,
+                        413
+                      ]
+                    },
+                    {
+                      "text": "457 Pine St,Sacramento,CA",
+                      "conf": 0.9307600259780884,
+                      "bbox": [
+                        284,
+                        395,
+                        596,
+                        415
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 1,
+                  "text": "Billing Address: 457 Pine St,Sacramento,CA",
+                  "conf": 0.9443976283073425,
+                  "bbox": [
+                    67,
+                    438,
+                    596,
+                    466
+                  ],
+                  "words": [
+                    {
+                      "text": "Billing Address:",
+                      "conf": 0.9510513544082642,
+                      "bbox": [
+                        67,
+                        438,
+                        223,
+                        462
+                      ]
+                    },
+                    {
+                      "text": "457 Pine St,Sacramento,CA",
+                      "conf": 0.9377439022064209,
+                      "bbox": [
+                        284,
+                        447,
+                        596,
+                        466
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "line_index": 2,
+                  "text": "Phone: (555) 827-4188 Fax: (555) 593-7414",
+                  "conf": 0.9844438433647156,
+                  "bbox": [
+                    63,
+                    493,
+                    899,
+                    524
+                  ],
+                  "words": [
+                    {
+                      "text": "Phone:",
+                      "conf": 0.987583339214325,
+                      "bbox": [
+                        63,
+                        493,
+                        139,
+                        522
+                      ]
+                    },
+                    {
+                      "text": "(555) 827-4188",
+                      "conf": 0.9883469343185425,
+                      "bbox": [
+                        182,
+                        501,
+                        353,
+                        524
+                      ]
+                    },
+                    {
+                      "text": "Fax:",
+                      "conf": 0.9704998731613159,
+                      "bbox": [
+                        653,
+                        495,
+                        700,
+                        521
+                      ]
+                    },
+                    {
+                      "text": "(555) 593-7414",
+                      "conf": 0.991345226764679,
+                      "bbox": [
+                        728,
+                        500,
+                        899,
+                        523
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 5,
+              "bbox": [
+                64,
+                623,
+                442,
+                675
+              ],
+              "text": "Referring Provider: SELF REFERRED",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Referring Provider: SELF REFERRED",
+                  "conf": 0.9534122198820114,
+                  "bbox": [
+                    64,
+                    623,
+                    442,
+                    675
+                  ],
+                  "words": [
+                    {
+                      "text": "Referring Provider:",
+                      "conf": 0.9515435993671417,
+                      "bbox": [
+                        64,
+                        623,
+                        160,
+                        675
+                      ]
+                    },
+                    {
+                      "text": "SELF REFERRED",
+                      "conf": 0.9552808403968811,
+                      "bbox": [
+                        266,
+                        641,
+                        442,
+                        661
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Provider information\nService Address: 457 Pine St,Sacramento,CA\nBilling Address: 457 Pine St,Sacramento,CA\nPhone: (555) 827-4188 Fax: (555) 593-7414\nReferring Provider: SELF REFERRED"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            68,
+            0,
+            1250,
+            89
+          ],
+          "text": "ClannFgi F100 p92 MeinberFgs agnosisPg4 hscelaneodsFgs\nProcessor: David Kim Last edit: 11/17/202509:12 Processor ID: PROCOO2 Decision SLA: 2 days",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "ClannFgi F100 p92 MeinberFgs agnosisPg4 hscelaneodsFgs",
+              "conf": 0.6778236746788024,
+              "bbox": [
+                85,
+                0,
+                1111,
+                18
+              ],
+              "words": [
+                {
+                  "text": "ClannFgi",
+                  "conf": 0.6656118631362915,
+                  "bbox": [
+                    85,
+                    0,
+                    189,
+                    15
+                  ]
+                },
+                {
+                  "text": "F100 p92",
+                  "conf": 0.5697850584983826,
+                  "bbox": [
+                    267,
+                    0,
+                    382,
+                    18
+                  ]
+                },
+                {
+                  "text": "MeinberFgs",
+                  "conf": 0.6371880769729614,
+                  "bbox": [
+                    451,
+                    0,
+                    584,
+                    14
+                  ]
+                },
+                {
+                  "text": "agnosisPg4",
+                  "conf": 0.7463613748550415,
+                  "bbox": [
+                    690,
+                    0,
+                    821,
+                    14
+                  ]
+                },
+                {
+                  "text": "hscelaneodsFgs",
+                  "conf": 0.7701719999313354,
+                  "bbox": [
+                    920,
+                    0,
+                    1111,
+                    14
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Processor: David Kim Last edit: 11/17/202509:12 Processor ID: PROCOO2 Decision SLA: 2 days",
+              "conf": 0.9555410504341125,
+              "bbox": [
+                68,
+                63,
+                1250,
+                89
+              ],
+              "words": [
+                {
+                  "text": "Processor: David Kim",
+                  "conf": 0.9551825523376465,
+                  "bbox": [
+                    68,
+                    66,
+                    302,
+                    86
+                  ]
+                },
+                {
+                  "text": "Last edit: 11/17/202509:12",
+                  "conf": 0.951885461807251,
+                  "bbox": [
+                    388,
+                    67,
+                    695,
+                    86
+                  ]
+                },
+                {
+                  "text": "Processor ID:",
+                  "conf": 0.9312832951545715,
+                  "bbox": [
+                    723,
+                    67,
+                    859,
+                    86
+                  ]
+                },
+                {
+                  "text": "PROCOO2",
+                  "conf": 0.9489301443099976,
+                  "bbox": [
+                    873,
+                    68,
+                    977,
+                    85
+                  ]
+                },
+                {
+                  "text": "Decision SLA: 2 days",
+                  "conf": 0.9904237985610962,
+                  "bbox": [
+                    1024,
+                    63,
+                    1250,
+                    89
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 1,
+          "bbox": [
+            70,
+            168,
+            382,
+            192
+          ],
+          "text": "Provider information",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Provider information",
+              "conf": 0.9575149416923523,
+              "bbox": [
+                70,
+                168,
+                382,
+                192
+              ],
+              "words": [
+                {
+                  "text": "Provider information",
+                  "conf": 0.9575149416923523,
+                  "bbox": [
+                    70,
+                    168,
+                    382,
+                    192
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            61,
+            230,
+            1413,
+            357
+          ],
+          "text": "Provider NPI: 1098240233 Provider Name: OKONKWOMD,ADAEZE\nTax ID: 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Provider NPI: 1098240233 Provider Name: OKONKWOMD,ADAEZE",
+              "conf": 0.9743176847696304,
+              "bbox": [
+                64,
+                230,
+                1173,
+                281
+              ],
+              "words": [
+                {
+                  "text": "Provider NPI:",
+                  "conf": 0.97551029920578,
+                  "bbox": [
+                    64,
+                    230,
+                    154,
+                    281
+                  ]
+                },
+                {
+                  "text": "1098240233",
+                  "conf": 0.9989107251167297,
+                  "bbox": [
+                    214,
+                    246,
+                    355,
+                    269
+                  ]
+                },
+                {
+                  "text": "Provider Name:",
+                  "conf": 0.9544467329978943,
+                  "bbox": [
+                    704,
+                    243,
+                    865,
+                    268
+                  ]
+                },
+                {
+                  "text": "OKONKWOMD,ADAEZE",
+                  "conf": 0.9684029817581177,
+                  "bbox": [
+                    914,
+                    247,
+                    1173,
+                    267
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Tax ID: 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY",
+              "conf": 0.9881048848231634,
+              "bbox": [
+                61,
+                303,
+                1413,
+                357
+              ],
+              "words": [
+                {
+                  "text": "Tax ID:",
+                  "conf": 0.961696207523346,
+                  "bbox": [
+                    61,
+                    305,
+                    105,
+                    357
+                  ]
+                },
+                {
+                  "text": "885344573",
+                  "conf": 0.9987576603889465,
+                  "bbox": [
+                    156,
+                    321,
+                    281,
+                    341
+                  ]
+                },
+                {
+                  "text": "Specialty Code:",
+                  "conf": 0.989225298166275,
+                  "bbox": [
+                    627,
+                    303,
+                    724,
+                    356
+                  ]
+                },
+                {
+                  "text": "207V",
+                  "conf": 0.993960440158844,
+                  "bbox": [
+                    793,
+                    319,
+                    857,
+                    344
+                  ]
+                },
+                {
+                  "text": "OBSTETRICS",
+                  "conf": 0.9948168992996216,
+                  "bbox": [
+                    1252,
+                    307,
+                    1379,
+                    327
+                  ]
+                },
+                {
+                  "text": "&GYNECOLOGY",
+                  "conf": 0.990172803401947,
+                  "bbox": [
+                    1253,
+                    334,
+                    1413,
+                    354
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            63,
+            387,
+            899,
+            524
+          ],
+          "text": "Service Address: 457 Pine St,Sacramento,CA\nBilling Address: 457 Pine St,Sacramento,CA\nPhone: (555) 827-4188 Fax: (555) 593-7414",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Service Address: 457 Pine St,Sacramento,CA",
+              "conf": 0.9584317207336426,
+              "bbox": [
+                67,
+                387,
+                596,
+                415
+              ],
+              "words": [
+                {
+                  "text": "Service Address:",
+                  "conf": 0.9861034154891968,
+                  "bbox": [
+                    67,
+                    387,
+                    237,
+                    413
+                  ]
+                },
+                {
+                  "text": "457 Pine St,Sacramento,CA",
+                  "conf": 0.9307600259780884,
+                  "bbox": [
+                    284,
+                    395,
+                    596,
+                    415
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Billing Address: 457 Pine St,Sacramento,CA",
+              "conf": 0.9443976283073425,
+              "bbox": [
+                67,
+                438,
+                596,
+                466
+              ],
+              "words": [
+                {
+                  "text": "Billing Address:",
+                  "conf": 0.9510513544082642,
+                  "bbox": [
+                    67,
+                    438,
+                    223,
+                    462
+                  ]
+                },
+                {
+                  "text": "457 Pine St,Sacramento,CA",
+                  "conf": 0.9377439022064209,
+                  "bbox": [
+                    284,
+                    447,
+                    596,
+                    466
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Phone: (555) 827-4188 Fax: (555) 593-7414",
+              "conf": 0.9844438433647156,
+              "bbox": [
+                63,
+                493,
+                899,
+                524
+              ],
+              "words": [
+                {
+                  "text": "Phone:",
+                  "conf": 0.987583339214325,
+                  "bbox": [
+                    63,
+                    493,
+                    139,
+                    522
+                  ]
+                },
+                {
+                  "text": "(555) 827-4188",
+                  "conf": 0.9883469343185425,
+                  "bbox": [
+                    182,
+                    501,
+                    353,
+                    524
+                  ]
+                },
+                {
+                  "text": "Fax:",
+                  "conf": 0.9704998731613159,
+                  "bbox": [
+                    653,
+                    495,
+                    700,
+                    521
+                  ]
+                },
+                {
+                  "text": "(555) 593-7414",
+                  "conf": 0.991345226764679,
+                  "bbox": [
+                    728,
+                    500,
+                    899,
+                    523
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            64,
+            553,
+            1449,
+            604
+          ],
+          "text": "Contract Type: EPO-NETWORK Network Tier: 3 STANDARD",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Contract Type: EPO-NETWORK Network Tier: 3 STANDARD",
+              "conf": 0.9936279714107513,
+              "bbox": [
+                64,
+                553,
+                1449,
+                604
+              ],
+              "words": [
+                {
+                  "text": "Contract Type:",
+                  "conf": 0.9899314641952515,
+                  "bbox": [
+                    64,
+                    553,
+                    157,
+                    604
+                  ]
+                },
+                {
+                  "text": "EPO-NETWORK",
+                  "conf": 0.994368314743042,
+                  "bbox": [
+                    223,
+                    563,
+                    390,
+                    589
+                  ]
+                },
+                {
+                  "text": "Network Tier:",
+                  "conf": 0.9883277714252472,
+                  "bbox": [
+                    726,
+                    553,
+                    818,
+                    604
+                  ]
+                },
+                {
+                  "text": "3",
+                  "conf": 0.9980325102806091,
+                  "bbox": [
+                    873,
+                    570,
+                    884,
+                    584
+                  ]
+                },
+                {
+                  "text": "STANDARD",
+                  "conf": 0.9974797964096069,
+                  "bbox": [
+                    1325,
+                    563,
+                    1449,
+                    589
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            64,
+            623,
+            442,
+            675
+          ],
+          "text": "Referring Provider: SELF REFERRED",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Referring Provider: SELF REFERRED",
+              "conf": 0.9534122198820114,
+              "bbox": [
+                64,
+                623,
+                442,
+                675
+              ],
+              "words": [
+                {
+                  "text": "Referring Provider:",
+                  "conf": 0.9515435993671417,
+                  "bbox": [
+                    64,
+                    623,
+                    160,
+                    675
+                  ]
+                },
+                {
+                  "text": "SELF REFERRED",
+                  "conf": 0.9552808403968811,
+                  "bbox": [
+                    266,
+                    641,
+                    442,
+                    661
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 6,
+          "bbox": [
+            64,
+            691,
+            1480,
+            745
+          ],
+          "text": "Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+              "conf": 0.9855950057506562,
+              "bbox": [
+                64,
+                691,
+                1480,
+                745
+              ],
+              "words": [
+                {
+                  "text": "Provider Status:",
+                  "conf": 0.9937731623649597,
+                  "bbox": [
+                    64,
+                    691,
+                    154,
+                    743
+                  ]
+                },
+                {
+                  "text": "ACTIVE",
+                  "conf": 0.9971228241920471,
+                  "bbox": [
+                    238,
+                    705,
+                    320,
+                    730
+                  ]
+                },
+                {
+                  "text": "Effective Date:",
+                  "conf": 0.9868225753307343,
+                  "bbox": [
+                    760,
+                    691,
+                    855,
+                    745
+                  ]
+                },
+                {
+                  "text": "01/01/2023",
+                  "conf": 0.9954246282577515,
+                  "bbox": [
+                    928,
+                    707,
+                    1058,
+                    730
+                  ]
+                },
+                {
+                  "text": "Term Date:",
+                  "conf": 0.9548318386077881,
+                  "bbox": [
+                    1416,
+                    691,
+                    1480,
+                    745
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            61,
+            168,
+            1480,
+            745
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Provider NPI</td><td>1098240233 Provider Name:</td><td>OKONKWOMD,ADAEZE</td><td></td></tr><tr><td>Tax ID</td><td>885344573 Specialty Code:</td><td>207V</td><td>OBSTETRICS</td></tr><tr><td></td><td></td><td>&amp;GYNECOLOGY</td><td></td></tr><tr><td>Service Address</td><td>457 Pine St,Sacramento,CA</td><td></td><td></td></tr><tr><td>Billing Address</td><td>457 Pine St,Sacramento,CA</td><td></td><td></td></tr><tr><td>Phone</td><td>(555) 827-4188 Fax: (555) 593-7414</td><td></td><td></td></tr><tr><td>Contract Type</td><td>EPO-NETWORK Network Tier:</td><td>3 STANDARD</td><td></td></tr><tr><td>Referring Provider</td><td>SELF REFERRED</td><td></td><td></td></tr><tr><td>Provider Status</td><td>ACTIVE</td><td>Effective Date</td><td>01/01/2023 Term Date:</td></tr></table>",
+          "text": "Provider NPI: 1098240233 Provider Name:\nOKONKWOMD,ADAEZE: \nTax ID: 885344573 Specialty Code:\n207V: OBSTETRICS\n&GYNECOLOGY: \nService Address: 457 Pine St,Sacramento,CA\nBilling Address: 457 Pine St,Sacramento,CA\nPhone: (555) 827-4188 Fax: (555) 593-7414\nContract Type: EPO-NETWORK Network Tier:\n3 STANDARD: \nReferring Provider: SELF REFERRED\nProvider Status: ACTIVE\nEffective Date: 01/01/2023 Term Date:",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "Provider NPI",
+              "1098240233 Provider Name:",
+              "OKONKWOMD,ADAEZE",
+              ""
+            ],
+            [
+              "Tax ID",
+              "885344573 Specialty Code:",
+              "207V",
+              "OBSTETRICS"
+            ],
+            [
+              "",
+              "",
+              "&GYNECOLOGY",
+              ""
+            ],
+            [
+              "Service Address",
+              "457 Pine St,Sacramento,CA",
+              "",
+              ""
+            ],
+            [
+              "Billing Address",
+              "457 Pine St,Sacramento,CA",
+              "",
+              ""
+            ],
+            [
+              "Phone",
+              "(555) 827-4188 Fax: (555) 593-7414",
+              "",
+              ""
+            ],
+            [
+              "Contract Type",
+              "EPO-NETWORK Network Tier:",
+              "3 STANDARD",
+              ""
+            ],
+            [
+              "Referring Provider",
+              "SELF REFERRED",
+              "",
+              ""
+            ],
+            [
+              "Provider Status",
+              "ACTIVE",
+              "Effective Date",
+              "01/01/2023 Term Date:"
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "Provider information",
+              ""
+            ],
+            [
+              "Provider NPI: 1098240233 Provider Name:",
+              "OKONKWOMD,ADAEZE"
+            ],
+            [
+              "Tax ID: 885344573 Specialty Code:",
+              "207V OBSTETRICS"
+            ],
+            [
+              "",
+              "&GYNECOLOGY"
+            ],
+            [
+              "Service Address: 457 Pine St,Sacramento,CA",
+              ""
+            ],
+            [
+              "Billing Address: 457 Pine St,Sacramento,CA",
+              ""
+            ],
+            [
+              "Phone: (555) 827-4188 Fax: (555) 593-7414",
+              ""
+            ],
+            [
+              "Contract Type: EPO-NETWORK Network Tier:",
+              "3 STANDARD"
+            ],
+            [
+              "Referring Provider: SELF REFERRED",
+              ""
+            ],
+            [
+              "Provider Status: ACTIVE",
+              "Effective Date: 01/01/2023 Term Date:"
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            68,
+            0,
+            1250,
+            89
+          ],
+          "html": "<table><tr><th>ClannFgi</th><th>F100 p92</th><th>MeinberFgs</th><th>agnosisPg4</th><th>hscelaneodsFgs</th></tr><tr><td>Processor: David Kim</td><td></td><td>Last edit: 11/17/202509:12</td><td>Processor ID:</td><td>PROCOO2 Decision SLA: 2 days</td></tr></table>",
+          "text": "Processor: David Kim |  | Last edit: 11/17/202509:12 | Processor ID: | PROCOO2 Decision SLA: 2 days",
+          "headers": [
+            "ClannFgi",
+            "F100 p92",
+            "MeinberFgs",
+            "agnosisPg4",
+            "hscelaneodsFgs"
+          ],
+          "rows": [
+            [
+              "Processor: David Kim",
+              "",
+              "Last edit: 11/17/202509:12",
+              "Processor ID:",
+              "PROCOO2 Decision SLA: 2 days"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "ClannFgi F100 p92 MeinberFgs agnosisPg4 hscelaneodsFgs",
+          "conf": 0.6778236746788024,
+          "bbox": [
+            85,
+            0,
+            1111,
+            18
+          ],
+          "words": [
+            {
+              "text": "ClannFgi",
+              "conf": 0.6656118631362915,
+              "bbox": [
+                85,
+                0,
+                189,
+                15
+              ]
+            },
+            {
+              "text": "F100 p92",
+              "conf": 0.5697850584983826,
+              "bbox": [
+                267,
+                0,
+                382,
+                18
+              ]
+            },
+            {
+              "text": "MeinberFgs",
+              "conf": 0.6371880769729614,
+              "bbox": [
+                451,
+                0,
+                584,
+                14
+              ]
+            },
+            {
+              "text": "agnosisPg4",
+              "conf": 0.7463613748550415,
+              "bbox": [
+                690,
+                0,
+                821,
+                14
+              ]
+            },
+            {
+              "text": "hscelaneodsFgs",
+              "conf": 0.7701719999313354,
+              "bbox": [
+                920,
+                0,
+                1111,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Processor: David Kim Last edit: 11/17/202509:12 Processor ID: PROCOO2 Decision SLA: 2 days",
+          "conf": 0.9555410504341125,
+          "bbox": [
+            68,
+            63,
+            1250,
+            89
+          ],
+          "words": [
+            {
+              "text": "Processor: David Kim",
+              "conf": 0.9551825523376465,
+              "bbox": [
+                68,
+                66,
+                302,
+                86
+              ]
+            },
+            {
+              "text": "Last edit: 11/17/202509:12",
+              "conf": 0.951885461807251,
+              "bbox": [
+                388,
+                67,
+                695,
+                86
+              ]
+            },
+            {
+              "text": "Processor ID:",
+              "conf": 0.9312832951545715,
+              "bbox": [
+                723,
+                67,
+                859,
+                86
+              ]
+            },
+            {
+              "text": "PROCOO2",
+              "conf": 0.9489301443099976,
+              "bbox": [
+                873,
+                68,
+                977,
+                85
+              ]
+            },
+            {
+              "text": "Decision SLA: 2 days",
+              "conf": 0.9904237985610962,
+              "bbox": [
+                1024,
+                63,
+                1250,
+                89
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Provider information",
+          "conf": 0.9575149416923523,
+          "bbox": [
+            70,
+            168,
+            382,
+            192
+          ],
+          "words": [
+            {
+              "text": "Provider information",
+              "conf": 0.9575149416923523,
+              "bbox": [
+                70,
+                168,
+                382,
+                192
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Provider NPI: 1098240233 Provider Name: OKONKWOMD,ADAEZE",
+          "conf": 0.9743176847696304,
+          "bbox": [
+            64,
+            230,
+            1173,
+            281
+          ],
+          "words": [
+            {
+              "text": "Provider NPI:",
+              "conf": 0.97551029920578,
+              "bbox": [
+                64,
+                230,
+                154,
+                281
+              ]
+            },
+            {
+              "text": "1098240233",
+              "conf": 0.9989107251167297,
+              "bbox": [
+                214,
+                246,
+                355,
+                269
+              ]
+            },
+            {
+              "text": "Provider Name:",
+              "conf": 0.9544467329978943,
+              "bbox": [
+                704,
+                243,
+                865,
+                268
+              ]
+            },
+            {
+              "text": "OKONKWOMD,ADAEZE",
+              "conf": 0.9684029817581177,
+              "bbox": [
+                914,
+                247,
+                1173,
+                267
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tax ID: 885344573 Specialty Code: 207V OBSTETRICS &GYNECOLOGY",
+          "conf": 0.9881048848231634,
+          "bbox": [
+            61,
+            303,
+            1413,
+            357
+          ],
+          "words": [
+            {
+              "text": "Tax ID:",
+              "conf": 0.961696207523346,
+              "bbox": [
+                61,
+                305,
+                105,
+                357
+              ]
+            },
+            {
+              "text": "885344573",
+              "conf": 0.9987576603889465,
+              "bbox": [
+                156,
+                321,
+                281,
+                341
+              ]
+            },
+            {
+              "text": "Specialty Code:",
+              "conf": 0.989225298166275,
+              "bbox": [
+                627,
+                303,
+                724,
+                356
+              ]
+            },
+            {
+              "text": "207V",
+              "conf": 0.993960440158844,
+              "bbox": [
+                793,
+                319,
+                857,
+                344
+              ]
+            },
+            {
+              "text": "OBSTETRICS",
+              "conf": 0.9948168992996216,
+              "bbox": [
+                1252,
+                307,
+                1379,
+                327
+              ]
+            },
+            {
+              "text": "&GYNECOLOGY",
+              "conf": 0.990172803401947,
+              "bbox": [
+                1253,
+                334,
+                1413,
+                354
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Service Address: 457 Pine St,Sacramento,CA",
+          "conf": 0.9584317207336426,
+          "bbox": [
+            67,
+            387,
+            596,
+            415
+          ],
+          "words": [
+            {
+              "text": "Service Address:",
+              "conf": 0.9861034154891968,
+              "bbox": [
+                67,
+                387,
+                237,
+                413
+              ]
+            },
+            {
+              "text": "457 Pine St,Sacramento,CA",
+              "conf": 0.9307600259780884,
+              "bbox": [
+                284,
+                395,
+                596,
+                415
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Billing Address: 457 Pine St,Sacramento,CA",
+          "conf": 0.9443976283073425,
+          "bbox": [
+            67,
+            438,
+            596,
+            466
+          ],
+          "words": [
+            {
+              "text": "Billing Address:",
+              "conf": 0.9510513544082642,
+              "bbox": [
+                67,
+                438,
+                223,
+                462
+              ]
+            },
+            {
+              "text": "457 Pine St,Sacramento,CA",
+              "conf": 0.9377439022064209,
+              "bbox": [
+                284,
+                447,
+                596,
+                466
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone: (555) 827-4188 Fax: (555) 593-7414",
+          "conf": 0.9844438433647156,
+          "bbox": [
+            63,
+            493,
+            899,
+            524
+          ],
+          "words": [
+            {
+              "text": "Phone:",
+              "conf": 0.987583339214325,
+              "bbox": [
+                63,
+                493,
+                139,
+                522
+              ]
+            },
+            {
+              "text": "(555) 827-4188",
+              "conf": 0.9883469343185425,
+              "bbox": [
+                182,
+                501,
+                353,
+                524
+              ]
+            },
+            {
+              "text": "Fax:",
+              "conf": 0.9704998731613159,
+              "bbox": [
+                653,
+                495,
+                700,
+                521
+              ]
+            },
+            {
+              "text": "(555) 593-7414",
+              "conf": 0.991345226764679,
+              "bbox": [
+                728,
+                500,
+                899,
+                523
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Contract Type: EPO-NETWORK Network Tier: 3 STANDARD",
+          "conf": 0.9936279714107513,
+          "bbox": [
+            64,
+            553,
+            1449,
+            604
+          ],
+          "words": [
+            {
+              "text": "Contract Type:",
+              "conf": 0.9899314641952515,
+              "bbox": [
+                64,
+                553,
+                157,
+                604
+              ]
+            },
+            {
+              "text": "EPO-NETWORK",
+              "conf": 0.994368314743042,
+              "bbox": [
+                223,
+                563,
+                390,
+                589
+              ]
+            },
+            {
+              "text": "Network Tier:",
+              "conf": 0.9883277714252472,
+              "bbox": [
+                726,
+                553,
+                818,
+                604
+              ]
+            },
+            {
+              "text": "3",
+              "conf": 0.9980325102806091,
+              "bbox": [
+                873,
+                570,
+                884,
+                584
+              ]
+            },
+            {
+              "text": "STANDARD",
+              "conf": 0.9974797964096069,
+              "bbox": [
+                1325,
+                563,
+                1449,
+                589
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Referring Provider: SELF REFERRED",
+          "conf": 0.9534122198820114,
+          "bbox": [
+            64,
+            623,
+            442,
+            675
+          ],
+          "words": [
+            {
+              "text": "Referring Provider:",
+              "conf": 0.9515435993671417,
+              "bbox": [
+                64,
+                623,
+                160,
+                675
+              ]
+            },
+            {
+              "text": "SELF REFERRED",
+              "conf": 0.9552808403968811,
+              "bbox": [
+                266,
+                641,
+                442,
+                661
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Provider Status: ACTIVE Effective Date: 01/01/2023 Term Date:",
+          "conf": 0.9855950057506562,
+          "bbox": [
+            64,
+            691,
+            1480,
+            745
+          ],
+          "words": [
+            {
+              "text": "Provider Status:",
+              "conf": 0.9937731623649597,
+              "bbox": [
+                64,
+                691,
+                154,
+                743
+              ]
+            },
+            {
+              "text": "ACTIVE",
+              "conf": 0.9971228241920471,
+              "bbox": [
+                238,
+                705,
+                320,
+                730
+              ]
+            },
+            {
+              "text": "Effective Date:",
+              "conf": 0.9868225753307343,
+              "bbox": [
+                760,
+                691,
+                855,
+                745
+              ]
+            },
+            {
+              "text": "01/01/2023",
+              "conf": 0.9954246282577515,
+              "bbox": [
+                928,
+                707,
+                1058,
+                730
+              ]
+            },
+            {
+              "text": "Term Date:",
+              "conf": 0.9548318386077881,
+              "bbox": [
+                1416,
+                691,
+                1480,
+                745
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

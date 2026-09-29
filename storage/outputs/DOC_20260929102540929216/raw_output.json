@@ -1,0 +1,1855 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims MR appian\nHolds My Daily Queue Assignments Primary Queue: Newborn Holds (7M 30S benchmark)\nSecondary Queue: N/A\nWelcome Melissa Rippon,\nMy Daily Stats\nAll of your assigned tickets are closed or waiting on others.\nClick \"Start\" to open your next ticket. Time Worked on Tickets Output\nSTART NEXT TICKET 6H 37M 57S 0 70 1 71 Total Closed 0\nEscalated Resolved Withdrawn High $ Prod Review\nMy Tickets Inventory Reports Notifications\nOpen Tickets In-progress or paused Escalated Tickets Require further attention\nMy Open Tickets\nQ Search Requests SEARCH T\nParent ID Ticket ID Claim ID Sk IlI Status Due Action\nNo items available",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE Claims MR appian\nHolds My Daily Queue Assignments Primary Queue: Newborn Holds (7M 30S benchmark)\nSecondary Queue: N/A\nWelcome Melissa Rippon,\nMy Daily Stats\nAll of your assigned tickets are closed or waiting on others.\nClick \"Start\" to open your next ticket. Time Worked on Tickets Output\nSTART NEXT TICKET 6H 37M 57S 0 70 1 71 Total Closed 0\nEscalated Resolved Withdrawn High $ Prod Review\nMy Tickets Inventory Reports Notifications\nOpen Tickets In-progress or paused Escalated Tickets Require further attention\nMy Open Tickets\nQ Search Requests SEARCH T\nParent ID Ticket ID Claim ID Sk IlI Status Due Action\nNo items available",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [
+            {
+              "block_type": "table_row",
+              "reading_order": 2,
+              "bbox": [
+                1061,
+                104,
+                1191,
+                121
+              ],
+              "text": "Secondary Queue: N/A",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Secondary Queue: N/A",
+                  "conf": 0.9838994145393372,
+                  "bbox": [
+                    1061,
+                    104,
+                    1191,
+                    121
+                  ],
+                  "words": [
+                    {
+                      "text": "Secondary Queue: N/A",
+                      "conf": 0.9838994145393372,
+                      "bbox": [
+                        1061,
+                        104,
+                        1191,
+                        121
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 3,
+              "bbox": [
+                39,
+                135,
+                283,
+                159
+              ],
+              "text": "Welcome Melissa Rippon,",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Welcome Melissa Rippon,",
+                  "conf": 0.9765148162841797,
+                  "bbox": [
+                    39,
+                    135,
+                    283,
+                    159
+                  ],
+                  "words": [
+                    {
+                      "text": "Welcome Melissa Rippon,",
+                      "conf": 0.9765148162841797,
+                      "bbox": [
+                        39,
+                        135,
+                        283,
+                        159
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 4,
+              "bbox": [
+                560,
+                163,
+                660,
+                181
+              ],
+              "text": "My Daily Stats",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "My Daily Stats",
+                  "conf": 0.9553206562995911,
+                  "bbox": [
+                    560,
+                    163,
+                    660,
+                    181
+                  ],
+                  "words": [
+                    {
+                      "text": "My Daily Stats",
+                      "conf": 0.9553206562995911,
+                      "bbox": [
+                        560,
+                        163,
+                        660,
+                        181
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 5,
+              "bbox": [
+                40,
+                185,
+                360,
+                197
+              ],
+              "text": "All of your assigned tickets are closed or waiting on others.",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "All of your assigned tickets are closed or waiting on others.",
+                  "conf": 0.975985050201416,
+                  "bbox": [
+                    40,
+                    185,
+                    360,
+                    197
+                  ],
+                  "words": [
+                    {
+                      "text": "All of your assigned tickets are closed or waiting on others.",
+                      "conf": 0.975985050201416,
+                      "bbox": [
+                        40,
+                        185,
+                        360,
+                        197
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 7,
+              "bbox": [
+                67,
+                384,
+                418,
+                419
+              ],
+              "text": "Open Tickets In-progress or paused Escalated Tickets Require further attention",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "Open Tickets In-progress or paused Escalated Tickets Require further attention",
+                  "conf": 0.9951760470867157,
+                  "bbox": [
+                    67,
+                    384,
+                    418,
+                    419
+                  ],
+                  "words": [
+                    {
+                      "text": "Open Tickets In-progress or paused",
+                      "conf": 0.9967758059501648,
+                      "bbox": [
+                        67,
+                        386,
+                        195,
+                        419
+                      ]
+                    },
+                    {
+                      "text": "Escalated Tickets Require further attention",
+                      "conf": 0.9935762882232666,
+                      "bbox": [
+                        276,
+                        384,
+                        418,
+                        418
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block_type": "table_row",
+              "reading_order": 8,
+              "bbox": [
+                39,
+                461,
+                154,
+                477
+              ],
+              "text": "My Open Tickets",
+              "lines": [
+                {
+                  "line_index": 0,
+                  "text": "My Open Tickets",
+                  "conf": 0.9742758870124817,
+                  "bbox": [
+                    39,
+                    461,
+                    154,
+                    477
+                  ],
+                  "words": [
+                    {
+                      "text": "My Open Tickets",
+                      "conf": 0.9742758870124817,
+                      "bbox": [
+                        39,
+                        461,
+                        154,
+                        477
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Secondary Queue: N/A\nWelcome Melissa Rippon,\nMy Daily Stats\nAll of your assigned tickets are closed or waiting on others.\nOpen Tickets In-progress or paused Escalated Tickets Require further attention\nMy Open Tickets"
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            43,
+            11,
+            1579,
+            39
+          ],
+          "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE ClaimsMR appian",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE ClaimsMR appian",
+              "conf": 0.9834677080313364,
+              "bbox": [
+                43,
+                11,
+                1579,
+                39
+              ],
+              "words": [
+                {
+                  "text": " Claims",
+                  "conf": 0.9389408826828003,
+                  "bbox": [
+                    43,
+                    12,
+                    103,
+                    39
+                  ]
+                },
+                {
+                  "text": "HOME",
+                  "conf": 0.9992286562919617,
+                  "bbox": [
+                    131,
+                    11,
+                    174,
+                    32
+                  ]
+                },
+                {
+                  "text": "INVENTORY",
+                  "conf": 0.9987443089485168,
+                  "bbox": [
+                    189,
+                    14,
+                    261,
+                    31
+                  ]
+                },
+                {
+                  "text": "CREATE TICKET",
+                  "conf": 0.9989543557167053,
+                  "bbox": [
+                    280,
+                    14,
+                    374,
+                    31
+                  ]
+                },
+                {
+                  "text": "UNARCHIVE",
+                  "conf": 0.9986555576324463,
+                  "bbox": [
+                    391,
+                    14,
+                    464,
+                    31
+                  ]
+                },
+                {
+                  "text": "ClaimsMR appian",
+                  "conf": 0.9662824869155884,
+                  "bbox": [
+                    1425,
+                    17,
+                    1579,
+                    33
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            18,
+            74,
+            1355,
+            98
+          ],
+          "text": "Holds My Daily Queue Assignments Primary Queue: Newborn Holds (7M 30S benchmark)",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Holds My Daily Queue Assignments Primary Queue: Newborn Holds (7M 30S benchmark)",
+              "conf": 0.972508450349172,
+              "bbox": [
+                18,
+                74,
+                1355,
+                98
+              ],
+              "words": [
+                {
+                  "text": "Holds",
+                  "conf": 0.9740495681762695,
+                  "bbox": [
+                    18,
+                    74,
+                    101,
+                    95
+                  ]
+                },
+                {
+                  "text": "My Daily Queue Assignments",
+                  "conf": 0.9734328389167786,
+                  "bbox": [
+                    560,
+                    81,
+                    758,
+                    98
+                  ]
+                },
+                {
+                  "text": "Primary Queue: Newborn Holds (7M 30S benchmark)",
+                  "conf": 0.9700429439544678,
+                  "bbox": [
+                    1061,
+                    79,
+                    1355,
+                    95
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 2,
+          "bbox": [
+            1061,
+            104,
+            1191,
+            121
+          ],
+          "text": "Secondary Queue: N/A",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Secondary Queue: N/A",
+              "conf": 0.9838994145393372,
+              "bbox": [
+                1061,
+                104,
+                1191,
+                121
+              ],
+              "words": [
+                {
+                  "text": "Secondary Queue: N/A",
+                  "conf": 0.9838994145393372,
+                  "bbox": [
+                    1061,
+                    104,
+                    1191,
+                    121
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 3,
+          "bbox": [
+            39,
+            135,
+            283,
+            159
+          ],
+          "text": "Welcome Melissa Rippon,",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Welcome Melissa Rippon,",
+              "conf": 0.9765148162841797,
+              "bbox": [
+                39,
+                135,
+                283,
+                159
+              ],
+              "words": [
+                {
+                  "text": "Welcome Melissa Rippon,",
+                  "conf": 0.9765148162841797,
+                  "bbox": [
+                    39,
+                    135,
+                    283,
+                    159
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 4,
+          "bbox": [
+            560,
+            163,
+            660,
+            181
+          ],
+          "text": "My Daily Stats",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "My Daily Stats",
+              "conf": 0.9553206562995911,
+              "bbox": [
+                560,
+                163,
+                660,
+                181
+              ],
+              "words": [
+                {
+                  "text": "My Daily Stats",
+                  "conf": 0.9553206562995911,
+                  "bbox": [
+                    560,
+                    163,
+                    660,
+                    181
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            40,
+            185,
+            360,
+            197
+          ],
+          "text": "All of your assigned tickets are closed or waiting on others.",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "All of your assigned tickets are closed or waiting on others.",
+              "conf": 0.975985050201416,
+              "bbox": [
+                40,
+                185,
+                360,
+                197
+              ],
+              "words": [
+                {
+                  "text": "All of your assigned tickets are closed or waiting on others.",
+                  "conf": 0.975985050201416,
+                  "bbox": [
+                    40,
+                    185,
+                    360,
+                    197
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 6,
+          "bbox": [
+            38,
+            201,
+            1509,
+            345
+          ],
+          "text": "Click \"Start\" to open your next ticket. Time Worked on Tickets Output\nSTART NEXT TICKET 6H 37M 57S 0 70 1 71 Total Closed 0\nEscalated Resolved Withdrawn High $ Prod Review\nMy Tickets Inventory Reports Notifications",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Click \"Start\" to open your next ticket. Time Worked on Tickets Output",
+              "conf": 0.9856184522310892,
+              "bbox": [
+                38,
+                201,
+                865,
+                227
+              ],
+              "words": [
+                {
+                  "text": "Click \"Start\" to open your next ticket.",
+                  "conf": 0.9623855352401733,
+                  "bbox": [
+                    38,
+                    201,
+                    245,
+                    218
+                  ]
+                },
+                {
+                  "text": "Time Worked on Tickets",
+                  "conf": 0.9980167746543884,
+                  "bbox": [
+                    559,
+                    209,
+                    695,
+                    225
+                  ]
+                },
+                {
+                  "text": "Output",
+                  "conf": 0.996453046798706,
+                  "bbox": [
+                    817,
+                    206,
+                    865,
+                    227
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "START NEXT TICKET 6H 37M 57S 0 70 1 71 Total Closed 0",
+              "conf": 0.9832700490951538,
+              "bbox": [
+                48,
+                241,
+                1434,
+                288
+              ],
+              "words": [
+                {
+                  "text": "START NEXT TICKET",
+                  "conf": 0.9655081629753113,
+                  "bbox": [
+                    48,
+                    241,
+                    164,
+                    257
+                  ]
+                },
+                {
+                  "text": "6H 37M 57S",
+                  "conf": 0.9877305030822754,
+                  "bbox": [
+                    562,
+                    244,
+                    708,
+                    266
+                  ]
+                },
+                {
+                  "text": "0",
+                  "conf": 0.9883584976196289,
+                  "bbox": [
+                    820,
+                    243,
+                    840,
+                    267
+                  ]
+                },
+                {
+                  "text": "70",
+                  "conf": 0.9992740750312805,
+                  "bbox": [
+                    968,
+                    242,
+                    1002,
+                    267
+                  ]
+                },
+                {
+                  "text": "1",
+                  "conf": 0.9712398052215576,
+                  "bbox": [
+                    1115,
+                    243,
+                    1130,
+                    266
+                  ]
+                },
+                {
+                  "text": "71 Total Closed",
+                  "conf": 0.984421968460083,
+                  "bbox": [
+                    1262,
+                    241,
+                    1329,
+                    288
+                  ]
+                },
+                {
+                  "text": "0",
+                  "conf": 0.9863573312759399,
+                  "bbox": [
+                    1414,
+                    243,
+                    1434,
+                    266
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Escalated Resolved Withdrawn High $ Prod Review",
+              "conf": 0.9910851866006851,
+              "bbox": [
+                819,
+                271,
+                1509,
+                288
+              ],
+              "words": [
+                {
+                  "text": "Escalated",
+                  "conf": 0.9987337589263916,
+                  "bbox": [
+                    819,
+                    272,
+                    871,
+                    288
+                  ]
+                },
+                {
+                  "text": "Resolved",
+                  "conf": 0.9963926672935486,
+                  "bbox": [
+                    969,
+                    272,
+                    1015,
+                    286
+                  ]
+                },
+                {
+                  "text": "Withdrawn",
+                  "conf": 0.9968211650848389,
+                  "bbox": [
+                    1115,
+                    271,
+                    1174,
+                    288
+                  ]
+                },
+                {
+                  "text": "High $ Prod Review",
+                  "conf": 0.9723931550979614,
+                  "bbox": [
+                    1414,
+                    271,
+                    1509,
+                    288
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "My Tickets Inventory Reports Notifications",
+              "conf": 0.9914582570393881,
+              "bbox": [
+                79,
+                327,
+                516,
+                345
+              ],
+              "words": [
+                {
+                  "text": "My Tickets",
+                  "conf": 0.9748311042785645,
+                  "bbox": [
+                    79,
+                    328,
+                    145,
+                    345
+                  ]
+                },
+                {
+                  "text": "Inventory Reports",
+                  "conf": 0.9996632933616638,
+                  "bbox": [
+                    242,
+                    328,
+                    346,
+                    345
+                  ]
+                },
+                {
+                  "text": "Notifications",
+                  "conf": 0.9998803734779358,
+                  "bbox": [
+                    439,
+                    327,
+                    516,
+                    344
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 7,
+          "bbox": [
+            67,
+            384,
+            418,
+            419
+          ],
+          "text": "Open Tickets In-progress or paused Escalated Tickets Require further attention",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Open Tickets In-progress or paused Escalated Tickets Require further attention",
+              "conf": 0.9951760470867157,
+              "bbox": [
+                67,
+                384,
+                418,
+                419
+              ],
+              "words": [
+                {
+                  "text": "Open Tickets In-progress or paused",
+                  "conf": 0.9967758059501648,
+                  "bbox": [
+                    67,
+                    386,
+                    195,
+                    419
+                  ]
+                },
+                {
+                  "text": "Escalated Tickets Require further attention",
+                  "conf": 0.9935762882232666,
+                  "bbox": [
+                    276,
+                    384,
+                    418,
+                    418
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 8,
+          "bbox": [
+            39,
+            461,
+            154,
+            477
+          ],
+          "text": "My Open Tickets",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "My Open Tickets",
+              "conf": 0.9742758870124817,
+              "bbox": [
+                39,
+                461,
+                154,
+                477
+              ],
+              "words": [
+                {
+                  "text": "My Open Tickets",
+                  "conf": 0.9742758870124817,
+                  "bbox": [
+                    39,
+                    461,
+                    154,
+                    477
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 9,
+          "bbox": [
+            42,
+            494,
+            1512,
+            553
+          ],
+          "text": "Q Search Requests SEARCH T\nParent ID TicketID ClaimID SkIlI Status Due Action",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Q Search Requests SEARCH T",
+              "conf": 0.9705901940663656,
+              "bbox": [
+                42,
+                494,
+                1512,
+                516
+              ],
+              "words": [
+                {
+                  "text": "Q Search Requests",
+                  "conf": 0.9648053646087646,
+                  "bbox": [
+                    42,
+                    496,
+                    156,
+                    516
+                  ]
+                },
+                {
+                  "text": "SEARCH",
+                  "conf": 0.9940759539604187,
+                  "bbox": [
+                    407,
+                    494,
+                    462,
+                    516
+                  ]
+                },
+                {
+                  "text": "T",
+                  "conf": 0.9528892636299133,
+                  "bbox": [
+                    1481,
+                    499,
+                    1512,
+                    513
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Parent ID TicketID ClaimID SkIlI Status Due Action",
+              "conf": 0.9569427371025085,
+              "bbox": [
+                45,
+                531,
+                1405,
+                553
+              ],
+              "words": [
+                {
+                  "text": "Parent ID",
+                  "conf": 0.9798212051391602,
+                  "bbox": [
+                    45,
+                    535,
+                    102,
+                    551
+                  ]
+                },
+                {
+                  "text": "TicketID",
+                  "conf": 0.9638631343841553,
+                  "bbox": [
+                    317,
+                    532,
+                    374,
+                    553
+                  ]
+                },
+                {
+                  "text": "ClaimID",
+                  "conf": 0.9874126315116882,
+                  "bbox": [
+                    581,
+                    532,
+                    634,
+                    553
+                  ]
+                },
+                {
+                  "text": "SkIlI",
+                  "conf": 0.8241627812385559,
+                  "bbox": [
+                    808,
+                    533,
+                    839,
+                    551
+                  ]
+                },
+                {
+                  "text": "Status",
+                  "conf": 0.9955742955207825,
+                  "bbox": [
+                    976,
+                    532,
+                    1022,
+                    553
+                  ]
+                },
+                {
+                  "text": "Due",
+                  "conf": 0.9975261688232422,
+                  "bbox": [
+                    1196,
+                    531,
+                    1227,
+                    553
+                  ]
+                },
+                {
+                  "text": "Action",
+                  "conf": 0.9502389430999756,
+                  "bbox": [
+                    1361,
+                    532,
+                    1405,
+                    553
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 10,
+          "bbox": [
+            741,
+            580,
+            845,
+            597
+          ],
+          "text": "No items available",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "No items available",
+              "conf": 0.9984309077262878,
+              "bbox": [
+                741,
+                580,
+                845,
+                597
+              ],
+              "words": [
+                {
+                  "text": "No items available",
+                  "conf": 0.9984309077262878,
+                  "bbox": [
+                    741,
+                    580,
+                    845,
+                    597
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            18,
+            11,
+            1579,
+            597
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>Claims HOME INVENTORY CREATE TICKET UNARCHIVE</td><td></td><td>ClaimsMR appian</td><td></td></tr><tr><td>Holds</td><td>My Daily Queue Assignments</td><td>Primary Queue</td><td>Newborn Holds (7M 30S benchmark)</td></tr><tr><td></td><td></td><td>Secondary Queue</td><td>N/A</td></tr><tr><td>Welcome Melissa Rippon,</td><td></td><td></td><td></td></tr><tr><td>My Daily Stats</td><td></td><td></td><td></td></tr><tr><td>All of your assigned tickets are closed or waiting on others.</td><td></td><td></td><td></td></tr><tr><td>Click &quot;Start&quot; to open your next ticket.</td><td>Time Worked on Tickets</td><td>Output</td><td></td></tr><tr><td>My Tickets Inventory Reports Notifications</td><td></td><td></td><td></td></tr><tr><td>Open Tickets In-progress or paused</td><td>Escalated Tickets Require further attention</td><td></td><td></td></tr><tr><td>My Open Tickets</td><td></td><td></td><td></td></tr><tr><td>Q Search Requests</td><td>SEARCH</td><td>T</td><td></td></tr><tr><td>Parent ID TicketID ClaimID</td><td></td><td>SkIlI Status Due Action</td><td></td></tr><tr><td>No items available</td><td></td><td></td><td></td></tr></table>",
+          "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE: \nClaimsMR appian: \nHolds: My Daily Queue Assignments\nPrimary Queue: Newborn Holds (7M 30S benchmark)\nSecondary Queue: N/A\nWelcome Melissa Rippon,: \nMy Daily Stats: \nAll of your assigned tickets are closed or waiting on others.: \nClick \"Start\" to open your next ticket.: Time Worked on Tickets\nOutput: \nMy Tickets Inventory Reports Notifications: \nOpen Tickets In-progress or paused: Escalated Tickets Require further attention\nMy Open Tickets: \nQ Search Requests: SEARCH\nT: \nParent ID TicketID ClaimID: \nSkIlI Status Due Action: \nNo items available: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "Claims HOME INVENTORY CREATE TICKET UNARCHIVE",
+              "",
+              "ClaimsMR appian",
+              ""
+            ],
+            [
+              "Holds",
+              "My Daily Queue Assignments",
+              "Primary Queue",
+              "Newborn Holds (7M 30S benchmark)"
+            ],
+            [
+              "",
+              "",
+              "Secondary Queue",
+              "N/A"
+            ],
+            [
+              "Welcome Melissa Rippon,",
+              "",
+              "",
+              ""
+            ],
+            [
+              "My Daily Stats",
+              "",
+              "",
+              ""
+            ],
+            [
+              "All of your assigned tickets are closed or waiting on others.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Click \"Start\" to open your next ticket.",
+              "Time Worked on Tickets",
+              "Output",
+              ""
+            ],
+            [
+              "My Tickets Inventory Reports Notifications",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Open Tickets In-progress or paused",
+              "Escalated Tickets Require further attention",
+              "",
+              ""
+            ],
+            [
+              "My Open Tickets",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Q Search Requests",
+              "SEARCH",
+              "T",
+              ""
+            ],
+            [
+              "Parent ID TicketID ClaimID",
+              "",
+              "SkIlI Status Due Action",
+              ""
+            ],
+            [
+              "No items available",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "Claims HOME INVENTORY CREATE TICKET UNARCHIVE",
+              "ClaimsMR appian"
+            ],
+            [
+              "Holds My Daily Queue Assignments",
+              "Primary Queue: Newborn Holds (7M 30S benchmark)"
+            ],
+            [
+              "",
+              "Secondary Queue: N/A"
+            ],
+            [
+              "Welcome Melissa Rippon,",
+              ""
+            ],
+            [
+              "My Daily Stats",
+              ""
+            ],
+            [
+              "All of your assigned tickets are closed or waiting on others.",
+              ""
+            ],
+            [
+              "Click \"Start\" to open your next ticket. Time Worked on Tickets",
+              "Output"
+            ],
+            [
+              "My Tickets Inventory Reports Notifications",
+              ""
+            ],
+            [
+              "Open Tickets In-progress or paused Escalated Tickets Require further attention",
+              ""
+            ],
+            [
+              "My Open Tickets",
+              ""
+            ],
+            [
+              "Q Search Requests SEARCH",
+              "T"
+            ],
+            [
+              "Parent ID TicketID ClaimID",
+              "SkIlI Status Due Action"
+            ],
+            [
+              "No items available",
+              ""
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            48,
+            241,
+            1509,
+            288
+          ],
+          "html": "<table><tr><th>START NEXT TICKET</th><th>6H 37M 57S</th><th>0</th><th>70</th><th>1</th><th>71 Total Closed</th><th>0</th></tr><tr><td></td><td></td><td>Escalated</td><td>Resolved</td><td>Withdrawn</td><td></td><td>High $ Prod Review</td></tr></table>",
+          "text": " |  | Escalated | Resolved | Withdrawn |  | High $ Prod Review",
+          "headers": [
+            "START NEXT TICKET",
+            "6H 37M 57S",
+            "0",
+            "70",
+            "1",
+            "71 Total Closed",
+            "0"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "Escalated",
+              "Resolved",
+              "Withdrawn",
+              "",
+              "High $ Prod Review"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "Claims HOME INVENTORY CREATE TICKET UNARCHIVE ClaimsMR appian",
+          "conf": 0.9834677080313364,
+          "bbox": [
+            43,
+            11,
+            1579,
+            39
+          ],
+          "words": [
+            {
+              "text": " Claims",
+              "conf": 0.9389408826828003,
+              "bbox": [
+                43,
+                12,
+                103,
+                39
+              ]
+            },
+            {
+              "text": "HOME",
+              "conf": 0.9992286562919617,
+              "bbox": [
+                131,
+                11,
+                174,
+                32
+              ]
+            },
+            {
+              "text": "INVENTORY",
+              "conf": 0.9987443089485168,
+              "bbox": [
+                189,
+                14,
+                261,
+                31
+              ]
+            },
+            {
+              "text": "CREATE TICKET",
+              "conf": 0.9989543557167053,
+              "bbox": [
+                280,
+                14,
+                374,
+                31
+              ]
+            },
+            {
+              "text": "UNARCHIVE",
+              "conf": 0.9986555576324463,
+              "bbox": [
+                391,
+                14,
+                464,
+                31
+              ]
+            },
+            {
+              "text": "ClaimsMR appian",
+              "conf": 0.9662824869155884,
+              "bbox": [
+                1425,
+                17,
+                1579,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Holds My Daily Queue Assignments Primary Queue: Newborn Holds (7M 30S benchmark)",
+          "conf": 0.972508450349172,
+          "bbox": [
+            18,
+            74,
+            1355,
+            98
+          ],
+          "words": [
+            {
+              "text": "Holds",
+              "conf": 0.9740495681762695,
+              "bbox": [
+                18,
+                74,
+                101,
+                95
+              ]
+            },
+            {
+              "text": "My Daily Queue Assignments",
+              "conf": 0.9734328389167786,
+              "bbox": [
+                560,
+                81,
+                758,
+                98
+              ]
+            },
+            {
+              "text": "Primary Queue: Newborn Holds (7M 30S benchmark)",
+              "conf": 0.9700429439544678,
+              "bbox": [
+                1061,
+                79,
+                1355,
+                95
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Secondary Queue: N/A",
+          "conf": 0.9838994145393372,
+          "bbox": [
+            1061,
+            104,
+            1191,
+            121
+          ],
+          "words": [
+            {
+              "text": "Secondary Queue: N/A",
+              "conf": 0.9838994145393372,
+              "bbox": [
+                1061,
+                104,
+                1191,
+                121
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Welcome Melissa Rippon,",
+          "conf": 0.9765148162841797,
+          "bbox": [
+            39,
+            135,
+            283,
+            159
+          ],
+          "words": [
+            {
+              "text": "Welcome Melissa Rippon,",
+              "conf": 0.9765148162841797,
+              "bbox": [
+                39,
+                135,
+                283,
+                159
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My Daily Stats",
+          "conf": 0.9553206562995911,
+          "bbox": [
+            560,
+            163,
+            660,
+            181
+          ],
+          "words": [
+            {
+              "text": "My Daily Stats",
+              "conf": 0.9553206562995911,
+              "bbox": [
+                560,
+                163,
+                660,
+                181
+              ]
+            }
+          ]
+        },
+        {
+          "text": "All of your assigned tickets are closed or waiting on others.",
+          "conf": 0.975985050201416,
+          "bbox": [
+            40,
+            185,
+            360,
+            197
+          ],
+          "words": [
+            {
+              "text": "All of your assigned tickets are closed or waiting on others.",
+              "conf": 0.975985050201416,
+              "bbox": [
+                40,
+                185,
+                360,
+                197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Click \"Start\" to open your next ticket. Time Worked on Tickets Output",
+          "conf": 0.9856184522310892,
+          "bbox": [
+            38,
+            201,
+            865,
+            227
+          ],
+          "words": [
+            {
+              "text": "Click \"Start\" to open your next ticket.",
+              "conf": 0.9623855352401733,
+              "bbox": [
+                38,
+                201,
+                245,
+                218
+              ]
+            },
+            {
+              "text": "Time Worked on Tickets",
+              "conf": 0.9980167746543884,
+              "bbox": [
+                559,
+                209,
+                695,
+                225
+              ]
+            },
+            {
+              "text": "Output",
+              "conf": 0.996453046798706,
+              "bbox": [
+                817,
+                206,
+                865,
+                227
+              ]
+            }
+          ]
+        },
+        {
+          "text": "START NEXT TICKET 6H 37M 57S 0 70 1 71 Total Closed 0",
+          "conf": 0.9832700490951538,
+          "bbox": [
+            48,
+            241,
+            1434,
+            288
+          ],
+          "words": [
+            {
+              "text": "START NEXT TICKET",
+              "conf": 0.9655081629753113,
+              "bbox": [
+                48,
+                241,
+                164,
+                257
+              ]
+            },
+            {
+              "text": "6H 37M 57S",
+              "conf": 0.9877305030822754,
+              "bbox": [
+                562,
+                244,
+                708,
+                266
+              ]
+            },
+            {
+              "text": "0",
+              "conf": 0.9883584976196289,
+              "bbox": [
+                820,
+                243,
+                840,
+                267
+              ]
+            },
+            {
+              "text": "70",
+              "conf": 0.9992740750312805,
+              "bbox": [
+                968,
+                242,
+                1002,
+                267
+              ]
+            },
+            {
+              "text": "1",
+              "conf": 0.9712398052215576,
+              "bbox": [
+                1115,
+                243,
+                1130,
+                266
+              ]
+            },
+            {
+              "text": "71 Total Closed",
+              "conf": 0.984421968460083,
+              "bbox": [
+                1262,
+                241,
+                1329,
+                288
+              ]
+            },
+            {
+              "text": "0",
+              "conf": 0.9863573312759399,
+              "bbox": [
+                1414,
+                243,
+                1434,
+                266
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Escalated Resolved Withdrawn High $ Prod Review",
+          "conf": 0.9910851866006851,
+          "bbox": [
+            819,
+            271,
+            1509,
+            288
+          ],
+          "words": [
+            {
+              "text": "Escalated",
+              "conf": 0.9987337589263916,
+              "bbox": [
+                819,
+                272,
+                871,
+                288
+              ]
+            },
+            {
+              "text": "Resolved",
+              "conf": 0.9963926672935486,
+              "bbox": [
+                969,
+                272,
+                1015,
+                286
+              ]
+            },
+            {
+              "text": "Withdrawn",
+              "conf": 0.9968211650848389,
+              "bbox": [
+                1115,
+                271,
+                1174,
+                288
+              ]
+            },
+            {
+              "text": "High $ Prod Review",
+              "conf": 0.9723931550979614,
+              "bbox": [
+                1414,
+                271,
+                1509,
+                288
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My Tickets Inventory Reports Notifications",
+          "conf": 0.9914582570393881,
+          "bbox": [
+            79,
+            327,
+            516,
+            345
+          ],
+          "words": [
+            {
+              "text": "My Tickets",
+              "conf": 0.9748311042785645,
+              "bbox": [
+                79,
+                328,
+                145,
+                345
+              ]
+            },
+            {
+              "text": "Inventory Reports",
+              "conf": 0.9996632933616638,
+              "bbox": [
+                242,
+                328,
+                346,
+                345
+              ]
+            },
+            {
+              "text": "Notifications",
+              "conf": 0.9998803734779358,
+              "bbox": [
+                439,
+                327,
+                516,
+                344
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Open Tickets In-progress or paused Escalated Tickets Require further attention",
+          "conf": 0.9951760470867157,
+          "bbox": [
+            67,
+            384,
+            418,
+            419
+          ],
+          "words": [
+            {
+              "text": "Open Tickets In-progress or paused",
+              "conf": 0.9967758059501648,
+              "bbox": [
+                67,
+                386,
+                195,
+                419
+              ]
+            },
+            {
+              "text": "Escalated Tickets Require further attention",
+              "conf": 0.9935762882232666,
+              "bbox": [
+                276,
+                384,
+                418,
+                418
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My Open Tickets",
+          "conf": 0.9742758870124817,
+          "bbox": [
+            39,
+            461,
+            154,
+            477
+          ],
+          "words": [
+            {
+              "text": "My Open Tickets",
+              "conf": 0.9742758870124817,
+              "bbox": [
+                39,
+                461,
+                154,
+                477
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Q Search Requests SEARCH T",
+          "conf": 0.9705901940663656,
+          "bbox": [
+            42,
+            494,
+            1512,
+            516
+          ],
+          "words": [
+            {
+              "text": "Q Search Requests",
+              "conf": 0.9648053646087646,
+              "bbox": [
+                42,
+                496,
+                156,
+                516
+              ]
+            },
+            {
+              "text": "SEARCH",
+              "conf": 0.9940759539604187,
+              "bbox": [
+                407,
+                494,
+                462,
+                516
+              ]
+            },
+            {
+              "text": "T",
+              "conf": 0.9528892636299133,
+              "bbox": [
+                1481,
+                499,
+                1512,
+                513
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Parent ID TicketID ClaimID SkIlI Status Due Action",
+          "conf": 0.9569427371025085,
+          "bbox": [
+            45,
+            531,
+            1405,
+            553
+          ],
+          "words": [
+            {
+              "text": "Parent ID",
+              "conf": 0.9798212051391602,
+              "bbox": [
+                45,
+                535,
+                102,
+                551
+              ]
+            },
+            {
+              "text": "TicketID",
+              "conf": 0.9638631343841553,
+              "bbox": [
+                317,
+                532,
+                374,
+                553
+              ]
+            },
+            {
+              "text": "ClaimID",
+              "conf": 0.9874126315116882,
+              "bbox": [
+                581,
+                532,
+                634,
+                553
+              ]
+            },
+            {
+              "text": "SkIlI",
+              "conf": 0.8241627812385559,
+              "bbox": [
+                808,
+                533,
+                839,
+                551
+              ]
+            },
+            {
+              "text": "Status",
+              "conf": 0.9955742955207825,
+              "bbox": [
+                976,
+                532,
+                1022,
+                553
+              ]
+            },
+            {
+              "text": "Due",
+              "conf": 0.9975261688232422,
+              "bbox": [
+                1196,
+                531,
+                1227,
+                553
+              ]
+            },
+            {
+              "text": "Action",
+              "conf": 0.9502389430999756,
+              "bbox": [
+                1361,
+                532,
+                1405,
+                553
+              ]
+            }
+          ]
+        },
+        {
+          "text": "No items available",
+          "conf": 0.9984309077262878,
+          "bbox": [
+            741,
+            580,
+            845,
+            597
+          ],
+          "words": [
+            {
+              "text": "No items available",
+              "conf": 0.9984309077262878,
+              "bbox": [
+                741,
+                580,
+                845,
+                597
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

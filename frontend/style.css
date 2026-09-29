@@ -558,63 +558,6 @@ body {
   color: #d5e2e8;
 }
 
-.fields-view {
-  max-height: 420px;
-  overflow: auto;
-}
-
-.fields-doc + .fields-doc {
-  margin-top: 1.1rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
-}
-
-.fields-doc-title {
-  margin: 0 0 0.5rem;
-  font-size: 0.92rem;
-  font-weight: 600;
-}
-
-.fields-doc-app {
-  color: var(--muted);
-  font-weight: 400;
-}
-
-.fields-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.85rem;
-}
-
-.fields-table th,
-.fields-table td {
-  padding: 0.35rem 0.5rem;
-  border-bottom: 1px solid var(--border);
-  text-align: left;
-  vertical-align: top;
-  word-break: break-word;
-}
-
-.fields-table th {
-  width: 34%;
-  color: var(--muted);
-  font-weight: 600;
-}
-
-.fields-flags {
-  margin: 0.6rem 0 0;
-  padding-left: 1.1rem;
-  color: #f2c572;
-  font-size: 0.8rem;
-  line-height: 1.45;
-}
-
-.fields-empty {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.88rem;
-}
-
 .footer {
   margin-top: 1.5rem;
 }

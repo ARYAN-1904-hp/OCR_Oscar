@@ -1,0 +1,2864 @@
+{
+  "meta": {
+    "engine": "paddleocr",
+    "lang": "en",
+    "preset_requested": "auto",
+    "dpi": 150,
+    "max_pages": 5,
+    "input_type": "image",
+    "mkldnn_disabled": true,
+    "engine_requested": "auto",
+    "return_layout": true,
+    "layout_engine": "HybridLayoutEngine",
+    "ppstructure": true,
+    "preset_used": "printed_hq",
+    "engine_used": "paddleocr+ppstructure"
+  },
+  "text": "rosco Q Search Rosco MR Melissa -\nLegal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider\nOscar ID OSC7874790901 Plan carrier Billing NPI 1780667923 Clalm overvlew\nOriginal amount billed $9,459.00 Rendering NPI Diagnostic information\nClalms detalls Allowed amount $729.17 Provider specialty Claim line details.\nClaim ID 3X6ZH7Z9 Amount Oscar pays $729.17 General claim detalls\nAlternate claim ID / Office name Past issues\nPriced by Individual Florida Applled to deductible $0.00 Address IIne 1 3501JOHNSON ST\nLevel of care Inpatient Copay amount $0.00 Address line 2\nNetwork status INN Colnsurance amount $0.00 City HOLLYWOOD\nClalm type Institutional Not covered $0.00 State FL\nData source Electronic Walved amount $0.00 ZIP code 330219998\nAdmit type Urgent Amount member owes $0.00 TIN 596014973\nExternal pricing vendor Facllity name Memorial Healthcare System\nFacility type\nAssociated payment (EOP) Settlement No Place of service\nCharge group ID Referring providere Al Hospi Memorial Region\nCheck no.\nCCD addendum\nPayment executor\nDiagnostic information\nDx no.1 Dx no. 2 Dx no.3 Dx no.4\nSingle lliveborn infant, delivered vaginally Newborn small for gestational age, other Post-term newborn Immunization not carried out because of\ncaregiver refusal",
+  "pages": [
+    {
+      "page_index": 0,
+      "width": 1600,
+      "height": 774,
+      "text": "rosco Q Search Rosco MR Melissa -\nLegal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider\nOscar ID OSC7874790901 Plan carrier Billing NPI 1780667923 Clalm overvlew\nOriginal amount billed $9,459.00 Rendering NPI Diagnostic information\nClalms detalls Allowed amount $729.17 Provider specialty Claim line details.\nClaim ID 3X6ZH7Z9 Amount Oscar pays $729.17 General claim detalls\nAlternate claim ID / Office name Past issues\nPriced by Individual Florida Applled to deductible $0.00 Address IIne 1 3501JOHNSON ST\nLevel of care Inpatient Copay amount $0.00 Address line 2\nNetwork status INN Colnsurance amount $0.00 City HOLLYWOOD\nClalm type Institutional Not covered $0.00 State FL\nData source Electronic Walved amount $0.00 ZIP code 330219998\nAdmit type Urgent Amount member owes $0.00 TIN 596014973\nExternal pricing vendor Facllity name Memorial Healthcare System\nFacility type\nAssociated payment (EOP) Settlement No Place of service\nCharge group ID Referring providere Al Hospi Memorial Region\nCheck no.\nCCD addendum\nPayment executor\nDiagnostic information\nDx no.1 Dx no. 2 Dx no.3 Dx no.4\nSingle lliveborn infant, delivered vaginally Newborn small for gestational age, other Post-term newborn Immunization not carried out because of\ncaregiver refusal",
+      "columns": [
+        {
+          "col_index": 0,
+          "x_range": [
+            0,
+            1600
+          ],
+          "blocks": [],
+          "text": ""
+        }
+      ],
+      "blocks": [
+        {
+          "block_type": "header",
+          "reading_order": 0,
+          "bbox": [
+            12,
+            11,
+            1565,
+            38
+          ],
+          "text": "rosco Q Search Rosco MR Melissa -",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "rosco Q Search Rosco MR Melissa -",
+              "conf": 0.8653775453567505,
+              "bbox": [
+                12,
+                11,
+                1565,
+                38
+              ],
+              "words": [
+                {
+                  "text": "rosco",
+                  "conf": 0.9775146245956421,
+                  "bbox": [
+                    12,
+                    20,
+                    71,
+                    38
+                  ]
+                },
+                {
+                  "text": "Q",
+                  "conf": 0.8611782193183899,
+                  "bbox": [
+                    111,
+                    20,
+                    138,
+                    36
+                  ]
+                },
+                {
+                  "text": "Search Rosco",
+                  "conf": 0.991168737411499,
+                  "bbox": [
+                    136,
+                    20,
+                    226,
+                    37
+                  ]
+                },
+                {
+                  "text": "MR Melissa",
+                  "conf": 0.9102881550788879,
+                  "bbox": [
+                    1450,
+                    11,
+                    1535,
+                    32
+                  ]
+                },
+                {
+                  "text": "-",
+                  "conf": 0.5867379903793335,
+                  "bbox": [
+                    1552,
+                    17,
+                    1565,
+                    25
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "header",
+          "reading_order": 1,
+          "bbox": [
+            30,
+            47,
+            1509,
+            103
+          ],
+          "text": "Legal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider\nOscar ID OSC7874790901 Plan carrier Billing NPI 1780667923 Clalm overvlew",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Legal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider",
+              "conf": 0.9868492603302002,
+              "bbox": [
+                30,
+                47,
+                999,
+                71
+              ],
+              "words": [
+                {
+                  "text": "Legal name",
+                  "conf": 0.9998003840446472,
+                  "bbox": [
+                    30,
+                    55,
+                    99,
+                    71
+                  ]
+                },
+                {
+                  "text": "Yisroel Dubov",
+                  "conf": 0.9625268578529358,
+                  "bbox": [
+                    370,
+                    52,
+                    450,
+                    69
+                  ]
+                },
+                {
+                  "text": "Plan at time of service",
+                  "conf": 0.9996973276138306,
+                  "bbox": [
+                    490,
+                    52,
+                    615,
+                    69
+                  ]
+                },
+                {
+                  "text": "Silver Simple PCP Saver",
+                  "conf": 0.9750120043754578,
+                  "bbox": [
+                    775,
+                    51,
+                    908,
+                    67
+                  ]
+                },
+                {
+                  "text": "Provider",
+                  "conf": 0.9972097277641296,
+                  "bbox": [
+                    945,
+                    47,
+                    999,
+                    68
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Oscar ID OSC7874790901 Plan carrier Billing NPI 1780667923 Clalm overvlew",
+              "conf": 0.9705553650856018,
+              "bbox": [
+                32,
+                75,
+                1509,
+                103
+              ],
+              "words": [
+                {
+                  "text": "Oscar ID",
+                  "conf": 0.9660778045654297,
+                  "bbox": [
+                    32,
+                    83,
+                    82,
+                    97
+                  ]
+                },
+                {
+                  "text": "OSC7874790901",
+                  "conf": 0.9981746077537537,
+                  "bbox": [
+                    360,
+                    81,
+                    450,
+                    94
+                  ]
+                },
+                {
+                  "text": "Plan carrier",
+                  "conf": 0.9995444416999817,
+                  "bbox": [
+                    489,
+                    79,
+                    559,
+                    95
+                  ]
+                },
+                {
+                  "text": "Billing NPI",
+                  "conf": 0.8759963512420654,
+                  "bbox": [
+                    946,
+                    75,
+                    1009,
+                    96
+                  ]
+                },
+                {
+                  "text": "1780667923",
+                  "conf": 0.9987571835517883,
+                  "bbox": [
+                    1299,
+                    75,
+                    1366,
+                    92
+                  ]
+                },
+                {
+                  "text": "Clalm overvlew",
+                  "conf": 0.984781801700592,
+                  "bbox": [
+                    1421,
+                    87,
+                    1509,
+                    103
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 2,
+          "bbox": [
+            22,
+            103,
+            1554,
+            402
+          ],
+          "text": "Original amount billed $9,459.00 Rendering NPI Diagnostic information\nClalms detalls Allowed amount $729.17 Provider specialty Claim line details.\nClaim ID 3X6ZH7Z9 Amount Oscar pays $729.17 General claim detalls\nAlternate claim ID / Office name Past issues\nPriced by Individual Florida Applled to deductible $0.00 Address IIne 1 3501JOHNSON ST\nLevel of care Inpatient Copay amount $0.00 Address line 2\nNetwork status INN Colnsurance amount $0.00 City HOLLYWOOD\nClalm type Institutional Not covered $0.00 State FL\nData source Electronic Walved amount $0.00 ZIP code 330219998\nAdmit type Urgent Amount member owes $0.00 TIN 596014973\nExternal pricing vendor Facllity name Memorial Healthcare System",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Original amount billed $9,459.00 Rendering NPI Diagnostic information",
+              "conf": 0.974154070019722,
+              "bbox": [
+                490,
+                103,
+                1554,
+                130
+              ],
+              "words": [
+                {
+                  "text": "Original amount billed",
+                  "conf": 0.9710015654563904,
+                  "bbox": [
+                    490,
+                    106,
+                    616,
+                    122
+                  ]
+                },
+                {
+                  "text": "$9,459.00",
+                  "conf": 0.9584904909133911,
+                  "bbox": [
+                    850,
+                    104,
+                    910,
+                    121
+                  ]
+                },
+                {
+                  "text": "Rendering NPI",
+                  "conf": 0.9922087788581848,
+                  "bbox": [
+                    948,
+                    103,
+                    1031,
+                    120
+                  ]
+                },
+                {
+                  "text": "Diagnostic information",
+                  "conf": 0.9749154448509216,
+                  "bbox": [
+                    1420,
+                    112,
+                    1554,
+                    130
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Clalms detalls Allowed amount $729.17 Provider specialty Claim line details.",
+              "conf": 0.9755032062530518,
+              "bbox": [
+                22,
+                130,
+                1520,
+                160
+              ],
+              "words": [
+                {
+                  "text": "Clalms detalls",
+                  "conf": 0.9670318365097046,
+                  "bbox": [
+                    22,
+                    144,
+                    105,
+                    160
+                  ]
+                },
+                {
+                  "text": "Allowed amount",
+                  "conf": 0.9956263303756714,
+                  "bbox": [
+                    490,
+                    132,
+                    584,
+                    149
+                  ]
+                },
+                {
+                  "text": "$729.17",
+                  "conf": 0.9996351599693298,
+                  "bbox": [
+                    865,
+                    130,
+                    910,
+                    148
+                  ]
+                },
+                {
+                  "text": "Provider specialty",
+                  "conf": 0.9796034693717957,
+                  "bbox": [
+                    948,
+                    130,
+                    1051,
+                    146
+                  ]
+                },
+                {
+                  "text": "Claim line details.",
+                  "conf": 0.9356192350387573,
+                  "bbox": [
+                    1421,
+                    140,
+                    1520,
+                    157
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Claim ID 3X6ZH7Z9 Amount Oscar pays $729.17 General claim detalls",
+              "conf": 0.9876007556915283,
+              "bbox": [
+                32,
+                157,
+                1540,
+                185
+              ],
+              "words": [
+                {
+                  "text": "Claim ID",
+                  "conf": 0.9599806070327759,
+                  "bbox": [
+                    32,
+                    171,
+                    81,
+                    185
+                  ]
+                },
+                {
+                  "text": "3X6ZH7Z9",
+                  "conf": 0.9987612366676331,
+                  "bbox": [
+                    389,
+                    168,
+                    451,
+                    185
+                  ]
+                },
+                {
+                  "text": "Amount Oscar pays",
+                  "conf": 0.9966405034065247,
+                  "bbox": [
+                    491,
+                    162,
+                    601,
+                    174
+                  ]
+                },
+                {
+                  "text": "$729.17",
+                  "conf": 0.9990130662918091,
+                  "bbox": [
+                    866,
+                    157,
+                    911,
+                    174
+                  ]
+                },
+                {
+                  "text": "General claim detalls",
+                  "conf": 0.9836083650588989,
+                  "bbox": [
+                    1422,
+                    168,
+                    1540,
+                    181
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Alternate claim ID / Office name Past issues",
+              "conf": 0.8926834613084793,
+              "bbox": [
+                32,
+                191,
+                1488,
+                214
+              ],
+              "words": [
+                {
+                  "text": "Alternate claim ID",
+                  "conf": 0.9957460761070251,
+                  "bbox": [
+                    32,
+                    196,
+                    136,
+                    213
+                  ]
+                },
+                {
+                  "text": "/",
+                  "conf": 0.6247230768203735,
+                  "bbox": [
+                    438,
+                    196,
+                    450,
+                    209
+                  ]
+                },
+                {
+                  "text": "Office name",
+                  "conf": 0.9989957213401794,
+                  "bbox": [
+                    949,
+                    197,
+                    1020,
+                    214
+                  ]
+                },
+                {
+                  "text": "Past issues",
+                  "conf": 0.9512689709663391,
+                  "bbox": [
+                    1420,
+                    191,
+                    1488,
+                    210
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 4,
+              "text": "Priced by Individual Florida Applled to deductible $0.00 Address IIne 1 3501JOHNSON ST",
+              "conf": 0.9646940926710764,
+              "bbox": [
+                31,
+                220,
+                1365,
+                241
+              ],
+              "words": [
+                {
+                  "text": "Priced by",
+                  "conf": 0.9649761915206909,
+                  "bbox": [
+                    31,
+                    220,
+                    88,
+                    241
+                  ]
+                },
+                {
+                  "text": "Individual Florida",
+                  "conf": 0.9695721864700317,
+                  "bbox": [
+                    354,
+                    222,
+                    451,
+                    238
+                  ]
+                },
+                {
+                  "text": "Applled to deductible",
+                  "conf": 0.9597632884979248,
+                  "bbox": [
+                    491,
+                    228,
+                    612,
+                    241
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9796597361564636,
+                  "bbox": [
+                    873,
+                    223,
+                    911,
+                    241
+                  ]
+                },
+                {
+                  "text": "Address IIne 1",
+                  "conf": 0.942656934261322,
+                  "bbox": [
+                    948,
+                    224,
+                    1029,
+                    241
+                  ]
+                },
+                {
+                  "text": "3501JOHNSON ST",
+                  "conf": 0.9715362191200256,
+                  "bbox": [
+                    1261,
+                    224,
+                    1365,
+                    237
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 5,
+              "text": "Level of care Inpatient Copay amount $0.00 Address line 2",
+              "conf": 0.9906810998916626,
+              "bbox": [
+                32,
+                248,
+                1030,
+                270
+              ],
+              "words": [
+                {
+                  "text": "Level of care",
+                  "conf": 0.9915330410003662,
+                  "bbox": [
+                    32,
+                    250,
+                    105,
+                    266
+                  ]
+                },
+                {
+                  "text": "Inpatient",
+                  "conf": 0.9973000288009644,
+                  "bbox": [
+                    395,
+                    248,
+                    452,
+                    265
+                  ]
+                },
+                {
+                  "text": "Copay amount",
+                  "conf": 0.9898467659950256,
+                  "bbox": [
+                    490,
+                    253,
+                    575,
+                    270
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9966493844985962,
+                  "bbox": [
+                    873,
+                    251,
+                    911,
+                    269
+                  ]
+                },
+                {
+                  "text": "Address line 2",
+                  "conf": 0.9780762791633606,
+                  "bbox": [
+                    948,
+                    251,
+                    1030,
+                    267
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 6,
+              "text": "Network status INN Colnsurance amount $0.00 City HOLLYWOOD",
+              "conf": 0.9929149349530538,
+              "bbox": [
+                32,
+                275,
+                1366,
+                295
+              ],
+              "words": [
+                {
+                  "text": "Network status",
+                  "conf": 0.9771348834037781,
+                  "bbox": [
+                    32,
+                    276,
+                    122,
+                    293
+                  ]
+                },
+                {
+                  "text": "INN",
+                  "conf": 0.9981322288513184,
+                  "bbox": [
+                    425,
+                    275,
+                    452,
+                    290
+                  ]
+                },
+                {
+                  "text": "Colnsurance amount",
+                  "conf": 0.9884023666381836,
+                  "bbox": [
+                    490,
+                    279,
+                    610,
+                    295
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.996770977973938,
+                  "bbox": [
+                    875,
+                    279,
+                    910,
+                    293
+                  ]
+                },
+                {
+                  "text": "City",
+                  "conf": 0.9988424777984619,
+                  "bbox": [
+                    946,
+                    276,
+                    976,
+                    295
+                  ]
+                },
+                {
+                  "text": "HOLLYWOOD",
+                  "conf": 0.9982066750526428,
+                  "bbox": [
+                    1287,
+                    275,
+                    1366,
+                    292
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 7,
+              "text": "Clalm type Institutional Not covered $0.00 State FL",
+              "conf": 0.9607138335704803,
+              "bbox": [
+                31,
+                300,
+                1370,
+                322
+              ],
+              "words": [
+                {
+                  "text": "Clalm type",
+                  "conf": 0.9553782343864441,
+                  "bbox": [
+                    31,
+                    300,
+                    97,
+                    321
+                  ]
+                },
+                {
+                  "text": "Institutional",
+                  "conf": 0.9977832436561584,
+                  "bbox": [
+                    379,
+                    302,
+                    452,
+                    318
+                  ]
+                },
+                {
+                  "text": "Not covered",
+                  "conf": 0.9950942993164062,
+                  "bbox": [
+                    490,
+                    306,
+                    562,
+                    322
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9816956520080566,
+                  "bbox": [
+                    873,
+                    303,
+                    911,
+                    321
+                  ]
+                },
+                {
+                  "text": "State",
+                  "conf": 0.9964672327041626,
+                  "bbox": [
+                    948,
+                    303,
+                    985,
+                    321
+                  ]
+                },
+                {
+                  "text": " FL",
+                  "conf": 0.837864339351654,
+                  "bbox": [
+                    1348,
+                    300,
+                    1370,
+                    321
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 8,
+              "text": "Data source Electronic Walved amount $0.00 ZIP code 330219998",
+              "conf": 0.9847622116406759,
+              "bbox": [
+                32,
+                324,
+                1368,
+                349
+              ],
+              "words": [
+                {
+                  "text": "Data source",
+                  "conf": 0.971092164516449,
+                  "bbox": [
+                    32,
+                    330,
+                    104,
+                    346
+                  ]
+                },
+                {
+                  "text": "Electronic",
+                  "conf": 0.9964088201522827,
+                  "bbox": [
+                    390,
+                    324,
+                    453,
+                    345
+                  ]
+                },
+                {
+                  "text": "Walved amount",
+                  "conf": 0.9829057455062866,
+                  "bbox": [
+                    490,
+                    332,
+                    581,
+                    349
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9976175427436829,
+                  "bbox": [
+                    874,
+                    330,
+                    911,
+                    348
+                  ]
+                },
+                {
+                  "text": "ZIP code",
+                  "conf": 0.9758399724960327,
+                  "bbox": [
+                    946,
+                    327,
+                    1002,
+                    348
+                  ]
+                },
+                {
+                  "text": "330219998",
+                  "conf": 0.9847090244293213,
+                  "bbox": [
+                    1304,
+                    327,
+                    1368,
+                    344
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 9,
+              "text": "Admit type Urgent Amount member owes $0.00 TIN 596014973",
+              "conf": 0.9883108039697012,
+              "bbox": [
+                32,
+                355,
+                1368,
+                377
+              ],
+              "words": [
+                {
+                  "text": "Admit type",
+                  "conf": 0.9984028935432434,
+                  "bbox": [
+                    32,
+                    356,
+                    99,
+                    373
+                  ]
+                },
+                {
+                  "text": "Urgent",
+                  "conf": 0.9995281100273132,
+                  "bbox": [
+                    407,
+                    355,
+                    454,
+                    373
+                  ]
+                },
+                {
+                  "text": "Amount member owes",
+                  "conf": 0.9958348870277405,
+                  "bbox": [
+                    490,
+                    358,
+                    620,
+                    377
+                  ]
+                },
+                {
+                  "text": "$0.00",
+                  "conf": 0.9977771639823914,
+                  "bbox": [
+                    874,
+                    356,
+                    911,
+                    374
+                  ]
+                },
+                {
+                  "text": "TIN",
+                  "conf": 0.9393698573112488,
+                  "bbox": [
+                    948,
+                    358,
+                    973,
+                    373
+                  ]
+                },
+                {
+                  "text": "596014973",
+                  "conf": 0.9989519119262695,
+                  "bbox": [
+                    1305,
+                    355,
+                    1368,
+                    372
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 10,
+              "text": "External pricing vendor Facllity name Memorial Healthcare System",
+              "conf": 0.9780742327372233,
+              "bbox": [
+                32,
+                382,
+                1365,
+                402
+              ],
+              "words": [
+                {
+                  "text": "External pricing vendor",
+                  "conf": 0.9844489693641663,
+                  "bbox": [
+                    32,
+                    383,
+                    166,
+                    400
+                  ]
+                },
+                {
+                  "text": "Facllity name",
+                  "conf": 0.9661964178085327,
+                  "bbox": [
+                    947,
+                    382,
+                    1026,
+                    402
+                  ]
+                },
+                {
+                  "text": "Memorial Healthcare System",
+                  "conf": 0.983577311038971,
+                  "bbox": [
+                    1206,
+                    383,
+                    1365,
+                    396
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 3,
+          "bbox": [
+            947,
+            408,
+            1021,
+            428
+          ],
+          "text": "Facility type",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Facility type",
+              "conf": 0.9458939433097839,
+              "bbox": [
+                947,
+                408,
+                1021,
+                428
+              ],
+              "words": [
+                {
+                  "text": "Facility type",
+                  "conf": 0.9458939433097839,
+                  "bbox": [
+                    947,
+                    408,
+                    1021,
+                    428
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table",
+          "reading_order": 4,
+          "bbox": [
+            25,
+            423,
+            1366,
+            488
+          ],
+          "text": "Associated payment (EOP) Settlement No Place of service\nCharge group ID Referring providere Al Hospi Memorial Region",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Associated payment (EOP) Settlement No Place of service",
+              "conf": 0.9792715609073639,
+              "bbox": [
+                25,
+                423,
+                1040,
+                462
+              ],
+              "words": [
+                {
+                  "text": "Associated payment (EOP)",
+                  "conf": 0.9611659049987793,
+                  "bbox": [
+                    25,
+                    446,
+                    176,
+                    462
+                  ]
+                },
+                {
+                  "text": "Settlement",
+                  "conf": 0.9976339340209961,
+                  "bbox": [
+                    490,
+                    426,
+                    559,
+                    443
+                  ]
+                },
+                {
+                  "text": "No",
+                  "conf": 0.9966177940368652,
+                  "bbox": [
+                    888,
+                    423,
+                    912,
+                    442
+                  ]
+                },
+                {
+                  "text": "Place of service",
+                  "conf": 0.9616686105728149,
+                  "bbox": [
+                    949,
+                    437,
+                    1040,
+                    453
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Charge group ID Referring providere Al Hospi Memorial Region",
+              "conf": 0.9550564885139465,
+              "bbox": [
+                34,
+                462,
+                1366,
+                488
+              ],
+              "words": [
+                {
+                  "text": "Charge group ID",
+                  "conf": 0.9746102690696716,
+                  "bbox": [
+                    34,
+                    471,
+                    128,
+                    488
+                  ]
+                },
+                {
+                  "text": "Referring providere",
+                  "conf": 0.927523136138916,
+                  "bbox": [
+                    949,
+                    462,
+                    1054,
+                    481
+                  ]
+                },
+                {
+                  "text": "Al Hospi Memorial Region",
+                  "conf": 0.963036060333252,
+                  "bbox": [
+                    1225,
+                    465,
+                    1366,
+                    477
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "table_row",
+          "reading_order": 5,
+          "bbox": [
+            27,
+            498,
+            223,
+            675
+          ],
+          "text": "Check no.\nCCD addendum\nPayment executor\nDiagnostic information",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Check no.",
+              "conf": 0.9464743137359619,
+              "bbox": [
+                34,
+                498,
+                90,
+                514
+              ],
+              "words": [
+                {
+                  "text": "Check no.",
+                  "conf": 0.9464743137359619,
+                  "bbox": [
+                    34,
+                    498,
+                    90,
+                    514
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "CCD addendum",
+              "conf": 0.9795835614204407,
+              "bbox": [
+                34,
+                524,
+                125,
+                541
+              ],
+              "words": [
+                {
+                  "text": "CCD addendum",
+                  "conf": 0.9795835614204407,
+                  "bbox": [
+                    34,
+                    524,
+                    125,
+                    541
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 2,
+              "text": "Payment executor",
+              "conf": 0.9947869777679443,
+              "bbox": [
+                34,
+                551,
+                139,
+                568
+              ],
+              "words": [
+                {
+                  "text": "Payment executor",
+                  "conf": 0.9947869777679443,
+                  "bbox": [
+                    34,
+                    551,
+                    139,
+                    568
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 3,
+              "text": "Diagnostic information",
+              "conf": 0.9856616854667664,
+              "bbox": [
+                27,
+                656,
+                223,
+                675
+              ],
+              "words": [
+                {
+                  "text": "Diagnostic information",
+                  "conf": 0.9856616854667664,
+                  "bbox": [
+                    27,
+                    656,
+                    223,
+                    675
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 6,
+          "bbox": [
+            38,
+            701,
+            1144,
+            746
+          ],
+          "text": "Dx no.1 Dx no. 2 Dx no.3 Dx no.4\nSingle lliveborn infant, delivered vaginally Newborn small for gestational age, other Post-term newborn Immunization not carried out because of",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "Dx no.1 Dx no. 2 Dx no.3 Dx no.4",
+              "conf": 0.9600638002157211,
+              "bbox": [
+                38,
+                701,
+                962,
+                719
+              ],
+              "words": [
+                {
+                  "text": "Dx no.1",
+                  "conf": 0.9675363898277283,
+                  "bbox": [
+                    38,
+                    705,
+                    81,
+                    719
+                  ]
+                },
+                {
+                  "text": "Dx no. 2",
+                  "conf": 0.9936413764953613,
+                  "bbox": [
+                    330,
+                    705,
+                    376,
+                    718
+                  ]
+                },
+                {
+                  "text": "Dx no.3",
+                  "conf": 0.976159393787384,
+                  "bbox": [
+                    624,
+                    703,
+                    670,
+                    717
+                  ]
+                },
+                {
+                  "text": "Dx no.4",
+                  "conf": 0.9029180407524109,
+                  "bbox": [
+                    916,
+                    701,
+                    962,
+                    715
+                  ]
+                }
+              ]
+            },
+            {
+              "line_index": 1,
+              "text": "Single lliveborn infant, delivered vaginally Newborn small for gestational age, other Post-term newborn Immunization not carried out because of",
+              "conf": 0.9584196656942368,
+              "bbox": [
+                38,
+                726,
+                1144,
+                746
+              ],
+              "words": [
+                {
+                  "text": "Single lliveborn infant, delivered vaginally",
+                  "conf": 0.9542362093925476,
+                  "bbox": [
+                    38,
+                    729,
+                    266,
+                    746
+                  ]
+                },
+                {
+                  "text": "Newborn small for gestational age, other",
+                  "conf": 0.9799126386642456,
+                  "bbox": [
+                    330,
+                    728,
+                    559,
+                    745
+                  ]
+                },
+                {
+                  "text": "Post-term newborn",
+                  "conf": 0.9438570737838745,
+                  "bbox": [
+                    621,
+                    726,
+                    736,
+                    744
+                  ]
+                },
+                {
+                  "text": "Immunization not carried out because of",
+                  "conf": 0.9556727409362793,
+                  "bbox": [
+                    918,
+                    727,
+                    1144,
+                    740
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_type": "footer",
+          "reading_order": 7,
+          "bbox": [
+            918,
+            746,
+            1011,
+            759
+          ],
+          "text": "caregiver refusal",
+          "lines": [
+            {
+              "line_index": 0,
+              "text": "caregiver refusal",
+              "conf": 0.9544747471809387,
+              "bbox": [
+                918,
+                746,
+                1011,
+                759
+              ],
+              "words": [
+                {
+                  "text": "caregiver refusal",
+                  "conf": 0.9544747471809387,
+                  "bbox": [
+                    918,
+                    746,
+                    1011,
+                    759
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            12,
+            11,
+            1565,
+            759
+          ],
+          "html": "<table><tr><th>Left Field</th><th>Left Value</th><th>Right Field</th><th>Right Value</th></tr><tr><td>rosco</td><td>Q Search Rosco</td><td>MR Melissa</td><td>-</td></tr><tr><td></td><td></td><td>Facility type</td><td></td></tr><tr><td>Settlement</td><td></td><td>No</td><td></td></tr><tr><td>Associated payment (EOP)</td><td></td><td>Place of service</td><td></td></tr><tr><td>Charge group ID</td><td></td><td>Referring providere</td><td>Al Hospi Memorial Region</td></tr><tr><td>Check no.</td><td></td><td></td><td></td></tr><tr><td>CCD addendum</td><td></td><td></td><td></td></tr><tr><td>Payment executor</td><td></td><td></td><td></td></tr><tr><td>Diagnostic information</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>caregiver refusal</td><td></td></tr></table>",
+          "text": "rosco: Q Search Rosco\nMR Melissa: -\nFacility type: \nSettlement: \nNo: \nAssociated payment (EOP): \nPlace of service: \nCharge group ID: \nReferring providere: Al Hospi Memorial Region\nCheck no.: \nCCD addendum: \nPayment executor: \nDiagnostic information: \ncaregiver refusal: ",
+          "headers": [
+            "Left Field",
+            "Left Value",
+            "Right Field",
+            "Right Value"
+          ],
+          "rows": [
+            [
+              "rosco",
+              "Q Search Rosco",
+              "MR Melissa",
+              "-"
+            ],
+            [
+              "",
+              "",
+              "Facility type",
+              ""
+            ],
+            [
+              "Settlement",
+              "",
+              "No",
+              ""
+            ],
+            [
+              "Associated payment (EOP)",
+              "",
+              "Place of service",
+              ""
+            ],
+            [
+              "Charge group ID",
+              "",
+              "Referring providere",
+              "Al Hospi Memorial Region"
+            ],
+            [
+              "Check no.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "CCD addendum",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Payment executor",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Diagnostic information",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "caregiver refusal",
+              ""
+            ]
+          ],
+          "raw_two_col": [
+            [
+              "rosco Q Search Rosco",
+              "MR Melissa -"
+            ],
+            [
+              "",
+              "Facility type"
+            ],
+            [
+              "Settlement",
+              "No"
+            ],
+            [
+              "Associated payment (EOP)",
+              "Place of service"
+            ],
+            [
+              "Charge group ID",
+              "Referring providere Al Hospi Memorial Region"
+            ],
+            [
+              "Check no.",
+              ""
+            ],
+            [
+              "CCD addendum",
+              ""
+            ],
+            [
+              "Payment executor",
+              ""
+            ],
+            [
+              "Diagnostic information",
+              ""
+            ],
+            [
+              "",
+              "caregiver refusal"
+            ]
+          ],
+          "source": "two_column_form",
+          "engine": "form_postprocess",
+          "confidence": 0.92
+        },
+        {
+          "bbox": [
+            22,
+            47,
+            1554,
+            402
+          ],
+          "html": "<table><tr><th>Legal name</th><th>Yisroel Dubov</th><th>Plan at time of service</th><th>Silver Simple PCP Saver</th><th>Provider</th></tr><tr><td>Oscar ID</td><td>OSC7874790901</td><td>Plan carrier</td><td></td><td>Billing NPI 1780667923 Clalm overvlew</td></tr><tr><td></td><td></td><td>Original amount billed</td><td>$9,459.00</td><td>Rendering NPI Diagnostic information</td></tr><tr><td>Clalms detalls</td><td></td><td>Allowed amount</td><td>$729.17</td><td>Provider specialty Claim line details.</td></tr><tr><td>Claim ID</td><td>3X6ZH7Z9</td><td>Amount Oscar pays</td><td>$729.17</td><td>General claim detalls</td></tr><tr><td>Alternate claim ID</td><td>/</td><td></td><td></td><td>Office name Past issues</td></tr><tr><td>Priced by</td><td>Individual Florida</td><td>Applled to deductible</td><td>$0.00</td><td>Address IIne 1 3501JOHNSON ST</td></tr><tr><td>Level of care</td><td>Inpatient</td><td>Copay amount</td><td>$0.00</td><td>Address line 2</td></tr><tr><td>Network status</td><td>INN</td><td>Colnsurance amount</td><td>$0.00</td><td>City HOLLYWOOD</td></tr><tr><td>Clalm type</td><td>Institutional</td><td>Not covered</td><td>$0.00</td><td>State FL</td></tr><tr><td>Data source</td><td>Electronic</td><td>Walved amount</td><td>$0.00</td><td>ZIP code 330219998</td></tr><tr><td>Admit type</td><td>Urgent</td><td>Amount member owes</td><td>$0.00</td><td>TIN 596014973</td></tr><tr><td>External pricing vendor</td><td></td><td></td><td></td><td>Facllity name Memorial Healthcare System</td></tr></table>",
+          "text": "Oscar ID | OSC7874790901 | Plan carrier |  | Billing NPI 1780667923 Clalm overvlew\n |  | Original amount billed | $9,459.00 | Rendering NPI Diagnostic information\nClalms detalls |  | Allowed amount | $729.17 | Provider specialty Claim line details.\nClaim ID | 3X6ZH7Z9 | Amount Oscar pays | $729.17 | General claim detalls\nAlternate claim ID | / |  |  | Office name Past issues\nPriced by | Individual Florida | Applled to deductible | $0.00 | Address IIne 1 3501JOHNSON ST\nLevel of care | Inpatient | Copay amount | $0.00 | Address line 2\nNetwork status | INN | Colnsurance amount | $0.00 | City HOLLYWOOD\nClalm type | Institutional | Not covered | $0.00 | State FL\nData source | Electronic | Walved amount | $0.00 | ZIP code 330219998\nAdmit type | Urgent | Amount member owes | $0.00 | TIN 596014973\nExternal pricing vendor |  |  |  | Facllity name Memorial Healthcare System",
+          "headers": [
+            "Legal name",
+            "Yisroel Dubov",
+            "Plan at time of service",
+            "Silver Simple PCP Saver",
+            "Provider"
+          ],
+          "rows": [
+            [
+              "Oscar ID",
+              "OSC7874790901",
+              "Plan carrier",
+              "",
+              "Billing NPI 1780667923 Clalm overvlew"
+            ],
+            [
+              "",
+              "",
+              "Original amount billed",
+              "$9,459.00",
+              "Rendering NPI Diagnostic information"
+            ],
+            [
+              "Clalms detalls",
+              "",
+              "Allowed amount",
+              "$729.17",
+              "Provider specialty Claim line details."
+            ],
+            [
+              "Claim ID",
+              "3X6ZH7Z9",
+              "Amount Oscar pays",
+              "$729.17",
+              "General claim detalls"
+            ],
+            [
+              "Alternate claim ID",
+              "/",
+              "",
+              "",
+              "Office name Past issues"
+            ],
+            [
+              "Priced by",
+              "Individual Florida",
+              "Applled to deductible",
+              "$0.00",
+              "Address IIne 1 3501JOHNSON ST"
+            ],
+            [
+              "Level of care",
+              "Inpatient",
+              "Copay amount",
+              "$0.00",
+              "Address line 2"
+            ],
+            [
+              "Network status",
+              "INN",
+              "Colnsurance amount",
+              "$0.00",
+              "City HOLLYWOOD"
+            ],
+            [
+              "Clalm type",
+              "Institutional",
+              "Not covered",
+              "$0.00",
+              "State FL"
+            ],
+            [
+              "Data source",
+              "Electronic",
+              "Walved amount",
+              "$0.00",
+              "ZIP code 330219998"
+            ],
+            [
+              "Admit type",
+              "Urgent",
+              "Amount member owes",
+              "$0.00",
+              "TIN 596014973"
+            ],
+            [
+              "External pricing vendor",
+              "",
+              "",
+              "",
+              "Facllity name Memorial Healthcare System"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        },
+        {
+          "bbox": [
+            38,
+            701,
+            1144,
+            746
+          ],
+          "html": "<table><tr><th>Dx no.1</th><th>Dx no. 2</th><th>Dx no.3</th><th>Dx no.4</th></tr><tr><td>Single lliveborn infant, delivered vaginally</td><td>Newborn small for gestational age, other</td><td>Post-term newborn</td><td>Immunization not carried out because of</td></tr></table>",
+          "text": "Single lliveborn infant, delivered vaginally | Newborn small for gestational age, other | Post-term newborn | Immunization not carried out because of",
+          "headers": [
+            "Dx no.1",
+            "Dx no. 2",
+            "Dx no.3",
+            "Dx no.4"
+          ],
+          "rows": [
+            [
+              "Single lliveborn infant, delivered vaginally",
+              "Newborn small for gestational age, other",
+              "Post-term newborn",
+              "Immunization not carried out because of"
+            ]
+          ],
+          "source": "wide_grid",
+          "engine": "form_postprocess",
+          "confidence": 0.85
+        }
+      ],
+      "checkboxes": [],
+      "lines": [
+        {
+          "text": "rosco Q Search Rosco MR Melissa -",
+          "conf": 0.8653775453567505,
+          "bbox": [
+            12,
+            11,
+            1565,
+            38
+          ],
+          "words": [
+            {
+              "text": "rosco",
+              "conf": 0.9775146245956421,
+              "bbox": [
+                12,
+                20,
+                71,
+                38
+              ]
+            },
+            {
+              "text": "Q",
+              "conf": 0.8611782193183899,
+              "bbox": [
+                111,
+                20,
+                138,
+                36
+              ]
+            },
+            {
+              "text": "Search Rosco",
+              "conf": 0.991168737411499,
+              "bbox": [
+                136,
+                20,
+                226,
+                37
+              ]
+            },
+            {
+              "text": "MR Melissa",
+              "conf": 0.9102881550788879,
+              "bbox": [
+                1450,
+                11,
+                1535,
+                32
+              ]
+            },
+            {
+              "text": "-",
+              "conf": 0.5867379903793335,
+              "bbox": [
+                1552,
+                17,
+                1565,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Legal name Yisroel Dubov Plan at time of service Silver Simple PCP Saver Provider",
+          "conf": 0.9868492603302002,
+          "bbox": [
+            30,
+            47,
+            999,
+            71
+          ],
+          "words": [
+            {
+              "text": "Legal name",
+              "conf": 0.9998003840446472,
+              "bbox": [
+                30,
+                55,
+                99,
+                71
+              ]
+            },
+            {
+              "text": "Yisroel Dubov",
+              "conf": 0.9625268578529358,
+              "bbox": [
+                370,
+                52,
+                450,
+                69
+              ]
+            },
+            {
+              "text": "Plan at time of service",
+              "conf": 0.9996973276138306,
+              "bbox": [
+                490,
+                52,
+                615,
+                69
+              ]
+            },
+            {
+              "text": "Silver Simple PCP Saver",
+              "conf": 0.9750120043754578,
+              "bbox": [
+                775,
+                51,
+                908,
+                67
+              ]
+            },
+            {
+              "text": "Provider",
+              "conf": 0.9972097277641296,
+              "bbox": [
+                945,
+                47,
+                999,
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Oscar ID OSC7874790901 Plan carrier Billing NPI 1780667923 Clalm overvlew",
+          "conf": 0.9705553650856018,
+          "bbox": [
+            32,
+            75,
+            1509,
+            103
+          ],
+          "words": [
+            {
+              "text": "Oscar ID",
+              "conf": 0.9660778045654297,
+              "bbox": [
+                32,
+                83,
+                82,
+                97
+              ]
+            },
+            {
+              "text": "OSC7874790901",
+              "conf": 0.9981746077537537,
+              "bbox": [
+                360,
+                81,
+                450,
+                94
+              ]
+            },
+            {
+              "text": "Plan carrier",
+              "conf": 0.9995444416999817,
+              "bbox": [
+                489,
+                79,
+                559,
+                95
+              ]
+            },
+            {
+              "text": "Billing NPI",
+              "conf": 0.8759963512420654,
+              "bbox": [
+                946,
+                75,
+                1009,
+                96
+              ]
+            },
+            {
+              "text": "1780667923",
+              "conf": 0.9987571835517883,
+              "bbox": [
+                1299,
+                75,
+                1366,
+                92
+              ]
+            },
+            {
+              "text": "Clalm overvlew",
+              "conf": 0.984781801700592,
+              "bbox": [
+                1421,
+                87,
+                1509,
+                103
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Original amount billed $9,459.00 Rendering NPI Diagnostic information",
+          "conf": 0.974154070019722,
+          "bbox": [
+            490,
+            103,
+            1554,
+            130
+          ],
+          "words": [
+            {
+              "text": "Original amount billed",
+              "conf": 0.9710015654563904,
+              "bbox": [
+                490,
+                106,
+                616,
+                122
+              ]
+            },
+            {
+              "text": "$9,459.00",
+              "conf": 0.9584904909133911,
+              "bbox": [
+                850,
+                104,
+                910,
+                121
+              ]
+            },
+            {
+              "text": "Rendering NPI",
+              "conf": 0.9922087788581848,
+              "bbox": [
+                948,
+                103,
+                1031,
+                120
+              ]
+            },
+            {
+              "text": "Diagnostic information",
+              "conf": 0.9749154448509216,
+              "bbox": [
+                1420,
+                112,
+                1554,
+                130
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Clalms detalls Allowed amount $729.17 Provider specialty Claim line details.",
+          "conf": 0.9755032062530518,
+          "bbox": [
+            22,
+            130,
+            1520,
+            160
+          ],
+          "words": [
+            {
+              "text": "Clalms detalls",
+              "conf": 0.9670318365097046,
+              "bbox": [
+                22,
+                144,
+                105,
+                160
+              ]
+            },
+            {
+              "text": "Allowed amount",
+              "conf": 0.9956263303756714,
+              "bbox": [
+                490,
+                132,
+                584,
+                149
+              ]
+            },
+            {
+              "text": "$729.17",
+              "conf": 0.9996351599693298,
+              "bbox": [
+                865,
+                130,
+                910,
+                148
+              ]
+            },
+            {
+              "text": "Provider specialty",
+              "conf": 0.9796034693717957,
+              "bbox": [
+                948,
+                130,
+                1051,
+                146
+              ]
+            },
+            {
+              "text": "Claim line details.",
+              "conf": 0.9356192350387573,
+              "bbox": [
+                1421,
+                140,
+                1520,
+                157
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Claim ID 3X6ZH7Z9 Amount Oscar pays $729.17 General claim detalls",
+          "conf": 0.9876007556915283,
+          "bbox": [
+            32,
+            157,
+            1540,
+            185
+          ],
+          "words": [
+            {
+              "text": "Claim ID",
+              "conf": 0.9599806070327759,
+              "bbox": [
+                32,
+                171,
+                81,
+                185
+              ]
+            },
+            {
+              "text": "3X6ZH7Z9",
+              "conf": 0.9987612366676331,
+              "bbox": [
+                389,
+                168,
+                451,
+                185
+              ]
+            },
+            {
+              "text": "Amount Oscar pays",
+              "conf": 0.9966405034065247,
+              "bbox": [
+                491,
+                162,
+                601,
+                174
+              ]
+            },
+            {
+              "text": "$729.17",
+              "conf": 0.9990130662918091,
+              "bbox": [
+                866,
+                157,
+                911,
+                174
+              ]
+            },
+            {
+              "text": "General claim detalls",
+              "conf": 0.9836083650588989,
+              "bbox": [
+                1422,
+                168,
+                1540,
+                181
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alternate claim ID / Office name Past issues",
+          "conf": 0.8926834613084793,
+          "bbox": [
+            32,
+            191,
+            1488,
+            214
+          ],
+          "words": [
+            {
+              "text": "Alternate claim ID",
+              "conf": 0.9957460761070251,
+              "bbox": [
+                32,
+                196,
+                136,
+                213
+              ]
+            },
+            {
+              "text": "/",
+              "conf": 0.6247230768203735,
+              "bbox": [
+                438,
+                196,
+                450,
+                209
+              ]
+            },
+            {
+              "text": "Office name",
+              "conf": 0.9989957213401794,
+              "bbox": [
+                949,
+                197,
+                1020,
+                214
+              ]
+            },
+            {
+              "text": "Past issues",
+              "conf": 0.9512689709663391,
+              "bbox": [
+                1420,
+                191,
+                1488,
+                210
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Priced by Individual Florida Applled to deductible $0.00 Address IIne 1 3501JOHNSON ST",
+          "conf": 0.9646940926710764,
+          "bbox": [
+            31,
+            220,
+            1365,
+            241
+          ],
+          "words": [
+            {
+              "text": "Priced by",
+              "conf": 0.9649761915206909,
+              "bbox": [
+                31,
+                220,
+                88,
+                241
+              ]
+            },
+            {
+              "text": "Individual Florida",
+              "conf": 0.9695721864700317,
+              "bbox": [
+                354,
+                222,
+                451,
+                238
+              ]
+            },
+            {
+              "text": "Applled to deductible",
+              "conf": 0.9597632884979248,
+              "bbox": [
+                491,
+                228,
+                612,
+                241
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9796597361564636,
+              "bbox": [
+                873,
+                223,
+                911,
+                241
+              ]
+            },
+            {
+              "text": "Address IIne 1",
+              "conf": 0.942656934261322,
+              "bbox": [
+                948,
+                224,
+                1029,
+                241
+              ]
+            },
+            {
+              "text": "3501JOHNSON ST",
+              "conf": 0.9715362191200256,
+              "bbox": [
+                1261,
+                224,
+                1365,
+                237
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Level of care Inpatient Copay amount $0.00 Address line 2",
+          "conf": 0.9906810998916626,
+          "bbox": [
+            32,
+            248,
+            1030,
+            270
+          ],
+          "words": [
+            {
+              "text": "Level of care",
+              "conf": 0.9915330410003662,
+              "bbox": [
+                32,
+                250,
+                105,
+                266
+              ]
+            },
+            {
+              "text": "Inpatient",
+              "conf": 0.9973000288009644,
+              "bbox": [
+                395,
+                248,
+                452,
+                265
+              ]
+            },
+            {
+              "text": "Copay amount",
+              "conf": 0.9898467659950256,
+              "bbox": [
+                490,
+                253,
+                575,
+                270
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9966493844985962,
+              "bbox": [
+                873,
+                251,
+                911,
+                269
+              ]
+            },
+            {
+              "text": "Address line 2",
+              "conf": 0.9780762791633606,
+              "bbox": [
+                948,
+                251,
+                1030,
+                267
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Network status INN Colnsurance amount $0.00 City HOLLYWOOD",
+          "conf": 0.9929149349530538,
+          "bbox": [
+            32,
+            275,
+            1366,
+            295
+          ],
+          "words": [
+            {
+              "text": "Network status",
+              "conf": 0.9771348834037781,
+              "bbox": [
+                32,
+                276,
+                122,
+                293
+              ]
+            },
+            {
+              "text": "INN",
+              "conf": 0.9981322288513184,
+              "bbox": [
+                425,
+                275,
+                452,
+                290
+              ]
+            },
+            {
+              "text": "Colnsurance amount",
+              "conf": 0.9884023666381836,
+              "bbox": [
+                490,
+                279,
+                610,
+                295
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.996770977973938,
+              "bbox": [
+                875,
+                279,
+                910,
+                293
+              ]
+            },
+            {
+              "text": "City",
+              "conf": 0.9988424777984619,
+              "bbox": [
+                946,
+                276,
+                976,
+                295
+              ]
+            },
+            {
+              "text": "HOLLYWOOD",
+              "conf": 0.9982066750526428,
+              "bbox": [
+                1287,
+                275,
+                1366,
+                292
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Clalm type Institutional Not covered $0.00 State FL",
+          "conf": 0.9607138335704803,
+          "bbox": [
+            31,
+            300,
+            1370,
+            322
+          ],
+          "words": [
+            {
+              "text": "Clalm type",
+              "conf": 0.9553782343864441,
+              "bbox": [
+                31,
+                300,
+                97,
+                321
+              ]
+            },
+            {
+              "text": "Institutional",
+              "conf": 0.9977832436561584,
+              "bbox": [
+                379,
+                302,
+                452,
+                318
+              ]
+            },
+            {
+              "text": "Not covered",
+              "conf": 0.9950942993164062,
+              "bbox": [
+                490,
+                306,
+                562,
+                322
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9816956520080566,
+              "bbox": [
+                873,
+                303,
+                911,
+                321
+              ]
+            },
+            {
+              "text": "State",
+              "conf": 0.9964672327041626,
+              "bbox": [
+                948,
+                303,
+                985,
+                321
+              ]
+            },
+            {
+              "text": " FL",
+              "conf": 0.837864339351654,
+              "bbox": [
+                1348,
+                300,
+                1370,
+                321
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Data source Electronic Walved amount $0.00 ZIP code 330219998",
+          "conf": 0.9847622116406759,
+          "bbox": [
+            32,
+            324,
+            1368,
+            349
+          ],
+          "words": [
+            {
+              "text": "Data source",
+              "conf": 0.971092164516449,
+              "bbox": [
+                32,
+                330,
+                104,
+                346
+              ]
+            },
+            {
+              "text": "Electronic",
+              "conf": 0.9964088201522827,
+              "bbox": [
+                390,
+                324,
+                453,
+                345
+              ]
+            },
+            {
+              "text": "Walved amount",
+              "conf": 0.9829057455062866,
+              "bbox": [
+                490,
+                332,
+                581,
+                349
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9976175427436829,
+              "bbox": [
+                874,
+                330,
+                911,
+                348
+              ]
+            },
+            {
+              "text": "ZIP code",
+              "conf": 0.9758399724960327,
+              "bbox": [
+                946,
+                327,
+                1002,
+                348
+              ]
+            },
+            {
+              "text": "330219998",
+              "conf": 0.9847090244293213,
+              "bbox": [
+                1304,
+                327,
+                1368,
+                344
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Admit type Urgent Amount member owes $0.00 TIN 596014973",
+          "conf": 0.9883108039697012,
+          "bbox": [
+            32,
+            355,
+            1368,
+            377
+          ],
+          "words": [
+            {
+              "text": "Admit type",
+              "conf": 0.9984028935432434,
+              "bbox": [
+                32,
+                356,
+                99,
+                373
+              ]
+            },
+            {
+              "text": "Urgent",
+              "conf": 0.9995281100273132,
+              "bbox": [
+                407,
+                355,
+                454,
+                373
+              ]
+            },
+            {
+              "text": "Amount member owes",
+              "conf": 0.9958348870277405,
+              "bbox": [
+                490,
+                358,
+                620,
+                377
+              ]
+            },
+            {
+              "text": "$0.00",
+              "conf": 0.9977771639823914,
+              "bbox": [
+                874,
+                356,
+                911,
+                374
+              ]
+            },
+            {
+              "text": "TIN",
+              "conf": 0.9393698573112488,
+              "bbox": [
+                948,
+                358,
+                973,
+                373
+              ]
+            },
+            {
+              "text": "596014973",
+              "conf": 0.9989519119262695,
+              "bbox": [
+                1305,
+                355,
+                1368,
+                372
+              ]
+            }
+          ]
+        },
+        {
+          "text": "External pricing vendor Facllity name Memorial Healthcare System",
+          "conf": 0.9780742327372233,
+          "bbox": [
+            32,
+            382,
+            1365,
+            402
+          ],
+          "words": [
+            {
+              "text": "External pricing vendor",
+              "conf": 0.9844489693641663,
+              "bbox": [
+                32,
+                383,
+                166,
+                400
+              ]
+            },
+            {
+              "text": "Facllity name",
+              "conf": 0.9661964178085327,
+              "bbox": [
+                947,
+                382,
+                1026,
+                402
+              ]
+            },
+            {
+              "text": "Memorial Healthcare System",
+              "conf": 0.983577311038971,
+              "bbox": [
+                1206,
+                383,
+                1365,
+                396
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Facility type",
+          "conf": 0.9458939433097839,
+          "bbox": [
+            947,
+            408,
+            1021,
+            428
+          ],
+          "words": [
+            {
+              "text": "Facility type",
+              "conf": 0.9458939433097839,
+              "bbox": [
+                947,
+                408,
+                1021,
+                428
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Associated payment (EOP) Settlement No Place of service",
+          "conf": 0.9792715609073639,
+          "bbox": [
+            25,
+            423,
+            1040,
+            462
+          ],
+          "words": [
+            {
+              "text": "Associated payment (EOP)",
+              "conf": 0.9611659049987793,
+              "bbox": [
+                25,
+                446,
+                176,
+                462
+              ]
+            },
+            {
+              "text": "Settlement",
+              "conf": 0.9976339340209961,
+              "bbox": [
+                490,
+                426,
+                559,
+                443
+              ]
+            },
+            {
+              "text": "No",
+              "conf": 0.9966177940368652,
+              "bbox": [
+                888,
+                423,
+                912,
+                442
+              ]
+            },
+            {
+              "text": "Place of service",
+              "conf": 0.9616686105728149,
+              "bbox": [
+                949,
+                437,
+                1040,
+                453
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Charge group ID Referring providere Al Hospi Memorial Region",
+          "conf": 0.9550564885139465,
+          "bbox": [
+            34,
+            462,
+            1366,
+            488
+          ],
+          "words": [
+            {
+              "text": "Charge group ID",
+              "conf": 0.9746102690696716,
+              "bbox": [
+                34,
+                471,
+                128,
+                488
+              ]
+            },
+            {
+              "text": "Referring providere",
+              "conf": 0.927523136138916,
+              "bbox": [
+                949,
+                462,
+                1054,
+                481
+              ]
+            },
+            {
+              "text": "Al Hospi Memorial Region",
+              "conf": 0.963036060333252,
+              "bbox": [
+                1225,
+                465,
+                1366,
+                477
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Check no.",
+          "conf": 0.9464743137359619,
+          "bbox": [
+            34,
+            498,
+            90,
+            514
+          ],
+          "words": [
+            {
+              "text": "Check no.",
+              "conf": 0.9464743137359619,
+              "bbox": [
+                34,
+                498,
+                90,
+                514
+              ]
+            }
+          ]
+        },
+        {
+          "text": "CCD addendum",
+          "conf": 0.9795835614204407,
+          "bbox": [
+            34,
+            524,
+            125,
+            541
+          ],
+          "words": [
+            {
+              "text": "CCD addendum",
+              "conf": 0.9795835614204407,
+              "bbox": [
+                34,
+                524,
+                125,
+                541
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Payment executor",
+          "conf": 0.9947869777679443,
+          "bbox": [
+            34,
+            551,
+            139,
+            568
+          ],
+          "words": [
+            {
+              "text": "Payment executor",
+              "conf": 0.9947869777679443,
+              "bbox": [
+                34,
+                551,
+                139,
+                568
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Diagnostic information",
+          "conf": 0.9856616854667664,
+          "bbox": [
+            27,
+            656,
+            223,
+            675
+          ],
+          "words": [
+            {
+              "text": "Diagnostic information",
+              "conf": 0.9856616854667664,
+              "bbox": [
+                27,
+                656,
+                223,
+                675
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dx no.1 Dx no. 2 Dx no.3 Dx no.4",
+          "conf": 0.9600638002157211,
+          "bbox": [
+            38,
+            701,
+            962,
+            719
+          ],
+          "words": [
+            {
+              "text": "Dx no.1",
+              "conf": 0.9675363898277283,
+              "bbox": [
+                38,
+                705,
+                81,
+                719
+              ]
+            },
+            {
+              "text": "Dx no. 2",
+              "conf": 0.9936413764953613,
+              "bbox": [
+                330,
+                705,
+                376,
+                718
+              ]
+            },
+            {
+              "text": "Dx no.3",
+              "conf": 0.976159393787384,
+              "bbox": [
+                624,
+                703,
+                670,
+                717
+              ]
+            },
+            {
+              "text": "Dx no.4",
+              "conf": 0.9029180407524109,
+              "bbox": [
+                916,
+                701,
+                962,
+                715
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Single lliveborn infant, delivered vaginally Newborn small for gestational age, other Post-term newborn Immunization not carried out because of",
+          "conf": 0.9584196656942368,
+          "bbox": [
+            38,
+            726,
+            1144,
+            746
+          ],
+          "words": [
+            {
+              "text": "Single lliveborn infant, delivered vaginally",
+              "conf": 0.9542362093925476,
+              "bbox": [
+                38,
+                729,
+                266,
+                746
+              ]
+            },
+            {
+              "text": "Newborn small for gestational age, other",
+              "conf": 0.9799126386642456,
+              "bbox": [
+                330,
+                728,
+                559,
+                745
+              ]
+            },
+            {
+              "text": "Post-term newborn",
+              "conf": 0.9438570737838745,
+              "bbox": [
+                621,
+                726,
+                736,
+                744
+              ]
+            },
+            {
+              "text": "Immunization not carried out because of",
+              "conf": 0.9556727409362793,
+              "bbox": [
+                918,
+                727,
+                1144,
+                740
+              ]
+            }
+          ]
+        },
+        {
+          "text": "caregiver refusal",
+          "conf": 0.9544747471809387,
+          "bbox": [
+            918,
+            746,
+            1011,
+            759
+          ],
+          "words": [
+            {
+              "text": "caregiver refusal",
+              "conf": 0.9544747471809387,
+              "bbox": [
+                918,
+                746,
+                1011,
+                759
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

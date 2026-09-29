@@ -1,0 +1,412 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=15 | tables=6 | checkboxes=0
+
+[TEXT]
+
+[TABLE 1 | source=wide_grid]
+shape: 2x8
+HEADER | Cortex-Claim #3X6ZH7Z9 | Latest version (6 of6) | Dashboard | Batch History | Testing | Settlements | Search | Note
+ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | a few seconds ago | Readjudicate | Actions | - | Unlock clal | -
+  CELL[1,0] = About thls claim Payment Patlent
+  CELL[1,1] = Providers Medical Claim lines
+  CELL[1,2] = a few seconds ago
+  CELL[1,3] = Readjudicate
+  CELL[1,4] = Actions
+  CELL[1,6] = Unlock clal
+[/TABLE 1]
+
+[TABLE 0 | source=two_column_form]
+shape: 23x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | About this claim | - | - | -
+  CELL[1,0] = About this claim
+ROW 2 | 3X6ZH7Z9 Member: Yisroel Dubov | - | - | -
+  CELL[2,0] = 3X6ZH7Z9 Member: Yisroel Dubov
+ROW 3 | o Notes Service start date 09/15/2025 | - | Received date | 07/19/2026
+  CELL[3,0] = o Notes Service start date 09/15/2025
+  CELL[3,2] = Received date
+  CELL[3,3] = 07/19/2026
+ROW 4 | See all member's clalms | - | - | -
+  CELL[4,0] = See all member's clalms
+ROW 5 | Claim state | Audit | - | -
+  CELL[5,0] = Claim state
+  CELL[5,1] = Audit
+ROW 6 | Stay type | Inpatient | Place of service | -
+  CELL[6,0] = Stay type
+  CELL[6,1] = Inpatient
+  CELL[6,2] = Place of service
+ROW 7 | Blockers (1) | Diagnosis related group 640 | Transmission ID | 76413591373
+  CELL[7,0] = Blockers (1)
+  CELL[7,1] = Diagnosis related group 640
+  CELL[7,2] = Transmission ID
+  CELL[7,3] = 76413591373
+ROW 8 | OAWAITING_PAYMENT | - | - | -
+  CELL[8,0] = OAWAITING_PAYMENT
+ROW 9 | Denials (0) | - | - | -
+  CELL[9,0] = Denials (0)
+ROW 10 | No denials on this claim. | Is transplant? | - | -
+  CELL[10,0] = No denials on this claim.
+  CELL[10,1] = Is transplant?
+ROW 11 | International Provider | No | - | -
+  CELL[11,0] = International Provider
+  CELL[11,1] = No
+ROW 12 | Billed $9,459.00 (100%) Is Medicaid reclamation? Yes | - | - | -
+  CELL[12,0] = Billed $9,459.00 (100%) Is Medicaid reclamation? Yes
+ROW 13 | Allowed | $729.17 (8%) | - | -
+  CELL[13,0] = Allowed
+  CELL[13,1] = $729.17 (8%)
+ROW 14 | Pay provider | $729.17 Submission information | - | -
+  CELL[14,0] = Pay provider
+  CELL[14,1] = $729.17 Submission information
+ROW 15 | Pay member | $0.00 | - | -
+  CELL[15,0] = Pay member
+  CELL[15,1] = $0.00
+ROW 16 | Submission type | Electronic | Vendor source | AVAILITY
+  CELL[16,0] = Submission type
+  CELL[16,1] = Electronic
+  CELL[16,2] = Vendor source
+  CELL[16,3] = AVAILITY
+ROW 17 | >Memberresponsibility | $0.00 | - | -
+  CELL[17,0] = >Memberresponsibility
+  CELL[17,1] = $0.00
+ROW 18 | 7/19/2026 | - | - | -
+  CELL[18,0] = 7/19/2026
+ROW 19 | Potential parent claims | Payment | - | -
+  CELL[19,0] = Potential parent claims
+  CELL[19,1] = Payment
+ROW 20 | Potential duplicate claims | - | - | -
+  CELL[20,0] = Potential duplicate claims
+ROW 21 | Payto member | No | Excluded from interest | Yes
+  CELL[21,0] = Payto member
+  CELL[21,1] = No
+  CELL[21,2] = Excluded from interest
+  CELL[21,3] = Yes
+ROW 22 | No system identified duplicates | - | - | -
+  CELL[22,0] = No system identified duplicates
+[/TABLE 0]
+
+[TABLE 2 | source=wide_grid]
+shape: 2x4
+HEADER | Service end date | 09/16/2025 | Claim type | UB Facility
+ROW 1 | Provider's claim # | 556AAFMSEX6-AY41T3E | Billing type | 111
+  CELL[1,0] = Provider's claim #
+  CELL[1,1] = 556AAFMSEX6-AY41T3E
+  CELL[1,2] = Billing type
+  CELL[1,3] = 111
+[/TABLE 2]
+
+[TABLE 3 | source=wide_grid]
+shape: 2x4
+HEADER | Manage | Payer control number | - | Nucleus ID
+ROW 1 | - | Authorization required? | No | Goal PROCESS_CLAIM
+  CELL[1,1] = Authorization required?
+  CELL[1,2] = No
+  CELL[1,3] = Goal PROCESS_CLAIM
+[/TABLE 3]
+
+[TABLE 4 | source=wide_grid]
+shape: 3x4
+HEADER | EDIfle | Download | Documents | View
+ROW 1 | Claim lineage Tenant | oscar | - | -
+  CELL[1,0] = Claim lineage Tenant
+  CELL[1,1] = oscar
+ROW 2 | 3X6ZH7Z9 Audit Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | - | -
+  CELL[2,0] = 3X6ZH7Z9 Audit Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+[/TABLE 4]
+
+[TABLE 5 | source=wide_grid]
+shape: 2x4
+HEADER | Charge group | - | Prompt process due date | 08/05/2026
+ROW 1 | Payment authority | NEXTGEN | Interest accrued | $0.00
+  CELL[1,0] = Payment authority
+  CELL[1,1] = NEXTGEN
+  CELL[1,2] = Interest accrued
+  CELL[1,3] = $0.00
+[/TABLE 5]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[31,10,1589,84] | order=0
+  Cortex-Claim #3X6ZH7Z9 Latest version (6 of6) Dashboard Batch History Testing Settlements Search Note
+  About thls claim Payment Patlent Providers Medical Claim lines a few seconds ago Readjudicate Actions Unlock clal
+BLOCK 1 | type=table_row | bbox=[29,121,457,163] | order=1
+  3X6ZH7Z9 Member: Yisroel Dubov About this claim
+BLOCK 2 | type=table | bbox=[30,165,1230,294] | order=2
+  o Notes See all member's clalms Service start date 09/15/2025 Received date 07/19/2026
+  Service end date 09/16/2025 Claim type UB Facility
+  Provider's claim # 556AAFMSEX6-AY41T3E Billing type 111
+  Claim state: Audit Stay type Inpatient Place of service
+  Blockers (1) Diagnosis related group 640 Transmission ID 76413591373
+BLOCK 3 | type=table | bbox=[32,292,172,304] | order=3
+  OAWAITING_PAYMENT
+BLOCK 4 | type=table | bbox=[30,303,1255,356] | order=4
+  Manage Payer control number - Nucleus ID
+  Denials (0) Authorization required? No Goal PROCESS_CLAIM
+BLOCK 5 | type=table | bbox=[30,356,380,376] | order=5
+  No denials on this claim. Is transplant?
+BLOCK 6 | type=table_row | bbox=[299,379,538,399] | order=6
+  International Provider No
+BLOCK 7 | type=table | bbox=[30,403,543,426] | order=7
+  Billed $9,459.00 (100%) Is Medicaid reclamation? Yes
+BLOCK 8 | type=table_row | bbox=[32,428,224,446] | order=8
+  Allowed $729.17 (8%)
+BLOCK 9 | type=table | bbox=[21,454,1211,591] | order=9
+  Pay provider $729.17 Submission information
+  >Memberresponsibility Pay member $0.00 $0.00 Submission type Electronic Vendor source AVAILITY
+  EDIfle Download Documents View
+  Claim lineage Tenant oscar
+  3X6ZH7Z9 Audit Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+BLOCK 10 | type=table_row | bbox=[35,592,390,657] | order=10
+  7/19/2026
+  Potential parent claims Payment
+BLOCK 11 | type=table | bbox=[300,659,1239,707] | order=11
+  Charge group - Prompt process due date 08/05/2026
+  Payment authority NEXTGEN Interest accrued $0.00
+BLOCK 12 | type=table | bbox=[35,703,180,715] | order=12
+  Potential duplicate claims
+BLOCK 13 | type=footer | bbox=[301,713,1181,732] | order=13
+  Payto member No Excluded from interest Yes
+BLOCK 14 | type=footer | bbox=[34,728,212,741] | order=14
+  No system identified duplicates
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[21,121,1226,741] | shape=23x4 | conf=0.920
+  shape: 23x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | About this claim | - | - | -
+    CELL[1,0] = About this claim
+  ROW 2 | 3X6ZH7Z9 Member: Yisroel Dubov | - | - | -
+    CELL[2,0] = 3X6ZH7Z9 Member: Yisroel Dubov
+  ROW 3 | o Notes Service start date 09/15/2025 | - | Received date | 07/19/2026
+    CELL[3,0] = o Notes Service start date 09/15/2025
+    CELL[3,2] = Received date
+    CELL[3,3] = 07/19/2026
+  ROW 4 | See all member's clalms | - | - | -
+    CELL[4,0] = See all member's clalms
+  ROW 5 | Claim state | Audit | - | -
+    CELL[5,0] = Claim state
+    CELL[5,1] = Audit
+  ROW 6 | Stay type | Inpatient | Place of service | -
+    CELL[6,0] = Stay type
+    CELL[6,1] = Inpatient
+    CELL[6,2] = Place of service
+  ROW 7 | Blockers (1) | Diagnosis related group 640 | Transmission ID | 76413591373
+    CELL[7,0] = Blockers (1)
+    CELL[7,1] = Diagnosis related group 640
+    CELL[7,2] = Transmission ID
+    CELL[7,3] = 76413591373
+  ROW 8 | OAWAITING_PAYMENT | - | - | -
+    CELL[8,0] = OAWAITING_PAYMENT
+  ROW 9 | Denials (0) | - | - | -
+    CELL[9,0] = Denials (0)
+  ROW 10 | No denials on this claim. | Is transplant? | - | -
+    CELL[10,0] = No denials on this claim.
+    CELL[10,1] = Is transplant?
+  ROW 11 | International Provider | No | - | -
+    CELL[11,0] = International Provider
+    CELL[11,1] = No
+  ROW 12 | Billed $9,459.00 (100%) Is Medicaid reclamation? Yes | - | - | -
+    CELL[12,0] = Billed $9,459.00 (100%) Is Medicaid reclamation? Yes
+  ROW 13 | Allowed | $729.17 (8%) | - | -
+    CELL[13,0] = Allowed
+    CELL[13,1] = $729.17 (8%)
+  ROW 14 | Pay provider | $729.17 Submission information | - | -
+    CELL[14,0] = Pay provider
+    CELL[14,1] = $729.17 Submission information
+  ROW 15 | Pay member | $0.00 | - | -
+    CELL[15,0] = Pay member
+    CELL[15,1] = $0.00
+  ROW 16 | Submission type | Electronic | Vendor source | AVAILITY
+    CELL[16,0] = Submission type
+    CELL[16,1] = Electronic
+    CELL[16,2] = Vendor source
+    CELL[16,3] = AVAILITY
+  ROW 17 | >Memberresponsibility | $0.00 | - | -
+    CELL[17,0] = >Memberresponsibility
+    CELL[17,1] = $0.00
+  ROW 18 | 7/19/2026 | - | - | -
+    CELL[18,0] = 7/19/2026
+  ROW 19 | Potential parent claims | Payment | - | -
+    CELL[19,0] = Potential parent claims
+    CELL[19,1] = Payment
+  ROW 20 | Potential duplicate claims | - | - | -
+    CELL[20,0] = Potential duplicate claims
+  ROW 21 | Payto member | No | Excluded from interest | Yes
+    CELL[21,0] = Payto member
+    CELL[21,1] = No
+    CELL[21,2] = Excluded from interest
+    CELL[21,3] = Yes
+  ROW 22 | No system identified duplicates | - | - | -
+    CELL[22,0] = No system identified duplicates
+TABLE 1 | source=wide_grid | bbox=[31,10,1589,84] | shape=2x8 | conf=0.850
+  shape: 2x8
+  HEADER | Cortex-Claim #3X6ZH7Z9 | Latest version (6 of6) | Dashboard | Batch History | Testing | Settlements | Search | Note
+  ROW 1 | About thls claim Payment Patlent | Providers Medical Claim lines | a few seconds ago | Readjudicate | Actions | - | Unlock clal | -
+    CELL[1,0] = About thls claim Payment Patlent
+    CELL[1,1] = Providers Medical Claim lines
+    CELL[1,2] = a few seconds ago
+    CELL[1,3] = Readjudicate
+    CELL[1,4] = Actions
+    CELL[1,6] = Unlock clal
+TABLE 2 | source=wide_grid | bbox=[298,196,1230,243] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | Service end date | 09/16/2025 | Claim type | UB Facility
+  ROW 1 | Provider's claim # | 556AAFMSEX6-AY41T3E | Billing type | 111
+    CELL[1,0] = Provider's claim #
+    CELL[1,1] = 556AAFMSEX6-AY41T3E
+    CELL[1,2] = Billing type
+    CELL[1,3] = 111
+TABLE 3 | source=wide_grid | bbox=[32,303,1255,348] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | Manage | Payer control number | - | Nucleus ID
+  ROW 1 | - | Authorization required? | No | Goal PROCESS_CLAIM
+    CELL[1,1] = Authorization required?
+    CELL[1,2] = No
+    CELL[1,3] = Goal PROCESS_CLAIM
+TABLE 4 | source=wide_grid | bbox=[29,516,1189,591] | shape=3x4 | conf=0.850
+  shape: 3x4
+  HEADER | EDIfle | Download | Documents | View
+  ROW 1 | Claim lineage Tenant | oscar | - | -
+    CELL[1,0] = Claim lineage Tenant
+    CELL[1,1] = oscar
+  ROW 2 | 3X6ZH7Z9 Audit Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975 | - | - | -
+    CELL[2,0] = 3X6ZH7Z9 Audit Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+TABLE 5 | source=wide_grid | bbox=[300,659,1239,707] | shape=2x4 | conf=0.850
+  shape: 2x4
+  HEADER | Charge group | - | Prompt process due date | 08/05/2026
+  ROW 1 | Payment authority | NEXTGEN | Interest accrued | $0.00
+    CELL[1,0] = Payment authority
+    CELL[1,1] = NEXTGEN
+    CELL[1,2] = Interest accrued
+    CELL[1,3] = $0.00
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[65,10,1589,42] | conf=0.992 | text=Cortex-Claim #3X6ZH7Z9 Latest version (6 of6) Dashboard Batch History Testing Settlements Search Note
+  WORD | bbox=[65,20,259,37] | text=Cortex-Claim #3X6ZH7Z9
+  WORD | bbox=[275,19,400,36] | text=Latest version (6 of6)
+  WORD | bbox=[1104,14,1169,31] | text=Dashboard
+  WORD | bbox=[1188,10,1269,32] | text=Batch History
+  WORD | bbox=[1292,15,1334,29] | text=Testing
+  WORD | bbox=[1355,13,1429,29] | text=Settlements
+  WORD | bbox=[1449,14,1491,28] | text=Search
+  WORD | bbox=[1544,24,1589,42] | text=Note
+LINE 1 | bbox=[31,60,1522,84] | conf=0.978 | text=About thls claim Payment Patlent Providers Medical Claim lines a few seconds ago Readjudicate Actions Unlock clal
+  WORD | bbox=[31,70,124,83] | text=About thls claim
+  WORD | bbox=[144,67,200,84] | text=Payment
+  WORD | bbox=[219,69,265,81] | text=Patlent
+  WORD | bbox=[284,66,344,83] | text=Providers
+  WORD | bbox=[364,67,411,80] | text=Medical
+  WORD | bbox=[434,67,495,80] | text=Claim lines
+  WORD | bbox=[1085,65,1174,78] | text=a few seconds ago
+  WORD | bbox=[1200,64,1275,76] | text=Readjudicate
+  WORD | bbox=[1329,62,1376,76] | text=Actions
+  WORD | bbox=[1440,60,1522,76] | text=Unlock clal
+LINE 2 | bbox=[29,121,457,163] | conf=0.979 | text=3X6ZH7Z9 Member: Yisroel Dubov About this claim
+  WORD | bbox=[29,121,161,163] | text=3X6ZH7Z9 Member: Yisroel Dubov
+  WORD | bbox=[299,121,457,141] | text=About this claim
+LINE 3 | bbox=[31,165,1221,199] | conf=0.969 | text=o Notes See all member's clalms Service start date 09/15/2025 Received date 07/19/2026
+  WORD | bbox=[31,165,95,182] | text=o Notes
+  WORD | bbox=[32,186,165,199] | text=See all member's clalms
+  WORD | bbox=[299,177,400,190] | text=Service start date
+  WORD | bbox=[515,174,584,191] | text=09/15/2025
+  WORD | bbox=[935,171,1018,187] | text=Received date
+  WORD | bbox=[1155,171,1221,187] | text=07/19/2026
+LINE 4 | bbox=[298,196,1230,218] | conf=0.978 | text=Service end date 09/16/2025 Claim type UB Facility
+  WORD | bbox=[298,201,395,218] | text=Service end date
+  WORD | bbox=[515,200,585,216] | text=09/16/2025
+  WORD | bbox=[935,196,1000,217] | text=Claim type
+  WORD | bbox=[1154,196,1230,213] | text=UB Facility
+LINE 5 | bbox=[298,222,1190,243] | conf=0.943 | text=Provider's claim # 556AAFMSEX6-AY41T3E Billing type 111
+  WORD | bbox=[298,227,400,243] | text=Provider's claim #
+  WORD | bbox=[515,225,652,242] | text=556AAFMSEX6-AY41T3E
+  WORD | bbox=[938,224,1004,241] | text=Billing type
+  WORD | bbox=[1154,222,1190,239] | text=111
+LINE 6 | bbox=[30,238,1026,271] | conf=0.973 | text=Claim state: Audit Stay type Inpatient Place of service
+  WORD | bbox=[30,238,100,255] | text=Claim state:
+  WORD | bbox=[180,238,220,256] | text=Audit
+  WORD | bbox=[298,253,355,271] | text=Stay type
+  WORD | bbox=[515,252,571,269] | text=Inpatient
+  WORD | bbox=[938,250,1026,266] | text=Place of service
+LINE 7 | bbox=[30,272,1226,294] | conf=0.981 | text=Blockers (1) Diagnosis related group 640 Transmission ID 76413591373
+  WORD | bbox=[30,272,99,289] | text=Blockers (1)
+  WORD | bbox=[300,281,432,294] | text=Diagnosis related group
+  WORD | bbox=[515,279,541,294] | text=640
+  WORD | bbox=[938,275,1029,292] | text=Transmission ID
+  WORD | bbox=[1155,274,1226,290] | text=76413591373
+LINE 8 | bbox=[32,292,172,304] | conf=0.977 | text=OAWAITING_PAYMENT
+LINE 9 | bbox=[32,303,999,325] | conf=0.927 | text=Manage Payer control number - Nucleus ID
+  WORD | bbox=[32,311,79,325] | text=Manage
+  WORD | bbox=[299,304,421,321] | text=Payer control number
+  WORD | bbox=[938,303,999,316] | text=Nucleus ID
+LINE 10 | bbox=[30,327,1255,356] | conf=0.981 | text=Denials (0) Authorization required? No Goal PROCESS_CLAIM
+  WORD | bbox=[30,340,94,356] | text=Denials (0)
+  WORD | bbox=[299,330,435,346] | text=Authorization required?
+  WORD | bbox=[514,328,539,348] | text=No
+  WORD | bbox=[938,328,968,342] | text=Goal
+  WORD | bbox=[1156,327,1255,340] | text=PROCESS_CLAIM
+LINE 11 | bbox=[30,356,380,376] | conf=0.993 | text=No denials on this claim. Is transplant?
+  WORD | bbox=[30,359,168,376] | text=No denials on this claim.
+  WORD | bbox=[299,356,380,373] | text=Is transplant?
+LINE 12 | bbox=[299,379,538,399] | conf=0.985 | text=International Provider No
+  WORD | bbox=[299,382,425,398] | text=International Provider
+  WORD | bbox=[514,379,538,399] | text=No
+LINE 13 | bbox=[30,403,543,426] | conf=0.967 | text=Billed $9,459.00 (100%) Is Medicaid reclamation? Yes
+  WORD | bbox=[30,404,68,421] | text=Billed
+  WORD | bbox=[135,406,222,419] | text=$9,459.00 (100%)
+  WORD | bbox=[297,406,441,424] | text=Is Medicaid reclamation?
+  WORD | bbox=[513,403,543,426] | text=Yes
+LINE 14 | bbox=[32,428,224,446] | conf=0.977 | text=Allowed $729.17 (8%)
+  WORD | bbox=[32,430,80,444] | text=Allowed
+  WORD | bbox=[160,428,224,446] | text=$729.17 (8%)
+LINE 15 | bbox=[31,454,454,474] | conf=0.982 | text=Pay provider $729.17 Submission information
+  WORD | bbox=[31,454,104,472] | text=Pay provider
+  WORD | bbox=[181,454,224,468] | text=$729.17
+  WORD | bbox=[301,461,454,474] | text=Submission information
+LINE 16 | bbox=[21,477,1211,521] | conf=0.987 | text=>Memberresponsibility Pay member $0.00 $0.00 Submission type Electronic Vendor source AVAILITY
+  WORD | bbox=[21,507,159,519] | text=>Memberresponsibility
+  WORD | bbox=[31,480,105,496] | text=Pay member
+  WORD | bbox=[188,477,225,495] | text=$0.00
+  WORD | bbox=[188,503,225,521] | text=$0.00
+  WORD | bbox=[299,495,395,512] | text=Submission type
+  WORD | bbox=[518,494,579,510] | text=Electronic
+  WORD | bbox=[939,491,1023,508] | text=Vendor source
+  WORD | bbox=[1156,490,1211,507] | text=AVAILITY
+LINE 17 | bbox=[297,516,1189,539] | conf=0.979 | text=EDIfle Download Documents View
+  WORD | bbox=[297,518,344,539] | text=EDIfle
+  WORD | bbox=[519,521,579,537] | text=Download
+  WORD | bbox=[937,518,1006,535] | text=Documents
+  WORD | bbox=[1156,516,1189,533] | text=View
+LINE 18 | bbox=[31,546,554,568] | conf=0.988 | text=Claim lineage Tenant oscar
+  WORD | bbox=[31,547,110,568] | text=Claim lineage
+  WORD | bbox=[300,549,342,563] | text=Tenant
+  WORD | bbox=[516,546,554,564] | text=oscar
+LINE 19 | bbox=[29,573,558,591] | conf=0.972 | text=3X6ZH7Z9 Audit Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+  WORD | bbox=[29,573,105,589] | text=3X6ZH7Z9
+  WORD | bbox=[181,573,221,591] | text=Audit
+  WORD | bbox=[300,575,558,591] | text=Valet file lD: 5f1a7c34-c933-4af3-b8b1-9865e706d975
+LINE 20 | bbox=[41,592,96,609] | conf=1.000 | text=7/19/2026
+LINE 21 | bbox=[35,635,390,657] | conf=0.989 | text=Potential parent claims Payment
+  WORD | bbox=[35,639,165,652] | text=Potential parent claims
+  WORD | bbox=[301,635,390,657] | text=Payment
+LINE 22 | bbox=[301,659,1239,680] | conf=0.913 | text=Charge group - Prompt process due date 08/05/2026
+  WORD | bbox=[301,663,380,680] | text=Charge group
+  WORD | bbox=[940,659,1082,676] | text=Prompt process due date
+  WORD | bbox=[1158,661,1239,677] | text=08/05/2026
+LINE 23 | bbox=[300,687,1194,707] | conf=0.988 | text=Payment authority NEXTGEN Interest accrued $0.00
+  WORD | bbox=[300,689,407,705] | text=Payment authority
+  WORD | bbox=[518,687,579,704] | text=NEXTGEN
+  WORD | bbox=[940,690,1036,707] | text=Interest accrued
+  WORD | bbox=[1156,689,1194,707] | text=$0.00
+LINE 24 | bbox=[35,703,180,715] | conf=0.968 | text=Potential duplicate claims
+LINE 25 | bbox=[301,713,1181,732] | conf=0.954 | text=Payto member No Excluded from interest Yes
+  WORD | bbox=[301,717,386,729] | text=Payto member
+  WORD | bbox=[516,713,541,732] | text=No
+  WORD | bbox=[939,714,1069,731] | text=Excluded from interest
+  WORD | bbox=[1156,715,1181,731] | text=Yes
+LINE 26 | bbox=[34,728,212,741] | conf=0.992 | text=No system identified duplicates
+[/BOXES]

@@ -14,8 +14,6 @@
   const downloadTxtBtn = document.getElementById("download-txt-btn");
   const downloadJsonBtn = document.getElementById("download-json-btn");
   const downloadHtmlBtn = document.getElementById("download-html-btn");
-  const downloadExcelBtn = document.getElementById("download-excel-btn");
-  const resultsFields = document.getElementById("results-fields");
   const storageHint = document.getElementById("storage-hint");
   const tabButtons = Array.from(document.querySelectorAll(".tab"));
   const tabPanels = Array.from(document.querySelectorAll(".tab-panel"));
@@ -62,7 +60,6 @@
     json: "",
   };
   let lastLayoutHtmlUrl = "";
-  let lastExcelUrl = "";
   let pipelineTimer = null;
   let pipelineStartedAt = 0;
 
@@ -73,108 +70,15 @@
     if (downloadHtmlBtn) {
       downloadHtmlBtn.disabled = !enabled || !lastLayoutHtmlUrl;
     }
-    if (downloadExcelBtn) {
-      downloadExcelBtn.disabled = !enabled || !lastExcelUrl;
-    }
   }
 
-  function absoluteApiUrl(url) {
-    if (!url) {
-      return "";
-    }
-    return url.startsWith("http") ? url : `${API_BASE}${url}`;
-  }
-
-  function formatFieldValue(value) {
-    return Array.isArray(value) ? value.join("; ") : String(value);
-  }
-
-  function renderExtractedFields(items) {
-    if (!resultsFields) {
-      return;
-    }
-    resultsFields.replaceChildren();
-
-    const docs = [];
-    items.forEach((item) => {
-      (item.extracted_fields || []).forEach((doc) => docs.push(doc));
-      if (item.extraction_error) {
-        docs.push({ source: item.filename, error: item.extraction_error });
-      }
-    });
-
-    if (!docs.length) {
-      const empty = document.createElement("p");
-      empty.className = "fields-empty";
-      empty.textContent = "No fields were extracted.";
-      resultsFields.appendChild(empty);
-      return;
-    }
-
-    docs.forEach((doc) => {
-      const section = document.createElement("section");
-      section.className = "fields-doc";
-
-      const title = document.createElement("h3");
-      title.className = "fields-doc-title";
-      title.textContent = doc.source || "Document";
-      if (doc.detected_application) {
-        const app = document.createElement("span");
-        app.className = "fields-doc-app";
-        app.textContent = ` · ${doc.detected_application}`;
-        title.appendChild(app);
-      }
-      section.appendChild(title);
-
-      if (doc.error) {
-        const err = document.createElement("p");
-        err.className = "fields-empty";
-        err.textContent = `Extraction failed: ${doc.error}`;
-        section.appendChild(err);
-        resultsFields.appendChild(section);
-        return;
-      }
-
-      const entries = Object.entries(doc.fields || {}).concat(
-        Object.entries(doc.extra_fields || {})
-      );
-      if (entries.length) {
-        const table = document.createElement("table");
-        table.className = "fields-table";
-        const tbody = document.createElement("tbody");
-        entries.forEach(([name, value]) => {
-          const row = document.createElement("tr");
-          const th = document.createElement("th");
-          th.scope = "row";
-          th.textContent = name;
-          const td = document.createElement("td");
-          td.textContent = formatFieldValue(value);
-          row.append(th, td);
-          tbody.appendChild(row);
-        });
-        table.appendChild(tbody);
-        section.appendChild(table);
-      } else {
-        const none = document.createElement("p");
-        none.className = "fields-empty";
-        none.textContent = "No fields found on this page.";
-        section.appendChild(none);
-      }
-
-      const flags = Object.entries(doc.flags || {});
-      if (flags.length) {
-        const list = document.createElement("ul");
-        list.className = "fields-flags";
-        flags.forEach(([name, message]) => {
-          const li = document.createElement("li");
-          li.textContent = `${name}: ${message}`;
-          list.appendChild(li);
-        });
-        section.appendChild(list);
-      }
-
-      resultsFields.appendChild(section);
-    });
+  function downloadFromUrl(url, filename) {
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
   }
 
   function setStorageHint(data) {
@@ -508,17 +412,14 @@
     let text = "";
     let jsonSource = data;
     lastLayoutHtmlUrl = "";
-    // Batch responses carry one combined workbook (cross-file scenario
-    // linking); single uploads carry their own per-document workbook.
-    lastExcelUrl = absoluteApiUrl(data.excel_url);
-    renderExtractedFields(Array.isArray(data.results) ? data.results : [data]);
 
     if (Array.isArray(data.results)) {
       text = data.results
         .map((item, index) => {
           const name = item.filename || `Document ${index + 1}`;
-          const body =
-            extractTextFromResponse(item) || "No extracted text returned.";
+          const body = item.error
+            ? `ERROR: ${item.error}`
+            : extractTextFromResponse(item) || "No extracted text returned.";
           return `===== ${name} =====\n${body}`;
         })
         .join("\n\n");
@@ -536,7 +437,9 @@
           : `${API_BASE}${first.layout_html_url}`;
       }
     } else {
-      text = extractTextFromResponse(data) || "No extracted text returned.";
+      text =
+        `===== ${data.filename || "Document 1"} =====\n` +
+        (extractTextFromResponse(data) || "No extracted text returned.");
       jsonSource = data.raw_json || data;
       sourceFileBase = safeBaseName(data.filename || "ocr_output");
       if (data.layout_html_url) {
@@ -566,10 +469,6 @@
     resultsJson.textContent = "";
     lastPayload = { text: "", json: "" };
     lastLayoutHtmlUrl = "";
-    lastExcelUrl = "";
-    if (resultsFields) {
-      resultsFields.replaceChildren();
-    }
     setStorageHint(null);
     setDownloadEnabled(false);
     resultsPlaceholder.hidden = false;
@@ -725,6 +624,15 @@
       const data = await response.json();
       showResults(data, files.length);
       completePipelineSuccess();
+      // Hand back a folder (zip) with one <filename>.txt per image.
+      const collection = data && data.text_collection;
+      const zipUrl = collection && collection.zip_url;
+      if (zipUrl) {
+        downloadFromUrl(`${API_BASE}${zipUrl}`, `${collection.batch_id}.zip`);
+      }
+      const failed = Array.isArray(data.results)
+        ? data.results.filter((item) => item && item.error).length
+        : 0;
       const storedId =
         (data && data.document_id) ||
         (data &&
@@ -734,7 +642,11 @@
         "";
       setStatus(
         isBatch
-          ? `OCR completed for ${files.length} documents. Saved under handler_checker/storage/outputs/`
+          ? `OCR completed for ${files.length - failed} of ${files.length} documents` +
+              (failed ? ` (${failed} failed)` : "") +
+              (zipUrl
+                ? ". Downloaded a folder (zip) with one TXT file per document."
+                : ".")
           : storedId
             ? `OCR completed. Saved layout.html in handler_checker/storage/outputs/${storedId}/`
             : "OCR Processing Completed Successfully"
@@ -796,29 +708,9 @@
         setStatus("layout.html not available for this result.", "is-error");
         return;
       }
-      const link = document.createElement("a");
-      link.href = lastLayoutHtmlUrl;
-      link.download = `${sourceFileBase}_layout.html`;
-      document.body.appendChild(link);
-      link.click();
-      link.remove();
+      downloadFromUrl(lastLayoutHtmlUrl, `${sourceFileBase}_layout.html`);
       setStatus("Downloaded layout.html (also saved in storage/outputs).");
     });
   }
 
-  if (downloadExcelBtn) {
-    downloadExcelBtn.addEventListener("click", () => {
-      if (!lastExcelUrl) {
-        setStatus("No extracted fields workbook for this result.", "is-error");
-        return;
-      }
-      const link = document.createElement("a");
-      link.href = lastExcelUrl;
-      link.download = `${sourceFileBase}_extracted_fields.xlsx`;
-      document.body.appendChild(link);
-      link.click();
-      link.remove();
-      setStatus("Downloaded extracted_fields.xlsx (also saved in storage).");
-    });
-  }
 })();

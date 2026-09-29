@@ -1,0 +1,297 @@
+# OCR meta | engine=paddleocr+ppstructure | layout=HybridLayoutEngine | visual=False
+
+=== PAGE 1 ===
+size: 1600x774 | blocks=15 | tables=2 | checkboxes=0
+
+[TEXT]
+
+[TABLE 0 | source=two_column_form]
+shape: 25x4
+HEADER | Left Field | Left Value | Right Field | Right Value
+ROW 1 | rosco | Search Rosco | MR Melissa | -
+  CELL[1,0] = rosco
+  CELL[1,1] = Search Rosco
+  CELL[1,2] = MR Melissa
+ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+  CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+  CELL[2,2] = Authorizations
+ROW 3 | Lisandra Fuentes | - | - | -
+  CELL[3,0] = Lisandra Fuentes
+ROW 4 | Castro | - | - | -
+  CELL[4,0] = Castro
+ROW 5 | Active | - | - | -
+  CELL[5,0] = Active
+ROW 6 | OSC76948676-01 R216854F | 3SB6XK79 | $5.00 | -
+  CELL[6,0] = OSC76948676-01 R216854F
+  CELL[6,1] = 3SB6XK79
+  CELL[6,2] = $5.00
+ROW 7 | Holder - ON exc | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | Processed | -
+  CELL[7,0] = Holder - ON exc
+  CELL[7,1] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  CELL[7,2] = Processed
+ROW 8 | No facility referenced Carlos a Rodriguez | - | - | -
+  CELL[8,0] = No facility referenced Carlos a Rodriguez
+ROW 9 | Heads up note | Service on Jul 10, 2026 Accumulation on Jul 22, 2026 | - | -
+  CELL[9,0] = Heads up note
+  CELL[9,1] = Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+ROW 10 | Applies to OOPMCumulative OOPM $721.75 | - | - | -
+  CELL[10,0] = Applies to OOPMCumulative OOPM $721.75
+ROW 11 | Member actions | GHM93K4V | $0.00 | -
+  CELL[11,0] = Member actions
+  CELL[11,1] = GHM93K4V
+  CELL[11,2] = $0.00
+ROW 12 | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | - | Pald | -
+  CELL[12,0] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  CELL[12,2] = Pald
+ROW 13 | FLDade | No facility referenced Carlos a Rodriguez | - | -
+  CELL[13,0] = FLDade
+  CELL[13,1] = No facility referenced Carlos a Rodriguez
+ROW 14 | SP03FL Team | Service on May 8, 2026 Accumulation on May 20, 2026 | - | -
+  CELL[14,0] = SP03FL Team
+  CELL[14,1] = Service on May 8, 2026 Accumulation on May 20, 2026
+ROW 15 | Oscar plan: | - | - | -
+  CELL[15,0] = Oscar plan:
+ROW 16 | Gold Simple | - | - | -
+  CELL[16,0] = Gold Simple
+ROW 17 | Applies toOOPMCumulative OOPM $700.49 | - | - | -
+  CELL[17,0] = Applies toOOPMCumulative OOPM $700.49
+ROW 18 | Individual | - | - | -
+  CELL[18,0] = Individual
+ROW 19 | $No bills | - | - | -
+  CELL[19,0] = $No bills
+ROW 20 | Oscar Unlocks | MBYOYXCX | $0.00 | -
+  CELL[20,0] = Oscar Unlocks
+  CELL[20,1] = MBYOYXCX
+  CELL[20,2] = $0.00
+ROW 21 | Not activated | - | - | -
+  CELL[21,0] = Not activated
+ROW 22 | + Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | - | Pald | -
+  CELL[22,0] = + Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  CELL[22,2] = Pald
+ROW 23 | No facility referenced Juan Carlos Romero | - | - | -
+  CELL[23,0] = No facility referenced Juan Carlos Romero
+ROW 24 | Member tags | Service on Apr 24, 2026 Accumulation on May 8, 2026 | - | -
+  CELL[24,0] = Member tags
+  CELL[24,1] = Service on Apr 24, 2026 Accumulation on May 8, 2026
+[/TABLE 0]
+
+[TABLE 1 | source=wide_grid]
+shape: 4x3
+HEADER | FL HMO Standard | 501MR5FC | $40.00
+ROW 1 | View ID card | Medical claim Complete ultrasound scan of pelvis | Paid
+  CELL[1,0] = View ID card
+  CELL[1,1] = Medical claim Complete ultrasound scan of pelvis
+  CELL[1,2] = Paid
+ROW 2 | YJuan Romero | No facility referenced-Carlos a Rodriguez | -
+  CELL[2,0] = YJuan Romero
+  CELL[2,1] = No facility referenced-Carlos a Rodriguez
+ROW 3 | Effective 05/01/2026 | Service on May 8, 2026 Accumulation on May 20, 2026 | -
+  CELL[3,0] = Effective 05/01/2026
+  CELL[3,1] = Service on May 8, 2026 Accumulation on May 20, 2026
+[/TABLE 1]
+
+[/TEXT]
+
+[LAYOUT]
+BLOCK 0 | type=header | bbox=[14,17,1580,34] | order=0
+  rosco Search Rosco MR Melissa
+BLOCK 1 | type=header | bbox=[19,71,919,102] | order=1
+  Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+BLOCK 2 | type=table_row | bbox=[17,105,88,130] | order=2
+  Castro
+BLOCK 3 | type=table_row | bbox=[20,138,64,160] | order=3
+  Active
+BLOCK 4 | type=table | bbox=[16,155,1254,204] | order=4
+  OSC76948676-01 R216854F: 3SB6XK79 $5.00
+  Holder - ON exc Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Processed
+BLOCK 5 | type=table_row | bbox=[32,209,619,272] | order=5
+  No facility referenced Carlos a Rodriguez
+  Heads up note Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+  Applies to OOPMCumulative OOPM $721.75
+BLOCK 6 | type=table | bbox=[70,331,1254,356] | order=6
+  Member actions GHM93K4V $0.00
+BLOCK 7 | type=table_row | bbox=[16,364,1252,432] | order=7
+  Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald
+  FLDade No facility referenced Carlos a Rodriguez
+  SP03FL Team Service on May 8, 2026 Accumulation on May 20, 2026
+BLOCK 8 | type=table_row | bbox=[17,445,106,465] | order=8
+  Oscar plan:
+BLOCK 9 | type=table_row | bbox=[40,468,108,481] | order=9
+  Gold Simple
+BLOCK 10 | type=table | bbox=[39,488,1256,533] | order=10
+  FL HMO Standard 501MR5FC $40.00
+  View ID card Medical claim Complete ultrasound scan of pelvis Paid
+BLOCK 11 | type=table_row | bbox=[17,535,626,602] | order=11
+  YJuan Romero No facility referenced-Carlos a Rodriguez
+  Effective 05/01/2026 Service on May 8, 2026 Accumulation on May 20, 2026
+  Applies toOOPMCumulative OOPM $700.49
+BLOCK 12 | type=table_row | bbox=[17,600,96,651] | order=12
+  Individual
+  $No bills
+BLOCK 13 | type=table | bbox=[20,663,1255,712] | order=13
+  Oscar Unlocks MBYOYXCX $0.00
+  Not activated + Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald
+BLOCK 14 | type=footer | bbox=[18,719,624,756] | order=14
+  No facility referenced Juan Carlos Romero
+  Member tags Service on Apr 24, 2026 Accumulation on May 8, 2026
+[/LAYOUT]
+
+[TABLES]
+TABLE 0 | source=two_column_form | bbox=[14,17,1580,756] | shape=25x4 | conf=0.920
+  shape: 25x4
+  HEADER | Left Field | Left Value | Right Field | Right Value
+  ROW 1 | rosco | Search Rosco | MR Melissa | -
+    CELL[1,0] = rosco
+    CELL[1,1] = Search Rosco
+    CELL[1,2] = MR Melissa
+  ROW 2 | Member info Issues Policy detalls Benefits Claims Billing & payments Rewards | - | Authorizations | -
+    CELL[2,0] = Member info Issues Policy detalls Benefits Claims Billing & payments Rewards
+    CELL[2,2] = Authorizations
+  ROW 3 | Lisandra Fuentes | - | - | -
+    CELL[3,0] = Lisandra Fuentes
+  ROW 4 | Castro | - | - | -
+    CELL[4,0] = Castro
+  ROW 5 | Active | - | - | -
+    CELL[5,0] = Active
+  ROW 6 | OSC76948676-01 R216854F | 3SB6XK79 | $5.00 | -
+    CELL[6,0] = OSC76948676-01 R216854F
+    CELL[6,1] = 3SB6XK79
+    CELL[6,2] = $5.00
+  ROW 7 | Holder - ON exc | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | Processed | -
+    CELL[7,0] = Holder - ON exc
+    CELL[7,1] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+    CELL[7,2] = Processed
+  ROW 8 | No facility referenced Carlos a Rodriguez | - | - | -
+    CELL[8,0] = No facility referenced Carlos a Rodriguez
+  ROW 9 | Heads up note | Service on Jul 10, 2026 Accumulation on Jul 22, 2026 | - | -
+    CELL[9,0] = Heads up note
+    CELL[9,1] = Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+  ROW 10 | Applies to OOPMCumulative OOPM $721.75 | - | - | -
+    CELL[10,0] = Applies to OOPMCumulative OOPM $721.75
+  ROW 11 | Member actions | GHM93K4V | $0.00 | -
+    CELL[11,0] = Member actions
+    CELL[11,1] = GHM93K4V
+    CELL[11,2] = $0.00
+  ROW 12 | Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | - | Pald | -
+    CELL[12,0] = Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+    CELL[12,2] = Pald
+  ROW 13 | FLDade | No facility referenced Carlos a Rodriguez | - | -
+    CELL[13,0] = FLDade
+    CELL[13,1] = No facility referenced Carlos a Rodriguez
+  ROW 14 | SP03FL Team | Service on May 8, 2026 Accumulation on May 20, 2026 | - | -
+    CELL[14,0] = SP03FL Team
+    CELL[14,1] = Service on May 8, 2026 Accumulation on May 20, 2026
+  ROW 15 | Oscar plan: | - | - | -
+    CELL[15,0] = Oscar plan:
+  ROW 16 | Gold Simple | - | - | -
+    CELL[16,0] = Gold Simple
+  ROW 17 | Applies toOOPMCumulative OOPM $700.49 | - | - | -
+    CELL[17,0] = Applies toOOPMCumulative OOPM $700.49
+  ROW 18 | Individual | - | - | -
+    CELL[18,0] = Individual
+  ROW 19 | $No bills | - | - | -
+    CELL[19,0] = $No bills
+  ROW 20 | Oscar Unlocks | MBYOYXCX | $0.00 | -
+    CELL[20,0] = Oscar Unlocks
+    CELL[20,1] = MBYOYXCX
+    CELL[20,2] = $0.00
+  ROW 21 | Not activated | - | - | -
+    CELL[21,0] = Not activated
+  ROW 22 | + Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more | - | Pald | -
+    CELL[22,0] = + Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+    CELL[22,2] = Pald
+  ROW 23 | No facility referenced Juan Carlos Romero | - | - | -
+    CELL[23,0] = No facility referenced Juan Carlos Romero
+  ROW 24 | Member tags | Service on Apr 24, 2026 Accumulation on May 8, 2026 | - | -
+    CELL[24,0] = Member tags
+    CELL[24,1] = Service on Apr 24, 2026 Accumulation on May 8, 2026
+TABLE 1 | source=wide_grid | bbox=[17,488,1256,584] | shape=4x3 | conf=0.850
+  shape: 4x3
+  HEADER | FL HMO Standard | 501MR5FC | $40.00
+  ROW 1 | View ID card | Medical claim Complete ultrasound scan of pelvis | Paid
+    CELL[1,0] = View ID card
+    CELL[1,1] = Medical claim Complete ultrasound scan of pelvis
+    CELL[1,2] = Paid
+  ROW 2 | YJuan Romero | No facility referenced-Carlos a Rodriguez | -
+    CELL[2,0] = YJuan Romero
+    CELL[2,1] = No facility referenced-Carlos a Rodriguez
+  ROW 3 | Effective 05/01/2026 | Service on May 8, 2026 Accumulation on May 20, 2026 | -
+    CELL[3,0] = Effective 05/01/2026
+    CELL[3,1] = Service on May 8, 2026 Accumulation on May 20, 2026
+[/TABLES]
+
+[BOXES]
+LINE 0 | bbox=[14,17,1580,34] | conf=0.919 | text=rosco Search Rosco MR Melissa
+  WORD | bbox=[14,17,74,34] | text=rosco
+  WORD | bbox=[138,18,230,34] | text=Search Rosco
+  WORD | bbox=[1465,18,1550,34] | text=MR Melissa
+LINE 1 | bbox=[19,71,919,102] | conf=0.985 | text=Lisandra Fuentes Member info Issues Policy detalls Benefits Claims Billing & payments Rewards Authorizations
+  WORD | bbox=[19,81,186,102] | text=Lisandra Fuentes
+  WORD | bbox=[276,73,351,89] | text=Member info
+  WORD | bbox=[366,74,406,88] | text=Issues
+  WORD | bbox=[420,71,500,89] | text=Policy detalls
+  WORD | bbox=[515,74,568,89] | text=Benefits
+  WORD | bbox=[584,74,625,88] | text=Claims
+  WORD | bbox=[642,75,748,88] | text=Billing & payments
+  WORD | bbox=[764,75,816,88] | text=Rewards
+  WORD | bbox=[834,75,919,88] | text=Authorizations
+LINE 2 | bbox=[17,105,88,130] | conf=1.000 | text=Castro
+LINE 3 | bbox=[20,138,64,160] | conf=0.994 | text=Active
+LINE 4 | bbox=[19,155,1254,182] | conf=0.962 | text=OSC76948676-01 R216854F: 3SB6XK79 $5.00
+  WORD | bbox=[19,165,180,182] | text=OSC76948676-01 R216854F :
+  WORD | bbox=[302,155,373,176] | text=3SB6XK79
+  WORD | bbox=[1215,160,1254,179] | text=$5.00
+LINE 5 | bbox=[16,185,1250,204] | conf=0.972 | text=Holder - ON exc Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Processed
+  WORD | bbox=[16,185,105,201] | text=Holder - ON exc
+  WORD | bbox=[304,187,1061,204] | text=Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  WORD | bbox=[1170,186,1250,202] | text=Processed
+LINE 6 | bbox=[304,209,566,225] | conf=0.978 | text=No facility referenced Carlos a Rodriguez
+LINE 7 | bbox=[32,230,619,252] | conf=0.968 | text=Heads up note Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+  WORD | bbox=[32,239,114,252] | text=Heads up note
+  WORD | bbox=[302,230,619,247] | text=Service on Jul 10, 2026 Accumulation on Jul 22, 2026
+LINE 8 | bbox=[300,251,575,272] | conf=0.979 | text=Applies to OOPMCumulative OOPM $721.75
+LINE 9 | bbox=[70,331,1254,356] | conf=0.986 | text=Member actions GHM93K4V $0.00
+  WORD | bbox=[70,331,163,346] | text=Member actions
+  WORD | bbox=[304,336,380,353] | text=GHM93K4V
+  WORD | bbox=[1214,339,1254,356] | text=$0.00
+LINE 10 | bbox=[304,364,1252,382] | conf=0.981 | text=Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald
+  WORD | bbox=[304,365,1061,382] | text=Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  WORD | bbox=[1221,364,1252,382] | text=Pald
+LINE 11 | bbox=[17,378,566,404] | conf=0.994 | text=FLDade No facility referenced Carlos a Rodriguez
+  WORD | bbox=[17,378,95,400] | text=FLDade
+  WORD | bbox=[304,387,566,404] | text=No facility referenced Carlos a Rodriguez
+LINE 12 | bbox=[16,411,626,432] | conf=0.957 | text=SP03FL Team Service on May 8, 2026 Accumulation on May 20, 2026
+  WORD | bbox=[16,412,126,432] | text=SP03FL Team
+  WORD | bbox=[304,411,626,424] | text=Service on May 8, 2026 Accumulation on May 20, 2026
+LINE 13 | bbox=[17,445,106,465] | conf=0.928 | text=Oscar plan:
+LINE 14 | bbox=[40,468,108,481] | conf=0.976 | text=Gold Simple
+LINE 15 | bbox=[39,488,1256,510] | conf=0.997 | text=FL HMO Standard 501MR5FC $40.00
+  WORD | bbox=[39,488,142,504] | text=FL HMO Standard
+  WORD | bbox=[304,489,375,505] | text=501MR5FC
+  WORD | bbox=[1205,489,1256,510] | text=$40.00
+LINE 16 | bbox=[40,508,1252,533] | conf=0.986 | text=View ID card Medical claim Complete ultrasound scan of pelvis Paid
+  WORD | bbox=[40,508,112,521] | text=View ID card
+  WORD | bbox=[304,517,614,533] | text=Medical claim Complete ultrasound scan of pelvis
+  WORD | bbox=[1221,516,1252,533] | text=Paid
+LINE 17 | bbox=[18,535,566,556] | conf=0.959 | text=YJuan Romero No facility referenced-Carlos a Rodriguez
+  WORD | bbox=[18,535,117,552] | text=YJuan Romero
+  WORD | bbox=[302,537,566,556] | text=No facility referenced-Carlos a Rodriguez
+LINE 18 | bbox=[17,563,626,584] | conf=0.963 | text=Effective 05/01/2026 Service on May 8, 2026 Accumulation on May 20, 2026
+  WORD | bbox=[17,564,160,584] | text=Effective 05/01/2026
+  WORD | bbox=[304,563,626,575] | text=Service on May 8, 2026 Accumulation on May 20, 2026
+LINE 19 | bbox=[301,580,581,602] | conf=0.931 | text=Applies toOOPMCumulative OOPM $700.49
+LINE 20 | bbox=[20,600,96,616] | conf=0.992 | text=Individual
+LINE 21 | bbox=[17,631,85,651] | conf=0.934 | text=$No bills
+LINE 22 | bbox=[20,663,1255,687] | conf=0.988 | text=Oscar Unlocks MBYOYXCX $0.00
+  WORD | bbox=[20,666,122,682] | text=Oscar Unlocks
+  WORD | bbox=[302,663,379,684] | text=MBYOYXCX
+  WORD | bbox=[1214,668,1255,687] | text=$0.00
+LINE 23 | bbox=[40,686,1252,712] | conf=0.990 | text=Not activated + Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more Pald
+  WORD | bbox=[40,686,119,699] | text=Not activated
+  WORD | bbox=[305,698,1060,710] | text=+ Medical claim Established patient office or other outpatient visit with low level of decision making, if using time, 20 minutes or more
+  WORD | bbox=[1221,694,1252,712] | text=Pald
+LINE 24 | bbox=[305,719,572,732] | conf=0.977 | text=No facility referenced Juan Carlos Romero
+LINE 25 | bbox=[18,736,624,756] | conf=0.972 | text=Member tags Service on Apr 24, 2026 Accumulation on May 8, 2026
+  WORD | bbox=[18,736,96,752] | text=Member tags
+  WORD | bbox=[302,740,624,756] | text=Service on Apr 24, 2026 Accumulation on May 8, 2026
+[/BOXES]
